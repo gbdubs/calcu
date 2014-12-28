@@ -1,15 +1,19 @@
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown">
     <i class="fa fa-user"></i>
-    <span>Login/Sign Up <i class="caret"></i></span>
+    <span>Login/Sign Up<i class="caret"></i></span>
+</a>
+<a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown">
+    <i class="fa fa-user"></i>
+    <span>Login<i class="caret"></i></span>
 </a>
 
 <ul class="dropdown-menu">
                 
     <!-- User image -->
     <li class="user-header bg-light-blue">
-        <img src="/_static/img/elephant.png" class="img-circle" alt="User Image" />
+        <img src="${profilePictureUrl}" class="img-circle" alt="User Image" />
         <p>
-            Anonymous Elephant
+            ${username}
             <small>Not a member yet, just playin' around!</small>
         </p>
     </li>

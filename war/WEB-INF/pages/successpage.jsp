@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <t:genericpage>
 
@@ -16,11 +17,25 @@
 	</jsp:attribute>
 	
 	<jsp:attribute name="userLoginPanel">
-		<jsp:include page="/WEB-INF/templates/user-login-menu-logged-out.jsp" />
+		<c:choose>
+			<c:when test="${user != null}">
+				<jsp:include page="/WEB-INF/templates/user-login-menu-logged-in.jsp" />
+			</c:when>
+			<c:otherwise>
+				<jsp:include page="/WEB-INF/templates/user-login-menu-logged-out.jsp" />
+			</c:otherwise>
+		</c:choose>
 	</jsp:attribute>
 	
 	<jsp:attribute name="userInfoPanel">
-		<jsp:include page="/WEB-INF/templates/user-info-panel-logged-out.jsp" />
+		<c:choose>
+			<c:when test="${user != null}">
+				<jsp:include page="/WEB-INF/templates/user-info-panel-logged-in.jsp" />
+			</c:when>
+			<c:otherwise>
+				<jsp:include page="/WEB-INF/templates/user-info-panel-logged-out.jsp" />
+			</c:otherwise>
+		</c:choose>
 	</jsp:attribute>
 	
 	<jsp:attribute name="content">

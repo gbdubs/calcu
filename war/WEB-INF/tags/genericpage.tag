@@ -195,8 +195,8 @@
 	            </p>
 	        </div>
 	        <div class="footer">
-	            <button type="submit" class="btn btn-primary btn-block login-action">Log In with Google Account</button>
-	            <button class="btn btn-danger btn-block login-action">Continue as Guest User</button>
+	            <a href="${loginUrl}" type="submit" class="btn btn-primary btn-block login-action">Log In with Google Account</a>
+	            <a href="#" class="btn btn-danger btn-block login-action">Continue as Guest User</a>
 	        </div>
 	    </form>
 	
