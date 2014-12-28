@@ -1,13 +1,9 @@
 <%@tag description="General Page template" pageEncoding="UTF-8"%>
-<%@attribute name="notificationsMenu" fragment="true" %>
-<%@attribute name="bookmarksMenu" fragment="true" %>
-<%@attribute name="recommendationsMenu" fragment="true" %>
-<%@attribute name="userLoginPanel" fragment="true" %>
-<%@attribute name="userInfoPanel" fragment="true" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@attribute name="content" fragment="true" %>
 
 <!DOCTYPE html>
-<html ng-app="">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>CalcU.us Workspace</title>
@@ -55,22 +51,29 @@
 
                 <!-- Notifications Menu-->
                 <li class="dropdown messages-menu">
-                    <jsp:invoke fragment="notificationsMenu"/>
+                    <jsp:include page="/WEB-INF/templates/notifications-menu.jsp" />
                 </li>
 
                 <!-- Bookmarks Menu -->
                 <li class="dropdown notifications-menu bookmarks-menu">
-                    <jsp:invoke fragment="bookmarksMenu"/>
+                    <jsp:include page="/WEB-INF/templates/bookmarks-menu.jsp" />
                 </li>
 
                 <!-- Recommendations Menu -->
                 <li class="dropdown tasks-menu recommendations-menu">
-                    <jsp:invoke fragment="recommendationsMenu"/>
+                    <jsp:include page="/WEB-INF/templates/recommendations-menu.jsp" />
                 </li>
 
                 <!-- User Account + Login/Logout -->
                 <li class="dropdown user user-menu">
-                    <jsp:invoke fragment="userLoginPanel"/>
+                    <c:choose>
+						<c:when test="${user != null}">
+							<jsp:include page="/WEB-INF/templates/user-login-menu-logged-in.jsp" />
+						</c:when>
+						<c:otherwise>
+							<jsp:include page="/WEB-INF/templates/user-login-menu-logged-out.jsp" />
+						</c:otherwise>
+					</c:choose>
                 </li>
             </ul>
         </div>
@@ -87,7 +90,14 @@
 
             <!-- Sidebar user panel -->
             <div class="user-panel">
-                <jsp:invoke fragment="userInfoPanel"/>
+                <c:choose>
+					<c:when test="${user != null}">
+						<jsp:include page="/WEB-INF/templates/user-info-panel-logged-in.jsp" />
+					</c:when>
+					<c:otherwise>
+						<jsp:include page="/WEB-INF/templates/user-info-panel-logged-out.jsp" />
+					</c:otherwise>
+				</c:choose>
             </div>
 
             <ul class="sidebar-menu">

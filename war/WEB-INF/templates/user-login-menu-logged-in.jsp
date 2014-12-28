@@ -1,6 +1,10 @@
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<a href="#" class="dropdown-toggle hidden-xs" data-toggle="dropdown">
     <i class="fa fa-user"></i>
     <span>Profile/Log Out <i class="caret"></i></span>
+</a>
+<a href="#" class="dropdown-toggle visible-xs" data-toggle="dropdown">
+    <i class="fa fa-user"></i>
+    <span>Log Out <i class="caret"></i></span>
 </a>
 
 <ul class="dropdown-menu">
