@@ -3789,12 +3789,12 @@ fieldset[disabled] .btn-vk.active {
 
 #profile-picture-upload{
     position: absolute;
-    bottom: 5px;
-    left: 20px;
+    border-bottom-left-radius: 3px !important;
+    border-top-left-radius: 3px !important;
     background: rgba(54,127,169,.7);
     border-color: rgba(54,127,169, .5);
     color: #fff;
-    width: Calc(100% - 40px);
+    width: Calc(100% - 55px);
 }
 
 .user-profile-settings form{

@@ -118,5 +118,16 @@ public class UserContextAbstraction {
 		}
 		req.setAttribute("recommendationsMenu", recommendations);
 	}
+
+	public static void addUserProfileInformation(HttpServletRequest req) {
+		
+		String requestUrl = req.getRequestURI();
+		int userIndex = requestUrl.indexOf("/user/") + 6;
+		String userId = requestUrl.substring(userIndex);
+		
+		req.setAttribute("URL", userId);
+		
+		
+	}
 	
 }

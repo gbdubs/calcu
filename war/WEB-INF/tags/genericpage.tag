@@ -108,7 +108,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="about.html">
+                    <a href="/about">
                         <i class="fa fa-cogs"></i>
                         <span>About</span>
                     </a>
