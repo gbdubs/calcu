@@ -4,36 +4,23 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<servlet>
-		<servlet-name>ProfileView</servlet-name>
-		<servlet-class>calculus.CalculusServlet</servlet-class>
-	</servlet>
-	<servlet>
-		<servlet-name>ChangeUsername</servlet-name>
-		<servlet-class>calculus.UsernameServlet</servlet-class>
-	</servlet>
-	<servlet>
-		<servlet-name>ChangeEmailPrefs</servlet-name>
-		<servlet-class>calculus.EmailPreferencesServlet</servlet-class>
-	</servlet>
+	
 	<servlet>
 		<servlet-name>TagTester</servlet-name>
 		<servlet-class>calculus.TagTesterServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>ProfileView</servlet-name>
-		<url-pattern>/profile</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>ChangeUsername</servlet-name>
-		<url-pattern>/change-username</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>ChangeEmailPrefs</servlet-name>
-		<url-pattern>/change-email-prefs</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
 		<servlet-name>TagTester</servlet-name>
 		<url-pattern>/tag-tester</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PageNotFound</servlet-name>
+		<servlet-class>calculus.PageNotFound</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>PageNotFound</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
 </web-app>
