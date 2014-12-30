@@ -170,7 +170,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/contact.html">
+                    <a href="/contact">
                         <i class="fa fa-heart"></i>
                         <span>Contact</span>
                     </a>

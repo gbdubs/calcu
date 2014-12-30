@@ -3851,3 +3851,11 @@ fieldset[disabled] .btn-vk.active {
     top: 0px;
   }
 }
+
+.error-page.thank-you > .headline {
+	margin-right: 20px;
+}
+
+.no-vertical-resize{
+	resize: vertical;
+}

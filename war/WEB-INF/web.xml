@@ -39,6 +39,25 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	
+	<servlet>
+		<servlet-name>Contact</servlet-name>
+		<servlet-class>calculus.general.ContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Contact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SubmitContact</servlet-name>
+		<servlet-class>calculus.general.ContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubmitContact</servlet-name>
+		<url-pattern>/submit-contact-form</url-pattern>
+	</servlet-mapping>
+	
 	
 	<servlet>
 		<servlet-name>Profile</servlet-name>
