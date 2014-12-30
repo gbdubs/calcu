@@ -10,39 +10,42 @@ import com.google.appengine.api.users.User;
 
 public class UserInitializer {
 
-	private static volatile int userCount = 0;
+	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	
-	public static void initializeUserPublicInfo(User user){
+	public static Entity getOrCreateUserPublicInfo(User user){
 		
-		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
+		if (user == null) return null;
 		
 		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", user.getUserId());
 		
 		Entity userPublicInfo = new Entity(publicInfoKey);
 		
 		try{
-			userPublicInfo = ds.get(publicInfoKey);
-			return;
-		} catch (EntityNotFoundException e){
-			
-		}
+			userPublicInfo = datastoreService.get(publicInfoKey);
+			return userPublicInfo;
+		} catch (EntityNotFoundException e){}
 		
-		int myPublicKey = 0;
-		synchronized(UserInitializer.class){
-			myPublicKey = userCount++;
-		}
+		String userId = user.getUserId();
 		
-		String profileUrl = "/user/" + myPublicKey;
+		String profileUrl = "/user/" + userId;
 		
 		userPublicInfo.setProperty("username", user.getEmail());
-		userPublicInfo.setProperty("karma", 0);
+		userPublicInfo.setProperty("karma", (long) 0);
 		userPublicInfo.setProperty("profilePictureUrl", "/_static/img/default-avatar.png");
-		userPublicInfo.setProperty("publicId", myPublicKey);
+		userPublicInfo.setProperty("userId", userId);
 		userPublicInfo.setProperty("profileUrl", profileUrl);
 		userPublicInfo.setProperty("email", user.getEmail());
 		
-		ds.put(userPublicInfo);
+		datastoreService.put(userPublicInfo);
+		
+		return userPublicInfo;
 	}
-	
-	
+
+	public static void updateUserPublicInfo(User user, String property, String newValue) {
+		Entity userPublicInfo = getOrCreateUserPublicInfo(user);
+		
+		userPublicInfo.setProperty(property, newValue);
+		
+		datastoreService.put(userPublicInfo);
+	}
 }

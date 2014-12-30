@@ -19,27 +19,22 @@ public class UserVerification {
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
-		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
-		
-		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", user.getUserId());
-		
-		Entity publicInfo;
-		try {
-			publicInfo = ds.get(publicInfoKey);
-		} catch (EntityNotFoundException e) {return false;}
-		
-		String userPublicId = (String) publicInfo.getProperty("publicId");
-		
+		Entity userPublicInfo = UserInitializer.getOrCreateUserPublicInfo(user);
+		if (userPublicInfo == null) return false;
+		String userId = (String) userPublicInfo.getProperty("userId");
 		
 		String pageUrl = req.getRequestURI();
 		int pageIdLocation = pageUrl.indexOf("/user/") + 6;
 		if (pageIdLocation < 6) return false;
 		
-		String pagePublicId = pageUrl.substring(pageIdLocation);
+		// Since User IDs are only 20 characters long, we only check the 20 after the '/user/'
+		// Thus we have to reject any strings shorter than this length.
+		if (pageUrl.length() < 26) return false;
+		String pagePublicId = pageUrl.substring(pageIdLocation, pageIdLocation + 20);
 		
-		if (pagePublicId.equals(userPublicId)) return true;
+		if (pagePublicId.equals(userId)) return true;
+		System.out.println("USER: '"+  userId + "' attempted to access page '"+ pagePublicId +"'.  The attempt was blocked.");
+		
 		return false;
-		
 	}
-	
 }

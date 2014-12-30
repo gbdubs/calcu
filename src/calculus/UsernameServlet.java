@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import utilities.UserInitializer;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -20,27 +22,16 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class UsernameServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
-		
+				
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
-		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
+		Entity userPublicInfo = UserInitializer.getOrCreateUserPublicInfo(user);
 		
-		Key userPublicInfoKey = KeyFactory.createKey("UserPublicInfo", user.getUserId());
+		String username = (String) req.getParameter("edit-username");
 		
-		Entity userPublicInfo = new Entity(userPublicInfoKey);
-		try {
-			userPublicInfo = ds.get(userPublicInfoKey);
-		} catch (EntityNotFoundException e) {
-			userPublicInfo.setProperty("karma", 0);
-		}
+		UserInitializer.updateUserPublicInfo(user, "username", username);
 		
-		String username = (String) req.getParameter("username");
-		userPublicInfo.setProperty("username", username);
-		
-		ds.put(userPublicInfo);
-		
-		resp.sendRedirect("/profile");
-	}
-	
+		resp.sendRedirect((String) userPublicInfo.getProperty("profileUrl"));
+	}	
 }

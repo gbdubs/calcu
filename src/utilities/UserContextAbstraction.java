@@ -2,6 +2,8 @@ package utilities;
 
 import javax.servlet.http.HttpServletRequest;
 
+import com.google.appengine.api.blobstore.BlobstoreService;
+import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -11,6 +13,7 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
+
 
 public class UserContextAbstraction {
 	public static void addUserContextToRequest(HttpServletRequest req, String pageUrl){
@@ -40,23 +43,14 @@ public class UserContextAbstraction {
 		String email = "anonymous314159@gmail.com";
 		
 		if (user != null){
-			email = user.getEmail();
-			
-			DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
-			Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", user.getUserId());
-			
-			try {
-				Entity publicInfo = ds.get(publicInfoKey);
-				karma = ((Long) publicInfo.getProperty("karma")).intValue();
-				username = (String) publicInfo.getProperty("username");
-				profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
-				profileUrl = (String) publicInfo.getProperty("profileUrl");
-			} catch (EntityNotFoundException e) {
-				username = user.getEmail();
-				profilePictureUrl = "/_static/img/default-avatar.png";
-			}
+			Entity publicInfo = UserInitializer.getOrCreateUserPublicInfo(user);
+			karma = ((Long) publicInfo.getProperty("karma")).intValue();
+			username = (String) publicInfo.getProperty("username");
+			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
+			profileUrl = (String) publicInfo.getProperty("profileUrl");
+			email = (String) publicInfo.getProperty("email");
 		}
-			
+
 		req.setAttribute("username", username);
 		req.setAttribute("karma", KarmaDescription.toMediumString(karma)); 
 		req.setAttribute("profilePictureUrl", profilePictureUrl);
@@ -125,9 +119,7 @@ public class UserContextAbstraction {
 		int userIndex = requestUrl.indexOf("/user/") + 6;
 		String userId = requestUrl.substring(userIndex);
 		
-		req.setAttribute("URL", userId);
-		
-		
+		BlobstoreService bs = BlobstoreServiceFactory.getBlobstoreService();
 	}
 	
 }

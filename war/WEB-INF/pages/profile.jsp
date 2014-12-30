@@ -10,27 +10,26 @@
 				<div class="box-tools pull-right">
 					<button class="btn btn-primary btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
-			</div><!-- /.box-header -->
+			</div>
 			<div class="box-body">
 				<div class="row">
 		
 					<div class="user-profile-settings col-sm-12 col-md-5 col-lg-6">
-						<form>
+						<form action="/change-user-name" method="post">
 							<label for="edit-user-name">Username: </label>
 							<div class="input-group">
-								<input type="text" class="form-control" name="edit-user-name" id="edit-user-name" placeholder="BooToBacon">
-									<span class="input-group-btn">
-										<button class="btn btn-primary" type="button">Change Username </button>
-									</span>
+								<input type="text" class="form-control" name="edit-username" id="edit-user-name" placeholder="${username}">
+								<span class="input-group-btn">
+									<input class="btn btn-primary" type="submit"  value="Change Username">
+								</span>
 							</div>
 						</form>
-						<form>
-							${URL}
+						<form action="" method="post" enctype="multipart/form-data">
 							<label for="profile-picture-upload">Profile Picture: </label>
 							<br>
-							<img src="/_static/img/user-bg.png" id="profile-picture-editor-display">
+							<img src="${profilePictureUrl}" id="profile-picture-editor-display">
 							<div class="input-group">
-								<input type="file" class="form-control" id="profile-picture-upload">
+								<input type="file" class="form-control" id="profile-picture-upload" name="profilePicture">
 									<span class="input-group-btn">
 										<button class="btn btn-primary" type="button">Save</button>
 									</span>

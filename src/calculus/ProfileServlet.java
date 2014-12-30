@@ -34,4 +34,9 @@ public class ProfileServlet extends HttpServlet{
 		jsp.forward(req, resp);
 	}
 	
+	public void doPost(HttpServletRequest req, HttpServletResponse resp){
+		
+		
+	}
+	
 }
