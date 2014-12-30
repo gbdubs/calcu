@@ -9,7 +9,7 @@
         		<h3>Oops! This is not the page you are looking for!</h3>
         		<p>
             		We could not find the page you were looking for. Or maybe you should move along and not ask questions.
-            		We apologize, but fee free to <a href="../../index.html">return to dashboard</a> or try using the search form.
+            		We apologize, but fee free to <a href="/home">return to the home page</a> or try using the search form.
         		</p>
         		<form class="search-form">
             		<div class="input-group">

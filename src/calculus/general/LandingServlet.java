@@ -15,7 +15,7 @@ public class LandingServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAbstraction.addUserContextToRequest(req, "/");
+		UserContextAbstraction.addUserContextToRequest(req, "/home");
 			
 		resp.setContentType("text/html");
 		
