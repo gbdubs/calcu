@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <t:genericpage>
 	<jsp:attribute name="content">
@@ -36,28 +37,28 @@
 							</div>
 						</form>
 					</div>
-		
-					<div class="user-email-preferences col-sm-12 col-md-7 col-lg-6">
+					
+					<form action="/change-email-preferences" method="post" class="user-email-preferences col-sm-12 col-md-7 col-lg-6">
 						<label for="email-pref-reply">Reply Email Preference</label>
-						<select class="form-control" id="email-pref-reply">
-							<option>EVERY: Email me for every reply to a question of mine.</option>
-							<option>BEST: Only email me a reply to a question if it recieves 5 votes.</option>
-							<option>NONE: Please do not email me for any reply to a question that I ask.</option>
+						<select class="form-control" id="email-pref-reply" name="emailReply">
+							<option value="every" <c:if test="${emailReply =='every'}">selected</c:if>>EVERY: Email me for every reply to a question of mine.</option>
+							<option value="best" <c:if test="${emailReply =='best'}">selected</c:if>>BEST: Only email me a reply to a question if it recieves 5 votes.</option>
+							<option value="none" <c:if test="${emailReply =='none'}">selected</c:if>>NONE: Please do not email me for any reply to a question that I ask.</option>
 						</select>
 						<label for="email-pref-karma">Karma Email Preference</label>
-						<select class="form-control" id="email-pref-karma">
-							<option>BEST: Email me when a post of mine gets lots of Karma, or I get a gift.</option>
-							<option>GIFT: Only email me when another user gives me Karma as a gift.</option>
-							<option>NONE: Please do not email me no matter the amount of karma I am given.</option>
+						<select class="form-control" id="email-pref-karma" name="emailKarma">
+							<option value="best" <c:if test="${emailKarma =='best'}">selected</c:if>>BEST: Email me when a post of mine gets lots of Karma, or I get a gift.</option>
+							<option value="gift" <c:if test="${emailKarma =='gift'}">selected</c:if>>GIFT: Only email me when another user gives me Karma as a gift.</option>
+							<option value="none" <c:if test="${emailKarma =='none'}">selected</c:if>>NONE: Please do not email me no matter the amount of karma I am given.</option>
 						</select>
 						<label for="email-pref-recommend">Recommendation Email Preference</label>
-						<select class="form-control" id="email-pref-recommend">
-							<option>DAILY: Email me daily with new resources you think might be useful to me.</option>
-							<option>WEEKLY: Email me weekly with new resources that might be useful to me.</option>
-							<option>NONE: Please do not send me emails with recommendations.</option>
+						<select class="form-control" id="email-pref-recommend" name="emailRecommend">
+							<option value="daily" <c:if test="${emailRecommend =='daily'}">selected</c:if>>DAILY: Email me daily with new resources you think might be useful to me.</option>
+							<option value="weekly"<c:if test="${emailRecommend =='weekly'}">selected</c:if>>WEEKLY: Email me weekly with new resources that might be useful to me.</option>
+							<option value="none"  <c:if test="${emailRecommend =='none'}">selected</c:if>>NONE: Please do not send me emails with recommendations.</option>
 						</select>
 						<input type="submit" value="Save Email Preferences" class="btn btn-primary pull-right">
-					</div>
+					</form>
 		
 				</div>
 			</div>

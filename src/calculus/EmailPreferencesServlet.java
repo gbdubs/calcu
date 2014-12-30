@@ -1,10 +1,14 @@
 package calculus;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import utilities.UserInitializer;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -22,18 +26,14 @@ public class EmailPreferencesServlet extends HttpServlet {
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
-		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
-	
-		Key emailPrefsKey = KeyFactory.createKey("UserEmailPrefs", user.getUserId());
-		Entity emailPrefs = new Entity(emailPrefsKey);
+		Map<String, String> preferences = new HashMap<String, String>();
 		
-		emailPrefs.setProperty("replyPref", (String) req.getParameter("reply-pref"));
-		emailPrefs.setProperty("recommendPref", (String) req.getParameter("recommend-pref"));
-		emailPrefs.setProperty("karmaPref", (String) req.getParameter("karma-pref"));
+		preferences.put("emailKarma", (String) req.getParameter("emailKarma"));
+		preferences.put("emailRecommend", (String) req.getParameter("emailRecommend"));
+		preferences.put("emailReply", (String) req.getParameter("emailReply"));
 		
-		ds.put(emailPrefs);
+		UserInitializer.updateUserPrivateInfo(user, preferences);
 		
-		resp.sendRedirect("/profile");
+		resp.sendRedirect("/user/" + user.getUserId());
 	}
-
 }

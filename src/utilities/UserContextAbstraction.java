@@ -16,9 +16,11 @@ import com.google.appengine.api.users.UserServiceFactory;
 
 
 public class UserContextAbstraction {
+	
+	private static UserService userService = UserServiceFactory.getUserService();
+	
 	public static void addUserContextToRequest(HttpServletRequest req, String pageUrl){
 		
-		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
 		String loginUrl = userService.createLoginURL(pageUrl);
@@ -32,6 +34,11 @@ public class UserContextAbstraction {
 		addUserBookmarksToRequest(req, user);
 		addUserNotificationsToRequest(req, user);
 		addUserRecommendationsToRequest(req, user);
+	}
+	
+	public static void addProfileContextToRequest(HttpServletRequest req){
+		User user = userService.getCurrentUser();
+		addUserProfileInformationToRequest(req, user);
 	}
 	
 	private static void addUserPublicInfoToRequest(HttpServletRequest req, User user){
@@ -55,7 +62,7 @@ public class UserContextAbstraction {
 		req.setAttribute("karma", KarmaDescription.toMediumString(karma)); 
 		req.setAttribute("profilePictureUrl", profilePictureUrl);
 		req.setAttribute("profileUrl", profileUrl);
-		req.setAttribute("email", email);	
+		req.setAttribute("email", email);
 	}
 	
 	private static void addUserBookmarksToRequest(HttpServletRequest req, User user){
@@ -113,13 +120,11 @@ public class UserContextAbstraction {
 		req.setAttribute("recommendationsMenu", recommendations);
 	}
 
-	public static void addUserProfileInformation(HttpServletRequest req) {
+	private static void addUserProfileInformationToRequest(HttpServletRequest req, User user){
+		Entity privateInfo = UserInitializer.getOrCreateUserPrivateInfo(user);
 		
-		String requestUrl = req.getRequestURI();
-		int userIndex = requestUrl.indexOf("/user/") + 6;
-		String userId = requestUrl.substring(userIndex);
-		
-		BlobstoreService bs = BlobstoreServiceFactory.getBlobstoreService();
+		req.setAttribute("emailReply", (String) privateInfo.getProperty("emailReply"));
+		req.setAttribute("emailRecommend", (String) privateInfo.getProperty("emailRecommend"));
+		req.setAttribute("emailKarma", (String) privateInfo.getProperty("emailKarma"));
 	}
-	
 }

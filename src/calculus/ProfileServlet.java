@@ -26,17 +26,12 @@ public class ProfileServlet extends HttpServlet{
 			return;
 		}
 		
-		UserContextAbstraction.addUserProfileInformation(req);
+		UserContextAbstraction.addProfileContextToRequest(req);
 			
 		resp.setContentType("text/html");
 		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/profile.jsp");
 		jsp.forward(req, resp);
-	}
-	
-	public void doPost(HttpServletRequest req, HttpServletResponse resp){
-		
-		
 	}
 	
 }
