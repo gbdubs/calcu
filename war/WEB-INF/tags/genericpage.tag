@@ -158,12 +158,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/suggestions.html">
-                        <i class="fa fa-comments"></i>
-                        <span>Suggestions</span>
-                    </a>
-                </li>
-                <li>
                     <a href="pages/external.html">
                         <i class="fa fa-external-link"></i>
                         <span>Links and Support</span>
@@ -172,7 +166,7 @@
                 <li>
                     <a href="/contact">
                         <i class="fa fa-heart"></i>
-                        <span>Contact</span>
+                        <span>Contact/Suggestions</span>
                     </a>
                 </li>
             </ul>
@@ -201,7 +195,7 @@
 	                    <i class="fa fa-square-o fa-stack-2x"></i>
 	                    <i class="fa fa-google fa-stack-1x"></i>
 	                </span>
-	                To readily serve you while protecting your data effectively, CalcU.us uses authorization through a Google account.  These accounts are secure, reliable, and free, and a new one can be created <a href="https://accounts.google.com/SignUp">here</a>.  We are considering expanding this service to other OpenAuth providers based on demand.  If you would like to see another supported, please <a href="contact.html">contact</a> us.
+	                To readily serve you while protecting your data effectively, CalcU.us uses authorization through a Google account.  These accounts are secure, reliable, and free, and a new one can be created <a href="https://accounts.google.com/SignUp">here</a>.  We are considering expanding this service to other OpenAuth providers based on demand.  If you would like to see another supported, please <a href="/contact">contact</a> us.
 	            </p>
 	        </div>
 	        <div class="footer">

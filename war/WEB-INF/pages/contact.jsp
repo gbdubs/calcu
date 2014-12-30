@@ -5,8 +5,8 @@
 	<jsp:attribute name="content">
 		<form class="box box-primary contact-page-content" action="/submit-contact-form" method="post">
 			<div class="box-header">
-				<i class="fa fa-heart"></i>
-				<h3 class="box-title">Contact Us!</h3>
+				<i class="fa fa-comments"></i>
+				<h3 class="box-title">Suggestions/Feedback</h3>
 			</div>
 			<div class="box-body">
 				Thank you for taking the time to provide us with some feedback!  We allow you to submit feedback whether you are logged in or not.
@@ -48,5 +48,17 @@
 				</div>
 			</div>
 		</form>
+		
+		<div class="box box-success">
+			<div class="box-header">
+				<i class="fa fa-heart"></i>
+				<h3 class="box-title">Contact</h3>
+			</div>
+			<div class="box-body">
+				If you would prefer a less formal way of contact, my email is <a href="mailto:grady.b.ward@gmail.com">grady.b.ward@gmail.com</a> . Feel free to reach out to discuss anything ed-tech,
+				your thoughts on the site, or how we can better deliver information to those who need it.
+			</div>
+		</div>
+		
 	</jsp:attribute>
 </t:genericpage>
