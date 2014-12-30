@@ -2,6 +2,9 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="pageTitle">
+		CalcU | Access Denied
+	</jsp:attribute>
 	<jsp:attribute name="content">
 		<div class="error-page">
     		<h2 class="headline text-info">403</h2>

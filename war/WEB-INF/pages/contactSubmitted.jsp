@@ -2,6 +2,10 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="pageTitle">
+		CalcU | Thank You!
+	</jsp:attribute>
+
 	<jsp:attribute name="content">
 		<div class="error-page thank-you">
     		<h2 class="headline text-info">Thanks!</h2>

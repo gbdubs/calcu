@@ -2,6 +2,10 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="pageTitle">
+		CalcU | Contact/Suggestions
+	</jsp:attribute>
+
 	<jsp:attribute name="content">
 		<form class="box box-primary contact-page-content" action="/submit-contact-form" method="post">
 			<div class="box-header">

@@ -2,9 +2,11 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="pageTitle">
+		CalcU | Home
+	</jsp:attribute>
+
 	<jsp:attribute name="content">
-	
-	
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="box box-solid">

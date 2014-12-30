@@ -1,12 +1,15 @@
 <%@tag description="General Page template" pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@attribute name="content" fragment="true" %>
+<%@attribute name="pageTitle" fragment="true" %>
 
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>CalcU.us Workspace</title>
+    <title>
+		<jsp:invoke fragment="pageTitle" />
+	</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -32,7 +35,7 @@
 <header class="header">
 
     <!-- LOGO -->
-    <a href="index.html" class="logo">
+    <a href="/home" class="logo">
         <!-- Add the class icon to your logo image or logo icon to add the margining -->
         <img src="/_static/img/shield-icons/deriv-w.png"> Calcu.us <img src="/_static/img/shield-icons/integ-w.png">
     </a>

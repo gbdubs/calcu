@@ -16,7 +16,7 @@ public class PageNotFoundServlet extends HttpServlet {
 			throws IOException, ServletException {
 		
 		UserContextAbstraction.addUserContextToRequest(req, "/");
-			
+		
 		resp.setContentType("text/html");
 		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");

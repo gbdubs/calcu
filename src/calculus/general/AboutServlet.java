@@ -16,7 +16,7 @@ public class AboutServlet extends HttpServlet {
 			throws IOException, ServletException {
 		
 		UserContextAbstraction.addUserContextToRequest(req, "/about");
-			
+		
 		resp.setContentType("text/html");
 		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/about.jsp");

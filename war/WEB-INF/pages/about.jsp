@@ -2,6 +2,10 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="pageTitle">
+		CalcU | About
+	</jsp:attribute>
+	
 	<jsp:attribute name="content">
 		<div class="row about-tiles">
 			<div class="col-md-4 col-sm-6 col-xs-12">
