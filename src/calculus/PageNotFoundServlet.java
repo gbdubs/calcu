@@ -15,7 +15,7 @@ public class PageNotFoundServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAbstraction.addUserContextToRequest(req, "/page-not-found");
+		UserContextAbstraction.addUserContextToRequest(req, "/");
 			
 		resp.setContentType("text/html");
 		

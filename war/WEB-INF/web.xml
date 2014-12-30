@@ -17,7 +17,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>About</servlet-name>
-		<servlet-class>calculus.AboutServlet</servlet-class>
+		<servlet-class>calculus.general.AboutServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>About</servlet-name>
@@ -27,7 +27,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Profile</servlet-name>
-		<servlet-class>calculus.ProfileServlet</servlet-class>
+		<servlet-class>calculus.profile.ProfileServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Profile</servlet-name>
@@ -37,7 +37,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>ChangeUsername</servlet-name>
-		<servlet-class>calculus.UsernameServlet</servlet-class>
+		<servlet-class>calculus.profile.ChangeUsernameServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ChangeUsername</servlet-name>
@@ -47,7 +47,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>ChangeEmailPreferences</servlet-name>
-		<servlet-class>calculus.EmailPreferencesServlet</servlet-class>
+		<servlet-class>calculus.profile.ChangeEmailPreferencesServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ChangeEmailPreferences</servlet-name>
