@@ -46,7 +46,7 @@
 					<textarea class="form-control no-vertical-resize" rows="6" placeholder="We are excited to hear what you have to say!" name="body"></textarea>
 				</div>
 		
-				<div class="submit-buttons">
+				<div class="submit-buttons-pull-right">
 					<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
 					<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
 				</div>
