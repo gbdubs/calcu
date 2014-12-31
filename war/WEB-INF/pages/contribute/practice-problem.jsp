@@ -11,7 +11,7 @@
 		<div class="box box-info contribute-box">
 			<div class="box-header">
 				<i class="fa fa-info-circle hidden-xs"></i>
-				<h3 class="box-title">Welcome to the Practice Problem Editor! <small>Here are some basic guidelines to get you started</small></h3>
+				<h3 class="box-title">Welcome to the Practice Problem Editor! <small>Here are some basic guidelines to keep in mind</small></h3>
 				<div class="pull-right box-tools hidden-xs">
 					<button class="btn btn-info btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
@@ -33,56 +33,61 @@
 			</div>
 		</div>
 	
-	
-		<div class="box box-warning contribute-box">
-			<div class="box-header">
-				<i class="fa fa-question hidden-xs"></i>
-				<h3 class="box-title">Problem Editor <small>Construct the information that the student will need to solve the problem in this area</small></h3>
-				<div class="pull-right box-tools hidden-xs">
-					<button class="btn btn-warning btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+		<form action="/contribute/practice-problem/" method="post">
+			<div class="box box-warning contribute-box">
+				<div class="box-header">
+					<i class="fa fa-question hidden-xs"></i>
+					<h3 class="box-title">Problem Editor <small>Construct the information that the student will need to solve the problem in this area</small></h3>
+					<div class="pull-right box-tools hidden-xs">
+						<button class="btn btn-warning btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+					</div>
+				</div>
+				<div class="box-body">
+					<label for="problemTitle">Problem Title</label>
+					<input type="text" name="problemTitle" placeholder="Insert a brief description of your problem" value="${practiceProblem.problemTitle}">
+				</div>
+				<div class="box-body pad">
+					<textarea  name="problemBody" class="textarea no-horizontal-resize" placeholder="Outline the information nescessary to solve the problem" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
+						${practiceProblem.problemBody}
+					</textarea>
 				</div>
 			</div>
-			<div class="box-body pad">
-				<form>
-					<textarea class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-				</form>
-			</div>
-		</div>
-	
-		<div class="box box-success contribute-box">
-			<div class="box-header">
-			<i class="fa fa-lightbulb-o hidden-xs"></i>
-				<h3 class="box-title">Your Solution <small> Explain how to solve the problem, and explicitly state the correct answer in this field</small></h3>
-				<div class="pull-right box-tools hidden-xs">
-					<button class="btn btn-success btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+		
+			<div class="box box-success contribute-box">
+				<div class="box-header">
+				<i class="fa fa-lightbulb-o hidden-xs"></i>
+					<h3 class="box-title">Your Solution <small> Explain how to solve the problem, and explicitly state the correct answer in this field</small></h3>
+					<div class="pull-right box-tools hidden-xs">
+						<button class="btn btn-success btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+					</div>
+				</div>
+				<div class="box-body pad">
+					<textarea name="authorSolution" class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;">
+						${practiceProblem.authorSolution}
+					</textarea>
 				</div>
 			</div>
-			<div class="box-body pad">
-				<form>
-					<textarea class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-				</form>
-
-			</div>
-		</div>
-		<div class="box box-primary contribute-box">
-			<div class="box-header">
-				<i class="fa fa-paper-plane hidden-xs"></i>
-				<h3 class="box-title">Distribution and Submit<small> Read through the information to make sure you are happy submitting your problem</small></h3>
-				<div class="pull-right box-tools hidden-xs">
-					<button class="btn btn-primary btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
-				</div>
-			</div>
-			<div class="box-body">
-				<p> 
-					legaleze.
-				</p>
 			
-				<div class="submit-buttons-pull-right">
-					<input class="btn btn-default submit" name="saveWork" type="submit" value="Save Work">
-					<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
-					<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
+			<div class="box box-primary contribute-box">
+				<div class="box-header">
+					<i class="fa fa-paper-plane hidden-xs"></i>
+					<h3 class="box-title">Distribution and Submit<small> Read through the information to make sure you are happy submitting your problem</small></h3>
+					<div class="pull-right box-tools hidden-xs">
+						<button class="btn btn-primary btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+					</div>
+				</div>
+				<div class="box-body">
+					<p> 
+						legaleze.
+					</p>
+				
+					<div class="submit-buttons-pull-right">
+						<input class="btn btn-default submit" name="saveWork" type="submit" value="Save Work">
+						<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
+						<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
+					</div>
 				</div>
 			</div>
-		</div>
+		</form>
 	</jsp:attribute>
 </t:genericpage>

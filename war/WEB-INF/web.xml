@@ -95,7 +95,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ContributePracticeProblem</servlet-name>
-		<url-pattern>/contribute/practice-problem</url-pattern>
+		<url-pattern>/contribute/practice-problem/*</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>ContributePracticeProblem</servlet-name>
