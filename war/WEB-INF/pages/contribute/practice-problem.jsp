@@ -44,7 +44,7 @@
 			</div>
 			<div class="box-body pad">
 				<form>
-					<textarea class="textarea" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+					<textarea class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
 				</form>
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 			</div>
 			<div class="box-body pad">
 				<form>
-					<textarea class="textarea" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+					<textarea class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
 				</form>
 
 			</div>
@@ -72,7 +72,7 @@
 					<button class="btn btn-primary btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
-			<div class="box-body pad">
+			<div class="box-body">
 				<p> 
 					legaleze.
 				</p>

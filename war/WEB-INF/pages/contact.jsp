@@ -43,7 +43,7 @@
 		
 				<div class="form-group">
 					<label>Comments, Concerns, Compaints, Suggestions?</label>
-					<textarea class="form-control no-vertical-resize" rows="6" placeholder="We are excited to hear what you have to say!" name="body"></textarea>
+					<textarea class="form-control no-horizontal-resize" rows="6" placeholder="We are excited to hear what you have to say!" name="body"></textarea>
 				</div>
 		
 				<div class="submit-buttons-pull-right">

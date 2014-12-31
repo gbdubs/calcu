@@ -3856,6 +3856,6 @@ fieldset[disabled] .btn-vk.active {
 	margin-right: 20px;
 }
 
-.no-vertical-resize{
+.no-horizontal-resize{
 	resize: vertical;
 }
