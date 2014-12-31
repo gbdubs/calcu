@@ -12,14 +12,14 @@ import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
-public class UserVerification {
+public class UserVerificationAPI {
 
 	public static boolean verifyUserProfileViewAccess(HttpServletRequest req){
 		
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
-		Entity userPublicInfo = UserInitializer.getOrCreateUserPublicInfo(user);
+		Entity userPublicInfo = UserDatastoreAPI.getOrCreateUserPublicInfo(user);
 		if (userPublicInfo == null) return false;
 		String userId = (String) userPublicInfo.getProperty("userId");
 		

@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserInitializer;
-import utilities.UserVerification;
+import utilities.UserDatastoreAPI;
+import utilities.UserVerificationAPI;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -27,11 +27,11 @@ public class ChangeUsernameServlet extends HttpServlet {
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
-		Entity userPublicInfo = UserInitializer.getOrCreateUserPublicInfo(user);
+		Entity userPublicInfo = UserDatastoreAPI.getOrCreateUserPublicInfo(user);
 		
 		String username = (String) req.getParameter("edit-username");
 		
-		UserInitializer.updateUserPublicInfo(user, "username", username);
+		UserDatastoreAPI.updateUserPublicInfo(user, "username", username);
 		
 		resp.sendRedirect((String) userPublicInfo.getProperty("profileUrl"));
 	}	

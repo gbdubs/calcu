@@ -8,14 +8,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserContextAbstraction;
+import utilities.UserContextAPI;
 
 public class PageNotFoundServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAbstraction.addUserContextToRequest(req, "/");
+		UserContextAPI.addUserContextToRequest(req, "/");
 		
 		resp.setContentType("text/html");
 		

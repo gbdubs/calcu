@@ -8,17 +8,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserContextAbstraction;
-import utilities.UserVerification;
+import utilities.UserContextAPI;
+import utilities.UserVerificationAPI;
 
 public class ProfileServlet extends HttpServlet{
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAbstraction.addUserContextToRequest(req, req.getRequestURI());
+		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
 		
-		boolean permitted = UserVerification.verifyUserProfileViewAccess(req);
+		boolean permitted = UserVerificationAPI.verifyUserProfileViewAccess(req);
 		
 		if (!permitted){
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-access-denied.jsp");
@@ -26,7 +26,7 @@ public class ProfileServlet extends HttpServlet{
 			return;
 		}
 		
-		UserContextAbstraction.addProfileContextToRequest(req);
+		UserContextAPI.addProfileContextToRequest(req);
 			
 		resp.setContentType("text/html");
 		

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserContextAbstraction;
+import utilities.UserContextAPI;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -26,7 +26,7 @@ public class TagTesterServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAbstraction.addUserContextToRequest(req, "/tag-tester");
+		UserContextAPI.addUserContextToRequest(req, "/tag-tester");
 		
 		resp.setContentType("text/html");
 		

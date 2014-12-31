@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserInitializer;
-import utilities.UserVerification;
+import utilities.UserDatastoreAPI;
+import utilities.UserVerificationAPI;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -33,7 +33,7 @@ public class ChangeEmailPreferencesServlet extends HttpServlet {
 		preferences.put("emailRecommend", (String) req.getParameter("emailRecommend"));
 		preferences.put("emailReply", (String) req.getParameter("emailReply"));
 		
-		UserInitializer.updateUserPrivateInfo(user, preferences);
+		UserDatastoreAPI.updateUserPrivateInfo(user, preferences);
 		
 		resp.sendRedirect("/user/" + user.getUserId());
 	}

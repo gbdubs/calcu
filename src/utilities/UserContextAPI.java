@@ -15,7 +15,7 @@ import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 
-public class UserContextAbstraction {
+public class UserContextAPI {
 	
 	private static UserService userService = UserServiceFactory.getUserService();
 	
@@ -50,7 +50,7 @@ public class UserContextAbstraction {
 		String email = "anonymous314159@gmail.com";
 		
 		if (user != null){
-			Entity publicInfo = UserInitializer.getOrCreateUserPublicInfo(user);
+			Entity publicInfo = UserDatastoreAPI.getOrCreateUserPublicInfo(user);
 			karma = ((Long) publicInfo.getProperty("karma")).intValue();
 			username = (String) publicInfo.getProperty("username");
 			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
@@ -121,7 +121,7 @@ public class UserContextAbstraction {
 	}
 
 	private static void addUserProfileInformationToRequest(HttpServletRequest req, User user){
-		Entity privateInfo = UserInitializer.getOrCreateUserPrivateInfo(user);
+		Entity privateInfo = UserDatastoreAPI.getOrCreateUserPrivateInfo(user);
 		
 		req.setAttribute("emailReply", (String) privateInfo.getProperty("emailReply"));
 		req.setAttribute("emailRecommend", (String) privateInfo.getProperty("emailRecommend"));

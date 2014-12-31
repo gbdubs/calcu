@@ -10,7 +10,7 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.User;
 
-public class UserInitializer {
+public class UserDatastoreAPI {
 
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	

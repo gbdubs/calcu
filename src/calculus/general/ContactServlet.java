@@ -22,14 +22,14 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
-import utilities.UserContextAbstraction;
+import utilities.UserContextAPI;
 
 public class ContactServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAbstraction.addUserContextToRequest(req, "/contact");
+		UserContextAPI.addUserContextToRequest(req, "/contact");
 			
 		resp.setContentType("text/html");
 		
@@ -41,7 +41,7 @@ public class ContactServlet extends HttpServlet {
 		
 		sendEmailFromContactRequest(req);
 		
-		UserContextAbstraction.addUserContextToRequest(req, "/contact");
+		UserContextAPI.addUserContextToRequest(req, "/contact");
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contactSubmitted.jsp");
 		jsp.forward(req, resp);
