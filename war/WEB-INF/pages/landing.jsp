@@ -25,7 +25,7 @@
 									<img src="http://placehold.it/3000x1000/3c8dbc/ffffff&text=Learning+Using+The+Best+Technology" alt="Second slide">
 								</div>
 								<div class="item">
-									<img src="http://placehold.it/3000x1000/f39c12/ffffff&text=Free,+Simple,+and+Accessible" alt="Third slide">
+									<img src="http://placehold.it/3000x1000/4d2ab6/ffffff&text=Free,+Simple,+and+Accessible" alt="Third slide">
 								</div>
 							</div>
 							<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
