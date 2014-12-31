@@ -169,7 +169,7 @@
                 <li>
                     <a href="/contact">
                         <i class="fa fa-heart"></i>
-                        <span>Contact/Suggestions</span>
+                        <span>Suggestions/Contact</span>
                     </a>
                 </li>
             </ul>

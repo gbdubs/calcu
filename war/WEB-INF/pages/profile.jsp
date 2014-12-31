@@ -23,7 +23,7 @@
 						<form action="/change-user-name" method="post">
 							<label for="edit-user-name">Username: </label>
 							<div class="input-group">
-								<input type="text" class="form-control" name="edit-username" id="edit-user-name" placeholder="${username}">
+								<input type="text" class="form-control" name="edit-username" id="edit-user-name" value="${username}">
 								<span class="input-group-btn">
 									<input class="btn btn-primary" type="submit"  value="Change Username">
 								</span>

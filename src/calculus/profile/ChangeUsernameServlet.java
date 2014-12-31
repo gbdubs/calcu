@@ -23,9 +23,6 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class ChangeUsernameServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
-				
-		if(! UserVerification.verifyUserProfileViewAccess(req))
-			return;
 		
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
