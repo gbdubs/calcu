@@ -1,4 +1,4 @@
-package utilities;
+package calculus.utilities;
 
 public class KarmaDescription {
 	 

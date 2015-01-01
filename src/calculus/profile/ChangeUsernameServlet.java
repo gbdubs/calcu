@@ -6,8 +6,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserDatastoreAPI;
-import utilities.UserVerificationAPI;
+import calculus.api.UserDatastoreAPI;
+import calculus.api.UserVerificationAPI;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;

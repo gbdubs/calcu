@@ -83,7 +83,7 @@
 				
 					<div class="submit-buttons-pull-right">
 						<input class="btn btn-default submit" name="saveWork" type="submit" value="Save Work">
-						<a class="btn btn-danger" href="/contribute/practice-problem/dashboard">Discard</a>
+						<a class="btn btn-danger" href="/contribute/practice-problem/dashboard">Discard Changes</a>
 						<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
 						<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
 					</div>

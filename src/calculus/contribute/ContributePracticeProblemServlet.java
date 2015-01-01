@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.PracticeProblemAPI;
+import calculus.api.UserContextAPI;
+import calculus.models.PracticeProblem;
+
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
-
-import utilities.PracticeProblem;
-import utilities.PracticeProblemAPI;
-import utilities.UserContextAPI;
 
 public class ContributePracticeProblemServlet extends HttpServlet {
 	
@@ -33,9 +33,6 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		
 		List<PracticeProblem> unsubmittedPP = PracticeProblemAPI.getUnsubmittedPracticeProblems(user);
 		List<PracticeProblem> submittedPP = PracticeProblemAPI.getSubmittedPracticeProblems(user);
-		
-		System.out.println("Submitted PP = " + submittedPP.toString());
-		System.out.println("Unubmitted PP = " + unsubmittedPP.toString());
 		
 		String urlRequest = req.getRequestURI();
 		urlRequest = urlRequest.substring(urlRequest.indexOf("/practice-problem") +  17);
@@ -77,9 +74,15 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		
 		PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
 		
-		resp.setContentType("text/html");
-		UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/dashboard");
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem-thanks.jsp");
-		jsp.forward(req, resp);
+		if (req.getAttribute("saveWork") == null){
+			resp.sendRedirect("/contribute/practice-problem/dashboard");
+			return;
+		} else {
+			resp.setContentType("text/html");
+			UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/dashboard");
+			RequestDispatcher jsp;
+			jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem-thanks.jsp");
+			jsp.forward(req, resp);
+		}	
 	}
 }

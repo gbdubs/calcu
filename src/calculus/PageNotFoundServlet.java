@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserContextAPI;
+import calculus.api.UserContextAPI;
 
 public class PageNotFoundServlet extends HttpServlet {
 

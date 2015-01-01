@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import utilities.UserContextAPI;
-import utilities.UserVerificationAPI;
+import calculus.api.UserContextAPI;
+import calculus.api.UserVerificationAPI;
 
 public class ProfileServlet extends HttpServlet{
 

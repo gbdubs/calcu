@@ -1,4 +1,4 @@
-package calculus.general;
+package calculus.utilities;
 
 public class Settings {
 

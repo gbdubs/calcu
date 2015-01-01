@@ -1,4 +1,4 @@
-package utilities;
+package calculus.models;
 
 import java.util.Map;
 
@@ -13,7 +13,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 
 public class PracticeProblem {
 
-	Entity entity;
+	private Entity entity;
 
 	private Key key;
 	
@@ -58,7 +58,7 @@ public class PracticeProblem {
 	}
 	
 	public void refresh(){
-		this.key = this.entity.getKey();
+		this.key = this.getEntity().getKey();
 		
 		try {
 			this.entity = datastoreService.get(key);
@@ -73,22 +73,22 @@ public class PracticeProblem {
 		for(String property : newValues.keySet()){
 			verifyAcceptableProperty(property);
 			String newValue = newValues.get(property);
-			if (entity.getProperty(property) != newValue){
-				entity.setProperty(property, newValue);
+			if (getEntity().getProperty(property) != newValue){
+				getEntity().setProperty(property, newValue);
 				changed = true;
 			}
 		}
 		if (changed){
-			datastoreService.put(entity);
+			datastoreService.put(getEntity());
 		}
 	}
 	
 	public void updateProperty(String property, String newValue) {
 		verifyAcceptableProperty(property);
 		
-		if (entity.getProperty(property) != newValue){
-			entity.setProperty(property, newValue);
-			datastoreService.put(entity);
+		if (getEntity().getProperty(property) != newValue){
+			getEntity().setProperty(property, newValue);
+			datastoreService.put(getEntity());
 		}
 	}
 	
@@ -102,56 +102,58 @@ public class PracticeProblem {
 	
 	public String getProperty(String propertyName) {
 		verifyAcceptableProperty(propertyName);
-		return (String) this.entity.getProperty(propertyName);
+		return (String) this.getEntity().getProperty(propertyName);
 	}
 
 	public String getPracticeProblemId(){
-		return (String) entity.getProperty("practiceProblemId");
+		return (String) getEntity().getProperty("practiceProblemId");
 	}
 	
 	public String getCreatorUserId(){
-		return (String) entity.getProperty("creatorUserId");
+		return (String) getEntity().getProperty("creatorUserId");
 	} 
 	
 	public String getCreatedAt(){
-		return (String) entity.getProperty("createdAt");
+		return (String) getEntity().getProperty("createdAt");
 	} 
 	
 	public String getProblemTitle(){
-		return (String) entity.getProperty("problemTitle");
+		return (String) getEntity().getProperty("problemTitle");
 	} 
 	
 	public String getProblemBody(){
-		return (String) entity.getProperty("problemBody");
+		return (String) getEntity().getProperty("problemBody");
 	} 
 	
 	public String getAuthorSolution(){
-		return (String) entity.getProperty("authorSolution");
+		return (String) getEntity().getProperty("authorSolution");
 	} 
 	
 	public String getOtherSolutions(){
-		return (String) entity.getProperty("otherSolutions");
+		return (String) getEntity().getProperty("otherSolutions");
 	} 
 	
 	public String getAnonymous(){
-		return (String) entity.getProperty("anonymous");
+		return (String) getEntity().getProperty("anonymous");
 	} 
 	
 	public String getSubmitted(){
-		return (String) entity.getProperty("submitted");
+		return (String) getEntity().getProperty("submitted");
 	} 
 	
 	public String getViewable(){
-		return (String) entity.getProperty("viewable");
+		return (String) getEntity().getProperty("viewable");
 	}
 	
 	public String getUrl(){
-		return (String) entity.getProperty("url");
+		return (String) getEntity().getProperty("url");
 	}
 	
 	public String getEditUrl(){
-		return "/contribute/practice-problem/edit/" + this.entity.getProperty("practiceProblemId");
+		return "/contribute/practice-problem/edit/" + this.getEntity().getProperty("practiceProblemId");
 	}
 
-	
+	public Entity getEntity() {
+		return entity;
+	}
 }

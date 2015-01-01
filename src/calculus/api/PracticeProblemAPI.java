@@ -1,4 +1,4 @@
-package utilities;
+package calculus.api;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
+
+import calculus.models.PracticeProblem;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -18,6 +20,7 @@ import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 public class PracticeProblemAPI {
 	
@@ -115,7 +118,7 @@ public class PracticeProblemAPI {
 		Entity entity = new Entity(KeyFactory.createKey("PracticeProblem", uuid));
 		
 		entity.setProperty("practiceProblemId", uuid);
-		entity.setProperty("creatorUserId", PracticeProblem.userService.getCurrentUser().getUserId());
+		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", dateAndTime);
 		entity.setProperty("problemTitle", problemTitle);
 		entity.setProperty("problemBody", problemBody);
@@ -126,7 +129,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("url", "/practice-problems/" + uuid);
 		
-		PracticeProblem.datastoreService.put(entity);
+		datastore.put(entity);
 		
 		return new PracticeProblem(entity);
 	}
@@ -134,7 +137,7 @@ public class PracticeProblemAPI {
 	public static PracticeProblem updatePracticeProblemFromRequest(HttpServletRequest req) {
 		String uuid = (String) req.getParameter("PracticeProblemId");
 		PracticeProblem pp = new PracticeProblem(uuid);
-		Entity entity = pp.entity;
+		Entity entity = pp.getEntity();
 		
 		String dateAndTime = (new Date()).toString();
 	
@@ -157,7 +160,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		
-		PracticeProblem.datastoreService.put(entity);
+		datastore.put(entity);
 		
 		return pp;
 	}

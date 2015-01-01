@@ -19,10 +19,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.UserContextAPI;
+import calculus.utilities.Settings;
+
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
-
-import utilities.UserContextAPI;
 
 public class ContactServlet extends HttpServlet {
 

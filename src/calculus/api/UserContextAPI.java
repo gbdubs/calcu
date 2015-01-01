@@ -1,6 +1,9 @@
-package utilities;
+package calculus.api;
 
 import javax.servlet.http.HttpServletRequest;
+
+import calculus.utilities.KarmaDescription;
+import calculus.utilities.MenuItem;
 
 import com.google.appengine.api.blobstore.BlobstoreService;
 import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
