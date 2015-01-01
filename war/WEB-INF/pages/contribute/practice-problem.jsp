@@ -34,7 +34,7 @@
 		</div>
 	
 		<form action="/contribute/practice-problem/" method="post">
-			<input type="hidden" value="${practiceProblem.practiceProblemId}" name="PracticeProblemId">
+			<input type="hidden" value="${practiceProblem.uuid}" name="uuid">
 			<div class="box box-warning contribute-box">
 				<div class="box-header">
 					<i class="fa fa-question hidden-xs"></i>
@@ -44,13 +44,13 @@
 					</div>
 				</div>
 				<div class="box-body">
-					<label for="problemTitle">Problem Title</label>
-					<input type="text" name="problemTitle" class="form-control" placeholder="Insert a brief description of your problem" value="${practiceProblem.problemTitle}">
+					<label for="title">Problem Title</label>
+					<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="${practiceProblem.title}">
 				</div>
 				<div class="box-body pad">
-					<label for="problemBody">Problem Description</label>
-					<textarea  name="problemBody" class="textarea no-horizontal-resize" placeholder="Outline the information nescessary to solve the problem" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${practiceProblem.problemBody}</textarea>
+					<label for="body">Problem Description</label>
+					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Outline the information nescessary to solve the problem" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
+					>${practiceProblem.body}</textarea>
 				</div>
 			</div>
 		

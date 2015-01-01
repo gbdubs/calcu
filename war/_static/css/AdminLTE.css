@@ -3859,3 +3859,11 @@ fieldset[disabled] .btn-vk.active {
 .no-horizontal-resize{
 	resize: vertical;
 }
+
+.create-content-buttons{
+	padding: 0 5px 10px 5px;
+}
+
+.create-content-buttons > div{
+	padding: 0 10px 10px 10px;
+}

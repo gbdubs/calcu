@@ -24,12 +24,14 @@ import com.google.appengine.api.users.UserServiceFactory;
 
 public class PracticeProblemAPI {
 	
+	private static Filter practiceProblemFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "practiceProblem");
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, "true");
 	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, "false");
 	private static Filter anonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, "true");
 	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, "false");
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, "true");
 	private static Filter notViewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, "false");
+	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static void addPracticeProblemContext(HttpServletRequest req, String uuid){
@@ -53,8 +55,8 @@ public class PracticeProblemAPI {
 	public static List<PracticeProblem> getUnsubmittedPracticeProblems(User user){
 		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
 		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, unsubmittedFilter);
-		Query query = new Query("PracticeProblem").setFilter(compositeFilter);
+		Filter compositeFilter = CompositeFilterOperator.and(userFilter, practiceProblemFilter, unsubmittedFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(query);
 		for (Entity result : pq.asIterable()) {
 			PracticeProblem pp = new PracticeProblem(result);
@@ -66,21 +68,8 @@ public class PracticeProblemAPI {
 	public static List<PracticeProblem> getSubmittedPracticeProblems(User user){
 		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
 		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, viewableFilter, submittedFilter, notAnonymousFilter);
-		Query query = new Query("PracticeProblem").setFilter(compositeFilter);
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			PracticeProblem pp = new PracticeProblem(result);
-			list.add(pp);
-		}
-		return list;
-	}
-	
-	public static List<PracticeProblem> getAllCreatedPracticeProblems(User user){
-		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, viewableFilter);
-		Query query = new Query("PracticeProblem").setFilter(compositeFilter);
+		Filter compositeFilter = CompositeFilterOperator.and(userFilter, practiceProblemFilter, viewableFilter, submittedFilter, notAnonymousFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(query);
 		for (Entity result : pq.asIterable()) {
 			PracticeProblem pp = new PracticeProblem(result);
@@ -90,8 +79,7 @@ public class PracticeProblemAPI {
 	}
 	
 	public static void createOrUpdatePracticeProblemFromRequest(HttpServletRequest req) {
-		if (req.getParameter("PracticeProblemId") == "" || req.getParameter("PracticeProblemId") == null){
-			System.out.println(req.getParameter("PracticeProblemId"));
+		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null){
 			PracticeProblemAPI.newPracticeProblemFromRequest(req);
 		} else {
 			PracticeProblemAPI.updatePracticeProblemFromRequest(req);
@@ -101,27 +89,27 @@ public class PracticeProblemAPI {
 	public static PracticeProblem newPracticeProblemFromRequest(HttpServletRequest req) {
 	
 		String uuid = UUID.randomUUID().toString();
-		String dateAndTime = (new Date()).toString();
+		String dateAndTime = "" + System.currentTimeMillis();
 	
 		String anonymous = ((Boolean) (req.getParameter("anonymousSubmit") != null)).toString();
 		String submitted = ((Boolean) (req.getParameter("saveWork") == null)).toString();
 		String viewable = ((Boolean) (req.getParameter("saveWork") == null)).toString();
 		
-		String problemTitle = (String) req.getParameter("problemTitle");
-		if (problemTitle == null || problemTitle == "") problemTitle = "[Un-named Problem]";
-		String problemBody = (String) req.getParameter("problemBody");
-		if (problemBody == null || problemBody == "") problemBody = "[The biggest problem of all: nothing]";
+		String title = (String) req.getParameter("title");
+		if (title == null || title == "") title = "[Un-named Problem]";
+		String body = (String) req.getParameter("body");
+		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
 		String authorSolution = (String) req.getParameter("authorSolution");
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
 		
+		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		Entity entity = new Entity(KeyFactory.createKey("PracticeProblem", uuid));
-		
-		entity.setProperty("practiceProblemId", uuid);
+		entity.setProperty("uuid", uuid);
+		entity.setProperty("contentType", "practiceProblem");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", dateAndTime);
-		entity.setProperty("problemTitle", problemTitle);
-		entity.setProperty("problemBody", problemBody);
+		entity.setProperty("title", title);
+		entity.setProperty("body", body);
 		entity.setProperty("authorSolution", authorSolution);
 		entity.setProperty("otherSolutions", "<solutions></solutions>");
 		entity.setProperty("anonymous", anonymous);
@@ -135,26 +123,26 @@ public class PracticeProblemAPI {
 	}
 
 	public static PracticeProblem updatePracticeProblemFromRequest(HttpServletRequest req) {
-		String uuid = (String) req.getParameter("PracticeProblemId");
+		String uuid = (String) req.getParameter("uuid");
 		PracticeProblem pp = new PracticeProblem(uuid);
 		Entity entity = pp.getEntity();
 		
-		String dateAndTime = (new Date()).toString();
+		String dateAndTime = "" + System.currentTimeMillis();
 	
 		String anonymous = ((Boolean) (req.getParameter("anonymousSubmit") != null)).toString();
 		String submitted = ((Boolean) (req.getParameter("saveWork") == null)).toString();
 		String viewable = ((Boolean) (req.getParameter("saveWork") == null)).toString();
 		
-		String problemTitle = (String) req.getParameter("problemTitle");
-		if (problemTitle == null || problemTitle == "") problemTitle = "[Un-named Problem]";
-		String problemBody = (String) req.getParameter("problemBody");
-		if (problemBody == null || problemBody == "") problemBody = "[The biggest problem of all: nothing]";
+		String title = (String) req.getParameter("title");
+		if (title == null || title == "") title = "[Un-named Problem]";
+		String body = (String) req.getParameter("body");
+		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
 		String authorSolution = (String) req.getParameter("authorSolution");
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
 	
 		entity.setProperty("createdAt", dateAndTime);
-		entity.setProperty("problemTitle", problemTitle);
-		entity.setProperty("problemBody", problemBody);
+		entity.setProperty("title", title);
+		entity.setProperty("body", body);
 		entity.setProperty("authorSolution", authorSolution);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
