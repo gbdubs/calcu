@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 import calculus.utilities.KarmaDescription;
 
@@ -17,13 +16,10 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.FilterOperator;
-import com.google.appengine.api.users.UserService;
-import com.google.appengine.api.users.UserServiceFactory;
 
 public abstract class Content {
 	
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
-	private UserService userService = UserServiceFactory.getUserService();
 	protected static List<String> FIELDS = new ArrayList<String>();
 	
 	static {
@@ -75,22 +71,6 @@ public abstract class Content {
 			this.entity = null;
 		}
 	}
-	/*
-	public void updateProperties(Map<String, Object> newValues) {
-		boolean changed = false;
-		for(String property : newValues.keySet()){
-			verifyAcceptableProperty(property);
-			Object newValue = newValues.get(property);
-			if (entity.getProperty(property) != newValue){
-				entity.setProperty(property, newValue);
-				changed = true;
-			}
-		}
-		if (changed){
-			datastoreService.put(this.entity);
-		}
-	}
-	*/
 	
 	public void updateProperty(String property, Object newValue) {
 		verifyAcceptableProperty(property);
@@ -128,8 +108,8 @@ public abstract class Content {
 		return this.author;
 	}
 	
-	public String getCreatedAt(){
-		return (String) entity.getProperty("createdAt");
+	public long getCreatedAt(){
+		return (long) entity.getProperty("createdAt");
 	}
 	
 	public String getTitle(){
@@ -140,16 +120,16 @@ public abstract class Content {
 		return (String) entity.getProperty("body");
 	}
 	
-	public String getAnonymous(){
-		return (String) entity.getProperty("anonymous");
+	public boolean getAnonymous(){
+		return (boolean) entity.getProperty("anonymous");
 	}
 	
-	public String getSubmitted(){
-		return (String) entity.getProperty("submitted");
+	public boolean getSubmitted(){
+		return (boolean) entity.getProperty("submitted");
 	} 
 	
-	public String getViewable(){
-		return (String) entity.getProperty("viewable");
+	public boolean getViewable(){
+		return (boolean) entity.getProperty("viewable");
 	}
 	
 	public String getUrl(){
@@ -161,15 +141,13 @@ public abstract class Content {
 	}
 	
 	public String getReadableTime(){
-		Long l = Long.parseLong(this.getCreatedAt());
-		Date d = new Date(l);
+		Date d = new Date(this.getCreatedAt());
 		SimpleDateFormat df = new SimpleDateFormat("MM/DD/YY HH:mm");
 		return df.format(d);
 	}
 	
 	public String getShortReadableTime(){
-		Long l = Long.parseLong(this.getCreatedAt());
-		Date d = new Date(l);
+		Date d = new Date(this.getCreatedAt());
 		SimpleDateFormat df = new SimpleDateFormat("MM/DD/YY");
 		return df.format(d);
 	}

@@ -39,10 +39,6 @@ public class PracticeProblem extends Content{
 		return (String) getEntity().getProperty("authorSolution");
 	}
 	
-	public String getOtherSolutions(){
-		return (String) getEntity().getProperty("otherSolutions");
-	}
-	
 	public String getEditUrl(){
 		return "/contribute/practice-problem/edit/" + this.getUuid();
 	}

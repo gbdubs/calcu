@@ -27,12 +27,12 @@ public class PracticeProblemAPI {
 	
 	private static Filter practiceProblemFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "practiceProblem");
 	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
-	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, "true");
-	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, "false");
-	private static Filter anonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, "true");
-	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, "false");
-	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, "true");
-	private static Filter notViewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, "false");
+	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
+	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, false);
+	private static Filter anonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, true);
+	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, false);
+	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
+	private static Filter notViewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, false);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
@@ -91,11 +91,11 @@ public class PracticeProblemAPI {
 	public static PracticeProblem newPracticeProblemFromRequest(HttpServletRequest req) {
 	
 		String uuid = UUID.randomUUID().toString();
-		String dateAndTime = "" + System.currentTimeMillis();
-	
-		String anonymous = ((Boolean) (req.getParameter("anonymousSubmit") != null)).toString();
-		String submitted = ((Boolean) (req.getParameter("saveWork") == null)).toString();
-		String viewable = ((Boolean) (req.getParameter("saveWork") == null)).toString();
+		long time = System.currentTimeMillis();
+		
+		boolean anonymous = (req.getParameter("anonymousSubmit") != null);
+		boolean submitted = (req.getParameter("saveWork") == null);
+		boolean viewable = (req.getParameter("saveWork") == null);
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Problem]";
@@ -109,7 +109,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("uuid", uuid);
 		entity.setProperty("contentType", "practiceProblem");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
-		entity.setProperty("createdAt", dateAndTime);
+		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
 		entity.setProperty("body", body);
 		entity.setProperty("authorSolution", authorSolution);
@@ -129,11 +129,11 @@ public class PracticeProblemAPI {
 		PracticeProblem pp = new PracticeProblem(uuid);
 		Entity entity = pp.getEntity();
 		
-		String dateAndTime = "" + System.currentTimeMillis();
+		long dateAndTime = System.currentTimeMillis();
 	
-		String anonymous = ((Boolean) (req.getParameter("anonymousSubmit") != null)).toString();
-		String submitted = ((Boolean) (req.getParameter("saveWork") == null)).toString();
-		String viewable = ((Boolean) (req.getParameter("saveWork") == null)).toString();
+		boolean anonymous = (req.getParameter("anonymousSubmit") != null);
+		boolean submitted = (req.getParameter("saveWork") == null);
+		boolean viewable = (req.getParameter("saveWork") == null);
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Problem]";

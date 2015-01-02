@@ -26,10 +26,13 @@ public class ViewContentServlet extends HttpServlet {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			jsp.forward(req, resp);
-		} else {
+			return;
+		} 
 			
-			
-			
+		String contentType = Content.getContentType(uuid);
+		
+		if (contentType == "practiceProblem"){
+			PracticeProblem pp = new PracticeProblem(uuid);
 			if (pp.getSubmitted() == "true" && pp.getViewable() == "true"){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				resp.setContentType("text/html");
@@ -40,6 +43,8 @@ public class ViewContentServlet extends HttpServlet {
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 				jsp.forward(req, resp);
 			}
+		} else {
+			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
 		}
 	}
 	
