@@ -109,6 +109,26 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>ViewContent</servlet-name>
+		<servlet-class>calculus.general.ViewContentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewContent</servlet-name>
+		<url-pattern>/practice-problem/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewContent</servlet-name>
+		<url-pattern>/question/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewContent</servlet-name>
+		<url-pattern>/content/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
 		<servlet-name>PageNotFound</servlet-name>
 		<servlet-class>calculus.PageNotFoundServlet</servlet-class>
 	</servlet>	

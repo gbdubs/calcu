@@ -7,6 +7,7 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
+import calculus.models.Answer;
 import calculus.models.PracticeProblem;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -25,6 +26,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class PracticeProblemAPI {
 	
 	private static Filter practiceProblemFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "practiceProblem");
+	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, "true");
 	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, "false");
 	private static Filter anonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, "true");
@@ -115,7 +117,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/practice-problems/" + uuid);
+		entity.setProperty("url", "/practice-problem/" + uuid);
 		
 		datastore.put(entity);
 		
@@ -152,4 +154,20 @@ public class PracticeProblemAPI {
 		
 		return pp;
 	}
+
+	public static List<Answer> getAnswersForPracticeProblem(PracticeProblem pp){
+		List<Answer> list = new ArrayList<Answer>();
+		String ppUuid = pp.getUuid();
+		Filter problemFilter = new FilterPredicate("parentUuid", FilterOperator.EQUAL, ppUuid);
+		Filter compositeFilter = CompositeFilterOperator.and(problemFilter, answerFilter, viewableFilter, submittedFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
+		PreparedQuery pq = datastore.prepare(query);
+		for (Entity result : pq.asIterable()) {
+			Answer a = new Answer(result);
+			list.add(a);
+		}
+		return list;	
+	}
+	
+	
 }

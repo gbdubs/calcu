@@ -222,6 +222,7 @@
 <!-- Bootstrap WYSIHTML5 -->
 <script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 
+<script src="/_static/js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
 <!-- AdminLTE App -->
 <script src="/_static/js/AdminLTE/app.js" type="text/javascript"></script>
 </body>

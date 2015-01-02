@@ -2,6 +2,9 @@ package calculus.models;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
+
+import javax.servlet.http.HttpServletRequest;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -10,7 +13,7 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
-public class PracticeProblem extends Content{
+public class Answer extends Content {
 
 	static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	static UserService userService = UserServiceFactory.getUserService();
@@ -19,34 +22,36 @@ public class PracticeProblem extends Content{
 	
 	static {
 		FIELDS.addAll(Content.FIELDS);
-		FIELDS.add("authorSolution");
-		FIELDS.add("otherSolutions");
-	}
-			
-	public PracticeProblem (Entity entity) {
-		super(entity, "practiceProblem");
+		FIELDS.add("parentUuid");
 	}
 	
-	public PracticeProblem (Key key) {
-		super(key, "practiceProblem");
+	public Answer(String uuid) {
+		super(uuid, "answer");
 	}
 	
-	public PracticeProblem (String uuid) {
-		super(uuid, "practiceProblem");
+	public Answer(Key key) {
+		super(key, "answer");
 	}
 	
-	public String getAuthorSolution(){
-		return (String) getEntity().getProperty("authorSolution");
+	public Answer(Entity entity) {
+		super(entity, "answer");
+	}
+
+	
+	
+	
+	public static Answer createAnswerFromRequest(HttpServletRequest req){
+		
+		String uuid = UUID.randomUUID().toString();
+		String parentUuid = req.getParameter("parentUuid");
+		
+		
+		
+		
+		return null;
 	}
 	
-	public String getOtherSolutions(){
-		return (String) getEntity().getProperty("otherSolutions");
-	}
-	
-	public String getEditUrl(){
-		return "/contribute/practice-problem/edit/" + this.getUuid();
-	}
-	
+	@Override
 	public void verifyAcceptableProperty(String property) {
 		boolean acceptableProperty = false;
 		for(String realProperties : FIELDS){

@@ -8,17 +8,30 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.PreparedQuery;
+import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Query.Filter;
+import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 public class UserDatastoreAPI {
 
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	
+	public static Entity getUserPublicInfo(String userId){
+		Query q = new Query("UserPublicInfo").addFilter("userId", FilterOperator.EQUAL, userId);
+		PreparedQuery pq = datastoreService.prepare(q);
+		Entity entity = pq.asSingleEntity();
+		return entity;
+	}
+
 	public static Entity getOrCreateUserPublicInfo(User user){
 		
+		String userId = user.getUserId();
+	
 		if (user == null) return null;
 		
-		String userId = user.getUserId();
 		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", userId);
 		
 		Entity userPublicInfo = new Entity(publicInfoKey);
@@ -42,9 +55,9 @@ public class UserDatastoreAPI {
 			return userPublicInfo;
 		}
 	}
-
+	
 	public static void updateUserPublicInfo(User user, String property, String newValue) {
-		Entity userPublicInfo = getOrCreateUserPublicInfo(user);
+		Entity userPublicInfo = getUserPublicInfo(user.getUserId());
 		
 		userPublicInfo.setProperty(property, newValue);
 		
@@ -91,5 +104,23 @@ public class UserDatastoreAPI {
 		}
 		
 		datastoreService.put(userPrivateInfo);
+	}
+
+	public static Entity getOrCreateUserPrivateInfo(String userId) {
+			Key publicInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
+		
+		Entity userPrivateInfo = new Entity(publicInfoKey);
+		
+		try{
+			userPrivateInfo = datastoreService.get(publicInfoKey);
+			return userPrivateInfo;
+		} catch (EntityNotFoundException e){
+			userPrivateInfo.setProperty("emailKarma", "none");
+			userPrivateInfo.setProperty("emailRecommend", "weekly");
+			userPrivateInfo.setProperty("emailReply", "none");
+			
+			datastoreService.put(userPrivateInfo);
+			return userPrivateInfo;
+		}
 	}
 }
