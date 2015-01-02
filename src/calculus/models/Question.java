@@ -14,8 +14,8 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
-public class Answer extends Content {
-
+public class Question extends Content{
+	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static UserService userService = UserServiceFactory.getUserService();
 	
@@ -23,22 +23,22 @@ public class Answer extends Content {
 	
 	static {
 		FIELDS.addAll(Content.FIELDS);
-		FIELDS.add("parentUuid");
+		FIELDS.add("answers");
 	}
 	
-	public Answer(String uuid) {
-		super(uuid, "answer");
+	public Question(String uuid) {
+		super(uuid, "question");
 	}
 	
-	public Answer(Key key) {
-		super(key, "answer");
+	public Question(Key key) {
+		super(key, "question");
 	}
 	
-	public Answer(Entity entity) {
-		super(entity, "answer");
+	public Question(Entity entity) {
+		super(entity, "question");
 	}
 	
-	public static Answer createAnswerFromRequest(HttpServletRequest req){
+	public static Question createQuestionFromRequest(HttpServletRequest req){
 		
 		String uuid = UUID.randomUUID().toString();
 		String parentUuid = req.getParameter("parentUuid");
@@ -49,15 +49,15 @@ public class Answer extends Content {
 		boolean viewable = (req.getParameter("saveWork") == null);
 		
 		String title = (String) req.getParameter("title");
-		if (title == null || title == "") title = "[Un-named Answer]";
+		if (title == null || title == "") title = "[Un-named Question]";
 		String body = (String) req.getParameter("body");
-		if (body == null || body == "") body = "[The Author has opted to leave the answer blank, becuase they think it is self evident]";
+		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
 				
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
 		entity.setProperty("uuid", uuid);
 		entity.setProperty("parentUuid", parentUuid);
-		entity.setProperty("contentType", "answer");
+		entity.setProperty("contentType", "question");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
@@ -65,11 +65,11 @@ public class Answer extends Content {
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/answer/" + uuid);
+		entity.setProperty("url", "/question/" + uuid);
 		
 		datastore.put(entity);
 		
-		return new Answer(entity);
+		return new Question(entity);
 	}
 	
 	@Override
@@ -78,7 +78,7 @@ public class Answer extends Content {
 		for(String realProperties : FIELDS){
 			if (realProperties.equals(property)) acceptableProperty = true;
 		}
-		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property modification.");
+		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property Modification.");
 	}
 
 }

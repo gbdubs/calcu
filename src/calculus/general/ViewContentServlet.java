@@ -33,7 +33,7 @@ public class ViewContentServlet extends HttpServlet {
 		
 		if (contentType == "practiceProblem"){
 			PracticeProblem pp = new PracticeProblem(uuid);
-			if (pp.getSubmitted() == "true" && pp.getViewable() == "true"){
+			if (pp.getSubmitted() && pp.getViewable()){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				resp.setContentType("text/html");
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
