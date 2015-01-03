@@ -3636,7 +3636,6 @@ fieldset[disabled] .btn-vk.active {
 
 .karma-score{
     font-weight: 700;
-    font-size: 125%;
 }
 
 
@@ -3661,13 +3660,25 @@ fieldset[disabled] .btn-vk.active {
 
 .rating-system-horizontal{
     border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
     padding: 5px 10px 0 10px;
-    width: 310px;
+    width: 271px;
     display: inline-block;
     float: right;
     margin: -10px -10px 5px 5px;
     border-left: 1px solid #f4f4f4;
     border-bottom: 1px solid #f4f4f4;
+    border-top: 1px solid #f4f4f4;
+}
+
+.rating-system-horizontal.small-screen{
+	width: Calc(100% + 20px);
+	border-radius: 0;
+	border-left: none;
+}
+
+.rating-system-horizontal.small-screen .knob-wrapper{
+	padding: 0 Calc((100% - 216px)/6);
 }
 
 .rating-system-horizontal .knob-wrapper{
@@ -3676,12 +3687,10 @@ fieldset[disabled] .btn-vk.active {
 }
 
 .rating-system-horizontal .btn {
-    padding: 21px 11px;
-    border-radius: 50px;
-    float: right;
-    margin: 5px 2px;
-    background-color: white;
-    box-shadow: none;
+    padding: 2px 0px;
+	margin: 5px 0px;
+	background-color: white;
+	box-shadow: none;
 }
 
 .rating-system-vertical .btn{
@@ -3866,4 +3875,9 @@ fieldset[disabled] .btn-vk.active {
 
 .create-content-buttons > div{
 	padding: 0 10px 10px 10px;
+}
+
+.box .box-header > .fa-karma-score{
+	padding: 12px 0px 8px 10px;
+}
 }
