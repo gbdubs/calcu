@@ -516,7 +516,7 @@ body > .header .navbar .nav > li > a > .label {
   height: 15px;
   line-height: 1.0em;
   text-align: center;
-  padding: 2px;
+  padding: 3px 3px 2px 3px;
 }
 body > .header .navbar .nav > li > a:hover > .label {
   top: 3px;
@@ -3879,5 +3879,9 @@ fieldset[disabled] .btn-vk.active {
 
 .box .box-header > .fa-karma-score{
 	padding: 12px 0px 8px 10px;
+}
+
+.practice-problem .box-body{
+	display: inline-block;
 }
 }

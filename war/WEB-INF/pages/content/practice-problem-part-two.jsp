@@ -7,7 +7,7 @@
 		CalcU | Sandbox
 	</jsp:attribute>
 	<jsp:attribute name="content">
-		<div class="box box-solid">
+		<div class="box box-solid practice-problem">
 			<div class="box-header">
 				<h3 class="box-title">Practice Problem by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> <small>on ${praticeProblem.readableDate}</small> </h3>
 			</div>
