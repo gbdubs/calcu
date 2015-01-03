@@ -140,6 +140,10 @@ public abstract class Content {
 		return entity;
 	}
 	
+	public String getRateUrl(){
+		return "/rate/" + entity.getProperty("uuid");
+	}
+	
 	public String getReadableTime(){
 		Date d = new Date(this.getCreatedAt());
 		SimpleDateFormat df = new SimpleDateFormat("MM/DD/YY HH:mm");

@@ -3,6 +3,8 @@ package calculus.models;
 import java.util.ArrayList;
 import java.util.List;
 
+import calculus.api.PracticeProblemAPI;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -41,6 +43,14 @@ public class PracticeProblem extends Content{
 	
 	public String getEditUrl(){
 		return "/contribute/practice-problem/edit/" + this.getUuid();
+	}
+	
+	public List<Answer> getAnswers(){
+		return PracticeProblemAPI.getAnswersForPracticeProblem(this);
+	}
+	
+	public String getNewAnswerUploadUrl(){
+		return "/answer/" + this.getUuid();
 	}
 	
 	public void verifyAcceptableProperty(String property) {

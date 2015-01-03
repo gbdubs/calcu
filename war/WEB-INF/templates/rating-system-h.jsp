@@ -12,9 +12,7 @@
 		<input name="quality" type="text" class="knob" value="70" data-skin="tron" data-thickness="0.1" data-width="70" data-height="70" data-fgcolor="#0073b7">
 		<div class="knob-label">Quality</div>
 	</div>
-	<input class="btn btn-block btn-default" type="submit">
-		Submit
-	</input>
+	<input class="btn btn-block btn-default" type="submit" value="Submit Feedback">
 </form>
 
 <form action="${param.formSubmitUrl}" method="post" class="rating-system-horizontal small-screen visible-xs">
@@ -31,7 +29,7 @@
 		<input name="quality" type="text" class="knob" value="70" data-skin="tron" data-thickness="0.1" data-width="70" data-height="70" data-fgcolor="#0073b7">
 		<div class="knob-label">Quality</div>
 	</div>
-	<input class="btn btn-block btn-default" type="submit">
+	<input class="btn btn-block btn-default" type="submit" value="Submit Feedback">
 		Submit
 	</input>
 </form>

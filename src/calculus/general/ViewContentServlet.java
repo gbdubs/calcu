@@ -31,12 +31,12 @@ public class ViewContentServlet extends HttpServlet {
 			
 		String contentType = Content.getContentType(uuid);
 		
-		if (contentType == "practiceProblem"){
+		if (contentType.equals("practiceProblem")){
 			PracticeProblem pp = new PracticeProblem(uuid);
 			if (pp.getSubmitted() && pp.getViewable()){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				resp.setContentType("text/html");
-				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem-part-two.jsp");
 				jsp.forward(req, resp);
 				
 			} else {
