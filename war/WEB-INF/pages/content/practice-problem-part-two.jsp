@@ -20,7 +20,7 @@
 								${practiceProblem.title}
 							</h4>
 						</div>
-						<div class="box-body">
+						<div class="box-body box-body-with-rating-system">
 							<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
 								<jsp:param name="contentId" value="${practiceProblem.uuid}" />
 								<jsp:param name="formPostUrl" value="${practiceProblem.rateUrl}" />

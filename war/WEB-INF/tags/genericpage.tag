@@ -225,5 +225,9 @@
 <script src="/_static/js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
 <!-- AdminLTE App -->
 <script src="/_static/js/AdminLTE/app.js" type="text/javascript"></script>
+<!-- MathJax Latex Plugin -->
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </body>
 </html>
