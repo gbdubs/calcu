@@ -32,19 +32,19 @@
 						<div class="box-header">
 							<i class="fa fa-bullseye fa-karma-score"><span class="karma-score">  +${practiceProblem.karma} </span></i>
 							<h4 class="box-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseAuthorSolution" class="collapsed">
 									Author's Solution
 								</a>
 							</h4>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in">
+						<div id="collapseAuthorSolution" class="panel-collapse collapse">
 							<div class="box-body box-body-with-rating-system">
 								${practiceProblem.authorSolution}
 							</div>
 						</div>
 					</div>
 					<c:forEach items="${practiceProblem.answers}" var="answer" varStatus="loop">
-						<div class="panel box ${answer.class}">
+						<div class="panel box ${answer.colorClass}">
 							<div class="box-header">
 								<i class="fa ${answer.icon} fa-karma-score"><span class="karma-score">  +${answer.karma} </span></i>
 								<h4 class="box-title">
@@ -55,36 +55,26 @@
 							</div>
 							<div id="collapsePracticeProblemAnswer${loop.index}" class="panel-collapse collapse" style="height: 0px;">
 								<div class="box-body box-body-with-rating-system">
+									<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
+										<jsp:param name="contentId" value="${answer.uuid}" />
+										<jsp:param name="formPostUrl" value="${answer.rateUrl}" />
+									</jsp:include>
 									${answer.body}
 								</div>
 							</div>
 						</div>
 					</c:forEach>
-					<!--<div class="panel box box-warning">
-						<div class="box-header">
-							<h4 class="box-title">
-								<i class="fa fa-lightbulb-o fa-karma-score"><span class="karma-score">  +22 </span></i>
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
-									Other Solution
-								</a>
-							</h4>
-						</div>
-						<div id="collapseThree" class="panel-collapse collapse" style="height: 0px;">
-							<div class="box-body box-body-with-rating-system">
-								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							</div>
-						</div>
-					</div>-->
-					<form class="panel box box-danger" action="${practiceProblem.newAnswerUploadUrl}" method="post">
+					<div class="panel box box-danger">
 						<div class="box-header">
 							<h4 class="box-title">
 								<i class="fa fa-university fa-karma-score"><span class="karma-score">  +? </span></i>
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseSubmitYourAnswer" class="collapsed">
 									Answer this Problem <small> Contribute your own explanation of the solution to this problem</small>
 								</a>
 							</h4>
 						</div>
-						<form action="${practiceProblem.newAnswerUploadUrl}" method="post" id="collapseFour" class="panel-collapse collapse" style="height: 0px;">
+						<form action="${practiceProblem.newAnswerUploadUrl}" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
+							<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}">
 							<div class="box-body">
 								<label for="title">Answer Title</label>
 								<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="RE:${practiceProblem.title}">
@@ -98,7 +88,7 @@
 								</div>
 							</div>
 						</form>
-					</form>
+					</div>
 				</div>
 			</div>
 		</div>

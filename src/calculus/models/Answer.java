@@ -88,4 +88,22 @@ public class Answer extends Content {
 	public boolean getApproved(){
 		return (boolean) this.getEntity().getProperty("approved");
 	}
+	
+	public String getIcon(){
+		if (this.getApproved()){
+			return "fa-check";
+		} else {
+			return "fa-lightbulb-o";
+		}
+	}
+	
+	public String getColorClass(){
+		if (this.getApproved()){
+			return "box-success";
+		} else {
+			return "box-warning";
+		}
+	}
+	
 }
+

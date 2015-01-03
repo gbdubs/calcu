@@ -3884,5 +3884,6 @@ fieldset[disabled] .btn-vk.active {
 
 .practice-problem .box-body.box-body-with-rating-system{
 	display: inline-block;
+	width: 100%;
 }
 }
