@@ -167,7 +167,5 @@ public class PracticeProblemAPI {
 			list.add(a);
 		}
 		return list;	
-	}
-	
-	
+	}	
 }
