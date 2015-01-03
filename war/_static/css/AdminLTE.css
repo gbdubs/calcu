@@ -524,11 +524,11 @@ body > .header .navbar .nav > li > a:hover > .label {
 body > .header .logo {
   float: left;
   font-size: 30px;
-  line-height: 45px;
+  line-height: 52px;
   text-align: center;
   padding: 0 10px;
   width: 220px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
   font-weight: 500;
   height: 50px;
   display: block;
@@ -2739,6 +2739,7 @@ Component: timeline
 
 .logo > img {
     height: 32px;
+    margin: 0 0 5px 0;
 }
 
 /* skin-black content header */
@@ -3881,7 +3882,7 @@ fieldset[disabled] .btn-vk.active {
 	padding: 12px 0px 8px 10px;
 }
 
-.practice-problem .box-body{
+.practice-problem .box-body.box-body-with-rating-system{
 	display: inline-block;
 }
 }

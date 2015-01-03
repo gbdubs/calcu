@@ -25,6 +25,7 @@ public class Answer extends Content {
 	static {
 		FIELDS.addAll(Content.FIELDS);
 		FIELDS.add("parentUuid");
+		FIELDS.add("approved");
 	}
 	
 	public Answer(String uuid) {
@@ -67,6 +68,7 @@ public class Answer extends Content {
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
+		entity.setProperty("approved", false);
 		entity.setProperty("url", "/answer/" + uuid);
 		
 		datastore.put(entity);
@@ -83,4 +85,7 @@ public class Answer extends Content {
 		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property modification.");
 	}
 
+	public boolean getApproved(){
+		return (boolean) this.getEntity().getProperty("approved");
+	}
 }
