@@ -20,6 +20,7 @@ import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class QuestionAPI {
@@ -47,7 +48,8 @@ public class QuestionAPI {
 		if (title == null || title == "") title = "[Un-named Question]";
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
-				
+		Text wrappedBody = new Text(body);
+		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
 		entity.setProperty("uuid", uuid);
@@ -55,7 +57,7 @@ public class QuestionAPI {
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
-		entity.setProperty("body", body);
+		entity.setProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
@@ -82,10 +84,11 @@ public class QuestionAPI {
 		if (title == null || title == "") title = "[Un-named Question]";
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";	
+		Text wrappedBody = new Text(body);
 		
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
-		entity.setProperty("body", body);
+		entity.setProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);

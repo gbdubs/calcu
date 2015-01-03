@@ -9,6 +9,7 @@ import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -38,7 +39,7 @@ public class PracticeProblem extends Content{
 	}
 	
 	public String getAuthorSolution(){
-		return (String) getEntity().getProperty("authorSolution");
+		return ((Text) getEntity().getProperty("authorSolution")).getValue();
 	}
 	
 	public String getEditUrl(){

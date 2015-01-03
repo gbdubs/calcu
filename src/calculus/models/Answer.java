@@ -11,6 +11,7 @@ import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -52,7 +53,8 @@ public class Answer extends Content {
 		if (title == null || title == "") title = "[Un-named Answer]";
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[The Author has opted to leave the answer blank, becuase they think it is self evident]";
-				
+		Text wrappedBody = new Text(body);		
+		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
 		entity.setProperty("uuid", uuid);
@@ -61,7 +63,7 @@ public class Answer extends Content {
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
-		entity.setProperty("body", body);
+		entity.setProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);

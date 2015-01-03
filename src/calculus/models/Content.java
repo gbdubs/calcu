@@ -16,6 +16,7 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.FilterOperator;
+import com.google.appengine.api.datastore.Text;
 
 public abstract class Content {
 	
@@ -117,7 +118,7 @@ public abstract class Content {
 	}
 	
 	public String getBody(){
-		return (String) entity.getProperty("body");
+		return ((Text) entity.getProperty("body")).getValue();
 	}
 	
 	public boolean getAnonymous(){

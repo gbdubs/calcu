@@ -20,6 +20,7 @@ import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -101,9 +102,11 @@ public class PracticeProblemAPI {
 		if (title == null || title == "") title = "[Un-named Problem]";
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
+		Text wrappedBody = new Text(body);
 		String authorSolution = (String) req.getParameter("authorSolution");
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
-		
+		Text wrappedAuthorSolution = new Text(authorSolution);
+			
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
 		entity.setProperty("uuid", uuid);
@@ -111,8 +114,8 @@ public class PracticeProblemAPI {
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
-		entity.setProperty("body", body);
-		entity.setProperty("authorSolution", authorSolution);
+		entity.setProperty("body", wrappedBody);
+		entity.setProperty("authorSolution", wrappedAuthorSolution);
 		entity.setProperty("otherSolutions", "<solutions></solutions>");
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
@@ -139,13 +142,15 @@ public class PracticeProblemAPI {
 		if (title == null || title == "") title = "[Un-named Problem]";
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
+		Text wrappedBody = new Text(body);
 		String authorSolution = (String) req.getParameter("authorSolution");
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
+		Text wrappedAuthorSolution = new Text(authorSolution);
 	
 		entity.setProperty("createdAt", dateAndTime);
 		entity.setProperty("title", title);
-		entity.setProperty("body", body);
-		entity.setProperty("authorSolution", authorSolution);
+		entity.setProperty("body", wrappedBody);
+		entity.setProperty("authorSolution", wrappedAuthorSolution);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
