@@ -30,6 +30,4 @@
 		<div class="knob-label">Quality</div>
 	</div>
 	<input class="btn btn-block btn-default" type="submit" value="Submit Feedback">
-		Submit
-	</input>
 </form>
