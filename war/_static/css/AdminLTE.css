@@ -3886,4 +3886,8 @@ fieldset[disabled] .btn-vk.active {
 	display: inline-block;
 	width: 100%;
 }
+
+.centered{
+	text-align: center;
+}
 }

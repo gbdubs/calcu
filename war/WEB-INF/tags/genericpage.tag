@@ -216,6 +216,11 @@
 	</div>
 </div>
 
+<!-- MathJax Latex Plugin -->
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js" type="text/javascript"></script>
@@ -225,9 +230,6 @@
 <script src="/_static/js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
 <!-- AdminLTE App -->
 <script src="/_static/js/AdminLTE/app.js" type="text/javascript"></script>
-<!-- MathJax Latex Plugin -->
-<script type="text/javascript"
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+
 </body>
 </html>

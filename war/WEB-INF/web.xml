@@ -115,7 +115,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>AnswerContent</servlet-name>
 		<url-pattern>/answer/*</url-pattern>
 	</servlet-mapping>
-
+	
+	
+	<servlet>
+		<servlet-name>LaTexIntroduction</servlet-name>
+		<servlet-class>calculus.contribute.LaTexIntroductionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LaTexIntroduction</servlet-name>
+		<url-pattern>/contribute/latex-introduction</url-pattern>
+	</servlet-mapping>
 	
 	
 	<servlet>
