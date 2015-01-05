@@ -140,6 +140,7 @@
                         <li><a href="/contribute/practice-problem"><i class="fa fa-angle-double-right"></i> Create Practice Problems</a></li>
                         <li><a href="/solve/practice-problem"><i class="fa fa-angle-double-right"></i> Solve Practice Problems</a></li>
                         <li><a href="/contribute/content"><i class="fa fa-angle-double-right"></i> Contribute Content</a></li>
+                        <li><a href="/contribute/latex-introduction"><i class="fa fa-angle-double-right"></i> Using LaTex Expressions</a></li>
                     </ul>
                 </li>
                 <li>

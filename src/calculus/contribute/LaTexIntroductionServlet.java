@@ -20,15 +20,15 @@ public class LaTexIntroductionServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		String[] expressions = {
-			"x^2",
+			"x^2 - 3x - 4 = (x - 4)(x + 1)",
 			"{base} ^ {exponent1 + exponent2}",
 			"\\frac {numerator} {denomenator}",
 			"\\| x \\|",
 			"\\int x \\, dx",
-			"\\alpha, A, \\beta, B, \\gamma, \\Gamma, \\pi, \\Pi, \\phi, \\varphi, \\Phi",
 			"\\int_ 0 ^ \\infty",
+			"\\alpha, A, \\beta, B, \\gamma, \\Gamma, \\pi, \\Pi, \\phi, \\varphi, \\Phi",
 			"\\forall x \\in X, \\quad \\exists y \\leq \\epsilon",
-			"\\cos (2\theta) = \\cos^2 \\theta - \\sin^2 \\theta"
+			"\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta"
 		};
 		
 		req.setAttribute("latexExamples", expressions);

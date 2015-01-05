@@ -18,17 +18,26 @@
 			</div>
 			<div class="box-body">
 				Thank you for taking the time to contribute a problem to the project!  There are a few things for you to know. 
-				
-				Firstly, you can intermittently save your work by using the save button at the bottom of the page. This does not submit the problem, 
-				and it will remain private until you submit. Once you submit the problem, you will not be able to edit it further. 
-				
-				Secondly, please only submit questions that you have the rights to.  For example, scraping questions out of a textbook 
-				may violate copyright law, and we wouldn't want that.  
-				
-				Thirdly, you have the option of submitting the question anonymously, or submitting with your username attached to it.  
-				Note that the username that will be associated with this problem forevermore is the one that you have when you submit.  
-				You will not receive karma for anonymous submissions.  
-				
+				<ul>
+					<li>
+						You can intermittently save your work by using the save button at the bottom of the page. This does not submit the problem, 
+						and it will remain private until you submit. Once you submit the problem, you will not be able to edit it further. 
+					</li>
+					<li>
+						You can insert beautifully typeset mathematical expressions easily, using LaTex syntax, which will be automatically extracted
+						and rendered to look amazing.  To find out how to write LaTex expressions, and the wrapping syntax that we have made availible,
+						check out the <a href="/contribute/latex-introduction">LaTex Introduction</a>.
+					</li>
+					<li>
+						please only submit questions that you have the rights to.  For example, scraping questions out of a textbook 
+						may violate copyright law, and we wouldn't want that.  
+					</li>
+					<li>
+						You have the option of submitting the question anonymously, or submitting with your username attached to it.  
+						Note that the username that will be associated with this problem forevermore is the one that you have when you submit.  
+						You will not receive karma for anonymous submissions.  
+					</li>
+				</ul>
 				Thank you so much for your work and your contribution to the project!
 			</div>
 		</div>
