@@ -49,9 +49,27 @@
 								<i class="fa ${answer.icon} fa-karma-score"><span class="karma-score">  +${answer.karma} </span></i>
 								<h4 class="box-title">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapsePracticeProblemAnswer${loop.index}" class="collapsed">
-										${answer.title} | by ${answer.author.username}
+										<c:choose>
+											<c:when test="${answer.anonymous}">${answer.title} <small> written on ${answer.shortReadableTime}</small></c:when>
+											<c:otherwise>${answer.title} <small> by ${answer.author.username} on ${answer.shortReadableTime}</small></c:otherwise>
+										</c:choose>
 									</a>
 								</h4>
+								<div class="dropdown pull-right report-menu">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                            Actions <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+											<c:if test="${! answer.anonymous}"> 
+												<li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.author.profileUrl}">Go To User Profile</a></li>
+                                            	<li role="presentation" class="divider"></li>
+											</c:if>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.reportUrl}">Report Inappropriate Content</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.reportUrl}">Report Inaccurate Content</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.reportUrl}">Report Irrelevant Content</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
 							</div>
 							<div id="collapsePracticeProblemAnswer${loop.index}" class="panel-collapse collapse" style="height: 0px;">
 								<div class="box-body box-body-with-rating-system">

@@ -46,9 +46,9 @@ public class Answer extends Content {
 		String parentUuid = req.getParameter("parentUuid");
 		long time = System.currentTimeMillis();
 		
-		boolean anonymous = false;
-		boolean submitted = (req.getParameter("saveWork") == null);
-		boolean viewable = (req.getParameter("saveWork") == null);
+		boolean anonymous = (req.getParameter("anonymousSubmit") != null);
+		boolean submitted = true;
+		boolean viewable = true;
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Answer]";

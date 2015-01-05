@@ -3890,4 +3890,8 @@ fieldset[disabled] .btn-vk.active {
 .centered{
 	text-align: center;
 }
+
+.report-menu{
+	padding: 10px;
+}
 }
