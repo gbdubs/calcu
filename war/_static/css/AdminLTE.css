@@ -3894,4 +3894,10 @@ fieldset[disabled] .btn-vk.active {
 .report-menu{
 	padding: 10px;
 }
+
+.normal-menu-item-input{
+	padding: 0;
+	border: none;
+	background: none;
+}
 }

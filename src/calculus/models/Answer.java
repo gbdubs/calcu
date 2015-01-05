@@ -59,6 +59,7 @@ public class Answer extends Content {
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
 		entity.setProperty("uuid", uuid);
+		entity.setProperty("karma", 0);
 		entity.setProperty("parentUuid", parentUuid);
 		entity.setProperty("contentType", "answer");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
@@ -103,6 +104,28 @@ public class Answer extends Content {
 		} else {
 			return "box-warning";
 		}
+	}
+	
+	public String getParentUuid(){
+		return (String) this.getEntity().getProperty("parentUuid");
+	}
+	
+	public String getApprovedSolutionUrl(){
+		return "/mark-approved-answer/" + this.getEntity().getProperty("uuid");
+	}
+	
+	public String getNotApprovedSolutionUrl(){
+		return "/mark-approved-answer/not/" + this.getEntity().getProperty("uuid");
+	}
+
+	public void markApproved() {
+		this.getEntity().setProperty("approved", true);
+		datastore.put(this.getEntity());
+	}
+	
+	public void markNotApproved() {
+		this.getEntity().setProperty("approved", false);
+		datastore.put(this.getEntity());
 	}
 	
 }

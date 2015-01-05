@@ -118,6 +118,26 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>MarkApprovedAnswer</servlet-name>
+		<servlet-class>calculus.general.MarkApprovedAnswerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MarkApprovedAnswer</servlet-name>
+		<url-pattern>/mark-approved-answer/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ReportContent</servlet-name>
+		<servlet-class>calculus.general.ReportContentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReportContent</servlet-name>
+		<url-pattern>/report/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>LaTexIntroduction</servlet-name>
 		<servlet-class>calculus.contribute.LaTexIntroductionServlet</servlet-class>
 	</servlet>

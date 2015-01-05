@@ -10,6 +10,32 @@
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
 				<h3 class="box-title">Practice Problem <small>by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> on ${practiceProblem.shortReadableTime}</small></h3>
+				<div class="dropdown pull-right report-menu">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Actions <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<c:if test="${! practiceProblem.anonymous}"> 
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="${practiceProblem.author.profileUrl}">Go To User Profile</a></li>
+							<li role="presentation" class="divider"></li>
+						</c:if>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+							<form action="${practiceProblem.reportUrl}" method="post">
+								<input class="menuitem normal-menu-item-input" type="submit" name="inappropriateContent" value="Report Inappropriate Content">
+							</form>
+						</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+							<form action="${practiceProblem.reportUrl}" method="post">
+								<input class="menuitem normal-menu-item-input" type="submit" name="inaccurateContent" value="Report Inaccurate Content">
+							</form>
+						</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+							<form action="${practiceProblem.reportUrl}" method="post">
+								<input class="menuitem normal-menu-item-input" type="submit" name="irrelevantContent" value="Report Irrelevant Content">
+							</form>
+						</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="box-body">
 				<div class="box-group" id="accordion">
@@ -56,19 +82,48 @@
 									</a>
 								</h4>
 								<div class="dropdown pull-right report-menu">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                            Actions <span class="caret"></span>
-                                        </a>
-                                        <ul class="dropdown-menu">
-											<c:if test="${! answer.anonymous}"> 
-												<li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.author.profileUrl}">Go To User Profile</a></li>
-                                            	<li role="presentation" class="divider"></li>
-											</c:if>
-                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.reportUrl}">Report Inappropriate Content</a></li>
-                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.reportUrl}">Report Inaccurate Content</a></li>
-                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.reportUrl}">Report Irrelevant Content</a></li>
-                                        </ul>
-                                    </li>
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+										Actions <span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<c:if test="${user.userId == practiceProblem.creatorUserId}"> 
+											<li role="presentation">
+												<a role="menuitem" tabindex="-1" href="#">
+													<c:if test="${! answer.approved}"> 
+														<form method="post" action="${answer.approvedSolutionUrl}">
+															<input class="menuitem normal-menu-item-input" value="Mark Approved Solution" type="submit">
+														</form>
+													</c:if>
+													<c:if test="${answer.approved}"> 
+														<form method="post" action="${answer.notApprovedSolutionUrl}">
+															<input class="menuitem normal-menu-item-input" value="Unmark as Approved Solution" type="submit">
+														</form>
+													</c:if>
+												</a>
+											</li>
+											<li role="presentation" class="divider"></li>
+										</c:if>
+										<c:if test="${! answer.anonymous}"> 	
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="${answer.author.profileUrl}">Go To User Profile</a></li>
+											<li role="presentation" class="divider"></li>
+										</c:if>
+										
+										<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+											<form action="${answer.reportUrl}" method="post">
+												<input class="menuitem normal-menu-item-input" type="submit" name="inappropriateContent" value="Report Inappropriate Content">
+											</form>
+										</a></li>
+										<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+											<form action="${answer.reportUrl}" method="post">
+												<input class="menuitem normal-menu-item-input" type="submit" name="inaccurateContent" value="Report Inaccurate Content">
+											</form>
+										</a></li>
+										<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+											<form action="${answer.reportUrl}" method="post">
+												<input class="menuitem normal-menu-item-input" type="submit" name="irrelevantContent" value="Report Irrelevant Content">
+											</form>
+										</a></li>
+									</ul>
                                 </div>
 							</div>
 							<div id="collapsePracticeProblemAnswer${loop.index}" class="panel-collapse collapse" style="height: 0px;">

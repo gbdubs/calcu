@@ -167,4 +167,12 @@ public abstract class Content {
 		Entity entity = pq.asSingleEntity();
 		return (String) entity.getProperty("contentType");
 	}
+	
+	public static void setInvisible(String uuid){
+		Query q = new Query("Content").addFilter("uuid", FilterOperator.EQUAL, uuid);
+		PreparedQuery pq = datastoreService.prepare(q);
+		Entity entity = pq.asSingleEntity();
+		entity.setProperty("viewable", false);
+		datastoreService.put(entity);
+	}
 }

@@ -20,6 +20,7 @@ import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
+import com.google.appengine.api.datastore.Query.SortDirection;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -165,7 +166,7 @@ public class PracticeProblemAPI {
 		String ppUuid = pp.getUuid();
 		Filter problemFilter = new FilterPredicate("parentUuid", FilterOperator.EQUAL, ppUuid);
 		Filter compositeFilter = CompositeFilterOperator.and(problemFilter, answerFilter, viewableFilter, submittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("approved", SortDirection.DESCENDING).addSort("karma");
 		PreparedQuery pq = datastore.prepare(query);
 		for (Entity result : pq.asIterable()) {
 			Answer a = new Answer(result);
