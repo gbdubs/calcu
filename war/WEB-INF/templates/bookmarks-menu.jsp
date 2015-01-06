@@ -13,7 +13,8 @@
  				<li>
 					<a href="${bookmark.url}">
 						<i class="fa ${bookmark.icon} ${bookmark.color}"></i> 
-						${bookmark.description}
+						<h4>${bookmark.title}</h4>
+						<h5>${bookmark.description}</h5>
 					</a>
 				</li>
 			</c:forEach>

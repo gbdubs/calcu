@@ -15,6 +15,10 @@
 						Actions <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
+						<li class="add-bookmark-button" data-user="${user.userId}" data-content="${practiceProblem.uuid}" data-action="add">
+							<a role="menuitem" tabindex="-1" href="#">Bookmark Problem</a>
+						</li>
+						<li role="presentation" class="divider"></li>
 						<c:if test="${! practiceProblem.anonymous}"> 
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="${practiceProblem.author.profileUrl}">Go To User Profile</a></li>
 							<li role="presentation" class="divider"></li>

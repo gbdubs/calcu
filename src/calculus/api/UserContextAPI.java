@@ -1,7 +1,11 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
+import calculus.models.Content;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.MenuItem;
 
@@ -21,6 +25,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class UserContextAPI {
 	
 	private static UserService userService = UserServiceFactory.getUserService();
+	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static void addUserContextToRequest(HttpServletRequest req, String pageUrl){
 		
@@ -70,20 +75,30 @@ public class UserContextAPI {
 	
 	private static void addUserBookmarksToRequest(HttpServletRequest req, User user){
 		
-		MenuItem[] bookmarks;
 		if (user != null){
-			bookmarks = new MenuItem[2];
-			bookmarks[0] = new MenuItem("#", "", "What is this whole DX thing anyway?", "", "", "warning", "fa-question", "");
-			bookmarks[1] = new MenuItem("#", "", "What is the difference between an integral with no bounds and one from 0 to x?", "", "", "info", "fa-warning", "");
-
+			Entity userPrivateInfo = UserDatastoreAPI.getOrCreateUserPrivateInfo(user.getUserId());
+			List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
+			List<MenuItem> bookmarksToDisplay = new ArrayList<MenuItem>();
+			if (bookmarks != null){
+				for(String  b : bookmarks){
+					String contentType = Content.getContentType(b);
+					Content c;
+					try {
+						c = new Content(datastore.get(KeyFactory.createKey("Content", b)), contentType);
+						bookmarksToDisplay.add(new MenuItem(c));
+					} catch (EntityNotFoundException e) {
+						// TODO Skip?
+					}
+				}
+			}
+			req.setAttribute("bookmarksMenu", bookmarksToDisplay);
 		} else {
-			bookmarks = new MenuItem[2];
-			
+			MenuItem[] bookmarks = new MenuItem[2];
 			bookmarks[0] = new MenuItem("#", "", "You can store Bookmarks of your favorite", "", "", "success", "fa-bank", "");
 			bookmarks[1] = new MenuItem("#", "", "materials, practice problems and questions", "", "", "info", "fa-question", "");
-
+			req.setAttribute("bookmarksMenu", bookmarks);
 		}
-		req.setAttribute("bookmarksMenu", bookmarks);
+		
 	}
 	
 	private static void addUserNotificationsToRequest(HttpServletRequest req, User user){

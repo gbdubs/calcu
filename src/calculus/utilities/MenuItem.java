@@ -1,5 +1,7 @@
 package calculus.utilities;
 
+import calculus.models.Content;
+
 public class MenuItem {
 	private String url;
 	
@@ -23,6 +25,28 @@ public class MenuItem {
 		this.image = image;
 	}
 	
+	public MenuItem(Content c) {
+		this.url = c.getUrl();
+		this.title = c.getTitle();
+		this.description = c.getBody();
+		this.time = c.getShortReadableTime();
+		this.percentage = "0%";
+		
+		String contentType = c.getContentType();
+		
+		if (contentType.equals("practiceProblem")){
+			this.icon = "fa-pencil";
+			this.color = "success";
+		} else if (contentType.equals("question")){
+			this.icon = "fa-question";
+			this.color = "info";
+		} else {
+			this.icon = "fa-lightbulb-o";
+			this.color = "warning";
+		}
+		this.image = "avatar2.png";
+	}
+
 	public String getUrl(){
 		return this.url;
 	}

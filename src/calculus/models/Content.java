@@ -18,7 +18,7 @@ import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Text;
 
-public abstract class Content {
+public class Content {
 	
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	protected static List<String> FIELDS = new ArrayList<String>();
@@ -63,7 +63,7 @@ public abstract class Content {
 		this.entity.setProperty("karma", 0);
 		this.author = null;
 	}
-	
+
 	public void refresh(){
 		this.key = this.entity.getKey();
 		try {
@@ -81,7 +81,10 @@ public abstract class Content {
 		}
 	}
 	
-	public abstract void verifyAcceptableProperty(String property);
+	//TODO: This refactor from an abstract class.
+	public void verifyAcceptableProperty(String property){
+
+	};
 	
 	public String getContentType(){
 		return (String) entity.getProperty("contentType");

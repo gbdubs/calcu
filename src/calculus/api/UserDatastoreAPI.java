@@ -1,5 +1,8 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -10,10 +13,8 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
-import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.users.User;
-import com.google.appengine.api.users.UserServiceFactory;
 
 public class UserDatastoreAPI {
 
@@ -26,8 +27,7 @@ public class UserDatastoreAPI {
 		return entity;
 	}
 
-	public static Entity getOrCreateUserPublicInfo(User user){
-		
+	public static Entity getOrCreateUserPublicInfo(User user){	
 		String userId = user.getUserId();
 	
 		if (user == null) return null;
@@ -78,10 +78,12 @@ public class UserDatastoreAPI {
 			userPrivateInfo = datastoreService.get(publicInfoKey);
 			return userPrivateInfo;
 		} catch (EntityNotFoundException e){
+			List<String> bookmarks = new ArrayList<String>();
 			userPrivateInfo.setProperty("emailKarma", "none");
 			userPrivateInfo.setProperty("emailRecommend", "weekly");
 			userPrivateInfo.setProperty("emailReply", "none");
-			
+			userPrivateInfo.setProperty("bookmarks", bookmarks);
+			System.out.println(userPrivateInfo.toString());
 			datastoreService.put(userPrivateInfo);
 			return userPrivateInfo;
 		}
@@ -107,7 +109,7 @@ public class UserDatastoreAPI {
 	}
 
 	public static Entity getOrCreateUserPrivateInfo(String userId) {
-			Key publicInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
+		Key publicInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
 		
 		Entity userPrivateInfo = new Entity(publicInfoKey);
 		
@@ -115,10 +117,12 @@ public class UserDatastoreAPI {
 			userPrivateInfo = datastoreService.get(publicInfoKey);
 			return userPrivateInfo;
 		} catch (EntityNotFoundException e){
+			List<String> bookmarks = new ArrayList<String>();
 			userPrivateInfo.setProperty("emailKarma", "none");
 			userPrivateInfo.setProperty("emailRecommend", "weekly");
 			userPrivateInfo.setProperty("emailReply", "none");
-			
+			userPrivateInfo.setProperty("bookmarks", bookmarks);
+			System.out.println(userPrivateInfo.toString());
 			datastoreService.put(userPrivateInfo);
 			return userPrivateInfo;
 		}

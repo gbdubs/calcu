@@ -138,6 +138,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>BookmarkServlet</servlet-name>
+		<servlet-class>calculus.general.BookmarkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookmarkServlet</servlet-name>
+		<url-pattern>/bookmark</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>LaTexIntroduction</servlet-name>
 		<servlet-class>calculus.contribute.LaTexIntroductionServlet</servlet-class>
 	</servlet>
