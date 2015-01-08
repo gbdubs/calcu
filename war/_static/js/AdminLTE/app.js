@@ -159,6 +159,17 @@ $(function() {
     		data: "userId="+userId+"&contentUuid="+content+"&action="+action
     	});
     });
+    
+    $(".remove-bookmark-button").click(function(){
+    	var userId = $(this).data("user");
+    	var content = $(this).data("content");
+    	var action = $(this).data("action");
+    	$.ajax({
+    		type: "POST",
+    		url: "/bookmark",
+    		data: "userId="+userId+"&contentUuid="+content+"&action="+action
+    	});
+    });
 });
 
 function fix_sidebar() {

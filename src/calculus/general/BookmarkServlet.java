@@ -24,7 +24,7 @@ public class BookmarkServlet extends HttpServlet{
 		
 		if (action.equals("add")){
 			BookmarksAPI.addBookmarkForUser(contentUuid, userId);
-		} else {
+		} else if (action.equals("remove")){
 			BookmarksAPI.deleteBookmarkForUser(contentUuid, userId);
 		}
 		

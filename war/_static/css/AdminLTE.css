@@ -3805,6 +3805,7 @@ fieldset[disabled] .btn-vk.active {
     border-color: rgba(54,127,169, .5);
     color: #fff;
     width: Calc(100% - 55px);
+    height: 33px;
 }
 
 .user-profile-settings form{
@@ -3889,6 +3890,14 @@ fieldset[disabled] .btn-vk.active {
 
 .centered{
 	text-align: center;
+}
+
+.report-menu{
+	padding: 10px;
+}
+
+.primary-report-menu.report-menu{
+	padding: 10px 10px 0 10px;
 }
 
 .report-menu{

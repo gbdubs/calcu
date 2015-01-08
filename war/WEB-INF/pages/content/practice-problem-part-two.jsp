@@ -10,14 +10,32 @@
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
 				<h3 class="box-title">Practice Problem <small>by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> on ${practiceProblem.shortReadableTime}</small></h3>
-				<div class="dropdown pull-right report-menu">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+				<div class="dropdown pull-right report-menu primary-report-menu">
+					<a class="dropdown-toggle btn btn-default" data-toggle="dropdown" href="#">
 						Actions <span class="caret"></span>
 					</a>
+					<c:set var="bookmarked" value="false" />
+					<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+					  <c:if test="${bookmarkUuid eq practiceProblem.uuid}">
+						<c:set var="bookmarked" value="true" />
+					  </c:if>
+					</c:forEach>
+					
 					<ul class="dropdown-menu">
-						<li class="add-bookmark-button" data-user="${user.userId}" data-content="${practiceProblem.uuid}" data-action="add">
-							<a role="menuitem" tabindex="-1" href="#">Bookmark Problem</a>
-						</li>
+						<c:choose>
+							<c:when test="${bookmarked}">
+								<li class="remove-bookmark-button" data-user="${user.userId}" data-content="${practiceProblem.uuid}" data-action="remove">
+									<a role="menuitem" tabindex="-1" href="#">Un-bookmark Problem</a>
+								</li>
+							</c:when>
+							<c:otherwise>
+								<li class="add-bookmark-button" data-user="${user.userId}" data-content="${practiceProblem.uuid}" data-action="add">
+									<a role="menuitem" tabindex="-1" href="#">Bookmark Problem</a>
+								</li>
+							</c:otherwise>
+						</c:choose>
+						
+						
 						<li role="presentation" class="divider"></li>
 						<c:if test="${! practiceProblem.anonymous}"> 
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="${practiceProblem.author.profileUrl}">Go To User Profile</a></li>
