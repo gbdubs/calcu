@@ -26,5 +26,5 @@
 			</c:forEach>
 		</ul>
 	</li>
-	<li class="footer"><a href="#">View All Notifications</a></li>
+	<li class="footer"><a href="${profileUrl}#notifications">View All Notifications</a></li>
 </ul>

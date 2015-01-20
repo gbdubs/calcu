@@ -8,6 +8,7 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
+		
 		<div class="box box-primary">
 			<div class="box-header">
 				<i class="fa fa-user"></i>
@@ -68,7 +69,9 @@
 			</div>
 		</div>
 		
+		
 		<div class="box box-success">
+			<span id="notifications" class="page-locator"></span>
 			<div class="box-header">
 				<i class="fa fa-flag"></i>
 				<h3 class="box-title">Notifications</h3>
@@ -100,7 +103,9 @@
 			</div>
 		</div>
 		
-		<div class="box box-warning" id="bookmarks">
+		
+		<div class="box box-warning">
+			<span id="bookmarks" class="page-locator"></span>
 			<div class="box-header">
 				<i class="fa fa-bookmark"></i>
 				<h3 class="box-title">Bookmarks</h3>
@@ -119,7 +124,9 @@
 			</div>
 		</div>
 		
+
 		<div class="box box-danger">
+			<span id="karma" class="page-locator"></span>
 			<div class="box-header">
 				<i class="fa fa-trophy"></i>
 				<h3 class="box-title">Karma Breakdown</h3>

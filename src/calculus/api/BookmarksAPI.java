@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Content;
 import calculus.utilities.MenuItem;
+import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -71,8 +72,9 @@ public class BookmarksAPI {
 				}
 			} 
 			if (bookmarks == null || bookmarks.size() < 0){
+				String profileBookmarksUrl = UrlGenerator.profileUrl(user) + "#bookmarks";
 				bookmarksToDisplay.add(new MenuItem(
-						"", "", "You don't currently have any bookmarks", "To bookmark some content, when you are on the content page, simply select the options dropdown and click bookmark.", "", "", "info", "fa-lightbulb-o",""
+						profileBookmarksUrl, "", "You don't currently have any bookmarks", "To bookmark some content, when you are on the content page, simply select the options dropdown and click bookmark.", "", "", "info", "fa-lightbulb-o",""
 				));
 			}
 			req.setAttribute("bookmarksMenu", bookmarksToDisplay);

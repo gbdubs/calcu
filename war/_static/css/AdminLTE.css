@@ -3925,4 +3925,10 @@ fieldset[disabled] .btn-vk.active {
 	position: absolute;
 	margin: 30px 0 0 5px;
 }
+
+.page-locator{
+	margin-top: -70px;        /* Size of fixed header + 20px padding */
+  	padding-bottom: 70px; 
+  	display: block; 
+}
 }
