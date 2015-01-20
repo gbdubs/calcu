@@ -1,6 +1,25 @@
 $(function() {
     "use strict";
 
+    $("#email-pref-submit").click(function(){
+    	$(this).attr('disabled', 'disabled');
+    	
+    	var parent = $(this).closest("form");
+    	
+    	var reply = $("#email-pref-reply", parent).val();
+    	var karma = $("#email-pref-karma", parent).val();
+    	var recommend = $("#email-pref-recommend", parent).val();
+    	var userId = $(parent).data("user");
+    	
+    	$.ajax({
+    		type: "POST",
+    		url: "/change-email-preferences",
+    		data: "userId="+userId+"&emailReply="+reply+"&emailKarma="+karma+"&emailRecommend="+recommend
+    	});
+    	
+    	$(this).val("Changed!").addClass("btn-success").removeClass("btn-primary");
+    });
+    
     $("#change-username-button").click(function(){
     	$(this).attr('disabled', 'disabled');
     	

@@ -42,7 +42,7 @@
 						</form>
 					</div>
 					
-					<form action="/change-email-preferences" method="post" class="user-email-preferences col-sm-12 col-md-7 col-lg-6">
+					<form class="user-email-preferences col-sm-12 col-md-7 col-lg-6" data-user="${user.userId}">
 						<label for="email-pref-reply">Reply Email Preference</label>
 						<select class="form-control" id="email-pref-reply" name="emailReply">
 							<option value="every" <c:if test="${emailReply =='every'}">selected</c:if>>EVERY: Email me for every reply to a question of mine.</option>
@@ -61,7 +61,7 @@
 							<option value="weekly"<c:if test="${emailRecommend =='weekly'}">selected</c:if>>WEEKLY: Email me weekly with new resources that might be useful to me.</option>
 							<option value="none"  <c:if test="${emailRecommend =='none'}">selected</c:if>>NONE: Please do not send me emails with recommendations.</option>
 						</select>
-						<input type="submit" value="Save Email Preferences" class="btn btn-primary pull-right">
+						<input type="submit" value="Save Email Preferences" class="btn btn-primary pull-right" id="email-pref-submit">
 					</form>
 		
 				</div>
