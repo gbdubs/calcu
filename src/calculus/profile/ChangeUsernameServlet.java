@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.UserDatastoreAPI;
+import calculus.api.UserPublicInfoAPI;
 import calculus.api.UserVerificationAPI;
 import calculus.utilities.UrlGenerator;
 
@@ -26,7 +26,7 @@ public class ChangeUsernameServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
-		UserDatastoreAPI.updateUsername(user, (String) req.getParameter("edit-username"));
+		UserPublicInfoAPI.updateUsername(user, (String) req.getParameter("edit-username"));
 		
 		resp.sendRedirect(UrlGenerator.profileUrl(user));
 	}	

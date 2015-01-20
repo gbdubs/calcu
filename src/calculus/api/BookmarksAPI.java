@@ -22,7 +22,7 @@ public class BookmarksAPI {
 	
 	public static void addBookmarkForUser(String contentUuid, String userId){
 		
-		Entity userPrivateInfo = UserDatastoreAPI.getOrCreateUserPrivateInfo(userId);
+		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
 		
 		List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
 		
@@ -37,7 +37,7 @@ public class BookmarksAPI {
 	
 	public static void deleteBookmarkForUser(String contentUuid, String userId){
 		
-		Entity userPrivateInfo = UserDatastoreAPI.getOrCreateUserPrivateInfo(userId);
+		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
 		
 		List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
 		
@@ -53,7 +53,7 @@ public class BookmarksAPI {
 	public static void addUserBookmarksToRequest(HttpServletRequest req, User user){
 		
 		if (user != null){
-			Entity userPrivateInfo = UserDatastoreAPI.getOrCreateUserPrivateInfo(user.getUserId());
+			Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(user.getUserId());
 			List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
 			List<MenuItem> bookmarksToDisplay = new ArrayList<MenuItem>();
 			List<String> bookmarkUuids = new ArrayList<String>();

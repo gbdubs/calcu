@@ -19,7 +19,7 @@ public class UserVerificationAPI {
 		UserService userService = UserServiceFactory.getUserService();
 		User user = userService.getCurrentUser();
 		
-		Entity userPublicInfo = UserDatastoreAPI.getOrCreateMyPublicInfo(user);
+		Entity userPublicInfo = UserPublicInfoAPI.getOrCreateMyPublicInfo(user);
 		if (userPublicInfo == null) return false;
 		String userId = (String) userPublicInfo.getProperty("userId");
 		

@@ -2,7 +2,7 @@ package calculus.models;
 
 import com.google.appengine.api.datastore.Entity;
 
-import calculus.api.UserDatastoreAPI;
+import calculus.api.UserPublicInfoAPI;
 import calculus.utilities.KarmaDescription;
 
 public class Author {
@@ -15,7 +15,7 @@ public class Author {
 	
 	
 	public Author(String authorId){
-		Entity entity = UserDatastoreAPI.getOrCreateUserPublicInfo(authorId);
+		Entity entity = UserPublicInfoAPI.getOrCreateUserPublicInfo(authorId);
 		
 		this.username = (String) entity.getProperty("username");
 		this.karma = (long) entity.getProperty("karma");

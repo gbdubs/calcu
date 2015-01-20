@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.UserDatastoreAPI;
+import calculus.api.UserPrivateInfoAPI;
 import calculus.api.UserVerificationAPI;
 import calculus.utilities.UrlGenerator;
 
@@ -33,7 +33,7 @@ public class ChangeEmailPreferencesServlet extends HttpServlet {
 		preferences.put("emailRecommend", (String) req.getParameter("emailRecommend"));
 		preferences.put("emailReply", (String) req.getParameter("emailReply"));
 		
-		UserDatastoreAPI.setUserEmailPreferences(user, preferences);
+		UserPrivateInfoAPI.setUserEmailPreferences(user, preferences);
 		
 		resp.sendRedirect(UrlGenerator.profileUrl(user));
 	}

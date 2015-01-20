@@ -52,7 +52,7 @@ public class UserContextAPI {
 		String email = "anonymous314159@gmail.com";
 		
 		if (user != null){
-			Entity publicInfo = UserDatastoreAPI.getOrCreateMyPublicInfo(user);
+			Entity publicInfo = UserPublicInfoAPI.getOrCreateMyPublicInfo(user);
 			karma = ((Long) publicInfo.getProperty("karma")).intValue();
 			username = (String) publicInfo.getProperty("username");
 			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
@@ -105,7 +105,7 @@ public class UserContextAPI {
 	}
 
 	private static void addUserProfileInformationToRequest(HttpServletRequest req, User user){
-		Entity privateInfo = UserDatastoreAPI.getOrCreateUserPrivateInfo(user);
+		Entity privateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(user);
 		
 		req.setAttribute("emailReply", (String) privateInfo.getProperty("emailReply"));
 		req.setAttribute("emailRecommend", (String) privateInfo.getProperty("emailRecommend"));
