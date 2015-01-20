@@ -52,7 +52,7 @@ public class UserContextAPI {
 		String email = "anonymous314159@gmail.com";
 		
 		if (user != null){
-			Entity publicInfo = UserDatastoreAPI.getOrCreateUserPublicInfo(user);
+			Entity publicInfo = UserDatastoreAPI.getOrCreateMyPublicInfo(user);
 			karma = ((Long) publicInfo.getProperty("karma")).intValue();
 			username = (String) publicInfo.getProperty("username");
 			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");

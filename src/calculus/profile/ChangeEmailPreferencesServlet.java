@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserDatastoreAPI;
 import calculus.api.UserVerificationAPI;
+import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -24,8 +25,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class ChangeEmailPreferencesServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
 		
-		UserService userService = UserServiceFactory.getUserService();
-		User user = userService.getCurrentUser();
+		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
 		Map<String, String> preferences = new HashMap<String, String>();
 		
@@ -33,8 +33,8 @@ public class ChangeEmailPreferencesServlet extends HttpServlet {
 		preferences.put("emailRecommend", (String) req.getParameter("emailRecommend"));
 		preferences.put("emailReply", (String) req.getParameter("emailReply"));
 		
-		UserDatastoreAPI.updateUserPrivateInfo(user, preferences);
+		UserDatastoreAPI.setUserEmailPreferences(user, preferences);
 		
-		resp.sendRedirect("/user/" + user.getUserId());
+		resp.sendRedirect(UrlGenerator.profileUrl(user));
 	}
 }

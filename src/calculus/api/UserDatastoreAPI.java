@@ -1,9 +1,13 @@
 package calculus.api;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+
+import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -14,30 +18,43 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.FilterOperator;
+import com.google.appengine.api.images.Image;
 import com.google.appengine.api.users.User;
 
 public class UserDatastoreAPI {
 
-	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+	private static Set<String> PRIVATE_FIELDS;
+	
+	static{
+		PRIVATE_FIELDS = new HashSet<String>();
+		PRIVATE_FIELDS.add("emailKarma");
+		PRIVATE_FIELDS.add("emailRecommend");
+		PRIVATE_FIELDS.add("emailReply");
+		PRIVATE_FIELDS.add("bookmarks");
+	}
+	
+	private static DatastoreService datastore= DatastoreServiceFactory.getDatastoreService();
 	
 	public static Entity getUserPublicInfo(String userId){
-		Query q = new Query("UserPublicInfo").addFilter("userId", FilterOperator.EQUAL, userId);
-		PreparedQuery pq = datastoreService.prepare(q);
-		Entity entity = pq.asSingleEntity();
-		return entity;
+		Key publicInfoKey = KeyFactory.createKey("userPublicInfo", userId);
+		try {
+			return datastore.get(publicInfoKey);
+		} catch (EntityNotFoundException e) {
+			throw new RuntimeException("Attempted to access userPublicInfo that did not exist.");
+		}
 	}
 
-	public static Entity getOrCreateUserPublicInfo(User user){	
-		String userId = user.getUserId();
-	
+	public static Entity getOrCreateMyPublicInfo(User user){
 		if (user == null) return null;
+		
+		String userId = user.getUserId();
 		
 		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", userId);
 		
 		Entity userPublicInfo = new Entity(publicInfoKey);
 		
 		try{
-			userPublicInfo = datastoreService.get(publicInfoKey);
+			userPublicInfo = datastore.get(publicInfoKey);
 			return userPublicInfo;
 			
 		} catch (EntityNotFoundException e){
@@ -50,62 +67,40 @@ public class UserDatastoreAPI {
 			userPublicInfo.setProperty("profileUrl", profileUrl);
 			userPublicInfo.setProperty("email", user.getEmail());
 			
-			datastoreService.put(userPublicInfo);
+			datastore.put(userPublicInfo);
 			
 			return userPublicInfo;
 		}
 	}
 	
-	public static void updateUserPublicInfo(User user, String property, String newValue) {
-		Entity userPublicInfo = getUserPublicInfo(user.getUserId());
+	public static Entity getOrCreateUserPublicInfo(String userId){
+		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", userId);
 		
-		userPublicInfo.setProperty(property, newValue);
+		Entity userPublicInfo = new Entity(publicInfoKey);
 		
-		datastoreService.put(userPublicInfo);
+		try{
+			userPublicInfo = datastore.get(publicInfoKey);
+			return userPublicInfo;
+			
+		} catch (EntityNotFoundException e){
+			String profileUrl = UrlGenerator.profileUrl(userId);
+			
+			userPublicInfo.setProperty("username", "Anonymous Anteater");
+			userPublicInfo.setProperty("karma", (long) 0);
+			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/default-avatar.png");
+			userPublicInfo.setProperty("userId", userId);
+			userPublicInfo.setProperty("profileUrl", profileUrl);
+			userPublicInfo.setProperty("email", "AntLover444@gmail.com");
+			
+			datastore.put(userPublicInfo);
+			
+			return userPublicInfo;
+		}
 	}
 	
 	public static Entity getOrCreateUserPrivateInfo(User user){
-		
 		if (user == null) return null;
-		
-		String userId = user.getUserId();
-		
-		Key publicInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
-		
-		Entity userPrivateInfo = new Entity(publicInfoKey);
-		
-		try{
-			userPrivateInfo = datastoreService.get(publicInfoKey);
-			return userPrivateInfo;
-		} catch (EntityNotFoundException e){
-			List<String> bookmarks = new ArrayList<String>();
-			userPrivateInfo.setProperty("emailKarma", "none");
-			userPrivateInfo.setProperty("emailRecommend", "weekly");
-			userPrivateInfo.setProperty("emailReply", "none");
-			userPrivateInfo.setProperty("bookmarks", bookmarks);
-			System.out.println(userPrivateInfo.toString());
-			datastoreService.put(userPrivateInfo);
-			return userPrivateInfo;
-		}
-	}
-	
-	public static void updateUserPrivateInfo(User user, String property, String newValue) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(user);
-		
-		userPrivateInfo.setProperty(property, newValue);
-		
-		datastoreService.put(userPrivateInfo);
-	}
-	
-	public static void updateUserPrivateInfo(User user, Map<String, String> properties) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(user);
-		
-		for (String property : properties.keySet()){
-			String newValue = properties.get(property);
-			userPrivateInfo.setProperty(property, newValue);
-		}
-		
-		datastoreService.put(userPrivateInfo);
+		return getOrCreateUserPrivateInfo(user.getUserId());
 	}
 
 	public static Entity getOrCreateUserPrivateInfo(String userId) {
@@ -114,7 +109,7 @@ public class UserDatastoreAPI {
 		Entity userPrivateInfo = new Entity(publicInfoKey);
 		
 		try{
-			userPrivateInfo = datastoreService.get(publicInfoKey);
+			userPrivateInfo = datastore.get(publicInfoKey);
 			return userPrivateInfo;
 		} catch (EntityNotFoundException e){
 			List<String> bookmarks = new ArrayList<String>();
@@ -123,8 +118,34 @@ public class UserDatastoreAPI {
 			userPrivateInfo.setProperty("emailReply", "none");
 			userPrivateInfo.setProperty("bookmarks", bookmarks);
 			System.out.println(userPrivateInfo.toString());
-			datastoreService.put(userPrivateInfo);
+			datastore.put(userPrivateInfo);
 			return userPrivateInfo;
 		}
 	}
+
+	public static void setUserEmailPreferences(User user, Map<String, String> preferences) {
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(user);
+		for (String property : preferences.keySet()){
+			if (PRIVATE_FIELDS.contains(property)){
+				userPrivateInfo.setProperty(property, preferences.get(property));
+			} else {
+				System.out.println("USER DATASTORE API ERROR: Unknown Property");
+			}
+		}
+	}
+
+	public static void updateUsername(User user, String username) {
+		
+		Entity userPublicInfo = UserDatastoreAPI.getOrCreateMyPublicInfo(user);
+		
+		userPublicInfo.setProperty("username", username);
+		
+		datastore.put(userPublicInfo);
+	}
+
+	public static void setUserProfilePicture(Image perfectImage) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

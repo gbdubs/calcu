@@ -15,7 +15,7 @@ public class Author {
 	
 	
 	public Author(String authorId){
-		Entity entity = UserDatastoreAPI.getUserPublicInfo(authorId);
+		Entity entity = UserDatastoreAPI.getOrCreateUserPublicInfo(authorId);
 		
 		this.username = (String) entity.getProperty("username");
 		this.karma = (long) entity.getProperty("karma");

@@ -37,9 +37,8 @@ public class ViewContentServlet extends HttpServlet {
 			if (pp.getSubmitted() && pp.getViewable()){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				resp.setContentType("text/html");
-				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem-part-two.jsp");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 				jsp.forward(req, resp);
-				
 			} else {
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 				jsp.forward(req, resp);

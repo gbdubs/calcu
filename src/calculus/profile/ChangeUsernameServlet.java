@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserDatastoreAPI;
 import calculus.api.UserVerificationAPI;
+import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -23,16 +24,10 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class ChangeUsernameServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
+		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
-		UserService userService = UserServiceFactory.getUserService();
-		User user = userService.getCurrentUser();
+		UserDatastoreAPI.updateUsername(user, (String) req.getParameter("edit-username"));
 		
-		Entity userPublicInfo = UserDatastoreAPI.getOrCreateUserPublicInfo(user);
-		
-		String username = (String) req.getParameter("edit-username");
-		
-		UserDatastoreAPI.updateUserPublicInfo(user, "username", username);
-		
-		resp.sendRedirect((String) userPublicInfo.getProperty("profileUrl"));
+		resp.sendRedirect(UrlGenerator.profileUrl(user));
 	}	
 }

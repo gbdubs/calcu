@@ -18,8 +18,7 @@ public class AboutServlet extends HttpServlet {
 		UserContextAPI.addUserContextToRequest(req, "/about");
 		
 		resp.setContentType("text/html");
-		
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/about.jsp");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/about.jsp");	
 		jsp.forward(req, resp);
 	}
 	
