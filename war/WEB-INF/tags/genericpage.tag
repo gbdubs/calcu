@@ -2,6 +2,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@attribute name="content" fragment="true" %>
 <%@attribute name="pageTitle" fragment="true" %>
+<%@attribute name="javascript" fragment="true" %>
 
 <!DOCTYPE html>
 <html>
@@ -231,6 +232,9 @@
 <script src="/_static/js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
 <!-- AdminLTE App -->
 <script src="/_static/js/AdminLTE/app.js" type="text/javascript"></script>
+
+<!-- Any additional Javascript specified in the template -->
+<jsp:invoke fragment="javascript" />
 
 </body>
 </html>

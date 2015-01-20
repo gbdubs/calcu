@@ -20,12 +20,12 @@
 				<div class="row">
 		
 					<div class="user-profile-settings col-sm-12 col-md-5 col-lg-6">
-						<form action="/change-user-name" method="post">
+						<form data-user="${user.userId}">
 							<label for="edit-user-name">Username: </label>
 							<div class="input-group">
 								<input type="text" class="form-control" name="edit-username" id="edit-user-name" value="${username}">
 								<span class="input-group-btn">
-									<input class="btn btn-primary" type="submit"  value="Change Username">
+									<input class="btn btn-primary" type="submit" value="Change Username" id="change-username-button">
 								</span>
 							</div>
 						</form>
@@ -221,5 +221,8 @@
 				</ul>
 			</div>
 		</div>
+	</jsp:attribute>
+	<jsp:attribute name="javascript">
+		<script src="/_static/js/CalcU/profile.js" type="text/javascript"></script>
 	</jsp:attribute>
 </t:genericpage>

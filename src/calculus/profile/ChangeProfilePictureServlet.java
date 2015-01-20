@@ -18,7 +18,6 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 
-import calculus.api.UserDatastoreAPI;
 import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.images.Image;
