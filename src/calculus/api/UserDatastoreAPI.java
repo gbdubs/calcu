@@ -104,12 +104,12 @@ public class UserDatastoreAPI {
 	}
 
 	public static Entity getOrCreateUserPrivateInfo(String userId) {
-		Key publicInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
+		Key privateInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
 		
-		Entity userPrivateInfo = new Entity(publicInfoKey);
+		Entity userPrivateInfo = new Entity(privateInfoKey);
 		
 		try{
-			userPrivateInfo = datastore.get(publicInfoKey);
+			userPrivateInfo = datastore.get(privateInfoKey);
 			return userPrivateInfo;
 		} catch (EntityNotFoundException e){
 			List<String> bookmarks = new ArrayList<String>();
@@ -125,12 +125,19 @@ public class UserDatastoreAPI {
 
 	public static void setUserEmailPreferences(User user, Map<String, String> preferences) {
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(user);
+		boolean changed = false;
 		for (String property : preferences.keySet()){
 			if (PRIVATE_FIELDS.contains(property)){
-				userPrivateInfo.setProperty(property, preferences.get(property));
+				if (userPrivateInfo.getProperty(property) != preferences.get(property)){
+					userPrivateInfo.setProperty(property, preferences.get(property));
+					changed = true;
+				}
 			} else {
 				System.out.println("USER DATASTORE API ERROR: Unknown Property");
 			}
+		}
+		if (changed){
+			datastore.put(userPrivateInfo);
 		}
 	}
 
