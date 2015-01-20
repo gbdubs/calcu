@@ -20,5 +20,5 @@
 			</c:forEach>
 		</ul>
 	</li>
-	<li class="footer"><a href="#">View All Bookmarks</a></li>
+	<li class="footer"><a href="${profileUrl}#bookmarks">View All Bookmarks</a></li>
 </ul>

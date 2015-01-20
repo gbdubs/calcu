@@ -69,13 +69,18 @@ public class BookmarksAPI {
 						// TODO Skip?
 					}
 				}
+			} 
+			if (bookmarks == null || bookmarks.size() < 0){
+				bookmarksToDisplay.add(new MenuItem(
+						"", "", "You don't currently have any bookmarks", "To bookmark some content, when you are on the content page, simply select the options dropdown and click bookmark.", "", "", "info", "fa-lightbulb-o",""
+				));
 			}
 			req.setAttribute("bookmarksMenu", bookmarksToDisplay);
 			req.setAttribute("bookmarkUuids", bookmarkUuids);
 		} else {
 			MenuItem[] bookmarks = new MenuItem[2];
-			bookmarks[0] = new MenuItem("#", "", "You can store Bookmarks of your favorite", "", "", "success", "fa-bank", "");
-			bookmarks[1] = new MenuItem("#", "", "materials, practice problems and questions", "", "", "info", "fa-question", "");
+			bookmarks[0] = new MenuItem("#", "", "", "You can store Bookmarks of your favorite", "", "", "success", "fa-bank", "");
+			bookmarks[1] = new MenuItem("#", "", "", "materials, practice problems and questions", "", "", "info", "fa-question", "");
 			req.setAttribute("bookmarksMenu", bookmarks);
 		}
 	}

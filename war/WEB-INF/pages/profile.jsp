@@ -100,7 +100,7 @@
 			</div>
 		</div>
 		
-		<div class="box box-warning">
+		<div class="box box-warning" id="bookmarks">
 			<div class="box-header">
 				<i class="fa fa-bookmark"></i>
 				<h3 class="box-title">Bookmarks</h3>
@@ -109,26 +109,13 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<div class="alert alert-danger alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<h4><a>What is the dx thing I keep hearing about?</a></h4>
-					<p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-				</div>
-				<div class="alert alert-info alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<h4><a>What do you do about nested integrals?</a></h4>
-					<p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-				</div>
-				<div class="alert alert-warning alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<h4><a>How do we treat constants when we integrate?</a></h4>
-					<p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-				</div>
-				<div class="alert alert-success alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<h4><a>Does every function have a derivative?  Does every function have an integral?</a></h4>
-					<p>There is a problem that we need to fix. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-				</div>
+				<c:forEach items="${bookmarksMenu}" var="bookmark">
+					<div class="alert alert-${bookmark.color} alert-dismissable">
+						<button type="button" class="close remove-bookmark-button" data-user="${user.userId}" data-content="${bookmark.uuid}" data-action="remove" data-dismiss="alert" aria-hidden="true">×</button>
+						<h4><a href="${bookmark.url}">${bookmark.title}</a></h4>
+						<p>${bookmark.description}</p>
+					</div>
+				</c:forEach>
 			</div>
 		</div>
 		

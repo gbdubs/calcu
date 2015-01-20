@@ -4,6 +4,7 @@ import calculus.models.Content;
 
 public class MenuItem {
 	private String url;
+	private String uuid;
 	
 	private String title;
 	private String description;
@@ -14,8 +15,9 @@ public class MenuItem {
 	private String icon;
 	private String image;
 	
-	public MenuItem(String url, String title, String description, String time, String percentage, String color, String icon, String image){
+	public MenuItem(String url, String uuid, String title, String description, String time, String percentage, String color, String icon, String image){
 		this.url = url;
+		this.uuid = uuid;
 		this.title = title;
 		this.description = description;
 		this.time = time;
@@ -27,6 +29,7 @@ public class MenuItem {
 	
 	public MenuItem(Content c) {
 		this.url = c.getUrl();
+		this.uuid = c.getUuid();
 		this.title = c.getTitle();
 		this.description = c.getBody();
 		this.time = c.getShortReadableTime();
@@ -49,6 +52,10 @@ public class MenuItem {
 
 	public String getUrl(){
 		return this.url;
+	}
+	
+	public String getUuid(){
+		return this.uuid;
 	}
 	
 	public String getTitle(){

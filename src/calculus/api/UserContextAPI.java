@@ -72,14 +72,14 @@ public class UserContextAPI {
 		MenuItem[] notifications;
 		if (user != null){
 			notifications = new MenuItem[1];
-			notifications[0] = new MenuItem("#", "Welcome to CalcU", "Click here to learn the ropes!", "Today", "", "", "", "/_static/img/avatar2.png");
+			notifications[0] = new MenuItem("#", "", "Welcome to CalcU", "Click here to learn the ropes!", "Today", "", "", "", "/_static/img/avatar2.png");
 			
 		} else {
 			notifications = new MenuItem[3];
 			
-			notifications[0] = new MenuItem("#", "A vibrant Community!", "Get and Give Karma for good deeds!", "4:45 PM", "", "", "", "/_static/img/avatar2.png");
-			notifications[1] = new MenuItem("#", "Help each other out!", "Questions are answered quickly!", "Yesterday", "", "", "", "/_static/img/avatar3.png");
-			notifications[2] = new MenuItem("#", "Get Feedback!", "Become a better student or teacher!", "12/15/14","", "", "", "/_static/img/avatar.png");
+			notifications[0] = new MenuItem("#", "", "A vibrant Community!", "Get and Give Karma for good deeds!", "4:45 PM", "", "", "", "/_static/img/avatar2.png");
+			notifications[1] = new MenuItem("#", "", "Help each other out!", "Questions are answered quickly!", "Yesterday", "", "", "", "/_static/img/avatar3.png");
+			notifications[2] = new MenuItem("#", "", "Get Feedback!", "Become a better student or teacher!", "12/15/14","", "", "", "/_static/img/avatar.png");
 		}
 		req.setAttribute("notificationsMenu", notifications);
 	}
@@ -90,16 +90,16 @@ public class UserContextAPI {
 		
 		if (user != null){
 			recommendations = new MenuItem[4];
-			recommendations[0] = new MenuItem("#", "Integration by Parts", "", "", "80%", "aqua", "", "");
-			recommendations[1] = new MenuItem("#", "Fourier Series + Boundary Values", "", "", "30%", "yellow", "", "");
-			recommendations[2] = new MenuItem("#", "Integration of Exponentials", "", "", "50%", "green", "", "");
-			recommendations[3] = new MenuItem("#", "Taylor Series Polynomials", "", "", "20%", "red", "", "");
+			recommendations[0] = new MenuItem("#", "", "Integration by Parts", "", "", "80%", "aqua", "", "");
+			recommendations[1] = new MenuItem("#", "", "Fourier Series + Boundary Values", "", "", "30%", "yellow", "", "");
+			recommendations[2] = new MenuItem("#", "", "Integration of Exponentials", "", "", "50%", "green", "", "");
+			recommendations[3] = new MenuItem("#", "", "Taylor Series Polynomials", "", "", "20%", "red", "", "");
 		} else {
 			recommendations = new MenuItem[4];
-			recommendations[0] = new MenuItem("#", "Using Big Data, we suggest", "", "", "80%", "aqua", "", "");
-			recommendations[1] = new MenuItem("#", "Content for you to check out.", "", "", "30%", "yellow", "", "");
-			recommendations[2] = new MenuItem("#", "We deduce your knowledge and needs", "", "", "50%", "green", "", "");
-			recommendations[3] = new MenuItem("#", "And direct you to the best resources!", "", "", "20%", "red", "", "");
+			recommendations[0] = new MenuItem("#", "", "Using Big Data, we suggest", "", "", "80%", "aqua", "", "");
+			recommendations[1] = new MenuItem("#", "", "Content for you to check out.", "", "", "30%", "yellow", "", "");
+			recommendations[2] = new MenuItem("#", "", "We deduce your knowledge and needs", "", "", "50%", "green", "", "");
+			recommendations[3] = new MenuItem("#", "", "And direct you to the best resources!", "", "", "20%", "red", "", "");
 		}
 		req.setAttribute("recommendationsMenu", recommendations);
 	}
