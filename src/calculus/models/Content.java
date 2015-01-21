@@ -26,7 +26,7 @@ public class Content {
 	
 	static {
 		String[] fields = {"contentType", "uuid", "creatorUserId", "createdAt", "title", "body", "anonymous", "submitted", "viewable", "url", "karma", "tags"};
-		String[] contentTypes = {"practiceProblem", "question"};
+		String[] contentTypes = {"practiceProblem", "question", "answer"};
 		for (String s : fields) {FIELDS.add(s);}
 		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
 	}
@@ -191,5 +191,12 @@ public class Content {
 		String s = (String) entity.getProperty("tags");
 		if (s == null) return "";
 		return s;
+	}
+	
+	public String getReadableTags(){
+		String s = (String) entity.getProperty("tags");
+		if (s == null) return "";
+		return s.replace(",", ", ");
+		
 	}
 }

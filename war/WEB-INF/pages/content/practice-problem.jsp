@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
@@ -58,6 +59,11 @@
 						</a></li>
 					</ul>
 				</div>
+			</div>
+			<div class="box-header">
+				<c:if test="${fn:length(practiceProblem.readableTags) > 0}">
+					<span class="indented-header"><b>Tagged As:</b> ${practiceProblem.readableTags}</span>
+				</c:if>
 			</div>
 			<div class="box-body">
 				<div class="box-group" id="accordion">
