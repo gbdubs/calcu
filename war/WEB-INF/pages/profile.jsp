@@ -69,9 +69,9 @@
 			</div>
 		</div>
 		
-		
+		<span id="notifications" class="page-locator"></span>
 		<div class="box box-success">
-			<span id="notifications" class="page-locator"></span>
+			
 			<div class="box-header">
 				<i class="fa fa-flag"></i>
 				<h3 class="box-title">Notifications</h3>
@@ -103,9 +103,9 @@
 			</div>
 		</div>
 		
-		
+		<span id="bookmarks" class="page-locator"></span>
 		<div class="box box-warning">
-			<span id="bookmarks" class="page-locator"></span>
+			
 			<div class="box-header">
 				<i class="fa fa-bookmark"></i>
 				<h3 class="box-title">Bookmarks</h3>
@@ -124,9 +124,8 @@
 			</div>
 		</div>
 		
-
+		<span id="karma" class="page-locator"></span>
 		<div class="box box-danger">
-			<span id="karma" class="page-locator"></span>
 			<div class="box-header">
 				<i class="fa fa-trophy"></i>
 				<h3 class="box-title">Karma Breakdown</h3>

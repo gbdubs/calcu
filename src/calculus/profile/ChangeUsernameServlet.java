@@ -26,8 +26,6 @@ public class ChangeUsernameServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
-		System.out.println(req.getParameter("edit-username"));
-		
 		UserPublicInfoAPI.updateUsername(user, (String) req.getParameter("edit-username"));
 		
 		resp.sendRedirect(UrlGenerator.profileUrl(user));

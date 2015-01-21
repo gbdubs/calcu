@@ -3929,7 +3929,9 @@ fieldset[disabled] .btn-vk.active {
 .page-locator{
 	margin-top: -70px;        /* Size of fixed header + 20px padding */
   	padding-bottom: 70px; 
-  	display: block; 
+  	display: block;
+	position: relative;
+	z-index: -100000;
 }
 
 div.tagsinput { border:1px solid #CCC; background: #FFF; padding:5px; height:100px; overflow-y: auto;}
