@@ -60,7 +60,12 @@ public class BookmarksAPI {
 			List<String> bookmarkUuids = new ArrayList<String>();
 			if (bookmarks != null){
 				for(String  b : bookmarks){
-					String contentType = Content.getContentType(b);
+					String contentType = "";
+					try {
+						contentType = Content.getContentType(b);
+					} catch (EntityNotFoundException e1) {
+						// TODO: Skip?
+					}
 					Content c;
 					try {
 						c = new Content(datastore.get(KeyFactory.createKey("Content", b)), contentType);

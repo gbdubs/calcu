@@ -22,10 +22,13 @@ public class Content {
 	
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	protected static List<String> FIELDS = new ArrayList<String>();
+	protected static List<String> CONTENT_TYPES = new ArrayList<String>();
 	
 	static {
-		String[] fields = {"contentType", "uuid", "creatorUserId", "createdAt", "title", "body", "anonymous", "submitted", "viewable", "url", "karma"};
+		String[] fields = {"contentType", "uuid", "creatorUserId", "createdAt", "title", "body", "anonymous", "submitted", "viewable", "url", "karma", "tags"};
+		String[] contentTypes = {"practiceProblem", "question"};
 		for (String s : fields) {FIELDS.add(s);}
+		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
 	}
 
 	private Entity entity;
@@ -33,6 +36,7 @@ public class Content {
 	private Author author;
 	
 	public Content (Entity entity, String contentType) {
+		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
 		this.entity = entity;
 		this.key = entity.getKey();
 		this.entity.setProperty("contentType", contentType);
@@ -41,6 +45,7 @@ public class Content {
 	}
 	
 	public Content (Key key, String contentType) {
+		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
 		this.key = key;
 		try {
 			this.entity = datastoreService.get(key);
@@ -164,18 +169,25 @@ public class Content {
 		return df.format(d);
 	}
 	
-	public static String getContentType(String uuid){
-		Query q = new Query("Content").addFilter("uuid", FilterOperator.EQUAL, uuid);
-		PreparedQuery pq = datastoreService.prepare(q);
-		Entity entity = pq.asSingleEntity();
+	public static String getContentType(String uuid) throws EntityNotFoundException{
+		Key contentKey = KeyFactory.createKey("Content", uuid);
+		Entity entity = datastoreService.get(contentKey);
 		return (String) entity.getProperty("contentType");
 	}
 	
 	public static void setInvisible(String uuid){
-		Query q = new Query("Content").addFilter("uuid", FilterOperator.EQUAL, uuid);
-		PreparedQuery pq = datastoreService.prepare(q);
-		Entity entity = pq.asSingleEntity();
-		entity.setProperty("viewable", false);
-		datastoreService.put(entity);
+		Key contentKey = KeyFactory.createKey("Content", uuid);
+		Entity entity;
+		try {
+			entity = datastoreService.get(contentKey);
+			entity.setProperty("viewable", false);
+			datastoreService.put(entity);
+		} catch (EntityNotFoundException e) {
+			// Don't worry if it doesn't exist, we need not make it less visible!
+		}
+	}
+	
+	public List<String> getTags(){
+		return (List<String>) entity.getProperty("tags");
 	}
 }

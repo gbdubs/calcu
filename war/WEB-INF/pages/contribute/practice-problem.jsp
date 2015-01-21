@@ -61,6 +61,10 @@
 					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Outline the information nescessary to solve the problem" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
 					>${practiceProblem.body}</textarea>
 				</div>
+				<div class="box-body pad">
+					<label for="tags-input">Tags/Categories</label>
+					<input name="tagsInput" id="tags-input" value="${practiceProblem.tagsAsString}" />
+				</div>
 			</div>
 		
 			<div class="box box-success contribute-box">
@@ -99,5 +103,11 @@
 				</div>
 			</div>
 		</form>
+	</jsp:attribute>
+		
+	<jsp:attribute name="javascript">
+		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="jquery.tagsinput.css" />
+		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
 	</jsp:attribute>
 </t:genericpage>
