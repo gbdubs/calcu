@@ -187,7 +187,9 @@ public class Content {
 		}
 	}
 	
-	public List<String> getTags(){
-		return (List<String>) entity.getProperty("tags");
+	public String getTags(){
+		String s = (String) entity.getProperty("tags");
+		if (s == null) return "";
+		return s;
 	}
 }

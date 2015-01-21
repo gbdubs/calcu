@@ -107,7 +107,7 @@ public class PracticeProblemAPI {
 		String authorSolution = (String) req.getParameter("authorSolution");
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
 		Text wrappedAuthorSolution = new Text(authorSolution);
-		String[] tags = req.getParameter("tagsInput").split(",");
+		String tags = req.getParameter("tagsInput");
 			
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
@@ -149,6 +149,7 @@ public class PracticeProblemAPI {
 		String authorSolution = (String) req.getParameter("authorSolution");
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
 		Text wrappedAuthorSolution = new Text(authorSolution);
+		String tags = req.getParameter("tagsInput");
 	
 		entity.setProperty("createdAt", dateAndTime);
 		entity.setProperty("title", title);
@@ -157,6 +158,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
+		entity.setProperty("tags", tags);
 		
 		datastore.put(entity);
 		

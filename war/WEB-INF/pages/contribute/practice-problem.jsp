@@ -63,7 +63,7 @@
 				</div>
 				<div class="box-body pad">
 					<label for="tags-input">Tags/Categories</label>
-					<input name="tagsInput" id="tags-input" value="${practiceProblem.tagsAsString}" />
+					<input name="tagsInput" id="tags-input" value="${practiceProblem.tags}" />
 				</div>
 			</div>
 		
