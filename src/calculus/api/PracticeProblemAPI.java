@@ -125,6 +125,13 @@ public class PracticeProblemAPI {
 		entity.setProperty("url", "/practice-problem/" + uuid);
 		entity.setProperty("tags", tags);
 		
+		if (submitted && viewable){
+			String[] tagList = tags.split(",");
+			for (String t : tagList){
+				if (t.length() > 1) TagAPI.addNewContentToTag(uuid, t);
+			}
+		}
+		
 		datastore.put(entity);
 		
 		return new PracticeProblem(entity);
@@ -159,6 +166,13 @@ public class PracticeProblemAPI {
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("tags", tags);
+		
+		if (submitted && viewable){
+			String[] tagList = tags.split(",");
+			for (String t : tagList){
+				if (t.length() > 1) TagAPI.addNewContentToTag(uuid, t);
+			}
+		}
 		
 		datastore.put(entity);
 		
