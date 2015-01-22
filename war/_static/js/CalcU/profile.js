@@ -36,4 +36,16 @@ $(function() {
     	
     	$(this).val("Changed!").addClass("btn-success").removeClass("btn-primary");
     });
+    
+    $(".remove-bookmark-button").click(function(){
+    	var userId = $(this).data("user");
+    	var content = $(this).data("content");
+    	var action = "remove";
+    	
+    	$.ajax({
+    		type: "POST",
+    		url: "/bookmark",
+    		data: "userId="+userId+"&contentUuid="+content+"&action="+action
+    	});
+    });
 });

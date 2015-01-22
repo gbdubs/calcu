@@ -5,7 +5,7 @@
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
-		CalcU | Sandbox
+		CalcU | Practice Problem
 	</jsp:attribute>
 	<jsp:attribute name="content">
 		<div class="box box-solid practice-problem">
@@ -26,7 +26,7 @@
 						<c:choose>
 							<c:when test="${bookmarked}">
 								<li class="remove-bookmark-button" data-user="${user.userId}" data-content="${practiceProblem.uuid}" data-action="remove">
-									<a role="menuitem" tabindex="-1" href="#">Un-bookmark Problem</a>
+									<a role="menuitem" tabindex="-1" href="#">Un-Bookmark Problem</a>
 								</li>
 							</c:when>
 							<c:otherwise>
@@ -193,6 +193,9 @@
 				</div>
 			</div>
 		</div>
-	</jsp:attribute>	
+	</jsp:attribute>
+	<jsp:attribute name="javascript">
+		<script src="/_static/js/CalcU/practiceProblem.js"></script>
+	</jsp:attribute>
 </t:genericpage>
 	
