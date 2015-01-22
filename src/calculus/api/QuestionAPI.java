@@ -21,6 +21,7 @@ import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Text;
+import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class QuestionAPI {
@@ -111,6 +112,16 @@ public class QuestionAPI {
 			list.add(a);
 		}
 		return list;	
+	}
+
+	public static List<Question> getUnsubmittedQuestions(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static List<Question> getSubmittedQuestions(User user) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

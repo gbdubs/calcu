@@ -100,6 +100,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>ContentDashboard</servlet-name>
+		<servlet-class>calculus.contribute.ContributeDashboardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContentDashboard</servlet-name>
+		<url-pattern>/contribute/dashboard/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>ContributePracticeProblem</servlet-name>
 		<servlet-class>calculus.contribute.ContributePracticeProblemServlet</servlet-class>
 	</servlet>

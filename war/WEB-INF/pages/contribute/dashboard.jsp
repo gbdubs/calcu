@@ -90,8 +90,9 @@
 				<i class="fa fa-check hidden-xs"></i>
 				<h3 class="box-title">Submitted Questions  <small>Though these can no longer be edited, you can check out the comments and karma each has received by clicking below</small></h3>
 			</div>
+			<c:set var="totalKarma" value="${0}"/>
 			<div class="box-body no-padding">
-				<table class="table">
+				<table class="table">		
 					<tbody>
 							<tr>
 								<td class="hidden-xs">#</td>
@@ -105,13 +106,14 @@
 								<td><a href="${practiceProblem.url}"> ${question.title} </a></td>
 								<td><span class="badge bg-blue">${question.karma} Karma</span></td>
 								<td>${question.readableTime}</td>
+								<c:set var="totalKarma" value="${totalKarma + question.karma}"/>
 							</tr>
 						</c:forEach>
 					</tbody>
 				</table>
 			</div>
 			<div class="box-footer">
-				Total: ${fn:length(submittedQuestions)} Submitted Questions, 100,000 Karma
+				Total: ${fn:length(submittedQuestions)} Submitted Questions, ${totalKarma} Karma
 			</div>
 			</c:if>
 		</div>
@@ -157,6 +159,7 @@
 				<i class="fa fa-check hidden-xs"></i>
 				<h3 class="box-title">Submitted Problems  <small>Though these can no longer be edited, you can check out the comments and karma on them by clicking below</small></h3>
 			</div>
+			<c:set var="totalKarma" value="${0}"/>
 			<div class="box-body no-padding">
 				<table class="table">
 					<tbody>
@@ -173,12 +176,13 @@
 								<td><span class="badge bg-olive">${practiceProblem.karma} Karma</span></td>
 								<td>${practiceProblem.readableTime}</td>
 							</tr>
+							<c:set var="totalKarma" value="${totalKarma + practiceProblem.karma}"/>
 						</c:forEach>
 					</tbody>
 				</table>
 			</div>
 			<div class="box-footer">
-				Total: ${fn:length(submittedPracticeProblems)} Submitted Problems, 100,000 Karma
+				Total: ${fn:length(submittedPracticeProblems)} Submitted Problems, ${totalKarma} Karma
 			</div>
 			</c:if>
 		</div>
@@ -224,7 +228,8 @@
 				<i class="fa fa-check hidden-xs"></i>
 				<h3 class="box-title">Submitted Content  <small>Though these can no longer be edited, you can check out the comments and karma on them by clicking below</small></h3>
 			</div>
-			<div class="box-body no-padding">
+			<c:set var="totalKarma" value="${0}"/>
+			<div class="box-body no-padding">	
 				<table class="table">
 					<tbody>
 							<tr>
@@ -240,12 +245,13 @@
 								<td><span class="badge bg-orange">${content.karma} Karma</span></td>
 								<td>${content.readableTime}</td>
 							</tr>
+							<c:set var="totalKarma" value="${totalKarma + content.karma}"/>
 						</c:forEach>
 					</tbody>
 				</table>
 			</div>
 			<div class="box-footer">
-				Total: ${fn:length(submittedContent)} Pieces of Content Submitted, 100,000 Karma
+				Total: ${fn:length(submittedContent)} Pieces of Content Submitted, ${totalKarma} Karma
 			</div>
 			</c:if>
 		</div>
