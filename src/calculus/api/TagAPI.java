@@ -19,14 +19,15 @@ public class TagAPI {
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	
 	public static void addNewContentToTag(String contentUuid, String tag){
-		Key key = KeyFactory.createKey("Tag", tag);
+		String cleanedTag = tag.toLowerCase().trim();
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
 		Entity entity = new Entity(key);
 		List<String> uuids = new ArrayList<String>();
 		try {
 			entity = datastoreService.get(key);
 			uuids = (List<String>) entity.getProperty("matchingContent");
 		} catch (EntityNotFoundException e) {
-			entity.setProperty("name", tag);
+			entity.setProperty("name", cleanedTag);
 		}
 		uuids.add(contentUuid);
 		entity.setProperty("matchingContent", uuids);
@@ -44,7 +45,8 @@ public class TagAPI {
 	public static List<String> getUuidsResultsOfMultipleTags(List<String> tags){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		for (String tag : tags){
-			List<String> uuids = getUuidsOfTag(tag);
+			String cleanedTag = tag.toLowerCase().trim();
+			List<String> uuids = getUuidsOfTag(cleanedTag);
 			for(String uuid : uuids){
 				if (mapping.containsKey(uuid)){
 					mapping.put(uuid, mapping.get(uuid) + 1);
