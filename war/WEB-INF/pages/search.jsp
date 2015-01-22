@@ -71,7 +71,7 @@
 		<c:if test="${practiceProblemsNotFound}">
 			<div class="box box-warning">
 				<duv class="box-header">
-					<i class="fa fa-frown-o fa-karma-score"></i>
+					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">No Matching Practice Problems <small> Try adding more tags, to broaden your search results </small></h3>
 				</div>
 			</div>
