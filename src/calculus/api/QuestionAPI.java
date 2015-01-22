@@ -62,6 +62,7 @@ public class QuestionAPI {
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("url", "/question/" + uuid);
+		entity.setProperty("requests", 1);
 		
 		datastore.put(entity);
 		

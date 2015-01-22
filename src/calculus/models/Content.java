@@ -210,6 +210,9 @@ public class Content {
 		} else {
 			return body;
 		}
-		
+	}
+	
+	public String getPreviewUrl(){
+		return "/contribute/preview/" + this.getUuid();
 	}
 }

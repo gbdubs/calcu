@@ -11,10 +11,12 @@
 	
 		<div class="row create-content-buttons">
 			<div class="col-sm-4 col-xs-12">
-				<button class="btn btn-block btn-primary">
-					<i class="fa fa-plus"></i>
-					New Question
-				</button>
+				<a href="/contribute/question/new">
+					<button class="btn btn-block btn-primary">
+						<i class="fa fa-plus"></i>
+						New Question
+					</button>
+				</a>
 			</div>
 			<div class="col-sm-4 col-xs-12">
 				<a href="/contribute/practice-problem/new">
@@ -25,10 +27,12 @@
 				</a>
 			</div>				
 			<div class="col-sm-4 col-xs-12">
-				<button class="btn btn-block btn-warning">
-					<i class="fa fa-plus"></i>
-					New Text Content
-				</button>
+				<a href="/contribute/content/new">
+					<button class="btn btn-block btn-warning">
+						<i class="fa fa-plus"></i>
+						New Text Content
+					</button>
+				</a>
 			</div>
 		</div>
 	
@@ -49,8 +53,74 @@
 				as people have rated and reviewed them. If you have any questions about content creation, please feel free to contact us.
 			</div>
 		</div>
-	
-		<div class="box box-warning">
+		
+		<div class="box box-primary">
+			<div class="box-header">
+				<i class="fa fa-warning hidden-xs"></i>
+				<h3 class="box-title">Unfinished/Unsubmitted Questions  <small>To open a question up for editing, or to submit it, click on its link below</small></h3>
+			</div>
+			<div class="box-body no-padding">
+				<table class="table">
+					<tbody>
+							<tr>
+								<td class="hidden-xs">#</td>
+								<td>Question Title</td>
+								<td>Editor</td>
+								<td>Live Preview</td>
+								<td>Last Edited</td>
+							</tr>
+						<c:forEach items="${unsubmittedPracticeProblems}" var="practiceProblem" varStatus="loop">
+							<tr>
+								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td><a href="${practiceProblem.editUrl}"> ${practiceProblem.title}</a></td>
+								<td><a class="badge bg-aqua" href="${practiceProblem.editUrl}">Edit</a></td>
+								<td><a class="badge bg-blue" href="${practiceProblem.previewUrl}">Preview</a></td>
+								<td>${practiceProblem.readableTime}</td>
+							</tr>
+						</c:forEach>
+					</tbody>
+				</table>
+			</div>
+			<div class="box-footer">
+				Total: ${fn:length(unsubmittedPracticeProblems)} Unsubmitted Questions
+			</div>
+
+			<c:if test="${fn:length(submittedQuestions) > 0">
+			<div class="box-header">
+				<i class="fa fa-check hidden-xs"></i>
+				<h3 class="box-title">Submitted Questions  <small>Though these can no longer be edited, you can check out the comments and karma each has received by clicking below</small></h3>
+			</div>
+			<div class="box-body no-padding">
+				<table class="table">
+					<tbody>
+							<tr>
+								<td class="hidden-xs">#</td>
+								<td>Question Title</td>
+								<td>Karma Earned</td>
+								<td>Date Submitted</td>
+							</tr>
+						<c:forEach items="${submittedPracticeProblems}" var="practiceProblem" varStatus="loop">
+							<tr>
+								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td><a href="${practiceProblem.url}"> ${practiceProblem.title} </a></td>
+								<td><span class="badge bg-blue">${practiceProblem.karma} Karma</span></td>
+								<td>${practiceProblem.readableTime}</td>
+							</tr>
+						</c:forEach>
+					</tbody>
+				</table>
+			</div>
+			<div class="box-footer">
+				Total: ${fn:length(submittedPracticeProblems)} Submitted Questions, 100,000 Karma
+			</div>
+			</c:if>
+		</div>
+		
+		
+		
+		<c:if test="${fn:length(unsubmittedPracticeProblems) + fn:length(submittedPracticeProblems) > 0}">
+		<div class="box box-success">
+			<c:if test="${fn:length(unsubmittedPracticeProblems) > 0">
 			<div class="box-header">
 				<i class="fa fa-warning hidden-xs"></i>
 				<h3 class="box-title">Unfinished/Unsubmitted Problems  <small>To open a problem up for editing, or to submit it, click on its link below</small></h3>
@@ -61,14 +131,16 @@
 							<tr>
 								<td class="hidden-xs">#</td>
 								<td>Problem Title</td>
-								<td>Karma Earned</td>
+								<td>Editor</td>
+								<td>Live Preview</td>
 								<td>Last Edited</td>
 							</tr>
 						<c:forEach items="${unsubmittedPracticeProblems}" var="practiceProblem" varStatus="loop">
 							<tr>
 								<td class="hidden-xs">${loop.index + 1}.</td>
-								<td><a href="${practiceProblem.editUrl}"> ${practiceProblem.title} </a></td>
-								<td><span class="badge bg-red">0 Karma</span></td>
+								<td><a href="${practiceProblem.editUrl}"> ${practiceProblem.title}</a></td>
+								<td><a class="badge bg-aqua" href="${practiceProblem.editUrl}">Edit</a></td>
+								<td><a class="badge bg-blue" href="${practiceProblem.previewUrl}">Preview</a></td>
 								<td>${practiceProblem.readableTime}</td>
 							</tr>
 						</c:forEach>
@@ -78,9 +150,9 @@
 			<div class="box-footer">
 				Total: ${fn:length(unsubmittedPracticeProblems)} Unsubmitted Problems
 			</div>
-		</div>
-		
-		<div class="box box-success">
+			</c:if>
+
+			<c:if test="${fn:length(submittedPracticeProblems) > 0">
 			<div class="box-header">
 				<i class="fa fa-check hidden-xs"></i>
 				<h3 class="box-title">Submitted Problems  <small>Though these can no longer be edited, you can check out the comments and karma on them by clicking below</small></h3>
@@ -92,13 +164,13 @@
 								<td class="hidden-xs">#</td>
 								<td>Problem Title</td>
 								<td>Karma Earned</td>
-								<td>Last Edited</td>
+								<td>Date Submitted</td>
 							</tr>
 						<c:forEach items="${submittedPracticeProblems}" var="practiceProblem" varStatus="loop">
 							<tr>
 								<td class="hidden-xs">${loop.index + 1}.</td>
 								<td><a href="${practiceProblem.url}"> ${practiceProblem.title} </a></td>
-								<td><span class="badge bg-blue">70 Karma</span></td>
+								<td><span class="badge bg-blue">${practiceProblem.karma} Karma</span></td>
 								<td>${practiceProblem.readableTime}</td>
 							</tr>
 						</c:forEach>
@@ -108,6 +180,75 @@
 			<div class="box-footer">
 				Total: ${fn:length(submittedPracticeProblems)} Submitted Problems, 100,000 Karma
 			</div>
+			</c:if>
 		</div>
+		</c:if>
+		
+		
+		<c:if test="${fn:length(unsubmittedContent) + fn:length(submittedContent) > 0}">
+		<div class="box box-warning">
+			<c:if test="${fn:length(unsubmittedContent) > 0}">
+			<div class="box-header">
+				<i class="fa fa-warning hidden-xs"></i>
+				<h3 class="box-title">Unfinished/Unsubmitted Content  <small>To open up content for editing, or to submit it, click on its link below</small></h3>
+			</div>
+			<div class="box-body no-padding">
+				<table class="table">
+					<tbody>
+							<tr>
+								<td class="hidden-xs">#</td>
+								<td>Content Title</td>
+								<td>Editor</td>
+								<td>Live Preview</td>
+								<td>Last Edited</td>
+							</tr>
+						<c:forEach items="${unsubmittedPracticeProblems}" var="practiceProblem" varStatus="loop">
+							<tr>
+								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td><a href="${practiceProblem.editUrl}"> ${practiceProblem.title}</a></td>
+								<td><a class="badge bg-aqua" href="${practiceProblem.editUrl}">Edit</a></td>
+								<td><a class="badge bg-blue" href="${practiceProblem.previewUrl}">Preview</a></td>
+								<td>${practiceProblem.readableTime}</td>
+							</tr>
+						</c:forEach>
+					</tbody>
+				</table>
+			</div>
+			<div class="box-footer">
+				Total: ${fn:length(unsubmittedPracticeProblems)} Pieces of Unsubmitted Content
+			</div>
+			</c:if>
+
+			<c:if test="${fn:length(submittedContent) > 0}">
+			<div class="box-header">
+				<i class="fa fa-check hidden-xs"></i>
+				<h3 class="box-title">Submitted Content  <small>Though these can no longer be edited, you can check out the comments and karma on them by clicking below</small></h3>
+			</div>
+			<div class="box-body no-padding">
+				<table class="table">
+					<tbody>
+							<tr>
+								<td class="hidden-xs">#</td>
+								<td>Content Title</td>
+								<td>Karma Earned</td>
+								<td>Date Submitted</td>
+							</tr>
+						<c:forEach items="${submittedPracticeProblems}" var="practiceProblem" varStatus="loop">
+							<tr>
+								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td><a href="${practiceProblem.url}"> ${practiceProblem.title} </a></td>
+								<td><span class="badge bg-blue">${practiceProblem.karma} Karma</span></td>
+								<td>${practiceProblem.readableTime}</td>
+							</tr>
+						</c:forEach>
+					</tbody>
+				</table>
+			</div>
+			<div class="box-footer">
+				Total: ${fn:length(submittedPracticeProblems)} Pieces of Content Submitted, 100,000 Karma
+			</div>
+			</c:if>
+		</div>
+		</c:if>
 	</jsp:attribute>
 </t:genericpage>
