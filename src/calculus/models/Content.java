@@ -201,6 +201,15 @@ public class Content {
 		String s = (String) entity.getProperty("tags");
 		if (s == null) return "";
 		return s.replace(",", ", ");
+	}
+	
+	public String getAbbreviatedBody(){
+		String body = this.getBody();
+		if (body.length() > 300){
+			return body.substring(0, 297) + "...";
+		} else {
+			return body;
+		}
 		
 	}
 }

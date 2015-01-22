@@ -124,9 +124,9 @@
                         <i class="fa fa-angle-right pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="pages/search/questions.html"><i class="fa fa-angle-double-right"></i> Questions + Answers</a></li>
-                        <li><a href="pages/search/problems.html"><i class="fa fa-angle-double-right"></i> Problems + Solutions</a></li>
-                        <li><a href="pages/search/content.html"><i class="fa fa-angle-double-right"></i> Lectures + Resources</a></li>
+                        <li><a href="/search.html"><i class="fa fa-angle-double-right"></i> Questions + Answers</a></li>
+                        <li><a href="/search.html"><i class="fa fa-angle-double-right"></i> Problems + Solutions</a></li>
+                        <li><a href="/search.html"><i class="fa fa-angle-double-right"></i> Lectures + Resources</a></li>
                     </ul>
                 </li>
                 <li class="treeview">

@@ -26,6 +26,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>SearchByTag</servlet-name>
+		<servlet-class>calculus.general.SearchByTagServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchByTag</servlet-name>
+		<url-pattern>/search/*</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>Landing</servlet-name>
 		<servlet-class>calculus.general.LandingServlet</servlet-class>
 	</servlet>	

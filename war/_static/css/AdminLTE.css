@@ -3948,4 +3948,17 @@ div.tagsinput div { display:block; float: left; }
 .indented-header{
 	padding: 0 10px;
 }
+
+.large-input-group-button{
+	height: 42px;
+}
+
+.buttonless{
+	background: none;
+	border: none;
+}
+
+.bookmarked-button{
+	color: #f56954;
+}
 }

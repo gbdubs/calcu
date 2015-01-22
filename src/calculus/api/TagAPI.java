@@ -1,7 +1,11 @@
 package calculus.api;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -29,6 +33,41 @@ public class TagAPI {
 		datastoreService.put(entity);
 	}
 
+	public static List<String> getUuidsResultsOfMultipleTags(String[] tags){
+		List<String> tagsList = new ArrayList<String>();
+		for(String t : tags){
+			tagsList.add(t);
+		}
+		return getUuidsResultsOfMultipleTags(tagsList);
+	}
+	
+	public static List<String> getUuidsResultsOfMultipleTags(List<String> tags){
+		Map<String, Integer> mapping = new HashMap<String, Integer>();
+		for (String tag : tags){
+			List<String> uuids = getUuidsOfTag(tag);
+			for(String uuid : uuids){
+				if (mapping.containsKey(uuid)){
+					mapping.put(uuid, mapping.get(uuid) + 1);
+				} else {
+					mapping.put(uuid, 1);
+				}
+			}
+		}
+		System.out.println(mapping.toString());
+		List<String> uuids = new ArrayList<String>();
+		for(String uuid : mapping.keySet()){
+			int i = 0;
+			int value = mapping.get(uuid);
+			while (i < uuids.size() && mapping.get(uuids.get(i)) <= value){
+				i++;
+			}
+			uuids.add(i, uuid);
+		}
+		System.out.println(uuids.toString());
+		return uuids;
+	}
+	
+	
 	public static List<String> getUuidsOfTag(String tag){
 		Key key = KeyFactory.createKey("Tag", tag);
 		Entity entity;
