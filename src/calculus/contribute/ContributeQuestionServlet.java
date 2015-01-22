@@ -1,7 +1,7 @@
 package calculus.contribute;
 
-import java.util.List;
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,8 +17,8 @@ import calculus.utilities.UuidTools;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
-public class ContributePracticeProblemServlet extends HttpServlet {
-	
+public class ContributeQuestionServlet extends HttpServlet {
+
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		User user = UserServiceFactory.getUserService().getCurrentUser();
@@ -75,4 +75,5 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 			jsp.forward(req, resp);
 		}	
 	}
+	
 }

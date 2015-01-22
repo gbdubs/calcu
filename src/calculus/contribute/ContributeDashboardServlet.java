@@ -27,7 +27,7 @@ public class ContributeDashboardServlet extends HttpServlet{
 		
 		if (user == null){
 			UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
-			req.setAttribute("pageName", "Practice Problem Creation");
+			req.setAttribute("pageName", "Content Creation Dashboard");
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-requires-login.jsp");
 			jsp.forward(req, resp);
