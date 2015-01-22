@@ -74,12 +74,12 @@
 								${practiceProblem.title}
 							</h4>
 						</div>
-						<div class="box-body box-body-with-rating-system">
+						<div class="box-body box-body-with-rating-system" >
 							<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
 								<jsp:param name="contentId" value="${practiceProblem.uuid}" />
 								<jsp:param name="formPostUrl" value="${practiceProblem.rateUrl}" />
 							</jsp:include>
-							${practiceProblem.body}
+							<span class="preserve-line-formatting">${practiceProblem.body}</span>
 						</div>
 					</div>
 					<div class="panel box box-primary">				
@@ -93,7 +93,7 @@
 						</div>
 						<div id="collapseAuthorSolution" class="panel-collapse collapse">
 							<div class="box-body box-body-with-rating-system">
-								${practiceProblem.authorSolution}
+								<span class="preserve-line-formatting">${practiceProblem.authorSolution}</span>
 							</div>
 						</div>
 					</div>
@@ -160,7 +160,7 @@
 										<jsp:param name="contentId" value="${answer.uuid}" />
 										<jsp:param name="formPostUrl" value="${answer.rateUrl}" />
 									</jsp:include>
-									${answer.body}
+									<span class="preserve-line-formatting">${answer.body}</span>
 								</div>
 							</div>
 						</div>

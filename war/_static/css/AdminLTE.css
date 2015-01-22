@@ -3959,6 +3959,10 @@ div.tagsinput div { display:block; float: left; }
 }
 
 .bookmarked-button{
-	color: #f56954;
+	color: #d9534f;
+}
+
+.preserve-line-formatting{
+	white-space: pre-wrap;
 }
 }
