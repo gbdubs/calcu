@@ -117,17 +117,11 @@
                         <span>About</span>
                     </a>
                 </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-question-circle"></i>
+                <li>
+                    <a href="/search">
+                        <i class="fa fa-search"></i>
                         <span>Search</span>
-                        <i class="fa fa-angle-right pull-right"></i>
                     </a>
-                    <ul class="treeview-menu">
-                        <li><a href="/search.html"><i class="fa fa-angle-double-right"></i> Questions + Answers</a></li>
-                        <li><a href="/search.html"><i class="fa fa-angle-double-right"></i> Problems + Solutions</a></li>
-                        <li><a href="/search.html"><i class="fa fa-angle-double-right"></i> Lectures + Resources</a></li>
-                    </ul>
                 </li>
                 <li class="treeview">
                     <a href="#">
