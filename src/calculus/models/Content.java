@@ -69,6 +69,10 @@ public class Content {
 		this.author = null;
 	}
 
+	public Content(String uuid) throws EntityNotFoundException {
+		this(uuid, Content.getContentType(uuid));
+	}
+
 	public void refresh(){
 		this.key = this.entity.getKey();
 		try {
