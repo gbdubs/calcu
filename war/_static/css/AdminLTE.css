@@ -3701,6 +3701,7 @@ fieldset[disabled] .btn-vk.active {
     box-shadow: none;
 }
 
+.box.box-solid > .box-header.solid-box-header,
 .about-author .box-header,
 .about-tiles .box .box-header{
     border-bottom: 1px solid;
@@ -3964,5 +3965,10 @@ div.tagsinput div { display:block; float: left; }
 
 .preserve-line-formatting{
 	white-space: pre-wrap;
+}
+
+a.btn.btn-warning.live-preview-return-button{
+	margin: 5px 5px 0 0;
+	color: #FFFFFF;
 }
 }

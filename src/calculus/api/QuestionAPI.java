@@ -35,14 +35,14 @@ public class QuestionAPI {
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	private static Filter notViewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, false);
 	
-	public static Question createQuestionFromRequest(HttpServletRequest req){
+	public static String createQuestionFromRequest(HttpServletRequest req){
 		
 		String uuid = UUID.randomUUID().toString();
 		long time = System.currentTimeMillis();
 		
-		boolean anonymous = false;
-		boolean submitted = (req.getParameter("saveWork") == null);
-		boolean viewable = (req.getParameter("saveWork") == null);
+		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously"));
+		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
+		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Question]";
@@ -68,10 +68,10 @@ public class QuestionAPI {
 		
 		datastore.put(entity);
 		
-		return new Question(entity);
+		return uuid;
 	}
 
-	public static Question updateQuestionFromRequest(HttpServletRequest req){
+	public static String updateQuestionFromRequest(HttpServletRequest req){
 		
 		String uuid = (String) req.getParameter("uuid");
 		Question q = new Question(uuid);
@@ -79,9 +79,9 @@ public class QuestionAPI {
 		
 		long time = System.currentTimeMillis();
 		
-		boolean anonymous = false;
-		boolean submitted = (req.getParameter("saveWork") == null);
-		boolean viewable = (req.getParameter("saveWork") == null);
+		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously"));
+		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
+		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Question]";
@@ -100,7 +100,7 @@ public class QuestionAPI {
 
 		datastore.put(entity);
 		
-		return new Question(entity);
+		return uuid;
 	}
 	
 	public static List<Answer> getAnswersForQuestion(Question q){
@@ -147,11 +147,11 @@ public class QuestionAPI {
 		req.setAttribute("question", q);
 	}
 
-	public static void createOrUpdateQuestionFromRequest(HttpServletRequest req) {
+	public static String createOrUpdateQuestionFromRequest(HttpServletRequest req) {
 		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null){
-			QuestionAPI.createQuestionFromRequest(req);
+			return QuestionAPI.createQuestionFromRequest(req);
 		} else {
-			QuestionAPI.updateQuestionFromRequest(req);
+			return QuestionAPI.updateQuestionFromRequest(req);
 		}
 	}
 }

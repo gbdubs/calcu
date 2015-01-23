@@ -8,6 +8,22 @@
 		CalcU | Practice Problem
 	</jsp:attribute>
 	<jsp:attribute name="content">
+		<c:if test="${livePreview}">
+			<div class="box box-solid bg-yellow-gradient">
+				<div class="box-header solid-box-header">
+					<i class="fa fa-photo fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">Live Preview Mode</h3>
+					<a href="${practiceProblem.editUrl}" class="btn btn-warning pull-right live-preview-return-button">Back To Editor</a>
+				</div>
+				<div class="box-body">
+					You are currently in live preview mode. To switch back to the edit view, hit the 'Back to Editor' button.
+					Nothing on this page is visible to other users, for now. 
+					Live Preview enables you to make sure that your formatting looks the way you want it to before you submit your content.
+					Everything on the page is as you can expect it once you submit, except for this box.
+					To continue to edit your content, before you submit, you can hit the edit button in this panel.
+				</div>
+			</div>			
+		</c:if>
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
 				<h3 class="box-title">Practice Problem <small>by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> on ${practiceProblem.shortReadableTime}</small></h3>

@@ -61,9 +61,15 @@ public class ContributeQuestionServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException{
 		
-		QuestionAPI.createOrUpdateQuestionFromRequest(req);
+		String uuid = QuestionAPI.createOrUpdateQuestionFromRequest(req);
 		
-		if (req.getAttribute("saveWork") == null){
+		String saveButtonInstruction = req.getParameter("saveButton");
+		
+		if (saveButtonInstruction.equals("Save + Preview")){
+			resp.sendRedirect("/contribute/preview/" + uuid);
+			return;
+		}
+		if (saveButtonInstruction.equals("Save Changes")){
 			resp.sendRedirect("/contribute/dashboard");
 			return;
 		} else {

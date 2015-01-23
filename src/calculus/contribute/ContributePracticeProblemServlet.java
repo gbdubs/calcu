@@ -61,9 +61,15 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException{
 		
-		PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
+		String uuid = PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
 		
-		if (req.getAttribute("saveWork") == null){
+		String saveButtonInstruction = req.getParameter("saveButton");
+		
+		if (saveButtonInstruction.equals("Save + Preview")){
+			resp.sendRedirect("/contribute/preview/" + uuid);
+			return;
+		}
+		if (saveButtonInstruction.equals("Save Changes")){
 			resp.sendRedirect("/contribute/dashboard");
 			return;
 		} else {

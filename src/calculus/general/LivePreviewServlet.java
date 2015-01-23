@@ -8,8 +8,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.appengine.api.datastore.EntityNotFoundException;
-
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
@@ -18,10 +16,15 @@ import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
 
-public class ViewContentServlet extends HttpServlet {
+import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.UserServiceFactory;
 
+@SuppressWarnings("serial")
+public class LivePreviewServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
+		
+		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
 		
 		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
 			
@@ -44,30 +47,35 @@ public class ViewContentServlet extends HttpServlet {
 			return;
 		}
 		
+		
 		if (contentType.equals("practiceProblem")){
 			PracticeProblem pp = new PracticeProblem(uuid);
-			resp.setContentType("text/html");
-			RequestDispatcher jsp;
-			if (pp.getSubmitted() && pp.getViewable()){
-				PracticeProblemAPI.addPracticeProblemContext(req, pp);
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-			} else {
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			}
-			jsp.forward(req, resp);
+			if (pp.getCreatorUserId().equals(userId)){
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
+				PracticeProblemAPI.addPracticeProblemContext(req, pp);	
+				req.setAttribute("livePreview", true);
+				jsp.forward(req, resp);
+				return;
+			}	
 		} else if (contentType.equals("question")){
 			Question q = new Question(uuid);
-			resp.setContentType("text/html");
-			RequestDispatcher jsp;
-			if (q.getSubmitted() && q.getViewable()){
+			if (q.getCreatorUserId().equals(userId)){
+				resp.setContentType("text/html");
 				QuestionAPI.addQuestionContext(req, q);
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
-			} else {
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				req.setAttribute("livePreview", true);
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	
+				jsp.forward(req, resp);
+				return;
 			}
-			jsp.forward(req, resp);
-		} else {	
+		} else {
 			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
+			return;
 		}
+		
+		resp.setContentType("text/html");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+		jsp.forward(req, resp);
+		return;
 	}
 }

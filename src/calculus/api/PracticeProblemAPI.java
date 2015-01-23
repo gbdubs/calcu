@@ -82,22 +82,22 @@ public class PracticeProblemAPI {
 		return list;
 	}
 	
-	public static void createOrUpdatePracticeProblemFromRequest(HttpServletRequest req) {
+	public static String createOrUpdatePracticeProblemFromRequest(HttpServletRequest req) {
 		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null){
-			PracticeProblemAPI.newPracticeProblemFromRequest(req);
+			return PracticeProblemAPI.newPracticeProblemFromRequest(req);
 		} else {
-			PracticeProblemAPI.updatePracticeProblemFromRequest(req);
+			return PracticeProblemAPI.updatePracticeProblemFromRequest(req);
 		}
 	}
 
-	public static PracticeProblem newPracticeProblemFromRequest(HttpServletRequest req) {
+	public static String newPracticeProblemFromRequest(HttpServletRequest req) {
 	
 		String uuid = UUID.randomUUID().toString();
 		long time = System.currentTimeMillis();
 		
-		boolean anonymous = (req.getParameter("anonymousSubmit") != null);
-		boolean submitted = (req.getParameter("saveWork") == null);
-		boolean viewable = (req.getParameter("saveWork") == null);
+		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously"));
+		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
+		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Problem]";
@@ -134,19 +134,19 @@ public class PracticeProblemAPI {
 		
 		datastore.put(entity);
 		
-		return new PracticeProblem(entity);
+		return uuid;
 	}
 
-	public static PracticeProblem updatePracticeProblemFromRequest(HttpServletRequest req) {
+	public static String updatePracticeProblemFromRequest(HttpServletRequest req) {
 		String uuid = (String) req.getParameter("uuid");
 		PracticeProblem pp = new PracticeProblem(uuid);
 		Entity entity = pp.getEntity();
 		
 		long dateAndTime = System.currentTimeMillis();
 	
-		boolean anonymous = (req.getParameter("anonymousSubmit") != null);
-		boolean submitted = (req.getParameter("saveWork") == null);
-		boolean viewable = (req.getParameter("saveWork") == null);
+		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously"));
+		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
+		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
 		if (title == null || title == "") title = "[Un-named Problem]";
@@ -176,7 +176,7 @@ public class PracticeProblemAPI {
 		
 		datastore.put(entity);
 		
-		return pp;
+		return uuid;
 	}
 
 	public static List<Answer> getAnswersForPracticeProblem(PracticeProblem pp){
