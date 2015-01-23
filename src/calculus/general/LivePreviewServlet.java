@@ -50,7 +50,7 @@ public class LivePreviewServlet extends HttpServlet{
 		
 		if (contentType.equals("practiceProblem")){
 			PracticeProblem pp = new PracticeProblem(uuid);
-			if (pp.getCreatorUserId().equals(userId)){
+			if (pp.getCreatorUserId().equals(userId) && !pp.getSubmitted()){
 				resp.setContentType("text/html");
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);	
@@ -58,9 +58,9 @@ public class LivePreviewServlet extends HttpServlet{
 				jsp.forward(req, resp);
 				return;
 			}	
-		} else if (contentType.equals("question")){
+		} else if (contentType.equals("question") ){
 			Question q = new Question(uuid);
-			if (q.getCreatorUserId().equals(userId)){
+			if (q.getCreatorUserId().equals(userId) && !q.getSubmitted()){
 				resp.setContentType("text/html");
 				QuestionAPI.addQuestionContext(req, q);
 				req.setAttribute("livePreview", true);

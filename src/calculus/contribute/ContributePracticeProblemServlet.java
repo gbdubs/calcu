@@ -36,17 +36,21 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		urlRequest = urlRequest.substring(urlRequest.indexOf("/practice-problem") +  17);
 		
 		if (urlRequest.startsWith("/edit/")){
-
+			
 			String uuid = UuidTools.getUuidFromUrl(urlRequest);
 			
 			PracticeProblem pp = new PracticeProblem(uuid);
-			PracticeProblemAPI.addPracticeProblemContext(req, pp);
 			
-			resp.setContentType("text/html");
-			UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/edit/" + uuid);
-			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
-			jsp.forward(req, resp);
-			
+			if (pp.getSubmitted()){
+				resp.sendRedirect("/practice-problem/"+uuid);
+				return;
+			} else {
+				PracticeProblemAPI.addPracticeProblemContext(req, pp);
+				resp.setContentType("text/html");
+				UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/edit/" + uuid);
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
+				jsp.forward(req, resp);
+			}
 		} else {
 			
 			UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/new");
@@ -54,7 +58,6 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
 			jsp.forward(req, resp);
-			
 		}
 	}
 	

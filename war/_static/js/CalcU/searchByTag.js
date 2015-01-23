@@ -4,9 +4,10 @@ $(function() {
     $("#tags-input").tagsInput({
     	'width': '100%',
     	'height': 'auto',
-    	'defaultText': 'To Add Tag Press Enter',
+    	'defaultText': 'Type Tags Here',
     	'removeWithBackspace': true,
     });
+    
     
     var removeBookmarkOnClick = function(){
     		console.log("This shouldn't be run!");

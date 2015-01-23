@@ -59,6 +59,7 @@
 				<i class="fa fa-warning hidden-xs"></i>
 				<h3 class="box-title">Unfinished/Unsubmitted Questions  <small>To open a question up for editing, or to submit it, click on its link below</small></h3>
 			</div>
+			<c:if test="${fn:length(submittedQuestions) == 0}">
 			<div class="box-body no-padding">
 				<table class="table">
 					<tbody>
@@ -84,11 +85,12 @@
 			<div class="box-footer">
 				Total: ${fn:length(unsubmittedQuestions)} Unsubmitted Questions
 			</div>
-
+			</c:if>
+			
 			<c:if test="${fn:length(submittedQuestions) > 0}">
 			<div class="box-header">
 				<i class="fa fa-check hidden-xs"></i>
-				<h3 class="box-title">Submitted Questions  <small>Though these can no longer be edited, you can check out the comments and karma each has received by clicking below</small></h3>
+				<h3 class="box-title">Submitted Questions  <small>Though these can no longer be edited, you can see them in action!</small></h3>
 			</div>
 			<c:set var="totalKarma" value="${0}"/>
 			<div class="box-body no-padding">
@@ -157,7 +159,7 @@
 			<c:if test="${fn:length(submittedPracticeProblems) > 0}">
 			<div class="box-header">
 				<i class="fa fa-check hidden-xs"></i>
-				<h3 class="box-title">Submitted Problems  <small>Though these can no longer be edited, you can check out the comments and karma on them by clicking below</small></h3>
+				<h3 class="box-title">Submitted Problems  <small>Though these can no longer be edited, you can see them in action!</small></h3>
 			</div>
 			<c:set var="totalKarma" value="${0}"/>
 			<div class="box-body no-padding">
@@ -226,7 +228,7 @@
 			<c:if test="${fn:length(submittedContent) > 0}">
 			<div class="box-header">
 				<i class="fa fa-check hidden-xs"></i>
-				<h3 class="box-title">Submitted Content  <small>Though these can no longer be edited, you can check out the comments and karma on them by clicking below</small></h3>
+				<h3 class="box-title">Submitted Content  <small>Though these can no longer be edited, you can see them in action!</small></h3>
 			</div>
 			<c:set var="totalKarma" value="${0}"/>
 			<div class="box-body no-padding">	

@@ -36,17 +36,22 @@ public class ContributeQuestionServlet extends HttpServlet {
 		urlRequest = urlRequest.substring(urlRequest.indexOf("/question") +  9);
 		
 		if (urlRequest.startsWith("/edit/")){
-
+			
 			String uuid = UuidTools.getUuidFromUrl(urlRequest);
-			
 			Question q = new Question(uuid);
-			QuestionAPI.addQuestionContext(req, q);
 			
-			resp.setContentType("text/html");
-			UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
-			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
-			jsp.forward(req, resp);
+			if (q.getSubmitted()){
+				resp.sendRedirect("/practice-problem/"+uuid);
+				return;
+			} else {
 			
+				QuestionAPI.addQuestionContext(req, q);
+				
+				resp.setContentType("text/html");
+				UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
+				jsp.forward(req, resp);
+			}
 		} else {
 			
 			UserContextAPI.addUserContextToRequest(req, "/contribute/question/new");

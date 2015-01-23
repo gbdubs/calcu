@@ -95,7 +95,6 @@
 		
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="jquery.tagsinput.css" />
 		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
 	</jsp:attribute>
 </t:genericpage>
