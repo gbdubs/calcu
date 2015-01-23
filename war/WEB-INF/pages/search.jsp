@@ -29,6 +29,9 @@
 				<div class="box-header">
 					<i class="fa fa-question fa-karma-score"></i>
 					<h3 class="box-title">${fn:length(resultQuestions)} Matching Questions</h3>
+					<div class="box-tools pull-right">
+						<button class="btn btn-primary btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					</div>
 				</div>
 				<div class="box-body">
 					<c:forEach items="${resultQuestions}" var="question" varStatus="loop">
@@ -70,6 +73,9 @@
 				<div class="box-header">
 					<i class="fa fa-pencil fa-karma-score"></i>
 					<h3 class="box-title">${fn:length(resultPracticeProblems)} Matching Practice Problems</h3>
+					<div class="box-tools pull-right">
+						<button class="btn btn-success btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					</div>
 				</div>
 				<div class="box-body">
 					<c:forEach items="${resultPracticeProblems}" var="practiceProblem" varStatus="loop">
@@ -107,8 +113,8 @@
 			</div>
 		</c:if>
 		<c:if test="${questionsNotFound}">
-			<div class="box box-warning">
-				<duv class="box-header">
+			<div class="box box-primary">
+				<div class="box-header">
 					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">No Matching Questions <small> Try adding more tags, to broaden your search results </small></h3>
 				</div>
@@ -116,8 +122,8 @@
 		</c:if>
 		
 		<c:if test="${practiceProblemsNotFound}">
-			<div class="box box-warning">
-				<duv class="box-header">
+			<div class="box box-success">
+				<div class="box-header">
 					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">No Matching Practice Problems <small> Try adding more tags, to broaden your search results </small></h3>
 				</div>

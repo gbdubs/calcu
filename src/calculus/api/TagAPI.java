@@ -55,7 +55,6 @@ public class TagAPI {
 				}
 			}
 		}
-		System.out.println(mapping.toString());
 		List<String> uuids = new ArrayList<String>();
 		for(String uuid : mapping.keySet()){
 			int i = 0;
@@ -65,7 +64,6 @@ public class TagAPI {
 			}
 			uuids.add(i, uuid);
 		}
-		System.out.println(uuids.toString());
 		return uuids;
 	}
 	

@@ -34,22 +34,27 @@ public class SearchByTagServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		
 		String tagString = req.getParameter("tagsInput");
-		String[] tags = tagString.split(",");
-		List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(tags);
+		
 		List<Content> practiceProblems = new ArrayList<Content>();
 		List<Content> questions = new ArrayList<Content>();
 		
-		for (String uuid : uuids){
-			try {
-				Content c = new Content(uuid);
-				String contentType = c.getContentType();
-				if (contentType.equals("practiceProblem")){
-					practiceProblems.add(c);
-				} else if (contentType.equals("question")){
-					questions.add(c);
+		if(!tagString.trim().equals("") && tagString != null){
+			String[] tags = tagString.trim().split(",");
+			
+			List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(tags);
+			
+			for (String uuid : uuids){
+				try {
+					Content c = new Content(uuid);
+					String contentType = c.getContentType();
+					if (contentType.equals("practiceProblem")){
+						practiceProblems.add(c);
+					} else if (contentType.equals("question")){
+						questions.add(c);
+					}
+				} catch (EntityNotFoundException e) {
+					// Don't add to the list if it doesn't exist. Basic stuff, guys.
 				}
-			} catch (EntityNotFoundException e) {
-				// Don't add to the list if it doesn't exist. Basic stuff, guys.
 			}
 		}
 		req.setAttribute("tags", tagString);
@@ -58,11 +63,12 @@ public class SearchByTagServlet extends HttpServlet {
 		
 		if (practiceProblems.size() == 0){
 			req.setAttribute("practiceProblemsNotFound", true);
+			System.out.println("PracticeProblemsSize=0");
 		} else {
 			req.setAttribute("practiceProblemsNotFound", false);
 		}
 		
-		if (practiceProblems.size() == 0){
+		if (questions.size() == 0){
 			req.setAttribute("questionsNotFound", true);
 		} else {
 			req.setAttribute("questionsNotFound", false);
