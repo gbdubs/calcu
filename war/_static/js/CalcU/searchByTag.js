@@ -47,4 +47,20 @@ $(function() {
     
     $(".remove-bookmark-button").click(removeBookmarkOnClick);
     
+    $(".search-result-page").each(function(){
+    	var parent = $(this).parent(".box-body");
+    	var id = "#" + $(this).attr("id");
+    	var tabId = id + "-tab";
+    	$(tabId, parent).click(function(){
+    		$(".search-result-page", parent).each(function(){
+    			$(this).addClass("hidden");
+    		});
+    		$(id, parent).removeClass("hidden");
+    		$(".result-page-tab", parent).each(function(){
+    			$(this).removeClass("selected")
+    		});
+    		$(this).addClass("selected");
+    	});
+    });
+    
 });

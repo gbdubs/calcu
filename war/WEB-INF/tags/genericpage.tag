@@ -130,11 +130,22 @@
                         <i class="fa fa-angle-right pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/contribute/guidelines"><i class="fa fa-angle-double-right"></i> Contribution Guidelines</a></li>
-                        <li><a href="/questions/answer-random-question"><i class="fa fa-angle-double-right"></i> Answer User Questions</a></li>
-                        <li><a href="/contribute/practice-problem"><i class="fa fa-angle-double-right"></i> Create Practice Problems</a></li>
-                        <li><a href="/solve/practice-problem"><i class="fa fa-angle-double-right"></i> Solve Practice Problems</a></li>
-                        <li><a href="/contribute/content"><i class="fa fa-angle-double-right"></i> Contribute Content</a></li>
+                        <li><a href="/contribute/dashboard"><i class="fa fa-angle-double-right"></i> Contribution Dashboard</a></li>
+                        <li><a href="/contribute/question/new"><i class="fa fa-angle-double-right"></i> Ask New Question</a></li>
+                        <li><a href="/contribute/practice-problem/new"><i class="fa fa-angle-double-right"></i> Create Practice Problem</a></li>
+                        <li><a href="/contribute/text-content/new"><i class="fa fa-angle-double-right"></i> Create Text Content</a></li>
+                        <li><a href="/contribute/latex-introduction"><i class="fa fa-angle-double-right"></i> Using LaTex Expressions</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-lightbulb-o"></i>
+                        <span>Answer</span>
+                        <i class="fa fa-angle-right pull-right"></i>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="/answer-question"><i class="fa fa-angle-double-right"></i> Answer User Questions</a></li>
+                        <li><a href="/solve-practice-problem"><i class="fa fa-angle-double-right"></i> Solve Practice Problems</a></li>
                         <li><a href="/contribute/latex-introduction"><i class="fa fa-angle-double-right"></i> Using LaTex Expressions</a></li>
                     </ul>
                 </li>

@@ -3957,6 +3957,7 @@ div.tagsinput div { display:block; float: left; }
 .buttonless{
 	background: none;
 	border: none;
+	outline: none;
 }
 
 .bookmarked-button{
@@ -3970,5 +3971,17 @@ div.tagsinput div { display:block; float: left; }
 a.btn.btn-warning.live-preview-return-button{
 	margin: 5px 5px 0 0;
 	color: #FFFFFF;
+}
+
+.selected.result-page-tab.btn-success{
+	background-color: #3d9970;
+}
+
+.selected.result-page-tab.btn-primary{
+	background-color: #00c0ef;
+}
+
+.selected.result-page-tab.btn-success{
+	background-color: #3d9970;
 }
 }

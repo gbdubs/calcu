@@ -174,6 +174,7 @@ public class Content {
 	}
 	
 	public static String getContentType(String uuid) throws EntityNotFoundException{
+		if (uuid == "" || uuid == null) return null;
 		Key contentKey = KeyFactory.createKey("Content", uuid);
 		Entity entity = datastoreService.get(contentKey);
 		return (String) entity.getProperty("contentType");

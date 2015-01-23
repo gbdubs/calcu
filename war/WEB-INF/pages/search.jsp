@@ -34,40 +34,56 @@
 					</div>
 				</div>
 				<div class="box-body">
+					<c:set var="numPages" value="${1}"/>
+					<div class="search-result-page" id="q-result-page-1">
 					<c:forEach items="${resultQuestions}" var="question" varStatus="loop">
-					
+						
+						<c:if test="${loop.index % 5 == 0 && loop.index > 0}">
+							</div>
+							<c:set var="numPages" value="${numPages + 1}"/>
+							<div class="search-result-page hidden" id="q-result-page-${numPages}">
+						</c:if>
+						
 						<c:set var="bookmarked" value="false" />
 						<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
-						  <c:if test="${bookmarkUuid eq question.uuid}">
+						  <c:if test="${bookmarkUuid eq practiceProblem.uuid}">
 							<c:set var="bookmarked" value="true" />
 						  </c:if>
 						</c:forEach>
 
-						<div class="alert alert-dismissable alert-info">						
+						<div class="alert alert-dismissable alert-info">
 						
 							<i class="fa">${question.karma}</i>
 							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
+									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:when>
 								<c:otherwise>
-									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
+									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:otherwise>
 							</c:choose>
 							
-							<a href="${question.url}">
-								<b>${question.title}</b> ${question.abbreviatedBody}
-							</a>
+							<a href="${question.url}"><b>${question.title}</b></a>
+							${question.abbreviatedBody}
 						</div>
 					</c:forEach>
+					</div>
+					<c:if test="${numPages > 1}">
+						<div class="btn-group no-margin">
+							<c:forEach begin="1" end="${numPages}" var="i">
+								<button class="result-page-tab btn btn-primary" id="q-result-page-${i}-tab">${i}</button>
+							</c:forEach>
+						</div>
+					</c:if>
 				</div>
 			</div>
 		</c:if>	
+		
 		<c:if test="${fn:length(resultPracticeProblems) > 0}">
 			<div class="box box-success">
 				<div class="box-header">
@@ -78,8 +94,16 @@
 					</div>
 				</div>
 				<div class="box-body">
+					<c:set var="numPages" value="${1}"/>
+					<div class="search-result-page" id="pp-result-page-1">
 					<c:forEach items="${resultPracticeProblems}" var="practiceProblem" varStatus="loop">
-					
+						
+						<c:if test="${loop.index % 5 == 0 && loop.index > 0}">
+							</div>
+							<c:set var="numPages" value="${numPages + 1}"/>
+							<div class="search-result-page hidden" id="pp-result-page-${numPages}">
+						</c:if>
+						
 						<c:set var="bookmarked" value="false" />
 						<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
 						  <c:if test="${bookmarkUuid eq practiceProblem.uuid}">
@@ -104,14 +128,22 @@
 								</c:otherwise>
 							</c:choose>
 							
-							<a href="${practiceProblem.url}">
-								<b>${practiceProblem.title}</b> ${practiceProblem.abbreviatedBody}
-							</a>
+							<a href="${practiceProblem.url}"><b>${practiceProblem.title}</b></a>
+							${practiceProblem.abbreviatedBody}
 						</div>
 					</c:forEach>
+					</div>
+					<c:if test="${numPages > 1}">
+						<div class="btn-group no-margin">
+							<c:forEach begin="1" end="${numPages}" var="i">
+								<button class="result-page-tab btn btn-success" id="pp-result-page-${i}-tab">${i}</button>
+							</c:forEach>
+						</div>
+					</c:if>
 				</div>
 			</div>
 		</c:if>
+		
 		<c:if test="${questionsNotFound}">
 			<div class="box box-primary">
 				<div class="box-header">
@@ -126,6 +158,19 @@
 				<div class="box-header">
 					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">No Matching Practice Problems <small> Try adding more tags, to broaden your search results </small></h3>
+				</div>
+			</div>
+		</c:if>
+		
+		<c:if test="${practiceProblemsNotFound || questionsNotFound}">
+			<div class="box box-default">
+				<div class="box-header">
+					<i class="fa fa-question fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">Didn't Find What You Were Looking For?</h3>
+				</div>
+				<div class="box-body">
+					If you didn't find what you were looking for in this search, don't despair, you have some great options!  You can <a href="/contribute/question/new">ask the question yourself</a>,
+					<a href="/external-resources">check out sites that might have your answer</a>, or try searching again with more tags.  The more tags you include, the more results you will get!
 				</div>
 			</div>
 		</c:if>

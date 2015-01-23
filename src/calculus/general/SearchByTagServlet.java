@@ -63,7 +63,6 @@ public class SearchByTagServlet extends HttpServlet {
 		
 		if (practiceProblems.size() == 0){
 			req.setAttribute("practiceProblemsNotFound", true);
-			System.out.println("PracticeProblemsSize=0");
 		} else {
 			req.setAttribute("practiceProblemsNotFound", false);
 		}
