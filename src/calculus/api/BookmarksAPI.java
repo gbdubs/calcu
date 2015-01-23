@@ -59,6 +59,7 @@ public class BookmarksAPI {
 			List<MenuItem> bookmarksToDisplay = new ArrayList<MenuItem>();
 			List<String> bookmarkUuids = new ArrayList<String>();
 			if (bookmarks != null){
+				System.out.println("bookmarks: " + bookmarks.toString());
 				for(String  b : bookmarks){
 					String contentType = "";
 					try {
@@ -66,13 +67,16 @@ public class BookmarksAPI {
 					} catch (EntityNotFoundException e1) {
 						// TODO: Skip?
 					}
+					System.out.println("content type("+ b +") = " + contentType);
+					if (contentType != null){
 					Content c;
-					try {
-						c = new Content(datastore.get(KeyFactory.createKey("Content", b)), contentType);
-						bookmarksToDisplay.add(new MenuItem(c));
-						bookmarkUuids.add(c.getUuid());
-					} catch (EntityNotFoundException e) {
-						// TODO Skip?
+						try {
+							c = new Content(datastore.get(KeyFactory.createKey("Content", b)), contentType);
+							bookmarksToDisplay.add(new MenuItem(c));
+							bookmarkUuids.add(c.getUuid());
+						} catch (EntityNotFoundException e) {
+							// TODO Skip?
+						}
 					}
 				}
 			} 

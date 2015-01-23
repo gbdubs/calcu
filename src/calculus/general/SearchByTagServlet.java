@@ -73,10 +73,11 @@ public class SearchByTagServlet extends HttpServlet {
 			req.setAttribute("questionsNotFound", false);
 		}
 		
+		System.out.println("CHECKPOINT 1");
 		UserContextAPI.addUserContextToRequest(req, "/search");
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/search.jsp");	
-		
+		System.out.println("CHECKPOINT 2");
 		jsp.forward(req, resp);
 	}
 	

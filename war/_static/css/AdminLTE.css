@@ -3913,6 +3913,10 @@ fieldset[disabled] .btn-vk.active {
 	background: none;
 }
 
+.bookmarks-menu a {
+position: relative;
+}
+
 .bookmarks-menu li h4{
 	padding: 0;
 	display: inline-block;

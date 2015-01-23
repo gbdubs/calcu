@@ -46,7 +46,7 @@
 						
 						<c:set var="bookmarked" value="false" />
 						<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
-						  <c:if test="${bookmarkUuid eq practiceProblem.uuid}">
+						  <c:if test="${bookmarkUuid eq question.uuid}">
 							<c:set var="bookmarked" value="true" />
 						  </c:if>
 						</c:forEach>
@@ -57,12 +57,12 @@
 							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
+									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:when>
 								<c:otherwise>
-									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
+									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:otherwise>

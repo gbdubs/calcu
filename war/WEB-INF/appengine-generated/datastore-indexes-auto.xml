@@ -1,4 +1,14 @@
-<!-- Indices written at Fri, 23 Jan 2015 12:03:08 EST -->
+<!-- Indices written at Fri, 23 Jan 2015 14:47:06 EST -->
 
-<datastore-indexes/>
+<datastore-indexes>
 
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="parentUuid" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="createdAt" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
