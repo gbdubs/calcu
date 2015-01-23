@@ -128,7 +128,7 @@ public class PracticeProblemAPI {
 		if (submitted && viewable){
 			String[] tagList = tags.split(",");
 			for (String t : tagList){
-				if (t.length() > 1) TagAPI.addNewContentToTag(uuid, t);
+				if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
 			}
 		}
 		
@@ -170,7 +170,7 @@ public class PracticeProblemAPI {
 		if (submitted && viewable){
 			String[] tagList = tags.split(",");
 			for (String t : tagList){
-				if (t.length() > 1) TagAPI.addNewContentToTag(uuid, t);
+				if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
 			}
 		}
 		

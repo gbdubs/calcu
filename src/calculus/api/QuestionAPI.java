@@ -68,6 +68,13 @@ public class QuestionAPI {
 		
 		datastore.put(entity);
 		
+		if (submitted && viewable){
+			String[] tagList = tags.split(",");
+			for (String t : tagList){
+				if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
+			}
+		}
+		
 		return uuid;
 	}
 
@@ -99,6 +106,13 @@ public class QuestionAPI {
 		entity.setProperty("tags", tags);
 
 		datastore.put(entity);
+		
+		if (submitted && viewable){
+			String[] tagList = tags.split(",");
+			for (String t : tagList){
+				if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
+			}
+		}
 		
 		return uuid;
 	}
