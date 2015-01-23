@@ -38,29 +38,32 @@ public class ContributeQuestionServlet extends HttpServlet {
 		if (urlRequest.startsWith("/edit/")){
 			
 			String uuid = UuidTools.getUuidFromUrl(urlRequest);
-			Question q = new Question(uuid);
 			
-			if (q.getSubmitted()){
-				resp.sendRedirect("/practice-problem/"+uuid);
-				return;
-			} else {
-			
-				QuestionAPI.addQuestionContext(req, q);
+			if (uuid != null && uuid.length() == 36){
+				Question q = new Question(uuid);
 				
-				resp.setContentType("text/html");
-				UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
-				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
-				jsp.forward(req, resp);
+				if (q.getSubmitted()){
+					resp.sendRedirect("/practice-problem/"+uuid);
+					return;
+				} else {
+				
+					QuestionAPI.addQuestionContext(req, q);
+					
+					resp.setContentType("text/html");
+					UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
+					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
+					jsp.forward(req, resp);
+					return;
+				}
 			}
-		} else {
-			
-			UserContextAPI.addUserContextToRequest(req, "/contribute/question/new");
-				
-			resp.setContentType("text/html");
-			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
-			jsp.forward(req, resp);
-			
 		}
+			
+		UserContextAPI.addUserContextToRequest(req, "/contribute/question/new");
+			
+		resp.setContentType("text/html");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
+		jsp.forward(req, resp);
+		
 	}
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
