@@ -64,7 +64,6 @@ public class UserPrivateInfoAPI {
 			userPrivateInfo.setProperty("emailRecommend", "weekly");
 			userPrivateInfo.setProperty("emailReply", "none");
 			userPrivateInfo.setProperty("bookmarks", bookmarks);
-			System.out.println(userPrivateInfo.toString());
 			UserPrivateInfoAPI.datastore.put(userPrivateInfo);
 			return userPrivateInfo;
 		}
