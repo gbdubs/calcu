@@ -25,7 +25,6 @@ $(function() {
     	
     	$(this).unbind();
     	$(this).addClass("bookmarked-button").click(removeBookmarkOnClick);
-    	$(this).parent(".alert").removeClass("alert-info").addClass("alert-success");
     };
     
     removeBookmarkOnClick = function(){
@@ -41,7 +40,6 @@ $(function() {
     	
     	$(this).unbind();
     	$(this).removeClass("bookmarked-button").click(addBookmarkOnClick);
-    	$(this).parent(".alert").removeClass("alert-success").addClass("alert-info");
     }
     
     

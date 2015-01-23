@@ -37,6 +37,7 @@ public class SearchByTagServlet extends HttpServlet {
 		String[] tags = tagString.split(",");
 		List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(tags);
 		List<Content> practiceProblems = new ArrayList<Content>();
+		List<Content> questions = new ArrayList<Content>();
 		
 		for (String uuid : uuids){
 			try {
@@ -44,6 +45,8 @@ public class SearchByTagServlet extends HttpServlet {
 				String contentType = c.getContentType();
 				if (contentType.equals("practiceProblem")){
 					practiceProblems.add(c);
+				} else if (contentType.equals("question")){
+					questions.add(c);
 				}
 			} catch (EntityNotFoundException e) {
 				// Don't add to the list if it doesn't exist. Basic stuff, guys.
@@ -51,11 +54,18 @@ public class SearchByTagServlet extends HttpServlet {
 		}
 		req.setAttribute("tags", tagString);
 		req.setAttribute("resultPracticeProblems", practiceProblems);
+		req.setAttribute("resultQuestions", questions);
 		
 		if (practiceProblems.size() == 0){
 			req.setAttribute("practiceProblemsNotFound", true);
 		} else {
 			req.setAttribute("practiceProblemsNotFound", false);
+		}
+		
+		if (practiceProblems.size() == 0){
+			req.setAttribute("questionsNotFound", true);
+		} else {
+			req.setAttribute("questionsNotFound", false);
 		}
 		
 		UserContextAPI.addUserContextToRequest(req, "/search");

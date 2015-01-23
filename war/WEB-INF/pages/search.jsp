@@ -23,7 +23,48 @@
 					</div>
 				</form>
 			</div>
-		</div>	
+		</div>
+		<c:if test="${fn:length(resultQuestions) > 0}">
+			<div class="box box-primary">
+				<div class="box-header">
+					<i class="fa fa-question fa-karma-score"></i>
+					<h3 class="box-title">${fn:length(resultQuestions)} Matching Questions</h3>
+				</div>
+				<div class="box-body">
+					<c:forEach items="${resultQuestions}" var="question" varStatus="loop">
+					
+						<c:set var="bookmarked" value="false" />
+						<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+						  <c:if test="${bookmarkUuid eq question.uuid}">
+							<c:set var="bookmarked" value="true" />
+						  </c:if>
+						</c:forEach>
+
+						<div class="alert alert-dismissable alert-info">						
+						
+							<i class="fa">${question.karma}</i>
+							
+							<c:choose>
+								<c:when test="${bookmarked}">
+									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
+										<i class="fa fa-bookmark"></i>
+									</button>
+								</c:when>
+								<c:otherwise>
+									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
+										<i class="fa fa-bookmark"></i>
+									</button>
+								</c:otherwise>
+							</c:choose>
+							
+							<a href="${question.url}">
+								<b>${question.title}</b> ${question.abbreviatedBody}
+							</a>
+						</div>
+					</c:forEach>
+				</div>
+			</div>
+		</c:if>	
 		<c:if test="${fn:length(resultPracticeProblems) > 0}">
 			<div class="box box-success">
 				<div class="box-header">
@@ -40,10 +81,7 @@
 						  </c:if>
 						</c:forEach>
 
-						<c:choose>
-							<c:when test="${bookmarked}"> <div class="alert alert-dismissable alert-success"> </c:when>
-							<c:otherwise>                 <div class="alert alert-dismissable alert-info"> </c:otherwise>
-						</c:choose>								
+						<div class="alert alert-dismissable alert-success">
 						
 							<i class="fa">${practiceProblem.karma}</i>
 							
@@ -68,6 +106,15 @@
 				</div>
 			</div>
 		</c:if>
+		<c:if test="${questionsNotFound}">
+			<div class="box box-warning">
+				<duv class="box-header">
+					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">No Matching Questions <small> Try adding more tags, to broaden your search results </small></h3>
+				</div>
+			</div>
+		</c:if>
+		
 		<c:if test="${practiceProblemsNotFound}">
 			<div class="box box-warning">
 				<duv class="box-header">
@@ -76,6 +123,7 @@
 				</div>
 			</div>
 		</c:if>
+		
 	</jsp:attribute>	
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>

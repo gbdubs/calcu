@@ -1,8 +1,18 @@
-<!-- Indices written at Thu, 22 Jan 2015 22:50:16 EST -->
+<!-- Indices written at Fri, 23 Jan 2015 09:59:54 EST -->
 
 <datastore-indexes>
 
-    <!-- Used 30 times in query history -->
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="parentUuid" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="approved" direction="desc"/>
+        <property name="karma" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 4 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="creatorUserId" direction="asc"/>
@@ -10,7 +20,7 @@
         <property name="createdAt" direction="asc"/>
     </datastore-index>
 
-    <!-- Used 30 times in query history -->
+    <!-- Used 4 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="anonymous" direction="asc"/>
         <property name="contentType" direction="asc"/>
@@ -20,23 +30,13 @@
         <property name="createdAt" direction="asc"/>
     </datastore-index>
 
-    <!-- Used 2 times in query history -->
+    <!-- Used 1 time in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="parentUuid" direction="asc"/>
         <property name="submitted" direction="asc"/>
         <property name="viewable" direction="asc"/>
         <property name="createdAt" direction="asc"/>
-    </datastore-index>
-
-    <!-- Used 4 times in query history -->
-    <datastore-index kind="Content" ancestor="false" source="auto">
-        <property name="contentType" direction="asc"/>
-        <property name="parentUuid" direction="asc"/>
-        <property name="submitted" direction="asc"/>
-        <property name="viewable" direction="asc"/>
-        <property name="approved" direction="desc"/>
-        <property name="karma" direction="asc"/>
     </datastore-index>
 
 </datastore-indexes>
