@@ -3988,4 +3988,8 @@ a.btn.btn-warning.live-preview-return-button{
 .selected.result-page-tab.btn-success{
 	background-color: #3d9970;
 }
+
+.sidebar-menu .fa.fa-fw{
+	margin-right: 10px;
+}
 }

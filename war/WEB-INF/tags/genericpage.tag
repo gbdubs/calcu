@@ -13,7 +13,7 @@
 	</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- bootstrap wysihtml5 - text editor -->
     <link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
@@ -107,25 +107,25 @@
             <ul class="sidebar-menu">
                 <li class="active">
                     <a href="/home">
-                        <i class="fa fa-home"></i>
+                        <i class="fa fa-fw fa-home"></i>
                         <span>Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/about">
-                        <i class="fa fa-cogs"></i>
-                        <span>About</span>
+                    <a href="/search">
+                        <i class="fa fa-fw fa-search"></i>
+                        <span>Search</span>
                     </a>
                 </li>
                 <li>
                     <a href="/search">
-                        <i class="fa fa-search"></i>
-                        <span>Search</span>
+                        <i class="fa fa-fw fa-binoculars"></i>
+                        <span>Explore</span>
                     </a>
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-graduation-cap"></i>
+                        <i class="fa fa-fw fa-graduation-cap"></i>
                         <span>Contribute</span>
                         <i class="fa fa-angle-right pull-right"></i>
                     </a>
@@ -139,7 +139,7 @@
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-lightbulb-o"></i>
+                        <i class="fa fa-fw fa-lightbulb-o"></i>
                         <span>Answer</span>
                         <i class="fa fa-angle-right pull-right"></i>
                     </a>
@@ -151,31 +151,37 @@
                 </li>
                 <li>
                     <a href="pages/progress.html">
-                        <i class="fa fa-tasks"></i>
+                        <i class="fa fa-fw fa-tasks"></i>
                         <span>Progress</span>
                     </a>
                 </li>
                 <li>
                     <a href="pages/achievments.html">
-                        <i class="fa fa-trophy"></i>
+                        <i class="fa fa-fw fa-trophy"></i>
                         <span>Achievments</span>
                     </a>
                 </li>
                 <li>
                     <a href="pages/tutorials.html">
-                        <i class="fa fa-university"></i>
+                        <i class="fa fa-fw fa-university"></i>
                         <span>Tutorials</span>
                     </a>
                 </li>
                 <li>
                     <a href="pages/external.html">
-                        <i class="fa fa-external-link"></i>
+                        <i class="fa fa-fw fa-external-link"></i>
                         <span>Links and Support</span>
                     </a>
                 </li>
                 <li>
+                    <a href="/about">
+                        <i class="fa fa-fw fa-cogs"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/contact">
-                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-fw fa-heart"></i>
                         <span>Suggestions/Contact</span>
                     </a>
                 </li>
