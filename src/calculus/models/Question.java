@@ -3,6 +3,9 @@ package calculus.models;
 import java.util.ArrayList;
 import java.util.List;
 
+import calculus.api.PracticeProblemAPI;
+import calculus.api.QuestionAPI;
+
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.Key;
 
@@ -36,4 +39,15 @@ public class Question extends Content{
 		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property Modification.");
 	}
 
+	public String getEditUrl(){
+		return "/contribute/question/edit/" + this.getUuid();
+	}
+	
+	public List<Answer> getAnswers(){
+		return QuestionAPI.getAnswersForQuestion(this);
+	}
+	
+	public String getNewAnswerUploadUrl(){
+		return "/answer/" + this.getUuid();
+	}
 }

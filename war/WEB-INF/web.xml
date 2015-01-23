@@ -107,7 +107,20 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>ContentDashboard</servlet-name>
 		<url-pattern>/contribute/dashboard/*</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ContentDashboard</servlet-name>
+		<url-pattern>/contribute/*</url-pattern>
+	</servlet-mapping>
 	
+	
+	<servlet>
+		<servlet-name>ContributeQuestion</servlet-name>
+		<servlet-class>calculus.contribute.ContributeQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContributeQuestion</servlet-name>
+		<url-pattern>/contribute/question/*</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>ContributePracticeProblem</servlet-name>

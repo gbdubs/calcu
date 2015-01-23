@@ -3,7 +3,7 @@
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
-		CalcU | Contribute Practice Problem
+		CalcU | Contribute Question
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
@@ -11,7 +11,7 @@
 		<div class="box box-info contribute-box">
 			<div class="box-header">
 				<i class="fa fa-info-circle hidden-xs"></i>
-				<h3 class="box-title">Welcome to the Practice Problem Editor! <small>Here are some basic guidelines to keep in mind</small></h3>
+				<h3 class="box-title">Welcome to the Question Editor! <small>Here are some basic guidelines to keep in mind</small></h3>
 				<div class="pull-right box-tools hidden-xs">
 					<button class="btn btn-info btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
@@ -34,7 +34,7 @@
 					</li>
 					<li>
 						You have the option of submitting the question anonymously, or submitting with your username attached to it.  
-						Note that the username that will be associated with this problem forevermore is the one that you have when you submit.  
+						Note that the username that will be associated with this question forevermore is the one that you have when you submit.  
 						You will not receive karma for anonymous submissions.  
 					</li>
 				</ul>
@@ -42,44 +42,31 @@
 			</div>
 		</div>
 	
-		<form action="/contribute/practice-problem/" method="post">
-			<input type="hidden" value="${practiceProblem.uuid}" name="uuid">
-			<div class="box box-warning contribute-box">
-				<div class="box-header">
-					<i class="fa fa-question hidden-xs"></i>
-					<h3 class="box-title">Problem Editor <small>Construct the information that the student will need to solve the problem in this area</small></h3>
-					<div class="pull-right box-tools hidden-xs">
-						<button class="btn btn-warning btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
-					</div>
-				</div>
-				<div class="box-body">
-					<label for="title">Problem Title</label>
-					<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="${practiceProblem.title}">
-				</div>
-				<div class="box-body pad">
-					<label for="body">Problem Description</label>
-					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Outline the information nescessary to solve the problem" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${practiceProblem.body}</textarea>
-				</div>
-				<div class="box-body pad">
-					<label for="tags-input">Tags/Categories</label>
-					<input name="tagsInput" id="tags-input" value="${practiceProblem.tags}" />
-				</div>
-			</div>
-		
+		<form action="/contribute/question/" method="post">
+			<input type="hidden" value="${question.uuid}" name="uuid">
 			<div class="box box-success contribute-box">
 				<div class="box-header">
-				<i class="fa fa-lightbulb-o hidden-xs"></i>
-					<h3 class="box-title">Your Solution <small> Explain how to solve the problem, and explicitly state the correct answer in this field</small></h3>
+					<i class="fa fa-question hidden-xs"></i>
+					<h3 class="box-title">Question Editor <small>Construct your question with enough information for someone to answer thoroughly</small></h3>
 					<div class="pull-right box-tools hidden-xs">
 						<button class="btn btn-success btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 					</div>
 				</div>
+				<div class="box-body">
+					<label for="title">Question Title</label>
+					<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="${question.title}">
+				</div>
 				<div class="box-body pad">
-					<textarea name="authorSolution" class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${practiceProblem.authorSolution}</textarea>
+					<label for="body">Question Description</label>
+					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Outline the question thoroughly, but try not to make your description overly involved" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
+					>${question.body}</textarea>
+				</div>
+				<div class="box-body pad">
+					<label for="tags-input">Tags/Categories</label>
+					<input name="tagsInput" id="tags-input" value="${question.tags}" />
 				</div>
 			</div>
+		
 			
 			<div class="box box-primary contribute-box">
 				<div class="box-header">

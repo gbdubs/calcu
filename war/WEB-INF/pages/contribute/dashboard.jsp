@@ -103,7 +103,7 @@
 						<c:forEach items="${submittedQuestions}" var="question" varStatus="loop">
 							<tr>
 								<td class="hidden-xs">${loop.index + 1}.</td>
-								<td><a href="${practiceProblem.url}"> ${question.title} </a></td>
+								<td><a href="${question.url}"> ${question.title} </a></td>
 								<td><span class="badge bg-blue">${question.karma} Karma</span></td>
 								<td>${question.readableTime}</td>
 								<c:set var="totalKarma" value="${totalKarma + question.karma}"/>

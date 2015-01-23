@@ -7,7 +7,6 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
-import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -50,6 +49,7 @@ public class QuestionAPI {
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
 		Text wrappedBody = new Text(body);
+		String tags = req.getParameter("tagsInput");
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
@@ -63,6 +63,7 @@ public class QuestionAPI {
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("url", "/question/" + uuid);
+		entity.setProperty("tags", tags);
 		entity.setProperty("requests", 1);
 		
 		datastore.put(entity);
@@ -87,6 +88,7 @@ public class QuestionAPI {
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";	
 		Text wrappedBody = new Text(body);
+		String tags = req.getParameter("tagsInput");
 		
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
@@ -94,6 +96,7 @@ public class QuestionAPI {
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
+		entity.setProperty("tags", tags);
 
 		datastore.put(entity);
 		
@@ -115,13 +118,40 @@ public class QuestionAPI {
 	}
 
 	public static List<Question> getUnsubmittedQuestions(User user) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Question> list = new ArrayList<Question>();
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
+		Filter compositeFilter = CompositeFilterOperator.and(userFilter, questionFilter, unsubmittedFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
+		PreparedQuery pq = datastore.prepare(query);
+		for (Entity result : pq.asIterable()) {
+			Question q = new Question(result);
+			list.add(q);
+		}
+		return list;
 	}
 
 	public static List<Question> getSubmittedQuestions(User user) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Question> list = new ArrayList<Question>();
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
+		Filter compositeFilter = CompositeFilterOperator.and(userFilter, questionFilter, submittedFilter, notAnonymousFilter, viewableFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
+		PreparedQuery pq = datastore.prepare(query);
+		for (Entity result : pq.asIterable()) {
+			Question q = new Question(result);
+			list.add(q);
+		}
+		return list;
 	}
-	
+
+	public static void addQuestionContext(HttpServletRequest req, Question q) {
+		req.setAttribute("question", q);
+	}
+
+	public static void createOrUpdateQuestionFromRequest(HttpServletRequest req) {
+		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null){
+			QuestionAPI.createQuestionFromRequest(req);
+		} else {
+			QuestionAPI.updateQuestionFromRequest(req);
+		}
+	}
 }
