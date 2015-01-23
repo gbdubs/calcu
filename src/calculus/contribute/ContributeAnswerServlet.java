@@ -20,7 +20,7 @@ public class ContributeAnswerServlet extends HttpServlet {
 		Answer answer = Answer.createAnswerFromRequest(req);
 		
 		resp.setContentType("text/html");
-		UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/dashboard");
+		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 		RequestDispatcher jsp;
 		jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/answer-thanks.jsp");
 		jsp.forward(req, resp);

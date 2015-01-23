@@ -11,9 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 
 import calculus.api.PracticeProblemAPI;
+import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
+import calculus.models.Question;
 import calculus.utilities.UuidTools;
 
 public class ViewContentServlet extends HttpServlet {
@@ -44,16 +46,27 @@ public class ViewContentServlet extends HttpServlet {
 		
 		if (contentType.equals("practiceProblem")){
 			PracticeProblem pp = new PracticeProblem(uuid);
+			resp.setContentType("text/html");
+			RequestDispatcher jsp;
 			if (pp.getSubmitted() && pp.getViewable()){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
-				resp.setContentType("text/html");
-				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-				jsp.forward(req, resp);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 			} else {
-				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				jsp.forward(req, resp);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
-		} else {
+			jsp.forward(req, resp);
+		} else if (contentType.equals("question")){
+			Question q = new Question(uuid);
+			resp.setContentType("text/html");
+			RequestDispatcher jsp;
+			if (q.getSubmitted() && q.getViewable()){
+				QuestionAPI.addQuestionContext(req, q);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
+			} else {
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+			}
+			jsp.forward(req, resp);
+		} else {	
 			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
 		}
 	}

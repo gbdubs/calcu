@@ -12,6 +12,7 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
+import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -42,6 +43,10 @@ public class Answer extends Content {
 	
 	public static Answer createAnswerFromRequest(HttpServletRequest req){
 		
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		String userId = "";
+		if (user != null) userId = user.getUserId();
+		
 		String uuid = UUID.randomUUID().toString();
 		String parentUuid = req.getParameter("parentUuid");
 		long time = System.currentTimeMillis();
@@ -62,7 +67,7 @@ public class Answer extends Content {
 		entity.setProperty("karma", 0);
 		entity.setProperty("parentUuid", parentUuid);
 		entity.setProperty("contentType", "answer");
-		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
+		entity.setProperty("creatorUserId", userId);
 		entity.setProperty("createdAt", time);
 		entity.setProperty("title", title);
 		entity.setProperty("body", wrappedBody);
