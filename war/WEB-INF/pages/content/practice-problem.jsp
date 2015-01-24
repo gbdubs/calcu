@@ -29,7 +29,7 @@
 				<div class="box-header solid-box-header">
 					<i class="fa fa-cube fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">Solve Practice Problem Mode (STREAK = ${answerModeStreak})</h3>
-					<form action="/answer/practice-problem/new" method="post" class="btn-group pull-right box-tools">
+					<form action="/answer/practice-problem/new" method="post" class="pull-right box-tools">
 						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
 						<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}"/>
 						<input type="hidden" name="action" value="skip"/>

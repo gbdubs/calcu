@@ -1,8 +1,8 @@
-<!-- Indices written at Sat, 24 Jan 2015 15:53:14 EST -->
+<!-- Indices written at Sat, 24 Jan 2015 15:57:26 EST -->
 
 <datastore-indexes>
 
-    <!-- Used 18 times in query history -->
+    <!-- Used 24 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="submitted" direction="asc"/>
@@ -11,7 +11,7 @@
         <property name="createdAt" direction="desc"/>
     </datastore-index>
 
-    <!-- Used 10 times in query history -->
+    <!-- Used 12 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="parentUuid" direction="asc"/>
@@ -19,6 +19,15 @@
         <property name="viewable" direction="asc"/>
         <property name="approved" direction="desc"/>
         <property name="karma" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="parentUuid" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="createdAt" direction="asc"/>
     </datastore-index>
 
 </datastore-indexes>

@@ -147,8 +147,8 @@
                         <i class="fa fa-angle-right pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/answer-question"><i class="fa fa-angle-double-right"></i> Answer User Questions</a></li>
-                        <li><a href="/solve-practice-problem"><i class="fa fa-angle-double-right"></i> Solve Practice Problems</a></li>
+                        <li><a href="/answer/question/"><i class="fa fa-angle-double-right"></i> Answer User Questions</a></li>
+                        <li><a href="/answer/practice-problem/"><i class="fa fa-angle-double-right"></i> Solve Practice Problems</a></li>
                         <li><a href="/contribute/latex-introduction"><i class="fa fa-angle-double-right"></i> Using LaTex Expressions</a></li>
                     </ul>
                 </li>

@@ -25,16 +25,16 @@
 			</div>			
 		</c:if>
 		<c:if test="${answerMode}">
-			<div class="box box-solid bg-olive-gradient">
+			<div class="box box-solid bg-blue-gradient">
 				<div class="box-header solid-box-header">
 					<i class="fa fa-cube fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">Answer Question Mode (STREAK = ${answerModeStreak})</h3>
-					<form action="/answer/question/new" method="post" class="btn-group pull-right box-tools">
+					<form action="/answer/question/new" method="post" class="pull-right box-tools">
 						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
 						<input type="hidden" name="parentUuid" value="${question.uuid}"/>
 						<input type="hidden" name="action" value="skip"/>
 						<input type="hidden" name="contentType" value="question"/>
-						<input type="submit" class="btn btn-success" value="Skip" />
+						<input type="submit" class="btn btn-info" value="Skip" />
 					</form>
 				</div>
 				<div class="box-body">
