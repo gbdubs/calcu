@@ -18,11 +18,15 @@ public class ContributeAnswerServlet extends HttpServlet {
 			throws ServletException, IOException{
 		
 		Answer answer = Answer.createAnswerFromRequest(req);
-		
 		resp.setContentType("text/html");
-		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
-		RequestDispatcher jsp;
-		jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/answer-thanks.jsp");
-		jsp.forward(req, resp);
-	}
+		if (req.getParameter("answerMode") != null){
+			String nextUrl = req.getParameter("answerModeNextUrl");
+			resp.sendRedirect(nextUrl);
+		} else {
+			UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
+			RequestDispatcher jsp;
+			jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/answer-thanks.jsp");
+			jsp.forward(req, resp);
+		}
+	}	
 }

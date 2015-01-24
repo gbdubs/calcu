@@ -7,6 +7,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -19,6 +20,7 @@ import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
+import com.google.appengine.api.datastore.Query.SortDirection;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -170,7 +172,22 @@ public class QuestionAPI {
 	}
 
 	public static Question getAnswerableQuestion(String userId) {
-		// TODO Auto-generated method stub
+		Filter notMe = new FilterPredicate("creatorUserId", FilterOperator.NOT_EQUAL, userId);
+		Filter compositeFilter = CompositeFilterOperator.and(notMe, questionFilter, viewableFilter, submittedFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("creatorUserId").addSort("createdAt", SortDirection.DESCENDING);
+		PreparedQuery pq = datastore.prepare(query);
+		for (Entity result : pq.asIterable()) {
+			Filter byMe = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
+			Filter thisProblem = new FilterPredicate("parentUuid", FilterOperator.EQUAL, result.getProperty("uuid"));
+			Filter compositeSubfilter = CompositeFilterOperator.and(byMe, thisProblem, answerFilter);
+			Query subquery = new Query("Content").setFilter(compositeSubfilter);
+			PreparedQuery psq = datastore.prepare(subquery);
+			boolean alreadyAnswered = false;
+			for (Entity r : psq.asIterable()){
+				alreadyAnswered = true;
+			}
+			if (! alreadyAnswered) return new Question(result);
+		}
 		return null;
 	}
 }

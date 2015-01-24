@@ -29,9 +29,9 @@
 				<div class="box-header solid-box-header">
 					<i class="fa fa-photo fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">Answer Question Mode (STREAK = ${answerModeStreak})</h3>
-					<div class="btn-group pull-right">
-						<a href="/answer/new" class="btn bg-olive">Skip</a>
-						<a href="/answer/new" class="btn btn-success">Done!</a>
+					<div class="btn-group pull-right box-tools">
+						<a href="/answer/question/new" class="btn btn-success">Skip</a>
+						<a href="/answer/question/success/${uuid}" class="btn bg-olive">Done!</a>
 					</div>
 				</div>
 				<div class="box-body">
@@ -195,6 +195,8 @@
 							</h4>
 						</div>
 						<form action="${question.newAnswerUploadUrl}" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
+							<input type="hidden" name="answerMode" value="${answerMode}">
+							<input type="hidden" name="answerModeNextUrl" value="/answer/question/new">
 							<input type="hidden" name="parentUuid" value="${question.uuid}">
 							<div class="box-body">
 								<label for="title">Answer/Response Title</label>
@@ -205,7 +207,14 @@
 								<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
 								<div class="submit-buttons-pull-right">
 									<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
-									<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
+									<c:choose>
+										<c:when test="${answerMode}">
+											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next Question">
+										</c:when>
+										<c:otherwise>
+											<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
+										</c:otherwise>
+									</c:choose>
 								</div>
 							</div>
 						</form>

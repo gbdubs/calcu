@@ -213,6 +213,10 @@ public class Content {
 		}
 	}
 	
+	public String getNewAnswerUploadUrl(){
+		return "/create-answer/" + this.getUuid();
+	}
+	
 	public String getPreviewUrl(){
 		return "/contribute/preview/" + this.getUuid();
 	}

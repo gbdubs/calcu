@@ -50,10 +50,6 @@ public class PracticeProblem extends Content{
 		return PracticeProblemAPI.getAnswersForPracticeProblem(this);
 	}
 	
-	public String getNewAnswerUploadUrl(){
-		return "/answer/" + this.getUuid();
-	}
-	
 	public void verifyAcceptableProperty(String property) {
 		boolean acceptableProperty = false;
 		for(String realProperties : FIELDS){

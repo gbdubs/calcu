@@ -46,8 +46,4 @@ public class Question extends Content{
 	public List<Answer> getAnswers(){
 		return QuestionAPI.getAnswersForQuestion(this);
 	}
-	
-	public String getNewAnswerUploadUrl(){
-		return "/answer/" + this.getUuid();
-	}
 }

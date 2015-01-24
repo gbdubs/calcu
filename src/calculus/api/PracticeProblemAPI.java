@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
 import calculus.models.PracticeProblem;
+import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -194,7 +195,22 @@ public class PracticeProblemAPI {
 	}
 
 	public static PracticeProblem getAnswerablePracticeProblem(String userId) {
-		// TODO Auto-generated method stub
+		Filter notMe = new FilterPredicate("creatorUserId", FilterOperator.NOT_EQUAL, userId);
+		Filter compositeFilter = CompositeFilterOperator.and(notMe, practiceProblemFilter, viewableFilter, submittedFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("creatorUserId").addSort("createdAt", SortDirection.DESCENDING);
+		PreparedQuery pq = datastore.prepare(query);
+		for (Entity result : pq.asIterable()) {
+			Filter byMe = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
+			Filter thisProblem = new FilterPredicate("parentUuid", FilterOperator.EQUAL, result.getProperty("uuid"));
+			Filter compositeSubfilter = CompositeFilterOperator.and(byMe, thisProblem, answerFilter);
+			Query subquery = new Query("Content").setFilter(compositeSubfilter);
+			PreparedQuery psq = datastore.prepare(subquery);
+			boolean alreadyAnswered = false;
+			for (Entity r : psq.asIterable()){
+				alreadyAnswered = true;
+			}
+			if (! alreadyAnswered) return new PracticeProblem(result);
+		}
 		return null;
 	}	
 }

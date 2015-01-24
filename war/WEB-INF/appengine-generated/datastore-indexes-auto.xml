@@ -1,4 +1,23 @@
-<!-- Indices written at Sat, 24 Jan 2015 09:01:40 EST -->
+<!-- Indices written at Sat, 24 Jan 2015 12:54:45 EST -->
 
-<datastore-indexes/>
+<datastore-indexes>
 
+    <!-- Used 4 times in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="creatorUserId" direction="asc"/>
+        <property name="createdAt" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="parentUuid" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="createdAt" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>
