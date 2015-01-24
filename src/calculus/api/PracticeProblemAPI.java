@@ -191,5 +191,10 @@ public class PracticeProblemAPI {
 			list.add(a);
 		}
 		return list;	
+	}
+
+	public static PracticeProblem getAnswerablePracticeProblem(String userId) {
+		// TODO Auto-generated method stub
+		return null;
 	}	
 }

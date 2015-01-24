@@ -168,4 +168,9 @@ public class QuestionAPI {
 			return QuestionAPI.updateQuestionFromRequest(req);
 		}
 	}
+
+	public static Question getAnswerableQuestion(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
