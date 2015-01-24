@@ -156,9 +156,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/achievments.html">
+                    <a href="pages/achievements.html">
                         <i class="fa fa-fw fa-trophy"></i>
-                        <span>Achievments</span>
+                        <span>Achievements</span>
                     </a>
                 </li>
                 <li>

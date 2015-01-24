@@ -112,7 +112,7 @@
 								<p>
 									When you contribute on Calcu.us, whether through asking questions, answering them, creating content or practice problems, or just
 									regualrly using and rating things on the site, we reward your contributions through the gift of Karma!  Karma can be spent in a
-									couple of cool ways, including broadcasting a message to all the users on the site!  For more information, check out our achievments
+									couple of cool ways, including broadcasting a message to all the users on the site!  For more information, check out our achievements
 									page.
 								</p>
 							</div>

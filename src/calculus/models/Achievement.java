@@ -9,16 +9,16 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 
-public class Achievment {
+public class Achievement {
 
 	private Entity entity;
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
-	public Achievment(String uuid){
+	public Achievement(String uuid){
 		try {
-			entity = datastore.get(KeyFactory.createKey("Achievment", uuid));
+			entity = datastore.get(KeyFactory.createKey("Achievement", uuid));
 		} catch (EntityNotFoundException e) {
-			throw new RuntimeException("Achievment with UUID ["+uuid+"] does not exist.");
+			throw new RuntimeException("Achievement with UUID ["+uuid+"] does not exist.");
 		}
 	}
 	

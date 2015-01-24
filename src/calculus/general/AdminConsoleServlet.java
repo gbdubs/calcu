@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.google.appengine.api.users.UserServiceFactory;
 
-import calculus.api.AchievmentsAPI;
+import calculus.api.AchievementsAPI;
 import calculus.api.UserContextAPI;
-import calculus.models.Achievment;
+import calculus.models.Achievement;
 
 public class AdminConsoleServlet extends HttpServlet {
 
@@ -22,7 +22,7 @@ public class AdminConsoleServlet extends HttpServlet {
 		
 		// SWAP: if (UserServiceFactory.getUserService().isUserAdmin()){
 		if (UserServiceFactory.getUserService().getCurrentUser() != null){
-			List<Achievment> achievements = AchievmentsAPI.getAllAchievements();
+			List<Achievement> achievements = AchievementsAPI.getAllAchievements();
 			req.setAttribute("allAchievements", achievements);
 			UserContextAPI.addUserContextToRequest(req, "/admin");
 			resp.setContentType("text/html");

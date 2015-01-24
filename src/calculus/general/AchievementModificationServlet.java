@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.AchievmentsAPI;
+import calculus.api.AchievementsAPI;
 import calculus.api.UserContextAPI;
 
 @SuppressWarnings("serial")
@@ -19,7 +19,7 @@ public class AchievementModificationServlet extends HttpServlet {
 		String action = req.getParameter("action");
 		
 		if (action.equals("delete")){
-			AchievmentsAPI.deleteAchievement(req.getParameter("uuid"));
+			AchievementsAPI.deleteAchievement(req.getParameter("uuid"));
 		} else if (action.equals("create")){
 			
 			String name = req.getParameter("name");
@@ -29,7 +29,7 @@ public class AchievementModificationServlet extends HttpServlet {
 			String color = req.getParameter("color");
 			String secondaryColor = req.getParameter("secondaryColor");
 			
-			AchievmentsAPI.createNewAchievment(name, icon, color, secondaryColor, description, qualification);
+			AchievementsAPI.createNewAchievement(name, icon, color, secondaryColor, description, qualification);
 		
 			resp.sendRedirect("/admin");
 		}

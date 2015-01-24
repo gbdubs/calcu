@@ -12,7 +12,7 @@
 		<div class="box box-solid">
 			<div class="box-header">
 				<i class="fa fa-tools fa-karma-score"></i>
-				<h3 class="box-title">Achievments</h3>
+				<h3 class="box-title">Achievements</h3>
 			</div>
 			<div class="box-body">
 				<form action="/admin/achievement" method="post" class="box box-primary">
@@ -23,13 +23,13 @@
 					<div class="box-body">
 						<input type="hidden" name="action" value="create"/>
 						<label for="name">Name</label>
-						<input type="text" name="name" class="form-control" placeholder="The funny name of the achievment"/>
+						<input type="text" name="name" class="form-control" placeholder="The funny name of the achievement"/>
 						<br/>
 						<label for="description">Description</label>
-						<input type="text" name="description" class="form-control" placeholder="The humorous description of the achievment"/>
+						<input type="text" name="description" class="form-control" placeholder="The humorous description of the achievement"/>
 						<br/>
 						<label for="qualification">Qualification</label>
-						<input type="text" name="qualification" class="form-control" placeholder="The description of how one would get this achievment"/>
+						<input type="text" name="qualification" class="form-control" placeholder="The description of how one would get this achievement"/>
 						<br/>
 						<label for="icon">Icon</label>
 						<input type="text" name="icon" class="form-control" placeholder="Any set of Font Awesome Icon Classes"/>
@@ -40,7 +40,7 @@
 						<label for="secondaryColor">Background Color</label>
 						<input type="text" name="secondaryColor" class="form-control" placeholder="Any Classes which specify color"/>
 						<br/>
-						<input type="submit" class="btn-full-width btn-block btn-primary" value="Create New Achievment"/>
+						<input type="submit" class="btn-full-width btn-block btn-primary" value="Create New Achievement"/>
 					</div>
 				</form>
 				<div class="box box-info">
