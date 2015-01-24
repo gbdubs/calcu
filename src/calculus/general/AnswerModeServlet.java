@@ -93,13 +93,13 @@ public class AnswerModeServlet extends HttpServlet{
 
 	private void questionLanding(HttpServletRequest req,
 			HttpServletResponse resp) throws ServletException, IOException {
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/answer/question-landing.jsp");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/answer-landing.jsp");
 		jsp.forward(req, resp);
 	}
 
 	private void practiceProblemLanding(HttpServletRequest req,
 			HttpServletResponse resp) throws ServletException, IOException {
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/answer/practice-problem-landing.jsp");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/answer-landing.jsp");
 		jsp.forward(req, resp);
 	}
 
