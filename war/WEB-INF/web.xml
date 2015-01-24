@@ -237,6 +237,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>AchievementsDisplay</servlet-name>
+		<servlet-class>calculus.general.AchievementsDisplayServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>AchievementsDisplay</servlet-name>
+		<url-pattern>/achievements/*</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
 		<servlet-name>PageNotFound</servlet-name>
 		<servlet-class>calculus.PageNotFoundServlet</servlet-class>
 	</servlet>	

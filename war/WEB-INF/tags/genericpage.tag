@@ -3,6 +3,7 @@
 <%@attribute name="content" fragment="true" %>
 <%@attribute name="pageTitle" fragment="true" %>
 <%@attribute name="javascript" fragment="true" %>
+<%@attribute name="css" fragment="true" %>
 
 <!DOCTYPE html>
 <html>
@@ -21,6 +22,8 @@
 
     <!-- AngularJS dependency -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
+
+	<jsp:invoke fragment="css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -156,7 +159,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/achievements.html">
+                    <a href="/achievements">
                         <i class="fa fa-fw fa-trophy"></i>
                         <span>Achievements</span>
                     </a>

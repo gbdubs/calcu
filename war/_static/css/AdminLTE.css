@@ -417,6 +417,15 @@ Gradient Background colors
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ca6d', endColorstr='#00a65a', GradientType=0) !important;
   color: #fff;
 }
+.bg-olive-gradient {
+  background: #3d9970 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3d9970), color-stop(1, #00ca6d)) !important;
+  background: -ms-linear-gradient(bottom, #3d9970, #00ca6d) !important;
+  background: -moz-linear-gradient(center bottom, #3d9970 0%, #00ca6d 100%) !important;
+  background: -o-linear-gradient(#00ca6d, #3d9970) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ca6d', endColorstr='#3d9970', GradientType=0) !important;
+  color: #fff;
+}
 .bg-red-gradient {
   background: #f56954 !important;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f56954), color-stop(1, #f89384)) !important;
@@ -3992,4 +4001,9 @@ a.btn.btn-warning.live-preview-return-button{
 .sidebar-menu .fa.fa-fw{
 	margin-right: 10px;
 }
+.table>tbody>tr>td.achievment-style-preview{
+	width: 0;
+	height: 100%;
+	border-right: 75px solid;
+	border-left: 75px solid;
 }

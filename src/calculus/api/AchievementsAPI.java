@@ -64,13 +64,18 @@ public class AchievementsAPI {
 	
 	private static List<String> getUserAchievementUuids(String userId){
 		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
-		List<Achievement> Achievements = new ArrayList<Achievement>();
-		return (List<String>) userPrivateInfo.getProperty("Achievements");
+		List<String> result = (List<String>) userPrivateInfo.getProperty("achievements");
+		if (result == null){
+			return new ArrayList<String>();
+		} else {
+			return result;
+		}
 	}
 	
 	private static List<String> getUnfinishedAchievementUuids(String userId){
 		List<String> allAchievements = getAllAchievementUuids();
-		allAchievements.removeAll(getUserAchievementUuids(userId));
+		List<String> userAchievements = getUserAchievementUuids(userId);
+		allAchievements.removeAll(userAchievements);
 		return allAchievements;
 	}
 
