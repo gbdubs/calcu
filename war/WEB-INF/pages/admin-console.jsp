@@ -70,7 +70,7 @@
 								<td>${achievement.name}</td>
 								<td>${achievement.qualification}</td>
 								<td>${achievement.description}</td>
-								<td class="${achievement.secondaryColor} achievment-style-preview"><i class="fa fa-fw ${achievement.icon} ${achievement.color}"></i></td>
+								<td><div class="${achievement.secondaryColor} achievement-style-preview"><i class="fa fa-fw ${achievement.icon} ${achievement.color}"></i></div></td>
 								<td><a class="delete-achievement-button badge bg-red">Delete</a></td>
 								<td>${achievement.uuid}</td>
 							</tr>

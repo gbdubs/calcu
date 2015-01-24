@@ -228,6 +228,12 @@ img {
   background-color: #85144b !important;
 }
 /* Text colors */
+.text-white {
+  color: #ffffff !important;
+}
+.text-black {
+  color: #000000 !important;
+}
 .text-red {
   color: #f56954 !important;
 }
@@ -4001,9 +4007,17 @@ a.btn.btn-warning.live-preview-return-button{
 .sidebar-menu .fa.fa-fw{
 	margin-right: 10px;
 }
-.table>tbody>tr>td.achievment-style-preview{
+
+.achievement-style-preview{
 	width: 0;
-	height: 100%;
-	border-right: 75px solid;
-	border-left: 75px solid;
+	border-bottom: 10px solid;
+	border-top: 10px solid;
+	border-right: 25px solid;
+	border-left: 25px solid;
+}
+
+.achievement-style-preview .fa.fa-fw{
+	position: relative;
+	top:0;
+	left: -9px;
 }

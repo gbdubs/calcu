@@ -1,12 +1,9 @@
 package calculus.models;
 
-import java.util.UUID;
-
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
-import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 
 public class Achievement {
@@ -48,5 +45,18 @@ public class Achievement {
 	
 	public String getUuid(){
 		return (String) entity.getProperty("uuid");
+	}
+
+	@Override
+	public boolean equals(Object o) {
+		if (o instanceof Achievement){
+			Achievement a = (Achievement) o;
+			if (a.getUuid().equals(this.getUuid())){
+				return true;
+			} else {
+				return false;
+			}
+		}
+		return false;
 	}
 }
