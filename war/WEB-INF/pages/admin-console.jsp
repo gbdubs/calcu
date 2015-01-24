@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
@@ -12,7 +13,10 @@
 		<div class="box box-solid">
 			<div class="box-header">
 				<i class="fa fa-tools fa-karma-score"></i>
-				<h3 class="box-title">Achievements</h3>
+				<h3 class="box-title">Achievement Manager</h3>
+				<div class="pull-right box-tools">
+					<button class="btn btn-primary btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+				</div>
 			</div>
 			<div class="box-body">
 				<form action="/admin/achievement" method="post" class="box box-primary">
@@ -43,6 +47,8 @@
 						<input type="submit" class="btn-full-width btn-block btn-primary" value="Create New Achievement"/>
 					</div>
 				</form>
+				
+				<c:if test="${fn:length(allAchievements) > 0}">
 				<div class="box box-info">
 					<div class="box-header">
 						<i class="fa fa-database fa-karma-score"></i>
@@ -72,7 +78,9 @@
 						</tbody>
 						</table>
 					</div>
-				</form>
+				</div>
+				</c:if>
+			
 			</div>	
 		</div>
 	</jsp:attribute>
