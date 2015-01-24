@@ -27,7 +27,7 @@
 		<c:if test="${answerMode}">
 			<div class="box box-solid bg-olive-gradient">
 				<div class="box-header solid-box-header">
-					<i class="fa fa-photo fa-karma-score hidden-xs"></i>
+					<i class="fa fa-cube fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">Answer Question Mode (STREAK = ${answerModeStreak})</h3>
 					<form action="/answer/question/new" method="post" class="btn-group pull-right box-tools">
 						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>

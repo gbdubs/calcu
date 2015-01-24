@@ -24,6 +24,29 @@
 				</div>
 			</div>			
 		</c:if>
+		<c:if test="${answerMode}">
+			<div class="box box-solid bg-olive-gradient">
+				<div class="box-header solid-box-header">
+					<i class="fa fa-cube fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">Solve Practice Problem Mode (STREAK = ${answerModeStreak})</h3>
+					<form action="/answer/practice-problem/new" method="post" class="btn-group pull-right box-tools">
+						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
+						<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}"/>
+						<input type="hidden" name="action" value="skip"/>
+						<input type="hidden" name="contentType" value="practice-problem"/>
+						<input type="submit" class="btn btn-success" value="Skip" />
+					</form>
+				</div>
+				<div class="box-body">
+					You are currently in Problem Solving Turbo Mode. That name isn't real, but here is the deal!
+					We will present you with problems we think that you would be the perfect person to solve.
+					For most of them, the author's solution hasn't been satisfactory to most viewers.
+					If you can solve the problem, please do! You will get a tidy karma bonus for answering the problems we select for you. After you solve the problem, hit the 'Done' button.
+					If you don't think that you can answer the question well, or if you think that the answers are already good enough, press the 'Skip' button. Pressing 'Skip' will not change your Answer Streak.
+					At any time, you can navigate away from this page, but know that your Answer Streak will be broken! Good Luck, and thank you for your contribution to our project!
+				</div>
+			</div>
+		</c:if>
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
 				<h3 class="box-title">Practice Problem <small>by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> on ${practiceProblem.shortReadableTime}</small></h3>
@@ -190,21 +213,43 @@
 								</a>
 							</h4>
 						</div>
-						<form action="${practiceProblem.newAnswerUploadUrl}" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
-							<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}">
-							<div class="box-body">
-								<label for="title">Answer Title</label>
-								<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="RE:${practiceProblem.title}">
-							</div>
-							<div class="box-body pad">
-								<label for="body">Answer Explanation and Result</label>
-								<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Describe how you would solve the problem, and the final result of any calculations" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-								<div class="submit-buttons-pull-right">
-									<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
-									<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
-								</div>
-							</div>
-						</form>
+						<c:choose>
+							<c:when test="${answerMode}">
+								<form action="/answer/practice-problem/new" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
+									<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
+									<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}"/>
+									<input type="hidden" name="action" value="done"/>
+									<div class="box-body">
+										<label for="title">Answer/Response Title</label>
+										<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your response" value="RE:${practiceProblem.title}">
+									</div>
+									<div class="box-body pad">
+										<label for="body">Answer Explanation and Response</label>
+										<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+										<div class="submit-buttons-pull-right">
+											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next">
+										</div>
+									</div>
+								</form>
+							</c:when>
+							<c:otherwise>
+								<form action="${practiceProblem.newAnswerUploadUrl}" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
+									<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}">
+									<div class="box-body">
+										<label for="title">Answer Title</label>
+										<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="RE:${practiceProblem.title}">
+									</div>
+									<div class="box-body pad">
+										<label for="body">Answer Explanation and Result</label>
+										<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Describe how you would solve the problem, and the final result of any calculations" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+										<div class="submit-buttons-pull-right">
+											<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
+											<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
+										</div>
+									</div>
+								</form>
+							</c:otherwise>
+						</c:choose>
 					</div>
 				</div>
 			</div>
