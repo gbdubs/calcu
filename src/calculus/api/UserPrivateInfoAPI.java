@@ -75,6 +75,7 @@ public class UserPrivateInfoAPI {
 		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
 		if (skipped == null) skipped = new ArrayList<String>();
 		skipped.add(uuid);
+		System.out.println("Got here");
 		userPrivateInfo.setProperty("answerModeSkipped", skipped);
 		datastore.put(userPrivateInfo);
 	}
@@ -90,12 +91,15 @@ public class UserPrivateInfoAPI {
 	
 	public static List<String> getUserAnsweredContentUuids(String userId){
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		return (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
+		List<String> result = (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
+		if (result != null) return result;
+		return new ArrayList<String>();
 	}
 	
 	public static List<String> getUserSkippedContentUuids(String userId){
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		return (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
+		List<String> result = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
+		if (result != null) return result;
+		return new ArrayList<String>();
 	}
-
 }

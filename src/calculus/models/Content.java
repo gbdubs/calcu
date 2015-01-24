@@ -220,4 +220,8 @@ public class Content {
 	public String getPreviewUrl(){
 		return "/contribute/preview/" + this.getUuid();
 	}
+	
+	public String toString(){
+		return this.entity.toString();
+	}
 }

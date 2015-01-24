@@ -1,7 +1,5 @@
 package calculus.general;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,78 +12,67 @@ import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
 import calculus.api.UserPrivateInfoAPI;
-import calculus.models.Content;
+import calculus.models.Answer;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
-import calculus.utilities.UuidTools;
 
-import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class AnswerModeServlet extends HttpServlet{
+	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
+		if (UserServiceFactory.getUserService().getCurrentUser() == null){
+			resp.sendRedirect("/page-not-found"); return;
+		}
 		
+		redirectToNewProblemOrDashboard(req, resp, 0);
+	}
+	
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		System.out.println("Post started runnin'");
+		String uuid = (String) req.getParameter("parentUuid");
+		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
+		int streak = Integer.parseInt((String) req.getParameter("answerModeStreak"));
+		if (req.getParameter("action").equals("skip")){
+			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
+		} else if (req.getParameter("action").equals("done")){
+			Answer answer = Answer.createAnswerFromRequest(req);
+			System.out.println(answer.toString());
+			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
+			streak++;
+		}
+		redirectToNewProblemOrDashboard(req, resp, streak);
+	}
+	
+	private void redirectToNewProblemOrDashboard(HttpServletRequest req, HttpServletResponse resp, int streak) throws ServletException, IOException{
 		String url = req.getRequestURI();
-		String uuid = UuidTools.getUuidFromUrl(url);
+
+		req.setAttribute("answerModeStreak", streak);
+		req.setAttribute("answerMode", true);
 		
 		UserContextAPI.addUserContextToRequest(req, "/answer");
-		setAnswerModeValues(req);
 		resp.setContentType("text/html");
 		
-		if (uuid == null || uuid.length() != 36){
-			if (url.contains("new")){
-				if (url.contains("question")){
-					redirectToNewQuestion(req, resp); return;
-				} else if (url.contains("practice-problem")){
-					redirectToNewPracticeProblem(req, resp); return;
-				} else {
-					pageNotFound(req, resp); return;
-				}
+		if (url.contains("new")){
+			if (url.contains("question")){
+				redirectToNewQuestion(req, resp); return;
+			} else if (url.contains("practice-problem")){
+				redirectToNewPracticeProblem(req, resp); return;
 			} else {
-				if (url.contains("question")){
-					questionLanding(req, resp); return;
-				} else if (url.contains("practice-problem")){
-					practiceProblemLanding(req, resp); return;
-				}
+				pageNotFound(req, resp); return;
 			}
 		} else {
-			String contentType;
-			try {
-				contentType = Content.getContentType(uuid);
-			} catch (EntityNotFoundException e) {
-				pageNotFound(req, resp); return;
+			if (url.contains("question")){
+				questionLanding(req, resp); return;
+			} else if (url.contains("practice-problem")){
+				practiceProblemLanding(req, resp); return;
 			}
-			String newUrl = "/answer/" + contentType + "/" + uuid;
-			RequestDispatcher jsp;
-			if (contentType.equals("question")){
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	
-			} else if (contentType.equals("practice-problem")){
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-			} else {
-				pageNotFound(req, resp); return;
-			}
-			jsp.forward(req, resp);
 		}
 	}
 	
-	public void doPost(HttpServletRequest req, HttpServletResponse resp){
-		String url = req.getRequestURI();
-		String uuid = UuidTools.getUuidFromUrl(url);
-		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
-		
-		int streak = Integer.parseInt((String) req.getParameter("answerModeStreak"));
-		
-		if (url.contains("skip")){
-			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
-		} else if (url.contains("done")){
-			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
-		}
-	}
-
 	private void redirectToNewPracticeProblem(HttpServletRequest req,
 			HttpServletResponse resp) throws ServletException, IOException {
 		User user = UserServiceFactory.getUserService().getCurrentUser();
@@ -118,33 +105,5 @@ public class AnswerModeServlet extends HttpServlet{
 
 	private void pageNotFound(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		resp.sendRedirect("page-not-found");
-	}
-	
-	private void setAnswerModeValues(HttpServletRequest req){
-		String url = req.getRequestURI();
-		String uuid = UuidTools.getUuidFromUrl(url);
-		
-		User user = UserServiceFactory.getUserService().getCurrentUser();
-		
-		int streak = 0;
-		String streakString = (String) req.getParameter("answerModeStreak");
-		if (streakString != null){
-			Integer i = Integer.parseInt(streakString);
-			if (i != null){
-				streak = i;
-				if (url.contains("success")){
-					boolean success = AnswersAPI.userAnsweredContent(user.getUserId(), uuid);
-					if (success){
-						streak++;
-					} else {
-						streak = 0;
-					}
-				}
-			} else {
-				streak = 0;
-			}
-		}
-		req.setAttribute("answerModeStreak", streak);
-		req.setAttribute("answerMode", true);
 	}
 }

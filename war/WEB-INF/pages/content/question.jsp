@@ -29,10 +29,13 @@
 				<div class="box-header solid-box-header">
 					<i class="fa fa-photo fa-karma-score hidden-xs"></i>
 					<h3 class="box-title">Answer Question Mode (STREAK = ${answerModeStreak})</h3>
-					<div class="btn-group pull-right box-tools">
-						<a href="/answer/question/new" class="btn btn-success">Skip</a>
-						<a href="/answer/question/success/${uuid}" class="btn bg-olive">Done!</a>
-					</div>
+					<form action="/answer/question/new" method="post" class="btn-group pull-right box-tools">
+						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
+						<input type="hidden" name="parentUuid" value="${question.uuid}"/>
+						<input type="hidden" name="action" value="skip"/>
+						<input type="hidden" name="contentType" value="question"/>
+						<input type="submit" class="btn btn-success" value="Skip" />
+					</form>
 				</div>
 				<div class="box-body">
 					You are currently in Question Answering Turbo Mode. That name isn't real, but here is the deal!
@@ -194,30 +197,43 @@
 								</a>
 							</h4>
 						</div>
-						<form action="${question.newAnswerUploadUrl}" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
-							<input type="hidden" name="answerMode" value="${answerMode}">
-							<input type="hidden" name="answerModeNextUrl" value="/answer/question/new">
-							<input type="hidden" name="parentUuid" value="${question.uuid}">
-							<div class="box-body">
-								<label for="title">Answer/Response Title</label>
-								<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your response" value="RE:${question.title}">
-							</div>
-							<div class="box-body pad">
-								<label for="body">Answer Explanation and Response</label>
-								<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-								<div class="submit-buttons-pull-right">
-									<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
-									<c:choose>
-										<c:when test="${answerMode}">
-											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next Question">
-										</c:when>
-										<c:otherwise>
+						<c:choose>
+							<c:when test="${answerMode}">
+								<form action="/answer/question/new" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
+									<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
+									<input type="hidden" name="parentUuid" value="${question.uuid}"/>
+									<input type="hidden" name="action" value="done"/>
+									<div class="box-body">
+										<label for="title">Answer/Response Title</label>
+										<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your response" value="RE:${question.title}">
+									</div>
+									<div class="box-body pad">
+										<label for="body">Answer Explanation and Response</label>
+										<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+										<div class="submit-buttons-pull-right">
+											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next">
+										</div>
+									</div>
+								</form>
+							</c:when>
+							<c:otherwise>
+								<form action="${question.newAnswerUploadUrl}" method="post" id="collapseSubmitYourAnswer" class="panel-collapse collapse" style="height: 0px;">
+									<input type="hidden" name="parentUuid" value="${question.uuid}">
+									<div class="box-body">
+										<label for="title">Answer/Response Title</label>
+										<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your response" value="RE:${question.title}">
+									</div>
+									<div class="box-body pad">
+										<label for="body">Answer Explanation and Response</label>
+										<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+										<div class="submit-buttons-pull-right">
+											<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
 											<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
-										</c:otherwise>
-									</c:choose>
-								</div>
-							</div>
-						</form>
+										</div>
+									</div>
+								</form>
+							</c:otherwise>
+						</c:choose>
 					</div>
 				</div>
 			</div>
