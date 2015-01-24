@@ -217,6 +217,23 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	
+	<servlet>
+		<servlet-name>AdminConsole</servlet-name>
+		<servlet-class>calculus.general.AdminConsoleServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>AdminConsole</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AchievementModification</servlet-name>
+		<servlet-class>calculus.general.AchievementModificationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AchievementModification</servlet-name>
+		<url-pattern>/admin/achievement</url-pattern>
+	</servlet-mapping>
 	
 	
 	<servlet>

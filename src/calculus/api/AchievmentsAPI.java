@@ -16,15 +16,7 @@ import com.google.appengine.api.datastore.Query;
 
 public class AchievmentsAPI {
 
-	private static List<String> allAchievments;
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-	
-	static {
-		String[] achievments = {"Beginner", "Helper", "Expert"};
-		for(String a : achievments){
-			allAchievments.add(a);
-		}
-	}
 	
 	public static String createNewAchievment(String name, String icon, String color, String secondaryColor, String description, String qualification){
 		String achievmentId = UUID.randomUUID().toString();
@@ -37,8 +29,10 @@ public class AchievmentsAPI {
 		entity.setProperty("color", color);
 		entity.setProperty("secondaryColor", secondaryColor);
 		entity.setProperty("qualification", qualification);
-		entity.setProperty("decription", description);
+		entity.setProperty("description", description);
 		entity.setProperty("uuid", achievmentId);
+		
+		datastore.put(entity);
 		
 		return achievmentId;
 	}
@@ -88,5 +82,14 @@ public class AchievmentsAPI {
 			result.add((String) entity.getProperty("uuid"));
 		}
 		return result;
+	}
+	
+	public static List<Achievment> getAllAchievements(){
+		return getAchievments(getAllAchievmentUuids());
+	}
+
+	public static void deleteAchievement(String uuid) {
+		if (uuid != null)
+			datastore.delete(KeyFactory.createKey("Achievment", uuid));
 	}
 }
