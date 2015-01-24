@@ -24,6 +24,25 @@
 				</div>
 			</div>			
 		</c:if>
+		<c:if test="${answerMode}">
+			<div class="box box-solid bg-olive-gradient">
+				<div class="box-header solid-box-header">
+					<i class="fa fa-photo fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">Answer Question Mode (STREAK = ${answerModeStreak})</h3>
+					<div class="btn-group pull-right">
+						<a href="/answer/new" class="btn bg-olive">Skip</a>
+						<a href="/answer/new" class="btn btn-success">Done!</a>
+					</div>
+				</div>
+				<div class="box-body">
+					You are currently in Question Answering Turbo Mode. That name isn't real, but here is the deal!
+					We will present you with questions we think that you would be the perfect person to solve.
+					If you can solve the problem, please do! You will get a tidy little karma bonus for answering the problems we select for you. After you answer the question, hit the 'Done' button. Pressing 'Done' if you have not answered the question will reset your Answer Streak.
+					If you don't think that you can answer the question well, or if you think that the answers are already good enough, press the 'Skip' button. Pressing 'Skip' will not ruin your Answer Streak.
+					At any time, you can navigate away from this page, but know that your Answer Streak will be broken! Good Luck, and thank you for your contribution to our project!
+				</div>
+			</div>
+		</c:if>
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
 				<h3 class="box-title">Question <small>by <a href="${question.author.profileUrl}">${question.author.username}</a> on ${question.shortReadableTime}</small></h3>

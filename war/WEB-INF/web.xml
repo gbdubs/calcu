@@ -245,6 +245,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/achievements/*</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>AnswerMode</servlet-name>
+		<servlet-class>calculus.general.AnswerModeServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>AnswerMode</servlet-name>
+		<url-pattern>/answer/*</url-pattern>
+	</servlet-mapping>
+
 
 	<servlet>
 		<servlet-name>PageNotFound</servlet-name>
