@@ -176,17 +176,13 @@ public class QuestionAPI {
 		Filter compositeFilter = CompositeFilterOperator.and(notMe, questionFilter, viewableFilter, submittedFilter);
 		Query query = new Query("Content").setFilter(compositeFilter).addSort("creatorUserId").addSort("createdAt", SortDirection.DESCENDING);
 		PreparedQuery pq = datastore.prepare(query);
+		List<String> skipped = UserPrivateInfoAPI.getUserSkippedContentUuids(userId);
+		List<String> answered= UserPrivateInfoAPI.getUserAnsweredContentUuids(userId);
 		for (Entity result : pq.asIterable()) {
-			Filter byMe = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-			Filter thisProblem = new FilterPredicate("parentUuid", FilterOperator.EQUAL, result.getProperty("uuid"));
-			Filter compositeSubfilter = CompositeFilterOperator.and(byMe, thisProblem, answerFilter);
-			Query subquery = new Query("Content").setFilter(compositeSubfilter);
-			PreparedQuery psq = datastore.prepare(subquery);
-			boolean alreadyAnswered = false;
-			for (Entity r : psq.asIterable()){
-				alreadyAnswered = true;
+			String uuid = (String) result.getProperty("uuid");
+			if (!skipped.contains(uuid) && !answered.contains(uuid)){
+				return new Question(result);
 			}
-			if (! alreadyAnswered) return new Question(result);
 		}
 		return null;
 	}

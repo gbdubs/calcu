@@ -1,5 +1,7 @@
 package calculus.general;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,11 +13,13 @@ import calculus.api.AnswersAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
+import calculus.api.UserPrivateInfoAPI;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -65,6 +69,20 @@ public class AnswerModeServlet extends HttpServlet{
 				pageNotFound(req, resp); return;
 			}
 			jsp.forward(req, resp);
+		}
+	}
+	
+	public void doPost(HttpServletRequest req, HttpServletResponse resp){
+		String url = req.getRequestURI();
+		String uuid = UuidTools.getUuidFromUrl(url);
+		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
+		
+		int streak = Integer.parseInt((String) req.getParameter("answerModeStreak"));
+		
+		if (url.contains("skip")){
+			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
+		} else if (url.contains("done")){
+			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
 		}
 	}
 

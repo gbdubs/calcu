@@ -13,6 +13,7 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 public class UserPrivateInfoAPI {
 
@@ -69,6 +70,32 @@ public class UserPrivateInfoAPI {
 		}
 	}
 
+	public static void addUserSkippedContent(String userId, String uuid){
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
+		if (skipped == null) skipped = new ArrayList<String>();
+		skipped.add(uuid);
+		userPrivateInfo.setProperty("answerModeSkipped", skipped);
+		datastore.put(userPrivateInfo);
+	}
 	
+	public static void addUserAnsweredContent(String userId, String uuid){
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
+		if (skipped == null) skipped = new ArrayList<String>();
+		skipped.add(uuid);
+		userPrivateInfo.setProperty("answerModeAnswered", skipped);
+		datastore.put(userPrivateInfo);
+	}
+	
+	public static List<String> getUserAnsweredContentUuids(String userId){
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		return (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
+	}
+	
+	public static List<String> getUserSkippedContentUuids(String userId){
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		return (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
+	}
 
 }
