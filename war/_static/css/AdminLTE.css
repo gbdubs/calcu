@@ -4021,3 +4021,9 @@ a.btn.btn-warning.live-preview-return-button{
 	top:0;
 	left: -9px;
 }
+
+.box-body.content-rotating{
+	display: inline-block;
+	width: 100%;
+}
+}

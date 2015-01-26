@@ -73,6 +73,10 @@ public class Content {
 		this(uuid, Content.getContentType(uuid));
 	}
 
+	public Content(Entity e) {
+		this(e, (String) e.getProperty("contentType"));
+	}
+
 	public void refresh(){
 		this.key = this.entity.getKey();
 		try {
@@ -223,5 +227,43 @@ public class Content {
 	
 	public String toString(){
 		return this.entity.toString();
+	}
+	
+	public String getBoxColor(){
+		String contentType = (String) entity.getProperty("contentType");
+		return getBoxColor(contentType);
+	}
+	
+	public static String getBoxColor(String contentType){
+		if (contentType.equals("question")){
+			return "primary";
+		} else if (contentType.equals("answer")){
+			return "danger";
+		} else if (contentType.equals("textContent")){
+			return "warning";
+		} else if (contentType.equals("practiceProblem")){
+			return "success";
+		} else {
+			return "default";
+		}
+	}
+	
+	public String getBoxIcon(){
+		String contentType = (String) entity.getProperty("contentType");
+		return getBoxIcon(contentType);
+	}
+	
+	public static String getBoxIcon(String contentType){
+		if (contentType.equals("question")){
+			return "fa-question";
+		} else if (contentType.equals("answer")){
+			return "fa-lightbulb-o";
+		} else if (contentType.equals("textContent")){
+			return "fa-cubes";
+		} else if (contentType.equals("practiceProblem")){
+			return "fa-pencil";
+		} else {
+			return "fa-line-chart";
+		}
 	}
 }

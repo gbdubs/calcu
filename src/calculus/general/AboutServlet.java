@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
 
+@SuppressWarnings("serial")
 public class AboutServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

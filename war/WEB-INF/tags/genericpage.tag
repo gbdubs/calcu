@@ -121,7 +121,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/search">
+                    <a href="/explore">
                         <i class="fa fa-fw fa-binoculars"></i>
                         <span>Explore</span>
                     </a>

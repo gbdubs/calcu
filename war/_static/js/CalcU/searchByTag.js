@@ -8,7 +8,6 @@ $(function() {
     	'removeWithBackspace': true,
     });
     
-    
     var removeBookmarkOnClick = function(){
     		console.log("This shouldn't be run!");
     };

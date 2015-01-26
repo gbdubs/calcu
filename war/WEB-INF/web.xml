@@ -245,6 +245,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/achievements/*</url-pattern>
 	</servlet-mapping>
 
+
 	<servlet>
 		<servlet-name>AnswerMode</servlet-name>
 		<servlet-class>calculus.general.AnswerModeServlet</servlet-class>
@@ -252,6 +253,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet-mapping>
 		<servlet-name>AnswerMode</servlet-name>
 		<url-pattern>/answer/*</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Explore</servlet-name>
+		<servlet-class>calculus.general.ExploreServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>Explore</servlet-name>
+		<url-pattern>/explore/*</url-pattern>
 	</servlet-mapping>
 
 
