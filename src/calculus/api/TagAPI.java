@@ -64,8 +64,7 @@ public class TagAPI {
 		}
 		return uuids;
 	}
-	
-	
+
 	public static List<String> getUuidsOfTag(String tag){
 		Key key = KeyFactory.createKey("Tag", tag);
 		Entity entity;

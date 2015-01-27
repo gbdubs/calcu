@@ -101,4 +101,30 @@ public class UserPrivateInfoAPI {
 		if (result != null) return result;
 		return new ArrayList<String>();
 	}
+
+	public static List<String> getBookmarkUuids(String userId) {
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		List<String> result = (List<String>) userPrivateInfo.getProperty("bookmarks");
+		if (result != null) return result;
+		return new ArrayList<String>();
+	}
+
+	public static void setBookmarkUuids(String userId, List<String> bookmarks) {
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		userPrivateInfo.setProperty("bookmarks", bookmarks);
+		datastore.put(userPrivateInfo);
+	}
+
+	public static List<String> getUserAchievementUuids(String userId) {
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		List<String> result = (List<String>) userPrivateInfo.getProperty("achievements");
+		if (result != null) return result;
+		return new ArrayList<String>();
+	}
+
+	public static void setUserAchievementUuids(String userId, List<String> achievements) {
+		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
+		userPrivateInfo.setProperty("Achievements", achievements);
+		datastore.put(userPrivateInfo);
+	}
 }

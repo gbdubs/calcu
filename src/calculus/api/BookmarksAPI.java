@@ -11,7 +11,6 @@ import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
-import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.User;
@@ -21,40 +20,25 @@ public class BookmarksAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static void addBookmarkForUser(String contentUuid, String userId){
-		
-		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
-		
-		List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
-		
-		if (bookmarks == null) bookmarks = new ArrayList<String>();
-		
+		List<String> bookmarks = UserPrivateInfoAPI.getBookmarkUuids(userId);
 		if (!bookmarks.contains(contentUuid)){
 			bookmarks.add(contentUuid);
-			userPrivateInfo.setProperty("bookmarks", bookmarks);
-			DatastoreServiceFactory.getDatastoreService().put(userPrivateInfo);
+			UserPrivateInfoAPI.setBookmarkUuids(userId, bookmarks);
 		}
 	}
 	
 	public static void deleteBookmarkForUser(String contentUuid, String userId){
-		
-		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
-		
-		List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
-		
-		if (bookmarks == null) return;
-		
+		List<String> bookmarks = UserPrivateInfoAPI.getBookmarkUuids(userId);
 		if (bookmarks.contains(contentUuid)){
 			bookmarks.remove(contentUuid);
-			userPrivateInfo.setProperty("bookmarks", bookmarks);
-			DatastoreServiceFactory.getDatastoreService().put(userPrivateInfo);
+			UserPrivateInfoAPI.setBookmarkUuids(userId, bookmarks);
 		}
 	}
 
 	public static void addUserBookmarksToRequest(HttpServletRequest req, User user){
 		
 		if (user != null){
-			Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(user.getUserId());
-			List<String> bookmarks = (List<String>) userPrivateInfo.getProperty("bookmarks");
+			List<String> bookmarks = (List<String>) UserPrivateInfoAPI.getBookmarkUuids(user.getUserId());
 			List<MenuItem> bookmarksToDisplay = new ArrayList<MenuItem>();
 			List<String> bookmarkUuids = new ArrayList<String>();
 			if (bookmarks != null){

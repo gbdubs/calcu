@@ -37,13 +37,13 @@ public class AchievementsAPI {
 		return AchievementId;
 	}
 	
-	public static void giveUserAchievement(String userId, String AchievementUuid){
-		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
-		List<String> Achievements = (List<String>) userPrivateInfo.getProperty("Achievements");
-		if (Achievements == null) Achievements = new ArrayList<String>();
-		Achievements.add(AchievementUuid);
-		userPrivateInfo.setProperty("Achievements", Achievements);
-		datastore.put(userPrivateInfo);
+	public static void giveUserAchievement(String userId, String achievementUuid){
+		List<String> achievements = UserPrivateInfoAPI.getUserAchievementUuids(userId);
+		if (!achievements.contains(achievementUuid)){
+			achievements.add(achievementUuid);
+			UserPrivateInfoAPI.setUserAchievementUuids(userId, achievements);
+		}
+
 	}
 	
 	public static List<Achievement> getUserAchievements(String userId){
@@ -63,13 +63,7 @@ public class AchievementsAPI {
 	}
 	
 	private static List<String> getUserAchievementUuids(String userId){
-		Entity userPrivateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(userId);
-		List<String> result = (List<String>) userPrivateInfo.getProperty("achievements");
-		if (result == null){
-			return new ArrayList<String>();
-		} else {
-			return result;
-		}
+		return UserPrivateInfoAPI.getUserAchievementUuids(userId);
 	}
 	
 	private static List<String> getUnfinishedAchievementUuids(String userId){
