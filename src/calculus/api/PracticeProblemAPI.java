@@ -7,6 +7,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.Content;
 import calculus.models.PracticeProblem;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -115,7 +116,6 @@ public class PracticeProblemAPI {
 		entity.setProperty("title", title);
 		entity.setProperty("body", wrappedBody);
 		entity.setProperty("authorSolution", wrappedAuthorSolution);
-		entity.setProperty("otherSolutions", "<solutions></solutions>");
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
@@ -205,5 +205,44 @@ public class PracticeProblemAPI {
 			}
 		}
 		return null;
+	}
+
+	public static String createNewPracticeProblemFromUpload(String title,
+			String body, String solution, String tags, String solutionLink, String site) {
+		
+		String uuid = UUID.randomUUID().toString();
+		long time = System.currentTimeMillis();
+		
+		boolean anonymous = true;
+		boolean submitted = true;
+		boolean viewable = true;
+		
+		Text wrappedBody = new Text(body);
+		Text wrappedAuthorSolution = new Text(solution);
+			
+		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
+		
+		entity.setProperty("uuid", uuid);
+		entity.setProperty("contentType", "practiceProblem");
+		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
+		entity.setProperty("createdAt", time);
+		entity.setProperty("title", title);
+		entity.setProperty("body", wrappedBody);
+		entity.setProperty("authorSolution", wrappedAuthorSolution);
+		entity.setProperty("anonymous", anonymous);
+		entity.setProperty("submitted", submitted);
+		entity.setProperty("viewable", viewable);
+		entity.setProperty("url", "/practice-problem/" + uuid);
+		entity.setProperty("tags", tags);
+		
+		
+		String[] tagList = tags.split(",");
+		for (String t : tagList){
+			if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
+		}
+		
+		datastore.put(entity);
+		
+		return uuid;
 	}	
 }

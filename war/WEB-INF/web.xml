@@ -265,6 +265,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/explore/*</url-pattern>
 	</servlet-mapping>
 	
+	
 	<servlet>
 		<servlet-name>Links</servlet-name>
 		<servlet-class>calculus.LinksServlet</servlet-class>
@@ -274,6 +275,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/links/*</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>ContentUpload</servlet-name>
+		<servlet-class>calculus.general.ContentUploadServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>ContentUpload</servlet-name>
+		<url-pattern>/admin/upload-new-content</url-pattern>
+	</servlet-mapping>
 
 
 	<servlet>

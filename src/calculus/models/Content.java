@@ -20,6 +20,7 @@ public class Content {
 	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
 	protected static List<String> FIELDS = new ArrayList<String>();
 	protected static List<String> CONTENT_TYPES = new ArrayList<String>();
+	public static String scrapingUserProfileId = "11481431651082296168";
 	
 	static {
 		String[] fields = {"contentType", "uuid", "creatorUserId", "createdAt", "title", "body", "anonymous", "submitted", "viewable", "url", "karma", "tags"};

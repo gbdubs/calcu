@@ -83,6 +83,29 @@
 			
 			</div>	
 		</div>
+		
+		<div class="box box-solid">
+			<div class="box-header">
+				<i class="fa fa-upload fa-karma-score"></i>
+				<h3 class="box-title">Upload New Content In JSON Format</h3>
+				<div class="pull-right box-tools">
+					<button class="btn btn-success btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+				</div>
+			</div>
+			<div class="box-body">
+				<form action="/admin/upload-new-content" method="post" class="box box-info">
+					<div class="box-header">
+						<i class="fa fa-trophy fa-karma-score"></i>
+						<h3 class="box-title">Upload New Content</h3>
+					</div>
+					<div class="box-body">
+						<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
+						<input type="submit" class="btn-full-width btn-block btn-primary" value="Upload New Content"/>
+					</div>
+				</form>
+			</div>
+		</div>
+		
 	</jsp:attribute>
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/CalcU/admin-console.js"></script>
