@@ -264,6 +264,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Explore</servlet-name>
 		<url-pattern>/explore/*</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Links</servlet-name>
+		<servlet-class>calculus.general.LinksServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>Links</servlet-name>
+		<url-pattern>/links/*</url-pattern>
+	</servlet-mapping>
+	
 
 
 	<servlet>

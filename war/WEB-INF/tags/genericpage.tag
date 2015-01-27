@@ -171,7 +171,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/external.html">
+                    <a href="/links">
                         <i class="fa fa-fw fa-external-link"></i>
                         <span>Links and Support</span>
                     </a>
