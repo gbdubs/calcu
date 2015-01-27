@@ -43,7 +43,6 @@ public class AchievementsAPI {
 			achievements.add(achievementUuid);
 			UserPrivateInfoAPI.setUserAchievementUuids(userId, achievements);
 		}
-
 	}
 	
 	public static List<Achievement> getUserAchievements(String userId){

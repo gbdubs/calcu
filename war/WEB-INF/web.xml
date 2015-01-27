@@ -17,7 +17,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>About</servlet-name>
-		<servlet-class>calculus.general.AboutServlet</servlet-class>
+		<servlet-class>calculus.AboutServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>About</servlet-name>
@@ -37,7 +37,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Landing</servlet-name>
-		<servlet-class>calculus.general.LandingServlet</servlet-class>
+		<servlet-class>calculus.LandingServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>Landing</servlet-name>
@@ -267,7 +267,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Links</servlet-name>
-		<servlet-class>calculus.general.LinksServlet</servlet-class>
+		<servlet-class>calculus.LinksServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>Links</servlet-name>
