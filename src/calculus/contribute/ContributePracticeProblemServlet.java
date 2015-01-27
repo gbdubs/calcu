@@ -1,6 +1,5 @@
 package calculus.contribute;
 
-import java.util.List;
 import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;
@@ -17,6 +16,7 @@ import calculus.utilities.UuidTools;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
+@SuppressWarnings("serial")
 public class ContributePracticeProblemServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

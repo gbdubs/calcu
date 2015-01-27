@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
 
+@SuppressWarnings("serial")
 public class PageNotFoundServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

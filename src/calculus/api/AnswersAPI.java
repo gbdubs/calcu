@@ -1,5 +1,7 @@
 package calculus.api;
 
+import java.util.Iterator;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -21,7 +23,7 @@ public class AnswersAPI {
 		Filter compositeFilter = CompositeFilterOperator.and(problemFilter, userFilter, answerFilter);
 		Query query = new Query("Content").setFilter(compositeFilter);
 		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
+		for (Iterator<Entity> iterator = pq.asIterable().iterator(); iterator.hasNext();) {
 			return true;
 		}
 		return false;

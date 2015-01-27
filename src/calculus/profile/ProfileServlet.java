@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.UserContextAPI;
 import calculus.api.UserVerificationAPI;
 
+@SuppressWarnings("serial")
 public class ProfileServlet extends HttpServlet{
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

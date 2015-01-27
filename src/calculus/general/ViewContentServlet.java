@@ -18,6 +18,7 @@ import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
 
+@SuppressWarnings("serial")
 public class ViewContentServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

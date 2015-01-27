@@ -18,6 +18,7 @@ import calculus.models.Question;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
+@SuppressWarnings("serial")
 public class ContributeDashboardServlet extends HttpServlet{
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

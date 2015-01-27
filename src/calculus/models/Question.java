@@ -3,7 +3,6 @@ package calculus.models;
 import java.util.ArrayList;
 import java.util.List;
 
-import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 
 import com.google.appengine.api.datastore.Entity;

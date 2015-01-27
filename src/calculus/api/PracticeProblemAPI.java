@@ -1,7 +1,6 @@
 package calculus.api;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -9,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
 import calculus.models.PracticeProblem;
-import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -32,10 +30,8 @@ public class PracticeProblemAPI {
 	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
 	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, false);
-	private static Filter anonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, true);
 	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, false);
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
-	private static Filter notViewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, false);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	

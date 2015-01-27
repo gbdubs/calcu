@@ -15,6 +15,7 @@ import calculus.api.AchievementsAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Achievement;
 
+@SuppressWarnings("serial")
 public class AdminConsoleServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 

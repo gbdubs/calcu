@@ -13,14 +13,11 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
-import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class Answer extends Content {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-	private static UserService userService = UserServiceFactory.getUserService();
-	
 	private static List<String> FIELDS = new ArrayList<String>();
 	
 	static {

@@ -1,7 +1,5 @@
 package calculus.api;
 
-import java.util.Set;
-
 import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;

@@ -17,7 +17,7 @@ public class ContributeAnswerServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException{
 		
-		Answer answer = Answer.createAnswerFromRequest(req);
+		Answer.createAnswerFromRequest(req);
 		
 		resp.setContentType("text/html");
 		
