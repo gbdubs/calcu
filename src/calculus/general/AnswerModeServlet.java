@@ -31,7 +31,6 @@ public class AnswerModeServlet extends HttpServlet{
 	}
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
-		System.out.println("Post started runnin'");
 		String uuid = (String) req.getParameter("parentUuid");
 		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
 		int streak = Integer.parseInt((String) req.getParameter("answerModeStreak"));
@@ -39,7 +38,6 @@ public class AnswerModeServlet extends HttpServlet{
 			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
 		} else if (req.getParameter("action").equals("done")){
 			Answer answer = Answer.createAnswerFromRequest(req);
-			System.out.println(answer.toString());
 			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
 			streak++;
 		}

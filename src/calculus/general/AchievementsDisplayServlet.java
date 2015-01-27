@@ -39,8 +39,7 @@ public class AchievementsDisplayServlet extends HttpServlet {
 		} else {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 		}
-		System.out.println("unfinished: " + unfinishedAchievements);
-		System.out.println("finished: " + finishedAchievements);
+
 		req.setAttribute("unfinishedAchievements", unfinishedAchievements);
 		req.setAttribute("finishedAchievements", finishedAchievements);
 		

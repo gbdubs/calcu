@@ -74,7 +74,6 @@ public class UserPrivateInfoAPI {
 		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
 		if (skipped == null) skipped = new ArrayList<String>();
 		skipped.add(uuid);
-		System.out.println("Got here");
 		userPrivateInfo.setProperty("answerModeSkipped", skipped);
 		datastore.put(userPrivateInfo);
 	}
