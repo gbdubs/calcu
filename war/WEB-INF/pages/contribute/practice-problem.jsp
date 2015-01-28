@@ -49,7 +49,7 @@
 					<i class="fa fa-question hidden-xs"></i>
 					<h3 class="box-title">Problem Editor <small>Construct the information that the student will need to solve the problem in this area</small></h3>
 					<div class="pull-right box-tools hidden-xs">
-						<button class="btn btn-warning btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<button class="btn btn-warning btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 					</div>
 				</div>
 				<div class="box-body">
@@ -72,7 +72,7 @@
 				<i class="fa fa-lightbulb-o hidden-xs"></i>
 					<h3 class="box-title">Your Solution <small> Explain how to solve the problem, and explicitly state the correct answer in this field</small></h3>
 					<div class="pull-right box-tools hidden-xs">
-						<button class="btn btn-success btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<button class="btn btn-success btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 					</div>
 				</div>
 				<div class="box-body pad">
@@ -86,7 +86,7 @@
 					<i class="fa fa-paper-plane hidden-xs"></i>
 					<h3 class="box-title">Distribution and Submit<small> Read through the information to make sure you are happy submitting your problem</small></h3>
 					<div class="pull-right box-tools hidden-xs">
-						<button class="btn btn-primary btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<button class="btn btn-primary btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 					</div>
 				</div>
 				<div class="box-body">

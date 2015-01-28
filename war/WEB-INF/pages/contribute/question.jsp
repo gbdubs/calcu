@@ -13,7 +13,7 @@
 				<i class="fa fa-info-circle hidden-xs"></i>
 				<h3 class="box-title">Welcome to the Question Editor! <small>Here are some basic guidelines to keep in mind</small></h3>
 				<div class="pull-right box-tools hidden-xs">
-					<button class="btn btn-info btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+					<button class="btn btn-info btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
@@ -49,7 +49,7 @@
 					<i class="fa fa-question hidden-xs"></i>
 					<h3 class="box-title">Question Editor <small>Construct your question with enough information for someone to answer thoroughly</small></h3>
 					<div class="pull-right box-tools hidden-xs">
-						<button class="btn btn-success btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<button class="btn btn-success btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 					</div>
 				</div>
 				<div class="box-body">
@@ -73,7 +73,7 @@
 					<i class="fa fa-paper-plane hidden-xs"></i>
 					<h3 class="box-title">Distribution and Submit<small> Read through the information to make sure you are happy submitting your problem</small></h3>
 					<div class="pull-right box-tools hidden-xs">
-						<button class="btn btn-primary btn-xs" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<button class="btn btn-primary btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 					</div>
 				</div>
 				<div class="box-body">
