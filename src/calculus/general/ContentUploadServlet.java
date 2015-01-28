@@ -52,8 +52,8 @@ public class ContentUploadServlet extends HttpServlet {
 					String solution = content.get("solution").getAsString();
 					String uuid = PracticeProblemAPI.createNewPracticeProblemFromUpload(title, body, solution, tags, solutionLink, site);
 					uuids.add(uuid);
-					questions++;
 				} else {
+					questions++;
 					String uuid = QuestionAPI.createNewQuestionFromUpload(title, body, tags, site);
 					uuids.add(uuid);
 				}	

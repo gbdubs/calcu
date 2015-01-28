@@ -12,44 +12,175 @@ from json import dump, load
 def main():
 	DATA_FILENAME = str(uuid.uuid4()) + ".txt"
 	all_practice_problems = []
-	benched =["http://www.exampleproblems.com/wiki/index.php/Abstract_Algebra", 'http://www.exampleproblems.com/wiki/index.php/PDE:Laplaces_Equation']
-	practice_problem_urls = ['http://www.exampleproblems.com/wiki/index.php/PDE:Fourier_Transforms', 'http://www.exampleproblems.com/wiki/index.php/PDE:Laplace_Transforms', 'http://www.exampleproblems.com/wiki/index.php/PDE:Mathematical_Modeling', 'http://www.exampleproblems.com/wiki/index.php/Ordinary_Differential_Equations', 'http://www.exampleproblems.com/wiki/index.php/Fourier_Series', 'http://www.exampleproblems.com/wiki/index.php/Functional_Analysis', 'http://www.exampleproblems.com/wiki/index.php/Complex_Variables', 'http://www.exampleproblems.com/wiki/index.php/Integral_Equations', 'http://www.exampleproblems.com/wiki/index.php/Number_Theory', 'http://www.exampleproblems.com/wiki/index.php/Fraction_(mathematics)','http://www.exampleproblems.com/wiki/index.php/Linear_Algebra', 'http://www.exampleproblems.com/wiki/index.php/Geometry', 'http://www.exampleproblems.com/wiki/index.php/Calculus', 'http://www.exampleproblems.com/wiki/index.php/Multivariable_Calculus', 'http://www.exampleproblems.com/wiki/index.php/Calculus_of_Variations', 'http://www.exampleproblems.com/wiki/index.php/PDE:Method_of_characteristics', 'http://www.exampleproblems.com/wiki/index.php/PDE:Integration_and_Separation_of_Variables']
+	benched =[
+		"http://www.exampleproblems.com/wiki/index.php/Abstract_Algebra", 
+		'http://www.exampleproblems.com/wiki/index.php/PDE:Laplaces_Equation'
+	]
+	practice_problem_urls = [
+		'http://www.exampleproblems.com/wiki/index.php/Trigonometry',
+		'http://www.exampleproblems.com/wiki/index.php/Calculus', 
+		'http://www.exampleproblems.com/wiki/index.php/Integral_Equations', 
+		'http://www.exampleproblems.com/wiki/index.php/Multivariable_Calculus', 
+		'http://www.exampleproblems.com/wiki/index.php/Calculus_of_Variations', 
+		
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Exponents',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Radicals',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Equations',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-ExponentialAndLogarithmicEquations',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Partial_Fraction_Decomposition',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Complex_Numbers',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Progressions',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Functions',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Binomial_Theorem',
+		'http://www.exampleproblems.com/wiki/index.php/Algebra-Rational_Functions',
+		
+		'http://www.exampleproblems.com/wiki/index.php/Linear_Algebra',
+		'http://www.exampleproblems.com/wiki/index.php/Geometry', 
+		'http://www.exampleproblems.com/wiki/index.php/Ordinary_Differential_Equations', 
+		'http://www.exampleproblems.com/wiki/index.php/Functional_Analysis', 
+		'http://www.exampleproblems.com/wiki/index.php/Complex_Variables',
+		'http://www.exampleproblems.com/wiki/index.php/Number_Theory',
+		
+		'http://www.exampleproblems.com/wiki/index.php/PDE:Coordinate_Transformations',
+		'http://www.exampleproblems.com/wiki/index.php/PDE:Method_of_characteristics',
+		'http://www.exampleproblems.com/wiki/index.php/PDE:Integration_and_Separation_of_Variables',
+		'http://www.exampleproblems.com/wiki/index.php/Fourier_Series', 
+		'http://www.exampleproblems.com/wiki/index.php/PDE:Mathematical_Modeling', 
+		
+		'http://www.exampleproblems.com/wiki/index.php/Special_Functions',
+		'http://www.exampleproblems.com/wiki/index.php/Fraction_(mathematics)'
+	]
 	find_number = 1
 	for p_p_url in practice_problem_urls:
 		response = urllib2.urlopen(p_p_url)
 		html = response.read()
 		
-		primary_tag = p_p_url[find_closest_tag_before_point(p_p_url, "/", len(p_p_url), len(p_p_url)) + 1:].replace("_"," ").replace("#"," ").replace(":"," ")
+		primary_tag = p_p_url[find_closest_tag_before_point(p_p_url, "/", len(p_p_url)) + 1:].replace("_"," ").replace("#"," ").replace(":"," ")
 		tags = primary_tag
 		for s in primary_tag.split(' '):
 			tags = tags + ',' + s
 		
 		first_find = html.find("solution</a>")
 		while first_find > 0:
+			
 			solution_link = find_link(html, first_find)
 			solution_url = "http://www.exampleproblems.com" + solution_link
 			problem = find_problem_body(html, first_find + 13)
 			cleaned = clean_to_latex(problem)
+			
+			full_heading = find_last_full_h2(html, first_find)
+			cleaned = possibly_add_instruction(cleaned, full_heading, html, first_find)
 			solution = get_solution_from_url(solution_link)
+			problem_tags = construct_tags(tags, html, first_find)
 			
 			results = {
-					'tags': tags,
+					'tags': problem_tags,
 					'solutionLink':solution_url, 
 					'site':"www.exampleproblems.com", 
 					'title':primary_tag + " Practice",
 					'problem':cleaned,  
-					'solution':solution}
+					'solution':solution
+			}
+			
+			#print results		
 			all_practice_problems.append(results)
 			with open(DATA_FILENAME, mode='w') as feedsjson:
 				dump(all_practice_problems, feedsjson, indent=4)
 				feedsjson.close()
 			
 			find_number = find_number + 1
-		
 			print 'Practice Problem Number ' + str(find_number) + ", currently in " + primary_tag
-			
-			first_find = html.find("solution</a>", first_find + len(problem))		
 	
+			first_find = html.find("solution</a>", first_find + len(problem))		
+
+
+def find_last_full_h2(html, original_index):
+	index = original_index
+	result = -1
+	while result == -1 and index > 0:
+		result = html.find('<h2', index)
+		if result == -1 or result > original_index:
+			index = index - 5
+			result = -1
+	h2_start = result
+	h2_end = html.find('</h2>', h2_start)
+	return html[h2_start : h2_end + 6]
+	
+	
+
+def construct_tags(tags, html, first_find):
+	problem_tags = tags
+	h2_heading = find_last_h2_heading(html, first_find)
+	h3_heading = find_last_h3_heading(html, first_find)
+	if len(h3_heading) > 0 and html.find(h2_heading) < html.find(h3_heading):
+		problem_tags = problem_tags + "," + h3_heading
+		h3_heading_modified = h3_heading.replace("-", " ").split(" ")
+		if len(h3_heading_modified) > 1:
+			for tag in h3_heading_modified:
+				if len(tag) > 4:
+					problem_tags = problem_tags + "," + tag
+	if len(h2_heading) > 0:
+		problem_tags = problem_tags + "," + h2_heading		
+		h2_heading_modified = h2_heading.replace("-", " ").split(" ")
+		if len(h2_heading_modified) > 1:
+			for tag in h2_heading_modified:
+				if len(tag) > 4:
+					problem_tags = problem_tags + "," + tag
+	return problem_tags
+
+def possibly_add_instruction(expression, heading, html, index):
+	if expression[0:4] == " \( " and expression[-4:] == " \) ":
+		heading_index = html.find(heading)
+		instruction_index = find_closest_tag_before_point(html, 'For the following problems,', index)
+		if heading[-1:] == ".":
+			return heading[:-1] + ": "+ expression
+		elif heading_index < instruction_index and instruction_index < index:
+			next_br = html.find("<br", instruction_index)
+			next_p = html.find("</p>", instruction_index)
+			if next_br == -1:
+				next_br = len(html)
+			if next_p == -1:
+				next_p = len(html)
+			instruction_end_index = min(next_br, next_p)
+			if instruction_end_index > index:
+				return "Evaluate/Solve " + expression
+			else:
+				return clean_to_latex(html[instruction_index:instruction_end_index]) + " " + expression 
+		else:
+			return "Evaluate " + expression
+	else:
+		return expression
+
+def find_last_h2_heading(html, index):
+	heading_start = find_closest_tag_before_point(html, "<h2>", index)
+	if heading_start < 0:
+		return ""
+	span_start = html.find("<span", heading_start)
+	heading_end = html.find("</h2>", heading_start)
+	if span_start > heading_end or span_start == -1:
+		heading_contents = html[heading_start+4:heading_end-4]
+		return heading_contents
+	else:
+		span_open_end = html.find(">", span_start)
+		span_real_end = html.find("</span>", span_open_end)
+		heading_contents = html[span_open_end+1:span_real_end]
+		return heading_contents
+
+def find_last_h3_heading(html, index):
+	heading_start = find_closest_tag_before_point(html, "<h3>", index)
+	if heading_start < 0:
+		return ""
+	span_start = html.find("<span", heading_start)
+	heading_end = html.find("</h3>", heading_start)
+	if span_start > heading_end or span_start == -1:
+		heading_contents = html[heading_start+4:heading_end-4]
+		return heading_contents
+	else:
+		span_open_end = html.find(">", span_start)
+		span_real_end = html.find("</span>", span_open_end)
+		heading_contents = html[span_open_end+1:span_real_end]
+		return heading_contents
+
 def get_solution_from_url(url):
 	if url[0] is "/":
 		url = "http://www.exampleproblems.com" + url
@@ -64,7 +195,7 @@ def get_solution_from_url(url):
 		parsed_content = content[content.find('>')+1:len(content) - 6]
 		to_not_include = content.find('<a href="/wiki/index.php/Main_Page"')
 		if to_not_include > 0:
-			last_index_to_include = find_closest_tag_before_point(content, "<p>", to_not_include, to_not_include)
+			last_index_to_include = find_closest_tag_before_point(content, "<p>", to_not_include)
 			parsed_content = content[content.find('>')+1:last_index_to_include]			
 		
 		return clean_to_latex(parsed_content)
@@ -77,13 +208,15 @@ def get_solution_from_url(url):
 		return None
 
 
-def find_closest_tag_before_point(text, tag, index, original_index):
-	result = text.find(tag, index)
-	if result < original_index and result > 0:
-		return result
-	else:
-		return find_closest_tag_before_point(text, tag, index - 5, original_index)
-
+def find_closest_tag_before_point(text, tag, original_index):
+	index = original_index
+	while index > 0:
+		result = text.find(tag, index)
+		if result < original_index and result > 0:
+			return result
+		else:
+			index = index - 5
+	return -1
 
 def find_link(html, first_find):
 	search_number = 1

@@ -34,7 +34,7 @@
 									<div class="box box-${content.boxColor}">
 										<div class="box-header">
 											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
-											<h4 class="box-title">${content.title}</h4>
+											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
@@ -86,7 +86,7 @@
 									<div class="box box-${content.boxColor}">
 										<div class="box-header">
 											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
-											<h4 class="box-title">${content.title}</h4>
+											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
@@ -138,7 +138,7 @@
 									<div class="box box-${content.boxColor}">
 										<div class="box-header">
 											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
-											<h4 class="box-title">${content.title}</h4>
+											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
@@ -193,7 +193,7 @@
 									<div class="box box-${content.boxColor}">
 										<div class="box-header">
 											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
-											<h4 class="box-title">${content.title}</h4>
+											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">

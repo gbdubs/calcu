@@ -65,6 +65,7 @@ public class QuestionAPI {
 		entity.setProperty("url", "/question/" + uuid);
 		entity.setProperty("tags", tags);
 		entity.setProperty("requests", 1);
+		entity.setProperty("karma", 1);
 		
 		datastore.put(entity);
 		
@@ -211,6 +212,7 @@ public class QuestionAPI {
 		entity.setProperty("url", "/question/" + uuid);
 		entity.setProperty("tags", tags);
 		entity.setProperty("requests", 1);
+		entity.setProperty("karma", 1);
 		
 		datastore.put(entity);
 		

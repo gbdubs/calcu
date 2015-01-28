@@ -121,6 +121,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("url", "/practice-problem/" + uuid);
 		entity.setProperty("tags", tags);
+		entity.setProperty("karma", 1);
 		
 		if (submitted && viewable){
 			String[] tagList = tags.split(",");
@@ -234,6 +235,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("url", "/practice-problem/" + uuid);
 		entity.setProperty("tags", tags);
+		entity.setProperty("karma", 1);
 		
 		
 		String[] tagList = tags.split(",");
