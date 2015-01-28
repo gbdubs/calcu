@@ -12,19 +12,23 @@
 		
 		<div class="box box-solid">
 			<div class="box-header">
-				<i class="fa fa-tools fa-karma-score"></i>
+				<i class="fa fa-gears fa-karma-score"></i>
 				<h3 class="box-title">Achievement Manager</h3>
 				<div class="pull-right box-tools">
 					<button class="btn btn-primary btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
-				<form action="/admin/achievement" method="post" class="box box-primary">
+				<form action="/admin/achievement" method="post" class="box box-solid box-primary collapsed-box">
+					<input type="hidden" name="uploadMethod" value="bulk" />
 					<div class="box-header">
 						<i class="fa fa-trophy fa-karma-score"></i>
 						<h3 class="box-title">Create A New Achievement</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
 					</div>
-					<div class="box-body">
+					<div class="box-body" style="display:none;">
 						<input type="hidden" name="action" value="create"/>
 						<label for="name">Name</label>
 						<input type="text" name="name" class="form-control" placeholder="The funny name of the achievement"/>
@@ -44,17 +48,65 @@
 						<label for="secondaryColor">Background Color</label>
 						<input type="text" name="secondaryColor" class="form-control" placeholder="Any Classes which specify color"/>
 						<br/>
-						<input type="submit" class="btn-full-width btn-block btn-primary" value="Create New Achievement"/>
+						<input type="submit" class="btn btn-full-width btn-block btn-primary" value="Create New Achievement"/>
 					</div>
 				</form>
 				
+				<div class="box box-primary box-solid no-margin collapsed-box">
+					<div class="box-header">
+						<i class="fa fa-database fa-karma-score"></i>
+						<h3 class="box-title" >Upload Achievements in JSON Format</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<form class="box-body" style="display:none;" action="/admin/achievement" method="post">
+						<input type="hidden" name="uploadMethod" value="bulk" />
+						<p>
+							Uploading achievements in a JSON format is a stellar way to build a collection of them while not fearing for their
+							destruction or loss in case of a datastore purge. The format expected for each entry in the JSON text is:
+						</p
+						<ul>
+							<li>'name' - The title of the achievement</li>
+							<li>'description' - A funny or anecdotal description of what the person has now achieved</li>
+							<li>'qualification' - A description of how you go about getting the achievement</li>
+							<li>'icon - the Font Awesome icon class to display. Using FA-4.0, so not all things are on the table</li>
+							<li>
+								'textColor' - The CSS class which determines the primary color of the icon and border of the achievement. 
+								text-{color} classes are recommended, as they modify the color property with important qualification
+							</li>
+							<li>
+								'backgroundColor' - The color that will be the backdrop for the background. Should not be very light, as
+								achievements text is displayed in WHITE. The CSS class for this should modify the color property of the object.
+								text-{color} classes are recommended because they use !important
+							</li>
+						</ul>
+						<p>
+							Once you have uploaded all of this stuff, it will all be viewable and delete-able on this page, in the next section.
+						</p>
+						<p>
+							<select class="form-control" name="bulkAddInstruction">
+								<option value="purge">Delete All Achievements, and Add These</option>
+								<option value="append">Add these to Existing Achievements</option>
+							</select>
+						</p>
+						<p>
+							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
+						</p>
+						<input type="submit" class="btn btn-full-width btn-block btn-primary" value="Upload New Achievements"/>
+					</form>
+				</div>
+				
 				<c:if test="${fn:length(allAchievements) > 0}">
-				<div class="box box-primary no-margin">
+				<div class="box box-primary box-solid no-margin collapsed-box">
 					<div class="box-header">
 						<i class="fa fa-database fa-karma-score"></i>
 						<h3 class="box-title">Existing Achievements</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
 					</div>
-					<div class="box-body">
+					<div class="box-body" style="display:none;">
 						<table class="table centered">
 						<tbody>
 							<tr>
@@ -93,7 +145,7 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<form action="/admin/upload-new-content" method="post" class="box box-info no-margin">
+				<form action="/admin/upload-new-content" method="post" class="box box-info box-solid no-margin">
 					<div class="box-header">
 						<i class="fa fa-cloud-upload fa-karma-score"></i>
 						<h3 class="box-title">Upload New Content in JSON format</h3>
@@ -121,7 +173,7 @@
 						<p>	
 							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
 						</p>
-						<input type="submit" class="btn-full-width btn-block btn-info" value="Upload New Content"/>
+						<input type="submit" class="btn btn-full-width btn-block btn-info" value="Upload New Content"/>
 					</div>
 				</form>
 			</div>
@@ -136,7 +188,7 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<div class="box box-danger no-margin">
+				<div class="box box-danger box-solid no-margin">
 					<div class="box-header">
 						<i class="fa fa-crosshairs fa-karma-score"></i>
 						<h3 class="box-title">View and respond to reported content</h3>
