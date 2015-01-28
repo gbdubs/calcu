@@ -28,14 +28,10 @@ public class AchievementsDisplayServlet extends HttpServlet {
 		List<Achievement> finishedAchievements= new ArrayList<Achievement>();
 		List<Achievement> unfinishedAchievements= new ArrayList<Achievement>();
 		
-		Achievement navigatorAchievement = new Achievement("39f0a4b9-e094-470e-affb-73f8b70b455e");
-		finishedAchievements.add(navigatorAchievement);
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user != null){
 			unfinishedAchievements.addAll(AchievementsAPI.getUserUnfinishedAchievements(user.getUserId()));
-			unfinishedAchievements.remove(navigatorAchievement);
 			finishedAchievements.addAll(AchievementsAPI.getUserAchievements(user.getUserId()));
-			
 		} else {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 		}

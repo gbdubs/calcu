@@ -66,7 +66,7 @@ public class AchievementModificationServlet extends HttpServlet {
 				JsonObject achievement = array.get(i).getAsJsonObject();
 				String name = achievement.get("name").getAsString();
 				String description = achievement.get("description").getAsString();
-				String qualification = achievement.get("qualification").getAsString() + ",auto-uploaded";
+				String qualification = achievement.get("qualification").getAsString();
 				String icon = achievement.get("icon").getAsString();
 				String textColor = achievement.get("textColor").getAsString();
 				String backgroundColor = achievement.get("backgroundColor").getAsString();

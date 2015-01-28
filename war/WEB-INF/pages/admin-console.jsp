@@ -43,10 +43,15 @@
 						<input type="text" name="icon" class="form-control" placeholder="Any set of Font Awesome Icon Classes"/>
 						<br/>
 						<label for="color">Text Color</label>
-						<input type="text" name="color" class="form-control" placeholder="Any Classes which specify color"/>
+						<input type="text" name="color" class="form-control" placeholder="Requires a TEXT color class"/>
 						<br/>
 						<label for="secondaryColor">Background Color</label>
-						<input type="text" name="secondaryColor" class="form-control" placeholder="Any Classes which specify color"/>
+						<input type="text" name="secondaryColor" class="form-control" placeholder="Requires a BG and a TEXT color class"/>
+						<br/>
+						<label>
+							All Colors (both bg-{color} and text-{color})  --  red, yellow, aqua, blue, light-blue, green, navy, teal, olive, lime, orange, fuchsia, purple, maroon, black 
+						</label>
+						<br/>
 						<br/>
 						<input type="submit" class="btn btn-full-width btn-block btn-primary" value="Create New Achievement"/>
 					</div>
@@ -78,20 +83,23 @@
 							<li>
 								'backgroundColor' - The color that will be the backdrop for the background. Should not be very light, as
 								achievements text is displayed in WHITE. The CSS class for this should modify the color property of the object.
-								text-{color} classes are recommended because they use !important
+								text-{color} classes are needed <b>ALONG WITH</b> bg-{color} classes. They should be the same for consistency,
+								but there are no inherent constraints to it.
 							</li>
 						</ul>
 						<p>
 							Once you have uploaded all of this stuff, it will all be viewable and delete-able on this page, in the next section.
 						</p>
 						<p>
-							<select class="form-control" name="bulkAddInstructions">
-								<option value="purge" selected>Delete All Achievements, and Add These</option>
-								<option value="append">Add these to Existing Achievements</option>
-							</select>
+							All Colors (both bg-{color} and text-{color})  --  red, yellow, aqua, blue, light-blue, green, navy, teal, olive, lime, orange, fuchsia, purple, maroon, black 
+						</p>
+							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
 						</p>
 						<p>
-							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
+							<select class="form-control" name="bulkAddInstructions">
+								<option value="purge">Delete All Achievements, and Add These</option>
+								<option value="append" selected>Add these to Existing Achievements</option>
+							</select>
 						</p>
 						<input type="submit" class="btn btn-full-width btn-block btn-primary" value="Upload New Achievements"/>
 					</form>
