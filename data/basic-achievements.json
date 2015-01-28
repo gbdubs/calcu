@@ -1,0 +1,26 @@
+[
+	{
+		"name":"Barak Obama 2008",
+		"description":"People are really excited about you, but it is not necessarily based on anything but your novelty.",
+		"qualification":"Find this page",
+		"icon":"fa-user",
+		"textColor":"text-red",
+		"backgroundColor":"text-blue"
+	},
+	{
+		"name":"Barak Obama 2012",
+		"description":"You are objectively more successful now, but it doesnt seem like people respect that.",
+		"qualification":"Be here for a while",
+		"icon":"fa-flag",
+		"textColor":"text-blue",
+		"backgroundColor":"text-red"
+	},
+	{
+		"name":"Vermonter",
+		"description":"You are one dope mother fucker",
+		"qualification":"Use the site well",
+		"icon":"fa-leaf",
+		"textColor":"text-yellow",
+		"backgroundColor":"text-green"
+	}
+]

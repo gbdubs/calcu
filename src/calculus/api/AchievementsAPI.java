@@ -90,4 +90,12 @@ public class AchievementsAPI {
 		if (uuid != null)
 			datastore.delete(KeyFactory.createKey("Achievement", uuid));
 	}
+
+	public static void deleteAllAchievements() {
+		Query query = new Query("Achievement");
+		PreparedQuery pq = datastore.prepare(query);
+		for(Entity entity : pq.asIterable()){
+			datastore.delete(entity.getKey());
+		}
+	}
 }

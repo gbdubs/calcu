@@ -20,7 +20,7 @@
 			</div>
 			<div class="box-body">
 				<form action="/admin/achievement" method="post" class="box box-solid box-primary collapsed-box">
-					<input type="hidden" name="uploadMethod" value="bulk" />
+					<input type="hidden" name="uploadMethod" value="single" />
 					<div class="box-header">
 						<i class="fa fa-trophy fa-karma-score"></i>
 						<h3 class="box-title">Create A New Achievement</h3>
@@ -52,9 +52,9 @@
 					</div>
 				</form>
 				
-				<div class="box box-primary box-solid no-margin collapsed-box">
+				<div class="box box-primary box-solid collapsed-box">
 					<div class="box-header">
-						<i class="fa fa-database fa-karma-score"></i>
+						<i class="fa fa-cloud-upload fa-karma-score"></i>
 						<h3 class="box-title" >Upload Achievements in JSON Format</h3>
 						<div class="pull-right box-tools">
 							<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
@@ -85,8 +85,8 @@
 							Once you have uploaded all of this stuff, it will all be viewable and delete-able on this page, in the next section.
 						</p>
 						<p>
-							<select class="form-control" name="bulkAddInstruction">
-								<option value="purge">Delete All Achievements, and Add These</option>
+							<select class="form-control" name="bulkAddInstructions">
+								<option value="purge" selected>Delete All Achievements, and Add These</option>
 								<option value="append">Add these to Existing Achievements</option>
 							</select>
 						</p>
