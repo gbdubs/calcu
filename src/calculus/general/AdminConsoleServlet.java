@@ -9,11 +9,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.appengine.api.users.UserServiceFactory;
-
 import calculus.api.AchievementsAPI;
+import calculus.api.ReportAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Achievement;
+import calculus.models.Report;
+
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class AdminConsoleServlet extends HttpServlet {
@@ -25,6 +27,10 @@ public class AdminConsoleServlet extends HttpServlet {
 		if (UserServiceFactory.getUserService().getCurrentUser() != null){
 			List<Achievement> achievements = AchievementsAPI.getAllAchievements();
 			req.setAttribute("allAchievements", achievements);
+			List<Report> reportedContent = ReportAPI.getAllOpenReports();
+			System.out.println("All Reported Content: " + reportedContent.toString());
+			req.setAttribute("reportedContent", reportedContent);
+			
 			UserContextAPI.addUserContextToRequest(req, "/admin");
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/admin-console.jsp");	

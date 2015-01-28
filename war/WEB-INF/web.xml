@@ -169,6 +169,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/report/*</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>ReportManager</servlet-name>
+		<servlet-class>calculus.general.ReportManagerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReportManager</servlet-name>
+		<url-pattern>/report/manage</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>BookmarkServlet</servlet-name>

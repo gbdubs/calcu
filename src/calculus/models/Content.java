@@ -264,4 +264,16 @@ public class Content {
 			return "fa-line-chart";
 		}
 	}
+
+	public static void setVisible(String uuid) {
+		Key contentKey = KeyFactory.createKey("Content", uuid);
+		Entity entity;
+		try {
+			entity = datastoreService.get(contentKey);
+			entity.setProperty("viewable", true);
+			datastoreService.put(entity);
+		} catch (EntityNotFoundException e) {
+			// Don't worry if it doesn't exist, we need not make it less visible!
+		}
+	}
 }

@@ -96,6 +96,11 @@
 								<input class="menuitem normal-menu-item-input" type="submit" name="irrelevantContent" value="Report Irrelevant Content">
 							</form>
 						</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+							<form action="${practiceProblem.reportUrl}" method="post">
+								<input class="menuitem normal-menu-item-input" type="submit" name="proprietaryContent" value="Report Proprietary Content">
+							</form>
+						</a></li>
 					</ul>
 				</div>
 			</div>

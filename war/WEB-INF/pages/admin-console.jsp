@@ -49,7 +49,7 @@
 				</form>
 				
 				<c:if test="${fn:length(allAchievements) > 0}">
-				<div class="box box-primary">
+				<div class="box box-primary no-margin">
 					<div class="box-header">
 						<i class="fa fa-database fa-karma-score"></i>
 						<h3 class="box-title">Existing Achievements</h3>
@@ -93,7 +93,7 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<form action="/admin/upload-new-content" method="post" class="box box-info">
+				<form action="/admin/upload-new-content" method="post" class="box box-info no-margin">
 					<div class="box-header">
 						<i class="fa fa-cloud-upload fa-karma-score"></i>
 						<h3 class="box-title">Upload New Content in JSON format</h3>
@@ -124,6 +124,77 @@
 						<input type="submit" class="btn-full-width btn-block btn-info" value="Upload New Content"/>
 					</div>
 				</form>
+			</div>
+		</div>
+		
+		<div class="box box-solid">
+			<div class="box-header">
+				<i class="fa fa-ban fa-karma-score"></i>
+				<h3 class="box-title">Reported Content</h3>
+				<div class="pull-right box-tools">
+					<button class="btn btn-danger btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+				</div>
+			</div>
+			<div class="box-body">
+				<div class="box box-danger no-margin">
+					<div class="box-header">
+						<i class="fa fa-crosshairs fa-karma-score"></i>
+						<h3 class="box-title">View and respond to reported content</h3>
+					</div>
+					<div class="box-body">
+						<p>
+							When a report comes in, the content is automatically made invisible to users if the content is
+							"offensive" or "irrelevant" or "Proprietary".  If the complaint has to do with accuracy, it takes
+							two reports to make it automatically invisible.  Shown in the table below is all of the content which
+							has currently been marked as invisible.  It is broken up into each type of content, Practice Problems
+							and Questions (TextContent to be added later).  It is sorted by the date that it was made invisible, with
+							the oldest reports being shown first.  You have three options when given a report:
+						</p>
+						<ul>
+							<li>Delete the Content -- Permanently deletes the reported Content.</li>
+							<li>Delete Report -- Does not delete content, and does not flag the reporter as an abuser</li>
+							<li>Ignore the Report with Consequences -- Does not delete content, but does flag the reporter for abuse of the system </li>
+							<li>
+								Email the Reporter -- Keeps the content hidden, and does not remove it from the current list of problems that have been reported,
+								Rather, opens a MailTo which allows you to email the reporter, likely to discuss liability concerns.
+							</li>
+						</ul>
+						<p>
+							None of these options are reversible, so take care in making them well!
+						</p>
+						<c:if test="${fn:length(reportedContent) > 0}">
+							<table class="table">
+								<tbody>
+									<tr>
+										<th>Report Name</th>
+										<th>Reported On</th>
+										<th>Reporter</th>
+										<th>Report Type</th>
+										<th>Delete Report</th>
+										<th>Delete Content</th>
+										<th>Flag Reporter</th>
+										<th>Email Reporter</th>
+									</tr>
+									<c:forEach items="${reportedContent}" var="report">
+										<tr data-uuid="${report.reportUuid}">
+											<td><a href="${report.contentUrl}">${report.contentTitle}</a></td>
+											<td>${report.reportedOn}</td>
+											<td>${report.reporterUsername}</td>
+											<td>${report.reportType}</td>
+											<td><a class="delete-report-button badge bg-green">Delete Report</a></td>
+											<td><a class="delete-reported-content-button badge bg-red">Delete Content</a></td>
+											<td><a class="flag-reporter-button badge bg-yellow">Flag Reporter</a></td>
+											<td><a class="badge bg-blue" href="mailto:${report.reporterEmail}?Subject=Reported Content On ${report.reportedOn}">Email Reporter</a></td>
+										</tr>
+									</c:forEach>
+								</tbody>
+							</table>
+						</c:if>
+						<c:if test="${fn:length(reportedContent) == 0}">
+							<h3 class="centered">No Reported Content! Celebrate!</h2>
+						</c:if>
+					</div>
+				</div>
 			</div>
 		</div>
 		
