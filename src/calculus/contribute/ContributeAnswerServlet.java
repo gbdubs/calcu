@@ -14,17 +14,16 @@ import calculus.models.Answer;
 @SuppressWarnings("serial")
 public class ContributeAnswerServlet extends HttpServlet {
 
-	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
-			throws ServletException, IOException{
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
+		// Creates and stores a new answer from the request
 		Answer.createAnswerFromRequest(req);
 		
+		// Redirects the user to a thank you page
 		resp.setContentType("text/html");
-		
 		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
-		RequestDispatcher jsp;
-		jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/answer-thanks.jsp");
+		req.setAttribute("readableContentType", "an answer");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/content-thanks.jsp");
 		jsp.forward(req, resp);
-		
 	}	
 }

@@ -21,20 +21,22 @@ import com.google.appengine.api.users.UserServiceFactory;
 @SuppressWarnings("serial")
 public class ContributeDashboardServlet extends HttpServlet{
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
-		if (user == null){
+		// If there is no user, do not display the content dashboard.
+		if (user == null) {
 			UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
-			req.setAttribute("pageName", "Content Creation Dashboard");
 			resp.setContentType("text/html");
+			// Tells the user they should login to access this page
+			req.setAttribute("pageName", "Content Creation Dashboard");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-requires-login.jsp");
 			jsp.forward(req, resp);
 			return;
 		}
 		
+		// Retrieves the Problems and Questions that the user has created
 		List<PracticeProblem> unsubmittedPP = PracticeProblemAPI.getUnsubmittedPracticeProblems(user);
 		List<PracticeProblem> submittedPP = PracticeProblemAPI.getSubmittedPracticeProblems(user);
 		List<Question> unsubmittedQ = QuestionAPI.getUnsubmittedQuestions(user);
@@ -42,7 +44,6 @@ public class ContributeDashboardServlet extends HttpServlet{
 		// List<TextContent> unsubmittedC = TextContentAPI.getUnsubmittedQuestions(user);
 		// List<TextContent> submittedC = TextContentAPI.getSubmittedQuestions(user);
 	
-		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 		req.setAttribute("unsubmittedPracticeProblems", unsubmittedPP);
 		req.setAttribute("submittedPracticeProblems", submittedPP);
 		req.setAttribute("unsubmittedQuestions", unsubmittedQ);
@@ -50,8 +51,8 @@ public class ContributeDashboardServlet extends HttpServlet{
 		// req.setAttribute("unsubmittedContent", unsubmittedC);
 		// req.setAttribute("submittedContent", submittedC);
 		
+		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/dashboard.jsp");
 		jsp.forward(req, resp);
 	}
-	
 }
