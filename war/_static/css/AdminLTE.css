@@ -4042,4 +4042,8 @@ a.btn.btn-warning.live-preview-return-button{
 	display: inline-block;
 	width: 100%;
 }
+
+.btn.btn-sm{
+	padding: 6px 10px 4px 10px;
+}
 }
