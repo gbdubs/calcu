@@ -53,8 +53,10 @@ public class BookmarksAPI {
 					Content c;
 						try {
 							c = new Content(datastore.get(KeyFactory.createKey("Content", b)), contentType);
-							bookmarksToDisplay.add(new MenuItem(c));
-							bookmarkUuids.add(c.getUuid());
+							if (c.getViewable() && c.getSubmitted()){
+								bookmarksToDisplay.add(new MenuItem(c));
+								bookmarkUuids.add(c.getUuid());
+							}
 						} catch (EntityNotFoundException e) {
 							// TODO Skip?
 						}

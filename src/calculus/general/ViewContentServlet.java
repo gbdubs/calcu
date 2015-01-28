@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.UserServiceFactory;
 
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
@@ -52,7 +53,10 @@ public class ViewContentServlet extends HttpServlet {
 			if (pp.getSubmitted() && pp.getViewable()){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-			} else {
+			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
+				PracticeProblemAPI.addPracticeProblemContext(req, pp);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
+			} else {	
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
@@ -61,6 +65,9 @@ public class ViewContentServlet extends HttpServlet {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (q.getSubmitted() && q.getViewable()){
+				QuestionAPI.addQuestionContext(req, q);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
+			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
 				QuestionAPI.addQuestionContext(req, q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else {
