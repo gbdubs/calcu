@@ -28,7 +28,6 @@ public class AdminConsoleServlet extends HttpServlet {
 			List<Achievement> achievements = AchievementsAPI.getAllAchievements();
 			req.setAttribute("allAchievements", achievements);
 			List<Report> reportedContent = ReportAPI.getAllOpenReports();
-			System.out.println("All Reported Content: " + reportedContent.toString());
 			req.setAttribute("reportedContent", reportedContent);
 			
 			UserContextAPI.addUserContextToRequest(req, "/admin");

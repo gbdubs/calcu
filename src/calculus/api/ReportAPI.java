@@ -59,7 +59,6 @@ public class ReportAPI {
 			String reportUuid = (String) result.getProperty("reportUuid");
 			long reportedAt = (long) result.getProperty("reportedAt");
 			String reportReason = (String) result.getProperty("reason");
-			System.out.println("At Least Here " + result.toString());
 			try {
 				Content content = new Content((String) result.getProperty("contentUuid"));
 				Entity userPublicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo((String) result.getProperty("reporterUserId"));
