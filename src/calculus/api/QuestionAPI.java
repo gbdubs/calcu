@@ -7,6 +7,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.Content;
 import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -182,5 +183,43 @@ public class QuestionAPI {
 			}
 		}
 		return null;
+	}
+
+	public static String createNewQuestionFromUpload(String title, String body,
+			String tags, String site) {
+		
+		String uuid = UUID.randomUUID().toString();
+		long time = System.currentTimeMillis();
+		
+		boolean anonymous = true;
+		boolean submitted = true;
+		boolean viewable = true;
+		
+		Text wrappedBody = new Text(body);
+		
+		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
+		
+		entity.setProperty("uuid", uuid);
+		entity.setProperty("contentType", "question");
+		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
+		entity.setProperty("createdAt", time);
+		entity.setProperty("title", title);
+		entity.setProperty("body", wrappedBody);
+		entity.setProperty("anonymous", anonymous);
+		entity.setProperty("submitted", submitted);
+		entity.setProperty("viewable", viewable);
+		entity.setProperty("url", "/question/" + uuid);
+		entity.setProperty("tags", tags);
+		entity.setProperty("requests", 1);
+		
+		datastore.put(entity);
+		
+
+		String[] tagList = tags.split(",");
+		for (String t : tagList){
+			if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
+		}
+		
+		return uuid;
 	}
 }

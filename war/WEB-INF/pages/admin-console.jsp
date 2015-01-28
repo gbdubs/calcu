@@ -49,7 +49,7 @@
 				</form>
 				
 				<c:if test="${fn:length(allAchievements) > 0}">
-				<div class="box box-info">
+				<div class="box box-primary">
 					<div class="box-header">
 						<i class="fa fa-database fa-karma-score"></i>
 						<h3 class="box-title">Existing Achievements</h3>
@@ -87,19 +87,40 @@
 		<div class="box box-solid">
 			<div class="box-header">
 				<i class="fa fa-upload fa-karma-score"></i>
-				<h3 class="box-title">Upload New Content In JSON Format</h3>
+				<h3 class="box-title">Content Creation</h3>
 				<div class="pull-right box-tools">
-					<button class="btn btn-success btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+					<button class="btn btn-info btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
 				<form action="/admin/upload-new-content" method="post" class="box box-info">
 					<div class="box-header">
-						<i class="fa fa-trophy fa-karma-score"></i>
-						<h3 class="box-title">Upload New Content</h3>
+						<i class="fa fa-cloud-upload fa-karma-score"></i>
+						<h3 class="box-title">Upload New Content in JSON format</h3>
 					</div>
 					<div class="box-body">
-						<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
+						<p>
+							Depending on the type of data you are trying to upload, the format of your json must have certain parameters.
+							Every value must be a string.  Sites do not need to be exact URLs, but solutionLinks should be. Titles, Problems,
+							and Solutions should all contain LaTex formatting in place of image tags. The required json properties for each
+							type of input are:
+							<ul>
+								<li>Questions -- 'title', 'problem', 'tags', 'site'</li>
+								<li>Practice Problems -- 'title', 'problem', 'solution'*, 'tags', 'solutionLink', 'site'</li>
+							</ul>
+							 * Note that if a Practice Problem has a solution which is null or "", it will be added like a question.  If any
+							 other fields are missing, the upload will fail as a whole. Verify your JSON!
+						</p>
+						<p>
+							<select class="form-control" name="contentType">
+								<option value="practiceProblem">Practice Problems</option>
+								<option value="question">Questions</option>
+								<option value="textContent">Text Based Content</option>
+							</select>
+						</p>
+						<p>	
+							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
+						</p>
 						<input type="submit" class="btn-full-width btn-block btn-primary" value="Upload New Content"/>
 					</div>
 				</form>
