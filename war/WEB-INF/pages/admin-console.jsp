@@ -121,7 +121,7 @@
 						<p>	
 							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
 						</p>
-						<input type="submit" class="btn-full-width btn-block btn-primary" value="Upload New Content"/>
+						<input type="submit" class="btn-full-width btn-block btn-info" value="Upload New Content"/>
 					</div>
 				</form>
 			</div>

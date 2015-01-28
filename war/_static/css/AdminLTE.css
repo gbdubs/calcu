@@ -3977,6 +3977,22 @@ div.tagsinput div { display:block; float: left; }
 	background: none;
 	border: none;
 	outline: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.box > .box-header > i.fa.buttonless-secondary{
+	background: none;
+	border: none;
+	outline: none;
+	padding: 5px;
+	position: absolute;
+	font-size: 13px;
+	top: 15px;
+	width: 20px;
+	text-align: center;
+	right: 1px;
 }
 
 .bookmarked-button{
