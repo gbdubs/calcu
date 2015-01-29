@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import calculus.api.ContentAPI;
 import calculus.utilities.KarmaDescription;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -68,7 +69,7 @@ public class Content {
 	}
 
 	public Content(String uuid) throws EntityNotFoundException {
-		this(uuid, Content.getContentType(uuid));
+		this(uuid, ContentAPI.getContentType(uuid));
 	}
 
 	public Content(Entity e) {
@@ -175,25 +176,6 @@ public class Content {
 		return df.format(d);
 	}
 	
-	public static String getContentType(String uuid) throws EntityNotFoundException{
-		if (uuid == "" || uuid == null) return null;
-		Key contentKey = KeyFactory.createKey("Content", uuid);
-		Entity entity = datastoreService.get(contentKey);
-		return (String) entity.getProperty("contentType");
-	}
-	
-	public static void setInvisible(String uuid){
-		Key contentKey = KeyFactory.createKey("Content", uuid);
-		Entity entity;
-		try {
-			entity = datastoreService.get(contentKey);
-			entity.setProperty("viewable", false);
-			datastoreService.put(entity);
-		} catch (EntityNotFoundException e) {
-			// Don't worry if it doesn't exist, we need not make it less visible!
-		}
-	}
-	
 	public String getTags(){
 		String s = (String) entity.getProperty("tags");
 		if (s == null) return "";
@@ -229,51 +211,11 @@ public class Content {
 	
 	public String getBoxColor(){
 		String contentType = (String) entity.getProperty("contentType");
-		return getBoxColor(contentType);
-	}
-	
-	public static String getBoxColor(String contentType){
-		if (contentType.equals("question")){
-			return "primary";
-		} else if (contentType.equals("answer")){
-			return "danger";
-		} else if (contentType.equals("textContent")){
-			return "warning";
-		} else if (contentType.equals("practiceProblem")){
-			return "success";
-		} else {
-			return "default";
-		}
+		return ContentAPI.getBoxColor(contentType);
 	}
 	
 	public String getBoxIcon(){
 		String contentType = (String) entity.getProperty("contentType");
-		return getBoxIcon(contentType);
-	}
-	
-	public static String getBoxIcon(String contentType){
-		if (contentType.equals("question")){
-			return "fa-question";
-		} else if (contentType.equals("answer")){
-			return "fa-lightbulb-o";
-		} else if (contentType.equals("textContent")){
-			return "fa-cubes";
-		} else if (contentType.equals("practiceProblem")){
-			return "fa-pencil";
-		} else {
-			return "fa-line-chart";
-		}
-	}
-
-	public static void setVisible(String uuid) {
-		Key contentKey = KeyFactory.createKey("Content", uuid);
-		Entity entity;
-		try {
-			entity = datastoreService.get(contentKey);
-			entity.setProperty("viewable", true);
-			datastoreService.put(entity);
-		} catch (EntityNotFoundException e) {
-			// Don't worry if it doesn't exist, we need not make it less visible!
-		}
+		return ContentAPI.getBoxIcon(contentType);
 	}
 }

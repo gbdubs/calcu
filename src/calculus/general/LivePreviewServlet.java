@@ -8,10 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
-import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
@@ -39,7 +39,7 @@ public class LivePreviewServlet extends HttpServlet{
 			
 		String contentType;
 		try {
-			contentType = Content.getContentType(uuid);
+			contentType = ContentAPI.getContentType(uuid);
 		} catch (EntityNotFoundException e) {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");

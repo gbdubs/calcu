@@ -35,11 +35,6 @@ public class UserContextAPI {
 		addUserRecommendationsToRequest(req, user);
 	}
 	
-	public static void addProfileContextToRequest(HttpServletRequest req){
-		User user = userService.getCurrentUser();
-		addUserProfileInformationToRequest(req, user);
-	}
-	
 	private static void addUserPublicInfoToRequest(HttpServletRequest req, User user){
 		
 		String username = "Anonymous Elephant";
@@ -101,7 +96,20 @@ public class UserContextAPI {
 		req.setAttribute("recommendationsMenu", recommendations);
 	}
 
-	private static void addUserProfileInformationToRequest(HttpServletRequest req, User user){
+	public static void addPublicProfileInformationToRequest(HttpServletRequest req, String userId){
+		Entity publicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo(userId);
+		
+		req.setAttribute("profileUsername", (String) publicInfo.getProperty("username"));
+		req.setAttribute("profileKarma", (String) publicInfo.getProperty("karma"));
+		req.setAttribute("profileProfilePictureUrl", (String) publicInfo.getProperty("profilePictureUrl"));
+		
+		
+		
+	}
+
+	public static void addPersonalProfileContextToRequest(HttpServletRequest req) {
+		User user = userService.getCurrentUser();
+		
 		Entity privateInfo = UserPrivateInfoAPI.getOrCreateUserPrivateInfo(user);
 		
 		req.setAttribute("emailReply", (String) privateInfo.getProperty("emailReply"));

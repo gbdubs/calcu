@@ -23,7 +23,7 @@ public class ReportAPI {
 	
 	public static void fileReport(User user, String contentUuid, String reason){
 		
-		Content.setInvisible(contentUuid);
+		ContentAPI.setInvisible(contentUuid);
 		
 		long time = System.currentTimeMillis();
 		String uuid = UUID.randomUUID().toString();
@@ -44,7 +44,7 @@ public class ReportAPI {
 		try {
 			Entity report = datastore.get(reportKey);
 			String contentUuid = (String) report.getProperty("contentUuid");
-			Content.setVisible(contentUuid);
+			ContentAPI.setVisible(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If it doesn't exist, we don't need to set it visible.
 		}

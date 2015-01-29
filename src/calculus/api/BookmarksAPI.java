@@ -45,7 +45,7 @@ public class BookmarksAPI {
 				for(String  b : bookmarks){
 					String contentType = "";
 					try {
-						contentType = Content.getContentType(b);
+						contentType = ContentAPI.getContentType(b);
 					} catch (EntityNotFoundException e1) {
 						// TODO: Skip?
 					}

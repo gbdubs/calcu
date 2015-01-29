@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.UserServiceFactory;
 
+import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
-import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
@@ -38,7 +38,7 @@ public class ViewContentServlet extends HttpServlet {
 			
 		String contentType;
 		try {
-			contentType = Content.getContentType(uuid);
+			contentType = ContentAPI.getContentType(uuid);
 		} catch (EntityNotFoundException e) {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
