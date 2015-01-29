@@ -38,18 +38,32 @@
 					</form>
 				</div>
 				<div class="box-body">
+					<p>
 					You are currently in Problem Solving Turbo Mode. That name isn't real, but here is the deal!
 					We will present you with problems we think that you would be the perfect person to solve.
 					For most of them, the author's solution hasn't been satisfactory to most viewers.
 					If you can solve the problem, please do! You will get a tidy karma bonus for answering the problems we select for you. After you solve the problem, hit the 'Done' button.
 					If you don't think that you can answer the question well, or if you think that the answers are already good enough, press the 'Skip' button. Pressing 'Skip' will not change your Answer Streak.
 					At any time, you can navigate away from this page, but know that your Answer Streak will be broken! Good Luck, and thank you for your contribution to our project!
+					</p>
+					<c:if test="${practiceProblem == null}">
+						<div class="box box-solid bg-yellow-gradient no-margin">
+							<div class="box-header">
+								<h3 class="box-title">You have answered (or authored) all available Practice Problems! Go outside! Take a break! Wait for your medal! </h3>
+							</div>
+						</div>
+					</c:if>
 				</div>
 			</div>
 		</c:if>
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
-				<h3 class="box-title">Practice Problem <small>by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> on ${practiceProblem.shortReadableTime}</small></h3>
+				<c:if test="${! practiceProblem.anonymous}">
+					<h3 class="box-title">Practice Problem <small>by <a href="${practiceProblem.author.profileUrl}">${practiceProblem.author.username}</a> on ${practiceProblem.shortReadableTime}</small></h3>
+				</c:if>
+				<c:if test="${practiceProblem.anonymous}">
+					<h3 class="box-title">Practice Problem <small>submitted on ${practiceProblem.shortReadableTime}</small></h3>
+				</c:if>
 				<div class="dropdown pull-right report-menu primary-report-menu">
 					<a class="dropdown-toggle btn btn-default" data-toggle="dropdown" href="#">
 						Actions <span class="caret"></span>

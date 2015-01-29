@@ -38,17 +38,31 @@
 					</form>
 				</div>
 				<div class="box-body">
-					You are currently in Question Answering Turbo Mode. That name isn't real, but here is the deal!
-					We will present you with questions we think that you would be the perfect person to solve.
-					If you can solve the problem, please do! You will get a tidy little karma bonus for answering the problems we select for you. After you answer the question, hit the 'Done' button. Pressing 'Done' if you have not answered the question will reset your Answer Streak.
-					If you don't think that you can answer the question well, or if you think that the answers are already good enough, press the 'Skip' button. Pressing 'Skip' will not ruin your Answer Streak.
-					At any time, you can navigate away from this page, but know that your Answer Streak will be broken! Good Luck, and thank you for your contribution to our project!
+					<p>
+						You are currently in Question Answering Turbo Mode. That name isn't real, but here is the deal!
+						We will present you with questions we think that you would be the perfect person to solve.
+						If you can solve the problem, please do! You will get a tidy little karma bonus for answering the problems we select for you. After you answer the question, hit the 'Done' button. Pressing 'Done' if you have not answered the question will reset your Answer Streak.
+						If you don't think that you can answer the question well, or if you think that the answers are already good enough, press the 'Skip' button. Pressing 'Skip' will not ruin your Answer Streak.
+						At any time, you can navigate away from this page, but know that your Answer Streak will be broken! Good Luck, and thank you for your contribution to our project!
+					</p>
+					<c:if test="${practiceProblem == null}">
+						<div class="box box-solid bg-yellow-gradient no-margin">
+							<div class="box-header">
+								<h3 class="box-title">You have answered (or authored) all available Practice Problems! Go outside! Take a break! Wait for your medal! </h3>
+							</div>
+						</div>
+					</c:if>
 				</div>
 			</div>
 		</c:if>
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
-				<h3 class="box-title">Question <small>by <a href="${question.author.profileUrl}">${question.author.username}</a> on ${question.shortReadableTime}</small></h3>
+				<c:if test="${!q uestion.anonymous}">
+					<h3 class="box-title">Question <small>by <a href="${question.author.profileUrl}">${question.author.username}</a> on ${question.shortReadableTime}</small></h3>
+				</c:if>
+				<c:if test="${question.anonymous}">
+					<h3 class="box-title">Question <small>by submitted on ${question.shortReadableTime}</small></h3>
+				</c:if>
 				<div class="dropdown pull-right report-menu primary-report-menu">
 					<a class="dropdown-toggle btn btn-default" data-toggle="dropdown" href="#">
 						Actions <span class="caret"></span>
