@@ -8,10 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.appengine.api.users.UserServiceFactory;
-
 import calculus.api.UserContextAPI;
-import calculus.api.UserVerificationAPI;
+
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class ProfileServlet extends HttpServlet{
@@ -23,9 +23,16 @@ public class ProfileServlet extends HttpServlet{
 		String profileRequested = req.getRequestURI();
 		profileRequested = profileRequested.substring(profileRequested.indexOf("/user/") + 6);
 		
-		String viewerId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
-		boolean sameUser = profileRequested.equals(viewerId);
 		
+		boolean sameUser;
+		User viewer = UserServiceFactory.getUserService().getCurrentUser();
+		if (viewer == null){
+			sameUser = false;
+		} else {
+			sameUser = profileRequested.equals(viewer.getUserId());
+		}
+		
+	
 		if (sameUser){
 			UserContextAPI.addPersonalProfileContextToRequest(req);
 			resp.setContentType("text/html");

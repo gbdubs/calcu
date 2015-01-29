@@ -100,7 +100,9 @@ public class UserContextAPI {
 		Entity publicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo(userId);
 		
 		req.setAttribute("profileUsername", (String) publicInfo.getProperty("username"));
-		req.setAttribute("profileKarma", (String) publicInfo.getProperty("karma"));
+		req.setAttribute("profileKarma", KarmaDescription.toLongString(
+				((Long) publicInfo.getProperty("karma")).intValue()
+				));
 		req.setAttribute("profileProfilePictureUrl", (String) publicInfo.getProperty("profilePictureUrl"));
 		
 		
