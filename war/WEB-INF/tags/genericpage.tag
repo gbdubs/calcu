@@ -14,7 +14,7 @@
 	</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- bootstrap wysihtml5 - text editor -->
     <link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
     <!-- Theme style -->
@@ -124,6 +124,12 @@
                     <a href="/explore">
                         <i class="fa fa-fw fa-binoculars"></i>
                         <span>Explore</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/personalize">
+                        <i class="fa fa-fw fa-street-view"></i>
+                        <span>Personalize</span>
                     </a>
                 </li>
                 <li class="treeview">
