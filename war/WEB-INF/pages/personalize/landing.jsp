@@ -35,7 +35,7 @@
 				<ul>
 					<li>Difficulty Calibration -- We ask you how difficult a certain question is for you. Note you don't have to solve it, but are welcome to.</li>
 					<li>Interest Selection -- We will present you with 25 different topics in Calculus, and you tell us which you are interested in.</li>
-					<li>Abstract Reasoning Calibration -- We present you with two different pieces of Content, you tell us which one makes more sense to you.</li>
+					<li>Reasoning Calibration -- We present you with two different pieces of Content, you tell us which one makes more sense to you.</li>
 				</ul>
 				<p>
 					We encourage you to keep using this tool until you feel that the resources you are getting directed to

@@ -18,6 +18,7 @@
 				<p>
 					Select all of the things which interest you (Grey with Black Text), and
 					deselect all of the things you are no longer interested in (Green with White Text).
+				</p>
 				<div class="row">
 					<c:forEach items="${interests}" var="interest">
 						<div class="interest-button-wrapper col-xs-6 col-sm-4 col-md-3 col-lg-2">
