@@ -3,6 +3,9 @@ package calculus.api;
 import java.util.HashMap;
 import java.util.Map;
 
+import calculus.models.PracticeProblem;
+import calculus.models.Question;
+
 public class RecommendationsAPI {
 
 	public static boolean[] temp = new boolean[24];
@@ -28,4 +31,15 @@ public class RecommendationsAPI {
 		temp[i] = false;
 	}
 
+	public static PracticeProblem getDifficultyCalibrationPracticeProblem(String userId) {
+		return PracticeProblemAPI.getAnswerablePracticeProblem(userId);
+	}
+	
+	public static Question getDifficultyCalibrationQuestion(String userId) {
+		return QuestionAPI.getAnswerableQuestion(userId);
+	}
+
+	public static void addDifficultyInformation(String userId, String contentUuid, String difficulty) {
+		System.out.println("Content ["+contentUuid+"] was rated ["+difficulty+"] by ["+userId+"].");
+	}
 }

@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.BookmarksAPI;
 import calculus.api.RecommendationsAPI;
 import calculus.api.UserContextAPI;
+import calculus.models.PracticeProblem;
+import calculus.models.Question;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -22,11 +24,11 @@ public class PersonalizeServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		UserContextAPI.addUserContextToRequest(req, "/personalize");
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		String uri = req.getRequestURI();
 		
 		if (uri.equals("/personalize/landing") || user == null){
+			UserContextAPI.addUserContextToRequest(req, "/personalize/landing");
 			req.setAttribute("loggedIn", user != null);
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/landing.jsp");	
@@ -41,17 +43,32 @@ public class PersonalizeServlet extends HttpServlet {
 			return;
 		}
 		
+		UserContextAPI.addUserContextToRequest(req, "/personalize");
 		req.setAttribute("stepNumber", stepNumber);
-		
-		if (stepNumber % 4 == 1){
+		resp.setContentType("text/html");
+		if (stepNumber % 4 == 1) {
+			// Interest Recognition
 			Map<String, Boolean> interests = RecommendationsAPI.getUserInterestPossibilities(user.getUserId());
 			req.setAttribute("interests", interests);
-			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/interests.jsp");	
 			jsp.forward(req, resp);
 			return;
-		} else if (stepNumber % 3 == 0){
-			
+		} else if (stepNumber % 3 == 0 && stepNumber % 2 == 0) {
+			// Difficulty Calibration Practice Problem
+			PracticeProblem pp = RecommendationsAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
+			req.setAttribute("difficultyCalibration", true);
+			req.setAttribute("practiceProblem", pp);
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");	
+			jsp.forward(req, resp);
+			return;
+		} else if (stepNumber % 3 == 0 && stepNumber % 2 == 1) {
+			// Difficulty Calibration Question
+			Question q = RecommendationsAPI.getDifficultyCalibrationQuestion(user.getUserId());
+			req.setAttribute("difficultyCalibration", true);
+			req.setAttribute("question", q);
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	
+			jsp.forward(req, resp);
+			return;
 		} else {
 			
 		}
@@ -74,6 +91,12 @@ public class PersonalizeServlet extends HttpServlet {
 			} else if (action.equals("remove")){
 				RecommendationsAPI.removeInterest(interest, userId);
 			}
+		} else if (url.contains("/personalize/difficulty")){
+			String userId = req.getParameter("userId");
+			String contentUuid = req.getParameter("contentUuid");
+			String difficulty = req.getParameter("difficulty");
+			
+			RecommendationsAPI.addDifficultyInformation(userId, contentUuid, difficulty);
 		}
 	}
 	
