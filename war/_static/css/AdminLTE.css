@@ -4052,4 +4052,8 @@ a.btn.btn-warning.live-preview-return-button{
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+.overflower{
+	overflow: auto;
+}
 }

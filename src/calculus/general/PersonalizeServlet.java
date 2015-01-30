@@ -41,6 +41,8 @@ public class PersonalizeServlet extends HttpServlet {
 			return;
 		}
 		
+		req.setAttribute("stepNumber", stepNumber);
+		
 		if (stepNumber % 4 == 1){
 			Map<String, Boolean> interests = RecommendationsAPI.getUserInterestPossibilities(user.getUserId());
 			req.setAttribute("interests", interests);

@@ -12,7 +12,7 @@
 		<div class="box box-success box-solid">
 			<div class="box-header">
 				<i class="fa fa-refresh"></i>
-				<h3 class="box-title">Interest Personalization</h3>
+				<h3 class="box-title">Interest Personalization: Step (${stepNumber}/15)</h3>
 			</div>
 			<div class="box-body">
 				<p>
@@ -39,6 +39,14 @@
 							</button>
 						</div>
 					</c:forEach>
+				</div>
+				<div class="overflower">
+					<div class="pull-right">
+						<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
+							Next Step
+							<i class="fa fa-arrow-circle-right fa-fw"></i>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
