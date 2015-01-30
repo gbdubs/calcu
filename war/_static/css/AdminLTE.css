@@ -4046,4 +4046,10 @@ a.btn.btn-warning.live-preview-return-button{
 .btn.btn-sm{
 	padding: 6px 10px 4px 10px;
 }
+
+.interest-button-wrapper{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
 }
