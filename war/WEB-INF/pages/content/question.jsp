@@ -57,7 +57,7 @@
 		</c:if>
 		<div class="box box-solid practice-problem">
 			<div class="box-header">
-				<c:if test="${!q uestion.anonymous}">
+				<c:if test="${!question.anonymous}">
 					<h3 class="box-title">Question <small>by <a href="${question.author.profileUrl}">${question.author.username}</a> on ${question.shortReadableTime}</small></h3>
 				</c:if>
 				<c:if test="${question.anonymous}">
