@@ -53,7 +53,7 @@ public class PersonalizeServlet extends HttpServlet {
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/interests.jsp");	
 			jsp.forward(req, resp);
 			return;
-		} else if (stepNumber % 3 == 0 && stepNumber % 2 == 0) {
+		} else if (stepNumber % 3 == 0 && stepNumber != 12) {
 			// Difficulty Calibration Practice Problem
 			PracticeProblem pp = RecommendationsAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
@@ -61,7 +61,7 @@ public class PersonalizeServlet extends HttpServlet {
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");	
 			jsp.forward(req, resp);
 			return;
-		} else if (stepNumber % 3 == 0 && stepNumber % 2 == 1) {
+		} else if (stepNumber == 12) {
 			// Difficulty Calibration Question
 			Question q = RecommendationsAPI.getDifficultyCalibrationQuestion(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);

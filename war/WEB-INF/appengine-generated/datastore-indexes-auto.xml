@@ -1,4 +1,4 @@
-<!-- Indices written at Fri, 30 Jan 2015 11:07:07 EST -->
+<!-- Indices written at Fri, 30 Jan 2015 11:12:16 EST -->
 
 <datastore-indexes>
 
@@ -17,8 +17,7 @@
         <property name="parentUuid" direction="asc"/>
         <property name="submitted" direction="asc"/>
         <property name="viewable" direction="asc"/>
-        <property name="approved" direction="desc"/>
-        <property name="karma" direction="asc"/>
+        <property name="createdAt" direction="asc"/>
     </datastore-index>
 
 </datastore-indexes>
