@@ -10,8 +10,8 @@
 	<jsp:attribute name="content">
 		<div class="row">
 			<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-				<div class="box box-solid bg-blue-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-aqua">
 						<i class="fa fa-fire fa-karma-score"></i>
 						<h3 class="box-title">Hot Off The Presses</h3>
 					</div>	
@@ -31,12 +31,12 @@
 							</c:forEach>
 					
 								<div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
-									<div class="box box-${content.boxColor} no-overflow">
+									<div class="box box-${content.boxColor} box-solid no-overflow">
 										<div class="box-header">
 											<span class="buttonless-secondary">
 												<i class="fa fa-fw ${content.boxIcon}"></i>
 											</span>
-											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
+											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
@@ -64,8 +64,8 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">			
-				<div class="box box-solid bg-yellow-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-blue">
 						<i class="fa fa-trophy fa-karma-score"></i>
 						<h3 class="box-title">Only the Best</h3>
 					</div>	
@@ -85,12 +85,12 @@
 							</c:forEach>
 						
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="box box-${content.boxColor} no-overflow">
+									<div class="box box-${content.boxColor} box-solid no-overflow">
 										<div class="box-header">
 											<span class="buttonless-secondary">
 												<i class="fa fa-fw ${content.boxIcon}"></i>
 											</span>
-											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
+											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
@@ -118,8 +118,8 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">	
-				<div class="box box-solid bg-green-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-teal">
 						<i class="fa fa-globe fa-karma-score"></i>
 						<h3 class="box-title">Random Content</h3>
 					</div>	
@@ -139,12 +139,12 @@
 							</c:forEach>
 							
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="box box-${content.boxColor} no-overflow">
+									<div class="box box-${content.boxColor} box-solid no-overflow">
 										<div class="box-header">
 											<span class="buttonless-secondary">
 												<i class="fa fa-fw ${content.boxIcon}"></i>
 											</span>
-											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
+											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
@@ -173,8 +173,8 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-				<div class="box box-solid bg-purple-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-light-blue">
 						<i class="fa fa-tasks fa-karma-score"></i>
 						<h3 class="box-title">Suggested For You</h3>
 					</div>	
@@ -196,12 +196,12 @@
 					
 					
 								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-									<div class="box box-${content.boxColor} no-overflow">
+									<div class="box box-${content.boxColor} box-solid no-overflow">
 										<div class="box-header">
 											<span class="buttonless-secondary">
 												<i class="fa fa-fw ${content.boxIcon}"></i>
 											</span>
-											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
+											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
 													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">

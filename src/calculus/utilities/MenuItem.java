@@ -1,5 +1,6 @@
 package calculus.utilities;
 
+import calculus.api.ContentAPI;
 import calculus.models.Content;
 
 public class MenuItem {
@@ -37,16 +38,9 @@ public class MenuItem {
 		
 		String contentType = c.getContentType();
 		
-		if (contentType.equals("practiceProblem")){
-			this.icon = "fa-pencil";
-			this.color = "success";
-		} else if (contentType.equals("question")){
-			this.icon = "fa-question";
-			this.color = "info";
-		} else {
-			this.icon = "fa-lightbulb-o";
-			this.color = "warning";
-		}
+		this.icon = ContentAPI.getBoxIcon(contentType);
+		this.color = ContentAPI.getBoxColor(contentType);
+		
 		this.image = "avatar2.png";
 	}
 

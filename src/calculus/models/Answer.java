@@ -72,7 +72,7 @@ public class Answer extends Content {
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("approved", false);
-		entity.setProperty("url", "/answer/" + uuid);
+		entity.setProperty("url", "/content/"+parentUuid);
 		
 		datastore.put(entity);
 		
