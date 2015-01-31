@@ -36,6 +36,7 @@ public class SearchByTagServlet extends HttpServlet {
 		
 		List<Content> practiceProblems = new ArrayList<Content>();
 		List<Content> questions = new ArrayList<Content>();
+		List<Content> textContent = new ArrayList<Content>();
 		
 		if(!tagString.trim().equals("") && tagString != null){
 			String[] tags = tagString.trim().split(",");
@@ -50,6 +51,8 @@ public class SearchByTagServlet extends HttpServlet {
 						practiceProblems.add(c);
 					} else if (contentType.equals("question")){
 						questions.add(c);
+					} else if (contentType.equals("textContent")){
+						textContent.add(c);
 					}
 				} catch (EntityNotFoundException e) {
 					// Don't add to the list if it doesn't exist. Basic stuff, guys.
@@ -59,6 +62,7 @@ public class SearchByTagServlet extends HttpServlet {
 		req.setAttribute("tags", tagString);
 		req.setAttribute("resultPracticeProblems", practiceProblems);
 		req.setAttribute("resultQuestions", questions);
+		req.setAttribute("resultTextContent", textContent);
 		
 		if (practiceProblems.size() == 0){
 			req.setAttribute("practiceProblemsNotFound", true);
@@ -70,6 +74,12 @@ public class SearchByTagServlet extends HttpServlet {
 			req.setAttribute("questionsNotFound", true);
 		} else {
 			req.setAttribute("questionsNotFound", false);
+		}
+		
+		if (textContent.size() == 0){
+			req.setAttribute("textContentNotFound", true);
+		} else {
+			req.setAttribute("textContentNotFound", false);
 		}
 		
 		UserContextAPI.addUserContextToRequest(req, "/search");

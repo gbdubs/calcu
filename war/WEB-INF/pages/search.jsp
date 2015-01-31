@@ -162,6 +162,66 @@
 			</div>
 		</c:if>
 		
+		<c:if test="${fn:length(resultTextContent) > 0}">
+			<div class="box box-warning">
+				<div class="box-header">
+					<i class="fa fa-newspaper-o fa-karma-score"></i>
+					<h3 class="box-title">${fn:length(resultTextContent)} Matching Explanations</h3>
+					<div class="box-tools pull-right">
+						<button class="btn btn-warning btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					</div>
+				</div>
+				<div class="box-body">
+					<c:set var="numPages" value="${1}"/>
+					<div class="search-result-page" id="pp-result-page-1">
+					<c:forEach items="${resultTextContent}" var="textContent" varStatus="loop">
+						
+						<c:if test="${loop.index % 5 == 0 && loop.index > 0}">
+							</div>
+							<c:set var="numPages" value="${numPages + 1}"/>
+							<div class="search-result-page hidden" id="tc-result-page-${numPages}">
+						</c:if>
+						
+						<c:set var="bookmarked" value="false" />
+						<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+						  <c:if test="${bookmarkUuid eq textContent.uuid}">
+							<c:set var="bookmarked" value="true" />
+						  </c:if>
+						</c:forEach>
+
+						<div class="alert alert-dismissable alert-warning">
+						
+							<i class="fa">${textContent.karma}</i>
+							
+							<c:choose>
+								<c:when test="${bookmarked}">
+									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${textContent.uuid}">
+										<i class="fa fa-bookmark"></i>
+									</button>
+								</c:when>
+								<c:otherwise>
+									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${textContent.uuid}">
+										<i class="fa fa-bookmark"></i>
+									</button>
+								</c:otherwise>
+							</c:choose>
+							
+							<a href="${textContent.url}"><b>${textContent.title}</b></a>
+							${textContent.abbreviatedBody}
+						</div>
+					</c:forEach>
+					</div>
+					<c:if test="${numPages > 1}">
+						<div class="btn-group no-margin">
+							<c:forEach begin="1" end="${numPages}" var="i">
+								<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
+							</c:forEach>
+						</div>
+					</c:if>
+				</div>
+			</div>
+		</c:if>
+		
 		<c:if test="${questionsNotFound}">
 			<div class="box box-primary">
 				<div class="box-header">
@@ -180,7 +240,16 @@
 			</div>
 		</c:if>
 		
-		<c:if test="${practiceProblemsNotFound || questionsNotFound}">
+		<c:if test="${textContentNotFound}">
+			<div class="box box-warning">
+				<div class="box-header">
+					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">No Matching Explanations <small> Try adding more tags, to broaden your search results </small></h3>
+				</div>
+			</div>
+		</c:if>
+		
+		<c:if test="${practiceProblemsNotFound || questionsNotFound || textContentNotFound}">
 			<div class="box box-default">
 				<div class="box-header">
 					<i class="fa fa-question fa-karma-score hidden-xs"></i>
