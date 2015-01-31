@@ -22,7 +22,6 @@ import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Query.SortDirection;
 import com.google.appengine.api.datastore.Text;
-import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class PracticeProblemAPI {
@@ -54,9 +53,9 @@ public class PracticeProblemAPI {
 		req.setAttribute("practiceProblem", practiceProblem);
 	}
 	
-	public static List<PracticeProblem> getUnsubmittedPracticeProblems(User user){
+	public static List<PracticeProblem> getUnsubmittedPracticeProblems(String userId){
 		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
 		Filter compositeFilter = CompositeFilterOperator.and(userFilter, practiceProblemFilter, unsubmittedFilter);
 		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(query);
@@ -67,9 +66,9 @@ public class PracticeProblemAPI {
 		return list;
 	}
 	
-	public static List<PracticeProblem> getSubmittedPracticeProblems(User user){
+	public static List<PracticeProblem> getSubmittedPracticeProblems(String userId){
 		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
 		Filter compositeFilter = CompositeFilterOperator.and(userFilter, practiceProblemFilter, viewableFilter, submittedFilter, notAnonymousFilter);
 		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(query);

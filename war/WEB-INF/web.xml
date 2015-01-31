@@ -133,13 +133,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>ContributePracticeProblem</servlet-name>
 		<url-pattern>/contribute/practice-problem/*</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ContributeTextContent</servlet-name>
+		<servlet-class>calculus.contribute.ContributeTextContentServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
-		<servlet-name>ContributePracticeProblem</servlet-name>
-		<url-pattern>/contribute/practice-problem/submit</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>ContributePracticeProblem</servlet-name>
-		<url-pattern>/contribute/practice-problem/save</url-pattern>
+		<servlet-name>ContributeTextContent</servlet-name>
+		<url-pattern>/contribute/text-content/*</url-pattern>
 	</servlet-mapping>
 	
 	
@@ -226,7 +227,10 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>ViewContent</servlet-name>
 		<url-pattern>/content/*</url-pattern>
 	</servlet-mapping>
-	
+	<servlet-mapping>
+		<servlet-name>ViewContent</servlet-name>
+		<url-pattern>/text-content/*</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>AdminConsole</servlet-name>

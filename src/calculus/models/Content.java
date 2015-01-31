@@ -25,7 +25,7 @@ public class Content {
 	
 	static {
 		String[] fields = {"contentType", "uuid", "creatorUserId", "createdAt", "title", "body", "anonymous", "submitted", "viewable", "url", "karma", "tags"};
-		String[] contentTypes = {"practiceProblem", "question", "answer"};
+		String[] contentTypes = {"practiceProblem", "question", "answer", "textContent"};
 		for (String s : fields) {FIELDS.add(s);}
 		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
 	}

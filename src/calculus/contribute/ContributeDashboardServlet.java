@@ -11,9 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
+import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
+import calculus.models.TextContent;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -36,20 +38,22 @@ public class ContributeDashboardServlet extends HttpServlet{
 			return;
 		}
 		
+		String userId = user.getUserId();
+		
 		// Retrieves the Problems and Questions that the user has created
-		List<PracticeProblem> unsubmittedPP = PracticeProblemAPI.getUnsubmittedPracticeProblems(user);
-		List<PracticeProblem> submittedPP = PracticeProblemAPI.getSubmittedPracticeProblems(user);
-		List<Question> unsubmittedQ = QuestionAPI.getUnsubmittedQuestions(user);
-		List<Question> submittedQ = QuestionAPI.getSubmittedQuestions(user);
-		// List<TextContent> unsubmittedC = TextContentAPI.getUnsubmittedQuestions(user);
-		// List<TextContent> submittedC = TextContentAPI.getSubmittedQuestions(user);
+		List<PracticeProblem> unsubmittedPP = PracticeProblemAPI.getUnsubmittedPracticeProblems(userId);
+		List<PracticeProblem> submittedPP = PracticeProblemAPI.getSubmittedPracticeProblems(userId);
+		List<Question> unsubmittedQ = QuestionAPI.getUnsubmittedQuestions(userId);
+		List<Question> submittedQ = QuestionAPI.getSubmittedQuestions(userId);
+		List<TextContent> unsubmittedTC = TextContentAPI.getUnsubmittedTextContent(userId);
+		List<TextContent> submittedTC = TextContentAPI.getSubmittedTextContent(userId);
 	
 		req.setAttribute("unsubmittedPracticeProblems", unsubmittedPP);
 		req.setAttribute("submittedPracticeProblems", submittedPP);
 		req.setAttribute("unsubmittedQuestions", unsubmittedQ);
 		req.setAttribute("submittedQuestions", submittedQ);
-		// req.setAttribute("unsubmittedContent", unsubmittedC);
-		// req.setAttribute("submittedContent", submittedC);
+		req.setAttribute("unsubmittedContent", unsubmittedTC);
+		req.setAttribute("submittedContent", submittedTC);
 		
 		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/dashboard.jsp");

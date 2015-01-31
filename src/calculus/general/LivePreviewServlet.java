@@ -11,9 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
+import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
+import calculus.models.TextContent;
 import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;
@@ -21,8 +23,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class LivePreviewServlet extends HttpServlet{
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
 		
@@ -65,6 +66,16 @@ public class LivePreviewServlet extends HttpServlet{
 				QuestionAPI.addQuestionContext(req, q);
 				req.setAttribute("livePreview", true);
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	
+				jsp.forward(req, resp);
+				return;
+			}
+		} else if (contentType.equals("textContent")) {
+			TextContent tc = new TextContent(uuid);
+			if (tc.getCreatorUserId().equals(userId) && !tc.getSubmitted()){
+				resp.setContentType("text/html");
+				TextContentAPI.addTextContentContext(req, tc);
+				req.setAttribute("livePreview", true);
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");	
 				jsp.forward(req, resp);
 				return;
 			}

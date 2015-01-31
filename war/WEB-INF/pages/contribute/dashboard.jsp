@@ -27,7 +27,7 @@
 				</a>
 			</div>				
 			<div class="col-sm-4 col-xs-12">
-				<a href="/contribute/content/new">
+				<a href="/contribute/text-content/new">
 					<button class="btn btn-block btn-warning">
 						<i class="fa fa-plus"></i>
 						New Text Content
@@ -211,7 +211,7 @@
 						<c:forEach items="${unsubmittedContent}" var="content" varStatus="loop">
 							<tr>
 								<td class="hidden-xs">${loop.index + 1}.</td>
-								<td><a href="${content.editUrl}"> ${practiceProblem.title}</a></td>
+								<td><a href="${content.editUrl}"> ${content.title}</a></td>
 								<td><a class="badge bg-yellow" href="${content.editUrl}">Edit</a></td>
 								<td><a class="badge bg-orange" href="${content.previewUrl}">Preview</a></td>
 								<td>${content.readableTime}</td>
@@ -243,7 +243,7 @@
 						<c:forEach items="${submittedContent}" var="content" varStatus="loop">
 							<tr>
 								<td class="hidden-xs">${loop.index + 1}.</td>
-								<td><a href="${practiceProblem.url}"> ${content.title} </a></td>
+								<td><a href="${content.url}"> ${content.title} </a></td>
 								<td><span class="badge bg-orange">${content.karma} Karma</span></td>
 								<td>${content.readableTime}</td>
 							</tr>

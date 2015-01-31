@@ -8,16 +8,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.appengine.api.datastore.EntityNotFoundException;
-import com.google.appengine.api.users.UserServiceFactory;
-
 import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
+import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
+import calculus.models.TextContent;
 import calculus.utilities.UuidTools;
+
+import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class ViewContentServlet extends HttpServlet {
@@ -41,12 +43,13 @@ public class ViewContentServlet extends HttpServlet {
 			contentType = ContentAPI.getContentType(uuid);
 		} catch (EntityNotFoundException e) {
 			resp.setContentType("text/html");
+			System.out.println("HERE1");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			jsp.forward(req, resp);
 			return;
 		}
 		
-		if (contentType.equals("practiceProblem")){
+		if (contentType.equals("practiceProblem")) {
 			PracticeProblem pp = new PracticeProblem(uuid);
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
@@ -60,7 +63,7 @@ public class ViewContentServlet extends HttpServlet {
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
-		} else if (contentType.equals("question")){
+		} else if (contentType.equals("question")) {
 			Question q = new Question(uuid);
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
@@ -74,8 +77,27 @@ public class ViewContentServlet extends HttpServlet {
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
+		} else if (contentType.equals("textContent")) {
+			TextContent tc = new TextContent(uuid);
+			resp.setContentType("text/html");
+			RequestDispatcher jsp;
+			if (tc.getSubmitted() && tc.getViewable()){
+				TextContentAPI.addTextContentContext(req, tc);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
+			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
+				TextContentAPI.addTextContentContext(req, tc);
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
+			} else {
+				System.out.println("HERE2");
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+			}
+			jsp.forward(req, resp);
 		} else {	
 			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
 		}
+	}
+	
+	public static void performRender(HttpServletRequest req, HttpServletResponse resp){
+		
 	}
 }

@@ -132,9 +132,9 @@ public class QuestionAPI {
 		return list;	
 	}
 
-	public static List<Question> getUnsubmittedQuestions(User user) {
+	public static List<Question> getUnsubmittedQuestions(String userId) {
 		List<Question> list = new ArrayList<Question>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
 		Filter compositeFilter = CompositeFilterOperator.and(userFilter, questionFilter, unsubmittedFilter);
 		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(query);
@@ -145,9 +145,9 @@ public class QuestionAPI {
 		return list;
 	}
 
-	public static List<Question> getSubmittedQuestions(User user) {
+	public static List<Question> getSubmittedQuestions(String userId) {
 		List<Question> list = new ArrayList<Question>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, user.getUserId());
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
 		Filter compositeFilter = CompositeFilterOperator.and(userFilter, questionFilter, submittedFilter, notAnonymousFilter, viewableFilter);
 		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(query);
