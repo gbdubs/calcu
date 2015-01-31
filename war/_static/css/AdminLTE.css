@@ -3685,7 +3685,7 @@ fieldset[disabled] .btn-vk.active {
 .rating-system-horizontal{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    padding: 5px 10px 0 10px;
+    padding: 5px 5px 0 5px;
     width: 271px;
     display: inline-block;
     float: right;
@@ -3713,7 +3713,6 @@ fieldset[disabled] .btn-vk.active {
 .rating-system-horizontal .btn {
     padding: 2px 0px;
 	margin: 5px 0px;
-	background-color: white;
 	box-shadow: none;
 }
 

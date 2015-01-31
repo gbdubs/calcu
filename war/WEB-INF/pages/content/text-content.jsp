@@ -139,8 +139,8 @@
 						</div>
 						<div class="box-body box-body-with-rating-system" >
 							<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
-								<jsp:param name="contentId" value="${textContent.uuid}" />
-								<jsp:param name="formPostUrl" value="${textContent.rateUrl}" />
+								<jsp:param name="contentUuid" value="${textContent.uuid}" />
+								<jsp:param name="userId" value="${user.userId}" />
 							</jsp:include>
 							<span class="preserve-line-formatting">${textContent.body}</span>
 						</div>
@@ -205,8 +205,8 @@
 							<div id="collapseTextContentAnswer${loop.index}" class="panel-collapse collapse" style="height: 0px;">
 								<div class="box-body box-body-with-rating-system">
 									<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
-										<jsp:param name="contentId" value="${answer.uuid}" />
-										<jsp:param name="formPostUrl" value="${answer.rateUrl}" />
+										<jsp:param name="contentUuid" value="${answer.uuid}" />
+										<jsp:param name="userId" value="${user.userId}" />
 									</jsp:include>
 									<span class="preserve-line-formatting">${answer.body}</span>
 								</div>
@@ -268,7 +268,7 @@
 		<c:if test="${difficultyCalibration}">
 			<script src="/_static/js/CalcU/personalize-difficulty.js"></script>
 		</c:if>
-	
+		<script src="/_static/js/CalcU/rating-system.js"></script>
 		<script src="/_static/js/CalcU/question.js"></script>
 	</jsp:attribute>
 </t:genericpage>

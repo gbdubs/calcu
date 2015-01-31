@@ -170,8 +170,8 @@
 						</div>
 						<div class="box-body box-body-with-rating-system" >
 							<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
-								<jsp:param name="contentId" value="${question.uuid}" />
-								<jsp:param name="formPostUrl" value="${question.rateUrl}" />
+								<jsp:param name="contentUuid" value="${question.uuid}" />
+								<jsp:param name="userId" value="${user.userId}" />
 							</jsp:include>
 							<span class="preserve-line-formatting">${question.body}</span>
 						</div>
@@ -236,8 +236,8 @@
 							<div id="collapseQuestionAnswer${loop.index}" class="panel-collapse collapse" style="height: 0px;">
 								<div class="box-body box-body-with-rating-system">
 									<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
-										<jsp:param name="contentId" value="${answer.uuid}" />
-										<jsp:param name="formPostUrl" value="${answer.rateUrl}" />
+										<jsp:param name="contentUuid" value="${answer.uuid}" />
+										<jsp:param name="userId" value="${user.userId}" />
 									</jsp:include>
 									<span class="preserve-line-formatting">${answer.body}</span>
 								</div>
@@ -301,6 +301,7 @@
 		</c:if>
 	
 		<script src="/_static/js/CalcU/question.js"></script>
+		<script src="/_static/js/CalcU/rating-system.js"></script>
 	</jsp:attribute>
 </t:genericpage>
 	

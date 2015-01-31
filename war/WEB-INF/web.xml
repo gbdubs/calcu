@@ -36,6 +36,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	
 	<servlet>
+		<servlet-name>Rating</servlet-name>
+		<servlet-class>calculus.general.RatingServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Rating</servlet-name>
+		<url-pattern>/rating/submit</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>Landing</servlet-name>
 		<servlet-class>calculus.LandingServlet</servlet-class>
 	</servlet>	
