@@ -167,12 +167,12 @@
 												<a role="menuitem" tabindex="-1" href="#">
 													<c:if test="${! answer.approved}"> 
 														<form method="post" action="${answer.approvedSolutionUrl}">
-															<input class="menuitem normal-menu-item-input" value="Mark Approved Solution" type="submit">
+															<input class="menuitem normal-menu-item-input" value="Mark Approved Explanation" type="submit">
 														</form>
 													</c:if>
 													<c:if test="${answer.approved}"> 
 														<form method="post" action="${answer.notApprovedSolutionUrl}">
-															<input class="menuitem normal-menu-item-input" value="Unmark as Approved Solution" type="submit">
+															<input class="menuitem normal-menu-item-input" value="Unmark as Approved Explanation" type="submit">
 														</form>
 													</c:if>
 												</a>

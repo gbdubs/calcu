@@ -75,13 +75,13 @@
 							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
+									<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:when>
 								<c:otherwise>
-									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${question.uuid}">
-										<i class="fa fa-bookmark"></i>
+									<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
+										<i class="fa fa-bookmark-o"></i>
 									</button>
 								</c:otherwise>
 							</c:choose>
@@ -135,13 +135,13 @@
 							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
+									<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:when>
 								<c:otherwise>
-									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
-										<i class="fa fa-bookmark"></i>
+									<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${practiceProblem.uuid}">
+										<i class="fa fa-bookmark-o"></i>
 									</button>
 								</c:otherwise>
 							</c:choose>
@@ -195,13 +195,13 @@
 							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${textContent.uuid}">
+									<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${textContent.uuid}">
 										<i class="fa fa-bookmark"></i>
 									</button>
 								</c:when>
 								<c:otherwise>
-									<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${textContent.uuid}">
-										<i class="fa fa-bookmark"></i>
+									<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${textContent.uuid}">
+										<i class="fa fa-bookmark-o"></i>
 									</button>
 								</c:otherwise>
 							</c:choose>
