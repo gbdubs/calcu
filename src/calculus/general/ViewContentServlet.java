@@ -43,7 +43,6 @@ public class ViewContentServlet extends HttpServlet {
 			contentType = ContentAPI.getContentType(uuid);
 		} catch (EntityNotFoundException e) {
 			resp.setContentType("text/html");
-			System.out.println("HERE1");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			jsp.forward(req, resp);
 			return;
@@ -88,7 +87,6 @@ public class ViewContentServlet extends HttpServlet {
 				TextContentAPI.addTextContentContext(req, tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
 			} else {
-				System.out.println("HERE2");
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);

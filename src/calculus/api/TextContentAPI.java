@@ -46,7 +46,6 @@ public class TextContentAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		System.out.println("Title: " + title);
 		if (title == null || title == "") title = "[Un-named Text Content]";
 		String body = (String) req.getParameter("body");
 		if (body == null || body == "") body = "[No body was provided for this Content]";
