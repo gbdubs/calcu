@@ -1,5 +1,6 @@
 package calculus.api;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -41,5 +42,10 @@ public class RecommendationsAPI {
 
 	public static void addDifficultyInformation(String userId, String contentUuid, String difficulty) {
 		System.out.println("Content ["+contentUuid+"] was rated ["+difficulty+"] by ["+userId+"].");
+	}
+
+	public static void andComparisonInformation(String userId, String preference, String[] allUuids) {
+		System.out.println("User ["+userId+"] chose content ["+preference+"] out of the possibilities ["+Arrays.toString(allUuids)+"].");
+		
 	}
 }

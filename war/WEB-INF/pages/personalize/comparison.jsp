@@ -11,7 +11,7 @@
 		
 		<div class="box box-success box-solid">
 			<div class="box-header">
-				<i class="fa fa-refresh"></i>
+				<i class="fa fa-flag-checkered"></i>
 				<h3 class="box-title">Reasoning Calibration: Step (${stepNumber}/15)</h3>
 			</div>
 			<div class="box-body">
@@ -26,16 +26,34 @@
 					Each criterion gives us an idea of what aspect of each item you found helpful or difficult.
 				</p>
 				
-				<div class="content-comparison">
+				<p class="content-comparison centered" data-category="overall" data-user="${user.userId}">
+					<button class="btn btn-default" data-uuid="${textContent1.uuid}">Explanation 1</button>
 					<label> Which did you prefer overall?</label>
-					<button class="btn btn-default" data-category="overall" data-choice="1">Explanation 1</button>
-					<button class="btn btn-default" data-category="overall" data-choice="2">Explanation 2</button>
-				</div>
+					<button class="btn btn-default" data-uuid="${textContent2.uuid}">Explanation 2</button>
+				</p>
 				
 				<div class="row">
 					<div class="col-sm-6 col-xs-12">
+						<div class="box box-success box-solid">
+							<div class="box-header">
+								<i class="fa fa-flag-o"></i>
+								<h3 class="box-title">Explanation 1: ${textContent1.title}</h3>
+							</div>
+							<div class="box-body">
+								<span class="preserve-line-formatting">${textContent1.body}</span>
+							</div>
+						</div>
 					</div>
 					<div class="col-sm-6 col-xs-12">
+						<div class="box box-success box-solid">
+							<div class="box-header">
+								<i class="fa fa-flag"></i>
+								<h3 class="box-title">Explanation 2: ${textContent2.title}</h3>
+							</div>
+							<div class="box-body">
+								<span class="preserve-line-formatting">${textContent2.body}</span>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="overflower">
@@ -50,6 +68,6 @@
 		</div>
 	</jsp:attribute>
 	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/personalize-interests.js"></script>
+		<script src="/_static/js/CalcU/compare-content.js"></script>
 	</jsp:attribute>
 </t:genericpage>

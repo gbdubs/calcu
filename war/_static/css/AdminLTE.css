@@ -934,6 +934,12 @@ body > .header .logo .icon {
 .navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .ion.info {
   background: #00c0ef;
 }
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .glyphicon.primary,
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .fa.primary,
+.navbar-nav > .notifications-menu > .dropdown-menu > li .menu > li > a > .ion.primary {
+  background: #3c8dbc;
+}
+
 .navbar-nav > .messages-menu > .dropdown-menu > li .menu > li > a {
   margin: 0px;
   line-height: 20px;

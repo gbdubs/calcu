@@ -172,4 +172,18 @@ public class TextContentAPI {
 		return list;	
 	}
 
+	public static TextContent[] getTextContentCalibrationForUser(String userId) {
+		TextContent[] result = new TextContent[2];
+		Filter contentFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "textContent");
+		Query q = new Query("Content").setFilter(contentFilter).addSort("createdAt");
+		PreparedQuery pq = datastore.prepare(q);
+		int i = 0;
+		for (Entity entity : pq.asIterable()){
+			result[i++] = new TextContent(entity);
+			if (i >= 2) return result;
+		}
+		return result;
+	}
+
+
 }

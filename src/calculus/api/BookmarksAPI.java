@@ -42,7 +42,7 @@ public class BookmarksAPI {
 			List<MenuItem> bookmarksToDisplay = new ArrayList<MenuItem>();
 			List<String> bookmarkUuids = new ArrayList<String>();
 			if (bookmarks != null){
-				// Traversing through backwards to pug bookmarks in their most recent order
+				// Traversing through backwards to put bookmarks in their most recent order
 				for(int i = bookmarks.size() - 1; i >= 0; i--){
 					String b = bookmarks.get(i);
 					String contentType = "";

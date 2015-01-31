@@ -9,11 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.BookmarksAPI;
 import calculus.api.RecommendationsAPI;
+import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
+import calculus.models.TextContent;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -70,11 +71,16 @@ public class PersonalizeServlet extends HttpServlet {
 			jsp.forward(req, resp);
 			return;
 		} else {
-			
+			// TextContent Comparison
+			TextContent[] tcs = TextContentAPI.getTextContentCalibrationForUser(user.getUserId());
+			TextContent tc1 = tcs[0];
+			TextContent tc2 = tcs[1];
+			req.setAttribute("textContent1", tc1);
+			req.setAttribute("textContent2", tc2);
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/comparison.jsp");
+			jsp.forward(req, resp);
+			return;
 		}
-		
-		
-		
 	}
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
@@ -97,6 +103,12 @@ public class PersonalizeServlet extends HttpServlet {
 			String difficulty = req.getParameter("difficulty");
 			
 			RecommendationsAPI.addDifficultyInformation(userId, contentUuid, difficulty);
+		} else if (url.contains("/personalize/content-comparison")){
+			String userId = req.getParameter("userId");
+			String preference = req.getParameter("preference");
+			String outOf = req.getParameter("outOf");
+			String[] allUuids = outOf.split(",");	
+			RecommendationsAPI.andComparisonInformation(userId, preference, allUuids);
 		}
 	}
 	
