@@ -31,9 +31,11 @@
 							</c:forEach>
 					
 								<div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
-									<div class="box box-${content.boxColor}">
+									<div class="box box-${content.boxColor} no-overflow">
 										<div class="box-header">
-											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
+											<span class="buttonless-secondary">
+												<i class="fa fa-fw ${content.boxIcon}"></i>
+											</span>
 											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
@@ -83,9 +85,11 @@
 							</c:forEach>
 						
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="box box-${content.boxColor}">
+									<div class="box box-${content.boxColor} no-overflow">
 										<div class="box-header">
-											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
+											<span class="buttonless-secondary">
+												<i class="fa fa-fw ${content.boxIcon}"></i>
+											</span>
 											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
@@ -135,9 +139,11 @@
 							</c:forEach>
 							
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="box box-${content.boxColor}">
+									<div class="box box-${content.boxColor} no-overflow">
 										<div class="box-header">
-											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
+											<span class="buttonless-secondary">
+												<i class="fa fa-fw ${content.boxIcon}"></i>
+											</span>
 											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
@@ -190,9 +196,11 @@
 					
 					
 								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-									<div class="box box-${content.boxColor}">
+									<div class="box box-${content.boxColor} no-overflow">
 										<div class="box-header">
-											<i class="fa buttonless-secondary ${content.boxIcon}"></i>
+											<span class="buttonless-secondary">
+												<i class="fa fa-fw ${content.boxIcon}"></i>
+											</span>
 											<h4 class="box-title"><a href="${content.url}">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">

@@ -3984,17 +3984,17 @@ div.tagsinput div { display:block; float: left; }
 	right: 0;
 }
 
-.box > .box-header > i.fa.buttonless-secondary{
+span.buttonless-secondary{
 	background: none;
 	border: none;
 	outline: none;
-	padding: 5px;
-	position: absolute;
+	padding: 5px 0;
 	font-size: 13px;
+	position: absolute;
 	top: 15px;
-	width: 20px;
+	width: 22px;
 	text-align: center;
-	right: 1px;
+	right: 0px;
 }
 
 .bookmarked-button{
@@ -4057,5 +4057,9 @@ a.btn.btn-warning.live-preview-return-button{
 
 .overflower{
 	overflow: auto;
+}
+
+.no-overflow{
+	overflow: hidden;
 }
 }

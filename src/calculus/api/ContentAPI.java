@@ -97,7 +97,7 @@ public class ContentAPI {
 		} else if (contentType.equals("answer")){
 			return "fa-lightbulb-o";
 		} else if (contentType.equals("textContent")){
-			return "fa-cubes";
+			return "fa-newspaper-o";
 		} else if (contentType.equals("practiceProblem")){
 			return "fa-pencil";
 		} else {
