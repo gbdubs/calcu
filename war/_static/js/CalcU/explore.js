@@ -2,7 +2,6 @@ $(function() {
     "use strict";
     
     $(".content-rotating").each(function () {
-    	console.log("here");
     	var contentRotating = this;
     	var buttonGroup = $('.btn-group', this);
     	var defaultButton = $('.btn', buttonGroup);

@@ -47,6 +47,13 @@ public class PersonalizeServlet extends HttpServlet {
 		UserContextAPI.addUserContextToRequest(req, "/personalize");
 		req.setAttribute("stepNumber", stepNumber);
 		resp.setContentType("text/html");
+		if (stepNumber == 16){
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/complete.jsp");	
+			jsp.forward(req, resp);
+			return;
+		} else if (stepNumber > 16 || stepNumber < 0){
+			resp.sendRedirect("/personalize/landing");
+		}
 		if (stepNumber % 4 == 1) {
 			// Interest Recognition
 			Map<String, Boolean> interests = RecommendationsAPI.getUserInterestPossibilities(user.getUserId());

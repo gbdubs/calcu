@@ -9,7 +9,7 @@
 
 	<jsp:attribute name="content">
 	
-		<div class="box box-primary box-solid">
+		<div class="box box-success box-solid">
 			<div class="box-header">
 				<i class="fa fa-street-view"></i>
 				<h3 class="box-title">Personalize Your CalcU Experience</h3>
@@ -41,20 +41,18 @@
 					We encourage you to keep using this tool until you feel that the resources you are getting directed to
 					are helpful, relevant, and appropriately difficult.  As always, thank you for using this tool, and please
 					let us know what you think of it!
-				</p>
-			</div>
+				</p>			
+				<c:if test="${!loggedIn}">
+					<span class="btn btn-block btn-warning login-button">
+						You must log in to access this feature
+					</span>
+				</c:if>
+				<c:if test="${loggedIn}">
+					<a href="/personalize/1" class="btn btn-block btn-success">
+						Lets Get Started!
+					</a>
+				</c:if>
+			</div>	
 		</div>
-		
-		<c:if test="${!loggedIn}">
-			<span class="btn btn-block bg-yellow-gradient login-button">
-				You must log in to access this feature
-			</span>
-		</c:if>
-		<c:if test="${loggedIn}">
-			<a href="/personalize/1" class="btn btn-block bg-green-gradient">
-				Lets Get Started!
-			</a>
-		</c:if>
-
 	</jsp:attribute>
 </t:genericpage>
