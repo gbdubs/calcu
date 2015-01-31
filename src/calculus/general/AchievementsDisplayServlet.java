@@ -2,7 +2,9 @@ package calculus.general;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -35,9 +37,13 @@ public class AchievementsDisplayServlet extends HttpServlet {
 		} else {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 		}
-
-		req.setAttribute("unfinishedAchievements", unfinishedAchievements);
-		req.setAttribute("finishedAchievements", finishedAchievements);
+		
+		finishedAchievements.add(unfinishedAchievements.remove(0));
+		
+		Map<Achievement, Boolean> allAchievements = new HashMap<Achievement, Boolean>();
+		for (Achievement a : finishedAchievements) allAchievements.put(a, true);
+		for (Achievement a : unfinishedAchievements) allAchievements.put(a, false);
+		req.setAttribute("achievements", allAchievements);
 		
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/achievements.jsp");	

@@ -30,6 +30,7 @@
 					</div>
 					<div class="box-body" style="display:none;">
 						<input type="hidden" name="action" value="create"/>
+						<input type="hidden" name="uploadMethod" value="single"/>
 						<label for="name">Name</label>
 						<input type="text" name="name" class="form-control" placeholder="The funny name of the achievement"/>
 						<br/>
@@ -66,6 +67,7 @@
 						</div>
 					</div>
 					<form class="box-body" style="display:none;" action="/admin/achievement" method="post">
+						<input type="hidden" name="action" value="create"/>
 						<input type="hidden" name="uploadMethod" value="bulk" />
 						<p>
 							Uploading achievements in a JSON format is a stellar way to build a collection of them while not fearing for their

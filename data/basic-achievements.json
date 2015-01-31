@@ -5,7 +5,7 @@
 		"qualification":"Find this page",
 		"icon":"fa-user",
 		"textColor":"text-red",
-		"backgroundColor":"text-blue"
+		"backgroundColor":"text-blue bg-blue"
 	},
 	{
 		"name":"Barak Obama 2012",
@@ -13,7 +13,7 @@
 		"qualification":"Be here for a while",
 		"icon":"fa-flag",
 		"textColor":"text-blue",
-		"backgroundColor":"text-red"
+		"backgroundColor":"text-red bg-red"
 	},
 	{
 		"name":"Vermonter",
@@ -21,6 +21,6 @@
 		"qualification":"Use the site well",
 		"icon":"fa-leaf",
 		"textColor":"text-yellow",
-		"backgroundColor":"text-green"
+		"backgroundColor":"text-green bg-green"
 	}
 ]
