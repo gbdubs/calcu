@@ -39,13 +39,13 @@
 											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
-													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
 														<i class="fa fa-bookmark"></i>
 													</button>
 												</c:when>
 												<c:otherwise>
-													<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
+														<i class="fa fa-bookmark-o"></i>
 													</button>
 												</c:otherwise>
 											</c:choose>
@@ -93,13 +93,13 @@
 											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
-													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
 														<i class="fa fa-bookmark"></i>
 													</button>
 												</c:when>
 												<c:otherwise>
-													<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
+														<i class="fa fa-bookmark-o"></i>
 													</button>
 												</c:otherwise>
 											</c:choose>
@@ -147,13 +147,13 @@
 											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
-													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
 														<i class="fa fa-bookmark"></i>
 													</button>
 												</c:when>
 												<c:otherwise>
-													<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
+														<i class="fa fa-bookmark-o"></i>
 													</button>
 												</c:otherwise>
 											</c:choose>
@@ -204,13 +204,13 @@
 											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
 											<c:choose>
 												<c:when test="${bookmarked}">
-													<button type="button" class="remove-bookmark-button bookmarked-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
 														<i class="fa fa-bookmark"></i>
 													</button>
 												</c:when>
 												<c:otherwise>
-													<button type="button" class="add-bookmark-button pull-right buttonless" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
+														<i class="fa fa-bookmark-o"></i>
 													</button>
 												</c:otherwise>
 											</c:choose>

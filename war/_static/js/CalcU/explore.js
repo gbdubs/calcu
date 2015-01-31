@@ -25,42 +25,27 @@ $(function() {
     });
     
     
-	var removeBookmarkOnClick = function(){
-		console.log("This shouldn't be run!");
-	};
-	
-	var addBookmarkOnClick = function(){
-		var userId = $(this).data("user");
+    var toggleBookmarkButton = function(){
+    	var userId = $(this).data("user");
 		var content = $(this).data("content");
-		var action = "add";
+		var action = $(this).data("action");
 		
-		$.ajax({
+    	$.ajax({
 			type: "POST",
 			url: "/bookmark",
 			data: "userId="+userId+"&contentUuid="+content+"&action="+action
 		});
-		
-		$(this).unbind();
-		$(this).addClass("bookmarked-button").click(removeBookmarkOnClick);
-	};
+    	
+    	if (action === "add") {
+    		$(this).data("action","remove");
+    		$('i', this).removeClass("fa-bookmark-o").addClass("fa-bookmark");
+    	} else {
+    		$(this).data("action","add");
+    		$('i', this).removeClass("fa-bookmark").addClass("fa-bookmark-o");
+    	}
+    		
+    };
 	
-	removeBookmarkOnClick = function(){
-		var userId = $(this).data("user");
-		var content = $(this).data("content");
-		var action = "remove";
-		
-		$.ajax({
-			type: "POST",
-			url: "/bookmark",
-			data: "userId="+userId+"&contentUuid="+content+"&action="+action
-		});
-		
-		$(this).unbind();
-		$(this).removeClass("bookmarked-button").click(addBookmarkOnClick);
-	}
-	
-	
-	$(".add-bookmark-button").click(addBookmarkOnClick);
-	
-	$(".remove-bookmark-button").click(removeBookmarkOnClick);
+	$(".toggle-bookmark-button").click(toggleBookmarkButton);
+
 });
