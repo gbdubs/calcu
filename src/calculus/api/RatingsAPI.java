@@ -23,6 +23,7 @@ public class RatingsAPI {
 	private static void updateRatingProfilesFromRating(String userId, String contentUuid, int reviewedHelpfulness, int reviewedDifficulty, int reviewedQuality){
 		Entity userEntity = getOrCreateUserRatingProfile(userId);
 		Entity contentEntity = getOrCreateContentRatingProfile(contentUuid);
+		
 		double difficultyRating = ((Long) contentEntity.getProperty("difficultyRating")).doubleValue();
 		double userAverageDifficulty = ((Long) userEntity.getProperty("averageDifficulty")).doubleValue();
 		double userStrength = ((Long) userEntity.getProperty("userStrength")).doubleValue();
@@ -42,8 +43,8 @@ public class RatingsAPI {
 		double newUserStrength = userStrength - difficultyDifferential * strengthTimeBias;
 		double newDifficultyRating = difficultyRating + difficultyDifferential * reviewerTimeBias * difficultyTimeBias;
 		
-		userEntity.setProperty("userStrength", newUserStrength);
-		contentEntity.setProperty("difficultyRating", newDifficultyRating);
+		userEntity.setProperty("userStrength", ((Double) newUserStrength).longValue());
+		contentEntity.setProperty("difficultyRating", ((Double) newDifficultyRating).longValue());
 		
 		// Updates the counts
 		userEntity.setProperty("numRatings", numberOfUserRatings + 1);
@@ -64,10 +65,10 @@ public class RatingsAPI {
 	}
 	
 	private static void updateEntityAverageProperty(Entity e, String prop, int rating){
-		double oldValue = (long) e.getProperty(prop);
+		double oldValue = ((Long) e.getProperty(prop)).doubleValue();
 		int n = ((Long) e.getProperty("numRatings")).intValue();
-		double newValue = (oldValue * n + rating * 10) / (n + 1);
-		e.setProperty(prop, newValue);
+		Double newValue = ((Double) (oldValue * n + rating * 10) / (n + 1));
+		e.setProperty(prop, newValue.longValue());
 	}
 	
 	private static Entity getOrCreateContentRatingProfile(String contentUuid) {
@@ -114,7 +115,7 @@ public class RatingsAPI {
 	}
 
 	private static double reviewerTimeBias(int numberOfContentRatings) {
-		return 1 + 4.0 / numberOfContentRatings;
+		return 1 + 4.0 / (1 + numberOfContentRatings);
 	}
 
 	private static double strengthTimeBias(int numberOfRatings){
