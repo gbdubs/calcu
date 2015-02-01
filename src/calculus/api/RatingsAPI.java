@@ -1,5 +1,8 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -17,34 +20,46 @@ public class RatingsAPI {
 		// Updates our Rating Profiles
 		updateRatingProfilesFromRating(userId, contentUuid, helpfulness, difficulty, quality);
 		
-		KarmaAPI.updateKarmaFromRating(contentUuid, helpfulness, difficulty, quality);
+		updateKarmaFromRating(userId, contentUuid, quality);
 	}
 	
+	private static void updateKarmaFromRating(String userId, String contentUuid, int quality) {
+		if (!testAndSetContentRatedByUser(contentUuid, userId)){
+			int differential = (int) (400.0 * (quality - 30)/70.0);
+			Entity content = getOrCreateContentRatingProfile(contentUuid);
+			long originalKarma = (long) content.getProperty("karma");
+			content.setProperty("karma", originalKarma + differential);
+			int displayed = (int) ((originalKarma + differential) / 100.0);
+			System.out.println("new karma: " + displayed);
+			ContentAPI.updateKarma(contentUuid, displayed);
+		}
+	}
+
 	private static void updateRatingProfilesFromRating(String userId, String contentUuid, int reviewedHelpfulness, int reviewedDifficulty, int reviewedQuality){
 		Entity userEntity = getOrCreateUserRatingProfile(userId);
 		Entity contentEntity = getOrCreateContentRatingProfile(contentUuid);
 		
-		double difficultyRating = ((Long) contentEntity.getProperty("difficultyRating")).doubleValue();
-		double userAverageDifficulty = ((Long) userEntity.getProperty("averageDifficulty")).doubleValue();
-		double userStrength = ((Long) userEntity.getProperty("userStrength")).doubleValue();
+		int difficultyRating = intValue(contentEntity, "difficultyRating");
+		int userAverageDifficulty = intValue(userEntity, "averageDifficulty");
+		int userStrength = intValue(userEntity,"userStrength");
 		
 		// Updates the sorted metrics, UserStrength and Difficulty Rating	
-		double expectedDifficulty = (difficultyRating - userStrength);
-		double observedDifficulty = (reviewedDifficulty - userAverageDifficulty);
-		double difficultyDifferential = observedDifficulty - expectedDifficulty;
+		int expectedDifficulty = (difficultyRating - userStrength);
+		int observedDifficulty = (reviewedDifficulty - userAverageDifficulty);
+		int difficultyDifferential = observedDifficulty - expectedDifficulty;
 		
-		int numberOfUserRatings = ((Long) userEntity.getProperty("numRatings")).intValue();
-		int numberOfContentRatings = ((Long) contentEntity.getProperty("numRatings")).intValue();
+		int numberOfUserRatings = intValue(userEntity,"numRatings");
+		int numberOfContentRatings = intValue(contentEntity,"numRatings");
 		
 		double reviewerTimeBias = reviewerTimeBias(numberOfContentRatings);
 		double difficultyTimeBias = difficultyTimeBias(numberOfUserRatings);
 		double strengthTimeBias = strengthTimeBias(numberOfUserRatings);
 	
-		double newUserStrength = userStrength - difficultyDifferential * strengthTimeBias;
-		double newDifficultyRating = difficultyRating + difficultyDifferential * reviewerTimeBias * difficultyTimeBias;
+		int newUserStrength = (int) (userStrength - difficultyDifferential * strengthTimeBias);
+		int newDifficultyRating = (int) (difficultyRating + difficultyDifferential * reviewerTimeBias * difficultyTimeBias);
 		
-		userEntity.setProperty("userStrength", ((Double) newUserStrength).longValue());
-		contentEntity.setProperty("difficultyRating", ((Double) newDifficultyRating).longValue());
+		userEntity.setProperty("userStrength", newUserStrength);
+		contentEntity.setProperty("difficultyRating", newDifficultyRating);
 		
 		// Updates the counts
 		userEntity.setProperty("numRatings", numberOfUserRatings + 1);
@@ -65,10 +80,10 @@ public class RatingsAPI {
 	}
 	
 	private static void updateEntityAverageProperty(Entity e, String prop, int rating){
-		double oldValue = ((Long) e.getProperty(prop)).doubleValue();
-		int n = ((Long) e.getProperty("numRatings")).intValue();
+		double oldValue = (double) intValue(e,prop);
+		int n = intValue(e, "numRatings");
 		Double newValue = ((Double) (oldValue * n + rating * 10) / (n + 1));
-		e.setProperty(prop, newValue.longValue());
+		e.setProperty(prop, newValue.intValue());
 	}
 	
 	private static Entity getOrCreateContentRatingProfile(String contentUuid) {
@@ -88,8 +103,25 @@ public class RatingsAPI {
 			
 			// Perceived strength tells us how difficult they like their questions
 			result.setProperty("difficultyRating", 500);
+			
+			// Quality aggregates karma in terms of hundredths:
+			result.setProperty("karma", 100);
 			return result;
 		}
+	}
+	
+	private static boolean testAndSetContentRatedByUser(String contentUuid, String userId){
+		Entity content = getOrCreateContentRatingProfile(contentUuid);
+		List<String> ratedBy = (List<String>) content.getProperty("ratedBy");
+		boolean alreadyThere = false;
+		if (ratedBy == null){
+			ratedBy = new ArrayList<String>();
+		}
+		if (ratedBy.contains(userId)) alreadyThere = true;
+		ratedBy.add(userId);
+		content.setProperty("ratedBy", ratedBy);
+		datastore.put(content);
+		return alreadyThere;
 	}
 
 	private static Entity getOrCreateUserRatingProfile(String userId){
@@ -124,5 +156,16 @@ public class RatingsAPI {
 
 	private static double difficultyTimeBias(int numberOfRatings){
 		return 1 / (1 + Math.pow(2, (6.0 - numberOfRatings)));
+	}
+	
+	private static int intValue(Entity e, String p){
+		Object o = e.getProperty(p);
+		if (o instanceof Long){
+			return ((Long) o).intValue();
+		} else if (o instanceof Integer){
+			return ((Integer) o).intValue();
+		} else {
+			return (int) o;
+		}
 	}
 }

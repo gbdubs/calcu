@@ -116,4 +116,18 @@ public class ContentAPI {
 			// Don't worry if it doesn't exist, we need not make it less visible!
 		}
 	}
+
+	public static void updateKarma(String contentUuid, int karma) {
+		Key contentKey = KeyFactory.createKey("Content", contentUuid);
+		Entity entity;
+		try {
+			entity = datastore.get(contentKey);
+			entity.setProperty("karma", karma);
+			datastore.put(entity);
+		} catch (EntityNotFoundException e) {
+			// Don't worry if it doesn't exist, we need not make it less visible!
+		}
+	}
+
+
 }
