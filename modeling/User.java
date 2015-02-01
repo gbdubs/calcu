@@ -4,10 +4,6 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 
-import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.KeyFactory;
-
-
 public class User extends Thread {
 
 	private int skill;
@@ -19,14 +15,14 @@ public class User extends Thread {
 	
 	private static Map<String, User> userLookup = new HashMap<String, User>();
 	
-	private User(List<Problem> problems){
+	public User(List<Problem> problems){
 		this.skill = (int) Math.ceil(100 * Math.random());
 		this.standardDeviation = Math.random() * 10;
 		this.spread = 2 + Math.random() * 1;
 		this.uuid = UUID.randomUUID().toString();
 		this.problems = problems;
 		
-		this.entity = new Entity(KeyFactory.createKey("User", uuid));
+		this.entity = new Entity(uuid);
 		entity.setProperty("numRatings", 0);
 		
 		// Average ones are use to gauge reactions against
@@ -41,7 +37,8 @@ public class User extends Thread {
 	}
 	
 	public void run(){
-		while(true){
+		boolean running = true;
+		while(running){
 			int length = problems.size();
 			int index = (int) Math.floor(Math.random() * length);
 			Problem p = problems.get(index);
@@ -51,10 +48,10 @@ public class User extends Thread {
 			ModifiedRatingsAPI.submitRating(p.uuid, this.uuid, helpfulRating, difficultyRating, qualityRating);
 			p.wasRatedAs(helpfulRating, difficultyRating, qualityRating);
 			try {
-				this.sleep((int) (Math.random() * 2000));
+				Thread.sleep((int) (Math.random() * 200));
 			} catch (InterruptedException e) {
+				running = false;
 			}
-			
 		}
 	}
 	

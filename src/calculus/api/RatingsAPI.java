@@ -64,7 +64,7 @@ public class RatingsAPI {
 	}
 	
 	private static void updateEntityAverageProperty(Entity e, String prop, int rating){
-		double oldValue = ((Long) e.getProperty(prop)).doubleValue();
+		double oldValue = (long) e.getProperty(prop);
 		int n = ((Long) e.getProperty("numRatings")).intValue();
 		double newValue = (oldValue * n + rating * 10) / (n + 1);
 		e.setProperty(prop, newValue);

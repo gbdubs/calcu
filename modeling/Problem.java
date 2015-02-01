@@ -1,10 +1,8 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
-
-import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.KeyFactory;
-
 
 public class Problem {
 
@@ -16,6 +14,7 @@ public class Problem {
 	private String dHist;
 	private String qHist;
 	private String rHist;
+	public List<Integer> rError;
 	
 	public static Map<String, Problem> problemLookup = new HashMap<String, Problem>();
 	
@@ -23,9 +22,15 @@ public class Problem {
 		realDifficulty = (int) (100.0 * Math.random());
 		realQuality = (int) (100 * Math.random());
 		
+		rError = new ArrayList<Integer>();
 		uuid = UUID.randomUUID().toString();
-		entity = new Entity(KeyFactory.createKey("Problem", uuid));
+		entity = new Entity(uuid);
 		entity.setProperty("numRatings", 0);
+		
+		dHist = "Acutal=["+realDifficulty+"] History=[500]";
+		hHist = "[500]";
+		qHist = "[500]";
+		rHist = "[500]";
 		
 		// Average ones are use to gauge reactions against
 		entity.setProperty("averageDifficulty", 500);
@@ -49,9 +54,13 @@ public class Problem {
 		dHist += ", "+d+"["+entity.getProperty("averageDifficulty")+"]";
 		qHist += ", "+q+"["+entity.getProperty("averageQuality")+"]";
 		rHist += ", ["+entity.getProperty("difficultyRating")+"]";
+		long difficultyRating = entity.getProperty("difficultyRating");
+		int error = (int) (difficultyRating - (10 * this.realDifficulty));
+	//	System.out.println("difficultyRating:"+ entity.getProperty("difficultyRating") + "rError:" + error);
+		rError.add(error);
 	}
 	
 	public String toString(){
-		return rHist;
+		return dHist;
 	}
 }
