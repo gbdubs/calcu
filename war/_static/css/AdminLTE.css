@@ -713,7 +713,8 @@ body > .header .logo .icon {
   line-height: 1;
 }
 .user-panel > .info > p {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
+  max-width: 145px;
 }
 .user-panel > .info > a {
   text-decoration: none;
