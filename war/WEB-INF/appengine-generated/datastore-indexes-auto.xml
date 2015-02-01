@@ -1,4 +1,4 @@
-<!-- Indices written at Sat, 31 Jan 2015 15:48:43 EST -->
+<!-- Indices written at Sat, 31 Jan 2015 15:57:26 EST -->
 
 <datastore-indexes>
 
@@ -12,7 +12,7 @@
         <property name="karma" direction="asc"/>
     </datastore-index>
 
-    <!-- Used 2 times in query history -->
+    <!-- Used 4 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="parentUuid" direction="asc"/>
