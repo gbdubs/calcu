@@ -14,9 +14,7 @@ public class RatingsAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
-	public static void submitRating(String contentUuid, String userId, int helpfulness, int difficulty, int quality) {
-		System.out.println("Rating Submitted for ["+contentUuid+"] by ["+userId+"]: H=["+helpfulness+"], D=["+difficulty+"], Q=["+quality+"]");
-		
+	public static void submitRating(String contentUuid, String userId, int helpfulness, int difficulty, int quality) {		
 		// Updates our Rating Profiles
 		updateRatingProfilesFromRating(userId, contentUuid, helpfulness, difficulty, quality);
 		
@@ -29,8 +27,8 @@ public class RatingsAPI {
 			Entity content = getOrCreateContentRatingProfile(contentUuid);
 			long originalKarma = (long) content.getProperty("karma");
 			content.setProperty("karma", originalKarma + differential);
+			datastore.put(content);
 			int displayed = (int) ((originalKarma + differential) / 100.0);
-			System.out.println("new karma: " + displayed);
 			ContentAPI.updateKarma(contentUuid, displayed);
 		}
 	}

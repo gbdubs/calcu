@@ -31,41 +31,24 @@ public class Content {
 	}
 
 	private Entity entity;
-	private Key key;
 	private Author author;
 	
 	public Content (Entity entity, String contentType) {
 		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
 		this.entity = entity;
-		this.key = entity.getKey();
 		this.entity.setProperty("contentType", contentType);
-		this.entity.setProperty("karma", 0);
-		this.author = null;
-	}
-	
-	public Content (Key key, String contentType) {
-		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
-		this.key = key;
-		try {
-			this.entity = datastoreService.get(key);
-		} catch (EntityNotFoundException e) {
-			this.entity = new Entity(key);
-		}
-		this.entity.setProperty("contentType", contentType);
-		this.entity.setProperty("karma", 0);
 		this.author = null;
 	}
 
 	public Content (String uuid, String contentType) {
-		this.key = KeyFactory.createKey("Content", uuid);
+		Key key = KeyFactory.createKey("Content", uuid);
 		try {
 			this.entity = datastoreService.get(key);
 		} catch (EntityNotFoundException e) {
 			this.entity = new Entity(key);
+			this.entity.setProperty("contentType", contentType);
+			this.author = null;
 		}
-		this.entity.setProperty("contentType", contentType);
-		this.entity.setProperty("karma", 0);
-		this.author = null;
 	}
 
 	public Content(String uuid) throws EntityNotFoundException {
@@ -77,7 +60,7 @@ public class Content {
 	}
 
 	public void refresh(){
-		this.key = this.entity.getKey();
+		Key key = this.entity.getKey();
 		try {
 			this.entity = datastoreService.get(key);
 		} catch (EntityNotFoundException e) {

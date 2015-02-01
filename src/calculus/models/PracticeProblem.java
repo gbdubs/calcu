@@ -8,7 +8,6 @@ import calculus.api.PracticeProblemAPI;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -28,10 +27,6 @@ public class PracticeProblem extends Content{
 			
 	public PracticeProblem (Entity entity) {
 		super(entity, "practiceProblem");
-	}
-	
-	public PracticeProblem (Key key) {
-		super(key, "practiceProblem");
 	}
 	
 	public PracticeProblem (String uuid) {

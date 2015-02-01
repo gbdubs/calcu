@@ -6,7 +6,6 @@ import java.util.List;
 import calculus.api.TextContentAPI;
 
 import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.Key;
 
 public class TextContent extends Content {
 
@@ -18,10 +17,6 @@ public class TextContent extends Content {
 	
 	public TextContent(String uuid) {
 		super(uuid, "textContent");
-	}
-	
-	public TextContent(Key key) {
-		super(key, "textContent");
 	}
 	
 	public TextContent(Entity entity) {

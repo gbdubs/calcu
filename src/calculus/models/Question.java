@@ -6,7 +6,6 @@ import java.util.List;
 import calculus.api.QuestionAPI;
 
 import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.Key;
 
 public class Question extends Content{
 	
@@ -19,10 +18,6 @@ public class Question extends Content{
 	
 	public Question(String uuid) {
 		super(uuid, "question");
-	}
-	
-	public Question(Key key) {
-		super(key, "question");
 	}
 	
 	public Question(Entity entity) {
