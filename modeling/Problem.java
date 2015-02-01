@@ -11,11 +11,18 @@ public class Problem {
 	public int realDifficulty;
 	public Entity entity;
 	public String uuid;
+	public int realQuality;
+	private String hHist;
+	private String dHist;
+	private String qHist;
+	private String rHist;
 	
 	public static Map<String, Problem> problemLookup = new HashMap<String, Problem>();
 	
 	public Problem(){
 		realDifficulty = (int) (100.0 * Math.random());
+		realQuality = (int) (100 * Math.random());
+		
 		uuid = UUID.randomUUID().toString();
 		entity = new Entity(KeyFactory.createKey("Problem", uuid));
 		entity.setProperty("numRatings", 0);
@@ -35,5 +42,16 @@ public class Problem {
 		Problem p = problemLookup.get(contentUuid);
 		if (p == null) return null;
 		return p.entity;
+	}
+
+	public void wasRatedAs(int h, int d, int q) {
+		hHist += ", "+h+"["+entity.getProperty("averageHelpfulness")+"]";
+		dHist += ", "+d+"["+entity.getProperty("averageDifficulty")+"]";
+		qHist += ", "+q+"["+entity.getProperty("averageQuality")+"]";
+		rHist += ", ["+entity.getProperty("difficultyRating")+"]";
+	}
+	
+	public String toString(){
+		return rHist;
 	}
 }
