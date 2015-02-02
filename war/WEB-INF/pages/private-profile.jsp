@@ -31,14 +31,14 @@
 							</div>
 						</form>
 						<form action="${profilePictureUpload}" method="post" enctype="multipart/form-data">
-							<label for="profile-picture-upload">Profile Picture: </label>
+							<label for="profile-picture-upload">Profile Picture Upload (Max size 1 MB): </label>
 							<br>
 							<img src="${profilePictureUrl}" id="profile-picture-editor-display">
 							<div class="input-group">
 								<input type="hidden" name="userId" value="${user.userId}"/>
 								<input type="file" class="form-control" id="profile-picture-upload" name="profilePictureUpload" multiple="false"/>
 								<span class="input-group-btn">
-									<button class="btn btn-primary" type="submit">Save</button>
+									<button class="btn btn-primary" type="submit">Square Crop and Save</button>
 								</span>
 							</div>
 						</form>

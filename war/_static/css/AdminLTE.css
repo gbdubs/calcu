@@ -3828,7 +3828,7 @@ fieldset[disabled] .btn-vk.active {
     background: rgba(54,127,169,.7);
     border-color: rgba(54,127,169, .5);
     color: #fff;
-    width: Calc(100% - 55px);
+    width: Calc(100% - 155px);
     height: 33px;
 }
 

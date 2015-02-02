@@ -119,7 +119,7 @@ public class UserContextAPI {
 		req.setAttribute("emailKarma", (String) privateInfo.getProperty("emailKarma"));
 		
 		BlobstoreService bs = BlobstoreServiceFactory.getBlobstoreService();
-		UploadOptions uploadOptions = UploadOptions.Builder.withMaxUploadSizeBytes(10 * 1024L * 1024L);
+		UploadOptions uploadOptions = UploadOptions.Builder.withMaxUploadSizeBytes(5 * 1024L * 1024L);
 		String uploadUrl = bs.createUploadUrl("/upload-profile-picture", uploadOptions);
 		
 		req.setAttribute("profilePictureUpload", uploadUrl);

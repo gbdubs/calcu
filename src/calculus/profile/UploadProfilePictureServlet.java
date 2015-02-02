@@ -28,14 +28,19 @@ public class UploadProfilePictureServlet extends HttpServlet {
 		List<BlobKey> blobKeys = blobFields.get("profilePictureUpload");
 		String userId = req.getParameter("userId");
 		
-		BlobKey result = null;
+		BlobKey newKey = null;
 		for (BlobKey blobKey : blobKeys){
-			result = blobKey;
+			newKey = blobKey;
 		}
-		if (result == null) return;
+		if (newKey == null) return;
 	
+		// Deletes the Blob Key that was previously there to prevent storing files which we no long need.
+		BlobKey oldKey = UserPublicInfoAPI.getProfilePictureBlobKey();
+		if (oldKey != null) bs.delete(oldKey);
+		UserPublicInfoAPI.setProfilePictureBlobKey(newKey);
+		
 		String servingUrl = imageService.getServingUrl(
-				ServingUrlOptions.Builder.withBlobKey(result).crop(true).imageSize(300)
+				ServingUrlOptions.Builder.withBlobKey(newKey).crop(true).imageSize(300)
 		);
        
 		UserPublicInfoAPI.setUserProfilePictureServingUrl(servingUrl);

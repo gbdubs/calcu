@@ -95,4 +95,15 @@ public class UserPublicInfoAPI {
 		userPublicInfo.setProperty("profilePictureUrl", servingUrl);
 		datastore.put(userPublicInfo);
 	}
+
+	public static BlobKey getProfilePictureBlobKey() {
+		Entity userPublicInfo = getOrCreateMyPublicInfo();
+		return (BlobKey) userPublicInfo.getProperty("profilePictureBlobKey");
+	}
+	
+	public static void setProfilePictureBlobKey(BlobKey blobKey){
+		Entity userPublicInfo = getOrCreateMyPublicInfo();
+		userPublicInfo.setProperty("profilePictureBlobKey", blobKey);
+		datastore.put(userPublicInfo);
+	}
 }

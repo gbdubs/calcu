@@ -16,10 +16,9 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class ChangeUsernameServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
-		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
-		UserPublicInfoAPI.updateUsername(user, (String) req.getParameter("edit-username"));
-		
-		resp.sendRedirect(UrlGenerator.profileUrl(user));
+		UserPublicInfoAPI.updateUsername((String) req.getParameter("edit-username"));
+		resp.sendRedirect(UrlGenerator.profileUrl(UserServiceFactory.getUserService().getCurrentUser()));
+	
 	}	
 }

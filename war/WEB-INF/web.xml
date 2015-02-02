@@ -120,16 +120,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/upload-profile-picture</url-pattern>
 	</servlet-mapping>
 
-
-	<servlet>
-		<servlet-name>ServeProfilePicture</servlet-name>
-		<servlet-class>calculus.profile.ServeProfilePictureServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ServeProfilePicture</servlet-name>
-		<url-pattern>/serve-profile-picture/*</url-pattern>
-	</servlet-mapping>	
-	
 	<servlet>
 		<servlet-name>ContentDashboard</servlet-name>
 		<servlet-class>calculus.contribute.ContributeDashboardServlet</servlet-class>
