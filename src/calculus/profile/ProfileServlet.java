@@ -31,7 +31,6 @@ public class ProfileServlet extends HttpServlet{
 		} else {
 			sameUser = profileRequested.equals(viewer.getUserId());
 		}
-		
 	
 		if (sameUser){
 			UserContextAPI.addPersonalProfileContextToRequest(req);

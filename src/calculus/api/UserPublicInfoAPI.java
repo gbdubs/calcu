@@ -2,6 +2,7 @@ package calculus.api;
 
 import calculus.utilities.UrlGenerator;
 
+import com.google.appengine.api.blobstore.BlobKey;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -10,6 +11,7 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.images.Image;
 import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 public class UserPublicInfoAPI {
 
@@ -33,7 +35,7 @@ public class UserPublicInfoAPI {
 			
 			userPublicInfo.setProperty("username", user.getEmail());
 			userPublicInfo.setProperty("karma", (long) 0);
-			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/default-avatar.png");
+			userPublicInfo.setProperty("profilePictureUrl", "/serve-profile-picture/" + userId);
 			userPublicInfo.setProperty("userId", userId);
 			userPublicInfo.setProperty("profileUrl", profileUrl);
 			userPublicInfo.setProperty("email", user.getEmail());
@@ -67,7 +69,7 @@ public class UserPublicInfoAPI {
 			
 			userPublicInfo.setProperty("username", "Anonymous Anteater");
 			userPublicInfo.setProperty("karma", (long) 0);
-			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/default-avatar.png");
+			userPublicInfo.setProperty("profilePictureUrl", "/serve-profile-picture/" + userId);
 			userPublicInfo.setProperty("userId", userId);
 			userPublicInfo.setProperty("profileUrl", profileUrl);
 			userPublicInfo.setProperty("email", "AntLover444@gmail.com");
@@ -87,8 +89,18 @@ public class UserPublicInfoAPI {
 		datastore.put(userPublicInfo);
 	}
 
-	public static void setUserProfilePicture(Image perfectImage) {
+
+	public static void setUserProfilePictureBlobKey(BlobKey blobKey) {
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null) return;
 		
-		
+		Entity userPublicInfo = getOrCreateMyPublicInfo(user);
+		userPublicInfo.setProperty("profilePictureBlobKey", blobKey);
+		datastore.put(userPublicInfo);
+	}
+	
+	public static BlobKey getUserProfilePictureBlobKey(String userId){
+		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
+		return (BlobKey) userPublicInfo.getProperty("profilePictureBlobKey");
 	}
 }

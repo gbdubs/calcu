@@ -5,6 +5,9 @@ import javax.servlet.http.HttpServletRequest;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.MenuItem;
 
+import com.google.appengine.api.blobstore.BlobstoreService;
+import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
+import com.google.appengine.api.blobstore.UploadOptions;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -103,10 +106,7 @@ public class UserContextAPI {
 		req.setAttribute("profileKarma", KarmaDescription.toLongString(
 				((Long) publicInfo.getProperty("karma")).intValue()
 				));
-		req.setAttribute("profileProfilePictureUrl", (String) publicInfo.getProperty("profilePictureUrl"));
-		
-		
-		
+		req.setAttribute("profileProfilePictureUrl", (String) publicInfo.getProperty("profilePictureUrl"));		
 	}
 
 	public static void addPersonalProfileContextToRequest(HttpServletRequest req) {
@@ -117,5 +117,11 @@ public class UserContextAPI {
 		req.setAttribute("emailReply", (String) privateInfo.getProperty("emailReply"));
 		req.setAttribute("emailRecommend", (String) privateInfo.getProperty("emailRecommend"));
 		req.setAttribute("emailKarma", (String) privateInfo.getProperty("emailKarma"));
+		
+		BlobstoreService bs = BlobstoreServiceFactory.getBlobstoreService();
+		UploadOptions uploadOptions = UploadOptions.Builder.withMaxUploadSizeBytes(10 * 1024L * 1024L);
+		String uploadUrl = bs.createUploadUrl("/upload-profile-picture", uploadOptions);
+		
+		req.setAttribute("profilePictureUpload", uploadUrl);
 	}
 }
