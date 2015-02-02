@@ -17,6 +17,12 @@ public class UserPublicInfoAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
+	private static Entity getOrCreateMyPublicInfo() {
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null) return null;
+		return getOrCreateMyPublicInfo(user);
+	}
+	
 	public static Entity getOrCreateMyPublicInfo(User user){
 		if (user == null) return null;
 		
@@ -35,7 +41,7 @@ public class UserPublicInfoAPI {
 			
 			userPublicInfo.setProperty("username", user.getEmail());
 			userPublicInfo.setProperty("karma", (long) 0);
-			userPublicInfo.setProperty("profilePictureUrl", "/serve-profile-picture/" + userId);
+			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/default-avatar.png");
 			userPublicInfo.setProperty("userId", userId);
 			userPublicInfo.setProperty("profileUrl", profileUrl);
 			userPublicInfo.setProperty("email", user.getEmail());
@@ -54,7 +60,7 @@ public class UserPublicInfoAPI {
 			throw new RuntimeException("Attempted to access userPublicInfo that did not exist.");
 		}
 	}
-
+	
 	public static Entity getOrCreateUserPublicInfo(String userId){
 		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", userId);
 		
@@ -67,40 +73,26 @@ public class UserPublicInfoAPI {
 		} catch (EntityNotFoundException e){
 			String profileUrl = UrlGenerator.profileUrl(userId);
 			
-			userPublicInfo.setProperty("username", "Anonymous Anteater");
+			userPublicInfo.setProperty("username", "Anonymous Elephant");
 			userPublicInfo.setProperty("karma", (long) 0);
-			userPublicInfo.setProperty("profilePictureUrl", "/serve-profile-picture/" + userId);
+			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/elephant.png");
 			userPublicInfo.setProperty("userId", userId);
 			userPublicInfo.setProperty("profileUrl", profileUrl);
-			userPublicInfo.setProperty("email", "AntLover444@gmail.com");
-			
-			datastore.put(userPublicInfo);
+			userPublicInfo.setProperty("email", "jumbodumbo@gmail.com");
 			
 			return userPublicInfo;
 		}
 	}
 
-	public static void updateUsername(User user, String username) {
-		
-		Entity userPublicInfo = getOrCreateMyPublicInfo(user);
-		
+	public static void updateUsername(String username) {
+		Entity userPublicInfo = getOrCreateMyPublicInfo();
 		userPublicInfo.setProperty("username", username);
-		
 		datastore.put(userPublicInfo);
 	}
 
-
-	public static void setUserProfilePictureBlobKey(BlobKey blobKey) {
-		User user = UserServiceFactory.getUserService().getCurrentUser();
-		if (user == null) return;
-		
-		Entity userPublicInfo = getOrCreateMyPublicInfo(user);
-		userPublicInfo.setProperty("profilePictureBlobKey", blobKey);
+	public static void setUserProfilePictureServingUrl(String servingUrl) {
+		Entity userPublicInfo = getOrCreateMyPublicInfo();
+		userPublicInfo.setProperty("profilePictureUrl", servingUrl);
 		datastore.put(userPublicInfo);
-	}
-	
-	public static BlobKey getUserProfilePictureBlobKey(String userId){
-		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
-		return (BlobKey) userPublicInfo.getProperty("profilePictureBlobKey");
 	}
 }
