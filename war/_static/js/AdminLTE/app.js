@@ -97,34 +97,33 @@ $(function() {
     /* Sidebar tree view */
     $(".sidebar .treeview").tree();
 
-    /* 
-     * Make sure that the sidebar is streched full height
-     * ---------------------------------------------
-     * We are gonna assign a min-height value every time the
-     * wrapper gets resized and upon page load. We will use
-     * Ben Alman's method for detecting the resize event.
-     * 
-     **/
+    /*
+	* Make sure that the sidebar is streched full height
+	* ---------------------------------------------
+	* We are gonna assign a min-height value every time the
+	* wrapper gets resized and upon page load. We will use
+	* Ben Alman's method for detecting the resize event.
+	*
+	**/
     function _fix() {
-        //Get window height and the wrapper height
-        var height = $(window).height() - $("body > .header").height() - ($("body > .footer").outerHeight() || 0);
-        $(".wrapper").css("min-height", height + "px");
-        var content = $(".wrapper").height();
-        //If the wrapper height is greater than the window
-        if (content > height)
-            //then set sidebar height to the wrapper
-            $(".left-side, html, body").css("min-height", content + "px");
-        else {
-            //Otherwise, set the sidebar to the height of the window
-            $(".left-side, html, body").css("min-height", height + "px");
-        }
+		//Get window height and the wrapper height
+		var neg = $('.main-header').height() - ($('.main-footer').height());				
+		var window_height = $(window).height()
+		var sidebar_height = $(".left-side").height();
+		if (window_height >= sidebar_height) {
+				$(".content, .left-side").css('min-height', window_height - neg);
+		} else {
+				$(".content, .left-side").css('min-height', sidebar_height - neg);
+		}
     }
     //Fire upon load
     _fix();
     //Fire when wrapper is resized
-    $(".wrapper").resize(function() {
-        _fix();
-        fix_sidebar();
+    $(window).resize(function(){
+    	window.setTimeout(function() {
+    		_fix();
+    		fix_sidebar();
+    	}, 1000);
     });
 
     //Fix the fixed layout sidebar scroll bug
@@ -157,11 +156,18 @@ function fix_sidebar() {
         return;
     }
 
+    var style = {
+        "height": ($(window).height() - $(".header").height()) + "px"
+    }
+
     //Add slimscroll
     $(".sidebar").slimscroll({
         height: ($(window).height() - $(".header").height()) + "px",
         color: "rgba(0,0,0,0.2)"
     });
+    
+    $(".sidebar").parent().css(style)
+    $(".sidebar").css(style);
 }
 
 /*END DEMO*/
