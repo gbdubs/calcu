@@ -79,7 +79,7 @@ public class ContentAPI {
 
 	public static String getBoxColor(String contentType){
 		if (contentType.equals("question")){
-			return "primary";
+			return "info";
 		} else if (contentType.equals("answer")){
 			return "danger";
 		} else if (contentType.equals("textContent")){
