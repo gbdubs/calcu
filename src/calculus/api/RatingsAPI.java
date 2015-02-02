@@ -21,15 +21,18 @@ public class RatingsAPI {
 		updateKarmaFromRating(userId, contentUuid, quality);
 	}
 	
-	private static void updateKarmaFromRating(String userId, String contentUuid, int quality) {
-		if (!testAndSetContentRatedByUser(contentUuid, userId)){
+	private static void updateKarmaFromRating(String raterId, String contentUuid, int quality) {
+		if (!testAndSetContentRatedByUser(contentUuid, raterId)){
 			int differential = (int) (400.0 * (quality - 30)/70.0);
 			Entity content = getOrCreateContentRatingProfile(contentUuid);
 			long originalKarma = (long) content.getProperty("karma");
 			content.setProperty("karma", originalKarma + differential);
 			datastore.put(content);
-			int displayed = (int) ((originalKarma + differential) / 100.0);
-			ContentAPI.updateKarma(contentUuid, displayed);
+			int newKarma = (int) ((originalKarma + differential) / 100.0);
+			int oldKarma = (int) ContentAPI.testAndSetKarma(contentUuid, newKarma);
+			String authorId = ContentAPI.getContentAuthorId(contentUuid);
+			int improovment = newKarma - oldKarma;
+			KarmaAPI.incrementUserKarma(authorId, improovment);
 		}
 	}
 
