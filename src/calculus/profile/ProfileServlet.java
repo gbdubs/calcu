@@ -23,7 +23,6 @@ public class ProfileServlet extends HttpServlet{
 		String profileRequested = req.getRequestURI();
 		profileRequested = profileRequested.substring(profileRequested.indexOf("/user/") + 6);
 		
-		
 		boolean sameUser;
 		User viewer = UserServiceFactory.getUserService().getCurrentUser();
 		if (viewer == null){

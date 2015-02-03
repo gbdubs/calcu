@@ -16,6 +16,8 @@ import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
 import com.google.appengine.api.images.ImagesService;
 import com.google.appengine.api.images.ImagesServiceFactory;
 import com.google.appengine.api.images.ServingUrlOptions;
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class UploadProfilePictureServlet extends HttpServlet {
@@ -27,6 +29,9 @@ public class UploadProfilePictureServlet extends HttpServlet {
 		Map<String, List<BlobKey>> blobFields = bs.getUploads(req);
 		List<BlobKey> blobKeys = blobFields.get("profilePictureUpload");
 		String userId = req.getParameter("userId");
+		
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (!userId.equals(user.getUserId())) return;
 		
 		BlobKey newKey = null;
 		for (BlobKey blobKey : blobKeys){

@@ -19,6 +19,7 @@ public class ChangeEmailPreferencesServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException{
 		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null) return;
 		
 		Map<String, String> preferences = new HashMap<String, String>();
 		

@@ -94,8 +94,4 @@ public class ViewContentServlet extends HttpServlet {
 			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
 		}
 	}
-	
-	public static void performRender(HttpServletRequest req, HttpServletResponse resp){
-		
-	}
 }

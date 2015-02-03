@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
+
 import calculus.api.BookmarksAPI;
 
 @SuppressWarnings("serial")
@@ -16,6 +19,9 @@ public class BookmarkServlet extends HttpServlet{
 		String userId = req.getParameter("userId");
 		String contentUuid = req.getParameter("contentUuid");
 		String action = req.getParameter("action");
+		
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null || user.getUserId().equals(userId)) return;
 		
 		if (action.equals("add")){
 			BookmarksAPI.addBookmarkForUser(contentUuid, userId);

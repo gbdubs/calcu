@@ -18,8 +18,7 @@ import calculus.utilities.UuidTools;
 @SuppressWarnings("serial")
 public class ReportContentServlet extends HttpServlet {
 
-	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
-			throws ServletException, IOException{
+	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		
 		String contentUuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 		
@@ -30,6 +29,8 @@ public class ReportContentServlet extends HttpServlet {
 		if (req.getParameter("inaccurateContent") != null) reason = "inaccurateContent";
 		if (req.getParameter("inappropriateContent") != null) reason = "inappropriateContent";
 		if (req.getParameter("proprietaryContent") != null) reason = "proprietaryContent";
+		
+		if (user == null) return;
 		
 		ReportAPI.fileReport(user, contentUuid, reason);
 		

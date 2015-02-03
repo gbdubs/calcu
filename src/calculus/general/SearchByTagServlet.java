@@ -19,8 +19,7 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 @SuppressWarnings("serial")
 public class SearchByTagServlet extends HttpServlet {
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		UserContextAPI.addUserContextToRequest(req, "/search");
 		

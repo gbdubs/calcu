@@ -23,6 +23,7 @@ public class ExploreServlet extends HttpServlet {
 			throws IOException, ServletException {
 		
 		UserContextAPI.addUserContextToRequest(req, "/about");
+		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		String userId = "";
 		if (user != null) userId = user.getUserId();

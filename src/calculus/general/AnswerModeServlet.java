@@ -21,18 +21,19 @@ import com.google.appengine.api.users.UserServiceFactory;
 @SuppressWarnings("serial")
 public class AnswerModeServlet extends HttpServlet{
 	
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		if (UserServiceFactory.getUserService().getCurrentUser() == null){
 			resp.sendRedirect("/page-not-found"); return;
 		}
-		
 		redirectToNewProblemOrDashboard(req, resp, 0);
 	}
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null) return;
+				
 		String uuid = (String) req.getParameter("parentUuid");
-		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
+		String userId = user.getUserId();
 		int streak = Integer.parseInt((String) req.getParameter("answerModeStreak"));
 		if (req.getParameter("action").equals("skip")){
 			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
