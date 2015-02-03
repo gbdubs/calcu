@@ -55,17 +55,17 @@ public class TextContentAPI {
 
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		entity.setProperty("uuid", uuid);
+		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "textContent");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/text-content/" + uuid);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("url", "/text-content/" + uuid);
+		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("karma", 1);
 		
 		datastore.put(entity);
@@ -100,12 +100,12 @@ public class TextContentAPI {
 		String tags = req.getParameter("tagsInput");
 		
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("tags", tags);
 
 		datastore.put(entity);
 		

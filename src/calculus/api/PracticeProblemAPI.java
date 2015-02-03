@@ -108,18 +108,18 @@ public class PracticeProblemAPI {
 			
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		entity.setProperty("uuid", uuid);
+		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "practiceProblem");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
-		entity.setProperty("authorSolution", wrappedAuthorSolution);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
+		entity.setUnindexedProperty("authorSolution", wrappedAuthorSolution);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/practice-problem/" + uuid);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("url", "/practice-problem/" + uuid);
+		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("karma", 1);
 		
 		if (submitted && viewable){
@@ -156,13 +156,13 @@ public class PracticeProblemAPI {
 		String tags = req.getParameter("tagsInput");
 	
 		entity.setProperty("createdAt", dateAndTime);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
-		entity.setProperty("authorSolution", wrappedAuthorSolution);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
+		entity.setUnindexedProperty("authorSolution", wrappedAuthorSolution);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("tags", tags);
 		
 		if (submitted && viewable){
 			String[] tagList = tags.split(",");
@@ -222,18 +222,18 @@ public class PracticeProblemAPI {
 			
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		entity.setProperty("uuid", uuid);
+		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "practiceProblem");
 		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
-		entity.setProperty("authorSolution", wrappedAuthorSolution);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
+		entity.setUnindexedProperty("authorSolution", wrappedAuthorSolution);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/practice-problem/" + uuid);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("url", "/practice-problem/" + uuid);
+		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("karma", 1);
 		
 		

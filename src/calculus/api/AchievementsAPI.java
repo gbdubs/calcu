@@ -24,12 +24,12 @@ public class AchievementsAPI {
 		Key key = KeyFactory.createKey("Achievement", AchievementId);
 		
 		Entity entity = new Entity(key);
-		entity.setProperty("name", name);
-		entity.setProperty("icon", icon);
-		entity.setProperty("color", color);
-		entity.setProperty("secondaryColor", secondaryColor);
-		entity.setProperty("qualification", qualification);
-		entity.setProperty("description", description);
+		entity.setUnindexedProperty("name", name);
+		entity.setUnindexedProperty("icon", icon);
+		entity.setUnindexedProperty("color", color);
+		entity.setUnindexedProperty("secondaryColor", secondaryColor);
+		entity.setUnindexedProperty("qualification", qualification);
+		entity.setUnindexedProperty("description", description);
 		entity.setProperty("uuid", AchievementId);
 		
 		datastore.put(entity);

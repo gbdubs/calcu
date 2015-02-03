@@ -39,12 +39,12 @@ public class UserPublicInfoAPI {
 		} catch (EntityNotFoundException e){
 			String profileUrl = "/user/" + userId;
 			
-			userPublicInfo.setProperty("username", user.getEmail());
+			userPublicInfo.setUnindexedProperty("username", user.getEmail());
 			userPublicInfo.setProperty("karma", (long) 0);
-			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/default-avatar.png");
-			userPublicInfo.setProperty("userId", userId);
-			userPublicInfo.setProperty("profileUrl", profileUrl);
-			userPublicInfo.setProperty("email", user.getEmail());
+			userPublicInfo.setUnindexedProperty("profilePictureUrl", "/_static/img/default-avatar.png");
+			userPublicInfo.setUnindexedProperty("userId", userId);
+			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
+			userPublicInfo.setUnindexedProperty("email", user.getEmail());
 			
 			datastore.put(userPublicInfo);
 			
@@ -73,12 +73,12 @@ public class UserPublicInfoAPI {
 		} catch (EntityNotFoundException e){
 			String profileUrl = UrlGenerator.profileUrl(userId);
 			
-			userPublicInfo.setProperty("username", "Anonymous Elephant");
+			userPublicInfo.setUnindexedProperty("username", "Anonymous Elephant");
 			userPublicInfo.setProperty("karma", (long) 0);
-			userPublicInfo.setProperty("profilePictureUrl", "/_static/img/elephant.png");
-			userPublicInfo.setProperty("userId", userId);
-			userPublicInfo.setProperty("profileUrl", profileUrl);
-			userPublicInfo.setProperty("email", "jumbodumbo@gmail.com");
+			userPublicInfo.setUnindexedProperty("profilePictureUrl", "/_static/img/elephant.png");
+			userPublicInfo.setUnindexedProperty("userId", userId);
+			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
+			userPublicInfo.setUnindexedProperty("email", "jumbodumbo@gmail.com");
 			
 			return userPublicInfo;
 		}
@@ -86,13 +86,13 @@ public class UserPublicInfoAPI {
 
 	public static void updateUsername(String username) {
 		Entity userPublicInfo = getOrCreateMyPublicInfo();
-		userPublicInfo.setProperty("username", username);
+		userPublicInfo.setUnindexedProperty("username", username);
 		datastore.put(userPublicInfo);
 	}
 
 	public static void setUserProfilePictureServingUrl(String servingUrl) {
 		Entity userPublicInfo = getOrCreateMyPublicInfo();
-		userPublicInfo.setProperty("profilePictureUrl", servingUrl);
+		userPublicInfo.setUnindexedProperty("profilePictureUrl", servingUrl);
 		datastore.put(userPublicInfo);
 	}
 
@@ -103,7 +103,7 @@ public class UserPublicInfoAPI {
 	
 	public static void setProfilePictureBlobKey(BlobKey blobKey){
 		Entity userPublicInfo = getOrCreateMyPublicInfo();
-		userPublicInfo.setProperty("profilePictureBlobKey", blobKey);
+		userPublicInfo.setUnindexedProperty("profilePictureBlobKey", blobKey);
 		datastore.put(userPublicInfo);
 	}
 }

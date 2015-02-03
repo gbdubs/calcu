@@ -22,7 +22,6 @@ import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Query.SortDirection;
 import com.google.appengine.api.datastore.Text;
-import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class QuestionAPI {
@@ -53,17 +52,17 @@ public class QuestionAPI {
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		entity.setProperty("uuid", uuid);
+		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "question");
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/question/" + uuid);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("url", "/question/" + uuid);
+		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("requests", 1);
 		entity.setProperty("karma", 1);
 		
@@ -99,12 +98,12 @@ public class QuestionAPI {
 		String tags = req.getParameter("tagsInput");
 		
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("tags", tags);
 
 		datastore.put(entity);
 		
@@ -200,17 +199,17 @@ public class QuestionAPI {
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		entity.setProperty("uuid", uuid);
+		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "question");
 		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
-		entity.setProperty("url", "/question/" + uuid);
-		entity.setProperty("tags", tags);
+		entity.setUnindexedProperty("url", "/question/" + uuid);
+		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("requests", 1);
 		entity.setProperty("karma", 1);
 		

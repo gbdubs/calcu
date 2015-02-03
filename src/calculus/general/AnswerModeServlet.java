@@ -37,7 +37,7 @@ public class AnswerModeServlet extends HttpServlet{
 		if (req.getParameter("action").equals("skip")){
 			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
 		} else if (req.getParameter("action").equals("done")){
-			Answer answer = Answer.createAnswerFromRequest(req);
+			Answer.createAnswerFromRequest(req);
 			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
 			streak++;
 		}

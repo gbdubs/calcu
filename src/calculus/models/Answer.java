@@ -55,19 +55,19 @@ public class Answer extends Content {
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		entity.setProperty("uuid", uuid);
+		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("karma", 0);
 		entity.setProperty("parentUuid", parentUuid);
 		entity.setProperty("contentType", "answer");
 		entity.setProperty("creatorUserId", userId);
 		entity.setProperty("createdAt", time);
-		entity.setProperty("title", title);
-		entity.setProperty("body", wrappedBody);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("approved", false);
-		entity.setProperty("url", "/content/"+parentUuid);
+		entity.setUnindexedProperty("url", "/content/"+parentUuid);
 		
 		datastore.put(entity);
 		

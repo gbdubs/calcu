@@ -33,7 +33,7 @@ public class UserPrivateInfoAPI {
 		for (String property : preferences.keySet()){
 			if (PRIVATE_FIELDS.contains(property)){
 				if (userPrivateInfo.getProperty(property) != preferences.get(property)){
-					userPrivateInfo.setProperty(property, preferences.get(property));
+					userPrivateInfo.setUnindexedProperty(property, preferences.get(property));
 					changed = true;
 				}
 			} else {
@@ -60,10 +60,10 @@ public class UserPrivateInfoAPI {
 			return userPrivateInfo;
 		} catch (EntityNotFoundException e){
 			List<String> bookmarks = new ArrayList<String>();
-			userPrivateInfo.setProperty("emailKarma", "none");
-			userPrivateInfo.setProperty("emailRecommend", "weekly");
-			userPrivateInfo.setProperty("emailReply", "none");
-			userPrivateInfo.setProperty("bookmarks", bookmarks);
+			userPrivateInfo.setUnindexedProperty("emailKarma", "none");
+			userPrivateInfo.setUnindexedProperty("emailRecommend", "weekly");
+			userPrivateInfo.setUnindexedProperty("emailReply", "none");
+			userPrivateInfo.setUnindexedProperty("bookmarks", bookmarks);
 			UserPrivateInfoAPI.datastore.put(userPrivateInfo);
 			return userPrivateInfo;
 		}
@@ -74,7 +74,7 @@ public class UserPrivateInfoAPI {
 		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
 		if (skipped == null) skipped = new ArrayList<String>();
 		skipped.add(uuid);
-		userPrivateInfo.setProperty("answerModeSkipped", skipped);
+		userPrivateInfo.setUnindexedProperty("answerModeSkipped", skipped);
 		datastore.put(userPrivateInfo);
 	}
 	
@@ -83,7 +83,7 @@ public class UserPrivateInfoAPI {
 		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
 		if (skipped == null) skipped = new ArrayList<String>();
 		skipped.add(uuid);
-		userPrivateInfo.setProperty("answerModeAnswered", skipped);
+		userPrivateInfo.setUnindexedProperty("answerModeAnswered", skipped);
 		datastore.put(userPrivateInfo);
 	}
 	
@@ -110,7 +110,7 @@ public class UserPrivateInfoAPI {
 
 	public static void setBookmarkUuids(String userId, List<String> bookmarks) {
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		userPrivateInfo.setProperty("bookmarks", bookmarks);
+		userPrivateInfo.setUnindexedProperty("bookmarks", bookmarks);
 		datastore.put(userPrivateInfo);
 	}
 
@@ -123,7 +123,7 @@ public class UserPrivateInfoAPI {
 
 	public static void setUserAchievementUuids(String userId, List<String> achievements) {
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		userPrivateInfo.setProperty("Achievements", achievements);
+		userPrivateInfo.setUnindexedProperty("Achievements", achievements);
 		datastore.put(userPrivateInfo);
 	}
 }
