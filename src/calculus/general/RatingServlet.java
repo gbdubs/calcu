@@ -7,11 +7,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.RatingsAPI;
+
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
-
-import calculus.api.KarmaAPI;
-import calculus.api.RatingsAPI;
 
 @SuppressWarnings("serial")
 public class RatingServlet extends HttpServlet {

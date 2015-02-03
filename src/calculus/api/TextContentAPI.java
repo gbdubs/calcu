@@ -7,8 +7,6 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
-import calculus.models.Question;
-import calculus.models.TextContent;
 import calculus.models.TextContent;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -17,12 +15,11 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
-import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
-import com.google.appengine.api.users.User;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class TextContentAPI {

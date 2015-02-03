@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.UserPublicInfoAPI;
 import calculus.utilities.UrlGenerator;
 
-import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
