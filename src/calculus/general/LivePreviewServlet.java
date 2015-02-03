@@ -19,24 +19,36 @@ import calculus.models.TextContent;
 import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class LivePreviewServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
-		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null){
+			resp.sendRedirect("/page-not-found");
+			return;
+		}
+		String userId = user.getUserId();
 		
 		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
 			
 		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 		
-		if (uuid == null){
+		if (uuid == null || uuid.length() != 36){
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			jsp.forward(req, resp);
 			return;
-		} 
+		}
+		
+		String authorId = ContentAPI.getContentAuthorId(uuid);
+		if (authorId.equals(userId)){
+			resp.sendRedirect("/page-not-found");
+		}
+		
 			
 		String contentType;
 		try {

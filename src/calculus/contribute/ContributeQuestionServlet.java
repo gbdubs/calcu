@@ -82,15 +82,17 @@ public class ContributeQuestionServlet extends HttpServlet {
 		
 		User submitter = UserServiceFactory.getUserService().getCurrentUser();
 		String uuid = req.getParameter("uuid");
-		String authorUserId = ContentAPI.getContentAuthorId(uuid);
 		
 		if (submitter == null){
 			System.out.println("A user not logged in attempted to post a practice problem");
 			return;
 		}
-		if (!submitter.getUserId().equals(authorUserId) && uuid != null){
-			System.out.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
-			return;
+		if (uuid != null && !uuid.equals("")){
+			String authorUserId = ContentAPI.getContentAuthorId(uuid);
+			if (!submitter.getUserId().equals(authorUserId)){
+				System.out.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
+				return;
+			}
 		}
 		// If we get here, we have the permissions to proceed.
 		
