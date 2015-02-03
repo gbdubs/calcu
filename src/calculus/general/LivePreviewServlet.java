@@ -49,7 +49,7 @@ public class LivePreviewServlet extends HttpServlet{
 			resp.sendRedirect("/page-not-found");
 		}
 		
-			
+		
 		String contentType;
 		try {
 			contentType = ContentAPI.getContentType(uuid);

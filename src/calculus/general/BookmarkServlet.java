@@ -21,7 +21,7 @@ public class BookmarkServlet extends HttpServlet{
 		String action = req.getParameter("action");
 		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
-		if (user == null || user.getUserId().equals(userId)) return;
+		if (user == null || !user.getUserId().equals(userId)) return;
 		
 		if (action.equals("add")){
 			BookmarksAPI.addBookmarkForUser(contentUuid, userId);
