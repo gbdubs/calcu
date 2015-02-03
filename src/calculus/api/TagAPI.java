@@ -28,7 +28,7 @@ public class TagAPI {
 			entity.setProperty("name", cleanedTag);
 		}
 		uuids.add(contentUuid);
-		entity.setProperty("matchingContent", uuids);
+		entity.setUnindexedProperty("matchingContent", uuids);
 		datastoreService.put(entity);
 	}
 
