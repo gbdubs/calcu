@@ -79,7 +79,6 @@ public class UserPublicInfoAPI {
 			userPublicInfo.setUnindexedProperty("userId", userId);
 			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
 			userPublicInfo.setUnindexedProperty("email", "jumbodumbo@gmail.com");
-			
 			return userPublicInfo;
 		}
 	}
