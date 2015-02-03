@@ -13,6 +13,27 @@ public class KarmaAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 
+	public static int getLevel(int karma){
+		int level = 0;
+		while (karma > 0){
+			level = level + 1;
+			karma -= level * 10;
+		}
+		return level;
+	}
+	
+	public static int getKarmaThresholdForLevel(int level){
+		int karma = 0;
+		for(int i = 1; i < level; i++){
+			karma += i * 10;
+		}
+		return karma;
+	}
+	
+	public static int getLevel(String userId){
+		return getLevel(calculateTotalKarma(userId));
+	}
+	
 	public static void incrementContentKarma(String contentUuid, int differential){
 		try {
 			Content c = new Content(contentUuid);
@@ -100,6 +121,18 @@ public class KarmaAPI {
 			datastore.put(result);
 			return result;
 		}
+	}
+	
+	private static int calculateTotalKarma (String userId){
+		Entity karmaProfile = getUserKarmaProfile(userId);
+		int pp = intValue(karmaProfile, "karmaFromPracticeProblems");
+		int q = intValue(karmaProfile, "karmaFromQuestions");
+		int tc = intValue(karmaProfile, "karmaFromTextContent");
+		int a = intValue(karmaProfile, "karmaFromAnswers");
+		int r = intValue(karmaProfile, "karmaFromRatingOthers");
+		int am = intValue(karmaProfile, "karmaFromAnswerMode");
+		int aa = intValue(karmaProfile, "karmaFromApprovedAnswers");
+		return pp + q + tc + a + r + am + aa;
 	}
 
 	private static int intValue(Entity e, String p){

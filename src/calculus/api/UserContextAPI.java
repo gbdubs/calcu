@@ -56,10 +56,16 @@ public class UserContextAPI {
 		}
 
 		req.setAttribute("username", username);
-		req.setAttribute("karma", KarmaDescription.toMediumString(karma)); 
+		req.setAttribute("karma", KarmaDescription.toMediumString(karma));
 		req.setAttribute("profilePictureUrl", profilePictureUrl);
 		req.setAttribute("profileUrl", profileUrl);
 		req.setAttribute("email", email);
+		
+		int level = KarmaAPI.getLevel(karma);
+		req.setAttribute("userLevel", level);
+		req.setAttribute("karmaNumber", karma);
+		req.setAttribute("lastLevelKarmaThreshold", KarmaAPI.getKarmaThresholdForLevel(level)); 
+		req.setAttribute("nextLevelKarmaThreshold", KarmaAPI.getKarmaThresholdForLevel(level+1)); 
 	}
 	
 	private static void addUserNotificationsToRequest(HttpServletRequest req, User user){

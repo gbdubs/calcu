@@ -729,9 +729,18 @@ body > .header .logo .icon {
   margin-right: 3px;
 }
 
+.user-panel > .info .level-display{
+	position: absolute;
+	left: 5px;
+	top: 3px;
+	color: white;
+}
+
 .user-panel > .info .progress-striped{
     margin-bottom: 0;
     width: 144px;
+    position: relative;
+    background-color: #888888;
 }
 /*
  * Off Canvas
