@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
@@ -41,6 +42,12 @@ public class Answer extends Content {
 		
 		String uuid = UUID.randomUUID().toString();
 		String parentUuid = req.getParameter("parentUuid");
+		String parentUrl = "";
+		try {
+			parentUrl = (new Content(parentUuid)).getUrl();
+		} catch (EntityNotFoundException e) {
+			throw new RuntimeException("Orphaned Answer attempeted to be created.");
+		}
 		long time = System.currentTimeMillis();
 		
 		boolean anonymous = (req.getParameter("anonymousSubmit") != null);
@@ -67,7 +74,7 @@ public class Answer extends Content {
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("approved", false);
-		entity.setUnindexedProperty("url", "/content/"+parentUuid);
+		entity.setUnindexedProperty("url", parentUrl);
 		
 		datastore.put(entity);
 		

@@ -31,8 +31,6 @@ public class RatingServlet extends HttpServlet {
 			int d = Integer.parseInt(difficulty);
 			int q = Integer.parseInt(quality);
 			RatingsAPI.submitRating(contentUuid, raterId, h,d,q);
-			// Give the Rater instant karma for submitting the rating
-			KarmaAPI.incrementUserKarmaForRatingOthers(raterId, 1);
 		} catch (NumberFormatException nfe){
 			return;
 		}
