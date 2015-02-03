@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
+import calculus.api.KarmaAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
@@ -105,7 +106,9 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 			// Simply reroute back to the dashboard.
 			resp.sendRedirect("/contribute/dashboard");
 		} else {
-			// Otherwise, we have submitted, so we redirect to a thank you page.
+			// Otherwise, we have submitted, so give the user their instant burst of karma
+			KarmaAPI.incrementContentKarma(uuid, 5);
+			// And redirect to a thankyou page
 			resp.setContentType("text/html");
 			UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 			req.setAttribute("readableContentType", "a practice problem");

@@ -39,7 +39,7 @@ public class KarmaAPI {
 			} else {
 				return;
 			}
-			long oldValue = (long) karmaProfile.getProperty(propertyToIncrement);
+			int oldValue = (int) karmaProfile.getProperty(propertyToIncrement);
 			karmaProfile.setProperty(propertyToIncrement, oldValue + differential);
 			datastore.put(karmaProfile);
 		} catch (EntityNotFoundException e) {
@@ -50,7 +50,7 @@ public class KarmaAPI {
 	public static void incrementUserKarmaForRatingOthers(String raterId, int differential){
 		// Increments the "KarmaProfile" entity
 		Entity karmaProfile = getUserKarmaProfile(raterId);
-		karmaProfile.setUnindexedProperty("karmaFromRatingOthers", (long) karmaProfile.getProperty("karmaFromRatingOthers") + differential);
+		karmaProfile.setUnindexedProperty("karmaFromRatingOthers", (int) karmaProfile.getProperty("karmaFromRatingOthers") + differential);
 		datastore.put(karmaProfile);
 		
 		// Updates the "UserPublicInfo" entity
@@ -60,7 +60,7 @@ public class KarmaAPI {
 	public static void incrementUserKarmaFromAnswerMode(String answererId, int differential){
 		// Increments the "KarmaProfile" entity
 		Entity karmaProfile = getUserKarmaProfile(answererId);
-		karmaProfile.setUnindexedProperty("karmaFromAnswerMode", (long) karmaProfile.getProperty("karmaFromAnswerMode") + differential);
+		karmaProfile.setUnindexedProperty("karmaFromAnswerMode", (int) karmaProfile.getProperty("karmaFromAnswerMode") + differential);
 		datastore.put(karmaProfile);
 		
 		// Updates the "UserPublicInfo" entity
@@ -70,7 +70,7 @@ public class KarmaAPI {
 	public static void incrementUserKarmaFromApprovedAnswers(String answererId, int differential){
 		// Increments the "KarmaProfile" entity
 		Entity karmaProfile = getUserKarmaProfile(answererId);
-		karmaProfile.setUnindexedProperty("karmaFromApprovedAnswers", (long) karmaProfile.getProperty("karmaFromApprovedAnswers") + differential);
+		karmaProfile.setUnindexedProperty("karmaFromApprovedAnswers", (int) karmaProfile.getProperty("karmaFromApprovedAnswers") + differential);
 		datastore.put(karmaProfile);
 		
 		// Updates the "UserPublicInfo" entity
@@ -79,7 +79,7 @@ public class KarmaAPI {
 	
 	private static void incrementUserKarma(String userId, int differential) {
 		Entity userPublicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo(userId);
-		long karma = (long) userPublicInfo.getProperty("karma");
+		int karma = ((Long) userPublicInfo.getProperty("karma")).intValue();
 		userPublicInfo.setProperty("karma", karma + differential);
 		datastore.put(userPublicInfo);
 	}
@@ -101,4 +101,17 @@ public class KarmaAPI {
 			return result;
 		}
 	}
+
+	private static int intValue(Entity e, String p){
+		Object o = e.getProperty(p);
+		if (o instanceof Long){
+			return ((Long) o).intValue();
+		} else if (o instanceof Integer){
+			return ((Integer) o).intValue();
+		} else {
+			return (int) o;
+		}
+	}
+
+
 }

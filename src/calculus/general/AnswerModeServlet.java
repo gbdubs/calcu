@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.KarmaAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
@@ -40,6 +41,7 @@ public class AnswerModeServlet extends HttpServlet{
 		} else if (req.getParameter("action").equals("done")){
 			Answer.createAnswerFromRequest(req);
 			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
+			KarmaAPI.incrementUserKarmaFromAnswerMode(userId, Math.min(streak, 10));
 			streak++;
 		}
 		redirectToNewProblemOrDashboard(req, resp, streak);

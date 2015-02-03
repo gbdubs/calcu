@@ -30,7 +30,7 @@
 					<li>Contributing a problem, question, or other content gets you <b>5</b> Karma immediately.</li>
 					<li>When other users rate your content, you will get <b>between -2 and 4</b> Karma, depending on the quality of their rating.</li>
 					<li>Answering a question gives you <b>3</b> Karma immediately, and between <b>-2 and 4</b> Karma per other user's Rating.</li>
-					<li>Answer questions in Turbo Mode gets you an additional karma boost of <b>between 3 and 10</b> Karma immediately.
+					<li>Answer questions in Turbo Mode gets you an additional karma boost of <b>between 1 and 10</b> Karma immediately.
 					<li>If your answer becomes an "approved answer", you get an additional <b>10</b> Karma immediately.</li>
 				</ul>
 			</div>

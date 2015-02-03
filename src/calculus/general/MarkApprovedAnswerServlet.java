@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
+import calculus.api.KarmaAPI;
 import calculus.models.Answer;
 import calculus.utilities.UuidTools;
 
@@ -27,12 +28,14 @@ public class MarkApprovedAnswerServlet extends HttpServlet{
 		
 		String parentUuid = answer.getParentUuid();
 		String parentAuthorUserId = ContentAPI.getContentAuthorId(parentUuid);
-		if (parentAuthorUserId.equals(user.getUserId())) return;
+		if (!parentAuthorUserId.equals(user.getUserId())) return;
 		
 		if (req.getRequestURI().contains("/not/")){
 			answer.markNotApproved();
+			KarmaAPI.incrementUserKarmaFromApprovedAnswers(answer.getAuthor().getUserId(), -10);
 		} else {
 			answer.markApproved();
+			KarmaAPI.incrementUserKarmaFromApprovedAnswers(answer.getAuthor().getUserId(), 10);
 		}
 		
 		String redirectUrl = "/content/" + answer.getParentUuid();

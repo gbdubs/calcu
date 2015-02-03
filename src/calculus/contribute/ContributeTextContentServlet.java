@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
+import calculus.api.KarmaAPI;
 import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.TextContent;
@@ -108,7 +109,10 @@ public class ContributeTextContentServlet extends HttpServlet {
 			// Redirects the user to see their past created content
 			resp.sendRedirect("/contribute/dashboard");
 		} else {
-			// Otherwise we have submitted, so we thank the user for their contribution
+			// Otherwise, we have submitted, so give the user their instant burst of karma
+			KarmaAPI.incrementContentKarma(uuid, 5);
+			
+			// and direct them to a thank-you page
 			resp.setContentType("text/html");
 			UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/content-thanks.jsp");
