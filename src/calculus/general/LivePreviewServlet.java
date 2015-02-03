@@ -45,7 +45,7 @@ public class LivePreviewServlet extends HttpServlet{
 		}
 		
 		String authorId = ContentAPI.getContentAuthorId(uuid);
-		if (authorId.equals(userId)){
+		if (!authorId.equals(userId)){
 			resp.sendRedirect("/page-not-found");
 		}
 		
