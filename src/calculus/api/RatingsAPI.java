@@ -32,6 +32,8 @@ public class RatingsAPI {
 			int newKarma = (int) ((originalKarma + differential) / 100.0);
 			int visibleChange = newKarma - oldKarma;
 			KarmaAPI.incrementContentKarma(contentUuid, visibleChange);
+			// Give the Rater instant karma for submitting the rating
+			KarmaAPI.incrementUserKarmaForRatingOthers(raterId, 1);
 		}
 	}
 

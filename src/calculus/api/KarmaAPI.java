@@ -39,8 +39,8 @@ public class KarmaAPI {
 			} else {
 				return;
 			}
-			int oldValue = (int) karmaProfile.getProperty(propertyToIncrement);
-			karmaProfile.setProperty(propertyToIncrement, oldValue + differential);
+			int oldValue = intValue(karmaProfile, propertyToIncrement);
+			karmaProfile.setUnindexedProperty(propertyToIncrement, oldValue + differential);
 			datastore.put(karmaProfile);
 		} catch (EntityNotFoundException e) {
 			// Don't worry aobut it, and dont' increment any karma!
@@ -50,7 +50,7 @@ public class KarmaAPI {
 	public static void incrementUserKarmaForRatingOthers(String raterId, int differential){
 		// Increments the "KarmaProfile" entity
 		Entity karmaProfile = getUserKarmaProfile(raterId);
-		karmaProfile.setUnindexedProperty("karmaFromRatingOthers", (int) karmaProfile.getProperty("karmaFromRatingOthers") + differential);
+		karmaProfile.setUnindexedProperty("karmaFromRatingOthers", intValue(karmaProfile,"karmaFromRatingOthers") + differential);
 		datastore.put(karmaProfile);
 		
 		// Updates the "UserPublicInfo" entity
@@ -60,7 +60,7 @@ public class KarmaAPI {
 	public static void incrementUserKarmaFromAnswerMode(String answererId, int differential){
 		// Increments the "KarmaProfile" entity
 		Entity karmaProfile = getUserKarmaProfile(answererId);
-		karmaProfile.setUnindexedProperty("karmaFromAnswerMode", (int) karmaProfile.getProperty("karmaFromAnswerMode") + differential);
+		karmaProfile.setUnindexedProperty("karmaFromAnswerMode", intValue(karmaProfile, "karmaFromAnswerMode") + differential);
 		datastore.put(karmaProfile);
 		
 		// Updates the "UserPublicInfo" entity
@@ -70,7 +70,7 @@ public class KarmaAPI {
 	public static void incrementUserKarmaFromApprovedAnswers(String answererId, int differential){
 		// Increments the "KarmaProfile" entity
 		Entity karmaProfile = getUserKarmaProfile(answererId);
-		karmaProfile.setUnindexedProperty("karmaFromApprovedAnswers", (int) karmaProfile.getProperty("karmaFromApprovedAnswers") + differential);
+		karmaProfile.setUnindexedProperty("karmaFromApprovedAnswers", intValue(karmaProfile, "karmaFromApprovedAnswers") + differential);
 		datastore.put(karmaProfile);
 		
 		// Updates the "UserPublicInfo" entity
