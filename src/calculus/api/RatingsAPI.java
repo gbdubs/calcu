@@ -125,6 +125,19 @@ public class RatingsAPI {
 		datastore.put(content);
 		return alreadyThere;
 	}
+	
+	public static boolean contentRatedByUser(String contentUuid, String userId){
+		Entity content = getOrCreateContentRatingProfile(contentUuid);
+		List<String> ratedBy = (List<String>) content.getProperty("ratedBy");
+		if (ratedBy == null) {
+			return false;
+		}
+		if (ratedBy.contains(userId)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 
 	private static Entity getOrCreateUserRatingProfile(String userId){
 		Key userKey = KeyFactory.createKey("UserRatingProfile", userId);

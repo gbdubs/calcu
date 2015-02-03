@@ -2,7 +2,7 @@ $(function() {
     "use strict";
     
     $(".rating-system-horizontal").each(function(){
-    	var button = $("button", this);
+    	var button = $(".submit-rating", this);
     	var contentUuid = $(this).data("uuid");
     	var userId = $(this).data("user");
     	

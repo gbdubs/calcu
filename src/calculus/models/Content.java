@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.List;
 
 import calculus.api.ContentAPI;
+import calculus.api.RatingsAPI;
 import calculus.utilities.KarmaDescription;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -15,6 +16,8 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 public class Content {
 	
@@ -206,5 +209,11 @@ public class Content {
 		long karma = (long) this.entity.getProperty("karma");
 		this.entity.setProperty("karma", karma + differential);
 		datastoreService.put(entity);
+	}
+
+	public boolean getAlreadyRatedByCurrentUser(){
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user == null) return false;
+		return RatingsAPI.contentRatedByUser(this.getUuid(), user.getUserId());
 	}
 }

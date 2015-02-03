@@ -172,6 +172,7 @@
 							<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
 								<jsp:param name="contentUuid" value="${question.uuid}" />
 								<jsp:param name="userId" value="${user.userId}" />
+								<jsp:param name="alreadyRated" value="${question.alreadyRatedByCurrentUser}"/>
 							</jsp:include>
 							<span class="preserve-line-formatting">${question.body}</span>
 						</div>
