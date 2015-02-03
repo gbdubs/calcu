@@ -1,4 +1,4 @@
-package calculus.general;
+package calculus.admin;
 
 import java.util.ArrayList;
 import java.util.List;

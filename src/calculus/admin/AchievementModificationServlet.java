@@ -1,4 +1,4 @@
-package calculus.general;
+package calculus.admin;
 
 import java.io.IOException;
 import java.util.ArrayList;
