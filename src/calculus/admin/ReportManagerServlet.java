@@ -7,10 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.appengine.api.users.User;
-import com.google.appengine.api.users.UserServiceFactory;
-
 import calculus.api.ReportAPI;
+
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class ReportManagerServlet extends HttpServlet {
@@ -18,10 +17,7 @@ public class ReportManagerServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) 
 			throws ServletException, IOException{
 		
-		// boolean admin = UserServiceFactory.getUserService().isUserAdmin();
-		boolean admin = true;
-		
-		if (admin){
+		if (UserServiceFactory.getUserService().isUserAdmin()){
 			String reportUuid = req.getParameter("reportUuid");
 			String action = req.getParameter("action");
 			

@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
@@ -42,21 +43,25 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 			String uuid = UuidTools.getUuidFromUrl(urlRequest);
 			if (uuid != null && uuid.length() == 36){
 				
-				// TODO: Verify that the User is the Author
-				
-				// Create the practice problem from the UUID
-				PracticeProblem pp = new PracticeProblem(uuid);
-				// If they request editing a page which has already been submitted, redirect them to its
-				// published state.
-				if (pp.getSubmitted()){
-					resp.sendRedirect("/practice-problem/" + uuid);
+				// Verifies that the Viewer is the Author
+				String authorUserId = ContentAPI.getContentAuthorId(uuid);
+				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
+					// Create the practice problem from the UUID
+					PracticeProblem pp = new PracticeProblem(uuid);
+					// If they request editing a page which has already been submitted, redirect them to its
+					// published state.
+					if (pp.getSubmitted()){
+						resp.sendRedirect("/practice-problem/" + uuid);
+					} else {
+						// Otherwise, display the problem for editing
+						resp.setContentType("text/html");
+						UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/edit/" + uuid);					
+						PracticeProblemAPI.addPracticeProblemContext(req, pp);
+						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
+						jsp.forward(req, resp);
+					}
 				} else {
-					// Otherwise, display the problem for editing
-					resp.setContentType("text/html");
-					UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/edit/" + uuid);					
-					PracticeProblemAPI.addPracticeProblemContext(req, pp);
-					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
-					jsp.forward(req, resp);
+					resp.sendRedirect("/page-not-found");
 				}
 				return;
 			}
@@ -70,11 +75,23 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 	}
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+			
+		User submitter = UserServiceFactory.getUserService().getCurrentUser();
+		String uuid = req.getParameter("uuid");
+		String authorUserId = ContentAPI.getContentAuthorId(uuid);
 		
-		// TODO: Verify that the User is the Author
+		if (submitter == null){
+			System.out.println("A user not logged in attempted to post a practice problem");
+			return;
+		}
+		if (!submitter.getUserId().equals(authorUserId) && uuid != null){
+			System.out.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
+			return;
+		}
+		// If we get here, we have the permissions to proceed.
 		
 		// Save the practice problem that has been created or modified
-		String uuid = PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
+		uuid = PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
 		
 		// This parameter describes which submit button was used, and tells us what mode the user wanted to use.
 		String saveButtonInstruction = req.getParameter("saveButton");

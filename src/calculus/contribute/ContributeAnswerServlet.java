@@ -11,10 +11,19 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.UserContextAPI;
 import calculus.models.Answer;
 
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
+
 @SuppressWarnings("serial")
 public class ContributeAnswerServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		
+		if (user == null){
+			resp.sendRedirect("/login-required-to-post-answers");
+		}
 		
 		// Creates and stores a new answer from the request
 		Answer.createAnswerFromRequest(req);

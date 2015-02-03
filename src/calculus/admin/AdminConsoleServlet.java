@@ -23,8 +23,7 @@ public class AdminConsoleServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
 			throws IOException, ServletException {
 		
-		// SWAP: if (UserServiceFactory.getUserService().isUserAdmin()){
-		if (UserServiceFactory.getUserService().getCurrentUser() != null){
+		if (UserServiceFactory.getUserService().isUserAdmin()){
 			List<Achievement> achievements = AchievementsAPI.getAllAchievements();
 			req.setAttribute("allAchievements", achievements);
 			List<Report> reportedContent = ReportAPI.getAllOpenReports();

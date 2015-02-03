@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 
+import com.google.appengine.api.users.UserServiceFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -21,6 +22,9 @@ public class ContentUploadServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req,  HttpServletResponse resp) throws ServletException, java.io.IOException {
 		
+		if (!UserServiceFactory.getUserService().isUserAdmin()){
+			return;
+		}
 		String jsonData = req.getParameter("jsonDataUpload");
 		String contentType = req.getParameter("contentType");
 		

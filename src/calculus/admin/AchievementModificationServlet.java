@@ -9,19 +9,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.AchievementsAPI;
+
+import com.google.appengine.api.users.UserServiceFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import calculus.api.AchievementsAPI;
-import calculus.api.PracticeProblemAPI;
-import calculus.api.QuestionAPI;
-
 @SuppressWarnings("serial")
 public class AchievementModificationServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		
+		if (!UserServiceFactory.getUserService().isUserAdmin()){
+			return;
+		}
 		
 		String action = req.getParameter("action");
 		

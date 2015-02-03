@@ -1,4 +1,4 @@
-package calculus.general;
+package calculus;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

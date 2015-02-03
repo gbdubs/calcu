@@ -8,20 +8,32 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.ContentAPI;
 import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
-import calculus.api.UserVerificationAPI;
 import calculus.models.TextContent;
 import calculus.utilities.UuidTools;
+
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class ContributeTextContentServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
-		// Verifies that there is a user for this
-		if (!UserVerificationAPI.verifyUserLoggedIn("/contribute/text-content/new", "Contribute Text Content Page", req, resp));
-
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		
+		// If the user is not logged in, redirect them to a page which describes that the page dictates a login
+		if (user == null){
+			UserContextAPI.addUserContextToRequest(req, "/contribute/text-content/new");
+			resp.setContentType("text/html");
+			req.setAttribute("pageName", "Explanation Creation");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-requires-login.jsp");
+			jsp.forward(req, resp);
+			return;
+		}
+		
 		// Finds the request that directs us to the user's aims.
 		String urlRequest = req.getRequestURI();
 		urlRequest = urlRequest.substring(urlRequest.indexOf("/text-content") +  13);
@@ -33,20 +45,25 @@ public class ContributeTextContentServlet extends HttpServlet {
 			
 			if (uuid != null && uuid.length() == 36){
 				
-				// TODO: Verify that the User is the Author
+				// Verifies that the Viewer is the Author
+				String authorUserId = ContentAPI.getContentAuthorId(uuid);
+				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
 				
-				TextContent tc = new TextContent(uuid);
-				
-				//If the TextContent is already submitted, redirect the user to the live page with it.
-				if (tc.getSubmitted()){	
-					resp.sendRedirect("/practice-problem/"+uuid);
+					TextContent tc = new TextContent(uuid);
+					
+					//If the TextContent is already submitted, redirect the user to the live page with it.
+					if (tc.getSubmitted()){	
+						resp.sendRedirect("/practice-problem/"+uuid);
+					} else {
+						// Adds the current TextContent to the context, and prepares it for editing.
+						TextContentAPI.addTextContentContext(req, tc);
+						resp.setContentType("text/html");
+						UserContextAPI.addUserContextToRequest(req, "/contribute/text-content/edit/" + uuid);
+						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/text-content.jsp");
+						jsp.forward(req, resp);
+					}
 				} else {
-					// Adds the current TextContent to the context, and prepares it for editing.
-					TextContentAPI.addTextContentContext(req, tc);
-					resp.setContentType("text/html");
-					UserContextAPI.addUserContextToRequest(req, "/contribute/text-content/edit/" + uuid);
-					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/text-content.jsp");
-					jsp.forward(req, resp);
+					resp.sendRedirect("/page-not-found");
 				}
 				return;
 			}
@@ -62,10 +79,23 @@ public class ContributeTextContentServlet extends HttpServlet {
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		
-		// TODO: Verify that the User is the Author
+		User submitter = UserServiceFactory.getUserService().getCurrentUser();
+		String uuid = req.getParameter("uuid");
+		String authorUserId = ContentAPI.getContentAuthorId(uuid);
+		
+		if (submitter == null){
+			System.out.println("A user not logged in attempted to post a practice problem");
+			return;
+		}
+		if (!submitter.getUserId().equals(authorUserId) && uuid != null){
+			System.out.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
+			return;
+		}
+		// If we get here, we have the permissions to proceed.
+		
 		
 		// Saves the new/updated TextContent, and now we have to decide what to next show the user.
-		String uuid = TextContentAPI.createOrUpdateTextContentFromRequest(req);
+		uuid = TextContentAPI.createOrUpdateTextContentFromRequest(req);
 		
 		String saveButtonInstruction = req.getParameter("saveButton");
 		
