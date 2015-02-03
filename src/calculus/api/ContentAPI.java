@@ -126,24 +126,6 @@ public class ContentAPI {
 		}
 	}
 
-	public static void updateKarma(String contentUuid, int karma) {
-		
-	}
-
-	public static long testAndSetKarma(String contentUuid, int newKarma) {
-		Key contentKey = KeyFactory.createKey("Content", contentUuid);
-		Entity entity;
-		try {
-			entity = datastore.get(contentKey);
-			long oldKarma = (long) entity.getProperty("karma");
-			entity.setProperty("karma", newKarma);
-			datastore.put(entity);
-			return oldKarma;
-		} catch (EntityNotFoundException e) {
-			return 0L;// Don't worry if it doesn't exist, we need not make it less visible!
-		}
-	}
-
 	public static String getContentAuthorId(String contentUuid) {
 		try {
 			Content c = new Content(contentUuid);

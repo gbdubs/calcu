@@ -201,4 +201,10 @@ public class Content {
 		String contentType = (String) entity.getProperty("contentType");
 		return ContentAPI.getBoxIcon(contentType);
 	}
+
+	public void incrementKarma(int differential) {
+		long karma = (long) this.entity.getProperty("karma");
+		this.entity.setProperty("karma", karma + differential);
+		datastoreService.put(entity);
+	}
 }

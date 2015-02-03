@@ -28,11 +28,10 @@ public class RatingsAPI {
 			long originalKarma = (long) content.getProperty("karma");
 			content.setProperty("karma", originalKarma + differential);
 			datastore.put(content);
+			int oldKarma = (int) (originalKarma / 100.0);
 			int newKarma = (int) ((originalKarma + differential) / 100.0);
-			int oldKarma = (int) ContentAPI.testAndSetKarma(contentUuid, newKarma);
-			String authorId = ContentAPI.getContentAuthorId(contentUuid);
-			int improovment = newKarma - oldKarma;
-			KarmaAPI.incrementUserKarma(authorId, improovment);
+			int visibleChange = newKarma - oldKarma;
+			KarmaAPI.incrementContentKarma(contentUuid, visibleChange);
 		}
 	}
 
