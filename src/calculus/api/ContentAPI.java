@@ -57,7 +57,7 @@ public class ContentAPI {
 	
 	//TODO: This
 	public static List<Content> getRandomContent(int i) {
-		Query q = new Query("Content").addSort("uuid", SortDirection.DESCENDING).setFilter(compositeFilter);
+		Query q = new Query("Content").addSort("karma", SortDirection.DESCENDING).setFilter(compositeFilter);
 		PreparedQuery pq = datastore.prepare(q);
 		List<Entity> entities = pq.asList(FetchOptions.Builder.withLimit(i));
 		List<Content> results = new ArrayList<Content>();
