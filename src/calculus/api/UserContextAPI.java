@@ -73,7 +73,6 @@ public class UserContextAPI {
 		req.setAttribute("userLevel", level);
 		int upperThreshold = KarmaAPI.getKarmaThresholdForLevel(level + 1);
 		int lowerThreshold = KarmaAPI.getKarmaThresholdForLevel(level);
-		System.out.println("lowerThreshold: "+lowerThreshold+" upperThreshold: "+upperThreshold);
 		req.setAttribute("progressThroughLevel", 100 * (karma - lowerThreshold)/(upperThreshold-lowerThreshold));
 	}
 	
