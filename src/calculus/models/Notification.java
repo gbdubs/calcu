@@ -105,8 +105,6 @@ public class Notification {
 		JsonElement result = parser.parse(s);
 		JsonObject object = result.getAsJsonObject();
 		
-		System.out.println(s);
-		
 		String uuid = object.get("uuid").getAsString();
 		String recipientId = object.get("recipientId").getAsString();
 		String title = object.get("title").getAsString();

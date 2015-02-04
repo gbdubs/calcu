@@ -30,7 +30,6 @@ public class UniversalNotificationServlet extends HttpServlet {
 	
 		Query q = new Query("UserNotifications");
 		PreparedQuery pq = datastore.prepare(q);
-		System.out.println(pq.countEntities() + " users found.");
 		for (Entity e : pq.asIterable()){
 			String userId = (String) e.getProperty("userId");
 			Notification n = new Notification().withRecipientId(userId)

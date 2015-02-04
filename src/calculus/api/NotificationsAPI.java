@@ -23,7 +23,6 @@ public class NotificationsAPI {
 	public static void sendNotification(Notification n){
 		String recipient = n.getRecipientId();
 		addUserNotification(recipient, n);
-		System.out.println("Notification Sent. " + n.toString());
 	}
 	
 	public static List<MenuItem> getUserNotifications(String userId){
