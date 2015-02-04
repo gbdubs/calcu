@@ -210,6 +210,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>NotificationServlet</servlet-name>
+		<servlet-class>calculus.general.NotificationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NotificationServlet</servlet-name>
+		<url-pattern>/remove-notification</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>LivePreviewServlet</servlet-name>
 		<servlet-class>calculus.general.LivePreviewServlet</servlet-class>
 	</servlet>

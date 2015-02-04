@@ -100,13 +100,13 @@ public class Answer extends Content {
 			readableContentType = contentType;
 		}
 		
-		String notificationTitle = UserPublicInfoAPI.getUsername(userId) + " " + verb + " your " + readableContentType;
+		String notificationBody = UserPublicInfoAPI.getUsername(userId) + " " + verb + " your " + readableContentType;
 		Notification n = new Notification()
 			.withRecipientId(authorId)
 			.withAssociatedUserId(userId)
 			.withTime(System.currentTimeMillis())
-			.withTitle(notificationTitle)
-			.withBody(title)
+			.withTitle("New Answer")
+			.withBody(notificationBody)
 			.withUrl(parentUrl)
 			.withColor("warning");
 		

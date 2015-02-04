@@ -83,7 +83,7 @@
 			<div class="box-body">
 				<c:forEach items="${notificationsMenu}" var="notification">
 					<div class="alert alert-${notification.color} alert-dismissable">
-						<button type="button" class="close remove-notification-button" data-user="${user.userId}" data-content="${notification.uuid}" data-action="remove" data-dismiss="alert" aria-hidden="true">×</button>
+						<button type="button" class="close remove-notification-button" data-user="${user.userId}" data-uuid="${notification.uuid}" data-dismiss="alert" aria-hidden="true">×</button>
 						<h4><a href="${notification.url}">${notification.title}</a></h4>
 						<p>${notification.description}</p>
 					</div>

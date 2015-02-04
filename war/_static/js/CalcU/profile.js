@@ -48,4 +48,17 @@ $(function() {
     		data: "userId="+userId+"&contentUuid="+content+"&action="+action
     	});
     });
+    
+    $(".remove-notification-button").click(function(){
+    	var userId = $(this).data("user");
+    	var uuid = $(this).data("uuid");
+    	var action = "remove";
+    	
+    	$.ajax({
+    		type: "POST",
+    		url: "/remove-notification",
+    		data: "userId="+userId+"&uuid="+uuid
+    	});
+    });
+    
 });
