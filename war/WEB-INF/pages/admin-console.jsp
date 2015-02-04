@@ -155,12 +155,15 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<form action="/admin/upload-new-content" method="post" class="box box-info box-solid no-margin">
+				<form action="/admin/upload-new-content" method="post" class="box box-info box-solid no-margin collapsed-box">
 					<div class="box-header">
 						<i class="fa fa-cloud-upload fa-karma-score"></i>
 						<h3 class="box-title">Upload New Content in JSON format</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-info btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
 					</div>
-					<div class="box-body">
+					<div class="box-body" style="display:none;">
 						<p>
 							Depending on the type of data you are trying to upload, the format of your json must have certain parameters.
 							Every value must be a string.  Sites do not need to be exact URLs, but solutionLinks should be. Titles, Problems,
@@ -198,12 +201,15 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<div class="box box-danger box-solid no-margin">
+				<div class="box box-danger box-solid no-margin collapsed-box">
 					<div class="box-header">
 						<i class="fa fa-crosshairs fa-karma-score"></i>
 						<h3 class="box-title">View and respond to reported content</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-danger btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
 					</div>
-					<div class="box-body">
+					<div class="box-body" style="display:none;">
 						<p>
 							When a report comes in, the content is automatically made invisible to users if the content is
 							"offensive" or "irrelevant" or "Proprietary".  If the complaint has to do with accuracy, it takes
@@ -260,6 +266,41 @@
 			</div>
 		</div>
 		
+		<div class="box box-solid">
+			<div class="box-header">
+				<i class="fa fa-bell-o fa-karma-score"></i>
+				<h3 class="box-title">Notification Center</h3>
+				<div class="pull-right box-tools">
+					<button class="btn btn-warning btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+				</div>
+			</div>
+			<div class="box-body">
+				<form action="/admin/send-notification" method="post" class="box box-solid box-warning collapsed-box">
+					<input type="hidden" name="uploadMethod" value="single" />
+					<div class="box-header">
+						<i class="fa fa-envelope fa-karma-score"></i>
+						<h3 class="box-title">Send Universal Notification</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-warning btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="box-body" style="display:none;">
+						<input type="hidden" name="action" value="create"/>
+						<input type="hidden" name="uploadMethod" value="single"/>
+						<label for="name">Title</label>
+						<input type="text" name="title" class="form-control" placeholder="The headline of the notification"/>
+						<br/>
+						<label for="description">Description/Body</label>
+						<input type="text" name="body" class="form-control" placeholder="The text of the notification"/>
+						<br/>
+						<label for="secondaryColor">URL</label>
+						<input type="text" name="secondaryColor" class="form-control" placeholder="Were to take the user upon click of notification"/>
+						<br/>
+						<input type="submit" class="btn btn-full-width btn-block btn-warning" value="Send Universal Notifiaction"/>
+					</div>
+				</form>
+			</div>
+		</div>
 	</jsp:attribute>
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/CalcU/admin-console.js"></script>
