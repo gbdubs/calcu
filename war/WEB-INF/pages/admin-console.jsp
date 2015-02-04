@@ -294,7 +294,7 @@
 						<input type="text" name="body" class="form-control" placeholder="The text of the notification"/>
 						<br/>
 						<label for="secondaryColor">URL</label>
-						<input type="text" name="secondaryColor" class="form-control" placeholder="Were to take the user upon click of notification"/>
+						<input type="text" name="url" class="form-control" placeholder="Were to take the user upon click of notification"/>
 						<br/>
 						<input type="submit" class="btn btn-full-width btn-block btn-warning" value="Send Universal Notifiaction"/>
 					</div>

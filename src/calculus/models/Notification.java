@@ -1,5 +1,6 @@
 package calculus.models;
 
+import java.text.SimpleDateFormat;
 import java.util.UUID;
 
 import calculus.api.UserPublicInfoAPI;
@@ -89,7 +90,9 @@ public class Notification {
 	
 	public MenuItem getMenuItem(){
 		String userProfPic = UserPublicInfoAPI.getProfilePictureUrl(this.associatedUserId);
-		return new MenuItem(url, uuid, title, body, ""+time, "", "", "", userProfPic);
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm MM-dd-yy");
+		String dateTime = sdf.format(time);
+		return new MenuItem(url, uuid, title, body, dateTime, "", "", "", userProfPic);
 	}
 	
 	public String toJson(){
@@ -101,6 +104,8 @@ public class Notification {
 		JsonParser parser = new JsonParser();
 		JsonElement result = parser.parse(s);
 		JsonObject object = result.getAsJsonObject();
+		
+		System.out.println(s);
 		
 		String uuid = object.get("uuid").getAsString();
 		String recipientId = object.get("recipientId").getAsString();

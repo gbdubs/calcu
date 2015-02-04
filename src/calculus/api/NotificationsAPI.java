@@ -23,11 +23,13 @@ public class NotificationsAPI {
 	public static void sendNotification(Notification n){
 		String recipient = n.getRecipientId();
 		addUserNotification(recipient, n);
+		System.out.println("Notification Sent. " + n.toString());
 	}
 	
 	public static List<MenuItem> getUserNotifications(String userId){
 		List<String> jsonNotifications = (List<String>) getNotificationsEntity(userId).getProperty("notifications");
 		List<MenuItem> notifications = new ArrayList<MenuItem>();
+		if (jsonNotifications == null) return new ArrayList<MenuItem>();
 		for (String json : jsonNotifications){
 			Notification n = Notification.fromJson(json);
 			notifications.add(n.getMenuItem());
@@ -61,12 +63,14 @@ public class NotificationsAPI {
 	
 	private static Entity getNotificationsEntity(String userId){
 		Key key = KeyFactory.createKey("UserNotifications", userId);
-		Entity notificationsEntity = new Entity(key);
+		Entity notificationsEntity;
 		try {
 			notificationsEntity = datastore.get(key);
 		} catch (EntityNotFoundException e) {
+			notificationsEntity = new Entity(key);
 			notificationsEntity.setUnindexedProperty("userId", userId);
 			notificationsEntity.setUnindexedProperty("notifications", new ArrayList<String>());
+			datastore.put(notificationsEntity);
 		}
 		return notificationsEntity;	
 	}

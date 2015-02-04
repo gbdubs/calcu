@@ -260,6 +260,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>UniversalNotification</servlet-name>
+		<servlet-class>calculus.admin.UniversalNotificationServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>UniversalNotification</servlet-name>
+		<url-pattern>/admin/send-notification</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>AchievementModification</servlet-name>
 		<servlet-class>calculus.admin.AchievementModificationServlet</servlet-class>
 	</servlet>
