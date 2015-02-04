@@ -809,7 +809,9 @@ body > .header .logo .icon {
 .navbar-nav > .notifications-menu > .dropdown-menu,
 .navbar-nav > .messages-menu > .dropdown-menu,
 .navbar-nav > .tasks-menu > .dropdown-menu {
-  width: 280px;
+  max-width: 400px;
+  width: auto;
+  min-width: 280px;
   padding: 0 0 0 0!important;
   margin: 0!important;
   top: 100%;
