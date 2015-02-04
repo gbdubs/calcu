@@ -42,6 +42,7 @@ public class UserContextAPI {
 		
 		String username = "Anonymous Elephant";
 		int karma = 0; 
+		int level = 1;
 		String profilePictureUrl = "/_static/img/elephant.png";
 		String profileUrl = "/";
 		String email = "anonymous314159@gmail.com";
@@ -49,10 +50,18 @@ public class UserContextAPI {
 		if (user != null){
 			Entity publicInfo = UserPublicInfoAPI.getOrCreateMyPublicInfo(user);
 			karma = ((Long) publicInfo.getProperty("karma")).intValue();
+			level = ((Long) publicInfo.getProperty("level")).intValue();
 			username = (String) publicInfo.getProperty("username");
 			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
 			profileUrl = (String) publicInfo.getProperty("profileUrl");
 			email = (String) publicInfo.getProperty("email");
+			
+			int calculatedLevel = KarmaAPI.getLevel(karma);
+			if (calculatedLevel != level){
+				publicInfo.setUnindexedProperty("level", calculatedLevel);
+				datastore.put(publicInfo);
+				level = calculatedLevel;
+			}
 		}
 
 		req.setAttribute("username", username);
@@ -61,11 +70,11 @@ public class UserContextAPI {
 		req.setAttribute("profileUrl", profileUrl);
 		req.setAttribute("email", email);
 		
-		int level = KarmaAPI.getLevel(karma);
 		req.setAttribute("userLevel", level);
-		req.setAttribute("karmaNumber", karma);
-		req.setAttribute("lastLevelKarmaThreshold", KarmaAPI.getKarmaThresholdForLevel(level)); 
-		req.setAttribute("nextLevelKarmaThreshold", KarmaAPI.getKarmaThresholdForLevel(level+1)); 
+		int upperThreshold = KarmaAPI.getKarmaThresholdForLevel(level + 1);
+		int lowerThreshold = KarmaAPI.getKarmaThresholdForLevel(level);
+		System.out.println("lowerThreshold: "+lowerThreshold+" upperThreshold: "+upperThreshold);
+		req.setAttribute("progressThroughLevel", 100 * (karma - lowerThreshold)/(upperThreshold-lowerThreshold));
 	}
 	
 	private static void addUserNotificationsToRequest(HttpServletRequest req, User user){

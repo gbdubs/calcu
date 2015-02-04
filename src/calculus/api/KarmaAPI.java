@@ -12,10 +12,10 @@ import com.google.appengine.api.datastore.KeyFactory;
 public class KarmaAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-
+	
 	public static int getLevel(int karma){
 		int level = 0;
-		while (karma > 0){
+		while (karma >= 0){
 			level = level + 1;
 			karma -= level * 10;
 		}

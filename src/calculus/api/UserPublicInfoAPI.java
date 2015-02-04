@@ -40,6 +40,7 @@ public class UserPublicInfoAPI {
 			
 			userPublicInfo.setUnindexedProperty("username", user.getEmail());
 			userPublicInfo.setProperty("karma", (long) 0);
+			userPublicInfo.setUnindexedProperty("level", (long) 1);
 			userPublicInfo.setUnindexedProperty("profilePictureUrl", "/_static/img/default-avatar.png");
 			userPublicInfo.setUnindexedProperty("userId", userId);
 			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
@@ -74,6 +75,7 @@ public class UserPublicInfoAPI {
 			
 			userPublicInfo.setUnindexedProperty("username", "Anonymous Elephant");
 			userPublicInfo.setProperty("karma", (long) 0);
+			userPublicInfo.setUnindexedProperty("level", (long) 1);
 			userPublicInfo.setUnindexedProperty("profilePictureUrl", "/_static/img/elephant.png");
 			userPublicInfo.setUnindexedProperty("userId", userId);
 			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
