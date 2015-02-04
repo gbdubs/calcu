@@ -238,6 +238,21 @@
 	</div>
 </div>
 
+<c:if test="${ad == true}">
+	<div class="ad" style="display: block;">
+		<span id="close-ad"><i class="fa fa-times"></i> Close Ad</span>
+		<div class="container">
+			<div class="row">                        
+				<div class="col-xs-12 visible-xs">
+		
+				</div>
+				<div class="col-xs-12 hidden-xs">                            
+									
+				</div>
+			</div>
+		</div>
+	</div>
+</c:if>
 <!-- MathJax Latex Plugin -->
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">

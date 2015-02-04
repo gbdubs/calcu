@@ -4079,4 +4079,22 @@ a.btn.btn-warning.live-preview-return-button{
 .no-overflow{
 	overflow: hidden;
 }
+.ad{
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #222;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+	color: #fff;
+	display: none;
+}
+
+#close-ad {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
 }

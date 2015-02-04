@@ -148,6 +148,10 @@ $(function() {
     	$("#login-modal").addClass("hidden");
     });
     
+    $("#close-ad").click(function(){
+    	$(this).closest(".ad").remove();
+    });
+    
 });
 
 function fix_sidebar() {

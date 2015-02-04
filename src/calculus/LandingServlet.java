@@ -17,7 +17,8 @@ public class LandingServlet extends HttpServlet {
 			throws IOException, ServletException {
 		
 		UserContextAPI.addUserContextToRequest(req, "/home");
-			
+		
+		req.setAttribute("ad", true);
 		resp.setContentType("text/html");
 		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/landing.jsp");
