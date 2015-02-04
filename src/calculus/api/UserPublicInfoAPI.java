@@ -106,4 +106,9 @@ public class UserPublicInfoAPI {
 		userPublicInfo.setUnindexedProperty("profilePictureBlobKey", blobKey);
 		datastore.put(userPublicInfo);
 	}
+
+	public static String getProfilePictureUrl(String associatedUserId) {
+		Entity userPublicInfo = getOrCreateUserPublicInfo(associatedUserId);
+		return (String) userPublicInfo.getProperty("profilePictureUrl");
+	}
 }

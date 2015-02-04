@@ -34,7 +34,7 @@ public class UserContextAPI {
 
 		addUserPublicInfoToRequest(req, user);
 		BookmarksAPI.addUserBookmarksToRequest(req, user);
-		addUserNotificationsToRequest(req, user);
+		NotificationsAPI.addUserNotificationsToRequest(req, user);
 		addUserRecommendationsToRequest(req, user);
 	}
 	
