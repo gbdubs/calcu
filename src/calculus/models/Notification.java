@@ -20,6 +20,7 @@ public class Notification {
 	private String associatedUserId;
 	private String url;
 	private long time;
+	private String color;
 	
 	public Notification(){
 		this.uuid = UUID.randomUUID().toString();
@@ -88,11 +89,20 @@ public class Notification {
 		return this;
 	}
 	
+	public String getColor(){
+		return color;
+	}
+	
+	public Notification withColor(String color){
+		this.color = color;
+		return this;
+	}
+	
 	public MenuItem getMenuItem(){
 		String userProfPic = UserPublicInfoAPI.getProfilePictureUrl(this.associatedUserId);
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm MM-dd-yy");
 		String dateTime = sdf.format(time);
-		return new MenuItem(url, uuid, title, body, dateTime, "", "", "", userProfPic);
+		return new MenuItem(url, uuid, title, body, dateTime, "", color, "", userProfPic);
 	}
 	
 	public String toJson(){
@@ -112,11 +122,12 @@ public class Notification {
 		String associatedUserId = object.get("associatedUserId").getAsString();
 		String url = object.get("url").getAsString();
 		long time = object.get("time").getAsLong();
+		String color = object.get("color").getAsString();
 		
 		Notification toReturn = new Notification(uuid)
 			.withRecipientId(recipientId).withBody(body)
 			.withTitle(title).withAssociatedUserId(associatedUserId)
-			.withUrl(url).withTime(time);
+			.withUrl(url).withTime(time).withColor(color);
 		
 		return toReturn;
 	}

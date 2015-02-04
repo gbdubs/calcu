@@ -79,28 +79,15 @@
 				<div class="box-tools pull-right">
 					<button class="btn btn-success btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
-			</div><!-- /.box-header -->
+			</div>
 			<div class="box-body">
-				<div class="alert alert-danger alert-dismissable">
-					<i class="fa fa-ban"></i>
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<b>Your Post was Flagged for Review</b> Danger alert preview. This alert is dismissable. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
-				</div>
-				<div class="alert alert-info alert-dismissable">
-					<i class="fa fa-info"></i>
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<b>New Karma Policy!</b> For more information on the change in Karma Policy, please click <a>here</a>.
-				</div>
-				<div class="alert alert-warning alert-dismissable">
-					<i class="fa fa-warning"></i>
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<b>Provide Feedback!</b> Your question "What is dx?" was answered yesterday! Please take the time to <a>provide some feedback on it</a>!
-				</div>
-				<div class="alert alert-success alert-dismissable">
-					<i class="fa fa-check"></i>
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					<b>Congratulations!</b> You have now mastered the "Integration Basics, Part 1" Skill!
-				</div>
+				<c:forEach items="${notificationsMenu}" var="notification">
+					<div class="alert alert-${notification.color} alert-dismissable">
+						<button type="button" class="close remove-notification-button" data-user="${user.userId}" data-content="${notification.uuid}" data-action="remove" data-dismiss="alert" aria-hidden="true">×</button>
+						<h4><a href="${notification.url}">${notification.title}</a></h4>
+						<p>${notification.description}</p>
+					</div>
+				</c:forEach>
 			</div>
 		</div>
 		

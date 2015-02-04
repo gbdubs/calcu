@@ -86,11 +86,11 @@ public class Answer extends Content {
 		String readableContentType = "Content";	
 		String contentType;
 		try {
-			contentType = ContentAPI.getContentType(uuid);
+			contentType = ContentAPI.getContentType(parentUuid);
 		} catch (EntityNotFoundException e) {
 			contentType = "A Very Strange Error";
 		}
-		String authorId = ContentAPI.getContentAuthorId(uuid);
+		String authorId = ContentAPI.getContentAuthorId(parentUuid);
 		if (contentType.equals("practiceProblem")) readableContentType = "Practice Problem";
 		else if (contentType.equals("question")) readableContentType = "Question";
 		else if (contentType.equals("textContent")){
@@ -107,7 +107,8 @@ public class Answer extends Content {
 			.withTime(System.currentTimeMillis())
 			.withTitle(notificationTitle)
 			.withBody(title)
-			.withUrl(parentUrl);
+			.withUrl(parentUrl)
+			.withColor("warning");
 		
 		NotificationsAPI.sendNotification(n);
 		

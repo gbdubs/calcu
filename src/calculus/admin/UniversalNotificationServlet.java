@@ -35,8 +35,7 @@ public class UniversalNotificationServlet extends HttpServlet {
 			Notification n = new Notification().withRecipientId(userId)
 					.withBody(body).withTitle(title)
 					.withAssociatedUserId(associatedUserId)
-					.withTime(time).withUrl(url);
-			System.out.println(n.toJson());
+					.withTime(time).withUrl(url).withColor("info");
 			NotificationsAPI.sendNotification(n);
 		}
 		
