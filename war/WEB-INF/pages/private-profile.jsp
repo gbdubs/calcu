@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
@@ -88,6 +89,9 @@
 						<p>${notification.description}</p>
 					</div>
 				</c:forEach>
+				<c:if test="${fn:length(notificationsMenu) == 0}">
+					<h4 class="centered">No Notifications To See! Go Contribute in the Community!</h4>
+				</c:if>
 			</div>
 		</div>
 		
@@ -109,6 +113,9 @@
 						<p>${bookmark.description}</p>
 					</div>
 				</c:forEach>
+				<c:if test="${fn:length(bookmarksMenu) == 0}">
+					<h4 class="centered">No Bookmarks Here! Go Explore the World! Smell the Calculus Roses!</h4>
+				</c:if>
 			</div>
 		</div>
 		
