@@ -53,11 +53,11 @@ public class UserPublicInfoAPI {
 	}
 
 	public static Entity getUserPublicInfo(String userId){
-		Key publicInfoKey = KeyFactory.createKey("userPublicInfo", userId);
+		Key publicInfoKey = KeyFactory.createKey("UserPublicInfo", userId);
 		try {
 			return datastore.get(publicInfoKey);
 		} catch (EntityNotFoundException e) {
-			throw new RuntimeException("Attempted to access userPublicInfo that did not exist.");
+			throw new RuntimeException("Attempted to access userPublicInfo that did not exist: " + userId);
 		}
 	}
 	
@@ -110,5 +110,11 @@ public class UserPublicInfoAPI {
 	public static String getProfilePictureUrl(String associatedUserId) {
 		Entity userPublicInfo = getOrCreateUserPublicInfo(associatedUserId);
 		return (String) userPublicInfo.getProperty("profilePictureUrl");
+	}
+
+	public static String getUsername(String userId) {
+		Entity userPublicInfo = getUserPublicInfo(userId);
+		if (userPublicInfo == null) return "";
+		return (String) userPublicInfo.getProperty("username");
 	}
 }
