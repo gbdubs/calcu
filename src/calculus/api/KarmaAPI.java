@@ -162,6 +162,7 @@ public class KarmaAPI {
 		req.setAttribute("karmaFromRatingOthers", karmaProfile.getProperty("karmaFromRatingOthers"));
 		req.setAttribute("karmaFromAnswerMode", karmaProfile.getProperty("karmaFromAnswerMode"));
 		req.setAttribute("karmaFromApprovedAnswers", karmaProfile.getProperty("karmaFromApprovedAnswers"));
+		req.setAttribute("karmaTotal", calculateTotalKarma(userId));
 	}
 
 }
