@@ -15,15 +15,17 @@ import calculus.api.UserContextAPI;
 import calculus.models.Achievement;
 import calculus.models.Report;
 
+import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class AdminConsoleServlet extends HttpServlet {
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+	
+		UserService us = UserServiceFactory.getUserService();
 		
-		if (UserServiceFactory.getUserService().isUserAdmin()){
+		if (us.isUserLoggedIn() && us.isUserAdmin()){
 			List<Achievement> achievements = AchievementsAPI.getAllAchievements();
 			req.setAttribute("allAchievements", achievements);
 			List<Report> reportedContent = ReportAPI.getAllOpenReports();

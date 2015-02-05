@@ -109,7 +109,7 @@
 								<option value="append" selected>Add these to Existing Achievements</option>
 							</select>
 						</p>
-						<p>
+						<p class="centered">
 							<input type="checkbox" name="displayAllAsJson"/>
 							<label for="displayAllAsJson">After Creation, Display all Achievements as Save-able JSON</label>
 						</p>

@@ -69,9 +69,10 @@ public class NotificationsAPI {
 		} catch (EntityNotFoundException e) {
 			notificationsEntity = new Entity(key);
 			notificationsEntity.setUnindexedProperty("userId", userId);
-			notificationsEntity.setUnindexedProperty("notifications", new ArrayList<String>());
+			ArrayList<String> notifications = new ArrayList<String>();
 			Notification welcome = NotificationsAPI.welcomeNotification(userId);
-			NotificationsAPI.sendNotification(welcome);
+			notifications.add(welcome.toJson());
+			notificationsEntity.setUnindexedProperty("notifications", notifications);
 			datastore.put(notificationsEntity);
 		}
 		return notificationsEntity;	

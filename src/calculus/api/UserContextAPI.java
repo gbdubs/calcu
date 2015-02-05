@@ -33,6 +33,7 @@ public class UserContextAPI {
 		String loginUrl = userService.createLoginURL(pageUrl);
 		String logoutUrl = userService.createLogoutURL(pageUrl);
 		
+		req.setAttribute("isAdmin", user != null && userService.isUserAdmin());
 		req.setAttribute("user", user);
 		req.setAttribute("loginUrl", loginUrl);
 		req.setAttribute("logoutUrl", logoutUrl);

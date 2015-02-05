@@ -3,11 +3,9 @@
 </div>
 
 <div class="pull-left info">
-    <p>${username}</p>
+    <p><a href="${profileUrl}">${username}</a></p>
     <div class="progress progress-striped">
-        <div class="progress-bar progress-bar-primary" role="progressbar" style="width:${progressThroughLevel}%">
-        
-        </div>
+        <div class="progress-bar progress-bar-primary" role="progressbar" style="width:${progressThroughLevel}%"></div>
         <span class="level-display">Level ${userLevel}</span>
     </div>
 </div>
