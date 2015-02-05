@@ -10,12 +10,12 @@
 
 	<jsp:attribute name="content">
 		
-		<div class="box box-primary">
+		<div class="box box-primary box-solid">
 			<div class="box-header">
 				<i class="fa fa-user"></i>
 				<h3 class="box-title">Account Settings</h3>
 				<div class="box-tools pull-right">
-					<button class="btn btn-primary btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					<button class="btn btn-primary btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
@@ -72,13 +72,12 @@
 		</div>
 		
 		<span id="notifications" class="page-locator"></span>
-		<div class="box box-success">
-			
+		<div class="box box-success box-solid">
 			<div class="box-header">
 				<i class="fa fa-flag"></i>
 				<h3 class="box-title">Notifications</h3>
 				<div class="box-tools pull-right">
-					<button class="btn btn-success btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					<button class="btn btn-success btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
@@ -96,13 +95,12 @@
 		</div>
 		
 		<span id="bookmarks" class="page-locator"></span>
-		<div class="box box-warning">
-			
+		<div class="box box-warning box-solid">
 			<div class="box-header">
 				<i class="fa fa-bookmark"></i>
 				<h3 class="box-title">Bookmarks</h3>
 				<div class="box-tools pull-right">
-					<button class="btn btn-warning btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					<button class="btn btn-warning btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
@@ -119,96 +117,19 @@
 			</div>
 		</div>
 		
-		<span id="karma" class="page-locator"></span>
-		<div class="box box-danger">
+		<div class="box box-danger box-solid">
 			<div class="box-header">
 				<i class="fa fa-trophy"></i>
-				<h3 class="box-title">Karma Breakdown</h3>
+				<h3 class="box-title">Karma Profile</h3>
 				<div class="box-tools pull-right">
-					<button class="btn btn-danger btn-xs" data-widget="collapse"><i class="fa fa-minus"></i></button>
+					<button class="btn btn-danger btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
-				<ul class="timeline">
-					<!-- timeline time label -->
-					<li class="time-label">
-						<span class="bg-red">10 Feb. 2014</span>
-					</li>
-					<!-- /.timeline-label -->
-					<!-- timeline item -->
-					<li>
-					<span class="timeline-bubble bg-blue">
-						<i class="fa fa-question"></i>
-						<b class="timeline-score">30</b>
-					</span>
-		
-						<div class="timeline-item">
-							<span class="time"><i class="fa fa-clock-o"></i> 12:05</span>
-							<h3 class="timeline-header"><a href="#">What is this whole dx thing anyway?</a></h3>
-							<div class="timeline-body">
-								Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles,
-								weebly ning heekya handango imeem plugg dopplr jibjab, movity
-								jajah plickers sifteo edmodo ifttt zimbra. Babblely odeo kaboodle
-								quora plaxo ideeli hulu weebly balihoo...
-							</div>
-							<div class="timeline-footer">
-								<a class="btn btn-primary btn-xs">View All Answers</a>
-								<a class="btn btn-danger btn-xs">Delete Question</a>
-							</div>
-						</div>
-					</li>
-					<!-- END timeline item -->
-					<!-- timeline item -->
-					<li>
-					<span class="timeline-bubble bg-purple">
-						<i class="fa fa-gift"></i>
-						<b class="timeline-score">200</b>
-					</span>
-						<div class="timeline-item">
-							<span class="time"><i class="fa fa-clock-o"></i> 5 mins ago</span>
-							<h3 class="timeline-header no-border"><a href="#">Sarah Young</a> Gifted you 200 Karma!</h3>
-						</div>
-					</li>
-					<!-- END timeline item -->
-					<!-- timeline item -->
-					<li>
-					<span class="timeline-bubble bg-yellow">
-						<i class="fa fa-bank"></i>
-						<b class="timeline-score">0</b>
-					</span>
-						<div class="timeline-item">
-							<span class="time"><i class="fa fa-clock-o"></i> 27 mins ago</span>
-							<h3 class="timeline-header">You answered <a href="#">Jay White's question</a></h3>
-							<div class="timeline-body">
-								That is a great question Jay, the longer answer is much more complicated, but rather than looking as to exactly why this is the only solution the partial differential equation, usually we spend our time looking for solutions and their verification...
-							</div>
-							<div class="timeline-footer">
-								<a class="btn btn-warning btn-xs">View Question</a>
-								<a class="btn btn-danger btn-xs">Delete Answer</a>
-							</div>
-						</div>
-					</li>
-					<!-- END timeline item -->
-					<!-- timeline time label -->
-					<li class="time-label">
-						<span class="bg-green">3 Jan. 2014</span>
-					</li>
-					<!-- /.timeline-label -->
-					<!-- timeline item -->
-					<li>
-						<i class="fa fa-trophy bg-green"></i>
-						<div class="timeline-item">
-							<span class="time"><i class="fa fa-clock-o"></i> 2 days ago</span>
-							<h3 class="timeline-header no-border">You achieved Level 22, with 2000 karma! Nice work!</h3>
-						</div>
-					</li>
-					<!-- END timeline item -->
-					<li>
-						<i class="fa fa-clock-o"></i>
-					</li>
-				</ul>
+				<jsp:include page="/WEB-INF/templates/karma-profile.jsp" />
 			</div>
 		</div>
+		
 	</jsp:attribute>
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/CalcU/profile.js" type="text/javascript"></script>

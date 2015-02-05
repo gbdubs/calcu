@@ -137,7 +137,9 @@ public class UserContextAPI {
 			userContent.add(new MenuItem(c));
 		}
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm  MM-DD-YY");
+		
 		req.setAttribute("profileUserContent", userContent);
+		
 		req.setAttribute("profileLastSubmission", sdf.format(l));
 		
 		String numContributions = "" + userContent.size();
@@ -160,6 +162,22 @@ public class UserContextAPI {
 		UploadOptions uploadOptions = UploadOptions.Builder.withMaxUploadSizeBytes(5 * 1024L * 1024L);
 		String uploadUrl = bs.createUploadUrl("/upload-profile-picture", uploadOptions);
 		
+		int maxToDisplay = 10;
+		List<Content> content = ContentAPI.getContentWithAuthor(user.getUserId(), maxToDisplay, 1);
+		List<MenuItem> userContent = new ArrayList<MenuItem>();
+		long l = 0;
+		for (Content c : content){
+			l = Math.max(c.getCreatedAt(), l);
+			userContent.add(new MenuItem(c));
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm  MM-DD-YY");
+		
+		req.setAttribute("profileUserContent", userContent);
+		
+		req.setAttribute("profileLastSubmission", sdf.format(l));
+		
 		req.setAttribute("profilePictureUpload", uploadUrl);
+		
+		KarmaAPI.setKarmaProfileAttributes(req, user.getUserId());
 	}
 }
