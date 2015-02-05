@@ -1,5 +1,6 @@
 package calculus.api;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -130,14 +131,20 @@ public class UserContextAPI {
 		int maxToDisplay = 10;
 		List<Content> content = ContentAPI.getContentWithAuthor(userId, maxToDisplay, 1);
 		List<MenuItem> userContent = new ArrayList<MenuItem>();
+		long l = 0;
 		for (Content c : content){
+			l = Math.max(c.getCreatedAt(), l);
 			userContent.add(new MenuItem(c));
 		}
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm  MM-DD-YY");
 		req.setAttribute("profileUserContent", userContent);
+		req.setAttribute("profileLastSubmission", sdf.format(l));
+		
+		String numContributions = "" + userContent.size();
+		if (userContent.size() == maxToDisplay) numContributions += "+";
+		req.setAttribute("profileNumberContributions", numContributions);
 		
 		KarmaAPI.setKarmaProfileAttributes(req, userId);
-		
-		
 	}
 
 	public static void addPersonalProfileContextToRequest(HttpServletRequest req) {

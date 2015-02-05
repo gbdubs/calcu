@@ -6,6 +6,8 @@ $(function() {
 		var content = $(this).data("content");
 		var action = $(this).data("action");
 		
+		console.log("UserId=" + userId +" Content="+content);
+		
     	$.ajax({
 			type: "POST",
 			url: "/bookmark",

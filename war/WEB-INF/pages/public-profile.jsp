@@ -25,8 +25,8 @@
 					<p style="display:inline-block;">Username: <b>${profileUsername}</b></p></br>
 					<p style="display:inline-block;">Level: <b>${profileLevel}</b></p></br>
 					<p style="display:inline-block;">Karma: <b>${profileKarma}</b></p></br>
-					<p style="display:inline-block;">Last Submission: <b>${Yesterday}</b></p></br>
-					<p style="display:inline-block;">Number of Submissions: <b>${15}</b></p></br>
+					<p style="display:inline-block;">Last Submission: <b>${profileLastSubmission}</b></p></br>
+					<p style="display:inline-block;">Number of Contributions: <b>${profileNumberContributions}</b></p></br>
 				</div>
 
 			</div>
@@ -49,12 +49,12 @@
 					<div class="alert alert-${content.color} alert-dismissable" style="margin: 5px 0;">
 						<c:choose>
 							<c:when test="${bookmarked}">
-								<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
+								<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
 									<i class="fa fa-bookmark"></i>
 								</button>
 							</c:when>
 							<c:otherwise>
-								<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
+								<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
 									<i class="fa fa-bookmark-o"></i>
 								</button>
 							</c:otherwise>

@@ -140,7 +140,7 @@ public class ContentAPI {
 	public static List<Content> getContentWithAuthor(String userId, int maxToDisplay, int offset) {
 		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
 		Filter totalFilter = CompositeFilterOperator.and(userFilter, compositeFilter);
-		Query q = new Query("Content").addSort("karma", SortDirection.DESCENDING).setFilter(totalFilter);
+		Query q = new Query("Content").addSort("createdAt", SortDirection.DESCENDING).setFilter(totalFilter);
 		
 		List<Entity> queryResults = datastore.prepare(q).asList(withLimit(maxToDisplay).offset(offset));
 		System.out.println(queryResults.toString());
