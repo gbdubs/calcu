@@ -42,6 +42,32 @@
 				</form>
 			</div>
 		</div>
+		
+		<div class="box box-solid">
+		<c:if test="${moreResults || seed > 1}">
+				<div class="box-header overflower">
+					<c:if test="${seed > 1}">
+						<form action="/search/${tags}" method="get" class="pull-left" style="padding:10px 0 0 10px;">
+							<input type="hidden" name="seed" value="${seed - 1}"/>
+							<button class="btn btn-primary" type="submit">
+								<i class="fa fa-arrow-circle-left fa-fw"></i>
+								Previous Results Page
+							</button>
+						</form>
+					</c:if>
+					<c:if test="${moreResults}">
+						<form action="/search/${tags}" method="get" class="pull-right" style="padding:10px 10px 0 0;">
+							<input type="hidden" name="seed" value="${seed + 1}"/>
+							<button class="btn btn-primary" type="submit">
+								Next Results Page
+								<i class="fa fa-arrow-circle-right fa-fw"></i>
+							</button>
+						</form>
+					</c:if>
+				</div>
+		</c:if>
+		<div class="box-body">
+		
 		<c:if test="${fn:length(resultQuestions) > 0}">
 			<div class="box box-primary">
 				<div class="box-header">
@@ -222,7 +248,7 @@
 			</div>
 		</c:if>
 		
-		<c:if test="${questionsNotFound}">
+		<c:if test="${questionsNotFound && !moreResults}">
 			<div class="box box-primary">
 				<div class="box-header">
 					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
@@ -231,7 +257,7 @@
 			</div>
 		</c:if>
 		
-		<c:if test="${practiceProblemsNotFound}">
+		<c:if test="${practiceProblemsNotFound && !moreResults}">
 			<div class="box box-success">
 				<div class="box-header">
 					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
@@ -240,7 +266,7 @@
 			</div>
 		</c:if>
 		
-		<c:if test="${textContentNotFound}">
+		<c:if test="${textContentNotFound && !moreResults}">
 			<div class="box box-warning">
 				<div class="box-header">
 					<i class="fa fa-frown-o fa-karma-score hidden-xs"></i>
@@ -249,21 +275,32 @@
 			</div>
 		</c:if>
 		
-		<c:if test="${moreResults}">
-			<div class="box box-primary">
-				<div class="box-header overflower">
-					<i class="fa fa-smile-o fa-karma-score hidden-xs"></i>
-					<h3 class="box-title">More Search Results Available</h3>
-					<form action="/search/${tags}" method="get" class="pull-right" style="padding:5px;">
-						<input type="hidden" name="seed" value="${seed + 1}"/>
-						<button class="btn btn-primary" type="submit">
-							Next Results Page
-							<i class="fa fa-arrow-circle-right fa-fw"></i>
-						</button>
-					</form>
+		<c:if test="${moreResults || seed > 1}">
+
+				<div class="overflower">
+					<c:if test="${seed > 1}">
+						<form action="/search/${tags}" method="get" class="pull-left">
+							<input type="hidden" name="seed" value="${seed - 1}"/>
+							<button class="btn btn-primary" type="submit">
+								<i class="fa fa-arrow-circle-left fa-fw"></i>
+								Previous Results Page
+							</button>
+						</form>
+					</c:if>
+					<c:if test="${moreResults}">
+						<form action="/search/${tags}" method="get" class="pull-right">
+							<input type="hidden" name="seed" value="${seed + 1}"/>
+							<button class="btn btn-primary" type="submit">
+								Next Results Page
+								<i class="fa fa-arrow-circle-right fa-fw"></i>
+							</button>
+						</form>
+					</c:if>
 				</div>
-			</div>
+
 		</c:if>
+		</div>
+		</div>
 		
 		<c:if test="${practiceProblemsNotFound || questionsNotFound || textContentNotFound}">
 			<div class="box box-default">
