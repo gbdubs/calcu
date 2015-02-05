@@ -249,6 +249,22 @@
 			</div>
 		</c:if>
 		
+		<c:if test="${moreResults}">
+			<div class="box box-primary">
+				<div class="box-header overflower">
+					<i class="fa fa-smile-o fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">More Search Results Available</h3>
+					<form action="/search/${tags}" method="get" class="pull-right" style="padding:5px;">
+						<input type="hidden" name="seed" value="${seed + 1}"/>
+						<button class="btn btn-primary" type="submit">
+							Next Results Page
+							<i class="fa fa-arrow-circle-right fa-fw"></i>
+						</button>
+					</form>
+				</div>
+			</div>
+		</c:if>
+		
 		<c:if test="${practiceProblemsNotFound || questionsNotFound || textContentNotFound}">
 			<div class="box box-default">
 				<div class="box-header">

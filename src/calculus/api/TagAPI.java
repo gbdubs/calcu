@@ -32,15 +32,15 @@ public class TagAPI {
 		datastoreService.put(entity);
 	}
 
-	public static List<String> getUuidsResultsOfMultipleTags(String[] tags){
+	public static List<String> getUuidsResultsOfMultipleTags(String[] tags, int maxNumResults, int seed){
 		List<String> tagsList = new ArrayList<String>();
 		for(String t : tags){
 			tagsList.add(t);
 		}
-		return getUuidsResultsOfMultipleTags(tagsList);
+		return getUuidsResultsOfMultipleTags(tagsList, maxNumResults, seed);
 	}
 	
-	public static List<String> getUuidsResultsOfMultipleTags(List<String> tags){
+	public static List<String> getUuidsResultsOfMultipleTags(List<String> tags, int maxNumResults, int seed){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		for (String tag : tags){
 			String cleanedTag = tag.toLowerCase().trim();
@@ -62,6 +62,14 @@ public class TagAPI {
 			}
 			uuids.add(i, uuid);
 		}
+		
+		
+		if (uuids.size() > maxNumResults){
+			int fromIndex = (seed - 1) * maxNumResults;
+			int toIndex = Math.min(uuids.size(), fromIndex + maxNumResults);
+			uuids = uuids.subList(fromIndex, toIndex);
+		}
+		
 		return uuids;
 	}
 

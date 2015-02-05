@@ -36,26 +36,38 @@ public class SearchByTagServlet extends HttpServlet {
 		}
 	}
 	
-	private String getTagStringFromUrlPattern(String requestUri) {
-		int index = requestUri.indexOf("/search/") + 8;
-		if (index < 8) return null;
-		return requestUri.substring(index).replaceAll("%20", " ");
-	}
-
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		String tagString = req.getParameter("tagsInput");
 		resp.sendRedirect("/search/" + tagString);
 	}
 	
+	private String getTagStringFromUrlPattern(String requestUri) {
+		int index = requestUri.indexOf("/search/") + 8;
+		int endingIndex = requestUri.length();
+		if (requestUri.contains("?")) endingIndex = requestUri.indexOf("?");
+		if (index < 8) return null;
+		return requestUri.substring(index, endingIndex).replaceAll("%20", " ");
+	}
+	
+	private int getSeedNumber(HttpServletRequest req){
+		Object seedNumber = req.getParameter("seed");
+		if (seedNumber == null) return 1;
+		return Integer.parseInt((String) seedNumber);
+	}
+
 	private void renderSearchResultsForString(String tagString, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		List<Content> practiceProblems = new ArrayList<Content>();
 		List<Content> questions = new ArrayList<Content>();
 		List<Content> textContent = new ArrayList<Content>();
+		boolean moreResults = false;
+		int seed = 1;
 		
 		if(!tagString.trim().equals("") && tagString != null){
 			String[] tags = tagString.trim().split(",");
 			
-			List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(tags);
+			int maxNumResults = 50;
+			seed = getSeedNumber(req);
+			List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(tags, maxNumResults, seed);
 			
 			for (String uuid : uuids){
 				try {
@@ -72,7 +84,14 @@ public class SearchByTagServlet extends HttpServlet {
 					// Don't add to the list if it doesn't exist. Basic stuff, guys.
 				}
 			}
+			System.out.println("uuids.size()="+uuids.size() +" maxNumResults="+ maxNumResults);
+			if (uuids.size() == maxNumResults){
+				moreResults = true;
+			}
 		}
+		
+		req.setAttribute("seed", seed);
+		req.setAttribute("moreResults", moreResults);
 		req.setAttribute("tags", tagString);
 		req.setAttribute("resultPracticeProblems", practiceProblems);
 		req.setAttribute("resultQuestions", questions);
