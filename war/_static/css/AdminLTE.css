@@ -4097,4 +4097,26 @@ a.btn.btn-warning.live-preview-return-button{
 	margin-top: 10px;
 	cursor: pointer;
 }
+
+.box-body.padding-20,
+.padding-20{
+	padding: 20px;
+}
+
+.alert.notification{
+	padding:10px 30px 10px 10px;
+	margin:10px;
+}
+
+.alert.notification > img {
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.alert.bookmark{
+	margin:10px;
+}
+
 }

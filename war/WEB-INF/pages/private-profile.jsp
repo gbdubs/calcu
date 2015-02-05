@@ -18,7 +18,7 @@
 					<button class="btn btn-primary btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
-			<div class="box-body" style="padding:20px;">
+			<div class="box-body padding-20">
 				<div class="row">
 					<div class="user-profile-settings col-sm-12 col-md-5 col-lg-6">
 						<form data-user="${user.userId}">
@@ -30,7 +30,7 @@
 								</span>
 							</div>
 						</form>
-						<form action="${profilePictureUpload}" method="post" enctype="multipart/form-data" style="margin: 0;">
+						<form action="${profilePictureUpload}" method="post" enctype="multipart/form-data" class="no-margin">
 							<label for="profile-picture-upload">Profile Picture Upload (Max size 1 MB): </label>
 							<br>
 							<img src="${profilePictureUrl}" id="profile-picture-editor-display">
@@ -81,9 +81,9 @@
 			</div>
 			<div class="box-body">
 				<c:forEach items="${notificationsMenu}" var="notification">
-					<div class="alert alert-${notification.color} alert-dismissable" style="padding:10px 30px 10px 10px; margin:10px;">
+					<div class="alert notification alert-${notification.color} alert-dismissable">
 						<button type="button" class="close remove-notification-button" data-user="${user.userId}" data-uuid="${notification.uuid}" data-dismiss="alert" aria-hidden="true">×</button>
-						<img src="${notification.image}" class="img-square" alt="user image" style="height: 50px;float: left;margin-right: 10px;border-radius: 3px;"/>
+						<img src="${notification.image}" class="img-square" alt="user image"/>
 						<h4><a href="${notification.url}">${notification.title}</a></h4>
 						<p>${notification.description}</p>
 					</div>
@@ -105,7 +105,7 @@
 			</div>
 			<div class="box-body">
 				<c:forEach items="${bookmarksMenu}" var="bookmark">
-					<div class="alert alert-${bookmark.color} alert-dismissable" style="margin:10px">
+					<div class="alert bookmark alert-${bookmark.color} alert-dismissable">
 						<button type="button" class="close remove-bookmark-button" data-user="${user.userId}" data-content="${bookmark.uuid}" data-action="remove" data-dismiss="alert" aria-hidden="true">×</button>
 						<h4><a href="${bookmark.url}">${bookmark.title}</a></h4>
 						<p>${bookmark.description}</p>
@@ -125,7 +125,7 @@
 					<button class="btn btn-danger btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
-			<div class="box-body" style="padding:20px">
+			<div class="box-body padding-20">
 				<jsp:include page="/WEB-INF/templates/karma-profile.jsp" />
 			</div>
 		</div>
