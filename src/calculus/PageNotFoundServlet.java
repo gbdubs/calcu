@@ -18,6 +18,12 @@ public class PageNotFoundServlet extends HttpServlet {
 		
 		UserContextAPI.addUserContextToRequest(req, "/");
 		
+		String requestUri = req.getRequestURI();
+		if (requestUri.equals("") || requestUri.equals("/")){
+			resp.sendRedirect("/home");
+			return;
+		}
+		
 		resp.setContentType("text/html");
 		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
