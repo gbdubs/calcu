@@ -60,13 +60,6 @@ public class UserContextAPI {
 			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
 			profileUrl = (String) publicInfo.getProperty("profileUrl");
 			email = (String) publicInfo.getProperty("email");
-			
-			int calculatedLevel = KarmaAPI.getLevel(karma);
-			if (calculatedLevel != level){
-				publicInfo.setUnindexedProperty("level", calculatedLevel);
-				datastore.put(publicInfo);
-				level = calculatedLevel;
-			}
 		}
 
 		req.setAttribute("username", username);
@@ -79,23 +72,6 @@ public class UserContextAPI {
 		int upperThreshold = KarmaAPI.getKarmaThresholdForLevel(level + 1);
 		int lowerThreshold = KarmaAPI.getKarmaThresholdForLevel(level);
 		req.setAttribute("progressThroughLevel", 100 * (karma - lowerThreshold)/(upperThreshold-lowerThreshold));
-	}
-	
-	private static void addUserNotificationsToRequest(HttpServletRequest req, User user){
-		
-		MenuItem[] notifications;
-		if (user != null){
-			notifications = new MenuItem[1];
-			notifications[0] = new MenuItem("#", "", "Welcome to CalcU", "Click here to learn the ropes!", "Today", "", "", "", "/_static/img/avatar2.png");
-			
-		} else {
-			notifications = new MenuItem[3];
-			
-			notifications[0] = new MenuItem("#", "", "A vibrant Community!", "Get and Give Karma for good deeds!", "4:45 PM", "", "", "", "/_static/img/avatar2.png");
-			notifications[1] = new MenuItem("#", "", "Help each other out!", "Questions are answered quickly!", "Yesterday", "", "", "", "/_static/img/avatar3.png");
-			notifications[2] = new MenuItem("#", "", "Get Feedback!", "Become a better student or teacher!", "12/15/14","", "", "", "/_static/img/avatar.png");
-		}
-		req.setAttribute("notificationsMenu", notifications);
 	}
 	
 	private static void addUserRecommendationsToRequest(HttpServletRequest req, User user){

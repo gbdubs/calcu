@@ -3,6 +3,8 @@ package calculus.api;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Content;
+import calculus.models.Notification;
+import calculus.utilities.Settings;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -102,9 +104,39 @@ public class KarmaAPI {
 	
 	private static void incrementUserKarma(String userId, int differential) {
 		Entity userPublicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo(userId);
+		
+		// Updates Karma
 		int karma = ((Long) userPublicInfo.getProperty("karma")).intValue();
 		userPublicInfo.setProperty("karma", karma + differential);
+		
+		// Updates Level
+		int intialLevel = ((Long) userPublicInfo.getProperty("level")).intValue();
+		int newLevel = KarmaAPI.getLevel(karma + differential);
+		if (intialLevel != newLevel){
+			userPublicInfo.setUnindexedProperty("level", newLevel);
+			Notification levelUp = levelUpNotification(userId, newLevel);
+			NotificationsAPI.sendNotification(levelUp);
+		}
+		
+		// Stores Changes
 		datastore.put(userPublicInfo);
+	}
+
+	private static Notification levelUpNotification(String userId, int newLevel) {
+		String title = "You are now Level " + newLevel;
+		String body = "Great work! Because you reached " + KarmaAPI.getKarmaThresholdForLevel(newLevel) + " you are now level " + newLevel;
+		String url = "/user/" + userId + "#karma";
+		
+		Notification n = new Notification()
+			.withRecipientId(userId)
+			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withTimeNow()
+			.withTitle(title)
+			.withBody(body)
+			.withUrl(url)
+			.withColor(ContentAPI.randomColor());
+	
+		return n;
 	}
 
 	private static Entity getUserKarmaProfile(String userId){
@@ -146,11 +178,6 @@ public class KarmaAPI {
 		} else {
 			return (int) o;
 		}
-	}
-
-	public static Entity getKaraProfileEntity(String userId) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	public static void setKarmaProfileAttributes(HttpServletRequest req, String userId){

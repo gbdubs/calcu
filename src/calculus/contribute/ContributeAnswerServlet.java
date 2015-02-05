@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.AnswersAPI;
 import calculus.api.KarmaAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Answer;
@@ -27,7 +28,7 @@ public class ContributeAnswerServlet extends HttpServlet {
 		}
 		
 		// Creates and stores a new answer from the request
-		Answer answer = Answer.createAnswerFromRequest(req);
+		Answer answer = AnswersAPI.createAnswerFromRequest(req);
 		String uuid = answer.getUuid();
 		
 		// Give the user their instant burst of Karma for answering the question

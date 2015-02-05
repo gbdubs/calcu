@@ -149,4 +149,19 @@ public class ContentAPI {
 		}
 		return content;
 	}
+
+	public static String randomColor() {
+		double rand = Math.random();
+		if (rand < .2){
+			return "danger";
+		} else if (rand < .4){
+			return "warning";
+		} else if (rand < .6){
+			return "success";
+		} else if (rand < .8){
+			return "primary";
+		} else {
+			return "info";
+		}
+	}
 }

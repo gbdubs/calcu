@@ -7,12 +7,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.AnswersAPI;
 import calculus.api.KarmaAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
 import calculus.api.UserPrivateInfoAPI;
-import calculus.models.Answer;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
@@ -39,7 +39,7 @@ public class AnswerModeServlet extends HttpServlet{
 		if (req.getParameter("action").equals("skip")){
 			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
 		} else if (req.getParameter("action").equals("done")){
-			Answer.createAnswerFromRequest(req);
+			AnswersAPI.createAnswerFromRequest(req);
 			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
 			KarmaAPI.incrementUserKarmaFromAnswerMode(userId, Math.min(streak, 10));
 			streak++;
