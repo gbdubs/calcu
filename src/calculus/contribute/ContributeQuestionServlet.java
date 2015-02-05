@@ -85,7 +85,7 @@ public class ContributeQuestionServlet extends HttpServlet {
 		String uuid = req.getParameter("uuid");
 		
 		if (submitter == null){
-			System.out.println("A user not logged in attempted to post a practice problem");
+			System.out.println("A user not logged in attempted to post a quesiton.");
 			return;
 		}
 		if (uuid != null && !uuid.equals("")){

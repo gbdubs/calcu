@@ -143,7 +143,6 @@ public class ContentAPI {
 		Query q = new Query("Content").addSort("createdAt", SortDirection.DESCENDING).setFilter(totalFilter);
 		
 		List<Entity> queryResults = datastore.prepare(q).asList(withLimit(maxToDisplay).offset(offset));
-		System.out.println(queryResults.toString());
 		List<Content> content = new ArrayList<Content>();
 		for (Entity e : queryResults){
 			content.add(new Content(e));

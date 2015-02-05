@@ -15,6 +15,7 @@ import com.google.appengine.api.users.User;
 
 import calculus.models.Notification;
 import calculus.utilities.MenuItem;
+import calculus.utilities.Settings;
 
 public class NotificationsAPI {
 
@@ -69,9 +70,26 @@ public class NotificationsAPI {
 			notificationsEntity = new Entity(key);
 			notificationsEntity.setUnindexedProperty("userId", userId);
 			notificationsEntity.setUnindexedProperty("notifications", new ArrayList<String>());
+			Notification welcome = NotificationsAPI.welcomeNotification(userId);
+			NotificationsAPI.sendNotification(welcome);
 			datastore.put(notificationsEntity);
 		}
 		return notificationsEntity;	
+	}
+
+	private static Notification welcomeNotification(String recipientId) {
+		String title = "Welcome To CalcU!";
+		String body = "Click here for an introduction to the Site!";
+		String url = "/introduction";
+		
+		return new Notification()
+			.withRecipientId(recipientId)
+			.withTitle(title)
+			.withTimeNow()
+			.withBody(body)
+			.withUrl(url)
+			.withColor("info")
+			.withAssociatedUserId(Settings.ADMIN_USER_ID);
 	}
 
 	public static void addUserNotificationsToRequest(HttpServletRequest req, User user) {
