@@ -4119,4 +4119,19 @@ a.btn.btn-warning.live-preview-return-button{
 	margin:10px;
 }
 
+.profile-profile-picture-wrapper{
+	float:left; 
+	padding: 0 10px 0 0;
+}
+
+.profile-profile-picture-wrapper > img{
+	max-height: 150px;
+	max-width:150px; 
+	border-radius:3px;
+}
+
+.public-profile-info, .public-profile-info > p{
+	display: inline-block;
+}
+
 }
