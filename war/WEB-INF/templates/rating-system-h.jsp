@@ -16,10 +16,13 @@
 	<c:if test="${empty param.userId}">
 		<button class="btn btn-block btn-warning login-button" type="button">Must Login To Rate</button>
 	</c:if>
-	<c:if test="${param.alreadyRated}">
+	<c:if test="${param.userIsAuthor}">
+		<button class="btn btn-block btn-primary disabled" type="button">You Wrote this!</button>
+	</c:if>	
+	<c:if test="${param.alreadyRated && ! param.userIsAuthor}">
 		<button class="btn btn-block btn-success disabled" type="button">Already Rated</button>
 	</c:if>
-	<c:if test="${!param.alreadyRated && not empty param.userId}">
+	<c:if test="${!param.alreadyRated && not empty param.userId && ! param.userIsAuthor}">
 		<button class="btn btn-block btn-default submit-rating" type="button">Submit Feedback</button>
 	</c:if>
 </div>
@@ -40,10 +43,13 @@
 	<c:if test="${empty param.userId}">
 		<button class="btn btn-block btn-warning login-button" type="button">Must Login To Rate</button>
 	</c:if>
-	<c:if test="${param.alreadyRated}">
+	<c:if test="${param.userIsAuthor}">
+		<button class="btn btn-block btn-primary disabled" type="button">You Wrote this!</button>
+	</c:if>	
+	<c:if test="${param.alreadyRated && ! param.userIsAuthor}">
 		<button class="btn btn-block btn-success disabled" type="button">Already Rated</button>
 	</c:if>
-	<c:if test="${!param.alreadyRated && not empty param.userId}">
+	<c:if test="${!param.alreadyRated && not empty param.userId && ! param.userIsAuthor}">
 		<button class="btn btn-block btn-default submit-rating" type="button">Submit Feedback</button>
 	</c:if>
 </div>

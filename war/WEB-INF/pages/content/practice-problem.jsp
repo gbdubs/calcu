@@ -173,6 +173,7 @@
 							<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
 								<jsp:param name="contentUuid" value="${practiceProblem.uuid}" />
 								<jsp:param name="userId" value="${user.userId}" />
+								<jsp:param name="userIsAuthor" value="${user.userId == practiceProblem.creatorUserId}" />
 								<jsp:param name="alreadyRated" value="${practiceProblem.alreadyRatedByCurrentUser}"/>
 							</jsp:include>
 							<span class="preserve-line-formatting">${practiceProblem.body}</span>
@@ -255,6 +256,8 @@
 									<jsp:include page="/WEB-INF/templates/rating-system-h.jsp">
 										<jsp:param name="contentUuid" value="${answer.uuid}" />
 										<jsp:param name="userId" value="${user.userId}" />
+										<jsp:param name="userIsAuthor" value="${user.userId == answer.creatorUserId}" />
+										<jsp:param name="alreadyRated" value="${answer.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
 									<span class="preserve-line-formatting">${answer.body}</span>
 								</div>
