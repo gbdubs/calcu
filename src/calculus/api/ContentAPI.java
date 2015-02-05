@@ -1,5 +1,7 @@
 package calculus.api;
 
+import static com.google.appengine.api.datastore.FetchOptions.Builder.withLimit;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -133,5 +135,19 @@ public class ContentAPI {
 		} catch (EntityNotFoundException e) {
 			return null;
 		}
+	}
+
+	public static List<Content> getContentWithAuthor(String userId, int maxToDisplay, int offset) {
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
+		Filter totalFilter = CompositeFilterOperator.and(userFilter, compositeFilter);
+		Query q = new Query("Content").addSort("karma", SortDirection.DESCENDING).setFilter(totalFilter);
+		
+		List<Entity> queryResults = datastore.prepare(q).asList(withLimit(maxToDisplay).offset(offset));
+		System.out.println(queryResults.toString());
+		List<Content> content = new ArrayList<Content>();
+		for (Entity e : queryResults){
+			content.add(new Content(e));
+		}
+		return content;
 	}
 }

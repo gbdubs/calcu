@@ -1,5 +1,7 @@
 package calculus.api;
 
+import javax.servlet.http.HttpServletRequest;
+
 import calculus.models.Content;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -146,5 +148,20 @@ public class KarmaAPI {
 		}
 	}
 
+	public static Entity getKaraProfileEntity(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public static void setKarmaProfileAttributes(HttpServletRequest req, String userId){
+		Entity karmaProfile = KarmaAPI.getUserKarmaProfile(userId);
+		req.setAttribute("karmaFromPracticeProblems", karmaProfile.getProperty("karmaFromPracticeProblems"));
+		req.setAttribute("karmaFromQuestions", karmaProfile.getProperty("karmaFromQuestions"));
+		req.setAttribute("karmaFromTextContent", karmaProfile.getProperty("karmaFromTextContent"));
+		req.setAttribute("karmaFromAnswers", karmaProfile.getProperty("karmaFromAnswers"));
+		req.setAttribute("karmaFromRatingOthers", karmaProfile.getProperty("karmaFromRatingOthers"));
+		req.setAttribute("karmaFromAnswerMode", karmaProfile.getProperty("karmaFromAnswerMode"));
+		req.setAttribute("karmaFromApprovedAnswers", karmaProfile.getProperty("karmaFromApprovedAnswers"));
+	}
 
 }

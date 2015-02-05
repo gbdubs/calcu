@@ -1,7 +1,11 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 
+import calculus.models.Content;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.MenuItem;
 
@@ -117,10 +121,23 @@ public class UserContextAPI {
 		Entity publicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo(userId);
 		
 		req.setAttribute("profileUsername", (String) publicInfo.getProperty("username"));
-		req.setAttribute("profileKarma", KarmaDescription.toLongString(
-				((Long) publicInfo.getProperty("karma")).intValue()
-				));
+		int karma = ((Long) publicInfo.getProperty("karma")).intValue();
+		int level = KarmaAPI.getLevel(karma);
+		req.setAttribute("profileLevel", level);
+		req.setAttribute("profileKarma", KarmaDescription.toLongString(karma));
 		req.setAttribute("profileProfilePictureUrl", (String) publicInfo.getProperty("profilePictureUrl"));		
+	
+		int maxToDisplay = 10;
+		List<Content> content = ContentAPI.getContentWithAuthor(userId, maxToDisplay, 1);
+		List<MenuItem> userContent = new ArrayList<MenuItem>();
+		for (Content c : content){
+			userContent.add(new MenuItem(c));
+		}
+		req.setAttribute("profileUserContent", userContent);
+		
+		KarmaAPI.setKarmaProfileAttributes(req, userId);
+		
+		
 	}
 
 	public static void addPersonalProfileContextToRequest(HttpServletRequest req) {
