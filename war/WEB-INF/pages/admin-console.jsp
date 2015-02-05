@@ -54,6 +54,12 @@
 						</label>
 						<br/>
 						<br/>
+						<div class="centered">
+							<input type="checkbox" name="displayAllAsJson"/>
+							<label for="displayAllAsJson">After Creation, Display all Achievements as Save-able JSON</label>
+						</div>
+						<br/>
+						<br/>
 						<input type="submit" class="btn btn-full-width btn-block btn-primary" value="Create New Achievement"/>
 					</div>
 				</form>
@@ -102,6 +108,10 @@
 								<option value="purge">Delete All Achievements, and Add These</option>
 								<option value="append" selected>Add these to Existing Achievements</option>
 							</select>
+						</p>
+						<p>
+							<input type="checkbox" name="displayAllAsJson"/>
+							<label for="displayAllAsJson">After Creation, Display all Achievements as Save-able JSON</label>
 						</p>
 						<input type="submit" class="btn btn-full-width btn-block btn-primary" value="Upload New Achievements"/>
 					</form>

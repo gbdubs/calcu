@@ -10,8 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.AchievementsAPI;
+import calculus.models.Achievement;
 
 import com.google.appengine.api.users.UserServiceFactory;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -39,10 +42,10 @@ public class AchievementModificationServlet extends HttpServlet {
 				String icon = req.getParameter("icon");
 				String color = req.getParameter("color");
 				String secondaryColor = req.getParameter("secondaryColor");
-					
-				AchievementsAPI.createNewAchievement(name, icon, color, secondaryColor, description, qualification);
 				
-				resp.sendRedirect("/admin");
+				if (!name.equals("")){
+					AchievementsAPI.createNewAchievement(name, icon, color, secondaryColor, description, qualification);
+				}
 			} else if (method.equals("bulk")){
 				String jsonData = req.getParameter("jsonDataUpload");
 				String instructions = req.getParameter("bulkAddInstructions");
@@ -58,24 +61,37 @@ public class AchievementModificationServlet extends HttpServlet {
 				JsonArray array = null;
 				if (convertable){
 					array = result.getAsJsonArray();
-				} else {
-					resp.getWriter().print("Failed to Add Achievements. Checkpoint 1.");
-				}
-				List<String> uuids = new ArrayList<String>();
-				for(int i = 0; i < array.size(); i++){
-					JsonObject achievement = array.get(i).getAsJsonObject();
-					String name = achievement.get("name").getAsString();
-					String description = achievement.get("description").getAsString();
-					String qualification = achievement.get("qualification").getAsString();
-					String icon = achievement.get("icon").getAsString();
-					String textColor = achievement.get("textColor").getAsString();
-					String backgroundColor = achievement.get("backgroundColor").getAsString();
-	
-					String uuid = AchievementsAPI.createNewAchievement(name, icon, textColor, backgroundColor, description, qualification);
-					uuids.add(uuid);
-				}
+					List<String> uuids = new ArrayList<String>();
+					for(int i = 0; i < array.size(); i++){
+						JsonObject achievement = array.get(i).getAsJsonObject();
+						String name = achievement.get("name").getAsString();
+						String description = achievement.get("description").getAsString();
+						String qualification = achievement.get("qualification").getAsString();
+						String icon = achievement.get("icon").getAsString();
+						String textColor = achievement.get("textColor").getAsString();
+						String backgroundColor = achievement.get("backgroundColor").getAsString();
+		
+						String uuid = AchievementsAPI.createNewAchievement(name, icon, textColor, backgroundColor, description, qualification);
+						uuids.add(uuid);
+						
+					}
+				}				
+			}
+			boolean displayAllAsJson = req.getParameter("displayAllAsJson") != null; 
+			if (displayAllAsJson){
+				String json = getAllAchievementsAsJson();
+				resp.getWriter().println(json);
+				return;
+			} else {
 				resp.sendRedirect("/admin");
 			}
 		}
+	}
+	
+	public static String getAllAchievementsAsJson() {
+		List<Achievement> all = AchievementsAPI.getAllAchievements();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		String json = gson.toJson(all);
+		return json;
 	}
 }

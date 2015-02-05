@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.UUID;
 
 import calculus.models.Achievement;
+import calculus.models.Notification;
+import calculus.utilities.Settings;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -13,6 +15,8 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
+import com.google.gson.GsonBuilder;
+import com.google.gson.Gson;
 
 public class AchievementsAPI {
 
@@ -43,8 +47,29 @@ public class AchievementsAPI {
 			achievements.add(achievementUuid);
 			UserPrivateInfoAPI.setUserAchievementUuids(userId, achievements);
 		}
+		Notification achievementAlert = createAchievementAlert(userId, achievementUuid);
+		NotificationsAPI.sendNotification(achievementAlert);
 	}
 	
+	private static Notification createAchievementAlert(String userId, String achievementUuid) {
+		Achievement a = new Achievement(achievementUuid);
+		String title = "New Achievement!";
+		String body = "You just won the " +a.getName() + " achievement! Check them out here!";
+		String url = "/achievements";
+		
+		
+		Notification n = new Notification()
+			.withRecipientId(userId)
+			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withTimeNow()
+			.withTitle(title)
+			.withBody(body)
+			.withUrl(url)
+			.withColor("warning");
+		
+		return n;
+	}
+
 	public static List<Achievement> getUserAchievements(String userId){
 		return getAchievements(getUserAchievementUuids(userId));
 	}

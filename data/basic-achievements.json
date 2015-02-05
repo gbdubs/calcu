@@ -1,26 +1,47 @@
 [
-	{
-		"name":"Barak Obama 2008",
-		"description":"People are really excited about you, but it is not necessarily based on anything but your novelty.",
-		"qualification":"Find this page",
-		"icon":"fa-user",
-		"textColor":"text-red",
-		"backgroundColor":"text-blue bg-blue"
-	},
-	{
-		"name":"Barak Obama 2012",
-		"description":"You are objectively more successful now, but it doesnt seem like people respect that.",
-		"qualification":"Be here for a while",
-		"icon":"fa-flag",
-		"textColor":"text-blue",
-		"backgroundColor":"text-red bg-red"
-	},
-	{
-		"name":"Vermonter",
-		"description":"You are one dope mother fucker",
-		"qualification":"Use the site well",
-		"icon":"fa-leaf",
-		"textColor":"text-yellow",
-		"backgroundColor":"text-green bg-green"
-	}
+  {
+    "icon": "fa-empire",
+    "qualification": "What goes up must come down",
+    "color": "text-red",
+    "description": "Have a boomerang Career",
+    "name": "George Lucas",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f2",
+    "secondaryColor": "bg-black text-black"
+  },
+  {
+    "icon": "fa-flag",
+    "qualification": "Be here for a while",
+    "color": "text-blue",
+    "description": "You are objectively more successful now, but it doesnt seem like people respect that.",
+    "name": "Barak Obama 2012",
+    "uuid": "4ff7f30f-0b12-48a0-b700-5cbfa52aebad",
+    "secondaryColor": "text-red bg-red"
+  },
+  {
+    "icon": "fa-leaf",
+    "qualification": "Use the site well",
+    "color": "text-yellow",
+    "description": "You are one dope mother fucker",
+    "name": "Vermonter",
+    "uuid": "8004e62f-1c11-480e-a44a-83ec7779d55a",
+    "secondaryColor": "text-green bg-green"
+  },
+  {
+    "icon": "fa-binoculars",
+    "qualification": "Help others and do well yourself",
+    "color": "text-maroon",
+    "description": "Great Work, Pal",
+    "name": "Shula",
+    "uuid": "b34e76b0-9729-4e3a-9da3-9e91afc9c681",
+    "secondaryColor": "text-purple bg-purple"
+  },
+  {
+    "icon": "fa-user",
+    "qualification": "Find this page",
+    "color": "text-red",
+    "description": "People are really excited about you, but it is not necessarily based on anything but your novelty.",
+    "name": "Barak Obama 2008",
+    "uuid": "dc8b06c9-6992-47b9-a843-dba4506df34b",
+    "secondaryColor": "text-blue bg-blue"
+  }
 ]

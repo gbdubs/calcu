@@ -8,43 +8,58 @@ import com.google.appengine.api.datastore.KeyFactory;
 
 public class Achievement {
 
-	private Entity entity;
+	private String icon;
+	private String qualification;
+	private String color;
+	private String description;
+	private String name;
+	private String uuid;
+	private String secondaryColor;
+	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public Achievement(String uuid){
+		Entity entity = null;
 		try {
 			entity = datastore.get(KeyFactory.createKey("Achievement", uuid));
 		} catch (EntityNotFoundException e) {
 			throw new RuntimeException("Achievement with UUID ["+uuid+"] does not exist.");
 		}
+		this.icon = (String) entity.getProperty("icon");
+		this.color = (String) entity.getProperty("color");
+		this.secondaryColor = (String) entity.getProperty("secondaryColor");
+		this.description = (String) entity.getProperty("description");
+		this.name = (String) entity.getProperty("name");
+		this.qualification = (String) entity.getProperty("qualification");
+		this.uuid = (String) entity.getProperty("uuid");
 	}
 	
 	public String getName(){
-		return (String) entity.getProperty("name");
+		return this.name;
 	}
 	
 	public String getIcon(){
-		return (String) entity.getProperty("icon");
+		return this.icon;
 	}
 	
 	public String getColor(){
-		return (String) entity.getProperty("color");
+		return this.color;
 	}
 	
 	public String getSecondaryColor(){
-		return (String) entity.getProperty("secondaryColor");
+		return this.secondaryColor;
 	}
 	
 	public String getDescription(){
-		return (String) entity.getProperty("description");
+		return this.description;
 	}
 	
 	public String getQualification(){
-		return (String) entity.getProperty("qualification");
+		return this.qualification;
 	}
 	
 	public String getUuid(){
-		return (String) entity.getProperty("uuid");
+		return this.uuid;
 	}
 
 	@Override
