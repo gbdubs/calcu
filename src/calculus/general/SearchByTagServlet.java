@@ -84,7 +84,6 @@ public class SearchByTagServlet extends HttpServlet {
 					// Don't add to the list if it doesn't exist. Basic stuff, guys.
 				}
 			}
-			System.out.println("uuids.size()="+uuids.size() +" maxNumResults="+ maxNumResults);
 			if (uuids.size() == maxNumResults){
 				moreResults = true;
 			}

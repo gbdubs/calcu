@@ -43,6 +43,7 @@
 			</div>
 		</div>
 		
+		<c:if test="${practiceProblemsNotFound || fn:length(resultPracticeProblems) > 0 }">
 		<div class="box box-solid">
 		<c:if test="${moreResults || seed > 1}">
 				<div class="box-header overflower">
@@ -301,6 +302,7 @@
 		</c:if>
 		</div>
 		</div>
+		</c:if>
 		
 		<c:if test="${practiceProblemsNotFound || questionsNotFound || textContentNotFound}">
 			<div class="box box-default">
