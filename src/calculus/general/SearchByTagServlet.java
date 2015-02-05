@@ -21,18 +21,33 @@ public class SearchByTagServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
-		UserContextAPI.addUserContextToRequest(req, "/search");
+		String requestUri = req.getRequestURI();
+		UserContextAPI.addUserContextToRequest(req, requestUri);
 		
-		req.setAttribute("practiceProblemsNotFound", false);
-		resp.setContentType("text/html");
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/search.jsp");	
-		jsp.forward(req, resp);
+		String tagString = getTagStringFromUrlPattern(requestUri);
+		
+		if (tagString == null){
+			resp.setContentType("text/html");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/search.jsp");	
+			jsp.forward(req, resp);
+		} else {
+			renderSearchResultsForString(tagString, req, resp);
+			return;
+		}
 	}
 	
+	private String getTagStringFromUrlPattern(String requestUri) {
+		int index = requestUri.indexOf("/search/") + 8;
+		if (index < 8) return null;
+		return requestUri.substring(index).replaceAll("%20", " ");
+	}
+
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
-		
 		String tagString = req.getParameter("tagsInput");
-		
+		resp.sendRedirect("/search/" + tagString);
+	}
+	
+	private void renderSearchResultsForString(String tagString, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		List<Content> practiceProblems = new ArrayList<Content>();
 		List<Content> questions = new ArrayList<Content>();
 		List<Content> textContent = new ArrayList<Content>();
@@ -81,7 +96,7 @@ public class SearchByTagServlet extends HttpServlet {
 			req.setAttribute("textContentNotFound", false);
 		}
 		
-		UserContextAPI.addUserContextToRequest(req, "/search");
+		UserContextAPI.addUserContextToRequest(req, "/search/" + tagString);
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/search.jsp");	
 		
