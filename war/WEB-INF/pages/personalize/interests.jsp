@@ -23,7 +23,7 @@
 					<c:forEach items="${interests}" var="interest">
 						<div class="interest-button-wrapper col-xs-6 col-sm-4 col-md-3 col-lg-2">
 							<c:if test="${interest.value}">
-								<button class="toggle-interest-button btn btn-success"
+								<button class="toggle-interest-button btn btn-success original-interest"
 									data-interest="${interest.key}"
 									data-user="${user.userId}"
 									data-action="remove"
@@ -43,7 +43,7 @@
 				</div>
 				<div class="overflower">
 					<div class="pull-right">
-						<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
+						<a data-user="${user.userId}" id="next-step-button" class="btn btn-success" href="/personalize/${stepNumber + 1}">
 							Next Step
 							<i class="fa fa-arrow-circle-right fa-fw"></i>
 						</a>

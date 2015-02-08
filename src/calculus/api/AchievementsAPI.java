@@ -81,7 +81,11 @@ public class AchievementsAPI {
 	public static List<Achievement> getAchievements(List<String> uuids){
 		List<Achievement> Achievements = new ArrayList<Achievement>();
 		for (String uuid : uuids){
-			Achievements.add(new Achievement(uuid));
+			try{
+				Achievements.add(new Achievement(uuid));
+			} catch (RuntimeException e){
+				// Ignore this, it is likely a datastore update issue.
+			}
 		}
 		return Achievements;
 	}

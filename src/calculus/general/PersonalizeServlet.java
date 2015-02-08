@@ -1,6 +1,8 @@
 package calculus.general;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
@@ -9,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.InterestsAPI;
 import calculus.api.RecommendationsAPI;
 import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
@@ -94,16 +97,23 @@ public class PersonalizeServlet extends HttpServlet {
 		
 		String url = req.getRequestURI();
 		
-		if (url.contains("/personalize/interest")){
+		if (url.contains("/personalize/interests")){
 			String userId = req.getParameter("userId");
-			String interest = req.getParameter("interest");
-			String action = req.getParameter("action");
+			String addInterests = req.getParameter("add-interests");
+			String removeInterests = req.getParameter("remove-interests");
 			
-			if (action.equals("add")){
-				RecommendationsAPI.addInterest(interest, userId);
-			} else if (action.equals("remove")){
-				RecommendationsAPI.removeInterest(interest, userId);
-			}
+			String[] toAdd = addInterests.split(",");
+			String[] toRemove = removeInterests.split(",");
+			
+			List<String> addingTags = new ArrayList<String>();
+			for(String s : toAdd){addingTags.add(s);}
+			List<String> removingTags = new ArrayList<String>();
+			for(String s : toRemove){removingTags.add(s);}
+			
+			System.out.println("ToAdd: " + addingTags + "toRemove: "+ removingTags);
+			
+			InterestsAPI.appendNewInterests(userId, addingTags);
+			InterestsAPI.removeInterests(userId, removingTags);
 		} else if (url.contains("/personalize/difficulty")){
 			String userId = req.getParameter("userId");
 			String contentUuid = req.getParameter("contentUuid");

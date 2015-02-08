@@ -10,11 +10,11 @@ public class Achievement {
 
 	private String icon;
 	private String qualification;
-	private String color;
+	private String textColor;
 	private String description;
 	private String name;
 	private String uuid;
-	private String secondaryColor;
+	private String backgroundColor;
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
@@ -26,8 +26,8 @@ public class Achievement {
 			throw new RuntimeException("Achievement with UUID ["+uuid+"] does not exist.");
 		}
 		this.icon = (String) entity.getProperty("icon");
-		this.color = (String) entity.getProperty("color");
-		this.secondaryColor = (String) entity.getProperty("secondaryColor");
+		this.textColor = (String) entity.getProperty("color");
+		this.backgroundColor = (String) entity.getProperty("secondaryColor");
 		this.description = (String) entity.getProperty("description");
 		this.name = (String) entity.getProperty("name");
 		this.qualification = (String) entity.getProperty("qualification");
@@ -43,11 +43,11 @@ public class Achievement {
 	}
 	
 	public String getColor(){
-		return this.color;
+		return this.textColor;
 	}
 	
 	public String getSecondaryColor(){
-		return this.secondaryColor;
+		return this.backgroundColor;
 	}
 	
 	public String getDescription(){
