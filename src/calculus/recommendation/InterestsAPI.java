@@ -54,8 +54,8 @@ public class InterestsAPI {
 		datastore.put(interestsEntity);
 	}
 
-	private static Entity getInterestsEntity(String userId){
-		Key key = KeyFactory.createKey("InterestsEntity", userId);
+	protected static Entity getInterestsEntity(String userId){
+		Key key = KeyFactory.createKey("InterestsProfile", userId);
 		try {
 			return datastore.get(key);
 		} catch (EntityNotFoundException enfe) {

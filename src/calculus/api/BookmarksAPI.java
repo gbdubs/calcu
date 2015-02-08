@@ -80,4 +80,8 @@ public class BookmarksAPI {
 			req.setAttribute("bookmarksMenu", bookmarks);
 		}
 	}
+
+	public static List<String> getUserBookmarks(String userId) {
+		return UserPrivateInfoAPI.getBookmarkUuids(userId);
+	}
 }

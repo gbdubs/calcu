@@ -22,8 +22,8 @@ public class SkillsAPI {
 		datastore.put(skillsEntity);
 	}
 
-	private static Entity getSkillsEntity(String userId){
-		Key key = KeyFactory.createKey("SkillsEntity", userId);
+	protected static Entity getSkillsEntity(String userId){
+		Key key = KeyFactory.createKey("SkillsProfile", userId);
 		try {
 			return datastore.get(key);
 		} catch (EntityNotFoundException enfe) {
