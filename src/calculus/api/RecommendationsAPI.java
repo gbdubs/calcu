@@ -1,9 +1,9 @@
 package calculus.api;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+
+import calculus.recommendation.InterestsAPI;
 
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
@@ -11,28 +11,7 @@ import calculus.models.Question;
 public class RecommendationsAPI {
 	
 	public static Map<String, Boolean> getUserInterestPossibilities(String userId) {
-		Map<String, Boolean> result = new HashMap<String, Boolean>();
-		
-		int maxResults = 24;
-		int buffer = 5;
-		int maxOldInterests = 5;
-		
-		List<String> newInterests = InterestsAPI.getPotentialInterests(userId, maxResults + buffer);
-		
-		int numOldInterests = Math.max(maxResults - newInterests.size(), maxOldInterests);
-		List<String> oldInterests = InterestsAPI.getAndCycleFirstNInterests(userId, numOldInterests);
-		
-		for (String oi : oldInterests){
-			result.put(oi, true);
-		}
-		
-		int i = 0;
-		while (result.size() < maxResults && i < newInterests.size()){
-			result.put(newInterests.get(i), false);
-			i++;
-		}
-
-		return result;
+		return InterestsAPI.getPotentialAndExistingInterests(userId, 24);
 	}
 
 	public static PracticeProblem getDifficultyCalibrationPracticeProblem(String userId) {

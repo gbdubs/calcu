@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.InterestsAPI;
 import calculus.api.RecommendationsAPI;
 import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
+import calculus.recommendation.InterestsAPI;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -116,8 +116,8 @@ public class PersonalizeServlet extends HttpServlet {
 				removingTags.add(s);
 			}
 			
-			InterestsAPI.appendNewInterests(userId, addingTags);
-			InterestsAPI.removeInterests(userId, removingTags);
+			InterestsAPI.incrementUserInterests(userId, addingTags, 5);
+			InterestsAPI.incrementUserInterests(userId, removingTags, -5);
 		} else if (url.contains("/personalize/difficulty")){
 			String userId = req.getParameter("userId");
 			String contentUuid = req.getParameter("contentUuid");
