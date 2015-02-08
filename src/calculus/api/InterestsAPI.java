@@ -21,7 +21,7 @@ public class InterestsAPI {
 		int offset = intValue(interestProfile, "popularTagOffset");
 		interestProfile.setProperty("popularTagOffset", offset + maxResults);
 		
-		List<String> popularTags = TagAPI.getPopularTags(maxResults + 10, offset);
+		List<String> popularTags = TagAPI.getPopularTags(maxResults, offset);
 		popularTags.removeAll(currentInterests);
 
 		if (popularTags == null || popularTags.size() < maxResults){
@@ -35,94 +35,85 @@ public class InterestsAPI {
 
 	public static List<String> getAndCycleFirstNInterests(String userId, int n){
 		if (n < 1) return null;
-		Entity interests = getUserInterestsProfile(userId);
-		List<String> list = getInterests(interests);
-		interests.setProperty("updatedOn", System.currentTimeMillis());
-		if (n >= list.size()){
-			return list;
+		Entity interestsProfile = getUserInterestsProfile(userId);
+		List<String> interests = getInterests(interestsProfile);
+		interestsProfile.setProperty("updatedOn", System.currentTimeMillis());
+		if (n >= interests.size()){
+			return interests;
 		} else {
-			System.out.println("Suspect 2");
-			int length = list.size();
-			List<String> toReturn = sublist(list, 0, n);
-			List<String> toKeep = sublist(list, n, length);
+			int length = interests.size();
+			List<String> toReturn = sublist(interests, 0, n);
+			List<String> toKeep = sublist(interests, n, length);
 			// Adds the values that will be returned to the end of the list so that they dont' show up next time.
 			toKeep.addAll(toReturn);
-			interests.setUnindexedProperty("interests", toKeep);
-			datastore.put(interests);
+			interestsProfile.setUnindexedProperty("interests", toKeep);
+			datastore.put(interestsProfile);
 			return toReturn;
 		}
 	}
 	
-	private static List<String> sublist(List<String> list, int start, int stop){
-		List<String> result = new ArrayList<String>();
-		for(int i = start; i < stop; i++){
-			result.add(list.get(i));
-		}
-		return result;
-	}
-
 	public static void appendNewInterests(String userId, List<String> newInterests){
-		Entity interests = getUserInterestsProfile(userId);
-		List<String> list = getInterests(interests);
+		Entity interestsProfile = getUserInterestsProfile(userId);
+		List<String> list = getInterests(interestsProfile);
 		if (list == null) list = new ArrayList<String>();
 		for (String s : newInterests){
 			if (!list.contains(s)){
 				list.add(s);
 			}
 		}
-		interests.setUnindexedProperty("interests", list);
-		interests.setProperty("updatedOn", System.currentTimeMillis());
-		datastore.put(interests);
+		interestsProfile.setUnindexedProperty("interests", list);
+		interestsProfile.setProperty("updatedOn", System.currentTimeMillis());
+		datastore.put(interestsProfile);
 	}
 
 	public static void appendNewInterest(String userId, String newInterest){
-		Entity interests = getUserInterestsProfile(userId);
-		List<String> list = getInterests(interests);
+		Entity interestsProfile = getUserInterestsProfile(userId);
+		List<String> list = getInterests(interestsProfile);
 		if (! list.contains(newInterest)) {
 			list.add(newInterest);
 		}
-		interests.setUnindexedProperty("interests", list);
-		interests.setProperty("updatedOn", System.currentTimeMillis());
-		datastore.put(interests);
+		interestsProfile.setUnindexedProperty("interests", list);
+		interestsProfile.setProperty("updatedOn", System.currentTimeMillis());
+		datastore.put(interestsProfile);
 	}
 
 	public static void removeInterests(String userId, List<String> removingTags) {
-		Entity interests = getUserInterestsProfile(userId);
-		List<String> list = getInterests(interests);
+		Entity interestsProfile = getUserInterestsProfile(userId);
+		List<String> list = getInterests(interestsProfile);
 		list.removeAll(removingTags);
-		interests.setUnindexedProperty("interests", list);
-		interests.setProperty("updatedOn", System.currentTimeMillis());
-		datastore.put(interests);
+		interestsProfile.setUnindexedProperty("interests", list);
+		interestsProfile.setProperty("updatedOn", System.currentTimeMillis());
+		datastore.put(interestsProfile);
 	}
 
 	private static Entity getUserInterestsProfile(String userId){
 		Key key = KeyFactory.createKey("UserInterests", userId);
-		Entity result;
+		Entity interestsProfile;
 		try {
 			return datastore.get(key);
 		} catch (EntityNotFoundException e) {
-			result = new Entity(key);
+			interestsProfile = new Entity(key);
 			String[] defaultInterests = {
 					"calculus", "linear algebra", "differential equations", "derivatives", "integrals", "related rates", "integration by parts", "geometry", "algebra", "trigonometry", "trig"
 			};
 			List<String> defaults = new ArrayList<String>();
 			for (String s : defaultInterests){defaults.add(s);}
-			result.setProperty("updatedOn", System.currentTimeMillis());
-			result.setUnindexedProperty("interests", defaults);
-			result.setUnindexedProperty("popularTagOffset", 0);
-			return result;
+			interestsProfile.setProperty("updatedOn", System.currentTimeMillis());
+			interestsProfile.setUnindexedProperty("interests", defaults);
+			interestsProfile.setUnindexedProperty("popularTagOffset", 0);
+			return interestsProfile;
 		}
 	}
 
 	public static List<String> getInterests(String userId){
-		Entity interests = getUserInterestsProfile(userId);
-		return getInterests(interests);
+		Entity interestsProfile = getUserInterestsProfile(userId);
+		return getInterests(interestsProfile);
 	}
 
 	private static List<String> getInterests(Entity userInterestsProfile){
-		List<String> list = (List<String>) userInterestsProfile.getProperty("interests");
-		if (list == null) list = new ArrayList<String>();
-		return list;
+		List<String> interests = (List<String>) userInterestsProfile.getProperty("interests");
+		if (interests == null) interests = new ArrayList<String>();
+		return interests;
 	}
 
 	private static int intValue(Entity e, String p){
@@ -135,4 +126,13 @@ public class InterestsAPI {
 			return (int) o;
 		}
 	}
+
+	private static List<String> sublist(List<String> list, int start, int stop){
+		List<String> result = new ArrayList<String>();
+		for(int i = start; i < stop; i++){
+			result.add(list.get(i));
+		}
+		return result;
+	}
+
 }

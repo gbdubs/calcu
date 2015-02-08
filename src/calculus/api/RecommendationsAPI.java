@@ -1,6 +1,5 @@
 package calculus.api;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -15,13 +14,15 @@ public class RecommendationsAPI {
 		Map<String, Boolean> result = new HashMap<String, Boolean>();
 		
 		int maxResults = 24;
-		List<String> newInterests = InterestsAPI.getPotentialInterests(userId, maxResults);
-		System.out.println("newInterests:" + newInterests);
-		List<String> oldInterests = InterestsAPI.getAndCycleFirstNInterests(userId, Math.max(maxResults - newInterests.size(), 4));
-
-		List<String> newList = new ArrayList<String>(oldInterests);
+		int buffer = 5;
+		int maxOldInterests = 5;
 		
-		for (String oi : newList){
+		List<String> newInterests = InterestsAPI.getPotentialInterests(userId, maxResults + buffer);
+		
+		int numOldInterests = Math.max(maxResults - newInterests.size(), maxOldInterests);
+		List<String> oldInterests = InterestsAPI.getAndCycleFirstNInterests(userId, numOldInterests);
+		
+		for (String oi : oldInterests){
 			result.put(oi, true);
 		}
 		

@@ -15,8 +15,6 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
-import com.google.gson.GsonBuilder;
-import com.google.gson.Gson;
 
 public class AchievementsAPI {
 

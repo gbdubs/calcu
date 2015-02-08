@@ -106,11 +106,15 @@ public class PersonalizeServlet extends HttpServlet {
 			String[] toRemove = removeInterests.split(",");
 			
 			List<String> addingTags = new ArrayList<String>();
-			for(String s : toAdd){addingTags.add(s);}
+			for(String s : toAdd){
+				if (s.length() > 0){
+					addingTags.add(s);
+				}
+			}
 			List<String> removingTags = new ArrayList<String>();
-			for(String s : toRemove){removingTags.add(s);}
-			
-			System.out.println("ToAdd: " + addingTags + "toRemove: "+ removingTags);
+			for(String s : toRemove){
+				removingTags.add(s);
+			}
 			
 			InterestsAPI.appendNewInterests(userId, addingTags);
 			InterestsAPI.removeInterests(userId, removingTags);
