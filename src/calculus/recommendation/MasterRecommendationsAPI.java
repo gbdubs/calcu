@@ -1,14 +1,14 @@
-package calculus.api;
+package calculus.recommendation;
 
 import java.util.Arrays;
 import java.util.Map;
 
-import calculus.recommendation.InterestsAPI;
-
+import calculus.api.PracticeProblemAPI;
+import calculus.api.QuestionAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
-public class RecommendationsAPI {
+public class MasterRecommendationsAPI {
 	
 	public static Map<String, Boolean> getUserInterestPossibilities(String userId) {
 		return InterestsAPI.getPotentialAndExistingInterests(userId, 24);

@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.RecommendationsAPI;
 import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
 import calculus.recommendation.InterestsAPI;
+import calculus.recommendation.MasterRecommendationsAPI;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -59,14 +59,14 @@ public class PersonalizeServlet extends HttpServlet {
 		}
 		if (stepNumber % 4 == 1) {
 			// Interest Recognition
-			Map<String, Boolean> interests = RecommendationsAPI.getUserInterestPossibilities(user.getUserId());
+			Map<String, Boolean> interests = MasterRecommendationsAPI.getUserInterestPossibilities(user.getUserId());
 			req.setAttribute("interests", interests);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/interests.jsp");	
 			jsp.forward(req, resp);
 			return;
 		} else if (stepNumber % 3 == 0 && stepNumber != 12) {
 			// Difficulty Calibration Practice Problem
-			PracticeProblem pp = RecommendationsAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
+			PracticeProblem pp = MasterRecommendationsAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
 			req.setAttribute("practiceProblem", pp);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");	
@@ -74,7 +74,7 @@ public class PersonalizeServlet extends HttpServlet {
 			return;
 		} else if (stepNumber == 12) {
 			// Difficulty Calibration Question
-			Question q = RecommendationsAPI.getDifficultyCalibrationQuestion(user.getUserId());
+			Question q = MasterRecommendationsAPI.getDifficultyCalibrationQuestion(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
 			req.setAttribute("question", q);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	
@@ -122,13 +122,13 @@ public class PersonalizeServlet extends HttpServlet {
 			String contentUuid = req.getParameter("contentUuid");
 			String difficulty = req.getParameter("difficulty");
 			
-			RecommendationsAPI.addDifficultyInformation(userId, contentUuid, difficulty);
+			MasterRecommendationsAPI.addDifficultyInformation(userId, contentUuid, difficulty);
 		} else if (url.contains("/personalize/content-comparison")){
 			String userId = req.getParameter("userId");
 			String preference = req.getParameter("preference");
 			String outOf = req.getParameter("outOf");
 			String[] allUuids = outOf.split(",");	
-			RecommendationsAPI.andComparisonInformation(userId, preference, allUuids);
+			MasterRecommendationsAPI.andComparisonInformation(userId, preference, allUuids);
 		}
 	}
 	
