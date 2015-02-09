@@ -99,4 +99,16 @@ public class TagAPI {
 		}
 		return tags;
 	}
+	
+	public static List<String> getTagsFromString(String tags){
+		List<String> allTags = new ArrayList<String>();
+		if (tags == null || tags.length() == 0) return allTags;
+		String[] tagsList = tags.split(",");
+		for(String tag : tagsList){
+			if (!tag.equals("")){
+				allTags.add(tag);
+			}
+		}
+		return allTags;
+	}
 }

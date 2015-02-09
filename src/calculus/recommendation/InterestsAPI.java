@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import calculus.api.TagAPI;
+import calculus.models.Content;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -16,6 +17,86 @@ import com.google.appengine.api.datastore.KeyFactory;
 public class InterestsAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();	
+	
+	private static final float userViewedContentIncrement = (float) .2;
+	private static final float userRatedContentIncrement = (float) .1;
+	private static final float userAnsweredContentIncrement = (float) .1;
+	private static final float userTagCalibrationIncrement = (float) 1;
+	private static final float userSearchedForTagIncrement = (float) .5;
+	private static final float userBookmarkedContentIncrement = (float) .3;
+	private static final int seriousInterestThresholdValue = 6;
+	
+	
+	// NOT PLACED YET
+	public static void userViewedContent(String userId, String contentUuid){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't change the interests profile
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+		
+		incrementUserInterests(userId, contentTags, userViewedContentIncrement);
+	}
+	
+	// NOT PLACED YET
+	public static void userRatedContent(String userId, String contentUuid){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't change the interests profile
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+		
+		incrementUserInterests(userId, contentTags, userRatedContentIncrement);
+	}
+	
+	// NOT PLACED YET
+	public static void userAnsweredContent(String userId, String contentUuid){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't change the interests profile
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+		
+		incrementUserInterests(userId, contentTags, userAnsweredContentIncrement);
+	}
+	
+	// NOT PLACED YET
+	public static void userBookmarkedContent(String userId, String contentUuid){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't change the interests profile
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+		
+		incrementUserInterests(userId, contentTags, userBookmarkedContentIncrement);
+	}
+	
+	// NOT PLACED YET
+	public static void userIndicatedTagsInterestingInCalibration(String userId, List<String> tags){
+		incrementUserInterests(userId, tags, userTagCalibrationIncrement);
+	}
+	
+	// NOT PLACED YET
+	public static void userIndicatedTagsDisinterestingInCalibration(String userId, List<String> tags){
+		incrementUserInterests(userId, tags, -1 * userTagCalibrationIncrement);
+	}
+	
+	// NOT PLACED YET
+	public static void userSearchedForTags(String userId, List<String> tags){
+		incrementUserInterests(userId, tags, userSearchedForTagIncrement);
+	}
 	
 	public static Map<String, Boolean> getPotentialAndExistingInterests(String userId, int maxResults){
 		Entity interestProfile = getInterestsEntity(userId);
@@ -30,7 +111,6 @@ public class InterestsAPI {
 		}
 		
 		Map<String, Boolean> seriousInterest = new HashMap<String, Boolean>();
-		int seriousInterestThresholdValue = 6;
 		
 		for(String popularTag : popularTags){
 			if (getInterestValue(interestProfile, popularTag) > seriousInterestThresholdValue){
@@ -45,7 +125,7 @@ public class InterestsAPI {
 		return seriousInterest;
 	}
 	
-	public static void incrementUserInterests(String userId, List<String> interestTags, float increment){
+	private static void incrementUserInterests(String userId, List<String> interestTags, float increment){
 		Entity interestsEntity = getInterestsEntity(userId);
 		for (String interestTag : interestTags){
 			incrementUserInterest(interestsEntity, interestTag, increment);

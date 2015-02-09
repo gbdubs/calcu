@@ -116,8 +116,7 @@ public class PersonalizeServlet extends HttpServlet {
 				removingTags.add(s);
 			}
 			
-			InterestsAPI.incrementUserInterests(userId, addingTags, 5);
-			InterestsAPI.incrementUserInterests(userId, removingTags, -5);
+			// Place here, fool!
 		} else if (url.contains("/personalize/difficulty")){
 			String userId = req.getParameter("userId");
 			String contentUuid = req.getParameter("contentUuid");

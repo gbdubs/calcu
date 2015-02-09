@@ -16,8 +16,8 @@ public class SkillsAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();	
 	
 	private static final float answerQuestionIncrement = 1;
-	private static final float difficultyPersonalizationCalibration = (float) -.5;
-	private static final float difficultyRatingCalibration = (float) -.5;
+	private static final float difficultyPersonalizationCalibrationFactor = (float) -.5;
+	private static final float difficultyRatingCalibrationFactor = (float) -.5;
 	
 	// NOT PLACED YET
 	public static void answeredQuestion(String userId, String contentUuid){
@@ -45,12 +45,12 @@ public class SkillsAPI {
 		try {
 			c = new Content(contentUuid);
 		} catch (EntityNotFoundException e) {
-			// If the entity didn't exist, we shouldn't mark that the user answered it.
+			// If the entity didn't exist, we shouldn't change the skills profile
 			return;
 		}
 		List<String> contentTags = c.getListOfTags();
 
-		incrementUserSkills(userId, contentTags, difficulty * difficultyPersonalizationCalibration);
+		incrementUserSkills(userId, contentTags, difficulty * difficultyPersonalizationCalibrationFactor);
 	}
 	
 	// NOT PLACED YET
@@ -59,12 +59,12 @@ public class SkillsAPI {
 		try {
 			c = new Content(contentUuid);
 		} catch (EntityNotFoundException e) {
-			// If the entity didn't exist, we shouldn't mark that the user answered it.
+			// If the entity didn't exist, we shouldn't change the skills profile
 			return;
 		}
 		List<String> contentTags = c.getListOfTags();
 		
-		incrementUserSkills(userId, contentTags, difficultyRating * difficultyRatingCalibration);
+		incrementUserSkills(userId, contentTags, difficultyRating * difficultyRatingCalibrationFactor);
 	}
 	
 	private static void incrementUserSkills(String userId, List<String> skillTags, float increment){
