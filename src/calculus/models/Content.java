@@ -174,6 +174,19 @@ public class Content {
 		return s.replace(",", ", ");
 	}
 	
+	public List<String> getListOfTags(){
+		List<String> allTags = new ArrayList<String>();
+		String tags = (String) entity.getProperty("tags");
+		if (tags == null || tags.length() == 0) return allTags;
+		String[] tagsList = tags.split(",");
+		for(String tag : tagsList){
+			if (!tag.equals("")){
+				allTags.add(tag);
+			}
+		}
+		return allTags;
+	}
+	
 	public String getAbbreviatedBody(){
 		String body = this.getBody();
 		if (body.length() > 300){

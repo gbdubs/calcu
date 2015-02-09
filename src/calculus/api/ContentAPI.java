@@ -24,12 +24,10 @@ import com.google.appengine.api.datastore.Query.SortDirection;
 
 public class ContentAPI {
 
-
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	private static Filter compositeFilter = CompositeFilterOperator.and(viewableFilter, submittedFilter);
-
 	
 	public static List<Content> getNewContent(int i) {
 		Query q = new Query("Content").addSort("createdAt", SortDirection.DESCENDING).setFilter(compositeFilter);
@@ -164,4 +162,5 @@ public class ContentAPI {
 			return "info";
 		}
 	}
+
 }

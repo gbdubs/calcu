@@ -2,8 +2,7 @@ package calculus.recommendation;
 
 import java.util.List;
 
-import calculus.api.ContentAPI;
-import calculus.api.TagAPI;
+import calculus.models.Content;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -16,7 +15,59 @@ public class SkillsAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();	
 	
-	public static void incrementUserSkills(String userId, List<String> skillTags, float increment){
+	private static final float answerQuestionIncrement = 1;
+	private static final float difficultyPersonalizationCalibration = (float) -.5;
+	private static final float difficultyRatingCalibration = (float) -.5;
+	
+	// NOT PLACED YET
+	public static void answeredQuestion(String userId, String contentUuid){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't mark that the user answered it.
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+
+		incrementUserSkills(userId, contentTags, answerQuestionIncrement);
+	}
+	
+	/**
+	 * Calibrates to the difficulty of the person.
+	 * @param userId The User's ID
+	 * @param contentUuid Content that was personalzied to
+	 * @param difficulty A Float that should be between 0 and 1
+	 */
+	// NOT PLACED YET
+	public static void contentDifficultyPersonalization(String userId, String contentUuid, float difficulty){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't mark that the user answered it.
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+
+		incrementUserSkills(userId, contentTags, difficulty * difficultyPersonalizationCalibration);
+	}
+	
+	// NOT PLACED YET
+	public static void ratedContentThisDifficulty(String userId, String contentUuid, float difficultyRating){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't mark that the user answered it.
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+		
+		incrementUserSkills(userId, contentTags, difficultyRating * difficultyRatingCalibration);
+	}
+	
+	private static void incrementUserSkills(String userId, List<String> skillTags, float increment){
 		Entity skillsEntity = getSkillsEntity(userId);
 		for (String skillTag : skillTags){
 			incrementUserSkill(skillsEntity, skillTag, increment);
