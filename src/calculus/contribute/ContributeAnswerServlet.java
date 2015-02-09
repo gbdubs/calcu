@@ -12,6 +12,8 @@ import calculus.api.AnswersAPI;
 import calculus.api.KarmaAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Answer;
+import calculus.recommendation.InterestsAPI;
+import calculus.recommendation.SkillsAPI;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -30,6 +32,12 @@ public class ContributeAnswerServlet extends HttpServlet {
 		// Creates and stores a new answer from the request
 		Answer answer = AnswersAPI.createAnswerFromRequest(req);
 		String uuid = answer.getUuid();
+		
+		// Save that the user is interested in this kind of content
+		String userId = user.getUserId();
+		String answerParentUuid = answer.getParentUuid();
+		InterestsAPI.userAnsweredContent(userId, answerParentUuid);
+		SkillsAPI.userAnsweredContent(userId, answerParentUuid);
 		
 		// Give the user their instant burst of Karma for answering the question
 		KarmaAPI.incrementContentKarma(uuid, 3);

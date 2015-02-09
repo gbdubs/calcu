@@ -11,6 +11,7 @@ import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 import calculus.api.BookmarksAPI;
+import calculus.recommendation.InterestsAPI;
 
 @SuppressWarnings("serial")
 public class BookmarkServlet extends HttpServlet{
@@ -25,6 +26,7 @@ public class BookmarkServlet extends HttpServlet{
 		
 		if (action.equals("add")){
 			BookmarksAPI.addBookmarkForUser(contentUuid, userId);
+			InterestsAPI.userBookmarkedContent(userId, contentUuid);
 		} else if (action.equals("remove")){
 			BookmarksAPI.deleteBookmarkForUser(contentUuid, userId);
 		}

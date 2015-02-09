@@ -3,6 +3,9 @@ package calculus.api;
 import java.util.ArrayList;
 import java.util.List;
 
+import calculus.recommendation.InterestsAPI;
+import calculus.recommendation.SkillsAPI;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -19,6 +22,8 @@ public class RatingsAPI {
 		updateRatingProfilesFromRating(userId, contentUuid, helpfulness, difficulty, quality);
 		
 		updateKarmaFromRating(userId, contentUuid, quality);
+		SkillsAPI.userRatedContentThisDifficulty(userId, contentUuid, (float) difficulty / 100);
+		InterestsAPI.userRatedContent(userId, contentUuid);
 	}
 	
 	private static void updateKarmaFromRating(String raterId, String contentUuid, int quality) {

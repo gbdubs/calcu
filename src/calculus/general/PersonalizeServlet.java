@@ -18,6 +18,7 @@ import calculus.models.Question;
 import calculus.models.TextContent;
 import calculus.recommendation.InterestsAPI;
 import calculus.recommendation.MasterRecommendationsAPI;
+import calculus.recommendation.SkillsAPI;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -102,27 +103,29 @@ public class PersonalizeServlet extends HttpServlet {
 			String addInterests = req.getParameter("add-interests");
 			String removeInterests = req.getParameter("remove-interests");
 			
-			String[] toAdd = addInterests.split(",");
-			String[] toRemove = removeInterests.split(",");
+			String[] moreInterested = addInterests.split(",");
+			String[] lessInterested = removeInterests.split(",");
 			
-			List<String> addingTags = new ArrayList<String>();
-			for(String s : toAdd){
+			List<String> interestedTags = new ArrayList<String>();
+			for(String s : moreInterested){
 				if (s.length() > 0){
-					addingTags.add(s);
+					interestedTags.add(s);
 				}
 			}
-			List<String> removingTags = new ArrayList<String>();
-			for(String s : toRemove){
-				removingTags.add(s);
+			List<String> disinterestedTags = new ArrayList<String>();
+			for(String s : lessInterested){
+				disinterestedTags.add(s);
 			}
 			
-			// Place here, fool!
+			InterestsAPI.userIndicatedTagsDisinterestingInCalibration(userId, disinterestedTags);
+			InterestsAPI.userIndicatedTagsInterestingInCalibration(userId, interestedTags);
+			
 		} else if (url.contains("/personalize/difficulty")){
 			String userId = req.getParameter("userId");
 			String contentUuid = req.getParameter("contentUuid");
 			String difficulty = req.getParameter("difficulty");
-			
-			MasterRecommendationsAPI.addDifficultyInformation(userId, contentUuid, difficulty);
+			float diff = Float.parseFloat(difficulty);
+			SkillsAPI.contentDifficultyPersonalization(userId, contentUuid, diff);
 		} else if (url.contains("/personalize/content-comparison")){
 			String userId = req.getParameter("userId");
 			String preference = req.getParameter("preference");

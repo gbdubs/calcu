@@ -19,8 +19,7 @@ public class SkillsAPI {
 	private static final float difficultyPersonalizationCalibrationFactor = (float) -.5;
 	private static final float difficultyRatingCalibrationFactor = (float) -.5;
 	
-	// NOT PLACED YET
-	public static void answeredQuestion(String userId, String contentUuid){
+	public static void userAnsweredContent(String userId, String contentUuid){
 		Content c;
 		try {
 			c = new Content(contentUuid);
@@ -39,7 +38,6 @@ public class SkillsAPI {
 	 * @param contentUuid Content that was personalzied to
 	 * @param difficulty A Float that should be between 0 and 1
 	 */
-	// NOT PLACED YET
 	public static void contentDifficultyPersonalization(String userId, String contentUuid, float difficulty){
 		Content c;
 		try {
@@ -53,8 +51,7 @@ public class SkillsAPI {
 		incrementUserSkills(userId, contentTags, difficulty * difficultyPersonalizationCalibrationFactor);
 	}
 	
-	// NOT PLACED YET
-	public static void ratedContentThisDifficulty(String userId, String contentUuid, float difficultyRating){
+	public static void userRatedContentThisDifficulty(String userId, String contentUuid, float difficultyRating){
 		Content c;
 		try {
 			c = new Content(contentUuid);

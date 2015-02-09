@@ -27,7 +27,6 @@ public class InterestsAPI {
 	private static final int seriousInterestThresholdValue = 6;
 	
 	
-	// NOT PLACED YET
 	public static void userViewedContent(String userId, String contentUuid){
 		Content c;
 		try {
@@ -41,7 +40,6 @@ public class InterestsAPI {
 		incrementUserInterests(userId, contentTags, userViewedContentIncrement);
 	}
 	
-	// NOT PLACED YET
 	public static void userRatedContent(String userId, String contentUuid){
 		Content c;
 		try {
@@ -55,7 +53,6 @@ public class InterestsAPI {
 		incrementUserInterests(userId, contentTags, userRatedContentIncrement);
 	}
 	
-	// NOT PLACED YET
 	public static void userAnsweredContent(String userId, String contentUuid){
 		Content c;
 		try {
@@ -69,7 +66,6 @@ public class InterestsAPI {
 		incrementUserInterests(userId, contentTags, userAnsweredContentIncrement);
 	}
 	
-	// NOT PLACED YET
 	public static void userBookmarkedContent(String userId, String contentUuid){
 		Content c;
 		try {
@@ -83,17 +79,14 @@ public class InterestsAPI {
 		incrementUserInterests(userId, contentTags, userBookmarkedContentIncrement);
 	}
 	
-	// NOT PLACED YET
 	public static void userIndicatedTagsInterestingInCalibration(String userId, List<String> tags){
 		incrementUserInterests(userId, tags, userTagCalibrationIncrement);
 	}
 	
-	// NOT PLACED YET
 	public static void userIndicatedTagsDisinterestingInCalibration(String userId, List<String> tags){
 		incrementUserInterests(userId, tags, -1 * userTagCalibrationIncrement);
 	}
 	
-	// NOT PLACED YET
 	public static void userSearchedForTags(String userId, List<String> tags){
 		incrementUserInterests(userId, tags, userSearchedForTagIncrement);
 	}

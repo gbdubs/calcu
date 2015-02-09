@@ -13,8 +13,11 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.TagAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Content;
+import calculus.recommendation.InterestsAPI;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class SearchByTagServlet extends HttpServlet {
@@ -38,6 +41,10 @@ public class SearchByTagServlet extends HttpServlet {
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		String tagString = req.getParameter("tagsInput");
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user != null) {
+			InterestsAPI.userSearchedForTags(user.getUserId(), TagAPI.getTagsFromString(tagString));
+		}
 		resp.sendRedirect("/search/" + tagString);
 	}
 	

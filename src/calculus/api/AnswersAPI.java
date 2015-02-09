@@ -28,7 +28,7 @@ public class AnswersAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
-	public static boolean userAnsweredContent(String userId, String uuid) {
+	public static boolean userHasAnsweredContent(String userId, String uuid) {
 		Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
 		Filter problemFilter = new FilterPredicate("parentUuid", FilterOperator.EQUAL, uuid);
 		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);

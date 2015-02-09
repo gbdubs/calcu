@@ -16,22 +16,23 @@ import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
+import calculus.recommendation.InterestsAPI;
 import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class ViewContentServlet extends HttpServlet {
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
 			
 		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 		
-		if (uuid == null){
+		if (uuid == null || uuid.length() != 36){
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			jsp.forward(req, resp);
@@ -41,6 +42,11 @@ public class ViewContentServlet extends HttpServlet {
 		String contentType;
 		try {
 			contentType = ContentAPI.getContentType(uuid);
+			User user = UserServiceFactory.getUserService().getCurrentUser();
+			if (user != null){
+				InterestsAPI.userViewedContent(user.getUserId(), uuid);
+			}
+			
 		} catch (EntityNotFoundException e) {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
