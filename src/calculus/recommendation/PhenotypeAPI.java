@@ -1,7 +1,9 @@
 package calculus.recommendation;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import calculus.api.UserPublicInfoAPI;
 
@@ -12,42 +14,38 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 
-public class Phenotype {
+public class PhenotypeAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static final int phenotypeLength = 10;
 	public static final String DEFAULT_PHENOTYPE = "----------";	
 	
-	private static List<String> similarPhenotypes(String phenotype, int n){
-		List<String> results = new ArrayList<String>();
-		int i = 0;
-		while (results.size() < n){
-			results.add(permutePhenotype(phenotype, i, true));
-			results.add(permutePhenotype(phenotype, i, false));	
-			i++;	
-			if (i == phenotypeLength){
-				i = 0; 
-				phenotype = results.get((int) (Math.random() * i));
+	public static Set<String> getSimilarUsers(String userId, int n){
+		String phenotype = UserPublicInfoAPI.getPhenotype(userId);
+		Set<String> userIds = new HashSet<String>();
+		List<String> usersWithSamePhenotype = getUsersWithPhenotype(phenotype);
+		int i = 0; 
+		while (userIds.size() < n && i < usersWithSamePhenotype.size()){
+			userIds.add(usersWithSamePhenotype.get(i));
+		}
+		i = 0;
+		while(userIds.size() < n){
+			List<String> similarPhenotypes = similarPhenotypes(phenotype, 10 * (i+1));
+			int j = 0;
+			while (userIds.size() < n && j < 10){
+				int index = j + 10 * i;
+				usersWithSamePhenotype = getUsersWithPhenotype(similarPhenotypes.get(index));
+				int k = 0;
+				while (userIds.size() < n && k < usersWithSamePhenotype.size()){
+					userIds.add(usersWithSamePhenotype.get(k));
+				}
 			}
 		}
-		return results;
+		return userIds;
 	}
-	
-	private static String permutePhenotype(String phenotype, int i, boolean uppercase){
-		char c = '-';
-		if (uppercase){
-			c = (char) (i + 65);
-		} else {
-			c = (char) (i + 97);
-		}
-		String start = phenotype.substring(0,i); 
-		String end = phenotype.substring(i+1);
-		return start + c + end;
-	}
-	
 	
 	private static Entity getPhenotypeEntity(String phenotype){
-		Key key = KeyFactory.createKey("Phenotype", phenotype);
+		Key key = KeyFactory.createKey("PhenotypeAPI", phenotype);
 		try {
 			return datastore.get(key);
 		} catch (EntityNotFoundException e) {
@@ -89,7 +87,14 @@ public class Phenotype {
 		}	
 	}
 	
-	public static float evaluatePhenotypeComparison(String p1, String p2){
+	private static List<String> getUsersWithPhenotype(String phenotype){
+		Entity phenotypeEntity = getPhenotypeEntity(phenotype);
+		List<String> userIds = (List<String>) phenotypeEntity.getProperty("users");
+		if (userIds == null) return new ArrayList<String>();
+		return userIds;
+	}
+	
+	private static float evaluatePhenotypeComparison(String p1, String p2){
 		int totalSimilarity = 0;
 		for(int i = 0; i < phenotypeLength; i++){
 			totalSimilarity += getSimilarity(p1.charAt(i), p2.charAt(i));
@@ -131,6 +136,33 @@ public class Phenotype {
 			}
 		}
 		return p;
+	}
+
+	private static List<String> similarPhenotypes(String phenotype, int n){
+		List<String> results = new ArrayList<String>();
+		int i = 0;
+		while (results.size() < n){
+			results.add(permutePhenotype(phenotype, i, true));
+			results.add(permutePhenotype(phenotype, i, false));	
+			i++;	
+			if (i == phenotypeLength){
+				i = 0; 
+				phenotype = results.get((int) (Math.random() * i));
+			}
+		}
+		return results;
+	}
+
+	private static String permutePhenotype(String phenotype, int i, boolean uppercase){
+		char c = '-';
+		if (uppercase){
+			c = (char) (i + 65);
+		} else {
+			c = (char) (i + 97);
+		}
+		String start = phenotype.substring(0,i); 
+		String end = phenotype.substring(i+1);
+		return start + c + end;
 	}
 	
 }

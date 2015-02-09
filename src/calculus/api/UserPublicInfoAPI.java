@@ -1,6 +1,6 @@
 package calculus.api;
 
-import calculus.recommendation.Phenotype;
+import calculus.recommendation.PhenotypeAPI;
 import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.blobstore.BlobKey;
@@ -46,7 +46,7 @@ public class UserPublicInfoAPI {
 			userPublicInfo.setUnindexedProperty("userId", userId);
 			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
 			userPublicInfo.setUnindexedProperty("email", user.getEmail());
-			userPublicInfo.setUnindexedProperty("phenotype", Phenotype.DEFAULT_PHENOTYPE);
+			userPublicInfo.setUnindexedProperty("phenotype", PhenotypeAPI.DEFAULT_PHENOTYPE);
 			
 			datastore.put(userPublicInfo);
 			
@@ -82,7 +82,7 @@ public class UserPublicInfoAPI {
 			userPublicInfo.setUnindexedProperty("userId", userId);
 			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
 			userPublicInfo.setUnindexedProperty("email", "jumbodumbo@gmail.com");
-			userPublicInfo.setUnindexedProperty("phenotype", Phenotype.DEFAULT_PHENOTYPE);
+			userPublicInfo.setUnindexedProperty("phenotype", PhenotypeAPI.DEFAULT_PHENOTYPE);
 			return userPublicInfo;
 		}
 	}
