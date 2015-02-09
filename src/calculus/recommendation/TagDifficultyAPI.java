@@ -1,6 +1,6 @@
 package calculus.recommendation;
 
-public class TagProgression {
+public class TagDifficultyAPI {
 
 	// Dummy function. This will end up being critically important
 	public static float getDifficulty(String skillTag) {

@@ -51,6 +51,7 @@ public class InterestsAPI {
 			incrementUserInterest(interestsEntity, interestTag, increment);
 			incrementTotalInterest(interestsEntity, interestTag, increment);
 		}
+		interestsEntity.setProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(interestsEntity);
 	}
 
@@ -76,7 +77,7 @@ public class InterestsAPI {
 	private static void incrementTotalInterest(Entity interestsEntity, String interestTag, float increment) {
 		Float interestProgression = (Float) interestsEntity.getProperty("interestProgression");
 		if (interestProgression == null) interestProgression = new Float(0);
-		float interestDifficulty = TagProgression.getDifficulty(interestTag);
+		float interestDifficulty = TagDifficultyAPI.getDifficulty(interestTag);
 		if (interestDifficulty > interestProgression){
 			interestProgression += increment * (interestDifficulty - interestProgression);
 		}
@@ -100,5 +101,4 @@ public class InterestsAPI {
 			return (int) o;
 		}
 	}
-	
 }

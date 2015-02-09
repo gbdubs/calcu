@@ -2,6 +2,9 @@ package calculus.recommendation;
 
 import java.util.List;
 
+import calculus.api.ContentAPI;
+import calculus.api.TagAPI;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -19,6 +22,7 @@ public class SkillsAPI {
 			incrementUserSkill(skillsEntity, skillTag, increment);
 			incrementTotalSkill(skillsEntity, skillTag, increment);
 		}
+		skillsEntity.setProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(skillsEntity);
 	}
 
@@ -37,7 +41,7 @@ public class SkillsAPI {
 	private static void incrementTotalSkill(Entity skillsEntity, String skillTag, float increment) {
 		Float skillProgression = (Float) skillsEntity.getProperty("skillProgression");
 		if (skillProgression == null) skillProgression = new Float(0);
-		float skillDifficulty = TagProgression.getDifficulty(skillTag);
+		float skillDifficulty = TagDifficultyAPI.getDifficulty(skillTag);
 		if (skillDifficulty > skillProgression){
 			skillProgression += increment * (skillDifficulty - skillProgression);
 		}

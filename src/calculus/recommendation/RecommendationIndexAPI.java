@@ -36,6 +36,15 @@ public class RecommendationIndexAPI {
 		Entity interestsEntity = InterestsAPI.getInterestsEntity(userId);
 		Entity skillsEntity = SkillsAPI.getSkillsEntity(userId);
 		
+		long recommendationsUpdatedAt = (long) recommendationsEntity.getProperty("updatedAt");
+		long interestsUpdatedAt = (long) interestsEntity.getProperty("updatedAt");
+		long skillsUpdatedAt = (long) skillsEntity.getProperty("updatedAt");
+		
+		if (interestsUpdatedAt <= recommendationsUpdatedAt && skillsUpdatedAt <= recommendationsUpdatedAt){
+			// If the recommendations are older than the skills and the interests, we don't need to update.
+			return;
+		}
+		
 		Map<String, Object> interests = interestsEntity.getProperties();
 		Map<String, Object> skills = skillsEntity.getProperties();
 		
