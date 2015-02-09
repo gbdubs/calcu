@@ -126,4 +126,10 @@ public class UserPublicInfoAPI {
 		if (userPublicInfo == null) return "";
 		return (String) userPublicInfo.getProperty("phenotype");
 	}
+
+	public static void setUserPhenotype(String userId, String newPhenotype) {
+		Entity userPublicInfo = getUserPublicInfo(userId);
+		userPublicInfo.setUnindexedProperty("phenotype", newPhenotype);
+		datastore.put(userPublicInfo);
+	}
 }

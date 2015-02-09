@@ -51,7 +51,7 @@ public class MasterRecommendationsAPI {
 			return refreshedRecommendations;
 		} else {
 			List<String> recs = (List<String>) e.getProperty("recommendations");
-			if (recs == null) return new ArrayList<String>();
+			if (recs == null) recs = new ArrayList<String>();
 			return recs;
 		}	
 	}

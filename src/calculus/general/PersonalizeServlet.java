@@ -16,8 +16,10 @@ import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
+import calculus.recommendation.DifferentiatingContent;
 import calculus.recommendation.InterestsAPI;
 import calculus.recommendation.MasterRecommendationsAPI;
+import calculus.recommendation.PhenotypeAPI;
 import calculus.recommendation.SkillsAPI;
 
 import com.google.appengine.api.users.User;
@@ -83,11 +85,12 @@ public class PersonalizeServlet extends HttpServlet {
 			return;
 		} else {
 			// TextContent Comparison
-			TextContent[] tcs = TextContentAPI.getTextContentCalibrationForUser(user.getUserId());
-			TextContent tc1 = tcs[0];
-			TextContent tc2 = tcs[1];
-			req.setAttribute("textContent1", tc1);
-			req.setAttribute("textContent2", tc2);
+			int questionToAsk = PhenotypeAPI.whatQuestionToAskUser(user.getUserId());
+			if (questionToAsk == -1){
+				resp.sendRedirect("/personalize/" + (stepNumber + 1));
+				return;
+			}
+			DifferentiatingContent.placeContentDefinitionIntoRequest(req, questionToAsk);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/comparison.jsp");
 			jsp.forward(req, resp);
 			return;

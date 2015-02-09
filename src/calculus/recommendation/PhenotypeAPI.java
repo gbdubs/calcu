@@ -64,6 +64,7 @@ public class PhenotypeAPI {
 			Entity oldPhenotypeEntity = getPhenotypeEntity(oldPhenotype);
 			removeUserFromPhenotypeEntity(oldPhenotypeEntity, userId);
 		}
+		UserPublicInfoAPI.setUserPhenotype(userId, newPhenotype);
 		Entity newPhenotypeEntity = getPhenotypeEntity(newPhenotype);
 		addUserToPhenotypeEntity(newPhenotypeEntity, userId);
 	}
@@ -115,7 +116,8 @@ public class PhenotypeAPI {
 		return 0;
 	}
 	
-	public static int whatQuestionToAsk(String phenotype){
+	public static int whatQuestionToAskUser(String userId){
+		String phenotype = UserPublicInfoAPI.getPhenotype(userId);
 		phenotype = correctLength(phenotype);
 		for (int i = 0; i < phenotypeLength; i++){
 			if (phenotype.charAt(i) == '-'){

@@ -27,9 +27,9 @@
 				</p>
 				
 				<p class="content-comparison centered" data-category="overall" data-user="${user.userId}">
-					<button class="btn btn-default" data-uuid="${textContent1.uuid}">Explanation 1</button>
+					<button class="btn btn-default" data-character="${comparisonChar1}">Explanation 1</button>
 					<label> Which did you prefer overall?</label>
-					<button class="btn btn-default" data-uuid="${textContent2.uuid}">Explanation 2</button>
+					<button class="btn btn-default" data-character="${comparisonChar2}">Explanation 2</button>
 				</p>
 				
 				<div class="row">
@@ -37,10 +37,10 @@
 						<div class="box box-success box-solid">
 							<div class="box-header">
 								<i class="fa fa-flag-o"></i>
-								<h3 class="box-title">Explanation 1: ${textContent1.title}</h3>
+								<h3 class="box-title">Explanation 1: ${comparisonTitle1}</h3>
 							</div>
 							<div class="box-body">
-								<span class="preserve-line-formatting">${textContent1.body}</span>
+								<span class="preserve-line-formatting">${comparisonBody1}</span>
 							</div>
 						</div>
 					</div>
@@ -48,10 +48,10 @@
 						<div class="box box-success box-solid">
 							<div class="box-header">
 								<i class="fa fa-flag"></i>
-								<h3 class="box-title">Explanation 2: ${textContent2.title}</h3>
+								<h3 class="box-title">Explanation 2: ${comparisonTitle2}</h3>
 							</div>
 							<div class="box-body">
-								<span class="preserve-line-formatting">${textContent2.body}</span>
+								<span class="preserve-line-formatting">${comparisonBody2}</span>
 							</div>
 						</div>
 					</div>
