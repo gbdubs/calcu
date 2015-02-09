@@ -9,9 +9,6 @@ import java.util.Set;
 
 import calculus.api.BookmarksAPI;
 
-import com.google.appengine.api.datastore.DatastoreService;
-import com.google.appengine.api.datastore.DatastoreServiceFactory;
-
 public class UserGroupingAPI {
 	
 	public static List<String> getPhenotypeRecommendationsForUser(String userId){
@@ -48,6 +45,11 @@ public class UserGroupingAPI {
 			result.add(i, str);
 		}
 		return result;
+	}
+
+	public static List<String> getNSimilarUsers(String userId, int i) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

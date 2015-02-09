@@ -18,7 +18,6 @@ public class RecommendationIndexAPI {
 	private static final String recommendationsTagsKey = "l9fm20vjm3ufd9m3jd09jsidmwh9emdiwk2j3hjd";
 	
 	
-	
 	public static List<String> getRecommendedTags(String userId, int n){
 		Entity recommendationsEntity = getRecommendationsEntity(userId);
 		List<String> tags = getRecommendations(recommendationsEntity);

@@ -26,7 +26,6 @@ public class InterestsAPI {
 	private static final float userBookmarkedContentIncrement = (float) .3;
 	private static final int seriousInterestThresholdValue = 6;
 	
-	
 	public static void userViewedContent(String userId, String contentUuid){
 		Content c;
 		try {
