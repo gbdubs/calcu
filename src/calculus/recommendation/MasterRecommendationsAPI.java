@@ -10,7 +10,7 @@ import calculus.api.BookmarksAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.TagAPI;
-import calculus.api.WellRatedAPI;
+import calculus.api.HelpfulContentAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
@@ -62,7 +62,7 @@ public class MasterRecommendationsAPI {
 		List<String> similarUsers = UserGroupingAPI.getNSimilarUsers(userId, 20);
 		for(String similarUser : similarUsers){
 			List<String> bookmarks = BookmarksAPI.getUserBookmarks(similarUser);
-			List<String> wellRated = WellRatedAPI.getUserWellRatedContent(similarUser);
+			List<String> wellRated = HelpfulContentAPI.getHelpfulContent(similarUser);
 			for (String b : bookmarks){
 				increment(mapping, b);
 			}
@@ -97,8 +97,8 @@ public class MasterRecommendationsAPI {
 	}
 
 
-
-
+	
+	
 	public static PracticeProblem getDifficultyCalibrationPracticeProblem(String userId) {
 		return PracticeProblemAPI.getAnswerablePracticeProblem(userId);
 	}
@@ -111,7 +111,6 @@ public class MasterRecommendationsAPI {
 		System.out.println("User ["+userId+"] chose content ["+preference+"] out of the possibilities ["+Arrays.toString(allUuids)+"].");
 		
 	}
-
 	
 	private static List<String> getDecendingListFromCountMap(Map<String, Integer> mapping){
 		List<String> result = new ArrayList<String>();

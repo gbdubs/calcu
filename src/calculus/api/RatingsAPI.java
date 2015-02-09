@@ -24,6 +24,11 @@ public class RatingsAPI {
 		updateKarmaFromRating(userId, contentUuid, quality);
 		SkillsAPI.userRatedContentThisDifficulty(userId, contentUuid, (float) difficulty / 100);
 		InterestsAPI.userRatedContent(userId, contentUuid);
+		
+		if (helpfulness > 85){
+			HelpfulContentAPI.userFoundContentHelpful(userId, contentUuid);
+		}
+		
 	}
 	
 	private static void updateKarmaFromRating(String raterId, String contentUuid, int quality) {

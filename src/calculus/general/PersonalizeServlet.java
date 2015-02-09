@@ -60,7 +60,7 @@ public class PersonalizeServlet extends HttpServlet {
 		}
 		if (stepNumber % 4 == 1) {
 			// Interest Recognition
-			Map<String, Boolean> interests = MasterRecommendationsAPI.getUserInterestPossibilities(user.getUserId());
+			Map<String, Boolean> interests = InterestsAPI.getPotentialAndExistingInterests(user.getUserId(), 24);
 			req.setAttribute("interests", interests);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/interests.jsp");	
 			jsp.forward(req, resp);
