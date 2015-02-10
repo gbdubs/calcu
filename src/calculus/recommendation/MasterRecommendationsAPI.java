@@ -10,7 +10,6 @@ import calculus.api.BookmarksAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.TagAPI;
-import calculus.api.HelpfulContentAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 

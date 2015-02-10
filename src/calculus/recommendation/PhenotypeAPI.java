@@ -55,11 +55,7 @@ public class PhenotypeAPI {
 		}
 	}
 	
-	public static void setUserPhenotype(String userId, String newPhenotype){
-		setUserPhenotype(userId, newPhenotype, "");
-	}
-	
-	public static void setUserPhenotype(String userId, String newPhenotype, String oldPhenotype){
+	private static void setUserPhenotype(String userId, String newPhenotype, String oldPhenotype){
 		if (oldPhenotype != ""){
 			Entity oldPhenotypeEntity = getPhenotypeEntity(oldPhenotype);
 			removeUserFromPhenotypeEntity(oldPhenotypeEntity, userId);
@@ -165,6 +161,16 @@ public class PhenotypeAPI {
 		String start = phenotype.substring(0,i); 
 		String end = phenotype.substring(i+1);
 		return start + c + end;
+	}
+
+	public static void updateUserPhenotype(String userId, char preferenceChar) {
+		String oldPhenotype = UserPublicInfoAPI.getPhenotype(userId);
+		int location = ("" + preferenceChar).toUpperCase().charAt(0) - 65;
+		String start = oldPhenotype.substring(0, location);
+		String end = oldPhenotype.substring(location+1);
+		String newPhenotype = start + preferenceChar + end;
+		setUserPhenotype(userId, newPhenotype, oldPhenotype);
+		
 	}
 	
 }

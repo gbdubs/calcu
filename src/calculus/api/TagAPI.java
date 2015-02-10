@@ -37,6 +37,11 @@ public class TagAPI {
 		datastore.put(entity);
 	}
 
+	public static List<String> getUuidsResultsOfMultipleTags(String tags, int maxNumResults, int seed){
+		List<String> tagsList = getTagsFromString(tags);
+		return getUuidsResultsOfMultipleTags(tagsList, maxNumResults, seed);
+	}
+	
 	public static List<String> getUuidsResultsOfMultipleTags(String[] tags, int maxNumResults, int seed){
 		List<String> tagsList = new ArrayList<String>();
 		for(String t : tags){
@@ -110,5 +115,22 @@ public class TagAPI {
 			}
 		}
 		return allTags;
+	}
+
+	public static String randomTag() {
+		Query q = new Query("Tag").setKeysOnly();
+		PreparedQuery pq = datastore.prepare(q);
+		List<Entity> allTags = new ArrayList<Entity>();
+		for(Entity e : pq.asIterable()){
+			allTags.add(e);
+		}
+		int index = (int) (Math.random() * allTags.size());
+		Entity finalResult = null;
+		try {
+			finalResult = datastore.get(allTags.get(index).getKey());
+		} catch (EntityNotFoundException e1) {
+			throw new RuntimeException("Something is wrong with this code.");
+		}
+		return (String) finalResult.getProperty("name");
 	}
 }

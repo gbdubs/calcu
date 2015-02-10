@@ -1,4 +1,4 @@
-package calculus.api;
+package calculus.recommendation;
 
 import java.util.ArrayList;
 import java.util.List;

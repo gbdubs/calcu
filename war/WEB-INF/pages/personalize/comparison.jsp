@@ -27,9 +27,9 @@
 				</p>
 				
 				<p class="content-comparison centered" data-category="overall" data-user="${user.userId}">
-					<button class="btn btn-default" data-character="${comparisonChar1}">Explanation 1</button>
+					<button class="btn btn-default toggle-preference-button" data-character="${comparisonChar1}">Explanation 1</button>
 					<label> Which did you prefer overall?</label>
-					<button class="btn btn-default" data-character="${comparisonChar2}">Explanation 2</button>
+					<button class="btn btn-default toggle-preference-button" data-character="${comparisonChar2}">Explanation 2</button>
 				</p>
 				
 				<div class="row">
@@ -58,7 +58,7 @@
 				</div>
 				<div class="overflower">
 					<div class="pull-right">
-						<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
+						<a data-user="${user.userId}" id="next-step-button" class="btn btn-success" href="/personalize/${stepNumber + 1}">
 							Next Step
 							<i class="fa fa-arrow-circle-right fa-fw"></i>
 						</a>

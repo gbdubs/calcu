@@ -131,10 +131,9 @@ public class PersonalizeServlet extends HttpServlet {
 			SkillsAPI.contentDifficultyPersonalization(userId, contentUuid, diff);
 		} else if (url.contains("/personalize/content-comparison")){
 			String userId = req.getParameter("userId");
-			String preference = req.getParameter("preference");
-			String outOf = req.getParameter("outOf");
-			String[] allUuids = outOf.split(",");	
-			MasterRecommendationsAPI.andComparisonInformation(userId, preference, allUuids);
+			String preference = req.getParameter("preferenceCharacter");
+			char preferenceChar = preference.charAt(0);
+			PhenotypeAPI.updateUserPhenotype(userId, preferenceChar);
 		}
 	}
 	

@@ -3,6 +3,7 @@ package calculus.api;
 import java.util.ArrayList;
 import java.util.List;
 
+import calculus.recommendation.HelpfulContentAPI;
 import calculus.recommendation.InterestsAPI;
 import calculus.recommendation.SkillsAPI;
 
@@ -28,7 +29,6 @@ public class RatingsAPI {
 		if (helpfulness > 85){
 			HelpfulContentAPI.userFoundContentHelpful(userId, contentUuid);
 		}
-		
 	}
 	
 	private static void updateKarmaFromRating(String raterId, String contentUuid, int quality) {
