@@ -2,6 +2,7 @@ package calculus.general;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -28,10 +29,12 @@ public class ExploreServlet extends HttpServlet {
 		String userId = "";
 		if (user != null) userId = user.getUserId();
 		
-		List<Content> newContent = ContentAPI.getNewContent(24);
-		List<Content> randomContent = ContentAPI.getRandomContent(24);
-		List<Content> bestContent = ContentAPI.getBestContent(24);
-		List<Content> suggestedContent = ContentAPI.getSuggestedContent(24, userId);
+		Map<String, List<Content>> exploratoryContent = ContentAPI.getExploratoryContent(24, 0, userId);
+		
+		List<Content> newContent = exploratoryContent.get("new");
+		List<Content> randomContent = exploratoryContent.get("random");
+		List<Content> bestContent = exploratoryContent.get("best");
+		List<Content> suggestedContent = exploratoryContent.get("suggested");
 		
 		req.setAttribute("newContent", newContent);
 		req.setAttribute("randomContent", randomContent);

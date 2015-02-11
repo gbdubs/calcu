@@ -3,7 +3,9 @@ package calculus.api;
 import static com.google.appengine.api.datastore.FetchOptions.Builder.withLimit;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
@@ -33,46 +35,10 @@ public class ContentAPI {
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	private static Filter compositeFilter = CompositeFilterOperator.and(viewableFilter, submittedFilter);
 	
-	public static List<Content> getNewContent(int i) {
-		Query q = new Query("Content").addSort("createdAt", SortDirection.DESCENDING).setFilter(compositeFilter);
-		PreparedQuery pq = datastore.prepare(q);
-		List<Entity> entities = pq.asList(FetchOptions.Builder.withLimit(i));
-		List<Content> results = new ArrayList<Content>();
-		for (Entity e : entities){
-			results.add(new Content(e));
-		}
-		return results;
-	}
 	
-	public static List<Content> getBestContent(int i) {
-		Query q = new Query("Content").addSort("karma", SortDirection.DESCENDING).setFilter(compositeFilter);
-		PreparedQuery pq = datastore.prepare(q);
-		List<Entity> entities = pq.asList(FetchOptions.Builder.withLimit(i));
-		List<Content> results = new ArrayList<Content>();
-		for (Entity e : entities){
-			results.add(new Content(e));
-		}
-		return results;
-	}
-	
-	public static List<Content> getSuggestedContent(int i, String userId) {
-		return getNewContent(i);
-	}
-	
-	//TODO: This
-	public static List<Content> getRandomContent(int i) {
-		Query q = new Query("Content").setFilter(compositeFilter);
-		PreparedQuery pq = datastore.prepare(q);
-		List<Entity> entities = pq.asList(FetchOptions.Builder.withLimit(i * 2).offset((int) (Math.random() * 1000)));
-		List<Content> results = new ArrayList<Content>();
-		while (results.size() < i){
-			int k = (int) (Math.random() * entities.size());
-			Entity e = entities.remove(k);
-			results.add(new Content(e));
-		}
-		return results;
-	}
 
+	
+	
 	public static String getContentType(String uuid) throws EntityNotFoundException{
 		if (uuid == "" || uuid == null) return null;
 		Key contentKey = KeyFactory.createKey("Content", uuid);
@@ -206,6 +172,47 @@ public class ContentAPI {
 			}
 		}
 		return content;
+	}
+
+	public static Map<String, List<Content>> getExploratoryContent(int n, int seed, String userId) {
+		Query newQ = new Query("Content").addSort("createdAt", SortDirection.DESCENDING).setFilter(compositeFilter);
+		PreparedQuery newPQ = datastore.prepare(newQ);
+		List<Entity> newE = newPQ.asList(FetchOptions.Builder.withLimit(n));
+		
+		Query bestQ = new Query("Content").addSort("karma", SortDirection.DESCENDING).setFilter(compositeFilter);
+		PreparedQuery bestPQ = datastore.prepare(bestQ);
+		List<Entity> bestE = bestPQ.asList(FetchOptions.Builder.withLimit(n));
+		
+		Query allQ = new Query("Content").setFilter(compositeFilter);
+		PreparedQuery allPQ = datastore.prepare(allQ);
+		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n).offset((int) (Math.random() * 1000)));
+		
+		Map<String, List<Content>> result = new HashMap<String, List<Content>>();
+		List<Content> newResults = new ArrayList<Content>();
+		List<Content> bestResults = new ArrayList<Content>();
+		List<Content> randomResults = new ArrayList<Content>();
+		
+		
+		for(Entity e : newE){
+			newResults.add(new Content(e));
+		}
+		for(Entity e : bestE){
+			bestResults.add(new Content(e));
+		}
+		for(Entity e : allE){
+			randomResults.add(new Content(e));
+		}
+		
+		result.put("new", newResults);
+		result.put("best", bestResults);
+		result.put("random", randomResults);
+		result.put("suggested", randomResults);
+		
+		return result;
+	}
+
+	public static Content getRandomContent() {
+		return null;
 	}
 
 }

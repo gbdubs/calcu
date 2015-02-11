@@ -98,7 +98,7 @@ public class RandomUser {
 	}
 
 	private static String randomIntersts() {
-		Content randomContent = ContentAPI.getRandomContent(1).get(0);
+		Content randomContent = ContentAPI.getRandomContent();
 		String tags = randomContent.getTags();
 		List<String> contentUuids = TagAPI.getUuidsResultsOfMultipleTags(tags, 10, (int) (Math.random() * 20));
 		List<String> allTags = new ArrayList<String>();
