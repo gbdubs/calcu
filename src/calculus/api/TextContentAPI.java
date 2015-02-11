@@ -1,13 +1,11 @@
 package calculus.api;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
-import calculus.models.Question;
 import calculus.models.TextContent;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -16,7 +14,6 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
-import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
@@ -24,15 +21,8 @@ import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class TextContentAPI {
-	private static Filter textContentFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "textContent");
-	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
-	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
-	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, false);
-	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, false);
-	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-
 	
 	public static String createTextContentFromRequest(HttpServletRequest req){
 		
@@ -117,33 +107,7 @@ public class TextContentAPI {
 		return uuid;
 	}
     
-    public static List<TextContent> getUnsubmittedTextContent(String userId) {
-		List<TextContent> list = new ArrayList<TextContent>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, textContentFilter, unsubmittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			TextContent q = new TextContent(result);
-			list.add(q);
-		}
-		return list;
-	}
-
-	public static List<TextContent> getSubmittedTextContent(String userId) {
-		List<TextContent> list = new ArrayList<TextContent>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, textContentFilter, submittedFilter, notAnonymousFilter, viewableFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			TextContent q = new TextContent(result);
-			list.add(q);
-		}
-		return list;
-	}
-
-	public static String createOrUpdateTextContentFromRequest(HttpServletRequest req) {
+    public static String createOrUpdateTextContentFromRequest(HttpServletRequest req) {
 		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null) {
 			return createTextContentFromRequest(req);
 		} else {

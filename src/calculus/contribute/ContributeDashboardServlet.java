@@ -9,9 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.PracticeProblemAPI;
-import calculus.api.QuestionAPI;
-import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
@@ -41,12 +38,12 @@ public class ContributeDashboardServlet extends HttpServlet{
 		String userId = user.getUserId();
 		
 		// Retrieves the Problems and Questions that the user has created
-		List<PracticeProblem> unsubmittedPP = PracticeProblemAPI.getUnsubmittedPracticeProblems(userId);
-		List<PracticeProblem> submittedPP = PracticeProblemAPI.getSubmittedPracticeProblems(userId);
-		List<Question> unsubmittedQ = QuestionAPI.getUnsubmittedQuestions(userId);
-		List<Question> submittedQ = QuestionAPI.getSubmittedQuestions(userId);
-		List<TextContent> unsubmittedTC = TextContentAPI.getUnsubmittedTextContent(userId);
-		List<TextContent> submittedTC = TextContentAPI.getSubmittedTextContent(userId);
+		List<PracticeProblem> unsubmittedPP = ContributionDashboardAPI.getUnsubmittedPracticeProblems(userId);
+		List<PracticeProblem> submittedPP = ContributionDashboardAPI.getSubmittedPracticeProblems(userId);
+		List<Question> unsubmittedQ = ContributionDashboardAPI.getUnsubmittedQuestions(userId);
+		List<Question> submittedQ = ContributionDashboardAPI.getSubmittedQuestions(userId);
+		List<TextContent> unsubmittedTC = ContributionDashboardAPI.getUnsubmittedTextContent(userId);
+		List<TextContent> submittedTC = ContributionDashboardAPI.getSubmittedTextContent(userId);
 	
 		req.setAttribute("unsubmittedPracticeProblems", unsubmittedPP);
 		req.setAttribute("submittedPracticeProblems", submittedPP);

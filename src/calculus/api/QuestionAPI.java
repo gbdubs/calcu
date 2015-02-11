@@ -1,6 +1,5 @@
 package calculus.api;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -8,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
 import calculus.models.Content;
-import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -28,10 +26,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class QuestionAPI {
 	
 	private static Filter questionFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "question");
-	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
-	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, false);
-	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, false);
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
@@ -116,32 +111,6 @@ public class QuestionAPI {
 		}
 		
 		return uuid;
-	}
-
-	public static List<Question> getUnsubmittedQuestions(String userId) {
-		List<Question> list = new ArrayList<Question>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, questionFilter, unsubmittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			Question q = new Question(result);
-			list.add(q);
-		}
-		return list;
-	}
-
-	public static List<Question> getSubmittedQuestions(String userId) {
-		List<Question> list = new ArrayList<Question>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, questionFilter, submittedFilter, notAnonymousFilter, viewableFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			Question q = new Question(result);
-			list.add(q);
-		}
-		return list;
 	}
 
 	public static void addQuestionContext(HttpServletRequest req, Question q) {

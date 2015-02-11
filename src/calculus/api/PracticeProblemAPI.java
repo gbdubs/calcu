@@ -1,6 +1,5 @@
 package calculus.api;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -27,10 +26,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class PracticeProblemAPI {
 	
 	private static Filter practiceProblemFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "practiceProblem");
-	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
-	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, false);
-	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, false);
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
@@ -51,32 +47,6 @@ public class PracticeProblemAPI {
 	
 	public static void addPracticeProblemEditorContext(HttpServletRequest req, PracticeProblem practiceProblem){		
 		req.setAttribute("practiceProblem", practiceProblem);
-	}
-	
-	public static List<PracticeProblem> getUnsubmittedPracticeProblems(String userId){
-		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, practiceProblemFilter, unsubmittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			PracticeProblem pp = new PracticeProblem(result);
-			list.add(pp);
-		}
-		return list;
-	}
-	
-	public static List<PracticeProblem> getSubmittedPracticeProblems(String userId){
-		List<PracticeProblem> list = new ArrayList<PracticeProblem>();
-		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
-		Filter compositeFilter = CompositeFilterOperator.and(userFilter, practiceProblemFilter, viewableFilter, submittedFilter, notAnonymousFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			PracticeProblem pp = new PracticeProblem(result);
-			list.add(pp);
-		}
-		return list;
 	}
 	
 	public static String createOrUpdatePracticeProblemFromRequest(HttpServletRequest req) {
