@@ -245,7 +245,7 @@ public class Content {
 		List<String> answerUuids = (List<String>) entity.getProperty("allAnswers");
 		if (answerUuids == null) answerUuids = new ArrayList<String>();
 		answerUuids.add(answerUuid);
-		entity.setProperty("allAnswers", answerUuids);
+		entity.setUnindexedProperty("allAnswers", answerUuids);
 		datastoreService.put(entity);
 	}
 }

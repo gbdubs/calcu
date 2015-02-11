@@ -4,9 +4,12 @@ import static com.google.appengine.api.datastore.FetchOptions.Builder.withLimit;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 import calculus.models.Content;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -25,6 +28,7 @@ import com.google.appengine.api.datastore.Query.SortDirection;
 public class ContentAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	private static Filter compositeFilter = CompositeFilterOperator.and(viewableFilter, submittedFilter);
@@ -181,6 +185,27 @@ public class ContentAPI {
 		} else {
 			System.out.println("You have not done this correctly");
 		}
+	}
+
+	private static Future<Entity> futureContent(String uuid) {
+		Future<Entity> future = asyncDatastore.get(KeyFactory.createKey("Content", uuid));
+		return future;
+	}
+	
+	public static List<Content> getContentAsync(List<String> uuids){
+		List<Future<Entity>> futures = new ArrayList<Future<Entity>>();
+		for(String uuid : uuids){
+			futures.add(futureContent(uuid));
+		}
+		List<Content> content = new ArrayList<Content>();
+		for(Future<Entity> future : futures){
+			try {
+				content.add(new Content(future.get()));
+			} catch (InterruptedException | ExecutionException e) {
+				// Don't include in results if interrupted.
+			}
+		}
+		return content;
 	}
 
 }

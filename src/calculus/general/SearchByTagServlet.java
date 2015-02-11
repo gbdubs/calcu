@@ -3,6 +3,7 @@ package calculus.general;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Future;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.ContentAPI;
 import calculus.api.TagAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Content;
@@ -75,22 +77,18 @@ public class SearchByTagServlet extends HttpServlet {
 			int maxNumResults = 50;
 			seed = getSeedNumber(req);
 			List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(tags, maxNumResults, seed);
-			
-			for (String uuid : uuids){
-				try {
-					Content c = new Content(uuid);
-					String contentType = c.getContentType();
-					if (contentType.equals("practiceProblem")){
-						practiceProblems.add(c);
-					} else if (contentType.equals("question")){
-						questions.add(c);
-					} else if (contentType.equals("textContent")){
-						textContent.add(c);
-					}
-				} catch (EntityNotFoundException e) {
-					// Don't add to the list if it doesn't exist. Basic stuff, guys.
+			List<Content> content = ContentAPI.getContentAsync(uuids);
+			for (Content c : content){
+				String contentType = c.getContentType();
+				if (contentType.equals("practiceProblem")){
+					practiceProblems.add(c);
+				} else if (contentType.equals("question")){
+					questions.add(c);
+				} else if (contentType.equals("textContent")){
+					textContent.add(c);
 				}
 			}
+			
 			if (uuids.size() == maxNumResults){
 				moreResults = true;
 			}
