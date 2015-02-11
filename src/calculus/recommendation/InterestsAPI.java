@@ -140,16 +140,15 @@ public class InterestsAPI {
 	}
 	
 	private static float getInterestValue(Entity interestsEntity, String tag){
-		Float result = (Float) interestsEntity.getProperty(tag);
+		Float result = floatValue(interestsEntity, tag);
 		if (result == null) return 0;
 		return result;
 	}
 
 
 	private static void incrementTotalInterest(Entity interestsEntity, String interestTag, float increment) {
-		Float interestProgression = (Float) interestsEntity.getProperty("interestProgression");
-		if (interestProgression == null) interestProgression = new Float(0);
-		float interestDifficulty = TagDifficultyAPI.getDifficulty(interestTag);
+		int interestProgression = intValue(interestsEntity,"interestProgression");
+		float interestDifficulty = (float) TagDifficultyAPI.getDifficulty(interestTag);
 		if (interestDifficulty > interestProgression){
 			interestProgression += increment * (interestDifficulty - interestProgression);
 		}
@@ -157,7 +156,7 @@ public class InterestsAPI {
 	}
 
 	private static void incrementUserInterest(Entity interestsEntity, String tag, float increment){
-		Float interest = (Float) interestsEntity.getProperty(tag);
+		Float interest = floatValue(interestsEntity, tag);
 		if (interest == null) interest = new Float(0);
 		float newInterest = interest + increment;
 		interestsEntity.setUnindexedProperty(tag, newInterest);
@@ -171,6 +170,19 @@ public class InterestsAPI {
 			return ((Integer) o).intValue();
 		} else {
 			return (int) o;
+		}
+	}
+	
+	private static Float floatValue(Entity e, String p){
+		Object o = e.getProperty(p);
+		if (o instanceof Double){
+			return ((Double) o).floatValue();
+		} else if (o instanceof Float){
+			return (Float) o;
+		} else if (o instanceof Integer){
+			return ((Integer) o).floatValue();
+		} else {
+			return null;
 		}
 	}
 }

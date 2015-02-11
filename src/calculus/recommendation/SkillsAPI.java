@@ -87,7 +87,7 @@ public class SkillsAPI {
 	}
 	
 	private static void incrementTotalSkill(Entity skillsEntity, String skillTag, float increment) {
-		Float skillProgression = (Float) skillsEntity.getProperty("skillProgression");
+		Float skillProgression = floatValue(skillsEntity, "skillProgression");
 		if (skillProgression == null) skillProgression = new Float(0);
 		float skillDifficulty = TagDifficultyAPI.getDifficulty(skillTag);
 		if (skillDifficulty > skillProgression){
@@ -97,10 +97,23 @@ public class SkillsAPI {
 	}
 
 	private static void incrementUserSkill(Entity skillsEntity, String tag, float increment){
-		Float skill = (Float) skillsEntity.getProperty(tag);
+		Float skill = floatValue(skillsEntity, tag);
 		if (skill == null) skill = new Float(0);
 		float newSkill = skill + increment;
 		skillsEntity.setUnindexedProperty(tag, newSkill);
+	}
+	
+	private static Float floatValue(Entity e, String p){
+		Object o = e.getProperty(p);
+		if (o instanceof Double){
+			return ((Double) o).floatValue();
+		} else if (o instanceof Float){
+			return (Float) o;
+		} else if (o instanceof Integer){
+			return ((Integer) o).floatValue();
+		} else {
+			return null;
+		}
 	}
 	
 }

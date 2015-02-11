@@ -47,9 +47,8 @@ public class UserGroupingAPI {
 		return result;
 	}
 
-	public static List<String> getNSimilarUsers(String userId, int i) {
-		// TODO Auto-generated method stub
-		return null;
+	public static List<String> getNSimilarUsers(String userId, int n) {
+		Set<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, n);
+		return new ArrayList<String>(similarUsers);
 	}
-	
 }

@@ -75,7 +75,7 @@ public class TagAPI {
 		
 		
 		if (uuids.size() > maxNumResults){
-			int fromIndex = (seed - 1) * maxNumResults;
+			int fromIndex = seed * maxNumResults;
 			int toIndex = Math.min(uuids.size(), fromIndex + maxNumResults);
 			uuids = uuids.subList(fromIndex, toIndex);
 		}

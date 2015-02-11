@@ -8,6 +8,7 @@ import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
 import calculus.models.Content;
 import calculus.recommendation.InterestsAPI;
+import calculus.recommendation.MasterRecommendationsAPI;
 import calculus.recommendation.PhenotypeAPI;
 import calculus.recommendation.SkillsAPI;
 
@@ -16,14 +17,18 @@ import com.google.appengine.api.taskqueue.TaskOptions;
 
 public class RandomUser {
 
-	private static int randomUserId = 0;
-	
 	public static void execute(String interests, String numberOfActions, String relativeSkill){
+		execute(interests, numberOfActions, relativeSkill, "" + (int) (Math.random() * 1000));
+	}
+	
+	public static void execute(String interests, String numberOfActions, String relativeSkill, String id){
 		int n = Integer.parseInt(numberOfActions);
 		int skillLevel = Integer.parseInt(relativeSkill);
 		List<String> tags = TagAPI.getTagsFromString(interests);
 		
-		String userId = "RandomUser" + randomUserId++;
+		String userId = "RandomUser" + id;
+		long start = System.currentTimeMillis();
+		System.out.println(userId + " started execution.");
 		
 		while (n-- > 0){
 			double instruction = Math.random();
@@ -71,6 +76,8 @@ public class RandomUser {
 				// SKip this  round.
 			}
 		}
+		MasterRecommendationsAPI.getRecommendations(userId);
+		System.out.println(userId + " completed execution after " + (System.currentTimeMillis() - start) + " milliseconds");
 	}
 	
 	

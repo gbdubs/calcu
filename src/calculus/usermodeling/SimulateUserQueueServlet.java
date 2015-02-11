@@ -9,6 +9,13 @@ public class SimulateUserQueueServlet extends HttpServlet {
 
 	public void doPost(HttpServletRequest req, HttpServletResponse resp){
 		String interests = req.getParameter("interests");
+		String numActions = req.getParameter("numberOfActions");
+		String relativeSkill = req.getParameter("relativeSkill");
+		
+		System.out.println("THIS TASK WAS SUCCESSFULLY STARTED: " + interests);
+		
+		RandomUser.execute(interests, numActions, relativeSkill);
+		
 		System.out.println("THIS TASK WAS SUCCESSFULLY EXECUTED: " + interests);
 	}
 }
