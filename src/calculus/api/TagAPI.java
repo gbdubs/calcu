@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -19,6 +22,7 @@ import com.google.appengine.api.datastore.Query.SortDirection;
 public class TagAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public static void addNewContentToTag(String contentUuid, String tag){
 		String cleanedTag = tag.toLowerCase().trim();
@@ -52,16 +56,26 @@ public class TagAPI {
 	
 	public static List<String> getUuidsResultsOfMultipleTags(List<String> tags, int maxNumResults, int seed){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
+		List<Future<Entity>> futures = new ArrayList<Future<Entity>>();
 		for (String tag : tags){
 			String cleanedTag = tag.toLowerCase().trim();
-			List<String> uuids = getUuidsOfTag(cleanedTag);
-			for(String uuid : uuids){
-				if (mapping.containsKey(uuid)){
-					mapping.put(uuid, mapping.get(uuid) + 1);
-				} else {
-					mapping.put(uuid, 1);
+			Future<Entity> future = asyncDatastore.get(KeyFactory.createKey("Tag", tag));
+			futures.add(future);
+		}
+		
+		for(Future<Entity> future : futures) {
+			Entity e;
+			try {
+				e = future.get();
+				List<String> uuids = (List<String>) e.getProperty("matchingContent");
+				for(String uuid : uuids){
+					if (mapping.containsKey(uuid)){
+						mapping.put(uuid, mapping.get(uuid) + 1);
+					} else {
+						mapping.put(uuid, 1);
+					}
 				}
-			}
+			} catch (InterruptedException | ExecutionException e1) {/* Skip and don't include.*/}
 		}
 		List<String> uuids = new ArrayList<String>();
 		for(String uuid : mapping.keySet()){
@@ -73,7 +87,6 @@ public class TagAPI {
 			uuids.add(i, uuid);
 		}
 		
-		
 		if (uuids.size() > maxNumResults){
 			int fromIndex = seed * maxNumResults;
 			int toIndex = Math.min(uuids.size(), fromIndex + maxNumResults);
@@ -81,17 +94,6 @@ public class TagAPI {
 		}
 		
 		return uuids;
-	}
-
-	public static List<String> getUuidsOfTag(String tag){
-		Key key = KeyFactory.createKey("Tag", tag);
-		Entity entity;
-		try {
-			entity = datastore.get(key);
-		} catch (EntityNotFoundException e) {
-			return new ArrayList<String>();
-		}
-		return (List<String>) entity.getProperty("matchingContent");
 	}
 
 	public static List<String> getPopularTags(int num, int offset) {

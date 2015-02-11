@@ -168,8 +168,10 @@ public class InterestsAPI {
 			return ((Long) o).intValue();
 		} else if (o instanceof Integer){
 			return ((Integer) o).intValue();
+		} else if (o == null){
+			return 0;
 		} else {
-			return (int) o;
+			return (Integer) o;
 		}
 	}
 	
