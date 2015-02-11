@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.AnswersAPI;
+import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
+import calculus.api.PracticeProblemAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Answer;
 import calculus.recommendation.InterestsAPI;
@@ -38,6 +40,9 @@ public class ContributeAnswerServlet extends HttpServlet {
 		String answerParentUuid = answer.getParentUuid();
 		InterestsAPI.userAnsweredContent(userId, answerParentUuid);
 		SkillsAPI.userAnsweredContent(userId, answerParentUuid);
+		
+		// Alert the parent that it has a new child!
+		ContentAPI.addAnswerToContent(answerParentUuid, uuid);
 		
 		// Give the user their instant burst of Karma for answering the question
 		KarmaAPI.incrementContentKarma(uuid, 3);

@@ -40,11 +40,7 @@ public class PracticeProblem extends Content{
 	public String getEditUrl(){
 		return "/contribute/practice-problem/edit/" + this.getUuid();
 	}
-	
-	public List<Answer> getAnswers(){
-		return PracticeProblemAPI.getAnswersForPracticeProblem(this);
-	}
-	
+
 	public void verifyAcceptableProperty(String property) {
 		boolean acceptableProperty = false;
 		for(String realProperties : FIELDS){
@@ -52,5 +48,4 @@ public class PracticeProblem extends Content{
 		}
 		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property modification.");
 	}
-
 }

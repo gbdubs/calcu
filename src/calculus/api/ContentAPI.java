@@ -165,4 +165,22 @@ public class ContentAPI {
 		}
 	}
 
+	public static void addAnswerToContent(String parentUuid, String answerUuid) {
+		String contentType = "";
+		try {
+			contentType = getContentType(parentUuid);
+		} catch (EntityNotFoundException e) {
+			// Don't worry if it doesn't exist!
+		}
+		if (contentType.equals("practiceProblem")){
+			PracticeProblemAPI.addAnswerToPracticeProblem(parentUuid, answerUuid);
+		} else if (contentType.equals("question")){
+			QuestionAPI.addAnswerToQuestion(parentUuid, answerUuid);
+		} else if (contentType.equals("textContent")){
+			TextContentAPI.addAnswerToTextContent(parentUuid, answerUuid);
+		} else {
+			System.out.println("You have not done this correctly");
+		}
+	}
+
 }

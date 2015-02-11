@@ -3,13 +3,15 @@ package calculus.models;
 import java.util.ArrayList;
 import java.util.List;
 
-import calculus.api.QuestionAPI;
-
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 
 public class Question extends Content{
 	
 	private static List<String> FIELDS = new ArrayList<String>();
+	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	
 	
 	static {
 		FIELDS.addAll(Content.FIELDS);
@@ -35,9 +37,5 @@ public class Question extends Content{
 
 	public String getEditUrl(){
 		return "/contribute/question/edit/" + this.getUuid();
-	}
-	
-	public List<Answer> getAnswers(){
-		return QuestionAPI.getAnswersForQuestion(this);
 	}
 }

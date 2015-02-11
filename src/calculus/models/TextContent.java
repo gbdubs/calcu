@@ -35,9 +35,4 @@ public class TextContent extends Content {
 		}
 		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property Modification.");
 	}
-	
-	public List<Answer> getAnswers(){
-		return TextContentAPI.getAnswersForTextContent(this);
-	}
-
 }

@@ -177,17 +177,12 @@ public class PracticeProblemAPI {
 	}
 
 	public static List<Answer> getAnswersForPracticeProblem(PracticeProblem pp){
-		List<Answer> list = new ArrayList<Answer>();
-		String ppUuid = pp.getUuid();
-		Filter problemFilter = new FilterPredicate("parentUuid", FilterOperator.EQUAL, ppUuid);
-		Filter compositeFilter = CompositeFilterOperator.and(problemFilter, answerFilter, viewableFilter, submittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("approved", SortDirection.DESCENDING).addSort("karma");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			Answer a = new Answer(result);
-			list.add(a);
-		}
-		return list;	
+		return pp.getAnswers();
+	}
+	
+	public static void addAnswerToPracticeProblem(String ppUuid, String answerUuid){
+		PracticeProblem problem = new PracticeProblem(ppUuid);
+		problem.addAnswer(answerUuid);
 	}
 
 	public static PracticeProblem getAnswerablePracticeProblem(String userId) {

@@ -229,4 +229,23 @@ public class Content {
 		if (user == null) return false;
 		return RatingsAPI.contentRatedByUser(this.getUuid(), user.getUserId());
 	}
+	
+	public List<Answer> getAnswers(){
+		List<String> answerUuids = (List<String>) this.getEntity().getProperty("allAnswers");
+		if (answerUuids == null) return new ArrayList<Answer>();
+		List<Answer> result = new ArrayList<Answer>();
+		for(String uuid : answerUuids){
+			result.add(new Answer(uuid));
+		}
+		return result;
+	}
+
+	public void addAnswer(String answerUuid) {
+		Entity entity = this.getEntity();
+		List<String> answerUuids = (List<String>) entity.getProperty("allAnswers");
+		if (answerUuids == null) answerUuids = new ArrayList<String>();
+		answerUuids.add(answerUuid);
+		entity.setProperty("allAnswers", answerUuids);
+		datastoreService.put(entity);
+	}
 }

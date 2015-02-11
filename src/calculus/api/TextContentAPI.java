@@ -7,6 +7,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.Question;
 import calculus.models.TextContent;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -153,20 +154,6 @@ public class TextContentAPI {
 	public static void addTextContentContext(HttpServletRequest req, TextContent tc) {
 		req.setAttribute("textContent", tc);
 	}
-	
-	public static List<Answer> getAnswersForTextContent(TextContent tc){
-		List<Answer> list = new ArrayList<Answer>();
-		String tcUuid = tc.getUuid();
-		Filter contentFilter = new FilterPredicate("parentUuid", FilterOperator.EQUAL, tcUuid);
-		Filter compositeFilter = CompositeFilterOperator.and(contentFilter, answerFilter, viewableFilter, submittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			Answer a = new Answer(result);
-			list.add(a);
-		}
-		return list;	
-	}
 
 	public static TextContent[] getTextContentCalibrationForUser(String userId) {
 		TextContent[] result = new TextContent[2];
@@ -181,5 +168,12 @@ public class TextContentAPI {
 		return result;
 	}
 
-
+	public static List<Answer> getAnswersForTextContent(TextContent tc){
+		return tc.getAnswers();
+	}
+	
+	public static void addAnswerToTextContent(String tcUuid, String answerUuid){
+		TextContent tc = new TextContent(tcUuid);
+		tc.addAnswer(answerUuid);
+	}
 }

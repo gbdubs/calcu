@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
 import calculus.models.Content;
+import calculus.models.PracticeProblem;
 import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -116,20 +117,6 @@ public class QuestionAPI {
 		
 		return uuid;
 	}
-	
-	public static List<Answer> getAnswersForQuestion(Question q){
-		List<Answer> list = new ArrayList<Answer>();
-		String qUuid = q.getUuid();
-		Filter questionFilter = new FilterPredicate("parentUuid", FilterOperator.EQUAL, qUuid);
-		Filter compositeFilter = CompositeFilterOperator.and(questionFilter, answerFilter, viewableFilter, submittedFilter);
-		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
-		PreparedQuery pq = datastore.prepare(query);
-		for (Entity result : pq.asIterable()) {
-			Answer a = new Answer(result);
-			list.add(a);
-		}
-		return list;	
-	}
 
 	public static List<Question> getUnsubmittedQuestions(String userId) {
 		List<Question> list = new ArrayList<Question>();
@@ -222,5 +209,14 @@ public class QuestionAPI {
 		}
 		
 		return uuid;
+	}
+
+	public static List<Answer> getAnswersForQuestion(Question q){
+		return q.getAnswers();
+	}
+	
+	public static void addAnswerToQuestion(String qUuid, String answerUuid){
+		Question q = new Question(qUuid);
+		q.addAnswer(answerUuid);
 	}
 }
