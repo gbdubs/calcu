@@ -354,4 +354,17 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
+
+
+	<servlet>
+		<servlet-name>simulateUserQueue</servlet-name>
+		<servlet-class>calculus.usermodeling.SimulateUserQueueServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>simulateUserQueue</servlet-name>
+		<url-pattern>/admin/tasks/simulate-random-user</url-pattern>
+	</servlet-mapping>
+	
+
+
 </web-app>

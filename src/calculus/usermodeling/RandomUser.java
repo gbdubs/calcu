@@ -109,6 +109,4 @@ public class RandomUser {
 		}
 		return result.substring(1);
 	}
-	
-	
 }
