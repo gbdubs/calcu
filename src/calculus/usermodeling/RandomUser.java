@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import calculus.api.ContentAPI;
+import calculus.api.RandomValuesAPI;
 import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
 import calculus.models.Content;
@@ -22,7 +23,7 @@ public class RandomUser {
 	}
 	
 	public static void execute(String interests, String numberOfActions, String relativeSkill, String id){
-		int n = Integer.parseInt(numberOfActions);
+		/*int n = Integer.parseInt(numberOfActions);
 		int skillLevel = Integer.parseInt(relativeSkill);
 		List<String> tags = TagAPI.getTagsFromString(interests);
 		
@@ -32,7 +33,7 @@ public class RandomUser {
 		
 		while (n-- > 0){
 			double instruction = Math.random();
-			
+			System.out.println(n + " processes to finish...");
 			if (instruction <  .1){
 				List<String> interested = new ArrayList<String>();
 				List<String> disinterested = new ArrayList<String>();
@@ -43,11 +44,12 @@ public class RandomUser {
 				tags.addAll(interested);
 				InterestsAPI.userIndicatedTagsInterestingInCalibration(userId, tags);
 				InterestsAPI.userIndicatedTagsDisinterestingInCalibration(userId, disinterested);
-			
-			} else if (instruction <  .9){
+				System.out.println("INTERESTED!");
+			} else if (instruction <  .8){
 				String search = interests + "," + TagAPI.randomTag() + "," + TagAPI.randomTag();
 				List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(search, 10, (int) (Math.random() * 40));
 				InterestsAPI.userSearchedForTags(userId, TagAPI.getTagsFromString(search));
+				System.out.println("SEARCHED!");
 				for(String uuid : uuids){
 					if (Math.random() > .5){
 						InterestsAPI.userViewedContent(userId, uuid);
@@ -64,20 +66,24 @@ public class RandomUser {
 					}
 				}
 				
-			} else if (instruction <  .2){
+			} else if (instruction < 1){
 				int i = (int) (Math.random() * PhenotypeAPI.DEFAULT_PHENOTYPE.length());
 				if (Math.random() > .5){
 					i += 65;
 				} else{
 					i += 97;
 				}
+				System.out.println("PHENOTYPED!");
 				PhenotypeAPI.updateUserPhenotype(userId, (char) i);
 			} else {
 				// SKip this  round.
 			}
 		}
-		MasterRecommendationsAPI.getRecommendations(userId);
+		//MasterRecommendationsAPI.getRecommendations(userId);
 		System.out.println(userId + " completed execution after " + (System.currentTimeMillis() - start) + " milliseconds");
+		*/
+		System.out.println("RANDOM TAG:  " + RandomValuesAPI.randomTag());
+		System.out.println("RANDOM CONTENT:  " + RandomValuesAPI.randomContent());
 	}
 	
 	
@@ -94,21 +100,17 @@ public class RandomUser {
 	}
 
 	private static String randomNumberOfActions() {
-		return "" + (int) (Math.random() * 200);
+		return "" + (int) (Math.random() * 5);
 	}
 
 	private static String randomIntersts() {
-		Content randomContent = ContentAPI.getRandomContent();
+		Content randomContent = RandomValuesAPI.randomContent();
 		String tags = randomContent.getTags();
 		List<String> contentUuids = TagAPI.getUuidsResultsOfMultipleTags(tags, 10, (int) (Math.random() * 20));
 		List<String> allTags = new ArrayList<String>();
-		for(String uuid : contentUuids){
-			try {
-				Content c = new Content(uuid);
-				allTags.addAll(TagAPI.getTagsFromString(c.getTags()));
-			} catch (EntityNotFoundException e) {
-				// Skip
-			}
+		List<Content> content = ContentAPI.getContentAsync(contentUuids);
+		for(Content c : content){
+			allTags.addAll(TagAPI.getTagsFromString(c.getTags()));
 		}
 		String result = "";
 		for(String tag : allTags){

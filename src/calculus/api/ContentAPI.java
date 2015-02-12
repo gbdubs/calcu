@@ -211,8 +211,4 @@ public class ContentAPI {
 		return result;
 	}
 
-	public static Content getRandomContent() {
-		return null;
-	}
-
 }

@@ -9,6 +9,7 @@ import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -30,6 +31,7 @@ public class PracticeProblemAPI {
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public static void addPracticeProblemContext(HttpServletRequest req, String uuid){
 		PracticeProblem practiceProblem = new PracticeProblem(uuid);

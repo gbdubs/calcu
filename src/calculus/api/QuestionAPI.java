@@ -9,6 +9,7 @@ import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.Question;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -30,6 +31,7 @@ public class QuestionAPI {
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public static String createQuestionFromRequest(HttpServletRequest req){
 		String uuid = UUID.randomUUID().toString();
@@ -170,7 +172,6 @@ public class QuestionAPI {
 		entity.setProperty("karma", 1);
 		
 		datastore.put(entity);
-		
 
 		String[] tagList = tags.split(",");
 		for (String t : tagList){

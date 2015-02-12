@@ -116,19 +116,19 @@ public class UserPublicInfoAPI {
 	}
 
 	public static String getUsername(String userId) {
-		Entity userPublicInfo = getUserPublicInfo(userId);
+		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
 		if (userPublicInfo == null) return "";
 		return (String) userPublicInfo.getProperty("username");
 	}
 	
 	public static String getPhenotype(String userId){
-		Entity userPublicInfo = getUserPublicInfo(userId);
+		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
 		if (userPublicInfo == null) return "";
 		return (String) userPublicInfo.getProperty("phenotype");
 	}
 
 	public static void setUserPhenotype(String userId, String newPhenotype) {
-		Entity userPublicInfo = getUserPublicInfo(userId);
+		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
 		userPublicInfo.setUnindexedProperty("phenotype", newPhenotype);
 		datastore.put(userPublicInfo);
 	}
