@@ -119,7 +119,6 @@ public class PersonalizeServlet extends HttpServlet {
 			for(String s : lessInterested){
 				disinterestedTags.add(s);
 			}
-			
 			InterestsAPI.userIndicatedTagsDisinterestingInCalibration(userId, disinterestedTags);
 			InterestsAPI.userIndicatedTagsInterestingInCalibration(userId, interestedTags);
 			

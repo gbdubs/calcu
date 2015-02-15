@@ -287,6 +287,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/admin/achievement</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>SimulateRandomUsers</servlet-name>
+		<servlet-class>calculus.admin.SimulateRandomUsersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SimulateRandomUsers</servlet-name>
+		<url-pattern>/admin/simulate-random-rating-users</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>AchievementsDisplay</servlet-name>

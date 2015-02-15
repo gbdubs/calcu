@@ -285,7 +285,7 @@
 				</div>
 			</div>
 			<div class="box-body">
-				<form action="/admin/send-notification" method="post" class="box box-solid box-warning collapsed-box">
+				<form action="/admin/send-notification" method="post" class="box box-solid box-warning collapsed-box no-margin">
 					<input type="hidden" name="uploadMethod" value="single" />
 					<div class="box-header">
 						<i class="fa fa-envelope fa-karma-score"></i>
@@ -307,6 +307,36 @@
 						<input type="text" name="url" class="form-control" placeholder="Were to take the user upon click of notification"/>
 						<br/>
 						<input type="submit" class="btn btn-full-width btn-block btn-warning" value="Send Universal Notifiaction"/>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<div class="box box-solid">
+			<div class="box-header">
+				<i class="fa fa-user-secret fa-karma-score"></i>
+				<h3 class="box-title">User Simulation Center</h3>
+				<div class="pull-right box-tools">
+					<button class="btn btn-success btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+				</div>
+			</div>
+			<div class="box-body">
+				<form action="/admin/simulate-random-rating-users" method="post" class="box box-solid box-success collapsed-box no-margin">
+					<div class="box-header">
+						<i class="fa fa-user-times fa-karma-score"></i>
+						<h3 class="box-title">Create New User Simulation</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="box-body" style="display:none;">
+						<div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user-times"></i></span>
+                            <input name="numberToSimulate" type="number" class="form-control">
+							<div class="input-group-btn">
+								<input type="submit" class="btn btn-success" value="Create" />
+							</div>
+						</div>
 					</div>
 				</form>
 			</div>

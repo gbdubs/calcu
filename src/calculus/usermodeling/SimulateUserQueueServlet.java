@@ -14,7 +14,7 @@ public class SimulateUserQueueServlet extends HttpServlet {
 		
 		System.out.println("THIS TASK WAS SUCCESSFULLY STARTED: " + interests);
 		
-		RandomUser.execute(interests, numActions, relativeSkill);
+		RandomRatingsUser.executeRatingsOprations(interests, numActions, relativeSkill);
 		
 		System.out.println("THIS TASK WAS SUCCESSFULLY EXECUTED: " + interests);
 	}

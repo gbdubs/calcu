@@ -32,7 +32,7 @@ public class AchievementsDisplayServlet extends HttpServlet {
 		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user != null){
-			unfinishedAchievements.addAll(AchievementsAPI.getUserUnfinishedAchievements(user.getUserId()));
+			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 			finishedAchievements.addAll(AchievementsAPI.getUserAchievements(user.getUserId()));
 		} else {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());

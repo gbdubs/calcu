@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
-import calculus.usermodeling.RandomUser;
+import calculus.usermodeling.RandomRatingsUser;
 
 import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
@@ -26,7 +26,7 @@ public class TagTesterServlet extends HttpServlet {
 		
 		Queue defaultQueue = QueueFactory.getQueue("simulateUserQueue");
 		for(int i = 0; i < 100; i++){
-			defaultQueue.add(RandomUser.createNewRandomUser());
+			defaultQueue.add(RandomRatingsUser.createNewRandomUser());
 		}
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/successpage.jsp");
 		jsp.forward(req, resp);

@@ -77,14 +77,6 @@ public class Content {
 		}
 	}
 	
-	public void updateProperty(String property, Object newValue) {
-		verifyAcceptableProperty(property);
-		if (entity.getProperty(property) != newValue){
-			entity.setProperty(property, newValue);
-			datastore.put(entity);
-		}
-	}
-	
 	//TODO: This refactor from an abstract class.
 	public void verifyAcceptableProperty(String property){
 

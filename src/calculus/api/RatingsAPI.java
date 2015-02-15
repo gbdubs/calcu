@@ -117,7 +117,7 @@ public class RatingsAPI {
 			result.setUnindexedProperty("difficultyRating", 500);
 			
 			// Quality aggregates karma in terms of hundredths:
-			result.setProperty("karma", 100);
+			result.setUnindexedProperty("karma", 100);
 			return result;
 		}
 	}
