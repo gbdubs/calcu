@@ -1,5 +1,8 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import calculus.recommendation.PhenotypeAPI;
 import calculus.utilities.UrlGenerator;
 
@@ -11,6 +14,8 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.PreparedQuery;
+import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -133,5 +138,15 @@ public class UserPublicInfoAPI {
 		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
 		userPublicInfo.setUnindexedProperty("phenotype", newPhenotype);
 		asyncDatastore.put(userPublicInfo);
+	}
+
+	public static List<String> getAllUserIds() {
+		Query q = new Query("UserPublicInfo");
+		PreparedQuery pq = datastore.prepare(q);
+		List<String> result = new ArrayList<String>();
+		for(Entity e : pq.asIterable()){
+			result.add((String) e.getProperty("userId"));
+		}
+		return result;
 	}
 }

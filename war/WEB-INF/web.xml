@@ -4,15 +4,6 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	
-	<servlet>
-		<servlet-name>TagTester</servlet-name>
-		<servlet-class>calculus.TagTesterServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TagTester</servlet-name>
-		<url-pattern>/tag-tester</url-pattern>
-	</servlet-mapping>
 
 
 	<servlet>
@@ -268,6 +259,20 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>AdminConsole</servlet-name>
 		<url-pattern>/admin</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminConsole</servlet-name>
+		<url-pattern>/admin/</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>RecalculateRecommendations</servlet-name>
+		<servlet-class>calculus.admin.RecalculateRecommendationsServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>RecalculateRecommendations</servlet-name>
+		<url-pattern>/admin/recalculate-recommendations</url-pattern>
+	</servlet-mapping>
+	
 	
 	<servlet>
 		<servlet-name>UniversalNotification</servlet-name>
@@ -365,12 +370,21 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 
 	<servlet>
-		<servlet-name>simulateUserQueue</servlet-name>
+		<servlet-name>SimulateUserQueue</servlet-name>
 		<servlet-class>calculus.usermodeling.SimulateUserQueueServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>simulateUserQueue</servlet-name>
+		<servlet-name>SimulateUserQueue</servlet-name>
 		<url-pattern>/admin/tasks/simulate-random-user</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CalculateRecommendations</servlet-name>
+		<servlet-class>calculus.admin.CalculateRecommendationsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalculateRecommendations</servlet-name>
+		<url-pattern>/recommendations/calculate</url-pattern>
 	</servlet-mapping>
 	
 	<filter>

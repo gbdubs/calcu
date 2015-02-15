@@ -3,4 +3,8 @@
 		<name>simulateUserQueue</name>
 		<rate>10/s</rate>
 	</queue>
+	<queue>
+		<name>calculateRecommendationsQueue</name>
+		<rate>10/s</rate>
+	</queue>
 </queue-entries>

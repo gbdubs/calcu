@@ -315,13 +315,13 @@
 		<div class="box box-solid">
 			<div class="box-header">
 				<i class="fa fa-user-secret fa-karma-score"></i>
-				<h3 class="box-title">User Simulation Center</h3>
+				<h3 class="box-title">User Automation Center</h3>
 				<div class="pull-right box-tools">
 					<button class="btn btn-success btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
 			<div class="box-body">
-				<form action="/admin/simulate-random-rating-users" method="post" class="box box-solid box-success collapsed-box no-margin">
+				<form action="/admin/simulate-random-rating-users" method="post" class="box box-solid box-success collapsed-box">
 					<div class="box-header">
 						<i class="fa fa-user-times fa-karma-score"></i>
 						<h3 class="box-title">Create New User Simulation</h3>
@@ -330,11 +330,50 @@
 						</div>
 					</div>
 					<div class="box-body" style="display:none;">
+						<p>
+							To simulate some phony user interactions, simply enter the number of users that you would like to simulate,
+							and they will be placed on a queue to execute concurrently. Note that adding more than 200-300 users is not
+							recommended. Also, you can check on the length of the Queue on the /_ah/admin page.
+						</p>
+						<p>
+							As the users execute their tasks, they will be manipulating LIVE data, so only use this option when you are
+							fairly certain that you want to do it, and have the results persist.
+						</p>
 						<div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-user-times"></i></span>
                             <input name="numberToSimulate" type="number" class="form-control">
 							<div class="input-group-btn">
 								<input type="submit" class="btn btn-success" value="Create" />
+							</div>
+						</div>
+					</div>
+				</form>
+				
+				<form action="/admin/recalculate-recommendations" method="post" class="box box-solid box-success collapsed-box no-margin">
+					<div class="box-header">
+						<i class="fa fa-calculator fa-karma-score"></i>
+						<h3 class="box-title">Recalculate User Recommendations</h3>
+						<div class="pull-right box-tools">
+							<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="box-body" style="display:none;">
+						<p>
+							User recommendations are generated in NON real time because they are an expensive operation that requires a
+							huge computational overhead. If this project takes off the ground, this kind of task would need to be run
+							overnight, and when servers are otherwise not busy. Because this is an expensive operation, please consider
+							wisely before you update notifications.
+						</p>
+						<p>
+							If you want to recalculate notifications for a specific user, type in their USERID in the box below and then
+							hit submit.  If instead you would like to recalculate for all users, type "ALL USERS" in to the box, and press
+							submit.
+						</p>
+						<div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-tasks"></i></span>
+                            <input name="user" type="text" class="form-control" placeholder="Type in a UserId, or 'ALL USERS'" />
+							<div class="input-group-btn">
+								<input type="submit" class="btn btn-success" value="Submit" />
 							</div>
 						</div>
 					</div>

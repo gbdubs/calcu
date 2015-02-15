@@ -55,10 +55,11 @@ public class MasterRecommendationsAPI {
 		}	
 	}
 
-	private static List<String> refreshRecommendations(String userId){
+	public static List<String> refreshRecommendations(String userId){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
-		
+		System.out.println("Checkpoint 1");
 		List<String> similarUsers = UserGroupingAPI.getNSimilarUsers(userId, 20);
+		System.out.println("Checkpoint 2");
 		for(String similarUser : similarUsers){
 			List<String> bookmarks = BookmarksAPI.getUserBookmarks(similarUser);
 			List<String> wellRated = HelpfulContentAPI.getHelpfulContent(similarUser);
@@ -69,6 +70,7 @@ public class MasterRecommendationsAPI {
 				increment(mapping, wr);
 			}
 		}
+		System.out.println("Checkpoint 3");
 		
 		List<String> tags = RecommendationIndexAPI.getRecommendedTags(userId, 20);
 		List<String> contentFromTags = TagAPI.getUuidsResultsOfMultipleTags(tags, 50, 0);
