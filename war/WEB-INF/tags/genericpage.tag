@@ -110,8 +110,8 @@
             <ul class="sidebar-menu">
                 <c:if test="${isAdmin}">
                 	<li class="active">
-                    	<a href="/admin" class="bg-purple">
-                   	    	<i class="fa fa-fw fa-skyatlas"></i>
+                    	<a href="/admin" class="bg-blue">
+                   	    	<i class="fa fa-fw fa-umbrella"></i>
                     	   	<span>Admin</span>
                     	</a>
                 	</li>

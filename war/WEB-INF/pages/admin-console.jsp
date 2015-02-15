@@ -367,11 +367,12 @@
 						<p>
 							If you want to recalculate notifications for a specific user, type in their USERID in the box below and then
 							hit submit.  If instead you would like to recalculate for all users, type "ALL USERS" in to the box, and press
-							submit.
+							submit. If you would like to recalculate for the users who have the stale-est recommendations, type "FIRST X",
+							where X is the number of users you would like to recalculate.
 						</p>
 						<div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-tasks"></i></span>
-                            <input name="user" type="text" class="form-control" placeholder="Type in a UserId, or 'ALL USERS'" />
+                            <input name="user" type="text" class="form-control" placeholder="Type in a UserId, 'ALL USERS', or 'FIRST X'" />
 							<div class="input-group-btn">
 								<input type="submit" class="btn btn-success" value="Submit" />
 							</div>
