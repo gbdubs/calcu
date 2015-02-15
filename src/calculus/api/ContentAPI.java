@@ -187,11 +187,12 @@ public class ContentAPI {
 		PreparedQuery allPQ = datastore.prepare(allQ);
 		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n).offset((int) (Math.random() * 1000)));
 		
+		List<Content> randomResults = RandomValuesAPI.randomContents(n);
+		
 		Map<String, List<Content>> result = new HashMap<String, List<Content>>();
 		List<Content> newResults = new ArrayList<Content>();
 		List<Content> bestResults = new ArrayList<Content>();
-		List<Content> randomResults = new ArrayList<Content>();
-		
+		List<Content> allResults = new ArrayList<Content>();
 		
 		for(Entity e : newE){
 			newResults.add(new Content(e));
@@ -200,13 +201,13 @@ public class ContentAPI {
 			bestResults.add(new Content(e));
 		}
 		for(Entity e : allE){
-			randomResults.add(new Content(e));
+			allResults.add(new Content(e));
 		}
 		
 		result.put("new", newResults);
 		result.put("best", bestResults);
 		result.put("random", randomResults);
-		result.put("suggested", randomResults);
+		result.put("suggested", allResults);
 		
 		return result;
 	}

@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserPublicInfoAPI;
+import calculus.recommendation.MasterRecommendationsAPI;
 
 import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
@@ -23,14 +24,21 @@ public class RecalculateRecommendationsServlet extends HttpServlet {
 		if (userString.equals("") || userString == null){
 			resp.sendRedirect("/admin");
 		}
-		if (userString == "ALL USERS"){
-			Queue queue = QueueFactory.getQueue("calculateRecommendationsQueue");
+		Queue queue = QueueFactory.getQueue("calculateRecommendationsQueue");
+		if (userString.startsWith("FIRST ")) {
+			userString = userString.substring(6);
+			int numToCalc = Integer.parseInt(userString);
+			List<String> toCalc = MasterRecommendationsAPI.getUsersInNeedOfRecalculation(numToCalc);
+			for(String userId : toCalc){
+				queue.addAsync(updateRecommendationsForUser(userId));
+			}
+	    } else if (userString.equals("ALL USERS")) {
 			List<String> allUserIds = UserPublicInfoAPI.getAllUserIds();
+			System.out.println("Adding " + allUserIds.size() + " users to the calculation queue.");
 			for(String userId : allUserIds){
 				queue.addAsync(updateRecommendationsForUser(userId));
 			}
 		} else {
-			Queue queue = QueueFactory.getQueue("calculateRecommendationsQueue");
 			queue.addAsync(updateRecommendationsForUser(userString));
 		}
 		

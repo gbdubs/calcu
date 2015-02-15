@@ -12,7 +12,7 @@ import calculus.api.BookmarksAPI;
 public class UserGroupingAPI {
 	
 	public static List<String> getPhenotypeRecommendationsForUser(String userId){
-		Set<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 10);
+		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 10);
 		List<String> otherUsersBookmarks = getUsersBookmarks(similarUsers);
 		return otherUsersBookmarks;
 	}
@@ -45,10 +45,5 @@ public class UserGroupingAPI {
 			result.add(i, str);
 		}
 		return result;
-	}
-
-	public static List<String> getNSimilarUsers(String userId, int n) {
-		Set<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, n);
-		return new ArrayList<String>(similarUsers);
 	}
 }

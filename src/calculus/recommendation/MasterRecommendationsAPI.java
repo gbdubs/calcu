@@ -17,8 +17,12 @@ import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.PreparedQuery;
+import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Query.SortDirection;
 
 public class MasterRecommendationsAPI {
 	
@@ -58,7 +62,7 @@ public class MasterRecommendationsAPI {
 	public static List<String> refreshRecommendations(String userId){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		System.out.println("Checkpoint 1");
-		List<String> similarUsers = UserGroupingAPI.getNSimilarUsers(userId, 20);
+		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
 		System.out.println("Checkpoint 2");
 		for(String similarUser : similarUsers){
 			List<String> bookmarks = BookmarksAPI.getUserBookmarks(similarUser);
@@ -97,9 +101,6 @@ public class MasterRecommendationsAPI {
 		}
 	}
 
-
-	
-	
 	public static PracticeProblem getDifficultyCalibrationPracticeProblem(String userId) {
 		return PracticeProblemAPI.getAnswerablePracticeProblem(userId);
 	}
@@ -124,5 +125,15 @@ public class MasterRecommendationsAPI {
 			result.add(i, str);
 		}
 		return result;
+	}
+
+	public static List<String> getUsersInNeedOfRecalculation(int numToCalc) {
+		Query q = new Query("Recommendations").addSort("updatedAt", SortDirection.ASCENDING);
+		PreparedQuery newPQ = datastore.prepare(q);
+		List<String> users = new ArrayList<String>();
+		for(Entity e : newPQ.asIterable(FetchOptions.Builder.withLimit(numToCalc))){
+			users.add((String) e.getKey().getName());
+		}
+		return users;
 	}
 }

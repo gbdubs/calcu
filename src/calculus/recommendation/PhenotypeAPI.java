@@ -1,10 +1,12 @@
 package calculus.recommendation;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
+import calculus.api.RandomValuesAPI;
 import calculus.api.UserPublicInfoAPI;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
@@ -22,32 +24,35 @@ public class PhenotypeAPI {
 	private static final int phenotypeLength = 10;
 	public static final String DEFAULT_PHENOTYPE = "----------";	
 	
-	public static Set<String> getSimilarUsers(String userId, int n){
+	public static List<String> getSimilarUsers(String userId, int n) {
 		String phenotype = UserPublicInfoAPI.getPhenotype(userId);
-		Set<String> userIds = new HashSet<String>();
-		List<String> usersWithSamePhenotype = getUsersWithPhenotype(phenotype);
-		int i = 0; 
-		while (userIds.size() < n && i < usersWithSamePhenotype.size()){
-			userIds.add(usersWithSamePhenotype.get(i));
-		}
-		i = 0;
-		while(userIds.size() < n){
-			List<String> similarPhenotypes = similarPhenotypes(phenotype, 10 * (i+1));
-			int j = 0;
-			while (userIds.size() < n && j < 10){
-				int index = j + 10 * i;
-				usersWithSamePhenotype = getUsersWithPhenotype(similarPhenotypes.get(index));
-				int k = 0;
-				while (userIds.size() < n && k < usersWithSamePhenotype.size()){
-					userIds.add(usersWithSamePhenotype.get(k));
+		
+		List<String> randomPhenotypes = RandomValuesAPI.getRandomPhenotypes(n * 4);
+		
+		Map<String, Float> mapping = new HashMap<String, Float>();
+		for(String randPhenotype : randomPhenotypes){
+			float comparison = evaluatePhenotypeComparison(phenotype, randPhenotype);
+			List<String> userIds = getUsersWithPhenotype(randPhenotype);
+			for (String uid : userIds) {
+				if (mapping.containsKey(uid)) {
+					float value = Math.max(comparison, mapping.get(uid));
+					mapping.put(uid, value);
+				} else {
+					mapping.put(uid, comparison);
 				}
 			}
 		}
-		return userIds;
+		
+		List<String> similarUsers = getDecendingListFromCountMap(mapping);
+		List<String> result = new ArrayList<String>();
+		for(int i = 0; i < similarUsers.size() && i < n; i++){
+			result.add(similarUsers.get(i));
+		}
+		return result;
 	}
 	
 	private static Entity getPhenotypeEntity(String phenotype){
-		Key key = KeyFactory.createKey("PhenotypeAPI", phenotype);
+		Key key = KeyFactory.createKey("Phenotype", phenotype);
 		try {
 			return datastore.get(key);
 		} catch (EntityNotFoundException e) {
@@ -141,33 +146,6 @@ public class PhenotypeAPI {
 		return p;
 	}
 
-	private static List<String> similarPhenotypes(String phenotype, int n){
-		List<String> results = new ArrayList<String>();
-		int i = 0;
-		while (results.size() < n){
-			results.add(permutePhenotype(phenotype, i, true));
-			results.add(permutePhenotype(phenotype, i, false));	
-			i++;	
-			if (i == phenotypeLength){
-				i = 0; 
-				phenotype = results.get((int) (Math.random() * i));
-			}
-		}
-		return results;
-	}
-
-	private static String permutePhenotype(String phenotype, int i, boolean uppercase){
-		char c = '-';
-		if (uppercase){
-			c = (char) (i + 65);
-		} else {
-			c = (char) (i + 97);
-		}
-		String start = phenotype.substring(0,i); 
-		String end = phenotype.substring(i+1);
-		return start + c + end;
-	}
-
 	public static void updateUserPhenotype(String userId, char preferenceChar) {
 		String oldPhenotype = UserPublicInfoAPI.getPhenotype(userId);
 		int location = ("" + preferenceChar).toUpperCase().charAt(0) - 65;
@@ -175,7 +153,19 @@ public class PhenotypeAPI {
 		String end = oldPhenotype.substring(location+1);
 		String newPhenotype = start + preferenceChar + end;
 		setUserPhenotype(userId, newPhenotype, oldPhenotype);
-		
+	}
+	
+	private static List<String> getDecendingListFromCountMap(Map<String, Float> mapping){
+		List<String> result = new ArrayList<String>();
+		for(String str : mapping.keySet()){
+			int i = 0;
+			float value = mapping.get(str);
+			while (i < result.size() && mapping.get(result.get(i)) <= value){
+				i++;
+			}
+			result.add(i, str);
+		}
+		return result;
 	}
 	
 }

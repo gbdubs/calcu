@@ -36,9 +36,12 @@ public class RecommendationIndexAPI {
 		Entity interestsEntity = InterestsAPI.getInterestsEntity(userId);
 		Entity skillsEntity = SkillsAPI.getSkillsEntity(userId);
 		
-		long recommendationsUpdatedAt = (long) recommendationsEntity.getProperty("updatedAt");
-		long interestsUpdatedAt = (long) interestsEntity.getProperty("updatedAt");
-		long skillsUpdatedAt = (long) skillsEntity.getProperty("updatedAt");
+		Long recommendationsUpdatedAt = (Long) recommendationsEntity.getProperty("updatedAt");
+		if (recommendationsUpdatedAt == null) recommendationsUpdatedAt = new Long(0);
+		Long interestsUpdatedAt = (Long) interestsEntity.getProperty("updatedAt");
+		if (interestsUpdatedAt == null) interestsUpdatedAt = new Long(0);
+		Long skillsUpdatedAt = (Long) skillsEntity.getProperty("updatedAt");
+		if (skillsUpdatedAt == null) skillsUpdatedAt = new Long(0);
 		
 		if (interestsUpdatedAt <= recommendationsUpdatedAt && skillsUpdatedAt <= recommendationsUpdatedAt){
 			// If the recommendations are older than the skills and the interests, we don't need to update.
@@ -76,6 +79,10 @@ public class RecommendationIndexAPI {
 			return (Float) o;
 		} else if (o == null) {
 			return 0;
+		} else if (o instanceof Double){
+			return ((Double) o).floatValue();
+		} else if (o instanceof Long){
+			return ((Long) o).floatValue();
 		} else {
 			return (Float) o;
 		}

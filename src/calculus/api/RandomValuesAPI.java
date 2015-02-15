@@ -64,6 +64,15 @@ public class RandomValuesAPI {
 		return result;
 	}
 	
+	public static List<String> getRandomPhenotypes(int n){
+		List<Entity> entities = getNEntitiesOfType(n, "Phenotype");
+		List<String> result = new ArrayList<String>();
+		for(Entity e : entities){
+			result.add(e.getKey().getName());
+		}
+		return result;
+	}
+	
 	private static List<Entity> getNEntitiesOfType(int n, String type){
 		Entity cursorStorage = getCursorStorage();
 		String cursorString = (String) cursorStorage.getProperty(type + "Cursor");
