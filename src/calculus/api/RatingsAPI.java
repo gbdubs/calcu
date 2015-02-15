@@ -70,12 +70,12 @@ public class RatingsAPI {
 		int newUserStrength = (int) (userStrength - difficultyDifferential * strengthTimeBias);
 		int newDifficultyRating = (int) (difficultyRating + difficultyDifferential * reviewerTimeBias * difficultyTimeBias);
 		
-		userEntity.setProperty("userStrength", newUserStrength);
-		contentEntity.setProperty("difficultyRating", newDifficultyRating);
+		userEntity.setUnindexedProperty("userStrength", newUserStrength);
+		contentEntity.setUnindexedProperty("difficultyRating", newDifficultyRating);
 		
 		// Updates the counts
-		userEntity.setProperty("numRatings", numberOfUserRatings + 1);
-		contentEntity.setProperty("numRatings", numberOfContentRatings + 1);
+		userEntity.setUnindexedProperty("numRatings", numberOfUserRatings + 1);
+		contentEntity.setUnindexedProperty("numRatings", numberOfContentRatings + 1);
 		
 		// Updates the simple averages
 		updateEntityAverageProperty(userEntity, "averageDifficulty", reviewedDifficulty);
@@ -95,7 +95,7 @@ public class RatingsAPI {
 		double oldValue = (double) intValue(e,prop);
 		int n = intValue(e, "numRatings");
 		Double newValue = ((Double) (oldValue * n + rating * 10) / (n + 1));
-		e.setProperty(prop, newValue.intValue());
+		e.setUnindexedProperty(prop, newValue.intValue());
 	}
 	
 	private static Entity getOrCreateContentRatingProfile(String contentUuid) {
@@ -106,15 +106,15 @@ public class RatingsAPI {
 			Entity result = new Entity(userKey);
 			// NumRatings allows us to calculate averages, while not maintaining
 			// references to individual ratings.
-			result.setProperty("numRatings", 0);
+			result.setUnindexedProperty("numRatings", 0);
 			
 			// Average ones are use to gauge reactions against
-			result.setProperty("averageDifficulty", 500);
-			result.setProperty("averageQuality", 500);
-			result.setProperty("averageHelpfulness", 500);
+			result.setUnindexedProperty("averageDifficulty", 500);
+			result.setUnindexedProperty("averageQuality", 500);
+			result.setUnindexedProperty("averageHelpfulness", 500);
 			
 			// Perceived strength tells us how difficult they like their questions
-			result.setProperty("difficultyRating", 500);
+			result.setUnindexedProperty("difficultyRating", 500);
 			
 			// Quality aggregates karma in terms of hundredths:
 			result.setProperty("karma", 100);
@@ -131,7 +131,7 @@ public class RatingsAPI {
 		}
 		if (ratedBy.contains(userId)) alreadyThere = true;
 		ratedBy.add(userId);
-		content.setProperty("ratedBy", ratedBy);
+		content.setUnindexedProperty("ratedBy", ratedBy);
 		datastore.put(content);
 		return alreadyThere;
 	}
@@ -157,15 +157,15 @@ public class RatingsAPI {
 			Entity result = new Entity(userKey);
 			// NumRatings allows us to calculate averages, while not maintaining
 			// references to individual ratings.
-			result.setProperty("numRatings", 0);
+			result.setUnindexedProperty("numRatings", 0);
 			
 			// Average ones are use to gauge reactions against
-			result.setProperty("averageDifficulty", 500);
-			result.setProperty("averageQuality", 500);
-			result.setProperty("averageHelpfulness", 500);
+			result.setUnindexedProperty("averageDifficulty", 500);
+			result.setUnindexedProperty("averageQuality", 500);
+			result.setUnindexedProperty("averageHelpfulness", 500);
 			
 			// Perceived strength tells us how difficult they like their questions
-			result.setProperty("userStrength", 500);
+			result.setUnindexedProperty("userStrength", 500);
 			
 			return result;
 		}

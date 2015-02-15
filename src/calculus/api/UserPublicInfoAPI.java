@@ -4,6 +4,7 @@ import calculus.recommendation.PhenotypeAPI;
 import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.blobstore.BlobKey;
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -16,6 +17,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class UserPublicInfoAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	private static Entity getOrCreateMyPublicInfo() {
 		User user = UserServiceFactory.getUserService().getCurrentUser();
@@ -90,13 +92,13 @@ public class UserPublicInfoAPI {
 	public static void updateUsername(String username) {
 		Entity userPublicInfo = getOrCreateMyPublicInfo();
 		userPublicInfo.setUnindexedProperty("username", username);
-		datastore.put(userPublicInfo);
+		asyncDatastore.put(userPublicInfo);
 	}
 
 	public static void setUserProfilePictureServingUrl(String servingUrl) {
 		Entity userPublicInfo = getOrCreateMyPublicInfo();
 		userPublicInfo.setUnindexedProperty("profilePictureUrl", servingUrl);
-		datastore.put(userPublicInfo);
+		asyncDatastore.put(userPublicInfo);
 	}
 
 	public static BlobKey getProfilePictureBlobKey() {
@@ -107,7 +109,7 @@ public class UserPublicInfoAPI {
 	public static void setProfilePictureBlobKey(BlobKey blobKey){
 		Entity userPublicInfo = getOrCreateMyPublicInfo();
 		userPublicInfo.setUnindexedProperty("profilePictureBlobKey", blobKey);
-		datastore.put(userPublicInfo);
+		asyncDatastore.put(userPublicInfo);
 	}
 
 	public static String getProfilePictureUrl(String associatedUserId) {
@@ -130,6 +132,6 @@ public class UserPublicInfoAPI {
 	public static void setUserPhenotype(String userId, String newPhenotype) {
 		Entity userPublicInfo = getOrCreateUserPublicInfo(userId);
 		userPublicInfo.setUnindexedProperty("phenotype", newPhenotype);
-		datastore.put(userPublicInfo);
+		asyncDatastore.put(userPublicInfo);
 	}
 }

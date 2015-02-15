@@ -1,6 +1,7 @@
 package calculus.usermodeling;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import calculus.api.ContentAPI;
@@ -23,7 +24,7 @@ public class RandomUser {
 	}
 	
 	public static void execute(String interests, String numberOfActions, String relativeSkill, String id){
-		/*int n = Integer.parseInt(numberOfActions);
+		int n = Integer.parseInt(numberOfActions);
 		int skillLevel = Integer.parseInt(relativeSkill);
 		List<String> tags = TagAPI.getTagsFromString(interests);
 		
@@ -37,19 +38,17 @@ public class RandomUser {
 			if (instruction <  .1){
 				List<String> interested = new ArrayList<String>();
 				List<String> disinterested = new ArrayList<String>();
-				for(int i = 0; i < 3; i++){
-					interested.add(TagAPI.randomTag());
-					disinterested.add(TagAPI.randomTag());
-				}
+				interested.addAll(RandomValuesAPI.randomTags(3));
+				disinterested.addAll(RandomValuesAPI.randomTags(3));
 				tags.addAll(interested);
 				InterestsAPI.userIndicatedTagsInterestingInCalibration(userId, tags);
 				InterestsAPI.userIndicatedTagsDisinterestingInCalibration(userId, disinterested);
 				System.out.println("INTERESTED!");
 			} else if (instruction <  .8){
-				String search = interests + "," + TagAPI.randomTag() + "," + TagAPI.randomTag();
+				String search = interests + "," + RandomValuesAPI.randomTag() + "," + RandomValuesAPI.randomTag();
 				List<String> uuids = TagAPI.getUuidsResultsOfMultipleTags(search, 10, (int) (Math.random() * 40));
 				InterestsAPI.userSearchedForTags(userId, TagAPI.getTagsFromString(search));
-				System.out.println("SEARCHED!");
+				System.out.println("SEARCHED! TAGS:" + search.split(",").length + " RESULTS:" + uuids.size());
 				for(String uuid : uuids){
 					if (Math.random() > .5){
 						InterestsAPI.userViewedContent(userId, uuid);
@@ -61,7 +60,7 @@ public class RandomUser {
 						InterestsAPI.userAnsweredContent(userId, uuid);
 						SkillsAPI.userAnsweredContent(userId, uuid);
 					}
-					if (Math.random() > .3){
+					if (Math.random() > .6){
 						RatingsAPI.submitRating(uuid, userId, (int)(Math.random() * 20 + 80), 100 - skillLevel, (int) (Math.random() * 100));
 					}
 				}
@@ -79,11 +78,8 @@ public class RandomUser {
 				// SKip this  round.
 			}
 		}
-		//MasterRecommendationsAPI.getRecommendations(userId);
+		
 		System.out.println(userId + " completed execution after " + (System.currentTimeMillis() - start) + " milliseconds");
-		*/
-		System.out.println("RANDOM TAG:  " + RandomValuesAPI.randomTag());
-		System.out.println("RANDOM CONTENT:  " + RandomValuesAPI.randomContent());
 	}
 	
 	
@@ -100,7 +96,7 @@ public class RandomUser {
 	}
 
 	private static String randomNumberOfActions() {
-		return "" + (int) (Math.random() * 5);
+		return "" + (int) (Math.random() * 100);
 	}
 
 	private static String randomIntersts() {
@@ -113,7 +109,8 @@ public class RandomUser {
 			allTags.addAll(TagAPI.getTagsFromString(c.getTags()));
 		}
 		String result = "";
-		for(String tag : allTags){
+		for(int i = 0; i < allTags.size() && i < 10; i++){
+			String tag = allTags.get(i);
 			result = result + "," + tag;
 		}
 		return result.substring(1);

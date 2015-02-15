@@ -7,6 +7,7 @@ import java.util.Set;
 
 import calculus.api.UserPublicInfoAPI;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -17,6 +18,7 @@ import com.google.appengine.api.datastore.KeyFactory;
 public class PhenotypeAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	private static final int phenotypeLength = 10;
 	public static final String DEFAULT_PHENOTYPE = "----------";	
 	
@@ -50,7 +52,7 @@ public class PhenotypeAPI {
 			return datastore.get(key);
 		} catch (EntityNotFoundException e) {
 			Entity result = new Entity (key);
-			result.setProperty("users", new ArrayList<String>());
+			result.setUnindexedProperty("users", new ArrayList<String>());
 			return result;
 		}
 	}
@@ -69,19 +71,22 @@ public class PhenotypeAPI {
 		List<String> users = (List<String>) pEntity.getProperty("users");
 		if (users == null) users = new ArrayList<String>();
 		if (! users.contains(userId)) users.add(userId);
-		pEntity.setProperty("users", users);
-		datastore.put(pEntity);
+		pEntity.setUnindexedProperty("users", users);
+		asyncDatastore.put(pEntity);
 	}
 	
+	// WE WILL ONLY DO THIS IF WE GET A LOT OF USERS. This way, there will be more people in each type, and 
+	// we can still provide suggestions to the uninitiated. 
 	private static void removeUserFromPhenotypeEntity(Entity pEntity, String userId){
-		List<String> users = (List<String>) pEntity.getProperty("users");
-		if (users == null) return;
-		int size = users.size();
-		users.remove(userId);
-		if (users.size() != size){
-			pEntity.setProperty("users", users);
-			datastore.put(pEntity);
-		}	
+		/*
+		 * List<String> users = (List<String>) pEntity.getProperty("users");
+		 * if (users == null) return;
+		 * int size = users.size();
+		 * users.remove(userId);
+		 * if (users.size() != size){
+		 * 		pEntity.setUnindexedProperty("users", users);
+		 * 		datastore.put(pEntity);
+		   }*/	
 	}
 	
 	private static List<String> getUsersWithPhenotype(String phenotype){

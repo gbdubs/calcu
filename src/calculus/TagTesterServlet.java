@@ -25,8 +25,9 @@ public class TagTesterServlet extends HttpServlet {
 		resp.setContentType("text/html");
 		
 		Queue defaultQueue = QueueFactory.getQueue("simulateUserQueue");
-		defaultQueue.add(RandomUser.createNewRandomUser());
-		
+		for(int i = 0; i < 100; i++){
+			defaultQueue.add(RandomUser.createNewRandomUser());
+		}
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/successpage.jsp");
 		jsp.forward(req, resp);
 	}

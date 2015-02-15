@@ -21,7 +21,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 
 public class Content {
 	
-	private static DatastoreService datastoreService = DatastoreServiceFactory.getDatastoreService();
+	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	protected static List<String> FIELDS = new ArrayList<String>();
 	protected static List<String> CONTENT_TYPES = new ArrayList<String>();
 	public static String scrapingUserProfileId = "11481431651082296168";
@@ -46,7 +46,7 @@ public class Content {
 	public Content (String uuid, String contentType) {
 		Key key = KeyFactory.createKey("Content", uuid);
 		try {
-			this.entity = datastoreService.get(key);
+			this.entity = datastore.get(key);
 		} catch (EntityNotFoundException e) {
 			this.entity = new Entity(key);
 			this.entity.setProperty("contentType", contentType);
@@ -55,7 +55,13 @@ public class Content {
 	}
 
 	public Content(String uuid) throws EntityNotFoundException {
-		this(uuid, ContentAPI.getContentType(uuid));
+		Key contentKey = KeyFactory.createKey("Content", uuid);
+		Entity entity = datastore.get(contentKey);		
+		String contentType = (String) entity.getProperty("contentType");
+		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
+		this.entity = entity;
+		this.entity.setProperty("contentType", contentType);
+		this.author = null;
 	}
 
 	public Content(Entity e) {
@@ -65,7 +71,7 @@ public class Content {
 	public void refresh(){
 		Key key = this.entity.getKey();
 		try {
-			this.entity = datastoreService.get(key);
+			this.entity = datastore.get(key);
 		} catch (EntityNotFoundException e) {
 			this.entity = null;
 		}
@@ -75,7 +81,7 @@ public class Content {
 		verifyAcceptableProperty(property);
 		if (entity.getProperty(property) != newValue){
 			entity.setProperty(property, newValue);
-			datastoreService.put(entity);
+			datastore.put(entity);
 		}
 	}
 	
@@ -221,7 +227,7 @@ public class Content {
 	public void incrementKarma(int differential) {
 		long karma = (long) this.entity.getProperty("karma");
 		this.entity.setProperty("karma", karma + differential);
-		datastoreService.put(entity);
+		datastore.put(entity);
 	}
 
 	public boolean getAlreadyRatedByCurrentUser(){
@@ -246,6 +252,6 @@ public class Content {
 		if (answerUuids == null) answerUuids = new ArrayList<String>();
 		answerUuids.add(answerUuid);
 		entity.setUnindexedProperty("allAnswers", answerUuids);
-		datastoreService.put(entity);
+		datastore.put(entity);
 	}
 }

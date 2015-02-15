@@ -70,7 +70,7 @@ public class SkillsAPI {
 			incrementUserSkill(skillsEntity, skillTag, increment);
 			incrementTotalSkill(skillsEntity, skillTag, increment);
 		}
-		skillsEntity.setProperty("updatedAt", System.currentTimeMillis());
+		skillsEntity.setUnindexedProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(skillsEntity);
 	}
 
@@ -80,7 +80,7 @@ public class SkillsAPI {
 			return datastore.get(key);
 		} catch (EntityNotFoundException enfe) {
 			Entity skillsEntity = new Entity(key);
-			skillsEntity.setProperty("skillProgression", 0);
+			skillsEntity.setUnindexedProperty("skillProgression", 0);
 			datastore.put(skillsEntity);
 			return skillsEntity;
 		}
@@ -93,7 +93,7 @@ public class SkillsAPI {
 		if (skillDifficulty > skillProgression){
 			skillProgression += increment * (skillDifficulty - skillProgression);
 		}
-		skillsEntity.setProperty("skillProgression", skillProgression);
+		skillsEntity.setUnindexedProperty("skillProgression", skillProgression);
 	}
 
 	private static void incrementUserSkill(Entity skillsEntity, String tag, float increment){

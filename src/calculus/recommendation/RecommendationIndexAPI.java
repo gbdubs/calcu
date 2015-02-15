@@ -66,7 +66,7 @@ public class RecommendationIndexAPI {
 		
 		setRecommendations(recommendationsEntity, topRecommendedTags);
 		
-		recommendationsEntity.setProperty("updatedAt", System.currentTimeMillis());
+		recommendationsEntity.setUnindexedProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(recommendationsEntity);
 	}
 	

@@ -55,7 +55,8 @@ public class TagAPI {
 		}
 		return getUuidsResultsOfMultipleTags(tagsList, maxNumResults, seed);
 	}
-	
+
+	// Cost = N READ (Where N is the number of Tags)
 	public static List<String> getUuidsResultsOfMultipleTags(List<String> tags, int maxNumResults, int seed){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		List<Future<Entity>> futures = new ArrayList<Future<Entity>>();

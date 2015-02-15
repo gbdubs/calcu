@@ -1,8 +1,10 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import calculus.models.Content;
 
-import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.Cursor;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -30,59 +32,66 @@ public class RandomValuesAPI {
 		return cursorStorage;
 	}
 	
-	
+	// COST: 3 READ, 1 WRITE
 	public static String randomTag() {
-		Entity cursorStorage = getCursorStorage();
-		String cursorString = (String) cursorStorage.getProperty("tagCursor");
-		QueryResultList<Entity> list;
-		if (cursorString == null){
-			Query q = new Query("Tag");
-			PreparedQuery pq = datastore.prepare(q);
-			list = pq.asQueryResultList(FetchOptions.Builder.withLimit(1));
-			Cursor cursor = list.getCursor();
-			cursorString = cursor.toWebSafeString();
-			cursorStorage.setUnindexedProperty("tagCursor", cursorString);
-		} else {
-			Cursor cursor = Cursor.fromWebSafeString(cursorString);
-			Query q = new Query("Tag");
-			PreparedQuery pq = datastore.prepare(q);
-			list = pq.asQueryResultList(FetchOptions.Builder.withLimit(1).startCursor(cursor));
-			Cursor endCursor = list.getCursor();
-			cursorString = endCursor.toWebSafeString();
-			cursorStorage.setUnindexedProperty("tagCursor", cursorString);
-		}
-		datastore.put(cursorStorage);
-		
-		Entity e = list.get(0);
-		String name = (String) e.getProperty("name");
-		return name;
+		List<Entity> entities = getNEntitiesOfType(1, "Tag");
+		return (String) entities.get(0).getProperty("name");
 	}
 	
+	// COST: 2 + N Read, 1 WRITE
+	public static List<String> randomTags(int n) {
+		List<Entity> entities = getNEntitiesOfType(n, "Tag");
+		List<String> result = new ArrayList<String>();
+		for(Entity e : entities){
+			result.add((String) e.getProperty("name"));
+		}
+		return result;
+	}
 	
+	// COST: 3 READ, 1 WRITE
 	public static Content randomContent() {
-		
+		List<Entity> entities = getNEntitiesOfType(1, "Content");
+		return new Content(entities.get(0));
+	}
+
+	// COST: 2 + N READ, 1 WRITE
+	public static List<Content> randomContents(int n) {
+		List<Entity> entities = getNEntitiesOfType(n, "Content");
+		List<Content> result = new ArrayList<Content>();
+		for(Entity e : entities){
+			result.add(new Content(e));
+		}
+		return result;
+	}
+	
+	private static List<Entity> getNEntitiesOfType(int n, String type){
 		Entity cursorStorage = getCursorStorage();
-		String cursorString = (String) cursorStorage.getProperty("contentCursor");
+		String cursorString = (String) cursorStorage.getProperty(type + "Cursor");
 		QueryResultList<Entity> list;
 		if (cursorString == null){
-			Query q = new Query("Content");
+			Query q = new Query(type);
 			PreparedQuery pq = datastore.prepare(q);
-			list = pq.asQueryResultList(FetchOptions.Builder.withLimit(1));
+			list = pq.asQueryResultList(FetchOptions.Builder.withLimit(n));
 			Cursor cursor = list.getCursor();
 			cursorString = cursor.toWebSafeString();
-			cursorStorage.setUnindexedProperty("contentCursor", cursorString);
+			cursorStorage.setUnindexedProperty(type + "cursor", cursorString);
 		} else {
 			Cursor cursor = Cursor.fromWebSafeString(cursorString);
-			Query q = new Query("Content");
+			Query q = new Query(type);
 			PreparedQuery pq = datastore.prepare(q);
-			list = pq.asQueryResultList(FetchOptions.Builder.withLimit(1).startCursor(cursor));
+			list = pq.asQueryResultList(FetchOptions.Builder.withLimit(n).startCursor(cursor));
 			Cursor endCursor = list.getCursor();
+			if (list.size() < n){
+				q = new Query(type);
+				pq = datastore.prepare(q);
+				pq.asQueryResultList(FetchOptions.Builder.withLimit(n));
+				endCursor = list.getCursor();
+			}
 			cursorString = endCursor.toWebSafeString();
-			cursorStorage.setUnindexedProperty("contentCursor", cursorString);
+			cursorStorage.setUnindexedProperty(type + "Cursor", cursorString);
 		}
 		datastore.put(cursorStorage);
 		
-		Entity e = list.get(0);
-		return new Content(e);
+		return list;
 	}
 }

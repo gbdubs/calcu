@@ -94,12 +94,12 @@ public class InterestsAPI {
 		Entity interestProfile = getInterestsEntity(userId);
 		
 		int offset = intValue(interestProfile, "popularTagOffset");
-		interestProfile.setProperty("popularTagOffset", offset + maxResults);
+		interestProfile.setUnindexedProperty("popularTagOffset", offset + maxResults);
 		
 		List<String> popularTags = TagAPI.getPopularTags(maxResults, offset);
 		
 		if (popularTags == null || popularTags.size() < maxResults || offset > 500){
-			interestProfile.setProperty("popularTagOffset", 0);
+			interestProfile.setUnindexedProperty("popularTagOffset", 0);
 		}
 		
 		Map<String, Boolean> seriousInterest = new HashMap<String, Boolean>();
@@ -117,13 +117,14 @@ public class InterestsAPI {
 		return seriousInterest;
 	}
 	
+	// COST: 1 READ, 4 WRITE
 	private static void incrementUserInterests(String userId, List<String> interestTags, float increment){
 		Entity interestsEntity = getInterestsEntity(userId);
 		for (String interestTag : interestTags){
 			incrementUserInterest(interestsEntity, interestTag, increment);
 			incrementTotalInterest(interestsEntity, interestTag, increment);
 		}
-		interestsEntity.setProperty("updatedAt", System.currentTimeMillis());
+		interestsEntity.setUnindexedProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(interestsEntity);
 	}
 
@@ -133,8 +134,7 @@ public class InterestsAPI {
 			return datastore.get(key);
 		} catch (EntityNotFoundException enfe) {
 			Entity interestsEntity = new Entity(key);
-			interestsEntity.setProperty("interestProgression", 0);
-			datastore.put(interestsEntity);
+			interestsEntity.setUnindexedProperty("interestProgression", 0);
 			return interestsEntity;
 		}
 	}
@@ -152,7 +152,7 @@ public class InterestsAPI {
 		if (interestDifficulty > interestProgression){
 			interestProgression += increment * (interestDifficulty - interestProgression);
 		}
-		interestsEntity.setProperty("interestProgression", interestProgression);
+		interestsEntity.setUnindexedProperty("interestProgression", interestProgression);
 	}
 
 	private static void incrementUserInterest(Entity interestsEntity, String tag, float increment){
