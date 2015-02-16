@@ -31,13 +31,14 @@ public class PublicRecommendationAPI {
 			try {
 				Content content = new Content(uuid);
 				String title = content.getTitle();
-			
+				String body = content.getAbbreviatedBody();
+				String karma = content.getKarma();
 				String contentUrl = content.getUrl();
 				String color = ContentAPI.getBoxColor(content.getContentType());
 			
 				int percentage = maxPercentage - i - (content.stableRandom(5) + 2);
 				
-				result.add(new MenuItem(contentUrl, uuid, title, "", "", percentage + "%", color, "", ""));
+				result.add(new MenuItem(contentUrl, uuid, title, body, "", percentage + "%", color, "", ""));
 			} catch (EntityNotFoundException e) {
 				// Don't worry, don't include. Skip
 			}

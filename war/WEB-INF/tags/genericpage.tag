@@ -168,9 +168,9 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="pages/progress.html">
+                    <a href="/recommendations">
                         <i class="fa fa-fw fa-tasks"></i>
-                        <span>Progress</span>
+                        <span>Recommendations</span>
                     </a>
                 </li>
                 <li>

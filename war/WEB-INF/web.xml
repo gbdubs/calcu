@@ -209,6 +209,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/remove-notification</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>RecommendationsServlet</servlet-name>
+		<servlet-class>calculus.general.RecommendationsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RecommendationsServlet</servlet-name>
+		<url-pattern>/recommendations</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>LivePreviewServlet</servlet-name>

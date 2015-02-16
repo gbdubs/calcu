@@ -4134,4 +4134,50 @@ a.btn.btn-warning.live-preview-return-button{
 	display: inline-block;
 }
 
+.alert.alert-recommendation{
+	margin: 10px 10px 30px 15px;
+	padding: 20px 15px 15px 15px;
+}
+
+.alert.alert-recommendation > i.hide-button {
+	position: absolute;
+	right: 50px;
+	left: auto;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.alert.alert-recommendation > i.disinterested-button {
+	position: absolute;
+	right: 10px;
+	left: auto;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.alert.alert-recommendation > i.toggle-bookmark-button {
+	position: absolute;
+	left: auto;
+	right: 90px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.alert.alert-recommendation:hover > i.toggle-bookmark-button {
+	border: none;
+	background: #f39c12;
+	color: white;
+}
+
+.alert.alert-recommendation:hover > i.hide-button {
+	border: none;
+	background: #3c8dbc;
+	color: white;
+}
+
+.alert.alert-recommendation:hover > i.disinterested-button {
+	border: none;
+	background: #f56954;
+	color: white;
+}
 }

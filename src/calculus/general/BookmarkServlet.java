@@ -30,6 +30,5 @@ public class BookmarkServlet extends HttpServlet{
 		} else if (action.equals("remove")){
 			BookmarksAPI.deleteBookmarkForUser(contentUuid, userId);
 		}
-		
 	}
 }
