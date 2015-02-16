@@ -21,7 +21,7 @@ $(function() {
 	
 	$(".toggle-bookmark-button").click(toggleBookmarkButton);
 	
-	var hideContent = function(){
+	var actionContent = function(){
     	var userId = $(this).data("user");
 		var content = $(this).data("content");
 		var action = $(this).data("action");
@@ -37,9 +37,25 @@ $(function() {
     	$(this).parent(".alert").fadeOut(1500, function() { $(this).remove(); });
     };
 	
-    $(".disinterested-button").click(hideContent);
-    $(".hide-recommendation-button").click(hideContent);
+    $(".disinterested-button").click(actionContent);
+    $(".hide-recommendation-button").click(actionContent);
 
+    var showAll = function (){
+    	var userId = $(this).data("user");
+		var action = $(this).data("action");
+		
+    	$.ajax({
+			type: "POST",
+			url: "/recommendations",
+			data: "userId="+userId+"&action="+action
+		});
+    	
+    	$(this).addClass('disabled');
+    	$(this).text('All Recommendations Unhidden');
+    };
+    
+    $(".show-all-recommendations").click(showAll);
+    
     $(".search-result-page").each(function(){
     	var parent = $(this).parent(".box-body");
     	var id = "#" + $(this).attr("id");

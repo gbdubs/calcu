@@ -44,11 +44,11 @@ public class RecommendationsServlet extends HttpServlet{
 		
 		if (action.equals("hide")){
 			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
-			System.out.println("CASE 1");
 		} else if (action.equals("disinterested")){
 			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
 			InterestsAPI.userFoundContentDisinteresting(userId, contentUuid);
-			System.out.println("CASE 2");
+		} else if (action.equals("showAll")){
+			PublicRecommendationAPI.resetHiddenRecommendations(userId);
 		}
 	}
 }

@@ -43,7 +43,7 @@
 					<div class="search-result-page" id="rec-result-page-1">
 					<c:forEach items="${recommendationsMenu}" var="rec" varStatus="loop">
 						
-						<c:if test="${loop.index % 5 == 0 && loop.index > 0}">
+						<c:if test="${loop.index % 10 == 0 && loop.index > 0}">
 							</div>
 							<c:set var="numPages" value="${numPages + 1}"/>
 							<div class="search-result-page hidden" id="rec-result-page-${numPages}">
@@ -81,6 +81,7 @@
 					
 					<c:if test="${numPages > 1}">
 						<div class="overflower">
+							<button class="btn btn-success pull-left show-all-recommendations" data-action="showAll" data-user="${user.userId}">Unhide All Hidden Recommendations</button>
 							<div class="btn-group no-margin pull-right">
 								<c:forEach begin="1" end="${numPages}" var="i">
 									<button class="result-page-tab btn btn-success" id="rec-result-page-${i}-tab">${i}</button>

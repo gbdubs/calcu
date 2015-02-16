@@ -44,7 +44,6 @@ public class MasterRecommendationsAPI {
 	}
 	
 	protected static void hideRecommendation(String userId, String contentUuid){
-		System.out.println("HERE WITH CONTENT" + contentUuid);
 		Entity e = getRecommendationsEntity(userId);
 		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
 		if (hidden == null) hidden = new ArrayList<String>();
@@ -75,8 +74,8 @@ public class MasterRecommendationsAPI {
 
 	protected static void clearHidden(String userId) {
 		Entity e = getRecommendationsEntity(userId);
-		if (e.getProperty("hidden") == null) return;
-		e.setUnindexedProperty("hidden", new ArrayList<String>());
+		if (e.getProperty("hiddenRecommendations") == null) return;
+		e.setUnindexedProperty("hiddenRecommendations", new ArrayList<String>());
 		asyncDatastore.put(e);
 	}
 

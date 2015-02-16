@@ -27,6 +27,6 @@
 		</ul>
 	</li>
 	<li class="footer">
-		<a href="${profileUrl}#recommendations">View All Recommendations</a>
+		<a href="/recommendations">View All Recommendations</a>
 	</li>
 </ul>
