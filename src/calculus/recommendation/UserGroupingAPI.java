@@ -11,7 +11,7 @@ import calculus.api.BookmarksAPI;
 
 public class UserGroupingAPI {
 	
-	public static List<String> getPhenotypeRecommendationsForUser(String userId){
+	protected static List<String> getPhenotypeRecommendationsForUser(String userId){
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 10);
 		List<String> otherUsersBookmarks = getUsersBookmarks(similarUsers);
 		return otherUsersBookmarks;

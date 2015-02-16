@@ -6,7 +6,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 
 public class DifferentiatingContent {
-	public static Map<String, String> getContentDefinition(int i){
+	private static Map<String, String> getContentDefinition(int i){
 		Map<String, String> contentDefinition = new HashMap<String, String>();
 		
 		String char1 = "a";

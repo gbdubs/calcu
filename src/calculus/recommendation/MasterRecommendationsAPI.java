@@ -1,18 +1,14 @@
 package calculus.recommendation;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import calculus.api.BookmarksAPI;
-import calculus.api.PracticeProblemAPI;
-import calculus.api.QuestionAPI;
 import calculus.api.TagAPI;
-import calculus.models.PracticeProblem;
-import calculus.models.Question;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -27,6 +23,7 @@ import com.google.appengine.api.datastore.Query.SortDirection;
 public class MasterRecommendationsAPI {
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	// Havent' figured out how to integrate responsive programming in to this API, but I know it will be here somewhere...
 	// private static final float randomProportion = (float) .10;
@@ -36,13 +33,59 @@ public class MasterRecommendationsAPI {
 	
 	private static final long updateInterval = 1000 * 60 * 60 * 24; // 1 Day
 	
-	public static List<String> getRecommendations(String userId){
+	protected static List<String> getRecommendations(String userId){
+		Entity e = getRecommendationsEntity(userId);
+		List<String> recs = (List<String>) e.getProperty("recommendations");
+		if (recs == null) recs = new ArrayList<String>();
+		List<String> hidden = (List<String>) e.getProperty("hidden");
+		if (hidden == null) hidden = new ArrayList<String>();
+		recs.removeAll(hidden);
+		return recs;
+	}
+	
+	protected static void removeRecommendation(String userId, String contentUuid){
+		Entity e = getRecommendationsEntity(userId);
+		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
+		if (hidden == null) hidden = new ArrayList<String>();
+		hidden.add(contentUuid);
+		e.setProperty("hiddenRecommendations", hidden);
+		asyncDatastore.put(e);
+	}
+
+	protected static List<String> refreshRecommendations(String userId){
+		Entity e = refreshRecommendationsEntity(userId);
+		List<String> recs = (List<String>) e.getProperty("recommendations");
+		if (recs == null) recs = new ArrayList<String>();
+		List<String> hidden = (List<String>) e.getProperty("hidden");
+		if (hidden == null) hidden = new ArrayList<String>();
+		recs.removeAll(hidden);
+		return recs;
+	}
+	
+	protected static List<String> getUsersInNeedOfRecalculation(int numToCalc) {
+		Query q = new Query("Recommendations").addSort("updatedAt", SortDirection.ASCENDING);
+		PreparedQuery newPQ = datastore.prepare(q);
+		List<String> users = new ArrayList<String>();
+		for(Entity e : newPQ.asIterable(FetchOptions.Builder.withLimit(numToCalc))){
+			users.add((String) e.getKey().getName());
+		}
+		return users;
+	}
+
+	protected static void clearHidden(String userId) {
+		Entity e = getRecommendationsEntity(userId);
+		if (e.getProperty("hidden") == null) return;
+		e.setUnindexedProperty("hidden", new ArrayList<String>());
+		asyncDatastore.put(e);
+	}
+
+	private static Entity getRecommendationsEntity(String userId){
 		Key key = KeyFactory.createKey("Recommendations", userId);
 		Entity e;
 		try {
 			e = datastore.get(key);
 		} catch (EntityNotFoundException enfe) {
-			List<String> refreshedRecommendations = refreshRecommendations(userId);
+			Entity refreshedRecommendations = refreshRecommendationsEntity(userId);
 			return refreshedRecommendations;
 		}
 		Long lastUpdated = (Long) e.getProperty("updatedAt");
@@ -50,20 +93,16 @@ public class MasterRecommendationsAPI {
 		
 		long sinceLastUpdate = System.currentTimeMillis() - lastUpdated;
 		if (sinceLastUpdate > updateInterval){
-			List<String> refreshedRecommendations = refreshRecommendations(userId);
+			Entity refreshedRecommendations = refreshRecommendationsEntity(userId);
 			return refreshedRecommendations;
 		} else {
-			List<String> recs = (List<String>) e.getProperty("recommendations");
-			if (recs == null) recs = new ArrayList<String>();
-			return recs;
+			return e;
 		}	
 	}
 
-	public static List<String> refreshRecommendations(String userId){
+	private static Entity refreshRecommendationsEntity(String userId){
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
-		System.out.println("Checkpoint 1");
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
-		System.out.println("Checkpoint 2");
 		for(String similarUser : similarUsers){
 			List<String> bookmarks = BookmarksAPI.getUserBookmarks(similarUser);
 			List<String> wellRated = HelpfulContentAPI.getHelpfulContent(similarUser);
@@ -74,7 +113,6 @@ public class MasterRecommendationsAPI {
 				increment(mapping, wr);
 			}
 		}
-		System.out.println("Checkpoint 3");
 		
 		List<String> tags = RecommendationIndexAPI.getRecommendedTags(userId, 20);
 		List<String> contentFromTags = TagAPI.getUuidsResultsOfMultipleTags(tags, 50, 0);
@@ -90,10 +128,10 @@ public class MasterRecommendationsAPI {
 		e.setProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(e);
 		
-		return refreshedRecommendations;
+		return e;
 	}
 	
-	public static void increment(Map<String, Integer> map, String s) {
+	private static void increment(Map<String, Integer> map, String s) {
 		if (map.containsKey(s)) {
 			map.put(s, map.get(s) + 1);
 		} else {
@@ -101,19 +139,6 @@ public class MasterRecommendationsAPI {
 		}
 	}
 
-	public static PracticeProblem getDifficultyCalibrationPracticeProblem(String userId) {
-		return PracticeProblemAPI.getAnswerablePracticeProblem(userId);
-	}
-	
-	public static Question getDifficultyCalibrationQuestion(String userId) {
-		return QuestionAPI.getAnswerableQuestion(userId);
-	}
-
-	public static void andComparisonInformation(String userId, String preference, String[] allUuids) {
-		System.out.println("User ["+userId+"] chose content ["+preference+"] out of the possibilities ["+Arrays.toString(allUuids)+"].");
-		
-	}
-	
 	private static List<String> getDecendingListFromCountMap(Map<String, Integer> mapping){
 		List<String> result = new ArrayList<String>();
 		for(String str : mapping.keySet()){
@@ -125,15 +150,5 @@ public class MasterRecommendationsAPI {
 			result.add(i, str);
 		}
 		return result;
-	}
-
-	public static List<String> getUsersInNeedOfRecalculation(int numToCalc) {
-		Query q = new Query("Recommendations").addSort("updatedAt", SortDirection.ASCENDING);
-		PreparedQuery newPQ = datastore.prepare(q);
-		List<String> users = new ArrayList<String>();
-		for(Entity e : newPQ.asIterable(FetchOptions.Builder.withLimit(numToCalc))){
-			users.add((String) e.getKey().getName());
-		}
-		return users;
 	}
 }

@@ -24,7 +24,7 @@ public class PhenotypeAPI {
 	private static final int phenotypeLength = 10;
 	public static final String DEFAULT_PHENOTYPE = "----------";	
 	
-	public static List<String> getSimilarUsers(String userId, int n) {
+	protected static List<String> getSimilarUsers(String userId, int n) {
 		String phenotype = UserPublicInfoAPI.getPhenotype(userId);
 		
 		List<String> randomPhenotypes = RandomValuesAPI.getRandomPhenotypes(n * 4);

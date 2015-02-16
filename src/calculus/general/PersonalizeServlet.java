@@ -18,8 +18,8 @@ import calculus.models.Question;
 import calculus.models.TextContent;
 import calculus.recommendation.DifferentiatingContent;
 import calculus.recommendation.InterestsAPI;
-import calculus.recommendation.MasterRecommendationsAPI;
 import calculus.recommendation.PhenotypeAPI;
+import calculus.recommendation.PublicRecommendationAPI;
 import calculus.recommendation.SkillsAPI;
 
 import com.google.appengine.api.users.User;
@@ -69,7 +69,7 @@ public class PersonalizeServlet extends HttpServlet {
 			return;
 		} else if (stepNumber % 3 == 0 && stepNumber != 12) {
 			// Difficulty Calibration Practice Problem
-			PracticeProblem pp = MasterRecommendationsAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
+			PracticeProblem pp = PublicRecommendationAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
 			req.setAttribute("practiceProblem", pp);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");	
@@ -77,7 +77,7 @@ public class PersonalizeServlet extends HttpServlet {
 			return;
 		} else if (stepNumber == 12) {
 			// Difficulty Calibration Question
-			Question q = MasterRecommendationsAPI.getDifficultyCalibrationQuestion(user.getUserId());
+			Question q = PublicRecommendationAPI.getDifficultyCalibrationQuestion(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
 			req.setAttribute("question", q);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	

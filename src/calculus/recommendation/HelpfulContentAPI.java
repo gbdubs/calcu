@@ -24,7 +24,7 @@ public class HelpfulContentAPI {
 		}
 	}
 
-	public static List<String> getHelpfulContent(String userId) {
+	protected static List<String> getHelpfulContent(String userId) {
 		return getHelpfulContent(getHelpfulContentEntity(userId));	
 	}
 

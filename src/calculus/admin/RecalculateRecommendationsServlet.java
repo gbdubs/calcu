@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserPublicInfoAPI;
 import calculus.recommendation.MasterRecommendationsAPI;
+import calculus.recommendation.PublicRecommendationAPI;
 
 import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
@@ -28,7 +29,7 @@ public class RecalculateRecommendationsServlet extends HttpServlet {
 		if (userString.startsWith("FIRST ")) {
 			userString = userString.substring(6);
 			int numToCalc = Integer.parseInt(userString);
-			List<String> toCalc = MasterRecommendationsAPI.getUsersInNeedOfRecalculation(numToCalc);
+			List<String> toCalc = PublicRecommendationAPI.getUsersInNeedOfRecalculation(numToCalc);
 			for(String userId : toCalc){
 				queue.addAsync(updateRecommendationsForUser(userId));
 			}

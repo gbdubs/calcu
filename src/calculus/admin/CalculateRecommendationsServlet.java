@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.appengine.api.users.UserServiceFactory;
 
 import calculus.recommendation.MasterRecommendationsAPI;
+import calculus.recommendation.PublicRecommendationAPI;
 
 @SuppressWarnings("serial")
 public class CalculateRecommendationsServlet extends HttpServlet {
@@ -16,7 +17,7 @@ public class CalculateRecommendationsServlet extends HttpServlet {
 		long start = System.currentTimeMillis();
 		String userId = (String) req.getParameter("userId");
 		if (userId != null){
-			MasterRecommendationsAPI.refreshRecommendations(userId);
+			PublicRecommendationAPI.refreshRecommendations(userId);
 		}
 		System.out.println("Recalculated Recommendations For " + userId + " in " + (System.currentTimeMillis() - start) + " milliseconds.");
 	}

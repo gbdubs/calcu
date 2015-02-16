@@ -18,7 +18,7 @@ public class RecommendationIndexAPI {
 	private static final String recommendationsTagsKey = "l9fm20vjm3ufd9m3jd09jsidmwh9emdiwk2j3hjd";
 	
 	
-	public static List<String> getRecommendedTags(String userId, int n){
+	protected static List<String> getRecommendedTags(String userId, int n){
 		Entity recommendationsEntity = getRecommendationsEntity(userId);
 		List<String> tags = getRecommendations(recommendationsEntity);
 		if (tags.size() < n){
@@ -31,7 +31,7 @@ public class RecommendationIndexAPI {
 		return result;
 	}
 
-	public static void updateUserRecommendations(String userId){
+	protected static void updateUserRecommendations(String userId){
 		Entity recommendationsEntity = getRecommendationsEntity(userId);
 		Entity interestsEntity = InterestsAPI.getInterestsEntity(userId);
 		Entity skillsEntity = SkillsAPI.getSkillsEntity(userId);
