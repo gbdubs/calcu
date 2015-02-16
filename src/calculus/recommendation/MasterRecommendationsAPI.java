@@ -37,13 +37,14 @@ public class MasterRecommendationsAPI {
 		Entity e = getRecommendationsEntity(userId);
 		List<String> recs = (List<String>) e.getProperty("recommendations");
 		if (recs == null) recs = new ArrayList<String>();
-		List<String> hidden = (List<String>) e.getProperty("hidden");
+		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
 		if (hidden == null) hidden = new ArrayList<String>();
 		recs.removeAll(hidden);
 		return recs;
 	}
 	
-	protected static void removeRecommendation(String userId, String contentUuid){
+	protected static void hideRecommendation(String userId, String contentUuid){
+		System.out.println("HERE WITH CONTENT" + contentUuid);
 		Entity e = getRecommendationsEntity(userId);
 		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
 		if (hidden == null) hidden = new ArrayList<String>();
@@ -56,7 +57,7 @@ public class MasterRecommendationsAPI {
 		Entity e = refreshRecommendationsEntity(userId);
 		List<String> recs = (List<String>) e.getProperty("recommendations");
 		if (recs == null) recs = new ArrayList<String>();
-		List<String> hidden = (List<String>) e.getProperty("hidden");
+		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
 		if (hidden == null) hidden = new ArrayList<String>();
 		recs.removeAll(hidden);
 		return recs;

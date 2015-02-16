@@ -9,8 +9,8 @@
 
 	<jsp:attribute name="content">
 		
-		<div class="box box-danger box-solid">
-			<div class="box-header">
+		<div class="box box-solid">
+			<div class="box-header bg-olive">
 				<i class="fa fa-tasks"></i>
 				<h3 class="box-title">Recommendations</h3>
 			</div>
@@ -66,23 +66,26 @@
 							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<i type="button" class="toggle-bookmark-buttonfa fa-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}"></i>
+									<i type="button" class="toggle-bookmark-button fa fa-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}"></i>
 								</c:when>
 								<c:otherwise>
 									<i type="button" class="toggle-bookmark-button fa fa-bookmark-o" data-action="add" data-user="${user.userId}" data-content="${rec.uuid}"></i>
 								</c:otherwise>
 							</c:choose>
 							
-							<i type="button" class="disinterested-button fa fa-thumbs-down" data-action="dislike" data-user="${user.userId}" data-content="${rec.uuid}"></i>
-							<i type="button" class="hide-button fa fa-eye-slash" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}"></i>
+							<i type="button" class="disinterested-button fa fa-thumbs-o-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}"></i>
+							<i type="button" class="hide-recommendation-button fa fa-eye-slash" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}"></i>
 						</div>
 					</c:forEach>
 					</div>
+					
 					<c:if test="${numPages > 1}">
-						<div class="btn-group no-margin">
-							<c:forEach begin="1" end="${numPages}" var="i">
-								<button class="result-page-tab btn btn-primary" id="q-result-page-${i}-tab">${i}</button>
-							</c:forEach>
+						<div class="overflower">
+							<div class="btn-group no-margin pull-right">
+								<c:forEach begin="1" end="${numPages}" var="i">
+									<button class="result-page-tab btn btn-success" id="rec-result-page-${i}-tab">${i}</button>
+								</c:forEach>
+							</div>
 						</div>
 					</c:if>
 				</div>
@@ -90,6 +93,6 @@
 		</div>
 	</jsp:attribute>
 	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/personalize-interests.js"></script>
+		<script src="/_static/js/CalcU/recommendations.js"></script>
 	</jsp:attribute>
 </t:genericpage>

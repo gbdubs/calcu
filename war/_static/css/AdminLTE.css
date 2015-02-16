@@ -4139,7 +4139,7 @@ a.btn.btn-warning.live-preview-return-button{
 	padding: 20px 15px 15px 15px;
 }
 
-.alert.alert-recommendation > i.hide-button {
+.alert.alert-recommendation > i.hide-recommendation-button {
 	position: absolute;
 	right: 50px;
 	left: auto;
@@ -4163,18 +4163,21 @@ a.btn.btn-warning.live-preview-return-button{
 	cursor: pointer;
 }
 
+i.toggle-bookmark-button.hovered,
 .alert.alert-recommendation:hover > i.toggle-bookmark-button {
 	border: none;
 	background: #f39c12;
 	color: white;
 }
 
-.alert.alert-recommendation:hover > i.hide-button {
+i.hide-recommendation-button.hovered,
+.alert.alert-recommendation:hover > i.hide-recommendation-button {
 	border: none;
 	background: #3c8dbc;
 	color: white;
 }
 
+ i.disinterested-button.hovered, 
 .alert.alert-recommendation:hover > i.disinterested-button {
 	border: none;
 	background: #f56954;

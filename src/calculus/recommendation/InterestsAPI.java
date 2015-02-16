@@ -23,6 +23,7 @@ public class InterestsAPI {
 	private static final float userAnsweredContentIncrement = (float) .1;
 	private static final float userTagCalibrationIncrement = (float) 1;
 	private static final float userSearchedForTagIncrement = (float) .5;
+	private static final float userFoundContentDisinteresting = (float) -.2;
 	private static final float userBookmarkedContentIncrement = (float) .3;
 	private static final int seriousInterestThresholdValue = 6;
 	
@@ -50,6 +51,19 @@ public class InterestsAPI {
 		List<String> contentTags = c.getListOfTags();
 		
 		incrementUserInterests(userId, contentTags, userRatedContentIncrement);
+	}
+	
+	public static void userFoundContentDisinteresting(String userId, String contentUuid){
+		Content c;
+		try {
+			c = new Content(contentUuid);
+		} catch (EntityNotFoundException e) {
+			// If the entity didn't exist, we shouldn't change the interests profile
+			return;
+		}
+		List<String> contentTags = c.getListOfTags();
+		
+		incrementUserInterests(userId, contentTags, userFoundContentDisinteresting);
 	}
 	
 	public static void userAnsweredContent(String userId, String contentUuid){

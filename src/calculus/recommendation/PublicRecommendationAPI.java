@@ -47,7 +47,7 @@ public class PublicRecommendationAPI {
 	}
 	
 	public static void dismissRecommendation(String userId, String contentUuid){
-		MasterRecommendationsAPI.removeRecommendation(userId, contentUuid);
+		MasterRecommendationsAPI.hideRecommendation(userId, contentUuid);
 	}
 	
 	public static void resetHiddenRecommendations(String userId){

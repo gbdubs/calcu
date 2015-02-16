@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
+import calculus.recommendation.InterestsAPI;
+import calculus.recommendation.PublicRecommendationAPI;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -36,6 +38,17 @@ public class RecommendationsServlet extends HttpServlet{
 	
 	@Override
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		String userId = req.getParameter("userId");
+		String contentUuid = req.getParameter("contentUuid");
+		String action = req.getParameter("action");
 		
+		if (action.equals("hide")){
+			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
+			System.out.println("CASE 1");
+		} else if (action.equals("disinterested")){
+			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
+			InterestsAPI.userFoundContentDisinteresting(userId, contentUuid);
+			System.out.println("CASE 2");
+		}
 	}
 }

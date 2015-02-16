@@ -1,14 +1,5 @@
 $(function() {
-    "use strict";
-
-    $("#tags-input").tagsInput({
-    	'width': '100%',
-    	'height': 'auto',
-    	'defaultText': 'Type Tags Here',
-    	'removeWithBackspace': true,
-    });
-    
-    var toggleBookmarkButton = function(){
+	var toggleBookmarkButton = function(){
     	var userId = $(this).data("user");
 		var content = $(this).data("content");
 		var action = $(this).data("action");
@@ -21,15 +12,34 @@ $(function() {
     	
     	if (action === "add") {
     		$(this).data("action","remove");
-    		$('i', this).removeClass("fa-bookmark-o").addClass("fa-bookmark");
+    		$(this).removeClass("fa-bookmark-o").addClass("fa-bookmark");
     	} else {
     		$(this).data("action","add");
-    		$('i', this).removeClass("fa-bookmark").addClass("fa-bookmark-o");
+    		$(this).removeClass("fa-bookmark").addClass("fa-bookmark-o");
     	}
     };
 	
 	$(".toggle-bookmark-button").click(toggleBookmarkButton);
-    
+	
+	var hideContent = function(){
+    	var userId = $(this).data("user");
+		var content = $(this).data("content");
+		var action = $(this).data("action");
+		
+    	$.ajax({
+			type: "POST",
+			url: "/recommendations",
+			data: "userId="+userId+"&contentUuid="+content+"&action="+action
+		});
+    	
+    	$(this).addClass('hovered');
+    	
+    	$(this).parent(".alert").fadeOut(1500, function() { $(this).remove(); });
+    };
+	
+    $(".disinterested-button").click(hideContent);
+    $(".hide-recommendation-button").click(hideContent);
+
     $(".search-result-page").each(function(){
     	var parent = $(this).parent(".box-body");
     	var id = "#" + $(this).attr("id");
@@ -45,5 +55,5 @@ $(function() {
     		$(this).addClass("selected");
     	});
     });
-    
+
 });
