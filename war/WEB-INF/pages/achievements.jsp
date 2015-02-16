@@ -33,7 +33,15 @@
 					<li>Answer questions in Turbo Mode gets you an additional karma boost of <b>between 1 and 10</b> Karma immediately.
 					<li>If your answer becomes an "approved answer", you get an additional <b>10</b> Karma immediately.</li>
 				</ul>
+				<c:if test="${user == null}">
+					<p> 
+						<b>BUT!</b> we can only give you Karma when you are logged in! 
+					</p>
+					<button class="btn btn-block btn-success login-button">Log In!</button>
+				</c:if>
 			</div>
+			
+			
 		</div>
 		
 		<div class="box box-solid bg-black-gradient">
