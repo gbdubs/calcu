@@ -7,6 +7,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Content;
+import calculus.recommendation.PublicRecommendationAPI;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.MenuItem;
 
@@ -41,7 +42,7 @@ public class UserContextAPI {
 		addUserPublicInfoToRequest(req, user);
 		BookmarksAPI.addUserBookmarksToRequest(req, user);
 		NotificationsAPI.addUserNotificationsToRequest(req, user);
-		addUserRecommendationsToRequest(req, user);
+		PublicRecommendationAPI.addUserRecommendationsToRequest(req, user);
 	}
 	
 	private static void addUserPublicInfoToRequest(HttpServletRequest req, User user){
@@ -73,26 +74,6 @@ public class UserContextAPI {
 		int upperThreshold = KarmaAPI.getKarmaThresholdForLevel(level + 1);
 		int lowerThreshold = KarmaAPI.getKarmaThresholdForLevel(level);
 		req.setAttribute("progressThroughLevel", 100 * (karma - lowerThreshold)/(upperThreshold-lowerThreshold));
-	}
-	
-	private static void addUserRecommendationsToRequest(HttpServletRequest req, User user){
-		
-		MenuItem[] recommendations;
-		
-		if (user != null){
-			recommendations = new MenuItem[4];
-			recommendations[0] = new MenuItem("#", "", "Integration by Parts", "", "", "80%", "aqua", "", "");
-			recommendations[1] = new MenuItem("#", "", "Fourier Series + Boundary Values", "", "", "30%", "yellow", "", "");
-			recommendations[2] = new MenuItem("#", "", "Integration of Exponentials", "", "", "50%", "green", "", "");
-			recommendations[3] = new MenuItem("#", "", "Taylor Series Polynomials", "", "", "20%", "red", "", "");
-		} else {
-			recommendations = new MenuItem[4];
-			recommendations[0] = new MenuItem("#", "", "Using Big Data, we suggest", "", "", "80%", "aqua", "", "");
-			recommendations[1] = new MenuItem("#", "", "Content for you to check out.", "", "", "30%", "yellow", "", "");
-			recommendations[2] = new MenuItem("#", "", "We deduce your knowledge and needs", "", "", "50%", "green", "", "");
-			recommendations[3] = new MenuItem("#", "", "And direct you to the best resources!", "", "", "20%", "red", "", "");
-		}
-		req.setAttribute("recommendationsMenu", recommendations);
 	}
 
 	public static void addPublicProfileInformationToRequest(HttpServletRequest req, String userId){

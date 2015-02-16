@@ -206,6 +206,14 @@ public class Content {
 		return this.entity.toString();
 	}
 	
+	public int stableRandom(int modulo){
+		Long l = (Long) entity.getProperty("createdAt");
+		if (l == null){
+			return 0;
+		}
+		return (int) (l % modulo);
+	}
+	
 	public String getBoxColor(){
 		String contentType = (String) entity.getProperty("contentType");
 		return ContentAPI.getBoxColor(contentType);
