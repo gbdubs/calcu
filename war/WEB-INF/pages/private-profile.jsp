@@ -126,6 +126,13 @@
 				</div>
 			</div>
 			<div class="box-body padding-20">
+				<p>
+					You are currently at Level ${userLevel}. In order to reach Level ${userLevel + 1}, you will need to get to ${5 * (userLevel * (userLevel - 1))} karma. 
+					
+					To find out more about how the karma system works, and the different leveling thresholds, visit the <a href="/tutorial">Tutorial Page</a>.
+					
+					Displayed below is your "karma breakdown", showing how you have earned Karma by using the site.
+				</p>
 				<jsp:include page="/WEB-INF/templates/karma-profile.jsp" />
 			</div>
 		</div>

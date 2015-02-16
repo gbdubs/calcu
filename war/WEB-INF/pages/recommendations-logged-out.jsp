@@ -8,7 +8,6 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		
 		<div class="box box-solid">
 			<div class="box-header bg-olive">
 				<i class="fa fa-tasks"></i>
@@ -40,8 +39,5 @@
 				<button class="btn btn-block btn-success login-button">Log In</button>
 			</div>
 		</div>
-	</jsp:attribute>
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/recommendations.js"></script>
 	</jsp:attribute>
 </t:genericpage>

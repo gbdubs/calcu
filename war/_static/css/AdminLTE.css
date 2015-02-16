@@ -4183,4 +4183,8 @@ i.hide-recommendation-button.hovered,
 	background: #f56954;
 	color: white;
 }
+
+.margin-10-list > li {
+	margin: 10px 0;
+}
 }

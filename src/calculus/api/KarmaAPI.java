@@ -27,10 +27,7 @@ public class KarmaAPI {
 	}
 	
 	public static int getKarmaThresholdForLevel(int level){
-		int karma = 0;
-		for(int i = 1; i < level; i++){
-			karma += i * 10;
-		}
+		int karma = 5 * (level * (level - 1));
 		return karma;
 	}
 	

@@ -124,6 +124,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/tutorial">
+                        <i class="fa fa-fw fa-university"></i>
+                        <span>Tutorial</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/search">
                         <i class="fa fa-fw fa-search"></i>
                         <span>Search</span>
@@ -177,12 +183,6 @@
                     <a href="/achievements">
                         <i class="fa fa-fw fa-trophy"></i>
                         <span>Achievements</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="pages/tutorials.html">
-                        <i class="fa fa-fw fa-university"></i>
-                        <span>Tutorials</span>
                     </a>
                 </li>
                 <li>
