@@ -58,7 +58,7 @@
 						to understand the way that you think. We would recommend that you try to be logged in whenever you use CalcU, and you don't need
 						to create an account or password or anything, just sign in with any google account!
 					</p>
-					<button class="btn btn-block btn-success login-button">Log In</button>
+					<button class="btn btn-block btn-primary login-button">Log In</button>
 				</c:if>
 			</div>
 		</div>
@@ -87,6 +87,74 @@
 						<b>BUT!</b> we can only give you Karma when you are logged in! 
 					</p>
 					<button class="btn btn-block btn-success login-button">Log In!</button>
+				</c:if>
+			</div>
+		</div>
+		
+		<div class="box box-solid" id="level-explanation">
+			<div class="box-header bg-purple">
+				<i class="fa fa-level-up"></i>
+				<h3 class="box-title">Leveling Up!</h3>
+			</div>
+			<div class="box-body">
+				<p>
+					One thing that higher Karma gets you is higher levels! When you reach certain levels of karma, you will be sent a notification
+					that informs you that you are a higher level.  Other users can see your level, and it is a good indication of how long someone
+					has been using the site. The first few levels are given below. Can you figure out the formula for them?
+				</p>
+				<ul>
+					<li> 0 Karma --> Level 1</li>
+					<li> 10 Karma --> Level 2</li>
+					<li> 30 Karma --> Level 3</li>
+					<li> 60 Karma --> Level 4</li>
+					<li> 100 Karma --> Level 5</li>
+					<li> How many Karma do you need for Level 100?</li>
+				</ul>
+				<p>
+					Certain levels come with... powers. We will leave it at that, but just know that the more you contribute, the more we want to thank you.
+					You will receive notifications about what these are when you get them.
+				</p>
+				<c:if test="${user == null}">
+					<p> 
+						<b>BUT!</b> we can only give you Karma (and subsequently level up) when you are logged in! 
+					</p>
+					<button class="btn btn-block bg-purple login-button">Log In!</button>
+				</c:if>
+			</div>
+		</div>
+		
+		<div class="box box-solid" id="level-explanation">
+			<div class="box-header bg-yellow">
+				<i class="fa fa-trophy"></i>
+				<h3 class="box-title">Achievements</h3>
+			</div>
+			<div class="box-body">
+				<p>
+					Additionally, we have hidden some achievements across the site, which vary from the serious to the absurd. You can view all achievements,
+					and what they require for completion, on the Achievements Page. When you receive an achievement, you will be notified in the notifications
+					menu. The Achievements that you have completed will be bolded, shown glowing like a beacon, while those that you haven't yet accomplished
+					will be incomplete and dim.
+				</p>
+				<p>
+					Some basic achievements include: 
+					<ul>
+						<li> Create five pieces of Content</li>
+						<li> Answer ten questions</li>
+						<li> Answer a question that gets more karma than the question itself did</li>
+						<li> Be VERY interested in a word or phrase</li>
+						<li> Reach a level greater than the length of your username</li>
+						<li> Complete the personalization processes five times</li>
+						<li> Have a post which gets more Karma than it is long </li>
+						<li> Create three pieces of content which contain LaTex formatting</li>
+						<li> Create three pieces of content which use HTML formatting </li>
+						<li> Reach a streak of 5, 10, 20, or 42 in either Answer Mode</li>
+					</ul>
+				</p>
+				<c:if test="${user == null}">
+					<p> 
+						<b>BUT!</b> None of your progress will be recorded unless you are logged in! 
+					</p>
+					<button class="btn btn-block bg-yellow login-button">Log In!</button>
 				</c:if>
 			</div>
 		</div>
