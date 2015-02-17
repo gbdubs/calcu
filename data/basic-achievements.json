@@ -3,7 +3,7 @@
     "icon": "fa-search",
     "description": "You achieved the highest level of interest possible in a phrase!",
     "textColor": "text-orange",
-    "qualification": "Become VERY interested in a word or phrase",
+    "qualification": "Show high interest in a phrase",
     "name": "Investigator",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f1",
     "backgroundColor": "bg-black text-black"
@@ -13,7 +13,7 @@
     "icon": "fa-html5",
     "description": "You created three pieces of content which contain HTML Formatting",
     "textColor": "text-yellow",
-    "qualification": "Learn the mysterious ways of HTML",
+    "qualification": "Learn the ways of HTML",
     "name": "Web Dev Intern",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f2",
     "backgroundColor": "bg-red text-red"
@@ -44,7 +44,7 @@
     "description": "You outdid yourself. You have now created enough to fill a short text-book chapter!",
     "textColor": "text-aqua",
     "qualification": "Create Lots of New Content (10)",
-    "name": "Senior Contributor",
+    "name": "Sr. Contributor",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f5",
     "backgroundColor": "bg-olive text-olive"
   },
@@ -54,7 +54,7 @@
     "description": "This is getting pretty unbelieveable. Should we Pay you at this point?",
     "textColor": "text-yellow",
     "qualification": "Create Tons of New Content (20)",
-    "name": "VP Of Contributions",
+    "name": "VP of Content",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f6",
     "backgroundColor": "bg-olive text-olive"
   },
@@ -84,7 +84,7 @@
     "description": "You answered 20 Questions/Practice Problems! Think of all of the people you have helped along the way!",
     "textColor": "text-blue",
     "qualification": "Create 20 Answers/Explanations",
-    "name": "Font of Knowledge",
+    "name": "Font o Knowledge",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f9",
     "backgroundColor": "text-yellow bg-yellow"
   },
@@ -104,7 +104,7 @@
     "description": "You reported content that wasn't meant for the site, and we took it down. Thank you!",
     "textColor": "text-white",
     "qualification": "Correctly report content",
-    "name": "Community Caretaker",
+    "name": "Community Aid",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b311",
     "backgroundColor": "text-maroon bg-maroon"
   },
@@ -113,7 +113,7 @@
     "icon": "fa-user",
     "description": "Now that we know you better, we will be able to make better recommendations!",
     "textColor": "text-white",
-    "qualification": "Complete the Personalization Process Three Times",
+    "qualification": "Personalize Three Times",
     "name": "Gettin' Personal",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b312",
     "backgroundColor": "text-orange bg-orange"
@@ -121,9 +121,9 @@
 
   {
     "icon": "fa-user-times",
-    "description": "Woah, man. Maybe you should take a break! We know you super well now!",
+    "description": "Woah, man. You didn't need to tell us about that time in Alabama! We know you super well now!",
     "textColor": "text-white",
-    "qualification": "Complete the Personalization Process Seven Times",
+    "qualification": "Personalize Seven Times",
     "name": "Personal Space",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b313",
     "backgroundColor": "text-orange bg-orange"
@@ -133,7 +133,7 @@
     "icon": "fa-quote-left",
     "description": "What an odd and specific accomplishment.  You are either very brief, or very helpful!",
     "textColor": "text-yellow",
-    "qualification": "Create a post which gets more Karma than it has characters",
+    "qualification": "Karma > Length",
     "name": "Brevity",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b314",
     "backgroundColor": "text-purple bg-purple"
@@ -163,7 +163,7 @@
     "icon": "fa-connectdevelop",
     "description": "You have reached Answer Mode Trancendence, and have found the true meaning of life: 42.",
     "textColor": "text-white",
-    "qualification": "Reach an answer mode streak of 42",
+    "qualification": "Answer Mode streak of 42",
     "name": "Deep Thought",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b317",
     "backgroundColor": "text-black bg-black"
@@ -184,7 +184,7 @@
     "description": "You either have mastered Calculus, or intentionally shortened your Username. Either way, well done!",
     "textColor": "text-black",
     "qualification": "Level > Length(username)",
-    "name": "Corporate Climber",
+    "name": "Level Climber",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b319",
     "backgroundColor": "text-fuchsia bg-fuchsia"
   },

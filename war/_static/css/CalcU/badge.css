@@ -83,6 +83,7 @@
 }
 
 .achievement-box.box.box-solid.completed{
+	padding: 8px;
 	border: 2px solid white;
 	-webkit-box-shadow: 0px 0px 30px 3px;
 	-moz-box-shadow:    0px 0px 30px 3px;
