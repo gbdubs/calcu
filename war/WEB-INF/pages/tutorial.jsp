@@ -150,6 +150,11 @@
 						<li> Reach a streak of 5, 10, 20, or 42 in either Answer Mode</li>
 					</ul>
 				</p>
+				<p>
+					Note that you might not see your achievement immediately after you get it. Some of the achievements are difficult to test for, so we only
+					test for them every few hours. Don't fret if you don't see one that you think you should have gotten immediately, but do shoot us an email
+					if you haven't received it after 24 hours.
+				</p>
 				<c:if test="${user == null}">
 					<p> 
 						<b>BUT!</b> None of your progress will be recorded unless you are logged in! 

@@ -64,6 +64,7 @@ public class AchievementModificationServlet extends HttpServlet {
 					List<String> uuids = new ArrayList<String>();
 					for(int i = 0; i < array.size(); i++){
 						JsonObject achievement = array.get(i).getAsJsonObject();
+						String uuid = achievement.get("uuid").getAsString();
 						String name = achievement.get("name").getAsString();
 						String description = achievement.get("description").getAsString();
 						String qualification = achievement.get("qualification").getAsString();
@@ -71,9 +72,12 @@ public class AchievementModificationServlet extends HttpServlet {
 						String textColor = achievement.get("textColor").getAsString();
 						String backgroundColor = achievement.get("backgroundColor").getAsString();
 		
-						String uuid = AchievementsAPI.createNewAchievement(name, icon, textColor, backgroundColor, description, qualification);
+						if (uuid == null){
+							uuid = AchievementsAPI.createNewAchievement(name, icon, textColor, backgroundColor, description, qualification);
+						} else {
+							AchievementsAPI.createNewAchievementWithUuid(uuid, name, icon, textColor, backgroundColor, description, qualification);
+						}
 						uuids.add(uuid);
-						
 					}
 				}				
 			}

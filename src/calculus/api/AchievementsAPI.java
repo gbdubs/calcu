@@ -125,4 +125,21 @@ public class AchievementsAPI {
 			datastore.delete(entity.getKey());
 		}
 	}
+
+	public static String createNewAchievementWithUuid(String uuid, String name, String icon, String textColor, String backgroundColor, String description, String qualification) {
+		Key key = KeyFactory.createKey("Achievement", uuid);
+		
+		Entity entity = new Entity(key);
+		entity.setUnindexedProperty("name", name);
+		entity.setUnindexedProperty("icon", icon);
+		entity.setUnindexedProperty("color", textColor);
+		entity.setUnindexedProperty("secondaryColor", backgroundColor);
+		entity.setUnindexedProperty("qualification", qualification);
+		entity.setUnindexedProperty("description", description);
+		entity.setProperty("uuid", uuid);
+		
+		datastore.put(entity);
+		
+		return uuid;
+	}
 }

@@ -1,47 +1,201 @@
 [
   {
-    "icon": "fa-empire",
-    "qualification": "What goes up must come down",
-    "textColor": "text-red",
-    "description": "Have a boomerang Career",
-    "name": "George Lucas",
-    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f2",
+    "icon": "fa-search",
+    "description": "You achieved the highest level of interest possible in a phrase!",
+    "textColor": "text-orange",
+    "qualification": "Become VERY interested in a word or phrase",
+    "name": "Investigator",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f1",
     "backgroundColor": "bg-black text-black"
   },
+
+  {
+    "icon": "fa-html5",
+    "description": "You created three pieces of content which contain HTML Formatting",
+    "textColor": "text-yellow",
+    "qualification": "Learn the mysterious ways of HTML",
+    "name": "Web Dev Intern",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f2",
+    "backgroundColor": "bg-red text-red"
+  },
+
+  {
+    "icon": "fa-code",
+    "description": "You introduced yourself to the language of serious mathematicians and narcisists!",
+    "textColor": "text-aqua",
+    "qualification": "Achieve Zen in LaTex Mastery",
+    "name": "Liquid LaTex",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f3",
+    "backgroundColor": "bg-purple text-purple"
+  },
+
+  {
+    "icon": "fa-pencil",
+    "description": "You created Five Pieces of Content!",
+    "textColor": "text-lime",
+    "qualification": "Create New Content (5)",
+    "name": "Contributor",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f4",
+    "backgroundColor": "bg-olive text-olive"
+  },
+
+  {
+    "icon": "fa-pencil",
+    "description": "You outdid yourself. You have now created enough to fill a short text-book chapter!",
+    "textColor": "text-aqua",
+    "qualification": "Create Lots of New Content (10)",
+    "name": "Senior Contributor",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f5",
+    "backgroundColor": "bg-olive text-olive"
+  },
+
+  {
+    "icon": "fa-pencil",
+    "description": "This is getting pretty unbelieveable. Should we Pay you at this point?",
+    "textColor": "text-yellow",
+    "qualification": "Create Tons of New Content (20)",
+    "name": "VP Of Contributions",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f6",
+    "backgroundColor": "bg-olive text-olive"
+  },
+
+  {
+    "icon": "fa-pencil",
+    "description": "You did what we never thought was possible. You have transcended our understanding of what it MEANS to contribute.",
+    "textColor": "text-black",
+    "qualification": "Create TONS of New Content (50)",
+    "name": "Contribution-ator",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f7",
+    "backgroundColor": "bg-olive text-olive"
+  },
+
+  {
+    "icon": "fa-comment-o",
+    "description": "You answered 10 Questions/Practice Problems! Think of all of the people you have helped along the way!",
+    "textColor": "text-navy",
+    "qualification": "Create 10 Answers/Explanations",
+    "name": "Answerer",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f8",
+    "backgroundColor": "text-yellow bg-yellow"
+  },
+
+  {
+    "icon": "fa-comment",
+    "description": "You answered 20 Questions/Practice Problems! Think of all of the people you have helped along the way!",
+    "textColor": "text-blue",
+    "qualification": "Create 20 Answers/Explanations",
+    "name": "Font of Knowledge",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f9",
+    "backgroundColor": "text-yellow bg-yellow"
+  },
+
   {
     "icon": "fa-flag",
-    "qualification": "Be here for a while",
-    "textColor": "text-blue",
-    "description": "You are objectively more successful now, but it doesnt seem like people respect that.",
-    "name": "Barak Obama 2012",
-    "uuid": "4ff7f30f-0b12-48a0-b700-5cbfa52aebad",
-    "backgroundColor": "text-red bg-red"
+    "description": "You have contributed a lot to your community, and have helped cultivate a great place for learning.",
+    "textColor": "text-red",
+    "qualification": "100 Positive Good Deeds",
+    "name": "Good Citizen",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b310",
+    "backgroundColor": "text-blue bg-blue"
   },
+
   {
-    "icon": "fa-leaf",
-    "qualification": "Use the site well",
-    "textColor": "text-yellow",
-    "description": "You are one dope mother fucker",
-    "name": "Vermonter",
-    "uuid": "8004e62f-1c11-480e-a44a-83ec7779d55a",
-    "backgroundColor": "text-green bg-green"
+    "icon": "fa-medkit",
+    "description": "You reported content that wasn't meant for the site, and we took it down. Thank you!",
+    "textColor": "text-white",
+    "qualification": "Correctly report content",
+    "name": "Community Caretaker",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b311",
+    "backgroundColor": "text-maroon bg-maroon"
   },
-  {
-    "icon": "fa-binoculars",
-    "qualification": "Help others and do well yourself",
-    "textColor": "text-maroon",
-    "description": "Great Work, Pal",
-    "name": "Shula",
-    "uuid": "b34e76b0-9729-4e3a-9da3-9e91afc9c681",
-    "backgroundColor": "text-purple bg-purple"
-  },
+
   {
     "icon": "fa-user",
-    "qualification": "Find this page",
-    "textColor": "text-red",
-    "description": "People are really excited about you, but it is not necessarily based on anything but your novelty.",
-    "name": "Barak Obama 2008",
-    "uuid": "dc8b06c9-6992-47b9-a843-dba4506df34b",
+    "description": "Now that we know you better, we will be able to make better recommendations!",
+    "textColor": "text-white",
+    "qualification": "Complete the Personalization Process Three Times",
+    "name": "Gettin' Personal",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b312",
+    "backgroundColor": "text-orange bg-orange"
+  },
+
+  {
+    "icon": "fa-user-times",
+    "description": "Woah, man. Maybe you should take a break! We know you super well now!",
+    "textColor": "text-white",
+    "qualification": "Complete the Personalization Process Seven Times",
+    "name": "Personal Space",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b313",
+    "backgroundColor": "text-orange bg-orange"
+  },
+
+  {
+    "icon": "fa-quote-left",
+    "description": "What an odd and specific accomplishment.  You are either very brief, or very helpful!",
+    "textColor": "text-yellow",
+    "qualification": "Create a post which gets more Karma than it has characters",
+    "name": "Brevity",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b314",
+    "backgroundColor": "text-purple bg-purple"
+  },
+
+  {
+    "icon": "fa-university",
+    "description": "ROLL DEIS ROLL! You are a Brandeisian and PROUD!",
+    "textColor": "text-white",
+    "qualification": "Log in with a Brandeis Email",
+    "name": "Brandeisian",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b315",
     "backgroundColor": "text-blue bg-blue"
+  },
+
+  {
+    "icon": "fa-newspaper-o",
+    "description": "Your content made it to the 'Front Page', it was one of the most popular pieces of content!",
+    "textColor": "text-blue",
+    "qualification": "Make Content So Popular...",
+    "name": "Headliner",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b316",
+    "backgroundColor": "text-lime bg-lime"
+  },
+
+  {
+    "icon": "fa-connectdevelop",
+    "description": "You have reached Answer Mode Trancendence, and have found the true meaning of life: 42.",
+    "textColor": "text-white",
+    "qualification": "Reach an answer mode streak of 42",
+    "name": "Deep Thought",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b317",
+    "backgroundColor": "text-black bg-black"
+  },
+
+  {
+    "icon": "fa-heart",
+    "description": "A pice of your content was given a rating of 100, 100, 100.",
+    "textColor": "text-fuchsia",
+    "qualification": "Someone Loved your content",
+    "name": "Lover",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b318",
+    "backgroundColor": "text-red bg-red"
+  },
+
+  {
+    "icon": "fa-level-up",
+    "description": "You either have mastered Calculus, or intentionally shortened your Username. Either way, well done!",
+    "textColor": "text-black",
+    "qualification": "Level > Length(username)",
+    "name": "Corporate Climber",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b319",
+    "backgroundColor": "text-fuchsia bg-fuchsia"
+  },
+
+  {
+    "icon": "fa-rocket",
+    "description": "We have seen QUANTIFIABLE evidence of your learning calculus. You are a better Math Student than you were when you started!",
+    "textColor": "text-aqua",
+    "qualification": "Learn and Show it",
+    "name": "Learner",
+    "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b320",
+    "backgroundColor": "text-navy bg-navy"
   }
 ]
