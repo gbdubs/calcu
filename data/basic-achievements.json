@@ -1,10 +1,10 @@
 [
   {
-    "icon": "fa-search",
-    "description": "You achieved the highest level of interest possible in a phrase!",
-    "textColor": "text-orange",
-    "qualification": "Show high interest in a phrase",
-    "name": "Investigator",
+    "icon": "fa-road",
+    "description": "The first step to Progress is the first step.",
+    "textColor": "text-aqua",
+    "qualification": "Using the site --> Learning",
+    "name": "Motivated",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f1",
     "backgroundColor": "bg-black text-black"
   },
@@ -93,8 +93,8 @@
     "icon": "fa-flag",
     "description": "You have contributed a lot to your community, and have helped cultivate a great place for learning.",
     "textColor": "text-red",
-    "qualification": "100 Positive Good Deeds",
-    "name": "Good Citizen",
+    "qualification": "The Greatest Title... (100)",
+    "name": "Citizen",
     "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b310",
     "backgroundColor": "text-blue bg-blue"
   },

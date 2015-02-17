@@ -113,17 +113,4 @@ public class UserPrivateInfoAPI {
 		userPrivateInfo.setUnindexedProperty("bookmarks", bookmarks);
 		datastore.put(userPrivateInfo);
 	}
-
-	public static List<String> getUserAchievementUuids(String userId) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<String> result = (List<String>) userPrivateInfo.getProperty("achievements");
-		if (result != null) return result;
-		return new ArrayList<String>();
-	}
-
-	public static void setUserAchievementUuids(String userId, List<String> achievements) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		userPrivateInfo.setUnindexedProperty("Achievements", achievements);
-		datastore.put(userPrivateInfo);
-	}
 }

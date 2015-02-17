@@ -27,18 +27,17 @@ public class AchievementsDisplayServlet extends HttpServlet {
 		
 		UserContextAPI.addUserContextToRequest(req, "/achievements");
 		
-		List<Achievement> finishedAchievements= new ArrayList<Achievement>();
-		List<Achievement> unfinishedAchievements= new ArrayList<Achievement>();
+		List<Achievement> finishedAchievements = new ArrayList<Achievement>();
+		List<Achievement> unfinishedAchievements = new ArrayList<Achievement>();
 		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user != null){
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 			finishedAchievements.addAll(AchievementsAPI.getUserAchievements(user.getUserId()));
+			unfinishedAchievements.removeAll(finishedAchievements);
 		} else {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 		}
-		
-		finishedAchievements.add(unfinishedAchievements.remove(0));
 		
 		Map<Achievement, Boolean> allAchievements = new HashMap<Achievement, Boolean>();
 		for (Achievement a : finishedAchievements) allAchievements.put(a, true);

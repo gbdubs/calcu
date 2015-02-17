@@ -37,14 +37,14 @@
     margin: 50px 0 0 0;
 }
 .outer-hexagon:before {
-	top: -47px;
+	top: -48px;
     left: -85px;
 	border-left: 85px solid transparent;
 	border-right: 85px solid transparent;
 	border-bottom: 48px solid;
 }
 .outer-hexagon:after {
-	bottom: -47px;
+	bottom: -48px;
     left: -85px;
 	border-left: 85px solid transparent;
 	border-right: 85px solid transparent;

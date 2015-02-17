@@ -11,6 +11,7 @@ import calculus.utilities.Settings;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
@@ -32,27 +33,95 @@ public class AchievementsAPI {
 		entity.setUnindexedProperty("secondaryColor", secondaryColor);
 		entity.setUnindexedProperty("qualification", qualification);
 		entity.setUnindexedProperty("description", description);
-		entity.setProperty("uuid", AchievementId);
+		entity.setUnindexedProperty("uuid", AchievementId);
 		
 		datastore.put(entity);
 		
 		return AchievementId;
 	}
 	
-	public static void giveUserAchievement(String userId, String achievementUuid){
-		List<String> achievements = UserPrivateInfoAPI.getUserAchievementUuids(userId);
-		if (!achievements.contains(achievementUuid)){
-			achievements.add(achievementUuid);
-			UserPrivateInfoAPI.setUserAchievementUuids(userId, achievements);
+	public static String createNewAchievementWithUuid(String uuid, String name, String icon, String textColor, String backgroundColor, String description, String qualification) {
+		Key key = KeyFactory.createKey("Achievement", uuid);
+		
+		Entity entity = new Entity(key);
+		entity.setUnindexedProperty("name", name);
+		entity.setUnindexedProperty("icon", icon);
+		entity.setUnindexedProperty("color", textColor);
+		entity.setUnindexedProperty("secondaryColor", backgroundColor);
+		entity.setUnindexedProperty("qualification", qualification);
+		entity.setUnindexedProperty("description", description);
+		entity.setUnindexedProperty("uuid", uuid);
+		
+		datastore.put(entity);
+		
+		return uuid;
+	}
+
+	public static void deleteAchievement(String uuid) {
+		if (uuid != null)
+			datastore.delete(KeyFactory.createKey("Achievement", uuid));
+	}
+
+	public static void deleteAllAchievements() {
+		Query query = new Query("Achievement").setKeysOnly();
+		PreparedQuery pq = datastore.prepare(query);
+		for(Entity entity : pq.asIterable()){
+			datastore.delete(entity.getKey());
 		}
-		Notification achievementAlert = createAchievementAlert(userId, achievementUuid);
-		NotificationsAPI.sendNotification(achievementAlert);
+	}
+
+	private static List<String> getAllAchievementUuids() {
+		List<String> result = new ArrayList<String>();
+		Query query = new Query("Achievement");
+		PreparedQuery pq = datastore.prepare(query);
+		for(Entity entity : pq.asIterable()){
+			result.add((String) entity.getProperty("uuid"));
+		}
+		return result;
+	}
+
+	private static List<String> getUserAchievementUuids(String userId){
+		Entity e = getUserAchievementEntity(userId);
+		List<String> result = (List<String>) e.getProperty("achievements");
+		if (result == null) result = new ArrayList<String>();
+		return result;
+	}
+
+	private static List<String> getUnfinishedAchievementUuids(String userId){
+		List<String> allAchievements = getAllAchievementUuids();
+		List<String> userAchievements = getUserAchievementUuids(userId);
+		allAchievements.removeAll(userAchievements);
+		return allAchievements;
+	}
+
+	public static List<Achievement> getAchievements(List<String> uuids){
+		List<Achievement> Achievements = new ArrayList<Achievement>();
+		for (String uuid : uuids){
+			try{
+				Achievements.add(new Achievement(uuid));
+			} catch (RuntimeException e){
+				// Ignore this, it is likely a datastore update issue.
+			}
+		}
+		return Achievements;
+	}
+
+	public static List<Achievement> getAllAchievements(){
+		return getAchievements(getAllAchievementUuids());
+	}
+
+	public static List<Achievement> getUserAchievements(String userId){
+		return getAchievements(getUserAchievementUuids(userId));
+	}
+	
+	public static List<Achievement> getUserUnfinishedAchievements(String userId){
+		return getAchievements(getUnfinishedAchievementUuids(userId));
 	}
 	
 	private static Notification createAchievementAlert(String userId, String achievementUuid) {
 		Achievement a = new Achievement(achievementUuid);
 		String title = "New Achievement!";
-		String body = "You just won the " +a.getName() + " achievement! Check them out here!";
+		String body = "You just completed the " +a.getName() + " achievement! Check them out here!";
 		String url = "/achievements";
 		
 		
@@ -67,79 +136,113 @@ public class AchievementsAPI {
 		
 		return n;
 	}
-
-	public static List<Achievement> getUserAchievements(String userId){
-		return getAchievements(getUserAchievementUuids(userId));
+	
+	private static Entity getUserAchievementEntity(String userId){
+		Key key = KeyFactory.createKey("UserAchievementProfile", userId);
+		try {
+			Entity result = datastore.get(key);
+			return result;
+		} catch (EntityNotFoundException e) {
+			Entity result = new Entity(key);
+			result.setUnindexedProperty("htmlContent", new Long(0));
+			result.setUnindexedProperty("latexContent", new Long(0));
+			result.setUnindexedProperty("allContent", new Long(0));
+			result.setUnindexedProperty("allPracticeProblems", new Long(0));
+			result.setUnindexedProperty("allQuestions", new Long(0));
+			result.setUnindexedProperty("allTextContent", new Long(0));
+			result.setUnindexedProperty("allAnswers", new Long(0));
+			result.setUnindexedProperty("personalized", new Long(0));
+			result.setUnindexedProperty("allAnswers", new Long(0));
+			result.setUnindexedProperty("bestAnswerModeStreak", new Long(0));
+			setUserAchievement(result, "0465ae81-256c-48e6-ba57-f6b7af62b3f1");
+			datastore.put(result);
+			return result;
+		}
 	}
 	
-	public static List<Achievement> getUserUnfinishedAchievements(String userId){
-		return getAchievements(getUnfinishedAchievementUuids(userId));
+	public static void incrementUserStats(String userId, String[] properties){
+		List<String> toPass = new ArrayList<String>();
+		for (String p : properties) toPass.add(p);
+		incrementUserStats(userId, toPass);
 	}
 	
-	public static List<Achievement> getAchievements(List<String> uuids){
-		List<Achievement> Achievements = new ArrayList<Achievement>();
-		for (String uuid : uuids){
-			try{
-				Achievements.add(new Achievement(uuid));
-			} catch (RuntimeException e){
-				// Ignore this, it is likely a datastore update issue.
+	public static void incrementUserStats(String userId, List<String> properties){
+		Entity achievementEntity = getUserAchievementEntity(userId);
+		boolean changed = false;
+		for (String prop : properties){
+			Long result = (Long) achievementEntity.getProperty(prop);
+			if (result != null){
+				result++;
+				changed = true;
+				achievementEntity.setUnindexedProperty(prop, result);
 			}
 		}
-		return Achievements;
-	}
-	
-	private static List<String> getUserAchievementUuids(String userId){
-		return UserPrivateInfoAPI.getUserAchievementUuids(userId);
-	}
-	
-	private static List<String> getUnfinishedAchievementUuids(String userId){
-		List<String> allAchievements = getAllAchievementUuids();
-		List<String> userAchievements = getUserAchievementUuids(userId);
-		allAchievements.removeAll(userAchievements);
-		return allAchievements;
-	}
-
-	private static List<String> getAllAchievementUuids() {
-		List<String> result = new ArrayList<String>();
-		Query query = new Query("Achievement");
-		PreparedQuery pq = datastore.prepare(query);
-		for(Entity entity : pq.asIterable()){
-			result.add((String) entity.getProperty("uuid"));
-		}
-		return result;
-	}
-	
-	public static List<Achievement> getAllAchievements(){
-		return getAchievements(getAllAchievementUuids());
-	}
-
-	public static void deleteAchievement(String uuid) {
-		if (uuid != null)
-			datastore.delete(KeyFactory.createKey("Achievement", uuid));
-	}
-
-	public static void deleteAllAchievements() {
-		Query query = new Query("Achievement");
-		PreparedQuery pq = datastore.prepare(query);
-		for(Entity entity : pq.asIterable()){
-			datastore.delete(entity.getKey());
+		if (changed){
+			checkForNewAchievements(achievementEntity);
+			datastore.put(achievementEntity);
 		}
 	}
 
-	public static String createNewAchievementWithUuid(String uuid, String name, String icon, String textColor, String backgroundColor, String description, String qualification) {
-		Key key = KeyFactory.createKey("Achievement", uuid);
+	private static void setUserAchievement(Entity e, String achievementUuid){
+		List<String> achievements = (List<String>) e.getProperty("achievements");
+		if (achievements == null) achievements = new ArrayList<String>();
+		if (! achievements.contains(achievementUuid)){
+			achievements.add(achievementUuid);
+			e.setUnindexedProperty("achievements", achievements);
+			Notification n = createAchievementAlert(e.getKey().getName(), achievementUuid);
+			NotificationsAPI.sendNotification(n);
+		}
+	}
+	
+	private static void checkForNewAchievements(Entity e) {
 		
-		Entity entity = new Entity(key);
-		entity.setUnindexedProperty("name", name);
-		entity.setUnindexedProperty("icon", icon);
-		entity.setUnindexedProperty("color", textColor);
-		entity.setUnindexedProperty("secondaryColor", backgroundColor);
-		entity.setUnindexedProperty("qualification", qualification);
-		entity.setUnindexedProperty("description", description);
-		entity.setProperty("uuid", uuid);
+		Long allContent = (Long) e.getProperty("allContent");
+		Long latexContent = (Long) e.getProperty("latexContent");
+		Long htmlContent = (Long) e.getProperty("htmlContent");
+		Long personalized = (Long) e.getProperty("personalized");
+		Long allAnswers = (Long) e.getProperty("allAnswers");
+		Long answerMode = (Long) e.getProperty("bestAnswerModeStreak");
 		
-		datastore.put(entity);
+		System.out.println("All Content: " + allContent);
 		
-		return uuid;
+		if (allContent == 5){
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f4");
+		} else if (allContent == 9) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b316");
+		} else if (allContent == 10) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f5");
+		} else if (allContent == 20) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f6");
+		} else if (allContent == 50) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f7");
+		} else if (allContent == 100){
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b310");
+		}
+		
+		if (htmlContent == 3) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f2");
+		}
+		
+		if (latexContent == 3) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f3");
+		}
+		
+		if (allAnswers == 10) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f8");
+		} else if (allAnswers == 20) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f9");
+		}
+		
+		if (personalized == 3) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b312");
+		} else if (personalized == 7) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b313");
+		} else if (personalized == 5) {
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b320");
+		}
+		
+		if (answerMode == 42){
+			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b317");
+		}	
 	}
 }
