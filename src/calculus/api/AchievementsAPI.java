@@ -245,4 +245,10 @@ public class AchievementsAPI {
 			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b317");
 		}	
 	}
+
+	public static void brandeisanAchievement(String userId) {
+		Entity e = getUserAchievementEntity(userId);
+		setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b315");
+		datastore.put(e);
+	}
 }
