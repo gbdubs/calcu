@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.AchievementsAPI;
 import calculus.api.AnswersAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
@@ -46,6 +47,10 @@ public class ContributeAnswerServlet extends HttpServlet {
 		
 		// Give the user their instant burst of Karma for answering the question
 		KarmaAPI.incrementContentKarma(uuid, 3);
+		
+		// Records the answer for achievement purposes
+		// Increment their stats for Achievments
+		AchievementsAPI.incrementUserAchievementStatsFromContentSubmission(userId, req.getParameter("body"), "Answers");
 		
 		// Redirects the user to a thank you page
 		resp.setContentType("text/html");

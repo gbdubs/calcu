@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
 import calculus.api.PracticeProblemAPI;
@@ -108,6 +109,10 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		} else {
 			// Otherwise, we have submitted, so give the user their instant burst of karma
 			KarmaAPI.incrementContentKarma(uuid, 5);
+			
+			// Increment their stats for Achievments
+			AchievementsAPI.incrementUserAchievementStatsFromContentSubmission(submitter.getUserId(), req.getParameter("body"), "PracticeProblems");
+			
 			// And redirect to a thankyou page
 			resp.setContentType("text/html");
 			UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");

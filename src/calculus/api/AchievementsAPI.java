@@ -152,7 +152,6 @@ public class AchievementsAPI {
 			result.setUnindexedProperty("allTextContent", new Long(0));
 			result.setUnindexedProperty("allAnswers", new Long(0));
 			result.setUnindexedProperty("personalized", new Long(0));
-			result.setUnindexedProperty("allAnswers", new Long(0));
 			result.setUnindexedProperty("bestAnswerModeStreak", new Long(0));
 			setUserAchievement(result, "0465ae81-256c-48e6-ba57-f6b7af62b3f1");
 			datastore.put(result);
@@ -250,5 +249,18 @@ public class AchievementsAPI {
 		Entity e = getUserAchievementEntity(userId);
 		setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b315");
 		datastore.put(e);
+	}
+
+	public static void incrementUserAchievementStatsFromContentSubmission(String userId, String body, String contentType){
+		List<String> toIncrement = new ArrayList<String>();
+		toIncrement.add("allContent");
+		toIncrement.add("all"+contentType);
+		if (body.contains("/(") || body.contains("$$")){
+			toIncrement.add("latexContent");
+		}
+		if (body.contains("<p>")||body.contains("<li>")||body.contains("<b>")||body.contains("<br/>")){
+			toIncrement.add("htmlContent");
+		}
+		incrementUserStats(userId, toIncrement);
 	}
 }
