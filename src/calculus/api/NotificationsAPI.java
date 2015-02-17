@@ -30,7 +30,9 @@ public class NotificationsAPI {
 		List<String> jsonNotifications = (List<String>) getNotificationsEntity(userId).getProperty("notifications");
 		List<MenuItem> notifications = new ArrayList<MenuItem>();
 		if (jsonNotifications == null) return new ArrayList<MenuItem>();
-		for (String json : jsonNotifications){
+		// Goes in reverse order so that the oldest notifications appear on the bottom
+		for (int i = jsonNotifications.size() - 1; i >= 0; i--){
+			String json = jsonNotifications.get(i);
 			Notification n = Notification.fromJson(json);
 			notifications.add(n.getMenuItem());
 		}

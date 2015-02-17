@@ -120,8 +120,8 @@ public class KarmaAPI {
 	}
 
 	private static Notification levelUpNotification(String userId, int newLevel) {
-		String title = "You are now Level " + newLevel;
-		String body = "Great work! Because you reached " + KarmaAPI.getKarmaThresholdForLevel(newLevel) + " you are now level " + newLevel;
+		String title = "You Reached Level " + newLevel + "!";
+		String body = "Because you reached " + KarmaAPI.getKarmaThresholdForLevel(newLevel) + " Karma, you are now Level " + newLevel + "! Click to see your Karma Profile!";
 		String url = "/user/" + userId + "#karma";
 		
 		Notification n = new Notification()
