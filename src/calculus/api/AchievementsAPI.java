@@ -124,10 +124,12 @@ public class AchievementsAPI {
 		String body = "You just completed the " +a.getName() + " achievement! Check them out here!";
 		String url = "/achievements";
 		
+		String imageUrl = "/_static/img/achievement-badges/" + a.getName() + ".png";
 		
 		Notification n = new Notification()
 			.withRecipientId(userId)
 			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withImageUrl(imageUrl)
 			.withTimeNow()
 			.withTitle(title)
 			.withBody(body)

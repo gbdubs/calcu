@@ -25,6 +25,7 @@ public class UniversalNotificationServlet extends HttpServlet {
 		String associatedUserId = Settings.ADMIN_USER_ID;
 		String url = req.getParameter("url");
 		long time = System.currentTimeMillis();
+		String imageUrl = "/_static/img/IntegralAdmin.png";
 		
 		DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
@@ -32,10 +33,15 @@ public class UniversalNotificationServlet extends HttpServlet {
 		PreparedQuery pq = datastore.prepare(q);
 		for (Entity e : pq.asIterable()){
 			String userId = (String) e.getProperty("userId");
-			Notification n = new Notification().withRecipientId(userId)
-					.withBody(body).withTitle(title)
+			Notification n = new Notification()
+					.withRecipientId(userId)
+					.withBody(body)
+					.withTitle(title)
+					.withImageUrl(imageUrl)
 					.withAssociatedUserId(associatedUserId)
-					.withTime(time).withUrl(url).withColor("info");
+					.withTime(time)
+					.withUrl(url)
+					.withColor("info");
 			NotificationsAPI.sendNotification(n);
 		}
 		

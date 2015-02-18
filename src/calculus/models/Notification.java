@@ -19,6 +19,7 @@ public class Notification {
 	private String body;
 	private String associatedUserId;
 	private String url;
+	private String imageUrl;
 	private long time;
 	private String color;
 	
@@ -98,11 +99,23 @@ public class Notification {
 		return this;
 	}
 	
-	public MenuItem getMenuItem(){
+	public String getImageUrl(){
+		if (this.imageUrl != null){
+			return this.imageUrl;
+		}
 		String userProfPic = UserPublicInfoAPI.getProfilePictureUrl(this.associatedUserId);
+		return userProfPic;
+	}
+	
+	public Notification withImageUrl(String iurl){
+		this.imageUrl = iurl;
+		return this;
+	}
+	
+	public MenuItem getMenuItem(){
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm MM-dd-yy");
 		String dateTime = sdf.format(time);
-		return new MenuItem(url, uuid, title, body, dateTime, "", color, "", userProfPic);
+		return new MenuItem(url, uuid, title, body, dateTime, "", color, "", getImageUrl());
 	}
 	
 	public String toJson(){
@@ -123,11 +136,17 @@ public class Notification {
 		String url = object.get("url").getAsString();
 		long time = object.get("time").getAsLong();
 		String color = object.get("color").getAsString();
+		String imageUrl = object.get("imageUrl").getAsString();
 		
 		Notification toReturn = new Notification(uuid)
-			.withRecipientId(recipientId).withBody(body)
-			.withTitle(title).withAssociatedUserId(associatedUserId)
-			.withUrl(url).withTime(time).withColor(color);
+			.withRecipientId(recipientId)
+			.withBody(body)
+			.withTitle(title)
+			.withImageUrl(imageUrl)
+			.withAssociatedUserId(associatedUserId)
+			.withUrl(url)
+			.withTime(time)
+			.withColor(color);
 		
 		return toReturn;
 	}

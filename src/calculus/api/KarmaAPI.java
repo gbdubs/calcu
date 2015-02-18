@@ -127,6 +127,7 @@ public class KarmaAPI {
 		Notification n = new Notification()
 			.withRecipientId(userId)
 			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withImageUrl("/_static/img/DerivativeAdmin.png")
 			.withTimeNow()
 			.withTitle(title)
 			.withBody(body)

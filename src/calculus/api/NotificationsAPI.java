@@ -92,6 +92,7 @@ public class NotificationsAPI {
 			.withBody(body)
 			.withUrl(url)
 			.withColor("info")
+			//.withImageUrl(iurl)
 			.withAssociatedUserId(Settings.ADMIN_USER_ID);
 	}
 
