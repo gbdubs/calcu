@@ -34,11 +34,7 @@ public class ContentAPI {
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
 	private static Filter viewableFilter = new FilterPredicate("viewable", FilterOperator.EQUAL, true);
 	private static Filter compositeFilter = CompositeFilterOperator.and(viewableFilter, submittedFilter);
-	
-	
 
-	
-	
 	public static String getContentType(String uuid) throws EntityNotFoundException{
 		if (uuid == "" || uuid == null) return null;
 		Key contentKey = KeyFactory.createKey("Content", uuid);

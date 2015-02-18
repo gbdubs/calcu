@@ -5,6 +5,7 @@ import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
+import calculus.contribute.ContributeAnswerServlet;
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.Notification;
@@ -85,42 +86,7 @@ public class AnswersAPI {
 		
 		datastore.put(entity);
 		
-		Notification n = answerNotification(parentUuid, userId);
-		NotificationsAPI.sendNotification(n);
-		
 		return new Answer(entity);
-	}
-	
-	private static Notification answerNotification(String parentUuid, String userId){
-		String verb = "answered";
-		String readableContentType = "Content";	
-		String contentType;
-		try {
-			contentType = ContentAPI.getContentType(parentUuid);
-		} catch (EntityNotFoundException e) {
-			contentType = "A Very Strange Error";
-		}
-		String authorId = ContentAPI.getContentAuthorId(parentUuid);
-		if (contentType.equals("practiceProblem")) readableContentType = "Practice Problem";
-		else if (contentType.equals("question")) readableContentType = "Question";
-		else if (contentType.equals("textContent")){
-			verb = "commented on";
-			readableContentType = "Explanation";
-		} else {
-			readableContentType = contentType;
-		}
-		
-		String notificationBody = UserPublicInfoAPI.getUsername(userId) + " " + verb + " your " + readableContentType;
-		Notification n = new Notification()
-			.withRecipientId(authorId)
-			.withAssociatedUserId(userId)
-			.withTime(System.currentTimeMillis())
-			.withTitle("New Answer")
-			.withBody(notificationBody)
-			.withImageUrl(UserPublicInfoAPI.getProfilePictureUrl(userId))
-			.withUrl("/"+contentType+"/"+parentUuid)
-			.withColor("warning");
-		return n;
 	}
 
 }

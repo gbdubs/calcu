@@ -204,8 +204,6 @@ public class AchievementsAPI {
 		Long allAnswers = (Long) e.getProperty("allAnswers");
 		Long answerMode = (Long) e.getProperty("bestAnswerModeStreak");
 		
-		System.out.println("All Content: " + allContent);
-		
 		if (allContent == 5){
 			setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b3f4");
 		} else if (allContent == 9) {

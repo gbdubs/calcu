@@ -12,12 +12,16 @@ import calculus.api.AchievementsAPI;
 import calculus.api.AnswersAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
+import calculus.api.NotificationsAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.UserContextAPI;
+import calculus.api.UserPublicInfoAPI;
 import calculus.models.Answer;
+import calculus.models.Notification;
 import calculus.recommendation.InterestsAPI;
 import calculus.recommendation.SkillsAPI;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -52,11 +56,55 @@ public class ContributeAnswerServlet extends HttpServlet {
 		// Increment their stats for Achievments
 		AchievementsAPI.incrementUserAchievementStatsFromContentSubmission(userId, req.getParameter("body"), "Answers");
 		
+		// Sends the author a notification
+		Notification n = ContributeAnswerServlet.answerNotification(answerParentUuid, userId);
+		NotificationsAPI.sendNotification(n);
+		
 		// Redirects the user to a thank you page
 		resp.setContentType("text/html");
 		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 		req.setAttribute("readableContentType", "an answer");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/content-thanks.jsp");
 		jsp.forward(req, resp);
+	}
+
+	public static Notification answerNotification(String parentUuid, String userId){
+		String verb = "answered";
+		String readableContentType = "Content";	
+		String urlContentType = "content";
+		String contentType;
+		try {
+			contentType = ContentAPI.getContentType(parentUuid);
+		} catch (EntityNotFoundException e) {
+			contentType = "A Very Strange Error";
+		}
+		String authorId = ContentAPI.getContentAuthorId(parentUuid);
+		if (contentType.equals("practiceProblem")){
+			readableContentType = "Practice Problem";
+			urlContentType = "practice-problem";
+		}
+		else if (contentType.equals("question")){
+			readableContentType = "Question";
+			urlContentType = "question";
+		}
+		else if (contentType.equals("textContent")){
+			verb = "commented on";
+			readableContentType = "Explanation";
+			urlContentType = "text-content";
+		} else {
+			readableContentType = contentType;
+		}
+		
+		String notificationBody = UserPublicInfoAPI.getUsername(userId) + " " + verb + " your " + readableContentType;
+		Notification n = new Notification()
+			.withRecipientId(authorId)
+			.withAssociatedUserId(userId)
+			.withTime(System.currentTimeMillis())
+			.withTitle("New Answer")
+			.withBody(notificationBody)
+			.withImageUrl(UserPublicInfoAPI.getProfilePictureUrl(userId))
+			.withUrl("/"+urlContentType+"/"+parentUuid)
+			.withColor("warning");
+		return n;
 	}	
 }
