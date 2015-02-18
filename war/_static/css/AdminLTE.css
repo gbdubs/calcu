@@ -1173,7 +1173,7 @@ body > .header .logo .icon {
   -moz-border-radius: 0px !important;
   border-radius: 0px !important;
   box-shadow: none;
-  height: 33px;
+  height: 34px;
 }
 .form-control:focus {
   border-color: #3c8dbc !important;
@@ -3840,7 +3840,6 @@ fieldset[disabled] .btn-vk.active {
     border-color: rgba(54,127,169, .5);
     color: #fff;
     width: Calc(100% - 155px);
-    height: 33px;
 }
 
 .user-profile-settings form{

@@ -104,7 +104,7 @@ public class ContributeAnswerServlet extends HttpServlet {
 			.withBody(notificationBody)
 			.withImageUrl(UserPublicInfoAPI.getProfilePictureUrl(userId))
 			.withUrl("/"+urlContentType+"/"+parentUuid)
-			.withColor("warning");
+			.withColor("danger");
 		return n;
 	}	
 }
