@@ -302,4 +302,22 @@ public class AchievementsAPI {
 			datastore.put(achievementEntity);
 		}
 	}
+
+	public static void loveAchievement(String authorId) {
+		Entity e = getUserAchievementEntity(authorId);
+		setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b318");
+		datastore.put(e);
+	}
+
+	public static void levelUpAchievment(String userId) {
+		Entity e = getUserAchievementEntity(userId);
+		setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b319");
+		datastore.put(e);
+	}
+
+	public static void brevityAchievement(String userId) {
+		Entity e = getUserAchievementEntity(userId);
+		setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b314");
+		datastore.put(e);
+	}
 }

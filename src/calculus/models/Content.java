@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.RatingsAPI;
 import calculus.utilities.KarmaDescription;
@@ -230,6 +231,11 @@ public class Content {
 		long karma = (long) this.entity.getProperty("karma");
 		this.entity.setProperty("karma", karma + differential);
 		datastore.put(entity);
+		if (karma > this.getBody().length()){
+			String authorId = this.getCreatorUserId();
+			AchievementsAPI.brevityAchievement(authorId);
+		}
+		
 	}
 
 	public boolean getAlreadyRatedByCurrentUser(){

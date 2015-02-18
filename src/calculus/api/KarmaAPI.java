@@ -124,6 +124,11 @@ public class KarmaAPI {
 			userPublicInfo.setUnindexedProperty("level", newLevel);
 			Notification levelUp = levelUpNotification(userId, newLevel);
 			NotificationsAPI.sendNotification(levelUp);
+			String username = (String) userPublicInfo.getProperty("username");
+			if (username.length() < newLevel){
+				AchievementsAPI.levelUpAchievment(userId);
+			}
+			
 		}
 		
 		// Stores Changes
@@ -143,7 +148,7 @@ public class KarmaAPI {
 			.withTitle(title)
 			.withBody(body)
 			.withUrl(url)
-			.withColor(ContentAPI.randomColor());
+			.withColor("info");
 	
 		return n;
 	}

@@ -28,6 +28,10 @@ public class RatingsAPI {
 		
 		if (helpfulness > 85){
 			HelpfulContentAPI.userFoundContentHelpful(userId, contentUuid);
+			if (helpfulness == 100 && quality == 100){
+				String authorId = ContentAPI.getContentAuthorId(contentUuid);
+				AchievementsAPI.loveAchievement(authorId);
+			}
 		}
 	}
 	
