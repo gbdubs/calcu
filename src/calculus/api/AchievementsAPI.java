@@ -275,7 +275,7 @@ public class AchievementsAPI {
 		toIncrement.add("allContent");
 		toIncrement.add("allAnswers");
 		
-		if (body.contains("/(") || body.contains("$$")){
+		if (body.contains("\\(") || body.contains("$$")){
 			toIncrement.add("latexContent");
 		}
 		if (body.contains("<p>")||body.contains("<li>")||body.contains("<b>")||body.contains("<br/>")){

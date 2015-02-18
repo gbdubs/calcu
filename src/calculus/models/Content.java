@@ -271,4 +271,13 @@ public class Content {
 		entity.setUnindexedProperty("allAnswers", answerUuids);
 		datastore.put(entity);
 	}
+
+	public void removeAnswer(String answerUuid) {
+		Entity entity = this.getEntity();
+		List<String> answerUuids = (List<String>) entity.getProperty("allAnswers");
+		if (answerUuids == null) return;
+		answerUuids.remove(answerUuid);
+		entity.setUnindexedProperty("allAnswers", answerUuids);
+		datastore.put(entity);
+	}
 }

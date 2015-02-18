@@ -83,8 +83,29 @@ public class ReportAPI {
 		try {
 			Entity report = datastore.get(reportKey);
 			String contentUuid = (String) report.getProperty("contentUuid");
+			
+			// Deletes all Children of the content.
+			Entity content = datastore.get(KeyFactory.createKey("Content", contentUuid));
+			List<String> children = (List<String>) content.getProperty("allAnswers");
+			if (children != null) {
+				for(String child : children){
+					datastore.delete(KeyFactory.createKey("Content", child));
+				}
+			}
+				
+			
+			// Deletes the Parental reference.
+			String parentUuid = (String) content.getProperty("parentUuid");
+			if (parentUuid != null){
+				Content parentContent = new Content(parentUuid);
+				parentContent.removeAnswer(contentUuid);
+			}
+			
+			// Reports the deletion to the user
 			String reporterUserId = (String) report.getProperty("reporterUserId");
 			sendSuccessfulReportNotifications(reporterUserId, contentUuid);
+			
+			// Deletes offending content.
 			asyncDatastore.delete(KeyFactory.createKey("Content", contentUuid));
 		} catch (EntityNotFoundException e) {
 			// No need to delete it if it does not exist!
