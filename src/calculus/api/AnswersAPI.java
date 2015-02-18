@@ -117,9 +117,9 @@ public class AnswersAPI {
 			.withTime(System.currentTimeMillis())
 			.withTitle("New Answer")
 			.withBody(notificationBody)
+			.withImageUrl(UserPublicInfoAPI.getProfilePictureUrl(userId))
 			.withUrl("/"+contentType+"/"+parentUuid)
 			.withColor("warning");
-		
 		return n;
 	}
 

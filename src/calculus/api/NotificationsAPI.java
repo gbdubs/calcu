@@ -83,7 +83,7 @@ public class NotificationsAPI {
 	private static Notification welcomeNotification(String recipientId) {
 		String title = "Welcome To CalcU!";
 		String body = "Click here for an introduction to the Site!";
-		String url = "/introduction";
+		String url = "/tutorial";
 		
 		return new Notification()
 			.withRecipientId(recipientId)
@@ -92,7 +92,7 @@ public class NotificationsAPI {
 			.withBody(body)
 			.withUrl(url)
 			.withColor("info")
-			//.withImageUrl(iurl)
+			.withImageUrl("/_static/img/DerivativeAdmin.png")
 			.withAssociatedUserId(Settings.ADMIN_USER_ID);
 	}
 
