@@ -251,6 +251,12 @@ public class AchievementsAPI {
 		datastore.put(e);
 	}
 
+	public static void reporterAchievement(String userId) {
+		Entity e = getUserAchievementEntity(userId);
+		setUserAchievement(e, "0465ae81-256c-48e6-ba57-f6b7af62b311");
+		datastore.put(e);
+	}
+	
 	public static void incrementUserAchievementStatsFromContentSubmission(String userId, String body, String contentType){
 		List<String> toIncrement = new ArrayList<String>();
 		toIncrement.add("allContent");
@@ -262,5 +268,38 @@ public class AchievementsAPI {
 			toIncrement.add("htmlContent");
 		}
 		incrementUserStats(userId, toIncrement);
+	}
+
+	public static void incrementUserAchievementStatsFromAnswerMode(String userId, int currentStreak, String body) {
+		List<String> toIncrement = new ArrayList<String>();
+		toIncrement.add("allContent");
+		toIncrement.add("allAnswers");
+		
+		if (body.contains("/(") || body.contains("$$")){
+			toIncrement.add("latexContent");
+		}
+		if (body.contains("<p>")||body.contains("<li>")||body.contains("<b>")||body.contains("<br/>")){
+			toIncrement.add("htmlContent");
+		}
+		
+		Entity achievementEntity = getUserAchievementEntity(userId);
+		boolean changed = false;
+		Long bestAnswerModeStreak = (Long) achievementEntity.getProperty("bestAnswerModeStreak");
+		if (bestAnswerModeStreak < currentStreak){
+			achievementEntity.setProperty("bestAnswerModeStreak", new Long(currentStreak));
+			changed = true;
+		}
+		for (String prop : toIncrement){
+			Long result = (Long) achievementEntity.getProperty(prop);
+			if (result != null){
+				result++;
+				changed = true;
+				achievementEntity.setUnindexedProperty(prop, result);
+			}
+		}
+		if (changed){
+			checkForNewAchievements(achievementEntity);
+			datastore.put(achievementEntity);
+		}
 	}
 }

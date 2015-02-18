@@ -5,8 +5,11 @@ import java.util.List;
 import java.util.UUID;
 
 import calculus.models.Content;
+import calculus.models.Notification;
 import calculus.models.Report;
+import calculus.utilities.Settings;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -20,6 +23,7 @@ import com.google.appengine.api.users.User;
 public class ReportAPI {
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public static void fileReport(User user, String contentUuid, String reason){
 		
@@ -36,7 +40,7 @@ public class ReportAPI {
 		entity.setProperty("reportUuid", uuid);
 		entity.setProperty("reportedAt", time);
 		
-		datastore.put(entity);
+		asyncDatastore.put(entity);
 	}
 	
 	public static void deleteReport(String reportUuid) {
@@ -48,7 +52,7 @@ public class ReportAPI {
 		} catch (EntityNotFoundException e) {
 			// If it doesn't exist, we don't need to set it visible.
 		}
-		datastore.delete(reportKey);
+		asyncDatastore.delete(reportKey);
 	}
 
 	public static List<Report> getAllOpenReports() {
@@ -79,16 +83,76 @@ public class ReportAPI {
 		try {
 			Entity report = datastore.get(reportKey);
 			String contentUuid = (String) report.getProperty("contentUuid");
-			datastore.delete(KeyFactory.createKey("Content", contentUuid));
+			String reporterUserId = (String) report.getProperty("reporterUserId");
+			sendSuccessfulReportNotifications(reporterUserId, contentUuid);
+			asyncDatastore.delete(KeyFactory.createKey("Content", contentUuid));
 		} catch (EntityNotFoundException e) {
 			// No need to delete it if it does not exist!
 		}
-		datastore.delete(reportKey);
+		asyncDatastore.delete(reportKey);
 	}
 
-	public static void flagReporterForAbuse(String reportUuid) {
+	private static void sendSuccessfulReportNotifications(String reporterUserId, String contentUuid) {
+		
+		String authorUserId = ContentAPI.getContentAuthorId(contentUuid);
+		String authorUsername = UserPublicInfoAPI.getUsername(authorUserId);
+		
+		// SENDS THE REPORTER THE NOTIFICATION
+		String title = "Thank You For Your Report!";
+		String body = "Your report of " + authorUsername + "'s Content led to the content being taken down.";
+		
+		Notification toSend = new Notification()
+			.withRecipientId(reporterUserId)
+			.withTimeNow()
+			.withTitle(title)
+			.withBody(body)
+			.withUrl("/user/" + authorUserId)
+			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withImageUrl("/_static/img/IntegralAdmin.png")
+			.withColor("success");
+		
+		// SENDS THE AUTHOR THE NOTIFICATION 
+		String title2 = "Your Content Was Taken Down";
+		String body2 = "A piece of your content was taken down. If this happens again, you may be banned from the site. Please contact us if you think this was in error.";		
+		
+		Notification toSend2 = new Notification()
+			.withRecipientId(authorUserId)
+			.withTimeNow()
+			.withColor("danger")
+			.withImageUrl("/_static/img/IntegralAdmin.png")
+			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withUrl("/user/" + authorUserId)
+			.withTitle(title2)
+			.withBody(body2);
+		
+		NotificationsAPI.sendNotification(toSend);
+		NotificationsAPI.sendNotification(toSend2);
+		
+		// GIVES THE REPORTER AN ACHIEVEMENT FOR THEIR REPORT
+		AchievementsAPI.reporterAchievement(reporterUserId);
+		
+	}
+
+	public static void flagReporterForAbuse(String reporterUserId, String contentUuid) {
+		
+		String authorUserId = ContentAPI.getContentAuthorId(contentUuid);
+		String authorUsername = UserPublicInfoAPI.getUsername(authorUserId);
+		
+		String title = "Be More Careful in What You Report!";
+		String body = "Your report of " + authorUsername + "'s Content was found to not need removal. If you think this was in error, please contact us.";
+		
+		Notification toSend = new Notification()
+			.withRecipientId(reporterUserId)
+			.withTimeNow()
+			.withTitle(title)
+			.withBody(body)
+			.withUrl("/content/" + contentUuid)
+			.withAssociatedUserId(Settings.ADMIN_USER_ID)
+			.withImageUrl("/_static/img/IntegralAdmin.png")
+			.withColor("danger");
+		
 		// Send a message to the User, Scolding them
-		// Send a message to the reporter, Thanking them
+		NotificationsAPI.sendNotification(toSend);
 	}
 	
 }
