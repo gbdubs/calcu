@@ -1,7 +1,13 @@
 package calculus.utilities;
 
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
 import calculus.api.ContentAPI;
 import calculus.models.Content;
+import calculus.models.Notification;
 
 public class MenuItem {
 	private String url;
@@ -79,4 +85,31 @@ public class MenuItem {
 	public String getPercentage(){
 		return this.percentage;
 	}
+
+	public String toJson(){
+        Gson gson = new Gson();
+        return gson.toJson(this).toString();
+	}
+	
+	public static MenuItem fromJson(String s){
+		JsonParser parser = new JsonParser();
+		JsonElement result = parser.parse(s);
+		JsonObject object = result.getAsJsonObject();
+		
+		String url = object.get("url").getAsString();
+		String uuid = object.get("uuid").getAsString();
+		String title = object.get("title").getAsString();
+		String description = object.get("description").getAsString();
+		String time = object.get("time").getAsString();
+		String percentage = object.get("percentage").getAsString();
+		String icon = object.get("icon").getAsString();
+		String color = object.get("color").getAsString();
+		String image = object.get("image").getAsString();
+		
+		MenuItem toReturn = new MenuItem(url, uuid, title, description, time, percentage, color, icon, image);
+		
+		return toReturn;
+	}
+
+
 }

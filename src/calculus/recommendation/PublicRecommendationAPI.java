@@ -9,13 +9,18 @@ import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.models.Content;
+import calculus.models.Notification;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.MenuItem;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 
 public class PublicRecommendationAPI {
@@ -23,10 +28,49 @@ public class PublicRecommendationAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static List<MenuItem> getUserRecommendations (String userId, int n) {
+		Key key = KeyFactory.createKey("Recommendations", userId);
+		Entity recEntity;
+		try {
+			recEntity = datastore.get(key);
+			List<Text> jsonRecommendations = (List<Text>) recEntity.getProperty("jsonMenuItems");
+			if (jsonRecommendations != null){
+				List<MenuItem> results = new ArrayList<MenuItem>();
+				for(int i = 0; i < n && i < jsonRecommendations.size(); i++){
+					String json = jsonRecommendations.get(i).getValue();
+					MenuItem mi = MenuItem.fromJson(json);
+					results.add(mi);
+				}
+				return results;
+			}
+		} catch (EntityNotFoundException e) {
+			
+		}
+		List<MenuItem> recommendations = getUserRecommendationsManually(userId);
+		try {
+			recEntity = datastore.get(key);
+		} catch (EntityNotFoundException e) {
+			recEntity = new Entity(key);
+		}	
+		List<Text> jsonRepresentations = new ArrayList<Text>();
+		for(MenuItem mi : recommendations){
+			jsonRepresentations.add(new Text(mi.toJson()));
+		}
+		recEntity.setUnindexedProperty("jsonMenuItems", jsonRepresentations);
+		datastore.put(recEntity);
+		
+		List<MenuItem> results = new ArrayList<MenuItem>();
+		for(int i = 0; i < n && i < recommendations.size(); i++){
+			results.add(recommendations.get(i));
+		}
+		
+		return results;
+	}
+	
+	public static List<MenuItem> getUserRecommendationsManually (String userId) {
 		List<MenuItem> result = new ArrayList<MenuItem>();
 		List<String> contentUuids = MasterRecommendationsAPI.getRecommendations(userId);
 		int maxPercentage = Math.min(Math.max(50, contentUuids.size()), 95);
-		for(int i = 0; i < contentUuids.size() && i < n; i++){
+		for(int i = 0; i < contentUuids.size(); i++){
 			String uuid = contentUuids.get(i);
 			try {
 				Content content = new Content(uuid);
