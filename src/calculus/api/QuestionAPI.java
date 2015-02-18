@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.Question;
+import calculus.utilities.Cleaner;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -42,11 +43,16 @@ public class QuestionAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.cleanHtml(title);
 		if (title == null || title == "") title = "[Un-named Question]";
+		
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
 		Text wrappedBody = new Text(body);
+		
 		String tags = req.getParameter("tagsInput");
+		tags = Cleaner.cleanHtml(tags);
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
@@ -89,11 +95,16 @@ public class QuestionAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.cleanHtml(title);
 		if (title == null || title == "") title = "[Un-named Question]";
+		
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";	
 		Text wrappedBody = new Text(body);
+		
 		String tags = req.getParameter("tagsInput");
+		tags = Cleaner.cleanHtml(tags);
 		
 		entity.setProperty("createdAt", time);
 		entity.setUnindexedProperty("title", title);
@@ -143,8 +154,11 @@ public class QuestionAPI {
 		return null;
 	}
 
-	public static String createNewQuestionFromUpload(String title, String body,
-			String tags, String site) {
+	public static String createNewQuestionFromUpload(String title, String body, String tags, String site) {
+		
+		body = Cleaner.cleanHtml(body);
+		title = Cleaner.cleanHtml(title);
+		tags = Cleaner.cleanHtml(tags);
 		
 		String uuid = UUID.randomUUID().toString();
 		long time = System.currentTimeMillis();

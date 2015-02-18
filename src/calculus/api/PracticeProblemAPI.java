@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
+import calculus.utilities.Cleaner;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -69,15 +70,22 @@ public class PracticeProblemAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.cleanHtml(title);
 		if (title == null || title == "") title = "[Un-named Problem]";
+		
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
 		Text wrappedBody = new Text(body);
+		
 		String authorSolution = (String) req.getParameter("authorSolution");
+		authorSolution = Cleaner.cleanHtml(authorSolution);
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
 		Text wrappedAuthorSolution = new Text(authorSolution);
+		
 		String tags = req.getParameter("tagsInput");
-			
+		tags = Cleaner.cleanHtml(tags);
+		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
 		entity.setUnindexedProperty("uuid", uuid);
@@ -118,15 +126,22 @@ public class PracticeProblemAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.cleanHtml(title);
 		if (title == null || title == "") title = "[Un-named Problem]";
+		
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
 		Text wrappedBody = new Text(body);
+		
 		String authorSolution = (String) req.getParameter("authorSolution");
+		authorSolution = Cleaner.cleanHtml(authorSolution);
 		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
 		Text wrappedAuthorSolution = new Text(authorSolution);
+		
 		String tags = req.getParameter("tagsInput");
-	
+		tags = Cleaner.cleanHtml(tags);
+		
 		entity.setProperty("createdAt", dateAndTime);
 		entity.setUnindexedProperty("title", title);
 		entity.setUnindexedProperty("body", wrappedBody);
@@ -174,8 +189,12 @@ public class PracticeProblemAPI {
 		return null;
 	}
 
-	public static String createNewPracticeProblemFromUpload(String title,
-			String body, String solution, String tags, String solutionLink, String site) {
+	public static String createNewPracticeProblemFromUpload(String title, String body, String solution, String tags, String solutionLink, String site) {
+		
+		title = Cleaner.cleanHtml(title);
+		body = Cleaner.cleanHtml(body);
+		solution = Cleaner.cleanHtml(solution);
+		tags = Cleaner.cleanHtml(tags);
 		
 		String uuid = UUID.randomUUID().toString();
 		long time = System.currentTimeMillis();

@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
 import calculus.models.TextContent;
+import calculus.utilities.Cleaner;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -34,12 +35,14 @@ public class TextContentAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.cleanHtml(title);
 		if (title == null || title == "") title = "[Un-named Text Content]";
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[No body was provided for this Content]";
 		Text wrappedBody = new Text(body);
 		String tags = req.getParameter("tagsInput");
-		
+		tags = Cleaner.cleanHtml(tags);
 
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
@@ -81,11 +84,14 @@ public class TextContentAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.cleanHtml(title);
 		if (title == null || title == "") title = "[Un-named Text Context]";
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[No body was provided for this Content]";	
 		Text wrappedBody = new Text(body);
 		String tags = req.getParameter("tagsInput");
+		tags = Cleaner.cleanHtml(tags);
 		
 		entity.setProperty("createdAt", time);
 		entity.setUnindexedProperty("title", title);
