@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.AchievementsAPI;
+import calculus.api.KarmaAPI;
 import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
@@ -44,6 +46,7 @@ public class PersonalizeServlet extends HttpServlet {
 		}
 		
 		int stepNumber = getStepNumber(uri);
+		String userId = user.getUserId();
 		
 		if (stepNumber == -1){
 			resp.sendRedirect("/personalize/landing");
@@ -54,6 +57,9 @@ public class PersonalizeServlet extends HttpServlet {
 		req.setAttribute("stepNumber", stepNumber);
 		resp.setContentType("text/html");
 		if (stepNumber == 16){
+			String[] properties = {"personalized"};
+			AchievementsAPI.incrementUserStats(userId, properties);
+			KarmaAPI.incrementUserKarmaForPersonalization(userId);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/complete.jsp");	
 			jsp.forward(req, resp);
 			return;

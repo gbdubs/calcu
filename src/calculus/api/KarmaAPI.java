@@ -99,6 +99,17 @@ public class KarmaAPI {
 		incrementUserKarma(answererId, differential);
 	}
 	
+	public static void incrementUserKarmaForPersonalization(String userId) {
+		int differential = 7;
+		
+		Entity karmaProfile = getUserKarmaProfile(userId);
+		karmaProfile.setUnindexedProperty("karmaFromApprovedAnswers", intValue(karmaProfile, "karmaFromApprovedAnswers") + differential);
+		datastore.put(karmaProfile);
+		
+		// Updates the "UserPublicInfo" entity
+		incrementUserKarma(userId,differential);
+	}
+
 	private static void incrementUserKarma(String userId, int differential) {
 		Entity userPublicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo(userId);
 		
