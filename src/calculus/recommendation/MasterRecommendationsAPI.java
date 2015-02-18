@@ -104,7 +104,7 @@ public class MasterRecommendationsAPI {
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
 		for(String similarUser : similarUsers){
-			List<String> bookmarks = BookmarksAPI.getUserBookmarks(similarUser);
+			List<String> bookmarks = BookmarksAPI.getUserBookmarkUuids(similarUser);
 			List<String> wellRated = HelpfulContentAPI.getHelpfulContent(similarUser);
 			for (String b : bookmarks){
 				increment(mapping, b);

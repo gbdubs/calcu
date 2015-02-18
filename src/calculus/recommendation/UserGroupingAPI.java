@@ -20,7 +20,7 @@ public class UserGroupingAPI {
 	private static List<String> getUsersBookmarks(Collection<String> userIds){
 		Map<String, Integer> result = new HashMap<String, Integer>();
 		for (String userId : userIds){
-			List<String> userBookmarks = BookmarksAPI.getUserBookmarks(userId);
+			List<String> userBookmarks = BookmarksAPI.getUserBookmarkUuids(userId);
 			for (String bookmark : userBookmarks){
 				if (result.containsKey(bookmark)){
 					result.put(bookmark, result.get(bookmark) + 1);

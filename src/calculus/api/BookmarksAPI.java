@@ -9,66 +9,59 @@ import calculus.models.Content;
 import calculus.utilities.MenuItem;
 import calculus.utilities.UrlGenerator;
 
-import com.google.appengine.api.datastore.DatastoreService;
-import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.EntityNotFoundException;
-import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 
 public class BookmarksAPI {
-
-	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static void addBookmarkForUser(String contentUuid, String userId){
-		List<String> bookmarks = UserPrivateInfoAPI.getBookmarkUuids(userId);
-		if (!bookmarks.contains(contentUuid)){
-			bookmarks.add(contentUuid);
-			UserPrivateInfoAPI.setBookmarkUuids(userId, bookmarks);
+		List<String> uuids = UserPrivateInfoAPI.getBookmarkUuids(userId);
+		List<Text> jsons = UserPrivateInfoAPI.getBookmarkJsons(userId);
+		
+		if (!uuids.contains(contentUuid)) {
+			try {
+				String jsonRepresentation = new MenuItem(new Content(contentUuid)).toJson();
+				uuids.add(contentUuid);
+				jsons.add(new Text(jsonRepresentation));
+				UserPrivateInfoAPI.setBookmarks(userId, uuids, jsons);
+			} catch (EntityNotFoundException e) {
+				// We needn't do anything if the bookmark points to content that does not exist!
+			}	
 		}
 	}
 	
 	public static void deleteBookmarkForUser(String contentUuid, String userId){
-		List<String> bookmarks = UserPrivateInfoAPI.getBookmarkUuids(userId);
-		if (bookmarks.contains(contentUuid)){
-			bookmarks.remove(contentUuid);
-			UserPrivateInfoAPI.setBookmarkUuids(userId, bookmarks);
+		List<String> uuids = UserPrivateInfoAPI.getBookmarkUuids(userId);
+		List<Text> jsons = UserPrivateInfoAPI.getBookmarkJsons(userId);
+		
+		if (uuids.contains(contentUuid)) {
+			int index = uuids.indexOf(contentUuid);
+			uuids.remove(contentUuid);
+			jsons.remove(index);
+			UserPrivateInfoAPI.setBookmarks(userId, uuids, jsons);
 		}
 	}
 
 	public static void addUserBookmarksToRequest(HttpServletRequest req, User user){
 		
 		if (user != null){
-			List<String> bookmarks = (List<String>) UserPrivateInfoAPI.getBookmarkUuids(user.getUserId());
+			List<String> bookmarkUuids = (List<String>) UserPrivateInfoAPI.getBookmarkUuids(user.getUserId());
+			List<Text> bookmarkJsons = (List<Text>) UserPrivateInfoAPI.getBookmarkJsons(user.getUserId());
+			
 			List<MenuItem> bookmarksToDisplay = new ArrayList<MenuItem>();
-			List<String> bookmarkUuids = new ArrayList<String>();
-			if (bookmarks != null){
+			if (bookmarkJsons != null){
 				// Traversing through backwards to put bookmarks in their most recent order
-				for(int i = bookmarks.size() - 1; i >= 0; i--){
-					String b = bookmarks.get(i);
-					String contentType = "";
-					try {
-						contentType = ContentAPI.getContentType(b);
-					} catch (EntityNotFoundException e1) {
-						// TODO: Skip?
-					}
-					if (contentType != null){
-					Content c;
-						try {
-							c = new Content(datastore.get(KeyFactory.createKey("Content", b)), contentType);
-							if (c.getViewable() && c.getSubmitted()){
-								bookmarksToDisplay.add(new MenuItem(c));
-								bookmarkUuids.add(c.getUuid());
-							}
-						} catch (EntityNotFoundException e) {
-							// TODO Skip?
-						}
-					}
+				for(int i = bookmarkJsons.size() - 1; i >= 0; i--){
+					String json = bookmarkJsons.get(i).getValue();
+					MenuItem toAdd = MenuItem.fromJson(json);
+					bookmarksToDisplay.add(toAdd);
 				}
 			} 
-			if (bookmarks == null || bookmarks.size() < 0){
+			if (bookmarkJsons == null){
 				String profileBookmarksUrl = UrlGenerator.profileUrl(user) + "#bookmarks";
 				bookmarksToDisplay.add(new MenuItem(
-						profileBookmarksUrl, "", "You don't currently have any bookmarks", "To bookmark some content, when you are on the content page, simply select the options dropdown and click bookmark.", "", "", "info", "fa-lightbulb-o",""
+						profileBookmarksUrl, "", "You don't currently have any bookmarks", "To bookmark some content, when you are on the content page, simply select the empty bookmark icon.", "", "", "info", "fa-lightbulb-o",""
 				));
 			}
 			req.setAttribute("bookmarksMenu", bookmarksToDisplay);
@@ -81,7 +74,7 @@ public class BookmarksAPI {
 		}
 	}
 
-	public static List<String> getUserBookmarks(String userId) {
+	public static List<String> getUserBookmarkUuids(String userId) {
 		return UserPrivateInfoAPI.getBookmarkUuids(userId);
 	}
 }
