@@ -61,6 +61,8 @@ public class ViewContentServlet extends HttpServlet {
 			if (pp.getSubmitted() && pp.getViewable()){
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
+			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
 				PracticeProblemAPI.addPracticeProblemContext(req, pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
@@ -75,6 +77,8 @@ public class ViewContentServlet extends HttpServlet {
 			if (q.getSubmitted() && q.getViewable()){
 				QuestionAPI.addQuestionContext(req, q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
+			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
 				QuestionAPI.addQuestionContext(req, q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
@@ -89,6 +93,8 @@ public class ViewContentServlet extends HttpServlet {
 			if (tc.getSubmitted() && tc.getViewable()){
 				TextContentAPI.addTextContentContext(req, tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
+			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
 				TextContentAPI.addTextContentContext(req, tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");

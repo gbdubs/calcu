@@ -21,7 +21,7 @@ public class ReportContentServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		
 		String contentUuid = UuidTools.getUuidFromUrl(req.getRequestURI());
-		
+
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		
 		String reason = "none";
@@ -30,7 +30,13 @@ public class ReportContentServlet extends HttpServlet {
 		if (req.getParameter("inappropriateContent") != null) reason = "inappropriateContent";
 		if (req.getParameter("proprietaryContent") != null) reason = "proprietaryContent";
 		
-		if (user == null) return;
+		if (user == null){
+			resp.setContentType("text/html");
+			req.setAttribute("pageName", "reporting content");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-requires-login.jsp");	
+			jsp.forward(req, resp);
+			return;
+		}
 		
 		ReportAPI.fileReport(user, contentUuid, reason);
 		
@@ -41,5 +47,4 @@ public class ReportContentServlet extends HttpServlet {
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/content-thanks.jsp");	
 		jsp.forward(req, resp);
 	}
-	
 }

@@ -17,11 +17,13 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 public class Content {
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static UserService userService = UserServiceFactory.getUserService();
 	protected static List<String> FIELDS = new ArrayList<String>();
 	protected static List<String> CONTENT_TYPES = new ArrayList<String>();
 	public static String scrapingUserProfileId = "11481431651082296168";
@@ -241,7 +243,16 @@ public class Content {
 		if (answerUuids == null) return new ArrayList<Answer>();
 		List<Answer> result = new ArrayList<Answer>();
 		for(String uuid : answerUuids){
-			result.add(new Answer(uuid));
+			Answer answer = new Answer(uuid);
+			if (!answer.getViewable()){
+				if (userService.isUserLoggedIn()){
+					if (userService.isUserAdmin()){
+						result.add(answer);
+					}
+				}
+			} else {
+				result.add(answer);
+			}
 		}
 		return result;
 	}

@@ -8,6 +8,14 @@
 		CalcU | Practice Problem
 	</jsp:attribute>
 	<jsp:attribute name="content">
+		<c:if test="${!livePreview && !practiceProblem.viewable}">
+			<div class="box box-solid bg-maroon-gradient">
+				<div class="box-header solid-box-header">
+					<i class="fa fa-eye-slash fa-karma-score hidden-xs"></i>
+					<h3 class="box-title">This Content Is Currently Invisible</h3>
+				</div>
+			</div>
+		</c:if>
 		<c:if test="${livePreview}">
 			<div class="box box-solid bg-yellow-gradient">
 				<div class="box-header solid-box-header">
@@ -200,6 +208,9 @@
 								<i class="fa ${answer.icon} fa-karma-score"><span class="karma-score">  +${answer.karma} </span></i>
 								<h4 class="box-title">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapsePracticeProblemAnswer${loop.index}" class="collapsed">
+										<c:if test="${!answer.viewable}">
+											<i class="fa fa-eye-slash text-red"></i>
+										</c:if>
 										<c:choose>
 											<c:when test="${answer.anonymous}">${answer.title} <small> written on ${answer.shortReadableTime}</small></c:when>
 											<c:otherwise>${answer.title} <small> by ${answer.author.username} on ${answer.shortReadableTime}</small></c:otherwise>
@@ -321,7 +332,6 @@
 		</c:if>
 	
 		<script src="/_static/js/CalcU/practiceProblem.js"></script>
-		
 		<script src="/_static/js/CalcU/rating-system.js"></script>
 	</jsp:attribute>
 </t:genericpage>

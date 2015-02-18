@@ -133,8 +133,18 @@ public class ReportAPI {
 		
 	}
 
-	public static void flagReporterForAbuse(String reporterUserId, String contentUuid) {
+	public static void flagReporterForAbuse(String reportUuid) {
 		
+		Key reportKey = KeyFactory.createKey("ReportedContent", reportUuid);
+		Entity report;
+		try {
+			report = datastore.get(reportKey);
+		} catch (EntityNotFoundException enfe){
+			return;
+		}
+		
+		String contentUuid = (String) report.getProperty("contentUuid");
+		String reporterUserId = (String) report.getProperty("reporterUserId");
 		String authorUserId = ContentAPI.getContentAuthorId(contentUuid);
 		String authorUsername = UserPublicInfoAPI.getUsername(authorUserId);
 		
@@ -153,6 +163,8 @@ public class ReportAPI {
 		
 		// Send a message to the User, Scolding them
 		NotificationsAPI.sendNotification(toSend);
+		
+		// Deletes the report, and sets the content visible again.
+		deleteReport(reportUuid);
 	}
-	
 }
