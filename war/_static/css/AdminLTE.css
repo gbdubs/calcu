@@ -527,11 +527,11 @@ body > .header .navbar .nav > li > a > .label {
   right: 2px;
   font-size: 10px;
   font-weight: normal;
-  width: 15px;
-  height: 15px;
-  line-height: 1.0em;
+  width: 16px;
+  height: 16px;
+  line-height: 8px;
   text-align: center;
-  padding: 3px 3px 2px 3px;
+  padding: 3px;
 }
 body > .header .navbar .nav > li > a:hover > .label {
   top: 3px;
