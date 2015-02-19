@@ -58,10 +58,11 @@
 				</div>
 				<div class="box-body">
 					<label for="title">Question Title</label>
-					<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="${question.title}">
+					<input type="text" name="title" class="form-control" placeholder="Insert a brief title for your question" value="${question.title}">
 				</div>
 				<div class="box-body pad">
-					<textarea id="body-rich-editor" name="body" class="textarea wysihtml5-beam-me-up" style="width: 100%; max-height: 800px; overflow: auto; border: 1px solid rgb(221, 221, 221); padding: 10px;" placeholder="Insert a description of your question here.">${question.body}</textarea>
+					<label for="title">Question Body</label>
+					<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Insert a description of your question here, make sure to include enough information to make someone with no context understand what you are describing/asking">${question.body}</textarea>
 				</div>
 				<div class="box-body pad">
 					<label for="tags-input">Tags/Categories</label>

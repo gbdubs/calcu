@@ -2,6 +2,10 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="css">
+		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
+	</jsp:attribute>
+	
 	<jsp:attribute name="pageTitle">
 		CalcU | Contribute Practice Problem
 	</jsp:attribute>
@@ -58,8 +62,7 @@
 				</div>
 				<div class="box-body pad">
 					<label for="body">Problem Description</label>
-					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Outline the information nescessary to solve the problem" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${practiceProblem.body}</textarea>
+					<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Outline the information nescessary to solve the problem">${practiceProblem.body}</textarea>
 				</div>
 				<div class="box-body pad">
 					<label for="tags-input">Tags/Categories</label>
@@ -76,8 +79,8 @@
 					</div>
 				</div>
 				<div class="box-body pad">
-					<textarea name="authorSolution" class="textarea no-horizontal-resize" placeholder="Construct your solution here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${practiceProblem.authorSolution}</textarea>
+					<label for="body">Official Solution</label>
+					<textarea name="authorSolution" class="textarea wysihtml5-beam-me-up" placeholder="Construct your solution here">${practiceProblem.authorSolution}</textarea>
 				</div>
 			</div>
 			
@@ -107,6 +110,7 @@
 	</jsp:attribute>
 		
 	<jsp:attribute name="javascript">
+		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
 		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
 	</jsp:attribute>

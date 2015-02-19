@@ -2,6 +2,10 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="css">
+		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
+	</jsp:attribute>
+	
 	<jsp:attribute name="pageTitle">
 		CalcU | Contribute Text Content
 	</jsp:attribute>
@@ -62,8 +66,7 @@
 				</div>
 				<div class="box-body pad">
 					<label for="body">Content Body</label>
-					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Thoroughly and completely describe the narrow subject you have chosen to engage in" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${textContent.body}</textarea>
+					<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Thoroughly and completely describe the narrow subject you have chosen to engage in">${textContent.body}</textarea>
 				</div>
 				<div class="box-body pad">
 					<label for="tags-input">Tags/Categories</label>
@@ -98,6 +101,7 @@
 	</jsp:attribute>
 		
 	<jsp:attribute name="javascript">
+		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
 		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
 	</jsp:attribute>

@@ -280,7 +280,7 @@
 									</div>
 									<div class="box-body pad">
 										<label for="body">Answer Explanation and Response</label>
-										<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+										<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 										<div class="submit-buttons-pull-right">
 											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next">
 										</div>
@@ -296,7 +296,7 @@
 									</div>
 									<div class="box-body pad">
 										<label for="body">Answer Explanation and Response</label>
-										<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Respond to the question asked, explaining, describing, and recommending as nesscessary. Make sure to include calculations, examples, and equations when relevant." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+										<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 										<div class="submit-buttons-pull-right">
 											<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
 											<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
