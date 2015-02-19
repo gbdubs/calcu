@@ -73,12 +73,16 @@ public class ContactServlet extends HttpServlet {
 			}
 		} else {
 			try{
-				
+				User user = UserServiceFactory.getUserService().getCurrentUser();
 				String username = req.getParameter("username");
 				String email = req.getParameter("email");
 				
 				Message message = new MimeMessage(session);
-				message.setFrom(new InternetAddress(email, username));
+				if (user == null || !email.equals(user.getEmail())){
+					message.setFrom(new InternetAddress("mailing@calcu-us.appspot.com", username));
+				} else {
+					message.setFrom(new InternetAddress(email, username));
+				}
 				message.addRecipient(Message.RecipientType.TO, new InternetAddress(Settings.ADMIN_EMAIL));
 				message.addRecipient(Message.RecipientType.CC, new InternetAddress(email));
 				message.setText(messageText);
