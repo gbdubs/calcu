@@ -8,8 +8,9 @@
 		CalcU | Search
 	</jsp:attribute>
 	<jsp:attribute name="content">
-		<div class="box box-solid">
+		<div class="box box-solid box-primary">
 			<div class="box-header">
+				<i class="fa fa-fw fa-search"></i> 
 				<h3 class="box-title">Search By Tag <small>  Finds results that have one or more tags. The highest results will match the most tags.</small></h3>
 			</div>
 			<div class="box-body">

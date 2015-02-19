@@ -15,11 +15,8 @@
 		
 		<div class="box box-solid bg-black-gradient">
 			<div class="box-header">
-				<i class="fa fa-leaf"></i>
-				<h3 class="box-title">Achievements <small class="text-white"> To learn about Achievements, Karma, and Leveling, visit the <a href="/tutorial" class="text-white">Tutorial</a> page </small></h3>
-				<div class="box-tools pull-right">
-					<button class="btn btn-default btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
-				</div>
+				<i class="fa fa-trophy"></i>
+				<h3 class="box-title">Achievements <small class="text-white"> To learn about Achievements, Karma, and Leveling, visit the <a href="/tutorial" class="text-white">Tutorial</a> page</small></h3>
 			</div>
 			<div class="box-body">
 				<div class="row">

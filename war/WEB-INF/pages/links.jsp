@@ -8,7 +8,7 @@
 		CalcU | Links and Support
 	</jsp:attribute>
 	<jsp:attribute name="content">
-		<div class="box box-solid">
+		<div class="box box-solid box-primary">
 			<div class="box-header">
 				<h3 class="box-title">Links and Support <small>  Learning Calculus is difficult, but it can always be made easier</small></h3>
 			</div>

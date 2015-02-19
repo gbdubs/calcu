@@ -2501,6 +2501,10 @@ Component: timeline
     position: absolute !important; 
   }
 }
+
+.box-solid > .box-header > h3 > small {
+	color: white !important;
+}
 /* 
     Page: 404 and 500 error pages
 ------------------------------------

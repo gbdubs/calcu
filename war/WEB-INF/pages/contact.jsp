@@ -7,7 +7,7 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		<form class="box box-primary contact-page-content" action="/submit-contact-form" method="post">
+		<form class="box box-primary box-solid contact-page-content" action="/submit-contact-form" method="post">
 			<div class="box-header">
 				<i class="fa fa-comments"></i>
 				<h3 class="box-title">Suggestions/Feedback</h3>
@@ -53,7 +53,7 @@
 			</div>
 		</form>
 		
-		<div class="box box-success">
+		<div class="box box-success box-solid">
 			<div class="box-header">
 				<i class="fa fa-heart"></i>
 				<h3 class="box-title">Contact</h3>

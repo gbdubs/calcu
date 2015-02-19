@@ -36,7 +36,7 @@
 			</div>
 		</div>
 	
-		<div class="box box-info">
+		<div class="box box-info box-solid">
 			<div class="box-header">
 				<i class="fa fa-info-circle hidden-xs"></i>
 				<h3 class="box-title">Creating Content for CalcU  <small>Read this to become familiar with directions, or click above to jump in!</small></h3>
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		
-		<div class="box box-primary">
+		<div class="box box-primary box-solid">
 			<c:if test="${fn:length(submittedQuestions) == 0 || fn:length(unsubmittedQuestions) > 0}">
 			<div class="box-header">
 				<i class="fa fa-warning hidden-xs"></i>
@@ -123,7 +123,7 @@
 		
 		
 		<c:if test="${fn:length(unsubmittedPracticeProblems) + fn:length(submittedPracticeProblems) > 0}">
-		<div class="box box-success">
+		<div class="box box-success box-solid">
 			<c:if test="${fn:length(unsubmittedPracticeProblems) > 0}">
 			<div class="box-header">
 				<i class="fa fa-warning hidden-xs"></i>
@@ -192,7 +192,7 @@
 		
 		
 		<c:if test="${fn:length(unsubmittedContent) + fn:length(submittedContent) > 0}">
-		<div class="box box-warning">
+		<div class="box box-warning box-solid">
 			<c:if test="${fn:length(unsubmittedContent) > 0}">
 			<div class="box-header">
 				<i class="fa fa-warning hidden-xs"></i>
