@@ -7,6 +7,7 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
+		<div class="main-page-funky-wrapper">
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="box box-solid">
@@ -22,10 +23,10 @@
 									<img style="max-width:100%;" src="/_static/img/welcome-banner.png" alt="First slide">
 								</div>
 								<div class="item">
-									<img style="max-width:100%;" src="/_static/img/learning.png" alt="First slide">
+									<img style="max-width:100%;" src="/_static/img/learning-black.png" alt="First slide">
 								</div>
 								<div class="item">
-									<img style="max-width:100%;" src="/_static/img/scraper.png" alt="First slide">
+									<img style="max-width:100%;" src="/_static/img/scraper-black.png" alt="First slide">
 								</div>
 							</div>
 							<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -40,45 +41,13 @@
 			</div>
 		</div>
 		
-		
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="box box-solid box-primary">
-					<div class="box-header">
-						<h3 class="box-title">A Teacher That Thinks Just Like You</h3>
-						<div class="box-tools pull-right">
-							<button class="btn btn-default btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
-					</div>
-					</div>
-					<div class="box-body">
-						<p>
-							Just like Pandora and Spotify can guess what kind of music you like without knowing anything about music, we provide you with resources that are adapted to the way that you think about mathematics and calculus.  The more that you rate our resources, the better our chances of finding information that will be custom tailored to your style of learning.	</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="box box-solid box-success">
-					<div class="box-header">
-						<h3 class="box-title">An Active Community</h3>
-						<div class="box-tools pull-right">
-							<button class="btn btn-default btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
-						</div>
-					</div>
-					<div class="box-body">
-						<p>
-							CalcU.us brings together a wide range of people, students, teachers, and everyone in between, to share their calculus knowledge, and help others who are in the continuous process of learning.  To single out the best resources, and to give their creators the credit they deserve, we have embedded meaningful reviewing deep into the heart of Calcu.us. </p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 		<div class="row">
 			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
 
 				<div class="small-box bg-purple">
 					<div class="inner">
 						<h3>
-							150,000
+							25
 						</h3>
 						<p>
 							Users
@@ -93,14 +62,14 @@
 				<div class="small-box bg-yellow">
 					<div class="inner">
 						<h3>
-							5,000
+							1,419
 						</h3>
 						<p>
-							Resources
+							Pieces of Content
 						</p>
 					</div>
 					<div class="icon">
-						<i class="fa fa-laptop"></i>
+						<i class="fa fa-newspaper-o"></i>
 					</div>
 				</div>
 			</div>
@@ -108,10 +77,10 @@
 				<div class="small-box bg-aqua">
 					<div class="inner">
 						<h3>
-							90%
+							96%
 						</h3>
 						<p>
-							Satisfaction Rate
+							Active Users
 						</p>
 					</div>
 					<div class="icon">
@@ -123,10 +92,10 @@
 				<div class="small-box bg-red">
 					<div class="inner">
 						<h3>
-							10%
+							76%
 						</h3>
 						<p>
-							Improvment Per Day
+							Show Quantifiable Improvement
 						</p>
 					</div>
 					<div class="icon">
@@ -135,6 +104,33 @@
 				</div>
 			</div>
 		</div>
-	
+		
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="box box-solid bg-blue">
+					<div class="box-header">
+						<h3 class="box-title">A Teacher That Thinks Just Like You</h3>
+					</div>
+					<div class="box-body">
+						<p>
+							Just like Pandora and Spotify can guess what kind of music you like without knowing anything about music, we provide you with resources that are adapted to the way that you think about mathematics and calculus.  The more that you rate our resources, the better our chances of finding information that will be custom tailored to your style of learning.	</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="box box-solid bg-green">
+					<div class="box-header">
+						<h3 class="box-title">An Active Community</h3>
+					</div>
+					<div class="box-body">
+						<p>
+							CalcU.us brings together a wide range of people, students, teachers, and everyone in between, to share their calculus knowledge, and help others who are in the continuous process of learning.  To single out the best resources, and to give their creators the credit they deserve, we have embedded meaningful reviewing deep into the heart of Calcu.us. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		</div>
 	</jsp:attribute>
 </t:genericpage>

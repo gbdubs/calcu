@@ -4224,3 +4224,9 @@ i.hide-recommendation-button.hovered,
 .form-box.form-box-wide{
 	width: 600px;
 }
+
+.main-page-funky-wrapper{
+	margin: -20px -15px;
+	padding: 20px 15px;
+	background: #141414;
+}
