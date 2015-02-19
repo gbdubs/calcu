@@ -43,7 +43,7 @@ public class QuestionAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Question]";
 		
 		String body = (String) req.getParameter("body");
@@ -95,7 +95,7 @@ public class QuestionAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Question]";
 		
 		String body = (String) req.getParameter("body");
@@ -157,7 +157,7 @@ public class QuestionAPI {
 	public static String createNewQuestionFromUpload(String title, String body, String tags, String site) {
 		
 		body = Cleaner.cleanHtml(body);
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		tags = Cleaner.cleanHtml(tags);
 		
 		String uuid = UUID.randomUUID().toString();

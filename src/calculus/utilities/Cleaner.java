@@ -10,8 +10,12 @@ public class Cleaner {
 	//    - Image Tags with http:// or https:// src elements
 	
 	public static String cleanHtml(String original){
-		
 		String result = Jsoup.clean(original, Whitelist.basicWithImages());
+		return result;
+	}
+	
+	public static String autoclave(String original){
+		String result = Jsoup.clean(original, Whitelist.none());
 		return result;
 	}
 	

@@ -35,7 +35,7 @@ public class TextContentAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Text Content]";
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
@@ -84,12 +84,14 @@ public class TextContentAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Text Context]";
+		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[No body was provided for this Content]";	
 		Text wrappedBody = new Text(body);
+		
 		String tags = req.getParameter("tagsInput");
 		tags = Cleaner.cleanHtml(tags);
 		

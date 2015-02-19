@@ -70,7 +70,7 @@ public class PracticeProblemAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Problem]";
 		
 		String body = (String) req.getParameter("body");
@@ -126,7 +126,7 @@ public class PracticeProblemAPI {
 		boolean viewable = submitted;
 		
 		String title = (String) req.getParameter("title");
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Problem]";
 		
 		String body = (String) req.getParameter("body");
@@ -191,7 +191,7 @@ public class PracticeProblemAPI {
 
 	public static String createNewPracticeProblemFromUpload(String title, String body, String solution, String tags, String solutionLink, String site) {
 		
-		title = Cleaner.cleanHtml(title);
+		title = Cleaner.autoclave(title);
 		body = Cleaner.cleanHtml(body);
 		solution = Cleaner.cleanHtml(solution);
 		tags = Cleaner.cleanHtml(tags);

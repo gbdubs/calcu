@@ -9,6 +9,7 @@ import calculus.contribute.ContributeAnswerServlet;
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.Notification;
+import calculus.utilities.Cleaner;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -63,8 +64,11 @@ public class AnswersAPI {
 		boolean viewable = true;
 		
 		String title = (String) req.getParameter("title");
+		title = Cleaner.autoclave(title);
 		if (title == null || title == "") title = "[Un-named Answer]";
+		
 		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
 		if (body == null || body == "") body = "[The Author has opted to leave the answer blank, becuase they think it is self evident]";
 		Text wrappedBody = new Text(body);		
 		
