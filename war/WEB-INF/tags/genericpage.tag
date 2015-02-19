@@ -250,20 +250,24 @@
 <c:if test="${mustConsent}">
 	<div id="affirm-consent-modal">
 		<div class="opaque-screen"></div>
-		<div class="form-box" id="login-box">
+		<div class="form-box form-box-wide" id="login-box">
 		    <div class="header">Affirming Participation</div>
 		    <div class="body bg-gray">
 		        <p class="modal-paragraph">
-		            <span class="fa-stack fa-lg pull-left fa-fw google-paragraph-indent">
-		                <i class="fa fa-square-o fa-stack-2x"></i>
-		                <i class="fa fa-google fa-stack-1x"></i>
-		            </span>
-	                DO YA CONSENT?
+		            The purpose of this website is two fold. The first goal is to make learning calculus easier. The second is
+		            to better understand how people learn, and try to recommend users the best content for their current state
+		            of knowledge. Because of this goal, we will need to record information about your actions on the site. This
+		            will include what you bookmark, what you view, what you search, what you submit, etc. Additionally, we will
+		            occasionally be running experiements on all users to test how effective new features are. Hopefully, this data
+		            will be used in scientific studies, and other forms of academic research. However, <b>none of the data
+		            that we keep on you can or will ever be associated with your email, name, or any other identifying information.</b>
+		            If you choose not to agree to these terms of service, you will still be able to access a very limited range
+		            of features of the site.
 	            </p>
 		    </div>
 	        <div class="footer">
 	            <a href="${logoutUrl}" type="submit" class="btn btn-danger btn-block">Continue Without Logging In</a>
-	            <button class="btn btn-success btn-block affirm-consent-button" data-user="${user.userId}">I Have Read and Agree To the Above</button>
+	            <button class="btn btn-success btn-block affirm-consent-button" data-user="${user.userId}">I Have Read and Agree To the Above, Lets Go!</button>
 	        </div>
 		</div>
 	</div>

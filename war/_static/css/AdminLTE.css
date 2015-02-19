@@ -2489,8 +2489,16 @@ Component: timeline
   border-bottom-left-radius: 4px;
 }
 @media (max-width: 767px) {
+  .form-box-wide.form-box,
   .form-box {
-    width: 90%;
+    width: 90% !important;
+  }
+}
+
+@media (max-height: 700px) {
+  .form-box-wide.form-box,
+  .form-box {
+    position: absolute !important; 
   }
 }
 /* 
@@ -4208,4 +4216,7 @@ i.hide-recommendation-button.hovered,
 	border: 1px solid rgb(221, 221, 221); 
 	padding: 10px;
 }
+
+.form-box.form-box-wide{
+	width: 600px;
 }
