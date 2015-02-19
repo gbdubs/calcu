@@ -1,0 +1,52 @@
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="createdAt" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="karma" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 15 times in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="creatorUserId" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="createdAt" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 15 times in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="anonymous" direction="asc"/>
+        <property name="contentType" direction="asc"/>
+        <property name="creatorUserId" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="createdAt" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 6 times in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="contentType" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="creatorUserId" direction="asc"/>
+        <property name="createdAt" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="creatorUserId" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
+        <property name="createdAt" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
