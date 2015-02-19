@@ -183,7 +183,7 @@
 								<jsp:param name="userIsAuthor" value="${user.userId == question.creatorUserId}" />
 								<jsp:param name="alreadyRated" value="${question.alreadyRatedByCurrentUser}"/>
 							</jsp:include>
-							<span class="preserve-line-formatting">${question.body}</span>
+							<span class="">${question.body}</span>
 						</div>
 					</div>
 					<c:forEach items="${question.answers}" var="answer" varStatus="loop">

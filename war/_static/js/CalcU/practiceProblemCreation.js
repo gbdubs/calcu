@@ -8,4 +8,6 @@ $(function() {
     	'removeWithBackspace': true,
     });
     
+    
+    $(".wysihtml5-beam-me-up").wysihtml5();
 });

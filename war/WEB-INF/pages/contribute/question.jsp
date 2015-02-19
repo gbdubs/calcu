@@ -2,6 +2,10 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	<jsp:attribute name="css">
+		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
+	</jsp:attribute>
+
 	<jsp:attribute name="pageTitle">
 		CalcU | Contribute Question
 	</jsp:attribute>
@@ -57,9 +61,7 @@
 					<input type="text" name="title" class="form-control" placeholder="Insert a brief description of your problem" value="${question.title}">
 				</div>
 				<div class="box-body pad">
-					<label for="body">Question Description</label>
-					<textarea  name="body" class="textarea no-horizontal-resize" placeholder="Outline the question thoroughly, but try not to make your description overly involved" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"
-					>${question.body}</textarea>
+					<textarea id="body-rich-editor" name="body" class="textarea wysihtml5-beam-me-up" style="width: 100%; max-height: 800px; overflow: auto; border: 1px solid rgb(221, 221, 221); padding: 10px;" placeholder="Insert a description of your question here.">${question.body}</textarea>
 				</div>
 				<div class="box-body pad">
 					<label for="tags-input">Tags/Categories</label>
@@ -96,5 +98,6 @@
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
 		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
+		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 	</jsp:attribute>
 </t:genericpage>
