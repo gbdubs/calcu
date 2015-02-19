@@ -314,7 +314,7 @@
 		<c:if test="${difficultyCalibration}">
 			<script src="/_static/js/CalcU/personalize-difficulty.js"></script>
 		</c:if>
-	
+		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 		<script src="/_static/js/CalcU/question.js"></script>
 		<script src="/_static/js/CalcU/rating-system.js"></script>
 	</jsp:attribute>

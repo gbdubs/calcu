@@ -40,4 +40,5 @@ $(function() {
     
     $(".remove-bookmark-button").click(removeBookmarkOnClick);
     
+    $(".wysihtml5-beam-me-up").wysihtml5();
 });

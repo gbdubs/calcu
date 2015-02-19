@@ -7,7 +7,6 @@ $(function() {
     	'defaultText': 'To Add Tag, Press Enter',
     	'removeWithBackspace': true,
     });
-    
-    
+     
     $(".wysihtml5-beam-me-up").wysihtml5();
 });
