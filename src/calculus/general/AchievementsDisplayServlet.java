@@ -35,6 +35,9 @@ public class AchievementsDisplayServlet extends HttpServlet {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 			finishedAchievements.addAll(AchievementsAPI.getUserAchievements(user.getUserId()));
 			unfinishedAchievements.removeAll(finishedAchievements);
+			
+			finishedAchievements.addAll(unfinishedAchievements);
+			unfinishedAchievements.removeAll(unfinishedAchievements);
 		} else {
 			unfinishedAchievements.addAll(AchievementsAPI.getAllAchievements());
 		}

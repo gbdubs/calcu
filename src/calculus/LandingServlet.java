@@ -13,12 +13,11 @@ import calculus.api.UserContextAPI;
 @SuppressWarnings("serial")
 public class LandingServlet extends HttpServlet {
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		UserContextAPI.addUserContextToRequest(req, "/home");
 		
-		req.setAttribute("ad", true);
+		req.setAttribute("ad", false);
 		resp.setContentType("text/html");
 		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/landing.jsp");
