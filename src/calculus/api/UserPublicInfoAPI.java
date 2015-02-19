@@ -152,4 +152,10 @@ public class UserPublicInfoAPI {
 		}
 		return result;
 	}
+
+	public static void affirmConsent(String userId) {
+		Entity userPublicInfo = getOrCreateMyPublicInfo();
+		userPublicInfo.setUnindexedProperty("affirmedConsent", System.currentTimeMillis());
+		datastore.put(userPublicInfo);
+	}
 }

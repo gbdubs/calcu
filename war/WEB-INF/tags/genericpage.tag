@@ -247,6 +247,28 @@
 	</div>
 </div>
 
+<c:if test="${mustConsent}">
+	<div id="affirm-consent-modal">
+		<div class="opaque-screen"></div>
+		<div class="form-box" id="login-box">
+		    <div class="header">Affirming Participation</div>
+		    <div class="body bg-gray">
+		        <p class="modal-paragraph">
+		            <span class="fa-stack fa-lg pull-left fa-fw google-paragraph-indent">
+		                <i class="fa fa-square-o fa-stack-2x"></i>
+		                <i class="fa fa-google fa-stack-1x"></i>
+		            </span>
+	                DO YA CONSENT?
+	            </p>
+		    </div>
+	        <div class="footer">
+	            <a href="${logoutUrl}" type="submit" class="btn btn-danger btn-block">Continue Without Logging In</a>
+	            <button class="btn btn-success btn-block affirm-consent-button" data-user="${user.userId}">I Have Read and Agree To the Above</button>
+	        </div>
+		</div>
+	</div>
+</c:if>
+
 <c:if test="${ad == true}">
 	<div class="ad" style="display: block;">
 		<span id="close-ad"><i class="fa fa-times"></i> Close Ad</span>
@@ -276,6 +298,9 @@
 <script src="/_static/js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
 <!-- AdminLTE App -->
 <script src="/_static/js/AdminLTE/app.js" type="text/javascript"></script>
+
+<!-- CalcU App -->
+<script src="/_static/js/CalcU/app.js" type="text/javascript"></script>
 
 <!-- Any additional Javascript specified in the template -->
 <jsp:invoke fragment="javascript" />

@@ -53,6 +53,7 @@ public class UserContextAPI {
 		String profilePictureUrl = "/_static/img/elephant.png";
 		String profileUrl = "/";
 		String email = "anonymous314159@gmail.com";
+		boolean mustConsent = false;
 		
 		if (user != null){
 			Entity publicInfo = UserPublicInfoAPI.getOrCreateMyPublicInfo(user);
@@ -62,8 +63,12 @@ public class UserContextAPI {
 			profilePictureUrl = (String) publicInfo.getProperty("profilePictureUrl");
 			profileUrl = (String) publicInfo.getProperty("profileUrl");
 			email = (String) publicInfo.getProperty("email");
+			if (publicInfo.getProperty("affirmedConsent") == null){
+				mustConsent = true;
+			}
 		}
 
+		req.setAttribute("mustConsent", mustConsent);
 		req.setAttribute("username", username);
 		req.setAttribute("karma", KarmaDescription.toMediumString(karma));
 		req.setAttribute("profilePictureUrl", profilePictureUrl);

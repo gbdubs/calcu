@@ -404,6 +404,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/recommendations/calculate</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>AffirmConsent</servlet-name>
+		<servlet-class>calculus.AffirmConsentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AffirmConsent</servlet-name>
+		<url-pattern>/affirm-consent</url-pattern>
+	</servlet-mapping>
+	
+	
 	<filter>
 		<filter-name>appstats</filter-name>
         <filter-class>com.google.appengine.tools.appstats.AppstatsFilter</filter-class>
