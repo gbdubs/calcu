@@ -81,7 +81,13 @@
 				</div>
 				<div class="box-body">
 					<p> 
-						legaleze.
+						Thank you for taking the time to create this content! Before you submit, please verify a few quick things:
+						<ul>
+							<li> The work is fully your own, and does not violate the copyright laws of anyone else or any business</li>
+							<li> You are okay with us showing this to the world, and if you submit un-anonymously, it will be associated with your username</li>
+							<li> After submitting you <b>cannot change any aspect of your content again!</b>  For this reason, it is recommended that you save and preview before submitting.</li>
+						</ul>
+						Once you agree to the above, press submit (Or Feel Free to Submit Anonymously)! Thank you for your hard work!
 					</p>
 				
 					<div class="submit-buttons-pull-right">
