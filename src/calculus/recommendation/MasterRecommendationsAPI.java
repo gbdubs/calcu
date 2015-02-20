@@ -104,7 +104,6 @@ public class MasterRecommendationsAPI {
 		RecommendationIndexAPI.updateUserRecommendations(userId);
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
-		System.out.println("SIMILAR USERS " + similarUsers.toString());
 		for(String similarUser : similarUsers){
 			List<String> bookmarks = BookmarksAPI.getUserBookmarkUuids(similarUser);
 			List<String> wellRated = HelpfulContentAPI.getHelpfulContent(similarUser);
@@ -118,9 +117,7 @@ public class MasterRecommendationsAPI {
 		
 		List<String> tags = RecommendationIndexAPI.getRecommendedTags(userId, 20);
 		
-		System.out.println("TAGS: " + tags.toString());
 		List<String> contentFromTags = TagAPI.getUuidsResultsOfMultipleTags(tags, 50, 0);
-		System.out.println("Content FROM TAGS " + contentFromTags.toString());
 		for (String cft : contentFromTags){
 			increment(mapping, cft);
 		}
