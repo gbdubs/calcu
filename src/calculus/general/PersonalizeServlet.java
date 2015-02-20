@@ -59,7 +59,7 @@ public class PersonalizeServlet extends HttpServlet {
 		UserContextAPI.addUserContextToRequest(req, "/personalize");
 		req.setAttribute("stepNumber", stepNumber);
 		resp.setContentType("text/html");
-		if (stepNumber == 16){
+		if (stepNumber == 11){
 			String[] properties = {"personalized"};
 			AchievementsAPI.incrementUserStats(userId, properties);
 			KarmaAPI.incrementUserKarmaForPersonalization(userId);
@@ -68,17 +68,17 @@ public class PersonalizeServlet extends HttpServlet {
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/complete.jsp");	
 			jsp.forward(req, resp);
 			return;
-		} else if (stepNumber > 16 || stepNumber < 0){
+		} else if (stepNumber > 11 || stepNumber < 0){
 			resp.sendRedirect("/personalize/landing");
 		}
-		if (stepNumber % 4 == 1) {
+		if (stepNumber % 3 == 1) {
 			// Interest Recognition
 			Map<String, Boolean> interests = InterestsAPI.getPotentialAndExistingInterests(user.getUserId(), 24);
 			req.setAttribute("interests", interests);
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/interests.jsp");	
 			jsp.forward(req, resp);
 			return;
-		} else if (stepNumber % 3 == 0 && stepNumber != 12) {
+		} else if (stepNumber % 3 == 0 && stepNumber % 2 == 0) {
 			// Difficulty Calibration Practice Problem
 			PracticeProblem pp = PublicRecommendationAPI.getDifficultyCalibrationPracticeProblem(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
@@ -86,7 +86,7 @@ public class PersonalizeServlet extends HttpServlet {
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");	
 			jsp.forward(req, resp);
 			return;
-		} else if (stepNumber == 12) {
+		} else if (stepNumber % 3 == 0 && stepNumber % 2 == 0) {
 			// Difficulty Calibration Question
 			Question q = PublicRecommendationAPI.getDifficultyCalibrationQuestion(user.getUserId());
 			req.setAttribute("difficultyCalibration", true);
@@ -139,7 +139,7 @@ public class PersonalizeServlet extends HttpServlet {
 			String difficulty = req.getParameter("difficulty");
 			float diff = Float.parseFloat(difficulty);
 			SkillsAPI.contentDifficultyPersonalization(userId, contentUuid, diff);
-		} else if (url.contains("/personalize/content-comparison")){
+		} else if (url.contains("/personalize/comparison")){
 			String userId = req.getParameter("userId");
 			String preference = req.getParameter("preferenceCharacter");
 			char preferenceChar = preference.charAt(0);
