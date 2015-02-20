@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.admin.RecalculateRecommendationsServlet;
 import calculus.api.AchievementsAPI;
 import calculus.api.KarmaAPI;
 import calculus.api.TextContentAPI;
@@ -24,6 +25,8 @@ import calculus.recommendation.PhenotypeAPI;
 import calculus.recommendation.PublicRecommendationAPI;
 import calculus.recommendation.SkillsAPI;
 
+import com.google.appengine.api.taskqueue.Queue;
+import com.google.appengine.api.taskqueue.QueueFactory;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -60,6 +63,8 @@ public class PersonalizeServlet extends HttpServlet {
 			String[] properties = {"personalized"};
 			AchievementsAPI.incrementUserStats(userId, properties);
 			KarmaAPI.incrementUserKarmaForPersonalization(userId);
+			Queue queue = QueueFactory.getQueue("calculateRecommendationsQueue");
+			queue.addAsync(RecalculateRecommendationsServlet.updateRecommendationsForUser(userId));
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/personalize/complete.jsp");	
 			jsp.forward(req, resp);
 			return;

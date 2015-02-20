@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
@@ -38,6 +39,24 @@
 					As this feature is at the heart of the Website, please don't hesitate to contact us with 
 					suggestions on how it could be improved. Get After it!
 				</p>
+				
+				<c:if test="${fn:length(recommendationsMenu) == 0}">
+					<div class="box box-solid box-warning">
+						<div class="box-header">
+							<i class="fa fa-street-view"></i>
+							<h3 class="box-title">Not Enough Information To Recommend</h3>
+						</div>
+						<div class="box-body">
+							<p>
+								We don't yet have enough information about you to recommend any new content to you... If you complete the <a href="/personalize">Personalize Activity</a> at least 
+								once, we will have enough information to recommend you some great resources. Feel free to complete it multiple times if you want, and remember that you express
+								interest in anything that you view, bookmark, rate, or comment on. The more you integrate with the site, the better your recommendations will be!
+							</p>
+							<a href="/personalize" class="btn btn-warning btn-block">Personalize Now</a>
+						</div>
+					</div>
+				</c:if>
+				
 				<div class="all-search-results">
 					<c:set var="numPages" value="${1}"/>
 					<div class="search-result-page" id="rec-result-page-1">
