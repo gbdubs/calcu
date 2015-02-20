@@ -48,7 +48,7 @@ public class MasterRecommendationsAPI {
 		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
 		if (hidden == null) hidden = new ArrayList<String>();
 		hidden.add(contentUuid);
-		e.setProperty("hiddenRecommendations", hidden);
+		e.setUnindexedProperty("hiddenRecommendations", hidden);
 		asyncDatastore.put(e);
 	}
 
@@ -101,8 +101,10 @@ public class MasterRecommendationsAPI {
 	}
 
 	private static Entity refreshRecommendationsEntity(String userId){
+		RecommendationIndexAPI.updateUserRecommendations(userId);
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
+		System.out.println("SIMILAR USERS " + similarUsers.toString());
 		for(String similarUser : similarUsers){
 			List<String> bookmarks = BookmarksAPI.getUserBookmarkUuids(similarUser);
 			List<String> wellRated = HelpfulContentAPI.getHelpfulContent(similarUser);
@@ -115,7 +117,10 @@ public class MasterRecommendationsAPI {
 		}
 		
 		List<String> tags = RecommendationIndexAPI.getRecommendedTags(userId, 20);
+		
+		System.out.println("TAGS: " + tags.toString());
 		List<String> contentFromTags = TagAPI.getUuidsResultsOfMultipleTags(tags, 50, 0);
+		System.out.println("Content FROM TAGS " + contentFromTags.toString());
 		for (String cft : contentFromTags){
 			increment(mapping, cft);
 		}

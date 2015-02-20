@@ -62,8 +62,10 @@ public class TagAPI {
 		List<Future<Entity>> futures = new ArrayList<Future<Entity>>();
 		for (String tag : tags){
 			String cleanedTag = tag.toLowerCase().trim();
-			Future<Entity> future = asyncDatastore.get(KeyFactory.createKey("Tag", tag));
-			futures.add(future);
+			if (!cleanedTag.equals("")){
+				Future<Entity> future = asyncDatastore.get(KeyFactory.createKey("Tag", tag));
+				futures.add(future);
+			}
 		}
 		
 		for(Future<Entity> future : futures) {

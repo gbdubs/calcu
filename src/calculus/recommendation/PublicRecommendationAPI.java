@@ -9,7 +9,6 @@ import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.models.Content;
-import calculus.models.Notification;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.MenuItem;
@@ -33,12 +32,15 @@ public class PublicRecommendationAPI {
 		try {
 			recEntity = datastore.get(key);
 			List<Text> jsonRecommendations = (List<Text>) recEntity.getProperty("jsonMenuItems");
+			List<String> hidden = (List<String>) recEntity.getProperty("hiddenRecommendations");
 			if (jsonRecommendations != null){
 				List<MenuItem> results = new ArrayList<MenuItem>();
-				for(int i = 0; i < n && i < jsonRecommendations.size(); i++){
+				for(int i = 0; results.size() < n && i < jsonRecommendations.size(); i++){
 					String json = jsonRecommendations.get(i).getValue();
 					MenuItem mi = MenuItem.fromJson(json);
-					results.add(mi);
+					if (hidden == null || !hidden.contains(mi.getUuid())){
+						results.add(mi);
+					}
 				}
 				return results;
 			}
@@ -50,7 +52,7 @@ public class PublicRecommendationAPI {
 			recEntity = datastore.get(key);
 		} catch (EntityNotFoundException e) {
 			recEntity = new Entity(key);
-		}	
+		}
 		List<Text> jsonRepresentations = new ArrayList<Text>();
 		for(MenuItem mi : recommendations){
 			jsonRepresentations.add(new Text(mi.toJson()));

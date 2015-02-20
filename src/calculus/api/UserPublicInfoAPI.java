@@ -54,6 +54,7 @@ public class UserPublicInfoAPI {
 			userPublicInfo.setUnindexedProperty("profileUrl", profileUrl);
 			userPublicInfo.setUnindexedProperty("email", user.getEmail());
 			userPublicInfo.setUnindexedProperty("phenotype", PhenotypeAPI.DEFAULT_PHENOTYPE);
+			
 			if (user.getEmail().contains("brandeis.edu")){
 				AchievementsAPI.brandeisanAchievement(userId);
 			}
