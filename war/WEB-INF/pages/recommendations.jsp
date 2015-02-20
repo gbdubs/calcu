@@ -38,7 +38,7 @@
 					As this feature is at the heart of the Website, please don't hesitate to contact us with 
 					suggestions on how it could be improved. Get After it!
 				</p>
-				<div>
+				<div class="all-search-results">
 					<c:set var="numPages" value="${1}"/>
 					<div class="search-result-page" id="rec-result-page-1">
 					<c:forEach items="${recommendationsMenu}" var="rec" varStatus="loop">

@@ -57,10 +57,12 @@ $(function() {
     $(".show-all-recommendations").click(showAll);
     
     $(".search-result-page").each(function(){
-    	var parent = $(this).parent(".box-body");
+    	var parent = $(this).parent(".all-search-results");
     	var id = "#" + $(this).attr("id");
     	var tabId = id + "-tab";
+    	console.log("here with tabID : " + tabId);
     	$(tabId, parent).click(function(){
+    		console.log("triggered");
     		$(".search-result-page", parent).each(function(){
     			$(this).addClass("hidden");
     		});
@@ -71,5 +73,4 @@ $(function() {
     		$(this).addClass("selected");
     	});
     });
-
 });
