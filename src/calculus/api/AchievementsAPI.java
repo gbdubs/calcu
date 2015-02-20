@@ -184,6 +184,14 @@ public class AchievementsAPI {
 		}
 	}
 
+	public static boolean hasUserPersonalized(String userId){
+		Entity e = getUserAchievementEntity(userId);
+		Long l = (Long) e.getProperty("personalized");
+		if (l == null) return false;
+		if (l <= 0) return false;
+		return true;
+	}
+
 	private static void setUserAchievement(Entity e, String achievementUuid){
 		List<String> achievements = (List<String>) e.getProperty("achievements");
 		if (achievements == null) achievements = new ArrayList<String>();

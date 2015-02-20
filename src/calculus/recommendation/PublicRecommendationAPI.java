@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
@@ -27,6 +28,9 @@ public class PublicRecommendationAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static List<MenuItem> getUserRecommendations (String userId, int n) {
+		if (!AchievementsAPI.hasUserPersonalized(userId)){
+			return new ArrayList<MenuItem>();
+		}
 		Key key = KeyFactory.createKey("Recommendations", userId);
 		Entity recEntity;
 		try {

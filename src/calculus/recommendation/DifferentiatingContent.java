@@ -7,7 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 
 public class DifferentiatingContent {
 	private static Map<String, String> getContentDefinition(int i){
-		System.out.println(i);
+		// Since we have only implemented 3 thus far, only return real results.
+		i = i % 3;
 		
 		Map<String, String> contentDefinition = new HashMap<String, String>();
 		
@@ -81,7 +82,23 @@ public class DifferentiatingContent {
 					"$$=-\\sin(x)\\cos(x)\\stackrel{\\text{nicht 'minus'}}{+}\\int\\cos^2(x)dx=-\\sin(x)\\cos(x)+\\int 1-\\sin^2(x)dx=$$"+
 					"$$=-\\sin(x)\\cos(x)+\\int 1dx -\\int\\sin^2(x)dx=-\\sin(x)\\cos(x)+x-\\int\\sin^2(x)dx$$";
 		} else if (i == 2) {
+			char1 ="c";
+			char2 ="C";
 			
+			title1 = "Explanation With Equations";
+			body1 = "<p>The geometric meaning of the derivative \\)(f'(x)=\\)frac{df(x)}{dx}\\)) is the slope of the line tangent to \\)(y=f(x)\\)) at x.</p>"+
+					"<p>The <B>secant</B> line through P and Q has slope \\)(\\)frac{f(x+\\)Delta x)-f(x)}{(x+\\)Delta x)-x}=\\)frac{f(x+\\)Delta x)-f(x)}{\\)Delta x}.\\))</p>"+
+					"<p>We can approximate the <B>tangent</B> line through P by moving Q towards P, decreasing $\\)Delta x$.  In the limit as \\)(\\)Delta x \\)to 0 \\)), we get the tangent line through P with slope \\)(\\)lim_{\\)Delta x\\)to 0} \\)frac{f(x+\\)Delta x)-f(x)}{\\)Delta x}.\\)) We define \\)(f'(x)=\\)lim_{\\)Delta x\\)to 0}\\)frac{f(x+\\)Delta x)-f(x)^{\\)small\\)textrm{*}}}{\\)Delta x}.\\))</p>"+
+					"<p>\\)(^*\\)) If the limit as \\)(\\)Delta x \\)to 0\\)) at a particular point does not exist, \\)(f'(x)\\)) is undefined at that point.</p>"+
+					"<p>We derive all the basic differentiation formulas using this definition. </p>";
+			
+			title2 = "Conceptual Explanation";
+			body2 = "<p>The derivative measures the steepness of the graph of a function at some particular point on the graph. Thus, the derivative is a slope. (That means that it is a ratio of change in the value of the function to change in the independent variable.)"+
+					"</p><p>If the independent variable happens to be 'time', we often think of this ratio as a rate of change (an example is velocity)"+
+					"</p><p>If we zoom in on the graph of the function at some point so that the function looks almost like a straight line, the derivative at that point is the slope of the line. This is the same as saying that the derivative is the slope of the tangent line to the graph of the function at the given point."+
+					"</p><p>The slope of a secant line (line connecting two points on a graph) approaches the derivative when the interval between the points shrinks down to zero."+
+					"</p><p>The derivative is also, itself, a function: it varies from place to place. For example, the velocity of a car may change from moment to moment as the driver speeds up or slows down.</p>";
+
 		} else if (i == 3) {
 			
 		} else if (i == 4) {
