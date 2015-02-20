@@ -12,7 +12,7 @@
 		<div class="box box-success box-solid">
 			<div class="box-header">
 				<i class="fa fa-flag-checkered"></i>
-				<h3 class="box-title">You have Completed a 15 Step Personalization Process!</h3>
+				<h3 class="box-title">You have Completed a 10 Step Personalization Process!</h3>
 			</div>
 			<div class="box-body">
 				<p>

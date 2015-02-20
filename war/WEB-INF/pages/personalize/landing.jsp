@@ -29,7 +29,7 @@
 					for the better.
 				</p>
 				<p>
-					Each time you take the personalization exercise, you will be given 15 questions. Some things you
+					Each time you take the personalization exercise, you will be given 10 questions. Some things you
 					will likely run in to:
 				</p>
 				<ul>

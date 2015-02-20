@@ -41,7 +41,7 @@ public class DifferentiatingContent {
 			title2 = "Chain Rule Example";
 			body2 = "<p>Let \\(f(x)=6x + 3\\) and \\(g(x)=-2x+5\\).  Use the chain rule to calculate \\(h'(x)\\), where \\(h(x)=f(g(x))\\).</p>" +
 
-					"<p><b>Solution</b>:  The derivatives of $f$ and $g$ are "+
+					"<p><b>Solution</b>:  The derivatives of \\(f\\) and \\(g\\) are "+
 					"\\begin{align*}"+
 					"  f'(x)&=6\\\\"+
 					"  g'(x)&=-2."+
@@ -54,19 +54,19 @@ public class DifferentiatingContent {
 					"\\end{align*}"+
 					"</p>"+
 					
-					"<p>Since the functions were linear, this example was trivial.  Even though we had to evaluate $f'$ at $g(x)=-2x+5$, that didn't make a difference since $f'=6$ not matter what its input is.  Moveover, in this case, if we calculate $h(x)$,"+
+					"<p>Since the functions were linear, this example was trivial.  Even though we had to evaluate \\(f'\\) at \\(g(x)=-2x+5\\), that didn't make a difference since \\(f'=6\\) not matter what its input is.  Moveover, in this case, if we calculate \\(h(x)\\),"+
 					"\\begin{align*}"+
 					"  h(x) &= f(g(x))\\\\"+
 					"  &= f(-2x+5)\\\\"+
 					"  &= 6(-2x+5)+3\\\\"+
 					"  &= -12x+30+3 = -12x + 33,"+
 					"\\end{align*}"+
-					"then we can quite easily calculate its derivative directly to obtain that $h'(x)=-12$.</p>";
+					"then we can quite easily calculate its derivative directly to obtain that \\(h'(x)=-12\\).</p>";
 		} else if (i == 1) {
 			char1 ="b";
 			char2 ="B";
 			
-			title1 = "Special Solution to \\(sin(x)^2\\)";
+			title1 = "Special Solution to \\(\\int \\sin ^2 (x)\\)";
 			body1 = "<p>Step 1"+
 					"</p><p>Use the half angle formula, \\(sin^2(x) = 1/2*(1 - cos(2x))\\) and substitute into the integral so it becomes 1/2 times the integral of \\((1 - cos(2x))\\) dx."+
 					"</p><p>Step 2"+
@@ -77,19 +77,19 @@ public class DifferentiatingContent {
 					"</p><p>Substitute u back into the equation to get \\(1/4*(2x - sin(2x)) + c\\). Simplify to get \\(x/2 - (sin(x))/4 + c\\)."+
 					"</p>";
 			
-			title2 = "General Solution to \\(sin(x)^2\\)";
+			title2 = "General Solution to \\(\\int \\sin ^2 (x)\\)";
 			body2 = "$$\\int\\sin^2(x)dx=\\int \\sin(x)\\sin(x)dx=-\\sin(x)\\cos(x)-\\int -\\cos(x)\\cos(x)dx=$$"+
-					"$$=-\\sin(x)\\cos(x)\\stackrel{\\text{nicht 'minus'}}{+}\\int\\cos^2(x)dx=-\\sin(x)\\cos(x)+\\int 1-\\sin^2(x)dx=$$"+
+					"$$=-\\sin(x)\\cos(x)\\stackrel{\\text{not 'minus'}}{+}\\int\\cos^2(x)dx=-\\sin(x)\\cos(x)+\\int 1-\\sin^2(x)dx=$$"+
 					"$$=-\\sin(x)\\cos(x)+\\int 1dx -\\int\\sin^2(x)dx=-\\sin(x)\\cos(x)+x-\\int\\sin^2(x)dx$$";
 		} else if (i == 2) {
 			char1 ="c";
 			char2 ="C";
 			
 			title1 = "Explanation With Equations";
-			body1 = "<p>The geometric meaning of the derivative \\)(f'(x)=\\)frac{df(x)}{dx}\\)) is the slope of the line tangent to \\)(y=f(x)\\)) at x.</p>"+
-					"<p>The <B>secant</B> line through P and Q has slope \\)(\\)frac{f(x+\\)Delta x)-f(x)}{(x+\\)Delta x)-x}=\\)frac{f(x+\\)Delta x)-f(x)}{\\)Delta x}.\\))</p>"+
-					"<p>We can approximate the <B>tangent</B> line through P by moving Q towards P, decreasing $\\)Delta x$.  In the limit as \\)(\\)Delta x \\)to 0 \\)), we get the tangent line through P with slope \\)(\\)lim_{\\)Delta x\\)to 0} \\)frac{f(x+\\)Delta x)-f(x)}{\\)Delta x}.\\)) We define \\)(f'(x)=\\)lim_{\\)Delta x\\)to 0}\\)frac{f(x+\\)Delta x)-f(x)^{\\)small\\)textrm{*}}}{\\)Delta x}.\\))</p>"+
-					"<p>\\)(^*\\)) If the limit as \\)(\\)Delta x \\)to 0\\)) at a particular point does not exist, \\)(f'(x)\\)) is undefined at that point.</p>"+
+			body1 = "<p>The geometric meaning of the derivative \\(f'(x) = \\frac{df(x)}{dx}\\) is the slope of the line tangent to \\(y=f(x)\\) at x.</p>"+
+					"<p>The <B>secant</B> line through P and Q has slope \\(\\frac{f(x+\\Delta x)-f(x)}{(x+\\Delta x)-x}=\\frac{f(x+\\Delta x)-f(x)}{\\Delta x}.\\)</p>"+
+					"<p>We can approximate the <B>tangent</B> line through P by moving Q towards P, decreasing \\(\\Delta x\\).  In the limit as \\(\\Delta x \\to 0 \\), we get the tangent line through P with slope \\(\\lim_{\\Delta x\\to 0} \\frac{f(x+\\Delta x)-f(x)}{\\Delta x}.\\) We define \\(f'(x)=\\lim_{\\Delta x\\to 0}\\frac{f(x+\\Delta x)-f(x)^{\\small\\textrm{*}}}{\\Delta x}.\\)</p>"+
+					"<p>\\(^*\\) If the limit as \\(\\Delta x \\to 0\\) at a particular point does not exist, \\(f'(x)\\) is undefined at that point.</p>"+
 					"<p>We derive all the basic differentiation formulas using this definition. </p>";
 			
 			title2 = "Conceptual Explanation";

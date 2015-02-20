@@ -12,7 +12,7 @@
 		<div class="box box-success box-solid">
 			<div class="box-header">
 				<i class="fa fa-flag-checkered"></i>
-				<h3 class="box-title">Reasoning Calibration: Step (${stepNumber}/15)</h3>
+				<h3 class="box-title">Reasoning Calibration: Step (${stepNumber}/10)</h3>
 			</div>
 			<div class="box-body">
 				<p>
