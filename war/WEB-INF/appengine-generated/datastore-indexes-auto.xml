@@ -1,15 +1,15 @@
-<!-- Indices written at Mon, 2 Mar 2015 16:57:34 EST -->
+<!-- Indices written at Mon, 2 Mar 2015 17:31:57 EST -->
 
 <datastore-indexes>
 
-    <!-- Used 2 times in query history -->
+    <!-- Used 4 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="submitted" direction="asc"/>
         <property name="viewable" direction="asc"/>
         <property name="createdAt" direction="desc"/>
     </datastore-index>
 
-    <!-- Used 1 time in query history -->
+    <!-- Used 4 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="submitted" direction="asc"/>
         <property name="viewable" direction="asc"/>

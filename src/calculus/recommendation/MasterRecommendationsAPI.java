@@ -153,4 +153,10 @@ public class MasterRecommendationsAPI {
 		}
 		return result;
 	}
+
+	protected static void markAllRecommendationsRead(String userId) {
+		Entity entity = getRecommendationsEntity(userId);
+		entity.setUnindexedProperty("unreadRecommendations", 0);
+		datastore.put(entity);	
+	}
 }

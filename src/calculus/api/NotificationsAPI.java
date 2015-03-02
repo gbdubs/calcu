@@ -27,7 +27,12 @@ public class NotificationsAPI {
 	}
 	
 	public static List<MenuItem> getUserNotifications(String userId){
-		List<String> jsonNotifications = (List<String>) getNotificationsEntity(userId).getProperty("notifications");
+		Entity entity = getNotificationsEntity(userId);
+		return getUserNotifications(entity);
+	}
+	
+	private static List<MenuItem> getUserNotifications(Entity entity) {
+		List<String> jsonNotifications = (List<String>) entity.getProperty("notifications");
 		List<MenuItem> notifications = new ArrayList<MenuItem>();
 		if (jsonNotifications == null) return new ArrayList<MenuItem>();
 		// Goes in reverse order so that the oldest notifications appear on the bottom
@@ -36,9 +41,9 @@ public class NotificationsAPI {
 			Notification n = Notification.fromJson(json);
 			notifications.add(n.getMenuItem());
 		}
-		return notifications;	
+		return notifications;
 	}
-	
+
 	private static void addUserNotification(String userId, Notification n){
 		Entity userNotifications = getNotificationsEntity(userId);
 		List<String> notificationJsons = (List<String>) userNotifications.getProperty("notifications");
@@ -100,9 +105,12 @@ public class NotificationsAPI {
 		if (user == null){
 			List<MenuItem> notifications = getLoggedOutNotifications();
 			req.setAttribute("notificationsMenu", notifications);
+			req.setAttribute("notificationsUnread", notifications.size());
 		} else {
 			String userId = user.getUserId();
-			List<MenuItem> notifications = getUserNotifications(userId);
+			Entity entity = getNotificationsEntity(userId);
+			List<MenuItem> notifications = getUserNotifications(entity);
+			req.setAttribute("notificationsUnread", getNumberOfUnreadNotifications(entity));
 			req.setAttribute("notificationsMenu", notifications);
 		}
 	}
@@ -128,5 +136,20 @@ public class NotificationsAPI {
 			.withImage("/_static/img/avatar.png")
 		);
 		return menuItems;
+	}
+
+	public static void markAllNotificationsRead(String userId) {
+		Entity entity = getNotificationsEntity(userId);
+		entity.setUnindexedProperty("unreadNotifications", new Long(0));
+		datastore.put(entity);
+	}
+	
+	private static int getNumberOfUnreadNotifications(Entity entity) {
+		Long l = (Long) entity.getProperty("unreadNotifications");
+		if (l == null) {
+			int size = ((List<String>) entity.getProperty("notifications")).size();
+			return size;
+		}
+		return l.intValue();
 	}
 }

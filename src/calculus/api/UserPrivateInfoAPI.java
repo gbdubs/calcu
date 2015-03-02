@@ -102,24 +102,4 @@ public class UserPrivateInfoAPI {
 		return new ArrayList<String>();
 	}
 
-	public static List<String> getBookmarkUuids(String userId) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<String> result = (List<String>) userPrivateInfo.getProperty("bookmarkUuids");
-		if (result != null) return result;
-		return new ArrayList<String>();
-	}
-
-	public static void setBookmarks(String userId, List<String> bookmarkUuids, List<Text> bookmarkJsons) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		userPrivateInfo.setUnindexedProperty("bookmarkUuids", bookmarkUuids);
-		userPrivateInfo.setUnindexedProperty("bookmarkJsons", bookmarkJsons);
-		datastore.put(userPrivateInfo);
-	}
-
-	public static List<Text> getBookmarkJsons (String userId) {
-		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<Text> result = (List<Text>) userPrivateInfo.getProperty("bookmarkJsons");
-		if (result != null) return result;
-		return new ArrayList<Text>();
-	}
 }

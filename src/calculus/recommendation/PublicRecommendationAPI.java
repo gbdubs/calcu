@@ -163,4 +163,8 @@ public class PublicRecommendationAPI {
 		);
 		return menuItems;
 	}
+
+	public static void markAllRecommendationsRead(String userId) {
+		MasterRecommendationsAPI.markAllRecommendationsRead(userId);
+	}
 }
