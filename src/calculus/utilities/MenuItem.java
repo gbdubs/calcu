@@ -7,7 +7,6 @@ import com.google.gson.JsonParser;
 
 import calculus.api.ContentAPI;
 import calculus.models.Content;
-import calculus.models.Notification;
 
 public class MenuItem {
 	private String url;
@@ -22,16 +21,16 @@ public class MenuItem {
 	private String icon;
 	private String image;
 	
-	public MenuItem(String url, String uuid, String title, String description, String time, String percentage, String color, String icon, String image){
-		this.url = url;
-		this.uuid = uuid;
-		this.title = title;
-		this.description = description;
-		this.time = time;
-		this.percentage = percentage;
-		this.color = color;
-		this.icon = icon;
-		this.image = image;
+	public MenuItem(){
+		this.url = "#";
+		this.uuid = "";
+		this.title = "";
+		this.description = "";
+		this.time = "";
+		this.percentage = "";
+		this.color = "";
+		this.icon = "";
+		this.image = "";
 	}
 	
 	public MenuItem(Content c) {
@@ -49,7 +48,8 @@ public class MenuItem {
 		
 		this.image = "avatar2.png";
 	}
-
+	
+	
 	public String getUrl(){
 		return this.url;
 	}
@@ -106,10 +106,61 @@ public class MenuItem {
 		String color = object.get("color").getAsString();
 		String image = object.get("image").getAsString();
 		
-		MenuItem toReturn = new MenuItem(url, uuid, title, description, time, percentage, color, icon, image);
-		
+		MenuItem toReturn = new MenuItem()
+			.withUrl(url)
+			.withUuid(uuid)
+			.withTitle(title)
+			.withDescription(description)
+			.withTime(time)
+	    	.withPercentage(percentage)
+			.withIcon(icon)
+			.withColor(color)
+			.withImage(image);
 		return toReturn;
 	}
 
+	public MenuItem withUrl(String url) {
+		this.url = url;
+		return this;
+	}
+	
+	public MenuItem withUuid(String uuid) {
+		this.uuid = uuid;
+		return this;
+	}
 
+	public MenuItem withTitle(String title) {
+		this.title = title;
+		return this;
+	}
+	
+	public MenuItem withDescription(String description) {
+		this.description = description;
+		return this;
+	}
+	
+	public MenuItem withTime(String time) {
+		this.time = time;
+		return this;
+	}
+	
+	public MenuItem withPercentage(String percentage) {
+		this.percentage = percentage;
+		return this;
+	}
+	
+	public MenuItem withIcon(String icon) {
+		this.icon = icon;
+		return this;
+	}
+	
+	public MenuItem withColor(String color) {
+		this.color = color;
+		return this;
+	}
+	
+	public MenuItem withImage(String image) {
+		this.image = image;
+		return this;
+	}
 }

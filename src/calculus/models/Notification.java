@@ -115,7 +115,16 @@ public class Notification {
 	public MenuItem getMenuItem(){
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm MM-dd-yy");
 		String dateTime = sdf.format(time);
-		return new MenuItem(url, uuid, title, body, dateTime, "", color, "", getImageUrl());
+		MenuItem mi = new MenuItem()
+			.withUrl(url)
+			.withUuid(uuid)
+			.withTitle(title)
+			.withDescription(body)
+			.withTime(dateTime)
+			.withColor(color)
+			.withImage(getImageUrl());
+		
+		return mi;
 	}
 	
 	public String toJson(){

@@ -59,19 +59,52 @@ public class BookmarksAPI {
 				}
 			} 
 			if (bookmarkJsons == null){
-				String profileBookmarksUrl = UrlGenerator.profileUrl(user) + "#bookmarks";
-				bookmarksToDisplay.add(new MenuItem(
-						profileBookmarksUrl, "", "You don't currently have any bookmarks", "To bookmark some content, when you are on the content page, simply select the empty bookmark icon.", "", "", "info", "fa-lightbulb-o",""
-				));
+				bookmarksToDisplay = getEmptyBookmarkList(user);
 			}
 			req.setAttribute("bookmarksMenu", bookmarksToDisplay);
 			req.setAttribute("bookmarkUuids", bookmarkUuids);
 		} else {
-			MenuItem[] bookmarks = new MenuItem[2];
-			bookmarks[0] = new MenuItem("#", "", "", "You can store Bookmarks of your favorite", "", "", "success", "fa-bank", "");
-			bookmarks[1] = new MenuItem("#", "", "", "materials, practice problems and questions", "", "", "info", "fa-question", "");
-			req.setAttribute("bookmarksMenu", bookmarks);
+			List<MenuItem> menuItems = getLoggedOutBookmarks();
+			req.setAttribute("bookmarksMenu", menuItems);
 		}
+	}
+
+	private static List<MenuItem> getEmptyBookmarkList(User user){
+		List<MenuItem> menuItems = new ArrayList<MenuItem>();
+		menuItems.add(new MenuItem()
+		    .withUrl(UrlGenerator.profileUrl(user) + "#bookmarks")
+			.withTitle("You don't currently have any bookmarks")
+			.withDescription("To bookmark some content, when you are on the content page, simply select the empty bookmark icon.")
+			.withColor("danger")
+			.withIcon("fa-bookmark")
+		);
+		return menuItems;
+	}
+	
+	private static List<MenuItem> getLoggedOutBookmarks() {
+		List<MenuItem> menuItems = new ArrayList<MenuItem>();
+		menuItems.add(new MenuItem()
+			.withTitle("Store your Favorites")
+			.withDescription("You can bookmark any content on the site!")
+			.withColor("success")
+			.withIcon("fa-bank")
+		);
+		
+		menuItems.add(new MenuItem()
+		    .withTitle("Save For Later")
+		    .withDescription("Come back to a problem when you are ready.")
+		    .withColor("info")
+		    .withIcon("fa-clock-o")
+	    );
+		
+		menuItems.add(new MenuItem()
+	    	.withTitle("Learning From Mistakes")
+	    	.withDescription("Revisiting a problem can help you solve it.")
+	    	.withColor("warning")
+	    	.withIcon("fa-lightbulb-o")
+        );
+		
+		return menuItems;
 	}
 
 	public static List<String> getUserBookmarkUuids(String userId) {

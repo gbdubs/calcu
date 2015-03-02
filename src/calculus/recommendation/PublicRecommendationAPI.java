@@ -13,6 +13,7 @@ import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.MenuItem;
+import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -88,7 +89,15 @@ public class PublicRecommendationAPI {
 			
 				int percentage = maxPercentage - i - (content.stableRandom(5) + 2);
 				
-				result.add(new MenuItem(contentUrl, uuid, title, body, "", percentage + "%", color, "", ""));
+				MenuItem mi = new MenuItem()
+					.withPercentage(percentage + "%")
+					.withColor(color)
+					.withDescription(body)
+					.withTitle(title)
+					.withUuid(uuid)
+					.withUrl(contentUrl);
+	
+				result.add(mi);
 			} catch (EntityNotFoundException e) {
 				// Don't worry, don't include. Skip
 			}
@@ -122,15 +131,36 @@ public class PublicRecommendationAPI {
 
 	public static void addUserRecommendationsToRequest(HttpServletRequest req, User user) {
 		if (user == null){
-			MenuItem[] recommendations = new MenuItem[4];
-			recommendations[0] = new MenuItem("#", "", "Using Big Data, we suggest", "", "", "80%", "aqua", "", "");
-			recommendations[1] = new MenuItem("#", "", "Content for you to check out.", "", "", "30%", "yellow", "", "");
-			recommendations[2] = new MenuItem("#", "", "We deduce your knowledge and needs", "", "", "50%", "green", "", "");
-			recommendations[3] = new MenuItem("#", "", "And direct you to the best resources!", "", "", "20%", "red", "", "");
-			req.setAttribute("recommendationsMenu", recommendations);
+			List<MenuItem> defaultRecommendations = getLoggedOutRecommendations();
+			req.setAttribute("recommendationsMenu", defaultRecommendations);
 		} else {
 			List<MenuItem> recommendations = getUserRecommendations(user.getUserId(), 50);
 			req.setAttribute("recommendationsMenu", recommendations);
 		}
+	}
+
+	private static List<MenuItem> getLoggedOutRecommendations() {
+		List<MenuItem> menuItems = new ArrayList<MenuItem>();
+		menuItems.add(new MenuItem()
+			.withTitle("Using Big Data, we suggest")
+			.withPercentage("80%")
+			.withColor("aqua")
+		);
+		menuItems.add(new MenuItem()
+			.withTitle("Content for you to check out.")
+			.withPercentage("30%")
+			.withColor("yellow")
+		);
+		menuItems.add(new MenuItem()
+			.withTitle("We deduce your knowledge and needs")
+			.withPercentage("50%")
+			.withColor("green")
+		);
+		menuItems.add(new MenuItem()
+			.withTitle("And direct you to the best resources!")
+			.withPercentage("20%")
+			.withColor("red")
+		);
+		return menuItems;
 	}
 }

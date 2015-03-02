@@ -98,15 +98,35 @@ public class NotificationsAPI {
 
 	public static void addUserNotificationsToRequest(HttpServletRequest req, User user) {
 		if (user == null){
-			MenuItem[] notifications = new MenuItem[3];
-			notifications[0] = new MenuItem("#", "", "A vibrant Community!", "Get and Give Karma for good deeds!", "4:45 PM", "", "", "", "/_static/img/avatar2.png");
-			notifications[1] = new MenuItem("#", "", "Help each other out!", "Questions are answered quickly!", "Yesterday", "", "", "", "/_static/img/avatar3.png");
-			notifications[2] = new MenuItem("#", "", "Get Feedback!", "Become a better student or teacher!", "12/15/14","", "", "", "/_static/img/avatar.png");
+			List<MenuItem> notifications = getLoggedOutNotifications();
 			req.setAttribute("notificationsMenu", notifications);
 		} else {
 			String userId = user.getUserId();
 			List<MenuItem> notifications = getUserNotifications(userId);
 			req.setAttribute("notificationsMenu", notifications);
 		}
+	}
+	
+	private static List<MenuItem> getLoggedOutNotifications() {
+		List<MenuItem> menuItems = new ArrayList<MenuItem>();
+		menuItems.add(new MenuItem()
+			.withTitle("A vibrant Community!")
+			.withDescription("Get and Give Karma for good deeds!")
+			.withTime("4:45PM")
+			.withImage("/_static/img/avatar2.png")
+		);
+		menuItems.add(new MenuItem()
+			.withTitle("Help each other out!")
+			.withDescription("Questions are answered quickly!")
+			.withTime("Yesterday")
+			.withImage("/_static/img/avatar3.png")
+		);
+		menuItems.add(new MenuItem()
+			.withTitle("Get Feedback!")
+			.withDescription("Become a better student or teacher!")
+			.withTime("2/15/15")
+			.withImage("/_static/img/avatar.png")
+		);
+		return menuItems;
 	}
 }
