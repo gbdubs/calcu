@@ -8,6 +8,7 @@ import java.util.List;
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.RatingsAPI;
+import calculus.utilities.Cleaner;
 import calculus.utilities.KarmaDescription;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -191,7 +192,8 @@ public class Content {
 	public String getAbbreviatedBody(){
 		String body = this.getBody();
 		if (body.length() > 300){
-			return body.substring(0, 297) + "...";
+			String cleanedBody = Cleaner.cleanHtml(body.substring(0, 297));
+			return cleanedBody + "...";
 		} else {
 			return body;
 		}
