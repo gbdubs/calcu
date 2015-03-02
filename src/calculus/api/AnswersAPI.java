@@ -65,11 +65,11 @@ public class AnswersAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Answer]";
+		if (title == null || title.equals("")) title = "[Un-named Answer]";
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[The Author has opted to leave the answer blank, becuase they think it is self evident]";
+		if (body == null || body.equals("")) body = "[The Author has opted to leave the answer blank, becuase they think it is self evident]";
 		Text wrappedBody = new Text(body);		
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));

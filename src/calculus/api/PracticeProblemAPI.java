@@ -71,16 +71,16 @@ public class PracticeProblemAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Problem]";
+		if (title == null || title.equals("")) title = "[Un-named Problem]";
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
+		if (body == null || body.equals("")) body = "[The biggest problem of all: nothing]";
 		Text wrappedBody = new Text(body);
 		
 		String authorSolution = (String) req.getParameter("authorSolution");
 		authorSolution = Cleaner.cleanHtml(authorSolution);
-		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
+		if (authorSolution == null || authorSolution.equals("")) authorSolution = "[The Author has not provided an answer to this problem]";
 		Text wrappedAuthorSolution = new Text(authorSolution);
 		
 		String tags = req.getParameter("tagsInput");
@@ -127,16 +127,16 @@ public class PracticeProblemAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Problem]";
+		if (title == null || title.equals("")) title = "[Un-named Problem]";
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[The biggest problem of all: nothing]";
+		if (body == null || body.equals("")) body = "[The biggest problem of all: nothing]";
 		Text wrappedBody = new Text(body);
 		
 		String authorSolution = (String) req.getParameter("authorSolution");
 		authorSolution = Cleaner.cleanHtml(authorSolution);
-		if (authorSolution == null || authorSolution == "") authorSolution = "[The Author has not provided an answer to this problem]";
+		if (authorSolution == null || authorSolution.equals("")) authorSolution = "[The Author has not provided an answer to this problem]";
 		Text wrappedAuthorSolution = new Text(authorSolution);
 		
 		String tags = req.getParameter("tagsInput");

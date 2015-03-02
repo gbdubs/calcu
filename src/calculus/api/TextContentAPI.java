@@ -36,10 +36,10 @@ public class TextContentAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Text Content]";
+		if (title == null || title.equals("")) title = "[Un-named Text Content]";
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[No body was provided for this Content]";
+		if (body == null || body.equals("")) body = "[No body was provided for this Content]";
 		Text wrappedBody = new Text(body);
 		String tags = req.getParameter("tagsInput");
 		tags = Cleaner.cleanHtml(tags);
@@ -85,11 +85,11 @@ public class TextContentAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Text Context]";
+		if (title == null || title.equals("")) title = "[Un-named Text Context]";
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[No body was provided for this Content]";	
+		if (body == null || body.equals("")) body = "[No body was provided for this Content]";	
 		Text wrappedBody = new Text(body);
 		
 		String tags = req.getParameter("tagsInput");
@@ -116,7 +116,7 @@ public class TextContentAPI {
 	}
     
     public static String createOrUpdateTextContentFromRequest(HttpServletRequest req) {
-		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null) {
+		if (req.getParameter("uuid").equals("") || req.getParameter("uuid") == null) {
 			return createTextContentFromRequest(req);
 		} else {
 			return updateTextContentFromRequest(req);

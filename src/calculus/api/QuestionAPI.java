@@ -44,11 +44,12 @@ public class QuestionAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Question]";
+		if (title == null || title.equals("")) title = "[Un-named Question]";
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
+		System.out.println("BODY: [\n" + body + "\n]");
+		if (body == null || body.equals("")) body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
 		Text wrappedBody = new Text(body);
 		
 		String tags = req.getParameter("tagsInput");
@@ -96,11 +97,12 @@ public class QuestionAPI {
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
-		if (title == null || title == "") title = "[Un-named Question]";
+		if (title == null || title.equals("")) title = "[Un-named Question]";
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		if (body == null || body == "") body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";	
+		System.out.println("BODY: [\n" + body + "\n]");
+		if (body == null || body.equals("")) body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";	
 		Text wrappedBody = new Text(body);
 		
 		String tags = req.getParameter("tagsInput");
@@ -131,7 +133,7 @@ public class QuestionAPI {
 	}
 
 	public static String createOrUpdateQuestionFromRequest(HttpServletRequest req) {
-		if (req.getParameter("uuid") == "" || req.getParameter("uuid") == null){
+		if (req.getParameter("uuid").equals("") || req.getParameter("uuid") == null){
 			return QuestionAPI.createQuestionFromRequest(req);
 		} else {
 			return QuestionAPI.updateQuestionFromRequest(req);
