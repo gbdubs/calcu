@@ -21,6 +21,8 @@ public class MenuItem {
 	private String icon;
 	private String image;
 	
+	private String value;
+	
 	public MenuItem(){
 		this.url = "#";
 		this.uuid = "";
@@ -31,6 +33,7 @@ public class MenuItem {
 		this.color = "";
 		this.icon = "";
 		this.image = "";
+		this.value = "";
 	}
 	
 	public MenuItem(Content c) {
@@ -47,8 +50,12 @@ public class MenuItem {
 		this.color = ContentAPI.getBoxColor(contentType);
 		
 		this.image = "avatar2.png";
+		this.value = "";
 	}
 	
+	public String getValue(){
+		return this.value;
+	}
 	
 	public String getUrl(){
 		return this.url;
@@ -105,6 +112,7 @@ public class MenuItem {
 		String icon = object.get("icon").getAsString();
 		String color = object.get("color").getAsString();
 		String image = object.get("image").getAsString();
+		String value = object.get("value").getAsString();
 		
 		MenuItem toReturn = new MenuItem()
 			.withUrl(url)
@@ -115,10 +123,17 @@ public class MenuItem {
 	    	.withPercentage(percentage)
 			.withIcon(icon)
 			.withColor(color)
-			.withImage(image);
+			.withImage(image)
+			.withValue(value);
+			
 		return toReturn;
 	}
 
+	public MenuItem withValue(String value) {
+		this.value = value;
+		return this;
+	}
+	
 	public MenuItem withUrl(String url) {
 		this.url = url;
 		return this;

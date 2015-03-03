@@ -52,6 +52,58 @@ public class MasterRecommendationsAPI {
 		asyncDatastore.put(e);
 	}
 
+	protected static void markDisinterestedRecommendation(String userId, String contentUuid) {
+		Entity e = getRecommendationsEntity(userId);
+		List<String> disinterested = (List<String>) e.getProperty("disinterestedRecommendations");
+		if (disinterested == null) disinterested = new ArrayList<String>();
+		if (!disinterested.contains(contentUuid)){
+			List<String> interested = (List<String>) e.getProperty("interestedRecommendations");
+			interested.remove(contentUuid);
+			disinterested.add(contentUuid);
+			e.setUnindexedProperty("disinterestedRecommendations", disinterested);
+			e.setUnindexedProperty("interestedRecommendations", interested);
+			asyncDatastore.put(e);
+		}
+	}
+	
+	protected static void markInterestedRecommendation(String userId, String contentUuid) {
+		Entity e = getRecommendationsEntity(userId);
+		List<String> interested = (List<String>) e.getProperty("interestedRecommendations");
+		if (interested == null) interested = new ArrayList<String>();
+		if (!interested.contains(contentUuid)){
+			List<String> disinterested = (List<String>) e.getProperty("disinterestedRecommendations");
+			disinterested.remove(contentUuid);
+			interested.add(contentUuid);
+			e.setUnindexedProperty("interestedRecommendations", interested);
+			e.setUnindexedProperty("disinterestedRecommendations", disinterested);
+			asyncDatastore.put(e);
+		}
+	}
+
+	protected static void unmarkDisinterestedRecommendation(String userId, String contentUuid) {
+		Entity e = getRecommendationsEntity(userId);
+		List<String> disinterested = (List<String>) e.getProperty("disinterestedRecommendations");
+		if (disinterested == null) return;
+		int length = disinterested.size();
+		disinterested.remove(contentUuid);
+		if (disinterested.size() < length){
+			e.setUnindexedProperty("disinterestedRecommendations", disinterested);
+			asyncDatastore.put(e);
+		}
+	}
+	
+	protected static void unmarkInterestedRecommendation(String userId, String contentUuid) {
+		Entity e = getRecommendationsEntity(userId);
+		List<String> interested = (List<String>) e.getProperty("interestedRecommendations");
+		if (interested == null) return;
+		int length = interested.size();
+		interested.remove(contentUuid);
+		if (interested.size() < length){
+			e.setUnindexedProperty("interestedRecommendations", interested);
+			asyncDatastore.put(e);
+		}
+	}
+
 	protected static List<String> refreshRecommendations(String userId){
 		Entity e = refreshRecommendationsEntity(userId);
 		List<String> recs = (List<String>) e.getProperty("recommendations");
@@ -79,7 +131,7 @@ public class MasterRecommendationsAPI {
 		asyncDatastore.put(e);
 	}
 
-	private static Entity getRecommendationsEntity(String userId){
+	protected static Entity getRecommendationsEntity(String userId){
 		Key key = KeyFactory.createKey("UserRecommendations", userId);
 		Entity e;
 		try {

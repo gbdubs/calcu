@@ -42,11 +42,20 @@ public class RecommendationsServlet extends HttpServlet{
 		String contentUuid = req.getParameter("contentUuid");
 		String action = req.getParameter("action");
 		
+		System.out.println("action: " + action);
+		
 		if (action.equals("hide")){
 			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
 		} else if (action.equals("disinterested")){
-			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
+			PublicRecommendationAPI.markDisinterested(userId, contentUuid);
 			InterestsAPI.userFoundContentDisinteresting(userId, contentUuid);
+		} else if (action.contains("interested")){
+			PublicRecommendationAPI.markInterested(userId, contentUuid);
+			InterestsAPI.userFoundContentInteresting(userId, contentUuid);
+		} else if (action.equals("unmark-disinterested")){
+			PublicRecommendationAPI.unmarkDisinterested(userId, contentUuid);
+		} else if (action.equals("unmark-interested")){
+			PublicRecommendationAPI.unmarkInterested(userId, contentUuid);
 		} else if (action.equals("showAll")){
 			PublicRecommendationAPI.resetHiddenRecommendations(userId);
 		}

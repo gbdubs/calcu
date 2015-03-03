@@ -4148,7 +4148,7 @@ a.btn.btn-warning.live-preview-return-button{
 .alert.alert-recommendation{
 	margin: 30px 10px 30px 15px;
 	padding: 20px 15px 15px 15px;
-	max-height: 200px;
+	max-height: 250px;
 	-webkit-transition: all 1000ms linear;
     -moz-transition: all 1000ms linear;
     -ms-transition: all 1000ms linear;
@@ -4234,6 +4234,12 @@ i.hide-recommendation-button.hovered,
 	border: none;
 	background: #00a65a;
 	color: white;
+}
+
+.alert.alert-recommendation > .max-height-wrapper {
+	max-height: 200px;
+	padding: 5px 0;
+	overflow-y: auto;
 }
 
 .round-icon-button {

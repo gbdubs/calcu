@@ -49,16 +49,23 @@ $(function() {
 		var content = $(this).data("content");
 		var action = $(this).data("action");
 		
-    	$.ajax({
-    		type: "POST",
-			url: "/recommendations",
-			data: "userId="+userId+"&contentUuid="+content+"&action="+action+"-"+notYetSent
-    	});
-    	
     	if (notYetSent) {
+    		$.ajax({
+        		type: "POST",
+    			url: "/recommendations",
+    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
+        	});
+    		
     		$(this).addClass("fa-thumbs-down").removeClass("fa-thumbs-o-down");
     		$(".interested-button", $(this).parent()).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
     	} else if (alreadySent) {
+    		action = "unmark-" + action;
+    		$.ajax({
+        		type: "POST",
+    			url: "/recommendations",
+    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
+        	});
+    		
     		$(this).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
     	}
     }
@@ -73,16 +80,23 @@ $(function() {
 		var content = $(this).data("content");
 		var action = $(this).data("action");
 		
-    	$.ajax({
-    		type: "POST",
-			url: "/recommendations",
-			data: "userId="+userId+"&contentUuid="+content+"&action="+action+"-"+notYetSent
-    	});
-    	
     	if (notYetSent) {
+    		$.ajax({
+        		type: "POST",
+    			url: "/recommendations",
+    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
+        	});
     		$(this).addClass("fa-thumbs-up").removeClass("fa-thumbs-o-up");
     		$(".disinterested-button", $(this).parent()).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
     	} else if (alreadySent) {
+    		action = "unmark-" + action;
+    		
+    		$.ajax({
+        		type: "POST",
+    			url: "/recommendations",
+    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
+        	});
+    		
     		$(this).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
     	}
     }

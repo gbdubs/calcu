@@ -75,10 +75,17 @@
 							<i class="fa percentage-display">${rec.percentage}</i>
 							
 							<a href="${rec.url}"><b>${rec.title}</b></a>
-							${rec.description}
-							
-							<i type="button" class="interested-button fa fa-thumbs-o-up" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"></i>
-							
+							<div class="max-height-wrapper">
+								${rec.description}
+							</div>
+							<c:choose>
+								<c:when test="${rec.value == 'interested'}">
+									<i type="button" class="interested-button fa fa-thumbs-up" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"></i>
+								</c:when>
+								<c:otherwise>
+									<i type="button" class="interested-button fa fa-thumbs-o-up" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"></i>
+								</c:otherwise>
+							</c:choose>
 							<c:choose>
 								<c:when test="${bookmarked}">
 									<i type="button" class="toggle-bookmark-button fa fa-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}" title="Un-Bookmark This!"></i>
@@ -88,7 +95,14 @@
 								</c:otherwise>
 							</c:choose>
 							<i type="button" class="hide-recommendation-button fa fa-eye-slash" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}" title="Hide this for now."></i>
-							<i type="button" class="disinterested-button fa fa-thumbs-o-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."></i>
+							<c:choose>
+								<c:when test="${rec.value == 'disinterested'}">
+									<i type="button" class="disinterested-button fa fa-thumbs-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."></i>
+								</c:when>
+								<c:otherwise>
+									<i type="button" class="disinterested-button fa fa-thumbs-o-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."></i>
+								</c:otherwise>
+							</c:choose>
 						</div>
 					</c:forEach>
 					</div>

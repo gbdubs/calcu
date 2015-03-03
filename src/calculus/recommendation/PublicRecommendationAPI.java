@@ -1,7 +1,9 @@
 package calculus.recommendation;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -30,47 +32,50 @@ public class PublicRecommendationAPI {
 	
 	public static List<MenuItem> getUserRecommendations (String userId, int n) {
 		if (!AchievementsAPI.hasUserPersonalized(userId)){
-			return new ArrayList<MenuItem>();
+			return null;
 		}
-		Key key = KeyFactory.createKey("Recommendations", userId);
-		Entity recEntity;
-		try {
-			recEntity = datastore.get(key);
-			List<Text> jsonRecommendations = (List<Text>) recEntity.getProperty("jsonMenuItems");
+		Entity recEntity = MasterRecommendationsAPI.getRecommendationsEntity(userId);
+
+		List<Text> jsonRecommendations = (List<Text>) recEntity.getProperty("jsonMenuItems");
+		
+		if (jsonRecommendations != null) {
 			List<String> hidden = (List<String>) recEntity.getProperty("hiddenRecommendations");
-			if (jsonRecommendations != null){
-				List<MenuItem> results = new ArrayList<MenuItem>();
-				for(int i = 0; results.size() < n && i < jsonRecommendations.size(); i++){
-					String json = jsonRecommendations.get(i).getValue();
-					MenuItem mi = MenuItem.fromJson(json);
-					if (hidden == null || !hidden.contains(mi.getUuid())){
-						results.add(mi);
+			List<String> interested = (List<String>) recEntity.getProperty("interestedRecommendations");
+			List<String> disinterested = (List<String>) recEntity.getProperty("disinterestedRecommendations");
+		
+			List<MenuItem> results = new ArrayList<MenuItem>();
+			for(int i = 0; results.size() < n && i < jsonRecommendations.size(); i++){
+				String json = jsonRecommendations.get(i).getValue();
+				MenuItem mi = MenuItem.fromJson(json);
+				if (hidden == null || !hidden.contains(mi.getUuid())){
+					String liked = null;
+					if (interested != null && interested.contains(mi.getUuid())) {
+						liked = "interested";
+					} else if (disinterested != null && disinterested.contains(mi.getUuid())) {
+						liked = "disinterested";
 					}
+					mi.withValue(liked);
+					results.add(mi);
 				}
-				return results;
 			}
-		} catch (EntityNotFoundException e) {
+			return results;
 			
+		} else {
+			List<MenuItem> recommendations = getUserRecommendationsManually(userId);
+			
+			List<Text> jsonRepresentations = new ArrayList<Text>();
+			for(MenuItem mi : recommendations){
+				jsonRepresentations.add(new Text(mi.toJson()));
+			}
+			recEntity.setUnindexedProperty("jsonMenuItems", jsonRepresentations);
+			datastore.put(recEntity);
+			
+			List<MenuItem> results = new ArrayList<MenuItem>();
+			for(int i = 0; i < n && i < recommendations.size(); i++){
+				results.add(recommendations.get(i));
+			}
+			return results;
 		}
-		List<MenuItem> recommendations = getUserRecommendationsManually(userId);
-		try {
-			recEntity = datastore.get(key);
-		} catch (EntityNotFoundException e) {
-			recEntity = new Entity(key);
-		}
-		List<Text> jsonRepresentations = new ArrayList<Text>();
-		for(MenuItem mi : recommendations){
-			jsonRepresentations.add(new Text(mi.toJson()));
-		}
-		recEntity.setUnindexedProperty("jsonMenuItems", jsonRepresentations);
-		datastore.put(recEntity);
-		
-		List<MenuItem> results = new ArrayList<MenuItem>();
-		for(int i = 0; i < n && i < recommendations.size(); i++){
-			results.add(recommendations.get(i));
-		}
-		
-		return results;
 	}
 	
 	public static List<MenuItem> getUserRecommendationsManually (String userId) {
@@ -168,5 +173,21 @@ public class PublicRecommendationAPI {
 
 	public static void markAllRecommendationsRead(String userId) {
 		MasterRecommendationsAPI.markAllRecommendationsRead(userId);
+	}
+
+	public static void markDisinterested(String userId, String contentUuid) {
+		MasterRecommendationsAPI.markDisinterestedRecommendation(userId, contentUuid);
+	}
+	
+	public static void unmarkDisinterested(String userId, String contentUuid) {
+		MasterRecommendationsAPI.unmarkDisinterestedRecommendation(userId, contentUuid);
+	}
+
+	public static void markInterested(String userId, String contentUuid) {
+		MasterRecommendationsAPI.markInterestedRecommendation(userId, contentUuid);
+	}
+	
+	public static void unmarkInterested(String userId, String contentUuid) {
+		MasterRecommendationsAPI.unmarkInterestedRecommendation(userId, contentUuid);
 	}
 }
