@@ -4,7 +4,9 @@
 
 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 	<i class="fa fa-flag"></i>
-	<span class="label label-success">${fn:length(notificationsMenu)}</span>
+	<c:if test="${unreadNotifications > 0}">
+		<span class="label label-success">${unreadNotifications}</span>
+	</c:if>
 </a>
 <ul class="dropdown-menu">
 	<li class="header">You have ${fn:length(notificationsMenu)} notifications</li>

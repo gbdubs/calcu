@@ -3,7 +3,9 @@
 
 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 	<i class="fa fa-bookmark"></i>
-	<span class="label label-warning">${fn:length(bookmarksMenu)}</span>
+	<c:if test="${unreadBookmarks > 0}">
+		<span class="label label-warning">${unreadBookmarks}</span>
+	</c:if>
 </a>
 <ul class="dropdown-menu">
 	<li class="header">You have ${fn:length(bookmarksMenu)} Bookmarks</li>

@@ -63,7 +63,7 @@ public class MasterRecommendationsAPI {
 	}
 	
 	protected static List<String> getUsersInNeedOfRecalculation(int numToCalc) {
-		Query q = new Query("Recommendations").addSort("updatedAt", SortDirection.ASCENDING);
+		Query q = new Query("UserRecommendations").addSort("updatedAt", SortDirection.ASCENDING);
 		PreparedQuery newPQ = datastore.prepare(q);
 		List<String> users = new ArrayList<String>();
 		for(Entity e : newPQ.asIterable(FetchOptions.Builder.withLimit(numToCalc))){
@@ -80,7 +80,7 @@ public class MasterRecommendationsAPI {
 	}
 
 	private static Entity getRecommendationsEntity(String userId){
-		Key key = KeyFactory.createKey("Recommendations", userId);
+		Key key = KeyFactory.createKey("UserRecommendations", userId);
 		Entity e;
 		try {
 			e = datastore.get(key);
@@ -101,6 +101,14 @@ public class MasterRecommendationsAPI {
 	}
 
 	private static Entity refreshRecommendationsEntity(String userId){
+		Key key = KeyFactory.createKey("UserRecommendations", userId);
+		Entity e;
+		try {
+			e = datastore.get(key);
+		} catch (EntityNotFoundException e1) {
+			e = new Entity(key);
+		}
+		List<String> oldRecommendations = (List<String>) e.getProperty("recommendations");
 		RecommendationIndexAPI.updateUserRecommendations(userId);
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
@@ -124,8 +132,17 @@ public class MasterRecommendationsAPI {
 		
 		List<String> refreshedRecommendations = getDecendingListFromCountMap(mapping);
 		
-		Key key = KeyFactory.createKey("Recommendations", userId);
-		Entity e = new Entity(key);
+		int newRecommendations = 0;
+		if (oldRecommendations == null){
+			newRecommendations = refreshedRecommendations.size();
+		} else {
+			for (String s : refreshedRecommendations){
+				if (! oldRecommendations.contains(s)){
+					newRecommendations++;
+				}
+			}
+		}
+		e.setUnindexedProperty("unreadRecommendations", new Long(newRecommendations));
 		e.setUnindexedProperty("recommendations", refreshedRecommendations);
 		e.setProperty("updatedAt", System.currentTimeMillis());
 		datastore.put(e);
@@ -156,7 +173,18 @@ public class MasterRecommendationsAPI {
 
 	protected static void markAllRecommendationsRead(String userId) {
 		Entity entity = getRecommendationsEntity(userId);
-		entity.setUnindexedProperty("unreadRecommendations", 0);
+		entity.setUnindexedProperty("unreadRecommendations", new Long(0));
 		datastore.put(entity);	
+	}
+	
+	protected static int getNumberOfUnreadRecommendations(String userId){
+		Entity entity = getRecommendationsEntity(userId);
+		Long l = (Long) entity.getProperty("unreadRecommendations");
+		if (l == null) {
+			List<String> recommendations = (List<String>) entity.getProperty("recommendations");
+			if (recommendations == null) return 0;
+			return recommendations.size();
+		}
+		return l.intValue();
 	}
 }

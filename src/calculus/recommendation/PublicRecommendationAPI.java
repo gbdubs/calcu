@@ -133,9 +133,11 @@ public class PublicRecommendationAPI {
 		if (user == null){
 			List<MenuItem> defaultRecommendations = getLoggedOutRecommendations();
 			req.setAttribute("recommendationsMenu", defaultRecommendations);
+			req.setAttribute("unreadRecommendations", defaultRecommendations.size());
 		} else {
 			List<MenuItem> recommendations = getUserRecommendations(user.getUserId(), 50);
 			req.setAttribute("recommendationsMenu", recommendations);
+			req.setAttribute("unreadRecommendations", MasterRecommendationsAPI.getNumberOfUnreadRecommendations(user.getUserId()));
 		}
 	}
 

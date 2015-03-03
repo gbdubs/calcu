@@ -33,7 +33,8 @@ public class BookmarksAPI {
 				String jsonRepresentation = new MenuItem(new Content(contentUuid)).toJson();
 				uuids.add(contentUuid);
 				jsons.add(new Text(jsonRepresentation));
-				setBookmarks(bookmarkInfo, uuids, jsons, numberUnread++);
+				numberUnread++;
+				setBookmarks(bookmarkInfo, uuids, jsons, numberUnread);
 			} catch (EntityNotFoundException e) {
 				// We needn't do anything if the bookmark points to content that does not exist!
 			}	
@@ -87,6 +88,7 @@ public class BookmarksAPI {
 		Long l = (Long) bookmarkInfo.getProperty("unreadBookmarks");
 		if (l == null) {
 			List<Text> texts = (List<Text>) bookmarkInfo.getProperty("bookmarkJsons");
+			if (texts == null) return 0;
 			return texts.size();
 		}
 		return l.intValue();
@@ -122,11 +124,11 @@ public class BookmarksAPI {
 			}
 			req.setAttribute("bookmarksMenu", bookmarksToDisplay);
 			req.setAttribute("bookmarkUuids", bookmarkUuids);
-			req.setAttribute("bookmarksUnread", numberUnread);
+			req.setAttribute("unreadBookmarks", numberUnread);
 		} else {
 			List<MenuItem> menuItems = getLoggedOutBookmarks();
 			req.setAttribute("bookmarksMenu", menuItems);
-			req.setAttribute("bookmarksUnread", menuItems.size());
+			req.setAttribute("unreadBookmarks", menuItems.size());
 		}
 	}
 

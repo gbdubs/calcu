@@ -3,7 +3,9 @@
 
 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 	<i class="fa fa-road"></i>
-	<span class="label label-danger">${fn:length(recommendationsMenu)}</span>
+	<c:if test="${unreadRecommendations > 0}">
+		<span class="label label-danger">${unreadRecommendations}</span>
+	</c:if>
 </a>
 <ul class="dropdown-menu">
 	<li class="header">You have ${fn:length(recommendationsMenu)} Recommendations</li>

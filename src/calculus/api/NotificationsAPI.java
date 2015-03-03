@@ -46,10 +46,12 @@ public class NotificationsAPI {
 
 	private static void addUserNotification(String userId, Notification n){
 		Entity userNotifications = getNotificationsEntity(userId);
+		int unreadNotifications = getNumberOfUnreadNotifications(userNotifications);
 		List<String> notificationJsons = (List<String>) userNotifications.getProperty("notifications");
 		if (notificationJsons == null) notificationJsons = new ArrayList<String>();
 		notificationJsons.add(n.toJson());
 		userNotifications.setUnindexedProperty("notifications", notificationJsons);
+		userNotifications.setUnindexedProperty("unreadNotifications", new Long(unreadNotifications + 1));
 		datastore.put(userNotifications);
 	}
 	
@@ -105,12 +107,12 @@ public class NotificationsAPI {
 		if (user == null){
 			List<MenuItem> notifications = getLoggedOutNotifications();
 			req.setAttribute("notificationsMenu", notifications);
-			req.setAttribute("notificationsUnread", notifications.size());
+			req.setAttribute("unreadNotifications", notifications.size());
 		} else {
 			String userId = user.getUserId();
 			Entity entity = getNotificationsEntity(userId);
 			List<MenuItem> notifications = getUserNotifications(entity);
-			req.setAttribute("notificationsUnread", getNumberOfUnreadNotifications(entity));
+			req.setAttribute("unreadNotifications", getNumberOfUnreadNotifications(entity));
 			req.setAttribute("notificationsMenu", notifications);
 		}
 	}
