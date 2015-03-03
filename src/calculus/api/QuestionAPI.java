@@ -48,7 +48,6 @@ public class QuestionAPI {
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		System.out.println("BODY: [\n" + body + "\n]");
 		if (body == null || body.equals("")) body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";
 		Text wrappedBody = new Text(body);
 		
@@ -101,7 +100,6 @@ public class QuestionAPI {
 		
 		String body = (String) req.getParameter("body");
 		body = Cleaner.cleanHtml(body);
-		System.out.println("BODY: [\n" + body + "\n]");
 		if (body == null || body.equals("")) body = "[This author was so caught up in the existential crisis of life, they realized that the only true question is 'why?', and can best be represented by not putting in anything in their question's body]";	
 		Text wrappedBody = new Text(body);
 		

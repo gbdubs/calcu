@@ -25,13 +25,10 @@ public class MarkMenuItemsReadServlet extends HttpServlet {
 		if (type == null || user == null || !user.getUserId().equals(userId)) return;
 		
 		if (type.equals("bookmarks")) {
-			System.out.println("Clearing Bookmarks...");
 			BookmarksAPI.markAllBookmarksRead(userId);
 		} else if (type.equals("notifications")) {
-			System.out.println("Clearing Notifications...");
 			NotificationsAPI.markAllNotificationsRead(userId);
 		} else if (type.equals("recommendations")) {
-			System.out.println("Clearing Recommendations...");
 			PublicRecommendationAPI.markAllRecommendationsRead(userId);
 		} else {
 			System.out.println("Unrecognized Type Argument: " + type);
