@@ -36,7 +36,7 @@
 							<img src="${profilePictureUrl}" id="profile-picture-editor-display">
 							<div class="input-group">
 								<input type="hidden" name="userId" value="${user.userId}"/>
-								<input type="file" class="form-control" id="profile-picture-upload" name="profilePictureUpload" multiple="false"/>
+								<input type="file" class="form-control bg-blue" id="profile-picture-upload" name="profilePictureUpload" multiple="false"/>
 								<span class="input-group-btn">
 									<button class="btn btn-primary" type="submit">Square Crop and Save</button>
 								</span>
