@@ -35,7 +35,11 @@ public class TagAPI {
 			entity = datastore.get(key);
 			uuids = (List<String>) entity.getProperty("matchingContent");
 		} catch (EntityNotFoundException e) {
-			entity.setProperty("name", cleanedTag);
+			if (acceptableTag(cleanedTag)){
+				entity.setProperty("name", cleanedTag);
+			} else {
+				return;
+			}
 		}
 		uuids.add(contentUuid);
 		entity.setProperty("count", uuids.size());
@@ -122,5 +126,35 @@ public class TagAPI {
 			}
 		}
 		return allTags;
+	}
+	
+	private static boolean acceptableTag (String tag) {
+		if (tag.length() > 50){
+			return false;
+		}
+		int alphanumeric = 0;
+		int other = 0;
+		char[] chars = tag.toCharArray();
+		for(char c : chars){
+			if (alphanumeric(c)) alphanumeric++;
+			else other++;
+		}
+		if (other > 5 || other >= 2 * alphanumeric){
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	private static boolean alphanumeric (char c) {
+		int i = (int) c;
+		if (65 <= i && i <= 90) {
+			return true;
+		} else if (48 <= i && i <= 57) {
+			return true;
+		} else if (97 <= i && i <= 122) {
+			return true;
+		}
+		return false;
 	}
 }
