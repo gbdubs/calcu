@@ -2,7 +2,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-user="${user.userId}" data-type="notifications">
 	<i class="fa fa-flag"></i>
 	<c:if test="${unreadNotifications > 0}">
 		<span class="label label-success">${unreadNotifications}</span>

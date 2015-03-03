@@ -150,6 +150,21 @@ $(function() {
     	$(this).closest(".ad").remove();
     });
     
+    $(".nav .dropdown .dropdown-toggle").click(function(){
+    	var type = $(this).data("type");
+    	var userId = $(this).data("user");
+    	var label = $(".label", this);
+    	var num = parseInt(label.text());
+    	
+    	if (num > 0) {
+    		$.ajax({
+    			type: "POST",
+    			url: "/mark-menu-items-read",
+    			data: "userId="+userId+"&type=" + type
+    		});
+    	}
+    	label.fadeOut().text("0");
+    });
 });
 
 function fix_sidebar() {

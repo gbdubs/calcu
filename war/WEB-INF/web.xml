@@ -413,6 +413,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/affirm-consent</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>MarkMenuItemsRead</servlet-name>
+		<servlet-class>calculus.general.MarkMenuItemsReadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MarkMenuItemsRead</servlet-name>
+		<url-pattern>/mark-menu-items-read</url-pattern>
+	</servlet-mapping>
+	
 	
 	<filter>
 		<filter-name>appstats</filter-name>

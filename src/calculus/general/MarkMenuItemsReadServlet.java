@@ -15,7 +15,7 @@ import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
-public class MarkMenuItemReadServlet extends HttpServlet {
+public class MarkMenuItemsReadServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		String userId = req.getParameter("userId");
@@ -25,11 +25,16 @@ public class MarkMenuItemReadServlet extends HttpServlet {
 		if (type == null || user == null || !user.getUserId().equals(userId)) return;
 		
 		if (type.equals("bookmarks")) {
+			System.out.println("Clearing Bookmarks...");
 			BookmarksAPI.markAllBookmarksRead(userId);
 		} else if (type.equals("notifications")) {
+			System.out.println("Clearing Notifications...");
 			NotificationsAPI.markAllNotificationsRead(userId);
 		} else if (type.equals("recommendations")) {
+			System.out.println("Clearing Recommendations...");
 			PublicRecommendationAPI.markAllRecommendationsRead(userId);
+		} else {
+			System.out.println("Unrecognized Type Argument: " + type);
 		}
 	}
 }

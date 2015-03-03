@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-user="${user.userId}" data-type="bookmarks">
 	<i class="fa fa-bookmark"></i>
 	<c:if test="${unreadBookmarks > 0}">
 		<span class="label label-warning">${unreadBookmarks}</span>
