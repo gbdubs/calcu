@@ -24,20 +24,15 @@
 					to let us get to know you better!
 				</p>
 				<p>
-					Listed below are the things we think you will like.  Feel free to check out each one, they
-					will all be here for you when you come back.  On each one, we have given you a few options:
+					On each piece of recommended content, you can provide us with feedback:
 					<ul>
-						<li> You can bookmark the content so that you can come back to it later </li>
-						<li> You can hide the content if you have seen it before </li>
-						<li> You can tell us you aren't interested in the subject matter of the recommendation
-						so that we can make it better </li>
+						<li><i class="fa fa-thumbs-up round-icon-button"></i>Tell us when you like a recommendation to get more like it! </li>
+						<li><i class="fa fa-bookmark round-icon-button"></i>You can bookmark the content so that you can come back to it later </li>
+						<li><i class="fa fa-eye-slash round-icon-button"></i>You can hide the content if you have seen it before. This doesn't tell us what you think about it </li>
+						<li><i class="fa fa-thumbs-down round-icon-button"></i>Let us know when you aren't interested in the subject matter of the recommendation so that we can make it better </li>
 					</ul>
-					Also on this page, we allow you to un-hide all of the recommendations that you have previously
-					hidden. 
-				</p>
-				<p>
-					As this feature is at the heart of the Website, please don't hesitate to contact us with 
-					suggestions on how it could be improved. Get After it!
+					To unhide all previously hidden recommendations, press the button at the bottom of this page.
+					As this feature is at the heart of the website, please don't hesitate to contact us with suggestions on how it could be improved. Get After it!
 				</p>
 				
 				<c:if test="${fn:length(recommendationsMenu) == 0}">
@@ -77,23 +72,23 @@
 
 						<div class="alert alert-recommendation alert-${rec.color}">
 						
-							<i class="fa">${rec.percentage}</i>
-							
+							<i class="fa percentage-display">${rec.percentage}</i>
 							
 							<a href="${rec.url}"><b>${rec.title}</b></a>
 							${rec.description}
 							
+							<i type="button" class="interested-button fa fa-thumbs-o-up" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"></i>
+							
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<i type="button" class="toggle-bookmark-button fa fa-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}"></i>
+									<i type="button" class="toggle-bookmark-button fa fa-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}" title="Un-Bookmark This!"></i>
 								</c:when>
 								<c:otherwise>
-									<i type="button" class="toggle-bookmark-button fa fa-bookmark-o" data-action="add" data-user="${user.userId}" data-content="${rec.uuid}"></i>
+									<i type="button" class="toggle-bookmark-button fa fa-bookmark-o" data-action="add" data-user="${user.userId}" data-content="${rec.uuid}" title="Bookmark This!"></i>
 								</c:otherwise>
 							</c:choose>
-							
-							<i type="button" class="disinterested-button fa fa-thumbs-o-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}"></i>
-							<i type="button" class="hide-recommendation-button fa fa-eye-slash" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}"></i>
+							<i type="button" class="hide-recommendation-button fa fa-eye-slash" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}" title="Hide this for now."></i>
+							<i type="button" class="disinterested-button fa fa-thumbs-o-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."></i>
 						</div>
 					</c:forEach>
 					</div>
@@ -103,7 +98,7 @@
 							<button class="btn btn-success pull-left show-all-recommendations" data-action="showAll" data-user="${user.userId}">Unhide All Hidden Recommendations</button>
 							<div class="btn-group no-margin pull-right">
 								<c:forEach begin="1" end="${numPages}" var="i">
-									<button class="result-page-tab btn btn-success" id="rec-result-page-${i}-tab">${i}</button>
+									<button class="result-page-tab btn btn-default" id="rec-result-page-${i}-tab">${i}</button>
 								</c:forEach>
 							</div>
 						</div>

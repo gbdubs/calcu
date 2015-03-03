@@ -21,7 +21,7 @@ $(function() {
 	
 	$(".toggle-bookmark-button").click(toggleBookmarkButton);
 	
-	var actionContent = function(){
+	var hideRecommendedContent = function(){
     	var userId = $(this).data("user");
 		var content = $(this).data("content");
 		var action = $(this).data("action");
@@ -34,12 +34,61 @@ $(function() {
     	
     	$(this).addClass('hovered');
     	
-    	$(this).parent(".alert").fadeOut(1500, function() { $(this).remove(); });
+    	var fading = $(this).parent(".alert").addClass("fading");
+    	setTimeout(function () {$(fading).remove();}, 1200);
+    	
     };
 	
-    $(".disinterested-button").click(actionContent);
-    $(".hide-recommendation-button").click(actionContent);
+    $(".hide-recommendation-button").click(hideRecommendedContent);
+    
+    var disinterestedContent = function () {
+    	var notYetSent = $(this).hasClass("fa-thumbs-o-down");
+    	var alreadySent = $(this).hasClass("fa-thumbs-down");
+    	
+    	var userId = $(this).data("user");
+		var content = $(this).data("content");
+		var action = $(this).data("action");
+		
+    	$.ajax({
+    		type: "POST",
+			url: "/recommendations",
+			data: "userId="+userId+"&contentUuid="+content+"&action="+action+"-"+notYetSent
+    	});
+    	
+    	if (notYetSent) {
+    		$(this).addClass("fa-thumbs-down").removeClass("fa-thumbs-o-down");
+    		$(".interested-button", $(this).parent()).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
+    	} else if (alreadySent) {
+    		$(this).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
+    	}
+    }
+    
+    $(".disinterested-button").click(disinterestedContent);
 
+    var interestedContent = function () {
+    	var notYetSent = $(this).hasClass("fa-thumbs-o-up");
+    	var alreadySent = $(this).hasClass("fa-thumbs-up");
+    	
+    	var userId = $(this).data("user");
+		var content = $(this).data("content");
+		var action = $(this).data("action");
+		
+    	$.ajax({
+    		type: "POST",
+			url: "/recommendations",
+			data: "userId="+userId+"&contentUuid="+content+"&action="+action+"-"+notYetSent
+    	});
+    	
+    	if (notYetSent) {
+    		$(this).addClass("fa-thumbs-up").removeClass("fa-thumbs-o-up");
+    		$(".disinterested-button", $(this).parent()).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
+    	} else if (alreadySent) {
+    		$(this).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
+    	}
+    }
+    
+    $(".interested-button").click(interestedContent);
+    
     var showAll = function (){
     	var userId = $(this).data("user");
 		var action = $(this).data("action");
@@ -68,9 +117,9 @@ $(function() {
     		});
     		$(id, parent).removeClass("hidden");
     		$(".result-page-tab", parent).each(function(){
-    			$(this).removeClass("selected")
+    			$(this).removeClass("btn-success").addClass("btn-default")
     		});
-    		$(this).addClass("selected");
+    		$(this).removeClass("btn-default").addClass("btn-success");
     	});
     });
 });

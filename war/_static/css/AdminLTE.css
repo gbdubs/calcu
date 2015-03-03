@@ -4148,30 +4148,64 @@ a.btn.btn-warning.live-preview-return-button{
 .alert.alert-recommendation{
 	margin: 30px 10px 30px 15px;
 	padding: 20px 15px 15px 15px;
+	max-height: 200px;
+	-webkit-transition: all 1000ms linear;
+    -moz-transition: all 1000ms linear;
+    -ms-transition: all 1000ms linear;
+    -o-transition: all 1000ms linear;
+    transition: all 1000ms linear;
+}
+
+.alert.alert-recommendation.fading {
+	max-height: 0;
+	opacity: .3;
+	padding: 0;
+	border: 0;
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
+.alert.alert-recommendation.fading > i {
+	width: 0;
+	height: 0;
+	top: 0;
+	margin-right: 17.5px;
+	bottom: 0;
+	font-size: 1px;
+	line-height: 0px;
+	-webkit-transition: all 1000ms linear;
+    -moz-transition: all 1000ms linear;
+    -ms-transition: all 1000ms linear;
+    -o-transition: all 1000ms linear;
+    transition: all 1000ms linear;
+}
+
+.alert.alert-recommendation > i {
+	position: absolute;
+	left: auto;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.alert.alert-recommendation > i.percentage-display {
+	border: inherit;
+	cursor: inherit;
 }
 
 .alert.alert-recommendation > i.hide-recommendation-button {
-	position: absolute;
 	right: 50px;
-	left: auto;
-	border: 1px solid;
-	cursor: pointer;
 }
 
 .alert.alert-recommendation > i.disinterested-button {
-	position: absolute;
 	right: 10px;
-	left: auto;
-	border: 1px solid;
-	cursor: pointer;
+}
+
+.alert.alert-recommendation > i.interested-button {
+	right: 130px;
 }
 
 .alert.alert-recommendation > i.toggle-bookmark-button {
-	position: absolute;
-	left: auto;
 	right: 90px;
-	border: 1px solid;
-	cursor: pointer;
 }
 
 i.toggle-bookmark-button.hovered,
@@ -4193,6 +4227,25 @@ i.hide-recommendation-button.hovered,
 	border: none;
 	background: #f56954;
 	color: white;
+}
+
+ i.interested-button.hovered, 
+.alert.alert-recommendation:hover > i.interested-button {
+	border: none;
+	background: #00a65a;
+	color: white;
+}
+
+.round-icon-button {
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	color: inherit;
+	background: white;
+	border: 1px solid;
+	border-radius: 50%;
+	line-height: 35px;
+	margin: 10px;
 }
 
 .margin-10-list > li {
