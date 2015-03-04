@@ -72,7 +72,7 @@
 							</tr>
 						<c:forEach items="${unsubmittedQuestions}" var="question" varStatus="loop">
 							<tr>
-								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td class="hidden-xs"><a href="${question.editUrl}"> ${loop.index + 1}. </a></td>
 								<td><a href="${question.editUrl}"> ${question.title}</a></td>
 								<td><a class="badge bg-aqua" href="${question.editUrl}">Edit</a></td>
 								<td><a class="badge bg-blue" href="${question.previewUrl}">Preview</a></td>
@@ -104,7 +104,7 @@
 							</tr>
 						<c:forEach items="${submittedQuestions}" var="question" varStatus="loop">
 							<tr>
-								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td class="hidden-xs"><a href="${question.url}"> ${loop.index + 1}. </a></td>
 								<td><a href="${question.url}"> ${question.title} </a></td>
 								<td><span class="badge bg-blue">${question.karma} Karma</span></td>
 								<td>${question.readableTime}</td>
@@ -141,7 +141,7 @@
 							</tr>
 						<c:forEach items="${unsubmittedPracticeProblems}" var="practiceProblem" varStatus="loop">
 							<tr>
-								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td class="hidden-xs"><a href="${practiceProblem.editUrl}"> ${loop.index + 1}. </a></td>
 								<td><a href="${practiceProblem.editUrl}"> ${practiceProblem.title}</a></td>
 								<td><a class="badge bg-green" href="${practiceProblem.editUrl}">Edit</a></td>
 								<td><a class="badge bg-olive" href="${practiceProblem.previewUrl}">Preview</a></td>
@@ -173,7 +173,7 @@
 							</tr>
 						<c:forEach items="${submittedPracticeProblems}" var="practiceProblem" varStatus="loop">
 							<tr>
-								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td class="hidden-xs"><a href="${practiceProblem.url}"> ${loop.index + 1}. </a></td>
 								<td><a href="${practiceProblem.url}"> ${practiceProblem.title} </a></td>
 								<td><span class="badge bg-olive">${practiceProblem.karma} Karma</span></td>
 								<td>${practiceProblem.readableTime}</td>
@@ -210,7 +210,7 @@
 							</tr>
 						<c:forEach items="${unsubmittedContent}" var="content" varStatus="loop">
 							<tr>
-								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td class="hidden-xs"><a href="${content.editUrl}"> ${loop.index + 1}. </a></td>
 								<td><a href="${content.editUrl}"> ${content.title}</a></td>
 								<td><a class="badge bg-yellow" href="${content.editUrl}">Edit</a></td>
 								<td><a class="badge bg-orange" href="${content.previewUrl}">Preview</a></td>
@@ -242,7 +242,7 @@
 							</tr>
 						<c:forEach items="${submittedContent}" var="content" varStatus="loop">
 							<tr>
-								<td class="hidden-xs">${loop.index + 1}.</td>
+								<td class="hidden-xs"><a href="${content.url}"> ${loop.index + 1}. </a></td>
 								<td><a href="${content.url}"> ${content.title} </a></td>
 								<td><span class="badge bg-orange">${content.karma} Karma</span></td>
 								<td>${content.readableTime}</td>
@@ -257,6 +257,40 @@
 			</div>
 			</c:if>
 		</div>
+		</c:if>
+		
+		<c:if test="${fn:length(submittedAnswers) > 0}">
+			<div class="box box-danger box-solid">
+				<div class="box-header">
+					<i class="fa fa-check hidden-xs"></i>
+					<h3 class="box-title">Submitted Answers  <small>Though these can no longer be edited, you can see them in action!</small></h3>
+				</div>
+				<c:set var="totalKarma" value="${0}"/>
+				<div class="box-body no-padding">	
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="hidden-xs">#</td>
+								<td>Answer Title</td>
+								<td>Karma Earned</td>
+								<td>Date Submitted</td>
+							</tr>
+							<c:forEach items="${submittedAnswers}" var="answer" varStatus="loop">
+								<tr>
+									<td class="hidden-xs"><a href="${answer.url}"> ${loop.index + 1}. </a></td>
+									<td><a href="${answer.url}"> ${answer.title} </a></td>
+									<td><span class="badge bg-orange">${answer.karma} Karma</span></td>
+									<td>${answer.readableTime}</td>
+								</tr>
+								<c:set var="totalKarma" value="${totalKarma + answer.karma}"/>
+							</c:forEach>
+						</tbody>
+					</table>
+				</div>
+				<div class="box-footer">
+					Total: ${fn:length(submittedAnswers)} Answers Submitted, ${totalKarma} Karma
+				</div>
+			</div>
 		</c:if>
 	</jsp:attribute>
 </t:genericpage>

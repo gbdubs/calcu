@@ -3,6 +3,7 @@ package calculus.contribute;
 import java.util.ArrayList;
 import java.util.List;
 
+import calculus.models.Answer;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
@@ -22,6 +23,7 @@ public class ContributionDashboardAPI {
 	private static Filter textContentFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "textContent");
 	private static Filter practiceProblemFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "practiceProblem");
 	private static Filter questionFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "question");
+	private static Filter answerFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, "answer");
 	private static Filter submittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, true);
 	private static Filter unsubmittedFilter = new FilterPredicate("submitted", FilterOperator.EQUAL, false);
 	private static Filter notAnonymousFilter = new FilterPredicate("anonymous", FilterOperator.EQUAL, false);
@@ -107,4 +109,16 @@ public class ContributionDashboardAPI {
 		return list;
 	}
 
+	public static List<Answer> getSubmittedAnswers(String userId) {
+		List<Answer> list = new ArrayList<Answer>();
+		Filter userFilter = new FilterPredicate("creatorUserId", FilterOperator.EQUAL, userId);
+		Filter compositeFilter = CompositeFilterOperator.and(userFilter, answerFilter, submittedFilter, notAnonymousFilter, viewableFilter);
+		Query query = new Query("Content").setFilter(compositeFilter).addSort("createdAt");
+		PreparedQuery pq = datastore.prepare(query);
+		for (Entity result : pq.asIterable()) {
+			Answer a = new Answer(result);
+			list.add(a);
+		}
+		return list;
+	}
 }

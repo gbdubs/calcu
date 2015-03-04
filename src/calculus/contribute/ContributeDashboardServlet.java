@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
+import calculus.models.Answer;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
@@ -44,13 +45,17 @@ public class ContributeDashboardServlet extends HttpServlet{
 		List<Question> submittedQ = ContributionDashboardAPI.getSubmittedQuestions(userId);
 		List<TextContent> unsubmittedTC = ContributionDashboardAPI.getUnsubmittedTextContent(userId);
 		List<TextContent> submittedTC = ContributionDashboardAPI.getSubmittedTextContent(userId);
-	
+		List<Answer> submittedAnswers = ContributionDashboardAPI.getSubmittedAnswers(userId);
+		
+		
 		req.setAttribute("unsubmittedPracticeProblems", unsubmittedPP);
 		req.setAttribute("submittedPracticeProblems", submittedPP);
 		req.setAttribute("unsubmittedQuestions", unsubmittedQ);
 		req.setAttribute("submittedQuestions", submittedQ);
 		req.setAttribute("unsubmittedContent", unsubmittedTC);
 		req.setAttribute("submittedContent", submittedTC);
+		req.setAttribute("submittedAnswers", submittedAnswers);
+		
 		
 		UserContextAPI.addUserContextToRequest(req, "/contribute/dashboard");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/dashboard.jsp");
