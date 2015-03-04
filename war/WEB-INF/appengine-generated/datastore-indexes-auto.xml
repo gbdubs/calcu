@@ -1,8 +1,8 @@
-<!-- Indices written at Tue, 3 Mar 2015 19:15:51 EST -->
+<!-- Indices written at Tue, 3 Mar 2015 20:21:02 EST -->
 
 <datastore-indexes>
 
-    <!-- Used 12 times in query history -->
+    <!-- Used 18 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="creatorUserId" direction="asc"/>
@@ -10,7 +10,7 @@
         <property name="createdAt" direction="asc"/>
     </datastore-index>
 
-    <!-- Used 16 times in query history -->
+    <!-- Used 24 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="anonymous" direction="asc"/>
         <property name="contentType" direction="asc"/>
@@ -20,12 +20,20 @@
         <property name="createdAt" direction="asc"/>
     </datastore-index>
 
-    <!-- Used 4 times in query history -->
+    <!-- Used 96 times in query history -->
     <datastore-index kind="Content" ancestor="false" source="auto">
         <property name="contentType" direction="asc"/>
         <property name="submitted" direction="asc"/>
         <property name="viewable" direction="asc"/>
         <property name="creatorUserId" direction="asc"/>
+        <property name="createdAt" direction="desc"/>
+    </datastore-index>
+
+    <!-- Used 8 times in query history -->
+    <datastore-index kind="Content" ancestor="false" source="auto">
+        <property name="creatorUserId" direction="asc"/>
+        <property name="submitted" direction="asc"/>
+        <property name="viewable" direction="asc"/>
         <property name="createdAt" direction="desc"/>
     </datastore-index>
 
