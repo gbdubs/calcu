@@ -33,10 +33,10 @@
 			</div>			
 		</c:if>
 		<c:if test="${answerMode}">
-			<div class="box box-solid bg-olive-gradient">
+			<div class="box box-solid bg-olive">
 				<div class="box-header solid-box-header">
 					<i class="fa fa-cube fa-karma-score hidden-xs"></i>
-					<h3 class="box-title">Solve Practice Problem Mode (STREAK = ${answerModeStreak})</h3>
+					<h3 class="box-title">Solve Practice Problem Mode</h3>
 					<form action="/answer/practice-problem/new" method="post" class="pull-right box-tools">
 						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
 						<input type="hidden" name="parentUuid" value="${practiceProblem.uuid}"/>
@@ -47,6 +47,10 @@
 				</div>
 				<div class="box-body">
 					<p>
+					<span style="margin: 5px 20px 0 10px; float: left; display: inline-block;" class="knob-wrapper">
+						<input data-readOnly=true type="text" class="knob pull-left" value="${answerModeStreak}" data-bgColor="#3d9970" data-fgColor="#01ff70" data-thickness="0.5" data-min="0" data-max="10" data-width="80" data-height="80" />
+						<span class="knob-label" style="display:block;width:100%;color:inherit;font-size:18px;font-weight:bold;">Streak</span>
+					</span>
 					You are currently in Problem Solving Turbo Mode. That name isn't real, but here is the deal!
 					We will present you with problems we think that you would be the perfect person to solve.
 					For most of them, the author's solution hasn't been satisfactory to most viewers.

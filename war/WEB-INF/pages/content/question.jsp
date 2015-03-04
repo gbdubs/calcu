@@ -33,10 +33,10 @@
 			</div>			
 		</c:if>
 		<c:if test="${answerMode}">
-			<div class="box box-solid bg-blue-gradient">
+			<div class="box box-solid bg-blue">
 				<div class="box-header solid-box-header">
 					<i class="fa fa-cube fa-karma-score hidden-xs"></i>
-					<h3 class="box-title">Answer Question Mode (STREAK = ${answerModeStreak})</h3>
+					<h3 class="box-title">Answer Question Mode</h3>
 					<form action="/answer/question/new" method="post" class="pull-right box-tools">
 						<input type="hidden" name="answerModeStreak" value="${answerModeStreak}"/>
 						<input type="hidden" name="parentUuid" value="${question.uuid}"/>
@@ -47,13 +47,17 @@
 				</div>
 				<div class="box-body">
 					<p>
+						<span style="margin: 5px 20px 0 10px; float: left; display: inline-block;" class="knob-wrapper">
+							<input data-readOnly=true type="text" class="knob pull-left" value="${answerModeStreak}" data-bgColor="#0073b7" data-fgColor="#00c0ef" data-thickness="0.5" data-min="0" data-max="10" data-width="80" data-height="80" />
+							<span class="knob-label" style="display:block;width:100%;color:inherit;font-size:18px;font-weight:bold;">Streak</span>
+						</span>
 						You are currently in Question Answering Turbo Mode. That name isn't real, but here is the deal!
 						We will present you with questions we think that you would be the perfect person to solve.
 						If you can solve the problem, please do! You will get a tidy little karma bonus for answering the problems we select for you. After you answer the question, hit the 'Done' button. Pressing 'Done' if you have not answered the question will reset your Answer Streak.
 						If you don't think that you can answer the question well, or if you think that the answers are already good enough, press the 'Skip' button. Pressing 'Skip' will not ruin your Answer Streak.
 						At any time, you can navigate away from this page, but know that your Answer Streak will be broken! Good Luck, and thank you for your contribution to our project!
 					</p>
-					<c:if test="${practiceProblem == null}">
+					<c:if test="${question == null}">
 						<div class="box box-solid bg-yellow-gradient no-margin">
 							<div class="box-header">
 								<h3 class="box-title">You have answered (or authored) all available Practice Problems! Go outside! Take a break! Wait for your medal! </h3>
@@ -282,7 +286,7 @@
 										<label for="body">Answer Explanation and Response</label>
 										<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 										<div class="submit-buttons-pull-right">
-											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next">
+											<input class="btn btn-info submit" name="regularSubmit" type="submit" value="Submit + Next">
 										</div>
 									</div>
 								</form>
