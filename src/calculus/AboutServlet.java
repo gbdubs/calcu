@@ -13,8 +13,7 @@ import calculus.api.UserContextAPI;
 @SuppressWarnings("serial")
 public class AboutServlet extends HttpServlet {
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		UserContextAPI.addUserContextToRequest(req, "/about");
 		

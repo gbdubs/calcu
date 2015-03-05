@@ -89,7 +89,7 @@
 							Search
 						</h3>
 						<p>
-							Find the Content You Are Looking For
+							Quickly Find The Content You are Looking For
 						</p>
 					</div>
 					<div class="icon">
@@ -108,7 +108,7 @@
 							Explore
 						</h3>
 						<p>
-							Discover new areas of Calculus
+							See What Your Community Is Learning and Reading
 						</p>
 					</div>
 					<div class="icon">
@@ -127,7 +127,7 @@
 							Create
 						</h3>
 						<p>
-							Contribute back to the Community
+							Contribute Your New Skills Back To Your Community
 						</p>
 					</div>
 					<div class="icon">
@@ -146,7 +146,7 @@
 							Personalize
 						</h3>
 						<p>
-							Get the most out of your Experience
+							Customizes your Experience based on how you learn
 						</p>
 					</div>
 					<div class="icon">

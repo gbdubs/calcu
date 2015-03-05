@@ -1,6 +1,7 @@
 package calculus.api;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -156,5 +157,53 @@ public class TagAPI {
 			return true;
 		}
 		return false;
+	}
+	
+	private static void recalculateAllClosestTags(){
+		Query q = new Query("Tag").addSort("count", SortDirection.DESCENDING);
+		PreparedQuery pq = datastore.prepare(q);
+		List<String> allTags = new ArrayList<String>();
+		for (Entity e : pq.asIterable()){
+			allTags.add((String) e.getProperty("name"));
+		}
+		for (String tag : allTags){
+			calculateAndStoreClosestTags (tag, allTags, 10);
+		}
+	}
+	
+	
+	private static void calculateAndStoreClosestTags (String tag1, List<String> allTags, int numberToStore) {
+		Key key = KeyFactory.createKey("Tag", tag1);
+		Future<Entity> entity = asyncDatastore.get(key);
+		List<String> uuids = new ArrayList<String>();
+		
+		Map<Float, String> mapping = new HashMap<Float, String>();
+		List<Float> allValues = new ArrayList<Float>();
+		for (String tag2 : allTags) {
+			float pairwiseDifference = pairwiseDifference(tag1, tag2);
+			mapping.put(pairwiseDifference, tag2);
+			allValues.add(pairwiseDifference);
+		}
+		List<String> similarTags = new ArrayList<String>();
+		Collections.sort(allValues);
+		int i = allValues.size();
+		while (i-- > 0 && similarTags.size() < numberToStore){
+			similarTags.add(mapping.get(allValues.get(i)));
+		}
+		
+		try {
+			Entity real = entity.get();
+			real.setProperty("similarTags", similarTags);
+			asyncDatastore.put(real);
+		} catch (InterruptedException e) {
+			return;
+		} catch (ExecutionException e) {
+			return;
+		}
+	}
+
+	private static float pairwiseDifference(String tag1, String tag2) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
