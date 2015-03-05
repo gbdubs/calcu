@@ -39,9 +39,9 @@
 					</div>
 					<div class="box-body">
 						<ul>
-							<li><b><a href="https://www.edx.org/course/pre-university-calculus-delftx-calc001x#.VMbTgmTF_As">Coursera: Pre-University Calculus</a></b> An online course offered by edX, which is offered on a paced schedule every month.</li>
-							<li><b><a href="https://www.coursera.org/learn/calculus1">Coursera: Calculus One</a></b>  An online course offered by MOOC giant coursera, via Ohio State University</li>
-							<li><b><a href="https://www.mooculus.osu.edu">Mooculus</a></b>  A flashy new MOOC that takes a new approach on an old subject.</li>
+							<li><b><a href="https://www.edx.org/course/pre-university-calculus-delftx-calc001x#.VMbTgmTF_As" target="_blank">Coursera: Pre-University Calculus</a></b> An online course offered by edX, which is offered on a paced schedule every month.</li>
+							<li><b><a href="https://www.coursera.org/learn/calculus1" target="_blank">Coursera: Calculus One</a></b>  An online course offered by MOOC giant coursera, via Ohio State University</li>
+							<li><b><a href="https://www.mooculus.osu.edu" target="_blank">Mooculus</a></b>  A flashy new MOOC that takes a new approach on an old subject.</li>
 						</ul>
 					</div>
 				</div>
@@ -54,8 +54,8 @@
 					</div>
 					<div class="box-body">
 						<ul>
-							<li><b><a href="http://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/">MIT: Spring 2005 Text</a></b> This text includes an instructors manual and a student study guide.</li>
-							<li><b><a href="https://www.math.wisc.edu/~keisler/calc.html">Calculus: An Infinitessimal Approach</a></b>  A comprehensive and elementary approach to a very difficult subject.</li>
+							<li><b><a href="http://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/" target="_blank">MIT: Spring 2005 Text</a></b> This text includes an instructors manual and a student study guide.</li>
+							<li><b><a href="https://www.math.wisc.edu/~keisler/calc.html" target="_blank">Calculus: An Infinitessimal Approach</a></b>  A comprehensive and elementary approach to a very difficult subject.</li>
 						</ul>
 					</div>
 				</div>
@@ -69,8 +69,8 @@
 					</div>
 					<div class="box-body">
 						<ul>
-							<li><b><a href="https://www.khanacademy.org/math/differential-calculus">Khan Academy: Differential Calculus</a></b> This series of video lessons comes from the world's leading producer of this type of media</li>
-							<li><b><a href="https://www.khanacademy.org/math/integral-calculus">Khan Academy: Integral Calculus</a></b>  The second part of this two-subject series</li>
+							<li><b><a href="https://www.khanacademy.org/math/differential-calculus" target="_blank">Khan Academy: Differential Calculus</a></b> This series of video lessons comes from the world's leading producer of this type of media</li>
+							<li><b><a href="https://www.khanacademy.org/math/integral-calculus" target="_blank">Khan Academy: Integral Calculus</a></b>  The second part of this two-subject series</li>
 						</ul>
 					</div>
 				</div>
