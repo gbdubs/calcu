@@ -24,9 +24,6 @@ import com.google.appengine.api.users.UserServiceFactory;
 public class AnswerModeServlet extends HttpServlet{
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
-		if (UserServiceFactory.getUserService().getCurrentUser() == null){
-			resp.sendRedirect("/page-not-found"); return;
-		}
 		redirectToNewProblemOrDashboard(req, resp, 0);
 	}
 	
@@ -55,7 +52,7 @@ public class AnswerModeServlet extends HttpServlet{
 		req.setAttribute("answerModeStreak", streak);
 		req.setAttribute("answerMode", true);
 		
-		UserContextAPI.addUserContextToRequest(req, "/answer");
+		UserContextAPI.addUserContextToRequest(req, "/answer/question");
 		resp.setContentType("text/html");
 		
 		if (url.contains("new")){
@@ -71,6 +68,9 @@ public class AnswerModeServlet extends HttpServlet{
 				questionLanding(req, resp); return;
 			} else if (url.contains("practice-problem")){
 				practiceProblemLanding(req, resp); return;
+			} else {
+				resp.sendRedirect("/page-not-found");
+				return;
 			}
 		}
 	}

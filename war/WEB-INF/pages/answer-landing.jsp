@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
@@ -37,7 +38,14 @@
 						higher immediate karma return for your answer in Answer Mode, so that we can try and get Users the answers to their problems
 						as soon as possible. Thanks for trying it out!
 						</p>
-						<a href="/answer/question/new" class="btn btn-block btn-primary">Get Started</a>
+						<c:choose>
+							<c:when test="${user != null}">
+								<a href="/answer/question/new" class="btn btn-block btn-primary">Get Started</a>
+							</c:when>
+							<c:otherwise>
+								<button class="btn btn-block btn-primary login-button">Login to Get Started</button>
+							</c:otherwise>
+						</c:choose>
 					</div>
 				</div>
 			</div>
@@ -54,7 +62,14 @@
 						their solution.  Sometimes, they don't provide it in the most accessible way. We have an algorithm that detects
 						frustrated students in need of a clear solution, and we are sending you their way! Thank you!
 						</p>
-						<a href="/answer/practice-problem/new" class="btn btn-block btn-success">Get Started</a>
+						<c:choose>
+							<c:when test="${user != null}">
+								<a href="/answer/practice-problem/new" class="btn btn-block btn-success">Get Started</a>
+							</c:when>
+							<c:otherwise>
+								<button class="btn btn-block btn-success login-button">Login to Get Started</button>
+							</c:otherwise>
+						</c:choose>
 					</div>
 				</div>
 			</div>
