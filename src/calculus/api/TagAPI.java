@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+import calculus.utilities.LevenshteinDistance;
+
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.Cursor;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -26,6 +28,7 @@ public class TagAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
+	private static final String allTagsKey = "lkq3jneoxi2398rskdnf2039uxldkf093";
 	
 	public static void addNewContentToTag(String contentUuid, String tag){
 		String cleanedTag = tag.toLowerCase().trim();
@@ -38,6 +41,7 @@ public class TagAPI {
 		} catch (EntityNotFoundException e) {
 			if (acceptableTag(cleanedTag)){
 				entity.setProperty("name", cleanedTag);
+				addNewTagToAllTags(cleanedTag);
 			} else {
 				return;
 			}
@@ -48,6 +52,38 @@ public class TagAPI {
 		datastore.put(entity);
 	}
 
+	private static void addNewTagToAllTags(String tag){
+		Key key = KeyFactory.createKey("Tag", allTagsKey);
+		Entity e;
+		try {
+			e = datastore.get(key);
+		} catch (EntityNotFoundException enfe) {
+			e = new Entity(key);
+		}
+		
+		List<String> allTags = (List<String>) e.getProperty("allTags");
+		if (allTags == null) allTags = new ArrayList<String>();
+		
+		if (!allTags.contains(tag)){
+			allTags.add(tag);
+			e.setProperty("allTags", allTags);
+			asyncDatastore.put(e);
+		}
+	}
+	
+	private static List<String> getAllTags() {
+		Key key = KeyFactory.createKey("Tag", allTagsKey);
+		Entity e;
+		try {
+			e = datastore.get(key);
+			List<String> allTags = (List<String>) e.getProperty("allTags");
+			if (allTags == null) allTags = new ArrayList<String>();
+			return allTags;
+		} catch (EntityNotFoundException enfe) {
+			return new ArrayList<String>();
+		}
+	}
+	
 	public static List<String> getUuidsResultsOfMultipleTags(String tags, int maxNumResults, int seed){
 		List<String> tagsList = getTagsFromString(tags);
 		return getUuidsResultsOfMultipleTags(tagsList, maxNumResults, seed);
@@ -129,6 +165,11 @@ public class TagAPI {
 		return allTags;
 	}
 	
+	public static List<String> getSimilarTags(String original){
+		List<String> allTags = getAllTags();
+		return calculateSimilarTags(original, allTags, 5);
+	}
+
 	private static boolean acceptableTag (String tag) {
 		if (tag.length() > 50){
 			return false;
@@ -160,36 +201,17 @@ public class TagAPI {
 	}
 	
 	private static void recalculateAllClosestTags(){
-		Query q = new Query("Tag").addSort("count", SortDirection.DESCENDING);
-		PreparedQuery pq = datastore.prepare(q);
-		List<String> allTags = new ArrayList<String>();
-		for (Entity e : pq.asIterable()){
-			allTags.add((String) e.getProperty("name"));
-		}
+		List<String> allTags = getAllTags();
 		for (String tag : allTags){
 			calculateAndStoreClosestTags (tag, allTags, 10);
 		}
 	}
 	
-	
 	private static void calculateAndStoreClosestTags (String tag1, List<String> allTags, int numberToStore) {
 		Key key = KeyFactory.createKey("Tag", tag1);
 		Future<Entity> entity = asyncDatastore.get(key);
-		List<String> uuids = new ArrayList<String>();
 		
-		Map<Float, String> mapping = new HashMap<Float, String>();
-		List<Float> allValues = new ArrayList<Float>();
-		for (String tag2 : allTags) {
-			float pairwiseDifference = pairwiseDifference(tag1, tag2);
-			mapping.put(pairwiseDifference, tag2);
-			allValues.add(pairwiseDifference);
-		}
-		List<String> similarTags = new ArrayList<String>();
-		Collections.sort(allValues);
-		int i = allValues.size();
-		while (i-- > 0 && similarTags.size() < numberToStore){
-			similarTags.add(mapping.get(allValues.get(i)));
-		}
+		List<String> similarTags = calculateSimilarTags(tag1, allTags, numberToStore);
 		
 		try {
 			Entity real = entity.get();
@@ -201,9 +223,25 @@ public class TagAPI {
 			return;
 		}
 	}
+	
+	private static List<String> calculateSimilarTags(String tag1, List<String> allTags, int numberToReturn){
+		Map<Float, String> mapping = new HashMap<Float, String>();
+		List<Float> allValues = new ArrayList<Float>();
+		for (String tag2 : allTags) {
+			float pairwiseDifference = pairwiseDifference(tag1, tag2);
+			mapping.put(pairwiseDifference, tag2);
+			allValues.add(pairwiseDifference);
+		}
+		List<String> similarTags = new ArrayList<String>();
+		Collections.sort(allValues);
+		int i = allValues.size();
+		while (i-- > 0 && similarTags.size() < numberToReturn){
+			similarTags.add(mapping.get(allValues.get(i)));
+		}
+		return similarTags;
+	}
 
 	private static float pairwiseDifference(String tag1, String tag2) {
-		// TODO Auto-generated method stub
-		return 0;
+		return LevenshteinDistance.computeLevenshteinDistance(tag1, tag2);
 	}
 }

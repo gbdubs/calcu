@@ -69,6 +69,7 @@ public class SearchByTagServlet extends HttpServlet {
 		List<Content> questions = new ArrayList<Content>();
 		List<Content> textContent = new ArrayList<Content>();
 		boolean moreResults = false;
+		List<String> recommendedTags = null;
 		int seed = 1;
 		
 		if(!tagString.trim().equals("") && tagString != null){
@@ -92,11 +93,19 @@ public class SearchByTagServlet extends HttpServlet {
 			if (uuids.size() == maxNumResults){
 				moreResults = true;
 			}
+			
+			if (practiceProblems.size() < 10 && questions.size() < 10 && textContent.size() < 10) {
+				recommendedTags = new ArrayList<String>();
+				for (String tag : tags){
+					recommendedTags.addAll(TagAPI.getSimilarTags(tag));
+				}
+			}
 		}
 		
 		req.setAttribute("seed", seed);
 		req.setAttribute("moreResults", moreResults);
 		req.setAttribute("tags", tagString);
+		req.setAttribute("recommendedTags", recommendedTags);
 		req.setAttribute("resultPracticeProblems", practiceProblems);
 		req.setAttribute("resultQuestions", questions);
 		req.setAttribute("resultTextContent", textContent);

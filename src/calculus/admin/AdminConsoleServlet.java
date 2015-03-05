@@ -31,7 +31,9 @@ public class AdminConsoleServlet extends HttpServlet {
 			List<Report> reportedContent = ReportAPI.getAllOpenReports();
 			req.setAttribute("reportedContent", reportedContent);
 			
-			UserContextAPI.addUserContextToRequest(req, "/admin");
+			if (!req.getRequestURI().equals("/admin-safe")){
+				UserContextAPI.addUserContextToRequest(req, "/admin");
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/admin-console.jsp");	
 			jsp.forward(req, resp);

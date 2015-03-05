@@ -41,6 +41,11 @@
 						</span>
 					</div>
 				</form>
+				<div class="recommended-tag-wrapper">
+					<c:foreach var="recTag" items="recommendedTags">
+						<button class="btn btn-success recommended-tag">${recTag}</button>
+					</c:foreach>
+				</div>
 			</div>
 		</div>
 		
