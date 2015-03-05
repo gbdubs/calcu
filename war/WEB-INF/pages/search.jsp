@@ -41,11 +41,17 @@
 						</span>
 					</div>
 				</form>
-				<div class="recommended-tag-wrapper">
-					<c:foreach var="recTag" items="recommendedTags">
-						<button class="btn btn-success recommended-tag">${recTag}</button>
-					</c:foreach>
-				</div>
+				<c:if test="${recommendedTags != null}">
+					<br/>
+					<label for="recommended-tag-wrapper">Consider Adding These Tags To Your Search To Get More Results!</label>
+					<div id="recommended-tag-wrapper" class="tagsinput">
+						<c:forEach var="recTag" items="${recommendedTags}">
+							<span class="tag bg-green add-recommended-tag" data-tag="${recTag}">
+								<span>${recTag}</span>
+							</span>
+						</c:forEach>
+					</div>
+				</c:if>
 			</div>
 		</div>
 		

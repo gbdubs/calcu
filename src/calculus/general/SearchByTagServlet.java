@@ -2,8 +2,10 @@ package calculus.general;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
-import java.util.concurrent.Future;
+import java.util.Set;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,7 +19,6 @@ import calculus.api.UserContextAPI;
 import calculus.models.Content;
 import calculus.recommendation.InterestsAPI;
 
-import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -69,7 +70,7 @@ public class SearchByTagServlet extends HttpServlet {
 		List<Content> questions = new ArrayList<Content>();
 		List<Content> textContent = new ArrayList<Content>();
 		boolean moreResults = false;
-		List<String> recommendedTags = null;
+		Set<String> recommendedTags = null;
 		int seed = 1;
 		
 		if(!tagString.trim().equals("") && tagString != null){
@@ -95,10 +96,11 @@ public class SearchByTagServlet extends HttpServlet {
 			}
 			
 			if (practiceProblems.size() < 10 && questions.size() < 10 && textContent.size() < 10) {
-				recommendedTags = new ArrayList<String>();
+				recommendedTags = new HashSet<String>();
 				for (String tag : tags){
 					recommendedTags.addAll(TagAPI.getSimilarTags(tag));
 				}
+				recommendedTags.removeAll(Arrays.asList(tags));
 			}
 		}
 		

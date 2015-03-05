@@ -40,7 +40,7 @@ public class TagAPI {
 			uuids = (List<String>) entity.getProperty("matchingContent");
 		} catch (EntityNotFoundException e) {
 			if (acceptableTag(cleanedTag)){
-				entity.setProperty("name", cleanedTag);
+				entity.setUnindexedProperty("name", cleanedTag);
 				addNewTagToAllTags(cleanedTag);
 			} else {
 				return;
@@ -66,7 +66,7 @@ public class TagAPI {
 		
 		if (!allTags.contains(tag)){
 			allTags.add(tag);
-			e.setProperty("allTags", allTags);
+			e.setUnindexedProperty("allTags", allTags);
 			asyncDatastore.put(e);
 		}
 	}
@@ -234,14 +234,14 @@ public class TagAPI {
 		}
 		List<String> similarTags = new ArrayList<String>();
 		Collections.sort(allValues);
-		int i = allValues.size();
-		while (i-- > 0 && similarTags.size() < numberToReturn){
+		int i = -1;
+		while (++i < allValues.size() && similarTags.size() < numberToReturn){
 			similarTags.add(mapping.get(allValues.get(i)));
 		}
 		return similarTags;
 	}
 
 	private static float pairwiseDifference(String tag1, String tag2) {
-		return LevenshteinDistance.computeLevenshteinDistance(tag1, tag2);
+		return (float) (LevenshteinDistance.computeLevenshteinDistance(tag1, tag2) + Math.random());
 	}
 }
