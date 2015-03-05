@@ -1,6 +1,7 @@
 package calculus.api;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -171,7 +172,12 @@ public class TagAPI {
 	}
 
 	private static boolean acceptableTag (String tag) {
-		if (tag.length() > 50){
+		if (tag.length() > 50 || tag.length() < 3){
+			return false;
+		}
+		String[] unacceptableStrings = {"and", "of", "or", "as", "at", "in", "on"};
+		List<String> unacceptable = Arrays.asList(unacceptableStrings);
+		if (unacceptable.contains(tag)){
 			return false;
 		}
 		int alphanumeric = 0;
@@ -198,30 +204,6 @@ public class TagAPI {
 			return true;
 		}
 		return false;
-	}
-	
-	private static void recalculateAllClosestTags(){
-		List<String> allTags = getAllTags();
-		for (String tag : allTags){
-			calculateAndStoreClosestTags (tag, allTags, 10);
-		}
-	}
-	
-	private static void calculateAndStoreClosestTags (String tag1, List<String> allTags, int numberToStore) {
-		Key key = KeyFactory.createKey("Tag", tag1);
-		Future<Entity> entity = asyncDatastore.get(key);
-		
-		List<String> similarTags = calculateSimilarTags(tag1, allTags, numberToStore);
-		
-		try {
-			Entity real = entity.get();
-			real.setProperty("similarTags", similarTags);
-			asyncDatastore.put(real);
-		} catch (InterruptedException e) {
-			return;
-		} catch (ExecutionException e) {
-			return;
-		}
 	}
 	
 	private static List<String> calculateSimilarTags(String tag1, List<String> allTags, int numberToReturn){
