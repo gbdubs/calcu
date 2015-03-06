@@ -150,6 +150,8 @@ $(function() {
     	$(this).closest(".ad").remove();
     });
     
+    $(".wysihtml5-beam-me-up").wysihtml5();
+    
     $(".nav .dropdown .dropdown-toggle").click(function(){
     	var type = $(this).data("type");
     	var userId = $(this).data("user");
@@ -199,10 +201,7 @@ function fix_sidebar() {
     		});
         	$(modal).remove();
     	});
-    });
-    
-    $(".wysihtml5-beam-me-up").wysihtml5();
-    
+    });   
 }
 
 /*END DEMO*/
