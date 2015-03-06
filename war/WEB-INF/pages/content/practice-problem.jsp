@@ -8,11 +8,6 @@
 		CalcU | Practice Problem
 	</jsp:attribute>
 	
-	<jsp:attribute name="css">
-		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
-		<link href="/_static/css/CalcU/lpg.css" rel="stylesheet" type="text/css">
-	</jsp:attribute>
-	
 	<jsp:attribute name="content">
 		<c:if test="${!livePreview && !practiceProblem.viewable}">
 			<div class="box box-solid bg-maroon-gradient">
@@ -339,15 +334,12 @@
 			<jsp:param name="hasSolution" value="${false}" />
 		</jsp:include>
 	</jsp:attribute>
-	<jsp:attribute name="javascript">
+	
+	<jsp:attribute name="javascriptDependencies">
 		<c:if test="${difficultyCalibration}">
-			<script src="/_static/js/CalcU/personalize-difficulty.js"></script>
+			personalize-difficulty 
 		</c:if>
-		<script src="/_static/js/CalcU/practiceProblem.js"></script>
-		<script src="/_static/js/CalcU/rating-system.js"></script>
-		<script src="/_static/js/plugins/jquery-ui/jquery-ui.min.js"></script>
-		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
-		<script src="/_static/js/CalcU/lpg.js"></script>
+		practiceProblem rating-system lpg
 	</jsp:attribute>
 </t:genericpage>
 	

@@ -330,9 +330,9 @@
 		</c:if>
 		
 	</jsp:attribute>	
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
-		<script src="/_static/js/CalcU/searchByTag.js"></script>
+
+	<jsp:attribute name="javascriptDependencies">
+		searchByTag
 	</jsp:attribute>
 </t:genericpage>
 	

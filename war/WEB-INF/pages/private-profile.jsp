@@ -148,7 +148,8 @@
 			</div>
 		</a>
 	</jsp:attribute>
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/profile.js" type="text/javascript"></script>
+
+	<jsp:attribute name="javascriptDependencies">
+		private-profile
 	</jsp:attribute>
 </t:genericpage>

@@ -2,8 +2,7 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@attribute name="content" fragment="true" %>
 <%@attribute name="pageTitle" fragment="true" %>
-<%@attribute name="javascript" fragment="true" %>
-<%@attribute name="css" fragment="true" %>
+<%@attribute name="javascriptDependencies" fragment="true" %>
 
 <!DOCTYPE html>
 <html>
@@ -15,15 +14,12 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <!-- bootstrap wysihtml5 - text editor -->
-    <link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
-    <!-- Theme style -->
-    <link href="/_static/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <!-- All Style -->
+    <link href="/_static/dist/css/style.min.css" rel="stylesheet" type="text/css" />
 
     <!-- AngularJS dependency -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
-
-	<jsp:invoke fragment="css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,6 +33,8 @@
 <!-- header logo: style can be found in header.less -->
 
 <header class="header">
+
+	<span id="page-js" class="hidden"><jsp:invoke fragment="javascriptDependencies" /></span>
 
     <!-- LOGO -->
     <a href="/home" class="logo">
@@ -296,18 +294,9 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js" type="text/javascript"></script>
-<!-- Bootstrap WYSIHTML5 -->
-<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 
-<script src="/_static/js/plugins/jqueryKnob/jquery.knob.js" type="text/javascript"></script>
-<!-- AdminLTE App -->
-<script src="/_static/js/AdminLTE/app.js" type="text/javascript"></script>
-
-<!-- CalcU App -->
-<script src="/_static/js/CalcU/app.js" type="text/javascript"></script>
-
-<!-- Any additional Javascript specified in the template -->
-<jsp:invoke fragment="javascript" />
+<!-- ALL JAVASCRIPT -->
+<script src="/_static/dist/js/calcujs.min.js" type="text/javascript"></script>
 
 </body>
 </html>

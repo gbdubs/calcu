@@ -121,7 +121,8 @@
 			</div>
 		</div>
 	</jsp:attribute>
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/recommendations.js"></script>
+
+	<jsp:attribute name="javascriptDependencies">
+		recommendations
 	</jsp:attribute>
 </t:genericpage>
