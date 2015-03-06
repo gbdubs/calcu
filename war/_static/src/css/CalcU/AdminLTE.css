@@ -3720,7 +3720,7 @@ fieldset[disabled] .btn-vk.active {
 }
 
 .rating-system-horizontal.small-screen{
-	width: Calc(100% + 20px);
+	width: Calc(100% - -20px);
 	border-radius: 0;
 	border-left: none;
 }
@@ -3998,7 +3998,7 @@ div.tagsinput div { display:block; float: left; }
 }
 
 .large-input-group-button{
-	height: Calc(100% + 14px);
+	height: Calc(100% - -14px);
 }
 
 .buttonless{
