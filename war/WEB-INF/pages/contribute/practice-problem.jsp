@@ -126,4 +126,9 @@
 		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 		<script src="/_static/js/CalcU/lpg.js"></script>
 	</jsp:attribute>
+	
+	<jsp:attribute name="javascriptDependencies">
+		practiceProblemCreation lpg
+	</jsp:attribute>
+	
 </t:genericpage>

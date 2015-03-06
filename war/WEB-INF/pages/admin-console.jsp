@@ -385,4 +385,7 @@
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/CalcU/admin-console.js"></script>
 	</jsp:attribute>
+	<jsp:attribute name="javascriptDependencies">
+		admin-console
+	</jsp:attribute>
 </t:genericpage>

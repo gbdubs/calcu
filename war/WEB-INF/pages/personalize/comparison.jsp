@@ -70,4 +70,8 @@
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/CalcU/compare-content.js"></script>
 	</jsp:attribute>
+	
+	<jsp:attribute name="javascriptDependencies">
+		compare-content
+	</jsp:attribute>
 </t:genericpage>

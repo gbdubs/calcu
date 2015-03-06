@@ -93,4 +93,7 @@
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/CalcU/public-profile.js" type="text/javascript"></script>
 	</jsp:attribute>
+	<jsp:attribute name="javascriptDependencies">
+		public-profile
+	</jsp:attribute>
 </t:genericpage>
