@@ -4288,6 +4288,10 @@ i.hide-recommendation-button.hovered,
 	margin: -20px -15px;
 	padding: 20px 15px;
 	background: #141414;
+}
+
+.padding-5{
+	padding: 5px;
 }.achievement-badge{
     text-align: center;
     width: 100%;

@@ -200,6 +200,9 @@
 									Author's Solution
 								</a>
 							</h4>
+							<div class="dropdown pull-right padding-5">
+ 								<button class="btn btn-default peek-button">Peek</button>
+ 							</div>
 						</div>
 						<div id="collapseAuthorSolution" class="panel-collapse collapse">
 							<div class="box-body box-body-with-rating-system">
