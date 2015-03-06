@@ -4,6 +4,7 @@
 <t:genericpage>
 	<jsp:attribute name="css">
 		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
+		<link href="/_static/css/CalcU/lpg.css" rel="stylesheet" type="text/css">
 	</jsp:attribute>
 
 	<jsp:attribute name="pageTitle">
@@ -62,15 +63,15 @@
 				</div>
 				<div class="box-body pad">
 					<label for="title">Question Body</label>
-					<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Insert a description of your question here, make sure to include enough information to make someone with no context understand what you are describing/asking">${question.body}</textarea>
+					<textarea id="body-editor" name="body" class="textarea wysihtml5-beam-me-up" placeholder="Insert a description of your question here, make sure to include enough information to make someone with no context understand what you are describing/asking">${question.body}</textarea>
 				</div>
+					
 				<div class="box-body pad">
 					<label for="tags-input">Tags/Categories</label>
 					<input name="tagsInput" id="tags-input" value="${question.tags}" />
 				</div>
 			</div>
 		
-			
 			<div class="box box-primary contribute-box">
 				<div class="box-header">
 					<i class="fa fa-paper-plane hidden-xs"></i>
@@ -100,11 +101,15 @@
 				</div>
 			</div>
 		</form>
+		
+		<jsp:include page="/WEB-INF/templates/latex-playground.jsp"></jsp:include>
 	</jsp:attribute>
 		
 	<jsp:attribute name="javascript">
 		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
 		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
+		<script src="/_static/js/plugins/jquery-ui/jquery-ui.min.js"></script>
 		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+		<script src="/_static/js/CalcU/lpg.js"></script>
 	</jsp:attribute>
 </t:genericpage>
