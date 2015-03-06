@@ -1,3 +1,4 @@
+.lpg-button-disabled,
 .lpg-button{
 	height: 40px;
 }
@@ -5,6 +6,7 @@
 .lpg-toolbar{
 	height: 40px;
 	width: 100%;
+	margin-bottom: 5px;
 }
 
 .lpg-header{
@@ -26,6 +28,10 @@
 	padding: 10px;
 }
 
+.lpg-input-box{
+	margin-bottom: 5px;
+}
+
 .lpg-footer {
 	height: auto;
 	background: #3d9970;
@@ -33,6 +39,11 @@
 	border-bottom-left-radius: 4px;
 	padding: 5px;
 	text-align: right;
+}
+
+.lpg-footer select {
+	float: left;
+	width: auto;
 }
 
 .latex-playground {
@@ -51,12 +62,53 @@
 	min-height: 70px;
 	background: white;
 	border: 1px solid #ccc;
+	text-align: center;
+    padding: 10px;
 }
 
-.lpg-hide {
+.lpg-close {
   position: absolute;
   top: 5px;
   right: 5px;
   height: 30px;
   line-height: 15px;
+}
+
+.lpg-instructions-toggle{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	height: 30px;
+	line-height: 15px;
+}
+
+.lpg-symbol-browser{
+  width: 250px;
+  /*left: -163px;*/
+  padding: 5px;
+  white-space: normal;
+  text-align: center;
+}
+
+.lpg-symbol-browser > .lpg-button {
+	width: 15%;
+    margin: 1%;
+    height: 34px;
+    line-height: 0;
+    padding: 0;
+}
+
+li.lpg-button {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+li.lpg-button:hover{
+	background: #f4f4f4;
+}
+
+.lpg-instructions{
+	padding: 10px;
 }

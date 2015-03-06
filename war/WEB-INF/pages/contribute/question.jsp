@@ -102,7 +102,9 @@
 			</div>
 		</form>
 		
-		<jsp:include page="/WEB-INF/templates/latex-playground.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/templates/latex-playground.jsp">
+			<jsp:param name="hasSolution" value="${false}" />
+		</jsp:include>
 	</jsp:attribute>
 		
 	<jsp:attribute name="javascript">
