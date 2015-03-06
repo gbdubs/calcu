@@ -128,7 +128,7 @@
 			</div>
 			<div class="box-body padding-20">
 				<p>
-					You are currently at Level ${userLevel}. In order to reach Level ${userLevel + 1}, you will need to get to ${5 * (userLevel * (userLevel - 1))} karma. 
+					You are currently at Level ${userLevel}. In order to reach Level ${userLevel + 1}, you will need to get to ${5 * (userLevel * (userLevel + 1))} karma. 
 					
 					To find out more about how the karma system works, and the different leveling thresholds, visit the <a href="/tutorial">Tutorial Page</a>.
 					
