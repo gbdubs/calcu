@@ -2,15 +2,16 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
+	
+	<jsp:attribute name="pageTitle">
+		CalcU | Contribute Practice Problem
+	</jsp:attribute>
+	
 	<jsp:attribute name="css">
 		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
 		<link href="/_static/css/CalcU/lpg.css" rel="stylesheet" type="text/css">
 	</jsp:attribute>
 	
-	<jsp:attribute name="pageTitle">
-		CalcU | Contribute Practice Problem
-	</jsp:attribute>
-
 	<jsp:attribute name="content">
 	
 		<div class="box box-info contribute-box">

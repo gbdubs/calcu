@@ -7,6 +7,12 @@
 	<jsp:attribute name="pageTitle">
 		CalcU | Practice Problem
 	</jsp:attribute>
+	
+	<jsp:attribute name="css">
+		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
+		<link href="/_static/css/CalcU/lpg.css" rel="stylesheet" type="text/css">
+	</jsp:attribute>
+	
 	<jsp:attribute name="content">
 		<c:if test="${!livePreview && !practiceProblem.viewable}">
 			<div class="box box-solid bg-maroon-gradient">
@@ -300,7 +306,7 @@
 									</div>
 									<div class="box-body pad">
 										<label for="body">Answer Explanation and Response</label>
-										<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
+										<textarea id="body-editor" name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 										<div class="submit-buttons-pull-right">
 											<input class="btn btn-success submit" name="regularSubmit" type="submit" value="Submit + Next">
 										</div>
@@ -316,7 +322,7 @@
 									</div>
 									<div class="box-body pad">
 										<label for="body">Answer Explanation and Result</label>
-										<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
+										<textarea id="body-editor" name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 										<div class="submit-buttons-pull-right">
 											<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
 											<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
@@ -329,14 +335,19 @@
 				</div>
 			</div>
 		</div>
+		<jsp:include page="/WEB-INF/templates/latex-playground.jsp">
+			<jsp:param name="hasSolution" value="${false}" />
+		</jsp:include>
 	</jsp:attribute>
 	<jsp:attribute name="javascript">
 		<c:if test="${difficultyCalibration}">
 			<script src="/_static/js/CalcU/personalize-difficulty.js"></script>
 		</c:if>
-		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
 		<script src="/_static/js/CalcU/practiceProblem.js"></script>
 		<script src="/_static/js/CalcU/rating-system.js"></script>
+		<script src="/_static/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
+		<script src="/_static/js/CalcU/lpg.js"></script>
 	</jsp:attribute>
 </t:genericpage>
 	
