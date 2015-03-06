@@ -7,7 +7,7 @@
     <property name="DIST_CSS_DIR" value="${DIST_DIR}/css" description="Output folder for CSS files" />
     <property name="DIST_JS_DIR" value="${DIST_DIR}/js" description="Output folder for JavaScript files" />
     <property name="BUILD_DIR" value="build" description="Files needed to build" />
-    <property name="YUI" value="${BUILD_DIR}/yuicompressor-2.4.2.jar" description="YUICompressor" />
+    <property name="YUI" value="${BUILD_DIR}/yuicompressor-2.4.8.jar" description="YUICompressor" />
 
     <!-- Files names for distribution -->
     <property name="CSS" value="${DIST_CSS_DIR}/style.css" />
@@ -29,8 +29,8 @@
         <echo message="Building ${CSS}" />
     	<mkdir dir="${DIST_CSS_DIR}" />
         <concat destfile="${CSS}">
-            <fileset dir="${SRC_CSS_DIR}" includes="CalcU/*.css" />
-        	<fileset dir="${SRC_CSS_DIR}" includes="bootstrap3-wysihtml5/*.css" />
+        	<fileset dir="${SRC_CSS_DIR}" includes="bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+        	<fileset dir="${SRC_CSS_DIR}" includes="CalcU/*.css" />
         </concat>
         <echo message="${CSS} built." />
     </target>
