@@ -200,6 +200,9 @@ function fix_sidebar() {
         	$(modal).remove();
     	});
     });
+    
+    $(".wysihtml5-beam-me-up").wysihtml5();
+    
 }
 
 /*END DEMO*/
