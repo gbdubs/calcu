@@ -52,9 +52,7 @@
 			</div>
 		</div>
 	</jsp:attribute>
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/personalize-interests.js"></script>
-	</jsp:attribute>
+
 	<jsp:attribute name="javascriptDependencies">
 		personalize-interests
 	</jsp:attribute>

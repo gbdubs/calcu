@@ -229,9 +229,6 @@
 				</div>
 			</div>
 		</div>
-	</jsp:attribute>	
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/explore.js"></script>
 	</jsp:attribute>
 	<jsp:attribute name="javascriptDependencies">
 		explore

@@ -2,17 +2,11 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
 <t:genericpage>
-	<jsp:attribute name="css">
-		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
-		<link href="/_static/css/CalcU/lpg.css" rel="stylesheet" type="text/css">
-	</jsp:attribute>
-
 	<jsp:attribute name="pageTitle">
 		CalcU | Contribute Question
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-	
 		<div class="box box-info contribute-box">
 			<div class="box-header">
 				<i class="fa fa-info-circle hidden-xs"></i>
@@ -107,14 +101,6 @@
 		</jsp:include>
 	</jsp:attribute>
 		
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/plugins/jQuery-Tags-Input-master/jquery.tagsinput.min.js"></script>
-		<script src="/_static/js/CalcU/practiceProblemCreation.js"></script>
-		<script src="/_static/js/plugins/jquery-ui/jquery-ui.min.js"></script>
-		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
-		<script src="/_static/js/CalcU/lpg.js"></script>
-	</jsp:attribute>
-	
 	<jsp:attribute name="javascriptDependencies">
 		practiceProblemCreation lpg
 	</jsp:attribute>

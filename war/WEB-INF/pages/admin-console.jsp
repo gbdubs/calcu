@@ -9,7 +9,6 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		
 		<div class="box box-solid">
 			<div class="box-header">
 				<i class="fa fa-gears fa-karma-score"></i>
@@ -382,9 +381,7 @@
 			</div>
 		</div>
 	</jsp:attribute>
-	<jsp:attribute name="javascript">
-		<script src="/_static/js/CalcU/admin-console.js"></script>
-	</jsp:attribute>
+
 	<jsp:attribute name="javascriptDependencies">
 		admin-console
 	</jsp:attribute>

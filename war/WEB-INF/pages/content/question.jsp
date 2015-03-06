@@ -8,11 +8,6 @@
 		CalcU | Question
 	</jsp:attribute>
 	
-	<jsp:attribute name="css">
-		<link href="/_static/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css">
-		<link href="/_static/css/CalcU/lpg.css" rel="stylesheet" type="text/css">
-	</jsp:attribute>
-	
 	<jsp:attribute name="content">
 		<c:if test="${!livePreview && !question.viewable}">
 			<div class="box box-solid bg-maroon-gradient">
@@ -322,16 +317,6 @@
 		<jsp:include page="/WEB-INF/templates/latex-playground.jsp">
 			<jsp:param name="hasSolution" value="${false}" />
 		</jsp:include>
-	</jsp:attribute>
-	<jsp:attribute name="javascript">
-		<c:if test="${difficultyCalibration}">
-			<script src="/_static/js/CalcU/personalize-difficulty.js"></script>
-		</c:if>
-		<script src="/_static/js/CalcU/question.js"></script>
-		<script src="/_static/js/CalcU/rating-system.js"></script>
-		<script src="/_static/js/plugins/jquery-ui/jquery-ui.min.js"></script>
-		<script src="/_static/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" type="text/javascript"></script>
-		<script src="/_static/js/CalcU/lpg.js"></script>
 	</jsp:attribute>
 	<jsp:attribute name="javascriptDependencies">
 		<c:if test="${difficultyCalibration}">

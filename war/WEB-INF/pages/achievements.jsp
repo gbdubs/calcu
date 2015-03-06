@@ -7,12 +7,8 @@
 	<jsp:attribute name="pageTitle">
 		CalcU | Achievements
 	</jsp:attribute>
-	<jsp:attribute name="css">
-		<link href="/_static/css/CalcU/badge.css" rel="stylesheet" type="text/css" />
-	</jsp:attribute>
+
 	<jsp:attribute name="content">
-		
-		
 		<div class="box box-solid bg-black-gradient">
 			<div class="box-header">
 				<i class="fa fa-trophy"></i>
@@ -39,6 +35,5 @@
 				</div>
 			</div>
 		</div>
-	
 	</jsp:attribute>
 </t:genericpage>
