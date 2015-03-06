@@ -2241,7 +2241,7 @@ $(function() {
 });$(function() {
     "use strict";
 
-    if ($("#page-js").text().indexOf("profile") > -1) { 
+    if ($("#page-js").text().indexOf("private-profile") > -1) { 
     
 	    $("#email-pref-submit").click(function(){
 	    	$(this).attr('disabled', 'disabled');

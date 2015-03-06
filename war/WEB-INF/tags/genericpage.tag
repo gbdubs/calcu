@@ -296,7 +296,7 @@
 <script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js" type="text/javascript"></script>
 
 <!-- ALL JAVASCRIPT -->
-<script src="/_static/dist/js/calcujs.js" type="text/javascript"></script>
+<script src="/_static/dist/js/calcujs.min.js" type="text/javascript"></script>
 
 </body>
 </html>
