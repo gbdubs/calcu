@@ -45,8 +45,7 @@
 					</div>
 					<div class="box-body">
 						<p>
-							Calcu.us is free to use.  Always.  We don't sell memberships, we don't push ads or sponsor products, and we don't preference any user over another.
-							Ever.
+							CalcU is free to use.  We don't sell memberships, we don't push ads or sponsor products, and we don't preference any user over another. Ever.
 						</p>
 					</div>
 				</div>
@@ -110,7 +109,7 @@
 							</div>
 							<div class="box-body">
 								<p>
-									When you contribute on Calcu.us, whether through asking questions, answering them, creating content or practice problems, or just
+									When you contribute on CalcU, whether through asking questions, answering them, creating content or practice problems, or just
 									regualrly using and rating things on the site, we reward your contributions through the gift of Karma!  Karma can be spent in a
 									couple of cool ways, many of which are still in development.  For the most current information, check out our achievements page.
 								</p>

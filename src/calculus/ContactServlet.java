@@ -59,7 +59,7 @@ public class ContactServlet extends HttpServlet {
 		if (anonymous){
 			try{
 				Message message = new MimeMessage(session);
-				message.setFrom(new InternetAddress("anonymouselephant@calcu.us", "Anonymous Elephant"));
+				message.setFrom(new InternetAddress("anonymouselephant@calcu.com", "Anonymous Elephant"));
 				message.addRecipient(Message.RecipientType.TO, new InternetAddress(Settings.ADMIN_EMAIL));
 				message.setSubject("Feedback from Anonymous");
 				message.setText(messageText);
