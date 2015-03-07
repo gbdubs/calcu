@@ -1,10 +1,36 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import calculus.models.PotentialContent;
+import calculus.utilities.LoremIpsum;
+
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.PreparedQuery;
+import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Query.SortDirection;
 
 public class PotentialContentAPI {
 	
-	public String createContentFromPotential(String uuid, String contentType){
+	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	
+	public static List<PotentialContent> getAllPotentialContent() {
+		return getDummyPotentialContent();
+		/*Query q = new Query("PotentialContent").addSort("createdAt", SortDirection.DESCENDING);
+		PreparedQuery pq = datastore.prepare(q);
+		List<PotentialContent> content = new ArrayList<PotentialContent>();
+		for(Entity e : pq.asIterable()){
+			content.add(PotentialContent.fromEntity(e));
+		}
+		return content;*/
+	}
+
+	public static String createContentFromPotential(String uuid, String contentType){
 		PotentialContent pc = PotentialContent.get(uuid);
 		if (pc == null) return null;
 		if (contentType.equals("practiceProblem")){
@@ -18,7 +44,12 @@ public class PotentialContentAPI {
 		}
 	}
 
-	private String createPracticeProblemFromPotential(PotentialContent pc){
+	public static void deletePotentialContent(String uuid){
+		Key key = KeyFactory.createKey("PotentialContent", uuid);
+		datastore.delete(key);
+	}
+	
+	private static String createPracticeProblemFromPotential(PotentialContent pc){
 		String title = pc.getTitle();
 		String body = pc.getBody();
 		String solution = pc.getSolution();
@@ -29,7 +60,7 @@ public class PotentialContentAPI {
 	}
 	
 	
-	private String createQuestionFromPotential(PotentialContent pc){
+	private static String createQuestionFromPotential(PotentialContent pc){
 		String title = pc.getTitle();
 		String body = pc.getBody();
 		String tags = pc.getTagsAsString();
@@ -38,7 +69,7 @@ public class PotentialContentAPI {
 		return newUuid;
 	}
 	
-	private String createTextContentFromPotential(PotentialContent pc){
+	private static String createTextContentFromPotential(PotentialContent pc){
 		String title = pc.getTitle();
 		String body = pc.getBody();
 		String tags = pc.getTagsAsString();
@@ -47,4 +78,17 @@ public class PotentialContentAPI {
 		return newUuid;
 	}
 	
+	private static List<PotentialContent> getDummyPotentialContent(){
+		List<PotentialContent> result = new ArrayList<PotentialContent>();
+		LoremIpsum random = new LoremIpsum();
+		for(int i = 0; i < 10; i++){
+			String title = random.getWords(5, Math.min(i * 5, 45));
+			String body = random.getParagraphs(1);
+			String solution = random.getParagraphs((int)(2 *Math.random()));
+			String tags = random.getWords((int) (Math.random() * 10));
+			String source = "http://lorempispum.com";
+			result.add(new PotentialContent().withBody(body).withSolution(solution).withTitle(title).withTags(tags).withSource(source));
+		}
+		return result;
+	}
 }

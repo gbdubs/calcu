@@ -418,6 +418,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>ContentApproval</servlet-name>
+		<servlet-class>calculus.admin.ContentApprovalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ContentApproval</servlet-name>
+		<url-pattern>/admin/content-approval</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>MarkMenuItemsRead</servlet-name>
 		<servlet-class>calculus.general.MarkMenuItemsReadServlet</servlet-class>
 	</servlet>

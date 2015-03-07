@@ -1,7 +1,9 @@
 package calculus.models;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
@@ -22,6 +24,7 @@ public class PotentialContent {
 	private List<String> tagList;
 	private String tagString;
 	private String source;
+	private Long createdAt;
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
@@ -32,6 +35,7 @@ public class PotentialContent {
 		solution = "";
 		tagList = new ArrayList<String>();
 		tagString = "";
+		createdAt = System.currentTimeMillis();
 	}
 
 	public static PotentialContent get(String uuid){
@@ -57,23 +61,30 @@ public class PotentialContent {
 		e.setUnindexedProperty("solution", new Text(solution));
 		e.setUnindexedProperty("tags", tagString);
 		e.setUnindexedProperty("source", source);
-		
+		e.setProperty("createdAt", createdAt);
 		datastore.put(e);
 	}
 
+	public void delete(){
+		Key pcKey = KeyFactory.createKey("PotentialContent", this.uuid);
+		datastore.delete(pcKey);
+	}
+	
 	public static PotentialContent fromEntity(Entity e){
 		String title = (String) e.getProperty("title");
 		Text body = (Text) e.getProperty("body");
 		Text solution = (Text) e.getProperty("solution");
 		String tags = (String) e.getProperty("tags");
 		String source = (String) e.getProperty("soruce");
+		Long createdAt = (Long) e.getProperty("createdAt");
 		
 		PotentialContent pc = new PotentialContent()
 			.withTitle(title)
 			.withBody(body.getValue())
 			.withSolution(solution.getValue())
 			.withTags(tags)
-			.withSource(source);
+			.withSource(source)
+			.withCreatedAt(createdAt);
 		return pc;
 	}
 
@@ -114,6 +125,11 @@ public class PotentialContent {
 		return this;
 	}
 	
+	public PotentialContent withCreatedAt(Long createdAt){
+		this.createdAt = createdAt;
+		return this;
+	}
+	
 	public String getUuid(){
 		return uuid;
 	}
@@ -140,5 +156,10 @@ public class PotentialContent {
 
 	public String getSource(){
 		return source;
+	}
+	
+	public String getCreatedAtDate(){
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm MM-dd-yy");
+		return sdf.format(new Date(this.createdAt));
 	}
 }
