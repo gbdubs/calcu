@@ -17,7 +17,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <!-- All Style -->
     <link href="/_static/dist/css/style.min.css" rel="stylesheet" type="text/css" />
-
+	<link href="/_static/src/css/CalcU/developer.css" rel="stylesheet" type="text/css" />
     <!-- AngularJS dependency -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js" type="text/javascript"></script>
 
@@ -264,8 +264,9 @@
 	            </p>
 		    </div>
 	        <div class="footer">
+	            <button class="btn btn-default affirm-consent-check-box"></button> I Have read and agree to the above
 	            <a href="${logoutUrl}" type="submit" class="btn btn-danger btn-block">Continue Without Logging In</a>
-	            <button class="btn btn-success btn-block affirm-consent-button" data-user="${user.userId}">I Have Read and Agree To the Above, Lets Go!</button>
+	            <button class="btn btn-success btn-block affirm-consent-button disabled" data-user="${user.userId}">Lets Go!</button>
 	        </div>
 		</div>
 	</div>
@@ -297,6 +298,7 @@
 
 <!-- ALL JAVASCRIPT -->
 <script src="/_static/dist/js/calcujs.min.js" type="text/javascript"></script>
+<script src="/_static/src/js/CalcU/developer.js" type="text/javascript"></script>
 
 </body>
 </html>

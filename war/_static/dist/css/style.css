@@ -4292,6 +4292,21 @@ i.hide-recommendation-button.hovered,
 
 .padding-5{
 	padding: 5px;
+}
+
+#login-box button.affirm-consent-check-box{
+	height: 26px;
+	margin: 10px 10px 10px 0;
+	position: relative;
+}
+
+.affirm-consent-check-box.checked:before{
+	font-family: FontAwesome;
+    display: inline-block;
+    content: "\f00c";
+    position: absolute;
+    top: 2px;
+    right: 3px;
 }.achievement-badge{
     text-align: center;
     width: 100%;

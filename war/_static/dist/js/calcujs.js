@@ -993,6 +993,39 @@ $(function() {
     	}
     	label.fadeOut().text("0");
     });
+    
+    $(".knob").knob();
+    
+    var affirmConsentCheckBox =  $(".affirm-consent-check-box");
+    var affirmConsentButton = $(".affirm-consent-button");
+    
+    $(affirmConsentCheckBox).click(function(){
+    	$(this).toggleClass("checked");
+    	$(affirmConsentButton).toggleClass("disabled");
+    });
+    
+	$("#affirm-consent-modal").each(function(){
+    	var modal = this;
+    	
+    	$(affirmConsentButton).click(function(){
+    		
+    		var checked = $(affirmConsentCheckBox).hasClass("checked");
+    		
+    		if (checked) {
+    			var userId = $(this).data("user");
+    			$.ajax({
+    				type: "POST",
+    				url: "/affirm-consent",
+    				data: "userId="+userId
+    			});
+    			$(modal).remove();
+    		} else {
+    			var style = {"border": "1px solid #f56954"}
+    			$(affirmConsentCheckbox).css(style);
+    		} 
+    	});
+    });
+    
 });
 
 function fix_sidebar() {
@@ -1000,7 +1033,7 @@ function fix_sidebar() {
     if (!$("body").hasClass("fixed")) {
         return;
     }
-
+    
     var style = {
         "height": ($(window).height() - $(".header").height()) + "px"
     }
@@ -1012,22 +1045,7 @@ function fix_sidebar() {
     });
     
     $(".sidebar").parent().css(style)
-    $(".sidebar").css(style);
-    
-    $(".knob").knob();
-    
-    $("#affirm-consent-modal").each(function(){
-    	var modal = this;
-    	$(".affirm-consent-button").click(function(){
-    		var userId = $(this).data("user");
-        	$.ajax({
-    			type: "POST",
-    			url: "/affirm-consent",
-    			data: "userId="+userId
-    		});
-        	$(modal).remove();
-    	});
-    });   
+    $(".sidebar").css(style);   
 }
 
 /*END DEMO*/
