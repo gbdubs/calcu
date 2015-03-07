@@ -217,7 +217,6 @@
 
 <div id="login-modal" class="hidden">
 	<div class="opaque-screen"></div>
-	
 	<div class="form-box" id="login-box">
 	    <div class="header">Sign In</div>
 	    <form action="" method="post">
@@ -230,18 +229,11 @@
 	                To readily serve you while protecting your data effectively, CalcU.us uses authorization through a Google account.  These accounts are secure, reliable, and free, and a new one can be created <a href="https://accounts.google.com/SignUp">here</a>.  We are considering expanding this service to other OpenAuth providers based on demand.  If you would like to see another supported, please <a href="/contact">contact</a> us.
 	            </p>
 	        </div>
-	        <div class="footer">
+	        <div class="footer padding-20">
 	            <a href="${loginUrl}" type="submit" class="btn btn-primary btn-block login-action">Log In with Google Account</a>
-	            <a href="#" class="btn btn-danger btn-block login-action">Continue as Guest User</a>
+	            <a href="#" class="btn btn-danger btn-block login-action no-margin">Continue as Guest User</a>
 	        </div>
 	    </form>
-	
-	    <div class="margin text-center">
-	        <span>Coming Soon: Sharing content on these social networks:</span>
-	        <br>
-	        <button class="btn bg-light-blue btn-circle"><i class="fa fa-facebook"></i></button>
-	        <button class="btn bg-aqua btn-circle"><i class="fa fa-twitter"></i></button>
-	    </div>
 	</div>
 </div>
 

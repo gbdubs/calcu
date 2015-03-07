@@ -30,7 +30,10 @@
     	<mkdir dir="${DIST_CSS_DIR}" />
         <concat destfile="${CSS}">
         	<fileset dir="${SRC_CSS_DIR}" includes="bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
-        	<fileset dir="${SRC_CSS_DIR}" includes="CalcU/*.css" />
+        	<fileset dir="${SRC_CSS_DIR}" includes="CalcU/*.css">
+        		<include name="CalcU/*.css"/>
+        		<exclude name="CalcU/developer.css"/>
+        	</fileset>
         </concat>
         <echo message="${CSS} built." />
     </target>

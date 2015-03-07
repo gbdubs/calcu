@@ -4151,7 +4151,7 @@ a.btn.btn-warning.live-preview-return-button{
 
 .box-body.padding-20,
 .padding-20{
-	padding: 20px;
+	padding: 20px !important;
 }
 
 .alert.notification{
@@ -4347,6 +4347,22 @@ i.hide-recommendation-button.hovered,
     position: absolute;
     top: 2px;
     right: 3px;
+}
+
+.user-header.bg-light-blue:after{
+  bottom: 100%;
+  right: 12px;
+  top: -15px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255,255,255,0);
+  border-bottom-color: #3c8dbc;
+  border-width: 8px;
+  z-index: 1;
 }.achievement-badge{
     text-align: center;
     width: 100%;

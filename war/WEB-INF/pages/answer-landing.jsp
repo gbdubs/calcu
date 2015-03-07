@@ -43,7 +43,7 @@
 								<a href="/answer/question/new" class="btn btn-block btn-primary">Get Started</a>
 							</c:when>
 							<c:otherwise>
-								<button class="btn btn-block btn-primary login-button">Login to Get Started</button>
+								<button class="btn btn-block btn-warning login-button">Login to Get Started</button>
 							</c:otherwise>
 						</c:choose>
 					</div>
@@ -67,7 +67,7 @@
 								<a href="/answer/practice-problem/new" class="btn btn-block btn-success">Get Started</a>
 							</c:when>
 							<c:otherwise>
-								<button class="btn btn-block btn-success login-button">Login to Get Started</button>
+								<button class="btn btn-block btn-warning login-button">Login to Get Started</button>
 							</c:otherwise>
 						</c:choose>
 					</div>
