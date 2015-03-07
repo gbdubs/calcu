@@ -81,9 +81,9 @@ public class PotentialContentAPI {
 	private static List<PotentialContent> getDummyPotentialContent(){
 		List<PotentialContent> result = new ArrayList<PotentialContent>();
 		LoremIpsum random = new LoremIpsum();
-		for(int i = 0; i < 10; i++){
-			String title = random.getWords(5, Math.min(i * 5, 45));
-			String body = random.getParagraphs(1);
+		for(int i = 0; i < 50; i++){
+			String title = random.getWords(10, Math.min((i * 5) % 50, 45));
+			String body = random.getParagraphs((int)(Math.random() * 10));
 			String solution = random.getParagraphs((int)(2 *Math.random()));
 			String tags = random.getWords((int) (Math.random() * 10));
 			String source = "http://lorempispum.com";
