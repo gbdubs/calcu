@@ -189,7 +189,7 @@ public class PracticeProblemAPI {
 		return null;
 	}
 
-	public static String createNewPracticeProblemFromUpload(String title, String body, String solution, String tags, String solutionLink, String site) {
+	public static String createNewPracticeProblemFromUpload(String title, String body, String solution, String tags, String source) {
 		
 		title = Cleaner.autoclave(title);
 		body = Cleaner.cleanHtml(body);
@@ -221,7 +221,7 @@ public class PracticeProblemAPI {
 		entity.setUnindexedProperty("url", "/practice-problem/" + uuid);
 		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("karma", 1);
-		
+		entity.setUnindexedProperty("source", source);
 		
 		String[] tagList = tags.split(",");
 		for (String t : tagList){

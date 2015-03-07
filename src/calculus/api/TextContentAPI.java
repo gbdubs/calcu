@@ -6,6 +6,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.Content;
 import calculus.models.TextContent;
 import calculus.utilities.Cleaner;
 
@@ -147,5 +148,47 @@ public class TextContentAPI {
 	public static void addAnswerToTextContent(String tcUuid, String answerUuid){
 		TextContent tc = new TextContent(tcUuid);
 		tc.addAnswer(answerUuid);
+	}
+
+	public static String createNewTextContentFromUpload(String title, String body, String tags, String source) {
+		
+		body = Cleaner.cleanHtml(body);
+		title = Cleaner.autoclave(title);
+		tags = Cleaner.cleanHtml(tags);
+		
+		String uuid = UUID.randomUUID().toString();
+		long time = System.currentTimeMillis();
+		
+		boolean anonymous = true;
+		boolean submitted = true;
+		boolean viewable = true;
+		
+		Text wrappedBody = new Text(body);
+		
+		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
+		
+		entity.setUnindexedProperty("uuid", uuid);
+		entity.setProperty("contentType", "textContent");
+		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
+		entity.setProperty("createdAt", time);
+		entity.setUnindexedProperty("title", title);
+		entity.setUnindexedProperty("body", wrappedBody);
+		entity.setProperty("anonymous", anonymous);
+		entity.setProperty("submitted", submitted);
+		entity.setProperty("viewable", viewable);
+		entity.setUnindexedProperty("url", "/text-content/" + uuid);
+		entity.setUnindexedProperty("tags", tags);
+		entity.setProperty("karma", 1);
+		entity.setUnindexedProperty("source", source);
+		
+		datastore.put(entity);
+
+		String[] tagList = tags.split(",");
+		for (String t : tagList){
+			if (t.length() > 0) TagAPI.addNewContentToTag(uuid, t);
+		}
+		
+		return uuid;
+		
 	}
 }

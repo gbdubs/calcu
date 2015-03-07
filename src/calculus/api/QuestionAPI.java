@@ -154,7 +154,7 @@ public class QuestionAPI {
 		return null;
 	}
 
-	public static String createNewQuestionFromUpload(String title, String body, String tags, String site) {
+	public static String createNewQuestionFromUpload(String title, String body, String tags, String source) {
 		
 		body = Cleaner.cleanHtml(body);
 		title = Cleaner.autoclave(title);
@@ -184,6 +184,7 @@ public class QuestionAPI {
 		entity.setUnindexedProperty("tags", tags);
 		entity.setProperty("requests", 1);
 		entity.setProperty("karma", 1);
+		entity.setUnindexedProperty("source", source);
 		
 		datastore.put(entity);
 
