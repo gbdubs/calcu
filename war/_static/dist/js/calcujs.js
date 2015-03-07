@@ -1025,6 +1025,13 @@ $(function() {
     		} 
     	});
     });
+	
+	var ratingInstructions = $(".rating-system-horizontal .rating-instructions");
+	var ratingInstructionsButton = $(".info-button", ratingInstructions);
+	
+	$(ratingInstructionsButton).click(function(){
+		$(ratingInstructions).toggleClass("no-height");
+	});
     
 });
 

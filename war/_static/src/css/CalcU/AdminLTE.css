@@ -3709,7 +3709,6 @@ fieldset[disabled] .btn-vk.active {
 .rating-system-horizontal{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    padding: 5px 5px 0 5px;
     width: 271px;
     display: inline-block;
     float: right;
@@ -3736,13 +3735,54 @@ fieldset[disabled] .btn-vk.active {
 
 .rating-system-horizontal .btn {
     padding: 2px 0px;
-	margin: 5px 0px;
+	margin-top: 5px;
 	box-shadow: none;
 }
 
 .rating-system-vertical .btn{
     background-color: white;
     box-shadow: none;
+}
+
+.rating-system-horizontal .info-button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 5px;
+	color: #888;
+}
+
+.rating-system-horizontal .info-button:hover{
+	color: #333;
+}
+
+.rating-system-horizontal {
+	position: relative;
+}
+
+.rating-system-horizontal .rating-instructions{
+	border-top-left-radius: 5px;
+	border-bottom: 1px solid #ddd;
+	background-color: #fafafa;
+	padding: 5px;
+	overflow: hidden;
+	max-height: 300px;
+	-webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+
+.small-screen.rating-system-horizontal .rating-instructions{
+	border-radius: 0;
+}
+
+.rating-instructions.no-height,
+.no-height {
+	max-height: 0;
+	padding: 0;
+	border: none;
 }
 
 .box.box-solid > .box-header.solid-box-header,
