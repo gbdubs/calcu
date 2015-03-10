@@ -2026,10 +2026,6 @@ $(function() {
 				var body = $("[name=body]", parent).val();
 				var solution = $("[name=solution]", parent).val();
 				var tags = $("[name=tags]", parent).val();
-				console.log("TITLE = " + title);
-				console.log("BODY = " + body);
-				console.log("SOLUTION = " + solution);
-				console.log("TAGS = " + tags);
 				
 				$.ajax({
 					type: "POST",
@@ -2066,7 +2062,6 @@ $(function() {
 			var id = $(this).closest(".content-approval-content-display").attr("id");
 			
 			var newId = "#" + id.substring(0, id.length - 7);
-			console.log(newId);
 			$(newId).addClass("bg-" + color);
 		});
 	}
@@ -2173,7 +2168,6 @@ $(function() {
 		});
 		
 		$(".lpg-insert-into-body").click(function(){
-			console.log("triggered");
 			var iframe = $("#body-editor").parent().find("iframe");
 			var editor = $(".wysihtml5-editor", iframe.contents());
 			var expression = $(".lpg-input-box").first().val();
@@ -2192,7 +2186,6 @@ $(function() {
 		});
 	
 		$(".lpg-insert-into-solution").click(function(){
-			console.log("triggered");
 			var iframe = $("#solution-editor").parent().find("iframe");
 			var editor = $(".wysihtml5-editor", iframe.contents());
 			var expression = $(".lpg-input-box").first().val();
@@ -2448,8 +2441,6 @@ $(function() {
 			var content = $(this).data("content");
 			var action = $(this).data("action");
 			
-			console.log("UserId=" + userId +" Content="+content);
-			
 	    	$.ajax({
 				type: "POST",
 				url: "/bookmark",
@@ -2677,9 +2668,7 @@ $(function() {
 	    	var parent = $(this).parent(".all-search-results");
 	    	var id = "#" + $(this).attr("id");
 	    	var tabId = id + "-tab";
-	    	console.log("here with tabID : " + tabId);
 	    	$(tabId, parent).click(function(){
-	    		console.log("triggered");
 	    		$(".search-result-page", parent).each(function(){
 	    			$(this).addClass("hidden");
 	    		});

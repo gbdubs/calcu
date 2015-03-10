@@ -48,7 +48,6 @@ $(function(){
 		});
 		
 		$(".lpg-insert-into-body").click(function(){
-			console.log("triggered");
 			var iframe = $("#body-editor").parent().find("iframe");
 			var editor = $(".wysihtml5-editor", iframe.contents());
 			var expression = $(".lpg-input-box").first().val();
@@ -67,7 +66,6 @@ $(function(){
 		});
 	
 		$(".lpg-insert-into-solution").click(function(){
-			console.log("triggered");
 			var iframe = $("#solution-editor").parent().find("iframe");
 			var editor = $(".wysihtml5-editor", iframe.contents());
 			var expression = $(".lpg-input-box").first().val();
