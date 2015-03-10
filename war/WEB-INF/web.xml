@@ -63,12 +63,21 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>Documentation</servlet-name>
+		<servlet-class>calculus.DocumentationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Documentation</servlet-name>
+		<url-pattern>/tutorial/documentation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>Tutorial</servlet-name>
 		<servlet-class>calculus.TutorialServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Tutorial</servlet-name>
-		<url-pattern>/tutorial</url-pattern>
+		<url-pattern>/tutorial/*</url-pattern>
 	</servlet-mapping>
 	
 	

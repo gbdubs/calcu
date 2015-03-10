@@ -51,7 +51,6 @@ $(function(){
 				});
 			}
 			
-		
 			var color = "";
 			if ($(this).hasClass("btn-success")){
 				color = "green";

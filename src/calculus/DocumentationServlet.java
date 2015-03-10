@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.UserContextAPI;
 
 @SuppressWarnings("serial")
-public class TutorialServlet extends HttpServlet {
+public class DocumentationServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {	
-		UserContextAPI.addUserContextToRequest(req, "/tutorial");
+		UserContextAPI.addUserContextToRequest(req, "/tutorial/documentation");
 		resp.setContentType("text/html");
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/tutorial.jsp");	
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/documentation.jsp");	
 		jsp.forward(req, resp);
 	}
 }
