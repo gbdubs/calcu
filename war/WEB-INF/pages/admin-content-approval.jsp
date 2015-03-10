@@ -39,15 +39,11 @@
 						</ul>
 					</div>
 					<div class="content-approval-viewer">
+						<div class="content-approval-content-display centered">
+							<h2>Select a piece of Potential Content to Edit Using the Sidebar on Your Left</h2>
+						</div>
 						<c:forEach var="pc" items="${potentialContent}" varStatus="loop">
-							<c:choose>
-								<c:when test="${loop.index > 0}">
-									<div class="content-approval-content-display hidden" id="potential-content-${loop.index}-viewer">
-								</c:when>
-								<c:otherwise>
-									<div class="content-approval-content-display" id="potential-content-${loop.index}-viewer">
-								</c:otherwise>
-							</c:choose>
+							<div class="content-approval-content-display hidden" id="potential-content-${loop.index}-viewer">	
 								<div class="content-approval-action-buttons btn-group" data-uuid="${pc.uuid}">
 									<button data-action="create" data-type="practiceProblem" class="btn btn-success content-approval-action-button" type="button"><i class="fa fa-plus"></i>  Practice Problem</button>
 									<button data-action="create" data-type="question" class="btn btn-primary content-approval-action-button" type="button"><i class="fa fa-plus"></i>  Question</button>
@@ -55,19 +51,6 @@
 									<button data-action="flag" class="btn btn-info content-approval-action-button" type="button">Flag for Editing</button>
 									<button data-action="delete" class="btn btn-danger content-approval-action-button" type="button">Delete</button>
 								</div>
-								<label>Title</label>
-								<input name="title" type="text" class="content-approval-title form-control" value="${pc.title}"/>
-								<div>
-									<label for="body">Problem Body</label>
-									<textarea name="body" class="textarea wysihtml5-beam-me-up" placeholder="Construct your question here">${pc.body}</textarea>
-								</div>
-								<div>
-									<label for="body">Official Solution</label>
-									<textarea name="authorSolution" class="textarea wysihtml5-beam-me-up" placeholder="Construct your solution here">${pc.solution}</textarea>
-								</div>
-								<label>Tags</label>
-								<input name="tagsInput" type="text" class="content-approval-tags form-control" value="${pc.tagsAsString}"/>
-								
 								<div class="content-approval-rendered">
 									<h3>${pc.title}</h3>
 									<label>Body</label>
@@ -77,8 +60,19 @@
 									<label>Tags</label>
 									<div>${pc.tagsAsString}</div>
 								</div>
+								<label>Title</label>
+								<input name="title" type="text" class="content-approval-title form-control" value="${pc.title}"/>
+								<div>
+									<label for="body">Problem Body</label>
+									<textarea name="body" class="textarea wysihtml5-beam-me-up-later" placeholder="Construct your question here">${pc.body}</textarea>
+								</div>
+								<div>
+									<label for="body">Official Solution</label>
+									<textarea name="authorSolution" class="textarea wysihtml5-beam-me-up-later" placeholder="Construct your solution here">${pc.solution}</textarea>
+								</div>
+								<label>Tags</label>
+								<input name="tagsInput" type="text" class="content-approval-tags form-control" value="${pc.tagsAsString}"/>
 							</div>
-							
 						</c:forEach>
 					</div>
 				</div>

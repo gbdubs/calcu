@@ -380,6 +380,25 @@
 				</form>
 			</div>
 		</div>
+		<div class="box box-solid">
+			<div class="box-header">
+				<i class="fa fa-link fa-karma-score"></i>
+				<h3 class="box-title">Links to Other Administrator Functions and Panels</h3>
+				<div class="pull-right box-tools">
+					<button class="btn bg-purple btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+				</div>
+			</div>
+			<div class="box-body">
+				<a href="/admin/content-approval">
+					<div class="box box-solid no-margin">
+						<div class="box-header bg-purple">
+							<i class="fa fa-check-square-o fa-karma-score"></i>
+							<h3 class="box-title">Approve and Modify Scraped Content</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
 	</jsp:attribute>
 
 	<jsp:attribute name="javascriptDependencies">

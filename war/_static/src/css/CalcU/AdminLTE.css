@@ -4459,4 +4459,9 @@ i.hide-recommendation-button.hovered,
 
 .content-approval-rendered{
 	background: #ddd;
+	padding: 10px;
+    position: relative;
+    width: Calc(100% - -20px);
+    left: -10px;
+    top: -10px;
 }
