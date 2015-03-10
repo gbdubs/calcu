@@ -46,6 +46,18 @@ public class ContentApprovalServlet extends HttpServlet {
 			PotentialContentAPI.createContentFromPotential(uuid, contentType);
 		} else if (action.equals("delete")){
 			PotentialContentAPI.deletePotentialContent(uuid);
+		} else if (action.equals("save")){
+			String title = req.getParameter("title");
+			String body = req.getParameter("body");
+			String solution = req.getParameter("solution");
+			String tags = req.getParameter("tags");
+			System.out.println("uuid: " + uuid);
+			System.out.println("title: " + title);
+			System.out.println("body: " + body);
+			System.out.println("solution: " + solution);
+			System.out.println("tags: " + tags);
+			
+			PotentialContentAPI.updatePotentialContent(uuid, title, body, solution, tags);
 		}
 	}
 }

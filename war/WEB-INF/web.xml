@@ -371,6 +371,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
+		<servlet-name>PotentialContentUpload</servlet-name>
+		<servlet-class>calculus.admin.UploadPotentialContentServlet</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>PotentialContentUpload</servlet-name>
+		<url-pattern>/admin/upload-potential-content</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
 		<servlet-name>Personalize</servlet-name>
 		<servlet-class>calculus.general.PersonalizeServlet</servlet-class>
 	</servlet>	

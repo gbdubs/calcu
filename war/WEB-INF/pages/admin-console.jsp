@@ -383,12 +383,41 @@
 		<div class="box box-solid">
 			<div class="box-header">
 				<i class="fa fa-link fa-karma-score"></i>
-				<h3 class="box-title">Links to Other Administrator Functions and Panels</h3>
+				<h3 class="box-title">Potential Content Creation Editing and Approval</h3>
 				<div class="pull-right box-tools">
 					<button class="btn bg-purple btn-sm" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 				</div>
 			</div>
+			
 			<div class="box-body">
+				<form action="/admin/upload-potential-content" method="post" class="box box-solid collapsed-box">
+					<div class="box-header bg-purple">
+						<i class="fa fa-cloud-upload fa-karma-score"></i>
+						<h3 class="box-title">Upload Potential Content in JSON format</h3>
+						<div class="pull-right box-tools">
+							<button class="btn bg-purple btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+						</div>
+					</div>
+					<div class="box-body" style="display:none;">
+						<p>
+							EVERY PIECE OF CONTENT MUST HAVE THESE JSON ATTRIBUTES, regardless of which ones are non-trivial.
+							<ul>
+								<li>"title"</li>
+								<li>"body"</li>
+								<li>"solution"</li>
+								<li>"tags"</li>
+								<li>"source"</li>
+							</ul>
+							Verify your JSON!
+						</p>
+						<p>	
+							<textarea class="textarea no-horizontal-resize" style="width: 100%;height: 200px;font-size: 14px;line-height: 18px;border: 1px solid #dddddd; padding: 10px;" name="jsonDataUpload"></textarea>
+						</p>
+						<input type="submit" class="btn btn-full-width btn-block bg-purple" value="Upload New Content"/>
+					</div>
+				</form>
+		
+				
 				<a href="/admin/content-approval">
 					<div class="box box-solid no-margin">
 						<div class="box-header bg-purple">
@@ -397,6 +426,8 @@
 						</div>
 					</div>
 				</a>
+				
+				
 			</div>
 		</div>
 	</jsp:attribute>

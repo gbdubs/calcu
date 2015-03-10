@@ -20,27 +20,33 @@ public class PotentialContentAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
 	public static List<PotentialContent> getAllPotentialContent() {
-		return getDummyPotentialContent();
-		/*Query q = new Query("PotentialContent").addSort("createdAt", SortDirection.DESCENDING);
+		Query q = new Query("PotentialContent").addSort("createdAt", SortDirection.DESCENDING);
 		PreparedQuery pq = datastore.prepare(q);
 		List<PotentialContent> content = new ArrayList<PotentialContent>();
 		for(Entity e : pq.asIterable()){
 			content.add(PotentialContent.fromEntity(e));
 		}
-		return content;*/
+		
+		if (content.size() == 0) return getDummyPotentialContent();
+		return content;
 	}
 
 	public static String createContentFromPotential(String uuid, String contentType){
 		PotentialContent pc = PotentialContent.get(uuid);
 		if (pc == null) return null;
+	    String newUuid = null;
 		if (contentType.equals("practiceProblem")){
-			return createPracticeProblemFromPotential(pc);
+			newUuid = createPracticeProblemFromPotential(pc);
 		} else if (contentType.equals("question")){
-			return createQuestionFromPotential(pc);
+			newUuid = createQuestionFromPotential(pc);
 		} else if (contentType.equals("textContent")){
-			return createTextContentFromPotential(pc);
-		} else {
+			newUuid = createTextContentFromPotential(pc);
+		} 
+		if (newUuid == null) {
 			return null;
+		} else {
+			deletePotentialContent(uuid);
+			return newUuid;
 		}
 	}
 
@@ -90,5 +96,12 @@ public class PotentialContentAPI {
 			result.add(new PotentialContent().withBody(body).withSolution(solution).withTitle(title).withTags(tags).withSource(source));
 		}
 		return result;
+	}
+
+	public static void updatePotentialContent(String uuid, String title, String body, String solution, String tags) {
+		PotentialContent pc = PotentialContent.get(uuid);
+		if (pc == null) return;
+		pc.withBody(body).withTitle(title).withSolution(solution).withTags(tags);
+		pc.save();
 	}
 }

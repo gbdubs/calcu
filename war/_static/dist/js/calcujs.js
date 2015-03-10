@@ -2020,11 +2020,31 @@ $(function() {
 			var contentType = $(this).data("type");
 			var uuid = $(this).parent().data("uuid");
 		
-			$.ajax({
-				type: "POST",
-				url: "/admin/content-approval",
-				data: "uuid="+uuid+"&action="+action+"&contentType="+contentType
-			});
+			if (action == "save"){
+				var parent = $(this).closest(".content-approval-content-display");
+				var title = $("[name=title]", parent).val();
+				var body = $("[name=body]", parent).val();
+				var solution = $("[name=solution]", parent).val();
+				var tags = $("[name=tags]", parent).val();
+				console.log("TITLE = " + title);
+				console.log("BODY = " + body);
+				console.log("SOLUTION = " + solution);
+				console.log("TAGS = " + tags);
+				
+				$.ajax({
+					type: "POST",
+					url: "/admin/content-approval",
+					data: "uuid="+uuid+"&action="+action+"&title="+title+"&body="+body+"&solution="+solution+"&tags="+tags
+				});
+				
+			} else {
+				$.ajax({
+					type: "POST",
+					url: "/admin/content-approval",
+					data: "uuid="+uuid+"&action="+action+"&contentType="+contentType
+				});
+			}
+			
 		
 			var color = "";
 			if ($(this).hasClass("btn-success")){

@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -27,6 +28,7 @@ public class PotentialContent {
 	private Long createdAt;
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public PotentialContent(){
 		uuid = UUID.randomUUID().toString();
@@ -56,13 +58,14 @@ public class PotentialContent {
 		} catch (EntityNotFoundException enfe) {
 			e = new Entity(pcKey);
 		}
+		e.setUnindexedProperty("uuid", uuid);
 		e.setUnindexedProperty("title", title);
 		e.setUnindexedProperty("body", new Text(body));
 		e.setUnindexedProperty("solution", new Text(solution));
 		e.setUnindexedProperty("tags", tagString);
 		e.setUnindexedProperty("source", source);
 		e.setProperty("createdAt", createdAt);
-		datastore.put(e);
+		asyncDatastore.put(e);
 	}
 
 	public void delete(){
@@ -77,6 +80,7 @@ public class PotentialContent {
 		String tags = (String) e.getProperty("tags");
 		String source = (String) e.getProperty("soruce");
 		Long createdAt = (Long) e.getProperty("createdAt");
+		String uuid = (String) e.getProperty("uuid");
 		
 		PotentialContent pc = new PotentialContent()
 			.withTitle(title)
@@ -84,10 +88,16 @@ public class PotentialContent {
 			.withSolution(solution.getValue())
 			.withTags(tags)
 			.withSource(source)
-			.withCreatedAt(createdAt);
+			.withCreatedAt(createdAt)
+			.withUuid(uuid);
 		return pc;
 	}
 
+	private PotentialContent withUuid(String uuid){
+		this.uuid = uuid;
+		return this;
+	}
+	
 	public PotentialContent withTitle(String title){
 		this.title = title;
 		return this;

@@ -48,7 +48,7 @@
 									<button data-action="create" data-type="practiceProblem" class="btn btn-success content-approval-action-button" type="button"><i class="fa fa-plus"></i>  Practice Problem</button>
 									<button data-action="create" data-type="question" class="btn btn-primary content-approval-action-button" type="button"><i class="fa fa-plus"></i>  Question</button>
 									<button data-action="create" data-type="textContent" class="btn btn-warning content-approval-action-button" type="button"><i class="fa fa-plus"></i>  TextContent</button>
-									<button data-action="flag" class="btn btn-info content-approval-action-button" type="button">Flag for Editing</button>
+									<button data-action="save" class="btn btn-info content-approval-action-button" type="button">Save Your Edits</button>
 									<button data-action="delete" class="btn btn-danger content-approval-action-button" type="button">Delete</button>
 								</div>
 								<div class="content-approval-rendered">
@@ -68,10 +68,10 @@
 								</div>
 								<div>
 									<label for="body">Official Solution</label>
-									<textarea name="authorSolution" class="textarea wysihtml5-beam-me-up-later" placeholder="Construct your solution here">${pc.solution}</textarea>
+									<textarea name="solution" class="textarea wysihtml5-beam-me-up-later" placeholder="Construct your solution here">${pc.solution}</textarea>
 								</div>
 								<label>Tags</label>
-								<input name="tagsInput" type="text" class="content-approval-tags form-control" value="${pc.tagsAsString}"/>
+								<input name="tags" type="text" class="content-approval-tags form-control" value="${pc.tagsAsString}"/>
 							</div>
 						</c:forEach>
 					</div>

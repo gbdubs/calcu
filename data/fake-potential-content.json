@@ -1,0 +1,30 @@
+[
+	 {
+        "title": "Trigonometry Practice", 
+        "tags": "Trigonometry,Trigonometry,Trigonometry", 
+        "source": "www.exampleproblems.com", 
+        "solution": "<p>Invert the matrix  \\( {\\begin{bmatrix}\\cos &amp;\\sin \\\\-\\sin &amp;\\cos \\\\\\end{bmatrix}} \\) <br /><br />\n</p><p>A general inversion formula for a 2x2 matrix  \\( A\\, \\)  is:<br /><br />\n</p><p> \\( A={\\begin{bmatrix}a&amp;b\\\\c&amp;d\\\\\\end{bmatrix}},\\,\\,\\,A^{{-1}}={\\frac  {1}{\\det(A)}}{\\begin{bmatrix}d&amp;-b\\\\-c&amp;a\\\\\\end{bmatrix}}\\, \\) <br /><br />\n</p><p>So the inverse for this matrix is:<br /><br />\n</p><p> \\( {\\begin{bmatrix}\\cos &amp;-\\sin \\\\\\sin &amp;\\cos \\\\\\end{bmatrix}}\\, \\) <br /><br />\n</p><p><a href=\"/wiki/index.php/Trigonometry\" title=\"Trigonometry\">Trigonometry</a><br /><br />\n</p>",  
+        "body": "Invert the matrix  \\( {\\begin{bmatrix}\\cos &amp;\\sin \\\\-\\sin &amp;\\cos \\\\\\end{bmatrix}} \\) "
+    }, 
+    {
+        "title": "Trigonometry Practice", 
+        "tags": "Trigonometry,Trigonometry,Trigonometry", 
+        "source": "www.exampleproblems.com", 
+        "solution": "<p>Find the amplitude and period of  \\( 4\\sin({\\frac  {1}{3}}x)\\, \\) <br /><br />\n</p><p>The amplitude is the coefficient in front of the wave function.<br /><br />\n</p><p>Amplitude =  \\( 4\\, \\) <br /><br />\n</p><p>The period is  \\( 2\\pi /b\\, \\)  where  \\( b\\, \\)  is the coefficient of the argument of the wave function.<br /><br />\n</p><p>Period =  \\( {\\frac  {2\\pi }{1/3}}=6\\pi \\, \\) <br /><br />\n</p><p><a href=\"/wiki/index.php/Trigonometry\" title=\"Trigonometry\">Trigonometry</a><br /><br />\n</p>", 
+        "body": "Find the amplitude and period of  \\( 4\\sin({\\frac  {1}{3}}x)\\, \\) "
+    }, 
+    {
+        "title": "Trigonometry Practice", 
+        "tags": "Trigonometry,Trigonometry,Trigonometry", 
+        "source": "www.exampleproblems.com", 
+        "solution": "<p>If  \\( \\sin(x)={\\frac  {-4}{5}}\\, \\)  and  \\( x\\, \\)  is in the third quadrant, find  \\( \\cos(x)\\, \\) .<br /><br />\n</p><p><br />\n</p>\n<div id=\"toc\" class=\"toc\"><div id=\"toctitle\"><h2>Contents</h2>", 
+        "body": "If  \\( \\sin(x)={\\frac  {-4}{5}}\\, \\)  and  \\( x\\, \\)  is in the third quadrant, then find  \\( \\cos(x)\\, \\) ."
+    }, 
+    {
+        "title": "Trigonometry Practice", 
+        "tags": "Trigonometry,Trigonometry,Trigonometry", 
+        "source": "www.exampleproblems.com", 
+        "solution": "<p>If a 10 foot tall ladder leans against a wall, and the base of the ladder is 5 feet away from the wall, how far up the wall does the ladder go?<br /><br />\n</p><p>Use Pythagoras' Theorem  \\( a^{2}+b^{2}=c^{2}\\, \\)  so that  \\( 5^{2}+b^{2}=10^{2}\\, \\) .<br /><br />\n</p><p>Then  \\( b={\\sqrt  {100-25}}=5{\\sqrt  {3}}\\, \\) <br /><br />\n</p><p>Remember that the square root gives a positive and negative answer, but since we're talking about a distance in the real world, use the positive answer.<br /><br />\n</p><p><a href=\"/wiki/index.php/Trigonometry\" title=\"Trigonometry\">Trigonometry</a><br /><br />\n</p>", 
+        "body": "If a 10 foot tall ladder leans against a wall, and the base of the ladder is 5 feet away from the wall, then how far up the wall does the ladder go?"
+    }	
+]
