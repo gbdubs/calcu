@@ -173,7 +173,7 @@
                 </li>
                 <li>
                     <a href="/recommendations">
-                        <i class="fa fa-fw fa-tasks"></i>
+                        <i class="fa fa-fw fa-road"></i>
                         <span>Recommendations</span>
                     </a>
                 </li>
