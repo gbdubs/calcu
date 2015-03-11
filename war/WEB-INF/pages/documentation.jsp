@@ -4,7 +4,7 @@
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
-		CalcU | Tutorial
+		CalcU | Documentation
 	</jsp:attribute>
 
 	<jsp:attribute name="content">

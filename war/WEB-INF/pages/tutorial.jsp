@@ -12,26 +12,26 @@
 		
 		<div class="tutorial-item-wrapper">
 			<h2 class="welcome-banner">Welcome To CalcU</h2>
-			<h3>Six Steps to get you started.</h3>
+			<h3>Five Steps to get you started.</h3>
 		</div>
 		<div class="tutorial-item-wrapper">
 			<span class="looming-number hidden-xs">1</span>
 			<h2 class="tutorial-item-title">CalcU Brings together Three types of Content</h2>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 bg-green-gradient">
-					<h4 class="no-margin padding-20">Practice Problems</h4>
+					<h3 class="no-margin padding-20">Practice Problems</h3>
 					<p>
 						Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-4 bg-blue-gradient">
-					<h4 class="no-margin padding-20">Questions and Answers</h4>
+					<h3 class="no-margin padding-20">Questions + Answers</h3>
 					<p>
 						Whether you have a question, or want to help others answer theirs, questions are at the heart of the community of CalcU. Most are answered within a week.
 					</p>
 				</div>
 				<div class="col-xs-12 col-sm-4 bg-yellow-gradient">
-					<h4 class="no-margin padding-20">Explanations / Lectures</h4>
+					<h3 class="no-margin padding-20">Explanations</h3>
 					<p >
 						When you find you want more basic explanations, or want to be formally taught a subject, we offer explanations from around the web and from our users.
 					</p>
@@ -51,9 +51,9 @@
 			<div class="search-bar-wrapper">
 				<div class="input-group rounded">
 					<i class="fa fa-search"></i>
-					<input name="tagsInput" id="tags-input" value="derivative,related rates" style="display: none;"><div id="tags-input_tagsinput" class="tagsinput" style="width: 100%; height: auto;"><div id="tags-input_addTag"><input id="tags-input_tag" value="" data-default="Type Tags Here" style="color: rgb(102, 102, 102); width: 143px;"></div><div class="tags_clear"></div></div>
+					<input name="tagsInput" id="tags-input" value="derivatives,related rates" style="display: none;"></input>
 					<span class="input-group-btn">
-						<input class="btn btn-primary large-input-group-button" type="submit" value="Search!">
+						<button class="btn btn-primary large-input-group-button search-by-tab-button">Search!</button>
 					</span>
 				</div>
 			</div>
@@ -69,15 +69,95 @@
 					We use a state of the art recommendation system that bases its choices off of information that you provide us about your interests.
 					In order to get the best out of the recommendation system, it is essential to complete the personalization activity every so often.
 					Go to the recommendations feature to see your recommendations at any point in time, and rate the ones you like and dislike to see 
-					better ones each time.
+					better ones each time. 
+					<c:if test="${user == null}">
+						<b>But you can only record your progress when you are <a class="login-button">Logged In</a>!</b>
+					</c:if>
 				</p>
 				<i class="fa fa-arrow-right second"></i>
 				<i class="fa fa-road"></i>
 			</div>
 		</div>
+		<div class="tutorial-item-wrapper">
+			<span class="looming-number hidden-xs">4</span>
+			<h2 class="tutorial-item-title">Achievements + Karma</h2>
+			<div class="achievements-explanation">
+				<div class="achievement-badge-wrapper left">
+					<div class="achievement-badge text-red">
+						<div class="hexagon outer-hexagon"></div>
+						<div class="achievement-badge-insides text-blue bg-blue">
+							<div class="hexagon inner-hexagon"></div>
+						</div>
+						<i class="fa fa-fw fa-level-up fa-5x badge-icon"></i>
+					</div>
+				</div>
+				<div class="achievement-badge-wrapper right">
+					<div class="achievement-badge completed text-yellow">
+						<div class="hexagon outer-hexagon"></div>
+						<div class="achievement-badge-insides text-olive bg-olive">
+							<div class="hexagon inner-hexagon"></div>
+						</div>
+						<i class="fa fa-fw fa-trophy fa-5x badge-icon"></i>
+					</div>
+				</div>
+				In order to reward people for using the site well, there are achievements hidden throughout the site, which look like hexagonal shields.
+				You can check them out <a href="/achievements">here</a>. Additionally, any time you help out your fellow learners, you will receive
+				karma, our way of saying thank you. You can find the specifics on how you get karma <a href="/tutorial/documentation">on our documentation page</a>.
+				<c:if test="${user == null}">
+					<b>But you can only record your progress when you are <a class="login-button">Logged In</a>!</b>
+				</c:if>
+			</div>
+		</div>
+		<div class="tutorial-item-wrapper">
+			<span class="looming-number hidden-xs">5</span>
+			<h2 class="tutorial-item-title">Tools for Learning, Contributing, and Communicating</h2>
+			<div>
+				<p>
+					CalcU has detailed Tools for creating stunning mathematical content and discussion.
+				</p>
+				<p class="large-icon-bullet-point">
+					<i class="fa fa-bookmark-o toggle-me"></i>
+					All Content can be bookmarked with a simple click of this button, anywhere on the site.  Filled in means that it is already bookmarked.
+				</p>
+				<p class="large-icon-bullet-point">
+					<i class="fa fa-magic"></i>
+					The entire website supports LaTex, the standard method for writing mathematical expressions. Whenever you see the magic wand, you can
+					use it to summon a popup which will help you create your own LaTex, while teaching you the ropes.
+				</p>
+				<p class="large-icon-bullet-point">
+					<i class="fa fa-circle-o-notch"></i>
+					Rating wheels provide us with insight as to how you view the content, and its quality and difficulty.  Regular rating of others' work lets us know what you like to see
+					and gives us an idea of how we can better serve you in the future.
+				</p>
+				<p class="large-icon-bullet-point">
+					<i class="fa fa-comment-o"></i>
+					All Content can be commented on, allowing brilliant user generated discussions. The best posts float to the top, and can be marked as "approved" by the author.
+				</p>
+			</div>
+		</div>
+		<div class="tutorial-footer row">
+			<div class="col-xs-12 bg-white-gradient">
+				<h3>Now that you know the basics, where do you want to go from here?<h3>
+			</div>
+			<a href="/search/geometry,trig" class="col-xs-12 col-sm-4 btn-primary">
+				<h3 class="font-200 padding-20">Start With A Search</h3>
+			</a>
+			<a href="/profile/me" class="col-xs-12 col-sm-4 btn-warning">
+				<h3 class="font-200 padding-20">Customize Your Profile</h3>
+			</a>
+			<a href="/explore" class="col-xs-12 col-sm-4 btn-success">
+				<h3 class="font-200 padding-20">See Some Examples</h3>
+			</a>
+			<a href="/tutorial/documentation" class="col-xs-12 bg-white-gradient btn-default">
+				<h3>
+					Or Learn more about Karma, Levels, and Rules
+					<i class="fa fa-arrow-circle-right"></i>
+				</h3>
+			</a>
+		</div>
 	</jsp:attribute>
 	
 	<jsp:attribute name="javascriptDependencies">
-		tutorial
+		tutorial searchByTag
 	</jsp:attribute>
 </t:genericpage>

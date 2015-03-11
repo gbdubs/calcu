@@ -4700,4 +4700,181 @@ li.lpg-button:hover{
 
 .lpg-instructions{
 	padding: 10px;
+}h2.welcome-banner{
+	text-align: center;
+	font-size: 90px;
+	font-weight: 100;
+}
+
+.search-explanation p{
+  display: inline-block;
+  max-width: 450px;
+  text-align: left;
+}
+
+.tutorial-item-wrapper{
+	margin: 150px 0;
+	position: relative;
+}
+
+.search-explanation i{
+	font-size: 80px;
+	color: #0073b7
+}
+
+span.looming-number{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+	font-size: 80px;
+	line-height: 72px;
+	font-weight: 100;
+	color: white;
+	background-color: #D0D0D0;
+	position: absolute;
+	display: inline-block;
+	top: -25px;
+	left: -35px;
+}
+
+.tutorial-item-title{
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.search-by-tag-explanation .input-group{
+	max-width: 500px;
+	min-width: 200px; 
+}
+
+.search-by-tag-explanation .fa-search{
+  position: absolute;
+  left: -40px;
+  background: #3c8dbc;
+  height: 42px;
+  width: 42px;
+  color: white;
+  font-size: 20px;
+  line-height: 42px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  padding-left: 4px;
+  border-bottom: 1px solid #367fa9;
+}
+
+.input-group.rounded .btn-primary{
+  width: 85px;
+  padding-right: 15px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.search-bar-wrapper{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.recommendation-explanation {
+	position:relative;
+	display:inline-block;
+}
+
+.recommendation-explanation p{
+  max-width: 450px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  background: #F9F9F9;
+  text-align: left;
+  box-shadow: 0px 0px 52px 33px rgba(249,249,249,0.9);
+  padding: 10px;
+  margin-top:60px;
+}
+
+.recommendation-explanation .fa.fa-gears{
+  font-size: 300px;
+  position: absolute;
+  color: #D0D0D0;
+  top: 0;
+  left: Calc(50% - 170px);
+}
+
+.recommendation-explanation .fa{
+	font-size: 120px;
+	color: #D0D0D0;
+	position: absolute;
+}
+
+.recommendation-explanation .fa-arrow-right.first{
+	left: -55px;
+	font-size: 60px;
+	top: 100px;
+}
+.recommendation-explanation .fa-arrow-right.second{
+	right: -55px;
+	font-size: 60px;
+	top: 100px;
+}
+.recommendation-explanation .fa.fa-street-view{
+  left: -130px;
+  top: 75px;
+}
+.recommendation-explanation .fa.fa-road{
+  right: -175px;
+  top: 75px;
+}
+
+.achievements-explanation{
+	position: relative;
+	max-width: 400px;
+	display: inline-block;
+	min-height: 200px;
+}
+
+.achievements-explanation > div{
+	display: inline-block;
+	position: absolute;
+	max-width: 400px;
+	left: 0;
+}
+
+.achievements-explanation .achievement-badge-wrapper{
+	width: 200px;
+	display: inline-block;
+}
+
+.achievements-explanation .achievement-badge-wrapper.right{
+	right: -200px;
+	left: auto;
+}
+
+.achievements-explanation .achievement-badge-wrapper.left{
+	left: -200px;
+	right: auto;
+}
+
+p.large-icon-bullet-point {
+  max-width: 400px;
+  display: inline-table;
+  margin: 10px;
+}
+
+.large-icon-bullet-point i{
+	font-size: 80px;
+	color: #D0D0D0;
+}
+
+.large-icon-bullet-point i {
+  font-size: 80px;
+  float: left;
+  color: #D0D0D0;
+  margin: 10px;
+}
+
+.tutorial-footer{
+	position: absolute;
+}
+
+.font-200{
+	font-weight:200;
 }
