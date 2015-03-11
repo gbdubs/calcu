@@ -4715,6 +4715,7 @@ li.lpg-button:hover{
 .tutorial-item-wrapper{
 	margin: 150px 0;
 	position: relative;
+	overflow: hidden;
 }
 
 .search-explanation i{
@@ -4751,13 +4752,13 @@ span.looming-number{
   position: absolute;
   left: -40px;
   background: #3c8dbc;
-  height: 42px;
+  height: 100%;
   width: 42px;
   color: white;
   font-size: 20px;
   line-height: 42px;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
   padding-left: 4px;
   border-bottom: 1px solid #367fa9;
 }

@@ -160,9 +160,9 @@
 		
 		</div>
 
-		<div class="row">
+		<div class="row hidden">
 			<div class="col-sm-6">
-				<div class="box box-solid bg-maroon">
+				<div class="box box-solid box-info">
 					<div class="box-header">
 						<h3 class="box-title">A Teacher That Thinks Just Like You</h3>
 					</div>
@@ -176,7 +176,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="box box-solid bg-olive">
+				<div class="box box-solid box-info">
 					<div class="box-header">
 						<h3 class="box-title">An Active Community</h3>
 					</div>
@@ -196,10 +196,10 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
 
-				<div class="small-box bg-light-blue">
+				<div class="small-box bg-aqua">
 					<div class="inner">
 						<h3>
-							25
+							${numUsers}
 						</h3>
 						<p>
 							Users
@@ -211,10 +211,10 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-				<div class="small-box bg-orange">
+				<div class="small-box bg-aqua">
 					<div class="inner">
 						<h3>
-							1,419
+							${piecesOfContent}
 						</h3>
 						<p>
 							Pieces of Content
@@ -229,14 +229,14 @@
 				<div class="small-box bg-aqua">
 					<div class="inner">
 						<h3>
-							96%
+							${recentPosts}
 						</h3>
 						<p>
-							Active Users
+							Recent Posts
 						</p>
 					</div>
 					<div class="icon">
-						<i class="fa fa-check"></i>
+						<i class="fa fa-edit"></i>
 					</div>
 				</div>
 			</div>

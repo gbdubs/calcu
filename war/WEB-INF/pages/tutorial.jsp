@@ -142,7 +142,7 @@
 			<a href="/search/geometry,trig" class="col-xs-12 col-sm-4 btn-primary">
 				<h3 class="font-200 padding-20">Start With A Search</h3>
 			</a>
-			<a href="/profile/me" class="col-xs-12 col-sm-4 btn-warning">
+			<a href="/user/me" class="col-xs-12 col-sm-4 btn-warning">
 				<h3 class="font-200 padding-20">Customize Your Profile</h3>
 			</a>
 			<a href="/explore" class="col-xs-12 col-sm-4 btn-success">

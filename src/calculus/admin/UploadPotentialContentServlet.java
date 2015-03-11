@@ -38,11 +38,12 @@ public class UploadPotentialContentServlet extends HttpServlet {
 		
 		for(int i = 0; i < array.size(); i++){
 			JsonObject content = array.get(i).getAsJsonObject();
-			String title = content.get("title").getAsString();
-			String body = content.get("body").getAsString();
-			String solution = content.get("solution").getAsString();
-			String tags = content.get("tags").getAsString();
-			String source = content.get("source").getAsString();	
+			
+			String title = getStringFromJsonObject(content, "title");
+			String body = getStringFromJsonObject(content, "body");
+			String solution = getStringFromJsonObject(content, "solution");
+			String tags = getStringFromJsonObject(content, "tags");
+			String source = getStringFromJsonObject(content, "source");
 			
 			PotentialContent pc = new PotentialContent().withTitle(title).withBody(body).withSolution(solution).withTags(tags).withSource(source);
 			pc.save();
@@ -50,4 +51,10 @@ public class UploadPotentialContentServlet extends HttpServlet {
 		
 		resp.sendRedirect("/admin");
 	}	
+	
+	private static String getStringFromJsonObject(JsonObject o, String prop){
+		JsonElement js = o.get(prop);
+		if (js == null) return "";
+		return js.getAsString();
+	}
 }
