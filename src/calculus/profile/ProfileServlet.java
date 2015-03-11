@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
+import calculus.api.UserPrivateInfoAPI;
 
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -28,7 +29,7 @@ public class ProfileServlet extends HttpServlet{
 		if (viewer == null){
 			sameUser = false;
 		} else {
-			sameUser = profileRequested.equals(viewer.getUserId());
+			sameUser = profileRequested.equals(viewer.getUserId()) || profileRequested.equals("me");
 		}
 	
 		if (sameUser){
@@ -37,10 +38,16 @@ public class ProfileServlet extends HttpServlet{
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/private-profile.jsp");
 			jsp.forward(req, resp);
 		} else {
-			UserContextAPI.addPublicProfileInformationToRequest(req, profileRequested);
-			resp.setContentType("text/html");
-			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/public-profile.jsp");
-			jsp.forward(req, resp);
+			if (UserPrivateInfoAPI.userExists(profileRequested)){
+				UserContextAPI.addPublicProfileInformationToRequest(req, profileRequested);
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/public-profile.jsp");
+				jsp.forward(req, resp);
+			} else {
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+			}
 		}
 	}
 }

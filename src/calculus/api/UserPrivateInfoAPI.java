@@ -102,4 +102,14 @@ public class UserPrivateInfoAPI {
 		return new ArrayList<String>();
 	}
 
+	public static boolean userExists(String userId) {
+		Key privateInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
+		try {
+			Entity userPrivateInfo = UserPrivateInfoAPI.datastore.get(privateInfoKey);
+			return true;
+		} catch (EntityNotFoundException e) {
+			return false;
+		}
+	}
+
 }
