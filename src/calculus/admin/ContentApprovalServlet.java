@@ -24,7 +24,7 @@ public class ContentApprovalServlet extends HttpServlet {
 		UserService us = UserServiceFactory.getUserService();
 		
 		if (us.isUserLoggedIn() && us.isUserAdmin()){
-			List<PotentialContent> potentialContent = PotentialContentAPI.getAllPotentialContent();
+			List<PotentialContent> potentialContent = PotentialContentAPI.getAllPotentialContent(40);
 			req.setAttribute("potentialContent", potentialContent);
 			
 			if (!req.getRequestURI().equals("/admin-safe")){

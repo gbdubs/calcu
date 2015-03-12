@@ -9,6 +9,7 @@ import calculus.utilities.LoremIpsum;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
@@ -19,15 +20,13 @@ public class PotentialContentAPI {
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	
-	public static List<PotentialContent> getAllPotentialContent() {
-		Query q = new Query("PotentialContent").addSort("createdAt", SortDirection.DESCENDING);
+	public static List<PotentialContent> getAllPotentialContent(int maxResults) {
+		Query q = new Query("PotentialContent").addSort("createdAt", SortDirection.ASCENDING);
 		PreparedQuery pq = datastore.prepare(q);
 		List<PotentialContent> content = new ArrayList<PotentialContent>();
-		for(Entity e : pq.asIterable()){
+		for(Entity e : pq.asIterable(FetchOptions.Builder.withLimit(40))){
 			content.add(PotentialContent.fromEntity(e));
 		}
-		
-		if (content.size() == 0) return getDummyPotentialContent();
 		return content;
 	}
 
@@ -82,20 +81,6 @@ public class PotentialContentAPI {
 		String source = pc.getSource();
 		String newUuid = TextContentAPI.createNewTextContentFromUpload(title, body, tags, source);
 		return newUuid;
-	}
-	
-	private static List<PotentialContent> getDummyPotentialContent(){
-		List<PotentialContent> result = new ArrayList<PotentialContent>();
-		LoremIpsum random = new LoremIpsum();
-		for(int i = 0; i < 50; i++){
-			String title = random.getWords(10, Math.min((i * 5) % 50, 45));
-			String body = random.getParagraphs((int)(Math.random() * 10));
-			String solution = random.getParagraphs((int)(2 *Math.random()));
-			String tags = random.getWords((int) (Math.random() * 10));
-			String source = "http://lorempispum.com";
-			result.add(new PotentialContent().withBody(body).withSolution(solution).withTitle(title).withTags(tags).withSource(source));
-		}
-		return result;
 	}
 
 	public static void updatePotentialContent(String uuid, String title, String body, String solution, String tags) {

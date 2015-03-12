@@ -13,7 +13,6 @@ h2.welcome-banner{
 .tutorial-item-wrapper{
 	margin: 150px 0;
 	position: relative;
-	overflow: hidden;
 }
 
 .search-explanation i{
