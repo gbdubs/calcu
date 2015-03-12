@@ -14,29 +14,57 @@
 			<h2 class="welcome-banner">Welcome To CalcU</h2>
 			<h3>Five Steps to get you started.</h3>
 		</div>
-		<div class="tutorial-item-wrapper">
+		<div class="tutorial-item-wrapper tutorial-content-explanation">
 			<span class="looming-number hidden-xs">1</span>
 			<h2 class="tutorial-item-title">CalcU Brings together Three types of Content</h2>
-			<div class="row">
-				<div class="col-xs-12 col-sm-4 bg-green-gradient">
-					<h3 class="no-margin padding-20">Practice Problems</h3>
-					<p>
-						Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
-					</p>
-				</div>
-				<div class="col-xs-12 col-sm-4 bg-blue-gradient">
-					<h3 class="no-margin padding-20">Questions + Answers</h3>
-					<p>
-						Whether you have a question, or want to help others answer theirs, questions are at the heart of the community of CalcU. Most are answered within a week.
-					</p>
-				</div>
-				<div class="col-xs-12 col-sm-4 bg-yellow-gradient">
-					<h3 class="no-margin padding-20">Explanations</h3>
-					<p >
-						When you find you want more basic explanations, or want to be formally taught a subject, we offer explanations from around the web and from our users.
-					</p>
-				</div>
-			</div>
+			<table class="hidden-xs">
+				<tr>
+					<td class="bg-green-gradient">
+						<h3 class="no-margin padding-20">Practice Problems</h3>
+						<p>
+							Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
+						</p>
+					</td>
+					<td class="bg-blue-gradient">
+						<h3 class="no-margin padding-20">Questions + Answers</h3>
+						<p>
+							Whether you have a question, or want to help others answer theirs, questions are at the heart of the community of CalcU. Most are answered within a week.
+						</p>
+					</td>
+					<td class="bg-yellow-gradient">
+						<h3 class="no-margin padding-20">Explanations</h3>
+						<p >
+							When you find you want more basic explanations, or want to be formally taught a subject, we offer explanations from around the web and from our users.
+						</p>
+					</td>
+				</tr>
+			</table>
+			<table class="visible-xs">
+				<tr>
+					<td class="bg-green-gradient">
+						<h3 class="no-margin padding-20">Practice Problems</h3>
+						<p>
+							Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="bg-blue-gradient">
+						<h3 class="no-margin padding-20">Questions + Answers</h3>
+						<p>
+							Whether you have a question, or want to help others answer theirs, questions are at the heart of the community of CalcU. Most are answered within a week.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="bg-yellow-gradient">
+						<h3 class="no-margin padding-20">Explanations</h3>
+						<p >
+							When you find you want more basic explanations, or want to be formally taught a subject, we offer explanations from around the web and from our users.
+						</p>
+					</td>
+				</tr>
+			</table>
 		</div>
 		<div class="tutorial-item-wrapper search-by-tag-explanation">
 			<span class="looming-number hidden-xs">2</span>
@@ -139,15 +167,19 @@
 			<div class="col-xs-12 bg-white-gradient">
 				<h3>Now that you know the basics, where do you want to go from here?<h3>
 			</div>
-			<a href="/search/geometry,trig" class="col-xs-12 col-sm-4 btn-primary">
-				<h3 class="font-200 padding-20">Start With A Search</h3>
-			</a>
-			<a href="/user/me" class="col-xs-12 col-sm-4 btn-warning">
-				<h3 class="font-200 padding-20">Customize Your Profile</h3>
-			</a>
-			<a href="/explore" class="col-xs-12 col-sm-4 btn-success">
-				<h3 class="font-200 padding-20">See Some Examples</h3>
-			</a>
+			<table class="full-width">
+				<tr>
+					<td href="/search/geometry,trig" class="btn-primary">
+						<h3 class="font-200 padding-20">Start With A Search</h3>
+					</td>
+					<td href="/user/me" class="btn-warning">
+						<h3 class="font-200 padding-20">Customize Your Profile</h3>
+					</td>
+					<td href="/explore" class="btn-success">
+						<h3 class="font-200 padding-20">See Some Examples</h3>
+					</td>
+				</tr>
+			</table>
 			<a href="/tutorial/documentation" class="col-xs-12 bg-white-gradient btn-default">
 				<h3>
 					Or Learn more about Karma, Levels, and Rules

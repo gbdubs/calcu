@@ -176,3 +176,11 @@ p.large-icon-bullet-point {
 .font-200{
 	font-weight:200;
 }
+
+.tutorial-content-explanation td{
+	padding: 0 10px;
+}
+
+.full-width{
+	width: 100%;
+}

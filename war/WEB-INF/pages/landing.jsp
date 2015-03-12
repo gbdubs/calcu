@@ -42,31 +42,19 @@
 		</div>
 		
 		<div class="row">
-			<div class="col-sm-12 hidden-xs">
+			<div class="col-xs-12">
 				<div class="small-box bg-green">
 					<div class="inner">
-						<h3>
+						<h3 class="visible-sm">
+							New Here?
+						</h3>
+						<h3 class="hidden-sm">
 							New Here? Check out the Tutorial to get started!
 						</h3>
-						<p>
+						<p class="hidden-sm">
 							Check out the tutorial to get the basic organization of the site, and understand where to start!
 						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-university"></i>
-					</div>
-					<a href="/tutorial" class="small-box-footer">
-						Lets Get Started! <i class="fa fa-arrow-circle-right"></i>
-					</a>
-				</div>
-			</div>
-			<div class="col-sm-12 visible-xs">
-				<div class="small-box bg-green">
-					<div class="inner">
-						<h3>
-							New Here? 
-						</h3>
-						<p>
+						<p class="visible-sm">
 							Check out the Tutorial to get started!
 						</p>
 					</div>

@@ -23,6 +23,7 @@ $(function() {
 	    			$(this).addClass('btn-primary').removeClass('btn-default');
 	    		});
 	    	});
+	    	$(defaultButton).remove();
 	    });
 	    
 	    
