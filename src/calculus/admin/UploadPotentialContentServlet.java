@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.models.PotentialContent;
+import calculus.utilities.Cleaner;
 
 import com.google.appengine.api.users.UserServiceFactory;
 import com.google.gson.JsonArray;
@@ -45,6 +46,11 @@ public class UploadPotentialContentServlet extends HttpServlet {
 			String tags = getStringFromJsonObject(content, "tags");
 			String source = getStringFromJsonObject(content, "source");
 			
+			title = Cleaner.autoclave(title);
+			body = Cleaner.cleanHtml(body);
+			solution = Cleaner.cleanHtml(solution);
+			tags = Cleaner.autoclave(tags);	
+			
 			PotentialContent pc = new PotentialContent().withTitle(title).withBody(body).withSolution(solution).withTags(tags).withSource(source);
 			pc.save();
 		}
@@ -54,7 +60,7 @@ public class UploadPotentialContentServlet extends HttpServlet {
 	
 	private static String getStringFromJsonObject(JsonObject o, String prop){
 		JsonElement js = o.get(prop);
-		if (js == null) return "";
+		if (js == null || js.isJsonNull()) return "";
 		return js.getAsString();
 	}
 }
