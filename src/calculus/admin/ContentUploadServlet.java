@@ -46,11 +46,11 @@ public class ContentUploadServlet extends HttpServlet {
 			List<String> uuids = new ArrayList<String>();
 			for(i = 0; i < array.size(); i++){
 				JsonObject content = array.get(i).getAsJsonObject();
-				String body = content.get("problem").getAsString();
+				String body = content.get("body").getAsString();
 				String title = content.get("title").getAsString();
 				String tags = content.get("tags").getAsString() + ",auto-uploaded";
 				String solutionLink = content.get("solutionLink").getAsString();
-				String site = content.get("site").getAsString();	
+				String site = content.get("source").getAsString();	
 
 				if (!content.get("solution").isJsonNull()){
 					String solution = content.get("solution").getAsString();
