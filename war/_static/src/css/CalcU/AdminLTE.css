@@ -4465,3 +4465,7 @@ i.hide-recommendation-button.hovered,
     left: -10px;
     top: -10px;
 }
+
+.margin-top-100{
+	margin-top: 100px;
+}

@@ -1,0 +1,115 @@
+.hexagon-text,
+.hexagon-decoration, 
+.hexagon-button{
+	width: 200px;
+	display: inline-block;
+}
+
+.hexagon-button{
+	cursor:pointer;
+}
+
+.hexagon-button .inner-hexagon,
+.hexagon-button .inner-hexagon:before,
+.hexagon-button .inner-hexagon:after {
+	-webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+.hexagon-text .inner-hexagon,
+.hexagon-decoration .inner-hexagon,
+.hexagon-button .inner-hexagon{
+	height: 78px;
+	top: -86px;
+}
+
+.hexagon-text > div,
+.hexagon-decoration > div,
+.hexagon-button > div {
+	text-align: center;
+    width: 100%;
+    height: 205px;
+    top: -10px;
+    padding: 15px Calc((100% - 170px)/2);
+    position:relative;
+}
+
+.hexagon-text-insides,
+.hexagon-decoration-insides,
+.hexagon-button-insides{
+	height: 0;
+}
+
+.hexagon-button:hover .inner-hexagon {
+	width: 0px;
+    border-right: 60px solid;
+    border-left: 60px solid;
+	height: 70px;
+    top: -81px;
+    margin: 0px 25px 0 25px;
+    color:inherit;
+	position: relative;
+}
+
+.hexagon-button:hover .inner-hexagon:before {
+	top: -33px;
+    left: -60px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 33px solid;
+}
+
+.hexagon-button:hover .inner-hexagon:after {
+	bottom: -33px;
+    left: -60px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-top: 33px solid;
+}
+
+.hexagon-table-wrapper{
+	margin-top: 70px;
+}
+
+.hexagon-table{
+	display: inline;
+	position: relative;
+	text-align: left;
+}
+
+.hexagon-table .hexagon-row{
+	text-align: left;
+	margin-top: -43px;
+	display: inline-block;
+}	
+
+.hexagon-blank{
+	width: 200px;
+	height: 205px;
+	display: inline-block;
+}
+
+.hexagon-text .hex-text-wrapper-1{
+	position: absolute;
+	top: 73px;
+	right: 30px;
+}
+
+.hexagon-text .hex-text-wrapper-2{
+	display:table-cell;
+	vertical-align:middle;
+	width:140px;
+	height:78px;
+}
+
+.hexagon-text .hex-text-wrapper-3{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+.hexagon-row.centered{
+	margin: 10px;
+	text-align: center;
+}
