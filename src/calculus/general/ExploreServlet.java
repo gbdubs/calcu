@@ -32,14 +32,8 @@ public class ExploreServlet extends HttpServlet {
 		Map<String, List<Content>> exploratoryContent = ContentAPI.getExploratoryContent(24, 0, userId);
 		
 		List<Content> newContent = exploratoryContent.get("new");
-		List<Content> randomContent = exploratoryContent.get("random");
-		List<Content> bestContent = exploratoryContent.get("best");
-		List<Content> suggestedContent = exploratoryContent.get("suggested");
 		
-		req.setAttribute("newContent", newContent);
-		req.setAttribute("randomContent", randomContent);
-		req.setAttribute("bestContent", bestContent);
-		req.setAttribute("suggestedContent", suggestedContent);
+		req.setAttribute("exploreContent", newContent);
 		
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/explore.jsp");	

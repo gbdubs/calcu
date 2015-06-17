@@ -218,7 +218,7 @@ public class Content {
 		}
 		return (int) (l % modulo);
 	}
-	
+
 	public String getBoxColor(){
 		String contentType = (String) entity.getProperty("contentType");
 		return ContentAPI.getBoxColor(contentType);
