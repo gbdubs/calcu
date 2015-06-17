@@ -455,6 +455,20 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	
+	<servlet>
+		<servlet-name>BaselineServlet</servlet-name>
+		<servlet-class>calculus.baseline.BaselineServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BaselineServlet</servlet-name>
+		<url-pattern>/baseline</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BaselineServlet</servlet-name>
+		<url-pattern>/baseline/*</url-pattern>
+	</servlet-mapping>
+	
+	
 	<filter>
 		<filter-name>appstats</filter-name>
         <filter-class>com.google.appengine.tools.appstats.AppstatsFilter</filter-class>

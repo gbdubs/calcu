@@ -8,224 +8,87 @@
 		CalcU | Explore
 	</jsp:attribute>
 	<jsp:attribute name="content">
-		<div class="row">
-			<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-				<div class="box box-solid">
-					<div class="box-header bg-aqua">
-						<i class="fa fa-fire fa-karma-score"></i>
-						<h3 class="box-title">Hot Off The Presses</h3>
-					</div>	
-					<div class="box-body content-rotating">
-						<div id="new-content-panel-0" class="row">
-							<c:forEach items="${newContent}" var="content" varStatus="loop">
-					<c:if test="${loop.index % 6 == 0 && loop.index > 0}">
+		<div class="centered">
+			<h2 class="welcome-banner margin-top-100">Explore Our Content</h2>
+			<h3 class="margin-bottom-50 welcome-banner-subtitle">Here is a random selection of our large database of content!  Feel free to browse here, and use our other features to explore specific areas.</h3>
+		</div>
+		<div class="row margin-bottom-50">		
+			<c:forEach items="${exploreContent}" var="content">								
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="box box-${content.boxColor} box-solid no-overflow explore-box collapsed-box">
+						<div class="box-header">
+							<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
+							<div class="pull-right box-tools">
+								<c:set var="bookmarked" value="false" />
+									<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+									  <c:if test="${bookmarkUuid eq content.uuid}">
+										<c:set var="bookmarked" value="true" />
+									  </c:if>
+								</c:forEach>
+								<c:choose>
+									<c:when test="${bookmarked}">
+										<button type="button" class="toggle-bookmark-button buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
+											<i class="fa fa-bookmark"></i>
+										</button>
+									</c:when>
+									<c:otherwise>
+										<button type="button" class="toggle-bookmark-button buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
+											<i class="fa fa-bookmark-o"></i>
+										</button>
+									</c:otherwise>
+								</c:choose>
+								<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+							</div>
 						</div>
-						<div id="new-content-panel-${loop.index/6}" class="row hidden">
-					</c:if>			
-					
-							<c:set var="bookmarked" value="false" />
-							<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
-							  <c:if test="${bookmarkUuid eq content.uuid}">
-								<c:set var="bookmarked" value="true" />
-							  </c:if>
-							</c:forEach>
-					
-								<div class="col-lg-12 col-md-4 col-sm-6 col-xs-12">
-									<div class="box box-${content.boxColor} box-solid no-overflow">
-										<div class="box-header">
-											<span class="buttonless-secondary">
-												<i class="fa fa-fw ${content.boxIcon}"></i>
-											</span>
-											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
-											<c:choose>
-												<c:when test="${bookmarked}">
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
-													</button>
-												</c:when>
-												<c:otherwise>
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark-o"></i>
-													</button>
-												</c:otherwise>
-											</c:choose>
-										</div>
-										<div class="box-body text-black">
-											${content.abbreviatedBody}
-										</div>
-									</div>
-								</div>		
-							</c:forEach>
-						</div>
-						<div class="btn-group pull-right">
-							<button class="btn btn-default hidden"></button>
+						<div class="box-body" style="display:none;">
+							${content.body}
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">			
-				<div class="box box-solid">
-					<div class="box-header bg-blue">
-						<i class="fa fa-trophy fa-karma-score"></i>
-						<h3 class="box-title">Only the Best</h3>
-					</div>	
-					<div class="box-body content-rotating">
-						<div id="best-content-panel-0" class="row">
-							<c:forEach items="${bestContent}" var="content" varStatus="loop">
-					<c:if test="${loop.index % 4 == 0 && loop.index > 0}">
+			</c:forEach>					
+		</div>			
+		
+		<h3 class="welcome-banner-subtitle">Now that you have seen some of the pieces of our site, check out some of our features to get started in a specific area.</h3>
+		
+		<div class="centered">
+			<div class="hexagon-table">
+				<div class="hexagon-row centered">
+					<a href="/baseline" class="hexagon-button">
+						<div class="text-light-blue">
+							<div class="hexagon outer-hexagon"></div>
+							<div class="hexagon-button-insides bg-white text-white">
+								<div class="hexagon inner-hexagon"></div>
+							</div>
+							<i class="fa fa-fw fa-area-chart fa-5x badge-icon"></i>
+							<h4 class="hexagon-title">Baseline</h4>
 						</div>
-						<div id="best-content-panel-${loop.index/4}" class="row hidden">
-					</c:if>
-						
-							<c:set var="bookmarked" value="false" />
-							<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
-							  <c:if test="${bookmarkUuid eq content.uuid}">
-								<c:set var="bookmarked" value="true" />
-							  </c:if>
-							</c:forEach>
-						
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="box box-${content.boxColor} box-solid no-overflow">
-										<div class="box-header">
-											<span class="buttonless-secondary">
-												<i class="fa fa-fw ${content.boxIcon}"></i>
-											</span>
-											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
-											<c:choose>
-												<c:when test="${bookmarked}">
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
-													</button>
-												</c:when>
-												<c:otherwise>
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark-o"></i>
-													</button>
-												</c:otherwise>
-											</c:choose>
-										</div>
-										<div class="box-body text-black">
-											${content.abbreviatedBody}
-										</div>
-									</div>
-								</div>				
-							</c:forEach>
+					</a>
+					<br class="visible-xs">
+					<br class="visible-xs">
+					<a href="/recommendations" class="hexagon-button">
+						<div class="text-yellow">
+							<div class="hexagon outer-hexagon"></div>
+							<div class="hexagon-button-insides bg-white text-white">
+								<div class="hexagon inner-hexagon"></div>
+							</div>
+							<i class="fa fa-fw fa-road fa-5x badge-icon"></i>
+							<h4 class="hexagon-title">Recommendations</h4>
 						</div>
-						<div class="btn-group pull-right">
-							<button class="btn btn-default hidden"></button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">	
-				<div class="box box-solid">
-					<div class="box-header bg-teal">
-						<i class="fa fa-globe fa-karma-score"></i>
-						<h3 class="box-title">Random Content</h3>
-					</div>	
-					<div class="box-body content-rotating">
-						<div id="random-content-panel-0" class="row">
-							<c:forEach items="${randomContent}" var="content" varStatus="loop">
-					<c:if test="${loop.index % 4 == 0 && loop.index > 0}">
-						</div>
-						<div id="random-content-panel-${loop.index/4}" class="row hidden">
-					</c:if>	
+					</a>
+					<br class="visible-xs">
+					<br class="visible-xs">
 					
-							<c:set var="bookmarked" value="false" />
-							<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
-							  <c:if test="${bookmarkUuid eq content.uuid}">
-								<c:set var="bookmarked" value="true" />
-							  </c:if>
-							</c:forEach>
-							
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="box box-${content.boxColor} box-solid no-overflow">
-										<div class="box-header">
-											<span class="buttonless-secondary">
-												<i class="fa fa-fw ${content.boxIcon}"></i>
-											</span>
-											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
-											<c:choose>
-												<c:when test="${bookmarked}">
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
-													</button>
-												</c:when>
-												<c:otherwise>
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark-o"></i>
-													</button>
-												</c:otherwise>
-											</c:choose>
-										</div>
-										<div class="box-body text-black">
-											${content.abbreviatedBody}
-										</div>
-									</div>
-								</div>
-									
-							</c:forEach>
+				
+					<a href="/search" class="hexagon-button">
+						<div class="text-blue">
+							<div class="hexagon outer-hexagon"></div>
+							<div class="hexagon-button-insides bg-white text-white">
+								<div class="hexagon inner-hexagon"></div>
+							</div>
+							<i class="fa fa-fw fa-search fa-5x badge-icon"></i>
+							<h4 class="hexagon-title">Search by Tag</h4>
 						</div>
-						<div class="btn-group pull-right">
-							<button class="btn btn-default hidden"></button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-				<div class="box box-solid">
-					<div class="box-header bg-light-blue">
-						<i class="fa fa-tasks fa-karma-score"></i>
-						<h3 class="box-title">Suggested For You</h3>
-					</div>	
-					<div class="box-body content-rotating">
-						<div id="suggested-content-panel-0" class="row">
-							<c:forEach items="${suggestedContent}" var="content" varStatus="loop">
-					<c:if test="${loop.index % 4 == 0 && loop.index > 0}">
-						</div>
-						<div id="suggested-content-panel-${loop.index/4}" class="row hidden">
-					</c:if>	
-							
-							
-							<c:set var="bookmarked" value="false" />
-							<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
-							  <c:if test="${bookmarkUuid eq content.uuid}">
-								<c:set var="bookmarked" value="true" />
-							  </c:if>
-							</c:forEach>
-					
-					
-								<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-									<div class="box box-${content.boxColor} box-solid no-overflow">
-										<div class="box-header">
-											<span class="buttonless-secondary">
-												<i class="fa fa-fw ${content.boxIcon}"></i>
-											</span>
-											<h4 class="box-title"><a href="${content.url}" class="text-white">${content.title}</a></h4>
-											<c:choose>
-												<c:when test="${bookmarked}">
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark"></i>
-													</button>
-												</c:when>
-												<c:otherwise>
-													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
-														<i class="fa fa-bookmark-o"></i>
-													</button>
-												</c:otherwise>
-											</c:choose>
-										</div>
-										<div class="box-body text-black">
-											${content.abbreviatedBody}
-										</div>
-									</div>
-								</div>				
-							</c:forEach>
-						</div>
-						<div class="btn-group pull-right">
-							<button class="btn btn-default hidden"></button>
-						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>

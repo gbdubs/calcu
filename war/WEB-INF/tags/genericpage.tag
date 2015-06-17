@@ -140,6 +140,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/baseline">
+                        <i class="fa fa-fw fa-area-chart"></i>
+                        <span>Baseline</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/personalize">
                         <i class="fa fa-fw fa-street-view"></i>
                         <span>Personalize</span>
