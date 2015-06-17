@@ -48,7 +48,9 @@
 			</c:forEach>					
 		</div>			
 		
+		<div class="centered">
 		<h3 class="welcome-banner-subtitle">Now that you have seen some of the pieces of our site, check out some of our features to get started in a specific area.</h3>
+		</div>
 		
 		<div class="centered">
 			<div class="hexagon-table">
