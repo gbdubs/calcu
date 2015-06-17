@@ -4499,3 +4499,12 @@ i.hide-recommendation-button.hovered,
 .margin-top-100{
 	margin-top: 100px;
 }
+
+.max-width-at-900{
+	max-width: 900px;
+	display: inline-block;
+}
+
+.align-left{
+	text-align: left;
+}

@@ -12,7 +12,7 @@
 		
 		<div class="tutorial-item-wrapper">
 			<h2 class="welcome-banner">Welcome To CalcU</h2>
-			<h3>Five Steps to get you started.</h3>
+			<h3 class="welcome-banner-subtitle">Five Steps to get you started.</h3>
 		</div>
 		<div class="tutorial-item-wrapper tutorial-content-explanation">
 			<span class="looming-number hidden-xs">1</span>
@@ -176,19 +176,24 @@
 							<div class="hexagon-button-insides bg-white text-white">
 								<div class="hexagon inner-hexagon"></div>
 							</div>
-							<i class="fa fa-fw fa-area-chart fa-5x badge-icon"></i>
+							<i class="fa fa-fw fa-search fa-5x badge-icon"></i>
 							<h4 class="hexagon-title">Start with a Search</h4>
 						</div>
 					</a>
 					<br class="visible-xs">
 					<br class="visible-xs">
-					<a href="/user/me" class="hexagon-button">
+					<c:if test="${user!=null}">
+						<a href="/user/me" class="hexagon-button">
+					</c:if>
+					<c:if test="${user==null}">
+						<a class="hexagon-button login-button">
+					</c:if>
 						<div class="text-yellow">
 							<div class="hexagon outer-hexagon"></div>
 							<div class="hexagon-button-insides bg-white text-white">
 								<div class="hexagon inner-hexagon"></div>
 							</div>
-							<i class="fa fa-fw fa-road fa-5x badge-icon"></i>
+							<i class="fa fa-fw fa-user fa-5x badge-icon"></i>
 							<h4 class="hexagon-title">Visit your Profile</h4>
 						</div>
 					</a>
@@ -202,7 +207,7 @@
 							<div class="hexagon-button-insides bg-white text-white">
 								<div class="hexagon inner-hexagon"></div>
 							</div>
-							<i class="fa fa-fw fa-search fa-5x badge-icon"></i>
+							<i class="fa fa-fw fa-binoculars fa-5x badge-icon"></i>
 							<h4 class="hexagon-title">Explore the Site</h4>
 						</div>
 					</a>
