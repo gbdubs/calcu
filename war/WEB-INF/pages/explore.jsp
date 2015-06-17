@@ -37,7 +37,7 @@
 										</button>
 									</c:otherwise>
 								</c:choose>
-								<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+								<button class="btn btn-${content.boxColor} btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
 							</div>
 						</div>
 						<div class="box-body" style="display:none;">
