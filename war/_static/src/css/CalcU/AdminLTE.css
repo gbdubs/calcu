@@ -4525,3 +4525,16 @@ i.hide-recommendation-button.hovered,
 .margin-bottom-25{
 	margin-bottom:25px;
 }
+
+.relative-position{
+	position: relative;
+}
+
+.top-negative-45{
+	top:-45px;
+}
+
+.margin-top-50{
+	margin-top:50px;
+}
+
