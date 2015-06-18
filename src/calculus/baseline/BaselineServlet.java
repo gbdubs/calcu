@@ -8,12 +8,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.appengine.api.users.UserServiceFactory;
-
 import calculus.api.BaselineAPI;
+import calculus.api.ContentAPI;
 import calculus.api.UserContextAPI;
+import calculus.models.Content;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
+
+import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class BaselineServlet extends HttpServlet {
@@ -61,8 +64,15 @@ public class BaselineServlet extends HttpServlet {
 			resp.sendRedirect("/baseline/" + stepNumber + "/" + uuid);
 			return;
 		} else if (stepNumber < 11){
-			Question q = new Question(uuid);
-			req.setAttribute("question", q);
+			Content c;
+			try {
+				c = ContentAPI.instantiateContent(uuid);
+			} catch (EntityNotFoundException e) {
+				// If the requested piece of content does not exist, 
+				resp.sendRedirect("/page-not-found");
+				return;
+			}
+			req.setAttribute("content", c);
 			req.setAttribute("stepNumber", stepNumber);
 			resp.setContentType("text/html");
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/baseline-step.jsp");	

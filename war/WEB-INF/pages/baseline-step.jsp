@@ -9,10 +9,10 @@
 
 	<jsp:attribute name="content">
 		<form class="centered margin-top-100" action="/baseline" method="post">
-			<input type="hidden" name="problemUuid" value="${question.uuid}"/>
+			<input type="hidden" name="problemUuid" value="${content.uuid}"/>
 			<input type="hidden" name="stepNumber" value="${stepNumber}"/>
 			<h4>How confident are you that you could answer this problem?</h4>
-			<h2>${question.body}</h2>
+			<h2>${content.body}</h2>
 			<div class="rating-buttons">
 				<button class="btn bg-red-gradient" name="diff1"><h4>Very Challenging</h4></button>
 				<button class="btn bg-orange" name="diff2"><h4>Challenging</h4></button>

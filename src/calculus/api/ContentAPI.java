@@ -207,12 +207,12 @@ public class ContentAPI {
 		return result;
 	}
 
-	private static Content instantiateContent(String uuid) throws EntityNotFoundException{
+	public static Content instantiateContent(String uuid) throws EntityNotFoundException{
 		Entity e = datastore.get(KeyFactory.createKey("Content", uuid));
 		return instantiateContent(e);
 	}
 	
-	private static Content instantiateContent(Entity e) {
+	public static Content instantiateContent(Entity e) {
 		String contentType = (String) e.getProperty("contentType");
 		if (contentType.equals("quesiton")){
 			return new Question(e);

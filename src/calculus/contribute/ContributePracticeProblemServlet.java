@@ -16,6 +16,7 @@ import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -49,7 +50,13 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
 				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
 					// Create the practice problem from the UUID
-					PracticeProblem pp = new PracticeProblem(uuid);
+					PracticeProblem pp;
+					try {
+						pp = new PracticeProblem(uuid);
+					} catch (EntityNotFoundException e) {
+						resp.sendRedirect("/page-not-found");
+						return;
+					}
 					// If they request editing a page which has already been submitted, redirect them to its
 					// published state.
 					if (pp.getSubmitted()){

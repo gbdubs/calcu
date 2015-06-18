@@ -16,6 +16,7 @@ import calculus.api.UserContextAPI;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -51,7 +52,13 @@ public class ContributeQuestionServlet extends HttpServlet {
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
 				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){				
 				
-					Question q = new Question(uuid);
+					Question q;
+					try {
+						q = new Question(uuid);
+					} catch (EntityNotFoundException e) {
+						resp.sendRedirect("/page-not-found");
+						return;
+					}
 					//If the question is already submitted, redirect the user to the live page with it.
 					if (q.getSubmitted()){	
 						resp.sendRedirect("/question/"+uuid);

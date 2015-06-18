@@ -16,6 +16,7 @@ import calculus.api.UserContextAPI;
 import calculus.models.TextContent;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -51,7 +52,14 @@ public class ContributeTextContentServlet extends HttpServlet {
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
 				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
 				
-					TextContent tc = new TextContent(uuid);
+					TextContent tc;
+					try {
+						tc = new TextContent(uuid);
+					} catch (EntityNotFoundException e) {
+						// If it doesn't yet exist, send a 404.
+						resp.sendRedirect("/page-not-found");
+						return;
+					}
 					
 					//If the TextContent is already submitted, redirect the user to the live page with it.
 					if (tc.getSubmitted()){	
