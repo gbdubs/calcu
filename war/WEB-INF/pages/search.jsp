@@ -31,6 +31,7 @@
 				</div>
 			</c:if>
 		</div>
+		<br>
 		<div class = "max-width-at-900 align-left ">
 		<c:if test="${practiceProblemsNotFound || fn:length(resultPracticeProblems) > 0 }">
 			<c:if test="${moreResults || seed > 1}">
@@ -294,7 +295,7 @@
 						</div>
 					</div>
 				</c:if>
-					<div class= "max-width-at-900 centered">
+					<div class= "max-width-at-900 align-left">
 						<p>
 							The search by tag feature is a powerful tool for exploring content when you have a good idea of what you are interested in looking at.
 							You can choose to search with as many "tags" as you want. Each tag is treated like a plain string, and results with matching tags will

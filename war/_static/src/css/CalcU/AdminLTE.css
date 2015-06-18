@@ -4517,3 +4517,11 @@ i.hide-recommendation-button.hovered,
 	max-width: 900px;
 	display: inline-block;
 }
+.max-width-at-1000{
+	max-width: 1000px;
+	display: inline-block;
+}
+
+.margin-bottom-25{
+	margin-bottom:25px;
+}
