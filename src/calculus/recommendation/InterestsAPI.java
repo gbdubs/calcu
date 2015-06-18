@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import calculus.api.ContentAPI;
 import calculus.api.TagAPI;
 import calculus.models.Content;
 
@@ -31,7 +32,7 @@ public class InterestsAPI {
 	public static void userViewedContent(String userId, String contentUuid){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the interests profile
 			return;
@@ -44,7 +45,7 @@ public class InterestsAPI {
 	public static void userRatedContent(String userId, String contentUuid){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the interests profile
 			return;
@@ -57,7 +58,7 @@ public class InterestsAPI {
 	public static void userFoundContentDisinteresting(String userId, String contentUuid){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the interests profile
 			return;
@@ -70,7 +71,7 @@ public class InterestsAPI {
 	public static void userAnsweredContent(String userId, String contentUuid){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the interests profile
 			return;
@@ -83,7 +84,7 @@ public class InterestsAPI {
 	public static void userBookmarkedContent(String userId, String contentUuid){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the interests profile
 			return;
@@ -206,7 +207,7 @@ public class InterestsAPI {
 	public static void userFoundContentInteresting(String userId, String contentUuid) {
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the interests profile
 			return;

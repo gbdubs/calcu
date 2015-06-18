@@ -30,7 +30,7 @@ public class BookmarksAPI {
 		
 		if (!uuids.contains(contentUuid)) {
 			try {
-				String jsonRepresentation = new MenuItem(new Content(contentUuid)).toJson();
+				String jsonRepresentation = new MenuItem(ContentAPI.instantiateContent(contentUuid)).toJson();
 				uuids.add(contentUuid);
 				jsons.add(new Text(jsonRepresentation));
 				numberUnread++;

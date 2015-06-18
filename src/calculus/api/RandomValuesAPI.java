@@ -51,7 +51,7 @@ public class RandomValuesAPI {
 	// COST: 3 READ, 1 WRITE
 	public static Content randomContent() {
 		List<Entity> entities = getNEntitiesOfType(1, "Content");
-		return new Content(entities.get(0));
+		return ContentAPI.instantiateContent(entities.get(0));
 	}
 
 	// COST: 2 + N READ, 1 WRITE
@@ -59,7 +59,7 @@ public class RandomValuesAPI {
 		List<Entity> entities = getNEntitiesOfType(n, "Content");
 		List<Content> result = new ArrayList<Content>();
 		for(Entity e : entities){
-			result.add(new Content(e));
+			result.add(ContentAPI.instantiateContent(e));
 		}
 		return result;
 	}
