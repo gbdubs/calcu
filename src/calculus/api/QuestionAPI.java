@@ -14,6 +14,7 @@ import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
@@ -85,7 +86,13 @@ public class QuestionAPI {
 	public static String updateQuestionFromRequest(HttpServletRequest req){
 		
 		String uuid = (String) req.getParameter("uuid");
-		Question q = new Question(uuid);
+		Question q;
+		try {
+			q = new Question(uuid);
+		} catch (EntityNotFoundException e) {
+			//If the question doesn't exist, we cannot update it.
+			return null;
+		}
 		Entity entity = q.getEntity();
 		
 		long time = System.currentTimeMillis();
@@ -173,7 +180,7 @@ public class QuestionAPI {
 		
 		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "question");
-		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
+		entity.setProperty("creatorUserId", "Administrator");
 		entity.setProperty("createdAt", time);
 		entity.setUnindexedProperty("title", title);
 		entity.setUnindexedProperty("body", wrappedBody);
@@ -201,7 +208,11 @@ public class QuestionAPI {
 	}
 	
 	public static void addAnswerToQuestion(String qUuid, String answerUuid){
-		Question q = new Question(qUuid);
-		q.addAnswer(answerUuid);
+		try {
+			Question q = new Question(qUuid);
+			q.addAnswer(answerUuid);
+		} catch (EntityNotFoundException e) {
+			// We don't need to update it if it does not exist
+		}
 	}
 }

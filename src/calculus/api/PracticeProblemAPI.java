@@ -14,6 +14,7 @@ import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
@@ -35,8 +36,14 @@ public class PracticeProblemAPI {
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public static void addPracticeProblemContext(HttpServletRequest req, String uuid){
-		PracticeProblem practiceProblem = new PracticeProblem(uuid);
-		req.setAttribute("practiceProblem", practiceProblem);
+		PracticeProblem practiceProblem;
+		try {
+			practiceProblem = new PracticeProblem(uuid);
+			req.setAttribute("practiceProblem", practiceProblem);
+		} catch (EntityNotFoundException e) {
+			// Should log an error here.
+			e.printStackTrace();
+		}
 	}
 	
 	public static void addPracticeProblemContext(HttpServletRequest req, PracticeProblem practiceProblem){
@@ -44,8 +51,15 @@ public class PracticeProblemAPI {
 	}
 	
 	public static void addPracticeProblemEditorContext(HttpServletRequest req, String uuid){
-		PracticeProblem practiceProblem = new PracticeProblem(uuid);
-		req.setAttribute("practiceProblem", practiceProblem);
+		PracticeProblem practiceProblem;
+		try {
+			practiceProblem = new PracticeProblem(uuid);
+			req.setAttribute("practiceProblem", practiceProblem);
+		} catch (EntityNotFoundException e) {
+			// Should log an error here.
+			e.printStackTrace();
+		}
+		
 	}
 	
 	public static void addPracticeProblemEditorContext(HttpServletRequest req, PracticeProblem practiceProblem){		
@@ -116,7 +130,13 @@ public class PracticeProblemAPI {
 
 	public static String updatePracticeProblemFromRequest(HttpServletRequest req) {
 		String uuid = (String) req.getParameter("uuid");
-		PracticeProblem pp = new PracticeProblem(uuid);
+		PracticeProblem pp;
+		try {
+			pp = new PracticeProblem(uuid);
+		} catch (EntityNotFoundException e) {
+			// if it doesn't exist, we should not update it.
+			return null;
+		}
 		Entity entity = pp.getEntity();
 		
 		long dateAndTime = System.currentTimeMillis();
@@ -168,8 +188,12 @@ public class PracticeProblemAPI {
 	}
 	
 	public static void addAnswerToPracticeProblem(String ppUuid, String answerUuid){
-		PracticeProblem problem = new PracticeProblem(ppUuid);
-		problem.addAnswer(answerUuid);
+		try {
+			PracticeProblem problem = new PracticeProblem(ppUuid);
+			problem.addAnswer(answerUuid);
+		} catch (EntityNotFoundException e) {
+			// We don't need to update it if it doesn't exist.
+		}
 	}
 
 	public static PracticeProblem getAnswerablePracticeProblem(String userId) {
@@ -210,7 +234,7 @@ public class PracticeProblemAPI {
 		
 		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "practiceProblem");
-		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
+		entity.setProperty("creatorUserId", "administrator");
 		entity.setProperty("createdAt", time);
 		entity.setUnindexedProperty("title", title);
 		entity.setUnindexedProperty("body", wrappedBody);

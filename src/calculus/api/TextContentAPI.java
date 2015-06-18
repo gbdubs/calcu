@@ -13,6 +13,7 @@ import calculus.utilities.Cleaner;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
@@ -75,7 +76,13 @@ public class TextContentAPI {
     public static String updateTextContentFromRequest(HttpServletRequest req){
 		
 		String uuid = (String) req.getParameter("uuid");
-		TextContent tc = new TextContent(uuid);
+		TextContent tc;
+		try {
+			tc = new TextContent(uuid);
+		} catch (EntityNotFoundException e) {
+			// If the text content does not exist, we need not update it.
+			return null;
+		}
 		Entity entity = tc.getEntity();
 		
 		long time = System.currentTimeMillis();
@@ -146,8 +153,14 @@ public class TextContentAPI {
 	}
 	
 	public static void addAnswerToTextContent(String tcUuid, String answerUuid){
-		TextContent tc = new TextContent(tcUuid);
-		tc.addAnswer(answerUuid);
+		
+		try {
+			TextContent tc = new TextContent(tcUuid);
+			tc.addAnswer(answerUuid);
+		} catch (EntityNotFoundException e) {
+			// If the text content does not exist, we cannot add an answer to it.
+			return;
+		}
 	}
 
 	public static String createNewTextContentFromUpload(String title, String body, String tags, String source) {
@@ -169,7 +182,7 @@ public class TextContentAPI {
 		
 		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", "textContent");
-		entity.setProperty("creatorUserId", Content.scrapingUserProfileId);
+		entity.setProperty("creatorUserId", "Administrator");
 		entity.setProperty("createdAt", time);
 		entity.setUnindexedProperty("title", title);
 		entity.setUnindexedProperty("body", wrappedBody);

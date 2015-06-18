@@ -53,7 +53,7 @@ public class AnswersAPI {
 		String parentUuid = req.getParameter("parentUuid");
 		String parentUrl = "";
 		try {
-			parentUrl = (new Content(parentUuid)).getUrl();
+			parentUrl = (ContentAPI.instantiateContent(parentUuid)).getUrl();
 		} catch (EntityNotFoundException e) {
 			throw new RuntimeException("Orphaned Answer attempeted to be created.");
 		}
