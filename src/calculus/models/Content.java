@@ -15,56 +15,58 @@ import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
-import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
-import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
-public class Content {
+public abstract class Content {
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static UserService userService = UserServiceFactory.getUserService();
-	protected static List<String> FIELDS = new ArrayList<String>();
+	
 	protected static List<String> CONTENT_TYPES = new ArrayList<String>();
-	public static String scrapingUserProfileId = "11481431651082296168";
 	
 	static {
-		String[] fields = {"contentType", "uuid", "creatorUserId", "createdAt", "title", "body", "anonymous", "submitted", "viewable", "url", "karma", "tags"};
 		String[] contentTypes = {"practiceProblem", "question", "answer", "textContent"};
-		for (String s : fields) {FIELDS.add(s);}
 		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
 	}
-
+	
 	private Entity entity;
 	private Author author;
 	
+	private String contentType;
+	private String uuid;
+	private String creatorUserId;
+	private long createdAt;
+	private String title;
+	private String body;
+	private boolean anonymous;
+	private boolean submitted;
+	private boolean viewable;
+	private String url;
+	private int karma;
+	private String tags;
+	private List<String> allAnswers;
+	
 	public Content (Entity entity, String contentType) {
 		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
+		
+		this.contentType = contentType;
+		this.uuid = (String) entity.getProperty("uuid");
+		this.creatorUserId = (String) entity.getProperty("creatorUserId");
+		this.createdAt = (Long) entity.getProperty("createdAt");
+		this.title = (String) entity.getProperty("title");
+		this.body = (String) entity.getProperty("body");
+		this.anonymous = (boolean) entity.getProperty("anonymous");
+		this.submitted = (boolean) entity.getProperty("submitted");
+		this.viewable = (boolean) entity.getProperty("viewable");
+		this.url = (String) entity.getProperty("url");
+		this.karma = ((Long) entity.getProperty("karma")).intValue();
+		this.tags = (String) entity.getProperty("tags");
+		this.allAnswers = (List<String>) entity.getProperty("allAnswers");
+		
 		this.entity = entity;
-		this.entity.setProperty("contentType", contentType);
-		this.author = null;
-	}
-
-	public Content (String uuid, String contentType) {
-		Key key = KeyFactory.createKey("Content", uuid);
-		try {
-			this.entity = datastore.get(key);
-		} catch (EntityNotFoundException e) {
-			this.entity = new Entity(key);
-			this.entity.setProperty("contentType", contentType);
-			this.author = null;
-		}
-	}
-
-	public Content(String uuid) throws EntityNotFoundException {
-		Key contentKey = KeyFactory.createKey("Content", uuid);
-		Entity entity = datastore.get(contentKey);		
-		String contentType = (String) entity.getProperty("contentType");
-		if (!CONTENT_TYPES.contains(contentType)) throw new RuntimeException("The content type ["+contentType+"] is not a recognized type.");
-		this.entity = entity;
-		this.entity.setProperty("contentType", contentType);
 		this.author = null;
 	}
 
@@ -72,72 +74,67 @@ public class Content {
 		this(e, (String) e.getProperty("contentType"));
 	}
 
-	public void refresh(){
-		Key key = this.entity.getKey();
-		try {
-			this.entity = datastore.get(key);
-		} catch (EntityNotFoundException e) {
-			this.entity = null;
-		}
+	public Content (String uuid, String contentType) throws EntityNotFoundException{
+		this(datastore.get(KeyFactory.createKey("Content", uuid)), contentType);
+	}
+
+	public Content(String uuid) throws EntityNotFoundException {
+		this(datastore.get(KeyFactory.createKey("Content", uuid)), ContentAPI.getContentType(uuid));
 	}
 	
-	//TODO: This refactor from an abstract class.
-	public void verifyAcceptableProperty(String property){
-
-	};
-	
 	public String getContentType(){
-		return (String) entity.getProperty("contentType");
+		return contentType;
 	}
 	
 	public String getUuid(){
-		return (String) entity.getProperty("uuid");
+		return uuid;
 	}
 	
 	public String getKarma(){
-		return "" + entity.getProperty("karma");
+		return "" + karma;
 	}
 	
 	public String getReadableKarma(){
-		return KarmaDescription.toMediumString(((Long) entity.getProperty("karma")).intValue());
+		return KarmaDescription.toMediumString(karma);
 	}
 	
 	public String getCreatorUserId(){
-		return (String) entity.getProperty("creatorUserId");
+		return creatorUserId;
 	}
 	
 	public Author getAuthor(){
-		if (author == null)
-			author = new Author(getCreatorUserId());
+		if (author == null){
+			author = new Author(creatorUserId);
+		}
 		return this.author;
 	}
 	
 	public long getCreatedAt(){
-		return (long) entity.getProperty("createdAt");
+		return createdAt;
 	}
 	
 	public String getTitle(){
-		return (String) entity.getProperty("title");
+		return title;
 	}
 	
 	public String getBody(){
-		return ((Text) entity.getProperty("body")).getValue();
+		return body;
 	}
 	
 	public boolean getAnonymous(){
-		return (boolean) entity.getProperty("anonymous");
+		return anonymous;
 	}
 	
 	public boolean getSubmitted(){
-		return (boolean) entity.getProperty("submitted");
+		return submitted;
 	} 
 	
 	public boolean getViewable(){
-		return (boolean) entity.getProperty("viewable");
+		return viewable;
 	}
 	
 	public String getUrl(){
-		return (String) entity.getProperty("url");
+		return url;
 	}
 	
 	public Entity getEntity(){
@@ -145,11 +142,11 @@ public class Content {
 	}
 	
 	public String getRateUrl(){
-		return "/rate/" + entity.getProperty("uuid");
+		return "/rate/" + uuid;
 	}
 	
 	public String getReportUrl(){
-		return "/report/" + entity.getProperty("uuid");
+		return "/report/" + uuid;
 	}
 	
 	public String getReadableTime(){
@@ -165,20 +162,17 @@ public class Content {
 	}
 	
 	public String getTags(){
-		String s = (String) entity.getProperty("tags");
-		if (s == null) return "";
-		return s;
+		if (tags == null) return "";
+		return tags;
 	}
 	
 	public String getReadableTags(){
-		String s = (String) entity.getProperty("tags");
-		if (s == null) return "";
-		return s.replace(",", ", ");
+		if (tags == null) return "";
+		return tags.replace(",", ", ");
 	}
 	
 	public List<String> getListOfTags(){
 		List<String> allTags = new ArrayList<String>();
-		String tags = (String) entity.getProperty("tags");
 		if (tags == null || tags.length() == 0) return allTags;
 		String[] tagsList = tags.split(",");
 		for(String tag : tagsList){
@@ -212,32 +206,24 @@ public class Content {
 	}
 	
 	public int stableRandom(int modulo){
-		Long l = (Long) entity.getProperty("createdAt");
-		if (l == null){
-			return 0;
-		}
-		return (int) (l % modulo);
+		return (int) (createdAt % modulo);
 	}
 
 	public String getBoxColor(){
-		String contentType = (String) entity.getProperty("contentType");
 		return ContentAPI.getBoxColor(contentType);
 	}
 	
 	public String getBoxIcon(){
-		String contentType = (String) entity.getProperty("contentType");
 		return ContentAPI.getBoxIcon(contentType);
 	}
 
 	public void incrementKarma(int differential) {
-		long karma = (long) this.entity.getProperty("karma");
-		this.entity.setProperty("karma", karma + differential);
-		datastore.put(entity);
+		this.karma += differential;
 		if (karma > this.getBody().length()){
 			String authorId = this.getCreatorUserId();
 			AchievementsAPI.brevityAchievement(authorId);
 		}
-		
+		this.save();
 	}
 
 	public boolean getAlreadyRatedByCurrentUser(){
@@ -247,10 +233,9 @@ public class Content {
 	}
 	
 	public List<Answer> getAnswers(){
-		List<String> answerUuids = (List<String>) this.getEntity().getProperty("allAnswers");
-		if (answerUuids == null) return new ArrayList<Answer>();
+		if (allAnswers == null) return new ArrayList<Answer>();
 		List<Answer> result = new ArrayList<Answer>();
-		for(String uuid : answerUuids){
+		for(String uuid : allAnswers){
 			Answer answer = new Answer(uuid);
 			if (!answer.getViewable()){
 				if (userService.isUserLoggedIn()){
@@ -266,20 +251,41 @@ public class Content {
 	}
 
 	public void addAnswer(String answerUuid) {
-		Entity entity = this.getEntity();
-		List<String> answerUuids = (List<String>) entity.getProperty("allAnswers");
-		if (answerUuids == null) answerUuids = new ArrayList<String>();
-		answerUuids.add(answerUuid);
-		entity.setUnindexedProperty("allAnswers", answerUuids);
-		datastore.put(entity);
+		if (allAnswers == null) allAnswers = new ArrayList<String>();
+		allAnswers.add(answerUuid);
+		entity.setUnindexedProperty("allAnswers", allAnswers);
+		save();
 	}
 
 	public void removeAnswer(String answerUuid) {
-		Entity entity = this.getEntity();
-		List<String> answerUuids = (List<String>) entity.getProperty("allAnswers");
-		if (answerUuids == null) return;
-		answerUuids.remove(answerUuid);
-		entity.setUnindexedProperty("allAnswers", answerUuids);
+		if (allAnswers == null) return;
+		if (allAnswers.contains(answerUuid)){
+			allAnswers.remove(answerUuid);
+			entity.setUnindexedProperty("allAnswers", allAnswers);
+			save();
+		}
+	}
+	
+	public void save(){
+		entity.setProperty("contentType", contentType);
+		entity.setProperty("uuid", uuid);
+		entity.setProperty("creatorUserId", creatorUserId);
+		entity.setProperty("createdAt", createdAt);
+		entity.setProperty("title", title);
+		entity.setProperty("body", body);
+		entity.setProperty("anonymous", anonymous);
+		entity.setProperty("submitted", submitted);
+		entity.setProperty("viewable", viewable);
+		entity.setProperty("url", url);
+		entity.setProperty("karma", new Long(karma));
+		entity.setProperty("tags", tags);
+		entity.setProperty("allAnswers", allAnswers);
+		
+		this.setTypeSpecificEntityProperties();
+		
 		datastore.put(entity);
 	}
+	
+	public abstract void setTypeSpecificEntityProperties();
+	
 }
