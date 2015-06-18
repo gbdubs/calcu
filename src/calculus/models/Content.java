@@ -16,6 +16,7 @@ import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
@@ -57,7 +58,7 @@ public abstract class Content {
 		this.creatorUserId = (String) entity.getProperty("creatorUserId");
 		this.createdAt = (Long) entity.getProperty("createdAt");
 		this.title = (String) entity.getProperty("title");
-		this.body = (String) entity.getProperty("body");
+		this.body = ((Text) entity.getProperty("body")).getValue();
 		this.anonymous = (boolean) entity.getProperty("anonymous");
 		this.submitted = (boolean) entity.getProperty("submitted");
 		this.viewable = (boolean) entity.getProperty("viewable");
