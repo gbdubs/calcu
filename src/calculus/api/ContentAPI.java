@@ -3,13 +3,17 @@ package calculus.api;
 import static com.google.appengine.api.datastore.FetchOptions.Builder.withLimit;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+import calculus.models.Answer;
 import calculus.models.Content;
+import calculus.models.PracticeProblem;
+import calculus.models.Question;
+import calculus.models.TextContent;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -26,6 +30,8 @@ import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Query.SortDirection;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class ContentAPI {
 
@@ -96,7 +102,7 @@ public class ContentAPI {
 
 	public static String getContentAuthorId(String contentUuid) {
 		try {
-			Content c = new Content(contentUuid);
+			Content c = instantiateContent(contentUuid);
 			return c.getAuthor().getUserId();
 		} catch (EntityNotFoundException e) {
 			return null;
@@ -111,7 +117,7 @@ public class ContentAPI {
 		List<Entity> queryResults = datastore.prepare(q).asList(withLimit(maxToDisplay).offset(offset));
 		List<Content> content = new ArrayList<Content>();
 		for (Entity e : queryResults){
-			content.add(new Content(e));
+			content.add(instantiateContent(e));
 		}
 		return content;
 	}
@@ -162,7 +168,7 @@ public class ContentAPI {
 		List<Content> content = new ArrayList<Content>();
 		for(Future<Entity> future : futures){
 			try {
-				content.add(new Content(future.get()));
+				content.add(instantiateContent(future.get()));
 			} catch (InterruptedException | ExecutionException e) {
 				// Don't include in results if interrupted.
 			}
@@ -170,42 +176,59 @@ public class ContentAPI {
 		return content;
 	}
 
-	public static Map<String, List<Content>> getExploratoryContent(int n, int seed, String userId) {
+	public static Set<Content> getContentSampling(int n, int seed, String userId) {
 		Query newQ = new Query("Content").addSort("createdAt", SortDirection.DESCENDING).setFilter(compositeFilter);
 		PreparedQuery newPQ = datastore.prepare(newQ);
-		List<Entity> newE = newPQ.asList(FetchOptions.Builder.withLimit(n));
+		List<Entity> newE = newPQ.asList(FetchOptions.Builder.withLimit(n/4));
 		
 		Query bestQ = new Query("Content").addSort("karma", SortDirection.DESCENDING).setFilter(compositeFilter);
 		PreparedQuery bestPQ = datastore.prepare(bestQ);
-		List<Entity> bestE = bestPQ.asList(FetchOptions.Builder.withLimit(n));
+		List<Entity> bestE = bestPQ.asList(FetchOptions.Builder.withLimit(n/4));
 		
 		Query allQ = new Query("Content").setFilter(compositeFilter);
 		PreparedQuery allPQ = datastore.prepare(allQ);
-		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n).offset((int) (Math.random() * 1000)));
+		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n/4).offset((int) (Math.random() * 1000)));
 		
-		List<Content> randomResults = RandomValuesAPI.randomContents(n);
+		List<Content> randomResults = RandomValuesAPI.randomContents(n/4);
 		
-		Map<String, List<Content>> result = new HashMap<String, List<Content>>();
-		List<Content> newResults = new ArrayList<Content>();
-		List<Content> bestResults = new ArrayList<Content>();
-		List<Content> allResults = new ArrayList<Content>();
-		
+		Set<Content> result = new HashSet<Content>();
+
 		for(Entity e : newE){
-			newResults.add(new Content(e));
+			result.add(instantiateContent(e));
 		}
 		for(Entity e : bestE){
-			bestResults.add(new Content(e));
+			result.add(instantiateContent(e));
 		}
 		for(Entity e : allE){
-			allResults.add(new Content(e));
+			result.add(instantiateContent(e));
 		}
-		
-		result.put("new", newResults);
-		result.put("best", bestResults);
-		result.put("random", randomResults);
-		result.put("suggested", allResults);
+		result.addAll(randomResults);
 		
 		return result;
 	}
 
+	private static Content instantiateContent(String uuid) throws EntityNotFoundException{
+		Entity e = datastore.get(KeyFactory.createKey("Content", uuid));
+		return instantiateContent(e);
+	}
+	
+	private static Content instantiateContent(Entity e) {
+		String contentType = (String) e.getProperty("contentType");
+		if (contentType.equals("quesiton")){
+			return new Question(e);
+		} else if (contentType.equals("practiceProblem")){
+			return new PracticeProblem(e);
+		} else if (contentType.equals("answer")){
+			return new Answer(e);
+		} else if (contentType.equals("textContent")){
+			return new TextContent(e);
+		}
+		return null;
+	}
+
+	public static String getContentAsJson(List<Content> content) {
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		String json = gson.toJson(content);
+		return json;
+	}
 }
