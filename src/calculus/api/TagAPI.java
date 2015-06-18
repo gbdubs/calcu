@@ -53,6 +53,50 @@ public class TagAPI {
 		datastore.put(entity);
 	}
 
+	public static void addNewTopicToTag(String topicUuid, String tag){
+		String cleanedTag = tag.toLowerCase().trim();
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
+		Entity entity = new Entity(key);
+		List<String> topicUuids = new ArrayList<String>();
+		try {
+			entity = datastore.get(key);
+			topicUuids = (List<String>) entity.getProperty("matchingTopics");
+		} catch (EntityNotFoundException e) {
+			if (acceptableTag(cleanedTag)){
+				entity.setUnindexedProperty("name", cleanedTag);
+				addNewTagToAllTags(cleanedTag);
+			} else {
+				return;
+			}
+		}
+		if (!topicUuids.contains(topicUuid)){
+			topicUuids.add(topicUuid);
+			entity.setProperty("topicCount", topicUuids.size());
+			entity.setUnindexedProperty("matchingTopics", topicUuids);
+			datastore.put(entity);
+		}
+	}
+	
+	
+	public static void removeTopicFrimTag(String topicUuid, String tag){
+		String cleanedTag = tag.toLowerCase().trim();
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
+		Entity entity = new Entity(key);
+		List<String> topicUuids = new ArrayList<String>();
+		try {
+			entity = datastore.get(key);
+			topicUuids = (List<String>) entity.getProperty("matchingTopics");
+		} catch (EntityNotFoundException e) {
+			return;
+		}
+		if (topicUuids.contains(topicUuid)){
+			topicUuids.remove(topicUuid);
+			entity.setProperty("topicCount", topicUuids.size());
+			entity.setUnindexedProperty("matchingTopics", topicUuids);
+			datastore.put(entity);
+		}
+	}
+	
 	private static void addNewTagToAllTags(String tag){
 		Key key = KeyFactory.createKey("Tag", allTagsKey);
 		Entity e;

@@ -39,6 +39,8 @@
 						</a>
 					</div>
 					<br>
+					<br class="visible-xs">
+					<br class="visible-xs">
 					<div class="hexagon-row">
 						<a href="/contribute"  class="hexagon-button">
 							<div class="text-red">
@@ -49,6 +51,7 @@
 								<i class="fa fa-fw fa-graduation-cap fa-5x badge-icon"></i>
 							</div>
 						</a>
+						<br class="visible-xs">
 						<div class="hexagon-blank hidden-xs"></div>
 						<a href="/achievements" class="hexagon-button">
 							<div class="text-yellow">
@@ -61,6 +64,8 @@
 						</a>
 					</div>
 					<br>
+					<br class="visible-xs">
+					<br class="visible-xs">
 					<div class="hexagon-row">
 						<a href="/about" class="hexagon-button">
 							<div class="text-black">
