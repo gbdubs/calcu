@@ -154,13 +154,13 @@ public class Content {
 	
 	public String getReadableTime(){
 		Date d = new Date(this.getCreatedAt());
-		SimpleDateFormat df = new SimpleDateFormat("MM/DD/YY HH:mm");
+		SimpleDateFormat df = new SimpleDateFormat("MM/dd/YY HH:mm");
 		return df.format(d);
 	}
 	
 	public String getShortReadableTime(){
 		Date d = new Date(this.getCreatedAt());
-		SimpleDateFormat df = new SimpleDateFormat("MM/DD/YY");
+		SimpleDateFormat df = new SimpleDateFormat("MM/dd/YY");
 		return df.format(d);
 	}
 	
