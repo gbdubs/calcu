@@ -55,7 +55,18 @@ public class ViewContentServlet extends HttpServlet {
 		}
 		
 		if (contentType.equals("practiceProblem")) {
-			PracticeProblem pp = new PracticeProblem(uuid);
+			PracticeProblem pp;
+			try {
+				pp = new PracticeProblem(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (pp.getSubmitted() && pp.getViewable()){
@@ -71,7 +82,18 @@ public class ViewContentServlet extends HttpServlet {
 			}
 			jsp.forward(req, resp);
 		} else if (contentType.equals("question")) {
-			Question q = new Question(uuid);
+			Question q;
+			try {
+				q = new Question(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (q.getSubmitted() && q.getViewable()){
@@ -87,7 +109,18 @@ public class ViewContentServlet extends HttpServlet {
 			}
 			jsp.forward(req, resp);
 		} else if (contentType.equals("textContent")) {
-			TextContent tc = new TextContent(uuid);
+			TextContent tc;
+			try {
+				tc = new TextContent(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (tc.getSubmitted() && tc.getViewable()){

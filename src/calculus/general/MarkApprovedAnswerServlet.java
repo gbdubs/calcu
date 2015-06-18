@@ -12,6 +12,7 @@ import calculus.api.KarmaAPI;
 import calculus.models.Answer;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -24,7 +25,13 @@ public class MarkApprovedAnswerServlet extends HttpServlet{
 		
 		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 		
-		Answer answer = new Answer(uuid);
+		Answer answer;
+		try {
+			answer = new Answer(uuid);
+		} catch (EntityNotFoundException e) {
+			// If it is not found, then we need not mark it approved.
+			return;
+		}
 		
 		String parentUuid = answer.getParentUuid();
 		String parentAuthorUserId = ContentAPI.getContentAuthorId(parentUuid);

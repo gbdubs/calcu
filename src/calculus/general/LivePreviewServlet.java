@@ -28,7 +28,7 @@ public class LivePreviewServlet extends HttpServlet{
 		
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user == null){
-			resp.sendRedirect("/page-not-found");
+			sendPageNotFound(req, resp);
 			return;
 		}
 		String userId = user.getUserId();
@@ -38,9 +38,7 @@ public class LivePreviewServlet extends HttpServlet{
 		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 		
 		if (uuid == null || uuid.length() != 36){
-			resp.setContentType("text/html");
-			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			jsp.forward(req, resp);
+			sendPageNotFound(req, resp);
 			return;
 		}
 		
@@ -54,15 +52,19 @@ public class LivePreviewServlet extends HttpServlet{
 		try {
 			contentType = ContentAPI.getContentType(uuid);
 		} catch (EntityNotFoundException e) {
-			resp.setContentType("text/html");
-			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			jsp.forward(req, resp);
+			sendPageNotFound(req, resp);
 			return;
 		}
 		
 		
 		if (contentType.equals("practiceProblem")){
-			PracticeProblem pp = new PracticeProblem(uuid);
+			PracticeProblem pp;
+			try {
+				pp = new PracticeProblem(uuid);
+			} catch (EntityNotFoundException e) {
+				sendPageNotFound(req, resp);
+				return;
+			}
 			if (pp.getCreatorUserId().equals(userId) && !pp.getSubmitted()){
 				resp.setContentType("text/html");
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
@@ -72,7 +74,13 @@ public class LivePreviewServlet extends HttpServlet{
 				return;
 			}	
 		} else if (contentType.equals("question") ){
-			Question q = new Question(uuid);
+			Question q;
+			try {
+				q = new Question(uuid);
+			} catch (EntityNotFoundException e) {
+				sendPageNotFound(req, resp);
+				return;
+			}
 			if (q.getCreatorUserId().equals(userId) && !q.getSubmitted()){
 				resp.setContentType("text/html");
 				QuestionAPI.addQuestionContext(req, q);
@@ -82,7 +90,13 @@ public class LivePreviewServlet extends HttpServlet{
 				return;
 			}
 		} else if (contentType.equals("textContent")) {
-			TextContent tc = new TextContent(uuid);
+			TextContent tc;
+			try {
+				tc = new TextContent(uuid);
+			} catch (EntityNotFoundException e) {
+				sendPageNotFound(req, resp);
+				return;
+			}
 			if (tc.getCreatorUserId().equals(userId) && !tc.getSubmitted()){
 				resp.setContentType("text/html");
 				TextContentAPI.addTextContentContext(req, tc);
@@ -96,9 +110,12 @@ public class LivePreviewServlet extends HttpServlet{
 			return;
 		}
 		
+		sendPageNotFound(req, resp);
+	}
+	
+	private static void sendPageNotFound(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 		jsp.forward(req, resp);
-		return;
 	}
 }
