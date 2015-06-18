@@ -1,40 +1,28 @@
 package calculus.models;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.google.appengine.api.datastore.DatastoreService;
-import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 
 public class Answer extends Content {
-
-	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-	private static List<String> FIELDS = new ArrayList<String>();
 	
-	static {
-		FIELDS.addAll(Content.FIELDS);
-		FIELDS.add("parentUuid");
-		FIELDS.add("approved");
-	}
+	private boolean approved;
+	private String parentUuid;
 	
-	public Answer(String uuid) {
+	public Answer(String uuid) throws EntityNotFoundException {
 		super(uuid, "answer");
+		postContentConstructor();
 	}
 	
 	public Answer(Entity entity) {
 		super(entity, "answer");
-	}
-	
-	@Override
-	public void verifyAcceptableProperty(String property) {
-		boolean acceptableProperty = false;
-		for(String realProperties : FIELDS){
-			if (realProperties.equals(property)) acceptableProperty = true;
-		}
-		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property modification.");
+		postContentConstructor();
 	}
 
+	private void postContentConstructor(){
+		this.approved = (boolean) this.entity.getProperty("approved");
+		this.parentUuid = (String) this.entity.getProperty("parentUuid");
+	}
+	
 	public boolean getApproved(){
 		return (boolean) this.getEntity().getProperty("approved");
 	}
@@ -56,25 +44,31 @@ public class Answer extends Content {
 	}
 	
 	public String getParentUuid(){
-		return (String) this.getEntity().getProperty("parentUuid");
+		return parentUuid;
 	}
 	
 	public String getApprovedSolutionUrl(){
-		return "/mark-approved-answer/" + this.getEntity().getProperty("uuid");
+		return "/mark-approved-answer/" + this.getUuid();
 	}
 	
 	public String getNotApprovedSolutionUrl(){
-		return "/mark-approved-answer/not/" + this.getEntity().getProperty("uuid");
+		return "/mark-approved-answer/not/" + this.getUuid();
 	}
 
 	public void markApproved() {
-		this.getEntity().setProperty("approved", true);
-		datastore.put(this.getEntity());
+		this.approved = true;
+		this.save();
 	}
 	
 	public void markNotApproved() {
-		this.getEntity().setProperty("approved", false);
-		datastore.put(this.getEntity());
+		this.approved = false;
+		this.save();
+	}
+
+	@Override
+	public void setTypeSpecificEntityProperties() {
+		this.entity.setProperty("approved", this.approved);
+		this.entity.setProperty("parentUuid", this.parentUuid);
 	}
 	
 }

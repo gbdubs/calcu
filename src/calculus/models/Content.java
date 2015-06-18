@@ -32,7 +32,7 @@ public abstract class Content {
 		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
 	}
 	
-	private Entity entity;
+	protected Entity entity;
 	private Author author;
 	
 	private String contentType;
@@ -236,15 +236,20 @@ public abstract class Content {
 		if (allAnswers == null) return new ArrayList<Answer>();
 		List<Answer> result = new ArrayList<Answer>();
 		for(String uuid : allAnswers){
-			Answer answer = new Answer(uuid);
-			if (!answer.getViewable()){
-				if (userService.isUserLoggedIn()){
-					if (userService.isUserAdmin()){
-						result.add(answer);
+			Answer answer;
+			try {
+				answer = new Answer(uuid);
+				if (!answer.getViewable()){
+					if (userService.isUserLoggedIn()){
+						if (userService.isUserAdmin()){
+							result.add(answer);
+						}
 					}
+				} else {
+					result.add(answer);
 				}
-			} else {
-				result.add(answer);
+			} catch (EntityNotFoundException e) {
+				// Don't include it if it doesn't exit! :)
 			}
 		}
 		return result;
@@ -287,5 +292,6 @@ public abstract class Content {
 	}
 	
 	public abstract void setTypeSpecificEntityProperties();
+	
 	
 }
