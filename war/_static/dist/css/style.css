@@ -4551,7 +4551,6 @@ a.btn.btn-warning.live-preview-return-button{
     width: 100%;
     text-align: center;
 } 
-
 .hexagon-icon-button:before {
 	content: "";
 	position: absolute;
@@ -4640,6 +4639,7 @@ i.interested-button.hovered,
 .margin-top-25{
 	margin-top: 25px;
 }
+
 h2.secondary-banner{
 	text-align: center;
 	font-size: 70px;
@@ -4658,6 +4658,14 @@ h2.mini-font{
 .margin-sides-10{
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.no-float{
+	float:none !important;
+}
+
+.max-pic-height{
+	max-height: 200px;
 }.achievement-badge{
     text-align: center;
     width: 100%;
