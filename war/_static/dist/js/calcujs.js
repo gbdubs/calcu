@@ -2576,10 +2576,10 @@ $(function() {
 	    	
 	    	if (action === "add") {
 	    		$(this).data("action","remove");
-	    		$(this).removeClass("fa-bookmark-o").addClass("fa-bookmark");
+	    		$(".fa", this).removeClass("fa-bookmark-o").addClass("fa-bookmark");
 	    	} else {
 	    		$(this).data("action","add");
-	    		$(this).removeClass("fa-bookmark").addClass("fa-bookmark-o");
+	    		$(".fa", this).removeClass("fa-bookmark").addClass("fa-bookmark-o");
 	    	}
 	    };
 		
@@ -2606,8 +2606,8 @@ $(function() {
 	    $(".hide-recommendation-button").click(hideRecommendedContent);
 	    
 	    var disinterestedContent = function () {
-	    	var notYetSent = $(this).hasClass("fa-thumbs-o-down");
-	    	var alreadySent = $(this).hasClass("fa-thumbs-down");
+	    	var notYetSent = $(".fa", this).hasClass("fa-thumbs-o-down");
+	    	var alreadySent = $(".fa", this).hasClass("fa-thumbs-down");
 	    	
 	    	var userId = $(this).data("user");
 			var content = $(this).data("content");
@@ -2620,8 +2620,8 @@ $(function() {
 	    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
 	        	});
 	    		
-	    		$(this).addClass("fa-thumbs-down").removeClass("fa-thumbs-o-down");
-	    		$(".interested-button", $(this).parent()).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
+	    		$(".fa", this).addClass("fa-thumbs-down").removeClass("fa-thumbs-o-down");
+	    		$(".interested-button > .fa", $(this).parent()).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
 	    	} else if (alreadySent) {
 	    		action = "unmark-" + action;
 	    		$.ajax({
@@ -2630,19 +2630,21 @@ $(function() {
 	    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
 	        	});
 	    		
-	    		$(this).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
+	    		$(".fa", this).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
 	    	}
 	    }
 	    
 	    $(".disinterested-button").click(disinterestedContent);
 	
 	    var interestedContent = function () {
-	    	var notYetSent = $(this).hasClass("fa-thumbs-o-up");
-	    	var alreadySent = $(this).hasClass("fa-thumbs-up");
+	    	var notYetSent = $(".fa", this).hasClass("fa-thumbs-o-up");
+	    	var alreadySent = $(".fa", this).hasClass("fa-thumbs-up");
 	    	
 	    	var userId = $(this).data("user");
 			var content = $(this).data("content");
 			var action = $(this).data("action");
+			
+			console.log(content);
 			
 	    	if (notYetSent) {
 	    		$.ajax({
@@ -2650,8 +2652,8 @@ $(function() {
 	    			url: "/recommendations",
 	    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
 	        	});
-	    		$(this).addClass("fa-thumbs-up").removeClass("fa-thumbs-o-up");
-	    		$(".disinterested-button", $(this).parent()).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
+	    		$(".fa", this).addClass("fa-thumbs-up").removeClass("fa-thumbs-o-up");
+	    		$(".disinterested-button > .fa", $(this).parent()).removeClass("fa-thumbs-down").addClass("fa-thumbs-o-down");
 	    	} else if (alreadySent) {
 	    		action = "unmark-" + action;
 	    		
@@ -2661,7 +2663,7 @@ $(function() {
 	    			data: "userId="+userId+"&contentUuid="+content+"&action="+action
 	        	});
 	    		
-	    		$(this).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
+	    		$(".fa", this).removeClass("fa-thumbs-up").addClass("fa-thumbs-o-up");
 	    	}
 	    }
 	    

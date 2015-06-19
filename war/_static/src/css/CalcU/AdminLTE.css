@@ -4184,7 +4184,7 @@ a.btn.btn-warning.live-preview-return-button{
 }
 
 .alert.alert-recommendation{
-	margin: 30px 10px 30px 15px;
+	margin: 30px 0px 30px 0px;
 	padding: 20px 15px 15px 15px;
 	max-height: 250px;
 	-webkit-transition: all 1000ms linear;
@@ -4231,47 +4231,27 @@ a.btn.btn-warning.live-preview-return-button{
 }
 
 .alert.alert-recommendation > i.hide-recommendation-button {
-	right: 50px;
+	right: 55px;
+	top: -12px;
+	border: none;
 }
 
 .alert.alert-recommendation > i.disinterested-button {
 	right: 10px;
+	top: -12px;
+	border: none;
 }
 
 .alert.alert-recommendation > i.interested-button {
-	right: 130px;
+	right: 145px;
+	top: -12px;
+	border: none;
 }
 
 .alert.alert-recommendation > i.toggle-bookmark-button {
-	right: 90px;
-}
-
-i.toggle-bookmark-button.hovered,
-.alert.alert-recommendation:hover > i.toggle-bookmark-button {
+	right: 100px;
+	top: -12px;
 	border: none;
-	background: #f39c12;
-	color: white;
-}
-
-i.hide-recommendation-button.hovered,
-.alert.alert-recommendation:hover > i.hide-recommendation-button {
-	border: none;
-	background: #3c8dbc;
-	color: white;
-}
-
- i.disinterested-button.hovered, 
-.alert.alert-recommendation:hover > i.disinterested-button {
-	border: none;
-	background: #f56954;
-	color: white;
-}
-
- i.interested-button.hovered, 
-.alert.alert-recommendation:hover > i.interested-button {
-	border: none;
-	background: #00a65a;
-	color: white;
 }
 
 .alert.alert-recommendation > .max-height-wrapper {
@@ -4516,4 +4496,98 @@ i.hide-recommendation-button.hovered,
 .max-width-at-900{
 	max-width: 900px;
 	display: inline-block;
+}
+
+.hexagon-icon-button{
+	width: 40px;
+	height: 23px;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+
+.hexagon-icon-button > i.fa{
+	color: white;
+    width: 100%;
+    text-align: center;
+} 
+
+.hexagon-icon-button:before {
+	content: "";
+	position: absolute;
+	top: -11px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 11px solid;
+}
+
+.hexagon-icon-button:after {
+	content: "";
+	position: absolute;
+	bottom: -11px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 11px solid;
+}
+
+.basic-list{
+	list-style-type: none;
+}
+
+.hexagon-bullet-line-item{
+	margin: 27px 0;
+}
+
+.hexagon-interested{
+	color: #00a65a;
+	background: #00a65a;
+}
+
+.hexagon-bookmark{
+	color: #f39c12;
+	background: #f39c12;
+}
+
+.hexagon-recommendations{
+	color: #3c8dbc;
+	background: #3c8dbc;
+}
+
+.hexagon-disinterested{
+	color: #f56954;
+	background: #f56954;
+}
+
+i.toggle-bookmark-button.hovered,
+.alert.alert-recommendation > i.toggle-bookmark-button:hover {
+	border: none;
+	background: #e08e0b;
+	color: #e08e0b;
+}
+
+i.hide-recommendation-button.hovered,
+.alert.alert-recommendation > i.hide-recommendation-button:hover {
+	border: none;
+	background: #367fa9;
+	color: #367fa9;
+}
+
+i.disinterested-button.hovered, 
+.alert.alert-recommendation > i.disinterested-button:hover {
+	border: none;
+	background: #f4543c;
+	color: #f4543c;
+}
+
+i.interested-button.hovered, 
+.alert.alert-recommendation > i.interested-button:hover {
+	border: none;
+	background: #008d4c;
+	color: #008d4c;
 }
