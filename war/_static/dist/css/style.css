@@ -4649,6 +4649,15 @@ h2.secondary-banner{
 h2.mini-font{
 	font-size: 18px;
 	font-weight: 100;
+}
+.shorten-box{
+	white-space: normal;
+	max-width: 100%;
+}
+
+.margin-sides-10{
+	margin-left: 10px;
+	margin-right: 10px;
 }.achievement-badge{
     text-align: center;
     width: 100%;
