@@ -190,7 +190,7 @@
 						<h3 class="box-title no-float">Sofiya Semenova</h3>
 					</div>
 					<div class="box-body centered">
-						<img class="max-pic-height" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKzAAAAJDUwNjI4NmRiLTY1MTYtNGRmMi04MjgxLTllNjUyY2Y4OTlmYw.jpg">
+						<img class="max-pic-height" src="_static/img/the-team/sofiya.jpg">
 						<h4>
 							Senior Programmer
 						</h4>
