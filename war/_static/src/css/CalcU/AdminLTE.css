@@ -4517,3 +4517,22 @@ i.hide-recommendation-button.hovered,
 	max-width: 900px;
 	display: inline-block;
 }
+
+.max-width-at-1000{
+	max-width: 1000px;
+	display: inline-block;
+}
+
+.margin-top-25{
+	margin-top: 25px;
+}
+h2.secondary-banner{
+	text-align: center;
+	font-size: 70px;
+	font-weight: 100;
+}
+
+h2.mini-font{
+	font-size: 18px;
+	font-weight: 100;
+}
