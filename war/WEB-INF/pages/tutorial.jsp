@@ -12,7 +12,7 @@
 		
 		<div class="tutorial-item-wrapper">
 			<h2 class="welcome-banner">Welcome To CalcU</h2>
-			<h3>Five Steps to get you started.</h3>
+			<h3 class="welcome-banner-subtitle">Five Steps to get you started.</h3>
 		</div>
 		<div class="tutorial-item-wrapper tutorial-content-explanation">
 			<span class="looming-number hidden-xs">1</span>
@@ -163,24 +163,58 @@
 				</p>
 			</div>
 		</div>
-		<div class="tutorial-footer row">
+		<div class="tutorial-footer row full-width">
 			<div class="col-xs-12 bg-white-gradient">
 				<h3>Now that you know the basics, where do you want to go from here?<h3>
 			</div>
-			<table class="full-width">
-				<tr>
-					<td href="/search/geometry,trig" class="btn-primary">
-						<h3 class="font-200 padding-20">Start With A Search</h3>
-					</td>
-					<td href="/user/me" class="btn-warning">
-						<h3 class="font-200 padding-20">Customize Your Profile</h3>
-					</td>
-					<td href="/explore" class="btn-success">
-						<h3 class="font-200 padding-20">See Some Examples</h3>
-					</td>
-				</tr>
-			</table>
-			<a href="/tutorial/documentation" class="col-xs-12 bg-white-gradient btn-default">
+			<div class="centered full-width margin-bottom-50">
+			<div class="hexagon-table">
+				<div class="hexagon-row centered">
+					<a href="/search" class="hexagon-button">
+						<div class="text-blue">
+							<div class="hexagon outer-hexagon"></div>
+							<div class="hexagon-button-insides bg-white text-white">
+								<div class="hexagon inner-hexagon"></div>
+							</div>
+							<i class="fa fa-fw fa-search fa-5x badge-icon"></i>
+							<h4 class="hexagon-title">Start with a Search</h4>
+						</div>
+					</a>
+					<br class="visible-xs">
+					<br class="visible-xs">
+					<c:if test="${user!=null}">
+						<a href="/user/me" class="hexagon-button">
+					</c:if>
+					<c:if test="${user==null}">
+						<a class="hexagon-button login-button">
+					</c:if>
+						<div class="text-yellow">
+							<div class="hexagon outer-hexagon"></div>
+							<div class="hexagon-button-insides bg-white text-white">
+								<div class="hexagon inner-hexagon"></div>
+							</div>
+							<i class="fa fa-fw fa-user fa-5x badge-icon"></i>
+							<h4 class="hexagon-title">Visit your Profile</h4>
+						</div>
+					</a>
+					<br class="visible-xs">
+					<br class="visible-xs">
+					
+				
+					<a href="/explore" class="hexagon-button">
+						<div class="text-green">
+							<div class="hexagon outer-hexagon"></div>
+							<div class="hexagon-button-insides bg-white text-white">
+								<div class="hexagon inner-hexagon"></div>
+							</div>
+							<i class="fa fa-fw fa-binoculars fa-5x badge-icon"></i>
+							<h4 class="hexagon-title">Explore the Site</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+			<a href="/tutorial/documentation" class="full-width">
 				<h3>
 					Or Learn more about Karma, Levels, and Rules
 					<i class="fa fa-arrow-circle-right"></i>

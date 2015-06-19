@@ -10,12 +10,14 @@
 
 	<jsp:attribute name="content">
 		
-		<div class="box box-solid">
-			<div class="box-header bg-olive">
-				<i class="fa fa-tasks"></i>
-				<h3 class="box-title">Recommendations</h3>
-			</div>
-			<div class="box-body">
+		<div class="centered">
+			<h2 class="welcome-banner margin-top-100">Recommendations</h2>
+			<h3 class="margin-bottom-50 welcome-banner-subtitle max-width-at-900">
+				This is where we take everything you tell us about yourself and
+				synthesize it in to the resources which will help you learn.
+			</h3> 
+			<br>
+			<div class="max-width-at-1000 align-left margin-bottom-50">
 				<p>
 					This is the recommendation page, where we take everything you tell us about yourself, and
 					try to synthesize it in to the resources which will best be able to help you learn. If
@@ -25,11 +27,11 @@
 				</p>
 				<p>
 					On each piece of recommended content, you can provide us with feedback:
-					<ul>
-						<li><i class="fa fa-thumbs-up round-icon-button"></i>Tell us when you like a recommendation to get more like it! </li>
-						<li><i class="fa fa-bookmark round-icon-button"></i>You can bookmark the content so that you can come back to it later </li>
-						<li><i class="fa fa-eye-slash round-icon-button"></i>You can hide the content if you have seen it before. This doesn't tell us what you think about it </li>
-						<li><i class="fa fa-thumbs-down round-icon-button"></i>Let us know when you aren't interested in the subject matter of the recommendation so that we can make it better </li>
+					<ul class="basic-list">
+						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-interested"><i class="fa fa-fw fa-thumbs-up"></i></i>Tell us when you like a recommendation to get more like it! </li>
+						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-bookmark"><i class="fa fa-fw fa-bookmark"></i></i>You can bookmark the content so that you can come back to it later </li>
+						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-recommendations"><i class="fa fa-fw fa-eye-slash "></i></i>You can hide the content if you have seen it before. This doesn't tell us what you think about it </li>
+						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-disinterested"><i class="fa fa-fw fa-thumbs-down"></i></i>Let us know when you aren't interested in the subject matter of the recommendation so that we can make it better </li>
 					</ul>
 					To unhide all previously hidden recommendations, press the button at the bottom of this page.
 					As this feature is at the heart of the website, please don't hesitate to contact us with suggestions on how it could be improved. Get After it!
@@ -71,8 +73,6 @@
 						</c:forEach>
 
 						<div class="alert alert-recommendation alert-${rec.color}">
-						
-							<i class="fa percentage-display">${rec.percentage}</i>
 							
 							<a href="${rec.url}"><b>${rec.title}</b></a>
 							<div class="max-height-wrapper">
@@ -80,27 +80,27 @@
 							</div>
 							<c:choose>
 								<c:when test="${rec.value == 'interested'}">
-									<i type="button" class="interested-button fa fa-thumbs-up" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"></i>
+									<i type="button" class="interested-button hexagon-icon-button hexagon-interested" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"><i class="fa fa-thumbs-up"></i></i>
 								</c:when>
 								<c:otherwise>
-									<i type="button" class="interested-button fa fa-thumbs-o-up" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"></i>
+									<i type="button" class="interested-button hexagon-icon-button hexagon-interested" data-action="interested" data-user="${user.userId}" data-content="${rec.uuid}" title="I Like This!"><i class="fa fa-thumbs-o-up"></i></i>
 								</c:otherwise>
 							</c:choose>
 							<c:choose>
 								<c:when test="${bookmarked}">
-									<i type="button" class="toggle-bookmark-button fa fa-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}" title="Un-Bookmark This!"></i>
+									<i type="button" class="toggle-bookmark-button hexagon-icon-button hexagon-bookmark" data-action="remove" data-user="${user.userId}" data-content="${rec.uuid}" title="Un-Bookmark This!"><i class="fa fa-bookmark"></i></i>
 								</c:when>
 								<c:otherwise>
-									<i type="button" class="toggle-bookmark-button fa fa-bookmark-o" data-action="add" data-user="${user.userId}" data-content="${rec.uuid}" title="Bookmark This!"></i>
+									<i type="button" class="toggle-bookmark-button hexagon-icon-button hexagon-bookmark" data-action="add" data-user="${user.userId}" data-content="${rec.uuid}" title="Bookmark This!"><i class="fa fa-bookmark-o"></i></i>
 								</c:otherwise>
 							</c:choose>
-							<i type="button" class="hide-recommendation-button fa fa-eye-slash" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}" title="Hide this for now."></i>
+							<i type="button" class="hide-recommendation-button hexagon-icon-button hexagon-recommendations" data-action="hide" data-user="${user.userId}" data-content="${rec.uuid}" title="Hide this for now."><i class=" fa fa-eye-slash"></i></i>
 							<c:choose>
 								<c:when test="${rec.value == 'disinterested'}">
-									<i type="button" class="disinterested-button fa fa-thumbs-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."></i>
+									<i type="button" class="disinterested-button hexagon-icon-button hexagon-disinterested" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."><i class="fa fa-thumbs-down"></i></i>
 								</c:when>
 								<c:otherwise>
-									<i type="button" class="disinterested-button fa fa-thumbs-o-down" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."></i>
+									<i type="button" class="disinterested-button hexagon-icon-button hexagon-disinterested" data-action="disinterested" data-user="${user.userId}" data-content="${rec.uuid}" title="I don't Like this."><i class="fa fa-thumbs-o-down"></i></i>
 								</c:otherwise>
 							</c:choose>
 						</div>
