@@ -4500,11 +4500,20 @@ i.hide-recommendation-button.hovered,
 	margin-top: 100px;
 }
 
-.max-width-at-900{
-	max-width: 900px;
-	display: inline-block;
+.max-width-at-700{
+	max-width: 700px;
+	display:inline-block;
 }
 
 .align-left{
 	text-align: left;
+}
+
+.margin-5{
+	margin: 5px 0;
+}
+
+.max-width-at-900{
+	max-width: 900px;
+	display: inline-block;
 }
