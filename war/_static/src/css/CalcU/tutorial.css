@@ -21,11 +21,7 @@ h2.welcome-banner{
 }
 
 span.looming-number{
-	width:80px;
-	height:80px;
-	border-radius: 50%;
 	font-size: 80px;
-	line-height: 72px;
 	font-weight: 100;
 	color: white;
 	background-color: #D0D0D0;
@@ -33,6 +29,35 @@ span.looming-number{
 	display: inline-block;
 	top: -25px;
 	left: -35px;
+	width: 100px;
+	height: 55px;
+	line-height: 50px;
+	border-radius: 0;
+	overflow: visible;
+	background: #D0D0D0;
+}
+
+span.looming-number:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #D0D0D0;
+}
+span.looming-number:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid #D0D0D0;
 }
 
 .tutorial-item-title{
@@ -170,7 +195,8 @@ p.large-icon-bullet-point {
 }
 
 .tutorial-footer{
-	position: absolute;
+	position: relative;
+	display: inline-block;
 }
 
 .font-200{
