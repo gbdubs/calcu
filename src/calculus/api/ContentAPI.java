@@ -214,7 +214,7 @@ public class ContentAPI {
 	
 	public static Content instantiateContent(Entity e) {
 		String contentType = (String) e.getProperty("contentType");
-		if (contentType.equals("quesiton")){
+		if (contentType.equals("question")){
 			return new Question(e);
 		} else if (contentType.equals("practiceProblem")){
 			return new PracticeProblem(e);
@@ -224,11 +224,5 @@ public class ContentAPI {
 			return new TextContent(e);
 		}
 		return null;
-	}
-
-	public static String getContentAsJson(List<Content> content) {
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-		String json = gson.toJson(content);
-		return json;
 	}
 }

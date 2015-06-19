@@ -19,7 +19,7 @@ public class PracticeProblem extends Content{
 	}
 	
 	private void postContentConstructor(){
-		this.authorSolution = ((Text) this.entity.getProperty("authorSolution")).toString();
+		this.authorSolution = ((Text) this.entity.getProperty("authorSolution")).getValue();
 	}
 	
 	public String getAuthorSolution(){

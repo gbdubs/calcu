@@ -1,9 +1,23 @@
 package calculus.api;
 
-import com.google.appengine.api.datastore.Entity;
-import com.google.appengine.api.datastore.EntityNotFoundException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import calculus.models.Topic;
+
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.datastore.PreparedQuery;
+import com.google.appengine.api.datastore.Query;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 
 public class TopicAPI {
 
@@ -116,4 +130,49 @@ public class TopicAPI {
 		return false;
 	}
 	
+	public String getAllTopicsAsJson(){
+		List<Topic> all = TopicAPI.getAllTopics();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		String json = gson.toJson(all);
+		return json;		
+	}
+
+	private static List<Topic> getAllTopics() {
+		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
+		List<Topic> topics = new ArrayList<Topic>();
+		Query q = new Query("Topic");
+		PreparedQuery pq = ds.prepare(q);
+		for (Entity e : pq.asIterable()){
+			Topic t = new Topic(e);
+			if (t != null){
+				topics.add(t);
+			}
+		}
+		return topics;
+	}
+	
+	public static boolean constructTopicsFromJson(String jsonData){
+		
+		JsonParser parser = new JsonParser();
+		
+		JsonElement root = parser.parse(jsonData);
+		boolean convertable = root.isJsonArray();
+		if (!convertable){
+			return false;
+		}
+		
+		JsonArray topicArray = null;
+		if (convertable){
+			topicArray = root.getAsJsonArray();
+		}
+		
+		for (JsonElement topicElement : topicArray){
+			Topic t = new Topic(topicElement.getAsJsonObject());
+			t.save();
+		}
+		
+		return true;
+		
+	}
 }
+

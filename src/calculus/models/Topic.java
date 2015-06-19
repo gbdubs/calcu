@@ -15,6 +15,9 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 
 public class Topic {
 
@@ -38,7 +41,7 @@ public class Topic {
 		this(datastore.get(KeyFactory.createKey("Topic", uuid)));
 	}
 	
-	private Topic(Entity e){
+	public Topic(Entity e){
 		this.uuid = (String) e.getProperty("uuid");
 		this.subTopics = (List<String>) e.getProperty("subTopics");
 		if (subTopics == null){ subTopics = new ArrayList<String>(); }
@@ -52,6 +55,36 @@ public class Topic {
 		this.difficulty = (int) ((Long) e.getProperty("difficulty")).intValue();
 		this.changedTags = false;
 		this.changedTitle = false;
+	}
+	
+	public Topic(JsonObject jo){
+		uuid = UUID.randomUUID().toString();
+		JsonElement uuidElement = jo.get("uuid");
+		if (uuidElement != null){
+			uuid = uuidElement.getAsString();
+		}
+		
+		this.title = jo.get("title").getAsString();
+		this.shortDescription = jo.get("shortDescription").getAsString();
+		this.longDescription = jo.get("longDescription").getAsString();
+		this.tags = jo.get("tags").getAsString();
+		this.difficulty = jo.get("difficulty").getAsInt();
+		
+		JsonArray ja = jo.get("parentTopics").getAsJsonArray();
+		this.parentTopics = new ArrayList<String>();
+		for (JsonElement je : ja){
+			parentTopics.add(je.getAsString());
+		}
+		
+		ja = jo.get("subTopics").getAsJsonArray();
+		this.subTopics = new ArrayList<String>();
+		for (JsonElement je : ja){
+			subTopics.add(je.getAsString());
+		}
+		
+		this.changedTags = true;
+		this.changedTitle = true;
+		this.originalTags = "";
 	}
 	
 	public void save(){
@@ -213,3 +246,4 @@ public class Topic {
 		this.difficulty = difficulty;
 	}
 }
+	

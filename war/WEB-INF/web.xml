@@ -468,6 +468,43 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/baseline/*</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>calculus.upload.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/admin/upload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadWorker</servlet-name>
+		<servlet-class>calculus.upload.UploadWorker</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadWorker</servlet-name>
+		<url-pattern>/admin/upload/worker</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>calculus.upload.DownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/admin/download</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadWorker</servlet-name>
+		<servlet-class>calculus.upload.DownloadWorker</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadWorker</servlet-name>
+		<url-pattern>/admin/download/worker</url-pattern>
+	</servlet-mapping>
+	
 	
 	<filter>
 		<filter-name>appstats</filter-name>

@@ -37,7 +37,7 @@ public abstract class Content {
 		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
 	}
 	
-	protected Entity entity;
+	protected transient Entity entity;
 	private Author author;
 	
 	private String contentType;
