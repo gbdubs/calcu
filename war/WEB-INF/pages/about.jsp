@@ -10,8 +10,8 @@
 		<div class="row about-tiles">
 			<div class="col-md-4 col-sm-6 col-xs-12">
 		
-				<div class="box box-solid bg-blue-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-blue">
 						<i class="fa fa-globe"></i>
 						<h3 class="box-title">The Best of the Web</h3>
 					</div>
@@ -24,8 +24,8 @@
 					</div>
 				</div>
 		
-				<div class="box box-solid bg-purple-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-green">
 						<i class="fa fa-bar-chart-o"></i>
 						<h3 class="box-title">Curated Resources</h3>
 					</div>
@@ -38,8 +38,8 @@
 					</div>
 				</div>
 		
-				<div class="box box-solid bg-black-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-purple">
 						<i class="fa fa-money"></i>
 						<h3 class="box-title">Free. Always.</h3>
 					</div>
@@ -54,8 +54,8 @@
 		
 			<div class="col-md-4 col-sm-6 col-xs-12">
 		
-				<div class="box box-solid bg-green-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-olive">
 						<i class="fa fa-group"></i>
 						<h3 class="box-title">Vibrant Community</h3>
 					</div>
@@ -68,8 +68,8 @@
 					</div>
 				</div>
 		
-				<div class="box box-solid bg-maroon-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-light-blue">
 						<i class="fa fa-flask"></i>
 						<h3 class="box-title">Research</h3>
 					</div>
@@ -82,8 +82,8 @@
 					</div>
 				</div>
 		
-				<div class="box box-solid bg-light-blue-gradient">
-					<div class="box-header">
+				<div class="box box-solid">
+					<div class="box-header bg-green">
 						<i class="fa fa-plane"></i>
 						<h3 class="box-title">Directed Resources</h3>
 					</div>
@@ -102,8 +102,8 @@
 				<div class="row">
 		
 					<div class="col-md-12 col-sm-6 col-xs-12">
-						<div class="box box-solid bg-yellow-gradient">
-							<div class="box-header">
+						<div class="box box-solid">
+							<div class="box-header bg-blue">
 								<i class="fa fa-trophy"></i>
 								<h3 class="box-title">Karma Reimagined</h3>
 							</div>
@@ -118,8 +118,8 @@
 					</div>
 		
 					<div class="col-md-12 col-sm-6 col-xs-12">
-						<div class="box box-solid bg-aqua-gradient">
-							<div class="box-header">
+						<div class="box box-solid">
+							<div class="box-header bg-purple">
 								<i class="fa fa-lock"></i>
 								<h3 class="box-title">Privacy</h3>
 							</div>
@@ -133,8 +133,8 @@
 					</div>
 		
 					<div class="col-md-12 col-sm-6 col-xs-12">
-						<div class="box box-solid bg-red-gradient">
-							<div class="box-header">
+						<div class="box box-solid">
+							<div class="box-header bg-light-blue">
 								<i class="fa fa-heart"></i>
 								<h3 class="box-title">Born in Boston</h3>
 							</div>
@@ -152,15 +152,105 @@
 		</div>
 		
 		
-		<div class="about-author box box-solid bg-olive">
-			<div class="box-header">
+		<div class="about-author box box-solid">
+			<div class="box-header bg-olive">
 				<i class="fa fa-user"></i>
-				<h3 class="box-title">About the Author</h3>
+				<h3 class="box-title">About the Team</h3>
 			</div>
 			<div class="box-body">
-				Grady Ward is a student at Brandeis University who is excited about the role of technology in the future of education.
-				If he is not running, programming, teaching, eating, drinking or sleeping, please get him to the nearest doctor.
-				His passions include Lego Star Wars, Spotify, and Wikipedia articles about physics.
+			<p> 
+				Originally a lone project of Brandeis student Grady Ward, CalcU was able to expand thanks to the SPARK
+				Program, which offers funding for new promising ideas, such as CalcU. After receiving a SPARK grant, the CalcU
+				project was officially underway, and Grady enlisted the aid of fellow Brandeis peers Roger LaCroix, Danny Smyda
+				, Sofiya Semenova, and Russell Santos.
+			</p>	
+			</div>
+		</div>
+		<div class="row about-tiles">	
+			<div class="col-md-6 col-sm-6 col-xs-12">	
+				<div class="box box-solid bg-blue">
+					<div class="box-header centered">
+						<h3 class="box-title no-float">Grady Ward</h3>
+					</div>
+					<div class="box-body centered">
+						<img class="max-pic-height" src="_static/img/the-team/8616365.jpeg">
+						<h4>
+							Senior Programmer
+						</h4>
+						<p>
+							Grady is the founder of CalcU. He attends Brandeis University and runs track.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<div class="box box-solid bg-blue">
+					<div class="box-header centered">
+						<h3 class="box-title no-float">Sofiya Semenova</h3>
+					</div>
+					<div class="box-body centered">
+						<img class="max-pic-height" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKzAAAAJDUwNjI4NmRiLTY1MTYtNGRmMi04MjgxLTllNjUyY2Y4OTlmYw.jpg">
+						<h4>
+							Senior Programmer
+						</h4>
+						<p>
+							Sofiya is a senior programmer for CalcU. She attends Brandeis University.
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="box box-solid bg-olive">
+					<div class="box-header centered">
+						<h3 class="box-title no-float">Russ Santos</h3>
+					</div>
+					<div class="box-body centered">
+						<img class="max-pic-height" src="_static/img/the-team/290994_506347022714917_2103254727_o.jpg">
+						<h4>
+							Junior Programmer
+						</h4>
+						<p>
+							Russ is a junior programer for CalcU. He attends Brandeis University and runs track. 
+						</p>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="box box-solid bg-olive">
+					<div class="box-header centered">
+						<h3 class="box-title no-float">Roger LaCroix</h3>
+					</div>
+					<div class="box-body centered">
+						<img class="max-pic-height" src="_static/img/the-team/dashinglyhandsome.png">
+						<h4>
+							Junior Programmer
+						</h4>
+						<p>
+							Roger is a junior programmer for CalcU. He attends Brandeis University and runs track.
+						</p>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="box box-solid bg-olive">
+					<div class="box-header centered">
+						<h3 class="box-title no-float">Danny Smyda</h3>
+					</div>
+					<div class="box-body centered">
+						<img class="max-pic-height" src="_static/img/the-team/480879_343401309030865_2026353180_n.jpg">
+						<h4>
+							Junior Programmer
+						</h4>
+						<p>
+							Danny is a junior programmer for CalcU. He attends Brandeis University and swims.
+						</p>
+					</div>
+				</div>
+				
 			</div>
 		</div>
 	</jsp:attribute>
