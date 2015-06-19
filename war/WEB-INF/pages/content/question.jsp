@@ -48,12 +48,12 @@
 								<input type="submit" class="btn btn-info" value="Skip" />
 							</form>
 						</div>
+						<div class="centered question-streak">
+							<h2>Streak</h2>
+							<h2>${answerModeStreak}</h2>
+						</div>
 						<div class="box-body">
 							<p>
-								<span style="margin: 5px 20px 0 10px; float: left; display: inline-block;" class="knob-wrapper">
-									<input data-readOnly=true type="text" class="knob pull-left" value="${answerModeStreak}" data-bgColor="#0073b7" data-fgColor="#00c0ef" data-thickness="0.5" data-min="0" data-max="10" data-width="80" data-height="80" />
-									<span class="knob-label" style="display:block;width:100%;color:inherit;font-size:18px;font-weight:bold;">Streak</span>
-								</span>
 								You are currently in Question Answering Turbo Mode. That name isn't real, but here is the deal!
 								We will present you with questions we think that you would be the perfect person to solve.
 								If you can solve the problem, please do! You will get a tidy little karma bonus for answering the problems we select for you. After you answer the question, hit the 'Done' button. Pressing 'Done' if you have not answered the question will reset your Answer Streak.

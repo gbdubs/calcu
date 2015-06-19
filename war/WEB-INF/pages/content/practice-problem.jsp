@@ -48,12 +48,12 @@
 								<input type="submit" class="btn btn-success" value="Skip" />
 							</form>
 						</div>
+						<div class="centered practice-problem-streak">
+							<h2>Streak</h2>
+							<h2>${answerModeStreak}</h2>
+						</div>
 						<div class="box-body">
 							<p>
-							<span style="margin: 5px 20px 0 10px; float: left; display: inline-block;" class="knob-wrapper">
-								<input data-readOnly=true type="text" class="knob pull-left" value="${answerModeStreak}" data-bgColor="#3d9970" data-fgColor="#01ff70" data-thickness="0.5" data-min="0" data-max="10" data-width="80" data-height="80" />
-								<span class="knob-label" style="display:block;width:100%;color:inherit;font-size:18px;font-weight:bold;">Streak</span>
-							</span>
 							You are currently in Problem Solving Turbo Mode. That name isn't real, but here is the deal!
 							We will present you with problems we think that you would be the perfect person to solve.
 							For most of them, the author's solution hasn't been satisfactory to most viewers.

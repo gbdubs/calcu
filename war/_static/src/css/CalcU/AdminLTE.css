@@ -4538,3 +4538,19 @@ i.hide-recommendation-button.hovered,
 	margin-top:50px;
 }
 
+.align-right{
+	text-align:right;
+}
+
+.practice-problem-streak{
+	display: inline-block;
+	float: right;
+	padding: 5px 20px;
+}
+
+.question-streak{
+	display:inline-block;
+	float:right;
+	padding: 5px 20px;
+	color: #00c0ef;
+}
