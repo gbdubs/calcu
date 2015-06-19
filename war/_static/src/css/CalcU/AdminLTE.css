@@ -4498,6 +4498,44 @@ a.btn.btn-warning.live-preview-return-button{
 	display: inline-block;
 }
 
+.max-width-at-1000{
+	max-width: 1000px;
+	display: inline-block;
+}
+
+.margin-bottom-25{
+	margin-bottom:25px;
+}
+
+.relative-position{
+	position: relative;
+}
+
+.top-negative-45{
+	top:-45px;
+}
+
+.margin-top-50{
+	margin-top:50px;
+}
+
+.align-right{
+	text-align:right;
+}
+
+.practice-problem-streak{
+	display: inline-block;
+	float: right;
+	padding: 5px 20px;
+}
+
+.question-streak{
+	display:inline-block;
+	float:right;
+	padding: 5px 20px;
+	color: #00c0ef;
+}
+
 .hexagon-icon-button{
 	width: 40px;
 	height: 23px;
