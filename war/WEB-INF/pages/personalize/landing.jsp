@@ -42,16 +42,18 @@
 						let us know what you think of it!
 					</p>	
 					<br>
-					<c:if test="${!loggedIn}">
-						<span class="btn btn-block btn-warning login-button">
-							You must log in to access this feature
-						</span>
-					</c:if>
-					<c:if test="${loggedIn}">
-						<a href="/personalize/1" class="btn btn-block btn-success">
-							Let's Get Started!
-						</a>
-					</c:if>
+					<div class="centered">
+						<c:if test="${!loggedIn}">
+							<span class="btn btn-block btn-warning login-button display-inline">
+								You must log in to access this feature
+							</span>
+						</c:if>
+						<c:if test="${loggedIn}">
+							<a href="/personalize/1" class="btn btn-block btn-success display-inline">
+								Let's Get Started!
+							</a>
+						</c:if>
+					</div>
 				</div>	
 			</div>
 		</div>
