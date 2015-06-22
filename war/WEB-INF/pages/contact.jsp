@@ -62,7 +62,7 @@
 					<div class="box-header">
 						<h2 class="secondary-banner">Contact Us</h2>
 					</div>
-					<div class="box-body align-left">
+					<div class="box-body align-left margin-bottom-50">
 						If you would prefer a less formal way of contact, feel free to contact 
 						<a href="mailto:grady.b.ward@gmail.com">Grady</a>, 
 						<a href="rsantos@cs.brandeis.edu">Russ</a>, 
