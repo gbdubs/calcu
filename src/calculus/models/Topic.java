@@ -88,6 +88,18 @@ public class Topic {
 	}
 	
 	public void save(){
+		Entity e = preSave();
+		datastore.put(e);
+		postSave();
+	}
+	
+	public void saveAsync() {
+		Entity e = preSave();
+		asyncDatastore.put(e);
+		postSave();
+	}
+
+	private Entity preSave(){
 		Entity e = new Entity(KeyFactory.createKey("Topic", uuid));
 		e.setUnindexedProperty("uuid", uuid);
 		e.setUnindexedProperty("subTopics", subTopics);
@@ -97,9 +109,10 @@ public class Topic {
 		e.setUnindexedProperty("longDescription", new Text(this.longDescription));
 		e.setUnindexedProperty("tags", tags);
 		e.setUnindexedProperty("difficulty", new Long(difficulty));
-		
-		asyncDatastore.put(e);
-		
+		return e;
+	}
+
+	private void postSave(){
 		if (changedTitle){
 			updateTitleMappingEntity(title);
 		}
@@ -108,7 +121,7 @@ public class Topic {
 			updateTagMappings();
 		}
 	}
-	
+
 	private void updateTagMappings() {
 		Set<String> originals = new HashSet<String>();
 		for (String s : originalTags.split(",")){
@@ -232,10 +245,12 @@ public class Topic {
 		} else {
 			this.tags = tag;
 		}
+		this.changedTags = true;
 	}
 	
 	public void setTags(String s){
 		this.tags = s;
+		this.changedTags = true;
 	}
 
 	public int getDifficulty(){

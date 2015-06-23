@@ -1,5 +1,6 @@
 package calculus.models;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -17,6 +18,7 @@ public class Achievement {
 	private String secondaryColor;
 	
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public Achievement(String uuid){
 		Entity entity = null;
@@ -83,5 +85,20 @@ public class Achievement {
 			}
 		}
 		return false;
+	}
+
+	public void saveAsync() {
+		Entity e = new Entity(KeyFactory.createKey("Achievement", uuid));
+		
+		e.setProperty("uuid", uuid);
+		e.setProperty("icon", icon);
+		e.setProperty("color", color);
+		e.setProperty("secondaryColor", secondaryColor);
+		e.setProperty("description", description);
+		e.setProperty("qualification", qualification);
+		e.setProperty("name", name);
+		
+		asyncDatastore.put(e);
+		
 	}
 }

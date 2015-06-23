@@ -53,6 +53,23 @@ public class TagAPI {
 		datastore.put(entity);
 	}
 
+	public static void removeContentFromTag(String uuid, String tag) {
+		String cleanedTag = tag.toLowerCase().trim();
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
+		Entity entity = new Entity(key);
+		List<String> uuids = new ArrayList<String>();
+		try {
+			entity = datastore.get(key);
+			uuids = (List<String>) entity.getProperty("matchingContent");
+		} catch (EntityNotFoundException e) {
+			return;
+		}
+		uuids.remove(uuid);
+		entity.setProperty("count", uuids.size());
+		entity.setUnindexedProperty("matchingContent", uuids);
+		datastore.put(entity);
+	}
+
 	public static void addNewTopicToTag(String topicUuid, String tag){
 		String cleanedTag = tag.toLowerCase().trim();
 		Key key = KeyFactory.createKey("Tag", cleanedTag);

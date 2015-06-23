@@ -3,14 +3,11 @@ package calculus.upload;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import calculus.models.Achievement;
 
 import com.google.appengine.api.blobstore.BlobKey;
 import com.google.appengine.api.blobstore.BlobstoreInputStream;
@@ -33,7 +30,9 @@ public class UploadWorker extends HttpServlet {
 		BlobstoreInputStream bis = new BlobstoreInputStream(blobKey);
 		BufferedReader br = new BufferedReader(new InputStreamReader(bis));
 
-		gson.fromJson(br, (new ArrayList<Achievement>()).class);
+		DataUploadPackage dataPackage = gson.fromJson(br, DataUploadPackage.class);
+		
+		dataPackage.asyncSave();
 	}
 	
 }

@@ -114,7 +114,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("viewable", viewable);
 		entity.setUnindexedProperty("url", "/practice-problem/" + uuid);
 		entity.setUnindexedProperty("tags", tags);
-		entity.setProperty("karma", 1);
+		entity.setProperty("karma", new Long(1));
 		
 		if (submitted && viewable){
 			String[] tagList = tags.split(",");
@@ -244,7 +244,7 @@ public class PracticeProblemAPI {
 		entity.setProperty("viewable", viewable);
 		entity.setUnindexedProperty("url", "/practice-problem/" + uuid);
 		entity.setUnindexedProperty("tags", tags);
-		entity.setProperty("karma", 1);
+		entity.setProperty("karma", new Long(1));
 		entity.setUnindexedProperty("source", source);
 		
 		String[] tagList = tags.split(",");

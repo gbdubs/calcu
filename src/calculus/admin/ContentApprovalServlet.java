@@ -11,10 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.PotentialContentAPI;
 import calculus.api.UserContextAPI;
-import calculus.models.PotentialContent;
 
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
+
+import deprecated.PotentialContent;
 
 @SuppressWarnings("serial")
 public class ContentApprovalServlet extends HttpServlet {

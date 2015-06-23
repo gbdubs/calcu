@@ -5,7 +5,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.models.PotentialContent;
 import calculus.utilities.Cleaner;
 
 import com.google.appengine.api.users.UserServiceFactory;
@@ -13,6 +12,8 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+
+import deprecated.PotentialContent;
 
 @SuppressWarnings("serial")
 public class UploadPotentialContentServlet extends HttpServlet {

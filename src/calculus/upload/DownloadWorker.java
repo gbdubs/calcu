@@ -67,7 +67,7 @@ public class DownloadWorker extends HttpServlet {
 	}
 	
 	private static void printAllContent(PrintWriter pw){
-		pw.println("\"Content\": [");
+		pw.println("\"content\": [");
 		
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
@@ -83,7 +83,7 @@ public class DownloadWorker extends HttpServlet {
 	}
 	
 	private static void printAllAchievements(PrintWriter pw){
-		pw.println("\"Achievements\": [");
+		pw.println("\"achievements\": [");
 		
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
@@ -98,7 +98,7 @@ public class DownloadWorker extends HttpServlet {
 	}
 	
 	private static void printAllTopics(PrintWriter pw){
-		pw.println("\"Topics\": [");
+		pw.println("\"topics\": [");
 		
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		

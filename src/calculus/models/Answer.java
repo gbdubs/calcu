@@ -24,7 +24,7 @@ public class Answer extends Content {
 	}
 	
 	public boolean getApproved(){
-		return (boolean) this.getEntity().getProperty("approved");
+		return (boolean) this.entity.getProperty("approved");
 	}
 	
 	public String getIcon(){
@@ -67,8 +67,8 @@ public class Answer extends Content {
 
 	@Override
 	public void setTypeSpecificEntityProperties() {
-		this.entity.setProperty("approved", this.approved);
-		this.entity.setProperty("parentUuid", this.parentUuid);
+		this.entity.setUnindexedProperty("approved", this.approved);
+		this.entity.setUnindexedProperty("parentUuid", this.parentUuid);
 	}
 	
 }

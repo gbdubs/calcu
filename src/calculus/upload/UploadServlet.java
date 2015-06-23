@@ -32,7 +32,7 @@ public class UploadServlet extends HttpServlet{
 		if (us.isUserLoggedIn() && us.isUserAdmin()){
 			
 			BlobstoreService bs = BlobstoreServiceFactory.getBlobstoreService();
-			UploadOptions uploadOptions = UploadOptions.Builder.withMaxUploadSizeBytes(5 * 1024L * 1024L);
+			UploadOptions uploadOptions = UploadOptions.Builder.withMaxUploadSizeBytes(20 * 1024L * 1024L);
 			String uploadUrl = bs.createUploadUrl("/admin/upload", uploadOptions);
 			
 			req.setAttribute("blobstoreUploadUrl", uploadUrl);
@@ -47,7 +47,9 @@ public class UploadServlet extends HttpServlet{
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		UserService us = UserServiceFactory.getUserService();
+		System.out.println("Handler Invoked.");
 		if (us.isUserLoggedIn() && us.isUserAdmin()){
+			System.out.println("Handler Initiated");
 			BlobstoreService bs = BlobstoreServiceFactory.getBlobstoreService();
 			Map<String, List<BlobKey>> blobFields = bs.getUploads(req);
 			List<BlobKey> blobKeys = blobFields.get("stateUpload");
@@ -56,13 +58,15 @@ public class UploadServlet extends HttpServlet{
 			for (BlobKey blobKey : blobKeys){
 				newKey = blobKey;
 			}
-			if (newKey == null) return;
-			
-			if (SystemProperty.environment.value() == SystemProperty.Environment.Value.Production){
-				Queue queue = QueueFactory.getDefaultQueue();
-				queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("blobKey", newKey.getKeyString()));
-				resp.sendRedirect("/home");
+			if (newKey == null){
+				resp.getWriter().println("There was no Blob Key Specified.");
+				return;
 			}
+			
+			Queue queue = QueueFactory.getDefaultQueue();
+			queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("blobKey", newKey.getKeyString()));
+			resp.sendRedirect("/home");
+			
 		} else {
 			resp.sendRedirect("/page-not-found");
 		}
