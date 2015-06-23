@@ -315,21 +315,10 @@ public abstract class Content {
 	}
 
 	private void saveTags(){
-		if (!tags.equals(previousTags)){
-			List<String> toRemove = Arrays.asList(previousTags.split(","));
-			List<String> toAdd = Arrays.asList(tags.split(","));
-			Set<String> intersection = new HashSet<String>(toAdd);
-			intersection.retainAll(toRemove);
-			toAdd.removeAll(intersection);
-			toRemove.removeAll(intersection);
-		
-			for (String tag : toRemove){
-				TagAPI.removeContentFromTag(uuid, tag);
-			}
+		List<String> toAdd = Arrays.asList(tags.split(","));
 			
-			for (String tag : toAdd){
-				TagAPI.addNewContentToTag(uuid, tag);
-			}
+		for (String tag : toAdd){
+			TagAPI.addNewContentToTag(uuid, tag);
 		}
 	}
 	

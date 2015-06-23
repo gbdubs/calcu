@@ -331,7 +331,7 @@ public class ContentAPI {
 		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
 		// Content Model.  We only want that SINGLE class to determine which properties are indexed.
 		entity.setProperty("uuid", uuid);
-		entity.setProperty("contentType", "practiceProblem");
+		entity.setProperty("contentType", contentType);
 		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
 		entity.setProperty("createdAt", System.currentTimeMillis());
 		entity.setProperty("anonymous", anonymous);
