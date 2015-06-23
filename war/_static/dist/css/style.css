@@ -4634,6 +4634,7 @@ i.interested-button.hovered,
 .max-width-at-1000{
 	max-width: 1000px;
 	display: inline-block;
+	width: 100%;
 }
 
 .margin-top-25{
@@ -4666,7 +4667,12 @@ h2.mini-font{
 
 .max-pic-height{
 	max-height: 200px;
-}.achievement-badge{
+}
+
+.display-inline{
+	display: inline;
+}
+.achievement-badge{
     text-align: center;
     width: 100%;
     height: 205px;

@@ -4632,6 +4632,7 @@ i.interested-button.hovered,
 .max-width-at-1000{
 	max-width: 1000px;
 	display: inline-block;
+	width: 100%;
 }
 
 .margin-top-25{
@@ -4664,4 +4665,8 @@ h2.mini-font{
 
 .max-pic-height{
 	max-height: 200px;
+}
+
+.display-inline{
+	display: inline;
 }
