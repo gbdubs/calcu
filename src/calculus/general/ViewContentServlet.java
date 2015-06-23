@@ -9,9 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
-import calculus.api.PracticeProblemAPI;
-import calculus.api.QuestionAPI;
-import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
@@ -70,12 +67,12 @@ public class ViewContentServlet extends HttpServlet {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (pp.getSubmitted() && pp.getViewable()){
-				PracticeProblemAPI.addPracticeProblemContext(req, pp);
+				req.setAttribute("practiceProblem", pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-				PracticeProblemAPI.addPracticeProblemContext(req, pp);
+				req.setAttribute("practiceProblem", pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 			} else {	
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
@@ -97,12 +94,12 @@ public class ViewContentServlet extends HttpServlet {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (q.getSubmitted() && q.getViewable()){
-				QuestionAPI.addQuestionContext(req, q);
+				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-				QuestionAPI.addQuestionContext(req, q);
+				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else {
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
@@ -124,12 +121,12 @@ public class ViewContentServlet extends HttpServlet {
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (tc.getSubmitted() && tc.getViewable()){
-				TextContentAPI.addTextContentContext(req, tc);
+				req.setAttribute("textContent", tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-				TextContentAPI.addTextContentContext(req, tc);
+				req.setAttribute("textContent", tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
 			} else {
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");

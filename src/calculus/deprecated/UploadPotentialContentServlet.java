@@ -1,4 +1,4 @@
-package calculus.admin;
+package calculus.deprecated;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

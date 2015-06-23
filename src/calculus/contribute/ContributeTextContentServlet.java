@@ -66,7 +66,7 @@ public class ContributeTextContentServlet extends HttpServlet {
 						resp.sendRedirect("/practice-problem/"+uuid);
 					} else {
 						// Adds the current TextContent to the context, and prepares it for editing.
-						TextContentAPI.addTextContentContext(req, tc);
+						req.setAttribute("textContent", tc);
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/text-content/edit/" + uuid);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/text-content.jsp");
@@ -107,7 +107,7 @@ public class ContributeTextContentServlet extends HttpServlet {
 		
 		
 		// Saves the new/updated TextContent, and now we have to decide what to next show the user.
-		uuid = TextContentAPI.createOrUpdateTextContentFromRequest(req);
+		uuid = ContentAPI.createOrUpdateContentFromRequest(req, "textContent");
 		
 		String saveButtonInstruction = req.getParameter("saveButton");
 		

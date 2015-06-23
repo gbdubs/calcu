@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
-import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
@@ -64,7 +63,7 @@ public class ContributeQuestionServlet extends HttpServlet {
 						resp.sendRedirect("/question/"+uuid);
 					} else {
 						// Adds the current question to the context, and prepares it for editing.
-						QuestionAPI.addQuestionContext(req, q);
+						req.setAttribute("questoin", q);
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
@@ -106,7 +105,7 @@ public class ContributeQuestionServlet extends HttpServlet {
 		// If we get here, we have the permissions to proceed.
 		
 		// Saves the new/updated question, and now we have to decide what to next show the user.
-		uuid = QuestionAPI.createOrUpdateQuestionFromRequest(req);
+		uuid = ContentAPI.createOrUpdateContentFromRequest(req, "question");
 		
 		String saveButtonInstruction = req.getParameter("saveButton");
 		

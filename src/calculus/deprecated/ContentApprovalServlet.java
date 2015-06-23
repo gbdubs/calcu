@@ -1,4 +1,4 @@
-package calculus.admin;
+package calculus.deprecated;
 
 import java.io.IOException;
 import java.util.List;

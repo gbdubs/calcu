@@ -37,8 +37,14 @@ public class ContributeAnswerServlet extends HttpServlet {
 		}
 		
 		// Creates and stores a new answer from the request
-		Answer answer = AnswersAPI.createAnswerFromRequest(req);
-		String uuid = answer.getUuid();
+		String uuid = ContentAPI.createOrUpdateContentFromRequest(req, "answer");
+		Answer answer;
+		try {
+			answer = new Answer(uuid);
+		} catch (EntityNotFoundException e) {
+			// Return, there was error in the code that saves a piece of content.
+			return;
+		}
 		
 		// Save that the user is interested in this kind of content
 		String userId = user.getUserId();

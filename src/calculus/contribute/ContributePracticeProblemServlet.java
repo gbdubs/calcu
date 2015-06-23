@@ -65,7 +65,7 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 						// Otherwise, display the problem for editing
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/edit/" + uuid);					
-						PracticeProblemAPI.addPracticeProblemContext(req, pp);
+						req.setAttribute("practiceProblem", pp);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
 						jsp.forward(req, resp);
 					}
@@ -102,7 +102,7 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		// If we get here, we have the permissions to proceed.
 		
 		// Save the practice problem that has been created or modified
-		uuid = PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
+		uuid = ContentAPI.createOrUpdateContentFromRequest(req, "practiceProblem");
 		
 		// This parameter describes which submit button was used, and tells us what mode the user wanted to use.
 		String saveButtonInstruction = req.getParameter("saveButton");

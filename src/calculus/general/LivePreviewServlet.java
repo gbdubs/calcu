@@ -9,9 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
-import calculus.api.PracticeProblemAPI;
-import calculus.api.QuestionAPI;
-import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
@@ -68,7 +65,7 @@ public class LivePreviewServlet extends HttpServlet{
 			if (pp.getCreatorUserId().equals(userId) && !pp.getSubmitted()){
 				resp.setContentType("text/html");
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-				PracticeProblemAPI.addPracticeProblemContext(req, pp);	
+				req.setAttribute("practiceProblem", pp);
 				req.setAttribute("livePreview", true);
 				jsp.forward(req, resp);
 				return;
@@ -83,7 +80,7 @@ public class LivePreviewServlet extends HttpServlet{
 			}
 			if (q.getCreatorUserId().equals(userId) && !q.getSubmitted()){
 				resp.setContentType("text/html");
-				QuestionAPI.addQuestionContext(req, q);
+				req.setAttribute("question", q);
 				req.setAttribute("livePreview", true);
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");	
 				jsp.forward(req, resp);
@@ -99,7 +96,6 @@ public class LivePreviewServlet extends HttpServlet{
 			}
 			if (tc.getCreatorUserId().equals(userId) && !tc.getSubmitted()){
 				resp.setContentType("text/html");
-				TextContentAPI.addTextContentContext(req, tc);
 				req.setAttribute("livePreview", true);
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");	
 				jsp.forward(req, resp);
