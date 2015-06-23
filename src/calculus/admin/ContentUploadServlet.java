@@ -14,7 +14,6 @@ import calculus.models.Content;
 import com.google.appengine.api.users.UserServiceFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 @SuppressWarnings("serial")
@@ -34,17 +33,22 @@ public class ContentUploadServlet extends HttpServlet {
 		if (convertable){
 			array = result.getAsJsonArray();
 		} else {
-			resp.getWriter().print("Failed to Add Content. Checkpoint 1.");
+			resp.getWriter().print("Failed to Add Content.");
 		}
 		
 		int i = 0;
 		List<String> uuids = new ArrayList<String>();
 		for(i = 0; i < array.size(); i++){
-			JsonObject content = array.get(i).getAsJsonObject();
-			Content c = ContentAPI.constructContentFromJson(content);
-			uuids.add(c.getUuid());
+			JsonElement content = array.get(i);
+			if (content == null || content.isJsonNull()){
+				System.err.println("Encountered an invalid attempt to create a piece of content.");
+			} else {
+				Content c = ContentAPI.constructContentFromJson(content.getAsJsonObject());
+				uuids.add(c.getUuid());
+				c.saveAsync();
+			}
 		}
 			
-		resp.getWriter().print("Successfully added <b>" + i + "</b> pieces of content.");
+		resp.getWriter().print("Successfully added <b>" + i + "</b> pieces of content:\n " + uuids.toString());
 	}
 }

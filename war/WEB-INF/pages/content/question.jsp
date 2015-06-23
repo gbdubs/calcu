@@ -305,8 +305,8 @@
 												<label for="body">Answer Explanation and Response</label>
 												<textarea id="body-editor" name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 												<div class="submit-buttons-pull-right">
-													<input class="btn btn-info submit" name="anonymousSubmit" type="submit" value="Submit Anonymously">
-													<input class="btn btn-primary submit" name="regularSubmit" type="submit" value="Submit">
+													<input class="btn btn-info submit" name="saveButton" type="submit" value="Submit Anonymously">
+													<input class="btn btn-primary submit" name="saveButton" type="submit" value="Submit">
 												</div>
 											</div>
 										</form>

@@ -130,6 +130,16 @@ public class ContentAPI {
 		return content;
 	}
 
+	public static void addAnswerToContent(String contentUuid, String answerUuid){
+		Content c;
+		try {
+			c = ContentAPI.instantiateContent(contentUuid);
+			c.addAnswer(answerUuid);
+		} catch (EntityNotFoundException e) {
+			// We cannot update a non-existent problem.
+		}
+	}
+
 	public static String randomColor() {
 		double rand = Math.random();
 		if (rand < .2){
@@ -232,13 +242,13 @@ public class ContentAPI {
 		String source = extractStringFromJsonObjectWithDefault(content.get("source"), "[No-Source-from-Json]");
 		List<String> allAnswers = extractListOfStringsFromJsonObjectWithDefault(content.get("allAnswers"), new ArrayList<String>());
 		
-		Entity entity = new Entity(KeyFactory.createKey(contentType, uuid));
+		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		entity.setProperty("contentType", contentType);
 		entity.setProperty("uuid", uuid);
 		entity.setProperty("creatorUserId", creatorUserId);
 		entity.setProperty("createdAt", createdAt);
 		entity.setProperty("title", title);
-		entity.setProperty("body", body);
+		entity.setProperty("body", new Text(body));
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
 		entity.setProperty("viewable", viewable);
@@ -254,63 +264,26 @@ public class ContentAPI {
 		if (contentType.equals("answer")){
 			String parentUuid = extractStringFromJsonObjectWithDefault(content.get("parentUuid"), null);
 			entity.setProperty("parentUuid", parentUuid);
-			
 			boolean approved = extractBooleanFromJsonObjectWithDefault(content.get("approved"), false);
 			entity.setProperty("approved", approved);
-			
 			result = new Answer(entity);
+			
 		} else if (contentType.equals("practiceProblem")){
 			String authorSolution =  extractStringFromJsonObjectWithDefault(content.get("authorSolution"), "[No Author Solution]");
-			entity.setProperty("authorSolution", authorSolution);
+			Text wrappedSolution = new Text(authorSolution);
+			entity.setProperty("authorSolution", wrappedSolution);
 			result = new PracticeProblem(entity);
+			
 		} else if (contentType.equals("question")){
 			result = new Question(entity);
-		} else if (contentType.equals("answer")){
-			result = new Answer(entity);
+			
+		} else if (contentType.equals("textContent")){
+			result = new TextContent(entity);
 		}
 		
 		return result;
 	}
 
-	public static List<String> extractListOfStringsFromJsonObjectWithDefault(JsonElement jsonElement, List<String> defaultList){
-		if (jsonElement.isJsonArray()){
-			List<String> allAnswers = new ArrayList<String>();
-			JsonArray jsonArray = jsonElement.getAsJsonArray();
-			for (JsonElement element: jsonArray){
-				allAnswers.add(element.getAsString());
-			}
-		}
-		return defaultList;
-	}
-
-	public static boolean extractBooleanFromJsonObjectWithDefault(JsonElement jsonElement, boolean defaultBool) {
-		if (jsonElement.isJsonNull()){
-			return defaultBool;
-		}
-		return jsonElement.getAsBoolean();
-	}
-
-	public static int extractIntFromJsonObjectWithDefault(JsonElement jsonElement, int defaultInt) {
-		if (jsonElement.isJsonNull()){
-			return defaultInt;
-		}
-		return jsonElement.getAsInt();
-	}
-
-	public static long extractLongFromJsonObjectWithDefault(JsonElement jsonElement, long defaultLong) {
-		if (jsonElement.isJsonNull()){
-			return defaultLong;
-		}
-		return jsonElement.getAsLong();
-	}
-
-	public static String extractStringFromJsonObjectWithDefault(JsonElement je, String defaultString){
-		if (je.isJsonNull()){
-			return defaultString;
-		}
-		return je.getAsString();
-	}
-	
 	public static String createOrUpdateContentFromRequest(HttpServletRequest req, String contentType){
 		
 		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
@@ -320,7 +293,7 @@ public class ContentAPI {
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
 		
-		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously")) || (req.getParameter("anonymousSubmit") != null);
+		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously"));
 		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
 		boolean viewable = submitted;
 		
@@ -332,8 +305,9 @@ public class ContentAPI {
 		body = Cleaner.cleanHtml(body);
 		if (body == null || body.equals("")) body = "[No "+contentType+" Body]";
 		Text wrappedBody = new Text(body);
-
+	
 		String tags = req.getParameter("tagsInput");
+		if (tags == null) tags = "";
 		tags = Cleaner.cleanHtml(tags);
 		
 		String url = "/content/" + uuid;
@@ -373,18 +347,47 @@ public class ContentAPI {
 		
 		Content c = ContentAPI.instantiateContent(entity);
 		
-		c.save();
+		c.saveAsync();
 		
 		return uuid;
 	}
-	
-	public static void addAnswerToContent(String contentUuid, String answerUuid){
-		Content c;
-		try {
-			c = ContentAPI.instantiateContent(contentUuid);
-			c.addAnswer(answerUuid);
-		} catch (EntityNotFoundException e) {
-			// We cannot update a non-existent problem.
+
+	private static List<String> extractListOfStringsFromJsonObjectWithDefault(JsonElement jsonElement, List<String> defaultList){
+		if (jsonElement != null && !jsonElement.isJsonNull() && jsonElement.isJsonArray()){
+			List<String> allAnswers = new ArrayList<String>();
+			JsonArray jsonArray = jsonElement.getAsJsonArray();
+			for (JsonElement element: jsonArray){
+				allAnswers.add(element.getAsString());
+			}
 		}
+		return defaultList;
+	}
+
+	private static boolean extractBooleanFromJsonObjectWithDefault(JsonElement jsonElement, boolean defaultBool) {
+		if (jsonElement == null || jsonElement.isJsonNull()){
+			return defaultBool;
+		}
+		return jsonElement.getAsBoolean();
+	}
+
+	private static int extractIntFromJsonObjectWithDefault(JsonElement jsonElement, int defaultInt) {
+		if (jsonElement == null || jsonElement.isJsonNull()){
+			return defaultInt;
+		}
+		return jsonElement.getAsInt();
+	}
+
+	private static long extractLongFromJsonObjectWithDefault(JsonElement jsonElement, long defaultLong) {
+		if (jsonElement == null || jsonElement.isJsonNull()){
+			return defaultLong;
+		}
+		return jsonElement.getAsLong();
+	}
+
+	private static String extractStringFromJsonObjectWithDefault(JsonElement je, String defaultString){
+		if (je == null || je.isJsonNull()){
+			return defaultString;
+		}
+		return je.getAsString();
 	}
 }

@@ -343,7 +343,7 @@ public abstract class Content {
 		entity.setProperty("viewable", viewable);
 		entity.setProperty("karma", new Long(karma));
 		entity.setUnindexedProperty("title", title);
-		entity.setUnindexedProperty("body", body);
+		entity.setUnindexedProperty("body", new Text(body));
 		entity.setUnindexedProperty("allAnswers", allAnswers);
 		entity.setUnindexedProperty("tags", tags);
 		entity.setUnindexedProperty("url", url);
