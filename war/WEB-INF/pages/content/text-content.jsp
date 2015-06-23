@@ -270,8 +270,13 @@
 												<label for="body">Answer Explanation and Response</label>
 												<textarea id="body-editor" name="body" class="textarea wysihtml5-beam-me-up" placeholder="Describe how you would solve the problem, and the final result of any calculations"></textarea>
 												<div class="submit-buttons-pull-right">
-													<input class="btn btn-info submit" name="saveButton" type="submit" value="Submit Anonymously">
-													<input class="btn btn-primary submit" name="saveButton" type="submit" value="Submit">
+													<c:if test="${user != null}">
+														<input class="btn btn-info submit" name="saveButton" type="submit" value="Submit Anonymously">
+														<input class="btn btn-primary submit" name="saveButton" type="submit" value="Submit">
+													</c:if>
+													<c:if test="${user == null}">
+														<div class="btn login-button btn-warning">Log In To Answer Questions</div>
+													</c:if>
 												</div>
 											</div>
 										</form>

@@ -150,60 +150,7 @@ public class ViewContentServlet extends HttpServlet {
 				jsp.forward(req, resp);
 				return;
 			}
-			resp.setContentType("text/html");
-			RequestDispatcher jsp;
-			Content parent;
-			try {
-				parent = ContentAPI.instantiateContent(answer.getParentUuid());
-			} catch (EntityNotFoundException e) {
-				resp.setContentType("text/html");
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				jsp.forward(req, resp);
-				return;
-			}
-			if (parent.getContentType().equals("textContent")){
-				TextContent tc = (TextContent) parent;
-				if (tc.getSubmitted() && tc.getViewable()){
-					req.setAttribute("textContent", tc);
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
-				} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-					req.setAttribute("textContent", tc);
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
-				} else {
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				}
-			} else if (parent.getContentType().equals("question")){
-				Question q = (Question) parent;
-				if (q.getSubmitted() && q.getViewable()){
-					req.setAttribute("question", q);
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
-				} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-					req.setAttribute("question", q);
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
-				} else {
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				}
-			} else if (parent.getContentType().equals("practiceProblem")){
-				PracticeProblem pp = (PracticeProblem) parent;
-				if (pp.getSubmitted() && pp.getViewable()){
-					req.setAttribute("practiceProblem", pp);
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-				} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-					req.setAttribute("practiceProblem", pp);
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-				} else {	
-					jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-				}
-			} else {
-				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			}
-			jsp.forward(req, resp);
+			resp.sendRedirect(answer.getUrl());
 	    } else {	
 			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
 		}

@@ -31,6 +31,9 @@ public class TagAPI {
 	
 	public static void addNewContentToTag(String contentUuid, String tag){
 		String cleanedTag = tag.toLowerCase().trim();
+		if (!acceptableTag(cleanedTag)){
+			return;
+		}
 		Key key = KeyFactory.createKey("Tag", cleanedTag);
 		Entity entity = new Entity(key);
 		List<String> uuids = new ArrayList<String>();
@@ -38,21 +41,22 @@ public class TagAPI {
 			entity = datastore.get(key);
 			uuids = (List<String>) entity.getProperty("matchingContent");
 		} catch (EntityNotFoundException e) {
-			if (acceptableTag(cleanedTag)){
-				entity.setUnindexedProperty("name", cleanedTag);
-				addNewTagToAllTags(cleanedTag);
-			} else {
-				return;
-			}
+			entity.setUnindexedProperty("name", cleanedTag);
+			addNewTagToAllTags(cleanedTag);
 		}
-		uuids.add(contentUuid);
-		entity.setProperty("count", uuids.size());
-		entity.setUnindexedProperty("matchingContent", uuids);
-		datastore.put(entity);
+		if (!uuids.contains(contentUuid)){
+			uuids.add(contentUuid);
+			entity.setProperty("count", uuids.size());
+			entity.setUnindexedProperty("matchingContent", uuids);
+			asyncDatastore.put(entity);
+		}
 	}
 
 	public static void removeContentFromTag(String uuid, String tag) {
 		String cleanedTag = tag.toLowerCase().trim();
+		if (!acceptableTag(cleanedTag)){
+			return;
+		}
 		Key key = KeyFactory.createKey("Tag", cleanedTag);
 		Entity entity = new Entity(key);
 		List<String> uuids = new ArrayList<String>();
@@ -62,14 +66,19 @@ public class TagAPI {
 		} catch (EntityNotFoundException e) {
 			return;
 		}
-		uuids.remove(uuid);
-		entity.setProperty("count", uuids.size());
-		entity.setUnindexedProperty("matchingContent", uuids);
-		datastore.put(entity);
+		if (uuids.contains(uuid)){
+			uuids.remove(uuid);
+			entity.setProperty("count", uuids.size());
+			entity.setUnindexedProperty("matchingContent", uuids);
+			datastore.put(entity);
+		}
 	}
 
 	public static void addNewTopicToTag(String topicUuid, String tag){
 		String cleanedTag = tag.toLowerCase().trim();
+		if (!acceptableTag(cleanedTag)){
+			return;
+		}
 		Key key = KeyFactory.createKey("Tag", cleanedTag);
 		Entity entity = new Entity(key);
 		List<String> topicUuids = new ArrayList<String>();
@@ -77,12 +86,8 @@ public class TagAPI {
 			entity = datastore.get(key);
 			topicUuids = (List<String>) entity.getProperty("matchingTopics");
 		} catch (EntityNotFoundException e) {
-			if (acceptableTag(cleanedTag)){
-				entity.setUnindexedProperty("name", cleanedTag);
-				addNewTagToAllTags(cleanedTag);
-			} else {
-				return;
-			}
+			entity.setUnindexedProperty("name", cleanedTag);
+			addNewTagToAllTags(cleanedTag);
 		}
 		if (!topicUuids.contains(topicUuid)){
 			topicUuids.add(topicUuid);

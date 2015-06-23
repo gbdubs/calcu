@@ -30,12 +30,13 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
-import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Query.SortDirection;
+import com.google.appengine.api.datastore.Text;
+import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -328,11 +329,17 @@ public class ContentAPI {
 			entity.setProperty("authorSolution", wrappedAuthorSolution);
 		}
 		
+		String creatorId = "";
+		User user = UserServiceFactory.getUserService().getCurrentUser();
+		if (user != null){
+			creatorId = user.getUserId();
+		}
+		
 		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
 		// Content Model.  We only want that SINGLE class to determine which properties are indexed.
 		entity.setProperty("uuid", uuid);
 		entity.setProperty("contentType", contentType);
-		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
+		entity.setProperty("creatorUserId", creatorId);
 		entity.setProperty("createdAt", System.currentTimeMillis());
 		entity.setProperty("anonymous", anonymous);
 		entity.setProperty("submitted", submitted);
