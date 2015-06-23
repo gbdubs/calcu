@@ -4670,3 +4670,10 @@ h2.mini-font{
 .display-inline{
 	display: inline;
 }
+
+.topic-editor-title{
+	font-size:100px;
+}
+.box .topic-editor-textarea{
+	width:100%;
+}
