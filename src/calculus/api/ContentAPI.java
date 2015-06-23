@@ -10,11 +10,15 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
+import javax.servlet.http.HttpServletRequest;
+
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
+import calculus.utilities.Cleaner;
+import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -26,13 +30,13 @@ import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
 import com.google.appengine.api.datastore.Query.Filter;
 import com.google.appengine.api.datastore.Query.FilterOperator;
 import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Query.SortDirection;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.google.appengine.api.users.UserServiceFactory;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -138,24 +142,6 @@ public class ContentAPI {
 			return "primary";
 		} else {
 			return "info";
-		}
-	}
-
-	public static void addAnswerToContent(String parentUuid, String answerUuid) {
-		String contentType = "";
-		try {
-			contentType = getContentType(parentUuid);
-		} catch (EntityNotFoundException e) {
-			// Don't worry if it doesn't exist!
-		}
-		if (contentType.equals("practiceProblem")){
-			PracticeProblemAPI.addAnswerToPracticeProblem(parentUuid, answerUuid);
-		} else if (contentType.equals("question")){
-			QuestionAPI.addAnswerToQuestion(parentUuid, answerUuid);
-		} else if (contentType.equals("textContent")){
-			TextContentAPI.addAnswerToTextContent(parentUuid, answerUuid);
-		} else {
-			System.out.println("You have not done this correctly");
 		}
 	}
 
@@ -323,5 +309,82 @@ public class ContentAPI {
 			return defaultString;
 		}
 		return je.getAsString();
+	}
+	
+	public static String createOrUpdateContentFromRequest(HttpServletRequest req, String contentType){
+		
+		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
+		if (uuid == null){
+			uuid = UUID.randomUUID().toString();
+		}
+		
+		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
+		
+		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously")) || (req.getParameter("anonymousSubmit") != null);
+		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
+		boolean viewable = submitted;
+		
+		String title = (String) req.getParameter("title");
+		title = Cleaner.autoclave(title);
+		if (title == null || title.equals("")) title = "[Un-named "+contentType+"]";
+		
+		String body = (String) req.getParameter("body");
+		body = Cleaner.cleanHtml(body);
+		if (body == null || body.equals("")) body = "[No "+contentType+" Body]";
+		Text wrappedBody = new Text(body);
+
+		String tags = req.getParameter("tagsInput");
+		tags = Cleaner.cleanHtml(tags);
+		
+		String url = "/content/" + uuid;
+		if (contentType.equals("answer")){
+			String parentUuid = req.getParameter("parentUuid");
+			try {
+				url = (ContentAPI.instantiateContent(parentUuid)).getUrl();
+			} catch (EntityNotFoundException e) {
+				throw new RuntimeException("Orphaned Answer attempeted to be created.");
+			}
+			entity.setProperty("parentUuid", parentUuid);
+			entity.setProperty("approved", false);
+		} else if (contentType.equals("practiceProblem")){
+			String authorSolution = (String) req.getParameter("authorSolution");
+			authorSolution = Cleaner.cleanHtml(authorSolution);
+			if (authorSolution == null || authorSolution.equals("")) authorSolution = "[The Author has not provided an answer to this problem]";
+			Text wrappedAuthorSolution = new Text(authorSolution);
+			entity.setProperty("authorSolution", wrappedAuthorSolution);
+		}
+		
+		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
+		// Content Model.  We only want that SINGLE class to determine which properties are indexed.
+		entity.setProperty("uuid", uuid);
+		entity.setProperty("contentType", "practiceProblem");
+		entity.setProperty("creatorUserId", UserServiceFactory.getUserService().getCurrentUser().getUserId());
+		entity.setProperty("createdAt", System.currentTimeMillis());
+		entity.setProperty("anonymous", anonymous);
+		entity.setProperty("submitted", submitted);
+		entity.setProperty("viewable", viewable);
+		entity.setProperty("karma", new Long(1));
+		entity.setProperty("title", title);
+		entity.setProperty("body", wrappedBody);
+		entity.setProperty("allAnswers", new ArrayList<String>());
+		entity.setProperty("tags", tags);
+		entity.setProperty("url", url);
+		entity.setProperty("source", "user");
+		
+		Content c = ContentAPI.instantiateContent(entity);
+		
+		c.save();
+		
+		return uuid;
+	}
+	
+	public static void addAnswerToContent(String contentUuid, String answerUuid){
+		Content c;
+		try {
+			c = ContentAPI.instantiateContent(contentUuid);
+			c.addAnswer(answerUuid);
+		} catch (EntityNotFoundException e) {
+			// We cannot update a non-existent problem.
+		}
 	}
 }
