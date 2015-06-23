@@ -4498,6 +4498,44 @@ a.btn.btn-warning.live-preview-return-button{
 	display: inline-block;
 }
 
+.max-width-at-1000{
+	max-width: 1000px;
+	display: inline-block;
+}
+
+.margin-bottom-25{
+	margin-bottom:25px;
+}
+
+.relative-position{
+	position: relative;
+}
+
+.top-negative-45{
+	top:-45px;
+}
+
+.margin-top-50{
+	margin-top:50px;
+}
+
+.align-right{
+	text-align:right;
+}
+
+.practice-problem-streak{
+	display: inline-block;
+	float: right;
+	padding: 5px 20px;
+}
+
+.question-streak{
+	display:inline-block;
+	float:right;
+	padding: 5px 20px;
+	color: #00c0ef;
+}
+
 .hexagon-icon-button{
 	width: 40px;
 	height: 23px;
@@ -4511,7 +4549,6 @@ a.btn.btn-warning.live-preview-return-button{
     width: 100%;
     text-align: center;
 } 
-
 .hexagon-icon-button:before {
 	content: "";
 	position: absolute;
@@ -4595,11 +4632,13 @@ i.interested-button.hovered,
 .max-width-at-1000{
 	max-width: 1000px;
 	display: inline-block;
+	width: 100%;
 }
 
 .margin-top-25{
 	margin-top: 25px;
 }
+
 h2.secondary-banner{
 	text-align: center;
 	font-size: 70px;
@@ -4609,4 +4648,25 @@ h2.secondary-banner{
 h2.mini-font{
 	font-size: 18px;
 	font-weight: 100;
+}
+.shorten-box{
+	white-space: normal;
+	max-width: 100%;
+}
+
+.margin-sides-10{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.no-float{
+	float:none !important;
+}
+
+.max-pic-height{
+	max-height: 200px;
+}
+
+.display-inline{
+	display: inline;
 }
