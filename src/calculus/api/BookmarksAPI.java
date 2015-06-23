@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import calculus.models.Content;
 import calculus.utilities.MenuItem;
 import calculus.utilities.UrlGenerator;
 

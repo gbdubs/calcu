@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
-import calculus.api.PracticeProblemAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.utilities.UuidTools;

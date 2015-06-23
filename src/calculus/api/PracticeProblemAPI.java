@@ -4,7 +4,6 @@ import java.util.List;
 
 import calculus.models.PracticeProblem;
 
-import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;

@@ -12,7 +12,6 @@ import java.util.concurrent.Future;
 import calculus.utilities.LevenshteinDistance;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
-import com.google.appengine.api.datastore.Cursor;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -23,7 +22,6 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.SortDirection;
-import com.google.appengine.api.datastore.QueryResultList;
 
 public class TagAPI {
 

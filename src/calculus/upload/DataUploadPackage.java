@@ -2,8 +2,6 @@ package calculus.upload;
 
 import java.util.List;
 
-import calculus.api.AchievementsAPI;
-import calculus.api.ContentAPI;
 import calculus.models.Achievement;
 import calculus.models.Content;
 import calculus.models.Topic;
