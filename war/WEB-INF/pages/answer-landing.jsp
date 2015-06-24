@@ -45,10 +45,10 @@
 						</div>
 						<div class="box-body align-left margin-bottom-25">
 							<p>
-							We have all seen that problem in that math book where it isn't quite clear where the author got their answer.
-							We have all been there.  Some times, despite an Author's best efforts, they don't do a great job describing
-							their solution.  Sometimes, they don't provide it in the most accessible way. We have an algorithm that detects
-							frustrated students in need of a clear solution, and we are sending you their way! Thank you!
+								We have all seen that problem in that math book where it isn't quite clear where the author got their answer.
+								We have all been there.  Some times, despite an Author's best efforts, they don't do a great job describing
+								their solution.  Sometimes, they don't provide it in the most accessible way. We have an algorithm that detects
+								frustrated students in need of a clear solution, and we are sending you their way! Thank you!
 							</p>
 							<c:choose>
 								<c:when test="${user != null}">
