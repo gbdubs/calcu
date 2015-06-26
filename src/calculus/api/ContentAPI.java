@@ -267,12 +267,14 @@ public class ContentAPI {
 			entity.setProperty("parentUuid", parentUuid);
 			boolean approved = extractBooleanFromJsonObjectWithDefault(content.get("approved"), false);
 			entity.setProperty("approved", approved);
+			entity.setProperty("url", "/content/" + parentUuid);
+			
 			result = new Answer(entity);
 			
 		} else if (contentType.equals("practiceProblem")){
 			String authorSolution =  extractStringFromJsonObjectWithDefault(content.get("authorSolution"), "[No Author Solution]");
 			Text wrappedSolution = new Text(authorSolution);
-			entity.setProperty("authorSolution", wrappedSolution);
+			entity.setUnindexedProperty("authorSolution", wrappedSolution);
 			result = new PracticeProblem(entity);
 			
 		} else if (contentType.equals("question")){

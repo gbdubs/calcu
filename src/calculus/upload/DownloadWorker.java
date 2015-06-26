@@ -72,6 +72,7 @@ public class DownloadWorker extends HttpServlet {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
 		Query q = new Query("Content");
+		q.addSort("createdAt");
 		PreparedQuery pq = datastore.prepare(q);
 		for (Entity e : pq.asIterable()){
 			Content c = ContentAPI.instantiateContent(e);

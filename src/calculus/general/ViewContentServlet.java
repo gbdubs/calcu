@@ -54,6 +54,7 @@ public class ViewContentServlet extends HttpServlet {
 		}
 		
 		if (contentType.equals("practiceProblem")) {
+			System.out.println("GETTING HERE");
 			PracticeProblem pp;
 			try {
 				pp = new PracticeProblem(uuid);
@@ -138,6 +139,7 @@ public class ViewContentServlet extends HttpServlet {
 			}
 			jsp.forward(req, resp);
 		} else if (contentType.equals("answer")){
+			System.out.println("CALLING ANSWER");
 			Answer answer;
 			try {
 				answer = new Answer(uuid);

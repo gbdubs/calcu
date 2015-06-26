@@ -7,7 +7,9 @@ public class UuidTools {
 
 		int[] expected = {8, 4, 4, 4, 12};
 		int[] actual = new int[potentials.length];
-		for (int i = 0; i < potentials.length; i++){ actual[i] = potentials[i].length(); }
+		for (int i = 0; i < potentials.length; i++){ 
+			actual[i] = potentials[i].length(); 
+		}
 		
 		int endLocation = -1;
 		for(int i = 0; i < actual.length; i++){
