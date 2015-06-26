@@ -65,9 +65,9 @@
 					<div class="box-body align-left margin-bottom-50">
 						If you would prefer a less formal way of contact, feel free to contact 
 						<a href="mailto:grady.b.ward@gmail.com">Grady</a>, 
-						<a href="rsantos@cs.brandeis.edu">Russ</a>, 
-						<a href="rlacroix@cs.brandeis.edu">Roger</a>, 
-						<a href="dsmyda@cs.brandeis.edu">Danny</a>, or <a href="seaurchi@brandeis.edu">Sofiya</a>  .
+						<a href="mailto:rsantos@cs.brandeis.edu">Russ</a>, 
+						<a href="mailto:rlacroix@cs.brandeis.edu">Roger</a>, 
+						<a href="mailto:dsmyda@cs.brandeis.edu">Danny</a>, or <a href="mailto:seaurchi@brandeis.edu">Sofiya</a>  .
 						Feel free to reach out to discuss anything regarding ed-tech,
 						your thoughts on the site, or how we can better deliver information to those who need it.
 					</div>
