@@ -26,14 +26,16 @@
 								higher immediate karma return for your answer in Answer Mode, so that we can try and get Users the answers to their problems
 								as soon as possible. Thanks for trying it out!
 							</p>
-							<c:choose>
-								<c:when test="${user != null}">
-									<a href="/answer/question/new" class="btn btn-block btn-primary">Get Started</a>
-								</c:when>
-								<c:otherwise>
-									<button class="btn btn-block btn-warning login-button">Login to Get Started</button>
-								</c:otherwise>
-							</c:choose>
+							<div class="centered">
+								<c:choose>
+									<c:when test="${user != null}">
+										<a href="/answer/question/new" class="btn btn-primary display-inline">Get Started</a>
+									</c:when>
+									<c:otherwise>
+										<button class="btn btn-warning login-button display-inline">Login to Get Started</button>
+									</c:otherwise>
+								</c:choose>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -45,19 +47,21 @@
 						</div>
 						<div class="box-body align-left margin-bottom-25">
 							<p>
-							We have all seen that problem in that math book where it isn't quite clear where the author got their answer.
-							We have all been there.  Some times, despite an Author's best efforts, they don't do a great job describing
-							their solution.  Sometimes, they don't provide it in the most accessible way. We have an algorithm that detects
-							frustrated students in need of a clear solution, and we are sending you their way! Thank you!
+								We have all seen that problem in that math book where it isn't quite clear where the author got their answer.
+								We have all been there.  Some times, despite an Author's best efforts, they don't do a great job describing
+								their solution.  Sometimes, they don't provide it in the most accessible way. We have an algorithm that detects
+								frustrated students in need of a clear solution, and we are sending you their way! Thank you!
 							</p>
-							<c:choose>
-								<c:when test="${user != null}">
-									<a href="/answer/practice-problem/new" class="btn btn-block btn-success">Get Started</a>
-								</c:when>
-								<c:otherwise>
-									<button class="btn btn-block btn-warning login-button">Login to Get Started</button>
-								</c:otherwise>
-							</c:choose>
+							<div class="centered">
+								<c:choose>
+									<c:when test="${user != null}">
+										<a href="/answer/practice-problem/new" class="btn btn-success display-inline">Get Started</a>
+									</c:when>
+									<c:otherwise>
+										<button class="btn btn-warning login-button display-inline">Login to Get Started</button>
+									</c:otherwise>
+								</c:choose>
+							</div>
 						</div>
 					</div>
 				</div>

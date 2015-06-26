@@ -477,6 +477,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/topic-selector/*</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>TopicServlet</servlet-name>
+		<servlet-class>calculus.TopicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopicServlet</servlet-name>
+		<url-pattern>/topic/*</url-pattern>
+	</servlet-mapping>
+	
 	<filter>
 		<filter-name>appstats</filter-name>
         <filter-class>com.google.appengine.tools.appstats.AppstatsFilter</filter-class>
