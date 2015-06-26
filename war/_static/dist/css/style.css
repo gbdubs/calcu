@@ -4634,6 +4634,7 @@ i.interested-button.hovered,
 .max-width-at-1000{
 	max-width: 1000px;
 	display: inline-block;
+	width: 100%;
 }
 
 .margin-top-25{
@@ -4666,6 +4667,44 @@ h2.mini-font{
 
 .max-pic-height{
 	max-height: 200px;
+}
+
+.margin-top-20{
+	margin-top: 20px;
+}
+
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+
+.margin-top-bottom-50{
+	margin: 50px 0px 50px 0px;
+}
+
+.margin-bottom-5{
+	margin-bottom:5px;
+}
+
+.margin-left-right-5{
+	margin: 0px 5px 0px 5px;
+}
+
+.topic-related-box-display{
+	max-width: 400px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.margin-top-10{
+	margin-top: 10px;
+}
+
+.margin-5-all{
+	margin: 5px;
+}
+
+.display-inline{
+	display: inline;
 }.achievement-badge{
     text-align: center;
     width: 100%;
