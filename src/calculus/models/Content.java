@@ -120,7 +120,7 @@ public abstract class Content {
 	
 	// GSON CONSTRUCTOR -- DO NOT USE.
 	public Content(){
-		
+		tags = "";
 	}
 	
 	public String getUuid(){
@@ -325,6 +325,10 @@ public abstract class Content {
 	}
 	
 	private void preSave(){
+		if (entity == null){
+			entity = new Entity(KeyFactory.createKey("Content", uuid));
+		}
+		
 		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", contentType);
 		entity.setProperty("creatorUserId", creatorUserId);

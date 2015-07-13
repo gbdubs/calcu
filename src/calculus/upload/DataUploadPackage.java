@@ -32,6 +32,8 @@ public class DataUploadPackage {
 	}
 	
 	public void asyncSave(){
+		long l = System.currentTimeMillis();
+		
 		for (Content pp : practiceProblems){
 			if (pp != null){
 				pp.saveAsync();
@@ -73,6 +75,8 @@ public class DataUploadPackage {
 				System.out.println("SAVED ACHEIVEMENT WITH UUID: " + a.getUuid());
 			}
 		}
+		
+		System.out.println("UPLOAD TOOK: " + (System.currentTimeMillis() - l) + " milliseconds.");
 	}
 	
 	public static DataUploadPackage getSiteContent(){

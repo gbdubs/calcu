@@ -32,11 +32,7 @@ public class UploadWorker extends HttpServlet {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
 		
-		
-		
 		DataUploadPackage dataPackage = gson.fromJson(br, DataUploadPackage.class);
-		
-		System.out.println(dataPackage.toString());
 		
 		dataPackage.asyncSave();
 	}
