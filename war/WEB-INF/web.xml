@@ -83,7 +83,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>SubmitContact</servlet-name>
-		<servlet-class>calculus.ContactServlet</servlet-class>
+		<servlet-class>calculus.pages.ContactServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SubmitContact</servlet-name>
