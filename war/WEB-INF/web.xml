@@ -498,6 +498,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<servlet-class>calculus.pages.AcknowledgementServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<url-pattern>/thankyou/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>TopicServlet</servlet-name>
 		<servlet-class>calculus.topic.TopicServlet</servlet-class>
 	</servlet>
