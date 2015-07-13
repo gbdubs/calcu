@@ -10,6 +10,7 @@
 
 	<jsp:attribute name="content">
 		<div class="centered">
+			<h2 class="welcome-banner margin-top-100 margin-bottom-50">${profileUsername}</h2>
 			<div class="max-width-at-1000 align-left">
 				<div class="box box-primary box-solid">
 					<div class="box-header">
