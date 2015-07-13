@@ -1,0 +1,189 @@
+{
+"practiceProblems": [],
+"answers": [],
+"questions": [],
+"textContent": [],
+"achievements": [
+{
+  "icon": "fa-flag",
+  "qualification": "The Greatest Title... (100)",
+  "color": "text-red",
+  "description": "You have contributed a lot to your community, and have helped cultivate a great place for learning.",
+  "name": "Citizen",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b310",
+  "secondaryColor": "text-blue bg-blue"
+},
+{
+  "icon": "fa-medkit",
+  "qualification": "Correctly report content",
+  "color": "text-white",
+  "description": "You reported content that wasn\u0027t meant for the site, and we took it down. Thank you!",
+  "name": "Community Aid",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b311",
+  "secondaryColor": "text-maroon bg-maroon"
+},
+{
+  "icon": "fa-user",
+  "qualification": "Personalize Three Times",
+  "color": "text-white",
+  "description": "Now that we know you better, we will be able to make better recommendations!",
+  "name": "Gettin\u0027 Personal",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b312",
+  "secondaryColor": "text-orange bg-orange"
+},
+{
+  "icon": "fa-user-times",
+  "qualification": "Personalize Seven Times",
+  "color": "text-white",
+  "description": "Woah, man. You didn\u0027t need to tell us about that time in Alabama! We know you super well now!",
+  "name": "Personal Space",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b313",
+  "secondaryColor": "text-orange bg-orange"
+},
+{
+  "icon": "fa-quote-left",
+  "qualification": "Karma \u003e Length",
+  "color": "text-yellow",
+  "description": "What an odd and specific accomplishment.  You are either very brief, or very helpful!",
+  "name": "Brevity",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b314",
+  "secondaryColor": "text-purple bg-purple"
+},
+{
+  "icon": "fa-university",
+  "qualification": "Log in with a Brandeis Email",
+  "color": "text-white",
+  "description": "ROLL DEIS ROLL! You are a Brandeisian and PROUD!",
+  "name": "Brandeisian",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b315",
+  "secondaryColor": "text-blue bg-blue"
+},
+{
+  "icon": "fa-newspaper-o",
+  "qualification": "Make Content So Popular...",
+  "color": "text-blue",
+  "description": "Your content made it to the \u0027Front Page\u0027, it was one of the most popular pieces of content!",
+  "name": "Headliner",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b316",
+  "secondaryColor": "text-lime bg-lime"
+},
+{
+  "icon": "fa-connectdevelop",
+  "qualification": "Answer Mode streak of 42",
+  "color": "text-white",
+  "description": "You have reached Answer Mode Trancendence, and have found the true meaning of life: 42.",
+  "name": "Deep Thought",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b317",
+  "secondaryColor": "text-black bg-black"
+},
+{
+  "icon": "fa-heart",
+  "qualification": "Someone Loved your content",
+  "color": "text-fuchsia",
+  "description": "A pice of your content was given a rating of 100, 100, 100.",
+  "name": "Lover",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b318",
+  "secondaryColor": "text-red bg-red"
+},
+{
+  "icon": "fa-level-up",
+  "qualification": "Level \u003e Length(username)",
+  "color": "text-black",
+  "description": "You either have mastered Calculus, or intentionally shortened your Username. Either way, well done!",
+  "name": "Level Climber",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b319",
+  "secondaryColor": "text-fuchsia bg-fuchsia"
+},
+{
+  "icon": "fa-rocket",
+  "qualification": "Learn and Show it",
+  "color": "text-aqua",
+  "description": "We have seen QUANTIFIABLE evidence of your learning calculus. You are a better Math Student than you were when you started!",
+  "name": "Learner",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b320",
+  "secondaryColor": "text-navy bg-navy"
+},
+{
+  "icon": "fa-road",
+  "qualification": "Using the site --\u003e Learning",
+  "color": "text-aqua",
+  "description": "The first step to Progress is the first step.",
+  "name": "Motivated",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f1",
+  "secondaryColor": "bg-black text-black"
+},
+{
+  "icon": "fa-html5",
+  "qualification": "Learn the ways of HTML",
+  "color": "text-yellow",
+  "description": "You created three pieces of content which contain HTML Formatting",
+  "name": "Web Dev Intern",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f2",
+  "secondaryColor": "bg-red text-red"
+},
+{
+  "icon": "fa-code",
+  "qualification": "Achieve Zen in LaTex Mastery",
+  "color": "text-aqua",
+  "description": "You introduced yourself to the language of serious mathematicians and perfectionists!",
+  "name": "Liquid LaTex",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f3",
+  "secondaryColor": "bg-purple text-purple"
+},
+{
+  "icon": "fa-pencil",
+  "qualification": "Create New Content (5)",
+  "color": "text-lime",
+  "description": "You created Five Pieces of Content!",
+  "name": "Contributor",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f4",
+  "secondaryColor": "bg-olive text-olive"
+},
+{
+  "icon": "fa-pencil",
+  "qualification": "Create Lots of New Content (10)",
+  "color": "text-aqua",
+  "description": "You outdid yourself. You have now created enough to fill a short text-book chapter!",
+  "name": "Sr Contributor",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f5",
+  "secondaryColor": "bg-olive text-olive"
+},
+{
+  "icon": "fa-pencil",
+  "qualification": "Create Tons of New Content (20)",
+  "color": "text-yellow",
+  "description": "This is getting pretty unbelieveable. Should we Pay you at this point?",
+  "name": "VP of Content",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f6",
+  "secondaryColor": "bg-olive text-olive"
+},
+{
+  "icon": "fa-pencil",
+  "qualification": "Create TONS of New Content (50)",
+  "color": "text-black",
+  "description": "You did what we never thought was possible. You have transcended our understanding of what it MEANS to contribute.",
+  "name": "Contribution-ator",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f7",
+  "secondaryColor": "bg-olive text-olive"
+},
+{
+  "icon": "fa-comment-o",
+  "qualification": "Create 10 Answers/Explanations",
+  "color": "text-navy",
+  "description": "You answered 10 Questions/Practice Problems! Think of all of the people you have helped along the way!",
+  "name": "Answerer",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f8",
+  "secondaryColor": "text-yellow bg-yellow"
+},
+{
+  "icon": "fa-comment",
+  "qualification": "Create 20 Answers/Explanations",
+  "color": "text-blue",
+  "description": "You answered 20 Questions/Practice Problems! Think of all of the people you have helped along the way!",
+  "name": "Font o Knowledge",
+  "uuid": "0465ae81-256c-48e6-ba57-f6b7af62b3f9",
+  "secondaryColor": "text-yellow bg-yellow"
+}
+],
+"topics": []
+}

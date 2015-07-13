@@ -135,7 +135,7 @@ public class TopicAPI {
 		return json;		
 	}
 
-	private static List<Topic> getAllTopics() {
+	public static List<Topic> getAllTopics() {
 		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
 		List<Topic> topics = new ArrayList<Topic>();
 		Query q = new Query("Topic");

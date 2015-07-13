@@ -1,7 +1,9 @@
 package calculus.api;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import calculus.models.Content;
 import calculus.models.Question;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -37,5 +39,17 @@ public class QuestionAPI {
 			}
 		}
 		return null;
+	}
+	
+	public static List<Question> getAllQuestions() {
+		List<Content> content = ContentAPI.getAllContentOfType("question");
+		List<Question> questions = new ArrayList<Question>();
+		for(Content c : content){
+			if (c.getContentType().equals("question")){
+				Question q = (Question) c;
+				questions.add(q);
+			}
+		}
+		return questions;
 	}
 }

@@ -7,7 +7,12 @@ import com.google.appengine.api.datastore.Text;
 public class PracticeProblem extends Content{
 
 	private String authorSolution;
-			
+	
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public PracticeProblem(){
+		
+	}
+	
 	public PracticeProblem (String uuid) throws EntityNotFoundException {
 		super(uuid, "practiceProblem");
 		postContentConstructor();

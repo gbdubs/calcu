@@ -361,6 +361,19 @@ public class ContentAPI {
 		return uuid;
 	}
 
+	public static List<Content> getAllContentOfType(String contentType){
+		List<Content> results = new ArrayList<Content>();
+		Query q = new Query("Content");
+		Filter typeFilter = new FilterPredicate("contentType", FilterOperator.EQUAL,contentType);
+		q.addSort("createdAt").setFilter(typeFilter);
+		PreparedQuery pq = datastore.prepare(q);
+		for (Entity e : pq.asIterable()){
+			Content c = ContentAPI.instantiateContent(e);
+			results.add(c);
+		}
+		return results;
+	}
+	
 	private static List<String> extractListOfStringsFromJsonObjectWithDefault(JsonElement jsonElement, List<String> defaultList){
 		if (jsonElement != null && !jsonElement.isJsonNull() && jsonElement.isJsonArray()){
 			List<String> allAnswers = new ArrayList<String>();
