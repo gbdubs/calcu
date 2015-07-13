@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.AchievementsAPI;
-import calculus.api.AnswersAPI;
+import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
@@ -37,7 +37,7 @@ public class AnswerModeServlet extends HttpServlet{
 		if (req.getParameter("action").equals("skip")){
 			UserPrivateInfoAPI.addUserSkippedContent(userId, uuid);
 		} else if (req.getParameter("action").equals("done")){
-			AnswersAPI.createAnswerFromRequest(req);
+			ContentAPI.createOrUpdateContentFromRequest(req, "answer");
 			UserPrivateInfoAPI.addUserAnsweredContent(userId, uuid);
 			KarmaAPI.incrementUserKarmaFromAnswerMode(userId, 3 + Math.min(streak, 10));
 			streak++;
@@ -75,8 +75,7 @@ public class AnswerModeServlet extends HttpServlet{
 		}
 	}
 	
-	private void redirectToNewPracticeProblem(HttpServletRequest req,
-			HttpServletResponse resp) throws ServletException, IOException {
+	private void redirectToNewPracticeProblem(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		PracticeProblem pp = PracticeProblemAPI.getAnswerablePracticeProblem(user.getUserId());
 		req.setAttribute("practiceProblem", pp);
@@ -84,8 +83,7 @@ public class AnswerModeServlet extends HttpServlet{
 		jsp.forward(req, resp);
 	}
 
-	private void redirectToNewQuestion(HttpServletRequest req,
-			HttpServletResponse resp) throws ServletException, IOException {
+	private void redirectToNewQuestion(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		Question q = QuestionAPI.getAnswerableQuestion(user.getUserId());
 		req.setAttribute("question", q);
@@ -93,14 +91,12 @@ public class AnswerModeServlet extends HttpServlet{
 		jsp.forward(req, resp);
 	}
 
-	private void questionLanding(HttpServletRequest req,
-			HttpServletResponse resp) throws ServletException, IOException {
+	private void questionLanding(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/answer-landing.jsp");
 		jsp.forward(req, resp);
 	}
 
-	private void practiceProblemLanding(HttpServletRequest req,
-			HttpServletResponse resp) throws ServletException, IOException {
+	private void practiceProblemLanding(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/answer-landing.jsp");
 		jsp.forward(req, resp);
 	}

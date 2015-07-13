@@ -37,7 +37,7 @@ public class KarmaAPI {
 	
 	public static void incrementContentKarma(String contentUuid, int differential){
 		try {
-			Content c = new Content(contentUuid);
+			Content c = ContentAPI.instantiateContent(contentUuid);
 			
 			// Updates the "Content" entity
 			c.incrementKarma(differential);

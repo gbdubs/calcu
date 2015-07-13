@@ -1,8 +1,7 @@
 package calculus.general;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
+import java.util.Collection;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -29,11 +28,9 @@ public class ExploreServlet extends HttpServlet {
 		String userId = "";
 		if (user != null) userId = user.getUserId();
 		
-		Map<String, List<Content>> exploratoryContent = ContentAPI.getExploratoryContent(24, 0, userId);
+		Collection<Content> exploratoryContent = ContentAPI.getContentSampling(24, 0, userId);
 		
-		List<Content> newContent = exploratoryContent.get("new");
-		
-		req.setAttribute("exploreContent", newContent);
+		req.setAttribute("exploreContent", exploratoryContent);
 		
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/explore.jsp");	

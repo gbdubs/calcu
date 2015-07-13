@@ -9,10 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
-import calculus.api.PracticeProblemAPI;
-import calculus.api.QuestionAPI;
-import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
+import calculus.models.Answer;
+import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
@@ -55,54 +54,106 @@ public class ViewContentServlet extends HttpServlet {
 		}
 		
 		if (contentType.equals("practiceProblem")) {
-			PracticeProblem pp = new PracticeProblem(uuid);
+			System.out.println("GETTING HERE");
+			PracticeProblem pp;
+			try {
+				pp = new PracticeProblem(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (pp.getSubmitted() && pp.getViewable()){
-				PracticeProblemAPI.addPracticeProblemContext(req, pp);
+				req.setAttribute("practiceProblem", pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-				PracticeProblemAPI.addPracticeProblemContext(req, pp);
+				req.setAttribute("practiceProblem", pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 			} else {	
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
 		} else if (contentType.equals("question")) {
-			Question q = new Question(uuid);
+			Question q;
+			try {
+				q = new Question(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				System.out.println("WAS NOT FOUND A");
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (q.getSubmitted() && q.getViewable()){
-				QuestionAPI.addQuestionContext(req, q);
+				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+				System.out.println("WAS NOT FOUND B");
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-				QuestionAPI.addQuestionContext(req, q);
+				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else {
+				System.out.println("WAS NOT FOUND C");
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
 		} else if (contentType.equals("textContent")) {
-			TextContent tc = new TextContent(uuid);
+			TextContent tc;
+			try {
+				tc = new TextContent(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
 			resp.setContentType("text/html");
 			RequestDispatcher jsp;
 			if (tc.getSubmitted() && tc.getViewable()){
-				TextContentAPI.addTextContentContext(req, tc);
+				req.setAttribute("textContent", tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
-				TextContentAPI.addTextContentContext(req, tc);
+				req.setAttribute("textContent", tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
 			} else {
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
-		} else {	
+		} else if (contentType.equals("answer")){
+			System.out.println("CALLING ANSWER");
+			Answer answer;
+			try {
+				answer = new Answer(uuid);
+			} catch (EntityNotFoundException e) {
+				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
+				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
+				// deleted.  This is unlikely enough that we can simply return a page-not-found.
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
+				return;
+			}
+			resp.sendRedirect(answer.getUrl());
+	    } else {	
 			resp.getWriter().println("There is an issue. An unsupported content type <b>'"+ contentType +"'</b> was requested to be displayed.");
 		}
 	}

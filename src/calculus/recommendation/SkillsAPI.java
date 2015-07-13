@@ -2,6 +2,7 @@ package calculus.recommendation;
 
 import java.util.List;
 
+import calculus.api.ContentAPI;
 import calculus.models.Content;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -22,7 +23,7 @@ public class SkillsAPI {
 	public static void userAnsweredContent(String userId, String contentUuid){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't mark that the user answered it.
 			return;
@@ -41,7 +42,7 @@ public class SkillsAPI {
 	public static void contentDifficultyPersonalization(String userId, String contentUuid, float difficulty){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the skills profile
 			return;
@@ -54,7 +55,7 @@ public class SkillsAPI {
 	public static void userRatedContentThisDifficulty(String userId, String contentUuid, float difficultyRating){
 		Content c;
 		try {
-			c = new Content(contentUuid);
+			c = ContentAPI.instantiateContent(contentUuid);
 		} catch (EntityNotFoundException e) {
 			// If the entity didn't exist, we shouldn't change the skills profile
 			return;

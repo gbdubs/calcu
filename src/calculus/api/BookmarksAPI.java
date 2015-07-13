@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import calculus.models.Content;
 import calculus.utilities.MenuItem;
 import calculus.utilities.UrlGenerator;
 
@@ -30,7 +29,7 @@ public class BookmarksAPI {
 		
 		if (!uuids.contains(contentUuid)) {
 			try {
-				String jsonRepresentation = new MenuItem(new Content(contentUuid)).toJson();
+				String jsonRepresentation = new MenuItem(ContentAPI.instantiateContent(contentUuid)).toJson();
 				uuids.add(contentUuid);
 				jsons.add(new Text(jsonRepresentation));
 				numberUnread++;

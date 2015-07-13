@@ -64,7 +64,7 @@ public class ReportAPI {
 			long reportedAt = (long) result.getProperty("reportedAt");
 			String reportReason = (String) result.getProperty("reason");
 			try {
-				Content content = new Content((String) result.getProperty("contentUuid"));
+				Content content = ContentAPI.instantiateContent((String) result.getProperty("contentUuid"));
 				Entity userPublicInfo = UserPublicInfoAPI.getOrCreateUserPublicInfo((String) result.getProperty("reporterUserId"));
 				Report report = new Report(reportUuid, reportedAt, reportReason, userPublicInfo, content);
 				list.add(report);
@@ -97,7 +97,7 @@ public class ReportAPI {
 			// Deletes the Parental reference.
 			String parentUuid = (String) content.getProperty("parentUuid");
 			if (parentUuid != null){
-				Content parentContent = new Content(parentUuid);
+				Content parentContent = ContentAPI.instantiateContent(parentUuid);
 				parentContent.removeAnswer(contentUuid);
 			}
 			

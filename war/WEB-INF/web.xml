@@ -380,15 +380,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>PotentialContentUpload</servlet-name>
-		<servlet-class>calculus.admin.UploadPotentialContentServlet</servlet-class>
-	</servlet>	
-	<servlet-mapping>
-		<servlet-name>PotentialContentUpload</servlet-name>
-		<url-pattern>/admin/upload-potential-content</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
 		<servlet-name>Personalize</servlet-name>
 		<servlet-class>calculus.general.PersonalizeServlet</servlet-class>
 	</servlet>	
@@ -435,15 +426,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/affirm-consent</url-pattern>
 	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>ContentApproval</servlet-name>
-		<servlet-class>calculus.admin.ContentApprovalServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ContentApproval</servlet-name>
-		<url-pattern>/admin/content-approval</url-pattern>
-	</servlet-mapping>
-	
 	
 	<servlet>
 		<servlet-name>MarkMenuItemsRead</servlet-name>
@@ -469,6 +451,44 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>calculus.upload.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/admin/upload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadWorker</servlet-name>
+		<servlet-class>calculus.upload.UploadWorker</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadWorker</servlet-name>
+		<url-pattern>/admin/upload/worker</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>calculus.upload.DownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/admin/download</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadWorker</servlet-name>
+		<servlet-class>calculus.upload.DownloadWorker</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadWorker</servlet-name>
+		<url-pattern>/admin/download/worker</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
 		<servlet-name>TopicSelectorServlet</servlet-name>
 		<servlet-class>calculus.TopicSelectorServlet</servlet-class>
 	</servlet>
@@ -485,6 +505,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>TopicServlet</servlet-name>
 		<url-pattern>/topic/*</url-pattern>
 	</servlet-mapping>
+
 	
 	<filter>
 		<filter-name>appstats</filter-name>
