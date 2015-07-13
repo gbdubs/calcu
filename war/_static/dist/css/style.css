@@ -5246,8 +5246,16 @@ h2.mini-font {
 	margin: 5px;
 }
 
+.margin-bottom-40{
+	margin-bottom: 40px;
+}
+
 .display-inline {
 	display: inline;
+}
+
+.hexagon-bullet-line-item:nth-child(even) {
+  margin: -8px 0 -8px 23px;
 }.achievement-badge{
     text-align: center;
     width: 100%;
