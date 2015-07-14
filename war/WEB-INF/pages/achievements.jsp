@@ -9,12 +9,10 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		<div class="box box-solid bg-black-gradient">
-			<div class="box-header">
-				<i class="fa fa-trophy"></i>
-				<h3 class="box-title">Achievements <small class="text-white"> To learn about Achievements, Karma, and Leveling, visit the <a href="/tutorial" class="text-white">Tutorial</a> page</small></h3>
-			</div>
-			<div class="box-body">
+		<div class="centered bg-black">
+			<div class="max-width-at-1000">
+				<h2 class="welcome-banner margin-top-100">Achievements</h2>
+				<h3 class="welcome-banner-subtitle margin-bottom-50">Gotta' Get 'Em All! To learn about how to earn Achievements, Karma, and Leveling Up, visit the <a href="/tutorial" class="text-white">Tutorial</a> page.</h3>
 				<div class="row">
 					<c:forEach items="${achievements}" var="a">
 					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
