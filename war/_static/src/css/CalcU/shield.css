@@ -1,7 +1,15 @@
-
 .shield {
 	position: relative;
 	display: inline-block;
+}
+
+.blue-shield{
+	color: #367FA9;
+}
+
+.blue-shield-inverted{
+	color: #F9F9F9;
+	background: #367FA9;
 }
 
 .shield-outer .shield-body {
@@ -11,6 +19,14 @@
 	border-radius: 0px 0px 15px 15px/0px 0px 100px 100px;
 }
 
+.blue-shield .shield-outer .shield-body {
+	background: #367fa9;
+}
+
+.blue-shield-inverted .shield-outer .shield-body {
+	background: #F9F9F9;
+}
+
 .shield-outer .shield-top {
 	height: 30px;
 	width: 100px;
@@ -18,11 +34,19 @@
 	position: relative;
 }
 
+.blue-shield .shield-outer .shield-body {
+	background: #367fa9;
+}
+
+.blue-shield-inverted .shield-outer .shield-body {
+	background: #F9F9F9;
+}
+
 .shield-outer .shield-top:after {
 	content: "";
 	display: block;
 	width: 60px;
-	height: 30px;
+	height: 31px;
 	background: #f9f9f9;
 	position: absolute;
 	top: 0;
@@ -35,7 +59,7 @@
 	content: "";
 	display: block;
 	width: 60px;
-	height: 30px;
+	height: 31px;
 	background: #f9f9f9;
 	position: absolute;
 	top: 0;
@@ -44,13 +68,28 @@
 	z-index: 10;
 }
 
+.blue-shield-inverted .shield-outer .shield-top:after,
+.blue-shield-inverted .shield-outer .shield-top:before{
+	background: #367fa9;
+}
+
 .shield-outer .shield-bottom {
 	width: 0;
 	height: 0;
 	margin: 0 14px;
 	border-left: 36px solid transparent;
 	border-right: 36px solid transparent;
-	border-top: 22px solid #333;
+	border-top-style: solid;
+	border-top-color: #333;
+	border-top-width: 22px;
+}
+
+.blue-shield .shield-outer .shield-bottom{
+	border-top-color: #367fa9;
+}
+
+.blue-shield-inverted .shield-outer .shield-bottom{
+	border-top-color: #F9F9F9;
 }
 
 .shield-inner .shield-body {
@@ -63,6 +102,10 @@
 	left: 10px;
 }
 
+.blue-shield-inverted .shield-inner .shield-body{
+	background: #367fa9;
+}
+
 .shield-inner .shield-top {
 	height: 30px;
 	width: 100px;
@@ -71,6 +114,10 @@
 	top: 9px;
 	width: 80px;
 	left: 10px;
+}
+
+.blue-shield-inverted .shield-inner .shield-top{
+	background: #367fa9;
 }
 
 .shield-inner .shield-top:after {
@@ -85,6 +132,16 @@
 	border-bottom-left-radius: 50px 20px;
 }
 
+.blue-shield .shield-inner .shield-top:after,
+.blue-shield .shield-inner .shield-top:after{
+	background: #367fa9;
+}
+
+.blue-shield-inverted .shield-inner .shield-top:after,
+.blue-shield-inverted .shield-inner .shield-top:after{
+	background: #F9F9F9;
+}
+
 .shield-inner .shield-top:before {
 	content: "";
 	display: block;
@@ -97,16 +154,30 @@
 	border-bottom-right-radius: 50px 20px;
 }
 
+.blue-shield .shield-inner .shield-top:before{
+	background: #367fa9;
+}
+
+.blue-shield-inverted .shield-inner .shield-top:before{
+	background: #F9F9F9;
+}
+
 .shield-inner .shield-bottom {
 	width: 0;
 	height: 0;
 	margin: 0 11px;
 	border-left: 29px solid transparent;
 	border-right: 29px solid transparent;
-	border-top: 17px solid #f9f9f9;
+	border-top-style: solid;
+	border-top-width: 17px;
+	border-top-color: #f9f9f9;
 	position: absolute;
 	bottom: 13px;
 	left: 10px;
+}
+
+.blue-shield-inverted .shield-inner .shield-bottom{
+	border-top-color: #367fa9;
 }
 
 .shield.big-shield .shield-outer .shield-body {
@@ -122,13 +193,13 @@
 
 .shield.big-shield .shield-outer .shield-top:after {
 	width: 180px;
-	height: 90px;
+	height: 91px;
 	border-bottom-left-radius: 180px 90px;
 }
 
 .shield.big-shield .shield-outer .shield-top:before {
 	width: 180px;
-	height: 90px;
+	height: 91px;
 	border-bottom-right-radius: 180px 90px;
 }
 
@@ -136,7 +207,7 @@
 	margin: 0 42px;
 	border-left: 108px solid transparent;
 	border-right: 108px solid transparent;
-	border-top: 66px solid #333;
+	border-top-width: 66px;
 }
 
 .shield.big-shield .shield-inner .shield-body {
@@ -171,7 +242,7 @@
 	margin: 0 33px;
 	border-left: 87px solid transparent;
 	border-right: 87px solid transparent;
-	border-top: 52px solid #f9f9f9;
+	border-top-width: 52px;
 	position: absolute;
 	bottom: 39px;
 	left: 30px;
@@ -184,19 +255,19 @@
 }
 
 .shield.med-shield .shield-outer .shield-top {
-	height: 60px;
+	height: 61px;
 	width: 200px;
 }
 
 .shield.med-shield .shield-outer .shield-top:after {
 	width: 120px;
-	height: 60px;
+	height: 62px;
 	border-bottom-left-radius: 120px 60px;
 }
 
 .shield.med-shield .shield-outer .shield-top:before {
 	width: 120px;
-	height: 60px;
+	height: 62px;
 	border-bottom-right-radius: 120px 60px;
 }
 
@@ -204,7 +275,7 @@
 	margin: 0 28px;
 	border-left: 72px solid transparent;
 	border-right: 72px solid transparent;
-	border-top: 44px solid #333;
+	border-top-width: 44px;
 }
 
 .shield.med-shield .shield-inner .shield-body {
@@ -239,7 +310,7 @@
 	margin: 0 22px;
 	border-left: 58px solid transparent;
 	border-right: 58px solid transparent;
-	border-top: 35px solid #f9f9f9;
+	border-top-width: 35px;
 	bottom: 26px;
 	left: 20px;
 }
@@ -315,8 +386,94 @@
 	margin: 0 25px;
 	border-left: 95px solid transparent;
 	border-right: 95px solid transparent;
-	border-top: 57px solid #f9f9f9;
+	border-top-width: 57px;
 	position: absolute;
 	bottom: 24px;
 	left: 30px;
+}
+
+
+.shield.tiny-shield .shield-deriv {
+	  font-size: 13px;
+  left: 10px;
+  top: -17px;
+}
+
+.shield.tiny-shield .shield-integral {
+	  font-size: 13px;
+  left: 13px;
+  top: -17px;
+}
+
+
+
+
+
+
+.shield.tiny-shield .shield-outer .shield-body {
+	width: 40px;
+	height: 40px;
+	border-radius: 0px 0px 6px 6px/0px 0px 40px 40px;
+}
+
+.shield.tiny-shield .shield-outer .shield-top {
+	height: 12px;
+	width: 40px;
+}
+
+.shield.tiny-shield .shield-outer .shield-top:after {
+	width: 24px;
+	height: 12px;
+	border-bottom-left-radius: 24px 12px;
+}
+
+.shield.tiny-shield .shield-outer .shield-top:before {
+	width: 24px;
+	height: 12px;
+	border-bottom-right-radius: 24px 12px;
+}
+
+.shield.tiny-shield .shield-outer .shield-bottom {
+	margin: 0 6px;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-top-width: 9px;
+}
+
+.shield.tiny-shield .shield-inner .shield-body {
+	width: 32px;
+	height: 33px;
+	border-radius: 0px 0px 6px 6px/0px 0px 40px 40px;
+	bottom: 12px;
+	left: 4px;
+}
+
+.shield.tiny-shield .shield-inner .shield-top {
+	height: 12px;
+	width: 40px;
+	top: 4px;
+	width: 32px;
+	left: 4px;
+}
+
+.shield.tiny-shield .shield-inner .shield-top:after {
+	width: 20px;
+	height: 12px;
+	border-bottom-left-radius: 20px 8px;
+}
+
+.shield.tiny-shield .shield-inner .shield-top:before {
+	width: 20px;
+	height: 12px;
+	border-bottom-right-radius: 20px 8px;
+}
+
+.shield.tiny-shield .shield-inner .shield-bottom {
+	margin: 0 4px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top-width: 7px;
+	position: absolute;
+	bottom: 5px;
+	left: 4px;
 }
