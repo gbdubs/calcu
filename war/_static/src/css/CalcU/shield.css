@@ -1,6 +1,3 @@
-.hexagon-button.buttonless {
-	position: relative;
-}
 
 .shield {
 	position: relative;
@@ -322,5 +319,4 @@
 	position: absolute;
 	bottom: 24px;
 	left: 30px;
-}
 }

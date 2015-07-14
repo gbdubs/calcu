@@ -7,228 +7,86 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		<div class="main-page-funky-wrapper">
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="box box-solid">
-					<div class="box-content">
-						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="item active">
-									<img style="max-width:100%;" src="/_static/img/welcome-banner.png" alt="First slide">
-								</div>
-								<div class="item">
-									<img style="max-width:100%;" src="/_static/img/learning-black.png" alt="First slide">
-								</div>
-								<div class="item">
-									<img style="max-width:100%;" src="/_static/img/scraper-black.png" alt="First slide">
-								</div>
-							</div>
-							<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-								<span class="glyphicon glyphicon-chevron-left"></span>
-							</a>
-							<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-								<span class="glyphicon glyphicon-chevron-right"></span>
-							</a>
-						</div>
-					</div>
-				</div>
+		<div class="shield">
+			<h1 class="shield-deriv">\[\frac{\partial}{\partial x}\]</h1>
+			<div class="shield-outer">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
+			</div>
+			<div class="shield-inner">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
+			</div>
+		</div>
+		<div class="shield">
+			<h1 class="shield-integral">\[\int\]</h1>
+			<div class="shield-outer">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
+			</div>
+			<div class="shield-inner">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
 			</div>
 		</div>
 		
-		<div class="row">
-			<div class="col-xs-12">
-				<div class="small-box bg-green">
-					<div class="inner">
-						<h3 class="visible-sm">
-							New Here?
-						</h3>
-						<h3 class="hidden-sm">
-							New Here? Check out the Tutorial to get started!
-						</h3>
-						<p class="hidden-sm">
-							Check out the tutorial to get the basic organization of the site, and understand where to start!
-						</p>
-						<p class="visible-sm">
-							Check out the Tutorial to get started!
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-university"></i>
-					</div>
-					<a href="/tutorial" class="small-box-footer">
-						Lets Get Started! <i class="fa fa-arrow-circle-right"></i>
-					</a>
-				</div>
+		<div class="shield big-shield thin-shield">
+			<h1 class="shield-deriv">\[\frac{\partial}{\partial x}\]</h1>
+			<div class="shield-outer">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
+			</div>
+			<div class="shield-inner">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
+			</div>
+		</div>
+		<div class="shield big-shield">
+			<h1 class="shield-integral">\[\int\]</h1>
+			<div class="shield-outer">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
+			</div>
+			<div class="shield-inner">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
 			</div>
 		</div>
 		
-		<div class="row">
-		
-			<div class="col-lg-3 col-xs-6">
-				<div class="small-box bg-blue">
-					<div class="inner">
-						<h3>
-							Search
-						</h3>
-						<p>
-							Quickly Find The Content You are Looking For
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-search"></i>
-					</div>
-					<a href="/search" class="small-box-footer">
-						Search Now <i class="fa fa-arrow-circle-right"></i>
-					</a>
-				</div>
+		<div class="shield med-shield">
+			<h1 class="shield-deriv">\[\frac{\partial}{\partial x}\]</h1>
+			<div class="shield-outer">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
 			</div>
-			
-			<div class="col-lg-3 col-xs-6">
-				<div class="small-box bg-yellow">
-					<div class="inner">
-						<h3>
-							Explore
-						</h3>
-						<p>
-							See What Your Community Is Learning and Reading
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-binoculars"></i>
-					</div>
-					<a href="/explore" class="small-box-footer">
-						Explore Now <i class="fa fa-arrow-circle-right"></i>
-					</a>
-				</div>
+			<div class="shield-inner">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
 			</div>
-			
-			<div class="col-lg-3 col-xs-6">
-				<div class="small-box bg-red">
-					<div class="inner">
-						<h3>
-							Create
-						</h3>
-						<p>
-							Contribute Your New Skills Back To Your Community
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-pencil"></i>
-					</div>
-					<a href="/contribute" class="small-box-footer">
-						Create Now <i class="fa fa-arrow-circle-right"></i>
-					</a>
-				</div>
-			</div>
-			
-			<div class="col-lg-3 col-xs-6">
-				<div class="small-box bg-purple">
-					<div class="inner">
-						<h3>
-							Personalize
-						</h3>
-						<p>
-							Customizes your Experience based on how you learn
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-street-view"></i>
-					</div>
-					<a href="/personalize" class="small-box-footer">
-						Personalize Now <i class="fa fa-arrow-circle-right"></i>
-					</a>
-				</div>
-			</div>
-		
 		</div>
-
-		<div class="row hidden">
-			<div class="col-sm-6">
-				<div class="box box-solid box-info">
-					<div class="box-header">
-						<h3 class="box-title">A Teacher That Thinks Just Like You</h3>
-					</div>
-					<div class="box-body">
-						<p>
-							Just like Pandora and Spotify can guess what kind of music you like without knowing anything about music, 
-							we provide you with resources that are adapted to the way that you think about mathematics and calculus.  
-							The more that you rate our resources, the better our chances of finding information that will be custom tailored to your style of learning.	
-						</p>
-					</div>
-				</div>
+		<div class="shield med-shield">
+			<h1 class="shield-integral">\[\int\]</h1>
+			<div class="shield-outer">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
 			</div>
-			<div class="col-sm-6">
-				<div class="box box-solid box-info">
-					<div class="box-header">
-						<h3 class="box-title">An Active Community</h3>
-					</div>
-					<div class="box-body">
-						<p>
-							CalcU aims to bring together a wide range of people, students, teachers, and everyone in between, to share their calculus knowledge, 
-							and help others who are in the continuous process of learning.  To single out the best resources, and to give their creators the credit they deserve, 
-							we have embedded meaningful reviewing deep into the heart of CalcU. 
-						</p>
-					</div>
-				</div>
+			<div class="shield-inner">
+				<div class="shield-top"></div>
+				<div class="shield-body"></div>
+				<div class="shield-bottom"></div>
 			</div>
 		</div>
 		
-		
-		
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-
-				<div class="small-box bg-aqua">
-					<div class="inner">
-						<h3>
-							${numUsers}
-						</h3>
-						<p>
-							Users
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-user"></i>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-				<div class="small-box bg-aqua">
-					<div class="inner">
-						<h3>
-							${piecesOfContent}
-						</h3>
-						<p>
-							Pieces of Content
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-newspaper-o"></i>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-				<div class="small-box bg-aqua">
-					<div class="inner">
-						<h3>
-							${recentPosts}
-						</h3>
-						<p>
-							Recent Posts
-						</p>
-					</div>
-					<div class="icon">
-						<i class="fa fa-edit"></i>
-					</div>
-				</div>
-			</div>
-		</div>
-		</div>
 	</jsp:attribute>
 </t:genericpage>
