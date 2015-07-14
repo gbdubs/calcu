@@ -1,5 +1,7 @@
 package calculus.models;
 
+import calculus.upload.UploadWorker;
+
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -20,11 +22,17 @@ public class Achievement {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
+	// GSON CONSTRUCTOR. DO NOT INVOKE.
+	public Achievement(){
+		
+	}
+	
 	public Achievement(String uuid){
 		Entity entity = null;
 		try {
 			entity = datastore.get(KeyFactory.createKey("Achievement", uuid));
 		} catch (EntityNotFoundException e) {
+			UploadWorker.uploadAchievements();
 			throw new RuntimeException("Achievement with UUID ["+uuid+"] does not exist.");
 		}
 		this.uuid = uuid;

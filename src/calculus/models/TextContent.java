@@ -5,6 +5,11 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 
 public class TextContent extends Content {
 	
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public TextContent(){
+		
+	}
+	
 	public TextContent(String uuid) throws EntityNotFoundException {
 		super(uuid, "textContent");
 	}

@@ -1,7 +1,10 @@
 package calculus.api;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import calculus.models.Answer;
+import calculus.models.Content;
 import calculus.models.PracticeProblem;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -38,5 +41,17 @@ public class PracticeProblemAPI {
 			}
 		}
 		return null;
+	}
+	
+	public static List<PracticeProblem> getAllPracticeProblems() {
+		List<Content> content = ContentAPI.getAllContentOfType("practiceProblem");
+		List<PracticeProblem> pps = new ArrayList<PracticeProblem>();
+		for(Content c : content){
+			if (c.getContentType().equals("practiceProblem")){
+				PracticeProblem pp = (PracticeProblem) c;
+				pps.add(pp);
+			}
+		}
+		return pps;
 	}
 }

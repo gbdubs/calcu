@@ -8,6 +8,11 @@ public class Answer extends Content {
 	private boolean approved;
 	private String parentUuid;
 	
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public Answer(){
+			
+	}
+	
 	public Answer(String uuid) throws EntityNotFoundException {
 		super(uuid, "answer");
 		postContentConstructor();

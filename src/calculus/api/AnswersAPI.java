@@ -1,6 +1,11 @@
 package calculus.api;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
+
+import calculus.models.Answer;
+import calculus.models.Content;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -29,4 +34,15 @@ public class AnswersAPI {
 		return false;
 	}
 
+	public static List<Answer> getAllAnswers() {
+		List<Content> content = ContentAPI.getAllContentOfType("answer");
+		List<Answer> answers = new ArrayList<Answer>();
+		for(Content c : content){
+			if (c.getContentType().equals("answer")){
+				Answer a = (Answer) c;
+				answers.add(a);
+			}
+		}
+		return answers;
+	}
 }

@@ -14,15 +14,12 @@
 				<h2 class="welcome-banner margin-top-100">State Upload</h2>
 			
 				<h3 class="welcome-banner-subtitle margin-bottom-50">
-					Here you can upload a state file to the cloud.  By default this will rely on UUIDs,
-					and will not duplicate anything with the same UUID. Any Content without at UUID will
-					be created (same with achievements, topics, etc.)  To begin, select the file you want
-					to upload, then press <i>the big button</i>, which will begin the process of this upload
-					(which may take several minutes to complete).
+					Here you can update the database based on the state file saved in /war/WEB-INF/data/state.txt
+					To begin the process of uploading, press <i>the big button</i>, which will begin the process of this upload
+					(which may take several minutes to complete). This is a <b>VERY</b> expensive operation to run in the cloud.
 				</h3>
 				
 				<form action="${blobstoreUploadUrl}" method="POST" enctype="multipart/form-data">
-					<input type="file" name="stateUpload" />
 					<button class="hexagon-button buttonless">
 						<div class="text-blue">
 							<div class="hexagon outer-hexagon"></div>

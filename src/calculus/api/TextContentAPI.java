@@ -1,5 +1,9 @@
 package calculus.api;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import calculus.models.Content;
 import calculus.models.TextContent;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -28,4 +32,15 @@ public class TextContentAPI {
 		return result;
 	}
 
+	public static List<TextContent> getAllTextContent() {
+		List<Content> content = ContentAPI.getAllContentOfType("answer");
+		List<TextContent> tcs = new ArrayList<TextContent>();
+		for(Content c : content){
+			if (c.getContentType().equals("textContent")){
+				TextContent tc = (TextContent) c;
+				tcs.add(tc);
+			}
+		}
+		return tcs;
+	}
 }
