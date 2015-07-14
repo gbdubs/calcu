@@ -223,6 +223,7 @@
 				</div>
 			</div>
 		</div>
+		<br>
 		<div id="ts-geometry-info-box" class="max-width-at-1000 align-left hidden ts-info-box">
 			<div class = "box box-primary box-solid">
 				<div class="box-header">

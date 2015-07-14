@@ -39,7 +39,7 @@
 				</div>
 		
 				<div class="box box-solid">
-					<div class="box-header bg-purple">
+					<div class="box-header bg-yellow">
 						<i class="fa fa-money"></i>
 						<h3 class="box-title">Free. Always.</h3>
 					</div>
@@ -55,7 +55,7 @@
 			<div class="col-md-4 col-sm-6 col-xs-12">
 		
 				<div class="box box-solid">
-					<div class="box-header bg-olive">
+					<div class="box-header bg-red">
 						<i class="fa fa-group"></i>
 						<h3 class="box-title">Vibrant Community</h3>
 					</div>
@@ -69,7 +69,7 @@
 				</div>
 		
 				<div class="box box-solid">
-					<div class="box-header bg-light-blue">
+					<div class="box-header bg-blue">
 						<i class="fa fa-flask"></i>
 						<h3 class="box-title">Research</h3>
 					</div>
@@ -119,7 +119,7 @@
 		
 					<div class="col-md-12 col-sm-6 col-xs-12">
 						<div class="box box-solid">
-							<div class="box-header bg-purple">
+							<div class="box-header bg-green">
 								<i class="fa fa-lock"></i>
 								<h3 class="box-title">Privacy</h3>
 							</div>
@@ -134,7 +134,7 @@
 		
 					<div class="col-md-12 col-sm-6 col-xs-12">
 						<div class="box box-solid">
-							<div class="box-header bg-light-blue">
+							<div class="box-header bg-yellow">
 								<i class="fa fa-heart"></i>
 								<h3 class="box-title">Born in Boston</h3>
 							</div>
@@ -153,7 +153,7 @@
 		
 		
 		<div class="about-author box box-solid">
-			<div class="box-header bg-olive">
+			<div class="box-header bg-red">
 				<i class="fa fa-user"></i>
 				<h3 class="box-title">About the Team</h3>
 			</div>
@@ -202,7 +202,7 @@
 			</div>
 			
 			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="box box-solid bg-olive">
+				<div class="box box-solid bg-green">
 					<div class="box-header centered">
 						<h3 class="box-title no-float">Russ Santos</h3>
 					</div>
@@ -219,7 +219,7 @@
 			</div>
 				
 			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="box box-solid bg-olive">
+				<div class="box box-solid bg-green">
 					<div class="box-header centered">
 						<h3 class="box-title no-float">Roger LaCroix</h3>
 					</div>
@@ -236,7 +236,7 @@
 			</div>
 				
 			<div class="col-md-4 col-sm-4 col-xs-12">
-				<div class="box box-solid bg-olive">
+				<div class="box box-solid bg-green">
 					<div class="box-header centered">
 						<h3 class="box-title no-float">Danny Smyda</h3>
 					</div>

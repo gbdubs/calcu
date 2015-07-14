@@ -11,7 +11,7 @@
 		<div class="centered margin-top-100">
 			<h2 class="welcome-banner">Congratulations!</h2>
 			<h3>Congratulations on finishing the baseline test! You are well on your way to improving your math skills</h3>
-			<h3>As we speak, our servers are analyzing your results to try to give you the best experience for you.</h3>
+			<h3>As we speak, our servers are analyzing your results to optimize your experience on CalcU</h3>
 			<h3>While you wait for that (1-2 minutes), familiarize yourself with some other features of the site.</h3>
 			
 			
@@ -29,7 +29,7 @@
 						</a>
 						<br class="visible-xs">
 						<a href="/user/me" class="hexagon-button">
-							<div class="text-olive">
+							<div class="text-green">
 								<div class="hexagon outer-hexagon"></div>
 								<div class="hexagon-button-insides bg-white text-white">
 									<div class="hexagon inner-hexagon"></div>
@@ -42,13 +42,13 @@
 					<br class="visible-xs">
 					<br class="visible-xs">
 					<div class="hexagon-row">
-						<a href="/contribute"  class="hexagon-button">
+						<a href="/contact" class="hexagon-button">
 							<div class="text-red">
 								<div class="hexagon outer-hexagon"></div>
 								<div class="hexagon-button-insides bg-white text-white">
 									<div class="hexagon inner-hexagon"></div>
 								</div>
-								<i class="fa fa-fw fa-graduation-cap fa-5x badge-icon"></i>
+								<i class="fa fa-fw fa-heart fa-5x badge-icon"></i>
 							</div>
 						</a>
 						<br class="visible-xs">
@@ -68,7 +68,7 @@
 					<br class="visible-xs">
 					<div class="hexagon-row">
 						<a href="/about" class="hexagon-button">
-							<div class="text-black">
+							<div class="text-green">
 								<div class="hexagon outer-hexagon"></div>
 								<div class="hexagon-button-insides bg-white text-white">
 									<div class="hexagon inner-hexagon"></div>
@@ -77,13 +77,13 @@
 							</div>
 						</a>
 						<br class="visible-xs">
-						<a href="/contact" class="hexagon-button">
-							<div class="text-purple">
+						<a href="/contribute"  class="hexagon-button">
+							<div class="text-blue">
 								<div class="hexagon outer-hexagon"></div>
 								<div class="hexagon-button-insides bg-white text-white">
 									<div class="hexagon inner-hexagon"></div>
 								</div>
-								<i class="fa fa-fw fa-heart fa-5x badge-icon"></i>
+								<i class="fa fa-fw fa-graduation-cap fa-5x badge-icon"></i>
 							</div>
 						</a>
 					</div>
