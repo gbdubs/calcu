@@ -8,7 +8,7 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		<div class="centered"?>
+		<div class="centered">
 			<h2 class="welcome-banner margin-top-100 margin-bottom-50">Documentation</h2>
 			<div class="box box-solid max-width-at-1000 align-left">
 				<div class="box-header bg-blue">
