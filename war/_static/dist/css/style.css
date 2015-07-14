@@ -5282,6 +5282,10 @@ h2.mini-font {
 
 .hexagon-bullet-line-item:nth-child(even) {
 	margin: -8px 0 -8px 23px;
+}
+
+.full-content{
+	margin: -20px -15px;
 }.achievement-badge{
     text-align: center;
     width: 100%;
