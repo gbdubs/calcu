@@ -27,12 +27,12 @@
 								</c:forEach>
 								<c:choose>
 									<c:when test="${bookmarked}">
-										<button type="button" class="toggle-bookmark-button buttonless" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
+										<button type="button" class="toggle-bookmark-button buttonless btn btn-${content.boxColor}" data-action="remove" data-user="${user.userId}" data-content="${content.uuid}">
 											<i class="fa fa-bookmark"></i>
 										</button>
 									</c:when>
 									<c:otherwise>
-										<button type="button" class="toggle-bookmark-button buttonless" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
+										<button type="button" class="toggle-bookmark-button buttonless btn btn-${content.boxColor}" data-action="add" data-user="${user.userId}" data-content="${content.uuid}">
 											<i class="fa fa-bookmark-o"></i>
 										</button>
 									</c:otherwise>
