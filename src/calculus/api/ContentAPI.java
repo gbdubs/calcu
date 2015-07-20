@@ -316,6 +316,7 @@ public class ContentAPI {
 		String url = "/content/" + uuid;
 		if (contentType.equals("answer")){
 			String parentUuid = req.getParameter("parentUuid");
+			uuid = UUID.randomUUID().toString();
 			try {
 				url = (ContentAPI.instantiateContent(parentUuid)).getUrl();
 			} catch (EntityNotFoundException e) {
@@ -337,6 +338,7 @@ public class ContentAPI {
 			creatorId = user.getUserId();
 		}
 		
+		System.out.println("CREATED NEW CONTENT WITH UUID: " + uuid);
 		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
 		// Content Model.  We only want that SINGLE class to determine which properties are indexed.
 		entity.setProperty("uuid", uuid);

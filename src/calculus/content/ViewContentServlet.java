@@ -54,7 +54,6 @@ public class ViewContentServlet extends HttpServlet {
 		}
 		
 		if (contentType.equals("practiceProblem")) {
-			System.out.println("GETTING HERE");
 			PracticeProblem pp;
 			try {
 				pp = new PracticeProblem(uuid);
@@ -89,7 +88,6 @@ public class ViewContentServlet extends HttpServlet {
 				// We should never hit this piece of code, as we just checked that the Content existed (above) and is the correct type.
 				// The only case we could have with an error here is if we happen to be looking for it at the precise moment it is 
 				// deleted.  This is unlikely enough that we can simply return a page-not-found.
-				System.out.println("WAS NOT FOUND A");
 				resp.setContentType("text/html");
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 				jsp.forward(req, resp);
@@ -101,13 +99,11 @@ public class ViewContentServlet extends HttpServlet {
 				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
-				System.out.println("WAS NOT FOUND B");
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
 				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else {
-				System.out.println("WAS NOT FOUND C");
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 			}
 			jsp.forward(req, resp);
@@ -139,7 +135,6 @@ public class ViewContentServlet extends HttpServlet {
 			}
 			jsp.forward(req, resp);
 		} else if (contentType.equals("answer")){
-			System.out.println("CALLING ANSWER");
 			Answer answer;
 			try {
 				answer = new Answer(uuid);
