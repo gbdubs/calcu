@@ -24,7 +24,7 @@
 				
 				
 				<form action="/admin/upload" method="POST" >
-					<input type="text" name="numbers" class="full-width padding-5 margin-top-20" placeholder="Type in the state files you want to upload, seperated by commas"/>
+					<!--<input type="text" name="numbers" class="full-width padding-5 margin-top-20" placeholder="Type in the state files you want to upload, seperated by commas"/>-->
 				
 					<button class="hexagon-button buttonless">
 						<div class="text-blue">
