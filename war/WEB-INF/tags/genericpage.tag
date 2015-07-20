@@ -54,6 +54,11 @@
         <div class="navbar-right">
             <ul class="nav navbar-nav">
 
+                <!-- Search Menu-->
+                <li class="dropdown messages-menu">
+                    <jsp:include page="/WEB-INF/templates/searchbar-menu.jsp" />
+                </li>
+                
                 <!-- Notifications Menu-->
                 <li class="dropdown messages-menu">
                     <jsp:include page="/WEB-INF/templates/notifications-menu.jsp" />
