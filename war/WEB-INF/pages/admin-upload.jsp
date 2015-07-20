@@ -14,12 +14,18 @@
 				<h2 class="welcome-banner margin-top-100">State Upload</h2>
 			
 				<h3 class="welcome-banner-subtitle margin-bottom-50">
-					Here you can update the database based on the state file saved in /war/WEB-INF/data/state.txt
+					Here you can update the database based on the state file saved in /war/WEB-INF/data/content/state-file-x.txt
 					To begin the process of uploading, press <i>the big button</i>, which will begin the process of this upload
 					(which may take several minutes to complete). This is a <b>VERY</b> expensive operation to run in the cloud.
 				</h3>
 				
-				<form action="${blobstoreUploadUrl}" method="POST" enctype="multipart/form-data">
+				<h2 class="thin">Which state-files do you want to upload right now?</h2>
+				    
+				
+				
+				<form action="/admin/upload" method="POST" >
+					<input type="text" name="numbers" class="full-width padding-5 margin-top-20" placeholder="Type in the state files you want to upload, seperated by commas"/>
+				
 					<button class="hexagon-button buttonless">
 						<div class="text-blue">
 							<div class="hexagon outer-hexagon"></div>

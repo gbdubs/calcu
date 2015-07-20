@@ -32,7 +32,13 @@ public class UploadServlet extends HttpServlet{
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		UserService us = UserServiceFactory.getUserService();
 		if (us.isUserLoggedIn() && us.isUserAdmin()){
-			UploadWorker.uploadState();
+			String[] numStrings = req.getParameter("numbers").split(",");
+			int[] results = new int[numStrings.length];
+			int index = 0;
+			for (String str : numStrings){
+				results[index++] = Integer.parseInt(str);
+			}
+			UploadWorker.uploadState(results);
 			resp.sendRedirect("/home");
 		} else {
 			resp.sendRedirect("/page-not-found");

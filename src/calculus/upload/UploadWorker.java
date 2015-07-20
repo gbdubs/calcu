@@ -30,13 +30,17 @@ public class UploadWorker extends HttpServlet {
 		
 		InputStream is = getServletContext().getResourceAsStream(filePath);
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-		
-		DataUploadPackage dataPackage = gson.fromJson(br, DataUploadPackage.class);
-		
-		dataPackage.patchLatex();
-		
-		dataPackage.asyncSave();
+		if (is != null){
+			
+			BufferedReader br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+			
+			DataUploadPackage dataPackage = gson.fromJson(br, DataUploadPackage.class);
+			
+			dataPackage.patchLatex();
+			
+			dataPackage.asyncSave();
+	
+		}
 	}
 
 	public static void uploadAchievements() {
@@ -44,10 +48,11 @@ public class UploadWorker extends HttpServlet {
 		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/achievements.txt"));
 	}
 	
-	public static void uploadState(){
-		Queue queue = QueueFactory.getDefaultQueue();
-		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/first-round.txt"));
-		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/second-round.txt"));
+	public static void uploadState(int[] numbers){
+		Queue queue = QueueFactory.getQueue("uploadQueue");
+		for (int i : numbers){
+			queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/state-file-"+i+".txt"));
+		}
 	}
 	
 }
