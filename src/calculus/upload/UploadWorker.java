@@ -46,7 +46,8 @@ public class UploadWorker extends HttpServlet {
 	
 	public static void uploadState(){
 		Queue queue = QueueFactory.getDefaultQueue();
-		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/state.txt"));
+		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/first-round.txt"));
+		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/second-round.txt"));
 	}
 	
 }

@@ -58,6 +58,7 @@ public abstract class Content {
 	private String tags;
 	private String url;
 	private String source;
+	private String topicUrl;
 	
 	/*
 	 * Each of the following properties is either UNINDEXED (meaning we don't perform queries over it, but
@@ -78,6 +79,7 @@ public abstract class Content {
 	 * tags           = UNINDEXED
 	 * url            = UNINDEXED
 	 * source         = UNINDEXED
+	 * topicUrl       = UNINDEXED
 	 * 
 	 * SUBCLASSES:
 	 * authorSolution = UNINDEXED [practiceProblem only]
@@ -102,6 +104,7 @@ public abstract class Content {
 		this.tags = (String) entity.getProperty("tags");
 		this.url = (String) entity.getProperty("url");
 		this.source = (String) entity.getProperty("source");
+		this.topicUrl = (String) entity.getProperty("topicUrl");
 		
 		this.entity = entity;
 		this.author = null;
@@ -303,6 +306,10 @@ public abstract class Content {
 		return source;
 	}
 	
+	public String getTopicUrl(){
+		return topicUrl;
+	}
+	
 	public boolean getAlreadyRatedByCurrentUser(){
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user == null) return false;
@@ -344,6 +351,7 @@ public abstract class Content {
 		entity.setUnindexedProperty("tags", tags);
 		entity.setUnindexedProperty("url", url);
 		entity.setUnindexedProperty("source", source);
+		entity.setUnindexedProperty("topicUrl", topicUrl);
 		
 		saveTags();
 		
