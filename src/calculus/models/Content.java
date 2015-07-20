@@ -12,6 +12,7 @@ import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
 import calculus.utilities.Cleaner;
 import calculus.utilities.KarmaDescription;
+import calculus.utilities.LatexPatcher;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -360,5 +361,14 @@ public abstract class Content {
 	}
 
 	public abstract void setTypeSpecificEntityProperties();
+	
+	public void patchLatex() {
+		title = LatexPatcher.makeReplacements(title);
+		body = LatexPatcher.makeReplacements(body);
+		patchLatexTypeSpecificProperties();
+	}
+	
+	public abstract void patchLatexTypeSpecificProperties();
+	
 	
 }

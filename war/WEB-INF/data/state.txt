@@ -23019,52 +23019,6 @@
     }
   ],
   "textContent": [],
-  "answers": [
-    {
-      "approved": false,
-      "parentUuid": "468a1378-c49c-46ec-9afc-f2b41d157bea",
-      "uuid": "d4c50145-65e7-493b-8aa9-da268bfa669b",
-      "contentType": "answer",
-      "creatorUserId": "185804764220139124118",
-      "createdAt": 1434556208161,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "RE:Special Functions Practice",
-      "body": "ok",
-      "url": "/practice-problem/468a1378-c49c-46ec-9afc-f2b41d157bea"
-    },
-    {
-      "approved": false,
-      "parentUuid": "468a1378-c49c-46ec-9afc-f2b41d157bea",
-      "uuid": "4f517bc3-f410-45ee-b934-3c5fe0567556",
-      "contentType": "answer",
-      "creatorUserId": "185804764220139124118",
-      "createdAt": 1434556240463,
-      "anonymous": false,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "RE:Special Functions Practice",
-      "body": "ok",
-      "url": "/practice-problem/468a1378-c49c-46ec-9afc-f2b41d157bea"
-    },
-    {
-      "approved": false,
-      "parentUuid": "468a1378-c49c-46ec-9afc-f2b41d157bea",
-      "uuid": "cdc198ea-32e9-4c0e-98b8-e28b6eee03a2",
-      "contentType": "answer",
-      "creatorUserId": "185804764220139124118",
-      "createdAt": 1434556414837,
-      "anonymous": false,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "RE:Special Functions Practice",
-      "body": "ok^2",
-      "url": "/practice-problem/468a1378-c49c-46ec-9afc-f2b41d157bea"
-    }
-  ],
+  "answers": [],
   "topics": []
 }

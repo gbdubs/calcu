@@ -26,4 +26,9 @@ public class TextContent extends Content {
 	public void setTypeSpecificEntityProperties() {
 		// TextContent does not have any special properties!
 	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		// TextContent have no special properties!
+	}
 }
