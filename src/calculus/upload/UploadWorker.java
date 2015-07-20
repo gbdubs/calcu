@@ -34,6 +34,8 @@ public class UploadWorker extends HttpServlet {
 		
 		DataUploadPackage dataPackage = gson.fromJson(br, DataUploadPackage.class);
 		
+		dataPackage.patchLatex();
+		
 		dataPackage.asyncSave();
 	}
 

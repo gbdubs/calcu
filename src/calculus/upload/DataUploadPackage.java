@@ -94,5 +94,20 @@ public class DataUploadPackage {
 		Gson gson = new Gson();
 		return gson.toJson(this);
 	}
+
+	public void patchLatex() {
+		for (PracticeProblem pp : practiceProblems){
+			pp.patchLatex();
+		}
+		for (Question q : questions){
+			q.patchLatex();
+		}
+		for (TextContent tc : textContent){
+			tc.patchLatex();
+		}
+		for (Answer a : answers){
+			a.patchLatex();
+		}
+	}
 	
 }
