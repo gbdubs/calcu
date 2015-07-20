@@ -1,3 +1,4 @@
+
 .navbar-nav>.messages-menu>.dropdown-menu.dropdown-search {
 	max-width: Calc(100% - 200px);
 	min-width: 700px;
@@ -71,5 +72,13 @@
 @media only screen and (max-width: 560px) {
 	.navbar-nav>.messages-menu>.dropdown-menu.dropdown-search>.header:after {
 		display: none;
-	}
+}
+	
+.hexagon-button.buttonless {
+	position: relative;
+}
+
+h1.welcome-banner{
+	font-size: 120px;
+    font-weight: 100;
 }

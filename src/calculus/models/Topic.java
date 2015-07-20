@@ -87,6 +87,10 @@ public class Topic {
 		this.originalTags = "";
 	}
 	
+	public Topic(){
+		//GSON EMPTY CONSTRUCTOR -- DO NOT USE.
+	}
+	
 	public void save(){
 		Entity e = preSave();
 		datastore.put(e);

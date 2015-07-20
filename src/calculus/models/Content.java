@@ -4,9 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
@@ -14,6 +12,7 @@ import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
 import calculus.utilities.Cleaner;
 import calculus.utilities.KarmaDescription;
+import calculus.utilities.LatexPatcher;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -43,7 +42,7 @@ public abstract class Content {
 	// We have these as transient fields so they are not saved in the JSON Serialization process.
 	protected transient Entity entity;
 	private transient Author author;
-	private transient String previousTags;
+
 	
 	private String uuid;
 	private String contentType;
@@ -106,7 +105,6 @@ public abstract class Content {
 		
 		this.entity = entity;
 		this.author = null;
-		this.previousTags = tags;
 	}
 
 	public Content(Entity e) {
@@ -119,6 +117,11 @@ public abstract class Content {
 
 	public Content(String uuid) throws EntityNotFoundException {
 		this(datastore.get(KeyFactory.createKey("Content", uuid)), ContentAPI.getContentType(uuid));
+	}
+	
+	// GSON CONSTRUCTOR -- DO NOT USE.
+	public Content(){
+		tags = "";
 	}
 	
 	public String getUuid(){
@@ -323,6 +326,10 @@ public abstract class Content {
 	}
 	
 	private void preSave(){
+		if (entity == null){
+			entity = new Entity(KeyFactory.createKey("Content", uuid));
+		}
+		
 		entity.setUnindexedProperty("uuid", uuid);
 		entity.setProperty("contentType", contentType);
 		entity.setProperty("creatorUserId", creatorUserId);
@@ -354,5 +361,14 @@ public abstract class Content {
 	}
 
 	public abstract void setTypeSpecificEntityProperties();
+	
+	public void patchLatex() {
+		title = LatexPatcher.makeReplacements(title);
+		body = LatexPatcher.makeReplacements(body);
+		patchLatexTypeSpecificProperties();
+	}
+	
+	public abstract void patchLatexTypeSpecificProperties();
+	
 	
 }

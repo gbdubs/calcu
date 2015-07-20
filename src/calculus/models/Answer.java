@@ -8,6 +8,11 @@ public class Answer extends Content {
 	private boolean approved;
 	private String parentUuid;
 	
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public Answer(){
+			
+	}
+	
 	public Answer(String uuid) throws EntityNotFoundException {
 		super(uuid, "answer");
 		postContentConstructor();
@@ -69,6 +74,11 @@ public class Answer extends Content {
 	public void setTypeSpecificEntityProperties() {
 		this.entity.setUnindexedProperty("approved", this.approved);
 		this.entity.setUnindexedProperty("parentUuid", this.parentUuid);
+	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		// No latex special fields
 	}
 	
 }

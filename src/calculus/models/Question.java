@@ -5,6 +5,11 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 
 public class Question extends Content{
 	
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public Question(){
+		
+	}
+	
 	public Question(String uuid) throws EntityNotFoundException {
 		super(uuid, "question");
 	}
@@ -20,6 +25,11 @@ public class Question extends Content{
 
 	@Override
 	public void setTypeSpecificEntityProperties() {
+		// Questions have no special properties!
+	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
 		// Questions have no special properties!
 	}
 }

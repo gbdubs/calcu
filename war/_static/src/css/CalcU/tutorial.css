@@ -29,7 +29,7 @@ span.looming-number{
 	display: inline-block;
 	top: -25px;
 	left: -35px;
-	width: 100px;
+	width: 96px;
 	height: 55px;
 	line-height: 50px;
 	border-radius: 0;
@@ -40,24 +40,24 @@ span.looming-number{
 span.looming-number:before {
 	content: "";
 	position: absolute;
-	top: -25px;
+	top: -28px;
 	left: 0;
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 25px solid #D0D0D0;
+	border-left: 48px solid transparent;
+	border-right: 48px solid transparent;
+	border-bottom: 28px solid #D0D0D0;
 }
 span.looming-number:after {
 	content: "";
 	position: absolute;
-	bottom: -25px;
+	bottom: -28px;
 	left: 0;
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 25px solid #D0D0D0;
+	border-left: 48px solid transparent;
+	border-right: 48px solid transparent;
+	border-top: 28px solid #D0D0D0;
 }
 
 .tutorial-item-title{

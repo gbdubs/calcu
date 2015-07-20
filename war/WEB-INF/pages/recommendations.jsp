@@ -27,7 +27,7 @@
 				</p>
 				<p>
 					On each piece of recommended content, you can provide us with feedback:
-					<ul class="basic-list">
+					<ul class="basic-list margin-bottom-40">
 						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-interested"><i class="fa fa-fw fa-thumbs-up"></i></i>Tell us when you like a recommendation to get more like it! </li>
 						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-bookmark"><i class="fa fa-fw fa-bookmark"></i></i>You can bookmark the content so that you can come back to it later </li>
 						<li class="hexagon-bullet-line-item"><i class="hexagon-icon-button hexagon-recommendations"><i class="fa fa-fw fa-eye-slash "></i></i>You can hide the content if you have seen it before. This doesn't tell us what you think about it </li>
