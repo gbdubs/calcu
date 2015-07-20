@@ -38,6 +38,8 @@ public class UploadWorker extends HttpServlet {
 			
 			dataPackage.patchLatex();
 			
+			dataPackage.cleanForHtml();
+			
 			dataPackage.asyncSave();
 	
 		}

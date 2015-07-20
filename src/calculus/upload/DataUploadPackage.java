@@ -110,4 +110,19 @@ public class DataUploadPackage {
 		}
 	}
 	
+	public void cleanForHtml() {
+		for (PracticeProblem pp : practiceProblems){
+			pp.cleanForHtml();
+		}
+		for (Question q : questions){
+			q.cleanForHtml();
+		}
+		for (TextContent tc : textContent){
+			tc.cleanForHtml();
+		}
+		for (Answer a : answers){
+			a.cleanForHtml();
+		}
+	}
+	
 }

@@ -378,5 +378,8 @@ public abstract class Content {
 	
 	public abstract void patchLatexTypeSpecificProperties();
 	
-	
+	public void cleanForHtml(){
+		title = Cleaner.cleanHtml(title);
+		body = Cleaner.cleanHtml(body);
+	}
 }
