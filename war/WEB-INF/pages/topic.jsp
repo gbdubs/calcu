@@ -10,8 +10,8 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 margin-bottom-50 full-width">
-				<h2 class="welcome-banner margin-top-100">Geometry</h2>
-				<h3 class="welcome-banner-subtitle margin-bottom-50">Click on something to get started!</h3>
+				<h2 class="welcome-banner margin-top-100">${topic.title}</h2>
+				<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.shortDescription}</h3>
 				<div class="align-left">
 					<div class="box-body">
 						<div class="box box-warning box-solid">
