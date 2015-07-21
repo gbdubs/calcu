@@ -168,6 +168,18 @@ public class DataUploadPackage {
 		for (DataUploadPackage dup : distributed){
 			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
 		}
+		
+		DataUploadPackage stateFileThree = getFileContents("war/WEB-INF/data/content/state-file-3.txt");
+		distributed = distributeToSmallSizePackages(stateFileThree);
+		for (DataUploadPackage dup : distributed){
+			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
+		}
+		
+		DataUploadPackage stateFileFour = getFileContents("war/WEB-INF/data/content/state-file-4.txt");
+		distributed = distributeToSmallSizePackages(stateFileFour);
+		for (DataUploadPackage dup : distributed){
+			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
+		}
 	}
 	
 	private DataUploadPackage split(){

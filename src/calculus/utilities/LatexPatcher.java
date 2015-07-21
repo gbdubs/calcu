@@ -7,6 +7,9 @@ public class LatexPatcher {
 	
 	private static String[][] replacements =
 		{
+			{"\\n\\", "<br/>\\"},
+			{"\\n ", "<br/> "},
+			{"\\n<", "<br/><"},
 			{"\\R ", "\\mathbb R"},
 			{"\\D ", "\\mathbb D"},
 			{"\\Z ", "\\mathbb Z"},
