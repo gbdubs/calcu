@@ -9,6 +9,6 @@
 	</queue>
 	<queue>
 		<name>uploadQueue</name>
-		<rate>2/s</rate>
+		<rate>1/s</rate>
 	</queue>
 </queue-entries>

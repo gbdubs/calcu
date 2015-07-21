@@ -1,5 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
@@ -15,24 +16,17 @@
 				
 				
 					<!-- FIRST COLUMN --> 
-					<div id="ts-col-1" class="col-lg-3 col-md-4 col-sm-4">
+					<div id="ts-col-1" class="col-lg-3 col-md-4 col-sm-4" data-column="1">
 						<div class="box box-primary box-solid">
 							<div class="box-header centered">
 								<h3 class="box-title float-none">Topics</h3>
 							</div>
 							<div class="box-body align-left">
-								<a id="ts-geometry" class="btn btn-block btn-default">
-									Geometry
-								</a>
-								<a id="ts-algebra" class="btn btn-block btn-default">
-									Algebra
-								</a>
-								<a id="ts-trigonometry" class="btn btn-block btn-default">
-									Trigonometry
-								</a>
-								<a id="ts-calculus" class="btn btn-block btn-default">
-									Calculus
-								</a>
+								<c:forEach var="topic" items="${rootTopics}">
+									<a id="ts-${topic.uuid}" class="btn btn-block btn-default">
+										${topic.title}
+									</a>
+								</c:forEach>
 							</div>
 						</div>
 					</div>
@@ -62,7 +56,7 @@
 					
 					<div class="hidden" id="ts-data">
 						<c:forEach var="topic" items="${allTopics}">
-							<div id="tx-${topic.uuid}-data">
+							<div id="ts-${topic.uuid}-data">
 								<div class="title">${topic.title}</div>
 								<div class="sub-topics">${topic.subTopics}</div>
 								<div class="short-desc">${topic.shortDescription}</div>

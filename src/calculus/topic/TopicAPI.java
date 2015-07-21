@@ -1,7 +1,9 @@
 package calculus.topic;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import calculus.utilities.UuidTools;
 
@@ -15,27 +17,30 @@ import com.google.appengine.api.datastore.Query;
 public class TopicAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+	private static Map<String, String> topicMapping = new HashMap<String, String>();
+	
 	
 	public static Topic getOrCreateTopicFromUrl(String topicUrl){
-		Entity titleMapping = Topic.getTopicTitleMapping();
+		Entity titleMappingEntity = Topic.getTopicTitleMapping();
 		
-		String title = topicUrl.substring(topicUrl.lastIndexOf('/') + 1);
+		String title = topicUrl.substring(topicUrl.lastIndexOf('/') + 1).toLowerCase();
 		
-		if (titleMapping.getProperty(title) != null){
-			return getTopicByUUID((String) titleMapping.getProperty(title));
+		if (titleMappingEntity.getProperty(title) != null){
+			return getTopicByUUID((String) titleMappingEntity.getProperty(title));
 		} 
+		if (topicMapping.get(title) != null){
+			return getTopicByUUID(topicMapping.get(title));
+		}
+		
+		System.out.println("CREATING FROM URL: " + topicUrl + " TITLE: " + title);
 		Topic result = getTopicByUUID(createTopicFromUrl(topicUrl));
 		
-		titleMapping.setUnindexedProperty(result.getTitle(), result.getUuid());
+		titleMappingEntity.setUnindexedProperty(title, result.getUuid());
+		topicMapping.put(title, result.getUuid());
+		datastore.put(titleMappingEntity);
 		
-		datastore.put(titleMapping);
 		
 		return result;
-	}
-
-	private static Topic getTopicByName(String name){
-		Entity mapping = Topic.getTopicTitleMapping();
-		return getTopicByUUID((String) mapping.getProperty(name));
 	}
 	
 	private static Topic getTopicByUUID(String uuid){
@@ -60,11 +65,15 @@ public class TopicAPI {
 				for (int i = 1; i < topicTitles.length - 1; i++){
 					parental += "/" + topicTitles[i];
 				}
-				Topic parent = getOrCreateTopicFromUrl(parental);
+				Topic parent = getOrCreateTopicFromUrl(parental.toLowerCase());
 				parent.addSubTopic(t.getUuid());
 				t.addParentTopic(parent.getUuid());
 				parent.save();
 			}
+			Entity titleMapping = Topic.getTopicTitleMapping();
+			titleMapping.setUnindexedProperty(t.getTitle().toLowerCase(), t.getUuid());
+			datastore.put(titleMapping);
+			topicMapping.put(t.getTitle().toLowerCase(), t.getUuid());
 			t.save();
 			return t.getUuid();
 		}
@@ -159,5 +168,6 @@ public class TopicAPI {
 		}
 		return topics;
 	}
+	
 }
 
