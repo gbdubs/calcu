@@ -146,5 +146,18 @@ public class TopicAPI {
 		return topics;
 	}
 	
+	public static List<Topic> getAllRootTopics(){
+		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
+		List<Topic> topics = new ArrayList<Topic>();
+		Query q = new Query("Topic");
+		PreparedQuery pq = ds.prepare(q);
+		for (Entity e : pq.asIterable()){
+			Topic t = new Topic(e);
+			if (t != null && t.getParentTopics().size() == 0){
+				topics.add(t);
+			}
+		}
+		return topics;
+	}
 }
 
