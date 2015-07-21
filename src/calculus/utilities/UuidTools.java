@@ -4,8 +4,11 @@ public class UuidTools {
 	
 	public static String getUuidFromUrl(String url){	
 		try{
+			if (url == null || url.length() < 36){
+				return null;
+			}
+			
 			String[] potentials = url.split("-|/");
-		
 
 			int[] expected = {8, 4, 4, 4, 12};
 			int[] actual = new int[potentials.length];
@@ -41,6 +44,8 @@ public class UuidTools {
 		} catch (java.lang.StringIndexOutOfBoundsException e){
 			return null;
 		} catch (java.lang.ArrayIndexOutOfBoundsException e){
+			return null;
+		} catch (java.lang.NullPointerException e){
 			return null;
 		}
 	}

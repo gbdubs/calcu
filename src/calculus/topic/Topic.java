@@ -89,9 +89,9 @@ public class Topic {
 	public static Entity getTopicTitleMapping(){
 		Entity mapping;
 		try {
-			mapping = datastore.get(KeyFactory.createKey("Topic", "TopicTitleMapping"));
+			mapping = datastore.get(KeyFactory.createKey("TopicTitleMapping", "TopicTitleMapping"));
 		} catch (EntityNotFoundException e) {
-			mapping = new Entity(KeyFactory.createKey("Topic", "TopicTitleMapping"));
+			mapping = new Entity(KeyFactory.createKey("TopicTitleMapping", "TopicTitleMapping"));
 		}
 		return mapping;
 	}
@@ -175,13 +175,13 @@ public class Topic {
 	}
 	
 	void addSubTopic(String subTopic){
-		if (this.subTopics.contains(subTopic)){
+		if (!this.subTopics.contains(subTopic)){
 			this.subTopics.add(subTopic);
 		}
 	}
 	
 	void addParentTopic(String parentTopic){
-		if (this.parentTopics.contains(parentTopic)){
+		if (!this.parentTopics.contains(parentTopic)){
 			this.parentTopics.add(parentTopic);
 		}
 	}
