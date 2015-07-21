@@ -44,53 +44,88 @@ $(function(){
 			
 		}
 		
-		
-		$(".topic-selector-page a.btn").click(function(){
-			var id = $(this).attr("id");
-			$(".no-dropdown").removeClass("no-dropdown");
-			if ($(this).hasClass("topic-selector-selected")){
-				unselectSelectedButton($(this).parent());
-				$("#" + id + "-info-box").addClass("hidden");
-			} else {
-				unselectSelectedButton($(this).parent());
-				$(this).addClass("topic-selector-selected").removeClass("btn-default").addClass("btn-success");
-				addSelectedBelowToSiblings(this);
-				$(this).parent().removeClass("topic-selector-selected-above");
-				if($("#" + id + "-data").length > 0){
-					if($("#" + id + "-box").length > 0){
-						createNewSelectorBox(2, id);
-					}
-					$("#" + id + "-box").removeClass("hidden");
+		function addTopicSelectorClickToScope(scopeElement){
+			$("a.btn", scopeElement).click(function(){
+				var id = $(this).attr("id");
+				$(".no-dropdown").removeClass("no-dropdown");
+				if ($(this).hasClass("topic-selector-selected")){
+					unselectSelectedButton($(this).parent());
+					$("#" + id + "-info-box").addClass("hidden");
 				} else {
-					$(this).parent().addClass("no-dropdown");
+					unselectSelectedButton($(this).parent());
+					$(this).addClass("topic-selector-selected").removeClass("btn-default").addClass("btn-success");
+					addSelectedBelowToSiblings(this);
+					$(this).parent().removeClass("topic-selector-selected-above");
+					if($(".sub-topics", "#" + id + "-data").text().length > 2){
+						if($("#" + id + "-box").length == 0){
+							var col = parseInt(($(this).closest(".col-lg-3").attr("id")).substring(7));
+							createNewSelectorBox(col+1, id);
+						}
+						$("#" + id + "-box").removeClass("hidden");
+					} else {
+						$(this).parent().addClass("no-dropdown");
+					}
+					$(".ts-info-box").addClass("hidden");
+					if ($("#" + id + "-info-box").length == 0){
+						createNewInfoBox(id);
+					}
+					$("#" + id + "-info-box").removeClass("hidden");
 				}
-				$(".ts-info-box").addClass("hidden");
-				$("#" + id + "-info-box").removeClass("hidden");
-			}
-		});
+			});
+		}
 		
+		addTopicSelectorClickToScope("#topic-selector");
 		
 		
 		function createNewSelectorBox(colNumber, id){
 			var data = $("#" + id + "-data");
 			var title = $(".title", data).text();
-			var subTopics = $(".sub-topics", data).text();
+			var subTopics = $(".sub-topics", data).text().replace("[","").replace("]","").split(",");
 			var shortDesc = $(".short-desc", data).text();
 			var longDesc = $(".long-desc", data).text();
 			var tags = $(".tags", data).text();
 			
 			var template = $("#ts-topic-box-template").clone().attr("id", id + "-box");
 			$(".box-title", template).text(title);
+			var boxBody = $(".box-body", template);
 			
+			for (var subTopic in subTopics){
+				var newButtonId = subTopics[subTopic].trim();
+				var newButtonTitle = $(".title", "#ts-" + newButtonId + "-data").text();
+				var newButton = $("#ts-topic-box-button").clone().attr("id", "ts-" + newButtonId).text(newButtonTitle);
+				$(boxBody).append(newButton);
+			}
+			
+			addTopicSelectorClickToScope(boxBody);
 			
 			var column = $("#ts-col-" + colNumber);
 			if (column.length == 0){
-				column = $("#tx-topic-box-template").clone();
-				column.attr("id", "ts-col-" + colNumber);
+				column = $("#ts-column-template").clone();
+				$(column).attr("id", "ts-col-" + colNumber);
+				$(column).removeClass("hidden");
 				$("#topic-selector").append(column);
 			}
-			column.append(template);
+			$(column).append(template);
 		}
+		
+		function createNewInfoBox(id){
+			var data = $("#" + id + "-data");
+			var title = $(".title", data).text();
+			var shortDesc = $(".short-desc", data).text();
+			var longDesc = $(".long-desc", data).text();
+			var numContent = $(".content-size", data).text();
+			var tags = $(".tags", data).text();
+			
+			var template = $("#ts-info-box-template").clone().attr("id", id + "-info-box");
+			$(".box-title", template).text("Currently Selected: " + title);
+			$(".short-description", template).text(shortDesc);
+			$(".long-description", template).text(longDesc);
+			$(".tags", template).text(tags);
+			$("b", template).text(numContent);
+			
+			$("#topic-selector").append(template);
+		}
+		
 		
 	}
 });
