@@ -15,9 +15,6 @@ import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 
 public class Topic {
 
@@ -33,9 +30,7 @@ public class Topic {
 	private String tags;
 	private int difficulty;
 	
-	private boolean changedTitle;
-	private boolean changedTags;
-	private String originalTags;
+	private List<String> contentUuids;
 	
 	public Topic(String uuid) throws EntityNotFoundException{
 		this(datastore.get(KeyFactory.createKey("Topic", uuid)));
@@ -46,45 +41,13 @@ public class Topic {
 		this.subTopics = (List<String>) e.getProperty("subTopics");
 		if (subTopics == null){ subTopics = new ArrayList<String>(); }
 		this.parentTopics = (List<String>) e.getProperty("parentTopics");
+		this.contentUuids = (List<String>) e.getProperty("contentUuids");
 		if (parentTopics == null){ parentTopics = new ArrayList<String>(); }
 		this.title = (String) e.getProperty("title");
 		this.shortDescription = (String) e.getProperty("shortDescription");
 		this.longDescription = ((Text) e.getProperty("longDescription")).getValue();
 		this.tags = (String) e.getProperty("tags");
-		this.originalTags = tags;
 		this.difficulty = (int) ((Long) e.getProperty("difficulty")).intValue();
-		this.changedTags = false;
-		this.changedTitle = false;
-	}
-	
-	public Topic(JsonObject jo){
-		uuid = UUID.randomUUID().toString();
-		JsonElement uuidElement = jo.get("uuid");
-		if (uuidElement != null){
-			uuid = uuidElement.getAsString();
-		}
-		
-		this.title = jo.get("title").getAsString();
-		this.shortDescription = jo.get("shortDescription").getAsString();
-		this.longDescription = jo.get("longDescription").getAsString();
-		this.tags = jo.get("tags").getAsString();
-		this.difficulty = jo.get("difficulty").getAsInt();
-		
-		JsonArray ja = jo.get("parentTopics").getAsJsonArray();
-		this.parentTopics = new ArrayList<String>();
-		for (JsonElement je : ja){
-			parentTopics.add(je.getAsString());
-		}
-		
-		ja = jo.get("subTopics").getAsJsonArray();
-		this.subTopics = new ArrayList<String>();
-		for (JsonElement je : ja){
-			subTopics.add(je.getAsString());
-		}
-		
-		this.changedTags = true;
-		this.changedTitle = true;
-		this.originalTags = "";
 	}
 	
 	public Topic(){
@@ -113,42 +76,14 @@ public class Topic {
 		e.setUnindexedProperty("longDescription", new Text(this.longDescription));
 		e.setUnindexedProperty("tags", tags);
 		e.setUnindexedProperty("difficulty", new Long(difficulty));
+		e.setUnindexedProperty("contentUuids", contentUuids);
 		return e;
 	}
 
 	private void postSave(){
-		if (changedTitle){
-			updateTitleMappingEntity(title);
-		}
-		
-		if (changedTags){
-			updateTagMappings();
-		}
 	}
 
-	private void updateTagMappings() {
-		Set<String> originals = new HashSet<String>();
-		for (String s : originalTags.split(",")){
-			originals.add(s.trim().toLowerCase());
-		}
-		Set<String> current = new HashSet<String>();
-		for (String s : tags.split(",")){
-			current.add(s.trim().toLowerCase());
-		}
-		Set<String> toRemove = new HashSet<String>(originals);
-		toRemove.removeAll(current);
-		
-		Set<String> toAdd = new HashSet<String>(current);
-		toAdd.removeAll(originals);
-		
-		for (String t : toRemove){
-			TagAPI.removeTopicFrimTag(uuid, t);
-		}
-		
-		for (String t : toAdd){
-			TagAPI.addNewTopicToTag(uuid, t);
-		}
-	}
+
 
 	public static Entity getTopicTitleMapping(){
 		Entity mapping;
@@ -158,17 +93,6 @@ public class Topic {
 			mapping = new Entity(KeyFactory.createKey("Topic", "TopicTitleMapping"));
 		}
 		return mapping;
-	}
-	
-	private void updateTitleMappingEntity(String newTitle){
-		Entity mapping = getTopicTitleMapping();
-		if (mapping.hasProperty(uuid)){
-			String oldName = (String) mapping.getProperty(uuid);
-			mapping.removeProperty(oldName);
-		}
-		mapping.setUnindexedProperty(uuid, newTitle);
-		mapping.setUnindexedProperty(newTitle, uuid);
-		asyncDatastore.put(mapping);
 	}
 	
 	public static Topic createNewTopic(String title, String shortDescription, String longDescription, String tags){
@@ -181,12 +105,9 @@ public class Topic {
 		this.title = title;
 		this.shortDescription = shortDescription;
 		this.longDescription = longDescription;
-		this.originalTags = "";
 		this.tags = tags;
 		this.subTopics = new ArrayList<String>();
 		this.parentTopics = new ArrayList<String>();
-		changedTitle = true;
-		changedTags = true;
 	}
 	
 	
@@ -218,50 +139,87 @@ public class Topic {
 		return tags;
 	}
 	
-	public void setTitle(String title){
-		this.title = title;
-		changedTitle = true;
+	public int getDifficulty(){
+		return difficulty;
 	}
 	
-	public void addSubTopic(String subTopic){
+	public List<String> getContentUuids(){
+		return contentUuids;
+	}
+
+	void addContentUuid(String uuid){
+		if (contentUuids == null){
+			contentUuids = new ArrayList<String>();
+		}
+		contentUuids.add(uuid);
+	}
+	
+	void removeContentUuid(String uuid){
+		if (contentUuids == null){
+			return;
+		}
+		contentUuids.remove(uuid);
+	}
+	
+	void setTitle(String newTitle){
+		this.title = newTitle;
+		Entity mapping = getTopicTitleMapping();
+		if (mapping.hasProperty(uuid)){
+			String oldName = (String) mapping.getProperty(uuid);
+			mapping.removeProperty(oldName);
+		}
+		mapping.setUnindexedProperty(uuid, newTitle);
+		mapping.setUnindexedProperty(newTitle, uuid);
+		asyncDatastore.put(mapping);
+	}
+	
+	void addSubTopic(String subTopic){
 		if (this.subTopics.contains(subTopic)){
 			this.subTopics.add(subTopic);
 		}
 	}
 	
-	public void addParentTopic(String parentTopic){
+	void addParentTopic(String parentTopic){
 		if (this.parentTopics.contains(parentTopic)){
 			this.parentTopics.add(parentTopic);
 		}
 	}
 	
-	public void setShortDescription(String s){
+	void setShortDescription(String s){
 		this.shortDescription = s;
 	}
 	
-	public void setLongDescription(String s){
+	void setLongDescription(String s){
 		this.longDescription = s;
 	}
 	
-	public void addTag(String tag){
-		if (this.tags.length() != 0){
-			this.tags = this.tags + ", " + tag;
-		} else {
-			this.tags = tag;
+	void setTags(String newTags){
+		Set<String> originals = new HashSet<String>();
+		for (String s : tags.split(",")){
+			originals.add(s.trim().toLowerCase());
 		}
-		this.changedTags = true;
-	}
-	
-	public void setTags(String s){
-		this.tags = s;
-		this.changedTags = true;
+		Set<String> current = new HashSet<String>();
+		for (String s : newTags.split(",")){
+			current.add(s.trim().toLowerCase());
+		}
+		Set<String> toRemove = new HashSet<String>(originals);
+		toRemove.removeAll(current);
+		
+		Set<String> toAdd = new HashSet<String>(current);
+		toAdd.removeAll(originals);
+		
+		for (String t : toRemove){
+			TagAPI.removeTopicFrimTag(uuid, t);
+		}
+		
+		for (String t : toAdd){
+			TagAPI.addNewTopicToTag(uuid, t);
+		}
+		
+		this.tags = newTags;
 	}
 
-	public int getDifficulty(){
-		return difficulty;
-	}
-	
-	public void setDifficulty(int difficulty) {
+	void setDifficulty(int difficulty) {
 		this.difficulty = difficulty;
 	}
 }

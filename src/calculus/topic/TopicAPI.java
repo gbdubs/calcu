@@ -21,31 +21,6 @@ public class TopicAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
-	public static void assignTopicDifficulty(Topic t, int difficulty){
-		t.setDifficulty(difficulty);
-		t.save();
-	}
-	
-	public static void makeTopicAParent(Topic parent, Topic child){
-		parent.addSubTopic(child.getUuid());
-		child.addParentTopic(parent.getUuid());
-		parent.save();
-		child.save();
-	}
-	
-	private static Topic getTopicByName(String name){
-		Entity mapping = Topic.getTopicTitleMapping();
-		return getTopicByUUID((String) mapping.getProperty(name));
-	}
-	
-	private static Topic getTopicByUUID(String uuid){
-		try {
-			return new Topic(uuid);
-		} catch (EntityNotFoundException e) {
-			return null;
-		}
-	}
-	
 	public static Topic getOrCreateTopicFromUrl(String topicUrl){
 		Entity titleMapping = Topic.getTopicTitleMapping();
 		
@@ -61,6 +36,19 @@ public class TopicAPI {
 		datastore.put(titleMapping);
 		
 		return result;
+	}
+
+	private static Topic getTopicByName(String name){
+		Entity mapping = Topic.getTopicTitleMapping();
+		return getTopicByUUID((String) mapping.getProperty(name));
+	}
+	
+	private static Topic getTopicByUUID(String uuid){
+		try {
+			return new Topic(uuid);
+		} catch (EntityNotFoundException e) {
+			return null;
+		}
 	}
 	
 	private static String createTopicFromUrl(String topicUrl){
@@ -96,13 +84,6 @@ public class TopicAPI {
 		Topic t = getTopicByUUID(uuid);
 		if (t != null){
 			t.setTitle(newTitle);
-			t.save();
-			
-			Entity e = Topic.getTopicTitleMapping();
-			e.setProperty(newTitle, uuid);
-			datastore.put(e);
-			
-			
 			return true;
 		}
 		return false;
@@ -148,11 +129,16 @@ public class TopicAPI {
 		return false;
 	}
 	
-	public String getAllTopicsAsJson(){
-		List<Topic> all = TopicAPI.getAllTopics();
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-		String json = gson.toJson(all);
-		return json;		
+	public static void assignTopicDifficulty(Topic t, int difficulty){
+		t.setDifficulty(difficulty);
+		t.save();
+	}
+
+	public static void makeTopicAParent(Topic parent, Topic child){
+		parent.addSubTopic(child.getUuid());
+		child.addParentTopic(parent.getUuid());
+		parent.save();
+		child.save();
 	}
 
 	public static List<Topic> getAllTopics() {
@@ -168,6 +154,5 @@ public class TopicAPI {
 		}
 		return topics;
 	}
-	
 }
 
