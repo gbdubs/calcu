@@ -9,14 +9,14 @@ import calculus.api.AnswersAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.TextContentAPI;
-import calculus.api.TopicAPI;
 import calculus.models.Achievement;
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
-import calculus.models.Topic;
+import calculus.topic.Topic;
+import calculus.topic.TopicAPI;
 
 public class DataUploadPackage {
 

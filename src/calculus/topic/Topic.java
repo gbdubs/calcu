@@ -1,4 +1,4 @@
-package calculus.models;
+package calculus.topic;
 
 import java.util.ArrayList;
 import java.util.HashSet;

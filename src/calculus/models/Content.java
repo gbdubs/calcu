@@ -10,9 +10,11 @@ import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
+import calculus.topic.Topic;
 import calculus.utilities.Cleaner;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.LatexPatcher;
+import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -310,6 +312,10 @@ public abstract class Content {
 		return topic;
 	}
 	
+	public void setTopicUuid(String topicUuid) {
+		this.entity.setUnindexedProperty("topic", topicUuid);
+	}
+	
 	public boolean getAlreadyRatedByCurrentUser(){
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user == null) return false;
@@ -382,4 +388,14 @@ public abstract class Content {
 		title = Cleaner.cleanHtml(title);
 		body = Cleaner.cleanHtml(body);
 	}
+	
+	public void updateTopic(){
+		if (UuidTools.getUuidFromUrl(topic) == null){
+			if (Topic.)
+			
+			
+		}
+	}
+	
+	
 }
