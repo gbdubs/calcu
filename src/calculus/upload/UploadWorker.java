@@ -50,11 +50,10 @@ public class UploadWorker extends HttpServlet {
 		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/achievements.txt"));
 	}
 	
-	public static void uploadState(int[] numbers){
+	public static void uploadState(int max){
 		Queue queue = QueueFactory.getQueue("uploadQueue");
-		for (int i : numbers){
-			queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/state-file-"+i+".txt"));
+		for (int i = 1; i < max; i++){
+			queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/digestable/"+i+".txt"));
 		}
 	}
-	
 }

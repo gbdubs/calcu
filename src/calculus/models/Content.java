@@ -393,7 +393,7 @@ public abstract class Content {
 	}
 	
 	public void saveTopic(){
-		if (UuidTools.getUuidFromUrl(topic) == null){
+		if (UuidTools.getUuidFromUrl(topic) == null && topic != null){
 			Topic t = TopicAPI.getOrCreateTopicFromUrl(topic);
 			t.addContentUuid(this.uuid);
 			t.save();

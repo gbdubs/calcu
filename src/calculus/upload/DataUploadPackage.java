@@ -1,8 +1,11 @@
 package calculus.upload;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
-
-import com.google.gson.Gson;
+import java.util.Scanner;
 
 import calculus.api.AchievementsAPI;
 import calculus.api.AnswersAPI;
@@ -18,6 +21,9 @@ import calculus.models.TextContent;
 import calculus.topic.Topic;
 import calculus.topic.TopicAPI;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 public class DataUploadPackage {
 
 	private List<Achievement> achievements;
@@ -28,53 +34,70 @@ public class DataUploadPackage {
 	private List<Topic> topics;
 	
 	public DataUploadPackage(){
-		
+		achievements = new ArrayList<Achievement>();
+		practiceProblems = new ArrayList<PracticeProblem>();
+		questions = new ArrayList<Question>();
+		textContent = new ArrayList<TextContent>();
+		answers = new ArrayList<Answer>();
+		topics = new ArrayList<Topic>();
 	}
 	
 	public void asyncSave(){
 		long l = System.currentTimeMillis();
 		
+		int count = 0;
 		for (Content pp : practiceProblems){
 			if (pp != null){
 				pp.saveAsync();
-				System.out.println("SAVED PRACTICE PROBLEM WITH UUID: " + pp.getUuid());
+				count++;
 			}
 		}
+		System.out.println("SAVED PRACTICE PROBLEMS : " + count);
 		
+		count = 0;
 		for (Content q : questions){
 			if (q != null){
 				q.saveAsync();
-				System.out.println("SAVED QUESTION WITH UUID: " + q.getUuid());
+				count++;
 			}
 		}
+		System.out.println("SAVED QUESTIONS : " + count);
 		
+		count = 0;
 		for (Content tc : textContent){
 			if (tc != null){
 				tc.saveAsync();
-				System.out.println("SAVED TEXT CONTENT WITH UUID: " + tc.getUuid());
+				count++;
 			}
 		}
+		System.out.println("SAVED TEXT CONTENT : " + count);
 		
+		count = 0;
 		for (Content a : answers){
 			if (a != null){
 				a.saveAsync();
-				System.out.println("SAVED ANSWER WITH UUID: " + a.getUuid());
+				count++;
 			}
 		}
+		System.out.println("SAVED ANSWERS : " + count);
 		
+		count = 0;
 		for (Topic t : topics){
 			if (t != null){
 				t.saveAsync();
-				System.out.println("SAVED TOPIC WITH UUID: " + t.getUuid());
+				count++;
 			}
 		}
+		System.out.println("SAVED TOPICS : " + count);
 		
+		count = 0;
 		for (Achievement a : achievements){
 			if (a != null){
 				a.saveAsync();
-				System.out.println("SAVED ACHEIVEMENT WITH UUID: " + a.getUuid());
+				count++;
 			}
 		}
+		System.out.println("SAVED ACHIEVEMENTS : " + count);
 		
 		System.out.println("UPLOAD TOOK: " + (System.currentTimeMillis() - l) + " milliseconds.");
 	}
@@ -123,6 +146,102 @@ public class DataUploadPackage {
 		for (Answer a : answers){
 			a.cleanForHtml();
 		}
+	}
+	
+	public int size(){
+		return achievements.size() + practiceProblems.size() + questions.size() + textContent.size() + answers.size() + topics.size();
+	}
+	
+	
+	
+	
+	public static void main(String[] args){
+		DataUploadPackage stateFileOne = getFileContents("war/WEB-INF/data/content/state-file-1.txt");
+		int i = 1;
+		List<DataUploadPackage> distributed = distributeToSmallSizePackages(stateFileOne);
+		for (DataUploadPackage dup : distributed){
+			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
+		}
+		
+		DataUploadPackage stateFileTwo = getFileContents("war/WEB-INF/data/content/state-file-2.txt");
+		distributed = distributeToSmallSizePackages(stateFileTwo);
+		for (DataUploadPackage dup : distributed){
+			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
+		}
+	}
+	
+	private DataUploadPackage split(){
+		DataUploadPackage ndup = new DataUploadPackage();
+		while(ndup.achievements.size() < achievements.size()){
+			ndup.achievements.add(achievements.remove(0));
+		}
+		while(ndup.practiceProblems.size() < practiceProblems.size()){
+			ndup.practiceProblems.add(practiceProblems.remove(0));
+		}
+		while(ndup.questions.size() < questions.size()){
+			ndup.questions.add(questions.remove(0));
+		}
+		while(ndup.textContent.size() < textContent.size()){
+			ndup.textContent.add(textContent.remove(0));
+		}
+		while(ndup.topics.size() < topics.size()){
+			ndup.topics.add(topics.remove(0));
+		}
+		while(ndup.answers.size() < answers.size()){
+			ndup.answers.add(answers.remove(0));
+		}
+		return ndup;
+	}
+	
+	public static List<DataUploadPackage> distributeToSmallSizePackages(DataUploadPackage dup){
+		List<DataUploadPackage> result = new ArrayList<DataUploadPackage>();
+		result.add(dup);
+		for (int i = 0; i < result.size(); i++){
+			while (result.get(i).size() > 100){
+				result.add(result.get(i).split());
+			}
+		}
+		return result;
+	}
+	
+	private static DataUploadPackage getFileContents(String fileName){
+		String file = readFileToString(fileName);
+		Gson gson = new Gson();
+		DataUploadPackage dup = gson.fromJson(file, DataUploadPackage.class);
+		return dup;
+	}
+	
+	private static String readFileToString(String fileName){
+		File f = new File(fileName);
+		Scanner scan;
+		try {
+			scan = new Scanner(f);
+		} catch (FileNotFoundException e) {
+			System.err.println("THE FILE " + fileName + " COULD NOT BE FOUND.");
+			System.out.println("Working Directory = " + System.getProperty("user.dir"));
+			return "";
+		}
+		StringBuffer sb = new StringBuffer();
+		while (scan.hasNextLine()){
+			sb.append("\n");
+			sb.append(scan.nextLine());
+		}
+		scan.close();
+		return sb.toString();
+	}
+	
+	private static void writeStringToFile(DataUploadPackage dup, String fileName){
+		File f = new File(fileName);
+		PrintWriter pw;
+		try {
+			pw = new PrintWriter(f);
+		} catch (FileNotFoundException e) {
+			System.err.println("THE FILE WAS NOT FOUND FOR PRINTING: " + fileName);
+			return;
+		}
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		pw.println(gson.toJson(dup));
+		pw.close();
 	}
 	
 }

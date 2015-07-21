@@ -16,6 +16,8 @@ import com.google.appengine.api.users.UserServiceFactory;
 @SuppressWarnings("serial")
 public class UploadServlet extends HttpServlet{
 	
+	private static final int DIGESTABLE_UPLOADS = 48;
+	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
 		UserService us = UserServiceFactory.getUserService();
@@ -32,8 +34,7 @@ public class UploadServlet extends HttpServlet{
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		UserService us = UserServiceFactory.getUserService();
 		if (us.isUserLoggedIn() && us.isUserAdmin()){
-			int[] toUpload = {1, 2};
-			UploadWorker.uploadState(toUpload);
+			UploadWorker.uploadState(DIGESTABLE_UPLOADS);
 			resp.sendRedirect("/home");
 		} else {
 			resp.sendRedirect("/page-not-found");
