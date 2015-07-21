@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.UUID;
 
 import calculus.api.TagAPI;
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -38,10 +39,10 @@ public class Topic {
 	
 	public Topic(Entity e){
 		this.uuid = (String) e.getProperty("uuid");
-		this.subTopics = (List<String>) e.getProperty("subTopics");
+		this.subTopics = SafeList.string(e, "subTopics");
 		if (subTopics == null){ subTopics = new ArrayList<String>(); }
-		this.parentTopics = (List<String>) e.getProperty("parentTopics");
-		this.contentUuids = (List<String>) e.getProperty("contentUuids");
+		this.parentTopics = SafeList.string(e, "parentTopics");
+		this.contentUuids = SafeList.string(e, "contentUuids");
 		if (parentTopics == null){ parentTopics = new ArrayList<String>(); }
 		this.title = (String) e.getProperty("title");
 		this.shortDescription = (String) e.getProperty("shortDescription");
@@ -147,7 +148,7 @@ public class Topic {
 		return contentUuids;
 	}
 
-	void addContentUuid(String uuid){
+	public void addContentUuid(String uuid){
 		if (contentUuids == null){
 			contentUuids = new ArrayList<String>();
 		}

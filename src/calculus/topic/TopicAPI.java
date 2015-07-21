@@ -3,23 +3,16 @@ package calculus.topic;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
 
 public class TopicAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	
 	public static Topic getOrCreateTopicFromUrl(String topicUrl){
 		Entity titleMapping = Topic.getTopicTitleMapping();

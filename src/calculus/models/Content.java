@@ -11,9 +11,11 @@ import calculus.api.ContentAPI;
 import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
 import calculus.topic.Topic;
+import calculus.topic.TopicAPI;
 import calculus.utilities.Cleaner;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.LatexPatcher;
+import calculus.utilities.SafeList;
 import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
@@ -102,7 +104,7 @@ public abstract class Content {
 		this.karma = ((Long) entity.getProperty("karma")).intValue();
 		this.title = (String) entity.getProperty("title");
 		this.body = ((Text) entity.getProperty("body")).getValue();
-		this.allAnswers = (List<String>) entity.getProperty("allAnswers");
+		this.allAnswers = SafeList.string(entity, "allAnswers");
 		this.tags = (String) entity.getProperty("tags");
 		this.url = (String) entity.getProperty("url");
 		this.source = (String) entity.getProperty("source");
@@ -360,6 +362,7 @@ public abstract class Content {
 		entity.setUnindexedProperty("topic", topic);
 		
 		saveTags();
+		saveTopic();
 		
 		setTypeSpecificEntityProperties();
 	}
@@ -389,11 +392,13 @@ public abstract class Content {
 		body = Cleaner.cleanHtml(body);
 	}
 	
-	public void updateTopic(){
+	public void saveTopic(){
 		if (UuidTools.getUuidFromUrl(topic) == null){
-			if (Topic.)
-			
-			
+			Topic t = TopicAPI.getOrCreateTopicFromUrl(topic);
+			t.addContentUuid(this.uuid);
+			t.save();
+			topic = t.getUuid();
+			entity.setUnindexedProperty("topic", topic);
 		}
 	}
 	
