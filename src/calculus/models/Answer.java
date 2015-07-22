@@ -75,6 +75,11 @@ public class Answer extends Content {
 		this.entity.setUnindexedProperty("approved", this.approved);
 		this.entity.setUnindexedProperty("parentUuid", this.parentUuid);
 	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		// No latex special fields
+	}
 	
 }
 

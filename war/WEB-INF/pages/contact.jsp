@@ -3,7 +3,7 @@
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
-		CalcU | Contact/Suggestions
+		CalcU | Contact
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
@@ -15,8 +15,8 @@
 					</div>
 					<div class="centered margin-top-25">
 						<h3 class="welcome-banner-subtitle">
-							Please offer suggestions that you would like to see on the site, and feel free to leave your username and number if you would like
-							a response. 
+							Please offer suggestions that you would like to see on the site, and feel free to leave 
+							your username and email if you would like a response. 
 						</h3>
 					</div>
 					<div class="box-body margin-top-25">
@@ -29,7 +29,7 @@
 							</div>
 							<div class="col-sm-6 col-xs-12 contact-page-inputs margin-top-25">
 								<div class="input-group">
-									<span class="input-group-addon">@</span>
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
 									<input type="text" class="form-control" placeholder="Username" name="username">
 								</div>
 							</div>

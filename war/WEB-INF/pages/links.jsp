@@ -11,19 +11,19 @@
 		<div class="centered">
 			<div class="max-width-at-1000">
 				<h2 class="welcome-banner margin-top-100">Links and Support</h2>
-				<h3 class="welcome-banner-subtitle margin-bottom-50">Learning Calculus is difficult, but it can always be made easier</h3>
+				<h3 class="welcome-banner-subtitle margin-bottom-50">Learning calculus is difficult, but it can always be made easier</h3>
 				<div class="align-left">
 					<p>
-						What CalcU does is attempt to make learning Calculus as easy as it can be.  That being said, this website isn't for everyone, nor is it able
-						to cover the wide range of materials that are available on the web.  This page contains sites, textbooks, practice problems, video lectures,
+						CalcU attempts to make learning Calculus as easy as it can be.  That being said, this website isn't for everyone, and it is impossible
+						to include the wide range of materials that are available on the web.  This page contains sites, textbooks, practice problems, video lectures,
 						online courses, and a whole range of materials that you might find useful on your journey through learning Calculus.  If you have a favorite
 						resource that hasn't been listed on this page, please contact us with a link to it, so that other people can profit from the information you 
 						have!
 					</p>
 					<p>
 						Finally, remember that there is no correct or incorrect way to learn. That has been one of the formative missions of this site, in that we
-						want to make this large subject universally applicable and understandable to people with different levels of interest, experience, skill and
-						expertise in Calculus. If you have found this site helpful, that is great! But our main goal is directing people to the resources which will
+						want to make this large subject universally applicable and understandable to people with different levels of interest, experience, and skill
+						in Calculus. If you have found this site helpful, that is great! But our main goal is directing people to the resources which will
 						best aid them, and it is important to recognize that that won't always be our site.
 					</p>
 					<p>
@@ -78,6 +78,10 @@
 								</ul>
 							</div>
 						</div>
+						<p>
+							If you did find our site helpful, you would likely also find the sources that populated it with information useful. The full
+							list of texts that have contributed to this project can be found <a href="/thankyou">here</a>.
+						</p>
 					</div>
 				</div>
 			</div>
