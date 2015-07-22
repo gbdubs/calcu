@@ -16,7 +16,7 @@ import com.google.appengine.api.users.UserServiceFactory;
 @SuppressWarnings("serial")
 public class UploadServlet extends HttpServlet{
 	
-	private static final int DIGESTABLE_UPLOADS = 176;
+	private static final int DIGESTABLE_UPLOADS = 184;
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
