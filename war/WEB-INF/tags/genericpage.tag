@@ -140,6 +140,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/topic-explorer">
+                        <i class="fa fa-fw fa-sitemap"></i>
+                        <span>Browse Topics</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/baseline">
                         <i class="fa fa-fw fa-area-chart"></i>
                         <span>Baseline</span>

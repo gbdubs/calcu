@@ -496,6 +496,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>TopicSelectorServlet</servlet-name>
 		<url-pattern>/topic-selector/*</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TopicSelectorServlet</servlet-name>
+		<url-pattern>/topic-explorer/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TopicSelectorServlet</servlet-name>
+		<url-pattern>/topics</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>AcknowledgementServlet</servlet-name>
