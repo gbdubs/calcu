@@ -141,7 +141,9 @@ public class PersonalizeServlet extends HttpServlet {
 			String userId = req.getParameter("userId");
 			String preference = req.getParameter("preferenceCharacter");
 			char preferenceChar = preference.charAt(0);
-			PhenotypeAPI.updateUserPhenotype(userId, preferenceChar);
+			if (preferenceChar != 'u'){
+				PhenotypeAPI.updateUserPhenotype(userId, preferenceChar);
+			}
 		}
 	}
 	
