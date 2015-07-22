@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
-import calculus.api.PracticeProblemAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.PracticeProblem;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -49,7 +49,13 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
 				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
 					// Create the practice problem from the UUID
-					PracticeProblem pp = new PracticeProblem(uuid);
+					PracticeProblem pp;
+					try {
+						pp = new PracticeProblem(uuid);
+					} catch (EntityNotFoundException e) {
+						resp.sendRedirect("/page-not-found");
+						return;
+					}
 					// If they request editing a page which has already been submitted, redirect them to its
 					// published state.
 					if (pp.getSubmitted()){
@@ -58,7 +64,7 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 						// Otherwise, display the problem for editing
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/practice-problem/edit/" + uuid);					
-						PracticeProblemAPI.addPracticeProblemContext(req, pp);
+						req.setAttribute("practiceProblem", pp);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/practice-problem.jsp");
 						jsp.forward(req, resp);
 					}
@@ -95,7 +101,7 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		// If we get here, we have the permissions to proceed.
 		
 		// Save the practice problem that has been created or modified
-		uuid = PracticeProblemAPI.createOrUpdatePracticeProblemFromRequest(req);
+		uuid = ContentAPI.createOrUpdateContentFromRequest(req, "practiceProblem");
 		
 		// This parameter describes which submit button was used, and tells us what mode the user wanted to use.
 		String saveButtonInstruction = req.getParameter("saveButton");

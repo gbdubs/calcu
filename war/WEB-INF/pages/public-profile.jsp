@@ -10,11 +10,12 @@
 
 	<jsp:attribute name="content">
 		<div class="centered">
+			<h2 class="welcome-banner margin-top-100 margin-bottom-50">${profileUsername}</h2>
 			<div class="max-width-at-1000 align-left">
 				<div class="box box-primary box-solid">
 					<div class="box-header">
 						<i class="fa fa-user"></i>
-						<h3 class="box-title">${profileUsername}'s Profile</h3>
+						<h3 class="box-title">Profile</h3>
 						<div class="box-tools pull-right">
 							<button class="btn btn-primary btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
 						</div>

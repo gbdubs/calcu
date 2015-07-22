@@ -8,7 +8,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>About</servlet-name>
-		<servlet-class>calculus.AboutServlet</servlet-class>
+		<servlet-class>calculus.pages.AboutServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>About</servlet-name>
@@ -28,7 +28,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Rating</servlet-name>
-		<servlet-class>calculus.general.RatingServlet</servlet-class>
+		<servlet-class>calculus.content.RatingServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Rating</servlet-name>
@@ -38,7 +38,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Landing</servlet-name>
-		<servlet-class>calculus.LandingServlet</servlet-class>
+		<servlet-class>calculus.pages.LandingServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>Landing</servlet-name>
@@ -55,7 +55,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Contact</servlet-name>
-		<servlet-class>calculus.ContactServlet</servlet-class>
+		<servlet-class>calculus.pages.ContactServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Contact</servlet-name>
@@ -64,7 +64,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Documentation</servlet-name>
-		<servlet-class>calculus.DocumentationServlet</servlet-class>
+		<servlet-class>calculus.pages.DocumentationServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Documentation</servlet-name>
@@ -73,7 +73,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Tutorial</servlet-name>
-		<servlet-class>calculus.TutorialServlet</servlet-class>
+		<servlet-class>calculus.pages.TutorialServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Tutorial</servlet-name>
@@ -83,7 +83,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>SubmitContact</servlet-name>
-		<servlet-class>calculus.ContactServlet</servlet-class>
+		<servlet-class>calculus.pages.ContactServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SubmitContact</servlet-name>
@@ -183,7 +183,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>MarkApprovedAnswer</servlet-name>
-		<servlet-class>calculus.general.MarkApprovedAnswerServlet</servlet-class>
+		<servlet-class>calculus.content.MarkApprovedAnswerServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>MarkApprovedAnswer</servlet-name>
@@ -193,7 +193,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>ReportContent</servlet-name>
-		<servlet-class>calculus.general.ReportContentServlet</servlet-class>
+		<servlet-class>calculus.content.ReportContentServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ReportContent</servlet-name>
@@ -238,7 +238,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>LivePreviewServlet</servlet-name>
-		<servlet-class>calculus.general.LivePreviewServlet</servlet-class>
+		<servlet-class>calculus.contribute.LivePreviewServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>LivePreviewServlet</servlet-name>
@@ -258,7 +258,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>ViewContent</servlet-name>
-		<servlet-class>calculus.general.ViewContentServlet</servlet-class>
+		<servlet-class>calculus.content.ViewContentServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ViewContent</servlet-name>
@@ -333,7 +333,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>AchievementsDisplay</servlet-name>
-		<servlet-class>calculus.general.AchievementsDisplayServlet</servlet-class>
+		<servlet-class>calculus.pages.AchievementsDisplayServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>AchievementsDisplay</servlet-name>
@@ -343,7 +343,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>AnswerMode</servlet-name>
-		<servlet-class>calculus.general.AnswerModeServlet</servlet-class>
+		<servlet-class>calculus.content.AnswerModeServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>AnswerMode</servlet-name>
@@ -353,7 +353,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>Explore</servlet-name>
-		<servlet-class>calculus.general.ExploreServlet</servlet-class>
+		<servlet-class>calculus.pages.ExploreServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>Explore</servlet-name>
@@ -363,7 +363,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>Links</servlet-name>
-		<servlet-class>calculus.LinksServlet</servlet-class>
+		<servlet-class>calculus.pages.LinksServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>Links</servlet-name>
@@ -380,15 +380,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
-		<servlet-name>PotentialContentUpload</servlet-name>
-		<servlet-class>calculus.admin.UploadPotentialContentServlet</servlet-class>
-	</servlet>	
-	<servlet-mapping>
-		<servlet-name>PotentialContentUpload</servlet-name>
-		<url-pattern>/admin/upload-potential-content</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
 		<servlet-name>Personalize</servlet-name>
 		<servlet-class>calculus.general.PersonalizeServlet</servlet-class>
 	</servlet>	
@@ -399,7 +390,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 
 	<servlet>
 		<servlet-name>PageNotFound</servlet-name>
-		<servlet-class>calculus.PageNotFoundServlet</servlet-class>
+		<servlet-class>calculus.pages.PageNotFoundServlet</servlet-class>
 	</servlet>	
 	<servlet-mapping>
 		<servlet-name>PageNotFound</servlet-name>
@@ -428,20 +419,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>AffirmConsent</servlet-name>
-		<servlet-class>calculus.AffirmConsentServlet</servlet-class>
+		<servlet-class>calculus.profile.AffirmConsentServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AffirmConsent</servlet-name>
 		<url-pattern>/affirm-consent</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>ContentApproval</servlet-name>
-		<servlet-class>calculus.admin.ContentApprovalServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>ContentApproval</servlet-name>
-		<url-pattern>/admin/content-approval</url-pattern>
 	</servlet-mapping>
 	
 	
@@ -469,6 +451,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+	    
 		<servlet-name>TopicEditorServlet</servlet-name>
 		<servlet-class>calculus.TopicEditorServlet</servlet-class>
 	</servlet>
@@ -477,6 +460,70 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/topic-editor</url-pattern>
 	</servlet-mapping>
 	
+
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>calculus.upload.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/admin/upload</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UploadWorker</servlet-name>
+		<servlet-class>calculus.upload.UploadWorker</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadWorker</servlet-name>
+		<url-pattern>/admin/upload/worker</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>calculus.upload.DownloadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/admin/download</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DownloadWorker</servlet-name>
+		<servlet-class>calculus.upload.DownloadWorker</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadWorker</servlet-name>
+		<url-pattern>/admin/download/worker</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>TopicSelectorServlet</servlet-name>
+		<servlet-class>calculus.topic.TopicSelectorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopicSelectorServlet</servlet-name>
+		<url-pattern>/topic-selector/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<servlet-class>calculus.pages.AcknowledgementServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<url-pattern>/thankyou/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TopicServlet</servlet-name>
+		<servlet-class>calculus.topic.TopicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopicServlet</servlet-name>
+		<url-pattern>/topic/*</url-pattern>
+	</servlet-mapping>
 	
 	<filter>
 		<filter-name>appstats</filter-name>

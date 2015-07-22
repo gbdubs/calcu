@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
-import calculus.api.QuestionAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Question;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -51,13 +51,19 @@ public class ContributeQuestionServlet extends HttpServlet {
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
 				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){				
 				
-					Question q = new Question(uuid);
+					Question q;
+					try {
+						q = new Question(uuid);
+					} catch (EntityNotFoundException e) {
+						resp.sendRedirect("/page-not-found");
+						return;
+					}
 					//If the question is already submitted, redirect the user to the live page with it.
 					if (q.getSubmitted()){	
 						resp.sendRedirect("/question/"+uuid);
 					} else {
 						// Adds the current question to the context, and prepares it for editing.
-						QuestionAPI.addQuestionContext(req, q);
+						req.setAttribute("questoin", q);
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");
@@ -99,7 +105,7 @@ public class ContributeQuestionServlet extends HttpServlet {
 		// If we get here, we have the permissions to proceed.
 		
 		// Saves the new/updated question, and now we have to decide what to next show the user.
-		uuid = QuestionAPI.createOrUpdateQuestionFromRequest(req);
+		uuid = ContentAPI.createOrUpdateContentFromRequest(req, "question");
 		
 		String saveButtonInstruction = req.getParameter("saveButton");
 		

@@ -1,21 +1,16 @@
 package calculus.models;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import calculus.api.TextContentAPI;
-
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 
 public class TextContent extends Content {
-
-	private static List<String> FIELDS = new ArrayList<String>();
 	
-	static {
-		FIELDS.addAll(Content.FIELDS);
-	}	
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public TextContent(){
+		
+	}
 	
-	public TextContent(String uuid) {
+	public TextContent(String uuid) throws EntityNotFoundException {
 		super(uuid, "textContent");
 	}
 	
@@ -26,13 +21,14 @@ public class TextContent extends Content {
 	public String getEditUrl(){
 		return "/contribute/text-content/edit/" + this.getUuid();
 	}
-	
+
 	@Override
-	public void verifyAcceptableProperty(String property) {
-		boolean acceptableProperty = false;
-		for(String realProperties : FIELDS){
-			if (realProperties.equals(property)) acceptableProperty = true;
-		}
-		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property Modification.");
+	public void setTypeSpecificEntityProperties() {
+		// TextContent does not have any special properties!
+	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		// TextContent have no special properties!
 	}
 }

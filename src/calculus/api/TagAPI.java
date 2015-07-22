@@ -12,7 +12,6 @@ import java.util.concurrent.Future;
 import calculus.utilities.LevenshteinDistance;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
-import com.google.appengine.api.datastore.Cursor;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -23,7 +22,6 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.SortDirection;
-import com.google.appengine.api.datastore.QueryResultList;
 
 public class TagAPI {
 
@@ -33,6 +31,9 @@ public class TagAPI {
 	
 	public static void addNewContentToTag(String contentUuid, String tag){
 		String cleanedTag = tag.toLowerCase().trim();
+		if (!acceptableTag(cleanedTag)){
+			return;
+		}
 		Key key = KeyFactory.createKey("Tag", cleanedTag);
 		Entity entity = new Entity(key);
 		List<String> uuids = new ArrayList<String>();
@@ -40,19 +41,82 @@ public class TagAPI {
 			entity = datastore.get(key);
 			uuids = (List<String>) entity.getProperty("matchingContent");
 		} catch (EntityNotFoundException e) {
-			if (acceptableTag(cleanedTag)){
-				entity.setUnindexedProperty("name", cleanedTag);
-				addNewTagToAllTags(cleanedTag);
-			} else {
-				return;
-			}
+			entity.setUnindexedProperty("name", cleanedTag);
+			addNewTagToAllTags(cleanedTag);
 		}
-		uuids.add(contentUuid);
-		entity.setProperty("count", uuids.size());
-		entity.setUnindexedProperty("matchingContent", uuids);
-		datastore.put(entity);
+		if (!uuids.contains(contentUuid)){
+			uuids.add(contentUuid);
+			entity.setProperty("count", uuids.size());
+			entity.setUnindexedProperty("matchingContent", uuids);
+			asyncDatastore.put(entity);
+		}
 	}
 
+	public static void removeContentFromTag(String uuid, String tag) {
+		String cleanedTag = tag.toLowerCase().trim();
+		if (!acceptableTag(cleanedTag)){
+			return;
+		}
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
+		Entity entity = new Entity(key);
+		List<String> uuids = new ArrayList<String>();
+		try {
+			entity = datastore.get(key);
+			uuids = (List<String>) entity.getProperty("matchingContent");
+		} catch (EntityNotFoundException e) {
+			return;
+		}
+		if (uuids.contains(uuid)){
+			uuids.remove(uuid);
+			entity.setProperty("count", uuids.size());
+			entity.setUnindexedProperty("matchingContent", uuids);
+			datastore.put(entity);
+		}
+	}
+
+	public static void addNewTopicToTag(String topicUuid, String tag){
+		String cleanedTag = tag.toLowerCase().trim();
+		if (!acceptableTag(cleanedTag)){
+			return;
+		}
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
+		Entity entity = new Entity(key);
+		List<String> topicUuids = new ArrayList<String>();
+		try {
+			entity = datastore.get(key);
+			topicUuids = (List<String>) entity.getProperty("matchingTopics");
+		} catch (EntityNotFoundException e) {
+			entity.setUnindexedProperty("name", cleanedTag);
+			addNewTagToAllTags(cleanedTag);
+		}
+		if (!topicUuids.contains(topicUuid)){
+			topicUuids.add(topicUuid);
+			entity.setProperty("topicCount", topicUuids.size());
+			entity.setUnindexedProperty("matchingTopics", topicUuids);
+			datastore.put(entity);
+		}
+	}
+	
+	
+	public static void removeTopicFrimTag(String topicUuid, String tag){
+		String cleanedTag = tag.toLowerCase().trim();
+		Key key = KeyFactory.createKey("Tag", cleanedTag);
+		Entity entity = new Entity(key);
+		List<String> topicUuids = new ArrayList<String>();
+		try {
+			entity = datastore.get(key);
+			topicUuids = (List<String>) entity.getProperty("matchingTopics");
+		} catch (EntityNotFoundException e) {
+			return;
+		}
+		if (topicUuids.contains(topicUuid)){
+			topicUuids.remove(topicUuid);
+			entity.setProperty("topicCount", topicUuids.size());
+			entity.setUnindexedProperty("matchingTopics", topicUuids);
+			datastore.put(entity);
+		}
+	}
+	
 	private static void addNewTagToAllTags(String tag){
 		Key key = KeyFactory.createKey("Tag", allTagsKey);
 		Entity e;

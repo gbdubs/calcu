@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.KarmaAPI;
-import calculus.api.TextContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.TextContent;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
 
@@ -51,14 +51,21 @@ public class ContributeTextContentServlet extends HttpServlet {
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
 				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
 				
-					TextContent tc = new TextContent(uuid);
+					TextContent tc;
+					try {
+						tc = new TextContent(uuid);
+					} catch (EntityNotFoundException e) {
+						// If it doesn't yet exist, send a 404.
+						resp.sendRedirect("/page-not-found");
+						return;
+					}
 					
 					//If the TextContent is already submitted, redirect the user to the live page with it.
 					if (tc.getSubmitted()){	
 						resp.sendRedirect("/practice-problem/"+uuid);
 					} else {
 						// Adds the current TextContent to the context, and prepares it for editing.
-						TextContentAPI.addTextContentContext(req, tc);
+						req.setAttribute("textContent", tc);
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/text-content/edit/" + uuid);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/text-content.jsp");
@@ -99,7 +106,7 @@ public class ContributeTextContentServlet extends HttpServlet {
 		
 		
 		// Saves the new/updated TextContent, and now we have to decide what to next show the user.
-		uuid = TextContentAPI.createOrUpdateTextContentFromRequest(req);
+		uuid = ContentAPI.createOrUpdateContentFromRequest(req, "textContent");
 		
 		String saveButtonInstruction = req.getParameter("saveButton");
 		

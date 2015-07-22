@@ -85,7 +85,7 @@ public class PublicRecommendationAPI {
 		for(int i = 0; i < contentUuids.size(); i++){
 			String uuid = contentUuids.get(i);
 			try {
-				Content content = new Content(uuid);
+				Content content = ContentAPI.instantiateContent(uuid);
 				String title = content.getTitle();
 				String body = content.getAbbreviatedBody();
 				String karma = content.getKarma();

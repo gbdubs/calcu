@@ -3,7 +3,7 @@
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
-		CalcU | Contact/Suggestions
+		CalcU | Contact
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
@@ -15,8 +15,8 @@
 					</div>
 					<div class="centered margin-top-25">
 						<h3 class="welcome-banner-subtitle">
-							Please offer suggestions that you would like to see on the site, and feel free to leave your username and number if you would like
-							a response. 
+							Please offer suggestions that you would like to see on the site, and feel free to leave 
+							your username and email if you would like a response. 
 						</h3>
 					</div>
 					<div class="box-body margin-top-25">
@@ -29,7 +29,7 @@
 							</div>
 							<div class="col-sm-6 col-xs-12 contact-page-inputs margin-top-25">
 								<div class="input-group">
-									<span class="input-group-addon">@</span>
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
 									<input type="text" class="form-control" placeholder="Username" name="username">
 								</div>
 							</div>
@@ -65,9 +65,9 @@
 					<div class="box-body align-left margin-bottom-50">
 						If you would prefer a less formal way of contact, feel free to contact 
 						<a href="mailto:grady.b.ward@gmail.com">Grady</a>, 
-						<a href="rsantos@cs.brandeis.edu">Russ</a>, 
-						<a href="rlacroix@cs.brandeis.edu">Roger</a>, 
-						<a href="dsmyda@cs.brandeis.edu">Danny</a>, or <a href="seaurchi@brandeis.edu">Sofiya</a>  .
+						<a href="mailto:rsantos@cs.brandeis.edu">Russ</a>, 
+						<a href="mailto:rlacroix@cs.brandeis.edu">Roger</a>, 
+						<a href="mailto:dsmyda@cs.brandeis.edu">Danny</a>, or <a href="mailto:seaurchi@brandeis.edu">Sofiya</a>  .
 						Feel free to reach out to discuss anything regarding ed-tech,
 						your thoughts on the site, or how we can better deliver information to those who need it.
 					</div>

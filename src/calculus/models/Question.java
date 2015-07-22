@@ -1,24 +1,16 @@
 package calculus.models;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.google.appengine.api.datastore.DatastoreService;
-import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 
 public class Question extends Content{
 	
-	private static List<String> FIELDS = new ArrayList<String>();
-	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
-	
-	
-	static {
-		FIELDS.addAll(Content.FIELDS);
-		FIELDS.add("answers");
+	// GSON CONSTRUCTOR -- DO NOT USE
+	public Question(){
+		
 	}
 	
-	public Question(String uuid) {
+	public Question(String uuid) throws EntityNotFoundException {
 		super(uuid, "question");
 	}
 	
@@ -26,16 +18,18 @@ public class Question extends Content{
 		super(entity, "question");
 	}
 	
-	@Override
-	public void verifyAcceptableProperty(String property) {
-		boolean acceptableProperty = false;
-		for(String realProperties : FIELDS){
-			if (realProperties.equals(property)) acceptableProperty = true;
-		}
-		if (!acceptableProperty) throw new RuntimeException("Unacceptable Property Modification.");
-	}
 
 	public String getEditUrl(){
 		return "/contribute/question/edit/" + this.getUuid();
+	}
+
+	@Override
+	public void setTypeSpecificEntityProperties() {
+		// Questions have no special properties!
+	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		// Questions have no special properties!
 	}
 }
