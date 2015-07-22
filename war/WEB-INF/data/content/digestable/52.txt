@@ -29,7 +29,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Ellipses",
-      "body": "The graph of an ellipse clearly fails the Vertical Line Test, Theorem 1.1, so the equation of an ellipse does not define y as a function of x. However, much like with circles and horizontal parabolas,we can split an ellipse into a top half and a bottom half, each of which would indeed represent y as a function of x. Use your calculator to graph the ellipses given in Exercise 1-8 above. What difficulties arise when you plot them on the calculator?\n\n\u003cimg src\u003d\"/_static/img/content/20238.png\"/\u003e",
+      "body": "The graph of an ellipse clearly fails the Vertical Line Test, Theorem 1.1, so the equation of an ellipse does not define y as a function of x. However, much like with circles and horizontal parabolas,we can split an ellipse into a top half and a bottom half, each of which would indeed represent y as a function of x. Use your calculator to graph the ellipses given in Exercise 1-8 above. What difficulties arise when you plot them on the calculator?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20238.png\"/\u003e",
       "allAnswers": [],
       "tags": "ellipse, vertical line test, graph, circle, parabolas",
       "url": "/question/f094cc70-4f57-45fe-9291-e320ad26a271",

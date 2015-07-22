@@ -1,0 +1,27 @@
+{
+  "achievements": [],
+  "questions": [
+    {
+      "uuid": "0000ccf0-f213-4965-a0d0-1a7519393b9f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437520380081,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Inverse Trigonometric Functions",
+      "body": "Find the exact value or state that it is undefined.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20267.png\"\u003e",
+      "allAnswers": [],
+      "tags": "inverse, trigonometry, inverse trigonometric functions, trigonometric functions",
+      "url": "/question/0000ccf0-f213-4965-a0d0-1a7519393b9f",
+      "source": "Precalculus, 3rd Edition 10.6.28",
+      "topic": "Pre-Calculus/Trigonometry/The Inverse Trigonometric Functions"
+    }
+  ],
+  "textContent": [],
+  "answers": [],
+  "topics": [],
+  "practiceProblems":[]
+}
+    

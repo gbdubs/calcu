@@ -7,9 +7,7 @@ public class LatexPatcher {
 	
 	private static String[][] replacements =
 		{
-			{"\\n\\", "<br/>\\"},
-			{"\\n ", "<br/> "},
-			{"\\n<", "<br/><"},
+			{"\n", "<br/>"},
 			{"\\R ", "\\mathbb R"},
 			{"\\D ", "\\mathbb D"},
 			{"\\Z ", "\\mathbb Z"},
@@ -39,6 +37,7 @@ public class LatexPatcher {
 				startIndex = s.indexOf(wrappedReplacement[0][0]);
 			}
 		}
+		
 		return s;
 	}
 	

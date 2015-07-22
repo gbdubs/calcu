@@ -10,12 +10,19 @@ import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.UserContextAPI;
 
+import com.google.appengine.api.taskqueue.Queue;
+import com.google.appengine.api.taskqueue.QueueFactory;
+import com.google.appengine.api.taskqueue.TaskOptions;
+import com.google.appengine.api.taskqueue.TaskOptions.Builder;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class UploadServlet extends HttpServlet{
 	
+	
+	private static final boolean TEST_MODE = true;
+	private static final int TEST_UPLOADS = 1;
 	private static final int DIGESTABLE_UPLOADS = 184;
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
@@ -34,10 +41,28 @@ public class UploadServlet extends HttpServlet{
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		UserService us = UserServiceFactory.getUserService();
 		if (us.isUserLoggedIn() && us.isUserAdmin()){
-			UploadWorker.uploadState(DIGESTABLE_UPLOADS);
+			UploadServlet.uploadState();
 			resp.sendRedirect("/home");
 		} else {
 			resp.sendRedirect("/page-not-found");
 		}
+	}
+
+	public static void uploadState(){
+		Queue queue = QueueFactory.getQueue("uploadQueue");
+		int max = DIGESTABLE_UPLOADS;
+		String url = "/WEB-INF/data/content/digestable/";
+		if (TEST_MODE){
+			max = TEST_UPLOADS;
+			url = "/WEB-INF/data/content/test/";
+		}
+		for (int i = 1; i <= max; i++){
+			queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", url+i+".txt"));
+		}
+	}
+
+	public static void uploadAchievements() {
+		Queue queue = QueueFactory.getDefaultQueue();
+		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/achievements.txt"));
 	}
 }

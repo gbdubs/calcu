@@ -658,7 +658,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Linear Functions",
-      "body": "The cross-section of a swimming pool is below. Write a piecewise-defined linear function which describes the depth of the pool, D (in feet) as a function of:\n(a) the distance (in feet) from the edge of the shallow end of the pool, d.\n(b) the distance (in feet) from the edge of the deep end of the pool, s.\n(c) Graph each of the functions in (a) and (b). Discuss with your classmates how to transform one into the other and how they relate to the diagram of the pool.\n\n\u003cimg src\u003d\"/_static/img/content/20375.png\"/\u003e",
+      "body": "The cross-section of a swimming pool is below. Write a piecewise-defined linear function which describes the depth of the pool, D (in feet) as a function of:\n(a) the distance (in feet) from the edge of the shallow end of the pool, d.\n(b) the distance (in feet) from the edge of the deep end of the pool, s.\n(c) Graph each of the functions in (a) and (b). Discuss with your classmates how to transform one into the other and how they relate to the diagram of the pool.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20375.png\"/\u003e",
       "allAnswers": [],
       "tags": "linear function, function, piecewise function, transformation",
       "url": "/question/84123896-fccb-4ea2-8ac6-208716d9ddc2",

@@ -607,7 +607,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Maxima and Minima",
-      "body": "We generalize the preceding two questions. Let n be a positive integer and let f be polynomial of degree n. How many critical points can f have. \n\n\u003cimg src\u003d\"/_static/img/content/20171.png\"/\u003e",
+      "body": "We generalize the preceding two questions. Let n be a positive integer and let f be polynomial of degree n. How many critical points can f have. \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20171.png\"/\u003e",
       "allAnswers": [],
       "tags": "critical points, polynomial, functions, degrees",
       "url": "/question/c3dd740f-3642-4b68-ad98-f5a27a32883a",

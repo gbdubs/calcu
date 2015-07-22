@@ -1049,7 +1049,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the Average Speed",
-      "body": "An object is traveling in a straight line so that its position (that is, distance from some fixed point) is given by the table. Find the average speed of the object during the following time intervals: [0, 1], [0, 2], [0, 3], [1,2], [1,3], [2,3]. If you had to guess the speed at \\(t \u003d 2\\) just on the basis of these, what would you guess?\n\n\u003cimg src\u003d\"/_static/img/content/10146.png\"/\u003e",
+      "body": "An object is traveling in a straight line so that its position (that is, distance from some fixed point) is given by the table. Find the average speed of the object during the following time intervals: [0, 1], [0, 2], [0, 3], [1,2], [1,3], [2,3]. If you had to guess the speed at \\(t \u003d 2\\) just on the basis of these, what would you guess?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10146.png\"/\u003e",
       "allAnswers": [],
       "tags": "average speed, derivatives, rate of change, instantaneous ",
       "url": "/question/68e53bc3-965b-4602-980d-d0c8ec22e47d",

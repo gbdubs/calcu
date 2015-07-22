@@ -63,7 +63,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular Triangle Sides",
-      "body": "Given: (\\overline{DB} \\perp \\overline{ABC}\\) and (\\overline{AD} \\perp \\overline{DC}\\).\n\nQuestion: When is \\(\\bigtriangleup{ABD}\\) congruent to \\(\\bigtriangleup{DBC}\\)? Explain.\n\n\u003cimg src\u003d\"/_static/img/content/30153.png\"/\u003e",
+      "body": "Given: (\\overline{DB} \\perp \\overline{ABC}\\) and (\\overline{AD} \\perp \\overline{DC}\\).\n\nQuestion: When is \\(\\bigtriangleup{ABD}\\) congruent to \\(\\bigtriangleup{DBC}\\)? Explain.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30153.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular lines, geometry proof",
       "url": "/question/cf4cbb41-c29e-459f-86ce-a1f46ec80e96",

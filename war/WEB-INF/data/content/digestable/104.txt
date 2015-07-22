@@ -46,7 +46,7 @@
       "viewable": true,
       "karma": 3,
       "title": "FIRE! In this problem.",
-      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/31012.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31012.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometry, law of cosines, word problem",
       "url": "/question/c56cee24-0d87-4e41-b572-4f12836c090d",

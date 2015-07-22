@@ -590,7 +590,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Vectors",
-      "body": "An eraser is lying on the plane \\(\\cP\\) with equation\n\\(x_1+3x_2+x_3 \u003d 6\\). Gravity pulls the eraser down, and exerts a force\ngiven by\n\\[\n\\vf_{\\rm grav} \u003d \\vek 0\\\\ 0\\\\ -mg\\tor.\n\\]\n\n(a) Find a normal \\(\\vn\\) for the plane \\(\\cP\\).\n\n(b) Decompose the force \\(\\vf\\) into a part perpendicular to the plane \\(\\cP\\) and a\npart perpendicular to \\(\\vn\\).\n\n\u003cimg src\u003d\"/_static/img/content/20455.png\"/\u003e",
+      "body": "An eraser is lying on the plane \\(\\cP\\) with equation\n\\(x_1+3x_2+x_3 \u003d 6\\). Gravity pulls the eraser down, and exerts a force\ngiven by\n\\[\n\\vf_{\\rm grav} \u003d \\vek 0\\\\ 0\\\\ -mg\\tor.\n\\]\n\n(a) Find a normal \\(\\vn\\) for the plane \\(\\cP\\).\n\n(b) Decompose the force \\(\\vf\\) into a part perpendicular to the plane \\(\\cP\\) and a\npart perpendicular to \\(\\vn\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20455.png\"/\u003e",
       "allAnswers": [],
       "tags": "vectors, word problem",
       "url": "/question/405017a5-c566-41c3-94bf-5124efe7b6ec",

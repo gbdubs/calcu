@@ -1,6 +1,6 @@
 package calculus.models;
 
-import calculus.upload.UploadWorker;
+import calculus.upload.UploadServlet;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -32,7 +32,7 @@ public class Achievement {
 		try {
 			entity = datastore.get(KeyFactory.createKey("Achievement", uuid));
 		} catch (EntityNotFoundException e) {
-			UploadWorker.uploadAchievements();
+			UploadServlet.uploadAchievements();
 			throw new RuntimeException("Achievement with UUID ["+uuid+"] does not exist.");
 		}
 		this.uuid = uuid;

@@ -896,7 +896,7 @@
       "viewable": true,
       "karma": 3,
       "title": "The Chain Rule",
-      "body": "Suppose that the function f and g and their derivatives with respect to x have the following values at x \u003d 0 and x \u003d 1.\nDefine v(x) \u003d f(g(x)), w(x) \u003d g(f(x)), p(x) \u003d f(x)g(x), q(x) \u003d g(x)f(x).\nEvaluate v(0), w(0), p(0), q(0), v\u0027(0) and w\u0027(0), p\u0027(0), q\u0027(0). If there is insufficient information to answer the question, so indicate.\n\n\u003cimg src\u003d\"/_static/img/content/20451.png\"/\u003e",
+      "body": "Suppose that the function f and g and their derivatives with respect to x have the following values at x \u003d 0 and x \u003d 1.\nDefine v(x) \u003d f(g(x)), w(x) \u003d g(f(x)), p(x) \u003d f(x)g(x), q(x) \u003d g(x)f(x).\nEvaluate v(0), w(0), p(0), q(0), v\u0027(0) and w\u0027(0), p\u0027(0), q\u0027(0). If there is insufficient information to answer the question, so indicate.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20451.png\"/\u003e",
       "allAnswers": [],
       "tags": "chain rule, derivative, function ",
       "url": "/question/2934f1ed-b6a6-495e-8a5d-ee05f47edd28",

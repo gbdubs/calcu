@@ -301,7 +301,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Vector Functions and Parametrized Curves",
-      "body": "Let \\(\\va, \\vb, \\vc, \\vd\\) be four given vectors.  Consider the parametric\ncurve (known as a Bezier curve)\n\\(\\vx(t) \u003d (1-t)^3\\va + 3t (1-t)^2 \\vb \n  +3t^2 (1-t) \\vc+ t^3\\vd\\)\nwhere \\(0\\le t\\le 1\\).\nCompute \\(\\vx(0), \\vx(1), \\vx\u0027(0)\\), and \\(\\vx\u0027(1)\\).\n\nThe characters in most fonts (like the fonts used for these notes) are\nmade up of lots of Bezier curves.\n\n\u003cimg src\u003d\"/_static/img/content/20456.png\"/\u003e",
+      "body": "Let \\(\\va, \\vb, \\vc, \\vd\\) be four given vectors.  Consider the parametric\ncurve (known as a Bezier curve)\n\\(\\vx(t) \u003d (1-t)^3\\va + 3t (1-t)^2 \\vb \n  +3t^2 (1-t) \\vc+ t^3\\vd\\)\nwhere \\(0\\le t\\le 1\\).\nCompute \\(\\vx(0), \\vx(1), \\vx\u0027(0)\\), and \\(\\vx\u0027(1)\\).\n\nThe characters in most fonts (like the fonts used for these notes) are\nmade up of lots of Bezier curves.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20456.png\"/\u003e",
       "allAnswers": [],
       "tags": "vector function, parametric curve",
       "url": "/question/6ca9b686-d25e-4fc3-a17e-6342ead39b7a",

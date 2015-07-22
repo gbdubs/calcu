@@ -401,6 +401,4 @@ public abstract class Content {
 			entity.setUnindexedProperty("topic", topic);
 		}
 	}
-	
-	
 }

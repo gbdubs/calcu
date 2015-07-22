@@ -148,7 +148,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Slopes of Tangent Lines via Limits",
-      "body": "Consider the plot of f(x) in the figure.\n(a) On which subinterval(s) of [0,6] is f(x) continuous?\n(b) On which subinterval(s) of [0,6] is f(x) differentiable?\n(c) Sketch a plot of f\u0027(x).\n\n\u003cimg src\u003d\"/_static/img/content/20429.png\"/\u003e",
+      "body": "Consider the plot of f(x) in the figure.\n(a) On which subinterval(s) of [0,6] is f(x) continuous?\n(b) On which subinterval(s) of [0,6] is f(x) differentiable?\n(c) Sketch a plot of f\u0027(x).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20429.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivative, tangent line, function, subintervals, continuous, differentiable ",
       "url": "/question/c9ff587c-1041-4e47-bf76-c06f2dd9e06d",

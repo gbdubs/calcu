@@ -12,10 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.google.appengine.api.blobstore.BlobstoreService;
 import com.google.appengine.api.blobstore.BlobstoreServiceFactory;
-import com.google.appengine.api.taskqueue.Queue;
-import com.google.appengine.api.taskqueue.QueueFactory;
-import com.google.appengine.api.taskqueue.TaskOptions;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 @SuppressWarnings("serial")
 public class UploadWorker extends HttpServlet {
@@ -24,7 +22,7 @@ public class UploadWorker extends HttpServlet {
 	
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
-		Gson gson = new Gson();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		
 		String filePath = req.getParameter("fileUrl");	
 		
@@ -42,18 +40,6 @@ public class UploadWorker extends HttpServlet {
 			
 			dataPackage.asyncSave();
 	
-		}
-	}
-
-	public static void uploadAchievements() {
-		Queue queue = QueueFactory.getDefaultQueue();
-		queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/achievements.txt"));
-	}
-	
-	public static void uploadState(int max){
-		Queue queue = QueueFactory.getQueue("uploadQueue");
-		for (int i = 1; i < max; i++){
-			queue.add(TaskOptions.Builder.withUrl("/admin/upload/worker").param("fileUrl", "/WEB-INF/data/content/digestable/"+i+".txt"));
 		}
 	}
 }

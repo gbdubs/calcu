@@ -760,7 +760,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphical Function Composition",
-      "body": "Use the graphs of \\(y \u003d f(x)\\) and \\(y \u003d g(x)\\) below to find the function value.\n\\((g\\circ f)(1)\\)\n\\((f \\circ g)(3)\\)\n\\((g\\circ f)(2)\\)\n\\((f\\circ g)(0)\\)  \n\\((f\\circ f)(1)\\)\n\\((g \\circ g)(1)\\)\n\n\u003cimg src\u003d\"/_static/img/content/31004.png\"/\u003e\n\n\u003cimg src\u003d\"/_static/img/content/ 31005.png\"/\u003e",
+      "body": "Use the graphs of \\(y \u003d f(x)\\) and \\(y \u003d g(x)\\) below to find the function value.\n\\((g\\circ f)(1)\\)\n\\((f \\circ g)(3)\\)\n\\((g\\circ f)(2)\\)\n\\((f\\circ g)(0)\\)  \n\\((f\\circ f)(1)\\)\n\\((g \\circ g)(1)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31004.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 31005.png\"/\u003e",
       "allAnswers": [],
       "tags": "function composition, domain of a function, composed functions, piecewise functions",
       "url": "/question/5a75e77c-3360-40e1-8193-3660cae7df0e",

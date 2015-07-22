@@ -675,7 +675,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangents, Normals, and Continuity",
-      "body": "Suppose that functions \\(f\\) and \\(g\\) and their first derivatives have the following values at \\(x\u003d-1\\) and at \\(x\u003d0\\). \n Evaluate the first derivatives of the following combinations of \\(f\\) and \\(g\\) at the given value of \\(x\\)\n   a) \\(3f(x)-g(x)\\), \\quad \\(x\u003d-1\\)\n   b) \\([f(x)]^3[g(x)]^3\\), \\quad \\(x\u003d0\\)\n   c) \\(g(f(x))\\), \\quad \\(x\u003d-1\\)\n   d) \\(f(g(x))\\), \\quad \\(x\u003d-1\\)\n   e) \\(\\dfrac{f(x)}{g(x)+2}\\), \\quad \\(x\u003d0\\)\n   f) \\(g(x+f(x))\\), \\quad \\(x\u003d0\\).\n\n\u003cimg src\u003d\"/_static/img/content/20471.png\"/\u003e",
+      "body": "Suppose that functions \\(f\\) and \\(g\\) and their first derivatives have the following values at \\(x\u003d-1\\) and at \\(x\u003d0\\). \n Evaluate the first derivatives of the following combinations of \\(f\\) and \\(g\\) at the given value of \\(x\\)\n   a) \\(3f(x)-g(x)\\), \\quad \\(x\u003d-1\\)\n   b) \\([f(x)]^3[g(x)]^3\\), \\quad \\(x\u003d0\\)\n   c) \\(g(f(x))\\), \\quad \\(x\u003d-1\\)\n   d) \\(f(g(x))\\), \\quad \\(x\u003d-1\\)\n   e) \\(\\dfrac{f(x)}{g(x)+2}\\), \\quad \\(x\u003d0\\)\n   f) \\(g(x+f(x))\\), \\quad \\(x\u003d0\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20471.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, derivatives",
       "url": "/question/95142c1f-bb20-4d08-900a-c09af7b7a3d0",
