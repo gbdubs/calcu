@@ -1,6 +1,7 @@
 package calculus.general;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,6 +15,8 @@ import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
+
+import com.google.appengine.api.datastore.Entity;
 
 @SuppressWarnings("serial")
 public class ContentApprovalServlet extends HttpServlet{
@@ -31,6 +34,13 @@ public class ContentApprovalServlet extends HttpServlet{
 	}
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		
+		if (req.getRequestURI().contains("data-please")){
+			Entity e = ContentApprovalAPI.getContentApprovalEntity();
+			PrintWriter pw = resp.getWriter();
+			pw.println(e.toString());
+			return;
+		}
 		
 		Content c = ContentApprovalAPI.getPieceOfContentToApprove();
 		UserContextAPI.addUserContextToRequest(req, "/content-approval");

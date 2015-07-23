@@ -529,7 +529,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet>
 	<servlet-mapping>
 	    <servlet-name>ContentApprovalServlet</servlet-name>
-	    <url-pattern>/content-approval</url-pattern>
+	    <url-pattern>/content-approval/*</url-pattern>
 	</servlet-mapping>
 	
 	<filter>
