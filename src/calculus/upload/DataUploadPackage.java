@@ -155,40 +155,16 @@ public class DataUploadPackage {
 	
 	
 	
-	public static void main(String[] args){
-		DataUploadPackage stateFileOne = getFileContents("war/WEB-INF/data/content/state-file-1.txt");
-		int i = 1;
-		List<DataUploadPackage> distributed = distributeToSmallSizePackages(stateFileOne);
-		for (DataUploadPackage dup : distributed){
-			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
-		}
-		
-		DataUploadPackage stateFileTwo = getFileContents("war/WEB-INF/data/content/state-file-2.txt");
-		distributed = distributeToSmallSizePackages(stateFileTwo);
-		for (DataUploadPackage dup : distributed){
-			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
-		}
-		
-		DataUploadPackage stateFileThree = getFileContents("war/WEB-INF/data/content/state-file-3.txt");
-		distributed = distributeToSmallSizePackages(stateFileThree);
-		for (DataUploadPackage dup : distributed){
-			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
-		}
-		
-		DataUploadPackage stateFileFour = getFileContents("war/WEB-INF/data/content/state-file-4.txt");
-		distributed = distributeToSmallSizePackages(stateFileFour);
-		for (DataUploadPackage dup : distributed){
-			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
-		}
-		
-		DataUploadPackage stateFileFive = getFileContents("war/WEB-INF/data/content/state-file-5.txt");
-		distributed = distributeToSmallSizePackages(stateFileFive);
-		for (DataUploadPackage dup : distributed){
-			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
-		}
+	public void addAll(DataUploadPackage other) {
+		this.achievements.addAll(other.achievements);
+		this.practiceProblems.addAll(other.practiceProblems);
+		this.questions.addAll(other.questions);
+		this.textContent.addAll(other.textContent);
+		this.answers.addAll(other.answers);
+		this.topics.addAll(other.topics);
 	}
-	
-	private DataUploadPackage split(){
+
+	public DataUploadPackage split(){
 		DataUploadPackage ndup = new DataUploadPackage();
 		while(ndup.achievements.size() < achievements.size()){
 			ndup.achievements.add(achievements.remove(0));
@@ -209,6 +185,40 @@ public class DataUploadPackage {
 			ndup.answers.add(answers.remove(0));
 		}
 		return ndup;
+	}
+
+	public static void main(String[] args){
+		mergeAllMainFiles();
+		splitAllMainFiles();
+	}
+
+	public static void mergeAllMainFiles(){
+		DataUploadPackage stateFileOne = getFileContents("war/WEB-INF/data/content/state-file-1.txt");
+		DataUploadPackage stateFileTwo = getFileContents("war/WEB-INF/data/content/state-file-2.txt");
+		DataUploadPackage stateFileThree = getFileContents("war/WEB-INF/data/content/state-file-3.txt");
+		DataUploadPackage stateFileFour = getFileContents("war/WEB-INF/data/content/state-file-4.txt");
+		DataUploadPackage stateFileFive = getFileContents("war/WEB-INF/data/content/state-file-5.txt");
+		DataUploadPackage stateFileSix = getFileContents("war/WEB-INF/data/content/state-file-6.txt");
+		DataUploadPackage stateFileSeven = getFileContents("war/WEB-INF/data/content/state-file-7.txt");
+		
+		stateFileOne.addAll(stateFileTwo);
+		stateFileOne.addAll(stateFileThree);
+		stateFileOne.addAll(stateFileFour);
+		stateFileOne.addAll(stateFileFive);
+		stateFileOne.addAll(stateFileSix);
+		stateFileOne.addAll(stateFileSeven);
+		
+		writeStringToFile(stateFileOne, "war/WEB-INF/data/content/all.txt");
+		
+	}
+
+	public static void splitAllMainFiles(){
+		DataUploadPackage stateFile = getFileContents("war/WEB-INF/data/content/all.txt");
+		int i = 1;
+		List<DataUploadPackage> distributed = distributeToSmallSizePackages(stateFile);
+		for (DataUploadPackage dup : distributed){
+			writeStringToFile(dup, "war/WEB-INF/data/content/digestable/" + i++ + ".txt");
+		}
 	}
 	
 	public static List<DataUploadPackage> distributeToSmallSizePackages(DataUploadPackage dup){

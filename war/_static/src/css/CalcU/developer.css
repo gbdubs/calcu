@@ -6,3 +6,18 @@ h1.welcome-banner{
 	font-size: 120px;
     font-weight: 100;
 }
+
+#ts-columns{
+	position: relative;
+}
+
+.ts-stashed-col{
+	display: none;
+}
+
+.ts-stashed-col:last-child{
+	position: absolute;
+    left: -200px;
+    opacity: 0.3;
+    width: 200px;
+}

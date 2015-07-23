@@ -58,7 +58,7 @@ public class TopicAPI {
 		String[] topicTitles = topicUrl.split("/");
 		
 		if (topicTitles.length >= 1){
-			Topic t = Topic.createNewTopic(topicTitles[topicTitles.length - 1], "AUTO GENERATED", "AUTO GENERATED", "AUTO GENERATED");
+			Topic t = Topic.createNewTopic(topicTitles[topicTitles.length - 1].toLowerCase(), "AUTO GENERATED", "AUTO GENERATED", "AUTO GENERATED");
 			
 			if (topicTitles.length > 1){
 				String parental = topicTitles[0];

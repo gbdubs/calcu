@@ -523,6 +523,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/topic/*</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+	    <servlet-name>ContentApprovalServlet</servlet-name>
+	    <servlet-class>calculus.general.ContentApprovalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ContentApprovalServlet</servlet-name>
+	    <url-pattern>/content-approval</url-pattern>
+	</servlet-mapping>
 	
 	<filter>
 		<filter-name>appstats</filter-name>

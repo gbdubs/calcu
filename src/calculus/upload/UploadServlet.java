@@ -13,17 +13,15 @@ import calculus.api.UserContextAPI;
 import com.google.appengine.api.taskqueue.Queue;
 import com.google.appengine.api.taskqueue.QueueFactory;
 import com.google.appengine.api.taskqueue.TaskOptions;
-import com.google.appengine.api.taskqueue.TaskOptions.Builder;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class UploadServlet extends HttpServlet{
 	
-	
-	private static final boolean TEST_MODE = true;
+	private static final boolean TEST_MODE = false;
 	private static final int TEST_UPLOADS = 1;
-	private static final int DIGESTABLE_UPLOADS = 184;
+	private static final int DIGESTABLE_UPLOADS = 151;
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		

@@ -44,7 +44,7 @@
 		<h3 class="welcome-banner-subtitle">A Course Aid For the 21st Century</h3>
 		
 		
-		<h1 class="welcome-banner">LANDING UNDER DEVELOPMENT.</h1>		
+		<h1 class="welcome-banner">CALCU IS CURRENTLY DOWN FOR MAINTAINANCE, AND WILL BE FOR SEVERAL DAYS. SERVICE WILL BE RESTORED ON AUGUST 1st 2015.</h1>		
 		
 		
 	</jsp:attribute>

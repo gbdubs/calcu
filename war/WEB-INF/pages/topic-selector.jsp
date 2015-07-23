@@ -15,24 +15,25 @@
 				<h3 class="margin-bottom-50 welcome-banner-subtitle">Choose a topic you're interested in, and we will find related content, practice problems, and examples for you.</h3>
 				<div id="topic-selector">
 				
-				
-					<!-- FIRST COLUMN --> 
-					<div id="ts-col-1" class="col-lg-3 col-md-4 col-sm-4">
-						<div class="box box-primary box-solid">
-							<div class="box-header centered">
-								<h3 class="box-title float-none">Topics</h3>
-							</div>
-							<div class="box-body align-left">
-								<c:forEach var="topic" items="${rootTopics}">
-									<a id="ts-${topic.uuid}" class="btn btn-block btn-default">
-										${topic.title}
-									</a>
-								</c:forEach>
+					<div id="ts-columns">
+					
+						<!-- FIRST COLUMN --> 
+						<div id="ts-col-1" class="col-lg-3 col-md-4 col-sm-4">
+							<div class="box box-primary box-solid">
+								<div class="box-header centered">
+									<h3 class="box-title float-none">Topics</h3>
+								</div>
+								<div class="box-body align-left">
+									<c:forEach var="topic" items="${rootTopics}">
+										<a id="ts-${topic.uuid}" class="btn btn-block btn-default">
+											${topic.title}
+										</a>
+									</c:forEach>
+								</div>
 							</div>
 						</div>
+				
 					</div>
-				
-				
 		
 					
 					<div class="hidden" id="ts-data">
