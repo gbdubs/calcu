@@ -24,11 +24,12 @@ public class LaTexIntroductionServlet extends HttpServlet {
 			"{base} ^ {exponent1 + exponent2}",
 			"\\frac {numerator} {denomenator}",
 			"\\| x \\|",
-			"\\int x \\, dx",
-			"\\int_ 0 ^ \\infty",
+			"\\int x \\, dx, \\int_ 0 ^ \\infty",
+			"\\lim_{x\\rightarrow \\infty} 5",
 			"\\alpha, A, \\beta, B, \\gamma, \\Gamma, \\pi, \\Pi, \\phi, \\varphi, \\Phi",
 			"\\forall x \\in X, \\quad \\exists y \\leq \\epsilon",
-			"\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta"
+			"\\cos (2\\theta) = \\cos^2 \\theta - \\sin^2 \\theta",
+			"\\sqrt[3]{5}, \\neq, \\geq, \\pm, \\triangle, \\angle, \\cdot"
 		};
 		req.setAttribute("latexExamples", expressions);
 		
