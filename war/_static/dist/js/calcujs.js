@@ -2898,7 +2898,7 @@ $(function() {
 		}
 		
 		function hideOrShowColumns(){
-			$(".ts-stashed-col", "#ts-columns").removeClass("ts-stashed-col");
+			$(".ts-stashed-col", "#ts-columns").removeClass("ts-stashed-col").removeClass("ts-last-stashed");
 		
 			var numShown = 3;
 		    if (window.width >= 1200){
@@ -2920,6 +2920,9 @@ $(function() {
 		    if (lastVisibleCol > numShown){
 		    	for (var i = 1; i <= lastVisibleCol - numShown; i++){
 		    		$("#ts-col-"+i, "#ts-columns").addClass("ts-stashed-col");
+		    		if (i == lastVisibleCol - numShown){
+		    			$("#ts-col-"+i, "#ts-columns").addClass("ts-last-stashed");
+		    		}
 		    	}
 		    }
 		}	

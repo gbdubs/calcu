@@ -5348,9 +5348,10 @@ h1.welcome-banner{
 	display: none;
 }
 
-.ts-stashed-col:last-child{
+.ts-stashed-col.ts-last-stashed{
 	position: absolute;
     left: -200px;
     opacity: 0.3;
     width: 200px;
+    display: block;
 }
