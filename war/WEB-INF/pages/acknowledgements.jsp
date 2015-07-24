@@ -54,7 +54,7 @@
 							</div>
 						</div>
 		
-						<div class="box box-success box-solid">
+						<div class="box box-primary box-solid">
 							<div class="box-header">
 								<h3 class="box-title">AMSCO Geometry Textbook</h3>
 							</div>
@@ -65,7 +65,7 @@
 							</div>
 						</div>
 						
-						<div class="box box-primary box-solid">
+						<div class="box box-info box-solid">
 							<div class="box-header">
 								<h3 class="box-title">Calculus Refresher</h3>
 							</div>
@@ -76,7 +76,7 @@
 							</div>
 						</div>
 						
-						<div class="box box-info box-solid">
+						<div class="box box-primary box-solid">
 							<div class="box-header">
 								<h3 class="box-title">Precalculus, 3rd Edition</h3>
 							</div>
@@ -87,7 +87,7 @@
 							</div>
 						</div>
 						
-						<div class="box box-success box-solid">
+						<div class="box box-info box-solid">
 							<div class="box-header">
 								<h3 class="box-title">First Year Calculus</h3>
 							</div>

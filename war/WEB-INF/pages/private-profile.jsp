@@ -142,7 +142,7 @@
 		
 				<span id="content" class="page-locator"></span>
 				<a href="/contribute/dashboard" style="cursor:pointer;">
-					<div class="box box-info box-solid">
+					<div class="box box-primary box-solid">
 						<div class="box-header" style="border-radius: 3px;">
 							<i class="fa fa-pencil"></i>
 							<h3 class="box-title">Your Content <small>Click here to see all of the content you have created!</small></h3>
