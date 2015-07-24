@@ -82,7 +82,7 @@
 					
 				
 					<a href="/search" class="hexagon-button">
-						<div class="text-blue">
+						<div class="text-green">
 							<div class="hexagon outer-hexagon"></div>
 							<div class="hexagon-button-insides bg-white text-white">
 								<div class="hexagon inner-hexagon"></div>

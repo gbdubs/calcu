@@ -9,7 +9,7 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 align-left">
-				<div class="box box-info contribute-box box-solid">
+				<div class="box box-primary contribute-box box-solid">
 					<div class="box-header">
 						<i class="fa fa-info-circle hidden-xs"></i>
 						<h3 class="box-title">Welcome to the Question Editor! <small>Here are some basic guidelines to keep in mind</small></h3>

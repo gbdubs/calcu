@@ -20,19 +20,19 @@
 					<h2 class="tutorial-item-title">CalcU Brings together Three types of Content</h2>
 					<table class="hidden-xs tutorial-content-box">
 						<tr>
-							<td class="bg-green-gradient">
+							<td class="bg-green">
 								<h3 class="no-margin padding-20">Practice Problems</h3>
 								<p>
 									Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
 								</p>
 							</td>
-							<td class="bg-blue-gradient">
+							<td class="bg-blue">
 								<h3 class="no-margin padding-20">Questions + Answers</h3>
 								<p>
 									Whether you have a question, or want to help others answer theirs, questions are at the heart of the community of CalcU. Most are answered within a week.
 								</p>
 							</td>
-							<td class="bg-yellow-gradient">
+							<td class="bg-yellow">
 								<h3 class="no-margin padding-20">Explanations</h3>
 								<p >
 									When you find you want more basic explanations, or want to be formally taught a subject, we offer explanations from around the web and from our users.
@@ -42,7 +42,7 @@
 					</table>
 					<table class="visible-xs">
 						<tr>
-							<td class="bg-green-gradient">
+							<td class="bg-green">
 								<h3 class="no-margin padding-20">Practice Problems</h3>
 								<p>
 									Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
@@ -50,7 +50,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="bg-blue-gradient">
+							<td class="bg-blue">
 								<h3 class="no-margin padding-20">Questions + Answers</h3>
 								<p>
 									Whether you have a question, or want to help others answer theirs, questions are at the heart of the community of CalcU. Most are answered within a week.
@@ -58,7 +58,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td class="bg-yellow-gradient">
+							<td class="bg-yellow">
 								<h3 class="no-margin padding-20">Explanations</h3>
 								<p >
 									When you find you want more basic explanations, or want to be formally taught a subject, we offer explanations from around the web and from our users.

@@ -54,7 +54,6 @@
 					</div>					
 
 					<div id="templates" class="hidden">
-				
 						<div id="ts-column-template" class="col-lg-3 col-md-4 col-sm-4"></div>
 								
 						<div id="ts-topic-box-template" class="box box-success box-solid topic-box hidden">
