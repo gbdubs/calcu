@@ -375,7 +375,7 @@
       "tags": "sphere, ellipse, ellipsoid, area, area of a sphere, surface area",
       "url": "/question/852e90e0-710b-47a9-8547-d4bf44f07ef5",
       "source": "Calculus, Early Transcendentals 9.10.8",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "dc19422b-8a26-4b51-8ec9-09117677f97e",
@@ -392,7 +392,7 @@
       "tags": "velocity function, net distance, total distance, time interval",
       "url": "/question/dc19422b-8a26-4b51-8ec9-09117677f97e",
       "source": "Calculus, Early Transcendentals 9.2.1",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "063a7138-50c9-4d98-89b1-ea8199b2eb0e",
@@ -409,7 +409,7 @@
       "tags": "acceleration, time, speed, velocity",
       "url": "/question/063a7138-50c9-4d98-89b1-ea8199b2eb0e",
       "source": "Calculus, Early Transcendentals 9.2.10",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "d0491ef7-8bb2-4bb4-bc78-a0211b5bcb78",
@@ -426,7 +426,7 @@
       "tags": "velocity, speed, acceleration, time, moves along straight line",
       "url": "/question/d0491ef7-8bb2-4bb4-bc78-a0211b5bcb78",
       "source": "Calculus, Early Transcendentals 9.2.11",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "e6a87f90-df78-48d8-b657-72f1f9333754",
@@ -443,7 +443,7 @@
       "tags": "velocity function, net distance, total distance, time interval",
       "url": "/question/e6a87f90-df78-48d8-b657-72f1f9333754",
       "source": "Calculus, Early Transcendentals 9.2.2",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "c1c7704c-752d-4952-8aaa-01c39a6e69e3",
@@ -460,7 +460,7 @@
       "tags": "velocity function, net distance, total distance, time interval",
       "url": "/question/c1c7704c-752d-4952-8aaa-01c39a6e69e3",
       "source": "Calculus, Early Transcendentals 9.2.3",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "c9742ff3-33b6-4085-b0c8-47fec7e1c244",
@@ -477,7 +477,7 @@
       "tags": "velocity function, net distance, total distance, time interval",
       "url": "/question/c9742ff3-33b6-4085-b0c8-47fec7e1c244",
       "source": "Calculus, Early Transcendentals 9.2.4",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "b99c8ab1-f3e1-4d50-a1ef-6a05721e79f1",
@@ -494,7 +494,7 @@
       "tags": "word problem, calculus word problem, maximum altitude, time, acceleration, gravity",
       "url": "/question/b99c8ab1-f3e1-4d50-a1ef-6a05721e79f1",
       "source": "Calculus, Early Transcendentals 9.2.5",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "d6d3778d-bbb0-4ed2-b9e9-ad6b80efaa08",
@@ -511,7 +511,7 @@
       "tags": "word problem, calculus word problem, maximum altitude, time hits ground, gravity",
       "url": "/question/d6d3778d-bbb0-4ed2-b9e9-ad6b80efaa08",
       "source": "Calculus, Early Transcendentals 9.2.6",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "4e143cea-ee37-41c9-8738-9025a6a767da",
@@ -528,7 +528,7 @@
       "tags": "word problem, calculus word problem, maximum altitude, time object hits ground, gravity",
       "url": "/question/4e143cea-ee37-41c9-8738-9025a6a767da",
       "source": "Calculus, Early Transcendentals 9.2.7",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "b4cd838b-8415-44f2-91f6-720905384ce3",
@@ -545,7 +545,7 @@
       "tags": "word problem, calculus word problem, motion of object, maximum speed, maximum distance ",
       "url": "/question/b4cd838b-8415-44f2-91f6-720905384ce3",
       "source": "Calculus, Early Transcendentals 9.2.8",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "b7acf244-36be-4195-8565-e8a01be92568",
@@ -562,7 +562,7 @@
       "tags": "word problem, calculus word problem, maximum speed, motion of object, acceleration, moves along straight line",
       "url": "/question/b7acf244-36be-4195-8565-e8a01be92568",
       "source": "Calculus, Early Transcendentals 9.2.9",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "43d58fc4-a58f-429e-840c-57549a56c986",
@@ -579,7 +579,7 @@
       "tags": "integrals, pi, volume",
       "url": "/question/43d58fc4-a58f-429e-840c-57549a56c986",
       "source": "Calculus, Early Transcendentals 9.3.1",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "a9611218-0258-41c2-af04-3261520fae97",
@@ -596,7 +596,7 @@
       "tags": "integral, integration, volume, sphere, radius",
       "url": "/question/a9611218-0258-41c2-af04-3261520fae97",
       "source": "Calculus, Early Transcendentals 9.3.10",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "4f2d4ad0-0995-4f31-928a-ed418249aa5c",
@@ -613,7 +613,7 @@
       "tags": "hemisphere, radius, volume, volume of water",
       "url": "/question/4f2d4ad0-0995-4f31-928a-ed418249aa5c",
       "source": "Calculus, Early Transcendentals 9.3.11",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "c5876671-a7dc-4bd9-b491-e9be6396bb4c",
@@ -630,7 +630,7 @@
       "tags": "tetrahedron, volume, altitude, equilateral triangle, base, height ",
       "url": "/question/c5876671-a7dc-4bd9-b491-e9be6396bb4c",
       "source": "Calculus, Early Transcendentals 9.3.12",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "7f896e66-fdd9-4e40-946f-879db318058b",
@@ -647,7 +647,7 @@
       "tags": "volume, cosine, pi, x-axis, base",
       "url": "/question/7f896e66-fdd9-4e40-946f-879db318058b",
       "source": "Calculus, Early Transcendentals 9.3.13",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "4cef398b-e490-451b-bd9b-6cca276e1c6d",
@@ -664,7 +664,7 @@
       "tags": "integral, pi, volume",
       "url": "/question/4cef398b-e490-451b-bd9b-6cca276e1c6d",
       "source": "Calculus, Early Transcendentals 9.3.2",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "2ff9a669-9a1e-4fdc-a360-6ac94b184c60",
@@ -681,7 +681,7 @@
       "tags": "volume, integral, pi",
       "url": "/question/2ff9a669-9a1e-4fdc-a360-6ac94b184c60",
       "source": "Calculus, Early Transcendentals 9.3.3",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "39cdb65a-c987-4686-8709-2ac55e10e8aa",
@@ -698,7 +698,7 @@
       "tags": "volume, pi, integral",
       "url": "/question/39cdb65a-c987-4686-8709-2ac55e10e8aa",
       "source": "Calculus, Early Transcendentals 9.3.4",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "1d0f9a3f-af41-4094-9799-682a44822514",
@@ -715,7 +715,7 @@
       "tags": "integration, volume, integral, revolving the region, x-axis, y-axis",
       "url": "/question/1d0f9a3f-af41-4094-9799-682a44822514",
       "source": "Calculus, Early Transcendentals 9.3.5",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "0a05c588-336b-486d-904d-09476d1e1175",
@@ -732,7 +732,7 @@
       "tags": "volume, revolving region, x-axis, y-axis, integral",
       "url": "/question/0a05c588-336b-486d-904d-09476d1e1175",
       "source": "Calculus, Early Transcendentals 9.3.6",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "538720c3-5d1f-42f0-a4c3-920de9f608e1",
@@ -749,7 +749,7 @@
       "tags": "volume, revolving region, x-axis, y-axis",
       "url": "/question/538720c3-5d1f-42f0-a4c3-920de9f608e1",
       "source": "Calculus, Early Transcendentals 9.3.7",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "3c65bf79-3e95-4915-8ddd-c746677c5122",
@@ -766,7 +766,7 @@
       "tags": "curve, x-axis, line, y-axis, volume, rotating region",
       "url": "/question/3c65bf79-3e95-4915-8ddd-c746677c5122",
       "source": "Calculus, Early Transcendentals 9.3.8",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "dd016015-f1b7-4273-942b-8867170b0ea5",
@@ -783,7 +783,7 @@
       "tags": "ellipsoids, volume, ellipse, x-axis, y-axis",
       "url": "/question/dd016015-f1b7-4273-942b-8867170b0ea5",
       "source": "Calculus, Early Transcendentals 9.3.9",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "d8408f51-cf01-4a14-b7f5-15e713621bfa",
@@ -800,7 +800,7 @@
       "tags": "average height, cosine, intervals, pi",
       "url": "/question/d8408f51-cf01-4a14-b7f5-15e713621bfa",
       "source": "Calculus, Early Transcendentals 9.4.1",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "f0e98827-4ddb-4109-b283-d964a9f66964",
@@ -817,7 +817,7 @@
       "tags": "average height, interval, finding average height, height",
       "url": "/question/f0e98827-4ddb-4109-b283-d964a9f66964",
       "source": "Calculus, Early Transcendentals 9.4.2",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "3dfd8509-99f1-408d-8dd3-b6e971d51539",
@@ -834,7 +834,7 @@
       "tags": "average height, height, interval, finding average height",
       "url": "/question/3dfd8509-99f1-408d-8dd3-b6e971d51539",
       "source": "Calculus, Early Transcendentals 9.4.3",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "e1c127a5-bdf7-484f-972c-975a8fbbdee9",
@@ -851,7 +851,7 @@
       "tags": "average height, height, interval, finding average height ",
       "url": "/question/e1c127a5-bdf7-484f-972c-975a8fbbdee9",
       "source": "Calculus, Early Transcendentals 9.4.4",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "340858f4-e06b-40a3-8649-405d9c430df7",
@@ -868,7 +868,7 @@
       "tags": "velocity, average velocity, average speed, time, interval",
       "url": "/question/340858f4-e06b-40a3-8649-405d9c430df7",
       "source": "Calculus, Early Transcendentals 9.4.5",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "ac50e710-7cfe-47ec-ad4d-360d546c7b60",
@@ -885,7 +885,7 @@
       "tags": "velocity, time, function, average speed, interval, speed, word problem, calculus word problem",
       "url": "/question/ac50e710-7cfe-47ec-ad4d-360d546c7b60",
       "source": "Calculus, Early Transcendentals 9.4.6",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "c42b7e40-93d6-426b-959e-6bba7e101155",
@@ -902,7 +902,7 @@
       "tags": "work, word problem, calculus word problem, surface of earth, orbit",
       "url": "/question/c42b7e40-93d6-426b-959e-6bba7e101155",
       "source": "Calculus, Early Transcendentals 9.5.1",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "b6ef446f-080a-441c-adaa-60d43e9270fb",
@@ -919,7 +919,7 @@
       "tags": "work, lifting bucket, height, word problem",
       "url": "/question/b6ef446f-080a-441c-adaa-60d43e9270fb",
       "source": "Calculus, Early Transcendentals 9.5.10",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "3b7d88cd-2eff-4848-8fdb-03d8ad5c0df3",
@@ -936,7 +936,7 @@
       "tags": "word problem, calculus word problem, work, orbit, surface of the earth",
       "url": "/question/3b7d88cd-2eff-4848-8fdb-03d8ad5c0df3",
       "source": "Calculus, Early Transcendentals 9.5.2",
-      "topic": "Calculus/Application of Integration/Volume/Base of a Solid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "633aa989-1be7-4647-9076-05e2c20dafd0",
@@ -953,7 +953,7 @@
       "tags": "word problem, cylinder, radius, height, depth of water, calculus word problem, work, work word problem",
       "url": "/question/633aa989-1be7-4647-9076-05e2c20dafd0",
       "source": "Calculus, Early Transcendentals 9.5.3",
-      "topic": "Calculus/Applications of Integration/Work/Force/Gravitational Force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Gravity"
     },
     {
       "uuid": "16118cac-a8cc-4cec-9c7a-fbd66017ca9d",
@@ -970,7 +970,7 @@
       "tags": "word problem, work, calculus word problem, work word problem, water tank",
       "url": "/question/16118cac-a8cc-4cec-9c7a-fbd66017ca9d",
       "source": "Calculus, Early Transcendentals 9.5.4",
-      "topic": "Calculus/Applications of Integration/Work/Force/Gravitational Force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Gravity"
     },
     {
       "uuid": "526c2c46-a7ae-469c-a478-f10b2bb52dea",
@@ -987,7 +987,7 @@
       "tags": "work, word problem, calculus word problem, work word problem, water tank, sphere, radius",
       "url": "/question/526c2c46-a7ae-469c-a478-f10b2bb52dea",
       "source": "Calculus, Early Transcendentals 9.5.5",
-      "topic": "Calculus/Applications of Integration/Work/Force/Gravitational Force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Gravity"
     },
     {
       "uuid": "3de8d2bf-fa29-4a50-b25b-8b39f044988c",
@@ -1004,7 +1004,7 @@
       "tags": "spring, work, compressing spring, natural length, spring constant ",
       "url": "/question/3de8d2bf-fa29-4a50-b25b-8b39f044988c",
       "source": "Calculus, Early Transcendentals 9.5.6",
-      "topic": "Calculus/Applications of Integration/Work/Force/Gravitational Force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Gravity"
     },
     {
       "uuid": "08066b70-5f26-4e4e-9221-5f3a5d49c85d",
@@ -1021,7 +1021,7 @@
       "tags": "spring, force, Newtons, work, natural length, stretch spring",
       "url": "/question/08066b70-5f26-4e4e-9221-5f3a5d49c85d",
       "source": "Calculus, Early Transcendentals 9.5.7",
-      "topic": "Calculus/Applications of Integration/Work/Force/Gravitational Force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Gravity"
     },
     {
       "uuid": "e4205dad-3584-4cd1-9501-039d453694f9",
@@ -1038,7 +1038,7 @@
       "tags": "work, density, lifting bucket, bucket, height ",
       "url": "/question/e4205dad-3584-4cd1-9501-039d453694f9",
       "source": "Calculus, Early Transcendentals 9.5.8",
-      "topic": "Calculus/Applications of Integration/Work/Force/Gravitational Force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Gravity"
     },
     {
       "uuid": "30845f31-f9d8-4047-b4bf-df5fd4dd4045",
@@ -1055,7 +1055,7 @@
       "tags": "work, bucket, height, lifting cable ",
       "url": "/question/30845f31-f9d8-4047-b4bf-df5fd4dd4045",
       "source": "Calculus, Early Transcendentals 9.5.9",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke_s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "d31ab0c1-164d-473b-a5e3-93f22a775ae7",
@@ -1072,7 +1072,7 @@
       "tags": "center of mass, finding the center of mass, mass, density, beam, distance",
       "url": "/question/d31ab0c1-164d-473b-a5e3-93f22a775ae7",
       "source": "Calculus, Early Transcendentals 9.6.1",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke_s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "d3283037-a41c-4430-8352-9abdcc38d5d6",
@@ -1089,7 +1089,7 @@
       "tags": "centroid, center of mass, finding the centroid, quadrant, region, axes",
       "url": "/question/d3283037-a41c-4430-8352-9abdcc38d5d6",
       "source": "Calculus, Early Transcendentals 9.6.10",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke_s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "ccecc26d-ceba-4aea-b282-692b613b3b7f",
@@ -1106,7 +1106,7 @@
       "tags": "centroid, center of mass, finding the centroid, circle, region, x-axis",
       "url": "/question/ccecc26d-ceba-4aea-b282-692b613b3b7f",
       "source": "Calculus, Early Transcendentals 9.6.11",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke_s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "d79dd300-4499-4651-a6ec-17e98daa7465",
@@ -1123,7 +1123,7 @@
       "tags": "centroid, find the centroid, center of mass, circle, region, quadrant",
       "url": "/question/d79dd300-4499-4651-a6ec-17e98daa7465",
       "source": "Calculus, Early Transcendentals 9.6.12",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Torque/Density"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Torque"
     },
     {
       "uuid": "87b60505-d6e8-4695-b5e0-d717f84fe3d1",
@@ -1140,7 +1140,7 @@
       "tags": "centroid, circle, find the centroid, center of mass, region",
       "url": "/question/87b60505-d6e8-4695-b5e0-d717f84fe3d1",
       "source": "Calculus, Early Transcendentals 9.6.13",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "365a93ca-1a56-4c4d-94a4-034b7b0187e7",
@@ -1157,7 +1157,7 @@
       "tags": "center of mass, mass, finding the center of mass, sine, density, distance, beam",
       "url": "/question/365a93ca-1a56-4c4d-94a4-034b7b0187e7",
       "source": "Calculus, Early Transcendentals 9.6.2",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "3e6cf38d-e85b-44b6-8c4c-a2ef47047d8a",
@@ -1174,7 +1174,7 @@
       "tags": "center of mass, mass, finding the center of mass, density, distance, beam",
       "url": "/question/3e6cf38d-e85b-44b6-8c4c-a2ef47047d8a",
       "source": "Calculus, Early Transcendentals 9.6.3",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "5f0ad4cc-0d9f-4175-adbf-d104cd5ae3eb",
@@ -1191,7 +1191,7 @@
       "tags": "verifying equation, verify , integral, integration, arccos",
       "url": "/question/5f0ad4cc-0d9f-4175-adbf-d104cd5ae3eb",
       "source": "Calculus, Early Transcendentals 9.6.4",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "25c5c85e-df46-4525-b4e4-270ea6cc2a83",
@@ -1208,7 +1208,7 @@
       "tags": "centroid, region, x-axis, region",
       "url": "/question/25c5c85e-df46-4525-b4e4-270ea6cc2a83",
       "source": "Calculus, Early Transcendentals 9.6.5",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Torque/Density"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Torque"
     },
     {
       "uuid": "b83808da-3cd2-450f-ae8e-3085a1cf504a",
@@ -1225,7 +1225,7 @@
       "tags": "centroid, finding the centroid, unit circle, thin plate",
       "url": "/question/b83808da-3cd2-450f-ae8e-3085a1cf504a",
       "source": "Calculus, Early Transcendentals 9.6.6",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Torque/Density"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Torque"
     },
     {
       "uuid": "324d0f91-4e38-45ec-a2c2-f93353ae627d",
@@ -1242,7 +1242,7 @@
       "tags": "centroid, finding the centroid, center of mass, region ",
       "url": "/question/324d0f91-4e38-45ec-a2c2-f93353ae627d",
       "source": "Calculus, Early Transcendentals 9.6.7",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Torque/Density"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Torque"
     },
     {
       "uuid": "ee7c3b8d-a108-4b3c-a3b4-233e4cf4d38e",
@@ -1259,7 +1259,7 @@
       "tags": "centroid, finding the centroid, center of mass, region",
       "url": "/question/ee7c3b8d-a108-4b3c-a3b4-233e4cf4d38e",
       "source": "Calculus, Early Transcendentals 9.6.8",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Torque/Density"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Torque"
     },
     {
       "uuid": "a58c77ba-bada-4dc8-8bb5-a97f9450a196",
@@ -1276,7 +1276,7 @@
       "tags": "centroid, finding the centroid, region, center of mass, axes, quadrant",
       "url": "/question/a58c77ba-bada-4dc8-8bb5-a97f9450a196",
       "source": "Calculus, Early Transcendentals 9.6.9",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "14c6c78a-cf20-4ffd-a4cc-af0c3ef98ce5",
@@ -1293,7 +1293,7 @@
       "tags": "area, area under curve, infinity, finite, infinite",
       "url": "/question/14c6c78a-cf20-4ffd-a4cc-af0c3ef98ce5",
       "source": "Calculus, Early Transcendentals 9.7.1",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "7cb0d8e9-42bb-4325-b241-d480bb5501eb",
@@ -1310,7 +1310,7 @@
       "tags": "Cauchy Principal Value, infinity, converge, diverge, limit, value",
       "url": "/question/7cb0d8e9-42bb-4325-b241-d480bb5501eb",
       "source": "Calculus, Early Transcendentals 9.7.10",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "af728f4a-45be-4fc3-b839-84e4dd7c2403",
@@ -1327,7 +1327,7 @@
       "tags": "Cauchy Principal Value, converge, diverge, value, limit, integral",
       "url": "/question/af728f4a-45be-4fc3-b839-84e4dd7c2403",
       "source": "Calculus, Early Transcendentals 9.7.11",
-      "topic": "Calculus/Applications of Integration/Center of Mass/Centroid"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Center of Mass/Centroid"
     },
     {
       "uuid": "cd649695-9853-4e3a-acdb-6b2761a0fe32",
@@ -1344,7 +1344,7 @@
       "tags": "infinity, integral, limit, Cauchy Principal Value, value, converge, diverge",
       "url": "/question/cd649695-9853-4e3a-acdb-6b2761a0fe32",
       "source": "Calculus, Early Transcendentals 9.7.12",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "86e50de8-0730-44dc-b7ca-da6a42bd2237",
@@ -1361,7 +1361,7 @@
       "tags": "volume, infinity, finite, infinite, curve, Gabriel\u0027s horn, Toricelli\u0027s trumpet",
       "url": "/question/86e50de8-0730-44dc-b7ca-da6a42bd2237",
       "source": "Calculus, Early Transcendentals 9.7.13",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "a27f6fe3-6bef-4619-894a-74cd93df5364",
@@ -1378,7 +1378,7 @@
       "tags": "work, Newton-meters, baseball, speed",
       "url": "/question/a27f6fe3-6bef-4619-894a-74cd93df5364",
       "source": "Calculus, Early Transcendentals 9.7.14",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "21fdeafc-d099-4ae6-a188-948aa15e2cc4",
@@ -1395,7 +1395,7 @@
       "tags": "area, area under curve, infinity, finite, infinite",
       "url": "/question/21fdeafc-d099-4ae6-a188-948aa15e2cc4",
       "source": "Calculus, Early Transcendentals 9.7.2",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "30c5a428-6ac2-48af-8146-7ff60061fbae",
@@ -1412,7 +1412,7 @@
       "tags": "integral, converge, diverge, value, infinity ",
       "url": "/question/30c5a428-6ac2-48af-8146-7ff60061fbae",
       "source": "Calculus, Early Transcendentals 9.7.3",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "03e93e64-b8c8-460a-a03a-643c4a3e379e",
@@ -1429,7 +1429,7 @@
       "tags": "infinity, kinetic energy, converge, diverge, value",
       "url": "/question/03e93e64-b8c8-460a-a03a-643c4a3e379e",
       "source": "Calculus, Early Transcendentals 9.7.4",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "a82f699f-0362-459c-b1da-0f87c85a7d12",
@@ -1446,7 +1446,7 @@
       "tags": "infinity, converge, diverge, integral, value",
       "url": "/question/a82f699f-0362-459c-b1da-0f87c85a7d12",
       "source": "Calculus, Early Transcendentals 9.7.5",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Cauchy Principal Value"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Cauchy Principal Value"
     },
     {
       "uuid": "ece7f704-327d-426e-a3fe-570189cadfb4",
@@ -1463,7 +1463,7 @@
       "tags": "converge, diverge, integral, improper integral, limit",
       "url": "/question/ece7f704-327d-426e-a3fe-570189cadfb4",
       "source": "Calculus, Early Transcendentals 9.7.6",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "2b95673c-f13d-4e75-b308-2d9cbbdd662e",
@@ -1480,7 +1480,7 @@
       "tags": "converge, diverge, infinity, value, limit",
       "url": "/question/2b95673c-f13d-4e75-b308-2d9cbbdd662e",
       "source": "Calculus, Early Transcendentals 9.7.7",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "478aaff4-41be-4cb5-ad2e-d8b5daca8e55",
@@ -1497,7 +1497,7 @@
       "tags": "converge, diverge, infinity, limit, value",
       "url": "/question/478aaff4-41be-4cb5-ad2e-d8b5daca8e55",
       "source": "Calculus, Early Transcendentals 9.7.8",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "6e4ee11e-2e3e-4152-b35e-03981e579819",
@@ -1514,7 +1514,7 @@
       "tags": "converge, diverge, infinity, limit, value",
       "url": "/question/6e4ee11e-2e3e-4152-b35e-03981e579819",
       "source": "Calculus, Early Transcendentals 9.7.9",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "bd9369af-fc77-4535-a279-d13e5ef1f0f3",
@@ -1531,7 +1531,7 @@
       "tags": "integral, limit, infinity ",
       "url": "/question/bd9369af-fc77-4535-a279-d13e5ef1f0f3",
       "source": "Calculus, Early Transcendentals 9.8.1",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "8ee8d153-bd73-4eb5-acbf-f7f3e70dd9cb",
@@ -1548,7 +1548,7 @@
       "tags": "function, probability, density function, mean, standard deviation, probability density function",
       "url": "/question/8ee8d153-bd73-4eb5-acbf-f7f3e70dd9cb",
       "source": "Calculus, Early Transcendentals 9.8.2",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "9683b020-049b-4946-b04d-0a9d0900cb68",
@@ -1565,7 +1565,7 @@
       "tags": "mean, standard deviation, uniform distribution ",
       "url": "/question/9683b020-049b-4946-b04d-0a9d0900cb68",
       "source": "Calculus, Early Transcendentals 9.8.3",
-      "topic": "Calculus/Applications of Integration/Kinetic Energy; Improper Integrals/Converges"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Converges"
     },
     {
       "uuid": "67fce183-6893-4e0f-b0ca-116988c03113",
@@ -1582,7 +1582,7 @@
       "tags": "probability, expected value, dice",
       "url": "/question/67fce183-6893-4e0f-b0ca-116988c03113",
       "source": "Calculus, Early Transcendentals 9.8.4",
-      "topic": "Calculus/Applications of Integration/Probability/Bell Curve/Standard Normal Distribution"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Probability/Bell Curve/Standard Normal Distribution"
     },
     {
       "uuid": "b78e7721-895e-40bf-b15c-f77f56fb4829",
@@ -1599,7 +1599,7 @@
       "tags": "dice, probability, expected sum, sum",
       "url": "/question/b78e7721-895e-40bf-b15c-f77f56fb4829",
       "source": "Calculus, Early Transcendentals 9.8.5",
-      "topic": "Calculus/Applications of Integration/Probability/Bell Curve/Standard Normal Distribution"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Probability/Bell Curve/Standard Normal Distribution"
     },
     {
       "uuid": "b3ce0960-5f04-4962-86fb-3c0e3ab03d5c",
@@ -1616,7 +1616,7 @@
       "tags": "normal distribution, probability, probability density function, density function, integral, substitution, standard deviation",
       "url": "/question/b3ce0960-5f04-4962-86fb-3c0e3ab03d5c",
       "source": "Calculus, Early Transcendentals 9.8.6",
-      "topic": "Calculus/Applications of Integration/Probability/Bell Curve/Standard Normal Distribution"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Probability/Bell Curve/Standard Normal Distribution"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Newton\u0027s Method",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/858.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/859.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/860.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/858.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/859.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/860.png\"/\u003e",
       "allAnswers": [],
       "tags": "newtons method, calc ",
       "url": "/text-content/ae70e8ce-a404-4f3d-a5e5-01e24043e77e",
       "source": "Calculus, Early Transcendentals 6.3",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "20ee14d9-0378-4290-a305-249b8ad6e98a",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Linear Approximations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/864.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/864.png\"/\u003e",
       "allAnswers": [],
       "tags": "linear approximation, calc ",
       "url": "/text-content/20ee14d9-0378-4290-a305-249b8ad6e98a",
       "source": "Calculus, Early Transcendentals 6.4",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "b9972ab4-6f89-417e-887d-ca8cead593fa",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The mean value theorem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/867.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/868.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/867.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/868.png\"/\u003e",
       "allAnswers": [],
       "tags": "mean value, mean value theorem, calc ",
       "url": "/text-content/b9972ab4-6f89-417e-887d-ca8cead593fa",
       "source": "Calculus, Early Transcendentals 6.5",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "5c30539e-5d6f-4b0b-a5b8-a30ed70b83e3",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Two Examples",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/869.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/871.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/873.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/869.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/871.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/873.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration, approximation of area under curve, integral ",
       "url": "/text-content/5c30539e-5d6f-4b0b-a5b8-a30ed70b83e3",
       "source": "Calculus, Early Transcendentals 7.1",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "60b25270-294f-4fcc-a457-6fbad0ef2c4a",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Fundamental Theorem of Calculus",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/874.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/875.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/876.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/877.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/878.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/879.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/880.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/874.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/875.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/876.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/877.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/878.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/879.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/880.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration, fundamental theorem, calculus ",
       "url": "/text-content/60b25270-294f-4fcc-a457-6fbad0ef2c4a",
       "source": "Calculus, Early Transcendentals 7.2",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     }
   ],
   "answers": [],

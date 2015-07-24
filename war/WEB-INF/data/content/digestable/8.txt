@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5003.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5003.png\"/\u003e",
       "uuid": "060fe6d1-213f-4854-aa2f-ecb888733c10",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the trigonometric limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5002.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5002.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, rational functions, continuity, continuous functions, functions, trigonometry ",
       "url": "/practice-problem/060fe6d1-213f-4854-aa2f-ecb888733c10",
       "source": "null 3.9.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5061.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5061.png\"/\u003e",
       "uuid": "f89f2ef2-0c0b-49d9-9353-53db82e5584b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "A battery is connected to a charger",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5060.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5060.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, current, trigonometry, slope",
       "url": "/practice-problem/f89f2ef2-0c0b-49d9-9353-53db82e5584b",
       "source": "null 4.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5077.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5077.png\"/\u003e",
       "uuid": "49658fff-5100-429f-954f-492717fb4e93",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Chain rule problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5076.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5076.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, chain rule, derivative, trig ",
       "url": "/practice-problem/49658fff-5100-429f-954f-492717fb4e93",
       "source": "null 4.4.9"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5079.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5079.png\"/\u003e",
       "uuid": "1711eab9-fbb4-47eb-8f8c-32b7e147a129",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5078.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5078.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivative, chain rule, trigonometric derivatives ",
       "url": "/practice-problem/1711eab9-fbb4-47eb-8f8c-32b7e147a129",
       "source": "null 4.4.10"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5138.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5138.png\"/\u003e",
       "uuid": "6017f03f-731f-4525-8903-3d9da7f4cdb3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute this arctrig function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5137.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5137.png\"/\u003e",
       "allAnswers": [],
       "tags": "arctrigonometric functions, derivatives of arctrigonometric functions, derivatives, chain rule, product rule ",
       "url": "/practice-problem/6017f03f-731f-4525-8903-3d9da7f4cdb3",
       "source": "null 4.7.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5148.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5148.png\"/\u003e",
       "uuid": "cd064b34-7f2c-42b2-84dd-1b71efa34780",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivative of Exponential function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5147.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5147.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential function, derivative of exponential function, derivatives, chain rule, product rule ",
       "url": "/practice-problem/cd064b34-7f2c-42b2-84dd-1b71efa34780",
       "source": "null 4.8.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5171.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5171.png\"/\u003e",
       "uuid": "de39686e-40ae-4b2e-ac8e-7c6f9ca71adf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find derivative of a natural log",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5170.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5170.png\"/\u003e",
       "allAnswers": [],
       "tags": "natural log derivative, derivatives, chain rule, product rule ",
       "url": "/practice-problem/de39686e-40ae-4b2e-ac8e-7c6f9ca71adf",
       "source": "null 4.10.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5183.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5184.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5183.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5184.png\"/\u003e",
       "uuid": "1afec267-870c-4cd5-92cf-9020db4c5e9a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Higher-Order derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5182.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5182.png\"/\u003e",
       "allAnswers": [],
       "tags": "higher-order functions, derivatives, chain rule, product rule, quotient rule ",
       "url": "/practice-problem/1afec267-870c-4cd5-92cf-9020db4c5e9a",
       "source": "null 5.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5187.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5188.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5189.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5187.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5188.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5189.png\"/\u003e",
       "uuid": "2e97e2a1-9c8a-48b2-a7e8-9b10f7dd0342",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Sketch the graph of higher-order function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5186.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5186.png\"/\u003e",
       "allAnswers": [],
       "tags": "graph of higher-order, functions, sketching graphs, derivatives ",
       "url": "/practice-problem/2e97e2a1-9c8a-48b2-a7e8-9b10f7dd0342",
       "source": "null 5.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5191.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5192.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5193.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5191.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5192.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5193.png\"/\u003e",
       "uuid": "f867f6bb-d81b-49fb-8867-259fe85b61f1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph the higher-order function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5190.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5190.png\"/\u003e",
       "allAnswers": [],
       "tags": "higher-order function, functions, graphing functions, derivatives",
       "url": "/practice-problem/f867f6bb-d81b-49fb-8867-259fe85b61f1",
       "source": "null 5.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5196.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5196.png\"/\u003e",
       "uuid": "4d3be9b2-b40c-4c57-81cd-ccfb86ebf58e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph the function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5194.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5194.png\"/\u003e",
       "allAnswers": [],
       "tags": "graphing function, higher-order functions, derivatives",
       "url": "/practice-problem/4d3be9b2-b40c-4c57-81cd-ccfb86ebf58e",
       "source": "null 5.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5213.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5213.png\"/\u003e",
       "uuid": "2f344922-82a2-4773-9d9b-952d49d0e13c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find max and min",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5212.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5212.png\"/\u003e",
       "allAnswers": [],
       "tags": "maximum value, minimum value, extrema, continuity, derivatives ",
       "url": "/practice-problem/2f344922-82a2-4773-9d9b-952d49d0e13c",
       "source": "null 5.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5215.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5215.png\"/\u003e",
       "uuid": "b5547e5a-0127-4b5c-84b6-6c3294bb2d4f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Maximum value question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5214.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5214.png\"/\u003e",
       "allAnswers": [],
       "tags": "maximum value, extrema, derivatives, applications of derivatives",
       "url": "/practice-problem/b5547e5a-0127-4b5c-84b6-6c3294bb2d4f",
       "source": "null 5.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5254.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5255.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5254.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5255.png\"/\u003e",
       "uuid": "41faa30e-f9c5-4340-90f3-d76e3f2dc245",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Coil of sheet metal",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5253.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5253.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, derivatives, applications of derivatives ",
       "url": "/practice-problem/41faa30e-f9c5-4340-90f3-d76e3f2dc245",
       "source": "null 5.6.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5264.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5264.png\"/\u003e",
       "uuid": "741ad3c9-a4df-4a04-a388-04d7a89aa131",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Antiderivative question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5263.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5263.png\"/\u003e",
       "allAnswers": [],
       "tags": "antiderivative, integral, integration ",
       "url": "/practice-problem/741ad3c9-a4df-4a04-a388-04d7a89aa131",
       "source": "null 6.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5267.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5267.png\"/\u003e",
       "uuid": "763b3b4b-03d2-4ffa-8dc1-7a66a50baca2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Integral problem ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5266.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5266.png\"/\u003e",
       "allAnswers": [],
       "tags": "antiderivative, integral, integration ",
       "url": "/practice-problem/763b3b4b-03d2-4ffa-8dc1-7a66a50baca2",
       "source": "null 6.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5275.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5275.png\"/\u003e",
       "uuid": "cd6b2844-cae2-40b0-b017-4f0ca293b08b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the indefinite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5273.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5273.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration, antiderivative ",
       "url": "/practice-problem/cd6b2844-cae2-40b0-b017-4f0ca293b08b",
       "source": "null 6.1.9"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5292.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5292.png\"/\u003e",
       "uuid": "4be4cd37-1a7d-406e-b307-6c63d73ad222",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute area under the curve",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5291.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5291.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, area under curve, integration ",
       "url": "/practice-problem/4be4cd37-1a7d-406e-b307-6c63d73ad222",
       "source": "null 6.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5295.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5295.png\"/\u003e",
       "uuid": "ad821618-9af2-46ac-b664-737ee8a1fd10",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the integral problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5294.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5294.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration, area under curve ",
       "url": "/practice-problem/ad821618-9af2-46ac-b664-737ee8a1fd10",
       "source": "null 6.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5332.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5332.png\"/\u003e",
       "uuid": "3a7dc542-7dee-4b97-9e53-e2721ee8dec1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the indefinite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5330.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5330.png\"/\u003e",
       "allAnswers": [],
       "tags": "indefinite integral, integral, integration ",
       "url": "/practice-problem/3a7dc542-7dee-4b97-9e53-e2721ee8dec1",
       "source": "null 6.5.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5365.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5365.png\"/\u003e",
       "uuid": "327d7c25-8aac-42b1-b44d-5a52710897ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the indefinite integral by parts",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5364.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5364.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration by parts, integration, integration by substitution, integral ",
       "url": "/practice-problem/327d7c25-8aac-42b1-b44d-5a52710897ec",
@@ -375,7 +375,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/bc53ba13-a482-4cb2-b2d1-4f5a89c9dd28",
       "source": "Active Calc 6.2.4",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "8c753b8b-54d3-45f3-8d66-dd7e8278b0a9",
@@ -392,7 +392,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/8c753b8b-54d3-45f3-8d66-dd7e8278b0a9",
       "source": "Active Calc 6.2.5",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "e49594b8-03bd-434f-9b23-023c4173612b",
@@ -409,7 +409,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/e49594b8-03bd-434f-9b23-023c4173612b",
       "source": "Active Calc 6.2.6",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "a895a4b5-d33f-42de-b2db-7454bc5febe0",
@@ -426,7 +426,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/a895a4b5-d33f-42de-b2db-7454bc5febe0",
       "source": "Active Calc 6.2.7",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "00dcdfd7-b69d-4dd7-95b7-b6a1b247f9c8",
@@ -443,7 +443,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/00dcdfd7-b69d-4dd7-95b7-b6a1b247f9c8",
       "source": "Active Calc 6.2.8",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "494eab7a-6232-4b5f-b651-89da828fda50",
@@ -460,7 +460,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/494eab7a-6232-4b5f-b651-89da828fda50",
       "source": "Active Calc 6.2.9",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "ba9610bd-9702-4ebd-bcab-7e99670c9ea3",
@@ -477,7 +477,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/ba9610bd-9702-4ebd-bcab-7e99670c9ea3",
       "source": "Active Calc 6.2.10",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "e9a2f1a4-0add-4912-bedc-2985c7f91952",
@@ -494,7 +494,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/e9a2f1a4-0add-4912-bedc-2985c7f91952",
       "source": "Active Calc 6.2.11",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "9968ed8a-7e80-463a-870d-3f61133f0fa1",
@@ -511,7 +511,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/9968ed8a-7e80-463a-870d-3f61133f0fa1",
       "source": "Active Calc 6.2.12",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "303625a8-d801-4fa8-8927-fabea82cfe76",
@@ -528,7 +528,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/303625a8-d801-4fa8-8927-fabea82cfe76",
       "source": "Active Calc 6.2.13",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "31989387-6438-4b19-a06c-c3913017cf9d",
@@ -545,7 +545,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/31989387-6438-4b19-a06c-c3913017cf9d",
       "source": "Active Calc 6.2.14",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "b44973bf-360c-4499-abc0-4672cc6d4b35",
@@ -562,7 +562,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/b44973bf-360c-4499-abc0-4672cc6d4b35",
       "source": "Active Calc 6.2.15",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "a21033ea-2e4b-489f-b68e-28fc3752de31",
@@ -579,7 +579,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, simplify",
       "url": "/question/a21033ea-2e4b-489f-b68e-28fc3752de31",
       "source": "Active Calc 6.2.16",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "cf8ee400-0f67-42c7-9a4e-0b3cb55c7cab",
@@ -596,7 +596,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/cf8ee400-0f67-42c7-9a4e-0b3cb55c7cab",
       "source": "Active Calc 6.2.17",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "884c1628-73ad-494d-8a89-bcceb84d03eb",
@@ -613,7 +613,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/884c1628-73ad-494d-8a89-bcceb84d03eb",
       "source": "Active Calc 6.2.18",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "d2fb9959-75e6-4db4-85b3-a34b3deb696f",
@@ -630,7 +630,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/d2fb9959-75e6-4db4-85b3-a34b3deb696f",
       "source": "Active Calc 6.2.19",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "67318deb-a1bc-4e40-b2e3-d1856dd5f9d0",
@@ -647,7 +647,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/67318deb-a1bc-4e40-b2e3-d1856dd5f9d0",
       "source": "Active Calc 6.2.20",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "8dc1a251-b525-4358-9b7f-44b47c2f99eb",
@@ -664,7 +664,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/8dc1a251-b525-4358-9b7f-44b47c2f99eb",
       "source": "Active Calc 6.2.21",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "6eb700c7-7756-4843-9d51-a07c490c324e",
@@ -681,7 +681,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/6eb700c7-7756-4843-9d51-a07c490c324e",
       "source": "Active Calc 6.2.22",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "04739368-7711-44ad-b524-1744fafd0b65",
@@ -698,7 +698,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/04739368-7711-44ad-b524-1744fafd0b65",
       "source": "Active Calc 6.2.23",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "d42805cb-9ac3-46b4-9e0c-00d3d4f5148d",
@@ -715,7 +715,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/d42805cb-9ac3-46b4-9e0c-00d3d4f5148d",
       "source": "Active Calc 6.2.24",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "8553cee1-7806-4bdc-ae3d-725cff3a3523",
@@ -732,7 +732,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/8553cee1-7806-4bdc-ae3d-725cff3a3523",
       "source": "Active Calc 6.2.25",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "28a2a016-7b47-4806-9f8e-c78a3817faf0",
@@ -749,7 +749,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/28a2a016-7b47-4806-9f8e-c78a3817faf0",
       "source": "Active Calc 6.2.26",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "a8a3bc70-ba88-4682-a0e9-988519b78132",
@@ -766,7 +766,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/a8a3bc70-ba88-4682-a0e9-988519b78132",
       "source": "Active Calc 6.2.27",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "16e80df0-8b5e-42e9-b6a4-b5b4930cc703",
@@ -783,7 +783,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/16e80df0-8b5e-42e9-b6a4-b5b4930cc703",
       "source": "Active Calc 6.2.28",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "5f8af807-173d-4f34-9cf8-6101f4d51d76",
@@ -800,7 +800,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/5f8af807-173d-4f34-9cf8-6101f4d51d76",
       "source": "Active Calc 6.2.28",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "198430a9-0670-4854-baf5-2758afebd0ec",
@@ -817,7 +817,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/198430a9-0670-4854-baf5-2758afebd0ec",
       "source": "Active Calc 6.2.29",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "f53dacfe-b840-477f-a1a7-9a4c2d2b9526",
@@ -834,7 +834,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/f53dacfe-b840-477f-a1a7-9a4c2d2b9526",
       "source": "Active Calc 6.2.30",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "b11ca764-61b2-41d9-9e64-ef44226f5c05",
@@ -851,7 +851,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/b11ca764-61b2-41d9-9e64-ef44226f5c05",
       "source": "Active Calc 6.2.31",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "fc62846a-46c1-4b33-98ad-54774a9f545a",
@@ -868,7 +868,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/fc62846a-46c1-4b33-98ad-54774a9f545a",
       "source": "Active Calc 6.2.32",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "476723be-00a9-48c1-b210-f41ecb1849f0",
@@ -885,7 +885,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/476723be-00a9-48c1-b210-f41ecb1849f0",
       "source": "Active Calc 6.2.33",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "68df5b77-3d93-4b19-af55-b29b8e81d4f4",
@@ -902,7 +902,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/68df5b77-3d93-4b19-af55-b29b8e81d4f4",
       "source": "Active Calc 6.2.34",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "4d6858d1-6c00-4944-811c-c12b2a4253a5",
@@ -919,7 +919,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/4d6858d1-6c00-4944-811c-c12b2a4253a5",
       "source": "Active Calc 6.2.35",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "89b6f993-44aa-4741-a87d-67dca862c606",
@@ -936,7 +936,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/89b6f993-44aa-4741-a87d-67dca862c606",
       "source": "Active Calc 6.2.36",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "6f1a29bd-abde-4d2b-8f0f-21c67bb7e6fb",
@@ -953,7 +953,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/6f1a29bd-abde-4d2b-8f0f-21c67bb7e6fb",
       "source": "Active Calc 6.2.37",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "08c47364-6b18-43a4-99bc-621d153b33ad",
@@ -970,7 +970,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/08c47364-6b18-43a4-99bc-621d153b33ad",
       "source": "Active Calc 6.2.38",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "3fd102f3-eb35-400c-8ab1-3a9500e16a99",
@@ -987,7 +987,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, base",
       "url": "/question/3fd102f3-eb35-400c-8ab1-3a9500e16a99",
       "source": "Active Calc 6.2.39",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "64ab9dd5-ed22-42c7-a6c3-7544c4903cad",
@@ -1004,7 +1004,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, graph",
       "url": "/question/64ab9dd5-ed22-42c7-a6c3-7544c4903cad",
       "source": "Active Calc 6.2.40",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "c9dfa1f2-e42c-4192-9d26-7f7fef13dd8f",
@@ -1021,7 +1021,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, quotient, power, rule, proof",
       "url": "/question/c9dfa1f2-e42c-4192-9d26-7f7fef13dd8f",
       "source": "Active Calc 6.2.41",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "8b60154d-239e-4ffb-afbb-376879254292",
@@ -1038,7 +1038,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/8b60154d-239e-4ffb-afbb-376879254292",
       "source": "Active Calc 6.3.1",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "56fef13a-c6af-4c42-90a0-f215efa044a6",
@@ -1055,7 +1055,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/56fef13a-c6af-4c42-90a0-f215efa044a6",
       "source": "Active Calc 6.3.2",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "071471c6-79c3-42d6-8845-85f6d03ee147",
@@ -1072,7 +1072,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/071471c6-79c3-42d6-8845-85f6d03ee147",
       "source": "Active Calc 6.3.3",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "ec703069-3789-459d-a4eb-b9b5a29b5aaf",
@@ -1089,7 +1089,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/ec703069-3789-459d-a4eb-b9b5a29b5aaf",
       "source": "Active Calc 6.3.4",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "7aeb355d-e2a4-4808-b322-830a4a884dbc",
@@ -1106,7 +1106,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/7aeb355d-e2a4-4808-b322-830a4a884dbc",
       "source": "Active Calc 6.3.5",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "452615fc-7d7b-4d05-906f-7b243e50806f",
@@ -1123,7 +1123,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/452615fc-7d7b-4d05-906f-7b243e50806f",
       "source": "Active Calc 6.3.6",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "78663fd1-f330-42d3-825e-bf4032c8e718",
@@ -1140,7 +1140,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/78663fd1-f330-42d3-825e-bf4032c8e718",
       "source": "Active Calc 6.3.7",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "14349906-e2a2-49e0-b3dc-2ea4638dcb0e",
@@ -1157,7 +1157,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/14349906-e2a2-49e0-b3dc-2ea4638dcb0e",
       "source": "Active Calc 6.3.8",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "cad4224d-d8aa-4d17-9c19-35b0707ea4b4",
@@ -1174,7 +1174,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/cad4224d-d8aa-4d17-9c19-35b0707ea4b4",
       "source": "Active Calc 6.3.9",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "10fee783-6e97-49da-848a-ef8ab83b5f98",
@@ -1191,7 +1191,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/10fee783-6e97-49da-848a-ef8ab83b5f98",
       "source": "Active Calc 6.3.10",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "543c29fc-b809-44d0-8521-a71324ad7664",
@@ -1208,7 +1208,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/543c29fc-b809-44d0-8521-a71324ad7664",
       "source": "Active Calc 6.3.11",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "3bb4ec65-3e55-4e07-ae2a-7eeda3e357bb",
@@ -1225,7 +1225,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/3bb4ec65-3e55-4e07-ae2a-7eeda3e357bb",
       "source": "Active Calc 6.3.12",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "2de5a341-c8b7-4e7d-a0f0-25586cdc7399",
@@ -1242,7 +1242,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/2de5a341-c8b7-4e7d-a0f0-25586cdc7399",
       "source": "Active Calc 6.3.13",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "e274f5a2-1986-4692-9760-289b2d83321f",
@@ -1259,7 +1259,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/e274f5a2-1986-4692-9760-289b2d83321f",
       "source": "Active Calc 6.3.14",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "78dde100-7dca-400a-a62e-1a18b4a8418b",
@@ -1276,7 +1276,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/78dde100-7dca-400a-a62e-1a18b4a8418b",
       "source": "Active Calc 6.3.15",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "d9319f1b-3643-4e1d-ac2f-c72c63ebc50f",
@@ -1293,7 +1293,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/d9319f1b-3643-4e1d-ac2f-c72c63ebc50f",
       "source": "Active Calc 6.3.16",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "f22b4f25-77e7-4256-93cf-45d08acd73ca",
@@ -1310,7 +1310,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/f22b4f25-77e7-4256-93cf-45d08acd73ca",
       "source": "Active Calc 6.3.17",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "907f64e5-ff5f-4fa0-8235-703802425c47",
@@ -1327,7 +1327,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/907f64e5-ff5f-4fa0-8235-703802425c47",
       "source": "Active Calc 6.3.18",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "b9eb8937-b24f-4aa4-bb34-7f0559d8ddff",
@@ -1344,7 +1344,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/b9eb8937-b24f-4aa4-bb34-7f0559d8ddff",
       "source": "Active Calc 6.3.19",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "033ebcdd-4808-4126-ac45-7a0e17c7f365",
@@ -1361,7 +1361,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/033ebcdd-4808-4126-ac45-7a0e17c7f365",
       "source": "Active Calc 6.3.20",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "93e2cdeb-e514-477f-9b49-c31c48b48d0e",
@@ -1378,7 +1378,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/93e2cdeb-e514-477f-9b49-c31c48b48d0e",
       "source": "Active Calc 6.3.21",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "5ebb58b8-124f-4bee-9067-e5218015364f",
@@ -1395,7 +1395,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/5ebb58b8-124f-4bee-9067-e5218015364f",
       "source": "Active Calc 6.3.22",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "404e2864-e41b-45f3-b017-b00e18353413",
@@ -1412,7 +1412,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/404e2864-e41b-45f3-b017-b00e18353413",
       "source": "Active Calc 6.3.23",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "09185aca-bb0e-4642-8963-63e404804bca",
@@ -1429,7 +1429,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/09185aca-bb0e-4642-8963-63e404804bca",
       "source": "Active Calc 6.3.24",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "5d46bd3e-a5b0-4754-b3bd-2d175da3ae35",
@@ -1446,7 +1446,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/5d46bd3e-a5b0-4754-b3bd-2d175da3ae35",
       "source": "Active Calc 6.3.25",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "807030e9-8d9a-4a3e-8cb4-f7ca8f799a14",
@@ -1463,7 +1463,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/807030e9-8d9a-4a3e-8cb4-f7ca8f799a14",
       "source": "Active Calc 6.3.26",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "0736a498-7526-4a46-81ca-8f387d1d0cd1",
@@ -1480,7 +1480,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/0736a498-7526-4a46-81ca-8f387d1d0cd1",
       "source": "Active Calc 6.3.27",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "3a9007d6-b61b-4370-9e06-fd5746346d72",
@@ -1497,7 +1497,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/3a9007d6-b61b-4370-9e06-fd5746346d72",
       "source": "Active Calc 6.3.28",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "56df9562-04b6-4ec2-8572-9cf2ea96ccd3",
@@ -1514,7 +1514,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/56df9562-04b6-4ec2-8572-9cf2ea96ccd3",
       "source": "Active Calc 6.3.29",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "1963bcd2-f218-43cf-b035-70d6616af022",
@@ -1531,7 +1531,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/1963bcd2-f218-43cf-b035-70d6616af022",
       "source": "Active Calc 6.3.30",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "6113b94a-92bb-4adb-9f64-bd47f0397360",
@@ -1548,7 +1548,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/6113b94a-92bb-4adb-9f64-bd47f0397360",
       "source": "Active Calc 6.3.31",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "48d81e52-1694-4b69-97bd-5e4b1a2ae272",
@@ -1565,7 +1565,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/48d81e52-1694-4b69-97bd-5e4b1a2ae272",
       "source": "Active Calc 6.3.32",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "53f25b1d-7097-4e49-aad3-322025265938",
@@ -1582,7 +1582,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/53f25b1d-7097-4e49-aad3-322025265938",
       "source": "Active Calc 6.3.33",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "3ac77c03-6a45-470d-9682-8909234d2cea",
@@ -1599,7 +1599,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/3ac77c03-6a45-470d-9682-8909234d2cea",
       "source": "Active Calc 6.3.34",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "20dcf8d7-363f-40e6-9d69-50b32cd6c523",
@@ -1616,7 +1616,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/20dcf8d7-363f-40e6-9d69-50b32cd6c523",
       "source": "Active Calc 6.3.35",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Arc Length ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/559.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/560.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/559.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/560.png\"/\u003e",
       "allAnswers": [],
       "tags": "arc length, trig ",
       "url": "/text-content/cac7cb29-ab57-45bb-aea3-ae262574541e",
       "source": "Trigonometry by Michael Corral 4.2",
-      "topic": "Pre-Calculus/Trigonometry/Arc Length"
+      "topic": "Geometry/Circle Geometry/Arcs"
     },
     {
       "uuid": "7cd1f87b-780c-4817-badc-a8e2527aa913",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Area of a Sector",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/568.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/573.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/568.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/573.png\"/\u003e",
       "allAnswers": [],
       "tags": "area of sector, trig ",
       "url": "/text-content/7cd1f87b-780c-4817-badc-a8e2527aa913",
       "source": "Trigonometry by Michael Corral 4.3",
-      "topic": "Pre-Calculus/Trigonometry/Area of a Sector"
+      "topic": "Geometry/Circle Geometry/Area of a Sector"
     },
     {
       "uuid": "0ba5690a-91c1-4a3d-8f9a-daaa47ed6a07",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Circular Motion: Linear and Angular Speed",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/580.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/580.png\"/\u003e",
       "allAnswers": [],
       "tags": "circular motion, linear motion, angular speed, trig ",
       "url": "/text-content/0ba5690a-91c1-4a3d-8f9a-daaa47ed6a07",
       "source": "Trigonometry by Michael Corral 4.4",
-      "topic": "Pre-Calculus/Trigonometry/Circular Motion"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion"
     },
     {
       "uuid": "7aa8fe30-a01d-444d-9f1c-2486db4cd747",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Properties of Graphs and Trigonometric Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/603.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/606.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/611.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/603.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/606.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/611.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig functions properties, graph properties, trig ",
       "url": "/text-content/7aa8fe30-a01d-444d-9f1c-2486db4cd747",
       "source": "Trigonometry by Michael Corral 5.2",
-      "topic": "Pre-Calculus/Trigonometry/Graphing Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "2ffad10c-f2e5-4b0c-b8e6-5b69a0ac28b5",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inverse Trigonometric Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/613.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/620.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/621.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/631.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/613.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/620.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/621.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/631.png\"/\u003e",
       "allAnswers": [],
       "tags": "inverse trig functions, trig, trig functions ",
       "url": "/text-content/2ffad10c-f2e5-4b0c-b8e6-5b69a0ac28b5",
       "source": "Trigonometry by Michael Corral 5.3",
-      "topic": "Pre-Calculus/Trigonometry/The Inverse Trigonometric Functions"
+      "topic": "Trigonometry/Fundamental Identities/Inverse Trigonometric Functions/Definitions"
     }
   ],
   "answers": [],

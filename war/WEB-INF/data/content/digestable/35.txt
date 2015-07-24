@@ -358,7 +358,7 @@
       "tags": "optimization, optimization word problem, word problem, derivative, Snell\u0027s law, law of refraction",
       "url": "/question/6337a92b-c505-407c-aed2-5e6fbbd34457",
       "source": "Calculus, Early Transcendentals 6.1.34",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "5c16372e-2804-4fb7-84f2-0d9885485744",
@@ -375,7 +375,7 @@
       "tags": "word problem, optimization, optimization word problem, ratio, dimensions",
       "url": "/question/5c16372e-2804-4fb7-84f2-0d9885485744",
       "source": "Calculus, Early Transcendentals 6.1.4",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "1540009a-b247-4807-92cd-cdb45d9b1abe",
@@ -392,7 +392,7 @@
       "tags": "optimization, word problem, optimization word problem, volume, dimensions, ratio",
       "url": "/question/1540009a-b247-4807-92cd-cdb45d9b1abe",
       "source": "Calculus, Early Transcendentals 6.1.6",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "34597b98-3cd5-4518-9742-355f5ceb71f8",
@@ -409,7 +409,7 @@
       "tags": "optimization, word problem, optimization word problem, largest size area, area, rectangle ",
       "url": "/question/34597b98-3cd5-4518-9742-355f5ceb71f8",
       "source": "Calculus, Early Transcendentals 6.1.7",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "49ec3b18-90af-4aa0-945f-f15019998ead",
@@ -426,7 +426,7 @@
       "tags": "optimization, word problem,  optimization word problem, rectangle, area",
       "url": "/question/49ec3b18-90af-4aa0-945f-f15019998ead",
       "source": "Calculus, Early Transcendentals 6.1.8",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "ab215170-a1f1-4472-a6ed-7f64355a9f28",
@@ -443,7 +443,7 @@
       "tags": "optimization, word problem, optimization word problem, profit, marginal cost",
       "url": "/question/ab215170-a1f1-4472-a6ed-7f64355a9f28",
       "source": "Calculus, Early Transcendentals 6.1.9",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "2446e841-7df8-4694-8366-b1b03d442d54",
@@ -460,7 +460,7 @@
       "tags": "related rates, word problems, related rate word problem, cylinder, radius, rate of change",
       "url": "/question/2446e841-7df8-4694-8366-b1b03d442d54",
       "source": "Calculus, Early Transcendentals 6.2.1",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "6456c71b-acf1-4f55-8db7-22fb67d4de73",
@@ -477,7 +477,7 @@
       "tags": "related rates, word problem, related rate word problem, rate of change, pyramid ",
       "url": "/question/6456c71b-acf1-4f55-8db7-22fb67d4de73",
       "source": "Calculus, Early Transcendentals 6.2.10",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "265a91d0-176d-4521-8b3b-80793bad284d",
@@ -494,7 +494,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change",
       "url": "/question/265a91d0-176d-4521-8b3b-80793bad284d",
       "source": "Calculus, Early Transcendentals 6.2.11",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "df1cf6f3-19f5-4b5a-bf4d-6710bb3c1f24",
@@ -511,7 +511,7 @@
       "tags": "related rate, related rate word problem, word problem, rate of change, horizon ",
       "url": "/question/df1cf6f3-19f5-4b5a-bf4d-6710bb3c1f24",
       "source": "Calculus, Early Transcendentals 6.2.12",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "54f1bc1f-3f06-451e-90b9-106dba5fed92",
@@ -528,7 +528,7 @@
       "tags": "related rate, related rate word problem, word problem, rate of change, water spilling ",
       "url": "/question/54f1bc1f-3f06-451e-90b9-106dba5fed92",
       "source": "Calculus, Early Transcendentals 6.2.13",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "c87d22f3-3395-4d91-912a-d2154025cbe7",
@@ -545,7 +545,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, shadow lengthening ",
       "url": "/question/c87d22f3-3395-4d91-912a-d2154025cbe7",
       "source": "Calculus, Early Transcendentals 6.2.14",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "f34c90f2-799b-4ba4-88c2-e4897d605c59",
@@ -562,7 +562,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, shadow shortening ",
       "url": "/question/f34c90f2-799b-4ba4-88c2-e4897d605c59",
       "source": "Calculus, Early Transcendentals 6.2.15",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "b61340e4-7849-45ba-9dad-2fd5a24d7811",
@@ -579,7 +579,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, distance",
       "url": "/question/b61340e4-7849-45ba-9dad-2fd5a24d7811",
       "source": "Calculus, Early Transcendentals 6.2.16",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "8dcc9f18-8079-4382-a640-f69897773764",
@@ -596,7 +596,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, distance",
       "url": "/question/8dcc9f18-8079-4382-a640-f69897773764",
       "source": "Calculus, Early Transcendentals 6.2.17",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "6332169f-fc51-4200-a734-4227d3375425",
@@ -613,7 +613,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, ball falling",
       "url": "/question/6332169f-fc51-4200-a734-4227d3375425",
       "source": "Calculus, Early Transcendentals 6.2.18",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "00ca6fbb-0e47-4532-b1ba-1ffd25f91aa1",
@@ -630,7 +630,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, angle, law of cosines",
       "url": "/question/00ca6fbb-0e47-4532-b1ba-1ffd25f91aa1",
       "source": "Calculus, Early Transcendentals 6.2.19",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "3feb936b-92c6-4c32-a882-94268c042a1c",
@@ -647,7 +647,7 @@
       "tags": "related rates, related rate word problem, word problem, rate of change, cylinder, radius",
       "url": "/question/3feb936b-92c6-4c32-a882-94268c042a1c",
       "source": "Calculus, Early Transcendentals 6.2.2",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "c5735289-0366-445c-8aa8-fb3d41e263af",
@@ -664,7 +664,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, constant speed",
       "url": "/question/c5735289-0366-445c-8aa8-fb3d41e263af",
       "source": "Calculus, Early Transcendentals 6.2.20",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "8fb6b8c9-92c9-4753-a4fb-60a71b1a6bb8",
@@ -681,7 +681,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, constant speed",
       "url": "/question/8fb6b8c9-92c9-4753-a4fb-60a71b1a6bb8",
       "source": "Calculus, Early Transcendentals 6.2.21",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "e5741ae7-3914-4aa7-bdb4-10b21eed9e91",
@@ -698,7 +698,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, changing distance",
       "url": "/question/e5741ae7-3914-4aa7-bdb4-10b21eed9e91",
       "source": "Calculus, Early Transcendentals 6.2.22",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "8e3e2780-dffb-4b4a-96e6-b0142f510202",
@@ -715,7 +715,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, distance",
       "url": "/question/8e3e2780-dffb-4b4a-96e6-b0142f510202",
       "source": "Calculus, Early Transcendentals 6.2.23",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "77907217-8f9d-4962-a0a3-63b99943e81f",
@@ -732,7 +732,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change, shadow, dropped object",
       "url": "/question/77907217-8f9d-4962-a0a3-63b99943e81f",
       "source": "Calculus, Early Transcendentals 6.2.24",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "bf3ad754-961d-4bf3-b21f-f2157230d02c",
@@ -749,7 +749,7 @@
       "tags": "related rate, word problem, related rate word problem, rate of change",
       "url": "/question/bf3ad754-961d-4bf3-b21f-f2157230d02c",
       "source": "Calculus, Early Transcendentals 6.2.25",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "1c98b04b-cfc6-4680-9482-ca16a1a11ffb",
@@ -766,7 +766,7 @@
       "tags": "related rates, related rate word problem, word problem, rate of change",
       "url": "/question/1c98b04b-cfc6-4680-9482-ca16a1a11ffb",
       "source": "Calculus, Early Transcendentals 6.2.3",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "0460c1d4-c30b-4b97-a80a-1069c2ab4eea",
@@ -783,7 +783,7 @@
       "tags": "related rates, word problem, related rate word problem, rate of change",
       "url": "/question/0460c1d4-c30b-4b97-a80a-1069c2ab4eea",
       "source": "Calculus, Early Transcendentals 6.2.4",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "dcf5205e-a989-4505-bf77-2c8110d384d4",
@@ -800,7 +800,7 @@
       "tags": "related rates, related rate word problem, word problem, rate of change",
       "url": "/question/dcf5205e-a989-4505-bf77-2c8110d384d4",
       "source": "Calculus, Early Transcendentals 6.2.5",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "32836a10-d26b-41e9-aaaf-ab81309ab8bd",
@@ -817,7 +817,7 @@
       "tags": "related rates, word problem, related rate word problem, rate of change, distance",
       "url": "/question/32836a10-d26b-41e9-aaaf-ab81309ab8bd",
       "source": "Calculus, Early Transcendentals 6.2.6",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "2621ec7c-89da-473d-82aa-3c43e1bbaa66",
@@ -834,7 +834,7 @@
       "tags": "related rates, word problem, related rate word problem, rate of change, altitude",
       "url": "/question/2621ec7c-89da-473d-82aa-3c43e1bbaa66",
       "source": "Calculus, Early Transcendentals 6.2.7",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "7ee3b0f7-5c83-450d-b0b2-eb5433ec98cc",
@@ -851,7 +851,7 @@
       "tags": "related rates, word problem, related rate word problem, rate of change",
       "url": "/question/7ee3b0f7-5c83-450d-b0b2-eb5433ec98cc",
       "source": "Calculus, Early Transcendentals 6.2.8",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "742ffc20-383c-419a-8243-3be4b05ac796",
@@ -868,7 +868,7 @@
       "tags": "related rates, word problem, related rate word problem, rate of change, distance",
       "url": "/question/742ffc20-383c-419a-8243-3be4b05ac796",
       "source": "Calculus, Early Transcendentals 6.2.9",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "dafc4784-8281-4714-92b2-6e3b4d7a347d",
@@ -885,7 +885,7 @@
       "tags": "Newton\u0027s method, approximation, fifth root",
       "url": "/question/dafc4784-8281-4714-92b2-6e3b4d7a347d",
       "source": "Calculus, Early Transcendentals 6.3.1",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "b9f6c1c1-5e4f-4aac-aeee-b42b87353b0a",
@@ -902,7 +902,7 @@
       "tags": "Newton\u0027s Method, approximation, cube root",
       "url": "/question/b9f6c1c1-5e4f-4aac-aeee-b42b87353b0a",
       "source": "Calculus, Early Transcendentals 6.3.2",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "6ee014d0-e632-4a06-bc3f-04c7620c9102",
@@ -919,7 +919,7 @@
       "tags": "limits, rates of change, derivatives",
       "url": "/question/6ee014d0-e632-4a06-bc3f-04c7620c9102",
       "source": "Calculus, Early Transcendentals 6.3.3",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "ecb763be-a6c5-4084-a737-1835d7164420",
@@ -936,7 +936,7 @@
       "tags": "function, approximation, newton\u0027s method, root",
       "url": "/question/ecb763be-a6c5-4084-a737-1835d7164420",
       "source": "Calculus, Early Transcendentals 6.3.3",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "8ad72f3f-ecac-4c62-a889-99c040f37a9c",
@@ -953,7 +953,7 @@
       "tags": "newton\u0027s method, dimensions, rectangle, volume, significant figures",
       "url": "/question/8ad72f3f-ecac-4c62-a889-99c040f37a9c",
       "source": "Calculus, Early Transcendentals 6.3.4",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "cc300db0-36e1-4d97-be45-ad9653505bea",
@@ -970,7 +970,7 @@
       "tags": "limits, rate of change",
       "url": "/question/cc300db0-36e1-4d97-be45-ad9653505bea",
       "source": "Calculus, Early Transcendentals 6.3.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "13365e55-82db-4659-ac68-bddda8366b7d",
@@ -987,7 +987,7 @@
       "tags": "limits, rate of change",
       "url": "/question/13365e55-82db-4659-ac68-bddda8366b7d",
       "source": "Calculus, Early Transcendentals 6.3.5",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "71ba4d1f-df6e-4467-9de5-b10353db7c54",
@@ -999,12 +999,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Evaluate the Expressions",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10147.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10147.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, x approaches a value, limit of f(x)",
       "url": "/question/71ba4d1f-df6e-4467-9de5-b10353db7c54",
       "source": "Calculus, Early Transcendentals 6.3.6",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "edb9e1e4-7708-48fb-a994-4bc945ab0ab2",
@@ -1021,7 +1021,7 @@
       "tags": "limits, rates of change",
       "url": "/question/edb9e1e4-7708-48fb-a994-4bc945ab0ab2",
       "source": "Calculus, Early Transcendentals 6.3.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "cc0b5971-b11b-43f8-83a1-2eb19dc9f3e8",
@@ -1038,7 +1038,7 @@
       "tags": "derivative, rate of change",
       "url": "/question/cc0b5971-b11b-43f8-83a1-2eb19dc9f3e8",
       "source": "Calculus, Early Transcendentals 6.4.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "14e2e0e8-db58-44cf-87d4-c0688171403a",
@@ -1055,7 +1055,7 @@
       "tags": "rate of change, linear approximation, approximation",
       "url": "/question/14e2e0e8-db58-44cf-87d4-c0688171403a",
       "source": "Calculus, Early Transcendentals 6.4.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "36248814-128b-472c-8a3f-9257fbd885cd",
@@ -1072,7 +1072,7 @@
       "tags": "derivative, rate of change",
       "url": "/question/36248814-128b-472c-8a3f-9257fbd885cd",
       "source": "Calculus, Early Transcendentals 6.4.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "446d1a03-7d54-4e14-b504-6aae96b69d54",
@@ -1089,7 +1089,7 @@
       "tags": "linear approximation, approximation, rate of change",
       "url": "/question/446d1a03-7d54-4e14-b504-6aae96b69d54",
       "source": "Calculus, Early Transcendentals 6.4.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "091ab12d-4e55-47a3-a9be-a12cdb37094a",
@@ -1106,7 +1106,7 @@
       "tags": "linear approximation, approximation, rate of change, sine",
       "url": "/question/091ab12d-4e55-47a3-a9be-a12cdb37094a",
       "source": "Calculus, Early Transcendentals 6.4.3",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "bb6de227-8927-4f14-b6c3-4d8caccc51f9",
@@ -1118,12 +1118,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sketch the Derivative",
-      "body": "Shown is the graph of a function f(x). Sketch the graph of f_(x) by estimating the derivative at a number of points in the interval: estimate the derivative at regular intervals from one end of the interval to the other, and also at _special_ points, as when the derivative is zero. Make sure you indicate any places where the derivative does not exist.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10148.png\"/\u003e",
+      "body": "Shown is the graph of a function f(x). Sketch the graph of f_(x) by estimating the derivative at a number of points in the interval: estimate the derivative at regular intervals from one end of the interval to the other, and also at _special_ points, as when the derivative is zero. Make sure you indicate any places where the derivative does not exist.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10148.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, rate of change, limits",
       "url": "/question/bb6de227-8927-4f14-b6c3-4d8caccc51f9",
       "source": "Calculus, Early Transcendentals 6.4.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "16918a5c-2919-4932-91df-373feeb3afab",
@@ -1135,12 +1135,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph the Derivative",
-      "body": "Shown is the graph of a function f(x). Sketch the graph of f_(x) by estimating the derivative at a number of points in the interval: estimate the derivative at regular intervals from one end of the interval to the other, and also at _special_ points, as when the derivative is zero.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10149.png\"/\u003e",
+      "body": "Shown is the graph of a function f(x). Sketch the graph of f_(x) by estimating the derivative at a number of points in the interval: estimate the derivative at regular intervals from one end of the interval to the other, and also at _special_ points, as when the derivative is zero.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10149.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, rates of change, limits",
       "url": "/question/16918a5c-2919-4932-91df-373feeb3afab",
       "source": "Calculus, Early Transcendentals 6.4.4",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "762124a1-6a31-4a10-b7a4-c4a2ff497dc8",
@@ -1157,7 +1157,7 @@
       "tags": "linear approximation, approximation, differentials, sphere, volume",
       "url": "/question/762124a1-6a31-4a10-b7a4-c4a2ff497dc8",
       "source": "Calculus, Early Transcendentals 6.4.4",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "aad5ab81-95e3-4dde-b42b-74757a01ed6e",
@@ -1174,7 +1174,7 @@
       "tags": "derivatives, rate of change, limits",
       "url": "/question/aad5ab81-95e3-4dde-b42b-74757a01ed6e",
       "source": "Calculus, Early Transcendentals 6.4.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "1b670f7f-e983-469c-b7a4-79cc0cb88cd0",
@@ -1191,7 +1191,7 @@
       "tags": "linear approximation, approximation, sine, cosine",
       "url": "/question/1b670f7f-e983-469c-b7a4-79cc0cb88cd0",
       "source": "Calculus, Early Transcendentals 6.4.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "8ae08c26-8da4-4d24-838e-8883f511eb2b",
@@ -1208,7 +1208,7 @@
       "tags": "tangent line, graph, derivatives, rate of change",
       "url": "/question/8ae08c26-8da4-4d24-838e-8883f511eb2b",
       "source": "Calculus, Early Transcendentals 6.4.6",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "01a6f69f-cb83-461c-8ec0-2fab050a09d6",
@@ -1225,7 +1225,7 @@
       "tags": "derivative, tangent line, graph, rate of change",
       "url": "/question/01a6f69f-cb83-461c-8ec0-2fab050a09d6",
       "source": "Calculus, Early Transcendentals 6.4.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "fcffdda8-188b-4629-99ef-d2d5e6bc8e79",
@@ -1242,7 +1242,7 @@
       "tags": "slope, endpoints, function, derivative",
       "url": "/question/fcffdda8-188b-4629-99ef-d2d5e6bc8e79",
       "source": "Calculus, Early Transcendentals 6.5.1",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "b014215f-90a7-4864-81d3-267447301dd0",
@@ -1259,7 +1259,7 @@
       "tags": "derivatives, differentiable, continuous function, rate of change",
       "url": "/question/b014215f-90a7-4864-81d3-267447301dd0",
       "source": "Calculus, Early Transcendentals 6.5.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "37fcd144-c785-43a7-9965-c0f530f06305",
@@ -1276,7 +1276,7 @@
       "tags": "real roots, roots, distinct real roots, polynomial, application of derivative ",
       "url": "/question/37fcd144-c785-43a7-9965-c0f530f06305",
       "source": "Calculus, Early Transcendentals 6.5.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "bf44e714-ebbd-4e9f-8ccc-dbc8f6052c10",
@@ -1293,7 +1293,7 @@
       "tags": "real root, root, differentiable, function, application of derivatives",
       "url": "/question/bf44e714-ebbd-4e9f-8ccc-dbc8f6052c10",
       "source": "Calculus, Early Transcendentals 6.5.11",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Endpoints"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Endpoints"
     },
     {
       "uuid": "294d3c88-3e3f-4884-9c24-40a808b0026f",
@@ -1310,7 +1310,7 @@
       "tags": "proof, sine, real numbers, cosine, trigonometry proof, application of derivative ",
       "url": "/question/294d3c88-3e3f-4884-9c24-40a808b0026f",
       "source": "Calculus, Early Transcendentals 6.5.12",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "62612d76-0803-4746-afc3-1d79f7315c5d",
@@ -1327,7 +1327,7 @@
       "tags": "application of derivative, mean value theorem, mean value, value, less than",
       "url": "/question/62612d76-0803-4746-afc3-1d79f7315c5d",
       "source": "Calculus, Early Transcendentals 6.5.13",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "5f4bcd20-5371-48d5-91be-ed2f016892e1",
@@ -1344,7 +1344,7 @@
       "tags": "bounded functions, rates of change, derivatives",
       "url": "/question/5f4bcd20-5371-48d5-91be-ed2f016892e1",
       "source": "Calculus, Early Transcendentals 6.5.2",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "c2befad2-2610-4216-b0a9-b2c02aa2cefa",
@@ -1361,7 +1361,7 @@
       "tags": "mean value, theorem, mean value, theorem, interval, finding all values, function",
       "url": "/question/c2befad2-2610-4216-b0a9-b2c02aa2cefa",
       "source": "Calculus, Early Transcendentals 6.5.2",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "be27dffd-9e9f-4545-ac01-536c5f68adfb",
@@ -1378,7 +1378,7 @@
       "tags": "bounded functions, derivatives, rates of change, continuous functions, unbounded functions",
       "url": "/question/be27dffd-9e9f-4545-ac01-536c5f68adfb",
       "source": "Calculus, Early Transcendentals 6.5.3",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "933fa570-ddc2-48a4-8b82-72358a3007b3",
@@ -1395,7 +1395,7 @@
       "tags": "interval, mean value theorem, mean value, theorem, finding all values, function",
       "url": "/question/933fa570-ddc2-48a4-8b82-72358a3007b3",
       "source": "Calculus, Early Transcendentals 6.5.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "9557db83-c994-4926-b822-019bdb9a00be",
@@ -1412,7 +1412,7 @@
       "tags": "rolle\u0027s theorem, function, derivative, tan, pi",
       "url": "/question/9557db83-c994-4926-b822-019bdb9a00be",
       "source": "Calculus, Early Transcendentals 6.5.4",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "ef55b362-ff83-429a-ae64-d93f020ac60d",
@@ -1429,7 +1429,7 @@
       "tags": "mean value theorem, function, derivative, contradiction ",
       "url": "/question/ef55b362-ff83-429a-ae64-d93f020ac60d",
       "source": "Calculus, Early Transcendentals 6.5.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "6a9436b4-2698-42d4-954c-7bddf61e2160",
@@ -1446,7 +1446,7 @@
       "tags": "functions, derivative, polynomial",
       "url": "/question/6a9436b4-2698-42d4-954c-7bddf61e2160",
       "source": "Calculus, Early Transcendentals 6.5.6",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "cc73ebfa-f518-4df8-ab29-fc46bf01b28f",
@@ -1463,7 +1463,7 @@
       "tags": "functions, derivative, mean value",
       "url": "/question/cc73ebfa-f518-4df8-ab29-fc46bf01b28f",
       "source": "Calculus, Early Transcendentals 6.5.7",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "5306d8d8-b7c9-452b-8e40-d778a3930b6d",
@@ -1480,7 +1480,7 @@
       "tags": "functions, derivative, mean value",
       "url": "/question/5306d8d8-b7c9-452b-8e40-d778a3930b6d",
       "source": "Calculus, Early Transcendentals 6.5.8",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "74c59cdb-c254-42c0-9abf-8d94ff9580c4",
@@ -1497,7 +1497,7 @@
       "tags": "function, derivative, mean value",
       "url": "/question/74c59cdb-c254-42c0-9abf-8d94ff9580c4",
       "source": "Calculus, Early Transcendentals 6.5.9",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "dfc7463a-e90d-4d48-b565-b3a1eb18835e",
@@ -1514,7 +1514,7 @@
       "tags": "speed, position, word problem, calculus word problem, time",
       "url": "/question/dfc7463a-e90d-4d48-b565-b3a1eb18835e",
       "source": "Calculus, Early Transcendentals 7.1.1",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "1b001855-82fc-4292-a9df-592526b77451",
@@ -1531,7 +1531,7 @@
       "tags": "speed, time, position, function, word problem, calculus word problem",
       "url": "/question/1b001855-82fc-4292-a9df-592526b77451",
       "source": "Calculus, Early Transcendentals 7.1.2",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "39c774ac-abe3-4225-9e60-56c5d8f1d2cf",
@@ -1548,7 +1548,7 @@
       "tags": "area, position, value, positive value",
       "url": "/question/39c774ac-abe3-4225-9e60-56c5d8f1d2cf",
       "source": "Calculus, Early Transcendentals 7.1.3",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle_s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "8cac5c93-f6dd-4603-b884-61985dd0805f",
@@ -1565,7 +1565,7 @@
       "tags": "area, position, value, positive value, example 7.1.2",
       "url": "/question/8cac5c93-f6dd-4603-b884-61985dd0805f",
       "source": "Calculus, Early Transcendentals 7.1.4",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "ee563ee8-1f9f-45aa-81ea-fc7fc371f530",
@@ -1582,7 +1582,7 @@
       "tags": "area, positive value, value, position ",
       "url": "/question/ee563ee8-1f9f-45aa-81ea-fc7fc371f530",
       "source": "Calculus, Early Transcendentals 7.1.5",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "f29f3c54-746c-4fe1-83e2-436fe3cc5ae7",
@@ -1599,7 +1599,7 @@
       "tags": "area, finding area, example 7.1.2, area under a line, position ",
       "url": "/question/f29f3c54-746c-4fe1-83e2-436fe3cc5ae7",
       "source": "Calculus, Early Transcendentals 7.1.6",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Implicit Differentiation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/788.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/789.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/790.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/791.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/792.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/788.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/789.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/790.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/791.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/792.png\"/\u003e",
       "allAnswers": [],
       "tags": "implicit differentiation, differentiation, calc ",
       "url": "/text-content/2117f567-3b9d-4216-9218-382b5f8423e0",
       "source": "Calculus, Early Transcendentals 4.8",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "1c922146-6802-48f5-a4ec-6432986a8269",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inverse Trigonometric Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/793.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/794.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/795.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/793.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/794.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/795.png\"/\u003e",
       "allAnswers": [],
       "tags": "inverse trig, trig, functions ",
       "url": "/text-content/1c922146-6802-48f5-a4ec-6432986a8269",
       "source": "Calculus, Early Transcendentals 4.9",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "b0e46bbd-1031-4be1-af51-6d4a595cbf71",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Maxima and Minima",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/809.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/810.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/811.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/812.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/809.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/810.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/811.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/812.png\"/\u003e",
       "allAnswers": [],
       "tags": "maxima, minima, calc ",
       "url": "/text-content/b0e46bbd-1031-4be1-af51-6d4a595cbf71",
       "source": "Calculus, Early Transcendentals 5.1",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "e65a3d9b-876e-4e2c-b4fe-4dc6abe6c98e",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The first derivative test",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/813.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/814.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/813.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/814.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivative test, derivative, calc ",
       "url": "/text-content/e65a3d9b-876e-4e2c-b4fe-4dc6abe6c98e",
       "source": "Calculus, Early Transcendentals 5.2",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     }
   ],
   "answers": [],

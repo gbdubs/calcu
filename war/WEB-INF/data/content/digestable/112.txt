@@ -375,7 +375,7 @@
       "tags": "word problem, geometry word problem, domain, function, cylinder, surface area",
       "url": "/question/f9c1327c-ec36-4d41-964b-ff016d5d50ac",
       "source": "Calculus, Early Transcendentals 1.3.8",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Function Operations/Composition of Functions/Domain"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Composition of Functions"
     },
     {
       "uuid": "53fb5726-d448-4075-ab52-65a72b12a3e6",
@@ -392,7 +392,7 @@
       "tags": "multi-problem, functions, graph, circles",
       "url": "/question/53fb5726-d448-4075-ab52-65a72b12a3e6",
       "source": "Calculus, Early Transcendentals 1.4.1",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Function Operations/Composition of Functions/Domain"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Composition of Functions"
     },
     {
       "uuid": "7419908e-f732-4e2b-93de-9b193b409f41",
@@ -443,7 +443,7 @@
       "tags": "functions, graphs, circles, multi-problem",
       "url": "/question/0a35b242-861a-487a-9189-ff895ffd32a5",
       "source": "Calculus, Early Transcendentals 1.4.3",
-      "topic": "Algebra/Quadratic Relations and Conic Sections/Circles/Graphing a Circle/Radius"
+      "topic": "Algebra/Functions/Conic Sections/Graphing Circles"
     },
     {
       "uuid": "6f5eaa1a-102f-4157-9896-8b42f0c2927d",
@@ -460,7 +460,7 @@
       "tags": "graph, function",
       "url": "/question/6f5eaa1a-102f-4157-9896-8b42f0c2927d",
       "source": "Calculus, Early Transcendentals 1.4.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "7a7437c0-d1df-409f-8531-37843ef58787",
@@ -477,7 +477,7 @@
       "tags": "graph, function",
       "url": "/question/7a7437c0-d1df-409f-8531-37843ef58787",
       "source": "Calculus, Early Transcendentals 1.4.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "970958ee-3e55-4129-bb1f-af4a590f298e",
@@ -494,7 +494,7 @@
       "tags": "graph, function",
       "url": "/question/970958ee-3e55-4129-bb1f-af4a590f298e",
       "source": "Calculus, Early Transcendentals 1.4.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "869e72d2-b620-47c6-b691-4c531fd4ba15",
@@ -511,7 +511,7 @@
       "tags": "graph, function",
       "url": "/question/869e72d2-b620-47c6-b691-4c531fd4ba15",
       "source": "Calculus, Early Transcendentals 1.4.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a3dc7dd4-7eb6-4aa6-8c06-c1e783627a7c",
@@ -528,7 +528,7 @@
       "tags": "graph, function",
       "url": "/question/a3dc7dd4-7eb6-4aa6-8c06-c1e783627a7c",
       "source": "Calculus, Early Transcendentals 1.4.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "f7a41089-28c8-4afe-a1fc-d764b449618f",
@@ -545,7 +545,7 @@
       "tags": "graph, function",
       "url": "/question/f7a41089-28c8-4afe-a1fc-d764b449618f",
       "source": "Calculus, Early Transcendentals 1.4.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "adcacc4c-4e75-4ef9-b71c-380cf4011db0",
@@ -562,7 +562,7 @@
       "tags": "coordinates, graph, polar coordinates",
       "url": "/question/adcacc4c-4e75-4ef9-b71c-380cf4011db0",
       "source": "Calculus, Early Transcendentals 10.1.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "b3423046-c02c-437a-bdec-8bae7674036a",
@@ -579,7 +579,7 @@
       "tags": "polar coordinates, graph, equation, rectangular coordinates",
       "url": "/question/b3423046-c02c-437a-bdec-8bae7674036a",
       "source": "Calculus, Early Transcendentals 10.1.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "10406bf4-71e6-4934-b959-f12c252aac83",
@@ -596,7 +596,7 @@
       "tags": "polar coordinates, rectangular coordinates, graph",
       "url": "/question/10406bf4-71e6-4934-b959-f12c252aac83",
       "source": "Calculus, Early Transcendentals 10.1.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "23dd1726-2a17-4ad0-8ca0-77a719f1daf8",
@@ -1055,7 +1055,7 @@
       "tags": "convergence, divergence, limit, rational functions ",
       "url": "/question/d694075d-3b2f-4618-a492-ee8c4fcdf9ca",
       "source": "Calculus, Early Transcendentals 11.1.4",
-      "topic": "Calculus/Sequences and Series/Sequences/Limit/Approaching Infinity"
+      "topic": "Calculus/Sequences and Series/Sequences/Evaluating Approaching Infinity"
     },
     {
       "uuid": "e2978072-1d90-4f06-88d6-136c757495c4",
@@ -1072,7 +1072,7 @@
       "tags": "limit, convergence, divergence, rational functions, infinity ",
       "url": "/question/e2978072-1d90-4f06-88d6-136c757495c4",
       "source": "Calculus, Early Transcendentals 11.1.5",
-      "topic": "Calculus/Sequences and Series/Sequences/Limit/Approaching Infinity"
+      "topic": "Calculus/Sequences and Series/Sequences/Evaluating Approaching Infinity"
     },
     {
       "uuid": "c4efbfc1-6f1f-4e74-8819-b8ea81c302e0",
@@ -1089,7 +1089,7 @@
       "tags": "convergence, divergence, series, sequences, divergent, convergent ",
       "url": "/question/c4efbfc1-6f1f-4e74-8819-b8ea81c302e0",
       "source": "Calculus, Early Transcendentals 11.1.6",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "8d4608ec-4a9e-4a61-8e3b-673e0fcb1812",
@@ -1106,7 +1106,7 @@
       "tags": "maclaurin series, taylor series, radius of convergence, convergence",
       "url": "/question/8d4608ec-4a9e-4a61-8e3b-673e0fcb1812",
       "source": "Calculus, Early Transcendentals 11.10.1",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "d5e9cfd8-7d8c-4902-9f87-46ab937b3d4d",
@@ -1123,7 +1123,7 @@
       "tags": "maclaurin series, taylor series, radius of convergence, convergence",
       "url": "/question/d5e9cfd8-7d8c-4902-9f87-46ab937b3d4d",
       "source": "Calculus, Early Transcendentals 11.10.2",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "1915c6a5-8c35-4f6e-bdcd-e81e91a8cafe",
@@ -1140,7 +1140,7 @@
       "tags": "maclaurin series, taylor series, series, convergence",
       "url": "/question/1915c6a5-8c35-4f6e-bdcd-e81e91a8cafe",
       "source": "Calculus, Early Transcendentals 11.10.3",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "7cfda882-0ed2-4d91-92a7-5f8b51ac11d1",
@@ -1157,7 +1157,7 @@
       "tags": "maclaurin series, taylor series, algebraic manipulation",
       "url": "/question/7cfda882-0ed2-4d91-92a7-5f8b51ac11d1",
       "source": "Calculus, Early Transcendentals 11.10.4",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "e81f157c-a767-4f0a-9307-101999852fae",
@@ -1174,7 +1174,7 @@
       "tags": "taylor series, maclaurin series, algebraic manipulation",
       "url": "/question/e81f157c-a767-4f0a-9307-101999852fae",
       "source": "Calculus, Early Transcendentals 11.10.5",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "eb502b41-622c-4d29-a276-e9aac25fa512",
@@ -1191,7 +1191,7 @@
       "tags": "polynomial approximation, Taylor\u0027s theorem, polynomial, approximation ",
       "url": "/question/eb502b41-622c-4d29-a276-e9aac25fa512",
       "source": "Calculus, Early Transcendentals 11.11.1",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "21200817-c0a8-413c-9323-7b20bf59b484",
@@ -1208,7 +1208,7 @@
       "tags": "interval, series, guaranteed error, Taylor\u0027s theorem",
       "url": "/question/21200817-c0a8-413c-9323-7b20bf59b484",
       "source": "Calculus, Early Transcendentals 11.11.2",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "85adc7ea-f5ba-4d29-b93d-9acde7512533",
@@ -1225,7 +1225,7 @@
       "tags": "series, Taylor series, Sage, Taylor\u0027s theorem",
       "url": "/question/85adc7ea-f5ba-4d29-b93d-9acde7512533",
       "source": "Calculus, Early Transcendentals 11.11.3",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "60835e53-060b-4706-ab74-9717b3ee1b73",
@@ -1242,7 +1242,7 @@
       "tags": "infinity, Taylor series, Taylor theorem, limit, cosine",
       "url": "/question/60835e53-060b-4706-ab74-9717b3ee1b73",
       "source": "Calculus, Early Transcendentals 11.11.4",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "694077e3-6887-4af5-8de7-1073868107a9",
@@ -1259,7 +1259,7 @@
       "tags": "Taylor series, limit, error term, infinity ",
       "url": "/question/694077e3-6887-4af5-8de7-1073868107a9",
       "source": "Calculus, Early Transcendentals 11.11.5",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "d18c56a0-1691-41b8-9bec-bcdf45662941",
@@ -1276,7 +1276,7 @@
       "tags": "series, converge, multi-problem",
       "url": "/question/d18c56a0-1691-41b8-9bec-bcdf45662941",
       "source": "Calculus, Early Transcendentals 11.12.1",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "81881421-6c4b-446d-9ca4-4d083c4cf001",
@@ -1293,7 +1293,7 @@
       "tags": "convergence, divergence, series",
       "url": "/question/81881421-6c4b-446d-9ca4-4d083c4cf001",
       "source": "Calculus, Early Transcendentals 11.12.17",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "8250d88d-ed9b-44d6-99f5-0f6253e35296",
@@ -1310,7 +1310,7 @@
       "tags": "convergence, divergence, series, radius of convergence",
       "url": "/question/8250d88d-ed9b-44d6-99f5-0f6253e35296",
       "source": "Calculus, Early Transcendentals 11.12.18",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "5a0bf19f-105d-46d8-b1a0-83c6af4bf4c0",
@@ -1327,7 +1327,7 @@
       "tags": "convergence, divergence, series, radius of convergence",
       "url": "/question/5a0bf19f-105d-46d8-b1a0-83c6af4bf4c0",
       "source": "Calculus, Early Transcendentals 11.12.19",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "04e8dd69-62ca-4030-9c84-e7099c23c2a2",
@@ -1344,7 +1344,7 @@
       "tags": "series, converge, multi-problem",
       "url": "/question/04e8dd69-62ca-4030-9c84-e7099c23c2a2",
       "source": "Calculus, Early Transcendentals 11.12.2",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "fd93f5ca-f159-40ac-b30e-eff740e77e1c",
@@ -1361,7 +1361,7 @@
       "tags": "convergence, divergence, series, radius of convergence",
       "url": "/question/fd93f5ca-f159-40ac-b30e-eff740e77e1c",
       "source": "Calculus, Early Transcendentals 11.12.20",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "57069042-7254-4057-80ca-030a9e485e50",
@@ -1378,7 +1378,7 @@
       "tags": "maclaurin series, series, algebraic manipulation, convergence",
       "url": "/question/57069042-7254-4057-80ca-030a9e485e50",
       "source": "Calculus, Early Transcendentals 11.12.21",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "b78ecd15-93b2-417d-b8c7-15dd1874d35d",
@@ -1395,7 +1395,7 @@
       "tags": "series, maclaurin series, taylor series, convergence",
       "url": "/question/b78ecd15-93b2-417d-b8c7-15dd1874d35d",
       "source": "Calculus, Early Transcendentals 11.12.22",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "1635b7d7-2862-4b89-ba03-8597af0d41ba",
@@ -1412,7 +1412,7 @@
       "tags": "algebraic manipulation, maclaurin series, taylor series, convergence",
       "url": "/question/1635b7d7-2862-4b89-ba03-8597af0d41ba",
       "source": "Calculus, Early Transcendentals 11.12.23",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "d837c731-d26b-4b3d-9d01-de62f130e7e3",
@@ -1429,7 +1429,7 @@
       "tags": "converges, series, multi-problem",
       "url": "/question/d837c731-d26b-4b3d-9d01-de62f130e7e3",
       "source": "Calculus, Early Transcendentals 11.12.3",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "78faf9f4-98d6-43dd-8ce6-53f7ab29b960",
@@ -1446,7 +1446,7 @@
       "tags": "series, converge, multi-problem",
       "url": "/question/78faf9f4-98d6-43dd-8ce6-53f7ab29b960",
       "source": "Calculus, Early Transcendentals 11.12.4",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "9bcb117e-bb89-4791-84d3-b7def56dbf58",
@@ -1463,7 +1463,7 @@
       "tags": "diverges, converges, divergence, convergence, summation, sum ",
       "url": "/question/9bcb117e-bb89-4791-84d3-b7def56dbf58",
       "source": "Calculus, Early Transcendentals 11.2.1",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "35db77c9-f06d-4013-8e42-65a58949d26d",
@@ -1480,7 +1480,7 @@
       "tags": "divergence, divergent, diverge, converge, convergence, convergent, sum ",
       "url": "/question/35db77c9-f06d-4013-8e42-65a58949d26d",
       "source": "Calculus, Early Transcendentals 11.2.2",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "c043902e-9053-480c-9667-3745d1157aad",
@@ -1497,7 +1497,7 @@
       "tags": "divergence, divergent, diverge, converge, convergence, convergent, sum ",
       "url": "/question/c043902e-9053-480c-9667-3745d1157aad",
       "source": "Calculus, Early Transcendentals 11.2.3",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "7d0a52b0-685a-43a6-8315-35c8fca409fc",
@@ -1514,7 +1514,7 @@
       "tags": "compute the series, series, sequences ",
       "url": "/question/7d0a52b0-685a-43a6-8315-35c8fca409fc",
       "source": "Calculus, Early Transcendentals 11.2.4",
-      "topic": "Calculus/Sequences and Series/Sequences/Diverges"
+      "topic": "Calculus/Sequences and Series/Sequences/Divergent Series"
     },
     {
       "uuid": "a336ac80-908d-4f20-9cc1-0385a8c6bb35",
@@ -1531,7 +1531,7 @@
       "tags": "convergence, converges, diverges, divergence, series ",
       "url": "/question/a336ac80-908d-4f20-9cc1-0385a8c6bb35",
       "source": "Calculus, Early Transcendentals 11.3.1",
-      "topic": "Calculus/Sequences and Series/Sequences/Diverges"
+      "topic": "Calculus/Sequences and Series/Sequences/Divergent Series"
     },
     {
       "uuid": "e0bc2000-e688-40ab-89bd-f4f9d4141ac5",
@@ -1548,7 +1548,7 @@
       "tags": "sum, series, sequences ",
       "url": "/question/e0bc2000-e688-40ab-89bd-f4f9d4141ac5",
       "source": "Calculus, Early Transcendentals 11.3.2",
-      "topic": "Calculus/Sequences and Series/Sequences/Diverges"
+      "topic": "Calculus/Sequences and Series/Sequences/Divergent Series"
     },
     {
       "uuid": "e6ee544b-e379-4438-8c03-a3596fc6f23a",
@@ -1565,7 +1565,7 @@
       "tags": "sum, series, to infinity and beyond, sequences, N",
       "url": "/question/e6ee544b-e379-4438-8c03-a3596fc6f23a",
       "source": "Calculus, Early Transcendentals 11.3.3",
-      "topic": "Calculus/Sequences and Series/Sequences/Diverges"
+      "topic": "Calculus/Sequences and Series/Sequences/Divergent Series"
     },
     {
       "uuid": "27356a93-3bf6-4904-97c4-931555e84ba6",
@@ -1582,7 +1582,7 @@
       "tags": "converge, diverge, convergence, divergence, sum, infinity, rational functions",
       "url": "/question/27356a93-3bf6-4904-97c4-931555e84ba6",
       "source": "Calculus, Early Transcendentals 11.4.1",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series "
+      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
     },
     {
       "uuid": "ac840a52-5cb6-4fb0-8c15-8e2209cdda5c",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Achieving desired tolerance on desired interval",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2177.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2178.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2177.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2178.png\"/\u003e",
       "allAnswers": [],
       "tags": "tolerance, taylor polynomial approximation ",
       "url": "/text-content/61c5f485-0879-4570-890c-d1d345c5b27f",
       "source": "Calculus Refresher 54",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "29a9194a-dc32-4dea-bc2d-80da7128cea0",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integrating Taylor polynomials: first example",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2179.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2180.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2179.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2180.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, integrating taylor polynomials ",
       "url": "/text-content/29a9194a-dc32-4dea-bc2d-80da7128cea0",
       "source": "Calculus Refresher 55",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "b403ab2b-bb3e-4b08-a93f-4fdb3e519484",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integrating the error term: example",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2181.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2181.png\"/\u003e",
       "allAnswers": [],
       "tags": "error, integral, definite integral, integration ",
       "url": "/text-content/b403ab2b-bb3e-4b08-a93f-4fdb3e519484",
       "source": "Calculus Refresher 2181",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "6a9475f6-4ed5-4aa4-8718-8f5ec3885069",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Lines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/685.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/686.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/687.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/688.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/685.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/686.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/687.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/688.png\"/\u003e",
       "allAnswers": [],
       "tags": "lines, calc ",
       "url": "/text-content/6a9475f6-4ed5-4aa4-8718-8f5ec3885069",
       "source": "Calculus, Early Transcendentals 1.1",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "c8ad14a4-b16a-415b-8109-c51e84c770c0",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Distance Between Two Points; Circles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/689.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/690.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/689.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/690.png\"/\u003e",
       "allAnswers": [],
       "tags": "distance between points, circles, calc ",
       "url": "/text-content/c8ad14a4-b16a-415b-8109-c51e84c770c0",
       "source": "Calculus, Early Transcendentals 1.2",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     }
   ],
   "answers": [],

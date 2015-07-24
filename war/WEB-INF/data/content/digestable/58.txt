@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/397.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/397.png\"/\u003e",
       "uuid": "6c6f4f75-b30c-4d3b-a432-1a59e0513ffe",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "System of equations ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/395.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/395.png\"/\u003e",
       "allAnswers": [],
       "tags": "System of equations, graph, turning point ",
       "url": "/practice-problem/6c6f4f75-b30c-4d3b-a432-1a59e0513ffe",
       "source": "null 14.6.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20099.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20099.png\"/\u003e",
       "uuid": "bbda8a53-02ec-4fb7-8b23-c35e9eec06e9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Line Reflection",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20136.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20136.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/practice-problem/bbda8a53-02ec-4fb7-8b23-c35e9eec06e9",
       "source": "null 6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20104.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20104.png\"/\u003e",
       "uuid": "c54b2736-d6fd-4abf-9bb3-6e56cf32e562",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Line Reflection in the Coordinate Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20137.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20137.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/practice-problem/c54b2736-d6fd-4abf-9bb3-6e56cf32e562",
       "source": "null 6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20120.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20120.png\"/\u003e",
       "uuid": "09d19efd-fa61-4cac-88b8-74d3877a3029",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Rotations in the Coordinate Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20119.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20119.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/practice-problem/09d19efd-fa61-4cac-88b8-74d3877a3029",
       "source": "null 6.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20125.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20125.png\"/\u003e",
       "uuid": "0d2b9b40-4197-458e-a5c2-8d361bed6b2e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Glide Reflections",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20124.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20124.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/practice-problem/0d2b9b40-4197-458e-a5c2-8d361bed6b2e",
       "source": "null 6.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20129.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20129.png\"/\u003e",
       "uuid": "0c64b40b-3d91-42fc-bdda-d25e35b3731c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Dilations in the Coordinate Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20128.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20128.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/practice-problem/0c64b40b-3d91-42fc-bdda-d25e35b3731c",
       "source": "null 6.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/408.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/408.png\"/\u003e",
       "uuid": "dfa2a634-4f06-4e74-b064-d26fd649c738",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of unknown side",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/407.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/407.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, length of unknown, Pythagorean Theorem",
       "url": "/practice-problem/dfa2a634-4f06-4e74-b064-d26fd649c738",
       "source": "null 1.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/411.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/411.png\"/\u003e",
       "uuid": "ec3c2d0d-84a8-4dd7-aa62-03ea5eed34ca",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Height word problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/410.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/410.png\"/\u003e",
       "allAnswers": [],
       "tags": "Pythagorean Theorem, right triangle, trigonometry  ",
       "url": "/practice-problem/ec3c2d0d-84a8-4dd7-aa62-03ea5eed34ca",
       "source": "null 1.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/421.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/421.png\"/\u003e",
       "uuid": "d1a28e06-9f55-4392-8583-fff3bc754ec9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Trig functions at 60 degrees",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/420.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/420.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig functions, trigonometric functions ",
       "url": "/practice-problem/d1a28e06-9f55-4392-8583-fff3bc754ec9",
       "source": "null 1.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/423.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/423.png\"/\u003e",
       "uuid": "c9200f84-faca-4a5d-b9e9-40d5239915cd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Trig functions of acute angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/422.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/422.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig functions, acute angle, right triangle ",
       "url": "/practice-problem/c9200f84-faca-4a5d-b9e9-40d5239915cd",
       "source": "null 1.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/427.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/427.png\"/\u003e",
       "uuid": "4b75dd11-4074-4abc-97fe-6c4c840739fb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Trig functions less than 45",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/426.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/426.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig functions, acute angle",
       "url": "/practice-problem/4b75dd11-4074-4abc-97fe-6c4c840739fb",
       "source": "null 1.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/430.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/430.png\"/\u003e",
       "uuid": "16735b47-806d-456a-a6c0-04cca2793cac",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "sin, cos, tan of 75",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/429.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/429.png\"/\u003e",
       "allAnswers": [],
       "tags": "sine, cosine, tangent, trig",
       "url": "/practice-problem/16735b47-806d-456a-a6c0-04cca2793cac",
       "source": "null 1.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/433.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/433.png\"/\u003e",
       "uuid": "4bb8e87b-b80e-491c-8ee9-09579254fb8a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Blimp question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/432.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/432.png\"/\u003e",
       "allAnswers": [],
       "tags": "application of right triangle, right triangle ",
       "url": "/practice-problem/4bb8e87b-b80e-491c-8ee9-09579254fb8a",
       "source": "null 1.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/435.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/435.png\"/\u003e",
       "uuid": "18961444-5dee-4fa7-9e7b-0ab5c379c318",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Radius of earth",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/434.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/434.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of right triangles, trig, trig functions",
       "url": "/practice-problem/18961444-5dee-4fa7-9e7b-0ab5c379c318",
       "source": "null 1.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/439.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/439.png\"/\u003e",
       "uuid": "2015306b-5451-446f-b9cc-479ba534ff2d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Trig in Astronomy",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/437.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/438.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/437.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/438.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, trig functions, right triangles ",
       "url": "/practice-problem/2015306b-5451-446f-b9cc-479ba534ff2d",
       "source": "null 1.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/443.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/443.png\"/\u003e",
       "uuid": "cd1a5a55-5709-4543-9897-080725a4cb49",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Radius of sun",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/441.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/442.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/441.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/442.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, trig functions, right triangle ",
       "url": "/practice-problem/cd1a5a55-5709-4543-9897-080725a4cb49",
       "source": "null 1.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/447.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/447.png\"/\u003e",
       "uuid": "0bab7229-910c-4341-a783-395a037dbd69",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Diameter of large roller",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/445.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/446.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/445.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/446.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, trig functions, right triangle, radius ",
       "url": "/practice-problem/0bab7229-910c-4341-a783-395a037dbd69",
       "source": "null 1.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/454.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/454.png\"/\u003e",
       "uuid": "9a47eff8-c3eb-4498-a866-0556fd1e4550",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/450.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/451.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/453.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/450.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/451.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/453.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, trig functions, right triangle ",
       "url": "/practice-problem/9a47eff8-c3eb-4498-a866-0556fd1e4550",
       "source": "null 1.3.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/460.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/460.png\"/\u003e",
       "uuid": "aebf7e51-3c42-479e-92ff-1db681da608b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Six trig function of 330",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/459.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/459.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, trig functions, circle, right triangle ",
       "url": "/practice-problem/aebf7e51-3c42-479e-92ff-1db681da608b",
       "source": "null 1.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/462.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/462.png\"/\u003e",
       "uuid": "58828e91-2499-4656-a210-78260a915e75",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Six trig function of various degree",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/461.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/461.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, trig functions, degrees, unit circle ",
       "url": "/practice-problem/58828e91-2499-4656-a210-78260a915e75",
       "source": "null 1.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/466.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/466.png\"/\u003e",
       "uuid": "a5ab0a81-6b02-4e50-ab61-54b49261acc1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Terminal side and reference angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/465.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/465.png\"/\u003e",
       "allAnswers": [],
       "tags": "terminal side, reference angle, unit circle ",
       "url": "/practice-problem/a5ab0a81-6b02-4e50-ab61-54b49261acc1",
@@ -375,7 +375,7 @@
       "tags": "equation of a line, graphs of functions",
       "url": "/question/defde67e-0d64-4069-a0ed-200b1e7d8f95",
       "source": "AP Calculus Problems 1.2.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "ce2afc16-d31d-441c-b418-6e67b2d5638f",
@@ -392,7 +392,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/ce2afc16-d31d-441c-b418-6e67b2d5638f",
       "source": "AP Calculus Problems 1.2.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e7b880a7-07a4-47db-a28e-777da87cc106",
@@ -409,7 +409,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/e7b880a7-07a4-47db-a28e-777da87cc106",
       "source": "AP Calculus Problems 1.2.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "7e30845e-eb4c-4564-85f2-f87deaf2aa6d",
@@ -426,7 +426,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/7e30845e-eb4c-4564-85f2-f87deaf2aa6d",
       "source": "AP Calculus Problems 1.2.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "3dc470ed-f2d2-4310-ae31-7eb0128fb333",
@@ -443,7 +443,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/3dc470ed-f2d2-4310-ae31-7eb0128fb333",
       "source": "AP Calculus Problems 1.2.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "c4dfb03c-dfc0-4777-8d78-16ea1aa0d53a",
@@ -460,7 +460,7 @@
       "tags": "graphs of functions, equation of a line ",
       "url": "/question/c4dfb03c-dfc0-4777-8d78-16ea1aa0d53a",
       "source": "AP Calculus Problems 1.2.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "10c7a8cc-625f-4ed8-b8f5-7f30ddfe2618",
@@ -477,7 +477,7 @@
       "tags": "graphing functions, equations of a line",
       "url": "/question/10c7a8cc-625f-4ed8-b8f5-7f30ddfe2618",
       "source": "AP Calculus Problems 1.1.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e69d9b35-ac0f-44aa-bff2-d17de33b6516",
@@ -494,7 +494,7 @@
       "tags": "graphing functions, equation of a line",
       "url": "/question/e69d9b35-ac0f-44aa-bff2-d17de33b6516",
       "source": "AP Calculus Problems 1.2.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "2a673b78-a7a4-4312-8be4-98e0d066390f",
@@ -511,7 +511,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/2a673b78-a7a4-4312-8be4-98e0d066390f",
       "source": "AP Calculus Problems 1.2.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a569fbde-2f13-4ee2-9b91-599474c63d67",
@@ -528,7 +528,7 @@
       "tags": "graphs of functions, equations of lines ",
       "url": "/question/a569fbde-2f13-4ee2-9b91-599474c63d67",
       "source": "AP Calculus Problems 1.2.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "410e8cc4-f674-4d92-97ba-b212963a833d",
@@ -545,7 +545,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/410e8cc4-f674-4d92-97ba-b212963a833d",
       "source": "AP Calculus Problems 1.2.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "53d21d08-f459-446a-ba51-169aada06a3c",
@@ -562,7 +562,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/53d21d08-f459-446a-ba51-169aada06a3c",
       "source": "AP Calculus Problems 6.1.1",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "4682d046-00b3-46fa-aba5-3579d78ea464",
@@ -579,7 +579,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/4682d046-00b3-46fa-aba5-3579d78ea464",
       "source": "AP Calculus Problems 6.1.2",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "80c9cd55-0e90-462f-bb8f-bf8b3aad217b",
@@ -596,7 +596,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/80c9cd55-0e90-462f-bb8f-bf8b3aad217b",
       "source": "AP Calculus Problems 6.1.3",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ffcaa8af-d3e0-4fac-82ea-e2fd0620aca9",
@@ -613,7 +613,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/ffcaa8af-d3e0-4fac-82ea-e2fd0620aca9",
       "source": "AP Calculus Problems 6.1.4",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "c29d9aea-fd53-4c0f-a316-748a1eaa3d1e",
@@ -630,7 +630,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/c29d9aea-fd53-4c0f-a316-748a1eaa3d1e",
       "source": "AP Calculus Problems 6.1.5",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "9ba4ec64-3478-4edc-a804-b02ee0cbc8da",
@@ -647,7 +647,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/9ba4ec64-3478-4edc-a804-b02ee0cbc8da",
       "source": "AP Calculus Problems 6.1.6",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "86bccfb6-6c42-440e-8b7e-f60861bc6afa",
@@ -664,7 +664,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/86bccfb6-6c42-440e-8b7e-f60861bc6afa",
       "source": "AP Calculus Problems 6.1.7",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "03bc3853-27ad-46ec-81f6-016432c5da6f",
@@ -681,7 +681,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/03bc3853-27ad-46ec-81f6-016432c5da6f",
       "source": "AP Calculus Problems 6.1.8",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "9022c5a4-d443-463b-b9eb-6a6244670cdb",
@@ -698,7 +698,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/9022c5a4-d443-463b-b9eb-6a6244670cdb",
       "source": "AP Calculus Problems 6.1.9",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "5e84076b-bae6-400b-9a24-a61aca9024f3",
@@ -715,7 +715,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/5e84076b-bae6-400b-9a24-a61aca9024f3",
       "source": "AP Calculus Problems 6.1.10",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "fd59e7c0-3663-464d-921a-b9ed513368cb",
@@ -732,7 +732,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/fd59e7c0-3663-464d-921a-b9ed513368cb",
       "source": "AP Calculus Problems 6.1.11",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "809f462e-0f74-4a5c-8333-f160b37c15cc",
@@ -749,7 +749,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/809f462e-0f74-4a5c-8333-f160b37c15cc",
       "source": "AP Calculus Problems 6.1.12",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "d440eb9b-3fef-4afa-9f04-15a67058a5e3",
@@ -766,7 +766,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/d440eb9b-3fef-4afa-9f04-15a67058a5e3",
       "source": "AP Calculus Problems 6.1.13",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ca6d6e3c-9611-487f-bec9-80f00a95c252",
@@ -783,7 +783,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/ca6d6e3c-9611-487f-bec9-80f00a95c252",
       "source": "AP Calculus Problems 6.1.14",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "def53481-ea0d-4fab-95c0-f46351835197",
@@ -800,7 +800,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/def53481-ea0d-4fab-95c0-f46351835197",
       "source": "AP Calculus Problems 6.1.15",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "a4b40cb3-e445-4fd5-b10b-2670064d5270",
@@ -817,7 +817,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/a4b40cb3-e445-4fd5-b10b-2670064d5270",
       "source": "AP Calculus Problems 6.1.16",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "cbdd566c-884a-46eb-85d8-17fa18e3f291",
@@ -834,7 +834,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/cbdd566c-884a-46eb-85d8-17fa18e3f291",
       "source": "AP Calculus Problems 6.1.17",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "affb5618-6f01-42bf-8bec-a7aa9fc85bd3",
@@ -851,7 +851,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/affb5618-6f01-42bf-8bec-a7aa9fc85bd3",
       "source": "AP Calculus Problems 6.1.18",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "64d49469-77f0-473c-a6f8-6448ec6450d7",
@@ -868,7 +868,7 @@
       "tags": "integrals, antiderivatives, integration, differentiation",
       "url": "/question/64d49469-77f0-473c-a6f8-6448ec6450d7",
       "source": "AP Calculus Problems 6.1.19",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "69286848-03c5-428f-b7e2-6963a9c5cbb2",
@@ -885,7 +885,7 @@
       "tags": "factor, graphing functions",
       "url": "/question/69286848-03c5-428f-b7e2-6963a9c5cbb2",
       "source": "AP Calculus Problems 1.3.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a269042a-99f6-46e8-b49f-20403a328e77",
@@ -902,7 +902,7 @@
       "tags": "factoring, graphing function",
       "url": "/question/a269042a-99f6-46e8-b49f-20403a328e77",
       "source": "AP Calculus Problems 1.3.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "f9e7d4d2-21c6-4d63-835c-8e41362544e0",
@@ -919,7 +919,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/f9e7d4d2-21c6-4d63-835c-8e41362544e0",
       "source": "AP Calculus Problems 1.3.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "9d44b23b-c4d3-46ae-aaf8-d9691fedcc37",
@@ -936,7 +936,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/9d44b23b-c4d3-46ae-aaf8-d9691fedcc37",
       "source": "AP Calculus Problems 1.3.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "ccdef3b1-4e95-4fa3-a1ed-8f65704b5e79",
@@ -953,7 +953,7 @@
       "tags": "graphing function, factoring",
       "url": "/question/ccdef3b1-4e95-4fa3-a1ed-8f65704b5e79",
       "source": "AP Calculus Problems 1.3.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "42723676-6103-448f-8bf5-e9dd5dec46c4",
@@ -970,7 +970,7 @@
       "tags": "graphing function, factoring",
       "url": "/question/42723676-6103-448f-8bf5-e9dd5dec46c4",
       "source": "AP Calculus Problems 1.3.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "0487afd9-a951-42d8-a1f9-3b40f22c1f37",
@@ -987,7 +987,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/0487afd9-a951-42d8-a1f9-3b40f22c1f37",
       "source": "AP Calculus Problems 1.3.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "63613022-381a-4fc1-aca5-1868388bda5e",
@@ -1004,7 +1004,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/63613022-381a-4fc1-aca5-1868388bda5e",
       "source": "AP Calculus Problems 1.3.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "427415ca-3848-4c75-9508-a68c91dd802e",
@@ -1021,7 +1021,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/427415ca-3848-4c75-9508-a68c91dd802e",
       "source": "AP Calculus Problems 1.3.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "36e7a904-e5ec-43c1-87fc-135efc8949c3",
@@ -1038,7 +1038,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/36e7a904-e5ec-43c1-87fc-135efc8949c3",
       "source": "AP Calculus Problems 1.3.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "b8c8de4e-a554-412c-a5e0-68f254d62b5e",
@@ -1055,7 +1055,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/b8c8de4e-a554-412c-a5e0-68f254d62b5e",
       "source": "AP Calculus Problems 1.3.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e01d4935-bc51-4e6c-9f2a-c681d8076f63",
@@ -1072,7 +1072,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/e01d4935-bc51-4e6c-9f2a-c681d8076f63",
       "source": "AP Calculus Problems 1.3.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "d181bf58-cc56-4de5-9891-f24fcb5b44d5",
@@ -1089,7 +1089,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/d181bf58-cc56-4de5-9891-f24fcb5b44d5",
       "source": "AP Calculus Problems 1.3.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "4a6fff74-6387-45de-9185-a224504e8227",
@@ -1106,7 +1106,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/4a6fff74-6387-45de-9185-a224504e8227",
       "source": "AP Calculus Problems 1.3.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "4ff1e3b8-a4de-4eb3-83ee-34f00ad18b34",
@@ -1123,7 +1123,7 @@
       "tags": "graphing functions, simplifying expressions",
       "url": "/question/4ff1e3b8-a4de-4eb3-83ee-34f00ad18b34",
       "source": "AP Calculus Problems 1.3.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "463819c4-3996-46a4-92ed-f2cacc1019a8",
@@ -1140,7 +1140,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/463819c4-3996-46a4-92ed-f2cacc1019a8",
       "source": "AP Calculus Problems 3.1.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "77bf2257-4458-487a-b333-9104ad2ba9ab",
@@ -1157,7 +1157,7 @@
       "tags": "graphing functions, simplifying expressions",
       "url": "/question/77bf2257-4458-487a-b333-9104ad2ba9ab",
       "source": "AP Calculus Problems 3.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "0d4cbe1c-168d-4d69-810d-40be837ea167",
@@ -1174,7 +1174,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/0d4cbe1c-168d-4d69-810d-40be837ea167",
       "source": "AP Calculus Problems 3.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "97652983-2cd0-4562-8d8f-dbff2f27f0f8",
@@ -1191,7 +1191,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/97652983-2cd0-4562-8d8f-dbff2f27f0f8",
       "source": "AP Calculus Problems 6.1.20",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "72b62eaa-3318-4b7a-8261-048fd324b21e",
@@ -1208,7 +1208,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/72b62eaa-3318-4b7a-8261-048fd324b21e",
       "source": "AP Calculus Problems 3.1.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "ac9a772d-07b5-45ab-816a-527ef72a65cf",
@@ -1225,7 +1225,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/ac9a772d-07b5-45ab-816a-527ef72a65cf",
       "source": "AP Calculus Problems 6.1.21",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "35dd9be4-0330-4d9a-a076-f9417fb13ab2",
@@ -1242,7 +1242,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/35dd9be4-0330-4d9a-a076-f9417fb13ab2",
       "source": "AP Calculus Problems 1.3.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "68fc27f1-18c1-4a38-bc41-d9c089cfe3d0",
@@ -1259,7 +1259,7 @@
       "tags": "graphing functions, rationalizing expressions",
       "url": "/question/68fc27f1-18c1-4a38-bc41-d9c089cfe3d0",
       "source": "AP Calculus Problems 1.3.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "0f76c37e-3ab6-4aae-bdc0-2c11af6c5e46",
@@ -1276,7 +1276,7 @@
       "tags": "graphing functions, rationalizing expressions",
       "url": "/question/0f76c37e-3ab6-4aae-bdc0-2c11af6c5e46",
       "source": "AP Calculus Problems 1.3.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "33ee7691-c54a-4d26-a7bb-96426ceca388",
@@ -1293,7 +1293,7 @@
       "tags": "graphing functions, rationalizing expressions",
       "url": "/question/33ee7691-c54a-4d26-a7bb-96426ceca388",
       "source": "AP Calculus Problems 1.3.20",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "487ccd86-caf1-48f7-89c6-5c712c2b31e9",
@@ -1310,7 +1310,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/487ccd86-caf1-48f7-89c6-5c712c2b31e9",
       "source": "AP Calculus Problems 1.3.21",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "6d082343-c51f-4516-8910-4bded65af4e8",
@@ -1327,7 +1327,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/6d082343-c51f-4516-8910-4bded65af4e8",
       "source": "AP Calculus Problems 6.1.22",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "5d75e6aa-6fd6-48df-8692-bd7721ad48a2",
@@ -1344,7 +1344,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/5d75e6aa-6fd6-48df-8692-bd7721ad48a2",
       "source": "AP Calculus Problems 1.3.22",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "b0f4df0c-eb99-408c-a391-7961a89a2922",
@@ -1361,7 +1361,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/b0f4df0c-eb99-408c-a391-7961a89a2922",
       "source": "AP Calculus Problems 1.3.23",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "d637e080-faa3-4760-ac87-f151fb2adb9a",
@@ -1378,7 +1378,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/d637e080-faa3-4760-ac87-f151fb2adb9a",
       "source": "AP Calculus Problems 1.3.24",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "1935868f-af63-4f47-9df7-540d39b030b4",
@@ -1395,7 +1395,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/1935868f-af63-4f47-9df7-540d39b030b4",
       "source": "AP Calculus Problems 1.3.25",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "598cb38d-1e76-4a56-9d42-e49faf4e4ab2",
@@ -1412,7 +1412,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/598cb38d-1e76-4a56-9d42-e49faf4e4ab2",
       "source": "AP Calculus Problems 1.3.26",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "add7ec51-2317-43d3-9a20-37b10ff98cf4",
@@ -1429,7 +1429,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/add7ec51-2317-43d3-9a20-37b10ff98cf4",
       "source": "AP Calculus Problems 1.3.27",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e94ee8d0-9c6a-4cbc-a853-3f170e23cf6a",
@@ -1446,7 +1446,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/e94ee8d0-9c6a-4cbc-a853-3f170e23cf6a",
       "source": "AP Calculus Problems 1.3.28",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "522c4a07-f80f-473d-beda-f7728f8282aa",
@@ -1463,7 +1463,7 @@
       "tags": "rationalizing expressions. graphing functions",
       "url": "/question/522c4a07-f80f-473d-beda-f7728f8282aa",
       "source": "AP Calculus Problems 1.3.29",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "21c57a64-1621-4351-a6f5-78eb61f05312",
@@ -1480,7 +1480,7 @@
       "tags": "graphing functions, domain, functions",
       "url": "/question/21c57a64-1621-4351-a6f5-78eb61f05312",
       "source": "AP Calculus Problems 1.4.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a496af06-df96-4753-b93d-c3abb6d43c21",
@@ -1497,7 +1497,7 @@
       "tags": "graphing functions, domain, functions",
       "url": "/question/a496af06-df96-4753-b93d-c3abb6d43c21",
       "source": "AP Calculus Problems 1.4.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e9e717be-ed30-401b-aa92-903e12af0a96",
@@ -1514,7 +1514,7 @@
       "tags": "graphing functions, functions, domain",
       "url": "/question/e9e717be-ed30-401b-aa92-903e12af0a96",
       "source": "AP Calculus Problems 1.4.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "976c0ded-cd24-472e-8946-d48e647c0c17",
@@ -1531,7 +1531,7 @@
       "tags": "graphing functions, functions, domain",
       "url": "/question/976c0ded-cd24-472e-8946-d48e647c0c17",
       "source": "AP Calculus Problems 1.4.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "1fe19a6d-71c2-4059-9742-853623ecd5a3",
@@ -1548,7 +1548,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/1fe19a6d-71c2-4059-9742-853623ecd5a3",
       "source": "AP Calculus Problems 6.1.23",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "fdccdf1f-09f4-464a-9d82-ad95d228a5bf",
@@ -1565,7 +1565,7 @@
       "tags": "graphing functions, functions, domain",
       "url": "/question/fdccdf1f-09f4-464a-9d82-ad95d228a5bf",
       "source": "AP Calculus Problems 1.4.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e163c9e4-3f38-45db-8d9a-56b6243cb1c8",
@@ -1582,7 +1582,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/e163c9e4-3f38-45db-8d9a-56b6243cb1c8",
       "source": "AP Calculus Problems 6.1.24",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "89d438c0-857d-4227-b1f6-184621701298",
@@ -1599,7 +1599,7 @@
       "tags": "graphing functions, functions, domain",
       "url": "/question/89d438c0-857d-4227-b1f6-184621701298",
       "source": "AP Calculus Problems 1.4.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "db29fa10-74c4-4b7c-87a9-fda780b49b47",
@@ -1616,7 +1616,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/db29fa10-74c4-4b7c-87a9-fda780b49b47",
       "source": "AP Calculus Problems 6.1.25",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of Curve",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5970.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5971.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5972.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5970.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5971.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5972.png\"/\u003e",
       "allAnswers": [],
       "tags": "length of curve, integral, arc length, integration, applications of integration ",
       "url": "/text-content/2bf021e7-2373-44d0-8577-1cb66c351763",
       "source": "Forgotten Text 6 7.8",
-      "topic": "Calculus/Application of the Integral/Length of Curve"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length of Curve"
     },
     {
       "uuid": "f123b966-7905-4026-bdc2-1b3d6922a4d4",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Area between graphs ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5955.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5956.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5955.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5956.png\"/\u003e",
       "allAnswers": [],
       "tags": "area between graphs, integral, riemann-sum, applications of integral ",
       "url": "/text-content/f123b966-7905-4026-bdc2-1b3d6922a4d4",
       "source": "Forgotten Text 6 8.1",
-      "topic": "Calculus/Application of the Integral/Area between graphs"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area between graphs"
     },
     {
       "uuid": "763df511-b6e2-4dad-92b2-030f567820c6",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Cavalieri\u0027s principle and volumes of Solids",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5957.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5958.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5959.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5960.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5957.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5958.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5959.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5960.png\"/\u003e",
       "allAnswers": [],
       "tags": "cavalieri\u0027s principle, volume of solids, integral, integration, applications of integral ",
       "url": "/text-content/763df511-b6e2-4dad-92b2-030f567820c6",
       "source": "Forgotten Text 6 8.3",
-      "topic": "Calculus/Application of the Integral/Cavalieri\u0027s principle"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Cavalieri\u0027s principle"
     },
     {
       "uuid": "f0b15ddd-f506-40ec-bf67-ca472ef7e997",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Solids of Revolution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5961.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5962.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5963.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5964.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5965.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5961.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5962.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5963.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5964.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5965.png\"/\u003e",
       "allAnswers": [],
       "tags": "solids of revolution, volume, integral, integration ",
       "url": "/text-content/f0b15ddd-f506-40ec-bf67-ca472ef7e997",
       "source": "Forgotten Text 6 8.4",
-      "topic": "Calculus/Application of the Integral/Solids of Revolution"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Solids of Revolution"
     },
     {
       "uuid": "f60cb88c-3afd-4949-bc0c-7afe6c8c948b",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Indefinite Integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5977.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5978.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5977.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5978.png\"/\u003e",
       "allAnswers": [],
       "tags": "indefinite integral, integral, integration, methods of integration ",
       "url": "/text-content/f60cb88c-3afd-4949-bc0c-7afe6c8c948b",
       "source": "Forgotten Text 7 1.1",
-      "topic": "Calculus/Methods of Integration/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Indefinite Integral"
     }
   ],
   "answers": [],

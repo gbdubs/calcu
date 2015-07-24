@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/831.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/832.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/831.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/832.png\"/\u003e",
       "uuid": "f5b7e4e2-bfbe-4a50-9051-d52f4c411acd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Smallest Perimeter",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/830.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/830.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, calc ",
       "url": "/practice-problem/f5b7e4e2-bfbe-4a50-9051-d52f4c411acd",
       "source": "null 6.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/834.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/834.png\"/\u003e",
       "uuid": "755d220b-01bb-400a-a797-2499fee5f9a4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Maximize profit ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/833.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/833.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, calc ",
       "url": "/practice-problem/755d220b-01bb-400a-a797-2499fee5f9a4",
       "source": "null 6.1.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/836.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/836.png\"/\u003e",
       "uuid": "b69386ac-621a-4df3-bd99-713dec4f3b88",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Largest rectangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/835.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/835.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, calc ",
       "url": "/practice-problem/b69386ac-621a-4df3-bd99-713dec4f3b88",
       "source": "null 6.1.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/838.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/839.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/838.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/839.png\"/\u003e",
       "uuid": "b5bb6695-b22e-46fd-945e-04feb7a0de64",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Largest Cone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/837.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/837.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, calc ",
       "url": "/practice-problem/b5bb6695-b22e-46fd-945e-04feb7a0de64",
       "source": "null 6.1.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/841.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/841.png\"/\u003e",
       "uuid": "f225edb7-e46c-4f0d-94aa-85683cb9a430",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Minimize cost",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/840.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/840.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, minimization, calc ",
       "url": "/practice-problem/f225edb7-e46c-4f0d-94aa-85683cb9a430",
       "source": "null 6.1.9"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/843.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/844.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/843.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/844.png\"/\u003e",
       "uuid": "ad05598b-1d36-4f45-9958-5bc6e75e846d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Minimize travel",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/842.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/842.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, minimize, calc ",
       "url": "/practice-problem/ad05598b-1d36-4f45-9958-5bc6e75e846d",
       "source": "null 6.1.10"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/849.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/849.png\"/\u003e",
       "uuid": "6e4b0599-d584-4701-80ce-3856b259e2f5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Related rates, balloon",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/848.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/848.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, calc ",
       "url": "/practice-problem/6e4b0599-d584-4701-80ce-3856b259e2f5",
       "source": "null 6.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/852.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/852.png\"/\u003e",
       "uuid": "6805c49a-ca4d-4da1-9546-a7e7bd26bc6a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Related rates, water poured",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/851.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/851.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, calc ",
       "url": "/practice-problem/6805c49a-ca4d-4da1-9546-a7e7bd26bc6a",
       "source": "null 6.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/854.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/854.png\"/\u003e",
       "uuid": "63e0cb3c-f742-47b8-9597-02bfa2e32471",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Angular speed of rope",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/853.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/853.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, angular speed, calc ",
       "url": "/practice-problem/63e0cb3c-f742-47b8-9597-02bfa2e32471",
       "source": "null 6.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/857.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/857.png\"/\u003e",
       "uuid": "123b91ad-f794-4415-a546-49b519daa063",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Distance between two cars",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/856.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/856.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, calc ",
       "url": "/practice-problem/123b91ad-f794-4415-a546-49b519daa063",
       "source": "null 6.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/862.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/862.png\"/\u003e",
       "uuid": "2b10d19f-f9f2-436f-a7c0-8b4c2109d11a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Newtons method",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/861.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/861.png\"/\u003e",
       "allAnswers": [],
       "tags": "newtons method, calc ",
       "url": "/practice-problem/2b10d19f-f9f2-436f-a7c0-8b4c2109d11a",
       "source": "null 6.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/900.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/900.png\"/\u003e",
       "uuid": "56c22f5c-5f3e-43dd-b25f-4c5fa43467ba",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Evaluate integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/898.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/898.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration by parts, integral, integration methods ",
       "url": "/practice-problem/56c22f5c-5f3e-43dd-b25f-4c5fa43467ba",
       "source": "null 8.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/902.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/902.png\"/\u003e",
       "uuid": "d82548e4-24e0-4348-9778-548292b23737",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Evaluate the integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/901.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/901.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration by parts, integration methods ",
       "url": "/practice-problem/d82548e4-24e0-4348-9778-548292b23737",
       "source": "null 8.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/909.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/909.png\"/\u003e",
       "uuid": "1ca493e3-6478-487a-a0a1-08db7eb34d8e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Determine whether equation factors",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/908.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/908.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, integration, integration methods",
       "url": "/practice-problem/1ca493e3-6478-487a-a0a1-08db7eb34d8e",
       "source": "null 8.5.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/911.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/911.png\"/\u003e",
       "uuid": "3dd0be8a-0b77-42bd-b052-7c053fe46caa",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Long division of polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/910.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/910.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, integration, integration methods ",
       "url": "/practice-problem/3dd0be8a-0b77-42bd-b052-7c053fe46caa",
       "source": "null 8.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/914.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/914.png\"/\u003e",
       "uuid": "7b3e892c-7320-4b5f-a436-d7f933852ba7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Evaluate the integral, pt.2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/912.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/912.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, integration, integration methods ",
       "url": "/practice-problem/7b3e892c-7320-4b5f-a436-d7f933852ba7",
       "source": "null 8.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/916.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/916.png\"/\u003e",
       "uuid": "883b310a-2c81-4172-8f2e-afaad8249937",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Evaluate the integral, polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/915.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/915.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, polynomials, integration, integration methods ",
       "url": "/practice-problem/883b310a-2c81-4172-8f2e-afaad8249937",
       "source": "null 8.5.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/928.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/928.png\"/\u003e",
       "uuid": "31f1ebca-fbab-4b13-b858-8233c182185c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find area between curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/926.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/926.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration, application of integration, area between curves ",
       "url": "/practice-problem/31f1ebca-fbab-4b13-b858-8233c182185c",
       "source": "null 9.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/938.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/938.png\"/\u003e",
       "uuid": "81fd614f-851e-4827-a0c4-7c326136c082",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the volume of cone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/936.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/936.png\"/\u003e",
       "allAnswers": [],
       "tags": "volume of cone, integration, applications of integration ",
       "url": "/practice-problem/81fd614f-851e-4827-a0c4-7c326136c082",
       "source": "null 9.3.1 "
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/942.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/943.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/942.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/943.png\"/\u003e",
       "uuid": "caf585c2-f5fa-4cd9-b92a-2ad1ebd71edb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,7 +335,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Volume of object between area",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/940.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/940.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, volume between curves, volume ",
       "url": "/practice-problem/caf585c2-f5fa-4cd9-b92a-2ad1ebd71edb",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Disk and shell method ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/944.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/944.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, disk method, shell method ",
       "url": "/practice-problem/88488bdf-2002-499b-9028-a66e8394fb40",
@@ -375,7 +375,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/c4d6fe20-a7e2-4f7a-9dd5-18675d92a64b",
       "source": "AP Calculus Problems 4.2.15",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "8d0e0f13-2392-45b6-a5cb-c812ae0a28f7",
@@ -392,7 +392,7 @@
       "tags": "limits",
       "url": "/question/8d0e0f13-2392-45b6-a5cb-c812ae0a28f7",
       "source": "AP Calculus Problems 1.14.23",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "1afeca6c-e1c5-42a5-bec4-b3c9d1246c9e",
@@ -409,7 +409,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/1afeca6c-e1c5-42a5-bec4-b3c9d1246c9e",
       "source": "AP Calculus Problems 4.2.16",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "38697aab-557f-4e8a-b7a0-9a777153fc84",
@@ -426,7 +426,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/38697aab-557f-4e8a-b7a0-9a777153fc84",
       "source": "AP Calculus Problems 4.2.17",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "73be26c6-20af-491f-94ee-5f57a4c3f712",
@@ -443,7 +443,7 @@
       "tags": "limits, infinity",
       "url": "/question/73be26c6-20af-491f-94ee-5f57a4c3f712",
       "source": "AP Calculus Problems 1.14.24",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ed87556c-8f03-4441-8dfe-ea4cabe3730f",
@@ -460,7 +460,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ed87556c-8f03-4441-8dfe-ea4cabe3730f",
       "source": "AP Calculus Problems 4.2.18",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "8ac2bd89-2fe2-4fcd-9d7b-b9d9ea34dd99",
@@ -477,7 +477,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/8ac2bd89-2fe2-4fcd-9d7b-b9d9ea34dd99",
       "source": "AP Calculus Problems 4.2.19",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "c9b19cc0-7879-4cde-a16d-041e1fddbbf2",
@@ -494,7 +494,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/c9b19cc0-7879-4cde-a16d-041e1fddbbf2",
       "source": "AP Calculus Problems 4.2.20",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "6a946834-8f4e-4463-bafd-f95302acc765",
@@ -511,7 +511,7 @@
       "tags": "limits, domain, graph, functions",
       "url": "/question/6a946834-8f4e-4463-bafd-f95302acc765",
       "source": "AP Calculus Problems 1.14.25",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "52eea90a-5fcd-43c7-9b61-3d6db164ce68",
@@ -528,7 +528,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/52eea90a-5fcd-43c7-9b61-3d6db164ce68",
       "source": "AP Calculus Problems 4.2.21",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "07410732-7ad7-4e9e-ad33-0690b06b8d18",
@@ -545,7 +545,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/07410732-7ad7-4e9e-ad33-0690b06b8d18",
       "source": "AP Calculus Problems 4.2.22",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "7167c5e3-3c11-4176-9471-af9ee938439d",
@@ -562,7 +562,7 @@
       "tags": "limits, domain, graph, functions",
       "url": "/question/7167c5e3-3c11-4176-9471-af9ee938439d",
       "source": "AP Calculus Problems 1.14.26",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "d383c5f6-019e-49ad-b098-b3e764f2b35d",
@@ -579,7 +579,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/d383c5f6-019e-49ad-b098-b3e764f2b35d",
       "source": "AP Calculus Problems 1.14.27",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "7c3f12ce-9f28-4a59-8c90-baeb0841211e",
@@ -596,7 +596,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/7c3f12ce-9f28-4a59-8c90-baeb0841211e",
       "source": "AP Calculus Problems 1.14.28",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "74813d5f-31cb-4eee-b2f9-d0c637a0afbc",
@@ -613,7 +613,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/74813d5f-31cb-4eee-b2f9-d0c637a0afbc",
       "source": "AP Calculus Problems 4.2.23",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "9537ee28-23aa-4b3c-b709-6e18ee6add92",
@@ -630,7 +630,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/9537ee28-23aa-4b3c-b709-6e18ee6add92",
       "source": "AP Calculus Problems 1.14.29",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8f80978e-4f82-4b80-a844-99d6bddbad1a",
@@ -647,7 +647,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/8f80978e-4f82-4b80-a844-99d6bddbad1a",
       "source": "AP Calculus Problems 4.2.24",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "071e1897-75ae-4ba8-bcd4-7d73097acb0c",
@@ -664,7 +664,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/071e1897-75ae-4ba8-bcd4-7d73097acb0c",
       "source": "AP Calculus Problems 1.14.30",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a2f1c8c7-86f1-4033-b389-3052f00a2ff5",
@@ -681,7 +681,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/a2f1c8c7-86f1-4033-b389-3052f00a2ff5",
       "source": "AP Calculus Problems 4.2.25",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "a8f62428-b811-4204-a27f-56183a7cebe0",
@@ -698,7 +698,7 @@
       "tags": "solving equations",
       "url": "/question/a8f62428-b811-4204-a27f-56183a7cebe0",
       "source": "AP Calculus Problems 1.15.1",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "a6ec6225-3325-4055-a94c-1f3ca6f4fefd",
@@ -715,7 +715,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/a6ec6225-3325-4055-a94c-1f3ca6f4fefd",
       "source": "AP Calculus Problems 4.2.26",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "d8396bc8-bb7b-4255-9fd8-712521e70265",
@@ -732,7 +732,7 @@
       "tags": "solving equations, equations",
       "url": "/question/d8396bc8-bb7b-4255-9fd8-712521e70265",
       "source": "AP Calculus Problems 1.15.2",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "63a30c1c-29a8-4557-9412-69fe222f303c",
@@ -749,7 +749,7 @@
       "tags": "solving equations, equations",
       "url": "/question/63a30c1c-29a8-4557-9412-69fe222f303c",
       "source": "AP Calculus Problems 1.15.3",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "ad163141-4440-4b1a-9662-233f9559a1d7",
@@ -766,7 +766,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ad163141-4440-4b1a-9662-233f9559a1d7",
       "source": "AP Calculus Problems 4.2.27",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "2abac068-9955-4149-86d6-799f2ba1701a",
@@ -783,7 +783,7 @@
       "tags": "solving equations, equations",
       "url": "/question/2abac068-9955-4149-86d6-799f2ba1701a",
       "source": "AP Calculus Problems 1.15.4",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "ade7a86a-a427-4e17-908c-c9b5ffc0a230",
@@ -800,7 +800,7 @@
       "tags": "solving equations, equations",
       "url": "/question/ade7a86a-a427-4e17-908c-c9b5ffc0a230",
       "source": "AP Calculus Problems 1.15.5",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "e2a48805-e5ec-456a-a30f-56383d8aaac1",
@@ -817,7 +817,7 @@
       "tags": "solving equations, equations",
       "url": "/question/e2a48805-e5ec-456a-a30f-56383d8aaac1",
       "source": "AP Calculus Problems 1.15.6",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "b80f0ed7-3e77-4527-83f7-1e7e44bbbb5d",
@@ -834,7 +834,7 @@
       "tags": "solving equations, equations",
       "url": "/question/b80f0ed7-3e77-4527-83f7-1e7e44bbbb5d",
       "source": "AP Calculus Problems 1.15.7",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "4e9863f3-d87a-4f8d-96a9-483e93f1c680",
@@ -851,7 +851,7 @@
       "tags": "solving equations, equations",
       "url": "/question/4e9863f3-d87a-4f8d-96a9-483e93f1c680",
       "source": "AP Calculus Problems 1.15.8",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "97012333-7c41-4c31-b8dd-a1ef70484303",
@@ -868,7 +868,7 @@
       "tags": "solving equations, equations",
       "url": "/question/97012333-7c41-4c31-b8dd-a1ef70484303",
       "source": "AP Calculus Problems 1.15.9",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "5dfe3939-1fc5-4a61-917f-14b36725a51b",
@@ -885,7 +885,7 @@
       "tags": "solving equations, equations",
       "url": "/question/5dfe3939-1fc5-4a61-917f-14b36725a51b",
       "source": "AP Calculus Problems 1.15.10",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "49cf0db9-2007-4086-a3ab-120c87b465c0",
@@ -902,7 +902,7 @@
       "tags": "solving equations, equations",
       "url": "/question/49cf0db9-2007-4086-a3ab-120c87b465c0",
       "source": "AP Calculus Problems 1.15.11",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "a21da1ba-51a0-4256-ae42-67f5d4405a3e",
@@ -919,7 +919,7 @@
       "tags": "solving equations, equations",
       "url": "/question/a21da1ba-51a0-4256-ae42-67f5d4405a3e",
       "source": "AP Calculus Problems 1.15.12",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "4690742a-d86d-4ed9-b29b-ed3f812f92c0",
@@ -936,7 +936,7 @@
       "tags": "solving equations, equations",
       "url": "/question/4690742a-d86d-4ed9-b29b-ed3f812f92c0",
       "source": "AP Calculus Problems 1.15.13",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "4509a45c-3874-40a8-81a9-d14fa677011f",
@@ -953,7 +953,7 @@
       "tags": "solving equations, equations",
       "url": "/question/4509a45c-3874-40a8-81a9-d14fa677011f",
       "source": "AP Calculus Problems 1.15.14",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "2eaa5422-38dc-43da-bf59-05a6d33339b8",
@@ -970,7 +970,7 @@
       "tags": "solving equations, equations",
       "url": "/question/2eaa5422-38dc-43da-bf59-05a6d33339b8",
       "source": "AP Calculus Problems 1.15.15",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "3dc04bb4-135d-45f5-b1ca-7f6505fdb203",
@@ -987,7 +987,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/3dc04bb4-135d-45f5-b1ca-7f6505fdb203",
       "source": "AP Calculus Problems 4.2.28",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "1e9df59b-fdc2-43ec-b449-9d4e69ea6e59",
@@ -1004,7 +1004,7 @@
       "tags": "solving equations, equations",
       "url": "/question/1e9df59b-fdc2-43ec-b449-9d4e69ea6e59",
       "source": "AP Calculus Problems 1.15.16",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "9776d25d-ccbe-4b8c-99f9-c8b6d0f251de",
@@ -1021,7 +1021,7 @@
       "tags": "solving equations, equations",
       "url": "/question/9776d25d-ccbe-4b8c-99f9-c8b6d0f251de",
       "source": "AP Calculus Problems 1.15.17",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "34ac8ca3-c31a-4ea4-8394-09c237212f02",
@@ -1038,7 +1038,7 @@
       "tags": "solving equations, equations",
       "url": "/question/34ac8ca3-c31a-4ea4-8394-09c237212f02",
       "source": "AP Calculus Problems 1.15.18",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "3ce24b36-ba92-45fc-9520-373d7ab83a19",
@@ -1055,7 +1055,7 @@
       "tags": "solving equations equations",
       "url": "/question/3ce24b36-ba92-45fc-9520-373d7ab83a19",
       "source": "AP Calculus Problems 1.15.19",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "59dbb5fb-9c2c-464a-bfa5-4713265bf59b",
@@ -1072,7 +1072,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/59dbb5fb-9c2c-464a-bfa5-4713265bf59b",
       "source": "AP Calculus Problems 1.15.20",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "342b4ef7-38ec-4009-aeb2-e88507705a0b",
@@ -1089,7 +1089,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/342b4ef7-38ec-4009-aeb2-e88507705a0b",
       "source": "AP Calculus Problems 4.2.29",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "5341998c-c8bc-4b04-9791-276ec6860285",
@@ -1106,7 +1106,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/5341998c-c8bc-4b04-9791-276ec6860285",
       "source": "AP Calculus Problems 1.15.21",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "2074679f-8469-4faa-a4a0-8c3fc26417e4",
@@ -1123,7 +1123,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/2074679f-8469-4faa-a4a0-8c3fc26417e4",
       "source": "AP Calculus Problems 4.2.30",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "02ae8c99-9543-462e-9e63-a687eca19493",
@@ -1140,7 +1140,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/02ae8c99-9543-462e-9e63-a687eca19493",
       "source": "AP Calculus Problems 4.2.31",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "c896fd25-6b77-46fe-8cce-42780dc71a9d",
@@ -1157,7 +1157,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/c896fd25-6b77-46fe-8cce-42780dc71a9d",
       "source": "AP Calculus Problems 1.15.22",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "ebf45d58-4b52-4017-a9e5-5faa9fed526f",
@@ -1174,7 +1174,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ebf45d58-4b52-4017-a9e5-5faa9fed526f",
       "source": "AP Calculus Problems 4.2.32",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "c8326b99-0c99-4e54-8c8b-16a28c9f5b77",
@@ -1191,7 +1191,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/c8326b99-0c99-4e54-8c8b-16a28c9f5b77",
       "source": "AP Calculus Problems 1.15.23",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "16d78734-298f-4eac-9946-9fe7d6207111",
@@ -1208,7 +1208,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/16d78734-298f-4eac-9946-9fe7d6207111",
       "source": "AP Calculus Problems 1.15.24",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "574b2024-329d-4600-9215-4577cbd9a3bf",
@@ -1225,7 +1225,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/574b2024-329d-4600-9215-4577cbd9a3bf",
       "source": "AP Calculus Problems 1.15.25",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "d1894c3e-43ff-4ba7-9fa3-b351fe87cc4d",
@@ -1242,7 +1242,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/d1894c3e-43ff-4ba7-9fa3-b351fe87cc4d",
       "source": "AP Calculus Problems 1.15.26",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "1f5d4570-c8f7-422a-9a53-67466616b976",
@@ -1259,7 +1259,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/1f5d4570-c8f7-422a-9a53-67466616b976",
       "source": "AP Calculus Problems 1.15.27",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "4181909e-75ac-4581-8cbf-310ece1ffd62",
@@ -1276,7 +1276,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/4181909e-75ac-4581-8cbf-310ece1ffd62",
       "source": "AP Calculus Problems 4.2.33",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "1c099033-c67a-4a85-82f5-f4e3897ce7fe",
@@ -1293,7 +1293,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/1c099033-c67a-4a85-82f5-f4e3897ce7fe",
       "source": "AP Calculus Problems 1.15.28",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "c16e0b00-395b-4f87-b84e-bda42fffcc86",
@@ -1310,7 +1310,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/c16e0b00-395b-4f87-b84e-bda42fffcc86",
       "source": "AP Calculus Problems 1.15.29",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "41f8ba0d-5f1a-4314-8f36-16b35dbc4b16",
@@ -1327,7 +1327,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/41f8ba0d-5f1a-4314-8f36-16b35dbc4b16",
       "source": "AP Calculus Problems 4.2.34",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "15b987f4-12e9-46cd-bd1c-74d86c9beba6",
@@ -1344,7 +1344,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/15b987f4-12e9-46cd-bd1c-74d86c9beba6",
       "source": "AP Calculus Problems 4.2.35",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "1a10b5f1-113e-4567-8fc0-e920e8fbe9e5",
@@ -1361,7 +1361,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/1a10b5f1-113e-4567-8fc0-e920e8fbe9e5",
       "source": "AP Calculus Problems 1.15.30",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "ed9f440f-23f8-4278-bb72-532d58dab9a6",
@@ -1378,7 +1378,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ed9f440f-23f8-4278-bb72-532d58dab9a6",
       "source": "AP Calculus Problems 4.2.36",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "f32e778f-e09c-497d-a9eb-dedfad681d41",
@@ -1395,7 +1395,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/f32e778f-e09c-497d-a9eb-dedfad681d41",
       "source": "AP Calculus Problems 1.15.31",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "c162dad5-d3a6-4d2d-8d6c-f6212f80e851",
@@ -1412,7 +1412,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/c162dad5-d3a6-4d2d-8d6c-f6212f80e851",
       "source": "AP Calculus Problems 4.2.37",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "482a3f25-c65b-49d0-b669-1c2538802ebf",
@@ -1429,7 +1429,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/482a3f25-c65b-49d0-b669-1c2538802ebf",
       "source": "AP Calculus Problems 4.2.38",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "ccf088b2-9906-4942-ae00-c1071bcd7233",
@@ -1446,7 +1446,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/ccf088b2-9906-4942-ae00-c1071bcd7233",
       "source": "AP Calculus Problems 1.15.32",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "41241d5d-3f64-4ef4-8fd3-d220340d47b2",
@@ -1463,7 +1463,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/41241d5d-3f64-4ef4-8fd3-d220340d47b2",
       "source": "AP Calculus Problems 1.15.33",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "9f8f7e6e-8bf0-4c3f-8c15-e4a1660df168",
@@ -1480,7 +1480,7 @@
       "tags": "solving equations, functions, real zeros",
       "url": "/question/9f8f7e6e-8bf0-4c3f-8c15-e4a1660df168",
       "source": "AP Calculus Problems 1.15.34",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "4cfb0963-bad9-4dcc-a390-1343fb0b4399",
@@ -1497,7 +1497,7 @@
       "tags": "solving equations, real zeros, functions ",
       "url": "/question/4cfb0963-bad9-4dcc-a390-1343fb0b4399",
       "source": "AP Calculus Problems 1.15.35",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "5d4a1c39-f49b-41df-bded-40aeb5dd2f6e",
@@ -1514,7 +1514,7 @@
       "tags": "real zeros, solving equations, functions",
       "url": "/question/5d4a1c39-f49b-41df-bded-40aeb5dd2f6e",
       "source": "AP Calculus Problems 1.15.36",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "9910e5e7-51df-4fa6-98d1-13270c17f30d",
@@ -1531,7 +1531,7 @@
       "tags": "solving equations, functions, real zeros",
       "url": "/question/9910e5e7-51df-4fa6-98d1-13270c17f30d",
       "source": "AP Calculus Problems 1.15.37",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "01314679-6e54-4045-bf72-23f694c01f7c",
@@ -1548,7 +1548,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/01314679-6e54-4045-bf72-23f694c01f7c",
       "source": "AP Calculus Problems 1.15.38",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "f2f9b15c-2f00-4484-b426-36a9ee946bb2",
@@ -1565,7 +1565,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/f2f9b15c-2f00-4484-b426-36a9ee946bb2",
       "source": "AP Calculus Problems 1.15.39",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "d23a946a-0e99-449e-b0fd-afa9a6a591db",
@@ -1582,7 +1582,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/d23a946a-0e99-449e-b0fd-afa9a6a591db",
       "source": "AP Calculus Problems 1.15.40",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "8e1fb1ef-0cd5-40a5-b5e0-d767470af35c",
@@ -1599,7 +1599,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/8e1fb1ef-0cd5-40a5-b5e0-d767470af35c",
       "source": "AP Calculus Problems 1.15.41",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Solving by Graphing"
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
     },
     {
       "uuid": "b2bbc747-45c1-4368-a2b5-d7b06094ca05",
@@ -1616,7 +1616,7 @@
       "tags": "functions, even, odd, continuity ",
       "url": "/question/b2bbc747-45c1-4368-a2b5-d7b06094ca05",
       "source": "AP Calculus Problems 1.16.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inhomogeneous Linear Equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6055.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6059.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6060.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6055.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6059.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6060.png\"/\u003e",
       "allAnswers": [],
       "tags": "inhomogeneous linear equations, variation of constants, superposition principle ",
       "url": "/text-content/a3f7a874-6de3-45bd-a460-dbbfa718b8ba",
       "source": "Forgotten Text 7 4.38",
-      "topic": "Calculus/Differential Equations/Inhomogeneous Linear Equations"
+      "topic": "Calculus/Other Calculus Topics/Differential Equations/Inhomogeneous Linear Equations"
     },
     {
       "uuid": "81b47a10-f95e-4542-8537-2c762d90db1c",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Second Order Linear Equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6061.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6062.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6064.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6061.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6062.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6064.png\"/\u003e",
       "allAnswers": [],
       "tags": "linearization, differential equations, pendulum equation, simple harmonic oscillation, harmonic oscillator",
       "url": "/text-content/81b47a10-f95e-4542-8537-2c762d90db1c",
       "source": "Forgotten Text 7 4.4",
-      "topic": "Calculus/Differential Equations/Second Order Linear Equations"
+      "topic": "Calculus/Other Calculus Topics/Differential Equations/Second Order Linear Equations"
     },
     {
       "uuid": "34cfc5c5-9ca8-4d6a-9b0c-fae7cb8e8b91",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to vectors",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6068.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6069.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6070.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6068.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6069.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6070.png\"/\u003e",
       "allAnswers": [],
       "tags": "vectors, sum of two vectors, zero vector, length of vector, position vector, parallelogram ",
       "url": "/text-content/34cfc5c5-9ca8-4d6a-9b0c-fae7cb8e8b91",
       "source": "Forgotten Text 7 5.42",
-      "topic": "Calculus/Vectors/Introduction"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Introduction to Vectors"
     },
     {
       "uuid": "c8f9917c-13db-40e4-aea1-b96c9f73320e",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parametric equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6074.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6074.png\"/\u003e",
       "allAnswers": [],
       "tags": "vectors, basis, parametric equations, standard basis vectors ",
       "url": "/text-content/c8f9917c-13db-40e4-aea1-b96c9f73320e",
       "source": "Forgotten Text 7 5.43",
-      "topic": "Calculus/Vectors/Parametric Equations"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Parametric Equations"
     },
     {
       "uuid": "4494495b-5eeb-49ba-8524-7fe2b9c27382",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Dot Product",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6075.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6076.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6077.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6078.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6079.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6080.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6086.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6075.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6076.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6077.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6078.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6079.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6080.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6086.png\"/\u003e",
       "allAnswers": [],
       "tags": "dot product, line through points, intersection of plane, vectors, position vector ",
       "url": "/text-content/4494495b-5eeb-49ba-8524-7fe2b9c27382",
       "source": "Forgotten Text 7 5.45",
-      "topic": "Calculus/Vectors/Dot Product"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Dot Product"
     }
   ],
   "answers": [],

@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2266.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2266.png\"/\u003e",
       "uuid": "aae66ae5-c606-445a-b7b2-fcf3188c53db",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Approximate the interval",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2265.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2265.png\"/\u003e",
       "allAnswers": [],
       "tags": "approximate interval, increasing interval, decreasing interval, graphing calculator ",
       "url": "/practice-problem/aae66ae5-c606-445a-b7b2-fcf3188c53db",
       "source": "null 1.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2268.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2269.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2268.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2269.png\"/\u003e",
       "uuid": "eadf8308-273c-4d92-825f-7057f994def5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the points on the graph of y",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2267.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2267.png\"/\u003e",
       "allAnswers": [],
       "tags": "points on the graph, distance to origin ",
       "url": "/practice-problem/eadf8308-273c-4d92-825f-7057f994def5",
       "source": "null 1.6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2284.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2285.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2286.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2287.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2288.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2284.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2285.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2286.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2287.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2288.png\"/\u003e",
       "uuid": "2a0a3c66-c80d-4891-b216-a95d78ea46b4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Use graph of f to graph functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2283.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2283.png\"/\u003e",
       "allAnswers": [],
       "tags": "graph functions, graphing functions, domain, range, transformations ",
       "url": "/practice-problem/2a0a3c66-c80d-4891-b216-a95d78ea46b4",
       "source": "null 1.7.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2290.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2291.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2292.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2290.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2291.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2292.png\"/\u003e",
       "uuid": "3a70a47b-3646-4a3d-aad3-f99e1de2ef8b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Use it to graph g(x)",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2289.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2289.png\"/\u003e",
       "allAnswers": [],
       "tags": "graphing functions, functions, key points, intercepts, curves ",
       "url": "/practice-problem/3a70a47b-3646-4a3d-aad3-f99e1de2ef8b",
       "source": "null 1.7.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2294.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2295.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2294.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2295.png\"/\u003e",
       "uuid": "8a85e302-e429-462f-a076-49304a75b4a8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find and simplify the formula",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2293.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2293.png\"/\u003e",
       "allAnswers": [],
       "tags": "find formula of function, simplify function, transformations, vertical shift, reflection, horizontal shift, horizontal stretching ",
       "url": "/practice-problem/8a85e302-e429-462f-a076-49304a75b4a8",
       "source": "null 1.7.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2302.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2302.png\"/\u003e",
       "uuid": "8b2bce09-eb8c-4d07-b9ff-d49a73bd11c6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "write equation of line ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2301.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2301.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation of line, line containing points, slope-intercept form ",
       "url": "/practice-problem/8b2bce09-eb8c-4d07-b9ff-d49a73bd11c6",
       "source": "null 2.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2305.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2306.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2305.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2306.png\"/\u003e",
       "uuid": "d3c75219-d533-4dbe-9df7-47cf93bec4cc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph and identify functions ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2304.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2304.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, slope, y-intercept, horizontal line, point-slope form ",
       "url": "/practice-problem/d3c75219-d533-4dbe-9df7-47cf93bec4cc",
       "source": "null 2.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2309.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2310.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2309.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2310.png\"/\u003e",
       "uuid": "b22d468f-1b29-4896-a9fe-b11faeb75e02",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "The cost C in dollars ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2308.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2308.png\"/\u003e",
       "allAnswers": [],
       "tags": "intercept, slope, function, interpret slope ",
       "url": "/practice-problem/b22d468f-1b29-4896-a9fe-b11faeb75e02",
       "source": "null 2.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2312.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2313.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2312.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2313.png\"/\u003e",
       "uuid": "1671cc0d-8e8c-4bf4-9b4e-06f349447375",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Local retailer",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2311.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2311.png\"/\u003e",
       "allAnswers": [],
       "tags": "slope, intercepts, domain, function, linear function, midpoint ",
       "url": "/practice-problem/1671cc0d-8e8c-4bf4-9b4e-06f349447375",
       "source": "null 2.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2317.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2318.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2317.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2318.png\"/\u003e",
       "uuid": "4fa95b5c-4109-4f9b-affb-e32a435a5de9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,7 +165,7 @@
       "viewable": true,
       "karma": 3,
       "title": "The revenue from selling x units",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2316.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2316.png\"/\u003e",
       "allAnswers": [],
       "tags": "simplify expression, intercept, average rate of change, slope  ",
       "url": "/practice-problem/4fa95b5c-4109-4f9b-affb-e32a435a5de9",
@@ -188,7 +188,7 @@
       "tags": "logic, multiple choice",
       "url": "/question/da74361a-0c92-4379-b964-53fec4a36b64",
       "source": "AP Calculus Problems 2.2.4",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "fbb18651-aa8a-4274-85a3-32006493fc1c",
@@ -205,7 +205,7 @@
       "tags": "logic, multiple choice",
       "url": "/question/fbb18651-aa8a-4274-85a3-32006493fc1c",
       "source": "AP Calculus Problems 2.2.5",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "165e693e-7a1c-4e56-a624-94c9cfb40421",
@@ -222,7 +222,7 @@
       "tags": "derivatives, functions",
       "url": "/question/165e693e-7a1c-4e56-a624-94c9cfb40421",
       "source": "AP Calculus Problems 2.3.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "7314839b-7f31-41a0-b01c-b41e267f23ab",
@@ -239,7 +239,7 @@
       "tags": "derivatives, functions",
       "url": "/question/7314839b-7f31-41a0-b01c-b41e267f23ab",
       "source": "AP Calculus Problems 2.3.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "56bb6f88-ac96-4c29-b99a-123209c4c668",
@@ -256,7 +256,7 @@
       "tags": "derivatives, functions",
       "url": "/question/56bb6f88-ac96-4c29-b99a-123209c4c668",
       "source": "AP Calculus Problems 2.3.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "e6d9f2ff-8a8e-4f13-b3da-4502eb251f85",
@@ -273,7 +273,7 @@
       "tags": "derivatives, functions",
       "url": "/question/e6d9f2ff-8a8e-4f13-b3da-4502eb251f85",
       "source": "AP Calculus Problems 2.3.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "4023588b-74d3-4f2b-aab6-fa6fc67ca1a8",
@@ -290,7 +290,7 @@
       "tags": "function, derivative ",
       "url": "/question/4023588b-74d3-4f2b-aab6-fa6fc67ca1a8",
       "source": "AP Calculus Problems 2.3.5",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "59bbee89-07e1-421f-aa80-8c5fee5db731",
@@ -307,7 +307,7 @@
       "tags": "derivatives, functions",
       "url": "/question/59bbee89-07e1-421f-aa80-8c5fee5db731",
       "source": "AP Calculus Problems 2.3.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "04c94b07-92a8-4216-b011-810d7b683263",
@@ -324,7 +324,7 @@
       "tags": "derivatives, functions",
       "url": "/question/04c94b07-92a8-4216-b011-810d7b683263",
       "source": "AP Calculus Problems 2.3.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "3f4be421-eb4b-4cec-af05-bf1ea9991bcf",
@@ -341,7 +341,7 @@
       "tags": "derivatives, functions",
       "url": "/question/3f4be421-eb4b-4cec-af05-bf1ea9991bcf",
       "source": "AP Calculus Problems 2.3.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "10afc86a-9b2b-4bd4-812f-2ea93d6d10c5",
@@ -358,7 +358,7 @@
       "tags": "derivatives, functions",
       "url": "/question/10afc86a-9b2b-4bd4-812f-2ea93d6d10c5",
       "source": "AP Calculus Problems 2.3.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "2ce6eb7d-ff1c-4810-a171-98189393ba27",
@@ -375,7 +375,7 @@
       "tags": "derivatives, functions",
       "url": "/question/2ce6eb7d-ff1c-4810-a171-98189393ba27",
       "source": "AP Calculus Problems 2.3.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "035cf1fe-ecf8-41c3-8bf7-40b300832449",
@@ -392,7 +392,7 @@
       "tags": "derivatives, functions",
       "url": "/question/035cf1fe-ecf8-41c3-8bf7-40b300832449",
       "source": "AP Calculus Problems 2.3.11",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "ea99cfa9-3a6f-4151-8505-42ef854c4bc4",
@@ -409,7 +409,7 @@
       "tags": "derivatives, functions",
       "url": "/question/ea99cfa9-3a6f-4151-8505-42ef854c4bc4",
       "source": "AP Calculus Problems 2.3.12",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "278a8642-62db-4caf-aae5-9a78d9b60f22",
@@ -426,7 +426,7 @@
       "tags": "derivatives, functions",
       "url": "/question/278a8642-62db-4caf-aae5-9a78d9b60f22",
       "source": "AP Calculus Problems 2.3.13",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "1aaeefc0-19c9-4cd1-baad-9021d50aed65",
@@ -443,7 +443,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, rate of change",
       "url": "/question/1aaeefc0-19c9-4cd1-baad-9021d50aed65",
       "source": "AP Calculus Problems 4.2.80",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "032e33c4-237d-437d-bc62-d0715c1dc380",
@@ -460,7 +460,7 @@
       "tags": "derivatives, functions",
       "url": "/question/032e33c4-237d-437d-bc62-d0715c1dc380",
       "source": "AP Calculus Problems 2.3.14",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "c6d6f3ef-6ffd-4f02-814e-a30abfdeeb1c",
@@ -477,7 +477,7 @@
       "tags": "derivatives, functions",
       "url": "/question/c6d6f3ef-6ffd-4f02-814e-a30abfdeeb1c",
       "source": "AP Calculus Problems 2.3.15",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "fb398592-8fc0-44ed-9746-3a59f00b044c",
@@ -494,7 +494,7 @@
       "tags": "derivatives, functions",
       "url": "/question/fb398592-8fc0-44ed-9746-3a59f00b044c",
       "source": "AP Calculus Problems 2.3.16",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "dd7272d7-c8c3-4ada-9413-8d22b075fdc7",
@@ -511,7 +511,7 @@
       "tags": "derivatives, functions",
       "url": "/question/dd7272d7-c8c3-4ada-9413-8d22b075fdc7",
       "source": "AP Calculus Problems 2.3.17",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "f87a2e70-cf83-4f3c-a027-57fc6c5b7304",
@@ -528,7 +528,7 @@
       "tags": "derivatives, functions",
       "url": "/question/f87a2e70-cf83-4f3c-a027-57fc6c5b7304",
       "source": "AP Calculus Problems 2.3.18",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "99711101-7d07-4667-ac67-b8478797f4b7",
@@ -545,7 +545,7 @@
       "tags": "derivatives, functions",
       "url": "/question/99711101-7d07-4667-ac67-b8478797f4b7",
       "source": "AP Calculus Problems 2.3.19",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "7f53a8ef-1d05-4129-bb89-9bbeb2c70009",
@@ -562,7 +562,7 @@
       "tags": "derivatives, functions",
       "url": "/question/7f53a8ef-1d05-4129-bb89-9bbeb2c70009",
       "source": "AP Calculus Problems 2.3.20",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "93ac12c9-2021-403d-a486-208f426de95a",
@@ -579,7 +579,7 @@
       "tags": "derivatives, functions",
       "url": "/question/93ac12c9-2021-403d-a486-208f426de95a",
       "source": "AP Calculus Problems 2.3.21",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "3aa1d737-e1ac-4da6-a912-6af68b5cc8ef",
@@ -596,7 +596,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, rate of growth, rate of change",
       "url": "/question/3aa1d737-e1ac-4da6-a912-6af68b5cc8ef",
       "source": "AP Calculus Problems 4.2.81",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "6c191dfb-d10c-41c0-ad2a-10405ea8606b",
@@ -613,7 +613,7 @@
       "tags": "derivatives, functions",
       "url": "/question/6c191dfb-d10c-41c0-ad2a-10405ea8606b",
       "source": "AP Calculus Problems 2.3.22",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "182f39a5-4e0c-4e34-a25b-ae50c66b4af9",
@@ -630,7 +630,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/182f39a5-4e0c-4e34-a25b-ae50c66b4af9",
       "source": "AP Calculus Problems 4.2.82",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b768e512-b7b3-420f-bad0-6e55add8b38f",
@@ -647,7 +647,7 @@
       "tags": "derivatives, functions",
       "url": "/question/b768e512-b7b3-420f-bad0-6e55add8b38f",
       "source": "AP Calculus Problems 2.3.23",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "5844702d-a7bb-46fd-a65f-4f7e76ff72d8",
@@ -664,7 +664,7 @@
       "tags": "derivatives, functions",
       "url": "/question/5844702d-a7bb-46fd-a65f-4f7e76ff72d8",
       "source": "AP Calculus Problems 2.3.24",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "10685bca-4c3b-439c-994e-b36b4971391f",
@@ -681,7 +681,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/10685bca-4c3b-439c-994e-b36b4971391f",
       "source": "AP Calculus Problems 4.2.83",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ef1c105f-36c3-4820-a54b-2825c6571c4d",
@@ -698,7 +698,7 @@
       "tags": "derivatives, functions",
       "url": "/question/ef1c105f-36c3-4820-a54b-2825c6571c4d",
       "source": "AP Calculus Problems 2.3.25",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "08ae02e0-82e0-4916-a056-1518be0a2bd3",
@@ -715,7 +715,7 @@
       "tags": "tangent line, curves, equations",
       "url": "/question/08ae02e0-82e0-4916-a056-1518be0a2bd3",
       "source": "AP Calculus Problems 2.4.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "0c1020f2-618f-4d76-971b-68b2f3299f64",
@@ -732,7 +732,7 @@
       "tags": "tangent line, curves, equation",
       "url": "/question/0c1020f2-618f-4d76-971b-68b2f3299f64",
       "source": "AP Calculus Problems 2.4.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "8e37c826-754b-4175-b79b-da02d75c24a5",
@@ -749,7 +749,7 @@
       "tags": "tangent line, curve, equation ",
       "url": "/question/8e37c826-754b-4175-b79b-da02d75c24a5",
       "source": "AP Calculus Problems 2.4.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "c0981df6-370b-466b-aad2-cbca578cc3c6",
@@ -766,7 +766,7 @@
       "tags": "tangent line, curve, equation",
       "url": "/question/c0981df6-370b-466b-aad2-cbca578cc3c6",
       "source": "AP Calculus Problems 2.4.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "365995d2-7afd-4a9b-bc71-4138e8a2d48e",
@@ -783,7 +783,7 @@
       "tags": "tangent line, curve, equation",
       "url": "/question/365995d2-7afd-4a9b-bc71-4138e8a2d48e",
       "source": "AP Calculus Problems 2.4.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "6cd2cdd2-63f2-4e01-9d39-ef5166e1c790",
@@ -800,7 +800,7 @@
       "tags": "tangent line, horizontal tangent, graph",
       "url": "/question/6cd2cdd2-63f2-4e01-9d39-ef5166e1c790",
       "source": "AP Calculus Problems 2.4.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     }
   ],
   "textContent": [
@@ -814,7 +814,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Function Notation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2229.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2231.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2232.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2238.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2229.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2231.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2232.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2238.png\"/\u003e",
       "allAnswers": [],
       "tags": "inputs, outputs, function notation, f of x, independent variable, argument of f, dependent variable, implied domain, applied domain ",
       "url": "/text-content/c004e48f-a1ea-4555-9c64-204f99fbbd13",
@@ -831,7 +831,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Function Arithmetic",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2243.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2244.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2248.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2243.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2244.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2248.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, arithmetic of functions, difference quotient  ",
       "url": "/text-content/4f987841-1f1b-4a86-999a-d5335ff7a8ca",

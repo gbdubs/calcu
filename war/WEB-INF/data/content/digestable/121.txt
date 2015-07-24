@@ -17,7 +17,7 @@
       "tags": "l\u0027hopital\u0027s rule, l\u0027H",
       "url": "/practice-problem/a12c1c1b-e625-48ab-b09d-ab2600e50655",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L’Hopital’s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "authorSolution": " \\(10\\) ",
@@ -35,7 +35,7 @@
       "tags": "l\u0027hopital\u0027s rule, l\u0027H",
       "url": "/practice-problem/363f4b1f-5090-4799-b4c7-ef94fc27f8b6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L’Hopital’s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "authorSolution": " \\(-1\\) ",
@@ -53,7 +53,7 @@
       "tags": "l\u0027hopital\u0027s rule, l\u0027H",
       "url": "/practice-problem/35ecb6a2-77ac-494c-b7c8-9515b0e90dd3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L’Hopital’s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "authorSolution": " \\(-\\infty\\) ,  \\(-2\\) ,  \\(-\\dfrac23\\) ,  \\(4\\) ",
@@ -198,7 +198,7 @@
       "tags": "radius, circles, area, arcs",
       "url": "/question/3a4821dd-6185-464a-be14-631ee32073f7",
       "source": "Trigonometry by Micheal Corral 4.3.2",
-      "topic": "Pre-Calculus/Trigonometry/Lines Line Segments Chords/Chords"
+      "topic": "Geometry/Circle Geometry/Chords"
     },
     {
       "uuid": "e28c26f7-f334-4993-a429-6a604c197dba",
@@ -215,7 +215,7 @@
       "tags": "area, radius, radians, circles, arcs",
       "url": "/question/e28c26f7-f334-4993-a429-6a604c197dba",
       "source": "Trigonometry by Micheal Corral 4.3.3",
-      "topic": "Pre-Calculus/Trigonometry/Area and Perimeter"
+      "topic": "Geometry/Area and Perimeter"
     },
     {
       "uuid": "80362c55-ab68-433e-ab2b-bc3e62cfb18f",
@@ -232,7 +232,7 @@
       "tags": "sector, area, arc length, radius",
       "url": "/question/80362c55-ab68-433e-ab2b-bc3e62cfb18f",
       "source": "Trigonometry by Micheal Corral 4.3.4",
-      "topic": "Pre-Calculus/Trigonometry/Arc"
+      "topic": "Geometry/Circle Geometry/Arcs"
     },
     {
       "uuid": "4234ab4b-f1f6-45ea-857b-5a6745894611",
@@ -249,7 +249,7 @@
       "tags": "area, segment, chord, circle, radius",
       "url": "/question/4234ab4b-f1f6-45ea-857b-5a6745894611",
       "source": "Trigonometry by Micheal Corral 4.3.5",
-      "topic": "Pre-Calculus/Trigonometry/Arc"
+      "topic": "Geometry/Circle Geometry/Arcs"
     },
     {
       "uuid": "3c6ef400-8936-4a44-9225-e89094af64c8",
@@ -261,12 +261,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the Area of the Shaded Region",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10141.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10141.png\"/\u003e",
       "allAnswers": [],
       "tags": "area, triangles, circles, chords",
       "url": "/question/3c6ef400-8936-4a44-9225-e89094af64c8",
       "source": "Trigonometry by Micheal Corral 4.3.6",
-      "topic": "Pre-Calculus/Trigonometry/Arc"
+      "topic": "Geometry/Circle Geometry/Arcs"
     },
     {
       "uuid": "1c4b7a3b-46a2-454a-b0cd-8ceb1395b769",
@@ -278,12 +278,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the Area of the Shaded Region",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10142.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10142.png\"/\u003e",
       "allAnswers": [],
       "tags": "circle, chord, triangle, area",
       "url": "/question/1c4b7a3b-46a2-454a-b0cd-8ceb1395b769",
       "source": "Trigonometry by Micheal Corral 4.3.7",
-      "topic": "Pre-Calculus/Trigonometry/Arc"
+      "topic": "Geometry/Circle Geometry/Arcs"
     },
     {
       "uuid": "a88c681c-ecd8-4bc4-91e6-dc35e170823d",
@@ -295,12 +295,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the Area of the Shaded Region",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10143.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10143.png\"/\u003e",
       "allAnswers": [],
       "tags": "area, chord, circle, triangle, arc",
       "url": "/question/a88c681c-ecd8-4bc4-91e6-dc35e170823d",
       "source": "Trigonometry by Micheal Corral 4.3.8",
-      "topic": "Pre-Calculus/Trigonometry/Lines Line Segments Chords/Chords"
+      "topic": "Geometry/Circle Geometry/Chords"
     },
     {
       "uuid": "1b770b32-03e9-43f9-b0a9-1501f88a167b",
@@ -317,7 +317,7 @@
       "tags": "circles, radius, intersection, area",
       "url": "/question/1b770b32-03e9-43f9-b0a9-1501f88a167b",
       "source": "Trigonometry by Micheal Corral 4.3.9",
-      "topic": "Pre-Calculus/Trigonometry/Lines Line Segments Chords/Chords"
+      "topic": "Geometry/Circle Geometry/Chords"
     },
     {
       "uuid": "31739d1b-37e3-4206-81a8-65dca79b8bde",
@@ -334,7 +334,7 @@
       "tags": "angular speed, linear speed, theta, radians, trig",
       "url": "/question/31739d1b-37e3-4206-81a8-65dca79b8bde",
       "source": "Trigonometry by Micheal Corral 4.4.1",
-      "topic": "Pre-Calculus/Trigonometry/Lines Line Segments Chords/Chords"
+      "topic": "Geometry/Circle Geometry/Chords"
     },
     {
       "uuid": "6e6e3425-b83d-43f4-a8a2-52ad6087a601",
@@ -351,7 +351,7 @@
       "tags": "central angle, linear speed, circle, trig ",
       "url": "/question/6e6e3425-b83d-43f4-a8a2-52ad6087a601",
       "source": "Trigonometry by Micheal Corral 4.4.2",
-      "topic": "Pre-Calculus/Trigonometry/Lines Line Segments Chords/Chords"
+      "topic": "Geometry/Circle Geometry/Chords"
     },
     {
       "uuid": "60eb203b-8f4f-42bd-bcef-6b9056227a09",
@@ -368,7 +368,7 @@
       "tags": "Rotations, angular speed, linear speed, trig ",
       "url": "/question/60eb203b-8f4f-42bd-bcef-6b9056227a09",
       "source": "Trigonometry by Micheal Corral 4.4.3",
-      "topic": "Pre-Calculus/Trigonometry/Area and Perimeter"
+      "topic": "Geometry/Area and Perimeter"
     },
     {
       "uuid": "65e010ca-83ef-4c95-bad3-2709dc6c224f",
@@ -385,7 +385,7 @@
       "tags": "rotation speed, angular speed, linear speed ",
       "url": "/question/65e010ca-83ef-4c95-bad3-2709dc6c224f",
       "source": "Trigonometry by Micheal Corral 4.4.4",
-      "topic": "Pre-Calculus/Trigonometry/Linear and Angular Speeds"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion/Linear and Angular Speeds"
     },
     {
       "uuid": "1b6a5193-7730-44b5-9d85-4e01b939ef00",
@@ -402,7 +402,7 @@
       "tags": "linear speed, angular speed, rotation, trig ",
       "url": "/question/1b6a5193-7730-44b5-9d85-4e01b939ef00",
       "source": "Trigonometry by Micheal Corral 4.4.5",
-      "topic": "Pre-Calculus/Trigonometry/Linear and Angular Speeds"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion/Linear and Angular Speeds"
     },
     {
       "uuid": "204990e3-37c2-4d6f-87eb-a09d156bc480",
@@ -419,7 +419,7 @@
       "tags": "angular speed, centripetal acceleration, alpha, trig ",
       "url": "/question/204990e3-37c2-4d6f-87eb-a09d156bc480",
       "source": "Trigonometry by Micheal Corral 4.4.6",
-      "topic": "Pre-Calculus/Trigonometry/Linear and Angular Speeds"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion/Linear and Angular Speeds"
     },
     {
       "uuid": "ced49c65-c4af-490b-a9ea-474c2941f767",
@@ -436,7 +436,7 @@
       "tags": "graph, trigonometric functions, graphing trigonometric functions, cos, sin",
       "url": "/question/ced49c65-c4af-490b-a9ea-474c2941f767",
       "source": "Trigonometry by Micheal Corral 5.1.1",
-      "topic": "Pre-Calculus/Trigonometry/Linear and Angular Speeds"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion/Linear and Angular Speeds"
     },
     {
       "uuid": "f7142435-4ef8-45f9-8cce-f8d91d175116",
@@ -453,7 +453,7 @@
       "tags": "trigonometric functions, multi-problem, functions, tan, cot, sec, graph, csc",
       "url": "/question/f7142435-4ef8-45f9-8cce-f8d91d175116",
       "source": "Trigonometry by Micheal Corral 5.1.2",
-      "topic": "Pre-Calculus/Trigonometry/Linear and Angular Speeds"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion/Linear and Angular Speeds"
     },
     {
       "uuid": "ac3b5604-04f0-4af4-b33f-30e6ab51e518",
@@ -470,7 +470,7 @@
       "tags": "graph, trigonometric function, multi-problem, graphing trigonometric functions, sin, cos, tan, sec",
       "url": "/question/ac3b5604-04f0-4af4-b33f-30e6ab51e518",
       "source": "Trigonometry by Micheal Corral 5.1.3",
-      "topic": "Pre-Calculus/Trigonometry/Linear and Angular Speeds"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Circular Motion/Linear and Angular Speeds"
     },
     {
       "uuid": "a57ac0c1-73ac-4e7b-a85a-491591944891",
@@ -487,7 +487,7 @@
       "tags": "trigonometric functions, six trigonometric functions, acute angle, unit circle, sine, cosine",
       "url": "/question/a57ac0c1-73ac-4e7b-a85a-491591944891",
       "source": "Trigonometry by Micheal Corral 5.1.4",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "8ce69c8b-c00d-4058-a111-405b1380269e",
@@ -499,12 +499,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphing the Trigonometric Functions",
-      "body": "For Exercise 13, how would you draw the line segments in the picture if \\(\\theta\\) was in QII? Recall that some of the trigonometric functions are negative in QII, so you will have to come up with a convention for how to treat some of the line segment lengths as negative \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20165.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20166.png\"/\u003e",
+      "body": "For Exercise 13, how would you draw the line segments in the picture if \\(\\theta\\) was in QII? Recall that some of the trigonometric functions are negative in QII, so you will have to come up with a convention for how to treat some of the line segment lengths as negative \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20165.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20166.png\"/\u003e",
       "allAnswers": [],
       "tags": "line segments, quadrants, graphing, trigonometric functions, unit circle",
       "url": "/question/8ce69c8b-c00d-4058-a111-405b1380269e",
       "source": "Trigonometry by Micheal Corral 5.1.5",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "aa2c9b89-1c8d-4cd2-8395-65427959be9f",
@@ -521,7 +521,7 @@
       "tags": "unit circle, angle, geometric interpretation, point, trigonometric function",
       "url": "/question/aa2c9b89-1c8d-4cd2-8395-65427959be9f",
       "source": "Trigonometry by Micheal Corral 5.1.6",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "27838c71-d095-49e2-9041-0c1eb18dfda9",
@@ -538,7 +538,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph, graphing cycle",
       "url": "/question/27838c71-d095-49e2-9041-0c1eb18dfda9",
       "source": "Trigonometry by Micheal Corral 5.2.1",
-      "topic": "Pre-Calculus/Trigonometry/Six Trigonometric Functions"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "e0d7dd8b-c65b-47ee-bf4f-eb2827850556",
@@ -555,7 +555,7 @@
       "tags": "amplitude, period, phase shift, graph, trigonometric function",
       "url": "/question/e0d7dd8b-c65b-47ee-bf4f-eb2827850556",
       "source": "Trigonometry by Micheal Corral 5.2.10",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "69acdcaa-15aa-47e0-9699-e830ebe95c4e",
@@ -572,7 +572,7 @@
       "tags": "amplitude, period, phase shift, graph, trigonometric function",
       "url": "/question/69acdcaa-15aa-47e0-9699-e830ebe95c4e",
       "source": "Trigonometry by Micheal Corral 5.2.11",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle"
     },
     {
       "uuid": "565957a1-e934-4dad-8457-fb2b4b051b83",
@@ -589,7 +589,7 @@
       "tags": "amplitude, period, phase shift, graph, trigonometric function",
       "url": "/question/565957a1-e934-4dad-8457-fb2b4b051b83",
       "source": "Trigonometry by Micheal Corral 5.2.12",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "32452904-36ed-40ae-8ade-284ecc8b5999",
@@ -606,7 +606,7 @@
       "tags": "trigonometric function, function, sine, maximum value, minimum value",
       "url": "/question/32452904-36ed-40ae-8ade-284ecc8b5999",
       "source": "Trigonometry by Micheal Corral 5.2.13",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "afa501d3-8b53-4d9d-a09a-1d0d4af236c7",
@@ -623,7 +623,7 @@
       "tags": "sine, cosine, trigonometric function, function, maximum value, minimum value",
       "url": "/question/afa501d3-8b53-4d9d-a09a-1d0d4af236c7",
       "source": "Trigonometry by Micheal Corral 5.2.14",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "28842979-c5d1-4eb5-bcaa-2e8df9b834a5",
@@ -640,7 +640,7 @@
       "tags": "graphing trig function, graph, function, trigonometric function, amplitude, period ",
       "url": "/question/28842979-c5d1-4eb5-bcaa-2e8df9b834a5",
       "source": "Trigonometry by Micheal Corral 5.2.15",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "0dd5ad2a-6348-42cf-bcbc-96012648f57d",
@@ -657,7 +657,7 @@
       "tags": "trigonometric function, function, graph, graphing cycle, graphing function",
       "url": "/question/0dd5ad2a-6348-42cf-bcbc-96012648f57d",
       "source": "Trigonometry by Micheal Corral 5.2.16",
-      "topic": "Pre-Calculus/Trigonometry/Maximum and Minimum values"
+      "topic": "Trigonometry/Trigonometric Equations/Maximum and Minimum values"
     },
     {
       "uuid": "5af0495b-a5f4-418b-8555-06b17a69bd26",
@@ -674,7 +674,7 @@
       "tags": "trigonometric function, function, graphing trig function, graph",
       "url": "/question/5af0495b-a5f4-418b-8555-06b17a69bd26",
       "source": "Trigonometry by Micheal Corral 5.2.17",
-      "topic": "Pre-Calculus/Trigonometry/Maximum and Minimum values"
+      "topic": "Trigonometry/Trigonometric Equations/Maximum and Minimum values"
     },
     {
       "uuid": "48984f46-18ca-4678-8d37-9bca106faed4",
@@ -691,7 +691,7 @@
       "tags": "trigonometric function, function, graph, graphing trig function",
       "url": "/question/48984f46-18ca-4678-8d37-9bca106faed4",
       "source": "Trigonometry by Micheal Corral 5.2.18",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "19997d3d-38c8-4676-8918-cfcefabcf07e",
@@ -708,7 +708,7 @@
       "tags": "amplitude, period, trigonometric function, graph trig function",
       "url": "/question/19997d3d-38c8-4676-8918-cfcefabcf07e",
       "source": "Trigonometry by Micheal Corral 5.2.19",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "addbe333-2378-4543-bfe2-6f9871763601",
@@ -725,7 +725,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph",
       "url": "/question/addbe333-2378-4543-bfe2-6f9871763601",
       "source": "Trigonometry by Micheal Corral 5.2.2",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "81da183d-a507-4ad9-a4d2-393ffd946adc",
@@ -742,7 +742,7 @@
       "tags": "trigonometric function, function, amplitude, period, graphing trig functions",
       "url": "/question/81da183d-a507-4ad9-a4d2-393ffd946adc",
       "source": "Trigonometry by Micheal Corral 5.2.20",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "a134b716-3222-41d1-a3f0-75bca833e7b1",
@@ -759,7 +759,7 @@
       "tags": "trigonometric function, function, graphing trig function, amplitude, period",
       "url": "/question/a134b716-3222-41d1-a3f0-75bca833e7b1",
       "source": "Trigonometry by Micheal Corral 5.2.21",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "59b90423-3caf-4b2d-99c5-f2010ddd4460",
@@ -776,7 +776,7 @@
       "tags": "amplitude, trigonometric function, function, sine, cosine",
       "url": "/question/59b90423-3caf-4b2d-99c5-f2010ddd4460",
       "source": "Trigonometry by Micheal Corral 5.2.22",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "94710e8d-4ed2-460e-b37c-0cf2633af6b8",
@@ -793,7 +793,7 @@
       "tags": "trigonometric function, function, period, graphing trig function, cycle",
       "url": "/question/94710e8d-4ed2-460e-b37c-0cf2633af6b8",
       "source": "Trigonometry by Micheal Corral 5.2.23",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "b58374aa-71d6-4606-8556-38fb0d5169fd",
@@ -810,7 +810,7 @@
       "tags": "trigonometric function, function, period, graphing cycle, cycle",
       "url": "/question/b58374aa-71d6-4606-8556-38fb0d5169fd",
       "source": "Trigonometry by Micheal Corral 5.2.24",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     }
   ],
   "textContent": [
@@ -824,12 +824,12 @@
       "viewable": true,
       "karma": 3,
       "title": "L\u0027Hopital\u0027s Rule",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4535.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4536.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4537.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4545.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4535.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4536.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4537.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4545.png\"/\u003e",
       "allAnswers": [],
       "tags": "L\u0027Hopitals Rule, derivatives, chain rule, product rule, sum rule",
       "url": "/text-content/ffae7c78-8d2a-4a43-aec0-a6df8e7e6ed8",
       "source": "Forgotten Text 3 8.1",
-      "topic": "Calculus/Applications of Differentiation/L\u0027Hopital\u0027s Rule"
+      "topic": "Calculus/Derivative Calculus/Applications of Differentiation/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "cd36c4e7-9703-494f-98fa-59dce0a75d0f",
@@ -841,12 +841,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Derivative as a Rate",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4548.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4549.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4554.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4548.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4549.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4554.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivative, derivative of rate, product rule, sum rule, chain rule ",
       "url": "/text-content/cd36c4e7-9703-494f-98fa-59dce0a75d0f",
       "source": "Forgotten Text 3 8.2",
-      "topic": "Calculus/Applications of Differentiation/Derivative as a Rate"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Derivative as a Rate"
     }
   ],
   "answers": [],

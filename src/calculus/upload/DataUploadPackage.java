@@ -209,7 +209,25 @@ public class DataUploadPackage {
 		stateFileOne.addAll(stateFileSeven);
 		
 		writeStringToFile(stateFileOne, "war/WEB-INF/data/content/all.txt");
+	}
+	
+	public static void mergeAllEditedMainFiles(){
+		DataUploadPackage stateFileOne = getFileContents("war/WEB-INF/data/content/state-file-1-edited-edited-edited-edited.txt");
+		DataUploadPackage stateFileTwo = getFileContents("war/WEB-INF/data/content/state-file-2-edited-edited-edited-edited.txt");
+		DataUploadPackage stateFileThree = getFileContents("war/WEB-INF/data/content/state-file-3-edited-edited-edited-edited.txt");
+		DataUploadPackage stateFileFour = getFileContents("war/WEB-INF/data/content/state-file-4-edited-edited-edited-edited.txt");
+		DataUploadPackage stateFileFive = getFileContents("war/WEB-INF/data/content/state-file-5-edited-edited-edited-edited.txt");
+		DataUploadPackage stateFileSix = getFileContents("war/WEB-INF/data/content/state-file-6-edited-edited-edited-edited.txt");
+		DataUploadPackage stateFileSeven = getFileContents("war/WEB-INF/data/content/state-file-7-edited-edited-edited-edited.txt");
 		
+		stateFileOne.addAll(stateFileTwo);
+		stateFileOne.addAll(stateFileThree);
+		stateFileOne.addAll(stateFileFour);
+		stateFileOne.addAll(stateFileFive);
+		stateFileOne.addAll(stateFileSix);
+		stateFileOne.addAll(stateFileSeven);
+		
+		writeStringToFile(stateFileOne, "war/WEB-INF/data/content/all-edited-edited-edited-edited.txt");
 	}
 
 	public static void splitAllMainFiles(){

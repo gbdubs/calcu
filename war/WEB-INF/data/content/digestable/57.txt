@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/52.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/52.png\"/\u003e",
       "uuid": "37733439-6edb-4ff7-96d4-d3126a4fc751",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Midpoint of line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/51.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/51.png\"/\u003e",
       "allAnswers": [],
       "tags": "midpoint of line, line midpoint",
       "url": "/practice-problem/37733439-6edb-4ff7-96d4-d3126a4fc751",
       "source": "null 8.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/54.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/54.png\"/\u003e",
       "uuid": "5e06c9ba-762e-4ffe-bfc8-cfa349b76d02",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/53.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/53.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation of line, line equation, vertices",
       "url": "/practice-problem/5e06c9ba-762e-4ffe-bfc8-cfa349b76d02",
       "source": "null 8.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/60.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/60.png\"/\u003e",
       "uuid": "d8667ef9-55ed-4bef-b632-150d9531c4ee",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Vertices of Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/59.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/59.png\"/\u003e",
       "allAnswers": [],
       "tags": "vertices, triangle ",
       "url": "/practice-problem/d8667ef9-55ed-4bef-b632-150d9531c4ee",
       "source": "null 8.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/64.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/64.png\"/\u003e",
       "uuid": "306193a1-d4c9-4c04-932f-f25f9d1cacb2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Coordinate proof ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/63.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/63.png\"/\u003e",
       "allAnswers": [],
       "tags": "coordinate proof, vertices, triangle coordinate proof ",
       "url": "/practice-problem/306193a1-d4c9-4c04-932f-f25f9d1cacb2",
       "source": "null 8.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/70.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/70.png\"/\u003e",
       "uuid": "3dd2100d-6fb4-4dc6-adc9-94f6212d6017",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,7 +80,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Orthocenter of Triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/69.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/69.png\"/\u003e",
       "allAnswers": [],
       "tags": "orthocenter of triangle, coordinates of orthocenter ",
       "url": "/practice-problem/3dd2100d-6fb4-4dc6-adc9-94f6212d6017",
@@ -155,7 +155,7 @@
       "source": "null 7.5.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/78.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/79.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/78.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/79.png\"/\u003e",
       "uuid": "28d6152a-e135-4470-843f-0428383c9376",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Angles ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/76.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/77.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/76.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/77.png\"/\u003e",
       "allAnswers": [],
       "tags": "angles ",
       "url": "/practice-problem/28d6152a-e135-4470-843f-0428383c9376",
       "source": "null 9.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/82.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/83.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/82.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/83.png\"/\u003e",
       "uuid": "516f6a0f-89e1-4f78-8b30-0838afc95c14",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Bisection ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/80.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/81.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/80.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/81.png\"/\u003e",
       "allAnswers": [],
       "tags": "angles ",
       "url": "/practice-problem/516f6a0f-89e1-4f78-8b30-0838afc95c14",
       "source": "null 9.1.3 "
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/91.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/92.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/91.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/92.png\"/\u003e",
       "uuid": "982965cc-e2ba-4f1f-8f43-ccca4d70e2cf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Quadrilateral ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/89.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/90.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/89.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/90.png\"/\u003e",
       "allAnswers": [],
       "tags": "quadrilateral properties ",
       "url": "/practice-problem/982965cc-e2ba-4f1f-8f43-ccca4d70e2cf",
       "source": "null 9.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/97.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/97.png\"/\u003e",
       "uuid": "bf120f36-ed1f-4eca-9418-80aca8369b59",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallel line equation ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/96.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/96.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines ",
       "url": "/practice-problem/bf120f36-ed1f-4eca-9418-80aca8369b59",
       "source": "null 9.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/103.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/103.png\"/\u003e",
       "uuid": "3d189178-33a0-4a05-af80-d9b5aa23fe6d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Angles to show right triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/101.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/101.png\"/\u003e",
       "allAnswers": [],
       "tags": "angles, right triangles ",
       "url": "/practice-problem/3d189178-33a0-4a05-af80-d9b5aa23fe6d",
       "source": "null 9.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/106.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/106.png\"/\u003e",
       "uuid": "cacba07a-51e0-4179-91a4-e477235ffea1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove parallel lines ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/105.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/105.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines ",
       "url": "/practice-problem/cacba07a-51e0-4179-91a4-e477235ffea1",
       "source": "null 9.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/111.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/112.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/111.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/112.png\"/\u003e",
       "uuid": "3fbaeaf1-f1d8-4879-9fb5-92364d5085a4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove triangle congruency ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/110.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/110.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruency ",
       "url": "/practice-problem/3fbaeaf1-f1d8-4879-9fb5-92364d5085a4",
       "source": "null 9.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/114.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/114.png\"/\u003e",
       "uuid": "b587ea52-4326-45f3-bee2-e5a9810baef7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Angles and sides to show congruency",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/113.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/113.png\"/\u003e",
       "allAnswers": [],
       "tags": "congruency, angles, sides ",
       "url": "/practice-problem/b587ea52-4326-45f3-bee2-e5a9810baef7",
       "source": "null 9.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/119.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/119.png\"/\u003e",
       "uuid": "ddd3821b-d132-4977-9d7f-5f923c097ab1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Describe Triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/118.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/118.png\"/\u003e",
       "allAnswers": [],
       "tags": "acute, triangle, scalene, isosceles",
       "url": "/practice-problem/ddd3821b-d132-4977-9d7f-5f923c097ab1",
       "source": "null 9.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/121.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/121.png\"/\u003e",
       "uuid": "51e9e1d8-2333-4294-a3aa-6a42eb419f2c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove equilateral ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/120.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/120.png\"/\u003e",
       "allAnswers": [],
       "tags": "bisection, quadrilateral",
       "url": "/practice-problem/51e9e1d8-2333-4294-a3aa-6a42eb419f2c",
       "source": "null 9.6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/132.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/132.png\"/\u003e",
       "uuid": "09730893-0086-4c43-90c7-b33f4963bec0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find interior and exterior angle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/130.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/130.png\"/\u003e",
       "allAnswers": [],
       "tags": "interior angle, exterior angle ",
       "url": "/practice-problem/09730893-0086-4c43-90c7-b33f4963bec0",
       "source": "null 9.8.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/145.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/145.png\"/\u003e",
       "uuid": "af9b44bd-4e34-49ed-b814-939b7d4626a1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of diagonals ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/144.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/144.png\"/\u003e",
       "allAnswers": [],
       "tags": "diagonals, lengths of diagonals ",
       "url": "/practice-problem/af9b44bd-4e34-49ed-b814-939b7d4626a1",
@@ -375,7 +375,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/e5240d21-c860-416c-b1bc-1a5820bd252f",
       "source": "Math 222 1.4.6",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "754e5237-6df2-4208-a153-bddeaee13b20",
@@ -392,7 +392,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/754e5237-6df2-4208-a153-bddeaee13b20",
       "source": "Math 222 1.4.7",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "612bcfef-1959-4f12-9536-a32fe1b06d61",
@@ -409,7 +409,7 @@
       "tags": "word problem, differential equations",
       "url": "/question/612bcfef-1959-4f12-9536-a32fe1b06d61",
       "source": "Math 222 4.1.60",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "d20ce5c4-241c-44c8-86a7-34b84a3b3ff9",
@@ -426,7 +426,7 @@
       "tags": "differential equation, word problem",
       "url": "/question/d20ce5c4-241c-44c8-86a7-34b84a3b3ff9",
       "source": "Math 222 4.1.61",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "8d8532f4-cc50-4627-9e45-b54e84c4f45d",
@@ -443,7 +443,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series",
       "url": "/question/8d8532f4-cc50-4627-9e45-b54e84c4f45d",
       "source": "Math 222 2.1.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9aab6c85-f549-4a5d-b028-32e405bad270",
@@ -460,7 +460,7 @@
       "tags": "differential equation, word problem",
       "url": "/question/9aab6c85-f549-4a5d-b028-32e405bad270",
       "source": "Math 222 4.1.62",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "4b045185-dc50-467c-9376-6203744e6b7a",
@@ -477,7 +477,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/4b045185-dc50-467c-9376-6203744e6b7a",
       "source": "Math 222 2.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "d8228857-3c3d-43d8-9ed6-e462166d9c36",
@@ -494,7 +494,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/d8228857-3c3d-43d8-9ed6-e462166d9c36",
       "source": "Math 222 2.1.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "2a742e63-1b40-4582-b1b7-84d1f3ec9cd7",
@@ -511,7 +511,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/2a742e63-1b40-4582-b1b7-84d1f3ec9cd7",
       "source": "Math 222 2.1.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9d4cff1b-3422-476e-a91b-ae50399af2aa",
@@ -528,7 +528,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/9d4cff1b-3422-476e-a91b-ae50399af2aa",
       "source": "Math 222 2.1.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5e8e5bf1-e52f-43c9-84e1-59e34ff68886",
@@ -545,7 +545,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/5e8e5bf1-e52f-43c9-84e1-59e34ff68886",
       "source": "Math 222 2.1.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "12b6b156-282f-4aa9-860d-e5ee9bc12d7a",
@@ -562,7 +562,7 @@
       "tags": "word problem, differential equation, limits, approaching infinity",
       "url": "/question/12b6b156-282f-4aa9-860d-e5ee9bc12d7a",
       "source": "Math 222 4.1.63",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "90987c61-28e2-48ee-aab9-1630d3f2a325",
@@ -579,7 +579,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/90987c61-28e2-48ee-aab9-1630d3f2a325",
       "source": "Math 222 2.1.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ac73250d-b99d-4b91-9aee-1bc80b086122",
@@ -596,7 +596,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/ac73250d-b99d-4b91-9aee-1bc80b086122",
       "source": "Math 222 2.1.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "57375a3e-7b7c-4671-86af-d2bd0fe4cd10",
@@ -613,7 +613,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/57375a3e-7b7c-4671-86af-d2bd0fe4cd10",
       "source": "Math 222 2.1.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "68908164-587f-496c-84f8-a8eac5d648b0",
@@ -630,7 +630,7 @@
       "tags": "differential equation, word problems",
       "url": "/question/68908164-587f-496c-84f8-a8eac5d648b0",
       "source": "Math 222 4.1.64",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "d655797f-a72b-4b39-8f3e-304fa9df6ed6",
@@ -647,7 +647,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/d655797f-a72b-4b39-8f3e-304fa9df6ed6",
       "source": "Math 222 2.1.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "51334d33-bde9-463a-a3d5-313a30325c2e",
@@ -664,7 +664,7 @@
       "tags": "word problem, differential equation",
       "url": "/question/51334d33-bde9-463a-a3d5-313a30325c2e",
       "source": "Math 222 4.1.65",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "ca9d514f-c67d-4581-acab-adb17a78657e",
@@ -681,7 +681,7 @@
       "tags": "word problem, differentiation equation, velocity",
       "url": "/question/ca9d514f-c67d-4581-acab-adb17a78657e",
       "source": "Math 222 4.1.66",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "f4a6945c-ee44-430a-a51b-49afce087803",
@@ -698,7 +698,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/f4a6945c-ee44-430a-a51b-49afce087803",
       "source": "Math 222 2.1.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "81503b4a-bd0a-4a88-bdb0-66ab3fd372b0",
@@ -715,7 +715,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/81503b4a-bd0a-4a88-bdb0-66ab3fd372b0",
       "source": "Math 222 2.1.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "11c56c9b-4b60-4564-b335-6bd6f075c150",
@@ -732,7 +732,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/11c56c9b-4b60-4564-b335-6bd6f075c150",
       "source": "Math 222 2.1.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "fdfd4aae-d7ce-4ea6-8d4f-9caf448c6d67",
@@ -749,7 +749,7 @@
       "tags": "differential equation, word problem, displacement",
       "url": "/question/fdfd4aae-d7ce-4ea6-8d4f-9caf448c6d67",
       "source": "Math 222 4.1.67",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "72f982db-cf32-4b81-b2aa-ce9e894ad632",
@@ -766,7 +766,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/72f982db-cf32-4b81-b2aa-ce9e894ad632",
       "source": "Math 222 2.1.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ec8e0d89-a004-4c86-b3fc-3d538e6467e7",
@@ -783,7 +783,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/ec8e0d89-a004-4c86-b3fc-3d538e6467e7",
       "source": "Math 222 2.1.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "67c93ef8-55c7-4763-a15f-2bdc1947bd0d",
@@ -800,7 +800,7 @@
       "tags": "differential equations, word problem",
       "url": "/question/67c93ef8-55c7-4763-a15f-2bdc1947bd0d",
       "source": "Math 222 4.1.68",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "cea9d22f-d384-476d-846f-769479226562",
@@ -817,7 +817,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/cea9d22f-d384-476d-846f-769479226562",
       "source": "Math 222 2.1.16",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "32bee27d-005d-4d60-b0fa-98e4db5e81fe",
@@ -834,7 +834,7 @@
       "tags": "word problem, differential equations",
       "url": "/question/32bee27d-005d-4d60-b0fa-98e4db5e81fe",
       "source": "Math 222 4.1.69",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "f2a530da-5e9d-4bcb-9db3-6204786172af",
@@ -851,7 +851,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/f2a530da-5e9d-4bcb-9db3-6204786172af",
       "source": "Math 222 2.1.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ee7e5d9d-ba52-4732-b85f-c855468444fc",
@@ -868,7 +868,7 @@
       "tags": "differential equation, word problem, local maximum",
       "url": "/question/ee7e5d9d-ba52-4732-b85f-c855468444fc",
       "source": "Math 222 4.1.70",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "9f0eb679-dba7-414d-a2a2-db9c6a6dfb5b",
@@ -885,7 +885,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/9f0eb679-dba7-414d-a2a2-db9c6a6dfb5b",
       "source": "Math 222 2.1.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "43a181c9-f17d-4b0e-8ec5-af406f08b1d2",
@@ -919,7 +919,7 @@
       "tags": "differential equations, word problem",
       "url": "/question/1aeea711-8702-4f25-8390-485fc230361a",
       "source": "Math 222 4.1.71",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "fa1c2976-e18e-4312-8b25-20a3b33aa67f",
@@ -936,7 +936,7 @@
       "tags": "differential equation",
       "url": "/question/fa1c2976-e18e-4312-8b25-20a3b33aa67f",
       "source": "Math 222 4.1.72",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "20df6688-6929-49e2-8e41-14d625982917",
@@ -953,7 +953,7 @@
       "tags": "differential equation, polynomial",
       "url": "/question/20df6688-6929-49e2-8e41-14d625982917",
       "source": "Math 222 4.1.73",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "abe73407-b169-4103-96f3-be40f01ecd7b",
@@ -970,7 +970,7 @@
       "tags": "differential equation, polynomial",
       "url": "/question/abe73407-b169-4103-96f3-be40f01ecd7b",
       "source": "Math 222 4.1.74",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "4d69dd71-3d1e-4659-8af3-53d3658d3072",
@@ -987,7 +987,7 @@
       "tags": "differential equations, polynomials",
       "url": "/question/4d69dd71-3d1e-4659-8af3-53d3658d3072",
       "source": "Math 222 4.1.75",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "29514646-dd25-48b3-bc23-a3b9931c3d72",
@@ -1004,7 +1004,7 @@
       "tags": "differential equation, differentiable function",
       "url": "/question/29514646-dd25-48b3-bc23-a3b9931c3d72",
       "source": "Math 222 4.1.76",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "86127c55-7df7-41c0-9010-54af07cbaf21",
@@ -1038,7 +1038,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/f29f961b-d54a-475c-8be4-469388ea52a9",
       "source": "Math 222 3.1.1",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "414ff224-ff11-4658-bb9e-d930b1d612ba",
@@ -1055,7 +1055,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/414ff224-ff11-4658-bb9e-d930b1d612ba",
       "source": "Math 222 3.1.2",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "9dded26a-18d4-42e0-8786-80c73cdbb20f",
@@ -1072,7 +1072,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/9dded26a-18d4-42e0-8786-80c73cdbb20f",
       "source": "Math 222 3.1.3",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "1f3aa2d9-f15d-4b5c-915e-d4219ff74587",
@@ -1089,7 +1089,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/1f3aa2d9-f15d-4b5c-915e-d4219ff74587",
       "source": "Math 222 3.1.4",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "8c2dcb4b-22a6-40a9-98de-78902ceadd55",
@@ -1106,7 +1106,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/8c2dcb4b-22a6-40a9-98de-78902ceadd55",
       "source": "Math 222 3.1.5",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "d9d76287-bbd3-4b57-accb-87b637720701",
@@ -1123,7 +1123,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/d9d76287-bbd3-4b57-accb-87b637720701",
       "source": "Math 222 3.1.6",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "9f79e412-f286-4a5d-a679-3ccb65346954",
@@ -1140,7 +1140,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/9f79e412-f286-4a5d-a679-3ccb65346954",
       "source": "Math 222 3.1.7",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "2cbe50bd-1a17-4210-b787-b6a5d4ada759",
@@ -1157,7 +1157,7 @@
       "tags": "vectors, computing vectors",
       "url": "/question/2cbe50bd-1a17-4210-b787-b6a5d4ada759",
       "source": "Math 222 5.1.1",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "7c78ffd1-d6a5-4ab0-b66f-e802b7b3770e",
@@ -1174,7 +1174,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/7c78ffd1-d6a5-4ab0-b66f-e802b7b3770e",
       "source": "Math 222 3.1.8",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "7874736a-f1d0-459e-aaa4-3309df0a3c19",
@@ -1191,7 +1191,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/7874736a-f1d0-459e-aaa4-3309df0a3c19",
       "source": "Math 222 3.1.9",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "8ec97632-b424-4392-b66b-4026675cc33d",
@@ -1208,7 +1208,7 @@
       "tags": "vectors, computing vectors",
       "url": "/question/8ec97632-b424-4392-b66b-4026675cc33d",
       "source": "Math 222 5.1.2",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "c544d7fb-cff0-4701-8793-f8b4a4bdd362",
@@ -1225,7 +1225,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/c544d7fb-cff0-4701-8793-f8b4a4bdd362",
       "source": "Math 222 3.1.10",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "96cbdcb8-75f2-40d4-9f00-2994b7967c54",
@@ -1242,7 +1242,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/96cbdcb8-75f2-40d4-9f00-2994b7967c54",
       "source": "Math 222 3.1.11",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "2146585a-5374-49d1-980a-4aea6fe01ffa",
@@ -1259,7 +1259,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/2146585a-5374-49d1-980a-4aea6fe01ffa",
       "source": "Math 222 3.1.12",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "af528f40-0cda-4320-beb7-e8257748a518",
@@ -1276,7 +1276,7 @@
       "tags": "vectors, computing vectors",
       "url": "/question/af528f40-0cda-4320-beb7-e8257748a518",
       "source": "Math 222 5.1.3",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "46a557a4-b077-4633-96ca-af8d4a6bac8a",
@@ -1293,7 +1293,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/46a557a4-b077-4633-96ca-af8d4a6bac8a",
       "source": "Math 222 3.1.13",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "b29c748f-6c14-4575-831c-37b6ec991e96",
@@ -1310,7 +1310,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/b29c748f-6c14-4575-831c-37b6ec991e96",
       "source": "Math 222 3.1.14",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "0c4eb8e5-3b7f-4277-9743-abfe2d82b25e",
@@ -1327,7 +1327,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/0c4eb8e5-3b7f-4277-9743-abfe2d82b25e",
       "source": "Math 222 3.1.15",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "01a1c0f6-928c-4a7c-9335-4d9a6a37f2d4",
@@ -1344,7 +1344,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/01a1c0f6-928c-4a7c-9335-4d9a6a37f2d4",
       "source": "Math 222 3.1.16",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "0ede6849-94a7-40fb-bc52-c2458daed874",
@@ -1361,7 +1361,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/0ede6849-94a7-40fb-bc52-c2458daed874",
       "source": "Math 222 3.1.17",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "4894f0bb-e016-41d0-830c-550dd63c21ba",
@@ -1378,7 +1378,7 @@
       "tags": "vectors, computing vectors",
       "url": "/question/4894f0bb-e016-41d0-830c-550dd63c21ba",
       "source": "Math 222 5.1.4",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "c6e83433-87dd-4fef-a261-622f334a02f6",
@@ -1395,7 +1395,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/c6e83433-87dd-4fef-a261-622f334a02f6",
       "source": "Math 222 3.1.18",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "9dade5eb-8f43-44e8-b47e-8d07490a6290",
@@ -1429,7 +1429,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/7d36e6c1-6834-4a68-8f17-b1affd4c1607",
       "source": "Math 222 3.1.19",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "998491c9-f98b-4e0a-8d13-475db58adabb",
@@ -1446,7 +1446,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/998491c9-f98b-4e0a-8d13-475db58adabb",
       "source": "Math 222 3.1.20",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "01565abf-556b-4a60-a6ae-fb764d51da66",
@@ -1463,7 +1463,7 @@
       "tags": "vectors, drawing vectors",
       "url": "/question/01565abf-556b-4a60-a6ae-fb764d51da66",
       "source": "Math 222 5.1.6",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "21652473-d5be-46a9-b651-e2e7f787e0af",
@@ -1480,7 +1480,7 @@
       "tags": "vectors, position vector, computing vectors",
       "url": "/question/21652473-d5be-46a9-b651-e2e7f787e0af",
       "source": "Math 222 5.1.7",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "fd9a94c7-a1e9-403a-9609-7640250bf81c",
@@ -1497,7 +1497,7 @@
       "tags": "vectors, parallelogram",
       "url": "/question/fd9a94c7-a1e9-403a-9609-7640250bf81c",
       "source": "Math 222 5.1.8",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "a508c948-af7c-481e-a68b-103a6543c026",
@@ -1514,7 +1514,7 @@
       "tags": "vectors, parallelogram, coordinates ",
       "url": "/question/a508c948-af7c-481e-a68b-103a6543c026",
       "source": "Math 222 5.1.9",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "6ed5fc3f-f9b9-4143-b476-5bf186e67ee7",
@@ -1531,7 +1531,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/6ed5fc3f-f9b9-4143-b476-5bf186e67ee7",
       "source": "Math 222 3.1.21",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "c5d95c13-35db-416d-8e03-d39a2cc8d0b7",
@@ -1548,7 +1548,7 @@
       "tags": "vectors, computing vectors, drawing vectors",
       "url": "/question/c5d95c13-35db-416d-8e03-d39a2cc8d0b7",
       "source": "Math 222 5.1.10",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "b19b740a-bd15-4d28-9ca0-81a832df2d57",
@@ -1565,7 +1565,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/b19b740a-bd15-4d28-9ca0-81a832df2d57",
       "source": "Math 222 3.1.22",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "a994e084-0fbb-4bc3-ba35-aad3390766de",
@@ -1582,7 +1582,7 @@
       "tags": "vectors, real numbers, drawing vectors",
       "url": "/question/a994e084-0fbb-4bc3-ba35-aad3390766de",
       "source": "Math 222 5.1.13",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "f942e780-872b-426f-85d9-9dc82c0dc531",
@@ -1599,7 +1599,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/f942e780-872b-426f-85d9-9dc82c0dc531",
       "source": "Math 222 3.1.23",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "bc22bb2f-a929-4514-9ed5-9ddb680c4f47",
@@ -1616,7 +1616,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/bc22bb2f-a929-4514-9ed5-9ddb680c4f47",
       "source": "Math 222 3.1.24",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Optimization ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5926.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5926.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, derivatives, maximum, minimum ",
       "url": "/text-content/ce659dcd-8700-49a0-8355-f7c9b4f8e143",
       "source": "Forgotten Text 6 5.14",
-      "topic": "Calculus/Max-Min/Optimization"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Extrema and Optimization"
     },
     {
       "uuid": "47cf1c9e-055f-4562-82f7-97d5d4481ec5",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sign changes of a Function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5904.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5905.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5906.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5904.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5905.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5906.png\"/\u003e",
       "allAnswers": [],
       "tags": "sign functions, mean value theorem, continuous function ",
       "url": "/text-content/47cf1c9e-055f-4562-82f7-97d5d4481ec5",
       "source": "Forgotten Text 6 5.4",
-      "topic": "Calculus/Max-Min/Sign Changes of a Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Sign Changes of a Function"
     },
     {
       "uuid": "e9806674-c5ed-4ac6-b01d-5c53ba07c8a9",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Examples",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5907.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5908.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5912.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5913.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5907.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5908.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5912.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5913.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, derivative, tangent, hyperbola, parabola",
       "url": "/text-content/e9806674-c5ed-4ac6-b01d-5c53ba07c8a9",
       "source": "Forgotten Text 6 5.6",
-      "topic": "Calculus/Max-Min/"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Extrema and Optimization"
     },
     {
       "uuid": "b0f9fead-9ec9-42b4-942a-2a4219a9cea8",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Maxima and Minima",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5914.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5915.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5916.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5914.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5915.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5916.png\"/\u003e",
       "allAnswers": [],
       "tags": "maxima, minima, max and min, global max, local min",
       "url": "/text-content/b0f9fead-9ec9-42b4-942a-2a4219a9cea8",
       "source": "Forgotten Text 6 5.7",
-      "topic": "Calculus/Max-Min/Max and Min"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Extrema and Optimization"
     },
     {
       "uuid": "8946ce86-4431-4ad2-94e1-6519023d753c",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Must there always be a maximum?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5917.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5918.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5917.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5918.png\"/\u003e",
       "allAnswers": [],
       "tags": "maximum, min, maxima, continuous ",
       "url": "/text-content/8946ce86-4431-4ad2-94e1-6519023d753c",
       "source": "Forgotten Text 6 5.8",
-      "topic": "Calculus/Max-Min/Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Extrema and Optimization"
     }
   ],
   "answers": [],

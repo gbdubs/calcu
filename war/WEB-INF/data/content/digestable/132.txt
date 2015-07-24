@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Dilations in the Coordinate Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20126.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20127.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20126.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20127.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/text-content/33a03629-a05f-4553-afcf-6c11cc5c0269",
       "source": "Amsco Geometry Textbook 6.8",
-      "topic": "Geometry/Solids/Prisms/Total Area of a Prism"
+      "topic": "Geometry/Solids/Prisms/Volume of a Prism"
     },
     {
       "uuid": "c7d59ec2-c252-466f-8ca6-278e59c1ef43",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Transformation as Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20132.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20133.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20132.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20133.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/text-content/c7d59ec2-c252-466f-8ca6-278e59c1ef43",
       "source": "Amsco Geometry Textbook 6.9",
-      "topic": "Geometry/Solids/Prisms/Total Area of a Prism"
+      "topic": "Geometry/Solids/Prisms/Volume of a Prism"
     }
   ],
   "answers": [],

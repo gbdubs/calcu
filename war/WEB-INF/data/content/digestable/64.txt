@@ -528,7 +528,7 @@
       "tags": "equations, graph, symmetry, relations",
       "url": "/question/d4769938-6ecd-4e0c-8dc0-e6aa8d4ca365",
       "source": "Active Calc 1.2.57",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "cffa4fdf-c1e4-42b4-a113-4d36848974ff",
@@ -545,7 +545,7 @@
       "tags": "relations, functions, domain, range",
       "url": "/question/cffa4fdf-c1e4-42b4-a113-4d36848974ff",
       "source": "Active Calc 1.3.1",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "774a4aa0-29a2-4b83-8978-cd77100a4f3f",
@@ -562,7 +562,7 @@
       "tags": "relations, domain, range, functions",
       "url": "/question/774a4aa0-29a2-4b83-8978-cd77100a4f3f",
       "source": "Active Calc 1.3.2",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "bf8ffa77-c530-46f5-b7a4-6a1609d57b8a",
@@ -579,7 +579,7 @@
       "tags": "functions, relation, domain, range",
       "url": "/question/bf8ffa77-c530-46f5-b7a4-6a1609d57b8a",
       "source": "Active Calc 1.3.3",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "4118a0a4-8e53-4654-8d46-e216c8da3076",
@@ -596,7 +596,7 @@
       "tags": "relation, domain, range, function",
       "url": "/question/4118a0a4-8e53-4654-8d46-e216c8da3076",
       "source": "Active Calc 1.3.4",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "9ec0c43d-5e0c-4cdb-9601-a00c4e10e9c5",
@@ -613,7 +613,7 @@
       "tags": "domain, range, function, relation ",
       "url": "/question/9ec0c43d-5e0c-4cdb-9601-a00c4e10e9c5",
       "source": "Active Calc 1.3.5",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "9cc34b92-ef7a-4b1d-bdfe-a76258e9b4b4",
@@ -630,7 +630,7 @@
       "tags": "range, domain, functions, relation",
       "url": "/question/9cc34b92-ef7a-4b1d-bdfe-a76258e9b4b4",
       "source": "Active Calc 1.3.6",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "a718564f-a6bf-41e2-b411-af56eb54db7d",
@@ -647,7 +647,7 @@
       "tags": "relation, functions, domain, range",
       "url": "/question/a718564f-a6bf-41e2-b411-af56eb54db7d",
       "source": "Active Calc 1.3.7",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "0ca091f9-93a6-4a60-893b-35a4a146c362",
@@ -664,7 +664,7 @@
       "tags": "relation, domain, range, functions",
       "url": "/question/0ca091f9-93a6-4a60-893b-35a4a146c362",
       "source": "Active Calc 1.3.8",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "a2641222-d6e8-4f6c-a9dd-80619aa853c0",
@@ -681,7 +681,7 @@
       "tags": "relation, functions, domain, range",
       "url": "/question/a2641222-d6e8-4f6c-a9dd-80619aa853c0",
       "source": "Active Calc 1.3.9",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "330aa647-f5a5-4eba-8430-dce0dc5a4b93",
@@ -698,7 +698,7 @@
       "tags": "relation, domain, range, functions",
       "url": "/question/330aa647-f5a5-4eba-8430-dce0dc5a4b93",
       "source": "Active Calc 1.3.10",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "fa51d882-5435-49e2-9658-98c7b03819a2",
@@ -715,7 +715,7 @@
       "tags": "relation, domain, range, functions",
       "url": "/question/fa51d882-5435-49e2-9658-98c7b03819a2",
       "source": "Active Calc 1.3.11",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "7bea9c2d-40a4-4680-b2ea-57edb4e41c84",
@@ -732,7 +732,7 @@
       "tags": "functions, relation, domain, range",
       "url": "/question/7bea9c2d-40a4-4680-b2ea-57edb4e41c84",
       "source": "Active Calc 1.3.12",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "9d40773d-9970-4db3-97c7-e50156d79569",
@@ -749,7 +749,7 @@
       "tags": "relations, functions, domain, range",
       "url": "/question/9d40773d-9970-4db3-97c7-e50156d79569",
       "source": "Active Calc 1.3.13",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "39a2b0e3-bc36-4b84-bd40-c7a20aabb8e6",
@@ -766,7 +766,7 @@
       "tags": "relations, functions, domain, range",
       "url": "/question/39a2b0e3-bc36-4b84-bd40-c7a20aabb8e6",
       "source": "Active Calc 1.3.14",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "3ecb3bd7-9de6-4241-898f-14cff9f5a321",
@@ -783,7 +783,7 @@
       "tags": "relations, functions, domain, range",
       "url": "/question/3ecb3bd7-9de6-4241-898f-14cff9f5a321",
       "source": "Active Calc 1.3.15",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "c1fb3b05-0cdc-46d8-8e06-c04432aa4fe1",
@@ -800,7 +800,7 @@
       "tags": "relations, functions, domain, range",
       "url": "/question/c1fb3b05-0cdc-46d8-8e06-c04432aa4fe1",
       "source": "Active Calc 1.3.16",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     }
   ],
   "textContent": [
@@ -819,7 +819,7 @@
       "tags": "unit circle, circle, cosine, sine ",
       "url": "/text-content/4feb723b-117a-46eb-99bb-692195ca832e",
       "source": "Precalculus, 3rd Edition 10.2",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Cosine and Sine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "28e26d3d-b5be-42b4-874a-284cff1714bc",
@@ -836,7 +836,7 @@
       "tags": "circular functions, fundamental identities, angle, angle measure, cosine, sine",
       "url": "/text-content/28e26d3d-b5be-42b4-874a-284cff1714bc",
       "source": "Precalculus, 3rd Edition 10.3",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Six Circular Functions"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     }
   ],
   "answers": [],

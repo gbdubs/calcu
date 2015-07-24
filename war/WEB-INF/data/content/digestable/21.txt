@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/551.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/551.png\"/\u003e",
       "uuid": "9eccb102-eba4-42e7-af8e-dd38f5ef9f49",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove other trig identities, pt.3",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/550.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/550.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identities, trig ",
       "url": "/practice-problem/9eccb102-eba4-42e7-af8e-dd38f5ef9f49",
       "source": "null 3.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/553.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/553.png\"/\u003e",
       "uuid": "be72ff24-e10f-4984-a5b9-a5b1cff17bfd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "p-polarization transmission problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/552.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/552.png\"/\u003e",
       "allAnswers": [],
       "tags": "Snells law, fresnel coefficient, trig identities, trig ",
       "url": "/practice-problem/be72ff24-e10f-4984-a5b9-a5b1cff17bfd",
       "source": "null 3.4.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/555.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/555.png\"/\u003e",
       "uuid": "482cb26c-b462-451a-862b-fafefc72ff70",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "electrical circuit problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/554.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/554.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identities, trig, instantaneous power, soil steady state ",
       "url": "/practice-problem/482cb26c-b462-451a-862b-fafefc72ff70",
       "source": "null 3.4.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/562.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/562.png\"/\u003e",
       "uuid": "be7320c7-40ff-4d86-a976-128f1667aaec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Measure of angle in radians",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/561.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/561.png\"/\u003e",
       "allAnswers": [],
       "tags": "radians, angle, trig, degrees",
       "url": "/practice-problem/be7320c7-40ff-4d86-a976-128f1667aaec",
       "source": "null 4.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/565.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/565.png\"/\u003e",
       "uuid": "a334664c-eb5c-4230-a0ba-05c7fd14b373",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Cylindrical radius, length problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/564.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/564.png\"/\u003e",
       "allAnswers": [],
       "tags": "length, trig, ",
       "url": "/practice-problem/a334664c-eb5c-4230-a0ba-05c7fd14b373",
       "source": "null 4.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/567.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/567.png\"/\u003e",
       "uuid": "4e24349b-464b-469a-be6c-42dfe841b2eb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Two belt pulleys problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/566.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/566.png\"/\u003e",
       "allAnswers": [],
       "tags": "length around pulleys, length, trig ",
       "url": "/practice-problem/4e24349b-464b-469a-be6c-42dfe841b2eb",
       "source": "null 4.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/570.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/570.png\"/\u003e",
       "uuid": "e10b799d-2def-404a-82f3-aa23fbcb6454",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find area of sector",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/569.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/569.png\"/\u003e",
       "allAnswers": [],
       "tags": "area of sector, circle, radius",
       "url": "/practice-problem/e10b799d-2def-404a-82f3-aa23fbcb6454",
       "source": "null 4.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/572.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/572.png\"/\u003e",
       "uuid": "34947363-bb1a-4cc6-912e-3bc1e3899ba9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find area in belt pulley",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/571.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/571.png\"/\u003e",
       "allAnswers": [],
       "tags": "area of sector, area, trig, radians",
       "url": "/practice-problem/34947363-bb1a-4cc6-912e-3bc1e3899ba9",
       "source": "null 4.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/576.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/576.png\"/\u003e",
       "uuid": "d599dc68-40e9-47bb-94e0-f2ced65f0e26",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find area of segment ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/575.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/575.png\"/\u003e",
       "allAnswers": [],
       "tags": "area of sector, chord, trig ",
       "url": "/practice-problem/d599dc68-40e9-47bb-94e0-f2ced65f0e26",
       "source": "null 4.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/578.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/578.png\"/\u003e",
       "uuid": "23cdad30-0a68-4f0d-80dc-6c3bf638dc21",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find area of intersection",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/577.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/577.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig, area of sector, area of intersection ",
       "url": "/practice-problem/23cdad30-0a68-4f0d-80dc-6c3bf638dc21",
       "source": "null 4.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/583.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/583.png\"/\u003e",
       "uuid": "81c5b731-da1d-4ccc-a49d-919f03f651ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "central angle problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/581.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/581.png\"/\u003e",
       "allAnswers": [],
       "tags": "central angle, linear speed, trig ",
       "url": "/practice-problem/81c5b731-da1d-4ccc-a49d-919f03f651ec",
       "source": "null 4.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/585.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/585.png\"/\u003e",
       "uuid": "baba3cb2-4996-4b58-b824-347756cdd8e3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find angular speed",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/584.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/584.png\"/\u003e",
       "allAnswers": [],
       "tags": "angular speed, gears, trig ",
       "url": "/practice-problem/baba3cb2-4996-4b58-b824-347756cdd8e3",
       "source": "null 4.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/596.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/596.png\"/\u003e",
       "uuid": "bbfa01d4-8e76-463e-bf91-c7abe3ebf575",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find amplitude of period",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/595.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/595.png\"/\u003e",
       "allAnswers": [],
       "tags": "amplitude, period, cos, trig ",
       "url": "/practice-problem/bbfa01d4-8e76-463e-bf91-c7abe3ebf575",
       "source": "null 5.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/598.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/598.png\"/\u003e",
       "uuid": "2b7265e4-307b-4b43-91fd-199aa9d3ce5b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find amplitude of period, sin",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/597.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/597.png\"/\u003e",
       "allAnswers": [],
       "tags": "amplitude, period, sin, trig ",
       "url": "/practice-problem/2b7265e4-307b-4b43-91fd-199aa9d3ce5b",
       "source": "null 5.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/600.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/600.png\"/\u003e",
       "uuid": "8627dc63-3800-41fe-a659-181353374aab",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Amplitude of period",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/599.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/599.png\"/\u003e",
       "allAnswers": [],
       "tags": "amplitude, period, sin, trig",
       "url": "/practice-problem/8627dc63-3800-41fe-a659-181353374aab",
       "source": "null 5.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/602.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/602.png\"/\u003e",
       "uuid": "6b546799-ae71-4aa3-9696-694873ebb28f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Amplitude and period of function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/601.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/601.png\"/\u003e",
       "allAnswers": [],
       "tags": "amplitude, period, sin, cos, trig",
       "url": "/practice-problem/6b546799-ae71-4aa3-9696-694873ebb28f",
       "source": "null 5.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/605.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/605.png\"/\u003e",
       "uuid": "ec9836da-f676-41b3-9789-bea73b2ebe54",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the period of function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/604.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/604.png\"/\u003e",
       "allAnswers": [],
       "tags": "period, cos, sin, trig ",
       "url": "/practice-problem/ec9836da-f676-41b3-9789-bea73b2ebe54",
       "source": "null 5.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/608.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/608.png\"/\u003e",
       "uuid": "78609123-94d4-47b3-880b-c2ab5e69d4a2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Amp, period, phase shift of function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/607.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/607.png\"/\u003e",
       "allAnswers": [],
       "tags": "amplitude, period, phase shift, trig ",
       "url": "/practice-problem/78609123-94d4-47b3-880b-c2ab5e69d4a2",
       "source": "null 5.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/610.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/610.png\"/\u003e",
       "uuid": "3a1e9de8-85f1-4234-8d70-2c3e336e2abd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "amp, period, phase shift of function, pt. 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/609.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/609.png\"/\u003e",
       "allAnswers": [],
       "tags": "amplitude, period, phase shift, trig ",
       "url": "/practice-problem/3a1e9de8-85f1-4234-8d70-2c3e336e2abd",
       "source": "null 5.2.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/617.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/617.png\"/\u003e",
       "uuid": "4356aace-aed9-4ece-b27c-435812eae31b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,7 +335,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Find inverse trig value",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/616.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/616.png\"/\u003e",
       "allAnswers": [],
       "tags": "inverse trig function, inverse trig ",
       "url": "/practice-problem/4356aace-aed9-4ece-b27c-435812eae31b",
@@ -358,7 +358,7 @@
       "tags": "system of equations, graphing functions, limits ",
       "url": "/question/703d4a04-a1ce-4fcc-8330-2449b188c82c",
       "source": "AP Calculus Problems 1.5.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "cc7bda66-1c38-404b-a694-e63e46a5f71a",
@@ -375,7 +375,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/cc7bda66-1c38-404b-a694-e63e46a5f71a",
       "source": "AP Calculus Problems 1.6.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "c603f8f0-7bf9-4b14-a65a-2b6e6822d5cc",
@@ -392,7 +392,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/c603f8f0-7bf9-4b14-a65a-2b6e6822d5cc",
       "source": "AP Calculus Problems 1.6.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "7387079f-f8be-4f56-81f2-c52e13109e8a",
@@ -409,7 +409,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/7387079f-f8be-4f56-81f2-c52e13109e8a",
       "source": "AP Calculus Problems 1.6.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "39676d16-86cf-4db4-be07-6ebfdfa5dc07",
@@ -426,7 +426,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/39676d16-86cf-4db4-be07-6ebfdfa5dc07",
       "source": "AP Calculus Problems 6.1.68",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "3d2f0a4e-b837-449a-807b-a35c3cb19f19",
@@ -443,7 +443,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/3d2f0a4e-b837-449a-807b-a35c3cb19f19",
       "source": "AP Calculus Problems 6.1.69",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "e1a0a360-0097-4ebc-b941-31d0c5c4c01e",
@@ -460,7 +460,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/e1a0a360-0097-4ebc-b941-31d0c5c4c01e",
       "source": "AP Calculus Problems 6.1.70",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "66fb9f90-c89b-46ee-af59-0b3627ca563c",
@@ -477,7 +477,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/66fb9f90-c89b-46ee-af59-0b3627ca563c",
       "source": "AP Calculus Problems 1.6.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9f51a2db-3958-474c-95bd-8118b804673c",
@@ -494,7 +494,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/9f51a2db-3958-474c-95bd-8118b804673c",
       "source": "AP Calculus Problems 1.6.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "bb5c8308-33ad-4d07-88c1-69494260675a",
@@ -511,7 +511,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/bb5c8308-33ad-4d07-88c1-69494260675a",
       "source": "AP Calculus Problems 1.6.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "2c7488e3-ba0d-4bf6-8896-46ad6dcc89e5",
@@ -528,7 +528,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/2c7488e3-ba0d-4bf6-8896-46ad6dcc89e5",
       "source": "AP Calculus Problems 6.1.71",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "161e10b5-9503-480b-af1e-090f57ca54b2",
@@ -545,7 +545,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/161e10b5-9503-480b-af1e-090f57ca54b2",
       "source": "AP Calculus Problems 6.1.72",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "1acf7380-78e3-46b5-a8a7-fb127c5c8d24",
@@ -562,7 +562,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/1acf7380-78e3-46b5-a8a7-fb127c5c8d24",
       "source": "AP Calculus Problems 1.6.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "763f2d9d-412f-4977-97ee-e577171a4350",
@@ -579,7 +579,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/763f2d9d-412f-4977-97ee-e577171a4350",
       "source": "AP Calculus Problems 6.1.73",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "8e40e355-3120-4b8c-8959-272976619993",
@@ -596,7 +596,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/8e40e355-3120-4b8c-8959-272976619993",
       "source": "AP Calculus Problems 6.1.74",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "e1f25973-65a0-436b-9339-1d28a9ed4c91",
@@ -613,7 +613,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/e1f25973-65a0-436b-9339-1d28a9ed4c91",
       "source": "AP Calculus Problems 1.6.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "55667673-8264-4ffb-9d50-294fecca0988",
@@ -630,7 +630,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/55667673-8264-4ffb-9d50-294fecca0988",
       "source": "AP Calculus Problems 1.6.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f51b699a-4b72-4662-bf8c-2b44ae5e2456",
@@ -647,7 +647,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/f51b699a-4b72-4662-bf8c-2b44ae5e2456",
       "source": "AP Calculus Problems 6.1.75",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "843b0791-3d28-4dc8-b58b-de1ad3d93bac",
@@ -664,7 +664,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/843b0791-3d28-4dc8-b58b-de1ad3d93bac",
       "source": "AP Calculus Problems 6.1.76",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "70d20ba4-82ec-4d4e-9b12-ddbbbed5bb52",
@@ -681,7 +681,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/70d20ba4-82ec-4d4e-9b12-ddbbbed5bb52",
       "source": "AP Calculus Problems 1.7.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5ffe6256-2792-4b70-8513-eb3fb4a16007",
@@ -698,7 +698,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/5ffe6256-2792-4b70-8513-eb3fb4a16007",
       "source": "AP Calculus Problems 1.7.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "2767dce4-608f-4064-a24b-3434b897b29d",
@@ -715,7 +715,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/2767dce4-608f-4064-a24b-3434b897b29d",
       "source": "AP Calculus Problems 1.7.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "956bdf66-d4ae-430b-ae45-8a052f1478f8",
@@ -732,7 +732,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/956bdf66-d4ae-430b-ae45-8a052f1478f8",
       "source": "AP Calculus Problems 1.7.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "106da65f-1a0d-4e3d-8731-c567e158a05d",
@@ -749,7 +749,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/106da65f-1a0d-4e3d-8731-c567e158a05d",
       "source": "AP Calculus Problems 1.7.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f86c5825-e514-419e-b564-99996190c5c9",
@@ -766,7 +766,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/f86c5825-e514-419e-b564-99996190c5c9",
       "source": "AP Calculus Problems 1.7.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "d8638273-085c-4257-9472-8f4b42de03c4",
@@ -783,7 +783,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/d8638273-085c-4257-9472-8f4b42de03c4",
       "source": "AP Calculus Problems 1.7.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "de30fe4e-5452-463a-ad02-51169833e142",
@@ -800,7 +800,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/de30fe4e-5452-463a-ad02-51169833e142",
       "source": "AP Calculus Problems 6.1.77",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "8c6fc6cc-07aa-4155-8bc5-e9b2b15040bf",
@@ -817,7 +817,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/8c6fc6cc-07aa-4155-8bc5-e9b2b15040bf",
       "source": "AP Calculus Problems 1.7.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ceb14923-99ef-468b-81b5-406bca73473b",
@@ -834,7 +834,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/ceb14923-99ef-468b-81b5-406bca73473b",
       "source": "AP Calculus Problems 6.1.78",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "f9934848-2f41-43d6-a5c6-ea026eb84e78",
@@ -851,7 +851,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/f9934848-2f41-43d6-a5c6-ea026eb84e78",
       "source": "AP Calculus Problems 1.7.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "09602084-9d71-4bc5-a585-c4c4dddf43ca",
@@ -868,7 +868,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/09602084-9d71-4bc5-a585-c4c4dddf43ca",
       "source": "AP Calculus Problems 6.1.79",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "e3a9567f-f689-4761-aae4-2ee2cac5442c",
@@ -885,7 +885,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/e3a9567f-f689-4761-aae4-2ee2cac5442c",
       "source": "AP Calculus Problems 6.1.80",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "72474270-763a-42df-a14a-742436b4c730",
@@ -902,7 +902,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/72474270-763a-42df-a14a-742436b4c730",
       "source": "AP Calculus Problems 6.1.81",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "a0e2f9b0-b76c-4f6d-a735-937fb8764b54",
@@ -919,7 +919,7 @@
       "tags": "system of equations, graphs of functions",
       "url": "/question/a0e2f9b0-b76c-4f6d-a735-937fb8764b54",
       "source": "AP Calculus Problems 1.7.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "43227eb3-834f-4568-bb35-4d7582ab74c4",
@@ -936,7 +936,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/43227eb3-834f-4568-bb35-4d7582ab74c4",
       "source": "AP Calculus Problems 6.1.82",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "6427e214-2b8f-4a8b-b581-5e39508dd39d",
@@ -953,7 +953,7 @@
       "tags": "system of equations, graphs of equations",
       "url": "/question/6427e214-2b8f-4a8b-b581-5e39508dd39d",
       "source": "AP Calculus Problems 1.7.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "2765563d-f6f5-406d-8c23-dbc2d0223d62",
@@ -970,7 +970,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/2765563d-f6f5-406d-8c23-dbc2d0223d62",
       "source": "AP Calculus Problems 6.1.83",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "9a8679b0-f9c1-40a1-ab1e-133a9d0ee951",
@@ -987,7 +987,7 @@
       "tags": "graphs of functions, system of equations, limits",
       "url": "/question/9a8679b0-f9c1-40a1-ab1e-133a9d0ee951",
       "source": "AP Calculus Problems 1.7.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "c1794c38-6bca-4ee6-a488-5014eac0841d",
@@ -1004,7 +1004,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/c1794c38-6bca-4ee6-a488-5014eac0841d",
       "source": "AP Calculus Problems 6.1.84",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "10e45f72-242f-4a89-a62d-39eeb926f0a6",
@@ -1021,7 +1021,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/10e45f72-242f-4a89-a62d-39eeb926f0a6",
       "source": "AP Calculus Problems 6.1.85",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "0a06dfec-abc1-41c8-ae51-1479e3135f09",
@@ -1038,7 +1038,7 @@
       "tags": "graphs of functions, domain, y-intercept, asymptotes ",
       "url": "/question/0a06dfec-abc1-41c8-ae51-1479e3135f09",
       "source": "AP Calculus Problems 1.7.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "afa83720-74f1-4357-8ddc-27a825c83caa",
@@ -1055,7 +1055,7 @@
       "tags": "graphs of functions, domain, y-intercepts, asymptotes",
       "url": "/question/afa83720-74f1-4357-8ddc-27a825c83caa",
       "source": "AP Calculus Problems 1.7.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "7998cb50-fbe7-4f61-94b5-68d319212f83",
@@ -1072,7 +1072,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/7998cb50-fbe7-4f61-94b5-68d319212f83",
       "source": "AP Calculus Problems 6.1.86",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "b4aef14f-2012-42cb-8b5e-1bc8cb198d08",
@@ -1089,7 +1089,7 @@
       "tags": "graphs of functions, domain, y-intercepts, asymptotes ",
       "url": "/question/b4aef14f-2012-42cb-8b5e-1bc8cb198d08",
       "source": "AP Calculus Problems 1.7.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "beda9834-1a41-45c5-9fb6-85a756e40508",
@@ -1106,7 +1106,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/beda9834-1a41-45c5-9fb6-85a756e40508",
       "source": "AP Calculus Problems 6.1.87",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "0a51c4f5-c3b1-464e-8143-14f05946a4e5",
@@ -1123,7 +1123,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/0a51c4f5-c3b1-464e-8143-14f05946a4e5",
       "source": "AP Calculus Problems 6.1.88",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "7dd4dd5f-0b02-4359-9495-d95211b82ef4",
@@ -1140,7 +1140,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/7dd4dd5f-0b02-4359-9495-d95211b82ef4",
       "source": "AP Calculus Problems 6.1.89",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "7b11818f-608d-4777-acb7-b6cc9ba53087",
@@ -1157,7 +1157,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/7b11818f-608d-4777-acb7-b6cc9ba53087",
       "source": "AP Calculus Problems 1.7.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "3a3d3374-0a6a-488a-8bb4-a2f052a7164a",
@@ -1174,7 +1174,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/3a3d3374-0a6a-488a-8bb4-a2f052a7164a",
       "source": "AP Calculus Problems 6.1.90",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "4af3b7e1-b758-4435-a71f-0000469d67f0",
@@ -1191,7 +1191,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/4af3b7e1-b758-4435-a71f-0000469d67f0",
       "source": "AP Calculus Problems 1.7.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f7ec5724-4056-490b-8fbb-2e9ac598307c",
@@ -1208,7 +1208,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/f7ec5724-4056-490b-8fbb-2e9ac598307c",
       "source": "AP Calculus Problems 6.1.91",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "ab177ac6-3885-4728-95a9-0f271b29fad9",
@@ -1225,7 +1225,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/ab177ac6-3885-4728-95a9-0f271b29fad9",
       "source": "AP Calculus Problems 1.7.19",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "efa8c901-d679-4e0a-8a6e-ee5f72b02383",
@@ -1242,7 +1242,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/efa8c901-d679-4e0a-8a6e-ee5f72b02383",
       "source": "AP Calculus Problems 6.1.92",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "69fee62e-56cc-4267-965e-8364c37a3697",
@@ -1259,7 +1259,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/69fee62e-56cc-4267-965e-8364c37a3697",
       "source": "AP Calculus Problems 1.7.20",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "d02789b9-2935-452e-90fc-2d4fca3d1535",
@@ -1276,7 +1276,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/d02789b9-2935-452e-90fc-2d4fca3d1535",
       "source": "AP Calculus Problems 6.1.93",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "962e4837-ed59-48f4-a737-a387f802956e",
@@ -1293,7 +1293,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/962e4837-ed59-48f4-a737-a387f802956e",
       "source": "AP Calculus Problems 1.7.21",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "4fff5170-1526-4a50-b95f-390327147fdc",
@@ -1310,7 +1310,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/4fff5170-1526-4a50-b95f-390327147fdc",
       "source": "AP Calculus Problems 6.1.94",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "a2da931a-4957-4e9e-ba64-665162e72dca",
@@ -1327,7 +1327,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/a2da931a-4957-4e9e-ba64-665162e72dca",
       "source": "AP Calculus Problems 1.7.23",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "7bf21f7d-15a2-43c7-83c5-c44a875f7da5",
@@ -1344,7 +1344,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/7bf21f7d-15a2-43c7-83c5-c44a875f7da5",
       "source": "AP Calculus Problems 6.1.95",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "9bcea53e-2ccc-4267-99a3-62940a03cb3b",
@@ -1361,7 +1361,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/9bcea53e-2ccc-4267-99a3-62940a03cb3b",
       "source": "AP Calculus Problems 6.1.96",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "2aaecebf-8009-4ad8-96dd-b420b01bf264",
@@ -1378,7 +1378,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/2aaecebf-8009-4ad8-96dd-b420b01bf264",
       "source": "AP Calculus Problems 6.1.97",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "306aae99-f8d4-40d8-bfae-17ddbd4dd0b1",
@@ -1395,7 +1395,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/306aae99-f8d4-40d8-bfae-17ddbd4dd0b1",
       "source": "AP Calculus Problems 6.1.98",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "a28f37bf-afb0-41cc-be50-6a01b37002a4",
@@ -1412,7 +1412,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/a28f37bf-afb0-41cc-be50-6a01b37002a4",
       "source": "AP Calculus Problems 6.1.99",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "c494f6f0-8a70-4703-8e7b-210d93f85059",
@@ -1429,7 +1429,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/c494f6f0-8a70-4703-8e7b-210d93f85059",
       "source": "AP Calculus Problems 6.1.100",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "a080a4ba-f228-49f8-a23e-ca889e18ba42",
@@ -1446,7 +1446,7 @@
       "tags": "limits, limits by graphs",
       "url": "/question/a080a4ba-f228-49f8-a23e-ca889e18ba42",
       "source": "AP Calculus Problems 1.8.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "119cb1e1-f9b2-4888-b4b9-09a95b144566",
@@ -1463,7 +1463,7 @@
       "tags": "limits, limits by graphs",
       "url": "/question/119cb1e1-f9b2-4888-b4b9-09a95b144566",
       "source": "AP Calculus Problems 1.8.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "c95360b5-858b-45dd-b851-43ada6f24772",
@@ -1480,7 +1480,7 @@
       "tags": "limits, limits by graphs",
       "url": "/question/c95360b5-858b-45dd-b851-43ada6f24772",
       "source": "AP Calculus Problems 1.8.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f50498b7-f8f8-428c-acc9-7252bc6738b0",
@@ -1497,7 +1497,7 @@
       "tags": "limits, limits by graphs",
       "url": "/question/f50498b7-f8f8-428c-acc9-7252bc6738b0",
       "source": "AP Calculus Problems 1.8.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e88b6051-3abb-4d73-819c-ce93249b62f3",
@@ -1514,7 +1514,7 @@
       "tags": "limits, limits by graphs",
       "url": "/question/e88b6051-3abb-4d73-819c-ce93249b62f3",
       "source": "AP Calculus Problems 1.8.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "94ce18e3-6a4e-4430-8bd9-3545b03ae9f1",
@@ -1531,7 +1531,7 @@
       "tags": "limits, limits by graphs",
       "url": "/question/94ce18e3-6a4e-4430-8bd9-3545b03ae9f1",
       "source": "AP Calculus Problems 1.8.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "3ed671e8-20ba-41a2-bd57-8fe2b08bf88a",
@@ -1548,7 +1548,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/3ed671e8-20ba-41a2-bd57-8fe2b08bf88a",
       "source": "AP Calculus Problems 6.1.101",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "79a91547-68d4-4242-afee-ec1f050df93c",
@@ -1565,7 +1565,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/79a91547-68d4-4242-afee-ec1f050df93c",
       "source": "AP Calculus Problems 6.1.102",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "dc08e73e-084b-4af1-af3d-47ffd61c282d",
@@ -1582,7 +1582,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/dc08e73e-084b-4af1-af3d-47ffd61c282d",
       "source": "AP Calculus Problems 6.1.103",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "ed93f425-fbc8-4a10-807d-ded55c829e25",
@@ -1599,7 +1599,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/ed93f425-fbc8-4a10-807d-ded55c829e25",
       "source": "AP Calculus Problems 6.1.104",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Subintervals"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Partial Fraction Expansion",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5988.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5989.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5990.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5991.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5992.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5988.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5989.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5990.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5991.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5992.png\"/\u003e",
       "allAnswers": [],
       "tags": "partial fraction, integral, methods of integration ",
       "url": "/text-content/8a37a5a7-7287-4471-a841-145994fb931e",
       "source": "Forgotten Text 7 1.9",
-      "topic": "Calculus/Methods of Integration/Partial Fraction Expansion"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fraction Expansion"
     },
     {
       "uuid": "95a0ff96-c699-4439-8b5f-cc1d1461c52c",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor Polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5993.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5994.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5995.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5996.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5997.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5998.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5999.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6000.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5993.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5994.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5995.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5996.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5997.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5998.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5999.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6000.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, taylor\u0027s formula, infinite series, remainder term, Newtons binomial formula ",
       "url": "/text-content/95a0ff96-c699-4439-8b5f-cc1d1461c52c",
       "source": "Forgotten Text 7 2.11",
-      "topic": "Calculus/Taylor\u0027s Formula and Infinite Series/Taylor Polynomials"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Taylor Polynomials"
     },
     {
       "uuid": "50144902-92d3-4b4b-9802-20aa0f7c04c4",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The limit as x approaches 0, keeping n fixed",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6007.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6010.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6007.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6010.png\"/\u003e",
       "allAnswers": [],
       "tags": "limit, lagrange theorem, taylor polynomials, taylor series, fibonacci numbers, recursion relation ",
       "url": "/text-content/50144902-92d3-4b4b-9802-20aa0f7c04c4",
       "source": "Forgotten Text 7 2.16",
-      "topic": "Calculus/Taylor Polynomials/Limit approaching 0"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Limit approaching 0"
     },
     {
       "uuid": "fb189558-3d09-4368-9623-925ed505f7ba",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The limit as n approaches infinity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6011.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6013.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6011.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6013.png\"/\u003e",
       "allAnswers": [],
       "tags": "sandwich theorem, limit, infinity, taylor polynomials, sequences",
       "url": "/text-content/fb189558-3d09-4368-9623-925ed505f7ba",
       "source": "Forgotten Text 7 2.17",
-      "topic": "Calculus/Taylor Polynomials/Limit approaching infinity"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Limit approaching infinity"
     }
   ],
   "answers": [],

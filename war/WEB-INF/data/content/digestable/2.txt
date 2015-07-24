@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Constructing Accurate Graphs of Antiderivatives",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4120.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4121.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4122.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4123.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4124.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4125.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4126.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4127.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4128.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4120.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4121.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4122.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4123.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4124.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4125.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4126.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4127.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4128.png\"/\u003e",
       "allAnswers": [],
       "tags": "integrals, antiderivatives, integration",
       "url": "/text-content/0f391051-0ef1-4f59-ae39-fb9347dc81e0",
       "source": "Forgotten Text 2 5.1",
-      "topic": "Calculus/Antiderivatives/Accurate Graphs"
+      "topic": "Calculus/Integral Calculus/Antiderivatives + Integrals/Accurate Graphs"
     },
     {
       "uuid": "93aeef4b-02dc-4c24-855a-1962e4c49c9e",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Second Fundamental Theorem of Calculus",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4129.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4132.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4133.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4134.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4135.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4136.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4137.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4138.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4139.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4129.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4132.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4133.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4134.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4135.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4136.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4137.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4138.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4139.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration, second fundamental theorem of calculus ",
       "url": "/text-content/93aeef4b-02dc-4c24-855a-1962e4c49c9e",
       "source": "Forgotten Text 2 5.2",
-      "topic": "Calculus/Antiderivatives/Second Fundamental Theorem of Calculus"
+      "topic": "Calculus/Integral Calculus/Antiderivatives + Integrals/Second Fundamental Theorem of Calculus"
     },
     {
       "uuid": "92de545b-93e9-4df4-b225-3fb5f5069df6",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integration by Substitution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4140.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4141.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4142.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4143.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4144.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4145.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4146.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4147.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4148.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4149.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4150.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4151.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4152.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4153.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4140.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4141.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4142.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4143.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4144.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4145.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4146.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4147.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4148.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4149.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4150.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4151.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4152.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4153.png\"/\u003e",
       "allAnswers": [],
       "tags": "substitution, integral, integration, antiderivatives ",
       "url": "/text-content/92de545b-93e9-4df4-b225-3fb5f5069df6",
       "source": "Forgotten Text 2 5.3",
-      "topic": "Calculus/Antiderivatives/Integration by Substitution"
+      "topic": "Calculus/Integral Calculus/Antiderivatives + Integrals/Integration by Substitution"
     },
     {
       "uuid": "aca6e656-9427-452a-9ae0-81962a54bc3f",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integration by Parts ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4154.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4156.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4157.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4158.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4159.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4160.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4161.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4162.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4164.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4165.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4166.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4167.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4168.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4154.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4156.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4157.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4158.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4159.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4160.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4161.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4162.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4164.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4165.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4166.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4167.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4168.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration, integration by parts ",
       "url": "/text-content/aca6e656-9427-452a-9ae0-81962a54bc3f",
       "source": "Forgotten Text 2 5.4",
-      "topic": "Calculus/Antiderivatives/Integration by parts"
+      "topic": "Calculus/Integral Calculus/Antiderivatives + Integrals/Integration by parts"
     }
   ],
   "answers": [],

@@ -375,7 +375,7 @@
       "tags": "polynomial, real zeros, factors, factoring polynomials ",
       "url": "/question/a977233f-4830-4564-93a5-1981d2424e89",
       "source": "Precalculus, 3rd Edition 3.2.40",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "c3b996e7-1941-4fd1-945f-6c658488a80b",
@@ -392,7 +392,7 @@
       "tags": "polynomial, factored form, leading term, zeros",
       "url": "/question/c3b996e7-1941-4fd1-945f-6c658488a80b",
       "source": "Precalculus, 3rd Edition 3.2.41",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "3339184d-feaf-4f61-b1cf-9411b67ad7c8",
@@ -409,7 +409,7 @@
       "tags": "polynomial, factored form, zeros, leading terms",
       "url": "/question/3339184d-feaf-4f61-b1cf-9411b67ad7c8",
       "source": "Precalculus, 3rd Edition 3.2.42",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "67cc9442-4baf-4344-9404-0fac0c3c732a",
@@ -426,7 +426,7 @@
       "tags": "polynomial, factored form, leading terms, point, local minimum, graph",
       "url": "/question/67cc9442-4baf-4344-9404-0fac0c3c732a",
       "source": "Precalculus, 3rd Edition 3.2.43",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "43acd297-48cf-4550-9fbc-6e73e7477a05",
@@ -443,7 +443,7 @@
       "tags": "polynomial, factored form, leading term, point, local maximum, graph",
       "url": "/question/43acd297-48cf-4550-9fbc-6e73e7477a05",
       "source": "Precalculus, 3rd Edition 3.2.44",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "4f54f0f5-6063-4525-bc0a-5228d4d24fdf",
@@ -460,7 +460,7 @@
       "tags": "polynomial, factored term, degree, approaching infinity, x-intercepts, graph, x-axis",
       "url": "/question/4f54f0f5-6063-4525-bc0a-5228d4d24fdf",
       "source": "Precalculus, 3rd Edition 3.2.45",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "b41f7e4c-43f5-4791-9162-6f13a3496ebb",
@@ -477,7 +477,7 @@
       "tags": "polynomial, quadratic polynomial, integer coefficients, real zeros",
       "url": "/question/b41f7e4c-43f5-4791-9162-6f13a3496ebb",
       "source": "Precalculus, 3rd Edition 3.2.46",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "478547f4-b4cc-4096-bf4c-3dd9285b846a",
@@ -494,7 +494,7 @@
       "tags": "polynomial, long division, polynomial long division, dividing polynomials",
       "url": "/question/478547f4-b4cc-4096-bf4c-3dd9285b846a",
       "source": "Precalculus, 3rd Edition 3.2.5",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ea73da00-ae42-4780-8771-78a6151c7336",
@@ -511,7 +511,7 @@
       "tags": "polynomial, long division, dividing polynomials, polynomial long division ",
       "url": "/question/ea73da00-ae42-4780-8771-78a6151c7336",
       "source": "Precalculus, 3rd Edition 3.2.6",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "f7fcabbc-7abd-4916-a1d2-bb6ca886ec83",
@@ -528,7 +528,7 @@
       "tags": "synthetic division, division, polynomial, dividing polynomials",
       "url": "/question/f7fcabbc-7abd-4916-a1d2-bb6ca886ec83",
       "source": "Precalculus, 3rd Edition 3.2.7",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "91511fb9-dea1-45ce-a23d-b098b002cf46",
@@ -545,7 +545,7 @@
       "tags": "polynomial, synthetic division, division, dividing polynomials",
       "url": "/question/91511fb9-dea1-45ce-a23d-b098b002cf46",
       "source": "Precalculus, 3rd Edition 3.2.8 ",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "59b741c6-3257-413c-9d1a-2d07d1c405d5",
@@ -562,7 +562,7 @@
       "tags": "synthetic division, polynomials, dividing polynomials",
       "url": "/question/59b741c6-3257-413c-9d1a-2d07d1c405d5",
       "source": "Precalculus, 3rd Edition 3.2.9",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a0279861-0202-43ed-a49f-2d9d52a059a2",
@@ -579,7 +579,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, caches bound, descartes rule of signs",
       "url": "/question/a0279861-0202-43ed-a49f-2d9d52a059a2",
       "source": "Precalculus, 3rd Edition 3.3.1",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "fc8d342d-d36d-4887-b14d-5f76acada63a",
@@ -596,7 +596,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/fc8d342d-d36d-4887-b14d-5f76acada63a",
       "source": "Precalculus, 3rd Edition 3.3.10",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "9a0ad360-7090-4642-9e72-f28467f23405",
@@ -613,7 +613,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/9a0ad360-7090-4642-9e72-f28467f23405",
       "source": "Precalculus, 3rd Edition 3.3.11",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "582a0b11-ed19-41cd-9500-4a185131444c",
@@ -630,7 +630,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/582a0b11-ed19-41cd-9500-4a185131444c",
       "source": "Precalculus, 3rd Edition 3.3.12",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "33c10d13-1291-478f-be91-025f3f8ac07c",
@@ -647,7 +647,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/33c10d13-1291-478f-be91-025f3f8ac07c",
       "source": "Precalculus, 3rd Edition 3.3.13",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8969d8db-e85d-496f-ac98-d8b322a57a1b",
@@ -664,7 +664,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/8969d8db-e85d-496f-ac98-d8b322a57a1b",
       "source": "Precalculus, 3rd Edition 3.3.14",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "1420d8ed-59a5-4c39-b538-bc6a01049d71",
@@ -681,7 +681,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/1420d8ed-59a5-4c39-b538-bc6a01049d71",
       "source": "Precalculus, 3rd Edition 3.3.15",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "55f1a358-ec5e-4bed-bc03-d0aa0fd5783c",
@@ -698,7 +698,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/55f1a358-ec5e-4bed-bc03-d0aa0fd5783c",
       "source": "Precalculus, 3rd Edition 3.3.16",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "bb3af5c8-4287-45e2-a20e-cadcb91dcbcf",
@@ -715,7 +715,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/bb3af5c8-4287-45e2-a20e-cadcb91dcbcf",
       "source": "Precalculus, 3rd Edition 3.3.17",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "c51ec79d-ef98-495f-9681-5a4bea4cd0eb",
@@ -732,7 +732,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/c51ec79d-ef98-495f-9681-5a4bea4cd0eb",
       "source": "Precalculus, 3rd Edition 3.3.18",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "d721dde5-7a1e-487e-91bc-6f0a3dead934",
@@ -749,7 +749,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/d721dde5-7a1e-487e-91bc-6f0a3dead934",
       "source": "Precalculus, 3rd Edition 3.3.19",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a910d761-7321-44c9-a4cb-a592877f6b89",
@@ -766,7 +766,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, caches bound, descartes rule of signs",
       "url": "/question/a910d761-7321-44c9-a4cb-a592877f6b89",
       "source": "Precalculus, 3rd Edition 3.3.2",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "198a770a-dedb-4055-a795-02470b748a90",
@@ -783,7 +783,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/198a770a-dedb-4055-a795-02470b748a90",
       "source": "Precalculus, 3rd Edition 3.3.20",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "4b8078b8-d51d-4519-ac14-5e6b9f669dfc",
@@ -800,7 +800,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/4b8078b8-d51d-4519-ac14-5e6b9f669dfc",
       "source": "Precalculus, 3rd Edition 3.3.21",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "01ce20fc-95cb-4929-9a90-9703165f46a6",
@@ -817,7 +817,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/01ce20fc-95cb-4929-9a90-9703165f46a6",
       "source": "Precalculus, 3rd Edition 3.3.22",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "e68932d2-097a-40ae-b7db-6d29a66c288f",
@@ -834,7 +834,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/e68932d2-097a-40ae-b7db-6d29a66c288f",
       "source": "Precalculus, 3rd Edition 3.3.23",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "38aacdf5-d2ed-4d28-b2ec-0b088e751896",
@@ -851,7 +851,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/38aacdf5-d2ed-4d28-b2ec-0b088e751896",
       "source": "Precalculus, 3rd Edition 3.3.24",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a89b082d-f999-4c09-950a-1dbe9c764081",
@@ -868,7 +868,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/a89b082d-f999-4c09-950a-1dbe9c764081",
       "source": "Precalculus, 3rd Edition 3.3.25",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a4b8c769-621d-4812-ad89-1d3ee6d7304f",
@@ -885,7 +885,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/a4b8c769-621d-4812-ad89-1d3ee6d7304f",
       "source": "Precalculus, 3rd Edition 3.3.26",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8fe2298d-aa6e-4b04-ab4b-c2f00e0563d9",
@@ -902,7 +902,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/8fe2298d-aa6e-4b04-ab4b-c2f00e0563d9",
       "source": "Precalculus, 3rd Edition 3.3.27",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "32d501f5-0b12-4767-a06e-e611787d2b21",
@@ -919,7 +919,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/32d501f5-0b12-4767-a06e-e611787d2b21",
       "source": "Precalculus, 3rd Edition 3.3.28",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "f6d45642-b281-4897-af42-89970c431583",
@@ -936,7 +936,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/f6d45642-b281-4897-af42-89970c431583",
       "source": "Precalculus, 3rd Edition 3.3.29",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ff249b99-46a3-476f-a938-a285315d46c0",
@@ -953,7 +953,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/ff249b99-46a3-476f-a938-a285315d46c0",
       "source": "Precalculus, 3rd Edition 3.3.3",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "4dda86e9-927b-45dd-8d1d-c7fd5d688b48",
@@ -970,7 +970,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, factoring, factoring a polynomial",
       "url": "/question/4dda86e9-927b-45dd-8d1d-c7fd5d688b48",
       "source": "Precalculus, 3rd Edition 3.3.30",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8a2decbe-069e-4268-af1f-03032312a039",
@@ -987,7 +987,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, calculator skills, calculator",
       "url": "/question/8a2decbe-069e-4268-af1f-03032312a039",
       "source": "Precalculus, 3rd Edition 3.3.31",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "34af2627-787e-417d-9c91-347cec8f405d",
@@ -1004,7 +1004,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, calculator skills, calculator",
       "url": "/question/34af2627-787e-417d-9c91-347cec8f405d",
       "source": "Precalculus, 3rd Edition 3.3.32",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "e2eb5de6-42ff-47a5-bc62-5171013c4991",
@@ -1021,7 +1021,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, calculator skills, calculator",
       "url": "/question/e2eb5de6-42ff-47a5-bc62-5171013c4991",
       "source": "Precalculus, 3rd Edition 3.3.33",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "19437e4a-d89f-474f-b84a-850bff240b00",
@@ -1038,7 +1038,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation",
       "url": "/question/19437e4a-d89f-474f-b84a-850bff240b00",
       "source": "Precalculus, 3rd Edition 3.3.34",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ad272f00-eb5d-4adc-b512-1ff4c3429d01",
@@ -1055,7 +1055,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/ad272f00-eb5d-4adc-b512-1ff4c3429d01",
       "source": "Precalculus, 3rd Edition 3.3.35",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "eafd311b-2205-40dd-a933-51c0cfe4cd0c",
@@ -1072,7 +1072,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/eafd311b-2205-40dd-a933-51c0cfe4cd0c",
       "source": "Precalculus, 3rd Edition 3.3.36",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "17cff63d-48fa-4ed5-a3f2-2dda34453a2f",
@@ -1089,7 +1089,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/17cff63d-48fa-4ed5-a3f2-2dda34453a2f",
       "source": "Precalculus, 3rd Edition 3.3.37",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "bba7b07f-91b1-4a3c-8a66-088be6d1cfea",
@@ -1106,7 +1106,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/bba7b07f-91b1-4a3c-8a66-088be6d1cfea",
       "source": "Precalculus, 3rd Edition 3.3.38",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "3b22f350-085e-4646-a85b-12b5fc2624f7",
@@ -1123,7 +1123,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/3b22f350-085e-4646-a85b-12b5fc2624f7",
       "source": "Precalculus, 3rd Edition 3.3.39",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "bc998814-e622-435e-985a-e3402cb74a81",
@@ -1140,7 +1140,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/bc998814-e622-435e-985a-e3402cb74a81",
       "source": "Precalculus, 3rd Edition 3.3.4",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "7f494cd8-05e3-476c-be53-8fd763d1be0a",
@@ -1157,7 +1157,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/7f494cd8-05e3-476c-be53-8fd763d1be0a",
       "source": "Precalculus, 3rd Edition 3.3.40",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "884aa52a-b5f6-449f-85ab-49d0baec1b4a",
@@ -1174,7 +1174,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/884aa52a-b5f6-449f-85ab-49d0baec1b4a",
       "source": "Precalculus, 3rd Edition 3.3.41",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "17d90a65-0efc-4348-941f-7db2bad400f3",
@@ -1191,7 +1191,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, factoring",
       "url": "/question/17d90a65-0efc-4348-941f-7db2bad400f3",
       "source": "Precalculus, 3rd Edition 3.3.42",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "fd76fd13-1186-49ed-9373-a956af7ea35f",
@@ -1208,7 +1208,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/fd76fd13-1186-49ed-9373-a956af7ea35f",
       "source": "Precalculus, 3rd Edition 3.3.43",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "985db2ef-0118-4f4a-b15c-2036b9f1ce0d",
@@ -1225,7 +1225,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation",
       "url": "/question/985db2ef-0118-4f4a-b15c-2036b9f1ce0d",
       "source": "Precalculus, 3rd Edition 3.3.44",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "e9f93f0e-95e1-4056-8b26-edbf9e255d9f",
@@ -1242,7 +1242,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/e9f93f0e-95e1-4056-8b26-edbf9e255d9f",
       "source": "Precalculus, 3rd Edition 3.3.45",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "60898d0a-51c6-4cf3-ac0c-c72135944be9",
@@ -1259,7 +1259,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/60898d0a-51c6-4cf3-ac0c-c72135944be9",
       "source": "Precalculus, 3rd Edition 3.3.46",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "b448906e-676e-492a-903a-b4d7a8301efb",
@@ -1276,7 +1276,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/b448906e-676e-492a-903a-b4d7a8301efb",
       "source": "Precalculus, 3rd Edition 3.3.47",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "68a69d11-178c-4454-b4a8-c08207e72be1",
@@ -1293,7 +1293,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/68a69d11-178c-4454-b4a8-c08207e72be1",
       "source": "Precalculus, 3rd Edition 3.3.48",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "b005ccbf-6204-40d5-bb98-6649930ee2a3",
@@ -1310,7 +1310,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/b005ccbf-6204-40d5-bb98-6649930ee2a3",
       "source": "Precalculus, 3rd Edition 3.3.49",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "7c5408f1-834e-4366-8cb4-cf2dea92f410",
@@ -1327,7 +1327,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/7c5408f1-834e-4366-8cb4-cf2dea92f410",
       "source": "Precalculus, 3rd Edition 3.3.5",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "885786b1-4036-4dc2-87b4-fc1235052b7d",
@@ -1344,7 +1344,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/885786b1-4036-4dc2-87b4-fc1235052b7d",
       "source": "Precalculus, 3rd Edition 3.3.50",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ea08c071-ccca-4a84-a6d1-994caa721d8a",
@@ -1361,7 +1361,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/ea08c071-ccca-4a84-a6d1-994caa721d8a",
       "source": "Precalculus, 3rd Edition 3.3.51",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "3eee02f2-aefd-45c3-bb79-ee3580782231",
@@ -1378,7 +1378,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/3eee02f2-aefd-45c3-bb79-ee3580782231",
       "source": "Precalculus, 3rd Edition 3.3.52",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "86fa6ecb-8205-4efe-af29-1bbea9de9172",
@@ -1395,7 +1395,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/86fa6ecb-8205-4efe-af29-1bbea9de9172",
       "source": "Precalculus, 3rd Edition 3.3.53",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "99b4ec5b-4445-4410-a57e-27f7a3b22209",
@@ -1412,7 +1412,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/99b4ec5b-4445-4410-a57e-27f7a3b22209",
       "source": "Precalculus, 3rd Edition 3.3.54",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8b972d48-4787-4d99-8676-51b004e3427b",
@@ -1429,7 +1429,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/8b972d48-4787-4d99-8676-51b004e3427b",
       "source": "Precalculus, 3rd Edition 3.3.56",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "2916984b-adf9-4485-a843-050116fe7b74",
@@ -1446,7 +1446,7 @@
       "tags": "real zeros, real zeroes of a polynomial, solving a polynomial equation, solution of a polynomial equation, polynomial inequality, solving inequalities",
       "url": "/question/2916984b-adf9-4485-a843-050116fe7b74",
       "source": "Precalculus, 3rd Edition 3.3.57",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "7975785f-875b-41d4-aaee-23eaabc71afa",
@@ -1463,7 +1463,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/7975785f-875b-41d4-aaee-23eaabc71afa",
       "source": "Precalculus, 3rd Edition 3.3.6",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "75f486c1-59c4-4220-849b-e9883f755b59",
@@ -1480,7 +1480,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/75f486c1-59c4-4220-849b-e9883f755b59",
       "source": "Precalculus, 3rd Edition 3.3.7",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "61174942-7700-4954-af6e-303556f197cf",
@@ -1497,7 +1497,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/61174942-7700-4954-af6e-303556f197cf",
       "source": "Precalculus, 3rd Edition 3.3.8",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "d259e631-ae0e-47a7-8a65-a4269fa8f790",
@@ -1514,7 +1514,7 @@
       "tags": "zeroes of a polynomial, rational zeros theorem, cauchys bound, descartes rule of signs",
       "url": "/question/d259e631-ae0e-47a7-8a65-a4269fa8f790",
       "source": "Precalculus, 3rd Edition 3.3.9",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8e6cacf9-84ae-4c0c-ab85-e976354ae532",
@@ -1526,12 +1526,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Find and Simplify the Functions",
-      "body": "Use the given complex numbers z and w to find and simplify the following. Write your answers in the form \\( a + bi \\).\n\na. \\( z \u003d 2 + 3i \\), \\( w \u003d 4i \\)\nb. \\( z \u003d 1 + i \\), \\( w \u003d -i \\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10179.png\"/\u003e",
+      "body": "Use the given complex numbers z and w to find and simplify the following. Write your answers in the form \\( a + bi \\).\n\na. \\( z \u003d 2 + 3i \\), \\( w \u003d 4i \\)\nb. \\( z \u003d 1 + i \\), \\( w \u003d -i \\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10179.png\"/\u003e",
       "allAnswers": [],
       "tags": "complex numbers, zeros, fundamental, theorem, algebra, polynomials",
       "url": "/question/8e6cacf9-84ae-4c0c-ab85-e976354ae532",
       "source": "Precalculus, 3rd Edition 3.4.1",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "85f6bb03-0440-4997-865a-58cd9c4cb2aa",
@@ -1548,7 +1548,7 @@
       "tags": "zeros, polynomials, factoring, complex numbers",
       "url": "/question/85f6bb03-0440-4997-865a-58cd9c4cb2aa",
       "source": "Precalculus, 3rd Edition 3.4.10",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "448202a2-d8df-491b-af70-7bf5ca190d86",
@@ -1565,7 +1565,7 @@
       "tags": "zeros, polynomials, factoring, complex numbers",
       "url": "/question/448202a2-d8df-491b-af70-7bf5ca190d86",
       "source": "Precalculus, 3rd Edition 3.4.11",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "023cdace-5058-4d87-8170-4a09d9ca43cd",
@@ -1582,7 +1582,7 @@
       "tags": "zeros, polynomials, factoring, complex numbers",
       "url": "/question/023cdace-5058-4d87-8170-4a09d9ca43cd",
       "source": "Precalculus, 3rd Edition 3.4.12",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "4785b4ab-f77d-4c3f-b829-ab6ead5dbb6b",
@@ -1599,7 +1599,7 @@
       "tags": "zeros, polynomials, factoring, complex numbers",
       "url": "/question/4785b4ab-f77d-4c3f-b829-ab6ead5dbb6b",
       "source": "Precalculus, 3rd Edition 3.4.13",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ffd71cfd-57c2-455c-b8ee-66a515a09ed3",
@@ -1616,7 +1616,7 @@
       "tags": "zeros, polynomials, factoring, complex numbers",
       "url": "/question/ffd71cfd-57c2-455c-b8ee-66a515a09ed3",
       "source": "Precalculus, 3rd Edition 3.4.14",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The notion of limits ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3858.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3859.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3860.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3861.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3862.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3864.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3867.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3868.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3869.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3858.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3859.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3860.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3861.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3862.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3864.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3867.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3868.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3869.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, instantaneous velocity, limit",
       "url": "/text-content/c2a77f2b-0b07-4c34-8ce8-6933995413ca",
       "source": "Forgotten Text 2 1.2",
-      "topic": "Calculus/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits"
     },
     {
       "uuid": "8ef155c9-cbeb-4e03-a7aa-da8cf281608c",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The derivative of a function at a point",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3871.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3873.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3874.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3875.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3876.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3877.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3878.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3871.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3873.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3874.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3875.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3876.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3877.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3878.png\"/\u003e",
       "allAnswers": [],
       "tags": "average rate of change, derivatives, instantaneous rate of change, limits",
       "url": "/text-content/8ef155c9-cbeb-4e03-a7aa-da8cf281608c",
       "source": "Forgotten Text 2 1.3",
-      "topic": "Calculus/Derivatives/Point"
+      "topic": "Calculus/Derivative Calculus/Additional Topics/Point"
     },
     {
       "uuid": "2156d848-93ca-4610-b88c-6dbee5d0b37e",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The derivative function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3879.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3881.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3882.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3883.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3884.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3885.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3879.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3881.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3882.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3883.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3884.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3885.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, derivative function ",
       "url": "/text-content/2156d848-93ca-4610-b88c-6dbee5d0b37e",
       "source": "Forgotten Text 2 1.4",
-      "topic": "Calculus/Derivatives"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "41b16141-d61a-4175-9115-d44ca96865b0",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Interpreting, estimating, and using the derivative ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3886.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3887.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3888.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3889.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3890.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3891.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3892.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3893.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3894.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3895.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3886.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3887.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3888.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3889.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3890.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3891.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3892.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3893.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3894.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3895.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, units of the derivative function, central difference approximation",
       "url": "/text-content/41b16141-d61a-4175-9115-d44ca96865b0",
       "source": "Forgotten Text 2 1.5",
-      "topic": "Calculus/Derivatives"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "f31c3f51-1243-4204-976b-00118ff6ab5a",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The second derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3896.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3897.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3898.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3900.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3901.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3902.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3904.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3905.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3906.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3896.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3897.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3898.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3900.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3901.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3902.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3904.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3905.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3906.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, second derivatives, increasing, decreasing, concavity ",
       "url": "/text-content/f31c3f51-1243-4204-976b-00118ff6ab5a",
       "source": "Forgotten Text 2 1.6",
-      "topic": "Calculus/Derivatives"
+      "topic": "Calculus/Derivative Calculus"
     }
   ],
   "answers": [],

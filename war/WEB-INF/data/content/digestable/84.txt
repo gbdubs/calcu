@@ -188,7 +188,7 @@
       "tags": "word problem quadratic function word problem, quadratic function, hammer throw, time, maximum height, maximization ",
       "url": "/question/6d99839b-9d8c-4d18-aff1-cce842bd5a51",
       "source": "Precalculus, 3rd Edition 2.3.24",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "fe923323-dca4-4d1b-b613-00d695404019",
@@ -205,7 +205,7 @@
       "tags": "quadratic function, domain, maximum height, height, height function",
       "url": "/question/fe923323-dca4-4d1b-b613-00d695404019",
       "source": "Precalculus, 3rd Edition 2.3.25",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "de0bb070-6801-40c8-b738-dda5b5aca845",
@@ -222,7 +222,7 @@
       "tags": "word problem, quadratic function, parabolic, height, finding height ",
       "url": "/question/de0bb070-6801-40c8-b738-dda5b5aca845",
       "source": "Precalculus, 3rd Edition 2.3.26",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "2a74eb08-38d9-4c4d-8d60-c284feb9a52a",
@@ -239,7 +239,7 @@
       "tags": "graph, quadratic function, function, graphing functions",
       "url": "/question/2a74eb08-38d9-4c4d-8d60-c284feb9a52a",
       "source": "Precalculus, 3rd Edition 2.3.27",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "32a54168-dbb2-4a9d-9864-9fdfcfc49979",
@@ -256,7 +256,7 @@
       "tags": "points, line, unit, coordinates, distance, finding points, finding points on a line",
       "url": "/question/32a54168-dbb2-4a9d-9864-9fdfcfc49979",
       "source": "Precalculus, 3rd Edition 2.3.28",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "faf664b9-df25-43f6-acb5-34e5afef2a87",
@@ -273,7 +273,7 @@
       "tags": "line, function, finding function, distance, point",
       "url": "/question/faf664b9-df25-43f6-acb5-34e5afef2a87",
       "source": "Precalculus, 3rd Edition 2.3.29",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "ec1df93d-3f6b-411d-9126-d8868c0cc01a",
@@ -290,7 +290,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, general form, standard form, domain, range, increasing, decreasing, absolute min, absolute max",
       "url": "/question/ec1df93d-3f6b-411d-9126-d8868c0cc01a",
       "source": "Precalculus, 3rd Edition 2.3.3",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "513abda3-6701-41a7-a68b-bde079b4e155",
@@ -307,7 +307,7 @@
       "tags": "quadratic function, real zeros, zeros, vertex, x-coordinate, midpoint",
       "url": "/question/513abda3-6701-41a7-a68b-bde079b4e155",
       "source": "Precalculus, 3rd Edition 2.3.30",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "1e9a4a9c-b11a-49d1-ae89-f1b1f2c29cfd",
@@ -324,7 +324,7 @@
       "tags": "quadratic equation, solving quadratic equation, indicated variable, quadratic",
       "url": "/question/1e9a4a9c-b11a-49d1-ae89-f1b1f2c29cfd",
       "source": "Precalculus, 3rd Edition 2.3.31",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "781050b3-f63b-4632-87ec-3cd71d4596dd",
@@ -341,7 +341,7 @@
       "tags": "quadratic equation, solving quadratic equation, indicated variable, quadratic",
       "url": "/question/781050b3-f63b-4632-87ec-3cd71d4596dd",
       "source": "Precalculus, 3rd Edition 2.3.31",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "5e80863e-1d12-44c7-8abe-5923011130d1",
@@ -358,7 +358,7 @@
       "tags": "quadratic equation, solving quadratic equation, indicated variable, quadratic",
       "url": "/question/5e80863e-1d12-44c7-8abe-5923011130d1",
       "source": "Precalculus, 3rd Edition 2.3.33",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "86688feb-5dba-4f2d-aee2-f5a2648bf5d3",
@@ -375,7 +375,7 @@
       "tags": "quadratic equation, solving quadratic equation, indicated variable, quadratic",
       "url": "/question/86688feb-5dba-4f2d-aee2-f5a2648bf5d3",
       "source": "Precalculus, 3rd Edition 2.3.34",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "f1986125-3008-4cd5-a5a8-01a02a5d9ed4",
@@ -392,7 +392,7 @@
       "tags": "quadratic equation, solving quadratic equation, indicated variable, quadratic",
       "url": "/question/f1986125-3008-4cd5-a5a8-01a02a5d9ed4",
       "source": "Precalculus, 3rd Edition 2.3.35",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "b687af4e-73f1-4568-8535-6cf0c94fbc84",
@@ -409,7 +409,7 @@
       "tags": "quadratic equation, solving quadratic equation, indicated variable, quadratic",
       "url": "/question/b687af4e-73f1-4568-8535-6cf0c94fbc84",
       "source": "Precalculus, 3rd Edition 2.3.36",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "7c6bb1d3-7162-4505-96e2-b14828eb45ec",
@@ -426,7 +426,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, standard form, general form, domain, range, increasing, decreasing, absolute min, absolute max",
       "url": "/question/7c6bb1d3-7162-4505-96e2-b14828eb45ec",
       "source": "Precalculus, 3rd Edition 2.3.4",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "2003ae70-6239-4f3d-8d58-fcbd86f18cb2",
@@ -443,7 +443,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, domain, range, general form, standard form, increasing, decreasing, absolute min, absolute max",
       "url": "/question/2003ae70-6239-4f3d-8d58-fcbd86f18cb2",
       "source": "Precalculus, 3rd Edition 2.3.5",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "7cfb3394-4f42-4895-916a-182798b11a32",
@@ -460,7 +460,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, domain, range, absolute max, absolute min, general form, standard form, increasing, decreasing",
       "url": "/question/7cfb3394-4f42-4895-916a-182798b11a32",
       "source": "Precalculus, 3rd Edition 2.3.6",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "af0f5561-1d69-47d1-ab76-3114b6afe51a",
@@ -477,7 +477,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, general form, standard form, domain, range, increasing, decreasing, absolute max, absolute min",
       "url": "/question/af0f5561-1d69-47d1-ab76-3114b6afe51a",
       "source": "Precalculus, 3rd Edition 2.3.7",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "6ce0b721-4d5b-4cf9-a99e-c8ba9623bcfb",
@@ -494,7 +494,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, general form, standard form, domain, range, increasing, decreasing, absolute max, absolute min",
       "url": "/question/6ce0b721-4d5b-4cf9-a99e-c8ba9623bcfb",
       "source": "Precalculus, 3rd Edition 2.3.8",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "eda9fc3c-3353-4f3e-b573-7e9d378b209e",
@@ -511,7 +511,7 @@
       "tags": "quadratic function, x-intercept, y-intercept, general form, standard form, domain, range, increasing, decreasing, absolute min, absolute max",
       "url": "/question/eda9fc3c-3353-4f3e-b573-7e9d378b209e",
       "source": "Precalculus, 3rd Edition 2.3.9",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "042e42b0-8e22-493a-9d65-270d55af2b3d",
@@ -528,7 +528,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/042e42b0-8e22-493a-9d65-270d55af2b3d",
       "source": "Precalculus, 3rd Edition 2.4.1",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "2e6385d8-d73e-4543-847f-a2fb038fa427",
@@ -545,7 +545,7 @@
       "tags": "inequality, word problem, inequality word problem, quadratic function, cost",
       "url": "/question/2e6385d8-d73e-4543-847f-a2fb038fa427",
       "source": "Precalculus, 3rd Edition 2.4.10",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "06b3adff-906e-4860-b603-6e301cf43a29",
@@ -562,7 +562,7 @@
       "tags": "word problem, inequality, domain, quadratic function, temperature",
       "url": "/question/06b3adff-906e-4860-b603-6e301cf43a29",
       "source": "Precalculus, 3rd Edition 2.4.11",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions"
+      "topic": "Pre-Calculus/Algebra Review"
     },
     {
       "uuid": "c818420e-69ca-4d61-a12c-4f87ecaea26a",
@@ -579,7 +579,7 @@
       "tags": "word problem, inequality, quadratic function, height, rocket ",
       "url": "/question/c818420e-69ca-4d61-a12c-4f87ecaea26a",
       "source": "Precalculus, 3rd Edition 2.4.12",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "1f8f1297-a4f8-4bff-8265-e8912b4baeeb",
@@ -596,7 +596,7 @@
       "tags": "word problem, initial velocity, time, slingshot",
       "url": "/question/1f8f1297-a4f8-4bff-8265-e8912b4baeeb",
       "source": "Precalculus, 3rd Edition 2.4.13",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "b97d38cf-84e8-4f22-91b7-c4263c92f646",
@@ -613,7 +613,7 @@
       "tags": "temperature, conversion, Fahrenheit to Celsius",
       "url": "/question/b97d38cf-84e8-4f22-91b7-c4263c92f646",
       "source": "Precalculus, 3rd Edition 2.4.14",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "8a6dd880-3605-45cf-9ed2-9a692648e84c",
@@ -630,7 +630,7 @@
       "tags": "inequality, absolute values, real numbers, units, solving inequalities ",
       "url": "/question/8a6dd880-3605-45cf-9ed2-9a692648e84c",
       "source": "Precalculus, 3rd Edition 2.4.15",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "97b30916-a0f5-4430-8929-fde812a8c199",
@@ -647,7 +647,7 @@
       "tags": "inequality, absolute values, real numbers, units, solving inequalities ",
       "url": "/question/97b30916-a0f5-4430-8929-fde812a8c199",
       "source": "Precalculus, 3rd Edition 2.4.16",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "4d9714f3-f94e-450e-919a-e773af6c3421",
@@ -664,7 +664,7 @@
       "tags": "inequality, absolute values, real numbers, units, solving inequalities ",
       "url": "/question/4d9714f3-f94e-450e-919a-e773af6c3421",
       "source": "Precalculus, 3rd Edition 2.4.17",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "e8d1c079-5a81-4d88-bfa9-94cc6358fff5",
@@ -681,7 +681,7 @@
       "tags": "inequality, absolute values, real numbers, units, solving inequalities ",
       "url": "/question/e8d1c079-5a81-4d88-bfa9-94cc6358fff5",
       "source": "Precalculus, 3rd Edition 2.4.18",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "c93e4e4a-db1c-445e-9774-44f9216eada0",
@@ -698,7 +698,7 @@
       "tags": "inequality, surface area, cube, surface area of a cube, word problem, interval notation",
       "url": "/question/c93e4e4a-db1c-445e-9774-44f9216eada0",
       "source": "Precalculus, 3rd Edition 2.4.19",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "2023ec3c-56eb-4495-b14e-4615758a1068",
@@ -715,7 +715,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/2023ec3c-56eb-4495-b14e-4615758a1068",
       "source": "Precalculus, 3rd Edition 2.4.2",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "a33f617b-cad4-4eb0-8cd2-360a9e290fc2",
@@ -732,7 +732,7 @@
       "tags": "function, real number, inequality, algebra, graph",
       "url": "/question/a33f617b-cad4-4eb0-8cd2-360a9e290fc2",
       "source": "Precalculus, 3rd Edition 2.4.20",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "18ce3996-e1c1-4683-977f-826b48a1f24c",
@@ -749,7 +749,7 @@
       "tags": "graph, relation, inequality, interval notation, sketch",
       "url": "/question/18ce3996-e1c1-4683-977f-826b48a1f24c",
       "source": "Precalculus, 3rd Edition 2.4.21",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "0c249366-d4e4-431f-9835-84663d9cb695",
@@ -766,7 +766,7 @@
       "tags": "graph, relation, inequality, interval notation, sketch",
       "url": "/question/0c249366-d4e4-431f-9835-84663d9cb695",
       "source": "Precalculus, 3rd Edition 2.4.22",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "586a06a4-2c6d-4a49-ada3-391357be7e09",
@@ -783,7 +783,7 @@
       "tags": "graph, relation, inequality, interval notation, sketch",
       "url": "/question/586a06a4-2c6d-4a49-ada3-391357be7e09",
       "source": "Precalculus, 3rd Edition 2.4.23",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "e0d050aa-bb5c-47bb-ba2b-fe2305970696",
@@ -800,7 +800,7 @@
       "tags": "graph, relation, inequality, interval notation, sketch",
       "url": "/question/e0d050aa-bb5c-47bb-ba2b-fe2305970696",
       "source": "Precalculus, 3rd Edition 2.4.24",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     }
   ],
   "textContent": [
@@ -819,7 +819,7 @@
       "tags": "sequences, Fibonacci Sequence",
       "url": "/text-content/c6caf4f0-9441-4d9f-b7e6-5237b1afdd7a",
       "source": "Forgotten Text 1 9.1",
-      "topic": "Algebra/Sequences and the Binomial Theorem"
+      "topic": "Algebra/Sequences/The Binomial Theorem"
     },
     {
       "uuid": "e27b80f7-72d1-4425-b205-e5db0e6dc8e5",
@@ -836,7 +836,7 @@
       "tags": "Summation, Summation Notation ",
       "url": "/text-content/e27b80f7-72d1-4425-b205-e5db0e6dc8e5",
       "source": "Forgotten Text 1 9.2",
-      "topic": "Algebra/Sequences and Binomial Theorem"
+      "topic": "Algebra/Sequences/The Binomial Theorem"
     }
   ],
   "answers": [],

@@ -239,7 +239,7 @@
       "tags": "word problem, geometry word problem, distance formula, line segment, endpoints, horizontal line, vertical line",
       "url": "/question/007fb242-2ac9-4a07-934b-915ee6a0c904",
       "source": "Amsco Geometry Textbook 12.10.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "b2ca206f-ce6f-4ac6-a101-8861a7a8f5c1",
@@ -579,7 +579,7 @@
       "tags": "midpoints, line segments, word problem, divide segments proportionally ",
       "url": "/question/7e015367-71eb-49c1-8d21-848015caf52f",
       "source": "Amsco Geometry Textbook 12.2.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "7ade19ef-b947-457e-8ce1-ed7e6b7994a8",
@@ -596,7 +596,7 @@
       "tags": "theorem 12.3b, ratio, line segment, corresponding lengths, divided proportionally",
       "url": "/question/7ade19ef-b947-457e-8ce1-ed7e6b7994a8",
       "source": "Amsco Geometry Textbook 12.2.10",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "8a813b05-3c99-4ffb-8438-45accd352547",
@@ -613,7 +613,7 @@
       "tags": "midpoints, quadrilateral, proof, geometry proof, parallelogram",
       "url": "/question/8a813b05-3c99-4ffb-8438-45accd352547",
       "source": "Amsco Geometry Textbook 12.2.11",
-      "topic": "Geometry/Polygons/Parallelograms"
+      "topic": "Geometry/Polygons/Quadrilaterals/Parallelograms"
     },
     {
       "uuid": "31915ca1-f3a4-4d3a-b192-bd3c53170bc6",
@@ -630,7 +630,7 @@
       "tags": "ratio, word problem, geometry word problem, line segment",
       "url": "/question/31915ca1-f3a4-4d3a-b192-bd3c53170bc6",
       "source": "Amsco Geometry Textbook 12.2.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "8d8af575-4afd-4db3-9b90-5baa3c29e524",
@@ -647,7 +647,7 @@
       "tags": "multi-problem, midpoint, ratio, angle",
       "url": "/question/8d8af575-4afd-4db3-9b90-5baa3c29e524",
       "source": "Amsco Geometry Textbook 12.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "a520eef3-c2f4-4cdc-8a88-02bd60c7f56b",
@@ -664,7 +664,7 @@
       "tags": "multi-problem, midpoint, ratio, angle",
       "url": "/question/a520eef3-c2f4-4cdc-8a88-02bd60c7f56b",
       "source": "Amsco Geometry Textbook 12.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "5df80f17-fdb4-4a16-86f5-f9097135b1b1",
@@ -681,7 +681,7 @@
       "tags": "rectangle, line segment, midpoint, diagonal, length of diagonal",
       "url": "/question/5df80f17-fdb4-4a16-86f5-f9097135b1b1",
       "source": "Amsco Geometry Textbook 12.2.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "10d61b65-16f4-482e-8a38-fe30337cc511",
@@ -698,7 +698,7 @@
       "tags": "line segments, proportional, divide proportionally, multi-problem",
       "url": "/question/10d61b65-16f4-482e-8a38-fe30337cc511",
       "source": "Amsco Geometry Textbook 12.2.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "10f6b89c-1d71-4cdd-86d0-43e8a7a68ced",
@@ -715,7 +715,7 @@
       "tags": "line segment, ratio, multi-problem, divided line segment",
       "url": "/question/10f6b89c-1d71-4cdd-86d0-43e8a7a68ced",
       "source": "Amsco Geometry Textbook 12.2.6",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "2023e13e-b4af-404e-b052-477c2a117531",
@@ -732,7 +732,7 @@
       "tags": "line segment, ratio, divided line segment",
       "url": "/question/2023e13e-b4af-404e-b052-477c2a117531",
       "source": "Amsco Geometry Textbook 12.2.7",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "dbf0c1be-efed-48ad-95be-b9fd3732d3a6",
@@ -749,7 +749,7 @@
       "tags": "right triangle, midpoint, hypotenuse, quadrilateral, rectangle",
       "url": "/question/dbf0c1be-efed-48ad-95be-b9fd3732d3a6",
       "source": "Amsco Geometry Textbook 12.2.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "a7847ab0-d949-421d-9a52-bdd6ff262c6f",
@@ -766,7 +766,7 @@
       "tags": "midpoint, quadrilateral, parallelogram, perimeter, triangle",
       "url": "/question/a7847ab0-d949-421d-9a52-bdd6ff262c6f",
       "source": "Amsco Geometry Textbook 12.2.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "6f46d8fd-0250-4a38-8cce-957db11c25fe",
@@ -783,7 +783,7 @@
       "tags": "right triangle, midpoint, hypotenuse, point, rectangle, vertices, equidistant ",
       "url": "/question/6f46d8fd-0250-4a38-8cce-957db11c25fe",
       "source": "Amsco Geometry Textbook 12.2.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "9d87ae08-055f-44f5-b207-27b525d9d3ac",
@@ -800,7 +800,7 @@
       "tags": "squares, word problem, geometry word problem, polygons",
       "url": "/question/9d87ae08-055f-44f5-b207-27b525d9d3ac",
       "source": "Amsco Geometry Textbook 12.3.1",
-      "topic": "Geometry/Polygons/Squares"
+      "topic": "Geometry/Polygons/Quadrilaterals/Squares"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Adding and Subtracting Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30027.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30029.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30027.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30029.png\"/\u003e",
       "allAnswers": [],
       "tags": "sum of two angles, difference of two angles, angle arithmetic, angle math",
       "url": "/text-content/d5606138-9792-4397-9565-95822f72fde7",
       "source": "Amsco Geometry Textbook 1.6.3",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "847a1c49-344b-47b0-a3e7-d6812962bd08",
@@ -836,7 +836,7 @@
       "tags": "polygon, triangle, polygons, triangles, included sides, included angles, opposite side, opposite angle, geometry",
       "url": "/text-content/847a1c49-344b-47b0-a3e7-d6812962bd08",
       "source": "Amsco Geometry Textbook 1.7.1",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     }
   ],
   "answers": [],

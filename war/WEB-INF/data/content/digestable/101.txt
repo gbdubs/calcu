@@ -358,7 +358,7 @@
       "tags": "l\u0027hopital\u0027s rule, l\u0027H, word problem",
       "url": "/question/feeebd0f-7435-44c1-bd49-82d2446f0296",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L’Hopital’s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "65c48bb8-f45d-4752-8fc8-5e8a224521fe",
@@ -375,7 +375,7 @@
       "tags": "l\u0027hopital\u0027s rule, l\u0027H, word problem",
       "url": "/question/65c48bb8-f45d-4752-8fc8-5e8a224521fe",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L’Hopital’s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "7d150d33-a33d-47de-ba68-8782b80daf9a",
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Direct and Indirect Proofs",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/11.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/10.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/11.png\"/\u003e",
       "allAnswers": [],
       "tags": "direct proofs, indirect proofs, geometric proofs, geometry proofs",
       "url": "/text-content/7f0cf663-ebf2-42aa-9345-065555842fc0",
       "source": "Amsco Geometry Textbook 3.4",
-      "topic": "Geometry/Logic/Proofs"
+      "topic": "Geometry/Other Topics/Logic/Proofs"
     },
     {
       "uuid": "5bf28872-969f-4126-b77d-5497d7b499aa",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Postulates, Theorems, and Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/17.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/18.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/19.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/17.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/18.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/19.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/20.png\"/\u003e",
       "allAnswers": [],
       "tags": "postulates, geometric theorems, geometry proof, geometric proofs",
       "url": "/text-content/5bf28872-969f-4126-b77d-5497d7b499aa",
       "source": "Amsco Geometry Textbook 3.5",
-      "topic": "Geometry/Logic/Postulates and Theorems"
+      "topic": "Geometry/Other Topics/Logic/Postulates and Theorems"
     },
     {
       "uuid": "d5a9b5ab-ff3d-4e31-8719-5f30ce1089df",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Substitution Postulate",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/22.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/23.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/22.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/23.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
       "allAnswers": [],
       "tags": "substitution postulate",
       "url": "/text-content/d5a9b5ab-ff3d-4e31-8719-5f30ce1089df",
       "source": "Amsco Geometry Textbook 3.6",
-      "topic": "Geometry/Inequalities/Inequalities in Triangles"
+      "topic": "Geometry/Other Topics/Inequalities/Inequalities in Triangles"
     },
     {
       "uuid": "632705d4-e1ca-462b-8875-370957772b29",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Addition and Subtraction Postulates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/25.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/26.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/27.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/28.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/29.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/25.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/26.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/27.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/28.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/29.png\"/\u003e",
       "allAnswers": [],
       "tags": "addition postulates, subtraction postulates, postulates",
       "url": "/text-content/632705d4-e1ca-462b-8875-370957772b29",
       "source": "Amsco Geometry Textbook 3.7",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "342a3b38-23d7-4727-b2e4-f0be7c96a568",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Multiplication and Division Postulates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/31.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/32.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/31.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/32.png\"/\u003e",
       "allAnswers": [],
       "tags": "multiplication postulates, division postulates, postulates, root postulates",
       "url": "/text-content/342a3b38-23d7-4727-b2e4-f0be7c96a568",
       "source": "Amsco Geometry Textbook 3.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Arc and Chords"
+      "topic": "Geometry/Points Lines Planes + Angles/Arc and Chords"
     }
   ],
   "answers": [],

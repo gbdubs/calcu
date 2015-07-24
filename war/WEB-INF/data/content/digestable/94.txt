@@ -17,7 +17,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/practice-problem/2ec8c72d-e0d3-481b-b6e0-1ad21245ac2d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "authorSolution": " \\(1\\) ,  \\(\\dfrac1e\\) ",
@@ -35,7 +35,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/f4dacd2b-fa3c-4c01-b080-85fbef3db1d4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(4\\) ",
@@ -53,7 +53,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/b128713c-d741-4329-8370-ff26200d0105",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(\\dfrac29\\) ,  \\(-\\dfrac19\\) ",
@@ -71,7 +71,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/de423f85-1cc5-4d98-8c84-a3ba4fefae3a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(2\\) ,  \\(3\\) ",
@@ -89,7 +89,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/d720a6e9-773e-4c01-8f9d-b477074df67f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(9\\) ",
@@ -107,7 +107,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/34b51039-3a03-4a52-9653-72945200fc59",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(-6\\) ,  \\(-1\\) ,  \\(-2\\) ,  \\(8\\) ",
@@ -125,7 +125,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/33964d93-136d-4a0d-89c5-cc0f6fc99f16",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(70\\) ,  \\(4\\) ",
@@ -143,7 +143,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/66fe8d77-4574-4f19-8a0a-64a301a384c6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(2\\) ,  \\(3\\) ,  \\(7\\) ",
@@ -161,7 +161,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/e8ea8632-eaaa-4d92-9d08-7c5ef2528efd",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "authorSolution": " \\(5\\) ",
@@ -179,7 +179,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/practice-problem/1a4c0d6d-5651-4587-a283-ccea35929756",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     }
   ],
   "questions": [
@@ -198,7 +198,7 @@
       "tags": "arc length, interval, function",
       "url": "/question/5d52d45a-a1c5-4fe9-b30e-a2f1f210d9f9",
       "source": "Mooculus 15.2.3",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "37d7b932-44dd-4848-9c41-ddd1893ed523",
@@ -215,7 +215,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/37d7b932-44dd-4848-9c41-ddd1893ed523",
       "source": "Mooculus 11.1.10",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "60eb4748-4fd8-41b1-926c-255e5ffde8b0",
@@ -232,7 +232,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/60eb4748-4fd8-41b1-926c-255e5ffde8b0",
       "source": "Mooculus 11.1.11",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "446b5afc-cce6-4dc4-994e-02f905a427de",
@@ -249,7 +249,7 @@
       "tags": "arc length, function, inteval",
       "url": "/question/446b5afc-cce6-4dc4-994e-02f905a427de",
       "source": "Mooculus 15.2.4",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "0320d3fa-f5e2-4b8e-84e7-943f131ba9af",
@@ -266,7 +266,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/0320d3fa-f5e2-4b8e-84e7-943f131ba9af",
       "source": "Mooculus 11.1.12",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "229be670-f125-4e25-a014-cf9ba85a7f6b",
@@ -283,7 +283,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/229be670-f125-4e25-a014-cf9ba85a7f6b",
       "source": "Mooculus 11.1.13",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "61afb86a-586b-46c4-9378-f5f04fc8bbf9",
@@ -300,7 +300,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/61afb86a-586b-46c4-9378-f5f04fc8bbf9",
       "source": "Mooculus 11.1.14",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "28f0a24f-2879-426a-9f6b-3c09ee7a3499",
@@ -317,7 +317,7 @@
       "tags": "arc length, integral, interval",
       "url": "/question/28f0a24f-2879-426a-9f6b-3c09ee7a3499",
       "source": "Mooculus 15.2.5",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "009fa8d0-a8f5-4cba-b32d-538f0cd7c595",
@@ -334,7 +334,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/009fa8d0-a8f5-4cba-b32d-538f0cd7c595",
       "source": "Mooculus 11.1.15",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "6f862354-0f34-413c-aff0-03e425028646",
@@ -351,7 +351,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/6f862354-0f34-413c-aff0-03e425028646",
       "source": "Mooculus 11.1.16",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "ebf2d2c7-147a-4e3e-88d2-82dcb04c7e0c",
@@ -368,7 +368,7 @@
       "tags": "arc length, integral, interval",
       "url": "/question/ebf2d2c7-147a-4e3e-88d2-82dcb04c7e0c",
       "source": "Mooculus 15.2.6",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "d2e7b082-12ed-4039-81ba-493f1e5f3b4a",
@@ -385,7 +385,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/d2e7b082-12ed-4039-81ba-493f1e5f3b4a",
       "source": "Mooculus 11.1.17",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "79163013-18cf-491c-b28c-ce340cc19401",
@@ -402,7 +402,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/79163013-18cf-491c-b28c-ce340cc19401",
       "source": "Mooculus 11.1.18",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "6bbd5f23-1149-4786-8311-90ebc7a38f72",
@@ -419,7 +419,7 @@
       "tags": "arc length, interval",
       "url": "/question/6bbd5f23-1149-4786-8311-90ebc7a38f72",
       "source": "Mooculus 15.2.7",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "cca9863b-8dbf-4ef6-9f53-a3572e97bb7b",
@@ -436,7 +436,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/cca9863b-8dbf-4ef6-9f53-a3572e97bb7b",
       "source": "Mooculus 11.1.19",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "bfc9316d-28f3-4291-aff3-cce493074983",
@@ -453,7 +453,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/bfc9316d-28f3-4291-aff3-cce493074983",
       "source": "Mooculus 11.1.20",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "340fee5c-0d61-4374-8df1-8185b67e4348",
@@ -470,7 +470,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/340fee5c-0d61-4374-8df1-8185b67e4348",
       "source": "Mooculus 11.1.21",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "fa6eff3c-3c18-467a-a5f5-e9fc8e95a86d",
@@ -487,7 +487,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/fa6eff3c-3c18-467a-a5f5-e9fc8e95a86d",
       "source": "Mooculus 11.1.22",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "d6d44b94-02cc-4a11-9740-e782e3e200cb",
@@ -504,7 +504,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/d6d44b94-02cc-4a11-9740-e782e3e200cb",
       "source": "Mooculus 11.1.23",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "43587367-3dfb-448c-86c5-0ba908e5ed1b",
@@ -521,7 +521,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/43587367-3dfb-448c-86c5-0ba908e5ed1b",
       "source": "Mooculus 11.1.24",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "1f897029-9361-4651-bd19-a3390fd29a4c",
@@ -538,7 +538,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/1f897029-9361-4651-bd19-a3390fd29a4c",
       "source": "Mooculus 11.1.25",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "fc97e53e-29c8-48d2-b4c0-6ed84353d0ea",
@@ -555,7 +555,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/fc97e53e-29c8-48d2-b4c0-6ed84353d0ea",
       "source": "Mooculus 11.1.26",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "da2239ae-38ea-49ad-8a5b-2312ae3e5263",
@@ -572,7 +572,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/da2239ae-38ea-49ad-8a5b-2312ae3e5263",
       "source": "Mooculus 11.1.27",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "bbc0bf5c-e811-48a3-a2d8-8e2209f78e6d",
@@ -589,7 +589,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/bbc0bf5c-e811-48a3-a2d8-8e2209f78e6d",
       "source": "Mooculus 10.1.28",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "40c01b10-2789-4f0c-ae70-e60dcfbbe5db",
@@ -606,7 +606,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/40c01b10-2789-4f0c-ae70-e60dcfbbe5db",
       "source": "Mooculus 10.1.29",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "4a246a3e-b86b-4116-bbd0-2f58b3f91325",
@@ -623,7 +623,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/4a246a3e-b86b-4116-bbd0-2f58b3f91325",
       "source": "Mooculus 14.1.1",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "18ed662b-6953-4890-93e0-49034614ba1f",
@@ -640,7 +640,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
       "url": "/question/18ed662b-6953-4890-93e0-49034614ba1f",
       "source": "Mooculus 11.1.30",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "41a5b13b-14f3-4caa-8134-7b68e855bf52",
@@ -657,7 +657,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/41a5b13b-14f3-4caa-8134-7b68e855bf52",
       "source": "Mooculus 14.1.2",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "e5872979-4ac8-4fae-a7f6-e6a18ba2ca97",
@@ -674,7 +674,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/e5872979-4ac8-4fae-a7f6-e6a18ba2ca97",
       "source": "Mooculus 14.1.3",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "b239869f-f9c7-412a-8fe8-d268d54aad17",
@@ -691,7 +691,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
       "url": "/question/b239869f-f9c7-412a-8fe8-d268d54aad17",
       "source": "Mooculus 11.2.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "587b0ee4-13f5-4038-af26-e27548a1ed98",
@@ -708,7 +708,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/587b0ee4-13f5-4038-af26-e27548a1ed98",
       "source": "Mooculus 14.1.4",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "01583886-d498-411d-85be-a4302901c5d8",
@@ -725,7 +725,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
       "url": "/question/01583886-d498-411d-85be-a4302901c5d8",
       "source": "Mooculus 11.2.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "c0f06735-e1ff-4a90-9c6a-e46fe6f36c61",
@@ -742,7 +742,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
       "url": "/question/c0f06735-e1ff-4a90-9c6a-e46fe6f36c61",
       "source": "Mooculus 11.2.3",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "934d3f7f-5082-421f-8e7d-97ae0049278e",
@@ -759,7 +759,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/934d3f7f-5082-421f-8e7d-97ae0049278e",
       "source": "Mooculus 14.1.5",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "e5a06042-c151-4c46-a245-23e8c490fb55",
@@ -776,7 +776,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
       "url": "/question/e5a06042-c151-4c46-a245-23e8c490fb55",
       "source": "Mooculus 11.2.4",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "ba7b46cf-174a-4142-b937-b9d14dfa90e7",
@@ -793,7 +793,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
       "url": "/question/ba7b46cf-174a-4142-b937-b9d14dfa90e7",
       "source": "Mooculus 11.2.5",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "9fff87b1-b812-45cc-a4da-fa605487dc46",
@@ -810,7 +810,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/9fff87b1-b812-45cc-a4da-fa605487dc46",
       "source": "Mooculus 14.1.6",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     }
   ],
   "textContent": [
@@ -824,12 +824,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Comparison Tests",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5501.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5502.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5503.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5504.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5505.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5506.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5507.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5508.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5511.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5514.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5515.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5501.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5502.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5503.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5504.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5505.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5506.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5507.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5508.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5511.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5514.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5515.png\"/\u003e",
       "allAnswers": [],
       "tags": "comparison tests, series theorems, limit comparison test, DCT, Hierarchy of Functions",
       "url": "/text-content/297dfa71-1810-4bf5-84ce-3270954600af",
       "source": "Forgotten Text 4 10.3",
-      "topic": "Calculus/Series of Constants/Comparison Tests"
+      "topic": "Calculus/Sequences and Series/Comparison Tests"
     },
     {
       "uuid": "f164a7ba-0792-47b7-b104-a9a466bd9b5f",
@@ -841,12 +841,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Alternating Series and Absolute Convergence",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5516.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5517.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5518.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5519.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5520.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5521.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5522.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5523.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5516.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5517.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5518.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5519.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5520.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5521.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5522.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5523.png\"/\u003e",
       "allAnswers": [],
       "tags": "alternating series, absolute convergence, divergence, series of constants, comparison tests",
       "url": "/text-content/f164a7ba-0792-47b7-b104-a9a466bd9b5f",
       "source": "Forgotten Text 4 10.4",
-      "topic": "Calculus/Series of Constants/Alternating Series and Absolute Convergence"
+      "topic": "Calculus/Sequences and Series/Alternating Series and Absolute Convergence"
     }
   ],
   "answers": [],

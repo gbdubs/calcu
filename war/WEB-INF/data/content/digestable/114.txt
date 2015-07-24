@@ -188,7 +188,7 @@
       "tags": "antiderivatives, derivatives, limits, integrals",
       "url": "/question/b48fa665-d897-4d08-bafd-76a2071b9ac8",
       "source": "Calculus, Early Transcendentals 8.4.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "030048d9-a460-4dd5-9c4c-dc6f33f6450e",
@@ -205,7 +205,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/030048d9-a460-4dd5-9c4c-dc6f33f6450e",
       "source": "Calculus, Early Transcendentals 8.4.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "8ce13368-adcc-4fd4-8e42-1150dcbb396a",
@@ -222,7 +222,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/8ce13368-adcc-4fd4-8e42-1150dcbb396a",
       "source": "Calculus, Early Transcendentals 8.4.3",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "e222f654-46ff-400c-9302-39b897ff1797",
@@ -239,7 +239,7 @@
       "tags": "antiderivatives, derivatives, limits, integrals",
       "url": "/question/e222f654-46ff-400c-9302-39b897ff1797",
       "source": "Calculus, Early Transcendentals 8.4.4",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "9388ab45-71b0-4048-b29e-171b56ba7e10",
@@ -256,7 +256,7 @@
       "tags": "derivatives, antiderivatives, integrals, limits",
       "url": "/question/9388ab45-71b0-4048-b29e-171b56ba7e10",
       "source": "Calculus, Early Transcendentals 8.5.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "59230f13-f693-4d53-b6c6-e4813f4e0bbb",
@@ -273,7 +273,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/59230f13-f693-4d53-b6c6-e4813f4e0bbb",
       "source": "Calculus, Early Transcendentals 8.5.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "675fd1c7-bbb6-47cf-b3d9-6f409d16098a",
@@ -290,7 +290,7 @@
       "tags": "antiderivatives, derivatives, limits, integrals, trapezoid approximation, simpson approximation",
       "url": "/question/675fd1c7-bbb6-47cf-b3d9-6f409d16098a",
       "source": "Calculus, Early Transcendentals 8.6.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "a2babff5-1f9e-4be7-a20f-5c3b9de3d239",
@@ -307,7 +307,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits, trapezoid approximation, simpson approximation",
       "url": "/question/a2babff5-1f9e-4be7-a20f-5c3b9de3d239",
       "source": "Calculus, Early Transcendentals 8.6.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "149a3957-2fef-480e-a7e5-75a4e064d4b9",
@@ -324,7 +324,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/149a3957-2fef-480e-a7e5-75a4e064d4b9",
       "source": "Calculus, Early Transcendentals 8.7.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "3f3d37e3-fb1e-4bd4-8327-518a68e1ca1a",
@@ -341,7 +341,7 @@
       "tags": "antiderivative, integral, derivative, limits",
       "url": "/question/3f3d37e3-fb1e-4bd4-8327-518a68e1ca1a",
       "source": "Calculus, Early Transcendentals 8.7.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "e1364b33-5e42-4f51-9136-be5d3259078f",
@@ -358,7 +358,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/e1364b33-5e42-4f51-9136-be5d3259078f",
       "source": "Calculus, Early Transcendentals 8.7.3",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "6b6dd5ea-1c6a-4eb0-8d51-803686d69e8e",
@@ -375,7 +375,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/6b6dd5ea-1c6a-4eb0-8d51-803686d69e8e",
       "source": "Calculus, Early Transcendentals 8.7.4",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "cb9a52ab-bc31-466c-bc76-43e5523163af",
@@ -392,7 +392,7 @@
       "tags": "antiderivatives, derivatives, integrals, limits",
       "url": "/question/cb9a52ab-bc31-466c-bc76-43e5523163af",
       "source": "Calculus, Early Transcendentals 8.7.5",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "1f78c868-7b8f-4233-a5ce-3dc4cc349c2c",
@@ -409,7 +409,7 @@
       "tags": "antiderivatives, derivatives, limits, integrals",
       "url": "/question/1f78c868-7b8f-4233-a5ce-3dc4cc349c2c",
       "source": "Calculus, Early Transcendentals 8.7.6",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "dac00f8b-b1eb-4f7e-86aa-71777156e594",
@@ -426,7 +426,7 @@
       "tags": "derivatives, antiderivatives, limits, integrals",
       "url": "/question/dac00f8b-b1eb-4f7e-86aa-71777156e594",
       "source": "Calculus, Early Transcendentals 8.7.7",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "c1a3d895-2ddc-423d-89c6-ac2f0526ed21",
@@ -443,7 +443,7 @@
       "tags": "area, curves, area bound by curves, area between curves",
       "url": "/question/c1a3d895-2ddc-423d-89c6-ac2f0526ed21",
       "source": "Calculus, Early Transcendentals 9.1.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "c3e71f6f-2325-4cfe-9039-65fe7cae701f",
@@ -460,7 +460,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/c3e71f6f-2325-4cfe-9039-65fe7cae701f",
       "source": "Calculus, Early Transcendentals 9.1.10",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "9eebd93b-40a5-4ca8-a09f-f5666e77e480",
@@ -477,7 +477,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/9eebd93b-40a5-4ca8-a09f-f5666e77e480",
       "source": "Calculus, Early Transcendentals 9.1.11",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "b76e83ef-8b3c-422b-8456-53c9d7e7fc3e",
@@ -494,7 +494,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/b76e83ef-8b3c-422b-8456-53c9d7e7fc3e",
       "source": "Calculus, Early Transcendentals 9.1.12",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "9951df54-4aba-40df-afc1-033554cceb82",
@@ -511,7 +511,7 @@
       "tags": "hyperbolic function, integral, substitution, u substitution ",
       "url": "/question/9951df54-4aba-40df-afc1-033554cceb82",
       "source": "Calculus, Early Transcendentals 9.1.13",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "7b630468-0567-48bc-bd01-3e8aac24e383",
@@ -528,7 +528,7 @@
       "tags": "hyperbolic functions, sketch, curves, x-y plane",
       "url": "/question/7b630468-0567-48bc-bd01-3e8aac24e383",
       "source": "Calculus, Early Transcendentals 9.1.14",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "92ee7d17-104c-4e22-a2e8-dd788a15d9d7",
@@ -545,7 +545,7 @@
       "tags": "hyperbolic functions, proof, geometry proof, area",
       "url": "/question/92ee7d17-104c-4e22-a2e8-dd788a15d9d7",
       "source": "Calculus, Early Transcendentals 9.1.15",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "bdde9dd6-b884-48d1-a832-b078baf3b647",
@@ -562,7 +562,7 @@
       "tags": "area, curves, area between curve, area bounded by curves",
       "url": "/question/bdde9dd6-b884-48d1-a832-b078baf3b647",
       "source": "Calculus, Early Transcendentals 9.1.2",
-      "topic": "Calculus/Transcendental Functions/Hyperbolic Functions/Hyperbolic Sine"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Hyperbolic Functions/Hyperbolic Sine"
     },
     {
       "uuid": "2f7ec8bd-91a3-4707-a531-21a99399d4d6",
@@ -579,7 +579,7 @@
       "tags": "area, curves, area between curves, area bounded by curves",
       "url": "/question/2f7ec8bd-91a3-4707-a531-21a99399d4d6",
       "source": "Calculus, Early Transcendentals 9.1.3",
-      "topic": "Calculus/Transcendental Functions/Hyperbolic Functions/Hyperbolic Sine"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Hyperbolic Functions/Hyperbolic Sine"
     },
     {
       "uuid": "d7452c39-f1fc-45af-9d6a-10b212dd1d26",
@@ -596,7 +596,7 @@
       "tags": "area, curves, area between curves, area bounded by curves ",
       "url": "/question/d7452c39-f1fc-45af-9d6a-10b212dd1d26",
       "source": "Calculus, Early Transcendentals 9.1.4",
-      "topic": "Calculus/Transcendental Functions/Hyperbolic Functions/Hyperbolic Sine"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Hyperbolic Functions/Hyperbolic Sine"
     },
     {
       "uuid": "8c58f470-4e4b-4138-8254-b0a91b91da51",
@@ -613,7 +613,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/8c58f470-4e4b-4138-8254-b0a91b91da51",
       "source": "Calculus, Early Transcendentals 9.1.5",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "0321f4ac-4a14-4c7b-84c5-2899c4de97d8",
@@ -630,7 +630,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/0321f4ac-4a14-4c7b-84c5-2899c4de97d8",
       "source": "Calculus, Early Transcendentals 9.1.6",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "eb5ff2d8-ce50-4f73-b240-93c6d9c59288",
@@ -647,7 +647,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/eb5ff2d8-ce50-4f73-b240-93c6d9c59288",
       "source": "Calculus, Early Transcendentals 9.1.7",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "b8796674-4b57-498b-af81-023a1d5cee30",
@@ -664,7 +664,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/b8796674-4b57-498b-af81-023a1d5cee30",
       "source": "Calculus, Early Transcendentals 9.1.8",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "c0632b6b-c4dd-4377-a50b-af624545f1bf",
@@ -681,7 +681,7 @@
       "tags": "area, curves, area bounded by curves, area between curves",
       "url": "/question/c0632b6b-c4dd-4377-a50b-af624545f1bf",
       "source": "Calculus, Early Transcendentals 9.1.9",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "d961db05-b404-4ab8-9127-b8bb2f606278",
@@ -698,7 +698,7 @@
       "tags": "area, surface area, surface, rotated around x-axis",
       "url": "/question/d961db05-b404-4ab8-9127-b8bb2f606278",
       "source": "Calculus, Early Transcendentals 9.10.1",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "c6399b58-2a63-41e4-9c6b-ba4f2dbd4033",
@@ -715,7 +715,7 @@
       "tags": "surface area, rotating, function, x-axis",
       "url": "/question/c6399b58-2a63-41e4-9c6b-ba4f2dbd4033",
       "source": "Calculus, Early Transcendentals 9.10.2",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "79bbdc0f-ba16-4740-8cc2-df52f571093a",
@@ -732,7 +732,7 @@
       "tags": "area, surface, surface area, function, x-axis, rotating ",
       "url": "/question/79bbdc0f-ba16-4740-8cc2-df52f571093a",
       "source": "Calculus, Early Transcendentals 9.10.3",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "53cf4970-b264-43c4-8b81-b57bce9c08fe",
@@ -749,7 +749,7 @@
       "tags": "area, surface, surface area, function, x-axis, rotated",
       "url": "/question/53cf4970-b264-43c4-8b81-b57bce9c08fe",
       "source": "Calculus, Early Transcendentals 9.10.4",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "4d6dc4f7-9611-4432-ab74-a3943bd77375",
@@ -766,7 +766,7 @@
       "tags": "surface area, rotating graph, x-axis, Gabriel\u0027s horn, Toricelli\u0027s trumpet, infinite surface area",
       "url": "/question/4d6dc4f7-9611-4432-ab74-a3943bd77375",
       "source": "Calculus, Early Transcendentals 9.10.5",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "0acaa403-19d6-40b0-8fc3-65351dc5a3a5",
@@ -783,7 +783,7 @@
       "tags": "surface area, circle, torus, sketch, y-axis",
       "url": "/question/0acaa403-19d6-40b0-8fc3-65351dc5a3a5",
       "source": "Calculus, Early Transcendentals 9.10.6",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     },
     {
       "uuid": "18efdbbc-dfa0-4c9c-bbf5-2557c2363f95",
@@ -800,7 +800,7 @@
       "tags": "surface area, ellipse, rotated, x-axis, ellipsoid",
       "url": "/question/18efdbbc-dfa0-4c9c-bbf5-2557c2363f95",
       "source": "Calculus, Early Transcendentals 9.10.7",
-      "topic": "Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Slant Height"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Optimization",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/820.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/821.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/822.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/820.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/821.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/822.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, application of derivatives, calc ",
       "url": "/text-content/0548c6d4-08b2-4e23-8a89-0f11d1d177d7",
       "source": "Calculus, Early Transcendentals 6.1",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "901e23e9-d602-4801-b0a6-37dd46d8bc14",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Related Rates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/845.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/846.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/847.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/845.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/846.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/847.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, calc ",
       "url": "/text-content/901e23e9-d602-4801-b0a6-37dd46d8bc14",
       "source": "Calculus, Early Transcendentals 6.2",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     }
   ],
   "answers": [],

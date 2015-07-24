@@ -188,7 +188,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/c067ab82-44ac-4940-8168-d4a8b664d8a1",
       "source": "Calculus, Early Transcendentals 4.5.10",
-      "topic": "Calculus/Transcendental Functions/The Derivative of sin x/Trigonometric Identities"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "40a95815-5ccc-4362-b6a7-854456794519",
@@ -205,7 +205,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/40a95815-5ccc-4362-b6a7-854456794519",
       "source": "Calculus, Early Transcendentals 4.5.11",
-      "topic": "Calculus/Transcendental Functions/The Derivative of sin x/Trigonometric Identities"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "4837f42d-28e6-4c7b-bd92-319ce49426d7",
@@ -222,7 +222,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/4837f42d-28e6-4c7b-bd92-319ce49426d7",
       "source": "Calculus, Early Transcendentals 4.5.12",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "3c36867f-8cca-4d75-9e3e-51d8610b07c9",
@@ -239,7 +239,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/3c36867f-8cca-4d75-9e3e-51d8610b07c9",
       "source": "Calculus, Early Transcendentals 4.5.13",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "02be9e70-bd43-43b1-85d2-29d0fdb22b7d",
@@ -256,7 +256,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/02be9e70-bd43-43b1-85d2-29d0fdb22b7d",
       "source": "Calculus, Early Transcendentals 4.5.14",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "af1f2953-0104-42cc-b34b-1a9c2fa40add",
@@ -273,7 +273,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/af1f2953-0104-42cc-b34b-1a9c2fa40add",
       "source": "Calculus, Early Transcendentals 4.5.15",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "b7db07dc-a314-458b-8432-c98069c395ab",
@@ -290,7 +290,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/b7db07dc-a314-458b-8432-c98069c395ab",
       "source": "Calculus, Early Transcendentals 4.5.16",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "ad286ff2-3381-4e7a-8e0d-ec2d79b9d904",
@@ -307,7 +307,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/ad286ff2-3381-4e7a-8e0d-ec2d79b9d904",
       "source": "Calculus, Early Transcendentals 4.5.17",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "81365c12-baea-4cc9-9073-4516fad52aeb",
@@ -324,7 +324,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/81365c12-baea-4cc9-9073-4516fad52aeb",
       "source": "Calculus, Early Transcendentals 4.5.18",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "f81cd85a-62b9-4c72-8061-d18338916f06",
@@ -341,7 +341,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/f81cd85a-62b9-4c72-8061-d18338916f06",
       "source": "Calculus, Early Transcendentals 4.5.19",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "7a91a8d7-e32f-4ba6-b8c3-b3d201fd9951",
@@ -358,7 +358,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/7a91a8d7-e32f-4ba6-b8c3-b3d201fd9951",
       "source": "Calculus, Early Transcendentals 4.5.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "ab72110c-c39f-4e9b-bb5f-98bdcb6ce271",
@@ -375,7 +375,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/ab72110c-c39f-4e9b-bb5f-98bdcb6ce271",
       "source": "Calculus, Early Transcendentals 4.5.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "3b1193c9-df22-4a2a-92d1-79d3af8f5595",
@@ -392,7 +392,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/3b1193c9-df22-4a2a-92d1-79d3af8f5595",
       "source": "Calculus, Early Transcendentals 4.5.4",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "6ae847a9-8e96-4e73-b8ed-7a368dea8d92",
@@ -409,7 +409,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/6ae847a9-8e96-4e73-b8ed-7a368dea8d92",
       "source": "Calculus, Early Transcendentals 4.5.5",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "c172cdd8-ae44-4171-83ae-94be4f0436b7",
@@ -426,7 +426,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/c172cdd8-ae44-4171-83ae-94be4f0436b7",
       "source": "Calculus, Early Transcendentals 4.5.6",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "7a23ba39-7e3c-4219-8383-3ed3f045a9c2",
@@ -443,7 +443,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/7a23ba39-7e3c-4219-8383-3ed3f045a9c2",
       "source": "Calculus, Early Transcendentals 4.5.7",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "16ac7b8c-2bf7-4df8-98c0-abc90ce8fee4",
@@ -460,7 +460,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule, pythagorean theorem, pythagorean trig identity",
       "url": "/question/16ac7b8c-2bf7-4df8-98c0-abc90ce8fee4",
       "source": "Calculus, Early Transcendentals 4.5.8",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "2ce14447-ccb8-4cb1-97da-5b736654012c",
@@ -477,7 +477,7 @@
       "tags": "trigonometric derivatives, derivatives of trig functions, trig chain rule, trig product rule, trig quotient rule",
       "url": "/question/2ce14447-ccb8-4cb1-97da-5b736654012c",
       "source": "Calculus, Early Transcendentals 4.5.9",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "6536e346-39ba-4738-89b9-cd43aa131d70",
@@ -494,7 +494,7 @@
       "tags": "exponential functions, logarithmic functions, logarithm",
       "url": "/question/6536e346-39ba-4738-89b9-cd43aa131d70",
       "source": "Calculus, Early Transcendentals 4.6.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "515c86fe-f8d5-420e-b371-faaa1ad9182e",
@@ -511,7 +511,7 @@
       "tags": "exponential functions, logarithmic functions, logarithm",
       "url": "/question/515c86fe-f8d5-420e-b371-faaa1ad9182e",
       "source": "Calculus, Early Transcendentals 4.6.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "2f555a8e-9c6e-445e-b383-97fb2e687634",
@@ -528,7 +528,7 @@
       "tags": "exponential functions, logarithmic functions, logarithm",
       "url": "/question/2f555a8e-9c6e-445e-b383-97fb2e687634",
       "source": "Calculus, Early Transcendentals 4.6.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "5b28b95d-4ecc-4cbc-b173-86afc524e749",
@@ -545,7 +545,7 @@
       "tags": "exponential functions, logarithmic functions, logarithm",
       "url": "/question/5b28b95d-4ecc-4cbc-b173-86afc524e749",
       "source": "Calculus, Early Transcendentals 4.6.4",
-      "topic": "Calculus/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
     },
     {
       "uuid": "edb5ca3f-92d7-4ee2-9d8b-12c20aaa5a54",
@@ -562,7 +562,7 @@
       "tags": "exponential functions, logarithmic functions, logarithm",
       "url": "/question/edb5ca3f-92d7-4ee2-9d8b-12c20aaa5a54",
       "source": "Calculus, Early Transcendentals 4.6.5",
-      "topic": "Calculus/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
     },
     {
       "uuid": "50358e9e-486f-431f-95c4-cfeeef8a55e6",
@@ -579,7 +579,7 @@
       "tags": "exponential functions, logarithmic functions, logarithm",
       "url": "/question/50358e9e-486f-431f-95c4-cfeeef8a55e6",
       "source": "Calculus, Early Transcendentals 4.6.6",
-      "topic": "Calculus/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
     },
     {
       "uuid": "4972f6c8-c735-4f01-8f36-847b7cb4a1b7",
@@ -596,7 +596,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/4972f6c8-c735-4f01-8f36-847b7cb4a1b7",
       "source": "Calculus, Early Transcendentals 4.6.7",
-      "topic": "Calculus/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
     },
     {
       "uuid": "ac4705e2-f4fd-47a8-913e-2e99180d1b83",
@@ -613,7 +613,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/ac4705e2-f4fd-47a8-913e-2e99180d1b83",
       "source": "Calculus, Early Transcendentals 4.7.1",
-      "topic": "Calculus/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
     },
     {
       "uuid": "dd4215e9-b221-4f35-a678-a344fd5774a7",
@@ -630,7 +630,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/dd4215e9-b221-4f35-a678-a344fd5774a7",
       "source": "Calculus, Early Transcendentals 4.7.10",
-      "topic": "Calculus/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
+      "topic": "Calculus/Pre-Calculus Review/Transcendental Functions/Exponential and Logarithmic Functions/Inverses"
     },
     {
       "uuid": "dff4b591-7e1f-46ad-b5a1-59c4df77feb9",
@@ -647,7 +647,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/dff4b591-7e1f-46ad-b5a1-59c4df77feb9",
       "source": "Calculus, Early Transcendentals 4.7.11",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "b971bf31-9895-4bfa-8771-1ae9bc5d6ddb",
@@ -664,7 +664,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/b971bf31-9895-4bfa-8771-1ae9bc5d6ddb",
       "source": "Calculus, Early Transcendentals 4.7.12",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "28ffd8c9-d52c-4aaf-b0b4-1caca229a77d",
@@ -681,7 +681,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/28ffd8c9-d52c-4aaf-b0b4-1caca229a77d",
       "source": "Calculus, Early Transcendentals 4.7.13",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "d6a478c0-6770-49f5-8e12-a58c1a5c8957",
@@ -698,7 +698,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/d6a478c0-6770-49f5-8e12-a58c1a5c8957",
       "source": "Calculus, Early Transcendentals 4.7.14",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "68adb94e-573f-42b9-8468-715974637c3f",
@@ -715,7 +715,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/68adb94e-573f-42b9-8468-715974637c3f",
       "source": "Calculus, Early Transcendentals 4.7.15",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "3d78a022-1760-4907-bc5a-152043b3ddca",
@@ -732,7 +732,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/3d78a022-1760-4907-bc5a-152043b3ddca",
       "source": "Calculus, Early Transcendentals 4.7.16",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "9afe5ea0-b731-4145-8790-5ccf64f02c86",
@@ -749,7 +749,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/9afe5ea0-b731-4145-8790-5ccf64f02c86",
       "source": "Calculus, Early Transcendentals 4.7.17",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "0a6edbdc-765d-46e3-8f4d-deecf419d80d",
@@ -766,7 +766,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/0a6edbdc-765d-46e3-8f4d-deecf419d80d",
       "source": "Calculus, Early Transcendentals 4.7.18",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "ee21b777-434e-480b-aa85-8895f414c22f",
@@ -783,7 +783,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/ee21b777-434e-480b-aa85-8895f414c22f",
       "source": "Calculus, Early Transcendentals 4.7.19",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     },
     {
       "uuid": "c924c2c3-c756-44e7-a7ec-bb6be5664e71",
@@ -800,7 +800,7 @@
       "tags": "derivative of logarithmic functions, derivative of exponential, derivatives of complex functions, derivative of a logarithm",
       "url": "/question/c924c2c3-c756-44e7-a7ec-bb6be5664e71",
       "source": "Calculus, Early Transcendentals 4.7.2",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Exponential and Logarithmic Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Product Rule",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/748.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/749.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/748.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/749.png\"/\u003e",
       "allAnswers": [],
       "tags": "product rule, derivatives, calc ",
       "url": "/text-content/fe12635c-7616-4360-987a-4a7a761eca37",
       "source": "Calculus, Early Transcendentals 3.3",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "264d9b51-928f-4abd-97d7-29912154617b",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Quotient Rule ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/750.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/751.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/752.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/750.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/751.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/752.png\"/\u003e",
       "allAnswers": [],
       "tags": "quotient rule, derivatives, calc ",
       "url": "/text-content/264d9b51-928f-4abd-97d7-29912154617b",
       "source": "Calculus, Early Transcendentals 3.4",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     }
   ],
   "answers": [],

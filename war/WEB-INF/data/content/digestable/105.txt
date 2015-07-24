@@ -375,7 +375,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/f988ced2-0160-4084-bfb7-c038c6e58d37",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "495e9c27-7426-4fc9-b110-8969674f0500",
@@ -392,7 +392,7 @@
       "tags": "vector and metric properties of $\\r^n$,, word problem",
       "url": "/question/495e9c27-7426-4fc9-b110-8969674f0500",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "47270c89-069f-4507-93e9-3603ec4a5967",
@@ -409,7 +409,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/47270c89-069f-4507-93e9-3603ec4a5967",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "515a5252-d05b-4a4b-9c71-a90641d2c04e",
@@ -426,7 +426,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/515a5252-d05b-4a4b-9c71-a90641d2c04e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "fa3b4250-abde-45fc-9911-b003ebc5e617",
@@ -443,7 +443,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/fa3b4250-abde-45fc-9911-b003ebc5e617",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "7bcb4d7f-0d00-4c21-ba85-7a0d3b7afb33",
@@ -460,7 +460,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/7bcb4d7f-0d00-4c21-ba85-7a0d3b7afb33",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "a44fb6e3-bfdb-42d8-8d71-f60e91d4834d",
@@ -477,7 +477,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/a44fb6e3-bfdb-42d8-8d71-f60e91d4834d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "91e4d52e-74e8-46ed-a8ec-5db882d28233",
@@ -494,7 +494,7 @@
       "tags": "vector and metric properties of $\\r^n$,",
       "url": "/question/91e4d52e-74e8-46ed-a8ec-5db882d28233",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
     },
     {
       "uuid": "d8eee337-5ffb-490e-8b4b-f69089e926a6",
@@ -511,7 +511,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/d8eee337-5ffb-490e-8b4b-f69089e926a6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "63fdc3b0-d398-4de5-a155-4d71db2613e9",
@@ -528,7 +528,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/63fdc3b0-d398-4de5-a155-4d71db2613e9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "8f238bc8-ab0d-4d47-8bc4-4b12808e9ff3",
@@ -545,7 +545,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/8f238bc8-ab0d-4d47-8bc4-4b12808e9ff3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "50977210-97b2-41a1-ae51-aa6e6d13f591",
@@ -562,7 +562,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/50977210-97b2-41a1-ae51-aa6e6d13f591",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "72fb12d2-c313-40cd-9a58-0525e0d333b4",
@@ -579,7 +579,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/72fb12d2-c313-40cd-9a58-0525e0d333b4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "fa4cdc4f-e458-47d5-9c2a-8c4383b7c070",
@@ -596,7 +596,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/fa4cdc4f-e458-47d5-9c2a-8c4383b7c070",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "bddc7feb-37fb-4aff-9cfd-5047aba19ce7",
@@ -613,7 +613,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/bddc7feb-37fb-4aff-9cfd-5047aba19ce7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "49ba8e77-f61d-4b33-a0f8-22cb52c2323b",
@@ -630,7 +630,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/49ba8e77-f61d-4b33-a0f8-22cb52c2323b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "ad3bc819-9efe-49b1-82e7-367dab264cf7",
@@ -647,7 +647,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/ad3bc819-9efe-49b1-82e7-367dab264cf7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "0f0f671b-8d43-4c81-baeb-f2f94bba9e1c",
@@ -664,7 +664,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/0f0f671b-8d43-4c81-baeb-f2f94bba9e1c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "59757e96-a95e-4380-8e94-c264a59e3355",
@@ -681,7 +681,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/59757e96-a95e-4380-8e94-c264a59e3355",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "a4dcf84b-447f-4f79-801b-52737bd26d59",
@@ -698,7 +698,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/a4dcf84b-447f-4f79-801b-52737bd26d59",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "1514b21d-2065-496e-a9f0-309817dbb9b2",
@@ -715,7 +715,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/1514b21d-2065-496e-a9f0-309817dbb9b2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "7d823f6a-8dad-450e-af41-e9458a52293c",
@@ -732,7 +732,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/7d823f6a-8dad-450e-af41-e9458a52293c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "2f6cfd5f-a7ab-47b8-80ac-eaaf38ebc728",
@@ -749,7 +749,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/2f6cfd5f-a7ab-47b8-80ac-eaaf38ebc728",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "f3dfd19a-7de6-41e4-b3e0-9d1e9acba92e",
@@ -766,7 +766,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/f3dfd19a-7de6-41e4-b3e0-9d1e9acba92e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "bd9933be-5456-4896-a132-bc1b9860d5b6",
@@ -783,7 +783,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/bd9933be-5456-4896-a132-bc1b9860d5b6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "ecea5efa-b0b9-4456-979b-c3bd0d0e132b",
@@ -800,7 +800,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/ecea5efa-b0b9-4456-979b-c3bd0d0e132b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "cf76786a-6179-4ddc-8570-14ea3814cfd0",
@@ -817,7 +817,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/cf76786a-6179-4ddc-8570-14ea3814cfd0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "77ecc7a4-1c3a-437d-8817-ff472de78bc5",
@@ -834,7 +834,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/77ecc7a4-1c3a-437d-8817-ff472de78bc5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "0bed54c6-f442-426d-85d1-039c345f515c",
@@ -851,7 +851,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/0bed54c6-f442-426d-85d1-039c345f515c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "6904b5fc-48b4-4eda-a4aa-4ceea90b022a",
@@ -868,7 +868,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/6904b5fc-48b4-4eda-a4aa-4ceea90b022a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "dc848afa-6012-4e87-8eef-27838505a5a1",
@@ -885,7 +885,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/dc848afa-6012-4e87-8eef-27838505a5a1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "a616e93e-b867-43e0-a524-7a9c8359a250",
@@ -902,7 +902,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/a616e93e-b867-43e0-a524-7a9c8359a250",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "1be7cf02-a0ce-4699-87f2-3a1564c16fce",
@@ -919,7 +919,7 @@
       "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
       "url": "/question/1be7cf02-a0ce-4699-87f2-3a1564c16fce",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Limits/Scalar Fields"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
     },
     {
       "uuid": "3bc69d6e-14d3-4061-bb38-b33ca8c39e16",
@@ -936,7 +936,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/3bc69d6e-14d3-4061-bb38-b33ca8c39e16",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "8865e159-f2e4-4c69-85c8-0be13c42a46b",
@@ -953,7 +953,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/8865e159-f2e4-4c69-85c8-0be13c42a46b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "991e01b0-70bf-45f9-8f61-6ae9a435242f",
@@ -970,7 +970,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/991e01b0-70bf-45f9-8f61-6ae9a435242f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "cabcf9e7-2b8a-48f7-9e80-cfb483aa2e8c",
@@ -987,7 +987,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/cabcf9e7-2b8a-48f7-9e80-cfb483aa2e8c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "cdb693aa-a577-4984-a3c6-4d3a8e5debb1",
@@ -1004,7 +1004,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/cdb693aa-a577-4984-a3c6-4d3a8e5debb1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "1512d21d-dbe6-486d-9f66-d3a65b2dd926",
@@ -1021,7 +1021,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/1512d21d-dbe6-486d-9f66-d3a65b2dd926",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "4b14f8eb-df46-4318-9558-6f268de50fd4",
@@ -1038,7 +1038,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/4b14f8eb-df46-4318-9558-6f268de50fd4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "6bc24f35-fbab-42c6-8820-9fd7e3e332df",
@@ -1055,7 +1055,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/6bc24f35-fbab-42c6-8820-9fd7e3e332df",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "1575371a-7a23-40d6-9c1e-57b019ab8ac8",
@@ -1072,7 +1072,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/1575371a-7a23-40d6-9c1e-57b019ab8ac8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "9463aa97-e18a-4844-b6ec-927b958cc5f3",
@@ -1089,7 +1089,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/9463aa97-e18a-4844-b6ec-927b958cc5f3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "c9a26a8b-5c84-4ae6-b0c3-f183f47fa0e9",
@@ -1106,7 +1106,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/c9a26a8b-5c84-4ae6-b0c3-f183f47fa0e9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "187fee13-57a4-4844-8788-5145e2e536d2",
@@ -1123,7 +1123,7 @@
       "tags": "partial derivatives, partial derivatives ,tangent planes",
       "url": "/question/187fee13-57a4-4844-8788-5145e2e536d2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Partial Derivatives"
+      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
     },
     {
       "uuid": "5564e6d9-e188-401a-af74-5554478663ee",
@@ -1140,7 +1140,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/5564e6d9-e188-401a-af74-5554478663ee",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "c5d60a94-26b1-45d0-a058-8be930e00232",
@@ -1157,7 +1157,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/c5d60a94-26b1-45d0-a058-8be930e00232",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "f31607e8-a00b-4b38-9b41-f3bc25c73980",
@@ -1174,7 +1174,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/f31607e8-a00b-4b38-9b41-f3bc25c73980",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "248f8eb5-557e-4da5-af9d-ea74898f5c78",
@@ -1191,7 +1191,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/248f8eb5-557e-4da5-af9d-ea74898f5c78",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "fea91804-6e3f-4527-9c98-2b4bcdabbd6f",
@@ -1208,7 +1208,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
       "url": "/question/fea91804-6e3f-4527-9c98-2b4bcdabbd6f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "d7325a05-b4a2-4932-a2fa-4af2df61eb68",
@@ -1225,7 +1225,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/d7325a05-b4a2-4932-a2fa-4af2df61eb68",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "08b995c3-d0cc-4d44-8e14-0a6378192682",
@@ -1242,7 +1242,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/08b995c3-d0cc-4d44-8e14-0a6378192682",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "9625e3e4-70cb-4062-838c-711627a9c501",
@@ -1259,7 +1259,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/9625e3e4-70cb-4062-838c-711627a9c501",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "a5d2529d-cc47-401f-8989-5f265a859f4e",
@@ -1276,7 +1276,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/a5d2529d-cc47-401f-8989-5f265a859f4e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "e05acfcc-84bf-4df0-bedd-64f9946e532a",
@@ -1293,7 +1293,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/e05acfcc-84bf-4df0-bedd-64f9946e532a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "b941e50a-da2e-483c-a3eb-64af9541b2e6",
@@ -1310,7 +1310,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
       "url": "/question/b941e50a-da2e-483c-a3eb-64af9541b2e6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "3b870aa8-b21a-4747-875f-8f94b8589356",
@@ -1327,7 +1327,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/3b870aa8-b21a-4747-875f-8f94b8589356",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "0563008c-7801-4d4d-b956-524356456550",
@@ -1344,7 +1344,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/0563008c-7801-4d4d-b956-524356456550",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "5f3acfc2-c017-4244-a6c1-9a1e3dc9d5b0",
@@ -1361,7 +1361,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/5f3acfc2-c017-4244-a6c1-9a1e3dc9d5b0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "534bfaaa-6d08-4f8e-8f59-aded65e82de6",
@@ -1378,7 +1378,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/534bfaaa-6d08-4f8e-8f59-aded65e82de6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "3bd9088b-a3c5-4274-88e5-b03dab864a93",
@@ -1395,7 +1395,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/3bd9088b-a3c5-4274-88e5-b03dab864a93",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "de1c531d-be3b-495f-a0fe-420d7afd7b31",
@@ -1412,7 +1412,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/de1c531d-be3b-495f-a0fe-420d7afd7b31",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "b8955ca0-44fa-48b1-a415-894e76d8077f",
@@ -1429,7 +1429,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
       "url": "/question/b8955ca0-44fa-48b1-a415-894e76d8077f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "2d09bc8e-70e0-4172-957c-1bab7fb0d44c",
@@ -1446,7 +1446,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/2d09bc8e-70e0-4172-957c-1bab7fb0d44c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "05792247-4b64-4a55-921b-d47dd24a4ac4",
@@ -1463,7 +1463,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/05792247-4b64-4a55-921b-d47dd24a4ac4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "d3a6cbd3-d0f9-40ec-be42-137162b595fa",
@@ -1480,7 +1480,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
       "url": "/question/d3a6cbd3-d0f9-40ec-be42-137162b595fa",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "b785becd-f590-4c62-bdab-7ff476a3ff13",
@@ -1497,7 +1497,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
       "url": "/question/b785becd-f590-4c62-bdab-7ff476a3ff13",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "8a98b3a1-6a22-4f6c-9828-ce98aecb3a90",
@@ -1514,7 +1514,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/8a98b3a1-6a22-4f6c-9828-ce98aecb3a90",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "7238a312-cb48-4f04-835d-5544a7ed3b38",
@@ -1531,7 +1531,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/7238a312-cb48-4f04-835d-5544a7ed3b38",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "27197c1b-d220-4011-a18b-847fac3dbe06",
@@ -1548,7 +1548,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/27197c1b-d220-4011-a18b-847fac3dbe06",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "31d1c37a-79ed-45a4-8f4e-2d3aca2771b4",
@@ -1565,7 +1565,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/31d1c37a-79ed-45a4-8f4e-2d3aca2771b4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "dc660f8c-9f19-4925-81cc-8833dc5fd6ee",
@@ -1582,7 +1582,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/dc660f8c-9f19-4925-81cc-8833dc5fd6ee",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "ec4d4615-e2fd-4a60-a007-90b551af2293",
@@ -1599,7 +1599,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/ec4d4615-e2fd-4a60-a007-90b551af2293",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "95c4a3b1-c584-4141-96a1-7ef46946de6c",
@@ -1616,7 +1616,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/95c4a3b1-c584-4141-96a1-7ef46946de6c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The slope of a line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/35.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/36.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/37.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/38.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/35.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/36.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/37.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/38.png\"/\u003e",
       "allAnswers": [],
       "tags": "slope of line, line slope ",
       "url": "/text-content/65f6e6b2-cd7d-4655-98ae-ea3bcf1ffc27",
       "source": "Amsco Geometry Textbook 8.1",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "b56463f6-f276-4ffd-b98d-473232637a75",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The equation of a line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/41.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/42.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/41.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/42.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation of line, line ",
       "url": "/text-content/b56463f6-f276-4ffd-b98d-473232637a75",
       "source": "Amsco Geometry Textbook 8.2",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "f02c834f-5add-4479-bc97-7ce0024031a6",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Midpoint of a line segment",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/46.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/47.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/48.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/49.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/50.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/46.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/47.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/48.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/49.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/50.png\"/\u003e",
       "allAnswers": [],
       "tags": "midpoint, line segment",
       "url": "/text-content/f02c834f-5add-4479-bc97-7ce0024031a6",
       "source": "Amsco Geometry Textbook 8.3",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "8c568909-5d5a-4d85-95c9-aeebdcb7fa9a",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Slopes of perpendicular lines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/55.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/56.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/57.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/58.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/55.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/56.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/57.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/58.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular lines, slope of perpendicular lines ",
       "url": "/text-content/8c568909-5d5a-4d85-95c9-aeebdcb7fa9a",
       "source": "Amsco Geometry Textbook 8.4",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "c2eba211-b702-45f0-b126-cd9ad75af6ae",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Coordinate proof",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/61.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/62.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/61.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/62.png\"/\u003e",
       "allAnswers": [],
       "tags": "coordinates, proof ",
       "url": "/text-content/c2eba211-b702-45f0-b126-cd9ad75af6ae",
       "source": "Amsco Geometry Textbook 8.5",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     }
   ],
   "answers": [],

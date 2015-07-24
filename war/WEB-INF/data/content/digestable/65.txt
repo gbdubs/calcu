@@ -358,7 +358,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/2aeba017-976a-4082-95cb-35480d37edec",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "6a8c38c1-73b7-441d-b9b5-8a4e0162d1da",
@@ -375,7 +375,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/6a8c38c1-73b7-441d-b9b5-8a4e0162d1da",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "13c719c0-5403-4e79-b0fc-498e1cbe31b3",
@@ -392,7 +392,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/13c719c0-5403-4e79-b0fc-498e1cbe31b3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "7a3a3b85-b1fe-4d43-9135-7b496116ca91",
@@ -409,7 +409,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/7a3a3b85-b1fe-4d43-9135-7b496116ca91",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "55ee832e-b894-4d99-b32c-b072b00037b5",
@@ -426,7 +426,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/55ee832e-b894-4d99-b32c-b072b00037b5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "93cacef9-7901-4de2-80ca-2517c0ec3a89",
@@ -443,7 +443,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/93cacef9-7901-4de2-80ca-2517c0ec3a89",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "0ec178aa-1b4c-4764-98eb-0d302b1f7334",
@@ -460,7 +460,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/0ec178aa-1b4c-4764-98eb-0d302b1f7334",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "e49c97f1-974c-4365-9c14-45a74f52f8e2",
@@ -477,7 +477,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/e49c97f1-974c-4365-9c14-45a74f52f8e2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "b7d5276f-fd2f-4a81-9ca3-c2f5ab37a688",
@@ -494,7 +494,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/b7d5276f-fd2f-4a81-9ca3-c2f5ab37a688",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "808b1f97-d5aa-4455-936a-1cff9afce9fc",
@@ -511,7 +511,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/question/808b1f97-d5aa-4455-936a-1cff9afce9fc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "uuid": "ec828bcd-f4ed-42e6-b76a-1381c71c6ba6",
@@ -528,7 +528,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/ec828bcd-f4ed-42e6-b76a-1381c71c6ba6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "ae90c826-1e6e-43e9-b0ef-f1e1c89c5d80",
@@ -545,7 +545,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/ae90c826-1e6e-43e9-b0ef-f1e1c89c5d80",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "0b8e5092-eb52-416c-9be4-dfe934ba6df6",
@@ -562,7 +562,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/0b8e5092-eb52-416c-9be4-dfe934ba6df6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "aa0eb36f-e831-4a63-9f44-047e15109dfd",
@@ -579,7 +579,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/aa0eb36f-e831-4a63-9f44-047e15109dfd",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "7b86a3f3-b15c-4f6f-8d46-976cc4e2ae9f",
@@ -596,7 +596,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/7b86a3f3-b15c-4f6f-8d46-976cc4e2ae9f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "feff77e4-21ae-4da1-8104-69439f057c0c",
@@ -613,7 +613,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/feff77e4-21ae-4da1-8104-69439f057c0c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "87580abf-32a0-41c2-bd06-ac26f1f99ab4",
@@ -630,7 +630,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/87580abf-32a0-41c2-bd06-ac26f1f99ab4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "029936d4-1bc9-4822-bdec-77e9df091658",
@@ -647,7 +647,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/029936d4-1bc9-4822-bdec-77e9df091658",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "ce8f5375-c73c-458d-9f5d-6b41778b226f",
@@ -664,7 +664,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/ce8f5375-c73c-458d-9f5d-6b41778b226f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "e08cb327-c851-428f-9509-34a6b3b77766",
@@ -681,7 +681,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/e08cb327-c851-428f-9509-34a6b3b77766",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "39a592e6-2e8d-433e-92b8-9f0ea7bec205",
@@ -698,7 +698,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/39a592e6-2e8d-433e-92b8-9f0ea7bec205",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "3a839c57-87ea-4495-bba9-d50f2efbd5e9",
@@ -715,7 +715,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/3a839c57-87ea-4495-bba9-d50f2efbd5e9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "30bce2e9-f7dc-4171-9207-5a68cf369bb8",
@@ -732,7 +732,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/30bce2e9-f7dc-4171-9207-5a68cf369bb8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "4085c083-1ac3-42e8-8ee2-a7d5f3a57c19",
@@ -749,7 +749,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/4085c083-1ac3-42e8-8ee2-a7d5f3a57c19",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "e6bd0f6e-c64c-4a40-9f81-1ac0bf9aba2d",
@@ -766,7 +766,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/e6bd0f6e-c64c-4a40-9f81-1ac0bf9aba2d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "6a255d2d-c130-4ef8-a197-8d89c07fbb30",
@@ -783,7 +783,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/6a255d2d-c130-4ef8-a197-8d89c07fbb30",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "79043321-bb72-4560-91e8-b7262be867a6",
@@ -800,7 +800,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/79043321-bb72-4560-91e8-b7262be867a6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "1cafc47a-52b7-4592-a986-94b750923926",
@@ -817,7 +817,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/1cafc47a-52b7-4592-a986-94b750923926",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "bd945215-d80b-4d80-9397-853166a24a9f",
@@ -834,7 +834,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/bd945215-d80b-4d80-9397-853166a24a9f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "28a187a2-fdcb-4986-863d-a815b9f5d45c",
@@ -851,7 +851,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/28a187a2-fdcb-4986-863d-a815b9f5d45c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "076fb9d8-ba08-4564-9595-b75a85eafeff",
@@ -868,7 +868,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/076fb9d8-ba08-4564-9595-b75a85eafeff",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "cfc772d6-778e-408d-9916-c163bf16b589",
@@ -885,7 +885,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/cfc772d6-778e-408d-9916-c163bf16b589",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "3684a0b7-eb5e-4cd3-9b5a-991506263eba",
@@ -902,7 +902,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/3684a0b7-eb5e-4cd3-9b5a-991506263eba",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "69a4d730-aaa2-4eda-8eb1-0ff04bd2bd69",
@@ -919,7 +919,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/69a4d730-aaa2-4eda-8eb1-0ff04bd2bd69",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "bddd7726-8f97-4eed-b7e2-b61bb2663c64",
@@ -936,7 +936,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/bddd7726-8f97-4eed-b7e2-b61bb2663c64",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "0b363223-e16c-4db6-af90-2175155e4c56",
@@ -953,7 +953,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/0b363223-e16c-4db6-af90-2175155e4c56",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "61df06c9-869b-40d7-a05c-3ad67d83dead",
@@ -970,7 +970,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/61df06c9-869b-40d7-a05c-3ad67d83dead",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "15627e74-f455-4c0d-9bb8-c8fc2f1dfe1c",
@@ -987,7 +987,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/15627e74-f455-4c0d-9bb8-c8fc2f1dfe1c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "98392a8f-84e4-41b4-b9cf-94fb9b9046ca",
@@ -1004,7 +1004,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/98392a8f-84e4-41b4-b9cf-94fb9b9046ca",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "f7656101-75b3-414f-a22b-9120f1b269cc",
@@ -1021,7 +1021,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/f7656101-75b3-414f-a22b-9120f1b269cc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "c5f9b6f5-99a0-4e93-9821-5bf0f479d1cc",
@@ -1038,7 +1038,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/c5f9b6f5-99a0-4e93-9821-5bf0f479d1cc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "d4f5d4dc-4543-495b-bf3b-e8cf7c8618a5",
@@ -1055,7 +1055,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/d4f5d4dc-4543-495b-bf3b-e8cf7c8618a5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "3c60ffce-a78f-4817-9304-e2f92e826743",
@@ -1072,7 +1072,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/3c60ffce-a78f-4817-9304-e2f92e826743",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "86daea81-b17a-4b73-98b0-60f8e543f59f",
@@ -1089,7 +1089,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line, word problem",
       "url": "/question/86daea81-b17a-4b73-98b0-60f8e543f59f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "c3d97f1d-fdde-493d-92bc-45ec1f4a1e21",
@@ -1106,7 +1106,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/c3d97f1d-fdde-493d-92bc-45ec1f4a1e21",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "cc3bde2f-566b-4936-8a17-5c0e9d52434f",
@@ -1123,7 +1123,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line, word problem",
       "url": "/question/cc3bde2f-566b-4936-8a17-5c0e9d52434f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "5bd01af1-cfb2-4c27-823d-7eda61b7d8af",
@@ -1140,7 +1140,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/5bd01af1-cfb2-4c27-823d-7eda61b7d8af",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "afd45963-715b-413e-86f2-c5f4cfc2ceb3",
@@ -1157,7 +1157,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line, word problem",
       "url": "/question/afd45963-715b-413e-86f2-c5f4cfc2ceb3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "f844ce02-f684-4a46-9d10-5ca29f7eaa14",
@@ -1174,7 +1174,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/f844ce02-f684-4a46-9d10-5ca29f7eaa14",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "33a5d14e-247a-4454-80d8-520a73744c6c",
@@ -1191,7 +1191,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line, word problem",
       "url": "/question/33a5d14e-247a-4454-80d8-520a73744c6c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "e13df16b-004f-4f70-9c5b-4ee6f43b8fb6",
@@ -1208,7 +1208,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/e13df16b-004f-4f70-9c5b-4ee6f43b8fb6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "e65e9fad-8c1e-4dd3-8590-86b9e30a66ca",
@@ -1225,7 +1225,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/e65e9fad-8c1e-4dd3-8590-86b9e30a66ca",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "2d9d9e78-828d-459e-8d3d-88897814f5e4",
@@ -1242,7 +1242,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/2d9d9e78-828d-459e-8d3d-88897814f5e4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "886e79d4-48ca-4070-9df7-75f3a3dc73e1",
@@ -1259,7 +1259,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/886e79d4-48ca-4070-9df7-75f3a3dc73e1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "4a45fc0f-48d1-49f5-8237-7bfdb4d52cd7",
@@ -1276,7 +1276,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/question/4a45fc0f-48d1-49f5-8237-7bfdb4d52cd7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "a1a83643-632d-436b-9e7b-789e506cc622",
@@ -1293,7 +1293,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line, word problem",
       "url": "/question/a1a83643-632d-436b-9e7b-789e506cc622",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "9970d8b5-ad72-4e49-affb-231be909d0fe",
@@ -1582,7 +1582,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/question/53d802cc-c871-41d4-b344-e9bc2b9e69e5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "uuid": "b232db9d-f92e-4e59-9a5b-c3abbaf09911",
@@ -1599,7 +1599,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/question/b232db9d-f92e-4e59-9a5b-c3abbaf09911",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Coordinates of a Point in a Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20092.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20092.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/text-content/938d858b-37e5-41fb-9d75-4ee7cdb5d463",
       "source": "Amsco Geometry Textbook 6.1",
-      "topic": "Geometry/Inequalities/Inequalities in Triangles"
+      "topic": "Geometry/Other Topics/Inequalities/Inequalities in Triangles"
     },
     {
       "uuid": "0c62d7b3-01fd-4971-94ef-dc9b275a0547",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Line Reflection ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20094.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20098.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20094.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20098.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/text-content/0c62d7b3-01fd-4971-94ef-dc9b275a0547",
       "source": "Amsco Geometry Textbook 6.2",
-      "topic": "Geometry/Inequalities/Inequalities in Triangles"
+      "topic": "Geometry/Other Topics/Inequalities/Inequalities in Triangles"
     },
     {
       "uuid": "231eb3db-e670-4612-ad39-b8160e86b42d",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Line Reflections in the Coordinate Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20103.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20103.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/text-content/231eb3db-e670-4612-ad39-b8160e86b42d",
       "source": "Amsco Geometry Textbook 6.3",
-      "topic": "Geometry/Inequalities/Inequalities in Triangles"
+      "topic": "Geometry/Other Topics/Inequalities/Inequalities in Triangles"
     },
     {
       "uuid": "1b5510c8-72aa-434e-8c1e-e45a4969c540",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Point Reflections in the Coordinate Plane",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20107.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20109.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20107.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20109.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/text-content/1b5510c8-72aa-434e-8c1e-e45a4969c540",
       "source": "Amsco Geometry Textbook 6.4",
-      "topic": "Geometry/Inequalities/Inequalities in Triangles"
+      "topic": "Geometry/Other Topics/Inequalities/Inequalities in Triangles"
     }
   ],
   "answers": [],

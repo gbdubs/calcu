@@ -800,7 +800,7 @@
       "tags": "circle, radius, center, standard form, complete the square, center",
       "url": "/question/c3141dd2-5872-4d4f-b160-92701db4519b",
       "source": "Precalculus, 3rd Edition 7.2.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Using Definite Integrals to Find Volume",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4200.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4201.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4202.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4203.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4204.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4205.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4206.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4207.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4208.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4209.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4210.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4211.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4212.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4213.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4214.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4215.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4219.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4200.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4201.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4202.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4203.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4204.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4205.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4206.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4207.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4208.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4209.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4210.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4211.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4212.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4213.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4214.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4215.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4219.png\"/\u003e",
       "allAnswers": [],
       "tags": "definite integrals, integrals, volume, solids of revolution ",
       "url": "/text-content/4bd9cc88-05e9-44df-b1ad-571490db5dd7",
       "source": "Forgotten Text 2 6.2",
-      "topic": "Calculus/Definite Integrals/Volume"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integrals/Volume"
     },
     {
       "uuid": "44dca977-b93b-4b10-aaaf-826f3a8442a8",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Density, Mass, and Center of Mass",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4220.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4221.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4222.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4223.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4224.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4225.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4226.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4227.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4228.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4229.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4220.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4221.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4222.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4223.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4224.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4225.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4226.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4227.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4228.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4229.png\"/\u003e",
       "allAnswers": [],
       "tags": "density, mass, center of mass, integral, integration ",
       "url": "/text-content/44dca977-b93b-4b10-aaaf-826f3a8442a8",
       "source": "Forgotten Text 2 6.3",
-      "topic": "Calculus/Definite Integrals/Density Mass"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integrals/Density Mass"
     }
   ],
   "answers": [],

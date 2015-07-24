@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4571.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4572.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4571.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4572.png\"/\u003e",
       "uuid": "90caf1b0-cc68-4796-a8b1-bd50e7024107",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Road running north",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4570.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4570.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, derivatives, differentiation, sum rule, product rule",
       "url": "/practice-problem/90caf1b0-cc68-4796-a8b1-bd50e7024107",
       "source": "null 8.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4581.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4582.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4581.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4582.png\"/\u003e",
       "uuid": "b9aa0533-9efe-48ac-8bd8-6a3a281e3a22",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Rectangle with largest area",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4580.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4580.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, derivatives, chain rule, product rule, sum rule, applications of derivatives",
       "url": "/practice-problem/b9aa0533-9efe-48ac-8bd8-6a3a281e3a22",
       "source": "null 9.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4584.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4586.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4584.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4586.png\"/\u003e",
       "uuid": "a7fc13be-259f-4095-a470-7f0f3ddea653",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Cone inside sphere",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4583.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4585.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4583.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4585.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, derivatives, applications of derivatives ",
       "url": "/practice-problem/a7fc13be-259f-4095-a470-7f0f3ddea653",
       "source": "null 9.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4589.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4590.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4589.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4590.png\"/\u003e",
       "uuid": "a5024643-fc7d-4e89-bd10-3bd8670c5e71",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Cylindrical containers",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4587.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4588.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4587.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4588.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, derivatives, applications of derivatives, differentiation",
       "url": "/practice-problem/a5024643-fc7d-4e89-bd10-3bd8670c5e71",
       "source": "null 9.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4594.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4594.png\"/\u003e",
       "uuid": "47eb2a77-6bf5-4872-ac75-f9593debaf67",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Road and bike",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4591.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4592.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4591.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4592.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, derivatives, application of derivatives ",
       "url": "/practice-problem/47eb2a77-6bf5-4872-ac75-f9593debaf67",
       "source": "null 9.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4599.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4599.png\"/\u003e",
       "uuid": "57a9bccf-34d5-4df5-b659-ccd5174ea9ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Using differentials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4598.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4600.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4598.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4600.png\"/\u003e",
       "allAnswers": [],
       "tags": "differentials, linear approximation, derivatives, applications of derivatives",
       "url": "/practice-problem/57a9bccf-34d5-4df5-b659-ccd5174ea9ec",
       "source": "null 10.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4602.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4602.png\"/\u003e",
       "uuid": "2fb52e33-d9b1-49ed-ac23-30338d8d92b5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Use them differentials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4601.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4603.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4601.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4603.png\"/\u003e",
       "allAnswers": [],
       "tags": "differentials, linear approximation, application of derivatives",
       "url": "/practice-problem/2fb52e33-d9b1-49ed-ac23-30338d8d92b5",
       "source": "null 10.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4610.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4610.png\"/\u003e",
       "uuid": "5365034d-64e2-485a-893a-c478b7914be8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Velocity of ball",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4609.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4609.png\"/\u003e",
       "allAnswers": [],
       "tags": "iterative methods, linear approximation, derivative, applications of derivatives ",
       "url": "/practice-problem/5365034d-64e2-485a-893a-c478b7914be8",
       "source": "null 10.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4616.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4616.png\"/\u003e",
       "uuid": "dc5a5698-6dd8-4565-9919-ecc9fa3e7cf2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Toll booth",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4615.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4615.png\"/\u003e",
       "allAnswers": [],
       "tags": "mean value theorem, linear approximation, derivatives, application of derivatives",
       "url": "/practice-problem/dc5a5698-6dd8-4565-9919-ecc9fa3e7cf2",
       "source": "null 10.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4618.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4618.png\"/\u003e",
       "uuid": "b4ea6709-d079-4f46-a221-1953f8cead19",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Different functions, same derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4617.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4617.png\"/\u003e",
       "allAnswers": [],
       "tags": "mean value theorem, functions, linear approximation, derivatives",
       "url": "/practice-problem/b4ea6709-d079-4f46-a221-1953f8cead19",
       "source": "null 10.3.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4620.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4621.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4620.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4621.png\"/\u003e",
       "uuid": "422a35cd-8f4b-4751-b06f-3c79154af33b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Describe derivative sin(x)",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4619.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4619.png\"/\u003e",
       "allAnswers": [],
       "tags": "mean value theorem, linear approximation, derivatives ",
       "url": "/practice-problem/422a35cd-8f4b-4751-b06f-3c79154af33b",
       "source": "null 10.3.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4628.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4628.png\"/\u003e",
       "uuid": "c3d2be56-6247-4d32-9602-ea0370a7f100",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute antiderivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4626.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4626.png\"/\u003e",
       "allAnswers": [],
       "tags": "antiderivatives, integral, integration, indefinite integral",
       "url": "/practice-problem/c3d2be56-6247-4d32-9602-ea0370a7f100",
       "source": "null 11.1.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4631.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4631.png\"/\u003e",
       "uuid": "ff35edc4-5200-46cb-a9be-21a2740b56bf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the indefinite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4630.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4630.png\"/\u003e",
       "allAnswers": [],
       "tags": "antiderivative, integral, indefinite integral, compute integral",
       "url": "/practice-problem/ff35edc4-5200-46cb-a9be-21a2740b56bf",
       "source": "null 11.1.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4634.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4634.png\"/\u003e",
       "uuid": "7886777e-28fc-4407-86ff-63ab48ac4d24",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute yet again the integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4633.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4633.png\"/\u003e",
       "allAnswers": [],
       "tags": "antiderivative, integral, indefinite integral, compute the integral",
       "url": "/practice-problem/7886777e-28fc-4407-86ff-63ab48ac4d24",
       "source": "null 11.1.10"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4637.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4638.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4637.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4638.png\"/\u003e",
       "uuid": "381aad5c-ca6e-4833-b737-2b9bc2d1fe8f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the trig integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4636.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4636.png\"/\u003e",
       "allAnswers": [],
       "tags": "antiderivative, integrals, indefinite integral, trig",
       "url": "/practice-problem/381aad5c-ca6e-4833-b737-2b9bc2d1fe8f",
       "source": "null 11.1.12"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4646.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4646.png\"/\u003e",
       "uuid": "cee7966b-1b2a-446b-9d02-2af5878037fc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "half life of carbon",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4645.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4645.png\"/\u003e",
       "allAnswers": [],
       "tags": "differential equations, integration, antiderivatives",
       "url": "/practice-problem/cee7966b-1b2a-446b-9d02-2af5878037fc",
       "source": "null 11.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4651.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4650.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4651.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4650.png\"/\u003e",
       "uuid": "6a90cbe0-8260-404d-9834-aeec49364772",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Eulers method",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4649.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4649.png\"/\u003e",
       "allAnswers": [],
       "tags": "eulers method, antiderivatives, differential equations ",
       "url": "/practice-problem/6a90cbe0-8260-404d-9834-aeec49364772",
       "source": "null 11.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4653.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4654.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4653.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4654.png\"/\u003e",
       "uuid": "b834ef08-66ef-499a-84c6-8cc3bd31ec5c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Eulers method, 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4652.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4652.png\"/\u003e",
       "allAnswers": [],
       "tags": "eulers method, antiderivatives, differential equations",
       "url": "/practice-problem/b834ef08-66ef-499a-84c6-8cc3bd31ec5c",
       "source": "null 11.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4656.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4657.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4656.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4657.png\"/\u003e",
       "uuid": "f2c8fdd8-736d-4b91-8348-8cbb7a9ad5bb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Eulers method, 3",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4655.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4655.png\"/\u003e",
       "allAnswers": [],
       "tags": "eulers method, differential equations, antiderivatives ",
       "url": "/practice-problem/f2c8fdd8-736d-4b91-8348-8cbb7a9ad5bb",
       "source": "null 11.2.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4666.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4665.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4666.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4665.png\"/\u003e",
       "uuid": "dcd68873-604e-4edd-bd20-ad1767ffabbf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Where increasing and decreasing?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4664.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4664.png\"/\u003e",
       "allAnswers": [],
       "tags": "definite integral, integrals, increasing, decreasing ",
       "url": "/practice-problem/dcd68873-604e-4edd-bd20-ad1767ffabbf",
       "source": "null 12.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4669.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4670.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4669.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4670.png\"/\u003e",
       "uuid": "e4b5013e-ec7e-4729-9572-43b0afeca61f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "F(x) increasing decreasing",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4668.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4668.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, definite integral, increasing, decreasing",
       "url": "/practice-problem/e4b5013e-ec7e-4729-9572-43b0afeca61f",
@@ -375,7 +375,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, graphing",
       "url": "/question/42257588-7d0b-451c-b4f4-31f61c15d114",
       "source": "Active Calc 5.3.5",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "454ee390-579a-4693-a203-177a6ceb36d1",
@@ -392,7 +392,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, graphing",
       "url": "/question/454ee390-579a-4693-a203-177a6ceb36d1",
       "source": "Active Calc 5.3.6",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "c78b150a-0f71-45b3-9dcd-d7efe1b45d8a",
@@ -409,7 +409,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, graphing",
       "url": "/question/c78b150a-0f71-45b3-9dcd-d7efe1b45d8a",
       "source": "Active Calc 5.3.7",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b21f7337-4cd0-493e-8bda-9f1777585896",
@@ -426,7 +426,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/b21f7337-4cd0-493e-8bda-9f1777585896",
       "source": "Active Calc 1.5.12",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "42164475-27e7-4261-bd35-12f76cce5227",
@@ -443,7 +443,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, graphing",
       "url": "/question/42164475-27e7-4261-bd35-12f76cce5227",
       "source": "Active Calc 5.3.8",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "d918836c-6375-456b-bae4-2a0500e5f0b5",
@@ -460,7 +460,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/d918836c-6375-456b-bae4-2a0500e5f0b5",
       "source": "Active Calc 1.5.13",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "0b7c5f31-6589-45bc-8ca9-b96f4cd9e901",
@@ -477,7 +477,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/0b7c5f31-6589-45bc-8ca9-b96f4cd9e901",
       "source": "Active Calc 1.5.14",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "aee53d79-57d4-4dfb-8573-9408502e2940",
@@ -494,7 +494,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, graphing",
       "url": "/question/aee53d79-57d4-4dfb-8573-9408502e2940",
       "source": "Active Calc 5.3.9",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "09ad04bb-6ca8-44ef-9164-2f376ec36f7b",
@@ -511,7 +511,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/09ad04bb-6ca8-44ef-9164-2f376ec36f7b",
       "source": "Active Calc 1.5.15",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "d3ff4bbf-623a-49af-8283-4e7f5270f95e",
@@ -528,7 +528,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/d3ff4bbf-623a-49af-8283-4e7f5270f95e",
       "source": "Active Calc 1.5.16",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "05bdfeb0-fabc-4a6a-aaa3-7e9b4f335b96",
@@ -545,7 +545,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/05bdfeb0-fabc-4a6a-aaa3-7e9b4f335b96",
       "source": "Active Calc 1.5.17",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8d43b807-5924-40cc-baac-cc84350e4c08",
@@ -562,7 +562,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/8d43b807-5924-40cc-baac-cc84350e4c08",
       "source": "Active Calc 1.5.18",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "66c1a575-c986-4855-9abc-9a4ae9eed10d",
@@ -579,7 +579,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/66c1a575-c986-4855-9abc-9a4ae9eed10d",
       "source": "Active Calc 5.3.10",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "0d5f9084-bbd7-46db-a140-7a6ca1f8842b",
@@ -596,7 +596,7 @@
       "tags": "domain, function, function arithmetic ",
       "url": "/question/0d5f9084-bbd7-46db-a140-7a6ca1f8842b",
       "source": "Active Calc 1.5.19",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "95aa6182-f14a-47fd-9251-ecd9057f4017",
@@ -613,7 +613,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/95aa6182-f14a-47fd-9251-ecd9057f4017",
       "source": "Active Calc 5.3.11",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "5d30d9e1-38bb-41bb-b064-594527180a87",
@@ -630,7 +630,7 @@
       "tags": "function, domain, function arithmetic ",
       "url": "/question/5d30d9e1-38bb-41bb-b064-594527180a87",
       "source": "Active Calc 1.5.20",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "717abf3e-f629-4bce-8c05-afb669dacda7",
@@ -647,7 +647,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/717abf3e-f629-4bce-8c05-afb669dacda7",
       "source": "Active Calc 5.3.12",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "78100895-1df2-4336-801f-bb738929e8cf",
@@ -664,7 +664,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/78100895-1df2-4336-801f-bb738929e8cf",
       "source": "Active Calc 5.3.13",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "c47c3665-ccbc-4c55-adc1-8c7a0e8a4bcf",
@@ -681,7 +681,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/c47c3665-ccbc-4c55-adc1-8c7a0e8a4bcf",
       "source": "Active Calc 1.5.21",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "e244ab37-9fac-44b8-b17b-baad7faf6bca",
@@ -698,7 +698,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/e244ab37-9fac-44b8-b17b-baad7faf6bca",
       "source": "Active Calc 1.5.22",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "605c750d-1dd7-47ea-9f4b-1d73f0ed54ad",
@@ -715,7 +715,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/605c750d-1dd7-47ea-9f4b-1d73f0ed54ad",
       "source": "Active Calc 1.5.23",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "db80a19c-543d-4648-9e06-6c4800cc143f",
@@ -732,7 +732,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/db80a19c-543d-4648-9e06-6c4800cc143f",
       "source": "Active Calc 1.5.24",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "860070b7-4551-4562-9401-870f9a792836",
@@ -749,7 +749,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/860070b7-4551-4562-9401-870f9a792836",
       "source": "Active Calc 1.5.25",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9cd1e089-1529-42e0-9717-bab16690341e",
@@ -766,7 +766,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/9cd1e089-1529-42e0-9717-bab16690341e",
       "source": "Active Calc 1.5.26",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "3ed6d398-ce33-4d13-8f9b-9dbcce807522",
@@ -783,7 +783,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/3ed6d398-ce33-4d13-8f9b-9dbcce807522",
       "source": "Active Calc 5.3.14",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "ed137697-4a9c-4289-b06c-b8830fdea699",
@@ -800,7 +800,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/ed137697-4a9c-4289-b06c-b8830fdea699",
       "source": "Active Calc 5.3.15",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "aa3f1c75-1149-43eb-a750-d720a75ea496",
@@ -817,7 +817,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/aa3f1c75-1149-43eb-a750-d720a75ea496",
       "source": "Active Calc 1.5.27",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "3e88d3b6-b0d7-4c09-b17b-61ee505e4f62",
@@ -834,7 +834,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/3e88d3b6-b0d7-4c09-b17b-61ee505e4f62",
       "source": "Active Calc 1.5.28",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "983a4b0e-0bc9-48fa-81a4-b47cd88848fc",
@@ -851,7 +851,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/983a4b0e-0bc9-48fa-81a4-b47cd88848fc",
       "source": "Active Calc 5.3.16",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "15264469-e43e-452e-a8c2-6775e9a3fef1",
@@ -868,7 +868,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/15264469-e43e-452e-a8c2-6775e9a3fef1",
       "source": "Active Calc 1.5.29",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "63c089df-5067-4a82-ac2f-155c7f62c8cc",
@@ -885,7 +885,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/63c089df-5067-4a82-ac2f-155c7f62c8cc",
       "source": "Active Calc 5.3.17",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b0d8e062-98ad-46d2-b9df-31acc9d316ab",
@@ -902,7 +902,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/b0d8e062-98ad-46d2-b9df-31acc9d316ab",
       "source": "Active Calc 5.3.18",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "2b9de10a-9bd9-4c93-adbf-52745edf0926",
@@ -919,7 +919,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/2b9de10a-9bd9-4c93-adbf-52745edf0926",
       "source": "Active Calc 1.5.30",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "5b59c5a5-1f5d-4b77-91c7-989230bc0ef8",
@@ -936,7 +936,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/5b59c5a5-1f5d-4b77-91c7-989230bc0ef8",
       "source": "Active Calc 5.3.19",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "ec344b85-9f19-4049-8a1f-08a0df7eef97",
@@ -953,7 +953,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/ec344b85-9f19-4049-8a1f-08a0df7eef97",
       "source": "Active Calc 1.5.31",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "6f5807f3-9685-4627-9ffe-dc1eab53ca95",
@@ -970,7 +970,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/6f5807f3-9685-4627-9ffe-dc1eab53ca95",
       "source": "Active Calc 1.5.32",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "ec04ba7f-4450-48f8-a414-4edf08bbc2ee",
@@ -987,7 +987,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/ec04ba7f-4450-48f8-a414-4edf08bbc2ee",
       "source": "Active Calc 5.3.20",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "d466a17f-50fe-4847-a98a-10b82181d7f3",
@@ -1004,7 +1004,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/d466a17f-50fe-4847-a98a-10b82181d7f3",
       "source": "Active Calc 1.5.33",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "4a379e2e-67ac-4a99-97ab-af524f8769a6",
@@ -1021,7 +1021,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/4a379e2e-67ac-4a99-97ab-af524f8769a6",
       "source": "Active Calc 5.3.21",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8a046f59-fce7-4081-89ed-24e7e2edc046",
@@ -1038,7 +1038,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/8a046f59-fce7-4081-89ed-24e7e2edc046",
       "source": "Active Calc 5.3.22",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "03459f08-7e62-4ad0-89e3-65dda29e8a37",
@@ -1055,7 +1055,7 @@
       "tags": "function, difference quotient, function arithmetic ",
       "url": "/question/03459f08-7e62-4ad0-89e3-65dda29e8a37",
       "source": "Active Calc 1.5.34",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b48d5a24-b5e8-424e-a8d4-d5036deda771",
@@ -1072,7 +1072,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/b48d5a24-b5e8-424e-a8d4-d5036deda771",
       "source": "Active Calc 1.5.35",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "977df4f3-d049-4fc3-8099-3790511dbb2b",
@@ -1089,7 +1089,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/977df4f3-d049-4fc3-8099-3790511dbb2b",
       "source": "Active Calc 1.5.36",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "ed222d5f-75a3-46b6-852b-c8aba072646c",
@@ -1106,7 +1106,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/ed222d5f-75a3-46b6-852b-c8aba072646c",
       "source": "Active Calc 1.5.37",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8b0841a1-0ed1-4872-bea0-439e4b593439",
@@ -1123,7 +1123,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/8b0841a1-0ed1-4872-bea0-439e4b593439",
       "source": "Active Calc 1.5.38",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "2f71293f-3771-4d4f-b402-28ca9a13116d",
@@ -1140,7 +1140,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/2f71293f-3771-4d4f-b402-28ca9a13116d",
       "source": "Active Calc 5.3.23",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "0641bbea-9a37-4cf7-be3c-9e3c9bf76dfa",
@@ -1157,7 +1157,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/0641bbea-9a37-4cf7-be3c-9e3c9bf76dfa",
       "source": "Active Calc 1.5.39",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "f4702097-4286-4095-a99b-b7bd03a4b6c6",
@@ -1174,7 +1174,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/f4702097-4286-4095-a99b-b7bd03a4b6c6",
       "source": "Active Calc 1.5.40",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "94df4504-0584-4ee2-adc9-0015b04e78c8",
@@ -1191,7 +1191,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/94df4504-0584-4ee2-adc9-0015b04e78c8",
       "source": "Active Calc 1.5.41",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b0ce9d80-f92f-4ca7-a137-0ff227ef1994",
@@ -1208,7 +1208,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/b0ce9d80-f92f-4ca7-a137-0ff227ef1994",
       "source": "Active Calc 1.5.42",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "be2434d3-321a-4709-95a7-e495fecd4b99",
@@ -1225,7 +1225,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/be2434d3-321a-4709-95a7-e495fecd4b99",
       "source": "Active Calc 1.5.43",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "902c9a3f-db82-4793-9a01-85ff178c6582",
@@ -1242,7 +1242,7 @@
       "tags": "function, function arithmetic, difference quotient ",
       "url": "/question/902c9a3f-db82-4793-9a01-85ff178c6582",
       "source": "Active Calc 1.5.44",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "1a6eb089-4edd-4b69-bbd0-5d65b2ff6553",
@@ -1259,7 +1259,7 @@
       "tags": "function, function arithmetic, difference quotient",
       "url": "/question/1a6eb089-4edd-4b69-bbd0-5d65b2ff6553",
       "source": "Active Calc 1.5.45",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9de17898-ee8e-455f-a98d-919a92de0b21",
@@ -1276,7 +1276,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/9de17898-ee8e-455f-a98d-919a92de0b21",
       "source": "Active Calc 5.3.24",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "4ffb64bd-c7df-4de4-8b51-338a675ff44e",
@@ -1293,7 +1293,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/4ffb64bd-c7df-4de4-8b51-338a675ff44e",
       "source": "Active Calc 5.3.25",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "04ac4258-6842-4e37-b460-5ea5dff4935d",
@@ -1310,7 +1310,7 @@
       "tags": "word problem, function, function arithmetic, domain, domain of functions",
       "url": "/question/04ac4258-6842-4e37-b460-5ea5dff4935d",
       "source": "Active Calc 1.5.46",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "be52b4be-465f-4874-85b8-717b6edbd067",
@@ -1327,7 +1327,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/be52b4be-465f-4874-85b8-717b6edbd067",
       "source": "Active Calc 5.3.26",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "ecaed1b0-3a98-47a7-857b-7c34b1bbf9f0",
@@ -1344,7 +1344,7 @@
       "tags": "word problem, function, domain, domain of function, function arithmetic",
       "url": "/question/ecaed1b0-3a98-47a7-857b-7c34b1bbf9f0",
       "source": "Active Calc 1.5.47",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b8ce5af3-5c17-4fd0-ae3b-f175931d7140",
@@ -1361,7 +1361,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/b8ce5af3-5c17-4fd0-ae3b-f175931d7140",
       "source": "Active Calc 5.3.27",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9aae1bf0-c5ae-47b6-96db-b111c5abe5d3",
@@ -1378,7 +1378,7 @@
       "tags": "domain, function, domain of function, function arithmetic, world problem ",
       "url": "/question/9aae1bf0-c5ae-47b6-96db-b111c5abe5d3",
       "source": "Active Calc 1.5.48",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "30644797-30b1-4709-be59-d4a505a5f91c",
@@ -1395,7 +1395,7 @@
       "tags": "domain, function, domain of function, function arithmetic,, word problem",
       "url": "/question/30644797-30b1-4709-be59-d4a505a5f91c",
       "source": "Active Calc 1.5.49",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "35e8f43c-d3a5-4ca8-be4a-a70275d5ad38",
@@ -1412,7 +1412,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/35e8f43c-d3a5-4ca8-be4a-a70275d5ad38",
       "source": "Active Calc 5.3.28",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "e1f59e08-33cb-4b64-85bc-5178bea4b544",
@@ -1429,7 +1429,7 @@
       "tags": "domain, function, domain of function, function arithmetic ",
       "url": "/question/e1f59e08-33cb-4b64-85bc-5178bea4b544",
       "source": "Active Calc 1.5.50",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "54520896-dd97-42c6-b866-7dd8d26e6a6f",
@@ -1446,7 +1446,7 @@
       "tags": "function, function arithmetic ",
       "url": "/question/54520896-dd97-42c6-b866-7dd8d26e6a6f",
       "source": "Active Calc 1.5.51",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "5567a7a0-e709-45ff-9f40-e35a95f8ed6e",
@@ -1463,7 +1463,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/5567a7a0-e709-45ff-9f40-e35a95f8ed6e",
       "source": "Active Calc 5.3.29",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "bfdb8467-952f-4c5c-b0fc-49d23004439a",
@@ -1480,7 +1480,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/bfdb8467-952f-4c5c-b0fc-49d23004439a",
       "source": "Active Calc 5.3.30",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "f3697578-e15f-42a4-9145-f9bdd794f468",
@@ -1497,7 +1497,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/f3697578-e15f-42a4-9145-f9bdd794f468",
       "source": "Active Calc 5.3.31",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "885f38c3-8663-48d9-8863-dd2cfb81f512",
@@ -1514,7 +1514,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/885f38c3-8663-48d9-8863-dd2cfb81f512",
       "source": "Active Calc 5.3.32",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "da45830e-61b3-47c8-89b3-dbcba5a6e8e3",
@@ -1531,7 +1531,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain, inequalities",
       "url": "/question/da45830e-61b3-47c8-89b3-dbcba5a6e8e3",
       "source": "Active Calc 5.3.33",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "63619508-0aa0-4ef7-af88-938fe253a8a0",
@@ -1548,7 +1548,7 @@
       "tags": "natural, logarithmic, exponential, equations, functions",
       "url": "/question/63619508-0aa0-4ef7-af88-938fe253a8a0",
       "source": "Active Calc 4.1.1",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "cc502147-44dd-4288-bdd0-74ff958c2b6a",
@@ -1565,7 +1565,7 @@
       "tags": "natural, logarithmic, exponential, equations, functions",
       "url": "/question/cc502147-44dd-4288-bdd0-74ff958c2b6a",
       "source": "Active Calc 4.1.2",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "23f6607d-cd12-4987-9831-e03feefd2cc6",
@@ -1582,7 +1582,7 @@
       "tags": "natural, logarithmic, exponential, equations, functions",
       "url": "/question/23f6607d-cd12-4987-9831-e03feefd2cc6",
       "source": "Active Calc 4.1.3",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "2614d16b-8f09-4109-9d03-7aa10e77e29e",
@@ -1599,7 +1599,7 @@
       "tags": "natural, logarithms, exponential, equations, functions",
       "url": "/question/2614d16b-8f09-4109-9d03-7aa10e77e29e",
       "source": "Active Calc 4.1.4",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     },
     {
       "uuid": "398f83d6-0dfb-433b-8594-ebb195622281",
@@ -1616,7 +1616,7 @@
       "tags": "natural, logarithms, exponential, equations, functions",
       "url": "/question/398f83d6-0dfb-433b-8594-ebb195622281",
       "source": "Active Calc 4.1.5",
-      "topic": "Algebra/Exponential and Logarithmic Functions"
+      "topic": "Algebra/Functions/Logarithmic Functions"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Rotations and Reflections of Angles ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/471.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/472.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/473.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/474.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/475.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/471.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/472.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/473.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/474.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/475.png\"/\u003e",
       "allAnswers": [],
       "tags": "rotations, reflections, angles, rotation of angles, reflections of angles, trig ",
       "url": "/text-content/e9c49c17-cbbb-4b3e-8652-6ea17d209bc8",
       "source": "Trigonometry by Michael Corral 1.5",
-      "topic": "Pre-Calculus/Trigonometry/Angles and Their Measures"
+      "topic": "Trigonometry/Measure of an Angle/Angles/Measure of an Angle"
     },
     {
       "uuid": "28602c37-567d-43ec-9ee6-59a284ee3806",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Law of Sines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/476.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/477.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/478.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/481.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/482.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/483.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/476.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/477.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/478.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/481.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/482.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/483.png\"/\u003e",
       "allAnswers": [],
       "tags": "law of sines, sines, trig ",
       "url": "/text-content/28602c37-567d-43ec-9ee6-59a284ee3806",
       "source": "Trigonometry by Michael Corral 2.1",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
     },
     {
       "uuid": "dbaef48b-d7f8-463e-b92e-16467493e200",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Law of Cosines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/484.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/485.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/486.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/484.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/485.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/486.png\"/\u003e",
       "allAnswers": [],
       "tags": "cosines, angle, trig ",
       "url": "/text-content/dbaef48b-d7f8-463e-b92e-16467493e200",
       "source": "Trigonometry by Michael Corral 2.2",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Cosine/Law of Cosine"
+      "topic": "Trigonometry/Fundamental Identities/Cosine/Law of Cosine"
     },
     {
       "uuid": "fbba649c-8430-45a3-852e-0af4994de917",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Law of Tangents ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/495.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/496.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/495.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/496.png\"/\u003e",
       "allAnswers": [],
       "tags": "law of tangents, tangents, trig ",
       "url": "/text-content/fbba649c-8430-45a3-852e-0af4994de917",
       "source": "Trigonometry by Michael Corral 2.3",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Tangent/Law of Tangent"
+      "topic": "Trigonometry/Fundamental Identities/Tangent/Law of Tangent"
     },
     {
       "uuid": "f8a0bf7a-74cc-44eb-a668-6f33f96e5358",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Circumscribed and Inscribed Circles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/508.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/511.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/512.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/508.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/511.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/512.png\"/\u003e",
       "allAnswers": [],
       "tags": "circumscribed circles, inscribed circles ",
       "url": "/text-content/f8a0bf7a-74cc-44eb-a668-6f33f96e5358",
       "source": "Trigonometry by Michael Corral 2.5",
-      "topic": "Pre-Calculus/Trigonometry/Circles/Circumscribed"
+      "topic": "Geometry/Circle Geometry/Circumscribed Polygons"
     }
   ],
   "answers": [],

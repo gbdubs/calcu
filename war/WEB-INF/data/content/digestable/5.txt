@@ -358,7 +358,7 @@
       "tags": "derivatives, functions",
       "url": "/question/4176ef8e-e5eb-4a3d-9e80-dd33fd24ebcb",
       "source": "AP Calculus Problems 3.10.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "afccaa1f-7744-47c1-ba29-0f761314c613",
@@ -375,7 +375,7 @@
       "tags": "derivatives, functions",
       "url": "/question/afccaa1f-7744-47c1-ba29-0f761314c613",
       "source": "AP Calculus Problems 3.10.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "d1711701-ff5e-4cdd-a423-3a998a38d133",
@@ -392,7 +392,7 @@
       "tags": "derivative, function",
       "url": "/question/d1711701-ff5e-4cdd-a423-3a998a38d133",
       "source": "AP Calculus Problems 3.10.3",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "1ce75ec7-d384-4077-a3cb-a21fb2f67674",
@@ -409,7 +409,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum, continuous, differentiable",
       "url": "/question/1ce75ec7-d384-4077-a3cb-a21fb2f67674",
       "source": "AP Calculus Problems 3.14.14",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "ad654b55-b3ca-42da-a4ff-0b236916b8b5",
@@ -426,7 +426,7 @@
       "tags": "derivatives",
       "url": "/question/ad654b55-b3ca-42da-a4ff-0b236916b8b5",
       "source": "AP Calculus Problems 3.10.4",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "38ad3d20-b30a-4039-818d-372806dcbe52",
@@ -443,7 +443,7 @@
       "tags": "derivative, slope, tangent line",
       "url": "/question/38ad3d20-b30a-4039-818d-372806dcbe52",
       "source": "AP Calculus Problems 3.10.5",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "2a302094-bb94-40a8-9d8d-389d87884995",
@@ -460,7 +460,7 @@
       "tags": "derivative, slope, tangent line",
       "url": "/question/2a302094-bb94-40a8-9d8d-389d87884995",
       "source": "AP Calculus Problems 3.10.5",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "1066ef98-1203-4267-8f87-de09667ade5d",
@@ -477,7 +477,7 @@
       "tags": "slope, tangent line, derivatives",
       "url": "/question/1066ef98-1203-4267-8f87-de09667ade5d",
       "source": "AP Calculus Problems 3.10.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "1e0909bf-e18d-481b-90c9-f281309a44a4",
@@ -494,7 +494,7 @@
       "tags": "derivatives, function",
       "url": "/question/1e0909bf-e18d-481b-90c9-f281309a44a4",
       "source": "AP Calculus Problems 3.10.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "8f586352-d7ea-4c40-8c16-9c9961ab3c51",
@@ -511,7 +511,7 @@
       "tags": "derivatives",
       "url": "/question/8f586352-d7ea-4c40-8c16-9c9961ab3c51",
       "source": "AP Calculus Problems 3.10.8",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "7cde256c-b3f0-4584-acb5-fb5d2c4f4a91",
@@ -528,7 +528,7 @@
       "tags": "derivatives, limits",
       "url": "/question/7cde256c-b3f0-4584-acb5-fb5d2c4f4a91",
       "source": "AP Calculus Problems 3.10.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "c0432608-d8ee-497e-9009-d629e8b1e6a7",
@@ -545,7 +545,7 @@
       "tags": "derivative, velocity, function",
       "url": "/question/c0432608-d8ee-497e-9009-d629e8b1e6a7",
       "source": "AP Calculus Problems 3.11.1",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "becfb448-9b73-4a58-a619-88bfc58b9631",
@@ -562,7 +562,7 @@
       "tags": "derivative, velocity, function, interval, acceleration ",
       "url": "/question/becfb448-9b73-4a58-a619-88bfc58b9631",
       "source": "AP Calculus Problems 3.11.1",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "12567828-52bf-4a46-ac64-c0be5bfc51c2",
@@ -579,7 +579,7 @@
       "tags": "word problem, graph, velocity",
       "url": "/question/12567828-52bf-4a46-ac64-c0be5bfc51c2",
       "source": "AP Calculus Problems 3.11.2",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Anti-Derivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Anti-Derivative"
     },
     {
       "uuid": "627d7607-814c-4b93-91e5-3863009e7d42",
@@ -613,7 +613,7 @@
       "tags": "velocity, position, graph, word problem",
       "url": "/question/612063c9-e82e-439b-8155-b4fb9c20081e",
       "source": "AP Calculus Problems 3.11.4",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "7886c544-e383-4fc8-a496-3ec38c989149",
@@ -630,7 +630,7 @@
       "tags": "word problem, angle of elevation, area, maximum",
       "url": "/question/7886c544-e383-4fc8-a496-3ec38c989149",
       "source": "AP Calculus Problems 3.11.5",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Maximum Point"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "d7da2ec8-75ba-487e-81fb-12644edc06bb",
@@ -647,7 +647,7 @@
       "tags": "function, graph, graphing derivatives",
       "url": "/question/d7da2ec8-75ba-487e-81fb-12644edc06bb",
       "source": "AP Calculus Problems 3.11.6",
-      "topic": "Pre-Calculus/Relations and Functions/Transformations/Rigid Transformations"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Transformations/Rigid Transformations"
     },
     {
       "uuid": "be2ac9dc-7581-420c-8d42-a9fbd9044831",
@@ -664,7 +664,7 @@
       "tags": "function, graphing derivatives",
       "url": "/question/be2ac9dc-7581-420c-8d42-a9fbd9044831",
       "source": "AP Calculus Problems 3.11.7",
-      "topic": "Pre-Calculus/Relations and Functions/Transformations/Rigid Transformations"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Transformations/Rigid Transformations"
     },
     {
       "uuid": "214088ce-20f0-49aa-ae27-e19e73d68961",
@@ -681,7 +681,7 @@
       "tags": "derivatives, function, differentiable functions",
       "url": "/question/214088ce-20f0-49aa-ae27-e19e73d68961",
       "source": "AP Calculus Problems 3.12.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "813f90ab-2bdb-4ad1-900d-5582784140fd",
@@ -698,7 +698,7 @@
       "tags": "derivative",
       "url": "/question/813f90ab-2bdb-4ad1-900d-5582784140fd",
       "source": "AP Calculus Problems 3.12.2",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "4ad3af8d-debc-4c5e-acd1-957ac234730e",
@@ -732,7 +732,7 @@
       "tags": "derivatives, tangent line, function, even function, odd function",
       "url": "/question/80419772-9ac2-436c-8320-51cba7a14a61",
       "source": "AP Calculus Problems 3.12.4",
-      "topic": "Calculus/Applications of the Derivative/Newton�s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "29e71c87-1b8b-4d04-ace1-7d1b7868ef75",
@@ -766,7 +766,7 @@
       "tags": "derivatives, limits",
       "url": "/question/b2f1e2e5-2ff5-49fb-954d-23757d209b73",
       "source": "AP Calculus Problems 3.12.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "c2f7acf4-4953-4c60-b51e-abece105b036",
@@ -800,7 +800,7 @@
       "tags": "derivatives, continuous function, function interval, inflection points, extrema",
       "url": "/question/c1dab8f1-9c37-4f2a-a8ae-b5c3df9eae81",
       "source": "AP Calculus Problems 3.12.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "bc70594b-efd1-4c68-80d7-a51c31326375",
@@ -834,7 +834,7 @@
       "tags": "domain, local extrema, derivatives",
       "url": "/question/ac7d8db7-ed80-4924-9529-2d50c9c9e8cc",
       "source": "AP Calculus Problems 3.12.10",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "1763b792-e0cf-4038-aad9-b588a7f889ac",
@@ -851,7 +851,7 @@
       "tags": "domain, local extrema, function, derivative",
       "url": "/question/1763b792-e0cf-4038-aad9-b588a7f889ac",
       "source": "AP Calculus Problems 3.12.11",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "971367d7-d1e6-45bb-8c3b-01660a5c7bb6",
@@ -868,7 +868,7 @@
       "tags": "domain, local extrema, function, derivative",
       "url": "/question/971367d7-d1e6-45bb-8c3b-01660a5c7bb6",
       "source": "AP Calculus Problems 3.12.12",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "7a4a757e-8502-4302-a690-7c711486d537",
@@ -885,7 +885,7 @@
       "tags": "domain, local extrema, functions, derivatives",
       "url": "/question/7a4a757e-8502-4302-a690-7c711486d537",
       "source": "AP Calculus Problems 3.12.13",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "d0497d8e-6532-48ab-8ba9-d28bd151dd34",
@@ -902,7 +902,7 @@
       "tags": "domain, local extrema, functions, derivatives ",
       "url": "/question/d0497d8e-6532-48ab-8ba9-d28bd151dd34",
       "source": "AP Calculus Problems 3.12.14",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "bbd7e5c5-f79a-4c0e-85be-d5ec4dab2fbb",
@@ -919,7 +919,7 @@
       "tags": "domain, function, local extrema, derivatives",
       "url": "/question/bbd7e5c5-f79a-4c0e-85be-d5ec4dab2fbb",
       "source": "AP Calculus Problems 3.12.15",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "0b5825fd-1380-448d-b879-b3161e99a546",
@@ -936,7 +936,7 @@
       "tags": "derivatives, high derivative, factored form",
       "url": "/question/0b5825fd-1380-448d-b879-b3161e99a546",
       "source": "AP Calculus Problems 3.12.16",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
@@ -953,7 +953,7 @@
       "tags": "derivatives, high derivatives, factored form",
       "url": "/question/b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
       "source": "AP Calculus Problems 3.12.17",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
@@ -970,7 +970,7 @@
       "tags": "derivatives, high derivatives, factored form",
       "url": "/question/29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
       "source": "AP Calculus Problems 3.12.18",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "d455d793-e041-4d40-aea5-4686a1a3a406",
@@ -1004,7 +1004,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/c9666cf1-1eb4-4304-b0df-9ede1e841040",
       "source": "Active Calc 1.1.2",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "2fd6b06e-8f4c-4c41-98bd-84f9d8f71d3d",
@@ -1021,7 +1021,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/2fd6b06e-8f4c-4c41-98bd-84f9d8f71d3d",
       "source": "Active Calc 1.1.3",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "aeadf2ac-e9f1-48e6-b91d-b6cd3414c597",
@@ -1038,7 +1038,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/aeadf2ac-e9f1-48e6-b91d-b6cd3414c597",
       "source": "Active Calc 1.1.4",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "5c6e22a3-b81d-435b-b20c-8a2b7bf00af0",
@@ -1055,7 +1055,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/5c6e22a3-b81d-435b-b20c-8a2b7bf00af0",
       "source": "Active Calc 1.1.5",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "0ae5cb77-46f6-4f36-a938-a5b84ea7a049",
@@ -1072,7 +1072,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/0ae5cb77-46f6-4f36-a938-a5b84ea7a049",
       "source": "Active Calc 1.1.6",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "bb826924-de6d-4239-af2b-143424be83ef",
@@ -1089,7 +1089,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/bb826924-de6d-4239-af2b-143424be83ef",
       "source": "Active Calc 1.1.7",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4ff68082-1554-48fa-be39-fa4b4394b032",
@@ -1106,7 +1106,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/4ff68082-1554-48fa-be39-fa4b4394b032",
       "source": "Active Calc 1.1.8",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "534fdc04-b8f4-44cb-837b-8c4889177cc4",
@@ -1123,7 +1123,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/534fdc04-b8f4-44cb-837b-8c4889177cc4",
       "source": "Active Calc 1.1.9",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4463a0bc-6df6-4d04-b9e5-12d373d18329",
@@ -1140,7 +1140,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/4463a0bc-6df6-4d04-b9e5-12d373d18329",
       "source": "Active Calc 1.1.10",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "eda59f6f-d73b-4220-984a-3edad9eb599c",
@@ -1157,7 +1157,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/eda59f6f-d73b-4220-984a-3edad9eb599c",
       "source": "Active Calc 1.1.11",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "c15a8653-a0ae-492f-900b-fdd192800d0d",
@@ -1174,7 +1174,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/c15a8653-a0ae-492f-900b-fdd192800d0d",
       "source": "Active Calc 1.1.12",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "41da8c8b-450f-41aa-91eb-225a0d232965",
@@ -1191,7 +1191,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/41da8c8b-450f-41aa-91eb-225a0d232965",
       "source": "Active Calc 1.1.13",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "8424172b-34db-4052-9572-bfcf490bc42d",
@@ -1208,7 +1208,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/8424172b-34db-4052-9572-bfcf490bc42d",
       "source": "Active Calc 1.1.14",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "b25d3bcf-e102-4533-a1ad-d55c2b613ef4",
@@ -1225,7 +1225,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/b25d3bcf-e102-4533-a1ad-d55c2b613ef4",
       "source": "Active Calc 1.1.15",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "738fa3b6-6e88-4b74-acf5-204a3303774e",
@@ -1242,7 +1242,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/738fa3b6-6e88-4b74-acf5-204a3303774e",
       "source": "Active Calc 1.1.16",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "dd4e2267-282b-4ee5-92d1-5ed97f4e737e",
@@ -1259,7 +1259,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/dd4e2267-282b-4ee5-92d1-5ed97f4e737e",
       "source": "Active Calc 1.1.17",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9bbd545e-8792-45a7-8631-594d9b71025f",
@@ -1276,7 +1276,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/9bbd545e-8792-45a7-8631-594d9b71025f",
       "source": "Active Calc 1.1.18",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "04a6d6d1-b511-468c-b14b-01e561578863",
@@ -1293,7 +1293,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/04a6d6d1-b511-468c-b14b-01e561578863",
       "source": "Active Calc 1.1.19",
-      "topic": "Geometry/Logic/Mathematical Sentences"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "3b2b52cf-1126-47ec-b663-57aa4ae984ab",
@@ -1310,7 +1310,7 @@
       "tags": "plotting, Cartesian Coordinate Plane, coordinates, points, graphing",
       "url": "/question/3b2b52cf-1126-47ec-b663-57aa4ae984ab",
       "source": "Active Calc 1.1.20",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "ea5b0448-6ae5-4d84-a291-0341e211e202",
@@ -1327,7 +1327,7 @@
       "tags": "quadrant, points, symmetry, origin, y-axis, x-axis",
       "url": "/question/ea5b0448-6ae5-4d84-a291-0341e211e202",
       "source": "Active Calc 1.1.21",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "39b4b928-7d51-4d17-8ff4-33c3c43cfc8e",
@@ -1344,7 +1344,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates ",
       "url": "/question/39b4b928-7d51-4d17-8ff4-33c3c43cfc8e",
       "source": "Active Calc 1.1.22",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "bc37422b-f261-4d39-8947-1ddf489a9ef6",
@@ -1361,7 +1361,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates",
       "url": "/question/bc37422b-f261-4d39-8947-1ddf489a9ef6",
       "source": "Active Calc 1.1.23",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "6a4ea4af-4e0f-4f75-9bc7-04760b1479c5",
@@ -1378,7 +1378,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates",
       "url": "/question/6a4ea4af-4e0f-4f75-9bc7-04760b1479c5",
       "source": "Active Calc 1.1.24",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "f98c7583-f788-45d9-aaca-fe395dcec3a2",
@@ -1395,7 +1395,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates",
       "url": "/question/f98c7583-f788-45d9-aaca-fe395dcec3a2",
       "source": "Active Calc 1.1.25",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "06e31ff0-ed45-447f-8aa8-8991e228a06d",
@@ -1412,7 +1412,7 @@
       "tags": "Find the distance d between the points and the midpoint M of the line segment which connects them.",
       "url": "/question/06e31ff0-ed45-447f-8aa8-8991e228a06d",
       "source": "Active Calc 1.1.26",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "c7091f36-abb7-4195-bb6d-5400e8373ffa",
@@ -1429,7 +1429,7 @@
       "tags": "midpoint, line segment, points, distance, distance between points",
       "url": "/question/c7091f36-abb7-4195-bb6d-5400e8373ffa",
       "source": "Active Calc 1.1.27",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "3a8ede30-6d73-4f36-9a29-3b66df3b45d1",
@@ -1446,7 +1446,7 @@
       "tags": "midpoint, line segment, points, distance, distance between points",
       "url": "/question/3a8ede30-6d73-4f36-9a29-3b66df3b45d1",
       "source": "Active Calc 1.1.28",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "9787f577-8283-478c-8abd-f2bd2e84817f",
@@ -1463,7 +1463,7 @@
       "tags": "points, midpoint, line segment, distance, distance between points",
       "url": "/question/9787f577-8283-478c-8abd-f2bd2e84817f",
       "source": "Active Calc 1.1.29",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "f3f493b1-3263-4796-9d54-a64feada06fb",
@@ -1480,7 +1480,7 @@
       "tags": "points, distance, distance between points, sets of numbers",
       "url": "/question/f3f493b1-3263-4796-9d54-a64feada06fb",
       "source": "Active Calc 1.1.30",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "36e76206-ebf0-4020-bd0b-25c281b1b2bf",
@@ -1497,7 +1497,7 @@
       "tags": "points, y-axis, distance, distance between points, sets of numbers",
       "url": "/question/36e76206-ebf0-4020-bd0b-25c281b1b2bf",
       "source": "Active Calc 1.1.31",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "88cd1fe8-5ec3-469c-b32e-695da2a903ec",
@@ -1514,7 +1514,7 @@
       "tags": "points, x-axis, distance, distance between points, sets of numbers",
       "url": "/question/88cd1fe8-5ec3-469c-b32e-695da2a903ec",
       "source": "Active Calc 1.1.32",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "9592a4ef-5076-481f-a6aa-1d1eecfd4bc6",
@@ -1531,7 +1531,7 @@
       "tags": "points, form, origin, distance, distance between points, sets of numbers",
       "url": "/question/9592a4ef-5076-481f-a6aa-1d1eecfd4bc6",
       "source": "Active Calc 1.1.33",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "927f1a27-c30e-435c-9632-ea2f8761eebf",
@@ -1548,7 +1548,7 @@
       "tags": "word-problem, algebra word problem, sets of numbers, coordinates, distance, distance between points",
       "url": "/question/927f1a27-c30e-435c-9632-ea2f8761eebf",
       "source": "Active Calc 1.1.34",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "7f884354-c9eb-4064-bb3a-2ee94559c7bf",
@@ -1565,7 +1565,7 @@
       "tags": "distance formula, distance, distance between points, points, sets of numbers",
       "url": "/question/7f884354-c9eb-4064-bb3a-2ee94559c7bf",
       "source": "Active Calc 1.1.35",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "69446a61-e4cf-4506-b6a5-357fc605f95a",
@@ -1582,7 +1582,7 @@
       "tags": "midpoint, midpoint formula, distance, distance between points, sets of numbers",
       "url": "/question/69446a61-e4cf-4506-b6a5-357fc605f95a",
       "source": "Active Calc 1.1.36",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "38afe467-8730-4a74-9753-eb8890ef7a35",
@@ -1599,7 +1599,7 @@
       "tags": "points, sets of numbers, coordinates",
       "url": "/question/38afe467-8730-4a74-9753-eb8890ef7a35",
       "source": "Active Calc 1.1.37",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     }
   ],
   "textContent": [
@@ -1635,7 +1635,7 @@
       "tags": "systems of non-linear equations, non-linear equations, system of non-linear inequalities, matrix, matrices ",
       "url": "/text-content/bc76007b-de79-4b16-bd42-47ee5c7833bb",
       "source": "Precalculus, 3rd Edition 8.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "f219089c-bd8e-4181-ab12-76ac61aa3a99",
@@ -1669,7 +1669,7 @@
       "tags": "sequences, series, summation notation ",
       "url": "/text-content/4f2a9c35-e0ca-424e-9f4a-9d8694494ec8",
       "source": "Precalculus, 3rd Edition 9.2",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Summation Notation/Properties of Summation Notation"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Summation Notation"
     }
   ],
   "answers": [],

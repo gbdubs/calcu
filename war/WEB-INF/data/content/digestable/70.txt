@@ -834,7 +834,7 @@
       "tags": "image, triangle, dilation, image of triangle, equal triangles",
       "url": "/question/e87adfd1-c2a2-4993-9a58-2aae99c587ab",
       "source": "Amsco Geometry Textbook 12.5.1",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "4911b043-90c5-4255-a37d-8a74903236d1",
@@ -851,7 +851,7 @@
       "tags": "vertices, similar parallelogram, similar triangle, image, dilation",
       "url": "/question/4911b043-90c5-4255-a37d-8a74903236d1",
       "source": "Amsco Geometry Textbook 12.5.10",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "154aa489-4a08-4c44-a064-e4735b1c66fc",
@@ -868,7 +868,7 @@
       "tags": "image, drawing, coordinates, vertices, similar polygons, octagon, vertices of octagon",
       "url": "/question/154aa489-4a08-4c44-a064-e4735b1c66fc",
       "source": "Amsco Geometry Textbook 12.5.11",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "2930dcfd-5057-48fd-b38d-ea4c5bf41daf",
@@ -885,7 +885,7 @@
       "tags": "dilation, constant of dilation, area of image, image, are, vertices of triangles",
       "url": "/question/2930dcfd-5057-48fd-b38d-ea4c5bf41daf",
       "source": "Amsco Geometry Textbook 12.5.12",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "4a58e7b5-d0c8-4cc0-8b44-6c393bd5b35c",
@@ -902,7 +902,7 @@
       "tags": "proof, geometry proof, dilations, parallel lines, images, parallel images, segments",
       "url": "/question/4a58e7b5-d0c8-4cc0-8b44-6c393bd5b35c",
       "source": "Amsco Geometry Textbook 12.5.13",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "393de822-ad85-444d-a2c4-dabe8e8379e5",
@@ -919,7 +919,7 @@
       "tags": "dilation, image, points, coordinates, center of dilation",
       "url": "/question/393de822-ad85-444d-a2c4-dabe8e8379e5",
       "source": "Amsco Geometry Textbook 12.5.2",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "e6f9e67f-daca-4700-86a3-2fe427e22157",
@@ -936,7 +936,7 @@
       "tags": "multi-problem, coordinates, image, point",
       "url": "/question/e6f9e67f-daca-4700-86a3-2fe427e22157",
       "source": "Amsco Geometry Textbook 12.5.3",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "ff7aa623-4f90-4bdd-aab2-2bbb8c53bddd",
@@ -953,7 +953,7 @@
       "tags": "coordinates, image, point, multi-problem",
       "url": "/question/ff7aa623-4f90-4bdd-aab2-2bbb8c53bddd",
       "source": "Amsco Geometry Textbook 12.5.4",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "f7353953-d906-4069-b622-6ffdf88a0673",
@@ -970,7 +970,7 @@
       "tags": "multi-problem, cooridnates, image, point, composition of transformations",
       "url": "/question/f7353953-d906-4069-b622-6ffdf88a0673",
       "source": "Amsco Geometry Textbook 12.5.5",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "4d2b9803-84c9-4ae8-8fd0-41f5a3c62e92",
@@ -987,7 +987,7 @@
       "tags": "multi-problem, transformation, composition of a dilation, dilation composition of a reflection, rule for composition of transformation, image",
       "url": "/question/4d2b9803-84c9-4ae8-8fd0-41f5a3c62e92",
       "source": "Amsco Geometry Textbook 12.5.6",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "9213224d-8fca-4d91-9dd0-0ea8fede147a",
@@ -1004,7 +1004,7 @@
       "tags": "image, triangle, transformations, compositions of transformations, map, mapping triangles",
       "url": "/question/9213224d-8fca-4d91-9dd0-0ea8fede147a",
       "source": "Amsco Geometry Textbook 12.5.7",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "25c35a3c-d785-45b9-b10d-bead6f473679",
@@ -1021,7 +1021,7 @@
       "tags": "coordinates, points, images, quadrilateral ",
       "url": "/question/25c35a3c-d785-45b9-b10d-bead6f473679",
       "source": "Amsco Geometry Textbook 12.5.8",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "681b9a41-bbe8-4606-81a1-49e0d969ca7b",
@@ -1038,7 +1038,7 @@
       "tags": "proof, geometry proof, parallel sides, congruent angles",
       "url": "/question/681b9a41-bbe8-4606-81a1-49e0d969ca7b",
       "source": "Amsco Geometry Textbook 12.5.9",
-      "topic": "Geeometry/Dilation"
+      "topic": "Geometry/Ratios and Proportions/Dilation"
     },
     {
       "uuid": "2840c070-bf7d-467f-b940-1e57ee44a522",
@@ -1055,7 +1055,7 @@
       "tags": "corresponding sides, similar triangles, word problem, geometry word problem, ratio of similitude, similitude ",
       "url": "/question/2840c070-bf7d-467f-b940-1e57ee44a522",
       "source": "Amsco Geometry Textbook 12.6.1",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "43bea738-c7f2-4853-9727-19a6c39dada5",
@@ -1072,7 +1072,7 @@
       "tags": "theorem 12.12, similar triangles, corresponding medians, lengths of corresponding medians, ratio, corresponding sides",
       "url": "/question/43bea738-c7f2-4853-9727-19a6c39dada5",
       "source": "Amsco Geometry Textbook 12.6.10",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "84e24a40-af2f-42ec-9ca3-9d531f644501",
@@ -1089,7 +1089,7 @@
       "tags": "theorem 12.13, similar triangles, corresponding angle bisectors, ratio, corresponding sides",
       "url": "/question/84e24a40-af2f-42ec-9ca3-9d531f644501",
       "source": "Amsco Geometry Textbook 12.6.11",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "23f2bad9-f26e-441a-96ff-9636ff61d86f",
@@ -1106,7 +1106,7 @@
       "tags": "parallelograms, similar parallelograms, ratio, ratio of lengths, corresponding diagonals, diagonals, corresponding sides",
       "url": "/question/23f2bad9-f26e-441a-96ff-9636ff61d86f",
       "source": "Amsco Geometry Textbook 12.6.12",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "ffd0d5c8-4aef-4832-8205-9d9fbc17ffa8",
@@ -1123,7 +1123,7 @@
       "tags": "similar triangles, ratio, ratio of areas, area, ratio of similitude, similitude ",
       "url": "/question/ffd0d5c8-4aef-4832-8205-9d9fbc17ffa8",
       "source": "Amsco Geometry Textbook 12.6.13",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "f5029eb6-ce78-4065-a6c6-155cef2aeaca",
@@ -1140,7 +1140,7 @@
       "tags": "diagonals, trapezoid, similar triangles, ratio of similitude, ratio of length, parallel sides, ratio, similitude ",
       "url": "/question/f5029eb6-ce78-4065-a6c6-155cef2aeaca",
       "source": "Amsco Geometry Textbook 12.6.14",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "b79482c9-0655-4c7a-b8f2-812569eaa110",
@@ -1157,7 +1157,7 @@
       "tags": "constant of proportionality, similar triangles, word problem, geometry word problem, ratio, ratio of perimeters",
       "url": "/question/b79482c9-0655-4c7a-b8f2-812569eaa110",
       "source": "Amsco Geometry Textbook 12.6.2",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "9b420669-fd62-4df3-9e7d-65a93cb78a16",
@@ -1174,7 +1174,7 @@
       "tags": "ratio of similitude, similar triangles, corresponding side, ratio, similitude ",
       "url": "/question/9b420669-fd62-4df3-9e7d-65a93cb78a16",
       "source": "Amsco Geometry Textbook 12.6.3",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "6b32f965-02cb-4054-8f63-dfd93321ef28",
@@ -1191,7 +1191,7 @@
       "tags": "similar triangles, ratio, ratio of lengths, corresponding altitudes, altitudes",
       "url": "/question/6b32f965-02cb-4054-8f63-dfd93321ef28",
       "source": "Amsco Geometry Textbook 12.6.4",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "f6b183c5-56c3-4c3e-9b3a-f8e735b197b2",
@@ -1208,7 +1208,7 @@
       "tags": "corresponding sides, similar triangles, altitude, corresponding altitude ",
       "url": "/question/f6b183c5-56c3-4c3e-9b3a-f8e735b197b2",
       "source": "Amsco Geometry Textbook 12.6.5",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "90bd8b36-1dc6-418c-94fa-8976ad44a319",
@@ -1225,7 +1225,7 @@
       "tags": "constant of proportionality, similar triangles, length of median, corresponding median",
       "url": "/question/90bd8b36-1dc6-418c-94fa-8976ad44a319",
       "source": "Amsco Geometry Textbook 12.6.6",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "5e6daf8f-2ffc-481e-99aa-9899a1d45937",
@@ -1242,7 +1242,7 @@
       "tags": "ratio, corresponding sides, similar triangles, altitudes, ratio of altitudes, altitudes of triangles",
       "url": "/question/5e6daf8f-2ffc-481e-99aa-9899a1d45937",
       "source": "Amsco Geometry Textbook 12.6.7",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "b3f60530-bcc1-491c-a274-7c1395f3215b",
@@ -1259,7 +1259,7 @@
       "tags": "corresponding altitudes, similar triangles, length of median, median, triangle",
       "url": "/question/b3f60530-bcc1-491c-a274-7c1395f3215b",
       "source": "Amsco Geometry Textbook 12.6.8",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "dc653585-3ab4-47ca-bddf-921ed586431d",
@@ -1276,7 +1276,7 @@
       "tags": "side of triangle, ratio of similitude, perimeter, ratio, ratio of perimeter, ratio of lengths",
       "url": "/question/dc653585-3ab4-47ca-bddf-921ed586431d",
       "source": "Amsco Geometry Textbook 12.6.9",
-      "topic": "Geometry/Proportional Relations"
+      "topic": "Geometry/Ratios and Proportions/Proportional Relations"
     },
     {
       "uuid": "97eb8bcc-4ac2-432d-9526-dca9b874a8ba",
@@ -1463,7 +1463,7 @@
       "tags": "multi-problem, right triangle, right angle, altitude, length, interesting altitude ",
       "url": "/question/7d8fe4d4-80bc-4065-8cf9-6e24478b4df7",
       "source": "Amsco Geometry Textbook 12.8.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "b3980522-50ca-44fb-8c63-c1d4451b1ef8",
@@ -1618,7 +1618,7 @@
       "tags": "vertex angle, base angle, base, legs of an isosceles triangle, scalene triangle, scalene, isosceles, equilateral, congruent triangle sides",
       "url": "/text-content/9c0a3c6d-a468-47b0-bf61-59ed6c6d8de0",
       "source": "Amsco Geometry Textbook 1.7.2",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "16b514c6-ce57-4b3b-bc3a-a1b6fd50ade8",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Classifying Triangles by Angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30035.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30035.png\"/\u003e",
       "allAnswers": [],
       "tags": "acute triangle, obtuse triangle, right triangle, hypotenuse, legs of a triangle,  equiangular triangle",
       "url": "/text-content/16b514c6-ce57-4b3b-bc3a-a1b6fd50ade8",
       "source": "Amsco Geometry Textbook 1.7.3",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "3ede85a9-7849-4ac4-a73b-3d2d6862a3ac",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Information from Geometry Diagrams",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30039.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30040.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30039.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30040.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometry diagrams, geometry inference, diagram assumptions",
       "url": "/text-content/3ede85a9-7849-4ac4-a73b-3d2d6862a3ac",
       "source": "Amsco Geometry Textbook 1.7.4",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "fd7fc799-913b-45a1-8272-7a6ecf594759",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Polygons Inscribed in a Circle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/313.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/313.png\"/\u003e",
       "allAnswers": [],
       "tags": "Circle, polygon, circumscribed ",
       "url": "/text-content/fd7fc799-913b-45a1-8272-7a6ecf594759",
       "source": "Amsco Geometry Textbook 13.2.1",
-      "topic": "Geometry/Circles/Polygons Inscribed in a Circle"
+      "topic": "Geometry/Circle Geometry/Circumscribed Polygons"
     },
     {
       "uuid": "256ad72f-b53b-406c-aa66-6bf9a32a7d35",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Altitude of a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30089.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30089.png\"/\u003e",
       "allAnswers": [],
       "tags": "altitude of a triangle, altitude, triangle properties",
       "url": "/text-content/256ad72f-b53b-406c-aa66-6bf9a32a7d35",
       "source": "Amsco Geometry Textbook 5.1.1",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     }
   ],
   "answers": [],

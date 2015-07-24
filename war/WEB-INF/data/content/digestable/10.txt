@@ -358,7 +358,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/d628f4cf-f789-4f97-8367-e5fd00822ec8",
       "source": "Precalculus, 3rd Edition 10.3.56",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c3eca09e-6581-46c7-b8d6-368d66bb18da",
@@ -375,7 +375,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/c3eca09e-6581-46c7-b8d6-368d66bb18da",
       "source": "Precalculus, 3rd Edition 10.3.57",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c6c79061-11d5-4a21-9d0e-f348a0f4d58e",
@@ -392,7 +392,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/c6c79061-11d5-4a21-9d0e-f348a0f4d58e",
       "source": "Precalculus, 3rd Edition 10.3.58",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "08118f0f-8a75-4804-b0bb-bf824cb76e62",
@@ -409,7 +409,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/08118f0f-8a75-4804-b0bb-bf824cb76e62",
       "source": "Precalculus, 3rd Edition 10.3.59",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "39796c50-f5b0-4591-bfbe-a28806c72343",
@@ -426,7 +426,7 @@
       "tags": "exact values, circular function, quadrants, trigonometry",
       "url": "/question/39796c50-f5b0-4591-bfbe-a28806c72343",
       "source": "Precalculus, 3rd Edition 10.3.6",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "a1cbec16-7ef5-4d77-bbd5-ebd6e860f21d",
@@ -443,7 +443,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/a1cbec16-7ef5-4d77-bbd5-ebd6e860f21d",
       "source": "Precalculus, 3rd Edition 10.3.60",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "9b8196a8-79a5-4ce9-8081-d19706772de1",
@@ -460,7 +460,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/9b8196a8-79a5-4ce9-8081-d19706772de1",
       "source": "Precalculus, 3rd Edition 10.3.61",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "1f52d4ac-9169-48e8-9bae-5b2bd25e2f03",
@@ -477,7 +477,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/1f52d4ac-9169-48e8-9bae-5b2bd25e2f03",
       "source": "Precalculus, 3rd Edition 10.3.62",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "eeb971f5-8526-406d-b095-4d00b722b5b1",
@@ -494,7 +494,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/eeb971f5-8526-406d-b095-4d00b722b5b1",
       "source": "Precalculus, 3rd Edition 10.3.63",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "bd778cf1-6d27-467d-861b-3caa46f897b1",
@@ -511,7 +511,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/bd778cf1-6d27-467d-861b-3caa46f897b1",
       "source": "Precalculus, 3rd Edition 10.3.64",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c6defd6f-f622-405e-9507-a96fe69ea830",
@@ -528,7 +528,7 @@
       "tags": "Problems 82-128, 10.3.53-10.3.64",
       "url": "/question/c6defd6f-f622-405e-9507-a96fe69ea830",
       "source": "Precalculus, 3rd Edition 10.3.65",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "0fc5e830-815e-4da0-bf73-9bba80f8c545",
@@ -545,7 +545,7 @@
       "tags": "absolute values, logarithms, fundamental identities, trigonometry",
       "url": "/question/0fc5e830-815e-4da0-bf73-9bba80f8c545",
       "source": "Precalculus, 3rd Edition 10.3.66",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "d53e360a-b571-40b4-a0ed-964dcf3585e2",
@@ -562,7 +562,7 @@
       "tags": "absolute values, logarithms, fundamental identities, trigonometry",
       "url": "/question/d53e360a-b571-40b4-a0ed-964dcf3585e2",
       "source": "Precalculus, 3rd Edition 10.3.67",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "4aa17f5c-0885-4427-975a-26a8606d0726",
@@ -579,7 +579,7 @@
       "tags": "absolute values, logarithms, fundamental identities, trigonometry",
       "url": "/question/4aa17f5c-0885-4427-975a-26a8606d0726",
       "source": "Precalculus, 3rd Edition 10.3.68",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "1ab9a07d-0751-49a4-9797-5882665d5885",
@@ -596,7 +596,7 @@
       "tags": "absolute values, logarithms, fundamental identities, trigonometry",
       "url": "/question/1ab9a07d-0751-49a4-9797-5882665d5885",
       "source": "Precalculus, 3rd Edition 10.3.69",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "ef1083c2-14bf-4dfc-b8df-c8a60995d919",
@@ -613,7 +613,7 @@
       "tags": "exact values, circular function, quadrants, trigonometry",
       "url": "/question/ef1083c2-14bf-4dfc-b8df-c8a60995d919",
       "source": "Precalculus, 3rd Edition 10.3.7",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "b69490f8-d2fe-43ed-96dc-6d8ec19342b9",
@@ -630,7 +630,7 @@
       "tags": "fundamental identities, trigonometry, domain, range, cosecant functions, cotangent functions",
       "url": "/question/b69490f8-d2fe-43ed-96dc-6d8ec19342b9",
       "source": "Precalculus, 3rd Edition 10.3.70",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "4f321b59-7bd4-45c3-8594-db95ebe886bd",
@@ -647,7 +647,7 @@
       "tags": "acute angles, right triangles, complementary angles, co-function",
       "url": "/question/4f321b59-7bd4-45c3-8594-db95ebe886bd",
       "source": "Precalculus, 3rd Edition 10.3.71",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "deb783f5-92cc-4349-9a3f-23c698b781f7",
@@ -664,7 +664,7 @@
       "tags": "proof, area, triangle, inequality, trigonometry, fundamental identities ",
       "url": "/question/deb783f5-92cc-4349-9a3f-23c698b781f7",
       "source": "Precalculus, 3rd Edition 10.3.72",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "8cb72a94-81b9-42d0-bd4c-e29b2d8a97ac",
@@ -681,7 +681,7 @@
       "tags": "inequalities, fundamental identities, trigonometry ",
       "url": "/question/8cb72a94-81b9-42d0-bd4c-e29b2d8a97ac",
       "source": "Precalculus, 3rd Edition 10.3.73",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "f4b94154-147d-4050-91e6-4ecae3756612",
@@ -698,7 +698,7 @@
       "tags": "fundamental identities, trigonometry ",
       "url": "/question/f4b94154-147d-4050-91e6-4ecae3756612",
       "source": "Precalculus, 3rd Edition 10.3.74",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "cf65e64b-39a7-4df5-9c64-ccf540cad190",
@@ -715,7 +715,7 @@
       "tags": "exact values, circular function, quadrants, trigonometry",
       "url": "/question/cf65e64b-39a7-4df5-9c64-ccf540cad190",
       "source": "Precalculus, 3rd Edition 10.3.8",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "022f5916-bc58-4132-9c23-e3a09fa40fe9",
@@ -732,7 +732,7 @@
       "tags": "exact values, circular function, quadrants, trigonometry",
       "url": "/question/022f5916-bc58-4132-9c23-e3a09fa40fe9",
       "source": "Precalculus, 3rd Edition 10.3.9",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "99cbc364-0094-4d4a-87a3-dfa1be97b33c",
@@ -749,7 +749,7 @@
       "tags": "trigonometric identities, even identity, odd identity, even odd identities, properties of sine, properties of cosine",
       "url": "/question/99cbc364-0094-4d4a-87a3-dfa1be97b33c",
       "source": "Precalculus, 3rd Edition 10.4.1",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "e1046859-65e8-470d-86b8-36a7f9def314",
@@ -766,7 +766,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/e1046859-65e8-470d-86b8-36a7f9def314",
       "source": "Precalculus, 3rd Edition 10.4.10",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "74bcd0dc-e9cc-4c10-98c0-a232950a411f",
@@ -783,7 +783,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/74bcd0dc-e9cc-4c10-98c0-a232950a411f",
       "source": "Precalculus, 3rd Edition 10.4.11",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "425a5059-a3f5-4b01-8f6c-7736162148b9",
@@ -800,7 +800,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/425a5059-a3f5-4b01-8f6c-7736162148b9",
       "source": "Precalculus, 3rd Edition 10.4.12",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Even and Odd Identities "
+      "topic": "Trigonometry/Fundamental Identities/Even and Odd Identities "
     },
     {
       "uuid": "489a48bc-301f-4c6d-a16c-2eabb0766e08",
@@ -817,7 +817,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/489a48bc-301f-4c6d-a16c-2eabb0766e08",
       "source": "Precalculus, 3rd Edition 10.4.13",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "cc46003f-3d2e-4e17-89a3-d0075b3c8688",
@@ -834,7 +834,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/cc46003f-3d2e-4e17-89a3-d0075b3c8688",
       "source": "Precalculus, 3rd Edition 10.4.14",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "b35733e7-3420-4273-994a-93828fe86da7",
@@ -851,7 +851,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/b35733e7-3420-4273-994a-93828fe86da7",
       "source": "Precalculus, 3rd Edition 10.4.15",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "9152eb9d-d08a-4009-af54-49e0d4d27620",
@@ -868,7 +868,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/9152eb9d-d08a-4009-af54-49e0d4d27620",
       "source": "Precalculus, 3rd Edition 10.4.16",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "72412d72-d7bf-4188-bf48-c9f70e26ba9e",
@@ -885,7 +885,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/72412d72-d7bf-4188-bf48-c9f70e26ba9e",
       "source": "Precalculus, 3rd Edition 10.4.17",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "58f02760-2eaf-4cb0-b40e-11bdf1f46a38",
@@ -902,7 +902,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/58f02760-2eaf-4cb0-b40e-11bdf1f46a38",
       "source": "Precalculus, 3rd Edition 10.4.18",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "d9dd13d8-296e-4c04-b5e2-8e566ad7ba19",
@@ -919,7 +919,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/d9dd13d8-296e-4c04-b5e2-8e566ad7ba19",
       "source": "Precalculus, 3rd Edition 10.4.19",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "d0a55f7f-633a-4b28-a67d-08c5034232dd",
@@ -936,7 +936,7 @@
       "tags": "trigonometric identities, even identity, odd identity, even odd identities, properties of sine, properties of cosine",
       "url": "/question/d0a55f7f-633a-4b28-a67d-08c5034232dd",
       "source": "Precalculus, 3rd Edition 10.4.2",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "69708cf9-2081-4f8d-babc-d6dc202ef195",
@@ -953,7 +953,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/69708cf9-2081-4f8d-babc-d6dc202ef195",
       "source": "Precalculus, 3rd Edition 10.4.20",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "14f235d9-0b24-45e6-bb97-d7c7572f2396",
@@ -970,7 +970,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/14f235d9-0b24-45e6-bb97-d7c7572f2396",
       "source": "Precalculus, 3rd Edition 10.4.21",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "feb0647a-db5f-4a99-b3a7-c9389c20065a",
@@ -987,7 +987,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/feb0647a-db5f-4a99-b3a7-c9389c20065a",
       "source": "Precalculus, 3rd Edition 10.4.22",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Even and Odd Identities "
+      "topic": "Trigonometry/Fundamental Identities/Even and Odd Identities "
     },
     {
       "uuid": "5f92b782-c097-4f7a-8249-d5d20a948311",
@@ -1004,7 +1004,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/5f92b782-c097-4f7a-8249-d5d20a948311",
       "source": "Precalculus, 3rd Edition 10.4.23",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "f627966b-80ec-4a02-967d-c37f7d8b38ae",
@@ -1021,7 +1021,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/f627966b-80ec-4a02-967d-c37f7d8b38ae",
       "source": "Precalculus, 3rd Edition 10.4.24",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "70a1faa2-bd6d-4637-93b4-10d8c5188250",
@@ -1038,7 +1038,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/70a1faa2-bd6d-4637-93b4-10d8c5188250",
       "source": "Precalculus, 3rd Edition 10.4.25",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "ee92bf26-61e8-470d-b338-d9b00d249e19",
@@ -1055,7 +1055,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/ee92bf26-61e8-470d-b338-d9b00d249e19",
       "source": "Precalculus, 3rd Edition 10.4.26",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "d0d50f36-1413-41e0-9a65-994bbb74341f",
@@ -1072,7 +1072,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/d0d50f36-1413-41e0-9a65-994bbb74341f",
       "source": "Precalculus, 3rd Edition 10.4.27",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "fd6817b6-8394-4450-837b-c514cb455804",
@@ -1089,7 +1089,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/fd6817b6-8394-4450-837b-c514cb455804",
       "source": "Precalculus, 3rd Edition 10.4.28",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "c046317d-8622-4708-85cb-19a97103f0e4",
@@ -1106,7 +1106,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/c046317d-8622-4708-85cb-19a97103f0e4",
       "source": "Precalculus, 3rd Edition 10.4.29",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "a07082a7-7dd7-4c67-81eb-db29be57b0e2",
@@ -1123,7 +1123,7 @@
       "tags": "trigonometric identities, even identity, odd identity, even odd identities, properties of sine, properties of cosine",
       "url": "/question/a07082a7-7dd7-4c67-81eb-db29be57b0e2",
       "source": "Precalculus, 3rd Edition 10.4.3",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "65c5cbc0-8d4b-4a9c-b6ea-e5c9ea4fd931",
@@ -1140,7 +1140,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/65c5cbc0-8d4b-4a9c-b6ea-e5c9ea4fd931",
       "source": "Precalculus, 3rd Edition 10.4.30",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "fb1d6c09-443a-4e88-a4a4-b30b174a6b9b",
@@ -1157,7 +1157,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/fb1d6c09-443a-4e88-a4a4-b30b174a6b9b",
       "source": "Precalculus, 3rd Edition 10.4.31",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "564a19e8-d102-416e-bb74-97c41a900f11",
@@ -1174,7 +1174,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/564a19e8-d102-416e-bb74-97c41a900f11",
       "source": "Precalculus, 3rd Edition 10.4.32",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Even and Odd Identities "
+      "topic": "Trigonometry/Fundamental Identities/Even and Odd Identities "
     },
     {
       "uuid": "a3344d31-cb52-4cf9-9b67-a2fe4c6a77af",
@@ -1191,7 +1191,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/a3344d31-cb52-4cf9-9b67-a2fe4c6a77af",
       "source": "Precalculus, 3rd Edition 10.4.33",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "0bafa2d7-0df4-457f-91ae-0d0fff178dab",
@@ -1208,7 +1208,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/0bafa2d7-0df4-457f-91ae-0d0fff178dab",
       "source": "Precalculus, 3rd Edition 10.4.34",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "d8b0714c-a93f-498e-ab6b-e77d0a7082b7",
@@ -1225,7 +1225,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/d8b0714c-a93f-498e-ab6b-e77d0a7082b7",
       "source": "Precalculus, 3rd Edition 10.4.35",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "6017ff1d-25af-4e35-b8a2-28ec302093db",
@@ -1242,7 +1242,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/6017ff1d-25af-4e35-b8a2-28ec302093db",
       "source": "Precalculus, 3rd Edition 10.4.36",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "95562754-e0cf-4d70-b78b-811baf5bfcd3",
@@ -1259,7 +1259,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/95562754-e0cf-4d70-b78b-811baf5bfcd3",
       "source": "Precalculus, 3rd Edition 10.4.37",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "1d1987eb-8595-4f3d-901f-fbdf805f1c46",
@@ -1276,7 +1276,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, even identity, odd identity, trigonometric proof, trig proof",
       "url": "/question/1d1987eb-8595-4f3d-901f-fbdf805f1c46",
       "source": "Precalculus, 3rd Edition 10.4.38",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "0008f86c-9821-47f8-9d83-3f872e229492",
@@ -1293,7 +1293,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/0008f86c-9821-47f8-9d83-3f872e229492",
       "source": "Precalculus, 3rd Edition 10.4.39",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "2c361e8b-1498-4185-b9d0-236daffd7614",
@@ -1310,7 +1310,7 @@
       "tags": "trigonometric identities, even identity, odd identity, even odd identities, properties of sine, properties of cosine",
       "url": "/question/2c361e8b-1498-4185-b9d0-236daffd7614",
       "source": "Precalculus, 3rd Edition 10.4.4",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "38846bc6-98cd-4dcf-831c-d302546440d7",
@@ -1327,7 +1327,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/38846bc6-98cd-4dcf-831c-d302546440d7",
       "source": "Precalculus, 3rd Edition 10.4.40",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sum and Difference Identities "
+      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Identities "
     },
     {
       "uuid": "b34e46cd-6ce1-470e-85c9-c8c2d5b5810e",
@@ -1344,7 +1344,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/b34e46cd-6ce1-470e-85c9-c8c2d5b5810e",
       "source": "Precalculus, 3rd Edition 10.4.41",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "2e17fc60-323c-41a6-9eeb-48f02c956d3b",
@@ -1361,7 +1361,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/2e17fc60-323c-41a6-9eeb-48f02c956d3b",
       "source": "Precalculus, 3rd Edition 10.4.42",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Even and Odd Identities "
+      "topic": "Trigonometry/Fundamental Identities/Even and Odd Identities "
     },
     {
       "uuid": "773a9a28-3e65-4e36-a130-35de52f5f29d",
@@ -1378,7 +1378,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/773a9a28-3e65-4e36-a130-35de52f5f29d",
       "source": "Precalculus, 3rd Edition 10.4.43",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "55c8ca91-6a7d-4b66-97a4-dd507fcdc391",
@@ -1395,7 +1395,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/55c8ca91-6a7d-4b66-97a4-dd507fcdc391",
       "source": "Precalculus, 3rd Edition 10.4.44",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "f328b629-24dc-490d-8eeb-021005a86d48",
@@ -1412,7 +1412,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/f328b629-24dc-490d-8eeb-021005a86d48",
       "source": "Precalculus, 3rd Edition 10.4.45",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "7b878b72-5c18-4caa-95df-02c1530ed6ee",
@@ -1429,7 +1429,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/7b878b72-5c18-4caa-95df-02c1530ed6ee",
       "source": "Precalculus, 3rd Edition 10.4.46",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "2b15c66d-2ad6-43e7-88a4-59829df9c261",
@@ -1446,7 +1446,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/2b15c66d-2ad6-43e7-88a4-59829df9c261",
       "source": "Precalculus, 3rd Edition 10.4.47",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "45f5d5f5-ad9d-4ec6-a93f-1ace2d07ccdf",
@@ -1463,7 +1463,7 @@
       "tags": "trigonometric identities, half angle formula, reciprocal identity, even identity, odd identity",
       "url": "/question/45f5d5f5-ad9d-4ec6-a93f-1ace2d07ccdf",
       "source": "Precalculus, 3rd Edition 10.4.48",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "57368902-dcf2-45c8-ba5a-4958e8bc41c7",
@@ -1480,7 +1480,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/57368902-dcf2-45c8-ba5a-4958e8bc41c7",
       "source": "Precalculus, 3rd Edition 10.4.49",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "c445ed67-1519-44aa-9b76-66f8d13aed5b",
@@ -1497,7 +1497,7 @@
       "tags": "trigonometric identities, even identity, odd identity, even odd identities, properties of sine, properties of cosine",
       "url": "/question/c445ed67-1519-44aa-9b76-66f8d13aed5b",
       "source": "Precalculus, 3rd Edition 10.4.5",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "690a4a62-7a3f-485e-b22b-dc0b3f02b2ba",
@@ -1514,7 +1514,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/690a4a62-7a3f-485e-b22b-dc0b3f02b2ba",
       "source": "Precalculus, 3rd Edition 10.4.50",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "474ba75b-2da3-4846-83a8-de2c589cf26f",
@@ -1531,7 +1531,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/474ba75b-2da3-4846-83a8-de2c589cf26f",
       "source": "Precalculus, 3rd Edition 10.4.51",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "5a4739a5-351f-4899-833a-faa50f328a92",
@@ -1548,7 +1548,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/5a4739a5-351f-4899-833a-faa50f328a92",
       "source": "Precalculus, 3rd Edition 10.4.52",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Even and Odd Identities "
+      "topic": "Trigonometry/Fundamental Identities/Even and Odd Identities "
     },
     {
       "uuid": "6ed4678a-2fd4-422a-9dfa-528d7f791816",
@@ -1565,7 +1565,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/6ed4678a-2fd4-422a-9dfa-528d7f791816",
       "source": "Precalculus, 3rd Edition 10.4.53",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "757cefb2-8d5a-4b7e-8e35-0d898830afa3",
@@ -1582,7 +1582,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/757cefb2-8d5a-4b7e-8e35-0d898830afa3",
       "source": "Precalculus, 3rd Edition 10.4.54",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     },
     {
       "uuid": "6f6e2ff2-c4cc-4363-a40f-2801858fd8f0",
@@ -1599,7 +1599,7 @@
       "tags": "trigonometric identities, half angle formulas, double angle formulas, half angle identity, double angle identity",
       "url": "/question/6f6e2ff2-c4cc-4363-a40f-2801858fd8f0",
       "source": "Precalculus, 3rd Edition 10.4.55",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Half Angle Formulas"
+      "topic": "Trigonometry/Fundamental Identities/Half Angle Formulas"
     }
   ],
   "textContent": [
@@ -1613,7 +1613,7 @@
       "viewable": true,
       "karma": 3,
       "title": "The integral test",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2029.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2030.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2029.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2030.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral test, divergence, convergence, series, sequences ",
       "url": "/text-content/8621315a-9de3-494c-9790-afeff88cd796",
@@ -1630,7 +1630,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Alternating series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2041.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2041.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, alternating series, convergence, divergence ",
       "url": "/text-content/3c97cc1e-413a-4da1-8ac1-c95a1a11c680",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Comparison tests ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2043.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2044.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2043.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2044.png\"/\u003e",
       "allAnswers": [],
       "tags": "comparison tests, divergence, convergence, series ",
       "url": "/text-content/e22fbb06-41c3-4a77-9b9e-f4bf6fec501a",
       "source": "Calculus, Early Transcendentals 11.5",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series "
+      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
     },
     {
       "uuid": "a00368d0-d0d5-42e8-ba28-83e9e03a9585",
@@ -1664,7 +1664,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Absolute convergence ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2046.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2046.png\"/\u003e",
       "allAnswers": [],
       "tags": "absolute convergence, convergence, series, sequences, divergence ",
       "url": "/text-content/a00368d0-d0d5-42e8-ba28-83e9e03a9585",

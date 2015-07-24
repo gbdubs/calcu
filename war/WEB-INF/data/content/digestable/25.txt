@@ -358,7 +358,7 @@
       "tags": "derivatives",
       "url": "/question/79320b9b-7cf0-4786-8d0b-29add5671889",
       "source": "AP Calculus Problems 2.15.52",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "5edd138f-5daf-49c1-bba7-c19f17335e5e",
@@ -375,7 +375,7 @@
       "tags": "derivatives",
       "url": "/question/5edd138f-5daf-49c1-bba7-c19f17335e5e",
       "source": "AP Calculus Problems 2.15.53",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "19e13e0c-1255-4d5d-afe7-4c81b31ef3a1",
@@ -392,7 +392,7 @@
       "tags": "derivatives",
       "url": "/question/19e13e0c-1255-4d5d-afe7-4c81b31ef3a1",
       "source": "AP Calculus Problems 2.15.54",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "537b9e6e-2bcc-4119-804c-448f7bf25781",
@@ -409,7 +409,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/537b9e6e-2bcc-4119-804c-448f7bf25781",
       "source": "AP Calculus Problems 2.16.1",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "4ec9a38f-d6f0-423e-99f0-904b4a2baac4",
@@ -426,7 +426,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4ec9a38f-d6f0-423e-99f0-904b4a2baac4",
       "source": "AP Calculus Problems 2.16.2",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "1c915c9b-4855-42f1-8420-40a7618a3fff",
@@ -443,7 +443,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/1c915c9b-4855-42f1-8420-40a7618a3fff",
       "source": "AP Calculus Problems 2.16.3",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "05d110f8-64f1-4e84-8f76-a978e9949ada",
@@ -460,7 +460,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/05d110f8-64f1-4e84-8f76-a978e9949ada",
       "source": "AP Calculus Problems 2.16.4",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "4aea488a-567b-410f-858b-70300fa6d80b",
@@ -477,7 +477,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4aea488a-567b-410f-858b-70300fa6d80b",
       "source": "AP Calculus Problems 2.16.5",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "5b7038b5-10c3-4a5f-a504-1e7ba9bb1420",
@@ -494,7 +494,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/5b7038b5-10c3-4a5f-a504-1e7ba9bb1420",
       "source": "AP Calculus Problems 2.16.6",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "1f0aa416-1643-49ff-a1b2-7188986fca86",
@@ -511,7 +511,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/1f0aa416-1643-49ff-a1b2-7188986fca86",
       "source": "AP Calculus Problems 2.16.7",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "d20329fc-6a01-49c9-adb5-eda492541584",
@@ -528,7 +528,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/d20329fc-6a01-49c9-adb5-eda492541584",
       "source": "AP Calculus Problems 2.16.8",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "78983640-2bed-4156-ab7b-e713a1b51d6a",
@@ -545,7 +545,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/78983640-2bed-4156-ab7b-e713a1b51d6a",
       "source": "AP Calculus Problems 2.16.9",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "5455f028-9715-4aab-bd5b-13fe9a05c2d7",
@@ -562,7 +562,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/5455f028-9715-4aab-bd5b-13fe9a05c2d7",
       "source": "AP Calculus Problems 2.16.10",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "84030fb6-3806-4865-a568-bbabd9ddd25f",
@@ -579,7 +579,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/84030fb6-3806-4865-a568-bbabd9ddd25f",
       "source": "AP Calculus Problems 2.16.11",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "017f8587-d672-4a1c-b539-88d51af3b35c",
@@ -596,7 +596,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/017f8587-d672-4a1c-b539-88d51af3b35c",
       "source": "AP Calculus Problems 2.16.12",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "b00cdb1f-507c-4a9e-a424-c56f0812e1e5",
@@ -613,7 +613,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/b00cdb1f-507c-4a9e-a424-c56f0812e1e5",
       "source": "AP Calculus Problems 2.16.13",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "a981e8c8-72ae-4663-9309-2c97163f4561",
@@ -630,7 +630,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/a981e8c8-72ae-4663-9309-2c97163f4561",
       "source": "AP Calculus Problems 2.16.14",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "66a36d39-53f2-41ca-8c2d-cb7370e04f53",
@@ -647,7 +647,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/66a36d39-53f2-41ca-8c2d-cb7370e04f53",
       "source": "AP Calculus Problems 2.16.15",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "04689a7a-2414-490e-b4f8-f5975e5aed98",
@@ -664,7 +664,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/04689a7a-2414-490e-b4f8-f5975e5aed98",
       "source": "AP Calculus Problems 2.16.16",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "4fb8ff73-b493-45c6-8397-e7cf0bdd70b8",
@@ -681,7 +681,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4fb8ff73-b493-45c6-8397-e7cf0bdd70b8",
       "source": "AP Calculus Problems 2.16.17",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "0ced5ae8-2841-4248-906b-bdcb39e980ae",
@@ -698,7 +698,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/0ced5ae8-2841-4248-906b-bdcb39e980ae",
       "source": "AP Calculus Problems 2.16.18",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "0bec6ac7-8d56-41aa-844f-e354c37b72ec",
@@ -715,7 +715,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/0bec6ac7-8d56-41aa-844f-e354c37b72ec",
       "source": "AP Calculus Problems 2.16.19",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "b4e33596-a0a7-4d6d-9d13-e6a0ad8a97f5",
@@ -732,7 +732,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/b4e33596-a0a7-4d6d-9d13-e6a0ad8a97f5",
       "source": "AP Calculus Problems 2.16.20",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "4b33048c-49dd-49dc-829f-18be556891e5",
@@ -749,7 +749,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4b33048c-49dd-49dc-829f-18be556891e5",
       "source": "AP Calculus Problems 2.16.21",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "62c4d932-1138-4b97-aaf7-a5e60474eedc",
@@ -766,7 +766,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/62c4d932-1138-4b97-aaf7-a5e60474eedc",
       "source": "AP Calculus Problems 2.16.22",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "dfcdae32-2f76-4cdb-b4fd-7712cbbcfc7c",
@@ -783,7 +783,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/dfcdae32-2f76-4cdb-b4fd-7712cbbcfc7c",
       "source": "AP Calculus Problems 2.16.23",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "e0531978-d7f9-4e90-bc14-a4127a3e8337",
@@ -800,7 +800,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/e0531978-d7f9-4e90-bc14-a4127a3e8337",
       "source": "AP Calculus Problems 2.16.24",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "1a065f1c-72e1-4719-881c-0ea46ab0f00c",
@@ -817,7 +817,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/1a065f1c-72e1-4719-881c-0ea46ab0f00c",
       "source": "AP Calculus Problems 2.16.25",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "4a250e92-6dcf-4410-bad8-31bdb1964b02",
@@ -834,7 +834,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4a250e92-6dcf-4410-bad8-31bdb1964b02",
       "source": "AP Calculus Problems 2.16.26",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "63a095d5-1168-4b5f-a2f8-aeb7d132e987",
@@ -851,7 +851,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/63a095d5-1168-4b5f-a2f8-aeb7d132e987",
       "source": "AP Calculus Problems 2.16.27",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "743b26c4-69b5-466e-9b21-2935578715d6",
@@ -868,7 +868,7 @@
       "tags": "derivatives of inverses, tangent lines",
       "url": "/question/743b26c4-69b5-466e-9b21-2935578715d6",
       "source": "AP Calculus Problems 2.16.28",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation/Inverses "
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
     },
     {
       "uuid": "27910d83-565e-41a2-bbab-7c22b5a4ed61",
@@ -885,7 +885,7 @@
       "tags": "derivatives, functions",
       "url": "/question/27910d83-565e-41a2-bbab-7c22b5a4ed61",
       "source": "AP Calculus Problems 2.17.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "00488e5b-1ffa-4140-9474-35087c6a05c3",
@@ -902,7 +902,7 @@
       "tags": "derivatives, functions",
       "url": "/question/00488e5b-1ffa-4140-9474-35087c6a05c3",
       "source": "AP Calculus Problems 2.17.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "74a4efa9-ba17-4862-9b50-c4c6d99515a5",
@@ -919,7 +919,7 @@
       "tags": "derivatives, functions",
       "url": "/question/74a4efa9-ba17-4862-9b50-c4c6d99515a5",
       "source": "AP Calculus Problems 2.17.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "073f1f0f-d83c-42cc-aaf1-2dce0a65c5a3",
@@ -936,7 +936,7 @@
       "tags": "derivatives, functions",
       "url": "/question/073f1f0f-d83c-42cc-aaf1-2dce0a65c5a3",
       "source": "AP Calculus Problems 2.17.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "3052b7bc-868c-49b1-ac76-27ec2ba7ee2f",
@@ -953,7 +953,7 @@
       "tags": "derivatives, average rate of change, tangent line, function",
       "url": "/question/3052b7bc-868c-49b1-ac76-27ec2ba7ee2f",
       "source": "AP Calculus Problems 2.17.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "42c2ad9f-5a9b-4430-8ace-c93920afbdd5",
@@ -970,7 +970,7 @@
       "tags": "derivatives, displacement, velocity ",
       "url": "/question/42c2ad9f-5a9b-4430-8ace-c93920afbdd5",
       "source": "AP Calculus Problems 2.17.5",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Net Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Net Distance"
     },
     {
       "uuid": "c1d16c5f-2295-41a6-8e99-65a06d7bf9e7",
@@ -987,7 +987,7 @@
       "tags": "derivatives, word problem, rate of change, volume",
       "url": "/question/c1d16c5f-2295-41a6-8e99-65a06d7bf9e7",
       "source": "AP Calculus Problems 2.17.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "bb8024ec-9b5d-4ba9-9473-a1b85f4ba2ed",
@@ -1004,7 +1004,7 @@
       "tags": "derivative, velocity, acceleration, function",
       "url": "/question/bb8024ec-9b5d-4ba9-9473-a1b85f4ba2ed",
       "source": "AP Calculus Problems 2.17.7",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "2d6471a5-7bd2-4775-a23c-f71360ec5c58",
@@ -1021,7 +1021,7 @@
       "tags": "derivatives, function, velocity",
       "url": "/question/2d6471a5-7bd2-4775-a23c-f71360ec5c58",
       "source": "AP Calculus Problems 2.17.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "8c177767-c962-46af-b434-30dc527c4e80",
@@ -1038,7 +1038,7 @@
       "tags": "derivatives, rate of change, functions",
       "url": "/question/8c177767-c962-46af-b434-30dc527c4e80",
       "source": "AP Calculus Problems 2.17.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "d736e044-b59e-41c6-9d0e-bbfae2d610b4",
@@ -1055,7 +1055,7 @@
       "tags": "derivatives, function, infinity ",
       "url": "/question/d736e044-b59e-41c6-9d0e-bbfae2d610b4",
       "source": "AP Calculus Problems 2.17.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "95117443-d92b-4b5e-a77b-0d029f9f9c7d",
@@ -1072,7 +1072,7 @@
       "tags": "derivatives, velocity",
       "url": "/question/95117443-d92b-4b5e-a77b-0d029f9f9c7d",
       "source": "AP Calculus Problems 2.17.11",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "3e9227bf-edcc-4d71-8290-0875ce9bf9c2",
@@ -1089,7 +1089,7 @@
       "tags": "derivatives, limits",
       "url": "/question/3e9227bf-edcc-4d71-8290-0875ce9bf9c2",
       "source": "AP Calculus Problems 2.18.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "8932d33e-b9f4-471f-91d3-6b82b8c3caa7",
@@ -1106,7 +1106,7 @@
       "tags": "derivatives, function, tangent line",
       "url": "/question/8932d33e-b9f4-471f-91d3-6b82b8c3caa7",
       "source": "AP Calculus Problems 2.18.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "d166b6dc-73a0-4f95-9210-4b378824b91e",
@@ -1123,7 +1123,7 @@
       "tags": "derivatives, domain, tangent line",
       "url": "/question/d166b6dc-73a0-4f95-9210-4b378824b91e",
       "source": "AP Calculus Problems 2.18.3",
-      "topic": "Calculus/Applications of the Derivative/Newton�s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "31564a42-f15f-4379-881b-79dab4f0390a",
@@ -1140,7 +1140,7 @@
       "tags": "curve, derivatives, tangent line",
       "url": "/question/31564a42-f15f-4379-881b-79dab4f0390a",
       "source": "AP Calculus Problems 2.18.4",
-      "topic": "Calculus/Applications of the Derivative/Newton�s Method/Tangent Line/Curve"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "92d302a7-2cd8-4143-862a-e360ff85d817",
@@ -1157,7 +1157,7 @@
       "tags": "derivatives, rate of change",
       "url": "/question/92d302a7-2cd8-4143-862a-e360ff85d817",
       "source": "AP Calculus Problems 2.18.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "5e7a6260-9684-4089-bc53-b7e41bdd541d",
@@ -1174,7 +1174,7 @@
       "tags": "derivatives, rate of change, area, right triangle",
       "url": "/question/5e7a6260-9684-4089-bc53-b7e41bdd541d",
       "source": "AP Calculus Problems 2.18.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "a7c8ec6b-b41d-43cb-84fb-c778cf1eb164",
@@ -1191,7 +1191,7 @@
       "tags": "functions, derivatives, limits, asymptote",
       "url": "/question/a7c8ec6b-b41d-43cb-84fb-c778cf1eb164",
       "source": "AP Calculus Problems 2.18.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "58645e7c-95b9-4951-9912-fdb65042dea7",
@@ -1225,7 +1225,7 @@
       "tags": "derivative, multiple choice, function",
       "url": "/question/d593ec84-31c9-458a-899c-c2af0a66968f",
       "source": "AP Calculus Problems 2.19.1",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "c5985f65-f891-4193-b02c-e4eb660786ed",
@@ -1242,7 +1242,7 @@
       "tags": "derivative, multiple choice",
       "url": "/question/c5985f65-f891-4193-b02c-e4eb660786ed",
       "source": "AP Calculus Problems 2.19.2",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "90500b41-9947-468f-bb80-7f5a3c9b90e6",
@@ -1259,7 +1259,7 @@
       "tags": "derivative, function, multiple choice",
       "url": "/question/90500b41-9947-468f-bb80-7f5a3c9b90e6",
       "source": "AP Calculus Problems 2.19.3",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "a38c29ff-34ed-4cfa-911c-67059df85bcd",
@@ -1276,7 +1276,7 @@
       "tags": "derivative, multiple choice, curve",
       "url": "/question/a38c29ff-34ed-4cfa-911c-67059df85bcd",
       "source": "AP Calculus Problems 2.19.4",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "0cb9375d-a2d6-41fa-bf3b-3af3d354a6bd",
@@ -1293,7 +1293,7 @@
       "tags": "derivative, function, multiple choice ",
       "url": "/question/0cb9375d-a2d6-41fa-bf3b-3af3d354a6bd",
       "source": "AP Calculus Problems 2.19.5",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "417eeee1-242a-4554-af98-c0970685ca0f",
@@ -1310,7 +1310,7 @@
       "tags": "limits, functions, derivatives, multiple choice",
       "url": "/question/417eeee1-242a-4554-af98-c0970685ca0f",
       "source": "AP Calculus Problems 2.19.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "20439a9d-206b-45b1-b69b-0efb9c6e4fce",
@@ -1327,7 +1327,7 @@
       "tags": "derivative, multiple choice, functions",
       "url": "/question/20439a9d-206b-45b1-b69b-0efb9c6e4fce",
       "source": "AP Calculus Problems 2.19.7",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "bca8c48e-c64c-4365-8ff7-e23a46cce238",
@@ -1344,7 +1344,7 @@
       "tags": "tangent line, derivative, multiple choice",
       "url": "/question/bca8c48e-c64c-4365-8ff7-e23a46cce238",
       "source": "AP Calculus Problems 2.19.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "deafedfd-f430-4562-aaff-4d2479276f54",
@@ -1361,7 +1361,7 @@
       "tags": "derivative, multiple choice, tangent line",
       "url": "/question/deafedfd-f430-4562-aaff-4d2479276f54",
       "source": "AP Calculus Problems 2.19.9",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "8e48eeb9-80b4-4c20-bf38-1740c8e7634b",
@@ -1378,7 +1378,7 @@
       "tags": "derivative, multiple choice",
       "url": "/question/8e48eeb9-80b4-4c20-bf38-1740c8e7634b",
       "source": "AP Calculus Problems 2.19.10",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "23227464-fda7-4b9a-b4fd-cf7efc2452ab",
@@ -1395,7 +1395,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/23227464-fda7-4b9a-b4fd-cf7efc2452ab",
       "source": "AP Calculus Problems 2.19.11",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "13f3e2d2-edff-490c-9545-63df84e65304",
@@ -1412,7 +1412,7 @@
       "tags": "derivative, multiple choice",
       "url": "/question/13f3e2d2-edff-490c-9545-63df84e65304",
       "source": "AP Calculus Problems 2.19.12",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "c95e8061-c8fa-4493-b42d-897b7b645d1a",
@@ -1429,7 +1429,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/c95e8061-c8fa-4493-b42d-897b7b645d1a",
       "source": "AP Calculus Problems 2.19.13",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "502086af-5f6a-482f-96b1-e7316686b5fd",
@@ -1446,7 +1446,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/502086af-5f6a-482f-96b1-e7316686b5fd",
       "source": "AP Calculus Problems 2.19.14",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "1e889544-2918-4674-8d45-779d034edcfa",
@@ -1463,7 +1463,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/1e889544-2918-4674-8d45-779d034edcfa",
       "source": "AP Calculus Problems 2.19.15",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "f142df2c-fd2c-49e2-927f-883ab2eed5cd",
@@ -1480,7 +1480,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/f142df2c-fd2c-49e2-927f-883ab2eed5cd",
       "source": "AP Calculus Problems 2.19.16",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "56294436-31b5-4d87-93c8-8a3a5d16386a",
@@ -1497,7 +1497,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/56294436-31b5-4d87-93c8-8a3a5d16386a",
       "source": "AP Calculus Problems 2.19.17",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "bd44845e-957a-4e07-b800-b6fbb4e35c97",
@@ -1514,7 +1514,7 @@
       "tags": "derivatives, multiple choice",
       "url": "/question/bd44845e-957a-4e07-b800-b6fbb4e35c97",
       "source": "AP Calculus Problems 2.19.18",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "5ac9dc1a-1b79-4660-b9f2-e33e4810a7b2",
@@ -1531,7 +1531,7 @@
       "tags": "function, domain, extrema, derivative test",
       "url": "/question/5ac9dc1a-1b79-4660-b9f2-e33e4810a7b2",
       "source": "AP Calculus Problems 3.3.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "08f6559e-6c1f-458d-abd7-70d2e62ccbd8",
@@ -1548,7 +1548,7 @@
       "tags": "derivative test, extrema, function, domain",
       "url": "/question/08f6559e-6c1f-458d-abd7-70d2e62ccbd8",
       "source": "AP Calculus Problems 3.3.2",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "3a57da7a-a3c1-472b-aea6-e454ab860b88",
@@ -1565,7 +1565,7 @@
       "tags": "derivative test, extrema, domain, function",
       "url": "/question/3a57da7a-a3c1-472b-aea6-e454ab860b88",
       "source": "AP Calculus Problems 3.3.3",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "ad105a00-0049-4796-9dad-98d0ee505525",
@@ -1582,7 +1582,7 @@
       "tags": "derivative test, domain, function, extrema",
       "url": "/question/ad105a00-0049-4796-9dad-98d0ee505525",
       "source": "AP Calculus Problems 3.3.4",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "3ec02872-db16-484c-aaad-828948a65a04",
@@ -1599,7 +1599,7 @@
       "tags": "derivative test, domain, extrema, function",
       "url": "/question/3ec02872-db16-484c-aaad-828948a65a04",
       "source": "AP Calculus Problems 3.3.5",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     }
   ],
   "textContent": [
@@ -1613,7 +1613,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Applications of Exponential and Logarithmic Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2599.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2600.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2604.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2608.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2609.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2610.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2613.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2599.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2600.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2604.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2608.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2609.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2610.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2613.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential functions, logarithmic functions, applications of exponential function, applications of log functions ",
       "url": "/text-content/d044c0cb-73cc-437e-ada3-9bc6f313bc33",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Conics ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2616.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2616.png\"/\u003e",
       "allAnswers": [],
       "tags": "conics, conic sections ",
       "url": "/text-content/f6692c0d-116c-4b5d-9b33-cf243ed5eea3",
       "source": "Precalculus, 3rd Edition 7.1",
-      "topic": "Pre-Calculus/Hooked on Conics/Conics"
+      "topic": "Pre-Calculus/Conics"
     },
     {
       "uuid": "410506c3-41e1-4ff4-82e8-2a8885930927",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Circles ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2617.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2618.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2623.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2617.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2618.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2623.png\"/\u003e",
       "allAnswers": [],
       "tags": "circles, unit circle ",
       "url": "/text-content/410506c3-41e1-4ff4-82e8-2a8885930927",
       "source": "Precalculus, 3rd Edition 7.2",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circles"
+      "topic": "Pre-Calculus/Conics/Circles"
     },
     {
       "uuid": "5821175d-3cc6-470e-a86e-99086d2c88fb",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parabolas",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2626.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2628.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2629.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2631.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2634.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2638.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2639.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2626.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2628.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2629.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2631.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2634.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2638.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2639.png\"/\u003e",
       "allAnswers": [],
       "tags": "parabolas, standard form parabola, horizontal parabola, focal diameter ",
       "url": "/text-content/5821175d-3cc6-470e-a86e-99086d2c88fb",
       "source": "Precalculus, 3rd Edition 7.3",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Standard Equation of Vertical Parabolas"
+      "topic": "Pre-Calculus/Conics/Parabolas"
     },
     {
       "uuid": "d18d0ab0-976c-483a-8b0c-c031be3df1e9",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Ellipses",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2642.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2643.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2644.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2645.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2646.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2647.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2651.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2655.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2642.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2643.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2644.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2645.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2646.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2647.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2651.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2655.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
       "allAnswers": [],
       "tags": "ellipses, conics, conic sections, eccentricity ",
       "url": "/text-content/d18d0ab0-976c-483a-8b0c-c031be3df1e9",
       "source": "Precalculus, 3rd Edition 7.4",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     }
   ],
   "answers": [],

@@ -191,7 +191,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/26105de3-ff67-4939-927f-19a03367983c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\(-\\dfrac74\\) ",
@@ -209,7 +209,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/9556fe24-6d8d-4b01-88ea-aef08aff6847",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\([-\\frac12,1) \\cup [2,\\infty)\\) ",
@@ -227,7 +227,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/0e977599-982c-4ec9-91a5-2b331f989854",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\(3\\) ,  \\(7\\) ",
@@ -245,7 +245,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/0b10823d-1318-4da3-bfb4-dbed71e34e9f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\(-11\\) ,  \\(3\\) ",
@@ -263,7 +263,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/94abdaa8-7b7e-409e-a61c-da67aa3178d0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\(-\\sqrt 7\\) ,  \\(\\sqrt 7\\) ",
@@ -281,7 +281,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/7bbf7e03-cb0f-41ea-b05c-e1404c7cb5d7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\((-\\infty,-3] \\cup [9,\\infty)\\) ",
@@ -299,7 +299,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/81ff8b63-da21-4bec-8ca3-77e2716df159",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\((-\\infty,-3) \\cup [-\\frac74,2)\\) ",
@@ -317,7 +317,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/f15f57a2-b53b-4f03-9450-0bb40fba01e8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\(-10\\) ,  \\(-\\dfrac72\\) ,  \\(-\\dfrac52\\) ,  \\(4\\) ",
@@ -335,7 +335,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/practice-problem/14a1eacc-5a43-4144-9fc8-1f2df78d33b6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "authorSolution": " \\(3\\) ,  \\(-2\\) ",
@@ -372,7 +372,7 @@
       "tags": "quadratic function, points, matrices, augmented",
       "url": "/question/88add2c2-0a46-4edb-9232-a1f1fd5c4d7c",
       "source": "Precalculus, 3rd Edition 8.2.29",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "a6ba7d34-0675-470a-aaea-2267bc7ab454",
@@ -389,7 +389,7 @@
       "tags": "matrix, row echelon form, reduced row echelon form",
       "url": "/question/a6ba7d34-0675-470a-aaea-2267bc7ab454",
       "source": "Precalculus, 3rd Edition 8.2.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "663b1a53-1438-438e-b2d3-fa7a38f69d2e",
@@ -406,7 +406,7 @@
       "tags": "word problem, dependent variable, independent variable, quadratic function, matrices, augmented",
       "url": "/question/663b1a53-1438-438e-b2d3-fa7a38f69d2e",
       "source": "Precalculus, 3rd Edition 8.2.30",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "3f9f8ae4-222a-4697-a61f-b06d31ac27e7",
@@ -423,7 +423,7 @@
       "tags": "word problem, matrices, augmented, matrices word problem",
       "url": "/question/3f9f8ae4-222a-4697-a61f-b06d31ac27e7",
       "source": "Precalculus, 3rd Edition 8.2.31",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "50956889-5aaa-4cc8-a38c-cd81790cd349",
@@ -440,7 +440,7 @@
       "tags": "row echelon, matrix, matrices, augmented ",
       "url": "/question/50956889-5aaa-4cc8-a38c-cd81790cd349",
       "source": "Precalculus, 3rd Edition 8.2.33",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "90d669ed-d4f8-4bba-aad3-966bb7a084fe",
@@ -457,7 +457,7 @@
       "tags": "matrix, row echelon form, reduced row echelon form",
       "url": "/question/90d669ed-d4f8-4bba-aad3-966bb7a084fe",
       "source": "Precalculus, 3rd Edition 8.2.4",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "3b0dc9e4-6f53-42ba-8cb0-75f45f3c656c",
@@ -474,7 +474,7 @@
       "tags": "matrix, row echelon form, reduced row echelon form",
       "url": "/question/3b0dc9e4-6f53-42ba-8cb0-75f45f3c656c",
       "source": "Precalculus, 3rd Edition 8.2.5",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "40a33ae0-fe3a-427a-9bcd-7ca7f5318e91",
@@ -491,7 +491,7 @@
       "tags": "matrix, row echelon form, reduced echelon form",
       "url": "/question/40a33ae0-fe3a-427a-9bcd-7ca7f5318e91",
       "source": "Precalculus, 3rd Edition 8.2.6",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "5319c41d-88ad-4b39-b370-3f1b27fb0157",
@@ -508,7 +508,7 @@
       "tags": "matrices, reduced row echelon form, linear equations, corresponding system",
       "url": "/question/5319c41d-88ad-4b39-b370-3f1b27fb0157",
       "source": "Precalculus, 3rd Edition 8.2.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "5b56cb0a-9ab8-40e7-897d-fa005f24a75d",
@@ -525,7 +525,7 @@
       "tags": "matrices, reduced row echelon form, corresponding system, linear equation",
       "url": "/question/5b56cb0a-9ab8-40e7-897d-fa005f24a75d",
       "source": "Precalculus, 3rd Edition 8.2.8",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "079a6c31-a19d-4ba3-ad7f-27feff362e53",
@@ -542,7 +542,7 @@
       "tags": "matrices, reduced row echelon form, corresponding system, linear equations",
       "url": "/question/079a6c31-a19d-4ba3-ad7f-27feff362e53",
       "source": "Precalculus, 3rd Edition 8.2.9",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "d8f0c671-6a5f-4cc2-af5a-7ce5f8dcf03a",
@@ -559,7 +559,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/d8f0c671-6a5f-4cc2-af5a-7ce5f8dcf03a",
       "source": "Precalculus, 3rd Edition 8.3.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "f344bb44-aad1-4f01-b17d-af66f5cca92a",
@@ -576,7 +576,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/f344bb44-aad1-4f01-b17d-af66f5cca92a",
       "source": "Precalculus, 3rd Edition 8.3.10",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "3a2599c2-1c5b-4184-8f50-fb0e051dfcc5",
@@ -593,7 +593,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/3a2599c2-1c5b-4184-8f50-fb0e051dfcc5",
       "source": "Precalculus, 3rd Edition 8.3.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "12842604-9312-4896-bd33-210464a6a6e4",
@@ -610,7 +610,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/12842604-9312-4896-bd33-210464a6a6e4",
       "source": "Precalculus, 3rd Edition 8.3.12",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "9ce4a9ab-7e50-485c-81b7-dc53b7c8d453",
@@ -627,7 +627,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/9ce4a9ab-7e50-485c-81b7-dc53b7c8d453",
       "source": "Precalculus, 3rd Edition 8.3.13",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "8c63610e-71e2-4dad-bece-f0019b740e1c",
@@ -644,7 +644,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/8c63610e-71e2-4dad-bece-f0019b740e1c",
       "source": "Precalculus, 3rd Edition 8.3.14",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "bd449d96-3ff5-426e-b5ce-782fe69ac666",
@@ -661,7 +661,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/bd449d96-3ff5-426e-b5ce-782fe69ac666",
       "source": "Precalculus, 3rd Edition 8.3.15",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "1edbd4b8-812e-45a4-a885-37d34cdb8d4d",
@@ -678,7 +678,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/1edbd4b8-812e-45a4-a885-37d34cdb8d4d",
       "source": "Precalculus, 3rd Edition 8.3.16",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "c9fcde7e-0b10-47f9-a78c-a15b6991d999",
@@ -695,7 +695,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/c9fcde7e-0b10-47f9-a78c-a15b6991d999",
       "source": "Precalculus, 3rd Edition 8.3.17",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "2ceec8fe-b854-45e5-829d-f9d37006c803",
@@ -712,7 +712,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/2ceec8fe-b854-45e5-829d-f9d37006c803",
       "source": "Precalculus, 3rd Edition 8.3.18",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "cfd5f969-3116-4ab8-9b64-fd16eb60f887",
@@ -729,7 +729,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/cfd5f969-3116-4ab8-9b64-fd16eb60f887",
       "source": "Precalculus, 3rd Edition 8.3.19",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "3b52c8cf-0609-465c-be8c-277f9d384328",
@@ -746,7 +746,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/3b52c8cf-0609-465c-be8c-277f9d384328",
       "source": "Precalculus, 3rd Edition 8.3.2",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "03f1e789-e2e6-41e0-b572-c6473585bb44",
@@ -763,7 +763,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/03f1e789-e2e6-41e0-b572-c6473585bb44",
       "source": "Precalculus, 3rd Edition 8.3.20",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "d5da6784-0dfd-49a3-adff-a53cfd8e9c18",
@@ -780,7 +780,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/d5da6784-0dfd-49a3-adff-a53cfd8e9c18",
       "source": "Precalculus, 3rd Edition 8.3.21",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "10417179-6a07-4e48-919e-6555b7a9a935",
@@ -797,7 +797,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/10417179-6a07-4e48-919e-6555b7a9a935",
       "source": "Precalculus, 3rd Edition 8.3.22",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "3dbc471c-5d48-460e-b59e-4cddf90720f9",
@@ -814,7 +814,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/3dbc471c-5d48-460e-b59e-4cddf90720f9",
       "source": "Precalculus, 3rd Edition 8.3.23",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "df6b21be-eb5c-4398-ae6c-9762285cd165",
@@ -831,7 +831,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/df6b21be-eb5c-4398-ae6c-9762285cd165",
       "source": "Precalculus, 3rd Edition 8.3.24",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "c57c2d40-738e-45bc-8c11-0fdd81e009ae",
@@ -848,7 +848,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/c57c2d40-738e-45bc-8c11-0fdd81e009ae",
       "source": "Precalculus, 3rd Edition 8.3.25",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "89b6d30b-f80c-4cfd-9083-a30cd426f21a",
@@ -865,7 +865,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/89b6d30b-f80c-4cfd-9083-a30cd426f21a",
       "source": "Precalculus, 3rd Edition 8.3.26",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "3eb1a18a-ad58-4972-a47c-02d5f30d2cf9",
@@ -882,7 +882,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/3eb1a18a-ad58-4972-a47c-02d5f30d2cf9",
       "source": "Precalculus, 3rd Edition 8.3.27",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "52c4b7bd-9f8b-430b-829f-e3718cfdcf35",
@@ -899,7 +899,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/52c4b7bd-9f8b-430b-829f-e3718cfdcf35",
       "source": "Precalculus, 3rd Edition 8.3.28",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "0cb249b9-f811-426a-80f2-b8e216dcfdd6",
@@ -916,7 +916,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/0cb249b9-f811-426a-80f2-b8e216dcfdd6",
       "source": "Precalculus, 3rd Edition 8.3.29",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "0d87cebb-c8c5-40c6-84af-32ad1fce633a",
@@ -933,7 +933,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/0d87cebb-c8c5-40c6-84af-32ad1fce633a",
       "source": "Precalculus, 3rd Edition 8.3.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "148f61eb-190e-4680-a071-28060d64f5eb",
@@ -950,7 +950,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/148f61eb-190e-4680-a071-28060d64f5eb",
       "source": "Precalculus, 3rd Edition 8.3.30",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "186574da-2b9b-42e8-8c76-5838b9451a32",
@@ -967,7 +967,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/186574da-2b9b-42e8-8c76-5838b9451a32",
       "source": "Precalculus, 3rd Edition 8.3.4",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "05ba381e-5c68-4e40-9af5-1920826f1aa6",
@@ -984,7 +984,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/05ba381e-5c68-4e40-9af5-1920826f1aa6",
       "source": "Precalculus, 3rd Edition 8.3.5",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "e723dbbf-34c0-4796-9d52-add7db818ca7",
@@ -1001,7 +1001,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/e723dbbf-34c0-4796-9d52-add7db818ca7",
       "source": "Precalculus, 3rd Edition 8.3.6",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "2d218d91-52e3-43ba-b30f-d8b0eb15f935",
@@ -1018,7 +1018,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/2d218d91-52e3-43ba-b30f-d8b0eb15f935",
       "source": "Precalculus, 3rd Edition 8.3.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "0511db86-efb4-4b61-baf0-38867a59efa6",
@@ -1035,7 +1035,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/0511db86-efb4-4b61-baf0-38867a59efa6",
       "source": "Precalculus, 3rd Edition 8.3.8",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "c7d97763-28ab-41f7-88bd-f300f407a506",
@@ -1052,7 +1052,7 @@
       "tags": "matrix, addition, equality, scalar, multiplication ",
       "url": "/question/c7d97763-28ab-41f7-88bd-f300f407a506",
       "source": "Precalculus, 3rd Edition 8.3.9",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "a264ba1b-73c9-43b2-9c59-70de58ff56a2",
@@ -1069,7 +1069,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/a264ba1b-73c9-43b2-9c59-70de58ff56a2",
       "source": "Precalculus, 3rd Edition 8.4.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "be43b639-4fd8-47bc-835e-b6f54315d014",
@@ -1086,7 +1086,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, solving linear system with matrices",
       "url": "/question/be43b639-4fd8-47bc-835e-b6f54315d014",
       "source": "Precalculus, 3rd Edition 8.4.10",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "7e103f43-6500-4b6e-8e64-94ff39ea1cf9",
@@ -1103,7 +1103,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, solving linear system with matrices",
       "url": "/question/7e103f43-6500-4b6e-8e64-94ff39ea1cf9",
       "source": "Precalculus, 3rd Edition 8.4.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic/Matrices"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Arithmetic"
     },
     {
       "uuid": "7ab6856f-1313-4ede-83b0-88b105fa1371",
@@ -1120,7 +1120,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, solving linear system with matrices",
       "url": "/question/7ab6856f-1313-4ede-83b0-88b105fa1371",
       "source": "Precalculus, 3rd Edition 8.4.12",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "cfec5fd6-4282-4b56-8af8-390573cdf0a9",
@@ -1137,7 +1137,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, solving linear system with matrices",
       "url": "/question/cfec5fd6-4282-4b56-8af8-390573cdf0a9",
       "source": "Precalculus, 3rd Edition 8.4.13",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "2bd3c280-495d-4d17-987f-cd50e43e1f5b",
@@ -1154,7 +1154,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, solving linear system with matrices",
       "url": "/question/2bd3c280-495d-4d17-987f-cd50e43e1f5b",
       "source": "Precalculus, 3rd Edition 8.4.14",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "81d215d5-2650-4eb7-a62b-6b4ad2436335",
@@ -1171,7 +1171,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, matrix transformations, position matrix",
       "url": "/question/81d215d5-2650-4eb7-a62b-6b4ad2436335",
       "source": "Precalculus, 3rd Edition 8.4.15",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "321ee2fc-0648-4fd1-a0ce-55fc6c9a5c6b",
@@ -1188,7 +1188,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, word problem, system of linear equations",
       "url": "/question/321ee2fc-0648-4fd1-a0ce-55fc6c9a5c6b",
       "source": "Precalculus, 3rd Edition 8.4.16",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "3e8202cb-5a95-4dab-99f6-e27f1719f2d2",
@@ -1205,7 +1205,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, matrix transformations, awesome, crypto, cryptography",
       "url": "/question/3e8202cb-5a95-4dab-99f6-e27f1719f2d2",
       "source": "Precalculus, 3rd Edition 8.4.17",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "76cf72bf-816b-4076-aeae-e96cc6626ae0",
@@ -1222,7 +1222,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, matrix transformations, matrix multiplication",
       "url": "/question/76cf72bf-816b-4076-aeae-e96cc6626ae0",
       "source": "Precalculus, 3rd Edition 8.4.18",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "da24971c-ac08-4703-bab4-b39ddd957dc7",
@@ -1239,7 +1239,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/da24971c-ac08-4703-bab4-b39ddd957dc7",
       "source": "Precalculus, 3rd Edition 8.4.2",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "77a74c47-75c4-48f6-931d-71e6ab82e474",
@@ -1256,7 +1256,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/77a74c47-75c4-48f6-931d-71e6ab82e474",
       "source": "Precalculus, 3rd Edition 8.4.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "d25c8324-4ce8-46db-a85a-92bc0f102f7a",
@@ -1273,7 +1273,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/d25c8324-4ce8-46db-a85a-92bc0f102f7a",
       "source": "Precalculus, 3rd Edition 8.4.4",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "f504d660-5255-425a-93a2-0cd75e6058a7",
@@ -1290,7 +1290,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/f504d660-5255-425a-93a2-0cd75e6058a7",
       "source": "Precalculus, 3rd Edition 8.4.5",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "8394a85e-08b0-4e80-afc8-9a10e9450f25",
@@ -1307,7 +1307,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/8394a85e-08b0-4e80-afc8-9a10e9450f25",
       "source": "Precalculus, 3rd Edition 8.4.6",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "858ce0c3-593b-4ee7-b1c1-d8a519fe531a",
@@ -1324,7 +1324,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/858ce0c3-593b-4ee7-b1c1-d8a519fe531a",
       "source": "Precalculus, 3rd Edition 8.4.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "c69aec61-8624-42ee-995d-1c7116b85394",
@@ -1341,7 +1341,7 @@
       "tags": "matrix inversion, invertible matrix, matrices",
       "url": "/question/c69aec61-8624-42ee-995d-1c7116b85394",
       "source": "Precalculus, 3rd Edition 8.4.8",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "46c181ac-083e-4c68-bc11-e5c933830645",
@@ -1358,7 +1358,7 @@
       "tags": "matrix inversion, invertible matrix, matrices, system of linear equations, solving linear system with matrices",
       "url": "/question/46c181ac-083e-4c68-bc11-e5c933830645",
       "source": "Precalculus, 3rd Edition 8.4.9",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "e6a67c74-e38b-4597-8b68-1be28efc05cf",
@@ -1375,7 +1375,7 @@
       "tags": "determinant, matrix, matrices, computing determinants",
       "url": "/question/e6a67c74-e38b-4597-8b68-1be28efc05cf",
       "source": "Precalculus, 3rd Edition 8.5.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "a58c1492-3028-48c9-8492-d12841df1004",
@@ -1392,7 +1392,7 @@
       "tags": "cramer\u0027s rule, linear equation, system, matrices, matrix",
       "url": "/question/a58c1492-3028-48c9-8492-d12841df1004",
       "source": "Precalculus, 3rd Edition 8.5.10",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "4484d3fc-f1ae-4a6b-9a4c-54e303ace42f",
@@ -1409,7 +1409,7 @@
       "tags": "cramer\u0027s rule, linear equation, system, matrices, matrix",
       "url": "/question/4484d3fc-f1ae-4a6b-9a4c-54e303ace42f",
       "source": "Precalculus, 3rd Edition 8.5.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "f21b6cac-c728-49c8-8f95-e4e823f68da5",
@@ -1426,7 +1426,7 @@
       "tags": "cramer\u0027s rule, system, matrices, matrix",
       "url": "/question/f21b6cac-c728-49c8-8f95-e4e823f68da5",
       "source": "Precalculus, 3rd Edition 8.5.12",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Matrix Inverses/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Matrix Inverses"
     },
     {
       "uuid": "9ea572dc-fb01-439b-9007-cd224be53d6d",
@@ -1443,7 +1443,7 @@
       "tags": "cramer\u0027s rule, system, linear equations, matrices, matrix",
       "url": "/question/9ea572dc-fb01-439b-9007-cd224be53d6d",
       "source": "Precalculus, 3rd Edition 8.5.13",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "2cb8b1f7-012d-460e-a57e-8ae5f730b38e",
@@ -1460,7 +1460,7 @@
       "tags": "cramer\u0027s rule, matrices, matrix, linear equation, system",
       "url": "/question/2cb8b1f7-012d-460e-a57e-8ae5f730b38e",
       "source": "Precalculus, 3rd Edition 8.5.14",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "fb920432-dab2-4abb-8e4a-7cceb6be51a9",
@@ -1477,7 +1477,7 @@
       "tags": "cramer\u0027s rule, determinant, matrices, matrix",
       "url": "/question/fb920432-dab2-4abb-8e4a-7cceb6be51a9",
       "source": "Precalculus, 3rd Edition 8.5.15",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "35aad5ba-49a0-4b29-b92d-03fc28ac247d",
@@ -1494,7 +1494,7 @@
       "tags": "determinant, cramer\u0027s rule, matrices, matrix",
       "url": "/question/35aad5ba-49a0-4b29-b92d-03fc28ac247d",
       "source": "Precalculus, 3rd Edition 8.5.16",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "50369ce0-9cb6-4235-a9be-f38fa5b894f9",
@@ -1511,7 +1511,7 @@
       "tags": "matrix, determinants, adjoints, inverse",
       "url": "/question/50369ce0-9cb6-4235-a9be-f38fa5b894f9",
       "source": "Precalculus, 3rd Edition 8.5.17",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "97075e52-8e34-4638-a0c2-628b37905376",
@@ -1528,7 +1528,7 @@
       "tags": "matrix, inverse, determinants, adjoints",
       "url": "/question/97075e52-8e34-4638-a0c2-628b37905376",
       "source": "Precalculus, 3rd Edition 8.5.18",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "c8548d72-4166-45e4-8a6f-0fa43beeaf9d",
@@ -1545,7 +1545,7 @@
       "tags": "word problem, determinant, matrices, matrix",
       "url": "/question/c8548d72-4166-45e4-8a6f-0fa43beeaf9d",
       "source": "Precalculus, 3rd Edition 8.5.19",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "169b7ca2-bf11-4271-943d-98d96b9c3c04",
@@ -1562,7 +1562,7 @@
       "tags": "determinants, matrix, matrices, computing determinants ",
       "url": "/question/169b7ca2-bf11-4271-943d-98d96b9c3c04",
       "source": "Precalculus, 3rd Edition 8.5.2",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "41b3518a-ceab-442d-834f-e2e76ccaa761",
@@ -1579,7 +1579,7 @@
       "tags": "matrices, matrix, determinants",
       "url": "/question/41b3518a-ceab-442d-834f-e2e76ccaa761",
       "source": "Precalculus, 3rd Edition 8.5.20",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Cramer_s Rule and Matrix Adjoints/Adjoints/ij-Entry"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Adjoints"
     },
     {
       "uuid": "2b91f536-9cdc-4427-ad3a-2ca296a1aed9",
@@ -1596,7 +1596,7 @@
       "tags": "determinant, matrices, matrix",
       "url": "/question/2b91f536-9cdc-4427-ad3a-2ca296a1aed9",
       "source": "Precalculus, 3rd Edition 8.5.21",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Cramer_s Rule and Matrix Adjoints/Adjoints/ij-Entry"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Adjoints"
     },
     {
       "uuid": "4cddc996-b8a5-4f94-a533-c4b541394e2d",
@@ -1613,7 +1613,7 @@
       "tags": "word problem, matrices word problem, determinant, matrices, matrix",
       "url": "/question/4cddc996-b8a5-4f94-a533-c4b541394e2d",
       "source": "Precalculus, 3rd Edition 8.5.22",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     }
   ],
   "textContent": [
@@ -1627,12 +1627,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Series of Real Numbers ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4323.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4324.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4325.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4326.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4327.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4329.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4330.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4332.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4333.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4334.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4335.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4336.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4337.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4338.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4339.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4340.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4341.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4342.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4323.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4324.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4325.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4326.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4327.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4329.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4330.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4332.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4333.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4334.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4335.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4336.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4337.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4338.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4339.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4340.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4341.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4342.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, sequences, series of real numbers, ratio tests, divergence, convergence, limit comparison",
       "url": "/text-content/b048c578-0c50-47e6-840b-02b8e4835a37",
       "source": "Forgotten Text 2 8.3",
-      "topic": "Calculus/Sequences and Series/Series of Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "uuid": "4728b385-2d8e-4027-a907-1543c510b07a",
@@ -1644,7 +1644,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Alternating Series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4343.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4344.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4345.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4346.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4347.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4348.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4349.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4350.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4351.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4352.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4353.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4354.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4355.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4356.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4343.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4344.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4345.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4346.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4347.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4348.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4349.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4350.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4351.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4352.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4353.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4354.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4355.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4356.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, alternating series, converge, diverge, absolute convergence ",
       "url": "/text-content/4728b385-2d8e-4027-a907-1543c510b07a",
@@ -1661,12 +1661,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor Polynomials and Taylor Series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4357.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4358.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4359.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4360.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4361.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4363.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4364.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4365.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4366.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4367.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4368.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4369.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4370.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4371.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4374.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4380.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4381.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4357.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4358.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4359.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4360.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4361.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4363.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4364.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4365.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4366.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4367.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4368.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4369.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4370.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4371.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4374.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4380.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4381.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, taylor series, summation, convergence, divergence ",
       "url": "/text-content/9b8b7b8b-9c22-483e-b17b-81ed4937315b",
       "source": "Forgotten Text 2 8.5",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomials"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "e906af1f-6915-4d37-87a3-7cb35ac2e95d",
@@ -1678,7 +1678,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Power Series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4382.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4383.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4384.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4385.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4386.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4387.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4388.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4389.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4390.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4391.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4392.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4393.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4394.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4395.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4397.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4398.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4382.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4383.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4384.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4385.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4386.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4387.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4388.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4389.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4390.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4391.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4392.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4393.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4394.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4395.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4397.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4398.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, power series, manipulating power series, summation, Differentiation and Integration theorem ",
       "url": "/text-content/e906af1f-6915-4d37-87a3-7cb35ac2e95d",
@@ -1695,12 +1695,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Falling ball",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3853.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3854.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3855.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3853.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3854.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3855.png\"/\u003e",
       "allAnswers": [],
       "tags": "This was part of the last section, sry",
       "url": "/text-content/fc89a990-e1a4-4688-bed8-9c8fe03e01b3",
       "source": "Forgotten Text 2 1.1.1",
-      "topic": "Calculus/Derivatives/Velocity"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Velocity and Physics"
     }
   ],
   "answers": [],

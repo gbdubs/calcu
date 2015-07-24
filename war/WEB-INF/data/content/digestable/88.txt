@@ -396,7 +396,7 @@
       "tags": "period, trigonometric function, function, graphing cycle",
       "url": "/question/06261862-7034-433c-99db-015bb97464f1",
       "source": "Trigonometry by Micheal Corral 5.2.25",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "7f54be3d-5bcb-448d-88df-a75108e513cf",
@@ -413,7 +413,7 @@
       "tags": "trigonometric function, amplitude, amplitude envelope, modulated wave",
       "url": "/question/7f54be3d-5bcb-448d-88df-a75108e513cf",
       "source": "Trigonometry by Micheal Corral 5.2.26",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "f9f66f46-c098-4bab-9c0d-a0d8b0de37d9",
@@ -430,7 +430,7 @@
       "tags": "amplitude, amplitude envelope, trigonometric function, function",
       "url": "/question/f9f66f46-c098-4bab-9c0d-a0d8b0de37d9",
       "source": "Trigonometry by Micheal Corral 5.2.27",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "2aa9344e-8bf8-41ec-8736-4a3e1f776b65",
@@ -447,7 +447,7 @@
       "tags": "Period of compound function, periodic function, compound sinusoidal",
       "url": "/question/2aa9344e-8bf8-41ec-8736-4a3e1f776b65",
       "source": "Trigonometry by Micheal Corral 5.2.29",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "e550c022-8d67-40cc-b012-cf9af21b418a",
@@ -464,7 +464,7 @@
       "tags": "amplitude, period, phase shift, graphing cycle, trigonometric function",
       "url": "/question/e550c022-8d67-40cc-b012-cf9af21b418a",
       "source": "Trigonometry by Micheal Corral 5.2.3",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "7440c84b-6a48-4e69-abef-7cb86db9c516",
@@ -481,7 +481,7 @@
       "tags": "trigonometry, limit, graphing",
       "url": "/question/7440c84b-6a48-4e69-abef-7cb86db9c516",
       "source": "Trigonometry by Micheal Corral 5.2.30",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "630d6283-68fd-40ff-9e4e-7b46ea7b64d6",
@@ -498,7 +498,7 @@
       "tags": "trigonometry, limit, graphing",
       "url": "/question/630d6283-68fd-40ff-9e4e-7b46ea7b64d6",
       "source": "Trigonometry by Micheal Corral 5.2.30",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "474c2844-4698-4b96-beab-abcf1911ce42",
@@ -515,7 +515,7 @@
       "tags": "amplitude, period, phase shift, graphing cycle, trigonometric function",
       "url": "/question/474c2844-4698-4b96-beab-abcf1911ce42",
       "source": "Trigonometry by Micheal Corral 5.2.4",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "17506c58-b2dd-4183-9345-37bd2608ee08",
@@ -532,7 +532,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph",
       "url": "/question/17506c58-b2dd-4183-9345-37bd2608ee08",
       "source": "Trigonometry by Micheal Corral 5.2.5",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "118b4159-ac29-4a63-ad63-b407535f723f",
@@ -549,7 +549,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph",
       "url": "/question/118b4159-ac29-4a63-ad63-b407535f723f",
       "source": "Trigonometry by Micheal Corral 5.2.6",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "5f0ad91d-d1cf-4fc4-a4f2-c35b5d2b4cf4",
@@ -566,7 +566,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph",
       "url": "/question/5f0ad91d-d1cf-4fc4-a4f2-c35b5d2b4cf4",
       "source": "Trigonometry by Micheal Corral 5.2.7",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "0e2bad1b-c74b-4cc9-b6f5-f1d37926dc3a",
@@ -583,7 +583,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph",
       "url": "/question/0e2bad1b-c74b-4cc9-b6f5-f1d37926dc3a",
       "source": "Trigonometry by Micheal Corral 5.2.8",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "c5c3858d-07d7-44d3-a7de-8f97932d7ee9",
@@ -600,7 +600,7 @@
       "tags": "amplitude, period, phase shift, trigonometric function, graph",
       "url": "/question/c5c3858d-07d7-44d3-a7de-8f97932d7ee9",
       "source": "Trigonometry by Micheal Corral 5.2.9",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "7b5856d5-787d-49c9-8fc5-b681eeb49813",
@@ -617,7 +617,7 @@
       "tags": "radians, inverse trig, trig expressions",
       "url": "/question/7b5856d5-787d-49c9-8fc5-b681eeb49813",
       "source": "Trigonometry by Micheal Corral 5.3.1",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "deb78254-884e-4048-8a66-f7e3aeec219e",
@@ -634,7 +634,7 @@
       "tags": "trig identities, proof, trig ",
       "url": "/question/deb78254-884e-4048-8a66-f7e3aeec219e",
       "source": "Trigonometry by Micheal Corral 5.3.2",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "3ec78fc4-d0a5-4edd-b74c-1af5c59aa769",
@@ -651,7 +651,7 @@
       "tags": "Trig formula, proof, trig ",
       "url": "/question/3ec78fc4-d0a5-4edd-b74c-1af5c59aa769",
       "source": "Trigonometry by Micheal Corral 5.3.3",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids/Amplitude"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Amplitude"
     },
     {
       "uuid": "caeeaa28-45f7-4b9c-861a-4c07a4ffde9e",
@@ -668,7 +668,7 @@
       "tags": "tan, tangent expression, trig ",
       "url": "/question/caeeaa28-45f7-4b9c-861a-4c07a4ffde9e",
       "source": "Trigonometry by Micheal Corral 5.3.4",
-      "topic": "Pre-Calculus/Trigonometry/The Inverse Trigonometric Functions"
+      "topic": "Trigonometry/Fundamental Identities/Inverse Trigonometric Functions/Definitions"
     },
     {
       "uuid": "6db109a3-fc6f-49df-a8fd-e002dba0a5c6",
@@ -685,7 +685,7 @@
       "tags": "tan, inverse tan, tangent expression, trig ",
       "url": "/question/6db109a3-fc6f-49df-a8fd-e002dba0a5c6",
       "source": "Trigonometry by Micheal Corral 5.3.5",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Proof"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Trigonometric Proofs"
     },
     {
       "uuid": "e87dd425-063f-42ce-bf09-077a69c27279",
@@ -702,7 +702,7 @@
       "tags": "graphing trig equations, sin, inverse sin, trig ",
       "url": "/question/e87dd425-063f-42ce-bf09-077a69c27279",
       "source": "Trigonometry by Micheal Corral 5.3.6",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Proof"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Trigonometric Proofs"
     },
     {
       "uuid": "73e298ce-23dc-4b7e-8974-8a20162dc257",
@@ -719,7 +719,7 @@
       "tags": "solving triangle, computer programs, radian conversion, trig ",
       "url": "/question/73e298ce-23dc-4b7e-8974-8a20162dc257",
       "source": "Trigonometry by Micheal Corral 5.3.7",
-      "topic": "Pre-Calculus/Trigonometry/Solving Tangents"
+      "topic": "Trigonometry/Trigonometric Equations/Tangent Equations"
     },
     {
       "uuid": "c982ee2a-7064-41ca-b85d-f18605b3399f",
@@ -736,7 +736,7 @@
       "tags": "radians, sine, tangent, cosine, trigonometric equation",
       "url": "/question/c982ee2a-7064-41ca-b85d-f18605b3399f",
       "source": "Trigonometry by Micheal Corral 6.1.1",
-      "topic": "Pre-Calculus/Trigonometry/The Inverse Trigonometric Functions"
+      "topic": "Trigonometry/Fundamental Identities/Inverse Trigonometric Functions/Definitions"
     },
     {
       "uuid": "e3829cce-4702-4aa5-aa18-4263bcb47df9",
@@ -753,7 +753,7 @@
       "tags": "cosine, tangent, sine, trigonometric equations",
       "url": "/question/e3829cce-4702-4aa5-aa18-4263bcb47df9",
       "source": "Trigonometry by Micheal Corral 6.1.2",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions"
+      "topic": "Trigonometry/Graphing Trigonometric Functions"
     },
     {
       "uuid": "aacce7a9-7261-4bbe-a2cc-ec5eb21887ac",
@@ -770,7 +770,7 @@
       "tags": "sine, cosine, tangent, imaginary number, i",
       "url": "/question/aacce7a9-7261-4bbe-a2cc-ec5eb21887ac",
       "source": "Trigonometry by Micheal Corral 6.2.1",
-      "topic": "Pre-Calculus/Trigonometry/Radian Conversion"
+      "topic": "Trigonometry/Measure of an Angle/Radian Conversion"
     },
     {
       "uuid": "2909eea1-b0f7-498b-890f-f4a93f2b1f29",
@@ -787,7 +787,7 @@
       "tags": "cube root, complex numbers, i, imaginary numbers",
       "url": "/question/2909eea1-b0f7-498b-890f-f4a93f2b1f29",
       "source": "Trigonometry by Micheal Corral 6.3.14",
-      "topic": "Pre-Calculus/Trigonometry/Sine Cosine Tangent/Radians"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions/Radians"
     },
     {
       "uuid": "c5747d9b-ebe8-46bb-abeb-7414b369c635",
@@ -804,7 +804,7 @@
       "tags": "cube roots, i, imaginary numbers, complex numbers",
       "url": "/question/c5747d9b-ebe8-46bb-abeb-7414b369c635",
       "source": "Trigonometry by Micheal Corral 6.3.15",
-      "topic": "Pre-Calculus/Trigonometry/Sine Cosine Tangent/Radians"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions/Radians"
     },
     {
       "uuid": "869933e3-9f6b-4fca-afa6-d8e50a8a8c23",
@@ -1144,7 +1144,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion, polar equation conversion",
       "url": "/question/c3b03b9b-d7ba-40d3-b3fe-f23255693a4f",
       "source": "Trigonometry by Micheal Corral 6.4.12",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "1ec4cd53-3756-4407-84e3-c231c84b6903",
@@ -1161,7 +1161,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion, polar equation conversion",
       "url": "/question/1ec4cd53-3756-4407-84e3-c231c84b6903",
       "source": "Trigonometry by Micheal Corral 6.4.13",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "782722a1-8e73-4b47-9c34-0f596ccb8352",
@@ -1178,7 +1178,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion, polar equation conversion",
       "url": "/question/782722a1-8e73-4b47-9c34-0f596ccb8352",
       "source": "Trigonometry by Micheal Corral 6.4.14",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "635e99ed-cdc2-45d2-9b82-f23d503de293",
@@ -1195,7 +1195,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/635e99ed-cdc2-45d2-9b82-f23d503de293",
       "source": "Trigonometry by Micheal Corral 6.4.2",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "7fb268f5-5b86-4e58-88b0-592674c5cf59",
@@ -1212,7 +1212,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/7fb268f5-5b86-4e58-88b0-592674c5cf59",
       "source": "Trigonometry by Micheal Corral 6.4.3",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "bb617a30-0467-4df6-b96b-d20b24c24b7c",
@@ -1229,7 +1229,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/bb617a30-0467-4df6-b96b-d20b24c24b7c",
       "source": "Trigonometry by Micheal Corral 6.4.4",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "581f6033-2987-48ac-8918-68bd6ece9bcd",
@@ -1246,7 +1246,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/581f6033-2987-48ac-8918-68bd6ece9bcd",
       "source": "Trigonometry by Micheal Corral 6.4.5",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "dbfb7c34-70c7-42a4-9263-4eeb1a0fc518",
@@ -1263,7 +1263,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/dbfb7c34-70c7-42a4-9263-4eeb1a0fc518",
       "source": "Trigonometry by Micheal Corral 6.4.6",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "778344fe-7413-4a76-bdd3-72c0a23e48f4",
@@ -1280,7 +1280,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/778344fe-7413-4a76-bdd3-72c0a23e48f4",
       "source": "Trigonometry by Micheal Corral 6.4.7",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "b07d9d1e-dc4a-4efa-8752-de760d03cec6",
@@ -1297,7 +1297,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/b07d9d1e-dc4a-4efa-8752-de760d03cec6",
       "source": "Trigonometry by Micheal Corral 6.4.8",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "2f315528-8ac6-4efd-a5d3-985bf1403d21",
@@ -1314,7 +1314,7 @@
       "tags": "polar coordinates, cartesian coordinates, polar cartesian conversion",
       "url": "/question/2f315528-8ac6-4efd-a5d3-985bf1403d21",
       "source": "Trigonometry by Micheal Corral 6.4.9",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinate Conversion"
+      "topic": "Trigonometry/Polar Coordinates/Polar Conversion"
     },
     {
       "uuid": "38ca588b-eb5d-470d-b724-2857c94f7c16",
@@ -1331,7 +1331,7 @@
       "tags": "zeros, zeros of functions, function, graph of function",
       "url": "/question/38ca588b-eb5d-470d-b724-2857c94f7c16",
       "source": "Active Calc 1.6.50",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "14f54e00-4080-4ad8-859e-1b9440a9e385",
@@ -1348,7 +1348,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/14f54e00-4080-4ad8-859e-1b9440a9e385",
       "source": "Active Calc 6.4.14",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "d07b3b00-f616-41a9-b2dd-1389ece6a4b6",
@@ -1365,7 +1365,7 @@
       "tags": "solving functions, function, graphing function",
       "url": "/question/d07b3b00-f616-41a9-b2dd-1389ece6a4b6",
       "source": "Active Calc 1.6.51",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "611c9777-6985-43a7-92e1-013b9d562ad6",
@@ -1382,7 +1382,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/611c9777-6985-43a7-92e1-013b9d562ad6",
       "source": "Active Calc 6.4.15",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "ffa57d3c-311b-4246-bae2-df171a980c85",
@@ -1399,7 +1399,7 @@
       "tags": "function, graph of function",
       "url": "/question/ffa57d3c-311b-4246-bae2-df171a980c85",
       "source": "Active Calc 1.6.52",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "67420f5e-a7ad-437f-baf7-4e15cd19aee0",
@@ -1416,7 +1416,7 @@
       "tags": "function, graph of function, even, odd",
       "url": "/question/67420f5e-a7ad-437f-baf7-4e15cd19aee0",
       "source": "Active Calc 1.6.53",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a7183bb3-017f-4536-b834-fcef429d1b5b",
@@ -1433,7 +1433,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/a7183bb3-017f-4536-b834-fcef429d1b5b",
       "source": "Active Calc 6.4.16",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "688fedf5-e652-4ab4-8e2e-11168baa3d9b",
@@ -1484,7 +1484,7 @@
       "tags": "local maximum, function, graph of function ",
       "url": "/question/b6425513-447b-4ffa-ab61-5d1b163c00c4",
       "source": "Active Calc 1.6.56",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Maximum/Open Interval"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Maximum"
     },
     {
       "uuid": "1a97fd1a-b035-4d1b-b23f-263fdee1dc3c",
@@ -1501,7 +1501,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/1a97fd1a-b035-4d1b-b23f-263fdee1dc3c",
       "source": "Active Calc 6.4.17",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "619a5a86-6fa8-40d2-88fa-8b8e31c54407",
@@ -1518,7 +1518,7 @@
       "tags": "local minimum, graph of function, function ",
       "url": "/question/619a5a86-6fa8-40d2-88fa-8b8e31c54407",
       "source": "Active Calc 1.6.57",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Minimum/Open Interval"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Minimum"
     },
     {
       "uuid": "41208c92-bd9d-4409-8aeb-2df4f504e43b",
@@ -1535,7 +1535,7 @@
       "tags": "maximum of function, maximum, function, graph of function ",
       "url": "/question/41208c92-bd9d-4409-8aeb-2df4f504e43b",
       "source": "Active Calc 1.6.58",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Maximum/Open Interval"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Maximum"
     },
     {
       "uuid": "a24aa857-b940-43aa-ade5-8fdd780a4ae4",
@@ -1552,7 +1552,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/a24aa857-b940-43aa-ade5-8fdd780a4ae4",
       "source": "Active Calc 6.4.18",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "9941e3c4-fadd-4419-804c-5b5d087c76fa",
@@ -1569,7 +1569,7 @@
       "tags": "function, graph of function, minimum, minimum of function ",
       "url": "/question/9941e3c4-fadd-4419-804c-5b5d087c76fa",
       "source": "Active Calc 1.6.59",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Minimum/Open Interval"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Minimum"
     },
     {
       "uuid": "5fb53151-29e7-4996-8a93-88fc01bf7628",
@@ -1586,7 +1586,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/5fb53151-29e7-4996-8a93-88fc01bf7628",
       "source": "Active Calc 6.4.19",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "b34479c2-6424-4d6f-8c22-ebc84335943c",
@@ -1603,7 +1603,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/b34479c2-6424-4d6f-8c22-ebc84335943c",
       "source": "Active Calc 6.4.20",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     },
     {
       "uuid": "028488c2-f7ed-447b-aa34-1798dbc7e648",
@@ -1637,7 +1637,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/d59236ef-60a6-4383-a7d8-4444d8a6f007",
       "source": "Active Calc 6.4.21",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations and Inequalities/Solving Equations with Logarithmic Functions/Base"
+      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations/Base Changes"
     }
   ],
   "textContent": [
@@ -1651,12 +1651,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Related Rates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4559.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4560.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4561.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4569.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4559.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4560.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4561.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4569.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, derivatives, differentiation, sum rule, product rule, chain rule ",
       "url": "/text-content/873631ba-8a91-4ab4-ae62-c5a8838d6bcd",
       "source": "Forgotten Text 3 8.3",
-      "topic": "Calculus/Applications of Differentiation/Related Rates"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "6bb69439-1c02-4b09-a25c-c1af7d3b6b86",
@@ -1668,12 +1668,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Maximum and Minimum Values of Curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4573.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4575.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4573.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4575.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, maximum values, minimum values, continuity ",
       "url": "/text-content/6bb69439-1c02-4b09-a25c-c1af7d3b6b86",
       "source": "Forgotten Text 3 9.1",
-      "topic": "Calculus/Optimization/Max and Min values"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Optimization/Extrema Problems (Max+Min)"
     },
     {
       "uuid": "6799bc83-42f0-488b-807e-3597b33c33d5",
@@ -1685,12 +1685,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Basic Optimization Problems",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4576.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4577.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4578.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4576.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4577.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4578.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, applications of derivatives, derivatives, differentiation ",
       "url": "/text-content/6799bc83-42f0-488b-807e-3597b33c33d5",
       "source": "Forgotten Text 3 9.2",
-      "topic": "Calculus/Optimization/Basic Optimization Problems"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Optimization/Basics of Optimization"
     },
     {
       "uuid": "0417605b-02ee-4ae5-8ea2-9484d2191425",
@@ -1702,12 +1702,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Linear Approximation and Differentials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4597.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4597.png\"/\u003e",
       "allAnswers": [],
       "tags": "linear approximation, differentials, derivatives, applications of derivatives",
       "url": "/text-content/0417605b-02ee-4ae5-8ea2-9484d2191425",
       "source": "Forgotten Text 3 10.1",
-      "topic": "Calculus/Linear Approximation/Linear Approximation and Differentials"
+      "topic": "Calculus/Pre-Calculus Review/Linear Approximation/Linear Approximation and Differentials"
     },
     {
       "uuid": "35d22c4a-f576-4ffa-9045-43f210d89442",
@@ -1719,12 +1719,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Iterative Methods",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4604.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4605.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4606.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4608.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4604.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4605.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4606.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4608.png\"/\u003e",
       "allAnswers": [],
       "tags": "linear approximation, derivatives, applications of derivatives ",
       "url": "/text-content/35d22c4a-f576-4ffa-9045-43f210d89442",
       "source": "Forgotten Text 3 10.2",
-      "topic": "Calculus/Linear Approximation/Iterative Methods"
+      "topic": "Calculus/Pre-Calculus Review/Linear Approximation/Iterative Methods"
     }
   ],
   "answers": [],

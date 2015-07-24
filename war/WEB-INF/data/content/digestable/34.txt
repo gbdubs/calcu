@@ -375,7 +375,7 @@
       "tags": "angle algebra, transversal, parallel lines",
       "url": "/question/8167d706-ad22-4652-ba81-e07aa5a41f0c",
       "source": "Amsco Geometry Textbook 9.2.13",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "3881e2f6-d064-49cf-80d7-8561d8090803",
@@ -404,12 +404,12 @@
       "viewable": true,
       "karma": 3,
       "title": "30135",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30135.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30135.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, exterior angle, interior angle, angle algebra",
       "url": "/question/fef24595-ec85-4afe-b5d4-fb5e17d79cd9",
       "source": "Amsco Geometry Textbook 9.2.15",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "6dc806d7-81fd-4bc7-8175-02b12d58dbab",
@@ -426,7 +426,7 @@
       "tags": "parallelogram, supplementary angles, angle algebra, parallel lines",
       "url": "/question/6dc806d7-81fd-4bc7-8175-02b12d58dbab",
       "source": "Amsco Geometry Textbook 9.2.16",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "5a36ed64-e38c-456b-a9bb-d977b8f6ef80",
@@ -443,7 +443,7 @@
       "tags": "parallel lines, interior angles, transversal, angle algebra",
       "url": "/question/5a36ed64-e38c-456b-a9bb-d977b8f6ef80",
       "source": "Amsco Geometry Textbook 9.2.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "348c8685-53e9-4930-bb89-6c853a158cc1",
@@ -455,12 +455,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving Angle Equivalence with Parallel lines",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30136.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30136.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, angle bisector",
       "url": "/question/348c8685-53e9-4930-bb89-6c853a158cc1",
       "source": "Amsco Geometry Textbook 9.2.20",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "e9640150-f64f-42d9-9ce4-ea2432aad0f4",
@@ -477,7 +477,7 @@
       "tags": "parallelogram, right angle, complementary angles, parallel lines, angle algebra",
       "url": "/question/e9640150-f64f-42d9-9ce4-ea2432aad0f4",
       "source": "Amsco Geometry Textbook 9.2.22",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "3b782961-bb4e-42f3-bc36-ed2556ff8193",
@@ -494,7 +494,7 @@
       "tags": "parallelogram, right angle, complementary angles, parallel lines, angle algebra",
       "url": "/question/3b782961-bb4e-42f3-bc36-ed2556ff8193",
       "source": "Amsco Geometry Textbook 9.2.22",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "98fc7480-a2b4-454a-9b6b-90f97e53fa00",
@@ -511,7 +511,7 @@
       "tags": "parallelogram, right angle, complementary angles, parallel lines, angle algebra",
       "url": "/question/98fc7480-a2b4-454a-9b6b-90f97e53fa00",
       "source": "Amsco Geometry Textbook 9.2.22",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "394b90a8-6554-4cf1-b54f-9ed3f928989d",
@@ -540,12 +540,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Algebra with Parallel LInes",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30134.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30134.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle algebra, transversal, parallel lines",
       "url": "/question/4ad18b78-72ba-4769-b074-0d05419193bb",
       "source": "Amsco Geometry Textbook 9.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "da97a975-9ee6-4d55-9410-93c16441efb1",
@@ -642,7 +642,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular, Parallel or Neither?",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30138.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30138.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular lines, parallel lines, equation of a line, inverse reciprocal",
       "url": "/question/0e70c5dd-406e-4428-b239-338ed6fa211c",
@@ -681,7 +681,7 @@
       "tags": "obtuse triangle, acute angle, obtuse angle, triangles",
       "url": "/question/94ea037f-af6c-4b9b-8da6-31a21bf86e4a",
       "source": "Amsco Geometry Textbook 9.4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "272b2222-4641-4eb6-a7e3-417bc06499db",
@@ -749,7 +749,7 @@
       "tags": "complementary angles, supplementary angles, triangle",
       "url": "/question/dfef639d-48de-4f3a-9ee0-9125cff0e32a",
       "source": "Amsco Geometry Textbook 9.4.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "a6e99178-b877-445f-af5c-45fbf9ba4d69",
@@ -761,7 +761,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Exterior Angles of a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30139.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30139.png\"/\u003e",
       "allAnswers": [],
       "tags": "supplementary angles, angles of a triangle, exterior angle",
       "url": "/question/a6e99178-b877-445f-af5c-45fbf9ba4d69",
@@ -868,7 +868,7 @@
       "tags": "interior angle, exterior angle, angles of a triangle",
       "url": "/question/c8faa1bd-4796-43ba-8d16-27a894dabb46",
       "source": "Amsco Geometry Textbook 9.4.30",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "701113b8-6079-4a26-85a9-6f41e5697990",
@@ -885,7 +885,7 @@
       "tags": "interior angle, exterior angle, angles of a triangle",
       "url": "/question/701113b8-6079-4a26-85a9-6f41e5697990",
       "source": "Amsco Geometry Textbook 9.4.30",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "0fe65c66-7f51-490b-ae8b-b65986b57828",
@@ -982,7 +982,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Bisector Triangle Equivalence",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30146.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30146.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle equivalence, angle bisector, angles of a triangle, SAA",
       "url": "/question/b99a7b88-d1d5-4dad-bbd6-486bc731b000",
@@ -999,12 +999,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallel lines and Congruent Triangles",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30147.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30147.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, perpendicular lines, congruent triangles, AAS, SAS, ASA",
       "url": "/question/8954240a-52d1-414c-a4f5-d278ae829e98",
       "source": "Amsco Geometry Textbook 9.5.13",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "8edff123-5518-459c-89a9-0eb02b4a08fd",
@@ -1050,12 +1050,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Enough for Triangle Congruence?",
-      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30140.png\"/\u003e",
+      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30140.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAS, SAA, SSS",
       "url": "/question/c6cc4882-e4e8-420c-8f05-f90088a27ea8",
       "source": "Amsco Geometry Textbook 9.5.3",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "e02c6ad6-19c9-4e20-b46e-02135fc5d4a9",
@@ -1067,12 +1067,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Enough for Triangle Congruence?",
-      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30141.png\"/\u003e",
+      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30141.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAS, SAA, SSS",
       "url": "/question/e02c6ad6-19c9-4e20-b46e-02135fc5d4a9",
       "source": "Amsco Geometry Textbook 9.5.4",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "4de24736-980d-4194-b179-b96a1fe4a5c7",
@@ -1084,12 +1084,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Enough for Triangle Congruence?",
-      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30142.png\"/\u003e",
+      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30142.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAA, SAS, SSS",
       "url": "/question/4de24736-980d-4194-b179-b96a1fe4a5c7",
       "source": "Amsco Geometry Textbook 9.5.5",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "3990cb64-5e23-414a-bf6c-06942a74be33",
@@ -1101,12 +1101,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Enough for Triangle Congruence?",
-      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30145.png\"/\u003e",
+      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30145.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAS, SAA, SSS",
       "url": "/question/3990cb64-5e23-414a-bf6c-06942a74be33",
       "source": "Amsco Geometry Textbook 9.5.6",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "2d91488c-2dae-480c-9dff-e7ad01bc0138",
@@ -1118,12 +1118,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Enough for Triangle Congruence?",
-      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30144.png\"/\u003e",
+      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30144.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAS, SAA, SSS",
       "url": "/question/2d91488c-2dae-480c-9dff-e7ad01bc0138",
       "source": "Amsco Geometry Textbook 9.5.7",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "fb6b9318-9028-4346-bee7-0c27b18d31d0",
@@ -1135,12 +1135,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Enough for Triangle Congruence?",
-      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30143.png\"/\u003e",
+      "body": "In the diagram below, do we have sufficient information to determine that the displayed triangles are congruent? If so, under what method of congruence can we be sure that they are congruent?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30143.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAS, SAA, SSS",
       "url": "/question/fb6b9318-9028-4346-bee7-0c27b18d31d0",
       "source": "Amsco Geometry Textbook 9.5.8",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "4912c6d9-6af5-4b22-996b-12d79b0444d2",
@@ -1157,7 +1157,7 @@
       "tags": "altitude of a triangle, triangle altitude, congruent triangles",
       "url": "/question/4912c6d9-6af5-4b22-996b-12d79b0444d2",
       "source": "Amsco Geometry Textbook 9.5.9",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "1595e690-cbd9-42fd-b40e-9abe3127c464",
@@ -1254,7 +1254,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Isosceles Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30148.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30148.png\"/\u003e",
       "allAnswers": [],
       "tags": "Geometry proof, triangle proof, isosceles triangle definition, complementary angles",
       "url": "/question/01e90c80-f54c-4cdb-a941-9d53db3203b6",
@@ -1271,12 +1271,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular Bisector Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30149.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30149.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular bisector, perpendicular lines, isosceles triangle, geometry proof",
       "url": "/question/cdecea95-0c09-4de7-8e80-e5ef5b3b36d5",
       "source": "Amsco Geometry Textbook 9.6.17",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "69a98b06-9e94-4f5a-b2d3-9da9b82ab910",
@@ -1288,12 +1288,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallel Line Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30150.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30150.png\"/\u003e",
       "allAnswers": [],
       "tags": "congruent angle proof, complementary angles, geometry proof",
       "url": "/question/69a98b06-9e94-4f5a-b2d3-9da9b82ab910",
       "source": "Amsco Geometry Textbook 9.6.18",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "f9167b2c-b0c2-4c92-8db7-999d4dc8810a",
@@ -1441,12 +1441,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Equivalence Bisection Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30154.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30154.png\"/\u003e",
       "allAnswers": [],
       "tags": "SAS, SSA, AAS, ASA, Angle Bisection, geometry proof, triangle congruence",
       "url": "/question/d8ac84bf-de27-4c3f-a466-92c95289df4b",
       "source": "Amsco Geometry Textbook 9.7.16",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "71d5e048-5e87-417c-9487-f2eecf22eac0",
@@ -1458,12 +1458,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Equivalence Bisection Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30154.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30154.png\"/\u003e",
       "allAnswers": [],
       "tags": "SAS, SSA, AAS, ASA, Angle Bisection, geometry proof, triangle congruence",
       "url": "/question/71d5e048-5e87-417c-9487-f2eecf22eac0",
       "source": "Amsco Geometry Textbook 9.7.16",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "ba5f7af8-f562-496a-8062-84e67650b3e4",
@@ -1475,12 +1475,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Interconnected Triangle Calculations",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30152.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30152.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle bisectors, angle algebra, angles in a triangle",
       "url": "/question/ba5f7af8-f562-496a-8062-84e67650b3e4",
       "source": "Amsco Geometry Textbook 9.7.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "18795190-a8c2-4cce-88d9-8c68760851dc",
@@ -1531,7 +1531,7 @@
       "tags": "distance from a point to a line, distance, distance to a line, bisector of an angle, bisector",
       "url": "/question/6b463218-852d-4830-a27e-8fd7d93c3880",
       "source": "Amsco Geometry Textbook 9.7.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "cf4cbb41-c29e-459f-86ce-a1f46ec80e96",
@@ -1543,12 +1543,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular Triangle Sides",
-      "body": "Given: (\\overline{DB} \\perp \\overline{ABC}\\) and (\\overline{AD} \\perp \\overline{DC}\\).\n\nQuestion: When is \\(\\bigtriangleup{ABD}\\) congruent to \\(\\bigtriangleup{DBC}\\)? Explain.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30153.png\"/\u003e",
+      "body": "Given: (\\overline{DB} \\perp \\overline{ABC}\\) and (\\overline{AD} \\perp \\overline{DC}\\).\n\nQuestion: When is \\(\\bigtriangleup{ABD}\\) congruent to \\(\\bigtriangleup{DBC}\\)? Explain.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30153.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular lines, geometry proof",
       "url": "/question/cf4cbb41-c29e-459f-86ce-a1f46ec80e96",
       "source": "Amsco Geometry Textbook 9.7.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "d963407d-2de0-4996-ba2c-63d60fc9d6c0",
@@ -1630,7 +1630,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Area and definite integrals ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2141.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2142.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2141.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2142.png\"/\u003e",
       "allAnswers": [],
       "tags": "definite integral, area, indefinite integrals ",
       "url": "/text-content/a7701347-0296-4784-a148-73952a32b007",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Lengths of Curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2143.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2143.png\"/\u003e",
       "allAnswers": [],
       "tags": "curves, lengths of curves ",
       "url": "/text-content/35f3c8c5-7889-493f-bfff-daa7cd0815b3",
       "source": "Calculus Refresher 36",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "19280ace-dbb0-405c-a9a0-2cfe6afa3f81",
@@ -1664,7 +1664,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Numerical integration",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2144.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2145.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2144.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2145.png\"/\u003e",
       "allAnswers": [],
       "tags": "numerical integration, second derivative, definite integrals, indefinite integrals, midpoint rule ",
       "url": "/text-content/19280ace-dbb0-405c-a9a0-2cfe6afa3f81",
@@ -1681,7 +1681,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Averages and Weighted Averages",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2146.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2147.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2146.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2147.png\"/\u003e",
       "allAnswers": [],
       "tags": "averages, weighted averages ",
       "url": "/text-content/d26cdd66-ed71-433e-a0ef-0b2af80ef9e4",
@@ -1698,7 +1698,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Centers of Mass (Centroids)",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2148.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2149.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2148.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2149.png\"/\u003e",
       "allAnswers": [],
       "tags": "centers of mass, geometric center, centroid ",
       "url": "/text-content/9a9bed70-eeb1-4306-9fe8-f4d07f6e46a2",

@@ -375,7 +375,7 @@
       "tags": "evaluating sine, evaluating cosine, basic trigonometry, unit circle, radians, quadrants",
       "url": "/question/3bdd8145-b595-4d10-b92e-ac7321946d0f",
       "source": "Precalculus, 3rd Edition 10.2.24",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "b795323e-3540-466e-8e1d-9af7434365f7",
@@ -392,7 +392,7 @@
       "tags": "evaluating sine, evaluating cosine, basic trigonometry, unit circle, radians, quadrants",
       "url": "/question/b795323e-3540-466e-8e1d-9af7434365f7",
       "source": "Precalculus, 3rd Edition 10.2.28",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "c42e5676-e75c-47d3-a483-72047b6afc40",
@@ -409,7 +409,7 @@
       "tags": "unit circle, solving basic trig equations, simple trigonometry, trig equations",
       "url": "/question/c42e5676-e75c-47d3-a483-72047b6afc40",
       "source": "Precalculus, 3rd Edition 10.2.31",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "3b30510c-f917-444c-aebe-dfb195bf6044",
@@ -426,7 +426,7 @@
       "tags": "unit circle, solving basic trig equations, simple trigonometry, trig equations",
       "url": "/question/3b30510c-f917-444c-aebe-dfb195bf6044",
       "source": "Precalculus, 3rd Edition 10.2.34",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "d94b1126-bcf1-4fa3-8624-d47d535b965e",
@@ -443,7 +443,7 @@
       "tags": "Find all of the angles which satisfy the given equation.\n(A)\\(\\cos(\\theta) \u003d \\dfrac{\\sqrt{2}}{2}\\)\n(B)\\(\\sin(\\theta) \u003d \\dfrac{\\sqrt{3}}{2}\\)\n(C)\\(\\cos(\\theta) \u003d -1\\)",
       "url": "/question/d94b1126-bcf1-4fa3-8624-d47d535b965e",
       "source": "Precalculus, 3rd Edition 10.2.37",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "5e49772c-82f3-481e-8376-936b1172e551",
@@ -460,7 +460,7 @@
       "tags": "Find all of the angles which satisfy the given equation.\n(A)\\(\\sin(\\theta) \u003d -1\\) \n(B)\\(\\cos(\\theta) \u003d \\dfrac{\\sqrt{3}}{2}\\)\n(C)\\(\\cos(\\theta) \u003d -1.001\\)",
       "url": "/question/5e49772c-82f3-481e-8376-936b1172e551",
       "source": "Precalculus, 3rd Edition 10.2.40",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "5e724d23-0abe-424b-9abb-ee1ddb9317eb",
@@ -477,7 +477,7 @@
       "tags": "unit circle, solving basic trig equations, simple trigonometry, trig equations",
       "url": "/question/5e724d23-0abe-424b-9abb-ee1ddb9317eb",
       "source": "Precalculus, 3rd Edition 10.2.43",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "47d4e604-d131-4891-be00-2536cb41fd93",
@@ -494,7 +494,7 @@
       "tags": "unit circle, solving basic trig equations, simple trigonometry, trig equations",
       "url": "/question/47d4e604-d131-4891-be00-2536cb41fd93",
       "source": "Precalculus, 3rd Edition 10.2.46",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "992491e2-a80e-4582-8dc4-ea5e8b5b27f6",
@@ -511,7 +511,7 @@
       "tags": "unit circle, calculator problem, radians",
       "url": "/question/992491e2-a80e-4582-8dc4-ea5e8b5b27f6",
       "source": "Precalculus, 3rd Edition 10.2.49",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "09300176-0e89-4866-bda2-6cbaeaa4c74b",
@@ -528,7 +528,7 @@
       "tags": "evaluating sine, evaluating cosine, basic trigonometry, unit circle, radians",
       "url": "/question/09300176-0e89-4866-bda2-6cbaeaa4c74b",
       "source": "Precalculus, 3rd Edition 10.2.5",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "cb01d21a-5532-4cf3-9130-7e8c8bd9c34f",
@@ -545,7 +545,7 @@
       "tags": "unit circle, calculator problem, radians",
       "url": "/question/cb01d21a-5532-4cf3-9130-7e8c8bd9c34f",
       "source": "Precalculus, 3rd Edition 10.2.52",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "479e3f84-3d8d-4fc0-8021-12a38d56d776",
@@ -557,12 +557,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Incomplete Triangles",
-      "body": "Fill in the blanks in the given right triangles.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31006.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 31007.png\"/\u003e",
+      "body": "Fill in the blanks in the given right triangles.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31006.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31007.png\"/\u003e",
       "allAnswers": [],
       "tags": "basic trigonometry, unit circle, radians, unit circle, right triangles",
       "url": "/question/479e3f84-3d8d-4fc0-8021-12a38d56d776",
       "source": "Precalculus, 3rd Edition 10.2.55",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "2fb2adf6-38dd-45ef-ad4d-177b396fa126",
@@ -574,12 +574,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Completing Triangle Diagrams",
-      "body": "Fill in the missing pieces of information from the given diagram.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31008.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 31009.png\"/\u003e",
+      "body": "Fill in the missing pieces of information from the given diagram.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31008.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/31009.png\"/\u003e",
       "allAnswers": [],
       "tags": "basic trigonometry, unit circle, radians, ",
       "url": "/question/2fb2adf6-38dd-45ef-ad4d-177b396fa126",
       "source": "Precalculus, 3rd Edition 10.2.57",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "0a971612-804c-44dc-94cf-0ba81056fe03",
@@ -596,7 +596,7 @@
       "tags": "basic trigonometry, unit circle, pythagorean theorem, angles of a triangle",
       "url": "/question/0a971612-804c-44dc-94cf-0ba81056fe03",
       "source": "Precalculus, 3rd Edition 10.2.59",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "7cb960b2-a6b2-440a-af98-d38f6da651c5",
@@ -613,7 +613,7 @@
       "tags": "basic trigonometry, unit circle, pythagorean theorem",
       "url": "/question/7cb960b2-a6b2-440a-af98-d38f6da651c5",
       "source": "Precalculus, 3rd Edition 10.2.62",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "16324e90-8a9e-4d49-a88d-f7ea6309e950",
@@ -630,7 +630,7 @@
       "tags": "basic trigonometry, unit circle, radians, evaluating sine, evaluating cosine",
       "url": "/question/16324e90-8a9e-4d49-a88d-f7ea6309e950",
       "source": "Precalculus, 3rd Edition 10.2.65",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "b0030e70-5965-4934-b838-1d315ea519be",
@@ -647,7 +647,7 @@
       "tags": "basic trigonometry, unit circle, radians, evaluating sine, evaluating cosine",
       "url": "/question/b0030e70-5965-4934-b838-1d315ea519be",
       "source": "Precalculus, 3rd Edition 10.2.67",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "0dba41c5-44ea-471e-aa2e-f623c000091c",
@@ -664,7 +664,7 @@
       "tags": "basic trigonometry, unit circle, radians, equations of motion, physics, basic physics, angular motion",
       "url": "/question/0dba41c5-44ea-471e-aa2e-f623c000091c",
       "source": "Precalculus, 3rd Edition 10.2.69",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "af0669e3-63a7-404c-94d8-f5d1cad2dffb",
@@ -681,7 +681,7 @@
       "tags": "basic trigonometry, unit circle, radians, equations of motion, physics, basic physics, angular motion",
       "url": "/question/af0669e3-63a7-404c-94d8-f5d1cad2dffb",
       "source": "Precalculus, 3rd Edition 10.2.70",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "a1864bf9-7985-480d-8ae4-834c1df6c6f9",
@@ -698,7 +698,7 @@
       "tags": "basic trigonometry, unit circle, radians, equations of motion, physics, basic physics, angular motion",
       "url": "/question/a1864bf9-7985-480d-8ae4-834c1df6c6f9",
       "source": "Precalculus, 3rd Edition 10.2.71",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "80483246-955c-40ce-b92a-ff6c33e69724",
@@ -715,7 +715,7 @@
       "tags": "basic trigonometry, unit circle, radians, equations of motion, physics, basic physics, angular motion",
       "url": "/question/80483246-955c-40ce-b92a-ff6c33e69724",
       "source": "Precalculus, 3rd Edition 10.2.72",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "f6cb193c-415e-4fdf-aa3a-54af233d113b",
@@ -732,7 +732,7 @@
       "tags": "complementary angles, basic trigonometry, evaluating sine, evaluating cosine, unit circle",
       "url": "/question/f6cb193c-415e-4fdf-aa3a-54af233d113b",
       "source": "Precalculus, 3rd Edition 10.2.74",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "a8993878-de02-4bb0-8556-f939530ab88c",
@@ -749,7 +749,7 @@
       "tags": "evaluating sine, evaluating cosine, basic trigonometry, unit circle, radians",
       "url": "/question/a8993878-de02-4bb0-8556-f939530ab88c",
       "source": "Precalculus, 3rd Edition 10.2.9",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "e0c40c31-ec24-41fc-8fd7-a79b1bc6c705",
@@ -766,7 +766,7 @@
       "tags": "circular functions, fundamental identities, exact values, trigonometry ",
       "url": "/question/e0c40c31-ec24-41fc-8fd7-a79b1bc6c705",
       "source": "Precalculus, 3rd Edition 10.3.1",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "661a2daa-d9f7-4dbc-978f-85a4b71080da",
@@ -783,7 +783,7 @@
       "tags": "exact values, circular function, quadrants, trigonometry",
       "url": "/question/661a2daa-d9f7-4dbc-978f-85a4b71080da",
       "source": "Precalculus, 3rd Edition 10.3.10",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "2ca26f9b-1b66-4b9e-95a3-86af06f3065a",
@@ -800,7 +800,7 @@
       "tags": "exact values, circular function, quadrants, trigonometry",
       "url": "/question/2ca26f9b-1b66-4b9e-95a3-86af06f3065a",
       "source": "Precalculus, 3rd Edition 10.3.11",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/Sine and Cosine"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Sine and Cosine"
     },
     {
       "uuid": "d2be2ffa-b726-4879-a372-3bea594156de",
@@ -817,7 +817,7 @@
       "tags": "angle measures, angles, measures",
       "url": "/question/d2be2ffa-b726-4879-a372-3bea594156de",
       "source": "Precalculus, 3rd Edition 10.3.12",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c488e149-0313-4ce7-a5e8-a0981b2e9f53",
@@ -834,7 +834,7 @@
       "tags": "angle, measure, angle measurement ",
       "url": "/question/c488e149-0313-4ce7-a5e8-a0981b2e9f53",
       "source": "Precalculus, 3rd Edition 10.3.13",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "be68cf0c-3144-4f30-a1bb-581fbce3e61f",
@@ -851,7 +851,7 @@
       "tags": "angles, finding angles, finding angle in equations ",
       "url": "/question/be68cf0c-3144-4f30-a1bb-581fbce3e61f",
       "source": "Precalculus, 3rd Edition 10.3.14",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "14d17471-163e-4eee-9077-232d18e485db",
@@ -868,7 +868,7 @@
       "tags": "angles, finding angles, angle equations",
       "url": "/question/14d17471-163e-4eee-9077-232d18e485db",
       "source": "Precalculus, 3rd Edition 10.3.15",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "1eed956a-c511-4785-b5d2-b008b2706efb",
@@ -885,7 +885,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry ",
       "url": "/question/1eed956a-c511-4785-b5d2-b008b2706efb",
       "source": "Precalculus, 3rd Edition 10.3.16",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "51740d29-f8ef-458d-a538-6059556e83b8",
@@ -902,7 +902,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry ",
       "url": "/question/51740d29-f8ef-458d-a538-6059556e83b8",
       "source": "Precalculus, 3rd Edition 10.3.17",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "cdcd2c57-2780-4e8d-b750-3e482ef226fc",
@@ -919,7 +919,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry ",
       "url": "/question/cdcd2c57-2780-4e8d-b750-3e482ef226fc",
       "source": "Precalculus, 3rd Edition 10.3.18",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "591f9f65-2ebc-43eb-8bc6-166333652c12",
@@ -936,7 +936,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry ",
       "url": "/question/591f9f65-2ebc-43eb-8bc6-166333652c12",
       "source": "Precalculus, 3rd Edition 10.3.19",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "75b33f47-5d87-4941-a654-96a191314b26",
@@ -953,7 +953,7 @@
       "tags": "circular functions, fundamental identities, exact values, trigonometry ",
       "url": "/question/75b33f47-5d87-4941-a654-96a191314b26",
       "source": "Precalculus, 3rd Edition 10.3.2",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "4832f7d4-91a4-4fea-bbc1-2931a973f318",
@@ -970,7 +970,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/4832f7d4-91a4-4fea-bbc1-2931a973f318",
       "source": "Precalculus, 3rd Edition 10.3.20",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "e85eb176-d01c-4f6d-aa38-a85bb8d79702",
@@ -987,7 +987,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/e85eb176-d01c-4f6d-aa38-a85bb8d79702",
       "source": "Precalculus, 3rd Edition 10.3.21",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "3ba86c94-1ca4-44d9-a715-1d3d2a365d16",
@@ -1004,7 +1004,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/3ba86c94-1ca4-44d9-a715-1d3d2a365d16",
       "source": "Precalculus, 3rd Edition 10.3.22",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "6d1042f7-6e96-4da2-a6a9-6e84b532f2b8",
@@ -1021,7 +1021,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/6d1042f7-6e96-4da2-a6a9-6e84b532f2b8",
       "source": "Precalculus, 3rd Edition 10.3.23",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "94840c31-9dcd-41c9-9b97-80c00b1ba684",
@@ -1038,7 +1038,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/94840c31-9dcd-41c9-9b97-80c00b1ba684",
       "source": "Precalculus, 3rd Edition 10.3.24",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "3bd8b80c-5f06-48df-920f-4cc8d82cf899",
@@ -1055,7 +1055,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/3bd8b80c-5f06-48df-920f-4cc8d82cf899",
       "source": "Precalculus, 3rd Edition 10.3.25",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "a5dea4e6-2274-4d0c-b9a1-db397cd79b7b",
@@ -1072,7 +1072,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/a5dea4e6-2274-4d0c-b9a1-db397cd79b7b",
       "source": "Precalculus, 3rd Edition 10.3.26",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "9fedf4cb-50b7-40a6-9092-957eb01b1572",
@@ -1089,7 +1089,7 @@
       "tags": "angles, finding angles, angle equations, fundamental identities, trigonometry",
       "url": "/question/9fedf4cb-50b7-40a6-9092-957eb01b1572",
       "source": "Precalculus, 3rd Edition 10.3.27",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "03cb6710-af42-48b2-875a-404d2f4b289f",
@@ -1106,7 +1106,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/03cb6710-af42-48b2-875a-404d2f4b289f",
       "source": "Precalculus, 3rd Edition 10.3.28",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "620aa349-e38b-4001-8218-331388224629",
@@ -1123,7 +1123,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/620aa349-e38b-4001-8218-331388224629",
       "source": "Precalculus, 3rd Edition 10.3.29",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "1f844b49-c7f7-4c79-8371-8ab04a137888",
@@ -1140,7 +1140,7 @@
       "tags": "circular functions, fundamental identities, exact values, trigonometry ",
       "url": "/question/1f844b49-c7f7-4c79-8371-8ab04a137888",
       "source": "Precalculus, 3rd Edition 10.3.3",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "3f0fcd23-0dbd-4d54-8876-50cb5e176b33",
@@ -1157,7 +1157,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/3f0fcd23-0dbd-4d54-8876-50cb5e176b33",
       "source": "Precalculus, 3rd Edition 10.3.30",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "4703e35d-33f8-414a-b56f-5c0f74c8267e",
@@ -1174,7 +1174,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/4703e35d-33f8-414a-b56f-5c0f74c8267e",
       "source": "Precalculus, 3rd Edition 10.3.31",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "fa2fe791-05c6-4b71-bc38-629edf588380",
@@ -1191,7 +1191,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/fa2fe791-05c6-4b71-bc38-629edf588380",
       "source": "Precalculus, 3rd Edition 10.3.32",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "55d8e5e0-fba2-4dcf-973a-db4bfd2bb6e0",
@@ -1208,7 +1208,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/55d8e5e0-fba2-4dcf-973a-db4bfd2bb6e0",
       "source": "Precalculus, 3rd Edition 10.3.33",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "cdf70191-907a-4d08-aee9-29f8a1b72f3c",
@@ -1225,7 +1225,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/cdf70191-907a-4d08-aee9-29f8a1b72f3c",
       "source": "Precalculus, 3rd Edition 10.3.34",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "a428f72c-7b01-4fe3-95f4-6d97163cea21",
@@ -1242,7 +1242,7 @@
       "tags": "solving equations, equations, fundamental identities, trigonometry",
       "url": "/question/a428f72c-7b01-4fe3-95f4-6d97163cea21",
       "source": "Precalculus, 3rd Edition 10.3.35",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "171307ec-0765-4004-951c-00002b3b445b",
@@ -1254,12 +1254,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Six Circular Functions and Fundamental Identites",
-      "body": "Use Theorem 10.10 to find the requested qualities.\nFind \\(\\theta\\), a, and c\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20245.png\"/\u003e",
+      "body": "Use Theorem 10.10 to find the requested qualities.\nFind \\(\\theta\\), a, and c\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20245.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/171307ec-0765-4004-951c-00002b3b445b",
       "source": "Precalculus, 3rd Edition 10.3.36",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "5135fbf3-8bfa-4a4b-9da8-bddc0ba6f096",
@@ -1271,12 +1271,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Six Circular Functions and Fundamental Identites",
-      "body": "Use Theorem 10.10 to find the requested quantities \nFind a, b, and c.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20246.png\"/\u003e",
+      "body": "Use Theorem 10.10 to find the requested quantities \nFind a, b, and c.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20246.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/5135fbf3-8bfa-4a4b-9da8-bddc0ba6f096",
       "source": "Precalculus, 3rd Edition 10.3.37",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "70eb11b9-f077-4449-9d4b-6b1f07e6728d",
@@ -1288,12 +1288,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Six Circular Functions and Fundamental Identites",
-      "body": "Use Theorem 10.10 to find the requested quantities \nFind \\(\\theta\\), a, and c.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20247.png\"/\u003e",
+      "body": "Use Theorem 10.10 to find the requested quantities \nFind \\(\\theta\\), a, and c.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20247.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/70eb11b9-f077-4449-9d4b-6b1f07e6728d",
       "source": "Precalculus, 3rd Edition 10.3.38",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "70b4ba18-7ca9-46b4-ab72-6299d4780ca0",
@@ -1305,12 +1305,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Six Circular Functions and Fundamental Identites",
-      "body": "Use Theorem 10.10 to find the requested quantities.\nFind \\(\\beta\\), b, and c.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20248.png\"/\u003e",
+      "body": "Use Theorem 10.10 to find the requested quantities.\nFind \\(\\beta\\), b, and c.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20244.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20248.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/70b4ba18-7ca9-46b4-ab72-6299d4780ca0",
       "source": "Precalculus, 3rd Edition 10.3.39",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "4b019cad-543c-4ad4-8385-eea2d10d3c2f",
@@ -1327,7 +1327,7 @@
       "tags": "circular functions, fundamental identities, exact values, trigonometry ",
       "url": "/question/4b019cad-543c-4ad4-8385-eea2d10d3c2f",
       "source": "Precalculus, 3rd Edition 10.3.4",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "1edb897c-2977-4d8e-981b-1ceff738a638",
@@ -1344,7 +1344,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry, opposite side",
       "url": "/question/1edb897c-2977-4d8e-981b-1ceff738a638",
       "source": "Precalculus, 3rd Edition 10.3.40",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c38a7301-90ac-4d67-9c74-7ba1f09862f2",
@@ -1361,7 +1361,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry, opposite side",
       "url": "/question/c38a7301-90ac-4d67-9c74-7ba1f09862f2",
       "source": "Precalculus, 3rd Edition 10.3.41",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "2854dcb5-cca4-45dd-bc72-c68b6a4b2dcb",
@@ -1378,7 +1378,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/2854dcb5-cca4-45dd-bc72-c68b6a4b2dcb",
       "source": "Precalculus, 3rd Edition 10.3.42",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "8487ef3a-765a-4302-b097-c6d54fca653b",
@@ -1395,7 +1395,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/8487ef3a-765a-4302-b097-c6d54fca653b",
       "source": "Precalculus, 3rd Edition 10.3.43",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "4608117a-3328-4fdb-aa01-1f695c6e0fdc",
@@ -1412,7 +1412,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/4608117a-3328-4fdb-aa01-1f695c6e0fdc",
       "source": "Precalculus, 3rd Edition 10.3.44",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "331246f0-3e10-4fcd-acc9-33ed3ebfd54c",
@@ -1429,7 +1429,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/331246f0-3e10-4fcd-acc9-33ed3ebfd54c",
       "source": "Precalculus, 3rd Edition 10.3.45",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c4347c46-98dd-4ebd-aa07-b93ac3226e35",
@@ -1446,7 +1446,7 @@
       "tags": "right triangle, angles, hypotenuse, adjacent sides, acute angle, fundamental identities, trigonometry",
       "url": "/question/c4347c46-98dd-4ebd-aa07-b93ac3226e35",
       "source": "Precalculus, 3rd Edition 10.3.46",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "d0b948bc-6874-48cc-962a-eca6f892f308",
@@ -1463,7 +1463,7 @@
       "tags": "word problem, trigonometry, fundamental functions, angle of elevation, angles, height, umbra versa",
       "url": "/question/d0b948bc-6874-48cc-962a-eca6f892f308",
       "source": "Precalculus, 3rd Edition 10.3.47",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "619fc3ae-ebb5-4916-a83b-d8d926a493a3",
@@ -1480,7 +1480,7 @@
       "tags": "word problem, trigonometry, fundamental identities, angle of elevation",
       "url": "/question/619fc3ae-ebb5-4916-a83b-d8d926a493a3",
       "source": "Precalculus, 3rd Edition 10.3.48",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c1d9bcee-c175-40fe-a71a-b5e176021ffd",
@@ -1497,7 +1497,7 @@
       "tags": "word problem, fundamental identities, trigonometry, angles, angle of depression, interior angles",
       "url": "/question/c1d9bcee-c175-40fe-a71a-b5e176021ffd",
       "source": "Precalculus, 3rd Edition 10.3.49",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "6b745fa2-ad71-4162-8143-e665d9591408",
@@ -1514,7 +1514,7 @@
       "tags": "circular functions, fundamental identities, exact values, trigonometry ",
       "url": "/question/6b745fa2-ad71-4162-8143-e665d9591408",
       "source": "Precalculus, 3rd Edition 10.3.5",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "c2fbb82e-14e4-4142-8992-0eff41fbe464",
@@ -1531,7 +1531,7 @@
       "tags": "word problem, angle of elevation, angle of depression, height, trigonometry, fundamental identities ",
       "url": "/question/c2fbb82e-14e4-4142-8992-0eff41fbe464",
       "source": "Precalculus, 3rd Edition 10.3.50",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "b723988e-0ef7-4988-a2e4-856242f7bd73",
@@ -1548,7 +1548,7 @@
       "tags": "word problem, angle of depression, fundamental identities, trigonometry ",
       "url": "/question/b723988e-0ef7-4988-a2e4-856242f7bd73",
       "source": "Precalculus, 3rd Edition 10.3.51",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "6c401201-4561-4660-847d-914caf0c8795",
@@ -1565,7 +1565,7 @@
       "tags": "word problem, height, angle, fundamental identities, trigonometry ",
       "url": "/question/6c401201-4561-4660-847d-914caf0c8795",
       "source": "Precalculus, 3rd Edition 10.3.52",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "e58ad83a-486b-4e80-aaa2-a237d91ec67f",
@@ -1582,7 +1582,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/e58ad83a-486b-4e80-aaa2-a237d91ec67f",
       "source": "Precalculus, 3rd Edition 10.3.53",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "8c68914f-063b-47d0-8a83-ab7d8cb0558e",
@@ -1599,7 +1599,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/8c68914f-063b-47d0-8a83-ab7d8cb0558e",
       "source": "Precalculus, 3rd Edition 10.3.54",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     },
     {
       "uuid": "981a4b88-4d08-4dff-99d7-2ef85830d667",
@@ -1616,7 +1616,7 @@
       "tags": "trig identities, fundamental identities, trigonometry, multi-problem",
       "url": "/question/981a4b88-4d08-4dff-99d7-2ef85830d667",
       "source": "Precalculus, 3rd Edition 10.3.55",
-      "topic": "Pre-Calculus/Trigonometry/Six Circular Functions and Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities/Six Circular Functions"
     }
   ],
   "textContent": [
@@ -1630,7 +1630,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Parametric Equations ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2011.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2011.png\"/\u003e",
       "allAnswers": [],
       "tags": "parametric equations, polar coordinates ",
       "url": "/text-content/ed1c4cfe-3c15-42f8-a68a-aefc3069e367",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sequences ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2015.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2016.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2015.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2016.png\"/\u003e",
       "allAnswers": [],
       "tags": "sequences, series, convergence, divergent ",
       "url": "/text-content/238081e9-6874-4ad9-b742-55f531c8b6d4",
       "source": "Calculus, Early Transcendentals 11.1",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "ddc4c998-5ff5-4f34-802d-d5ccef2b799b",
@@ -1664,7 +1664,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor Series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2059.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2059.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor series, series, convergence, divergence, sequences ",
       "url": "/text-content/ddc4c998-5ff5-4f34-802d-d5ccef2b799b",
@@ -1681,7 +1681,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor\u0027s Theorem ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2068.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2069.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2070.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2068.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2069.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2070.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor theorem, taylor series, series, sequences, convergence, divergence ",
       "url": "/text-content/203a1dbc-e6e6-425f-968e-644e211cbc99",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2022.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2023.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2024.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2022.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2023.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2024.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, sequences, divergence, convergence ",
       "url": "/text-content/b939a60f-12a0-4e44-8dc2-81a73eba3dda",
       "source": "Calculus, Early Transcendentals 11.2",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     }
   ],
   "answers": [],

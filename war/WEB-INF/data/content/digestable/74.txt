@@ -630,7 +630,7 @@
       "tags": "word problem, geometry word problem, dilation, image, isometry",
       "url": "/question/45947492-3fc0-4f33-8f8e-3fac76f61cee",
       "source": "Amsco Geometry Textbook 6.8.1",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "43e7c09d-c59c-496d-a4f8-2f5effa294e5",
@@ -953,7 +953,7 @@
       "tags": "unequal quantities, subtraction, inequality postulates",
       "url": "/question/3246089c-6022-4010-bea2-3f27dd6c02dd",
       "source": "Amsco Geometry Textbook 7.2.1",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "4f43b304-63ec-44cd-97e5-524767d7106a",
@@ -970,7 +970,7 @@
       "tags": "inequality postulates, addition, subtraction, unequal quantities",
       "url": "/question/4f43b304-63ec-44cd-97e5-524767d7106a",
       "source": "Amsco Geometry Textbook 7.2.2",
-      "topic": "GeometryGeometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "9bd7ad2a-d096-4cfa-8f0a-2d3373f8a9b0",
@@ -982,12 +982,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequality Postulate Proofs",
-      "body": "Given: AB \u003d AD, BC \u003c DE\nProve: AC \u003c AE\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10085.png\"/\u003e",
+      "body": "Given: AB \u003d AD, BC \u003c DE\nProve: AC \u003c AE\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10085.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, inequality postulate, inequality, angles",
       "url": "/question/9bd7ad2a-d096-4cfa-8f0a-2d3373f8a9b0",
       "source": "Amsco Geometry Textbook 7.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "fcbc6b6d-08f2-485b-8e8d-8450658e5768",
@@ -1004,7 +1004,7 @@
       "tags": "inequality postulates, inequality, conclusions",
       "url": "/question/fcbc6b6d-08f2-485b-8e8d-8450658e5768",
       "source": "Amsco Geometry Textbook 7.2.3",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "bd6919d7-e376-48f6-aa41-9b16ba901a19",
@@ -1016,12 +1016,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequality Postulate Proofs",
-      "body": "Given: AE \u003e BD, AF \u003d BF\nProven FE \u003e FD\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10086.png\"/\u003e",
+      "body": "Given: AE \u003e BD, AF \u003d BF\nProven FE \u003e FD\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10086.png\"/\u003e",
       "allAnswers": [],
       "tags": "inequality postulate, inequality, angles, proof",
       "url": "/question/bd6919d7-e376-48f6-aa41-9b16ba901a19",
       "source": "Amsco Geometry Textbook 7.2.4",
-      "topic": "Geometry/Inequality/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "a7e9f7d7-1924-47a8-9b6f-056595af42b2",
@@ -1038,7 +1038,7 @@
       "tags": "proof, inequality postulate, inequality, angles",
       "url": "/question/a7e9f7d7-1924-47a8-9b6f-056595af42b2",
       "source": "Amsco Geometry Textbook 7.2.5",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "1e98e28a-38a9-4000-8894-0a2b470061bd",
@@ -1055,7 +1055,7 @@
       "tags": "inequality postulate, inequality, logic",
       "url": "/question/1e98e28a-38a9-4000-8894-0a2b470061bd",
       "source": "Amsco Geometry Textbook 7.2.6",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "4d3ff0ca-0a50-4096-94f7-d2f9f01e39bb",
@@ -1072,7 +1072,7 @@
       "tags": "logic, inequality, inequality postulate",
       "url": "/question/4d3ff0ca-0a50-4096-94f7-d2f9f01e39bb",
       "source": "Amsco Geometry Textbook 7.2.7",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "988b6035-8138-4602-9b88-4aef558508fe",
@@ -1089,7 +1089,7 @@
       "tags": "inequality postulate, addition, multiplication, logic",
       "url": "/question/988b6035-8138-4602-9b88-4aef558508fe",
       "source": "Amsco Geometry Textbook 7.3.1",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "0202bb75-29ee-4de8-915c-5a646a1583ab",
@@ -1106,7 +1106,7 @@
       "tags": "inequality postulate, logic",
       "url": "/question/0202bb75-29ee-4de8-915c-5a646a1583ab",
       "source": "Amsco Geometry Textbook 7.3.2",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "4bd1e805-30c8-4182-9d19-dff763789150",
@@ -1123,7 +1123,7 @@
       "tags": "inequality postulates, geometric inequality, inequalities, conclusions",
       "url": "/question/4bd1e805-30c8-4182-9d19-dff763789150",
       "source": "Amsco Geometry Textbook 7.3.3",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "e379b5b9-bf89-4378-9f51-5dc05605f344",
@@ -1140,7 +1140,7 @@
       "tags": "geometric inequalities, inequality postulates, inequalities",
       "url": "/question/e379b5b9-bf89-4378-9f51-5dc05605f344",
       "source": "Amsco Geometry Textbook 7.3.4",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "bd032252-6af3-4d26-86c6-e3e9ef85f4d5",
@@ -1152,12 +1152,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Midpoint Proof",
-      "body": "Given: BD \u003c BE, D is the midpoint of BA, E is the midpoint of BC\nProve: BA \u003c BC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10092.png\"/\u003e",
+      "body": "Given: BD \u003c BE, D is the midpoint of BA, E is the midpoint of BC\nProve: BA \u003c BC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10092.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, inequality, inequality postulate, geometric inequalities",
       "url": "/question/bd032252-6af3-4d26-86c6-e3e9ef85f4d5",
       "source": "Amsco Geometry Textbook 7.3.5",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "c6377ca3-3d07-48c2-b9a2-017c57a6db87",
@@ -1169,12 +1169,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequality Postulate Proof",
-      "body": "Given: mDBA \u003e mCAB\nmCBA \u003d 2mDBA\nmDAB \u003d 2mCAB\nProve: mCBA \u003e mDAB\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10093.png\"/\u003e",
+      "body": "Given: mDBA \u003e mCAB\nmCBA \u003d 2mDBA\nmDAB \u003d 2mCAB\nProve: mCBA \u003e mDAB\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10093.png\"/\u003e",
       "allAnswers": [],
       "tags": "inequality postulate, geometric inequalities, inequality",
       "url": "/question/c6377ca3-3d07-48c2-b9a2-017c57a6db87",
       "source": "Amsco Geometry Textbook 7.3.6",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "fad4452d-fc30-4b85-8544-8afd64d34298",
@@ -1186,12 +1186,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequality Postulate Proof",
-      "body": "Given: AB \u003e AD, AE \u003d 1/2 AB,\nAF \u003d 1/2 AD\nProve: AE \u003e AF\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10094.png\"/\u003e",
+      "body": "Given: AB \u003e AD, AE \u003d 1/2 AB,\nAF \u003d 1/2 AD\nProve: AE \u003e AF\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10094.png\"/\u003e",
       "allAnswers": [],
       "tags": "inequality postulate, geometric inequality, bisecting angle, proof",
       "url": "/question/fad4452d-fc30-4b85-8544-8afd64d34298",
       "source": "Amsco Geometry Textbook 7.3.7",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "f6120d4f-b353-4549-b157-706184ebc867",
@@ -1203,12 +1203,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequality Postulate Proof",
-      "body": "Given: mCAB \u003c mCBA, AD bisects CAB, BE bisects CBA.\nProve: mDAB \u003c mEBA\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10095.png\"/\u003e",
+      "body": "Given: mCAB \u003c mCBA, AD bisects CAB, BE bisects CBA.\nProve: mDAB \u003c mEBA\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10095.png\"/\u003e",
       "allAnswers": [],
       "tags": "inequality postulates, inequality, geometric inequalities, proofs",
       "url": "/question/f6120d4f-b353-4549-b157-706184ebc867",
       "source": "Amsco Geometry Textbook 7.3.8",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "29646458-bbd6-4bf0-a212-efa333cc512e",
@@ -1242,7 +1242,7 @@
       "tags": "inequality postulate, geometric inequalities, triangles",
       "url": "/question/606f8c5c-0265-4f0b-adb6-25aaec8eb5c0",
       "source": "Amsco Geometry Textbook 7.4.2",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "e2aa2ad6-e410-4a2b-8c6e-0e69bba3754c",
@@ -1259,7 +1259,7 @@
       "tags": "triangles, geometric inequality, inequality postulate, side length",
       "url": "/question/e2aa2ad6-e410-4a2b-8c6e-0e69bba3754c",
       "source": "Amsco Geometry Textbook 7.4.3",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "b971e4a3-2d9f-40d7-abb4-1d37e239bcc8",
@@ -1293,7 +1293,7 @@
       "tags": "inequality postulate, inequalities, geometric inequalities, logic",
       "url": "/question/024ea6d4-1042-4eec-9364-73f01c70b31d",
       "source": "Amsco Geometry Textbook 7.4.5",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "85d579fc-51d2-4c65-8375-700d36fc102b",
@@ -1322,12 +1322,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Quadrilateral Proof",
-      "body": "Given: ABCD is a quadrilateral.\nProve: AD \u003c AB + BC + CD\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10101.png\"/\u003e",
+      "body": "Given: ABCD is a quadrilateral.\nProve: AD \u003c AB + BC + CD\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10101.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, quadrilateral, geometric inequalities, inequality postulate",
       "url": "/question/e7212e25-10ee-469e-9c26-1f2939e43782",
       "source": "Amsco Geometry Textbook 7.4.7",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "e62624d8-4912-4f2d-9126-4bc64172b8a7",
@@ -1339,7 +1339,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Proof",
-      "body": "Given: ABC with D a point on BC and AD \u003d DC\nProve: AB \u003c BC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10102.png\"/\u003e",
+      "body": "Given: ABC with D a point on BC and AD \u003d DC\nProve: AB \u003c BC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10102.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, triangles, geometric inequalities, inequality postulate",
       "url": "/question/e62624d8-4912-4f2d-9126-4bc64172b8a7",
@@ -1356,12 +1356,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Proof",
-      "body": "Given: Point P in the interior of XYZ, YPQ\nProve: PY + PZ \u003c XY + XZ\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10103.png\"/\u003e",
+      "body": "Given: Point P in the interior of XYZ, YPQ\nProve: PY + PZ \u003c XY + XZ\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10103.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangles, proof, geometric inequality, inequality postulate",
       "url": "/question/c50de0e9-217d-4179-a9b2-235ccec62b38",
       "source": "Amsco Geometry Textbook 7.4.9",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "38dc5e64-9b2a-4d09-9ded-ca0dff8cde41",
@@ -1390,12 +1390,12 @@
       "viewable": true,
       "karma": 3,
       "title": "10117",
-      "body": "Given: Point F not on ABCDE and FC \u003d FD.\nProve: angle ABF \u003e EDF\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10117.png\"/\u003e",
+      "body": "Given: Point F not on ABCDE and FC \u003d FD.\nProve: angle ABF \u003e EDF\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10117.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometric inequality, inequality postulate, triangles, proof",
       "url": "/question/208ed85a-53a6-4eb2-8c82-c70408ce0a52",
       "source": "Amsco Geometry Textbook 7.5.10",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "de40a0d6-049b-4a09-87e0-354f1e78e221",
@@ -1424,7 +1424,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Name the Angles",
-      "body": "a. Name the exterior angle at R.\nb. Name two nonadjacent interior angles of the exterior angle at R.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10110.png\"/\u003e",
+      "body": "a. Name the exterior angle at R.\nb. Name two nonadjacent interior angles of the exterior angle at R.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10110.png\"/\u003e",
       "allAnswers": [],
       "tags": "interior angles, triangles, geometric inequalities",
       "url": "/question/6e7c02e2-aea4-41b6-9cae-7d492b98bde1",
@@ -1441,12 +1441,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Working with Triangles",
-      "body": "Triangle ABC is scalene, and CM is a median to side AB.\na. Tell whether each given statement is True or False.\nb. If the statement is true, state the definition, postulate, or theorem that justifies your answer.\n\n1. AM \u003d MB.\n2. mACB \u003e mACM\n3. mAMC \u003e mABC\n4. AB \u003e AM\n5. mCMB \u003e m ACM\n6. mCMB \u003e mCAB\n7. BA \u003e MB\n8. mACM \u003d mBCM\n9. mBCA \u003e mMCA\n10. mBMC \u003d mAMC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10111.png\"/\u003e",
+      "body": "Triangle ABC is scalene, and CM is a median to side AB.\na. Tell whether each given statement is True or False.\nb. If the statement is true, state the definition, postulate, or theorem that justifies your answer.\n\n1. AM \u003d MB.\n2. mACB \u003e mACM\n3. mAMC \u003e mABC\n4. AB \u003e AM\n5. mCMB \u003e m ACM\n6. mCMB \u003e mCAB\n7. BA \u003e MB\n8. mACM \u003d mBCM\n9. mBCA \u003e mMCA\n10. mBMC \u003d mAMC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10111.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangles, geometric inequalities, inequality postulates, medians",
       "url": "/question/e43ef8de-ac16-473f-88ef-6f15ed0eee56",
       "source": "Amsco Geometry Textbook 7.5.4",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "239420f1-0aa5-4442-88bf-cc743f86a1b9",
@@ -1458,7 +1458,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Proof",
-      "body": "Given: ABC with exterior BCD at vertex C, A and B are nonadjacent interior angles with respect to BCD.\nProve: BCD \u003e A \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10112.png\"/\u003e",
+      "body": "Given: ABC with exterior BCD at vertex C, A and B are nonadjacent interior angles with respect to BCD.\nProve: BCD \u003e A \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10112.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, angles, geometric inequality",
       "url": "/question/239420f1-0aa5-4442-88bf-cc743f86a1b9",
@@ -1475,12 +1475,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Proof",
-      "body": "Given: ABD + DBE \u003d ABE and ABE + EBC \u003d ABC \nProve: ABD \u003c ABC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10113.png\"/\u003e",
+      "body": "Given: ABD + DBE \u003d ABE and ABE + EBC \u003d ABC \nProve: ABD \u003c ABC\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10113.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometric inequality, inequality postulate, triangles, proof",
       "url": "/question/96849d98-6836-4ec9-8ae4-b56292fd8bb9",
       "source": "Amsco Geometry Textbook 7.5.6",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "80bfcd9a-d2ef-4a7d-85d3-3128cdbb11f8",
@@ -1492,12 +1492,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Isosceles Proof",
-      "body": "Given: Right triangle ABC with angle C \u003d 90\nProve: A is acute\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10114.png\"/\u003e",
+      "body": "Given: Right triangle ABC with angle C \u003d 90\nProve: A is acute\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10114.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, geometric inequality, inequality postulate, triangles",
       "url": "/question/80bfcd9a-d2ef-4a7d-85d3-3128cdbb11f8",
       "source": "Amsco Geometry Textbook 7.5.7",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "0a6e1507-a096-4401-a039-ec7f8c3d415b",
@@ -1509,12 +1509,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Right Triangle Proof",
-      "body": "Given: Right Triangle ABC with angle C \u003d 90\nProve: angle A is acute.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10115.png\"/\u003e",
+      "body": "Given: Right Triangle ABC with angle C \u003d 90\nProve: angle A is acute.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10115.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometric inequality, triangles, proof, inequality postulate",
       "url": "/question/0a6e1507-a096-4401-a039-ec7f8c3d415b",
       "source": "Amsco Geometry Textbook 7.5.8",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "c2262f94-131c-46fd-9bf4-938ad3844061",
@@ -1526,12 +1526,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Proof",
-      "body": "Given: Triangle SMR with STM extended through M to P\nProve: RMP \u003e SRT\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10116.png\"/\u003e",
+      "body": "Given: Triangle SMR with STM extended through M to P\nProve: RMP \u003e SRT\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10116.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometric inequality, inequality postulate, proof, triangle",
       "url": "/question/c2262f94-131c-46fd-9bf4-938ad3844061",
       "source": "Amsco Geometry Textbook 7.5.9",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "4e27bcea-ec1f-463c-9298-19d21d3e4b3d",
@@ -1548,7 +1548,7 @@
       "tags": "inequality postulate, contrapositives, geometric inequality, triangles",
       "url": "/question/4e27bcea-ec1f-463c-9298-19d21d3e4b3d",
       "source": "Amsco Geometry Textbook 7.6.1 ",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "a64c9875-0096-497b-8c10-695ea6d4e403",
@@ -1582,7 +1582,7 @@
       "tags": "triangles, inequality postulate, geometric inequality.",
       "url": "/question/8701fb61-5dba-414f-be2a-2a3cba0e8dd2",
       "source": "Amsco Geometry Textbook 7.6.2",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "c7c91626-79d6-45d7-b4f0-51ddf93e4808",
@@ -1599,7 +1599,7 @@
       "tags": "isosceles triangle theorem, triangles, congruence, converse, contrapositives, geometric inequality",
       "url": "/question/c7c91626-79d6-45d7-b4f0-51ddf93e4808",
       "source": "Amsco Geometry Textbook 7.6.2",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "f2fbd4f6-da7b-4060-93b1-39e5835a246b",
@@ -1616,7 +1616,7 @@
       "tags": "inequality postulate, geometric inequality, triangles",
       "url": "/question/f2fbd4f6-da7b-4060-93b1-39e5835a246b",
       "source": "Amsco Geometry Textbook 7.6.3",
-      "topic": "Geometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives of transcendental functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2119.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2120.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2119.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2120.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, transcendental functions, exponential, logarithm, trig functions ",
       "url": "/text-content/3e75e3a9-a305-4db6-82bb-4e1c3dae926f",
       "source": "Calculus Refresher 25",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "3f550a59-bb63-430f-a30f-4e3229c01186",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "L\u0027Hopital\u0027s rule",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2121.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2122.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2123.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2124.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2121.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2122.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2123.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2124.png\"/\u003e",
       "allAnswers": [],
       "tags": "l\u0027hopital\u0027s rule, rational functions, derivative, limits",
       "url": "/text-content/3f550a59-bb63-430f-a30f-4e3229c01186",
       "source": "Calculus Refresher 26",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ebb091ec-03be-4abb-9a55-3df3429ea483",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Exponential growth and decay: a differential equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2125.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2126.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2127.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2128.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2125.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2126.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2127.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2128.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential growth, exponential decay, differential equations ",
       "url": "/text-content/ebb091ec-03be-4abb-9a55-3df3429ea483",
       "source": "Calculus Refresher 27",
-      "topic": "Algebra/Exponents and Exponential Functions/Exponential Growth/Growth Factor"
+      "topic": "Algebra/Functions/Exponential Functions/Exponential Growth"
     },
     {
       "uuid": "aea19200-5695-43b4-bf4a-5ccc24ed9387",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The second and higher derivatives",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2129.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2129.png\"/\u003e",
       "allAnswers": [],
       "tags": "second derivative, third derivative, high derivatives ",
       "url": "/text-content/aea19200-5695-43b4-bf4a-5ccc24ed9387",
       "source": "Calculus Refresher 28",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "d20afcf6-0b75-4dea-b90c-6de56922869a",
@@ -1698,7 +1698,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Inflection points, concavity upward and downward",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2131.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2131.png\"/\u003e",
       "allAnswers": [],
       "tags": "inflection points, concavity up, concavity down, concavity up, concavity down ",
       "url": "/text-content/d20afcf6-0b75-4dea-b90c-6de56922869a",

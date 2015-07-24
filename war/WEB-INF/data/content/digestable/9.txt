@@ -579,7 +579,7 @@
       "tags": "chain rule, derivatives, derivative rules, derivative basics",
       "url": "/question/6cc9267e-201c-4664-a1bc-1717714a3a2a",
       "source": "Amsco Geometry Textbook 14.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "e50de9f7-235c-4a26-adfe-6daa8078084d",
@@ -596,7 +596,7 @@
       "tags": "differentials, approximations, linear approximations, approximations by differentials",
       "url": "/question/e50de9f7-235c-4a26-adfe-6daa8078084d",
       "source": "Amsco Geometry Textbook 20.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "f08083eb-e7aa-4639-a713-21de658da106",
@@ -630,7 +630,7 @@
       "tags": "derivatives, derivatives of polynomials, polynomials, power rule, constant rule, power function",
       "url": "/question/087657de-f4d7-4b23-aa61-606c2706e857",
       "source": "Calculus Refresher 10.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "8271828f-193b-482d-b1a7-be56c82f1897",
@@ -647,7 +647,7 @@
       "tags": "derivatives, derivatives of polynomials, power rule, constant rule, power function",
       "url": "/question/8271828f-193b-482d-b1a7-be56c82f1897",
       "source": "Calculus Refresher 10.1.3",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations"
     },
     {
       "uuid": "4c3e066c-896d-40db-95b9-6041acfb27c2",
@@ -664,7 +664,7 @@
       "tags": "derivatives, derivatives of polynomials, power rule, power function, constant rule",
       "url": "/question/4c3e066c-896d-40db-95b9-6041acfb27c2",
       "source": "Calculus Refresher 10.1.4",
-      "topic": "Calculus/Rules for Finding Derivative/Derivatives of Polynomials"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Polynomials"
     },
     {
       "uuid": "78f458bd-365b-4869-bbd9-d3460ee55ae3",
@@ -681,7 +681,7 @@
       "tags": "derivatives, power rule, constant rule, power function",
       "url": "/question/78f458bd-365b-4869-bbd9-d3460ee55ae3",
       "source": "Calculus Refresher 11.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/Derivatives of Polynomials"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Polynomials"
     },
     {
       "uuid": "6abcd834-f565-4a53-a011-7dd6c488286a",
@@ -698,7 +698,7 @@
       "tags": "derivatives, power rule, constant rule, power function",
       "url": "/question/6abcd834-f565-4a53-a011-7dd6c488286a",
       "source": "Calculus Refresher 11.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/Derivatives of Polynomials"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Polynomials"
     },
     {
       "uuid": "05256e7e-b3f9-464b-b097-317df288832e",
@@ -715,7 +715,7 @@
       "tags": "derivatives, power rule, constant rule, power function",
       "url": "/question/05256e7e-b3f9-464b-b097-317df288832e",
       "source": "Calculus Refresher 11.1.3",
-      "topic": "Calculus/Rules for Finding Derivative/Derivatives of Polynomials"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Polynomials"
     },
     {
       "uuid": "dc81099f-7990-415a-a37e-c9443ea71b5d",
@@ -732,7 +732,7 @@
       "tags": "derivatives, basic derivative, quotient rule, derivative rules",
       "url": "/question/dc81099f-7990-415a-a37e-c9443ea71b5d",
       "source": "Calculus Refresher 12.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "0e2c446d-6887-4696-9d65-01340478e89a",
@@ -749,7 +749,7 @@
       "tags": "derivative, quotient rule, basic derivatives, derivative rules",
       "url": "/question/0e2c446d-6887-4696-9d65-01340478e89a",
       "source": "Calculus Refresher 12.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "23ad3779-a2ec-499c-b5be-847617eb6766",
@@ -766,7 +766,7 @@
       "tags": "derivatives, quotient rule, derivative rules, basic derivatives",
       "url": "/question/23ad3779-a2ec-499c-b5be-847617eb6766",
       "source": "Calculus Refresher 12.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "5bebd3df-890d-4fba-81e1-6c79b4bb7bd3",
@@ -783,7 +783,7 @@
       "tags": "derivatives, quotient rule, derivative rules, basic derivatives ",
       "url": "/question/5bebd3df-890d-4fba-81e1-6c79b4bb7bd3",
       "source": "Calculus Refresher 12.1.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "2e77f5d0-da3b-4a73-85ed-df358ce164f4",
@@ -800,7 +800,7 @@
       "tags": "derivatives, product rule, basic derivatives, derivative rules",
       "url": "/question/2e77f5d0-da3b-4a73-85ed-df358ce164f4",
       "source": "Calculus Refresher 13.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "1918fc0a-878e-4429-a2c6-545cbf4e982d",
@@ -817,7 +817,7 @@
       "tags": "derivatives, derivative rules, basic derivatives, product rule",
       "url": "/question/1918fc0a-878e-4429-a2c6-545cbf4e982d",
       "source": "Calculus Refresher 13.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "db734531-5e2d-4000-843f-bc88ed4cb597",
@@ -834,7 +834,7 @@
       "tags": "derivatives, basic derivatives, derivative rules, product rule",
       "url": "/question/db734531-5e2d-4000-843f-bc88ed4cb597",
       "source": "Calculus Refresher 13.1.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "a1f84ada-fbf4-443a-b5b8-1e0503fc54ee",
@@ -851,7 +851,7 @@
       "tags": "derivatives, basic derivatives, derivative rules, product rule",
       "url": "/question/a1f84ada-fbf4-443a-b5b8-1e0503fc54ee",
       "source": "Calculus Refresher 13.1.4",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "b7da8079-f07b-4b8d-8c88-0d00c79023a5",
@@ -868,7 +868,7 @@
       "tags": "chain rule, derivatives, derivative basics, derivative rules",
       "url": "/question/b7da8079-f07b-4b8d-8c88-0d00c79023a5",
       "source": "Calculus Refresher 14.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "b4e3f392-87cd-4b2d-94eb-a2c473f3d0cd",
@@ -885,7 +885,7 @@
       "tags": "chain rule, derivatives, derivative basics, derivative rules",
       "url": "/question/b4e3f392-87cd-4b2d-94eb-a2c473f3d0cd",
       "source": "Calculus Refresher 14.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "7c7b58d3-d10a-4901-8a7f-119066959a0a",
@@ -902,7 +902,7 @@
       "tags": "chain rule, derivatives, derivative basics, derivative rules",
       "url": "/question/7c7b58d3-d10a-4901-8a7f-119066959a0a",
       "source": "Calculus Refresher 14.1.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Product Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "0655bd8c-5f5f-4a00-a3bc-d1932a9c48b6",
@@ -919,7 +919,7 @@
       "tags": "chain rule, derivative, derivative basics, derivative rules",
       "url": "/question/0655bd8c-5f5f-4a00-a3bc-d1932a9c48b6",
       "source": "Calculus Refresher 14.1.4",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "312b8d11-1028-4dc3-98ad-812920806063",
@@ -936,7 +936,7 @@
       "tags": "chain rule, derivatives, derivative rules, derivative basics",
       "url": "/question/312b8d11-1028-4dc3-98ad-812920806063",
       "source": "Calculus Refresher 14.1.5",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "90b603a7-8d95-4b43-8208-573f810a73fa",
@@ -953,7 +953,7 @@
       "tags": "tangent line, normal line, curve, point, equation of tangent line, equation of normal line",
       "url": "/question/90b603a7-8d95-4b43-8208-573f810a73fa",
       "source": "Calculus Refresher 15.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "ee506e30-7558-43b9-9d20-070093397866",
@@ -970,7 +970,7 @@
       "tags": "tangent line, normal line, curve, point, equation of tangent line, equation of normal line",
       "url": "/question/ee506e30-7558-43b9-9d20-070093397866",
       "source": "Calculus Refresher 15.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "34d40572-bc2d-4ce3-b6a1-fc5e663f3bd9",
@@ -987,7 +987,7 @@
       "tags": "critical points, intervals, increasing, decreasing, derivatives ",
       "url": "/question/34d40572-bc2d-4ce3-b6a1-fc5e663f3bd9",
       "source": "Calculus Refresher 16.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "ac5a92e6-07c5-4e63-bca1-c5bc9a228dba",
@@ -1004,7 +1004,7 @@
       "tags": "critical points, intervals, increasing, decreasing, derivatives ",
       "url": "/question/ac5a92e6-07c5-4e63-bca1-c5bc9a228dba",
       "source": "Calculus Refresher 16.1.2",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "a8304b55-bf76-469e-82a9-ef5fd40b4f4b",
@@ -1021,7 +1021,7 @@
       "tags": "critical points, intervals, increasing, decreasing, derivatives",
       "url": "/question/a8304b55-bf76-469e-82a9-ef5fd40b4f4b",
       "source": "Calculus Refresher 16.1.3",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     },
     {
       "uuid": "57b5f95c-fbb7-447e-a927-5011a6d05bf5",
@@ -1310,7 +1310,7 @@
       "tags": "differentials, approximations, linear approximations, approximations by differentials",
       "url": "/question/da27dd72-d50e-4cf7-9e79-f5528f6dce25",
       "source": "Calculus Refresher 20.1.1",
-      "topic": "Calculus/Functions and Intervals"
+      "topic": "Calculus/Pre-Calculus Review/Function Basics/Functions and Intervals"
     },
     {
       "uuid": "76ec0960-48c9-4398-bfd9-e5e4534d7ff8",
@@ -1327,7 +1327,7 @@
       "tags": "differentials, approximations, linear approximations, approximations by differentials",
       "url": "/question/76ec0960-48c9-4398-bfd9-e5e4534d7ff8",
       "source": "Calculus Refresher 20.1.2",
-      "topic": "Calculus/Functions and Intervals"
+      "topic": "Calculus/Pre-Calculus Review/Function Basics/Functions and Intervals"
     },
     {
       "uuid": "6b8f6720-27d8-4741-b31c-f94ca766fb15",
@@ -1344,7 +1344,7 @@
       "tags": "differentials, approximations, linear approximations, approximations by differentials",
       "url": "/question/6b8f6720-27d8-4741-b31c-f94ca766fb15",
       "source": "Calculus Refresher 20.1.3",
-      "topic": "Calculus/Functions and Intervals"
+      "topic": "Calculus/Pre-Calculus Review/Function Basics/Functions and Intervals"
     },
     {
       "uuid": "1d7c6e9d-4edc-466b-816f-24bc3c68c1e5",
@@ -1361,7 +1361,7 @@
       "tags": "differentials, approximations, linear approximations, approximations by differentials",
       "url": "/question/1d7c6e9d-4edc-466b-816f-24bc3c68c1e5",
       "source": "Calculus Refresher 20.1.5",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations"
     },
     {
       "uuid": "949a2320-b96f-429b-871f-0156de9a3627",
@@ -1378,7 +1378,7 @@
       "tags": "derivatives, point, implicit differentiation, differentiation, function",
       "url": "/question/949a2320-b96f-429b-871f-0156de9a3627",
       "source": "Calculus Refresher 21.1.1",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations"
     },
     {
       "uuid": "d4d98e59-c2dc-4d1b-a92f-e7020c944b61",
@@ -1395,7 +1395,7 @@
       "tags": "derivatives, function, implicit differentiation, differentiation, point",
       "url": "/question/d4d98e59-c2dc-4d1b-a92f-e7020c944b61",
       "source": "Calculus Refresher 21.1.2",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations"
     },
     {
       "uuid": "8e7e6bae-ff87-48e7-8afd-56ebb87dd1b5",
@@ -1412,7 +1412,7 @@
       "tags": "function, derivative, related rates, points, pythagorean theorem",
       "url": "/question/8e7e6bae-ff87-48e7-8afd-56ebb87dd1b5",
       "source": "Calculus Refresher 22.1.1",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations"
     },
     {
       "uuid": "3cd5092c-5ba6-4271-b0c2-8ec246f92bc0",
@@ -1429,7 +1429,7 @@
       "tags": "related rate, word problem, calculus word problem, related rate word problem, pythagorean theorem, derivatives",
       "url": "/question/3cd5092c-5ba6-4271-b0c2-8ec246f92bc0",
       "source": "Calculus Refresher 22.1.2",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation"
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Two Variable Implicit Differentiation"
     },
     {
       "uuid": "9be1a34d-da9c-4228-97d9-92d5fcb85536",
@@ -1446,7 +1446,7 @@
       "tags": "related rate, derivative, word problem, related rate word problem, calculus word problem",
       "url": "/question/9be1a34d-da9c-4228-97d9-92d5fcb85536",
       "source": "Calculus Refresher 22.1.3",
-      "topic": "Calculus/Transcendental Functions/Implicit Differentiation"
+      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Two Variable Implicit Differentiation"
     },
     {
       "uuid": "4d4a6d4a-6438-4186-afff-f6892232a48a",
@@ -1463,7 +1463,7 @@
       "tags": "Newton\u0027s method, intermediate value theorem, root, approximation ",
       "url": "/question/4d4a6d4a-6438-4186-afff-f6892232a48a",
       "source": "Calculus Refresher 24.1.1",
-      "topic": "Calculus/Applications of the Derivative/Related Rates"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "acdeb9fb-f922-4b78-96b4-493a75a4f70c",
@@ -1480,7 +1480,7 @@
       "tags": "Newton\u0027s method, intermediate value theorem, root, approximation ",
       "url": "/question/acdeb9fb-f922-4b78-96b4-493a75a4f70c",
       "source": "Calculus Refresher 24.1.2",
-      "topic": "Calculus/Applications of the Derivative/Related Rates"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "8608bd0c-24e6-455c-b151-5b75c1e9523f",
@@ -1497,7 +1497,7 @@
       "tags": "Newton\u0027s method, intermediate value theorem, root, approximation ",
       "url": "/question/8608bd0c-24e6-455c-b151-5b75c1e9523f",
       "source": "Calculus Refresher 24.1.3",
-      "topic": "Calculus/Applications of the Derivative/Related Rates"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "d1488ac0-9cb6-44e4-8088-e0b552cf3240",
@@ -1514,7 +1514,7 @@
       "tags": "Newton\u0027s method, intermediate value theorem, root, approximation ",
       "url": "/question/d1488ac0-9cb6-44e4-8088-e0b552cf3240",
       "source": "Calculus Refresher 24.1.4",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "2b30fd0a-2dfa-4400-834f-9f298c63ccbe",
@@ -1531,7 +1531,7 @@
       "tags": "Newton\u0027s method, intermediate value theorem, root, approximation ",
       "url": "/question/2b30fd0a-2dfa-4400-834f-9f298c63ccbe",
       "source": "Calculus Refresher 24.1.5",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "3cf8fd6f-5c13-488b-b779-555d4b669b9f",
@@ -1548,7 +1548,7 @@
       "tags": "Newton\u0027s method, intermediate value theorem, root, approximation ",
       "url": "/question/3cf8fd6f-5c13-488b-b779-555d4b669b9f",
       "source": "Calculus Refresher 24.1.6",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "cc83b452-3bdc-45e5-97c3-de9eb5e480e3",
@@ -1565,7 +1565,7 @@
       "tags": "derivative, transcendental functions, finding transcendental functions",
       "url": "/question/cc83b452-3bdc-45e5-97c3-de9eb5e480e3",
       "source": "Calculus Refresher 25.1.1",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "9dba91e8-7037-4da5-b3ce-37395aaf9383",
@@ -1582,7 +1582,7 @@
       "tags": "functions, derivatives, transcendental functions, derivatives of transcendental functions",
       "url": "/question/9dba91e8-7037-4da5-b3ce-37395aaf9383",
       "source": "Calculus Refresher 25.1.2",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     },
     {
       "uuid": "93aeb62f-f353-48b5-805e-2521dcc1e3e7",
@@ -1599,7 +1599,7 @@
       "tags": "derivative, transcendental functions, functions, derivatives of transcendental functions",
       "url": "/question/93aeb62f-f353-48b5-805e-2521dcc1e3e7",
       "source": "Calculus Refresher 25.1.3",
-      "topic": "Calculus/Applications of the Derivative/Newton_s Method"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Volumes by Cross Sections ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2150.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2150.png\"/\u003e",
       "allAnswers": [],
       "tags": "cross sections, volumes, integral, integrations, definite integral ",
       "url": "/text-content/783c1d39-89c7-4ff9-ba03-2645d407a629",
       "source": "Calculus Refresher 40",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "5fe62cba-d2f6-4d89-89a5-85bf93c2b6d6",
@@ -1630,7 +1630,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Solids of Revolution ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2151.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2152.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2151.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2152.png\"/\u003e",
       "allAnswers": [],
       "tags": "revolution, solid around y-axis, solid around x-axis, integral, definite integral ",
       "url": "/text-content/5fe62cba-d2f6-4d89-89a5-85bf93c2b6d6",
@@ -1647,7 +1647,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Surfaces of Revolution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2153.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2154.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2153.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2154.png\"/\u003e",
       "allAnswers": [],
       "tags": "revolution, rotating curve around axis, rotating curve around x axis, rotation curve around y axis ",
       "url": "/text-content/a6a5d9f6-d185-468e-b0f3-e0859bbc71de",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integration by parts ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2156.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2156.png\"/\u003e",
       "allAnswers": [],
       "tags": "integrations, integrals, product rule, derivatives ",
       "url": "/text-content/e2433824-fa05-40f3-83ad-de03928f0904",
       "source": "Calculus Refresher 43",
-      "topic": "Calculus/Integration by Parts/Product Rule"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     }
   ],
   "answers": [],

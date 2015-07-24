@@ -188,7 +188,7 @@
       "tags": "symbolic form, symbols, logic, truth value, disjunction",
       "url": "/question/c487a504-8ae4-452b-8aa9-8417535f3128",
       "source": "Amsco Geometry Textbook 21.3.11",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "6949926a-e10b-456a-8561-99aaa0c70c77",
@@ -205,7 +205,7 @@
       "tags": "triangles, acute angles, obtuse angles",
       "url": "/question/6949926a-e10b-456a-8561-99aaa0c70c77",
       "source": "Amsco Geometry Textbook 3.1.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "aa8a6795-dbdf-477f-9209-d9104c42d9c7",
@@ -222,7 +222,7 @@
       "tags": "closure, properties of numbers, closure properties",
       "url": "/question/aa8a6795-dbdf-477f-9209-d9104c42d9c7",
       "source": "Amsco Geometry Textbook 3.1.2",
-      "topic": "Geometry/Whole Numbers"
+      "topic": "Geometry/Other Topics/Logic/Whole Numbers"
     },
     {
       "uuid": "f9997bbc-24d7-4c39-b94e-6a1b20bb0447",
@@ -239,7 +239,7 @@
       "tags": "biconditional, logic, evaluating logic arguments",
       "url": "/question/f9997bbc-24d7-4c39-b94e-6a1b20bb0447",
       "source": "Amsco Geometry Textbook 3.2.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4e466a9a-f896-4125-8d52-66bd0cdf654a",
@@ -256,7 +256,7 @@
       "tags": "biconditional, logic, logic definitions",
       "url": "/question/4e466a9a-f896-4125-8d52-66bd0cdf654a",
       "source": "Amsco Geometry Textbook 3.2.15",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "323df8ce-64b4-49c7-9ead-8538b0087801",
@@ -273,7 +273,7 @@
       "tags": "logic, real numbers, ",
       "url": "/question/323df8ce-64b4-49c7-9ead-8538b0087801",
       "source": "Amsco Geometry Textbook 3.2.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "13ba8f96-3ab2-49fd-977e-1120e02d1129",
@@ -290,7 +290,7 @@
       "tags": "biconditional, converse, logic statements, logic, conditional",
       "url": "/question/13ba8f96-3ab2-49fd-977e-1120e02d1129",
       "source": "Amsco Geometry Textbook 3.2.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4aa66900-d953-4d29-9212-9d481956dd46",
@@ -307,7 +307,7 @@
       "tags": "biconditional, logic statements, logic definitions, logic",
       "url": "/question/4aa66900-d953-4d29-9212-9d481956dd46",
       "source": "Amsco Geometry Textbook 3.2.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "a340a54f-72a1-4199-a556-570885b1e4d9",
@@ -336,7 +336,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Simple Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30112.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30112.png\"/\u003e",
       "allAnswers": [],
       "tags": "simple geometry proof, proof completion, midpoint proof",
       "url": "/question/3468d93b-30a5-48cf-b46e-5d5d94e613d3",
@@ -353,7 +353,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Simple Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30113.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30113.png\"/\u003e",
       "allAnswers": [],
       "tags": "simple geometry proof, proof completion, isosceles triangle proof",
       "url": "/question/95ec1ca1-3dd7-4087-ba36-cb3af15169db",
@@ -370,12 +370,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Simple Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30115.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30115.png\"/\u003e",
       "allAnswers": [],
       "tags": "simple proof completion, proof completion, simple geometry proof, angle bisection proof",
       "url": "/question/1cf64616-eca5-4e90-8dce-b5779934ef6f",
       "source": "Amsco Geometry Textbook 3.3.15",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "f3fc9b7b-18c4-4cb7-a9b7-f3bd291cb676",
@@ -387,7 +387,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Simple Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30114.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30114.png\"/\u003e",
       "allAnswers": [],
       "tags": "simple proof completion, proof completion, simple geometry proof, angle bisection proof",
       "url": "/question/f3fc9b7b-18c4-4cb7-a9b7-f3bd291cb676",
@@ -404,7 +404,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Simple Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30115.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30115.png\"/\u003e",
       "allAnswers": [],
       "tags": "simple proof completion, proof completion, simple geometry proof",
       "url": "/question/2e347a3a-ff4a-48f2-8010-8ef1dc027760",
@@ -426,7 +426,7 @@
       "tags": "obtuse triangle, simple geometry proof, logic",
       "url": "/question/cd608bcb-3ee0-45ba-93fb-18d114083fd7",
       "source": "Amsco Geometry Textbook 3.3.17",
-      "topic": "Geometry/Logic"
+      "topic": "Geometry/Other Topics/Logic"
     },
     {
       "uuid": "08c4e0c4-a59c-46bd-8b99-1f182c455bb1",
@@ -438,12 +438,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Spot the Error in the Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30116.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30116.png\"/\u003e",
       "allAnswers": [],
       "tags": "isosceles triangle, congruent sides, basic geometry proof, simple geometry proof",
       "url": "/question/08c4e0c4-a59c-46bd-8b99-1f182c455bb1",
       "source": "Amsco Geometry Textbook 3.3.18",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "71a71a18-3352-4292-8fe6-7f82e91075ba",
@@ -460,7 +460,7 @@
       "tags": "collinear points, geometry logic, distance between two points",
       "url": "/question/71a71a18-3352-4292-8fe6-7f82e91075ba",
       "source": "Amsco Geometry Textbook 3.3.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "feb5e8f7-5022-4d26-b5ce-678a36ad4c8f",
@@ -477,7 +477,7 @@
       "tags": "simple geometry proof",
       "url": "/question/feb5e8f7-5022-4d26-b5ce-678a36ad4c8f",
       "source": "Amsco Geometry Textbook 3.3.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "59ba66c2-f745-43dd-a84c-b3414d4ae074",
@@ -494,7 +494,7 @@
       "tags": "simple geometry proof, ",
       "url": "/question/59ba66c2-f745-43dd-a84c-b3414d4ae074",
       "source": "Amsco Geometry Textbook 3.3.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "8dc19345-bb92-46ad-ab06-69072511a644",
@@ -511,7 +511,7 @@
       "tags": "simple geometry proof, perpendicular lines",
       "url": "/question/8dc19345-bb92-46ad-ab06-69072511a644",
       "source": "Amsco Geometry Textbook 3.3.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "89e6fded-0718-4d0f-bf26-fefc1e0953c2",
@@ -528,7 +528,7 @@
       "tags": "simple geometry proof, betweenness",
       "url": "/question/89e6fded-0718-4d0f-bf26-fefc1e0953c2",
       "source": "Amsco Geometry Textbook 3.3.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "7ad6e0f9-1733-41dd-80b8-6482bc0a0f8d",
@@ -545,7 +545,7 @@
       "tags": "angles, straight angles, acute angles, deductive reasoning, perpendicular lines, betweenness, bisection",
       "url": "/question/7ad6e0f9-1733-41dd-80b8-6482bc0a0f8d",
       "source": "Amsco Geometry Textbook 3.3.7",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "86316b41-35a4-4053-8c02-57b59bd555fa",
@@ -562,7 +562,7 @@
       "tags": "simple geometry proof, intersecting lines, angles",
       "url": "/question/86316b41-35a4-4053-8c02-57b59bd555fa",
       "source": "Amsco Geometry Textbook 3.4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "d7296ba0-5642-4b2b-a240-f0cd7c52378e",
@@ -630,7 +630,7 @@
       "tags": "equivalence relation, set of lines, set of angles",
       "url": "/question/ccdd6b2c-4e30-4a0c-ac0e-37a4cbb8bd11",
       "source": "Amsco Geometry Textbook 3.5.1",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "25715781-7520-4777-a9f7-7b0fef1fa8a3",
@@ -642,12 +642,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30120.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30120.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle congruence proof, bisection proof, geometry proof, proof completion",
       "url": "/question/25715781-7520-4777-a9f7-7b0fef1fa8a3",
       "source": "Amsco Geometry Textbook 3.5.10",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "7ea890d0-4aef-476b-b90c-b7543321ba27",
@@ -659,12 +659,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Spot the Error in the Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30121.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30121.png\"/\u003e",
       "allAnswers": [],
       "tags": "incorrect proof, geometry proof, spot the error, geometry diagrams",
       "url": "/question/7ea890d0-4aef-476b-b90c-b7543321ba27",
       "source": "Amsco Geometry Textbook 3.5.11",
-      "topic": "Geometry/Logic"
+      "topic": "Geometry/Other Topics/Logic"
     },
     {
       "uuid": "2556ec57-aaba-4167-ace8-4cc777ade829",
@@ -676,12 +676,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Trivial Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30117.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30117.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof completion, simple proof",
       "url": "/question/2556ec57-aaba-4167-ace8-4cc777ade829",
       "source": "Amsco Geometry Textbook 3.5.7",
-      "topic": "Geometry/Logic"
+      "topic": "Geometry/Other Topics/Logic"
     },
     {
       "uuid": "201a338f-87fa-4503-ba56-fa12d46a129e",
@@ -693,12 +693,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Simple Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30118.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30118.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof completion, simple proof completion, line algebra",
       "url": "/question/201a338f-87fa-4503-ba56-fa12d46a129e",
       "source": "Amsco Geometry Textbook 3.5.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "a271459a-b128-4ee1-a5f2-309fca7bb502",
@@ -710,12 +710,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30119.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30119.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof completion, midpoint proof, midpoint, geometry proof",
       "url": "/question/a271459a-b128-4ee1-a5f2-309fca7bb502",
       "source": "Amsco Geometry Textbook 3.5.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "81457f9b-8d56-490b-99dc-e948ef960795",
@@ -727,12 +727,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30119.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30119.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof completion, midpoint proof, midpoint, geometry proof",
       "url": "/question/81457f9b-8d56-490b-99dc-e948ef960795",
       "source": "Amsco Geometry Textbook 3.5.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "93540f79-571e-4713-bde6-1ecd553e9a10",
@@ -749,7 +749,7 @@
       "tags": "substitution postulate, angle substitution, angle algebra, geometry proof",
       "url": "/question/93540f79-571e-4713-bde6-1ecd553e9a10",
       "source": "Amsco Geometry Textbook 3.6.10",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "de05d1f2-b8ae-407a-a6fc-80d50f9db37a",
@@ -761,12 +761,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Addition and Subtraction Postulates in Geometry",
-      "body": "In the diagram, \\(m\\angle{_ABC} \u003d 30\\), \\(m\\angle{_CBD} \u003d 45\\), and \\(m\\angle{_DBE} \u003d 15\\).\n\na. Does \\(m\\angle{_CBD} \u003d m\\angle{_ABC} + m\\angle{_DBE}\\)? Justify your answer.\n\nb. Is  \\(\\angle{_CBD} \\cong \\angle{_ABC} + \\angle{_DBE}\\)? Justify your answer.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30122.png\"/\u003e",
+      "body": "In the diagram, \\(m\\angle{_ABC} \u003d 30\\), \\(m\\angle{_CBD} \u003d 45\\), and \\(m\\angle{_DBE} \u003d 15\\).\n\na. Does \\(m\\angle{_CBD} \u003d m\\angle{_ABC} + m\\angle{_DBE}\\)? Justify your answer.\n\nb. Is  \\(\\angle{_CBD} \\cong \\angle{_ABC} + \\angle{_DBE}\\)? Justify your answer.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30122.png\"/\u003e",
       "allAnswers": [],
       "tags": "addition postulate, simple geometry proof, subtraction postulate, angle algebra",
       "url": "/question/de05d1f2-b8ae-407a-a6fc-80d50f9db37a",
       "source": "Amsco Geometry Textbook 3.7.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "cb7fbc24-b2e9-45fd-b1c7-a55ae45af3dd",
@@ -778,12 +778,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30123.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30123.png\"/\u003e",
       "allAnswers": [],
       "tags": "substitution postulate, proof completion, simple proof completion",
       "url": "/question/cb7fbc24-b2e9-45fd-b1c7-a55ae45af3dd",
       "source": "Amsco Geometry Textbook 3.7.3",
-      "topic": "Geometry/Logic"
+      "topic": "Geometry/Other Topics/Logic"
     },
     {
       "uuid": "255e1795-830b-48df-8ba7-5650802436d8",
@@ -795,12 +795,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Congruency Proof Completion",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30124.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30124.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle congruence, angle congruence proof, simple geometry proof, proof completion",
       "url": "/question/255e1795-830b-48df-8ba7-5650802436d8",
       "source": "Amsco Geometry Textbook 3.7.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The idea of the derivative of a function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2085.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2085.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivative, tangent line, tangent at a point ",
       "url": "/text-content/0092599b-3768-42c3-ac87-7f865aae5bb4",
       "source": "Calculus Refresher 9",
-      "topic": "Calculus/Functions/Derivatives"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "e135d95a-6609-4981-95e8-ef47f7426712",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives of polynomials ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2086.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2087.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2086.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2087.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, polynomials, power function ",
       "url": "/text-content/e135d95a-6609-4981-95e8-ef47f7426712",
       "source": "Calculus Refresher 10",
-      "topic": "Calculus/Derivatives/Polynomials"
+      "topic": "Calculus/Derivative Calculus/Additional Topics/Polynomials"
     }
   ],
   "answers": [],

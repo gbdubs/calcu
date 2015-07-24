@@ -982,7 +982,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Exponential and Logarithmic Functions",
-      "body": "Verify that each function on Exercises 64-69 is the inverse of the corresponding function in Exercises 58-63. (Match up #58 and #64, and so on.)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20230.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20231.png\"/\u003e",
+      "body": "Verify that each function on Exercises 64-69 is the inverse of the corresponding function in Exercises 58-63. (Match up #58 and #64, and so on.)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20230.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20231.png\"/\u003e",
       "allAnswers": [],
       "tags": "inverse, corresponding functions, inverse functions",
       "url": "/question/3fa7a04e-ef96-42c2-bb47-a63b81afc813",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Related Rates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4060.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4061.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4062.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4064.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4068.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4069.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4060.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4061.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4062.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4064.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4068.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4069.png\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, derivatives, differentiation",
       "url": "/text-content/93717815-00fa-44ba-a9d1-15e7485758dc",
       "source": "Forgotten Text 2 3.5",
-      "topic": "Calculus/Using Derivatives/Related rates"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related rates"
     },
     {
       "uuid": "a232ac9a-9e1d-4170-a00b-8d2fda159b79",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Determining distance traveled from velocity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4070.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4074.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4075.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4076.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4077.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4078.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4079.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4080.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4070.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4074.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4075.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4076.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4077.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4078.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4079.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4080.png\"/\u003e",
       "allAnswers": [],
       "tags": "integrals, velocity, area under curve, integration ",
       "url": "/text-content/a232ac9a-9e1d-4170-a00b-8d2fda159b79",
       "source": "Forgotten Text 2 4.1",
-      "topic": "Calculus/Definite Integral/Velocity"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integral/Velocity"
     },
     {
       "uuid": "0b797cdc-7898-432a-a46e-571a383b362b",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Riemann Sums",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4081.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4084.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4085.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4086.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4093.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4081.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4084.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4085.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4086.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4093.png\"/\u003e",
       "allAnswers": [],
       "tags": "riemann sums, integral, integration, area under the curve ",
       "url": "/text-content/0b797cdc-7898-432a-a46e-571a383b362b",
       "source": "Forgotten Text 2 4.2",
-      "topic": "Calculus/Integrals/Riemann Sums"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
     },
     {
       "uuid": "b33b86e4-5ff5-4ea5-a3f7-2f5a4c99a41d",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Definite Integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4094.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4099.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4103.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4106.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4094.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4099.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4103.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4106.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, definite integral, integration ",
       "url": "/text-content/b33b86e4-5ff5-4ea5-a3f7-2f5a4c99a41d",
       "source": "Forgotten Text 2 4.3",
-      "topic": "Calculus/Integrals/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integral"
     },
     {
       "uuid": "b42b8543-eeaa-41ad-990f-589cdae59724",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Fundamental Theorem of Calculus",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4107.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4109.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4110.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4111.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4112.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4113.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4114.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4115.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4116.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4117.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4118.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4119.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4107.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4109.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4110.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4111.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4112.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4113.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4114.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4115.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4116.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4117.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4118.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4119.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration, fundamental theorem ",
       "url": "/text-content/b42b8543-eeaa-41ad-990f-589cdae59724",
       "source": "Forgotten Text 2 4.4",
-      "topic": "Calculus/Integrals/Fundamental Theorem of Calculus"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Fundamental Theorem of Calculus"
     }
   ],
   "answers": [],

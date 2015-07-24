@@ -375,7 +375,7 @@
       "tags": "point, undefined terms, geometry, point definition",
       "url": "/question/86e1d6f5-1c0a-4afc-ae98-030d2856e81f",
       "source": "Amsco Geometry Textbook 1.1.8",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "62e8e263-4704-4f9d-b849-038cdab82471",
@@ -392,7 +392,7 @@
       "tags": "geometry, point definition, line definition, plane definition, undefined terms",
       "url": "/question/62e8e263-4704-4f9d-b849-038cdab82471",
       "source": "Amsco Geometry Textbook 1.1.9",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "8b37cece-0431-4fb0-accc-1c0c6eeac0da",
@@ -409,7 +409,7 @@
       "tags": "real number closure, closure, closure properties",
       "url": "/question/8b37cece-0431-4fb0-accc-1c0c6eeac0da",
       "source": "Amsco Geometry Textbook 1.2.1",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "bb931506-3130-457b-b36c-134906f33e2a",
@@ -426,7 +426,7 @@
       "tags": "multiplicative inverse, algebra",
       "url": "/question/bb931506-3130-457b-b36c-134906f33e2a",
       "source": "Amsco Geometry Textbook 1.2.17",
-      "topic": "Algebra/Rational Numbers/Properties of Real Numbers"
+      "topic": "Algebra/Functions/Rational Numbers/Properties of Real Numbers"
     },
     {
       "uuid": "92709b4a-de7c-4238-bae1-3d9623d44ea9",
@@ -443,7 +443,7 @@
       "tags": "algebra, zero, closure properties",
       "url": "/question/92709b4a-de7c-4238-bae1-3d9623d44ea9",
       "source": "Amsco Geometry Textbook 1.2.18",
-      "topic": "Algebra/Rational Numbers/Properties of Real Numbers"
+      "topic": "Algebra/Functions/Rational Numbers/Properties of Real Numbers"
     },
     {
       "uuid": "4ac9e858-4b89-4f84-8035-a9aae3dde34d",
@@ -460,7 +460,7 @@
       "tags": "closure properties, closure, real number closure",
       "url": "/question/4ac9e858-4b89-4f84-8035-a9aae3dde34d",
       "source": "Amsco Geometry Textbook 1.2.2",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "0efbd859-fa05-47af-8245-d056602c45b0",
@@ -477,7 +477,7 @@
       "tags": "additive identity, properties of real numbers",
       "url": "/question/0efbd859-fa05-47af-8245-d056602c45b0",
       "source": "Amsco Geometry Textbook 1.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "309a0b55-408d-4f24-9873-ad6fc0788d60",
@@ -494,7 +494,7 @@
       "tags": "Multiplicative Identity, real number identity",
       "url": "/question/309a0b55-408d-4f24-9873-ad6fc0788d60",
       "source": "Amsco Geometry Textbook 1.2.4",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "542808fc-60e1-4ac2-a018-c25be1b248c8",
@@ -511,7 +511,7 @@
       "tags": "negation",
       "url": "/question/542808fc-60e1-4ac2-a018-c25be1b248c8",
       "source": "Amsco Geometry Textbook 1.2.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "69172f31-7419-44c8-b5b1-a41c93cb4cb6",
@@ -528,7 +528,7 @@
       "tags": "multiplicative inverse",
       "url": "/question/69172f31-7419-44c8-b5b1-a41c93cb4cb6",
       "source": "Amsco Geometry Textbook 1.2.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "2fe34e6d-f5f7-4c77-a78c-822b69daa2e2",
@@ -545,7 +545,7 @@
       "tags": "closure properties of real numbers, closure, real numbers",
       "url": "/question/2fe34e6d-f5f7-4c77-a78c-822b69daa2e2",
       "source": "Amsco Geometry Textbook 1.2.7",
-      "topic": "Algebra/Rational Numbers/Properties of Real Numbers"
+      "topic": "Algebra/Functions/Rational Numbers/Properties of Real Numbers"
     },
     {
       "uuid": "736b8533-2971-40b8-bdc0-dc8e89b7a28f",
@@ -562,7 +562,7 @@
       "tags": "geometric definitions, ",
       "url": "/question/736b8533-2971-40b8-bdc0-dc8e89b7a28f",
       "source": "Amsco Geometry Textbook 1.3.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9303c4f0-45ff-450c-be04-86fc5c921629",
@@ -579,7 +579,7 @@
       "tags": "Line segments, line segment arithmetic",
       "url": "/question/9303c4f0-45ff-450c-be04-86fc5c921629",
       "source": "Amsco Geometry Textbook 1.3.15",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "7a2131fe-fc8a-4231-8efe-c54d531a67e6",
@@ -596,7 +596,7 @@
       "tags": "line segment, word problem, measuring line segments",
       "url": "/question/7a2131fe-fc8a-4231-8efe-c54d531a67e6",
       "source": "Amsco Geometry Textbook 1.3.16",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "d2167673-e19e-4542-957b-66bf33fbe3df",
@@ -613,7 +613,7 @@
       "tags": "word problem, line segment, measurement",
       "url": "/question/d2167673-e19e-4542-957b-66bf33fbe3df",
       "source": "Amsco Geometry Textbook 1.3.17",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "7d1e6608-5a49-486f-b20a-76fef6583405",
@@ -630,7 +630,7 @@
       "tags": "line segment, line measurement, number line",
       "url": "/question/7d1e6608-5a49-486f-b20a-76fef6583405",
       "source": "Amsco Geometry Textbook 1.3.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "c8e3fad5-359f-4859-bcf8-fa321d9b4a7e",
@@ -647,7 +647,7 @@
       "tags": "line definition, line naming, undefined terms",
       "url": "/question/c8e3fad5-359f-4859-bcf8-fa321d9b4a7e",
       "source": "Amsco Geometry Textbook 1.4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "7205ad7d-5b0b-4705-a280-24c1c9f3d299",
@@ -664,7 +664,7 @@
       "tags": "midpoint, number line, coordinates",
       "url": "/question/7205ad7d-5b0b-4705-a280-24c1c9f3d299",
       "source": "Amsco Geometry Textbook 1.4.10",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "de1fde6b-43c5-4788-b3ff-0671c479e80d",
@@ -681,7 +681,7 @@
       "tags": "word problem, highways, distance, line segments",
       "url": "/question/de1fde6b-43c5-4788-b3ff-0671c479e80d",
       "source": "Amsco Geometry Textbook 1.4.11",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "ef7ec99d-af71-4de1-8d77-95e8159705fb",
@@ -698,7 +698,7 @@
       "tags": "word problem, line segments, measuring, distance",
       "url": "/question/ef7ec99d-af71-4de1-8d77-95e8159705fb",
       "source": "Amsco Geometry Textbook 1.4.12",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "bc7136f2-b27f-439c-9ed3-4b20216c8405",
@@ -715,7 +715,7 @@
       "tags": "midpoint, line segment, line definition, undefined terms",
       "url": "/question/bc7136f2-b27f-439c-9ed3-4b20216c8405",
       "source": "Amsco Geometry Textbook 1.4.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "da697ea8-06ec-4d45-b16d-d8bfa6f88ee1",
@@ -732,7 +732,7 @@
       "tags": "congruency, equality, midpoint",
       "url": "/question/da697ea8-06ec-4d45-b16d-d8bfa6f88ee1",
       "source": "Amsco Geometry Textbook 1.4.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "e6d75c18-84cc-45c9-a7fe-9707689ad2a7",
@@ -749,7 +749,7 @@
       "tags": "congruency, equality, midpoint, bisection",
       "url": "/question/e6d75c18-84cc-45c9-a7fe-9707689ad2a7",
       "source": "Amsco Geometry Textbook 1.4.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "5aed6c90-9998-4b85-9448-2956f935477b",
@@ -766,7 +766,7 @@
       "tags": "congruency, equality, midpoint",
       "url": "/question/5aed6c90-9998-4b85-9448-2956f935477b",
       "source": "Amsco Geometry Textbook 1.4.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "ded8b6dd-d1e0-4edc-aa13-1a14b38db154",
@@ -783,7 +783,7 @@
       "tags": "congruency, equality, midpoint, bisection",
       "url": "/question/ded8b6dd-d1e0-4edc-aa13-1a14b38db154",
       "source": "Amsco Geometry Textbook 1.4.6",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "2e1c5f58-576b-4a6d-91e2-1c45aaf1abc2",
@@ -800,7 +800,7 @@
       "tags": "line segment, congruent, line segment addition",
       "url": "/question/2e1c5f58-576b-4a6d-91e2-1c45aaf1abc2",
       "source": "Amsco Geometry Textbook 1.4.7",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "0e92e96f-82e8-465a-9b1a-53c2711e33a9",
@@ -817,7 +817,7 @@
       "tags": "midpoint, number line",
       "url": "/question/0e92e96f-82e8-465a-9b1a-53c2711e33a9",
       "source": "Amsco Geometry Textbook 1.4.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "8f6d1a29-b934-4de6-a69a-4f1e4a20a47a",
@@ -834,7 +834,7 @@
       "tags": "midpoint, line segment",
       "url": "/question/8f6d1a29-b934-4de6-a69a-4f1e4a20a47a",
       "source": "Amsco Geometry Textbook 1.4.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "96435d4f-e6e0-4aaf-a23e-4678ae189e3e",
@@ -851,7 +851,7 @@
       "tags": "half line, ray, definition",
       "url": "/question/96435d4f-e6e0-4aaf-a23e-4678ae189e3e",
       "source": "Amsco Geometry Textbook 1.5.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "74bbf616-d5ab-4e79-8db4-7ebb668e008f",
@@ -868,7 +868,7 @@
       "tags": "ray, opposite rays, similar rays, ",
       "url": "/question/74bbf616-d5ab-4e79-8db4-7ebb668e008f",
       "source": "Amsco Geometry Textbook 1.5.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "cdc5cbf5-2620-4838-9181-2fa4ddb15a0a",
@@ -880,12 +880,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Basics of Rays and Angles",
-      "body": "For the figure shown:\na) Name two rays.\nb) Name the vertex of the angle. \nc) Name the sides of the angle. \nd) Name the angle in four ways.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30044.png\"/\u003e",
+      "body": "For the figure shown:\na) Name two rays.\nb) Name the vertex of the angle. \nc) Name the sides of the angle. \nd) Name the angle in four ways.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30044.png\"/\u003e",
       "allAnswers": [],
       "tags": "rays, angles, labeling",
       "url": "/question/cdc5cbf5-2620-4838-9181-2fa4ddb15a0a",
       "source": "Amsco Geometry Textbook 1.5.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "a6e8922d-0d19-45d3-bedc-69418981d95a",
@@ -897,12 +897,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angles and Rays Practice",
-      "body": "For the displayed figure:\na. Name the vertex of _\\(\\angle\\)BAD in the figure.\nb. Name the sides of _\\(\\angle\\)BAD.\nc. Name all the angles with A as vertex.\n__d. Name the angle whose sides are \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\).\ne. Name the ray that is a side of both _\\(\\angle\\)BAD and _\\(\\angle\\)BAC. \nf. Name two angles in whose interior regions point R lies.\ng. Name the angle in whose exterior region point S lies.\nh. Are \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\) opposite rays? Explain your answer. \ni. Is_\\(\\angle\\)BACastraightangle?Explainyouranswer.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30045.png\"/\u003e",
+      "body": "For the displayed figure:\na. Name the vertex of _\\(\\angle\\)BAD in the figure.\nb. Name the sides of _\\(\\angle\\)BAD.\nc. Name all the angles with A as vertex.\n__d. Name the angle whose sides are \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\).\ne. Name the ray that is a side of both _\\(\\angle\\)BAD and _\\(\\angle\\)BAC. \nf. Name two angles in whose interior regions point R lies.\ng. Name the angle in whose exterior region point S lies.\nh. Are \\(\\overrightarrow{AB}\\) and \\(\\overrightarrow{AC}\\) opposite rays? Explain your answer. \ni. Is_\\(\\angle\\)BACastraightangle?Explainyouranswer.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30045.png\"/\u003e",
       "allAnswers": [],
       "tags": "ray, angle, interior angle, exterior angle, opposite rays, angles",
       "url": "/question/a6e8922d-0d19-45d3-bedc-69418981d95a",
       "source": "Amsco Geometry Textbook 1.5.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "0b07cae5-fc4d-4ae6-b45b-012bb49939ae",
@@ -914,12 +914,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle and Ray Practice",
-      "body": "For the figure shown:\na. Name angle 1 in four other ways.\nb. Name angle 2 in two other ways.\nc. Name angle 3 in two other ways.\nd. Name the point of intersection of \\(\\overline{AC}\\) and \\(\\overline{BD}\\).\ne. Name two pairs of opposite rays.\nf. Name two straight angles each of which has its vertex at E. g. Name two angles whose sum is _\\(\\angle\\)ABC.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30046.png\"/\u003e",
+      "body": "For the figure shown:\na. Name angle 1 in four other ways.\nb. Name angle 2 in two other ways.\nc. Name angle 3 in two other ways.\nd. Name the point of intersection of \\(\\overline{AC}\\) and \\(\\overline{BD}\\).\ne. Name two pairs of opposite rays.\nf. Name two straight angles each of which has its vertex at E. g. Name two angles whose sum is _\\(\\angle\\)ABC.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30046.png\"/\u003e",
       "allAnswers": [],
       "tags": "opposite rays, rays, angles, geometry",
       "url": "/question/0b07cae5-fc4d-4ae6-b45b-012bb49939ae",
       "source": "Amsco Geometry Textbook 1.5.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "8bbeb9dd-d9fa-485d-beed-3a0beb7f6d55",
@@ -936,7 +936,7 @@
       "tags": "angle bisector line segment bisection, straight angle",
       "url": "/question/8bbeb9dd-d9fa-485d-beed-3a0beb7f6d55",
       "source": "Amsco Geometry Textbook 1.6.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "954a9223-8669-4a6c-ab62-9c17decd9e7b",
@@ -953,7 +953,7 @@
       "tags": "angle measurement, right angle, straight angle, algebra",
       "url": "/question/954a9223-8669-4a6c-ab62-9c17decd9e7b",
       "source": "Amsco Geometry Textbook 1.6.11",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "93740c35-26c4-4db5-90cf-3bcbd69b619d",
@@ -970,7 +970,7 @@
       "tags": "bisection, angles, congruence, geometry diagram",
       "url": "/question/93740c35-26c4-4db5-90cf-3bcbd69b619d",
       "source": "Amsco Geometry Textbook 1.6.14",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "00255010-10f7-4e17-825d-0987acac1292",
@@ -987,7 +987,7 @@
       "tags": "bisector of an angle, bisector, angle congruence",
       "url": "/question/00255010-10f7-4e17-825d-0987acac1292",
       "source": "Amsco Geometry Textbook 1.6.15",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "f1ac7ce5-2532-4e87-accb-51480ba46d89",
@@ -1004,7 +1004,7 @@
       "tags": "straight angle, right angle, angle classification",
       "url": "/question/f1ac7ce5-2532-4e87-accb-51480ba46d89",
       "source": "Amsco Geometry Textbook 1.6.16",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "75a86af8-1f90-48c4-a8ed-cbfd1720e905",
@@ -1021,7 +1021,7 @@
       "tags": "right angle, bisection, acute angle, obtuse angle, angle classification",
       "url": "/question/75a86af8-1f90-48c4-a8ed-cbfd1720e905",
       "source": "Amsco Geometry Textbook 1.6.17",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "85c74cb5-a54e-4f70-801c-8b4aa1186871",
@@ -1033,12 +1033,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Mathematics",
-      "body": "Complete each of the angle equations to make them true.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30047.png\"/\u003e",
+      "body": "Complete each of the angle equations to make them true.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30047.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle arithmetic, angle addition, angle subtraction",
       "url": "/question/85c74cb5-a54e-4f70-801c-8b4aa1186871",
       "source": "Amsco Geometry Textbook 1.6.18",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "f922c428-c58d-4c34-ac3a-ef22c58c872f",
@@ -1055,7 +1055,7 @@
       "tags": "Angle logic, obtuse angle, acute angle, right angle",
       "url": "/question/f922c428-c58d-4c34-ac3a-ef22c58c872f",
       "source": "Amsco Geometry Textbook 1.6.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "20710053-e38c-4fd6-9c6e-17381abb19f0",
@@ -1067,12 +1067,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Arithmetic",
-      "body": "Complete each statement with an angle which will make it a valid.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30048.png\"/\u003e",
+      "body": "Complete each statement with an angle which will make it a valid.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30048.png\"/\u003e",
       "allAnswers": [],
       "tags": "Angle Arithmetic, angles, angle addition, angle subtraction",
       "url": "/question/20710053-e38c-4fd6-9c6e-17381abb19f0",
       "source": "Amsco Geometry Textbook 1.6.21",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "60987c5f-d762-4e31-b5f3-d25200a6ddcd",
@@ -1089,7 +1089,7 @@
       "tags": "angle arithmetic, opposite rays, rays, bisection",
       "url": "/question/60987c5f-d762-4e31-b5f3-d25200a6ddcd",
       "source": "Amsco Geometry Textbook 1.6.26",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "f6e0fbdd-3900-4d5f-9015-f125f7785e1e",
@@ -1106,7 +1106,7 @@
       "tags": "Angle Algebra, angle bisection, angles",
       "url": "/question/f6e0fbdd-3900-4d5f-9015-f125f7785e1e",
       "source": "Amsco Geometry Textbook 1.6.27",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "e8f7f72f-39cd-4f47-a8de-b43a02e37ab3",
@@ -1123,7 +1123,7 @@
       "tags": "Angle Bisection, angle algebra, measure of an angle",
       "url": "/question/e8f7f72f-39cd-4f47-a8de-b43a02e37ab3",
       "source": "Amsco Geometry Textbook 1.6.28",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "ab1cb477-9588-4fb4-94c6-1d35d9969cd7",
@@ -1140,7 +1140,7 @@
       "tags": "bisection, congruence, bisection of an angle, measure of an angle",
       "url": "/question/ab1cb477-9588-4fb4-94c6-1d35d9969cd7",
       "source": "Amsco Geometry Textbook 1.6.29",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "e2382233-3c4b-4ec0-a561-7a6fe0b9f3a0",
@@ -1157,7 +1157,7 @@
       "tags": "obtuse angle, right angle, acute angle, classifying angles, straight angle, classification",
       "url": "/question/e2382233-3c4b-4ec0-a561-7a6fe0b9f3a0",
       "source": "Amsco Geometry Textbook 1.6.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "6a819e42-893d-4eb4-81f6-cf4d6d9f9b12",
@@ -1208,7 +1208,7 @@
       "tags": "angle inclusion, triangle naming",
       "url": "/question/c66d00d1-bc04-455e-883d-8845dd3d185d",
       "source": "Amsco Geometry Textbook 1.7.12",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "9bbef64e-16be-41b9-b14d-1d6454012888",
@@ -1225,7 +1225,7 @@
       "tags": "side inclusion, angle inclusion, triangle",
       "url": "/question/9bbef64e-16be-41b9-b14d-1d6454012888",
       "source": "Amsco Geometry Textbook 1.7.13",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "d17369c4-5cad-4937-a562-8bb6cbe85220",
@@ -1237,12 +1237,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Diagram Assumptions",
-      "body": "Given this diagram,\n\na) name three things that CAN be assumed from this diagram\nb) name three things that CANNOT be assumed from this diagram\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30053.png\"/\u003e",
+      "body": "Given this diagram,\n\na) name three things that CAN be assumed from this diagram\nb) name three things that CANNOT be assumed from this diagram\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30053.png\"/\u003e",
       "allAnswers": [],
       "tags": "diagram assumptions, diagram inference, geometry diagrams",
       "url": "/question/d17369c4-5cad-4937-a562-8bb6cbe85220",
       "source": "Amsco Geometry Textbook 1.7.14",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "bcf15581-3365-47d7-8ff8-968ee45ae7e1",
@@ -1356,7 +1356,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Classification",
-      "body": "Name the legs, hypotenuses, and bases of each triangle (not every one has every kind of side)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30049.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 30050.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 30051.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 30052.png\"/\u003e",
+      "body": "Name the legs, hypotenuses, and bases of each triangle (not every one has every kind of side)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30049.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30050.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30051.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30052.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, isosceles triangle, hypotenuse, base of a triangle, ",
       "url": "/question/8656f1f1-d742-4bae-be74-572d97898e47",
@@ -1560,7 +1560,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallelogram Proofs",
-      "body": "Given: Parallelogram EBFD and parallelogram ABCD with EAB and DCF.\nProve: EAD /{ \\cong /} FCB\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10124.png\"/\u003e",
+      "body": "Given: Parallelogram EBFD and parallelogram ABCD with EAB and DCF.\nProve: EAD /{ \\cong /} FCB\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10124.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallelograms, proofs, congruence, quadrilaterals",
       "url": "/question/e087fc07-faff-4af5-8050-d3c2285d66d4",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proportions involving line segments",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/238.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/239.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/238.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/239.png\"/\u003e",
       "allAnswers": [],
       "tags": "proportions, line segments ",
       "url": "/text-content/b3407175-e37e-4fa5-a014-2fcbd737eaff",
       "source": "Amsco Geometry Textbook 12.2",
-      "topic": "Pre-Calculus/Inequalities/Absolute Value and Quadratic Functions"
+      "topic": "Pre-Calculus/Other Topics/Absolute Value and Quadratic Functions"
     },
     {
       "uuid": "d5bdc7a7-cd19-46a5-add4-750a8f9fe320",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Similar Polygons",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/247.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/247.png\"/\u003e",
       "allAnswers": [],
       "tags": "polygons, similarity ",
       "url": "/text-content/d5bdc7a7-cd19-46a5-add4-750a8f9fe320",
       "source": "Amsco Geometry Textbook 12.3",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials"
     },
     {
       "uuid": "338ac79e-b2bd-4be5-98d7-980f94915382",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving Triangles Similar",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/248.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/249.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/250.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/251.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/252.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/248.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/249.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/250.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/251.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/252.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangles, similiar, proof ",
       "url": "/text-content/338ac79e-b2bd-4be5-98d7-980f94915382",
       "source": "Amsco Geometry Textbook 12.4",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials"
     },
     {
       "uuid": "2ccc192e-3ef4-49f6-9ead-746f83384a74",
@@ -1681,7 +1681,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Dilations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/257.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/258.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/259.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/257.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/258.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/259.png\"/\u003e",
       "allAnswers": [],
       "tags": "dilations ",
       "url": "/text-content/2ccc192e-3ef4-49f6-9ead-746f83384a74",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proportional Relations among segments related to Triangles ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/262.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/263.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/264.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/262.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/263.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/264.png\"/\u003e",
       "allAnswers": [],
       "tags": "Proportional realtions, line segments ",
       "url": "/text-content/d4301ffe-791e-4ea3-a4c7-abf1428d5f69",
       "source": "Amsco Geometry Textbook 12.6",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circles"
+      "topic": "Pre-Calculus/Conics/Circles"
     }
   ],
   "answers": [],

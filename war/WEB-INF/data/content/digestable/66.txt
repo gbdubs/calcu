@@ -358,7 +358,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/24c899cb-d90c-4be3-9e32-d480a4c7d030",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "f399fb12-dbc0-44c0-9bba-3d6d6ca03374",
@@ -375,7 +375,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/f399fb12-dbc0-44c0-9bba-3d6d6ca03374",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "ab6b44f7-6538-4199-bd6f-a73b31805ed9",
@@ -392,7 +392,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
       "url": "/question/ab6b44f7-6538-4199-bd6f-a73b31805ed9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "c3fe6fa0-f85d-44aa-b21c-b68f8ad87248",
@@ -409,7 +409,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/c3fe6fa0-f85d-44aa-b21c-b68f8ad87248",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "675d60e1-40db-4c13-92c4-6ea4e10b4b6d",
@@ -426,7 +426,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/675d60e1-40db-4c13-92c4-6ea4e10b4b6d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "ddbe6835-8e0f-4b9a-a520-c040e6163188",
@@ -443,7 +443,7 @@
       "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
       "url": "/question/ddbe6835-8e0f-4b9a-a520-c040e6163188",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Gradients/Scalar Fields and Tangent Planes"
+      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
     },
     {
       "uuid": "1bf7e299-b9d8-4df3-9863-a0dfdde441f4",
@@ -460,7 +460,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/1bf7e299-b9d8-4df3-9863-a0dfdde441f4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "4c394bcb-870d-4611-9450-0d3c667a5e24",
@@ -477,7 +477,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/4c394bcb-870d-4611-9450-0d3c667a5e24",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "0171ce74-d7c1-411b-8963-265006da7564",
@@ -494,7 +494,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/0171ce74-d7c1-411b-8963-265006da7564",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "abd34d3b-3ed8-4a4d-99af-bfbdca0cc542",
@@ -511,7 +511,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/abd34d3b-3ed8-4a4d-99af-bfbdca0cc542",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "e35b9454-25d0-4112-82fe-3de6f1dd3519",
@@ -528,7 +528,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
       "url": "/question/e35b9454-25d0-4112-82fe-3de6f1dd3519",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "a8684021-51ac-490f-b553-ad1d33252799",
@@ -545,7 +545,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
       "url": "/question/a8684021-51ac-490f-b553-ad1d33252799",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "1fb8396f-1fe5-4ace-98b2-d969da3438e5",
@@ -562,7 +562,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
       "url": "/question/1fb8396f-1fe5-4ace-98b2-d969da3438e5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "2335872c-c996-411a-9693-9aee474fc752",
@@ -579,7 +579,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
       "url": "/question/2335872c-c996-411a-9693-9aee474fc752",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "530f2ca3-bf28-4152-9b7d-511dccc70aef",
@@ -596,7 +596,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/530f2ca3-bf28-4152-9b7d-511dccc70aef",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "54c53ddd-4c4a-42ec-8159-02a6c04fff21",
@@ -613,7 +613,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/54c53ddd-4c4a-42ec-8159-02a6c04fff21",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "e92a5131-9c08-481e-8d2a-c504f73e37ac",
@@ -630,7 +630,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
       "url": "/question/e92a5131-9c08-481e-8d2a-c504f73e37ac",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "uuid": "976bf494-ba55-4131-b712-5d29d605e55c",
@@ -647,7 +647,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/976bf494-ba55-4131-b712-5d29d605e55c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "dd13ffcd-0bea-41b6-8a25-95e07c92a5cc",
@@ -664,7 +664,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/dd13ffcd-0bea-41b6-8a25-95e07c92a5cc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "675ba17a-5c8b-48ad-a530-664e2459ac6f",
@@ -681,7 +681,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/675ba17a-5c8b-48ad-a530-664e2459ac6f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "745d35b5-d074-4882-9377-a7007e57390a",
@@ -698,7 +698,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/745d35b5-d074-4882-9377-a7007e57390a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "36c02728-1cb9-4448-9797-1ec02c5ee610",
@@ -715,7 +715,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/36c02728-1cb9-4448-9797-1ec02c5ee610",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "4e9ea18e-4aef-419b-90bf-44b92bfc2c27",
@@ -732,7 +732,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/4e9ea18e-4aef-419b-90bf-44b92bfc2c27",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "41b67e36-4489-46bd-8cea-ed9fdebd0241",
@@ -749,7 +749,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/41b67e36-4489-46bd-8cea-ed9fdebd0241",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "deb64091-3ca8-4d59-a2ca-c6d5f8ae45ee",
@@ -766,7 +766,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/deb64091-3ca8-4d59-a2ca-c6d5f8ae45ee",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "35f66f80-d0af-43d2-adb2-8434f99aa41a",
@@ -783,7 +783,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/35f66f80-d0af-43d2-adb2-8434f99aa41a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "7616d1ee-f110-4135-a284-f0283427c138",
@@ -800,7 +800,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/7616d1ee-f110-4135-a284-f0283427c138",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "f6c09b18-258e-44f5-8d2c-d8af16fb5382",
@@ -817,7 +817,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/f6c09b18-258e-44f5-8d2c-d8af16fb5382",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "dc09573e-92e6-4801-8946-6de14b6a3b7a",
@@ -834,7 +834,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/dc09573e-92e6-4801-8946-6de14b6a3b7a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "56bffd3b-4bd3-4fdf-832e-055611a532c2",
@@ -851,7 +851,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/56bffd3b-4bd3-4fdf-832e-055611a532c2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "8ab79656-de42-4e4d-b9d0-52799d98421a",
@@ -868,7 +868,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/8ab79656-de42-4e4d-b9d0-52799d98421a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "6c39ab55-ca0f-4f52-be39-f9b386e2cc22",
@@ -885,7 +885,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/6c39ab55-ca0f-4f52-be39-f9b386e2cc22",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "84384b97-feb3-4bae-a7c3-2b24794b4cd6",
@@ -902,7 +902,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/84384b97-feb3-4bae-a7c3-2b24794b4cd6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "4f4e7e09-241c-4fb2-903f-ef05f519be7e",
@@ -919,7 +919,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/question/4f4e7e09-241c-4fb2-903f-ef05f519be7e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "a798d68f-b52b-46d1-bc05-68f54ea86ec4",
@@ -936,7 +936,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/question/a798d68f-b52b-46d1-bc05-68f54ea86ec4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "uuid": "d7002caf-b74e-47cc-89f6-8a397ab30a3c",
@@ -953,7 +953,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/d7002caf-b74e-47cc-89f6-8a397ab30a3c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "296d25f9-7f92-4e1e-bb01-5adbc32952e8",
@@ -970,7 +970,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/296d25f9-7f92-4e1e-bb01-5adbc32952e8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "43a32cc6-a51c-45bf-9542-e17080c593d6",
@@ -987,7 +987,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
       "url": "/question/43a32cc6-a51c-45bf-9542-e17080c593d6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "66d8b08a-ef1d-45c7-8a26-1dc621eff9c8",
@@ -1004,7 +1004,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/66d8b08a-ef1d-45c7-8a26-1dc621eff9c8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "c798722d-3f68-41c5-85ab-ba97b32018ba",
@@ -1021,7 +1021,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/c798722d-3f68-41c5-85ab-ba97b32018ba",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "c9f74385-db73-4145-94f7-999306583b1c",
@@ -1038,7 +1038,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
       "url": "/question/c9f74385-db73-4145-94f7-999306583b1c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "53498bbe-805d-4417-b32b-77eb2dab69df",
@@ -1055,7 +1055,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/53498bbe-805d-4417-b32b-77eb2dab69df",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "04c0a880-7ce6-4975-b43b-dee15a3befd3",
@@ -1072,7 +1072,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/04c0a880-7ce6-4975-b43b-dee15a3befd3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "f16821dc-f029-4745-b8e9-361a8b46d683",
@@ -1089,7 +1089,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/f16821dc-f029-4745-b8e9-361a8b46d683",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "c854298c-3d59-42ea-b297-97247d2d379b",
@@ -1106,7 +1106,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/c854298c-3d59-42ea-b297-97247d2d379b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "b5d9b5d4-8918-4c01-86b6-218b8a34fa6c",
@@ -1123,7 +1123,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/b5d9b5d4-8918-4c01-86b6-218b8a34fa6c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "cb043548-08b9-4e36-9a26-c9617c147680",
@@ -1140,7 +1140,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/cb043548-08b9-4e36-9a26-c9617c147680",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "e87d79a9-add0-42f1-807b-7caafd02b7a6",
@@ -1157,7 +1157,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/e87d79a9-add0-42f1-807b-7caafd02b7a6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "6fac75b9-d00a-4e9e-a48a-32e5094effc5",
@@ -1174,7 +1174,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/6fac75b9-d00a-4e9e-a48a-32e5094effc5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "5c9e8a35-01cd-4dde-bc75-d31059b73d1e",
@@ -1191,7 +1191,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/question/5c9e8a35-01cd-4dde-bc75-d31059b73d1e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "uuid": "78b33a66-5440-4ba8-825b-6cd7e62e2717",
@@ -1208,7 +1208,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/78b33a66-5440-4ba8-825b-6cd7e62e2717",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "4390e95b-332b-4d81-80ad-ab8da2b79579",
@@ -1225,7 +1225,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/4390e95b-332b-4d81-80ad-ab8da2b79579",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "ba1cbf04-7369-4bad-9daa-ac8eb24642e0",
@@ -1242,7 +1242,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/ba1cbf04-7369-4bad-9daa-ac8eb24642e0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "9c103d3c-5807-4ebe-b455-a0cbed49fc33",
@@ -1259,7 +1259,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/9c103d3c-5807-4ebe-b455-a0cbed49fc33",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "3b74a3e4-0d01-4e28-b861-0697edda03f7",
@@ -1276,7 +1276,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/3b74a3e4-0d01-4e28-b861-0697edda03f7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "336ee38c-624d-43a8-b4e1-169caa6f0aa8",
@@ -1293,7 +1293,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/336ee38c-624d-43a8-b4e1-169caa6f0aa8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "8c043cbd-8e1d-4725-b971-40e61bf3eadf",
@@ -1310,7 +1310,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/8c043cbd-8e1d-4725-b971-40e61bf3eadf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "594e0bbc-f1ca-4562-8906-c5457ab82157",
@@ -1327,7 +1327,7 @@
       "tags": "differentiation of functions of several variables, chain rule, word problem",
       "url": "/question/594e0bbc-f1ca-4562-8906-c5457ab82157",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "c6ab03b9-58d4-46cf-bc84-ceca1a8601d5",
@@ -1344,7 +1344,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/c6ab03b9-58d4-46cf-bc84-ceca1a8601d5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "5f112cf4-ddc0-4a32-a40a-a8b9bc6a7009",
@@ -1361,7 +1361,7 @@
       "tags": "differentiation of functions of several variables, chain rule, word problem",
       "url": "/question/5f112cf4-ddc0-4a32-a40a-a8b9bc6a7009",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "109c23e4-6a1b-4c93-8803-3e95bb0f280c",
@@ -1378,7 +1378,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/109c23e4-6a1b-4c93-8803-3e95bb0f280c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "a3b66522-3808-4f8e-8120-b8ae8838f3fe",
@@ -1395,7 +1395,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/a3b66522-3808-4f8e-8120-b8ae8838f3fe",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "b15dcd81-f665-49e4-b6dd-ba70c4f2a468",
@@ -1412,7 +1412,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/b15dcd81-f665-49e4-b6dd-ba70c4f2a468",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "c2838039-ceca-420e-a588-525a48bdf512",
@@ -1429,7 +1429,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/c2838039-ceca-420e-a588-525a48bdf512",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "1ea26343-eff1-4b82-b90d-e00baf9c0bb0",
@@ -1446,7 +1446,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/1ea26343-eff1-4b82-b90d-e00baf9c0bb0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "555b3eef-b568-4736-97b2-f4c090944781",
@@ -1463,7 +1463,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/555b3eef-b568-4736-97b2-f4c090944781",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "9d12aa97-2ac3-4f0a-92e1-97b0036e9bdc",
@@ -1480,7 +1480,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/9d12aa97-2ac3-4f0a-92e1-97b0036e9bdc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "924360f0-3dd1-42c7-b857-42705d59fce9",
@@ -1497,7 +1497,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/924360f0-3dd1-42c7-b857-42705d59fce9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "889a98cd-a76d-4607-be0f-32b6391a4b00",
@@ -1514,7 +1514,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/889a98cd-a76d-4607-be0f-32b6391a4b00",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "eb996565-7f4a-4802-ae17-0a4faf059217",
@@ -1531,7 +1531,7 @@
       "tags": "differentiation of functions of several variables, chain rule, word problem",
       "url": "/question/eb996565-7f4a-4802-ae17-0a4faf059217",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "80b32654-f78f-4097-87eb-2fb46085862d",
@@ -1548,7 +1548,7 @@
       "tags": "differentiation of functions of several variables, chain rule, word problem",
       "url": "/question/80b32654-f78f-4097-87eb-2fb46085862d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "ce6082b3-0292-47d5-aff8-03f300dbf146",
@@ -1565,7 +1565,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/ce6082b3-0292-47d5-aff8-03f300dbf146",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "82a3773a-e189-4aab-bf92-db092bbd100a",
@@ -1582,7 +1582,7 @@
       "tags": "differentiation of functions of several variables, chain rule, word problem",
       "url": "/question/82a3773a-e189-4aab-bf92-db092bbd100a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "uuid": "962188f5-a9a0-4e97-bb81-103fe9a17b77",
@@ -1599,7 +1599,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/question/962188f5-a9a0-4e97-bb81-103fe9a17b77",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Concurrence of the altitudes of a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/65.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/66.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/67.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/68.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/65.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/66.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/67.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/68.png\"/\u003e",
       "allAnswers": [],
       "tags": "concurrence of triangle, altitude of triangle ",
       "url": "/text-content/3fb26f6b-ece6-4198-b5bb-4af40c20de74",
       "source": "Amsco Geometry Textbook 8.6",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "16a1436f-e9b8-43e0-ae09-78040b57065d",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving Lines Parallel ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/71.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/72.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/73.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/74.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/75.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/71.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/72.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/73.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/74.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/75.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines ",
       "url": "/text-content/16a1436f-e9b8-43e0-ae09-78040b57065d",
       "source": "Amsco Geometry Textbook 9.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "73827500-7ef9-4c56-95f5-f2386238401a",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Properties of Parallel lines ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/84.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/85.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/86.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/87.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/88.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/84.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/85.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/86.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/87.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/88.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, properties of parallel line ",
       "url": "/text-content/73827500-7ef9-4c56-95f5-f2386238401a",
       "source": "Amsco Geometry Textbook 9.2",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Global Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Maximum"
     },
     {
       "uuid": "78b2a538-7231-4bcd-9775-b33b7e3f42c7",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallel lines in the Coordinate plane ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/93.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/94.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/95.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/93.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/94.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/95.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, coordinate plane ",
       "url": "/text-content/78b2a538-7231-4bcd-9775-b33b7e3f42c7",
       "source": "Amsco Geometry Textbook 9.3",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "83c40dcd-d0e9-4398-988c-e20e3a150b1d",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The sum of the measures of a triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/98.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/99.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/100.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/98.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/99.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/100.png\"/\u003e",
       "allAnswers": [],
       "tags": "sum of measures, angle of triangle ",
       "url": "/text-content/83c40dcd-d0e9-4398-988c-e20e3a150b1d",
       "source": "Amsco Geometry Textbook 9.4",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     }
   ],
   "answers": [],

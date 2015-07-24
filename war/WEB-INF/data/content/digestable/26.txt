@@ -375,7 +375,7 @@
       "tags": "derivative test, extrema, domain, function",
       "url": "/question/0019da57-d95e-4b19-8dc1-93ef0dc2854d",
       "source": "AP Calculus Problems 3.3.6",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "27420561-5481-40d4-ac13-d8c4606a1fe1",
@@ -392,7 +392,7 @@
       "tags": "derivative test, domain, extrema, function",
       "url": "/question/27420561-5481-40d4-ac13-d8c4606a1fe1",
       "source": "AP Calculus Problems 3.3.7",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "ec570e18-98d7-4442-88d1-3d16fef060e2",
@@ -409,7 +409,7 @@
       "tags": "derivative test, domain, extrema, function",
       "url": "/question/ec570e18-98d7-4442-88d1-3d16fef060e2",
       "source": "AP Calculus Problems 3.3.8",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "df156725-9c81-4a47-a531-7d5980b7b8cf",
@@ -426,7 +426,7 @@
       "tags": "derivative test, extrema, function",
       "url": "/question/df156725-9c81-4a47-a531-7d5980b7b8cf",
       "source": "AP Calculus Problems 3.3.9",
-      "topic": "Calculus/Curve Sketching/The First Derivative Test/Maximum"
+      "topic": "Calculus/Curve Sketching/First Derivative Test"
     },
     {
       "uuid": "d83050a9-c2fc-4f33-abca-4dffcd088798",
@@ -443,7 +443,7 @@
       "tags": "functions, graphs of functions",
       "url": "/question/d83050a9-c2fc-4f33-abca-4dffcd088798",
       "source": "AP Calculus Problems 3.4.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "c349e8df-c9a7-4895-98fd-83ca11f44e21",
@@ -460,7 +460,7 @@
       "tags": "graphs of derivatives, functions, graphs",
       "url": "/question/c349e8df-c9a7-4895-98fd-83ca11f44e21",
       "source": "AP Calculus Problems 3.4.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e5025bf4-d77e-4c1e-83bb-d78be22cc9e8",
@@ -477,7 +477,7 @@
       "tags": "graphs of derivatives, functions, graphs",
       "url": "/question/e5025bf4-d77e-4c1e-83bb-d78be22cc9e8",
       "source": "AP Calculus Problems 3.4.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "51d57b16-3c3f-4b8a-8ab1-fba5a42a782a",
@@ -494,7 +494,7 @@
       "tags": "increasing, decreasing, local maxima, local minima, functiono, graph of derivative",
       "url": "/question/51d57b16-3c3f-4b8a-8ab1-fba5a42a782a",
       "source": "AP Calculus Problems 3.5.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
     },
     {
       "uuid": "5f0925ad-6738-409c-87e1-c24623a356a1",
@@ -511,7 +511,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/5f0925ad-6738-409c-87e1-c24623a356a1",
       "source": "AP Calculus Problems 3.14.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "031ceeca-38f8-466a-bf6a-3578c0eacb62",
@@ -528,7 +528,7 @@
       "tags": "function, graph of derivative",
       "url": "/question/031ceeca-38f8-466a-bf6a-3578c0eacb62",
       "source": "AP Calculus Problems 3.5.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "751cd36f-c361-4bfd-aa7b-6293a3efb7bf",
@@ -545,7 +545,7 @@
       "tags": "sketching functions, domain, zeros, y-intercept, local extrema, inflection points, concavity",
       "url": "/question/751cd36f-c361-4bfd-aa7b-6293a3efb7bf",
       "source": "AP Calculus Problems 3.6.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "5eebf4e9-9c9b-429c-8e44-0ad80d1488cf",
@@ -562,7 +562,7 @@
       "tags": "sketching functions, domain, zeros, y-intercepts, local extrema, inflection points, concavity",
       "url": "/question/5eebf4e9-9c9b-429c-8e44-0ad80d1488cf",
       "source": "AP Calculus Problems 3.6.2",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "cc7da0d6-34c9-47ec-b467-5179a8435e41",
@@ -579,7 +579,7 @@
       "tags": "sketching graphs, domain, zeros, local extrema, inflection points, concavity, function",
       "url": "/question/cc7da0d6-34c9-47ec-b467-5179a8435e41",
       "source": "AP Calculus Problems 3.6.3",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "28dc43ac-d6b4-42fe-9486-77f7512de1b5",
@@ -596,7 +596,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/28dc43ac-d6b4-42fe-9486-77f7512de1b5",
       "source": "AP Calculus Problems 3.14.2",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "bee9f586-0657-419c-9d59-56572df0742f",
@@ -613,7 +613,7 @@
       "tags": "sketching functions, domain, zeros, local extrema, inflection points, concavity",
       "url": "/question/bee9f586-0657-419c-9d59-56572df0742f",
       "source": "AP Calculus Problems 3.6.4",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "58a7e67e-3c30-4fbc-a80d-424eab41b7aa",
@@ -630,7 +630,7 @@
       "tags": "sketching functions, domain, zeros, local extrema, inflection points, concavity",
       "url": "/question/58a7e67e-3c30-4fbc-a80d-424eab41b7aa",
       "source": "AP Calculus Problems 3.6.5",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "93811b23-0084-4df1-a859-2be0f80528e1",
@@ -647,7 +647,7 @@
       "tags": "sketching functions, domain, zeros, local extrema, inflection points, concavity ",
       "url": "/question/93811b23-0084-4df1-a859-2be0f80528e1",
       "source": "AP Calculus Problems 3.6.6",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "6dd77f92-1d93-4531-82b6-d7dff4df6611",
@@ -681,7 +681,7 @@
       "tags": "sketching functions, critical points, local maximum, local minimum ",
       "url": "/question/7f2a12d2-2f28-4231-bef6-229395dc9982",
       "source": "AP Calculus Problems 3.6.8",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "23798fe8-dd86-467b-b98f-deb86b246131",
@@ -698,7 +698,7 @@
       "tags": "sketching functions, continuous function, differentiable function",
       "url": "/question/23798fe8-dd86-467b-b98f-deb86b246131",
       "source": "AP Calculus Problems 3.6.9",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "08ffaf20-3802-4df6-9e0b-9a4ec76a692a",
@@ -715,7 +715,7 @@
       "tags": "graph, derivatives, mean value theorem, integrals",
       "url": "/question/08ffaf20-3802-4df6-9e0b-9a4ec76a692a",
       "source": "AP Calculus Problems 3.14.3",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle�s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "ce0a9562-8cee-4bfa-82bd-7ea019853953",
@@ -732,7 +732,7 @@
       "tags": "sketching functions, derivatives, domain, extrema, concavity",
       "url": "/question/ce0a9562-8cee-4bfa-82bd-7ea019853953",
       "source": "AP Calculus Problems 3.6.10",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "26b85f35-1b0f-4444-886b-77f86871ec9a",
@@ -749,7 +749,7 @@
       "tags": "derivatives, word problem",
       "url": "/question/26b85f35-1b0f-4444-886b-77f86871ec9a",
       "source": "AP Calculus Problems 3.7.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "dbf3b3ea-9987-4d13-abd8-97f345e6d079",
@@ -766,7 +766,7 @@
       "tags": "graph, derivatives, continuous differentiable, interval, mean value theorem",
       "url": "/question/dbf3b3ea-9987-4d13-abd8-97f345e6d079",
       "source": "AP Calculus Problems 3.14.4",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle�s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "b43a2c37-17a4-4032-ac68-5316731d8187",
@@ -783,7 +783,7 @@
       "tags": "derivative, word problem",
       "url": "/question/b43a2c37-17a4-4032-ac68-5316731d8187",
       "source": "AP Calculus Problems 3.7.2",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "47604687-0988-48e8-8dc8-923e7244c2c3",
@@ -800,7 +800,7 @@
       "tags": "derivative, word problem, velocity ",
       "url": "/question/47604687-0988-48e8-8dc8-923e7244c2c3",
       "source": "AP Calculus Problems 3.7.3",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "8216a68f-008e-41af-87bc-cb2acd163662",
@@ -817,7 +817,7 @@
       "tags": "derivatives, word problem, velocity",
       "url": "/question/8216a68f-008e-41af-87bc-cb2acd163662",
       "source": "AP Calculus Problems 3.7.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "dfd6f4af-7159-493a-a401-5586cbe83e65",
@@ -834,7 +834,7 @@
       "tags": "derivatives, word problem, velocity",
       "url": "/question/dfd6f4af-7159-493a-a401-5586cbe83e65",
       "source": "AP Calculus Problems 3.7.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable "
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "d53425df-7198-43ad-ba46-5f9bd0112559",
@@ -851,7 +851,7 @@
       "tags": "derivative, word problem, velocity",
       "url": "/question/d53425df-7198-43ad-ba46-5f9bd0112559",
       "source": "AP Calculus Problems 3.7.6",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "05902a35-7813-4fd2-b1c9-55941b0bf722",
@@ -868,7 +868,7 @@
       "tags": "derivative, word problem, velocity, function",
       "url": "/question/05902a35-7813-4fd2-b1c9-55941b0bf722",
       "source": "AP Calculus Problems 3.7.7",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "40fc020c-ba0c-4b9b-9d3e-dff75eaa63c2",
@@ -885,7 +885,7 @@
       "tags": "graph, third, derivative, rolle\u0027s theorem, mean value theorem",
       "url": "/question/40fc020c-ba0c-4b9b-9d3e-dff75eaa63c2",
       "source": "AP Calculus Problems 3.14.5",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle�s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "ef49a691-68cc-45a1-b3c4-29d4543f63dd",
@@ -902,7 +902,7 @@
       "tags": "word problem, derivative",
       "url": "/question/ef49a691-68cc-45a1-b3c4-29d4543f63dd",
       "source": "AP Calculus Problems 3.7.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Differentiability/Differentiable at a Point"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
     },
     {
       "uuid": "bc87f4e6-a6ec-4582-a872-f47b4b234702",
@@ -919,7 +919,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/bc87f4e6-a6ec-4582-a872-f47b4b234702",
       "source": "AP Calculus Problems 3.14.6",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "3c78d5af-1177-4eae-8f11-9178a13686e4",
@@ -936,7 +936,7 @@
       "tags": "derivative, velocity, function",
       "url": "/question/3c78d5af-1177-4eae-8f11-9178a13686e4",
       "source": "AP Calculus Problems 3.7.9",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Total Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
     },
     {
       "uuid": "e9f0cc23-a750-49ee-8695-ce657abbc7e9",
@@ -953,7 +953,7 @@
       "tags": "minimization, maximization, word problem",
       "url": "/question/e9f0cc23-a750-49ee-8695-ce657abbc7e9",
       "source": "AP Calculus Problems 3.8.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "58830e3a-3bb0-4c25-ad7d-2f7defeb2519",
@@ -970,7 +970,7 @@
       "tags": "word problem, minimization, maximization",
       "url": "/question/58830e3a-3bb0-4c25-ad7d-2f7defeb2519",
       "source": "AP Calculus Problems 3.8.2",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "f6a8823c-d47f-433e-a69a-21ad907c3afd",
@@ -987,7 +987,7 @@
       "tags": "word problem, minimization, maximization",
       "url": "/question/f6a8823c-d47f-433e-a69a-21ad907c3afd",
       "source": "AP Calculus Problems 3.8.3",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "087ec2c0-a439-458c-a940-3d27413c083b",
@@ -1004,7 +1004,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/087ec2c0-a439-458c-a940-3d27413c083b",
       "source": "AP Calculus Problems 3.8.4",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "692b8821-c118-44b1-bf46-59dada894e3c",
@@ -1021,7 +1021,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/692b8821-c118-44b1-bf46-59dada894e3c",
       "source": "AP Calculus Problems 3.14.7",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "542b4d32-d3e1-4fd7-99c9-60118e4917fd",
@@ -1038,7 +1038,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/542b4d32-d3e1-4fd7-99c9-60118e4917fd",
       "source": "AP Calculus Problems 3.8.5",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "33b3e451-8637-4a3c-a093-075e9ab11e62",
@@ -1055,7 +1055,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/33b3e451-8637-4a3c-a093-075e9ab11e62",
       "source": "AP Calculus Problems 3.8.6",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "71974687-b949-4424-a519-8b50694ac159",
@@ -1072,7 +1072,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/71974687-b949-4424-a519-8b50694ac159",
       "source": "AP Calculus Problems 3.8.7",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "42f602d3-39bd-4645-bf6b-9ce78ab0ae2e",
@@ -1089,7 +1089,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/42f602d3-39bd-4645-bf6b-9ce78ab0ae2e",
       "source": "AP Calculus Problems 3.14.8",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "8e31ec23-2cc9-4608-8e9d-07be2dbbbd10",
@@ -1106,7 +1106,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/8e31ec23-2cc9-4608-8e9d-07be2dbbbd10",
       "source": "AP Calculus Problems 3.8.8",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "748932da-15e6-46ba-ab48-c8e6c64ca9fa",
@@ -1123,7 +1123,7 @@
       "tags": "word problem, minimization, maximization",
       "url": "/question/748932da-15e6-46ba-ab48-c8e6c64ca9fa",
       "source": "AP Calculus Problems 3.8.9",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "bc331f85-8c00-4965-b644-a30135aa24e3",
@@ -1140,7 +1140,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/bc331f85-8c00-4965-b644-a30135aa24e3",
       "source": "AP Calculus Problems 3.8.10",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "913b500f-3d7c-4b0b-847c-d2faa99aa715",
@@ -1157,7 +1157,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/913b500f-3d7c-4b0b-847c-d2faa99aa715",
       "source": "AP Calculus Problems 3.14.9",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "4d91e693-b267-4d54-8f25-755737970cf3",
@@ -1174,7 +1174,7 @@
       "tags": "word problem, minimization, maximization, function",
       "url": "/question/4d91e693-b267-4d54-8f25-755737970cf3",
       "source": "AP Calculus Problems 3.8.11",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "3566b152-e302-40d1-aa4c-96e4b961a431",
@@ -1191,7 +1191,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/3566b152-e302-40d1-aa4c-96e4b961a431",
       "source": "AP Calculus Problems 3.8.12",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "1c7e0209-a98b-4d22-9c77-c5cdc7b8e330",
@@ -1208,7 +1208,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/1c7e0209-a98b-4d22-9c77-c5cdc7b8e330",
       "source": "AP Calculus Problems 3.8.13",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "30c1c7a3-bb20-4655-a96f-703736d596cd",
@@ -1225,7 +1225,7 @@
       "tags": "word problem, minimization, maximization, area",
       "url": "/question/30c1c7a3-bb20-4655-a96f-703736d596cd",
       "source": "AP Calculus Problems 3.8.14",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "94970035-82c8-450b-8d8f-79adc7ea23ac",
@@ -1242,7 +1242,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/94970035-82c8-450b-8d8f-79adc7ea23ac",
       "source": "AP Calculus Problems 3.14.10",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "b34554fe-0978-48ce-99f7-400e82dda4e1",
@@ -1259,7 +1259,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/b34554fe-0978-48ce-99f7-400e82dda4e1",
       "source": "AP Calculus Problems 3.8.15",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "26952ea5-e91d-4f71-bc52-5bbfc2d5290a",
@@ -1276,7 +1276,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/26952ea5-e91d-4f71-bc52-5bbfc2d5290a",
       "source": "AP Calculus Problems 3.8.16",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "66dd157c-41c6-49cb-9bcf-483556471407",
@@ -1293,7 +1293,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/66dd157c-41c6-49cb-9bcf-483556471407",
       "source": "AP Calculus Problems 3.8.17",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "65a76509-f0af-4e04-9fa3-49f1d067eef0",
@@ -1310,7 +1310,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/65a76509-f0af-4e04-9fa3-49f1d067eef0",
       "source": "AP Calculus Problems 3.8.18",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
     },
     {
       "uuid": "3884f86e-343d-470e-9bc7-ac22f7fdff3a",
@@ -1327,7 +1327,7 @@
       "tags": "tangent lines, derivatives",
       "url": "/question/3884f86e-343d-470e-9bc7-ac22f7fdff3a",
       "source": "AP Calculus Problems 3.9.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "93edc458-0e7b-45d3-8ce3-1bfaa26dc46d",
@@ -1344,7 +1344,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/93edc458-0e7b-45d3-8ce3-1bfaa26dc46d",
       "source": "AP Calculus Problems 3.9.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "e95c8b4b-f31b-4c5b-b5dd-8e752e46bd7f",
@@ -1361,7 +1361,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/e95c8b4b-f31b-4c5b-b5dd-8e752e46bd7f",
       "source": "AP Calculus Problems 3.14.11",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "757aaa38-8073-43c1-a1b3-3d821310dbfb",
@@ -1378,7 +1378,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/757aaa38-8073-43c1-a1b3-3d821310dbfb",
       "source": "AP Calculus Problems 3.9.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "d968ad01-913b-463f-9ee1-272d4de85378",
@@ -1395,7 +1395,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/d968ad01-913b-463f-9ee1-272d4de85378",
       "source": "AP Calculus Problems 3.9.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "d953b585-2cba-4363-a149-fe534fd3a2a1",
@@ -1412,7 +1412,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/d953b585-2cba-4363-a149-fe534fd3a2a1",
       "source": "AP Calculus Problems 3.9.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "744395c6-ca35-4b84-a823-4a6394fbb125",
@@ -1429,7 +1429,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/744395c6-ca35-4b84-a823-4a6394fbb125",
       "source": "AP Calculus Problems 3.9.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "87900511-8eb0-49d3-af30-7491f9192790",
@@ -1446,7 +1446,7 @@
       "tags": "tangent line, derivative ",
       "url": "/question/87900511-8eb0-49d3-af30-7491f9192790",
       "source": "AP Calculus Problems 3.9.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "2557074f-aeb5-444d-a7bb-0586808347a5",
@@ -1463,7 +1463,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/2557074f-aeb5-444d-a7bb-0586808347a5",
       "source": "AP Calculus Problems 3.9.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "4dc441f4-e06e-41cb-b893-4eed31ed6fc4",
@@ -1480,7 +1480,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/4dc441f4-e06e-41cb-b893-4eed31ed6fc4",
       "source": "AP Calculus Problems 3.9.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "a3d23c32-1d55-45be-91c2-5544d2d93ad8",
@@ -1497,7 +1497,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/a3d23c32-1d55-45be-91c2-5544d2d93ad8",
       "source": "AP Calculus Problems 3.14.12",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "23ad3d3a-63f6-4ddf-919d-8bed1ceb4821",
@@ -1514,7 +1514,7 @@
       "tags": "tangent line, derivatives, function, local extrema",
       "url": "/question/23ad3d3a-63f6-4ddf-919d-8bed1ceb4821",
       "source": "AP Calculus Problems 3.9.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "31655627-e141-4ab8-ac10-51975739384a",
@@ -1531,7 +1531,7 @@
       "tags": "tangent line, derivative, function",
       "url": "/question/31655627-e141-4ab8-ac10-51975739384a",
       "source": "AP Calculus Problems 3.9.11",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "e93d98a3-9bb6-4363-bbf7-9c9621f2416a",
@@ -1548,7 +1548,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, mean value theorem",
       "url": "/question/e93d98a3-9bb6-4363-bbf7-9c9621f2416a",
       "source": "AP Calculus Problems 3.14.13",
-      "topic": "Calculus/Applications of the Derivative/Mean Value Theorem/Rolle�s Theorem/Continuous"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
     },
     {
       "uuid": "1d8013c7-68f1-494b-a49a-67eb91f18910",
@@ -1565,7 +1565,7 @@
       "tags": "tangent line, derivative, continuous function, extrema",
       "url": "/question/1d8013c7-68f1-494b-a49a-67eb91f18910",
       "source": "AP Calculus Problems 3.9.12",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "b3c92775-7b42-4462-8d13-559bf590dbd4",
@@ -1582,7 +1582,7 @@
       "tags": "tangent line, derivative, functions, velocity",
       "url": "/question/b3c92775-7b42-4462-8d13-559bf590dbd4",
       "source": "AP Calculus Problems 3.9.13",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "b9db1f1b-8ad4-4f7f-b219-db3f20c84e70",
@@ -1599,7 +1599,7 @@
       "tags": "tangent line, derivative, inflection points, extrema",
       "url": "/question/b9db1f1b-8ad4-4f7f-b219-db3f20c84e70",
       "source": "AP Calculus Problems 3.9.14",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "c47ee6c2-cacd-4de0-9d85-9039d7545ab2",
@@ -1616,7 +1616,7 @@
       "tags": "tangent line, derivative, inflection, function, extrema",
       "url": "/question/c47ee6c2-cacd-4de0-9d85-9039d7545ab2",
       "source": "AP Calculus Problems 3.9.15",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Hyperbolas",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2659.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2660.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2661.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2662.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2663.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2664.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2665.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2675.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2659.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2660.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2661.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2662.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2663.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2664.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2665.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2675.png\"/\u003e",
       "allAnswers": [],
       "tags": "hyperbolas, conics, conic sections, standard form hyperbolas, vertical hyperbola, horizontal hyperbola ",
       "url": "/text-content/17aedd4d-6fb2-401c-bdf2-fe694ba88be0",
       "source": "Precalculus, 3rd Edition 7.5",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbolas"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "86664254-7439-4575-9152-97179fa77a75",
@@ -1652,7 +1652,7 @@
       "tags": "linear equations, matrices, matrix, gaussian reduction ",
       "url": "/text-content/86664254-7439-4575-9152-97179fa77a75",
       "source": "Precalculus, 3rd Edition 8.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Gaussian Elimination/Eliminate"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Gaussian Elimination"
     },
     {
       "uuid": "699fe613-bdd5-43c2-bfe5-075bdee96a9e",
@@ -1669,7 +1669,7 @@
       "tags": "linear equations, matrix, matrices, augmented matrices ",
       "url": "/text-content/699fe613-bdd5-43c2-bfe5-075bdee96a9e",
       "source": "Precalculus, 3rd Edition 8.2",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Augmented Matrices/Matrix"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Augmented Matrices/Matrix"
     },
     {
       "uuid": "4632d91f-386b-44ae-a99b-2a18dac511de",
@@ -1686,7 +1686,7 @@
       "tags": "matrices, matrix arithmetic, linear systems, systems of equations ",
       "url": "/text-content/4632d91f-386b-44ae-a99b-2a18dac511de",
       "source": "Precalculus, 3rd Edition 8.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Augmented Matrices/Matrix"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Augmented Matrices/Matrix"
     },
     {
       "uuid": "036bf6ea-0276-455b-bf9f-97933bc0db18",
@@ -1703,7 +1703,7 @@
       "tags": "matrix inverses, matrix, matrices, system of equations, systems of linear equations ",
       "url": "/text-content/036bf6ea-0276-455b-bf9f-97933bc0db18",
       "source": "Precalculus, 3rd Edition 8.4",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Linear Equations: Augmented Matrices/Matrix Inversion"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Augmented Matrices/Matrix Inversion"
     }
   ],
   "answers": [],

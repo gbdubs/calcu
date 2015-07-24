@@ -727,7 +727,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Logarithmic Equations and Inequalities",
-      "body": "Explain the equation in Exercise 10 and the inequality in Exercise 28 in terms of the Richter scale for earthquake magnitude.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20232.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20233.png\"/\u003e",
+      "body": "Explain the equation in Exercise 10 and the inequality in Exercise 28 in terms of the Richter scale for earthquake magnitude.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20232.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20233.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation, inequality, logarithms, logarithmic function, exponential functions",
       "url": "/question/6d5b0999-41bc-466f-b963-a5eea933b17a",
@@ -778,7 +778,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Logarithmic Equations and Inequalities",
-      "body": "Explain the equation in Exercise 12 and the inequality in Exercise 27 above in terms of sound intensity level as measured in decibels.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20234.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20235.png\"/\u003e",
+      "body": "Explain the equation in Exercise 12 and the inequality in Exercise 27 above in terms of sound intensity level as measured in decibels.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20234.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20235.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation, inequality, decibels, logarithm, exponents ",
       "url": "/question/f0066e5a-9cdb-4d9d-803a-3ccf379a3c85",
@@ -795,7 +795,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Logarithmic Equations and Inequalities",
-      "body": "Explain the equation in Exercise 11 and the inequality in Exercise 29 in terms of pH of solution. \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20236.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20237.png\"/\u003e",
+      "body": "Explain the equation in Exercise 11 and the inequality in Exercise 29 in terms of pH of solution. \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20236.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20237.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation, inequality, pH, logarithm, exponent",
       "url": "/question/a863cab9-ceb0-4e7a-88c0-5019e393369b",
@@ -848,12 +848,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Other Options for Finding Algebraic Antiderivatives",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4169.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4170.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4171.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4172.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4173.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4174.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4175.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4176.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4177.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4178.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4169.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4170.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4171.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4172.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4173.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4174.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4175.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4176.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4177.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4178.png\"/\u003e",
       "allAnswers": [],
       "tags": "integrals, integration, integration by parts, antiderivatives ",
       "url": "/text-content/4a6f1b42-673e-4db4-9a85-a6e961fd8be0",
       "source": "Forgotten Text 2 5.5",
-      "topic": "Calculus/Antiderivatives/Algebraic Antiderivatives"
+      "topic": "Calculus/Integral Calculus/Antiderivatives + Integrals/Algebraic Antiderivatives"
     },
     {
       "uuid": "f70b0862-5b3d-410d-b095-34beac4e85a3",
@@ -865,12 +865,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Numerical Integration",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4179.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4180.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4181.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4182.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4183.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4185.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4186.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4187.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4188.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4189.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4190.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4179.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4180.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4181.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4182.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4183.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4185.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4186.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4187.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4188.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4189.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4190.png\"/\u003e",
       "allAnswers": [],
       "tags": "integrals, integration, numerical integration, antiderivatives ",
       "url": "/text-content/f70b0862-5b3d-410d-b095-34beac4e85a3",
       "source": "Forgotten Text 2 5.6",
-      "topic": "Calculus/Antiderivatives/Numerical Integration"
+      "topic": "Calculus/Integral Calculus/Antiderivatives + Integrals/Numerical Integration"
     },
     {
       "uuid": "2181ac80-e96c-4e5c-87d1-a01f06459711",
@@ -882,12 +882,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Using Definite Integrals to Find Area and Length",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4191.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4192.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4193.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4194.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4196.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4197.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4198.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4199.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4191.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4192.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4193.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4194.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4196.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4197.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4198.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4199.png\"/\u003e",
       "allAnswers": [],
       "tags": "Definite Integrals, area between curves, arc length ",
       "url": "/text-content/2181ac80-e96c-4e5c-87d1-a01f06459711",
       "source": "Forgotten Text 2 6.1",
-      "topic": "Calculus/Definite Integrals/Area and Length"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integrals/Area and Length"
     }
   ],
   "answers": [],

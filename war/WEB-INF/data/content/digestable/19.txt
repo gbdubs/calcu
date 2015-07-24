@@ -17,7 +17,7 @@
       "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
       "url": "/practice-problem/f47f4f5f-c6d7-4497-a489-a611e2ccfa78",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Double Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
     },
     {
       "authorSolution": " \\(0\\) ,  \\(24\\) ",
@@ -35,7 +35,7 @@
       "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
       "url": "/practice-problem/95e3f87d-f1db-441f-9ac0-0aad37698cf3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Double Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
     },
     {
       "authorSolution": " \\(1\\) ,  \\(0\\) ",
@@ -53,7 +53,7 @@
       "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass), word problem",
       "url": "/practice-problem/80d3454f-69d7-4692-ac54-5519e45563ec",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Double Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
     },
     {
       "authorSolution": " \\(9\\) ",
@@ -71,7 +71,7 @@
       "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
       "url": "/practice-problem/b7e263cb-94c1-43b7-8a8e-ee0e741cf665",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Double Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
     },
     {
       "authorSolution": "hyperboloid of one sheet,  \\(12\\) ,  \\(4\\) ",
@@ -89,7 +89,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/9f62e4af-50cf-4e7b-86d8-00dd724159a2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": "elliptic paraboloid,  \\(x\\) ",
@@ -107,7 +107,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/1e3d3c15-1379-4bb2-8db5-7f1dd5b9ff8a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": " \\(-1\\) ,  \\(1\\) ",
@@ -125,7 +125,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/a254551b-be4a-448b-be59-27e11b46cb61",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": " \\(1\\) ,  \\(0\\) ,  \\(-3\\) ",
@@ -143,7 +143,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/940c44d2-a7c6-47e2-958f-3db118c14aad",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": "circular,  \\(x\\) ",
@@ -161,7 +161,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/b1153b07-040e-45df-bb3d-512de05973db",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": "circular,  \\(z\\) ",
@@ -179,7 +179,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/3d7c354b-3c0b-4209-9902-6632b615390f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": " \\(\\sqrt{1 + u^2 + v^2}\\) ",
@@ -197,7 +197,7 @@
       "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
       "url": "/practice-problem/f2d083a3-16bc-451d-9c29-f750e79dd94d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surfaces"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
     },
     {
       "authorSolution": " \\(78\\pi\\) ",
@@ -215,7 +215,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/54a79670-3a75-4d92-98d4-49f8addb0d55",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(6\\) ",
@@ -233,7 +233,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/dc7eefde-bf5b-49dd-8d5e-d2701485e1ae",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(4\\) ,  \\(2\\) ,  \\(6\\) ",
@@ -251,7 +251,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/be45ce9d-d77c-428d-a2df-aad85967ec69",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": "\\begin{enumerate}",
@@ -269,7 +269,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/9b9f9b57-2d7e-4022-b62c-d345806c6e6a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(6\\) ,  \\(5\\) ",
@@ -287,7 +287,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/6ae063fb-e675-4217-986f-5a38e5e0e989",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(70\\) ",
@@ -305,7 +305,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/0daee357-36e5-4100-a120-2c460549755e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(\\pi\\) ,  \\(2\\) ",
@@ -323,7 +323,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/3b188dd3-9653-43a9-a4a8-4fa2ad27ae63",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(\\sqrt2 \\pi\\) ",
@@ -341,7 +341,7 @@
       "tags": "surface area, surfaces of revolution ,surface area",
       "url": "/practice-problem/64e77271-a060-422e-b9ab-94f602f3930e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Surface Area"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
     },
     {
       "authorSolution": " \\(81\\) ",
@@ -359,7 +359,7 @@
       "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
       "url": "/practice-problem/5ea18124-7361-495a-9530-2f0c514326c6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Triple Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
     },
     {
       "authorSolution": " \\(\\frac13(1 - 2x - y)\\) ,  \\(\\frac12(1 - y)\\) ",
@@ -377,7 +377,7 @@
       "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
       "url": "/practice-problem/40034c97-7b78-4a90-8150-b508995bb999",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Integrals/Triple Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
     }
   ],
   "questions": [
@@ -396,7 +396,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement, graph",
       "url": "/question/a5bc48e1-7f4c-4c78-9afb-12432c6fc364",
       "source": "Math 221 1.5.7",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "01d65969-35dc-4aa2-9c14-0684b0f36a91",
@@ -413,7 +413,7 @@
       "tags": "riemann sum, functions, indefinite, integral, calculus, subintervals, substitution",
       "url": "/question/01d65969-35dc-4aa2-9c14-0684b0f36a91",
       "source": "Math 221 1.6.1",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "649aeb6a-4130-4f8e-b869-afffd916407b",
@@ -430,7 +430,7 @@
       "tags": "riemann sum, functions, indefinite, integral, calculus, subintervals, substitution",
       "url": "/question/649aeb6a-4130-4f8e-b869-afffd916407b",
       "source": "Math 221 1.6.2",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "37a45e2e-c435-4fa7-99d3-237a15aa5c1c",
@@ -447,7 +447,7 @@
       "tags": "riemann sum, functions, indefinite, integral, calculus, subintervals, substitution",
       "url": "/question/37a45e2e-c435-4fa7-99d3-237a15aa5c1c",
       "source": "Math 221 1.6.3",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "56995cff-dd93-4899-a83c-96fd0ca0f3a6",
@@ -464,7 +464,7 @@
       "tags": "riemann sum, functions, indefinite, integral, calculus, subintervals, substitution",
       "url": "/question/56995cff-dd93-4899-a83c-96fd0ca0f3a6",
       "source": "Math 221 1.6.4",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "1a9ba1d3-c331-4fa4-b34a-e1fa9d6e14d3",
@@ -532,7 +532,7 @@
       "tags": "basic numbers, fractions, decimals",
       "url": "/question/88ad5db8-54ab-4c19-9462-45e953d81540",
       "source": "Math 221 1.1.6",
-      "topic": "Algebra/Solving Equations/Equations That Contain Fractions"
+      "topic": "Algebra/Solving Equations/Solving Fraction Equations"
     },
     {
       "uuid": "7b5667f5-3d61-4537-98c4-6a2ce3b3607b",
@@ -549,7 +549,7 @@
       "tags": "decimals, integer",
       "url": "/question/7b5667f5-3d61-4537-98c4-6a2ce3b3607b",
       "source": "Math 221 1.1.7",
-      "topic": "Algebra/Solving Equations/Equations That Contain Decimals"
+      "topic": "Algebra/Solving Equations/Solving Decimal Equations"
     },
     {
       "uuid": "97c253cb-2fe0-46b1-84be-95b60839d141",
@@ -566,7 +566,7 @@
       "tags": "functions, basic calc",
       "url": "/question/97c253cb-2fe0-46b1-84be-95b60839d141",
       "source": "Math 221 1.1.8",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "d6927881-f0ea-4aec-b74e-556c172157f9",
@@ -583,7 +583,7 @@
       "tags": "function, domain, domain of function",
       "url": "/question/d6927881-f0ea-4aec-b74e-556c172157f9",
       "source": "Math 221 1.1.9",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "c88f154e-2b3f-4b60-85a4-440e80efd7e1",
@@ -600,7 +600,7 @@
       "tags": "sine, arc sine",
       "url": "/question/c88f154e-2b3f-4b60-85a4-440e80efd7e1",
       "source": "Math 221 1.1.14",
-      "topic": "Pre-Calculus/Trigonometry/The Inverse Trigonometric Functions/Properties of Arcsine Functions/Domain"
+      "topic": "Trigonometry/Fundamental Identities/Inverse Trigonometric Functions/Domain"
     },
     {
       "uuid": "a30661c2-59a5-45f1-bb9f-60d8ff109629",
@@ -617,7 +617,7 @@
       "tags": "functions, sin, cos, tan",
       "url": "/question/a30661c2-59a5-45f1-bb9f-60d8ff109629",
       "source": "Math 221 1.1.5",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
     },
     {
       "uuid": "5182667b-3ccb-4a85-acfb-3d0643948805",
@@ -634,7 +634,7 @@
       "tags": "domain, function, inverse, graph",
       "url": "/question/5182667b-3ccb-4a85-acfb-3d0643948805",
       "source": "Math 221 1.1.16",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Inverse of a Function/Graphing a Relation and Its Inverse"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Inverse of a Function"
     },
     {
       "uuid": "36eff6db-f411-403a-8f45-bdfd652c4905",
@@ -651,7 +651,7 @@
       "tags": "function, domain, inverse",
       "url": "/question/36eff6db-f411-403a-8f45-bdfd652c4905",
       "source": "Math 221 1.1.17",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "dfc34c60-44c2-47ec-ae26-40fa28235bc1",
@@ -668,7 +668,7 @@
       "tags": "domain, range, real numbers, functions",
       "url": "/question/dfc34c60-44c2-47ec-ae26-40fa28235bc1",
       "source": "Math 221 1.1.9",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "60ab2f05-b282-4009-add6-f707a96697ec",
@@ -685,7 +685,7 @@
       "tags": "domain, range, real numbers, functions",
       "url": "/question/60ab2f05-b282-4009-add6-f707a96697ec",
       "source": "Math 221 1.1.20",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "84f02368-84f8-449c-9c2b-1e79003127c9",
@@ -702,7 +702,7 @@
       "tags": "function, real numbers",
       "url": "/question/84f02368-84f8-449c-9c2b-1e79003127c9",
       "source": "Math 221 1.1.21",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Multiplying Radical Expressions/Real Numbers"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Multiplying Radical Expressions"
     },
     {
       "uuid": "ff14e22d-41e3-4c71-9bff-76c058067e99",
@@ -719,7 +719,7 @@
       "tags": "completing the square, quadratic expression",
       "url": "/question/ff14e22d-41e3-4c71-9bff-76c058067e99",
       "source": "Math 221 1.1.22",
-      "topic": "Algebra/Quadratic Equations and Functions/Solving Equations/Perfect Square Trinomial/Completing the Square"
+      "topic": "Algebra/Functions/Factoring/Perfect Square Trinomial/Completing the Square"
     },
     {
       "uuid": "435777c8-551a-4cf4-9218-fb0ac0dc14e7",
@@ -736,7 +736,7 @@
       "tags": "range, functions",
       "url": "/question/435777c8-551a-4cf4-9218-fb0ac0dc14e7",
       "source": "Math 221 1.1.23",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "20d74d4d-fa23-4910-8c12-4dcf981c70d1",
@@ -753,7 +753,7 @@
       "tags": "real numbers, equations, coordinates",
       "url": "/question/20d74d4d-fa23-4910-8c12-4dcf981c70d1",
       "source": "Math 221 1.1.24",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Multiplying Radical Expressions/Real Numbers"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Multiplying Radical Expressions"
     },
     {
       "uuid": "350d02fc-27bc-49d1-ab8e-e20e3baf09a2",
@@ -770,7 +770,7 @@
       "tags": "function, point, graph",
       "url": "/question/350d02fc-27bc-49d1-ab8e-e20e3baf09a2",
       "source": "Math 221 1.1.25",
-      "topic": "Algebra/Functions, Equations, and Graphs/Linear Models/Scatter Plot/Trend Line"
+      "topic": "Algebra/Functions/Graphing Functions/Statistical Tools/Trend Line"
     },
     {
       "uuid": "4e11bcd9-8206-4aa8-adae-202ca85283a9",
@@ -787,7 +787,7 @@
       "tags": "function, graph, interections",
       "url": "/question/4e11bcd9-8206-4aa8-adae-202ca85283a9",
       "source": "Math 221 1.1.26",
-      "topic": "Pre-Calculus/Relations and Functions/Transformations/Rigid Transformations"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Transformations/Rigid Transformations"
     },
     {
       "uuid": "af1f420b-9e34-4690-8cf2-589d3c722876",
@@ -804,7 +804,7 @@
       "tags": "slope, parabola, derivative",
       "url": "/question/af1f420b-9e34-4690-8cf2-589d3c722876",
       "source": "Math 221 2.1.1",
-      "topic": "Algebra/Quadratic Equations and Functions/Graphing Quadratic Functions/Parabola/Vertex of a Parabola/Vertex Form "
+      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Parabola"
     },
     {
       "uuid": "98dffa10-0a23-45e9-b071-1356c9f4500d",
@@ -838,7 +838,7 @@
       "tags": "tangent, parabola, slope, ratios",
       "url": "/question/c4ca3da3-80a3-48f9-bb81-58d1a0d4695f",
       "source": "Math 221 2.1.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "d1bff05a-c675-498b-b9f2-041a3b91aa78",
@@ -855,7 +855,7 @@
       "tags": "triangle, function, derivative",
       "url": "/question/d1bff05a-c675-498b-b9f2-041a3b91aa78",
       "source": "Math 221 2.1.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "f88d665d-ef29-4146-b044-e606c702a012",
@@ -872,7 +872,7 @@
       "tags": "derivative, function",
       "url": "/question/f88d665d-ef29-4146-b044-e606c702a012",
       "source": "Math 221 2.1.6",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "bb1af3bd-0e59-4cc3-95da-c760ba63b4bb",
@@ -906,7 +906,7 @@
       "tags": "equilateral triangle, derivatives",
       "url": "/question/8d68ade4-5825-42e4-8289-1f65d0a4b8e5",
       "source": "Math 221 2.1.8",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "ae4abf88-7406-4ea2-9907-168caa7f251a",
@@ -923,7 +923,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/ae4abf88-7406-4ea2-9907-168caa7f251a",
       "source": "Math 221 5.1.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "51e8799b-c778-4f7d-b8a9-5b6af7b02aa1",
@@ -940,7 +940,7 @@
       "tags": "derivative, area, formulas ",
       "url": "/question/51e8799b-c778-4f7d-b8a9-5b6af7b02aa1",
       "source": "Math 221 2.1.9",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "8fad54d8-423c-40fe-80ea-c50f5bcfd600",
@@ -957,7 +957,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/8fad54d8-423c-40fe-80ea-c50f5bcfd600",
       "source": "Math 221 5.1.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "aee76791-5aca-4e6f-9a2d-c08c4dc22e5c",
@@ -974,7 +974,7 @@
       "tags": "derivatives, area, area of a circle",
       "url": "/question/aee76791-5aca-4e6f-9a2d-c08c4dc22e5c",
       "source": "Math 221 2.1.10",
-      "topic": "Calculus/Integration/Numeric Integration/Approximating Area Under the Curve/Error Estimate"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under A Curve/Error Estimate"
     },
     {
       "uuid": "5d6f61c4-f9d1-4d07-8802-7ca83e073a79",
@@ -991,7 +991,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/5d6f61c4-f9d1-4d07-8802-7ca83e073a79",
       "source": "Math 221 5.1.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "3a70f14a-2e63-48d2-a9b7-52a2dc21b209",
@@ -1008,7 +1008,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/3a70f14a-2e63-48d2-a9b7-52a2dc21b209",
       "source": "Math 221 5.1.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "d7dc5f24-de48-406f-8efd-83baad9be3cd",
@@ -1025,7 +1025,7 @@
       "tags": "derivative, volume, sphere, radius, surface area",
       "url": "/question/d7dc5f24-de48-406f-8efd-83baad9be3cd",
       "source": "Math 221 2.1.11",
-      "topic": "Geometry/Solids/Sphere/Volume of a Sphere"
+      "topic": "Geometry/Solids/Spheres/Volume of a Sphere"
     },
     {
       "uuid": "d42af9e7-46d3-4112-868d-8414d34a4062",
@@ -1042,7 +1042,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/d42af9e7-46d3-4112-868d-8414d34a4062",
       "source": "Math 221 5.1.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "dd1ac260-74d7-4490-9b23-0073d3147ef6",
@@ -1059,7 +1059,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/dd1ac260-74d7-4490-9b23-0073d3147ef6",
       "source": "Math 221 5.1.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "6d6fa47e-74a8-4ee7-ac92-60139d1fbb6e",
@@ -1076,7 +1076,7 @@
       "tags": "limits, continuous functions, functions",
       "url": "/question/6d6fa47e-74a8-4ee7-ac92-60139d1fbb6e",
       "source": "Math 221 3.1.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "86170883-6dd2-4702-bb75-7dbcaec9a040",
@@ -1093,7 +1093,7 @@
       "tags": "limits, functions",
       "url": "/question/86170883-6dd2-4702-bb75-7dbcaec9a040",
       "source": "Math 221 3.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "50845c58-d230-464b-b26f-1d8fcd11561f",
@@ -1110,7 +1110,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/50845c58-d230-464b-b26f-1d8fcd11561f",
       "source": "Math 221 5.1.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "91955f6f-dde9-4d66-b1b5-a2eba5a5fe16",
@@ -1127,7 +1127,7 @@
       "tags": "limits, functions",
       "url": "/question/91955f6f-dde9-4d66-b1b5-a2eba5a5fe16",
       "source": "Math 221 3.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "b53bbd69-cc00-402e-80a2-19b87e28848b",
@@ -1144,7 +1144,7 @@
       "tags": "limits, functions",
       "url": "/question/b53bbd69-cc00-402e-80a2-19b87e28848b",
       "source": "Math 221 3.1.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9dfa9c79-4e0e-4475-950b-0caca3d8c45c",
@@ -1161,7 +1161,7 @@
       "tags": "limits, functions",
       "url": "/question/9dfa9c79-4e0e-4475-950b-0caca3d8c45c",
       "source": "Math 221 3.1.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5d286aff-9f1b-4780-9231-c54966a219bb",
@@ -1178,7 +1178,7 @@
       "tags": "limits, functions",
       "url": "/question/5d286aff-9f1b-4780-9231-c54966a219bb",
       "source": "Math 221 3.1.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ce78b39a-3476-4aab-982f-462ad0acd1bc",
@@ -1195,7 +1195,7 @@
       "tags": "limits, functions",
       "url": "/question/ce78b39a-3476-4aab-982f-462ad0acd1bc",
       "source": "Math 221 3.1.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ada7535b-e3a7-4f35-afb5-da760e30bb3a",
@@ -1212,7 +1212,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/ada7535b-e3a7-4f35-afb5-da760e30bb3a",
       "source": "Math 221 5.1.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "232d517e-1dcc-43c9-89af-d1499ee76492",
@@ -1229,7 +1229,7 @@
       "tags": "limits, functions",
       "url": "/question/232d517e-1dcc-43c9-89af-d1499ee76492",
       "source": "Math 221 3.1.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "69daa019-2196-4f92-a36a-5d6489ea9213",
@@ -1246,7 +1246,7 @@
       "tags": "limits, functions",
       "url": "/question/69daa019-2196-4f92-a36a-5d6489ea9213",
       "source": "Math 221 3.1.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "1f3cdfba-6f9f-4fe7-aeb7-ea33c75cb72a",
@@ -1263,7 +1263,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/1f3cdfba-6f9f-4fe7-aeb7-ea33c75cb72a",
       "source": "Math 221 5.1.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "0048cf02-5896-47ec-8e19-7b4464e08bdb",
@@ -1280,7 +1280,7 @@
       "tags": "limits, functions",
       "url": "/question/0048cf02-5896-47ec-8e19-7b4464e08bdb",
       "source": "Math 221 3.1.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5fbc78b3-3ee2-4189-a73e-446a91e27b9e",
@@ -1297,7 +1297,7 @@
       "tags": "limits, functions",
       "url": "/question/5fbc78b3-3ee2-4189-a73e-446a91e27b9e",
       "source": "Math 221 3.1.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9f628387-ec3b-4bba-b5c8-8889408b7eab",
@@ -1314,7 +1314,7 @@
       "tags": "limits, functions",
       "url": "/question/9f628387-ec3b-4bba-b5c8-8889408b7eab",
       "source": "Math 221 3.1.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "0e40f62b-6bc3-4762-b8f7-c81c631b6054",
@@ -1331,7 +1331,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line",
       "url": "/question/0e40f62b-6bc3-4762-b8f7-c81c631b6054",
       "source": "Math 221 5.1.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "d28a67b4-fda4-4d47-9c55-68bdba5c176b",
@@ -1348,7 +1348,7 @@
       "tags": "mean, intermediate, value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/d28a67b4-fda4-4d47-9c55-68bdba5c176b",
       "source": "Math 221 5.2.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extremum"
+      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
     },
     {
       "uuid": "5459c73b-5f4f-435e-8fc9-c9e2074ae108",
@@ -1382,7 +1382,7 @@
       "tags": "limits, functions, derivatives",
       "url": "/question/ae644465-b3d0-42a1-b354-836ec890ef0f",
       "source": "Math 221 3.1.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "55ef7909-20cc-42a3-9001-3abd41733ed4",
@@ -1399,7 +1399,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, stationary points",
       "url": "/question/55ef7909-20cc-42a3-9001-3abd41733ed4",
       "source": "Math 221 5.2.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "7f498c02-ce6f-499d-9364-6c05533e4683",
@@ -1416,7 +1416,7 @@
       "tags": "intermediate value theorem, absolute, max, global, local",
       "url": "/question/7f498c02-ce6f-499d-9364-6c05533e4683",
       "source": "Math 221 5.2.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "94795729-a46a-430a-8abe-90a04411a16c",
@@ -1433,7 +1433,7 @@
       "tags": "intermediate value theorem, absolute, max, min, inflection point, graph",
       "url": "/question/94795729-a46a-430a-8abe-90a04411a16c",
       "source": "Math 221 5.2.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "2490a809-dffa-4904-8eee-5b5d75553b74",
@@ -1450,7 +1450,7 @@
       "tags": "limits",
       "url": "/question/2490a809-dffa-4904-8eee-5b5d75553b74",
       "source": "Math 221 3.1.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "3743b100-45f7-4e66-a4b7-bee89ec19686",
@@ -1467,7 +1467,7 @@
       "tags": "limits",
       "url": "/question/3743b100-45f7-4e66-a4b7-bee89ec19686",
       "source": "Math 221 3.1.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "614d938b-a98e-44ed-bc66-0cd600401443",
@@ -1484,7 +1484,7 @@
       "tags": "limits",
       "url": "/question/614d938b-a98e-44ed-bc66-0cd600401443",
       "source": "Math 221 3.2.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ee379198-3108-4f9a-89f4-ffd54917bbb3",
@@ -1501,7 +1501,7 @@
       "tags": "intermediate value theorem, absolute, max, min, inflection points",
       "url": "/question/ee379198-3108-4f9a-89f4-ffd54917bbb3",
       "source": "Math 221 5.2.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "a9a4ffd3-1e1e-4ddd-a00c-1409077aa50b",
@@ -1518,7 +1518,7 @@
       "tags": "limits",
       "url": "/question/a9a4ffd3-1e1e-4ddd-a00c-1409077aa50b",
       "source": "Math 221 3.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9e09b947-4d70-45a9-bb38-a881a4977c2e",
@@ -1535,7 +1535,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/9e09b947-4d70-45a9-bb38-a881a4977c2e",
       "source": "Math 221 5.2.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "98a00240-c306-4308-a23e-04a88287e370",
@@ -1552,7 +1552,7 @@
       "tags": "limits, functions",
       "url": "/question/98a00240-c306-4308-a23e-04a88287e370",
       "source": "Math 221 3.2.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a1b47c9b-6d71-4ddf-824a-07af484ecaa2",
@@ -1569,7 +1569,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/a1b47c9b-6d71-4ddf-824a-07af484ecaa2",
       "source": "Math 221 5.2.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "e970d2ec-f867-4bbe-8ae2-c23adf82687f",
@@ -1586,7 +1586,7 @@
       "tags": "limits, functions",
       "url": "/question/e970d2ec-f867-4bbe-8ae2-c23adf82687f",
       "source": "Math 221 3.2.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f09614d1-3695-4d53-9349-402d0ee15a6c",
@@ -1603,7 +1603,7 @@
       "tags": "limits, functions",
       "url": "/question/f09614d1-3695-4d53-9349-402d0ee15a6c",
       "source": "Math 221 3.2.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "af90735b-925e-4e4a-83da-ddfe772ba690",
@@ -1620,7 +1620,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/af90735b-925e-4e4a-83da-ddfe772ba690",
       "source": "Math 221 5.2.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     },
     {
       "uuid": "7b07fae4-e234-4e52-9828-1cb10136bedc",
@@ -1637,7 +1637,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/7b07fae4-e234-4e52-9828-1cb10136bedc",
       "source": "Math 221 5.2.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Intermediate Value Theorem"
+      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
     }
   ],
   "textContent": [
@@ -1651,7 +1651,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Integrals of Trigonometric Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5773.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5774.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5775.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5776.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5777.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5778.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5779.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5773.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5774.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5775.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5776.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5777.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5778.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5779.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometric functions, integral of trig functions, integral, integration ",
       "url": "/text-content/421f6cc4-ba9b-48a9-831d-cd7519cc08e5",
@@ -1668,12 +1668,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Trigonometric Substitutions ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5780.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5781.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5782.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5783.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5780.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5781.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5782.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5783.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometric substitutions, trig substitutes, integration, techniques of integration ",
       "url": "/text-content/80e350f9-01ee-4696-9a3e-aab6b511f084",
       "source": "Forgotten Text 5 4.1",
-      "topic": "Calculus/Integration techniques/Trigonometric Substitutions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Trigonometric Substitutions"
     },
     {
       "uuid": "ed28fe5d-5a33-45ec-81a3-53679500fa00",
@@ -1685,12 +1685,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integration by Parts",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5787.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5788.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5789.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5790.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5787.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5788.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5789.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5790.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration by parts, integral, integration, techniques of integration ",
       "url": "/text-content/ed28fe5d-5a33-45ec-81a3-53679500fa00",
       "source": "Forgotten Text 5 4.2",
-      "topic": "Calculus/Integration techniques/Integration by Parts"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "1f875e4e-c903-4454-b98e-2320bfaa49ce",
@@ -1702,12 +1702,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Factoring Polynomials ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5791.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5792.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5791.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5792.png\"/\u003e",
       "allAnswers": [],
       "tags": "factoring polynomials, polynomials, integral, integration, techniques of integration ",
       "url": "/text-content/1f875e4e-c903-4454-b98e-2320bfaa49ce",
       "source": "Forgotten Text 5 4.3",
-      "topic": "Calculus/Integration techniques/Factoring Polynomials"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Factoring Polynomials"
     },
     {
       "uuid": "aea2e25b-050e-40f4-b254-c52ac8d89d10",
@@ -1719,12 +1719,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Partial Fractions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5793.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5794.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5795.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5796.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5793.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5794.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5795.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5796.png\"/\u003e",
       "allAnswers": [],
       "tags": "partial fractions, integral, applications of integration ",
       "url": "/text-content/aea2e25b-050e-40f4-b254-c52ac8d89d10",
       "source": "Forgotten Text 5 4.4",
-      "topic": "Calculus/Integration techniques/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     }
   ],
   "answers": [],

@@ -375,7 +375,7 @@
       "tags": "graph, relation, inequality, interval notation, sketch",
       "url": "/question/0d891c3b-286f-4a07-b653-10d925892396",
       "source": "Precalculus, 3rd Edition 2.4.25",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "c95fff36-8b4d-4e93-b908-553df0e300f5",
@@ -392,7 +392,7 @@
       "tags": "graph, relation, inequality, interval notation, sketch",
       "url": "/question/c95fff36-8b4d-4e93-b908-553df0e300f5",
       "source": "Precalculus, 3rd Edition 2.4.26",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "de4e9b2b-3802-4a09-a15b-db42e4e455fd",
@@ -409,7 +409,7 @@
       "tags": "proof, theorem 2.4, proving theorem 2.4, theorem 2.4 proof, inequality proof",
       "url": "/question/de4e9b2b-3802-4a09-a15b-db42e4e455fd",
       "source": "Precalculus, 3rd Edition 2.4.27",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "3733e02e-8968-4611-ac4e-8624ac185903",
@@ -426,7 +426,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/3733e02e-8968-4611-ac4e-8624ac185903",
       "source": "Precalculus, 3rd Edition 2.4.3",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "cc695f7a-6de5-429f-8ed4-7f8cb0f85993",
@@ -443,7 +443,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/cc695f7a-6de5-429f-8ed4-7f8cb0f85993",
       "source": "Precalculus, 3rd Edition 2.4.4",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "c81a8e27-eb38-4782-a3bd-23b25f6ceda2",
@@ -460,7 +460,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/c81a8e27-eb38-4782-a3bd-23b25f6ceda2",
       "source": "Precalculus, 3rd Edition 2.4.5",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "17d7a63c-4806-454a-bbd7-dacc33ba1985",
@@ -477,7 +477,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/17d7a63c-4806-454a-bbd7-dacc33ba1985",
       "source": "Precalculus, 3rd Edition 2.4.6",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "00d7e2f9-2ae8-4391-8bb6-3f6c30e117e9",
@@ -494,7 +494,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/00d7e2f9-2ae8-4391-8bb6-3f6c30e117e9",
       "source": "Precalculus, 3rd Edition 2.4.7",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "33565de0-c2fe-4557-b0e7-b4974a661d54",
@@ -511,7 +511,7 @@
       "tags": "inequality, multi-problem, interval  notation, absolute value",
       "url": "/question/33565de0-c2fe-4557-b0e7-b4974a661d54",
       "source": "Precalculus, 3rd Edition 2.4.8",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "7dea3e72-6224-49fe-bf6c-75bdc29b6adc",
@@ -528,7 +528,7 @@
       "tags": "profit, word problem, quadratic function, function word problem",
       "url": "/question/7dea3e72-6224-49fe-bf6c-75bdc29b6adc",
       "source": "Precalculus, 3rd Edition 2.4.9",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "e0a6a0c4-d4e2-4c4a-ae04-7e75be786ae0",
@@ -545,7 +545,7 @@
       "tags": "data, plot, data points, slope, fit, regression line",
       "url": "/question/e0a6a0c4-d4e2-4c4a-ae04-7e75be786ae0",
       "source": "Precalculus, 3rd Edition 2.5.1",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "05675e5a-3406-4ecf-adf8-55a6d3718ac9",
@@ -562,7 +562,7 @@
       "tags": "data, word problem, good fit, slope, reading data",
       "url": "/question/05675e5a-3406-4ecf-adf8-55a6d3718ac9",
       "source": "Precalculus, 3rd Edition 2.5.2",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "cf380195-65f9-4c7a-b52e-f0b094efff8a",
@@ -579,7 +579,7 @@
       "tags": "square line, quadratic regression, regression, models, reading models, fit, goodness of fit",
       "url": "/question/cf380195-65f9-4c7a-b52e-f0b094efff8a",
       "source": "Precalculus, 3rd Edition 2.5.3",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Absolute Value Functions"
+      "topic": "Pre-Calculus/Algebra Review/Absolute Value Functions"
     },
     {
       "uuid": "08329c72-a27f-48e4-a89b-140d792a1b53",
@@ -591,12 +591,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Regression",
-      "body": "(a) This first data set came from a Summer 2003 publication of the Portage County Animal Protective League called \"Tattle Tails\". They make the following statement and then have a chart of data that supports it. \"It doesn\u0027t take long for two cats to turn into 80 million. If two cats and their surviving offspring reproduced for ten years, you\u0027d end up with 80,399,780 cats.\" We assume N(0) \u003d 2.\nUse Quadratic Regression to find a parabola which models this data and comment on its goodness of fit.\n\n(b) This next data set comes from the U.S. Naval Observatory. We\u0027ll let x \u003d 1 represent January 21, 2009, x\u003d2 represent February 21, 2009, and so on\nUse Quadratic Regression to find a parabola which models this data and comment on its goodness of fit.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20224.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20225.png\"/\u003e",
+      "body": "(a) This first data set came from a Summer 2003 publication of the Portage County Animal Protective League called \"Tattle Tails\". They make the following statement and then have a chart of data that supports it. \"It doesn\u0027t take long for two cats to turn into 80 million. If two cats and their surviving offspring reproduced for ten years, you\u0027d end up with 80,399,780 cats.\" We assume N(0) \u003d 2.\nUse Quadratic Regression to find a parabola which models this data and comment on its goodness of fit.\n\n(b) This next data set comes from the U.S. Naval Observatory. We\u0027ll let x \u003d 1 represent January 21, 2009, x\u003d2 represent February 21, 2009, and so on\nUse Quadratic Regression to find a parabola which models this data and comment on its goodness of fit.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20224.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20225.png\"/\u003e",
       "allAnswers": [],
       "tags": "quadratic regression, regression, goodness of fit, fit, data, reading data",
       "url": "/question/08329c72-a27f-48e4-a89b-140d792a1b53",
       "source": "Precalculus, 3rd Edition 2.5.4",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Regression"
+      "topic": "Pre-Calculus/Algebra Review/Regression"
     },
     {
       "uuid": "cc217253-821e-4764-aacf-9df4f912adcd",
@@ -613,7 +613,7 @@
       "tags": "leading coefficient, constant term, polynomial, end behavior of a polynomial",
       "url": "/question/cc217253-821e-4764-aacf-9df4f912adcd",
       "source": "Precalculus, 3rd Edition 3.1.1",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Regression"
+      "topic": "Pre-Calculus/Algebra Review/Regression"
     },
     {
       "uuid": "4ecc370b-75cb-4635-aa23-1ddd6805da74",
@@ -630,7 +630,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/4ecc370b-75cb-4635-aa23-1ddd6805da74",
       "source": "Precalculus, 3rd Edition 3.1.11",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Regression"
+      "topic": "Pre-Calculus/Algebra Review/Regression"
     },
     {
       "uuid": "410e41b9-3492-4d1c-b5e6-29bfc3b17fec",
@@ -647,7 +647,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/410e41b9-3492-4d1c-b5e6-29bfc3b17fec",
       "source": "Precalculus, 3rd Edition 3.1.12",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Regression"
+      "topic": "Pre-Calculus/Algebra Review/Regression"
     },
     {
       "uuid": "2495bfe7-e1fa-4614-912a-a86cea3e683d",
@@ -664,7 +664,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/2495bfe7-e1fa-4614-912a-a86cea3e683d",
       "source": "Precalculus, 3rd Edition 3.1.13",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "180471b2-2c51-4ce0-8be0-d1bddc14faf1",
@@ -681,7 +681,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/180471b2-2c51-4ce0-8be0-d1bddc14faf1",
       "source": "Precalculus, 3rd Edition 3.1.14",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "1a4badab-f412-4c5e-b3e4-03609560ff84",
@@ -698,7 +698,7 @@
       "tags": "rational function, domain, vertical asymptote, holes, horizontal asymptote, slant asymptote, graph",
       "url": "/question/1a4badab-f412-4c5e-b3e4-03609560ff84",
       "source": "Precalculus, 3rd Edition 3.1.14",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "12432189-37c7-4777-989a-1e6573843ba6",
@@ -715,7 +715,7 @@
       "tags": "rational function, domain, vertical asymptote, holes, horizontal asymptote, slant asymptote, graph",
       "url": "/question/12432189-37c7-4777-989a-1e6573843ba6",
       "source": "Precalculus, 3rd Edition 3.1.14",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "fa745e29-c7ef-4886-bc32-7d3e959abad6",
@@ -732,7 +732,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/fa745e29-c7ef-4886-bc32-7d3e959abad6",
       "source": "Precalculus, 3rd Edition 3.1.15",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "5a3627d0-7280-4d9a-8c2e-c81d2b618680",
@@ -749,7 +749,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/5a3627d0-7280-4d9a-8c2e-c81d2b618680",
       "source": "Precalculus, 3rd Edition 3.1.16",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "98775920-57ae-41bb-8ec6-3ca10b675e51",
@@ -766,7 +766,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/98775920-57ae-41bb-8ec6-3ca10b675e51",
       "source": "Precalculus, 3rd Edition 3.1.17",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "6ae74d47-3b5b-4bfa-b86f-910163b209e1",
@@ -783,7 +783,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/6ae74d47-3b5b-4bfa-b86f-910163b209e1",
       "source": "Precalculus, 3rd Edition 3.1.18",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "16e52a47-1d60-49a4-983e-1846a7ee6150",
@@ -800,7 +800,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/16e52a47-1d60-49a4-983e-1846a7ee6150",
       "source": "Precalculus, 3rd Edition 3.1.19",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "41c628d9-dcf0-4425-b3a6-d460500e3193",
@@ -817,7 +817,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/41c628d9-dcf0-4425-b3a6-d460500e3193",
       "source": "Precalculus, 3rd Edition 3.1.20",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "7f4cabb1-42e0-4340-b6ed-f8da5c51d796",
@@ -834,7 +834,7 @@
       "tags": "polynomials, zeros of a polynomial, multiplicities of a polynomial, sketching a polynomial",
       "url": "/question/7f4cabb1-42e0-4340-b6ed-f8da5c51d796",
       "source": "Precalculus, 3rd Edition 3.1.21",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "3e01c9b4-0573-4047-9cd2-58afbacc0a0b",
@@ -851,7 +851,7 @@
       "tags": "polynomials, zeros of a polynomial, polynomial transformations, transformation of a polynomial ",
       "url": "/question/3e01c9b4-0573-4047-9cd2-58afbacc0a0b",
       "source": "Precalculus, 3rd Edition 3.1.22",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "06dc8acd-bb61-41d0-82f2-10f117bf9cd3",
@@ -868,7 +868,7 @@
       "tags": "polynomials, zeros of a polynomial, polynomial transformations, transformation of a polynomial ",
       "url": "/question/06dc8acd-bb61-41d0-82f2-10f117bf9cd3",
       "source": "Precalculus, 3rd Edition 3.1.23",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "b0d577b4-ca50-4129-a702-6547c3e74fa3",
@@ -885,7 +885,7 @@
       "tags": "polynomials, zeros of a polynomial, polynomial transformations, transformation of a polynomial ",
       "url": "/question/b0d577b4-ca50-4129-a702-6547c3e74fa3",
       "source": "Precalculus, 3rd Edition 3.1.24",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "27893b58-f343-412d-a560-c7341cada8b2",
@@ -902,7 +902,7 @@
       "tags": "polynomials, zeros of a polynomial, polynomial transformations, transformation of a polynomial ",
       "url": "/question/27893b58-f343-412d-a560-c7341cada8b2",
       "source": "Precalculus, 3rd Edition 3.1.25",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8e82c199-dd46-42e4-8a8c-b893ec89f76e",
@@ -919,7 +919,7 @@
       "tags": "polynomials, zeros of a polynomial, polynomial transformations, transformation of a polynomial ",
       "url": "/question/8e82c199-dd46-42e4-8a8c-b893ec89f76e",
       "source": "Precalculus, 3rd Edition 3.1.26",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a4940d26-8336-4f41-b9cf-63fc1cc013f8",
@@ -936,7 +936,7 @@
       "tags": "polynomials, zeros of a polynomial, intermediate value theorem",
       "url": "/question/a4940d26-8336-4f41-b9cf-63fc1cc013f8",
       "source": "Precalculus, 3rd Edition 3.1.27",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a25ebc9d-6ddd-426c-a944-8f41952d7665",
@@ -953,7 +953,7 @@
       "tags": "polynomials, maximization, profit maximiazation, production function",
       "url": "/question/a25ebc9d-6ddd-426c-a944-8f41952d7665",
       "source": "Precalculus, 3rd Edition 3.1.29",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "f6063495-f3bb-436a-a73a-857cc5e1a77f",
@@ -970,7 +970,7 @@
       "tags": "polynomials, maximization, profit maximiazation, production function",
       "url": "/question/f6063495-f3bb-436a-a73a-857cc5e1a77f",
       "source": "Precalculus, 3rd Edition 3.1.32",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "c02eafbc-ed45-4897-8800-28f4fcb9c26e",
@@ -987,7 +987,7 @@
       "tags": "polynomials, maximization, profit maximiazation, production function",
       "url": "/question/c02eafbc-ed45-4897-8800-28f4fcb9c26e",
       "source": "Precalculus, 3rd Edition 3.1.33",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "2b5e5214-0b05-4a9b-8644-590859baee45",
@@ -1004,7 +1004,7 @@
       "tags": "polynomials, maximization, profit maximiazation, production function",
       "url": "/question/2b5e5214-0b05-4a9b-8644-590859baee45",
       "source": "Precalculus, 3rd Edition 3.1.33",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "dae345a5-063a-4857-b4be-64a1876ed65c",
@@ -1021,7 +1021,7 @@
       "tags": "polynomials, degree, extrema, zeros of a polynomial",
       "url": "/question/dae345a5-063a-4857-b4be-64a1876ed65c",
       "source": "Precalculus, 3rd Edition 3.1.38",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "6598e0c1-98e4-44a9-8520-33bbbd1fb339",
@@ -1038,7 +1038,7 @@
       "tags": "polynomial, polynomial long division, long division",
       "url": "/question/6598e0c1-98e4-44a9-8520-33bbbd1fb339",
       "source": "Precalculus, 3rd Edition 3.2.1",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "5edc5de6-3903-44b4-9207-1a21d4499df8",
@@ -1055,7 +1055,7 @@
       "tags": "division, synthetic division, dividing polynomials, polynomials",
       "url": "/question/5edc5de6-3903-44b4-9207-1a21d4499df8",
       "source": "Precalculus, 3rd Edition 3.2.10",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "9e05cde6-1ea3-442a-b5bd-2a44d0fda259",
@@ -1072,7 +1072,7 @@
       "tags": "synthetic division, division, polynomials, dividing polynomials ",
       "url": "/question/9e05cde6-1ea3-442a-b5bd-2a44d0fda259",
       "source": "Precalculus, 3rd Edition 3.2.11",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a9809bb2-4f73-4373-a2c3-3a7337319c8f",
@@ -1089,7 +1089,7 @@
       "tags": "polynomials, synthetic division, dividing polynomials, division",
       "url": "/question/a9809bb2-4f73-4373-a2c3-3a7337319c8f",
       "source": "Precalculus, 3rd Edition 3.2.12",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "0b363c3d-a15a-4e2a-b76e-b71faa5349dc",
@@ -1106,7 +1106,7 @@
       "tags": "synthetic division, division, polynomials, dividing polynomials ",
       "url": "/question/0b363c3d-a15a-4e2a-b76e-b71faa5349dc",
       "source": "Precalculus, 3rd Edition 3.2.13",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "a77e7338-3a49-41fb-b32b-f0a638198202",
@@ -1123,7 +1123,7 @@
       "tags": "polynomials, synthetic division, division, polynomials ",
       "url": "/question/a77e7338-3a49-41fb-b32b-f0a638198202",
       "source": "Precalculus, 3rd Edition 3.2.14",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "333abaec-7e07-4fbd-98ca-36bc53bb0b74",
@@ -1140,7 +1140,7 @@
       "tags": "synthetic division, division, dividing polynomials, polynomials ",
       "url": "/question/333abaec-7e07-4fbd-98ca-36bc53bb0b74",
       "source": "Precalculus, 3rd Edition 3.2.15",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "963cb141-78b5-4dfd-b32e-d3f472f35277",
@@ -1157,7 +1157,7 @@
       "tags": "polynomial, synthetic division, division, dividing polynomials ",
       "url": "/question/963cb141-78b5-4dfd-b32e-d3f472f35277",
       "source": "Precalculus, 3rd Edition 3.2.16",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "bc816028-8ecd-4ad9-8b55-e629b3034ac9",
@@ -1174,7 +1174,7 @@
       "tags": "synthetic division, division, polynomial, dividing polynomials",
       "url": "/question/bc816028-8ecd-4ad9-8b55-e629b3034ac9",
       "source": "Precalculus, 3rd Edition 3.2.17",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "1f442f07-d218-471b-aa91-9de0f331f1fd",
@@ -1191,7 +1191,7 @@
       "tags": "polynomial, division, dividing polynomials, synthetic division",
       "url": "/question/1f442f07-d218-471b-aa91-9de0f331f1fd",
       "source": "Precalculus, 3rd Edition 3.2.18",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "79e403de-6ef7-49d7-8a2b-40eb32b3e0ab",
@@ -1208,7 +1208,7 @@
       "tags": "synthetic division, division, polynomials, dividing polynomials",
       "url": "/question/79e403de-6ef7-49d7-8a2b-40eb32b3e0ab",
       "source": "Precalculus, 3rd Edition 3.2.19",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "36a4d792-d67c-445a-894c-778fb356b73c",
@@ -1225,7 +1225,7 @@
       "tags": "polynomials, long division, polynomial long division, dividing polynomials ",
       "url": "/question/36a4d792-d67c-445a-894c-778fb356b73c",
       "source": "Precalculus, 3rd Edition 3.2.2",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "490648ee-156d-4a57-aea3-4b637055a133",
@@ -1242,7 +1242,7 @@
       "tags": "polynomials, synthetic division, division, dividing polynomials",
       "url": "/question/490648ee-156d-4a57-aea3-4b637055a133",
       "source": "Precalculus, 3rd Edition 3.2.20",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "c5d0e7f6-1c51-4b71-802f-27e6b00c6b7c",
@@ -1259,7 +1259,7 @@
       "tags": "remainder theorem, polynomial functions, function, polynomials",
       "url": "/question/c5d0e7f6-1c51-4b71-802f-27e6b00c6b7c",
       "source": "Precalculus, 3rd Edition 3.2.21",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "783c4b24-1a8f-46d9-9864-8b341c5b05b0",
@@ -1276,7 +1276,7 @@
       "tags": "remainder theorem, polynomial function, function, polynomial",
       "url": "/question/783c4b24-1a8f-46d9-9864-8b341c5b05b0",
       "source": "Precalculus, 3rd Edition 3.2.22",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "410bc254-b5f4-425e-8198-a8e91a6a47a5",
@@ -1293,7 +1293,7 @@
       "tags": "remainder theorem, polynomial function, function, polynomial",
       "url": "/question/410bc254-b5f4-425e-8198-a8e91a6a47a5",
       "source": "Precalculus, 3rd Edition 3.2.23",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "d649e39c-73bc-44b4-8d5c-52e859a3d478",
@@ -1310,7 +1310,7 @@
       "tags": "remainder theorem, polynomial, function, polynomial function",
       "url": "/question/d649e39c-73bc-44b4-8d5c-52e859a3d478",
       "source": "Precalculus, 3rd Edition 3.2.24",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "9779b763-1993-4547-80a0-d48e882f2b79",
@@ -1327,7 +1327,7 @@
       "tags": "remainder theorem, polynomial function, function, polynomial ",
       "url": "/question/9779b763-1993-4547-80a0-d48e882f2b79",
       "source": "Precalculus, 3rd Edition 3.2.25",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ec806ee7-2177-4d60-a633-69881c272b08",
@@ -1344,7 +1344,7 @@
       "tags": "remainder theorem, polynomial, function, polynomial function",
       "url": "/question/ec806ee7-2177-4d60-a633-69881c272b08",
       "source": "Precalculus, 3rd Edition 3.2.26",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "9fa052f2-738d-4f13-84fb-2b4c2744b4f0",
@@ -1361,7 +1361,7 @@
       "tags": "remainder theorem, polynomial, function, polynomial function",
       "url": "/question/9fa052f2-738d-4f13-84fb-2b4c2744b4f0",
       "source": "Precalculus, 3rd Edition 3.2.27",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "9e93fb75-4306-4273-b4ec-52e35f069f25",
@@ -1378,7 +1378,7 @@
       "tags": "remainder theorem, polynomial function, function, polynomial",
       "url": "/question/9e93fb75-4306-4273-b4ec-52e35f069f25",
       "source": "Precalculus, 3rd Edition 3.2.28",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "907b31dc-8f94-4dae-b8bb-7473254247e5",
@@ -1395,7 +1395,7 @@
       "tags": "remainder theorem, polynomial, function, polynomial function",
       "url": "/question/907b31dc-8f94-4dae-b8bb-7473254247e5",
       "source": "Precalculus, 3rd Edition 3.2.29",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ebd228c5-a91e-4a79-a404-2c90157ed1ab",
@@ -1412,7 +1412,7 @@
       "tags": "polynomial long division, long division, polynomials, dividing polynomials",
       "url": "/question/ebd228c5-a91e-4a79-a404-2c90157ed1ab",
       "source": "Precalculus, 3rd Edition 3.2.3",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "9a8ebd70-f7f4-4018-a185-718de6911ede",
@@ -1429,7 +1429,7 @@
       "tags": "remainder theorem, polynomial, function, polynomial function",
       "url": "/question/9a8ebd70-f7f4-4018-a185-718de6911ede",
       "source": "Precalculus, 3rd Edition 3.2.30",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "c2d9333c-d446-434e-bf27-2e3d7ec22d1f",
@@ -1446,7 +1446,7 @@
       "tags": "polynomial, zeros, real zeros, factors, factoring polynomial ",
       "url": "/question/c2d9333c-d446-434e-bf27-2e3d7ec22d1f",
       "source": "Precalculus, 3rd Edition 3.2.31",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "ac40a796-b02a-4f53-bbb6-eb4cd1027b45",
@@ -1463,7 +1463,7 @@
       "tags": "polynomial, zeros, real zeros, factor, factoring polynomials",
       "url": "/question/ac40a796-b02a-4f53-bbb6-eb4cd1027b45",
       "source": "Precalculus, 3rd Edition 3.2.32",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "75900642-679a-417b-b929-26fa8b8447e1",
@@ -1480,7 +1480,7 @@
       "tags": "polynomial, real zeros, factors, factoring polynomials",
       "url": "/question/75900642-679a-417b-b929-26fa8b8447e1",
       "source": "Precalculus, 3rd Edition 3.2.33",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "48efd664-b393-493e-91f6-065383bdc2d4",
@@ -1497,7 +1497,7 @@
       "tags": "polynomial, real zeros, factors, factoring polynomials",
       "url": "/question/48efd664-b393-493e-91f6-065383bdc2d4",
       "source": "Precalculus, 3rd Edition 3.2.34",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "83322abd-c023-4879-a991-30b0026da90f",
@@ -1514,7 +1514,7 @@
       "tags": "polynomials, real zeros, factors, factoring polynomials ",
       "url": "/question/83322abd-c023-4879-a991-30b0026da90f",
       "source": "Precalculus, 3rd Edition 3.2.35",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "d07197c0-2aed-4755-94e8-90a017ddbee7",
@@ -1531,7 +1531,7 @@
       "tags": "polynomials, real zeros, factors, factoring polynomials",
       "url": "/question/d07197c0-2aed-4755-94e8-90a017ddbee7",
       "source": "Precalculus, 3rd Edition 3.2.36",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "33fed202-d986-47ec-85f3-a1fef28612ad",
@@ -1548,7 +1548,7 @@
       "tags": "polynomials, real zeros, factors, factoring polynomials",
       "url": "/question/33fed202-d986-47ec-85f3-a1fef28612ad",
       "source": "Precalculus, 3rd Edition 3.2.36",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "8f6baa5e-fb71-4eee-b1d5-df908347b657",
@@ -1565,7 +1565,7 @@
       "tags": "polynomial, real zeros, factors, factoring polynomials ",
       "url": "/question/8f6baa5e-fb71-4eee-b1d5-df908347b657",
       "source": "Precalculus, 3rd Edition 3.2.37",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "43a33b38-119f-42f7-ae8d-a1d385d216df",
@@ -1582,7 +1582,7 @@
       "tags": "polynomial, real zeros, factors, factoring polynomials",
       "url": "/question/43a33b38-119f-42f7-ae8d-a1d385d216df",
       "source": "Precalculus, 3rd Edition 3.2.38",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "1ed4d574-0df2-4cc4-8558-50a50828bf4a",
@@ -1599,7 +1599,7 @@
       "tags": "polynomials, factors, real zero, factoring polynomials",
       "url": "/question/1ed4d574-0df2-4cc4-8558-50a50828bf4a",
       "source": "Precalculus, 3rd Edition 3.2.39",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     },
     {
       "uuid": "99c537db-95e7-47a6-bcc4-f2f39e9686f1",
@@ -1616,7 +1616,7 @@
       "tags": "polynomials, polynomial long division, long division, dividing polynomials",
       "url": "/question/99c537db-95e7-47a6-bcc4-f2f39e9686f1",
       "source": "Precalculus, 3rd Edition 3.2.4",
-      "topic": "Pre-Calculus/Polynomial Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions"
     }
   ],
   "textContent": [
@@ -1635,7 +1635,7 @@
       "tags": "mathematical induction, summation, summation notation, sequences ",
       "url": "/text-content/2cc4a04b-59c0-4b91-9a03-6ce3940fc582",
       "source": "Forgotten Text 1 9.3",
-      "topic": "Algebra/Sequences and Binomial Theorem"
+      "topic": "Algebra/Sequences/The Binomial Theorem"
     },
     {
       "uuid": "5f93e81a-58ba-46ac-875d-11a0a56076cc",
@@ -1652,7 +1652,7 @@
       "tags": "binomial theorem, sequences, Pascal\u0027s Triangle ",
       "url": "/text-content/5f93e81a-58ba-46ac-875d-11a0a56076cc",
       "source": "Forgotten Text 1 9.4",
-      "topic": "Algebra/Sequences and Binomial Theorem"
+      "topic": "Algebra/Sequences/The Binomial Theorem"
     },
     {
       "uuid": "f525b325-8cd5-4d27-a6a5-3baaa078e9b3",
@@ -1664,7 +1664,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Angles and their Measure",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3752.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3848.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3859.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3881.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3892.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3914.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3753.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3797.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3808.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3819.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3849.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3851.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3852.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3752.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3848.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3859.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3881.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3892.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3914.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3753.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3797.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3808.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3819.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3849.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3851.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3852.png\"/\u003e",
       "allAnswers": [],
       "tags": "angles, trigonometry, measure of angles ",
       "url": "/text-content/f525b325-8cd5-4d27-a6a5-3baaa078e9b3",
@@ -1681,7 +1681,7 @@
       "viewable": true,
       "karma": 3,
       "title": "The Unit Circle: Cosine and Sine ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3853.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3854.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3855.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3856.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3857.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3858.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3873.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3874.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3877.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3882.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3886.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3887.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3853.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3854.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3855.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3856.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3857.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3858.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3873.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3874.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3877.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3882.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3886.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3887.png\"/\u003e",
       "allAnswers": [],
       "tags": "unit circle, cosine, sine, trig ",
       "url": "/text-content/f83b3633-5a68-4a7b-a981-07dd342aa41a",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "How do we measure velocity?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3847.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3848.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3849.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3851.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3852.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3856.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3857.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3847.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3848.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3849.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3851.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3852.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3856.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3857.png\"/\u003e",
       "allAnswers": [],
       "tags": "velocity, derivatives, position, average velocity, instantaneous velocity",
       "url": "/text-content/744cc2e0-af8b-4d84-8f9c-67b07c154742",
       "source": "Forgotten Text 2 1.1",
-      "topic": "Calculus/Derivatives/Velocity"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Velocity and Physics"
     }
   ],
   "answers": [],

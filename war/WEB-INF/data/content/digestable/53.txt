@@ -17,7 +17,7 @@
       "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
       "url": "/practice-problem/30879e74-5e6f-4da9-9e7f-0d3f2b73876d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Determinants"
+      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
     },
     {
       "authorSolution": " \\(2\\) ,  \\(-15\\) ",
@@ -35,7 +35,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/practice-problem/e75b684e-0c85-4a3d-bc5c-e383d34ccc91",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "authorSolution": " \\(0\\) ,  \\(8\\) ,  \\(1\\) ",
@@ -53,7 +53,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
       "url": "/practice-problem/b6036119-2f77-4ab0-8ad8-1219c4011b53",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "authorSolution": "\\begin{enumerate}",
@@ -71,7 +71,7 @@
       "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
       "url": "/practice-problem/6806f0a0-f02e-467f-a4c5-a35b624ccd25",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Matrices/Linear Maps"
+      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
     },
     {
       "authorSolution": " \\(\\dfrac{\\sqrt3}2\\) ,  \\(\\sqrt3\\) ,  \\(1\\) ,  \\(\\dfrac{\\sqrt3}2\\) ",
@@ -89,7 +89,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/practice-problem/1954a1cd-2a5f-4c5c-b9fa-18d17f1d657c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(2\\) ,  \\(2\\tan x\\) ,  \\(2\\) ",
@@ -107,7 +107,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/practice-problem/d030b24b-7705-497d-82a6-cd8dd6552cff",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(1\\) ,  \\(-2\\) ,  \\(x + 1\\) ,  \\((y - 1)^2\\) ,  \\(1\\) ,  \\(1\\) ,  \\(-2\\) ",
@@ -125,7 +125,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
       "url": "/practice-problem/a04cbc85-6b6b-41b2-9cb7-ca14f56d3874",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(2\\) ,  \\(2\\) ",
@@ -143,7 +143,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/practice-problem/c7814529-af73-4596-b21c-8596ea9ea016",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(\\begin{bmatrix} 4  \u0026  1   \u0026  2 \\\\",
@@ -161,7 +161,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
       "url": "/practice-problem/24b1a876-45c7-4e08-ba5a-71b0c1419f59",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(\\begin{bmatrix} 2  \u0026  0  \\\\",
@@ -179,7 +179,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
       "url": "/practice-problem/2e2a71ec-1f95-4061-93ee-7fbd4b214f6f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(T\\) ",
@@ -197,7 +197,7 @@
       "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
       "url": "/practice-problem/b19c10d1-f596-44b1-928c-91e15f6675c9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative"
+      "topic": "Calculus/Derivative Calculus"
     },
     {
       "authorSolution": " \\(2v\\) ,  \\(2u\\) ",
@@ -215,7 +215,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/0603e1b0-5c1d-4df2-9000-475528367adf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(-1\\) ,  \\(35\\) ,  \\(20\\) ,  \\(2\\) ",
@@ -233,7 +233,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/009e9327-1009-41e3-ac15-e438bfde641f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(1\\) ,  \\(76\\) ",
@@ -251,7 +251,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/d626930d-5e5f-4c26-a5b5-c88ffdc24da0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(4x\\) ,  \\(8y\\) ,  \\(4x\\) ,  \\(4\\) ,  \\(0\\) ",
@@ -269,7 +269,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/1ae932f7-609d-420b-85f3-01687ab94c35",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(2\\) ",
@@ -287,7 +287,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/68c1ba58-d358-49c3-a567-5077d1518ed1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(-3  \\dfrac{x^2 - y^2}{\\bigl(x^2 + y^2\\bigr)^{\\frac32}}\\) ",
@@ -305,7 +305,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/6db213f2-a9eb-4b7f-b055-28dd93e8d23b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(-1\\) ",
@@ -323,7 +323,7 @@
       "tags": "differentiation of functions of several variables, chain rule",
       "url": "/practice-problem/fbaccad9-eb10-4df9-811c-e522baf652f6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(\\begin{bmatrix} \\dfrac1{2\\pi^3}  \u0026  -\\dfrac3{2\\pi} \\\\[15 pt]",
@@ -341,7 +341,7 @@
       "tags": "differentiation of functions of several variables, chain rule, word problem",
       "url": "/practice-problem/4ef30c03-3d31-4756-866b-0d3fcf5401ba",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Multiple Variables/Differentiation"
+      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
     },
     {
       "authorSolution": " \\(-1\\) ,  \\(1\\) ,  \\(0\\) , saddle point",
@@ -359,7 +359,7 @@
       "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
       "url": "/practice-problem/38a2a5ec-ad38-4774-bdcc-c6ae0f53a956",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Applications of the Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
     },
     {
       "authorSolution": " \\(-2\\) ,  \\(1\\) ,  \\(1\\) , saddle point",
@@ -377,7 +377,7 @@
       "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
       "url": "/practice-problem/c0c50b51-c224-4e67-9c60-9d8fa35d3391",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Applications of the Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
     }
   ],
   "questions": [
@@ -396,7 +396,7 @@
       "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
       "url": "/question/a3b67044-5c7c-42d8-8b12-130a8adb2d43",
       "source": "Mooculus 13.2.10",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "9f922bad-8a00-454c-bce7-904c202c6f93",
@@ -413,7 +413,7 @@
       "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
       "url": "/question/9f922bad-8a00-454c-bce7-904c202c6f93",
       "source": "Mooculus 13.2.11",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "6f1afd7a-3d2a-4086-ab5a-f550670b9455",
@@ -430,7 +430,7 @@
       "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
       "url": "/question/6f1afd7a-3d2a-4086-ab5a-f550670b9455",
       "source": "Mooculus 13.2.12",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "bd78e471-7b7f-4d13-97fc-e3a0e6e90a06",
@@ -464,7 +464,7 @@
       "tags": "derivatives, calculus, rate of change, slope",
       "url": "/question/6e1b92ca-399d-4ce4-819c-40e95746998b",
       "source": "First Year Calculus 4.1.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "473cf320-4c22-41d1-b9af-aeb9c0b39e0e",
@@ -498,7 +498,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/1228e81d-4fda-477b-b166-c055b53206c7",
       "source": "First Year Calculus 4.1.2",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "4b85001e-4df9-457f-bad3-acd7beb42dff",
@@ -515,7 +515,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/4b85001e-4df9-457f-bad3-acd7beb42dff",
       "source": "First Year Calculus 4.1.3",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "05438979-7428-4483-8f09-cce3e0737cc1",
@@ -532,7 +532,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/05438979-7428-4483-8f09-cce3e0737cc1",
       "source": "First Year Calculus 4.1.4",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "ae014416-c58b-4aab-9a0c-1c724a9d8215",
@@ -549,7 +549,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/ae014416-c58b-4aab-9a0c-1c724a9d8215",
       "source": "First Year Calculus 4.1.5",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "322a13db-df18-4b9e-bb66-8dd96f87cb0a",
@@ -566,7 +566,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/322a13db-df18-4b9e-bb66-8dd96f87cb0a",
       "source": "First Year Calculus 4.1.6",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "9af90a96-8e32-4f22-b86d-9798ffcd4524",
@@ -583,7 +583,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/9af90a96-8e32-4f22-b86d-9798ffcd4524",
       "source": "First Year Calculus 4.1.7",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "bc986685-a4af-4233-8abd-9be9d075110a",
@@ -600,7 +600,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/bc986685-a4af-4233-8abd-9be9d075110a",
       "source": "First Year Calculus 4.1.8",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "498c2870-4f7c-4278-9c39-4667e7847881",
@@ -617,7 +617,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/498c2870-4f7c-4278-9c39-4667e7847881",
       "source": "First Year Calculus 4.1.9",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "765940d5-afb5-4da8-a105-1efb84a2ece1",
@@ -634,7 +634,7 @@
       "tags": "Taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/765940d5-afb5-4da8-a105-1efb84a2ece1",
       "source": "First Year Calculus 11.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "bf3ce05e-bf28-42bd-8946-34ad736bbb66",
@@ -651,7 +651,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/bf3ce05e-bf28-42bd-8946-34ad736bbb66",
       "source": "First Year Calculus 11.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "85fb1689-7e4c-494e-b838-498528b8233f",
@@ -668,7 +668,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/85fb1689-7e4c-494e-b838-498528b8233f",
       "source": "First Year Calculus 4.1.10",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "3ee97d17-1ed2-4d7a-9020-b37d5a29e1f5",
@@ -685,7 +685,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/3ee97d17-1ed2-4d7a-9020-b37d5a29e1f5",
       "source": "First Year Calculus 11.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "163769f6-79f3-4ebc-924f-f7bdc9e3bea6",
@@ -702,7 +702,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/163769f6-79f3-4ebc-924f-f7bdc9e3bea6",
       "source": "First Year Calculus 4.1.11",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "c94631f7-c674-4cd3-b386-372299bac5dc",
@@ -719,7 +719,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem ",
       "url": "/question/c94631f7-c674-4cd3-b386-372299bac5dc",
       "source": "First Year Calculus 11.1.4",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "a2ed3f51-1ae0-46d9-b561-9e3dd70cab3c",
@@ -736,7 +736,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/a2ed3f51-1ae0-46d9-b561-9e3dd70cab3c",
       "source": "First Year Calculus 4.1.12",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "55494829-4d7d-40eb-9d4f-0f96f28231ae",
@@ -753,7 +753,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/55494829-4d7d-40eb-9d4f-0f96f28231ae",
       "source": "First Year Calculus 11.1.4",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "b6b48001-324d-4017-bfb2-ef32afe82337",
@@ -770,7 +770,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b6b48001-324d-4017-bfb2-ef32afe82337",
       "source": "First Year Calculus 4.1.13",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "b3419623-fd49-4fcb-b728-a2a09ac27bcb",
@@ -787,7 +787,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b3419623-fd49-4fcb-b728-a2a09ac27bcb",
       "source": "First Year Calculus 4.1.14",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "2e5b2b2c-d7de-4207-8ea5-614eaed4c47b",
@@ -804,7 +804,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/2e5b2b2c-d7de-4207-8ea5-614eaed4c47b",
       "source": "First Year Calculus 11.1.5",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "b8e2803e-7149-4aef-947a-40b901c335c6",
@@ -821,7 +821,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b8e2803e-7149-4aef-947a-40b901c335c6",
       "source": "First Year Calculus 4.1.15",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "13aa87d4-f12b-4484-86b0-7c9a2a1031c1",
@@ -838,7 +838,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/13aa87d4-f12b-4484-86b0-7c9a2a1031c1",
       "source": "First Year Calculus 4.1.16",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "7c818de4-b9ef-41ea-b8fe-485f8a560323",
@@ -855,7 +855,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/7c818de4-b9ef-41ea-b8fe-485f8a560323",
       "source": "First Year Calculus 11.1.6",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "543fe86c-6775-4384-a8ef-a79b957082d6",
@@ -872,7 +872,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/543fe86c-6775-4384-a8ef-a79b957082d6",
       "source": "First Year Calculus 11.1.7",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "01fcd03f-cb1e-453a-b33e-3f8519dcd73c",
@@ -889,7 +889,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/01fcd03f-cb1e-453a-b33e-3f8519dcd73c",
       "source": "First Year Calculus 11.1.8",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "3d395022-f1b0-41eb-8c62-168825abe982",
@@ -906,7 +906,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/3d395022-f1b0-41eb-8c62-168825abe982",
       "source": "First Year Calculus 11.1.9",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "cc241c73-9c94-46a9-aef3-989a7462dc50",
@@ -923,7 +923,7 @@
       "tags": "derivative, rate of change, slope, functions, velocity",
       "url": "/question/cc241c73-9c94-46a9-aef3-989a7462dc50",
       "source": "First Year Calculus 4.1.17",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "8a33948b-af31-4bf7-b81d-67909d6586a7",
@@ -940,7 +940,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem, converges",
       "url": "/question/8a33948b-af31-4bf7-b81d-67909d6586a7",
       "source": "First Year Calculus 11.1.10",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "bb7d107e-7b11-463a-b5bb-a820aa492c91",
@@ -957,7 +957,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/bb7d107e-7b11-463a-b5bb-a820aa492c91",
       "source": "First Year Calculus 11.1.11",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "8b68e06d-c4b8-47aa-a957-3287b1d68b45",
@@ -974,7 +974,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/8b68e06d-c4b8-47aa-a957-3287b1d68b45",
       "source": "First Year Calculus 4.1.18",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "8ed98b9b-0db2-4330-9381-f3ac28e6d201",
@@ -991,7 +991,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/8ed98b9b-0db2-4330-9381-f3ac28e6d201",
       "source": "First Year Calculus 11.1.12",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "c66f73e5-b32d-4ba6-94f6-ae6892009f78",
@@ -1008,7 +1008,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/c66f73e5-b32d-4ba6-94f6-ae6892009f78",
       "source": "First Year Calculus 4.1.19",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "4fc19328-98cc-4abd-96cd-eebcb951f03b",
@@ -1025,7 +1025,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/4fc19328-98cc-4abd-96cd-eebcb951f03b",
       "source": "First Year Calculus 11.1.13",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "b4a6e5cb-fe96-4651-b9b8-740f9524afe3",
@@ -1042,7 +1042,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b4a6e5cb-fe96-4651-b9b8-740f9524afe3",
       "source": "First Year Calculus 4.1.20",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "12904644-87d1-42fb-b224-ea5817a769af",
@@ -1059,7 +1059,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/12904644-87d1-42fb-b224-ea5817a769af",
       "source": "First Year Calculus 4.1.21",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "31c3e9ba-dbaa-4f8d-9056-9e99df78a1fb",
@@ -1076,7 +1076,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/31c3e9ba-dbaa-4f8d-9056-9e99df78a1fb",
       "source": "First Year Calculus 4.1.22",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "b3451262-e8e9-41b7-94f6-8940ceef0e3a",
@@ -1093,7 +1093,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/b3451262-e8e9-41b7-94f6-8940ceef0e3a",
       "source": "First Year Calculus 11.1.14",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "a0feb5c9-1ee8-4d5d-b747-429c6074f45e",
@@ -1110,7 +1110,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/a0feb5c9-1ee8-4d5d-b747-429c6074f45e",
       "source": "First Year Calculus 11.1.15",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "cb71adac-f089-420c-92b2-cf248487fde6",
@@ -1127,7 +1127,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/cb71adac-f089-420c-92b2-cf248487fde6",
       "source": "First Year Calculus 11.1.16",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "b66eab4b-a460-4fa0-8af6-dc65148b7d17",
@@ -1144,7 +1144,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem, maclaurin series",
       "url": "/question/b66eab4b-a460-4fa0-8af6-dc65148b7d17",
       "source": "First Year Calculus 11.1.17",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "43f39eab-1cad-4aa5-92b6-88149e26d342",
@@ -1161,7 +1161,7 @@
       "tags": "maclaurin series, taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/43f39eab-1cad-4aa5-92b6-88149e26d342",
       "source": "First Year Calculus 11.1.18",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "83181d7f-83e0-487a-a156-b5e422be7745",
@@ -1178,7 +1178,7 @@
       "tags": "maclauring series, taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/83181d7f-83e0-487a-a156-b5e422be7745",
       "source": "First Year Calculus 11.19",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "1ef070dc-0e24-4b3b-a85e-046d188f5336",
@@ -1195,7 +1195,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series, antiderivative, series expansion ",
       "url": "/question/1ef070dc-0e24-4b3b-a85e-046d188f5336",
       "source": "First Year Calculus 11.1.20",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "bcec6764-d474-4655-b320-3421402a703e",
@@ -1212,7 +1212,7 @@
       "tags": "MacLaurini series, taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/bcec6764-d474-4655-b320-3421402a703e",
       "source": "First Year Calculus 11.1.21",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "515f8a0b-1f19-4950-945a-2e7c47e852b9",
@@ -1229,7 +1229,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem, maclaurin series, series",
       "url": "/question/515f8a0b-1f19-4950-945a-2e7c47e852b9",
       "source": "First Year Calculus 11.1.22",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "144f76e9-76f5-4b55-ae7d-abed1b9c27d6",
@@ -1246,7 +1246,7 @@
       "tags": "maclaurin series, taylor\u0027s theorem, taylor\u0027s series, series",
       "url": "/question/144f76e9-76f5-4b55-ae7d-abed1b9c27d6",
       "source": "First Year Calculus 11.1.23",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "7d3c300b-2940-41e6-aaa6-0c50280450ea",
@@ -1263,7 +1263,7 @@
       "tags": "taylor series, maclaurin series, series",
       "url": "/question/7d3c300b-2940-41e6-aaa6-0c50280450ea",
       "source": "First Year Calculus 11.1.24",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "d90575d1-bef9-4748-be35-b714b10aa1c0",
@@ -1280,7 +1280,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/d90575d1-bef9-4748-be35-b714b10aa1c0",
       "source": "First Year Calculus 4.4.1",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "4caadafc-6162-436b-8ade-cc21bdee3c90",
@@ -1297,7 +1297,7 @@
       "tags": "binomial series, sum notation, series",
       "url": "/question/4caadafc-6162-436b-8ade-cc21bdee3c90",
       "source": "First Year Calculus 11.1.25",
-      "topic": "Calculus/Sequences and Series/Sequences/Limit/Approaching Infinity"
+      "topic": "Calculus/Sequences and Series/Sequences/Evaluating Approaching Infinity"
     },
     {
       "uuid": "5de5932e-8620-4b44-87de-8bb4700aa3d9",
@@ -1314,7 +1314,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/5de5932e-8620-4b44-87de-8bb4700aa3d9",
       "source": "First Year Calculus 4.4.2",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "0508a6d9-5e08-4cbb-9deb-40e5c972d21c",
@@ -1331,7 +1331,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/0508a6d9-5e08-4cbb-9deb-40e5c972d21c",
       "source": "First Year Calculus 4.4.3",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "4a796e8f-58e0-4a2c-9937-edb3e23c1c7f",
@@ -1348,7 +1348,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/4a796e8f-58e0-4a2c-9937-edb3e23c1c7f",
       "source": "First Year Calculus 4.4.4",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "6c3039f2-961f-4130-b4c0-819cf7dcd1f8",
@@ -1365,7 +1365,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/6c3039f2-961f-4130-b4c0-819cf7dcd1f8",
       "source": "First Year Calculus 4.4.5",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "a704e3ad-ed77-4886-a7f9-f3d2622be3bd",
@@ -1382,7 +1382,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/a704e3ad-ed77-4886-a7f9-f3d2622be3bd",
       "source": "First Year Calculus 4.4.6",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "69bdee1e-2481-455b-b34d-c8eb57fe82e2",
@@ -1399,7 +1399,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/69bdee1e-2481-455b-b34d-c8eb57fe82e2",
       "source": "First Year Calculus 4.4.7",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "ca1475ab-4425-4556-96da-bde8e0967dab",
@@ -1416,7 +1416,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/ca1475ab-4425-4556-96da-bde8e0967dab",
       "source": "First Year Calculus 4.4.8",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "339b7cb0-f1ed-45b4-86f7-6cba283a5783",
@@ -1450,7 +1450,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/4e82ef6c-0437-4ba9-bb1d-5e3787476c65",
       "source": "First Year Calculus 4.4.9",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "ed163e87-80af-4ef8-b135-ccf4f2805e70",
@@ -1467,7 +1467,7 @@
       "tags": "derivative, rate of change, slope, functions, chain rule, power rule",
       "url": "/question/ed163e87-80af-4ef8-b135-ccf4f2805e70",
       "source": "First Year Calculus 4.4.10",
-      "topic": "Calculus/Applications of the Derivative/Related Rates/Rate of Change/Derivative"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
     },
     {
       "uuid": "da286d7d-edee-4b7c-9e5b-27e2bc3167be",
@@ -1484,7 +1484,7 @@
       "tags": "binomial series, series expansion, interval",
       "url": "/question/da286d7d-edee-4b7c-9e5b-27e2bc3167be",
       "source": "First Year Calculus 11.1.27",
-      "topic": "Calculus/Sequences and Series/Sequences/Limit/Approaching Infinity"
+      "topic": "Calculus/Sequences and Series/Sequences/Evaluating Approaching Infinity"
     },
     {
       "uuid": "32582398-09ae-44ec-8e7b-bf79988dcb60",
@@ -1501,7 +1501,7 @@
       "tags": "series",
       "url": "/question/32582398-09ae-44ec-8e7b-bf79988dcb60",
       "source": "First Year Calculus 11.1.28",
-      "topic": "Algebra/Sequences and Series/Mathematical Patterns/Sequence/Term"
+      "topic": "Algebra/Sequences/Mathematical Patterns/Sequence/Term"
     },
     {
       "uuid": "a390dec0-5448-4855-8cfe-66d41d8aa9d3",
@@ -1518,7 +1518,7 @@
       "tags": "series, maclaurin series, taylor series",
       "url": "/question/a390dec0-5448-4855-8cfe-66d41d8aa9d3",
       "source": "First Year Calculus 11.1.29",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "6b052998-dd76-415a-b1e1-4058e97cd59f",
@@ -1535,7 +1535,7 @@
       "tags": "series, maclaurin series, taylor series",
       "url": "/question/6b052998-dd76-415a-b1e1-4058e97cd59f",
       "source": "First Year Calculus 11.1.29",
-      "topic": "Calculus/Sequences and Series/Taylor Series/Maclaurin Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
     },
     {
       "uuid": "6dd3e5cf-7895-46ae-80f1-d32ffd92f54a",
@@ -1552,7 +1552,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/6dd3e5cf-7895-46ae-80f1-d32ffd92f54a",
       "source": "First Year Calculus 4.4.11",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke�s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "0e03d545-d961-4fc6-af9a-69bf2a3ac33d",
@@ -1569,7 +1569,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/0e03d545-d961-4fc6-af9a-69bf2a3ac33d",
       "source": "First Year Calculus 4.4.12",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke�s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "3d9e4454-dbde-415f-9e12-6f86d676d648",
@@ -1586,7 +1586,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/3d9e4454-dbde-415f-9e12-6f86d676d648",
       "source": "First Year Calculus 4.4.13",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke�s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "6a5fe4f7-3d91-4e74-a0be-e4b2a3710395",
@@ -1603,7 +1603,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/6a5fe4f7-3d91-4e74-a0be-e4b2a3710395",
       "source": "First Year Calculus 4.4.14",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke�s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "6dfe30be-ea35-467f-b251-ce1476b53da9",
@@ -1620,7 +1620,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/6dfe30be-ea35-467f-b251-ce1476b53da9",
       "source": "First Year Calculus 4.4.15",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke�s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     },
     {
       "uuid": "7a18bc4d-823a-4dd2-900b-4d7961d48879",
@@ -1637,7 +1637,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/7a18bc4d-823a-4dd2-900b-4d7961d48879",
       "source": "First Year Calculus 4.4.16",
-      "topic": "Calculus/Applications of Integration/Work/Force/Hooke�s Law"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
     }
   ],
   "textContent": [
@@ -1651,12 +1651,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Valid Manipulations with Taylor/Power Series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5580.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5581.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5583.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5584.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5585.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5586.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5587.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5588.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5589.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5590.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5580.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5581.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5583.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5584.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5585.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5586.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5587.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5588.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5589.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5590.png\"/\u003e",
       "allAnswers": [],
       "tags": "power series, taylor series, taylor polynomials, maclaurin series",
       "url": "/text-content/af255535-af0d-40d2-9bca-eed468220287",
       "source": "Forgotten Text 4 11.5",
-      "topic": "Calculus/Taylor Series/General Power Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/General Power Series"
     },
     {
       "uuid": "ff65f807-cfc3-41c6-97bb-9b837aa48a0e",
@@ -1668,12 +1668,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Complex Numbers",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5591.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5597.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5598.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5599.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5600.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5601.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5602.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5603.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5604.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5591.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5597.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5598.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5599.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5600.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5601.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5602.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5603.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5604.png\"/\u003e",
       "allAnswers": [],
       "tags": "complex numbers, power series, taylor series, discontinuity, polynomials, Abel\u0027s Theorem",
       "url": "/text-content/ff65f807-cfc3-41c6-97bb-9b837aa48a0e",
       "source": "Forgotten Text 4 11.6",
-      "topic": "Calculus/Taylor Series/Complex Numbers"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Complex Numbers"
     },
     {
       "uuid": "9dfd62e3-296e-4fd7-ab77-3a7076bf2587",
@@ -1685,12 +1685,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Conic Sections",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5605.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5606.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5608.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5609.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5610.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5613.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5616.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5617.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5618.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5619.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5620.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5621.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5605.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5606.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5608.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5609.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5610.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5613.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5616.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5617.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5618.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5619.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5620.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5621.png\"/\u003e",
       "allAnswers": [],
       "tags": "conic sections, analytic geometry, three dimensional shapes",
       "url": "/text-content/9dfd62e3-296e-4fd7-ab77-3a7076bf2587",
       "source": "Forgotten Text 4 12.1",
-      "topic": "Calculus/Analytic Geometry/Conic Sections"
+      "topic": "Calculus/Other Calculus Topics/Analytic Geometry/Conic Sections"
     },
     {
       "uuid": "b689753f-387d-4351-bc77-d22a3920d4da",
@@ -1702,12 +1702,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parametric Curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5622.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5623.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5624.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5625.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5626.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5622.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5623.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5624.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5625.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5626.png\"/\u003e",
       "allAnswers": [],
       "tags": "parametric curves, polar coordinates, vectors, scalar dot products",
       "url": "/text-content/b689753f-387d-4351-bc77-d22a3920d4da",
       "source": "Forgotten Text 4 12.2",
-      "topic": "Calculus/Analytic Geometry/Parametric Curves"
+      "topic": "Calculus/Other Calculus Topics/Analytic Geometry/Parametric Curves"
     },
     {
       "uuid": "bcc42f07-f93f-43a7-b5fc-333c14857384",
@@ -1719,12 +1719,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Area",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5628.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5629.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5631.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5632.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5628.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5629.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5631.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5632.png\"/\u003e",
       "allAnswers": [],
       "tags": "area, integral, integration ",
       "url": "/text-content/bcc42f07-f93f-43a7-b5fc-333c14857384",
       "source": "Forgotten Text 5 1.1",
-      "topic": "Calculus/Integral/Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area"
     }
   ],
   "answers": [],

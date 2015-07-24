@@ -205,7 +205,7 @@
       "tags": "interval, sets of numbers, points, coordinates",
       "url": "/question/1fdd86bc-a03b-4888-839c-7abd27232f49",
       "source": "Active Calc 1.1.39",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "0268b8b4-143d-48d9-b568-7dba9bc37c8c",
@@ -222,7 +222,7 @@
       "tags": "word problem, sets of numbers, Cartesian Plane, Cartesian Coordinates, Distance formula, midpoint formula",
       "url": "/question/0268b8b4-143d-48d9-b568-7dba9bc37c8c",
       "source": "Active Calc 1.1.40",
-      "topic": "Geometry/Points Lines Planes and Angles/Coordinate Geometry"
+      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
     },
     {
       "uuid": "63d3b34a-ebc5-4456-8f18-b9fb9787c4e4",
@@ -853,7 +853,7 @@
       "tags": "mathematical inductions, series, sequences ",
       "url": "/text-content/0eef7f5e-d036-4dd5-a540-b3f1eb42e205",
       "source": "Precalculus, 3rd Edition 9.3",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Induction"
     },
     {
       "uuid": "a737e637-da99-447d-8664-3eba0477c4ac",
@@ -870,7 +870,7 @@
       "tags": "binomial theorem, sequences, theorems, pascal\u0027s triangle ",
       "url": "/text-content/a737e637-da99-447d-8664-3eba0477c4ac",
       "source": "Precalculus, 3rd Edition 9.4",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/The Binomial Theorem"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/The Binomial Theorem"
     },
     {
       "uuid": "c4143820-e27f-4b13-9862-f2c0de38a5eb",
@@ -887,7 +887,7 @@
       "tags": "angles, angle measures, trigonometry, circular motion, angular velocity, velocity, radian conversion ",
       "url": "/text-content/c4143820-e27f-4b13-9862-f2c0de38a5eb",
       "source": "Precalculus, 3rd Edition 10.1",
-      "topic": "Pre-Calculus/Trigonometry/Angles and Their Measure/Angles"
+      "topic": "Trigonometry/Measure of an Angle/Angles"
     }
   ],
   "answers": [],

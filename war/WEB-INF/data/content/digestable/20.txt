@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/152.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/152.png\"/\u003e",
       "uuid": "11d72f03-cacb-47ba-ad0f-40cebb8eb8bc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove rhombus ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/151.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/151.png\"/\u003e",
       "allAnswers": [],
       "tags": "proving a rhombus ",
       "url": "/practice-problem/11d72f03-cacb-47ba-ad0f-40cebb8eb8bc",
       "source": "null 10.5.2 "
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/157.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/157.png\"/\u003e",
       "uuid": "5001dbb7-ba75-4200-b5ee-005ba0a0caf4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find square angle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/156.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/156.png\"/\u003e",
       "allAnswers": [],
       "tags": "square angle, angle ",
       "url": "/practice-problem/5001dbb7-ba75-4200-b5ee-005ba0a0caf4",
       "source": "null 10.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/166.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/166.png\"/\u003e",
       "uuid": "e5b4a8ac-79f0-4bec-9b1d-457be3c2b786",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Describe shapes ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/164.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/165.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/164.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/165.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallelogram, trapezoid ",
       "url": "/practice-problem/e5b4a8ac-79f0-4bec-9b1d-457be3c2b786",
       "source": "null 10.7.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/183.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/183.png\"/\u003e",
       "uuid": "4bff8ac6-d1a1-42a7-875b-0490d109b48d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Plane perpendicularity ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/181.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/182.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/181.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/182.png\"/\u003e",
       "allAnswers": [],
       "tags": "planes, perpendicular ",
       "url": "/practice-problem/4bff8ac6-d1a1-42a7-875b-0490d109b48d",
       "source": "null 11.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/186.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/186.png\"/\u003e",
       "uuid": "64a213f3-7d7c-48f9-aedd-c1efbb72fb23",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove not perpendicular",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/185.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/185.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, perpendicular ",
       "url": "/practice-problem/64a213f3-7d7c-48f9-aedd-c1efbb72fb23",
       "source": "null 11.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/195.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/195.png\"/\u003e",
       "uuid": "71afe201-0135-4194-91f1-f9110caf6034",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallel planes ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/193.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/194.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/193.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/194.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel, planes ",
       "url": "/practice-problem/71afe201-0135-4194-91f1-f9110caf6034",
       "source": "null 11.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/197.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/197.png\"/\u003e",
       "uuid": "4d650014-080a-4c28-82e0-be2f43a60909",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Vertices of a parallelogram",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/196.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/196.png\"/\u003e",
       "allAnswers": [],
       "tags": "vertices, parallelogram ",
       "url": "/practice-problem/4d650014-080a-4c28-82e0-be2f43a60909",
       "source": "null 11.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/203.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/203.png\"/\u003e",
       "uuid": "2647b10e-596b-4e41-8112-ce64294fcf1f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Lateral sides and area",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/202.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/202.png\"/\u003e",
       "allAnswers": [],
       "tags": "lateral sides, lateral areas ",
       "url": "/practice-problem/2647b10e-596b-4e41-8112-ce64294fcf1f",
       "source": "null 11.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/206.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/206.png\"/\u003e",
       "uuid": "936030e2-a590-43d8-8459-e6780359d96d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Equilateral pentagons",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/204.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/205.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/204.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/205.png\"/\u003e",
       "allAnswers": [],
       "tags": "equilateral pentagons ",
       "url": "/practice-problem/936030e2-a590-43d8-8459-e6780359d96d",
       "source": "null 11.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/214.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/214.png\"/\u003e",
       "uuid": "32deb9af-561e-4303-8cc9-938de13f04e9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Lateral area of pyramid",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/212.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/213.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/212.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/213.png\"/\u003e",
       "allAnswers": [],
       "tags": "lateral area, pyramid",
       "url": "/practice-problem/32deb9af-561e-4303-8cc9-938de13f04e9",
       "source": "null 11.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/222.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/222.png\"/\u003e",
       "uuid": "4da30866-7434-4ffd-b7f2-a89f6cb0b994",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,7 +182,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Radius of base of Cylinder",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/221.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/221.png\"/\u003e",
       "allAnswers": [],
       "tags": "radius of base, cylinder ",
       "url": "/practice-problem/4da30866-7434-4ffd-b7f2-a89f6cb0b994",
@@ -206,7 +206,7 @@
       "source": "null 7.6.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/233.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/233.png\"/\u003e",
       "uuid": "6fd291da-ec4a-4bee-8519-5a40b92fb44e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Mean proportion ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/232.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/232.png\"/\u003e",
       "allAnswers": [],
       "tags": "mean proportion ",
       "url": "/practice-problem/6fd291da-ec4a-4bee-8519-5a40b92fb44e",
       "source": "null 12.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/235.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/235.png\"/\u003e",
       "uuid": "06a17a8c-c341-400c-8d6c-140ffae11f1d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Measure of exterior angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/234.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/234.png\"/\u003e",
       "allAnswers": [],
       "tags": "exterior angle, angle ",
       "url": "/practice-problem/06a17a8c-c341-400c-8d6c-140ffae11f1d",
       "source": "null 12.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/241.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/241.png\"/\u003e",
       "uuid": "3bfb34de-8eee-497f-8137-a0147bba8481",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Proportional division",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/240.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/240.png\"/\u003e",
       "allAnswers": [],
       "tags": "proportion, division, line segments ",
       "url": "/practice-problem/3bfb34de-8eee-497f-8137-a0147bba8481",
       "source": "null 12.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/244.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/244.png\"/\u003e",
       "uuid": "66c1f307-d5e0-4e88-ad48-4b679891a355",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove based on proportion",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/243.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/243.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, proportions ",
       "url": "/practice-problem/66c1f307-d5e0-4e88-ad48-4b679891a355",
       "source": "null 12.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/254.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/254.png\"/\u003e",
       "uuid": "0fb85233-e420-48d3-8a79-42aac8877899",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Finding line lengths",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/253.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/253.png\"/\u003e",
       "allAnswers": [],
       "tags": "",
       "url": "/practice-problem/0fb85233-e420-48d3-8a79-42aac8877899",
       "source": "null 12.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/256.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/256.png\"/\u003e",
       "uuid": "c3adcc25-e85a-48eb-afa1-48a48765ed1b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving equality and similarity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/255.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/255.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, equality, similarity",
       "url": "/practice-problem/c3adcc25-e85a-48eb-afa1-48a48765ed1b",
       "source": "null 12.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/261.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/261.png\"/\u003e",
       "uuid": "e1f0ba31-0e7c-4fdd-b7f4-1b172b6a494a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Coordinates under transformations ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/260.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/260.png\"/\u003e",
       "allAnswers": [],
       "tags": "transformations, coordinates ",
       "url": "/practice-problem/e1f0ba31-0e7c-4fdd-b7f4-1b172b6a494a",
       "source": "null 12.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/266.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/266.png\"/\u003e",
       "uuid": "90cbd6a8-cd97-4712-a2da-6f75a8add5d8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,7 +335,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove equality and similarity ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/265.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/265.png\"/\u003e",
       "allAnswers": [],
       "tags": "prove equality, prove similarity, equality, similarity ",
       "url": "/practice-problem/90cbd6a8-cd97-4712-a2da-6f75a8add5d8",
@@ -358,7 +358,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/e0cb238a-80aa-4a4c-8139-55df5f6e06d7",
       "source": "Math 222 3.1.25",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "2fae6c9f-98aa-4f3d-b33a-669f1c61d924",
@@ -375,7 +375,7 @@
       "tags": "vector, drawing vector",
       "url": "/question/2fae6c9f-98aa-4f3d-b33a-669f1c61d924",
       "source": "Math 222 5.1.14",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "e6851ccb-4219-4fb0-9b67-3606498e9e98",
@@ -392,7 +392,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/e6851ccb-4219-4fb0-9b67-3606498e9e98",
       "source": "Math 222 3.1.26",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "d5cca6c9-b991-4436-b3e9-f9ce245bf09e",
@@ -409,7 +409,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/d5cca6c9-b991-4436-b3e9-f9ce245bf09e",
       "source": "Math 222 3.1.27",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "1bbd546f-7bbb-46e5-9f34-074d0007c767",
@@ -426,7 +426,7 @@
       "tags": "vector, drawing vectors, position vectors",
       "url": "/question/1bbd546f-7bbb-46e5-9f34-074d0007c767",
       "source": "Math 222 5.1.14",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "e179dba7-f019-4b1a-b11d-d53cbd47e36f",
@@ -443,7 +443,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/e179dba7-f019-4b1a-b11d-d53cbd47e36f",
       "source": "Math 222 3.1.28",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "d5704ed5-b78f-4f2d-846a-b04d55425b33",
@@ -460,7 +460,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/d5704ed5-b78f-4f2d-846a-b04d55425b33",
       "source": "Math 222 3.1.29",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "84280221-425e-4bc3-a4c6-4ba7e143ac26",
@@ -477,7 +477,7 @@
       "tags": "parametric equation, coordinate planes, line, vectors",
       "url": "/question/84280221-425e-4bc3-a4c6-4ba7e143ac26",
       "source": "Math 222 5.1.16",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "9f07029b-3f60-422d-9d46-25b88772f2c8",
@@ -494,7 +494,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/9f07029b-3f60-422d-9d46-25b88772f2c8",
       "source": "Math 222 3.1.30",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "14e028e6-e878-4e30-a52b-3cdc4c64fe6b",
@@ -511,7 +511,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/14e028e6-e878-4e30-a52b-3cdc4c64fe6b",
       "source": "Math 222 3.1.31",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "3a5e00cf-14da-457f-8d0f-50e0a26cfadd",
@@ -528,7 +528,7 @@
       "tags": "vectors",
       "url": "/question/3a5e00cf-14da-457f-8d0f-50e0a26cfadd",
       "source": "Math 222 5.1.17",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "abf1de55-3c43-4408-96c2-5f9cd42494dc",
@@ -545,7 +545,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/abf1de55-3c43-4408-96c2-5f9cd42494dc",
       "source": "Math 222 3.1.32",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "6d8ef5c9-f01f-46af-964e-dac536c153b8",
@@ -562,7 +562,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/6d8ef5c9-f01f-46af-964e-dac536c153b8",
       "source": "Math 222 3.1.33",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "91fc95b7-9343-40c1-b535-a24dfe8952a5",
@@ -579,7 +579,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/91fc95b7-9343-40c1-b535-a24dfe8952a5",
       "source": "Math 222 3.1.34",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "98943374-dda4-423e-a1bb-39d185f652b1",
@@ -596,7 +596,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/98943374-dda4-423e-a1bb-39d185f652b1",
       "source": "Math 222 3.1.35",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "3e943d28-fd16-490c-b440-3dbc19725a8b",
@@ -613,7 +613,7 @@
       "tags": "vectors, triangle, position vector, midpoint",
       "url": "/question/3e943d28-fd16-490c-b440-3dbc19725a8b",
       "source": "Math 222 5.1.18",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "42ea0eca-1350-4d93-bbce-a3a9c6653684",
@@ -630,7 +630,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/42ea0eca-1350-4d93-bbce-a3a9c6653684",
       "source": "Math 222 3.1.36",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "65fd9870-b6da-46e2-918b-18ed2fede11b",
@@ -647,7 +647,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/65fd9870-b6da-46e2-918b-18ed2fede11b",
       "source": "Math 222 3.1.37",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "68bc9375-037f-44e2-89fe-961f45e2735c",
@@ -664,7 +664,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/68bc9375-037f-44e2-89fe-961f45e2735c",
       "source": "Math 222 3.1.38",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "f7cdd5b3-22d5-42e8-90e2-c726bb76a53d",
@@ -681,7 +681,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/f7cdd5b3-22d5-42e8-90e2-c726bb76a53d",
       "source": "Math 222 3.1.39",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "04248b0f-abbf-452d-8a5b-315cef7a2b55",
@@ -698,7 +698,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/04248b0f-abbf-452d-8a5b-315cef7a2b55",
       "source": "Math 222 3.1.40",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "f4056c6f-0490-4f6e-ae9f-845c71e1e136",
@@ -715,7 +715,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/f4056c6f-0490-4f6e-ae9f-845c71e1e136",
       "source": "Math 222 3.1.41",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "0145f4c7-cdbd-4cda-b962-e3785d3ee90e",
@@ -732,7 +732,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/0145f4c7-cdbd-4cda-b962-e3785d3ee90e",
       "source": "Math 222 3.1.42",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "d5600dd5-a6e8-49a7-a321-4dd17cda54af",
@@ -749,7 +749,7 @@
       "tags": "vector, tetrahedrom, midpoint, position vector",
       "url": "/question/d5600dd5-a6e8-49a7-a321-4dd17cda54af",
       "source": "Math 222 5.1.19",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "c49cb6e6-1914-4c2e-ad5c-7580a904d87b",
@@ -766,7 +766,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/c49cb6e6-1914-4c2e-ad5c-7580a904d87b",
       "source": "Math 222 3.1.43",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "29114cb4-7ee4-4b6b-b66d-0f36363d6364",
@@ -783,7 +783,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/29114cb4-7ee4-4b6b-b66d-0f36363d6364",
       "source": "Math 222 3.1.44",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "12d03fcb-144f-47a0-b292-22ec18b413e7",
@@ -800,7 +800,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/12d03fcb-144f-47a0-b292-22ec18b413e7",
       "source": "Math 222 3.1.45",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "a68e25f8-7216-4c21-bafb-52c021b98cfb",
@@ -817,7 +817,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/a68e25f8-7216-4c21-bafb-52c021b98cfb",
       "source": "Math 222 3.1.46",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "83018cfd-d493-476a-add9-81e4d5c8b493",
@@ -834,7 +834,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/83018cfd-d493-476a-add9-81e4d5c8b493",
       "source": "Math 222 3.1.47",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "5fffaab2-6c64-4cf3-abb4-1384b6c448ee",
@@ -851,7 +851,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/5fffaab2-6c64-4cf3-abb4-1384b6c448ee",
       "source": "Math 222 3.1.48",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "28d68f7e-8a58-4daa-9c2f-d920c09d7287",
@@ -868,7 +868,7 @@
       "tags": "vectors",
       "url": "/question/28d68f7e-8a58-4daa-9c2f-d920c09d7287",
       "source": "Math 222 5.1.20",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "b62c88de-0da4-4990-a6b9-e6a5bffab410",
@@ -885,7 +885,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/b62c88de-0da4-4990-a6b9-e6a5bffab410",
       "source": "Math 222 3.1.49",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "86a73f6a-381e-45d0-a29a-a5802c43e606",
@@ -902,7 +902,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/86a73f6a-381e-45d0-a29a-a5802c43e606",
       "source": "Math 222 3.1.50",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "a066d038-8724-408b-a3f6-fbb82ec341dd",
@@ -919,7 +919,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/a066d038-8724-408b-a3f6-fbb82ec341dd",
       "source": "Math 222 3.1.51",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "d8d2dc49-79a5-4460-aaa8-c07215363247",
@@ -936,7 +936,7 @@
       "tags": "vector, word problem",
       "url": "/question/d8d2dc49-79a5-4460-aaa8-c07215363247",
       "source": "Math 222 5.1.21",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "4821d693-bc7f-462d-b6e6-e9dd1b3d1e0d",
@@ -953,7 +953,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/4821d693-bc7f-462d-b6e6-e9dd1b3d1e0d",
       "source": "Math 222 3.1.52",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "c08ca6dc-a2ea-4451-b9ff-cb4dc0b516d9",
@@ -970,7 +970,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/c08ca6dc-a2ea-4451-b9ff-cb4dc0b516d9",
       "source": "Math 222 3.1.53",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "01674ee3-f6e2-403a-b80c-1c4c346aaf26",
@@ -987,7 +987,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/01674ee3-f6e2-403a-b80c-1c4c346aaf26",
       "source": "Math 222 3.1.54",
-      "topic": "Algebra/Quadratic Equations and Functions/Complex Numbers/Imaginary Numbers"
+      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
     },
     {
       "uuid": "405017a5-c566-41c3-94bf-5124efe7b6ec",
@@ -1004,7 +1004,7 @@
       "tags": "vectors, word problem",
       "url": "/question/405017a5-c566-41c3-94bf-5124efe7b6ec",
       "source": "Math 222 5.1.22",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "845c876a-7f28-46ab-b0d3-c11be6b33461",
@@ -1021,7 +1021,7 @@
       "tags": "vectors",
       "url": "/question/845c876a-7f28-46ab-b0d3-c11be6b33461",
       "source": "Math 222 5.1.23",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "1d494044-53ad-4d23-8e77-ddc968fdbb18",
@@ -1038,7 +1038,7 @@
       "tags": "vectors, vertices, angles",
       "url": "/question/1d494044-53ad-4d23-8e77-ddc968fdbb18",
       "source": "Math 222 5.1.24",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "0ec0893a-d3b8-495f-aaab-6079841aa111",
@@ -1055,7 +1055,7 @@
       "tags": "vectors, parametric equation, triangles ",
       "url": "/question/0ec0893a-d3b8-495f-aaab-6079841aa111",
       "source": "Math 222 5.1.25",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "ee42b456-887b-47ae-b39c-7b3e57790c8b",
@@ -1072,7 +1072,7 @@
       "tags": "vectors, defining equation, normal vectors",
       "url": "/question/ee42b456-887b-47ae-b39c-7b3e57790c8b",
       "source": "Math 222 5.1.26",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "5b8d91cd-4d0c-4fb5-80bc-d350c5b6b19b",
@@ -1089,7 +1089,7 @@
       "tags": "parametrizations, intersect, vectors",
       "url": "/question/5b8d91cd-4d0c-4fb5-80bc-d350c5b6b19b",
       "source": "Math 222 5.1.27",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "5bf8998f-79f5-4ea3-8b78-6f4311c9866e",
@@ -1106,7 +1106,7 @@
       "tags": "parametrization, vectors",
       "url": "/question/5bf8998f-79f5-4ea3-8b78-6f4311c9866e",
       "source": "Math 222 5.1.28",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "b249661c-43a1-47bc-a554-6da485012c47",
@@ -1123,7 +1123,7 @@
       "tags": "vectors, parametrization ",
       "url": "/question/b249661c-43a1-47bc-a554-6da485012c47",
       "source": "Math 222 5.1.29",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "aaf79157-2d32-4cd2-9170-04fea6b70625",
@@ -1140,7 +1140,7 @@
       "tags": "cross product, vectors",
       "url": "/question/aaf79157-2d32-4cd2-9170-04fea6b70625",
       "source": "Math 222 5.1.30",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product/Relation of Magnitude/Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product and Projection/Relation of Magnitude"
     },
     {
       "uuid": "d614f463-d55f-4ddf-9a7c-109954c2b4de",
@@ -1157,7 +1157,7 @@
       "tags": "cross product, vectors",
       "url": "/question/d614f463-d55f-4ddf-9a7c-109954c2b4de",
       "source": "Math 222 5.1.31",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product/Relation of Magnitude/Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product and Projection/Relation of Magnitude"
     },
     {
       "uuid": "b053522b-cfc1-40be-af0f-9cf7b2ce3df1",
@@ -1174,7 +1174,7 @@
       "tags": "cross product, vectors",
       "url": "/question/b053522b-cfc1-40be-af0f-9cf7b2ce3df1",
       "source": "Math 222 5.1.32",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product/Relation of Magnitude/Vectors"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product and Projection/Relation of Magnitude"
     },
     {
       "uuid": "9078d8e3-306e-4818-9173-e49025cb7bc0",
@@ -1191,7 +1191,7 @@
       "tags": "vectors, cross product",
       "url": "/question/9078d8e3-306e-4818-9173-e49025cb7bc0",
       "source": "Math 222 5.1.33",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "9b6cdd7a-7b1f-4e1b-a7c8-b2e8a10aad32",
@@ -1208,7 +1208,7 @@
       "tags": "vector, triangle, coordinate axes",
       "url": "/question/9b6cdd7a-7b1f-4e1b-a7c8-b2e8a10aad32",
       "source": "Math 222 5.1.34",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "afc89688-402a-47dc-af98-10ed0df87a20",
@@ -1225,7 +1225,7 @@
       "tags": "vector, plane",
       "url": "/question/afc89688-402a-47dc-af98-10ed0df87a20",
       "source": "Math 222 5.1.35",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "f1d47003-3503-469b-b9a4-70e7e21b9b25",
@@ -1242,7 +1242,7 @@
       "tags": "vectors, parallelogram, area",
       "url": "/question/f1d47003-3503-469b-b9a4-70e7e21b9b25",
       "source": "Math 222 5.1.36",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "39b4a55f-cd9f-47f9-b403-f7feaaf47efe",
@@ -1259,7 +1259,7 @@
       "tags": "vectors, area, volume",
       "url": "/question/39b4a55f-cd9f-47f9-b403-f7feaaf47efe",
       "source": "Math 222 5.1.37",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "f808e91b-041e-4de0-8ed4-b5114fb0f131",
@@ -1276,7 +1276,7 @@
       "tags": "vectors, parametric equation, plane, position vectors, midpoints",
       "url": "/question/f808e91b-041e-4de0-8ed4-b5114fb0f131",
       "source": "Math 222 5.1.38",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "028d9fe9-d0a1-491f-afbf-5b1acf9ff89c",
@@ -1293,7 +1293,7 @@
       "tags": "parametrized curves, vectors",
       "url": "/question/028d9fe9-d0a1-491f-afbf-5b1acf9ff89c",
       "source": "Math 222 6.1.1",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "f5a97eb7-ba05-4e5a-8ab0-dc6b6ba72cf5",
@@ -1310,7 +1310,7 @@
       "tags": "parametrized curves, vectors, vector functions",
       "url": "/question/f5a97eb7-ba05-4e5a-8ab0-dc6b6ba72cf5",
       "source": "Math 222 6.1.2",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "30503564-025b-48f4-bbca-6a7cc40e30e2",
@@ -1327,7 +1327,7 @@
       "tags": "vectors, parametrized curves, vector functions",
       "url": "/question/30503564-025b-48f4-bbca-6a7cc40e30e2",
       "source": "Math 222 6.1.3",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "c14e2eca-4585-43d5-87e7-308bc029e627",
@@ -1344,7 +1344,7 @@
       "tags": "vector, vector function, parametrized curves",
       "url": "/question/c14e2eca-4585-43d5-87e7-308bc029e627",
       "source": "Math 222 6.1.4",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "8a0b268e-9a15-4d5d-8401-3478696cc2a7",
@@ -1361,7 +1361,7 @@
       "tags": "vector, vector function, parametrized curves",
       "url": "/question/8a0b268e-9a15-4d5d-8401-3478696cc2a7",
       "source": "Math 222 6.1.5",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "5d531630-0e4c-4853-b62b-9f233ad5f9f5",
@@ -1378,7 +1378,7 @@
       "tags": "parametrized curves, vector, vector function",
       "url": "/question/5d531630-0e4c-4853-b62b-9f233ad5f9f5",
       "source": "Math 222 6.1.6",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "4b54efa6-a889-4dfa-a7bd-984ad83398f4",
@@ -1395,7 +1395,7 @@
       "tags": "parametrized curves, vector, vector functions",
       "url": "/question/4b54efa6-a889-4dfa-a7bd-984ad83398f4",
       "source": "Math 222 6.1.7",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/Parametrization/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "bb1d8994-12e7-422e-af39-5d1fcd521b5b",
@@ -1412,7 +1412,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/bb1d8994-12e7-422e-af39-5d1fcd521b5b",
       "source": "Math 222 6.1.9",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "78d25ce2-5ad3-4d25-b9d8-01c8eab6498d",
@@ -1429,7 +1429,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/78d25ce2-5ad3-4d25-b9d8-01c8eab6498d",
       "source": "Math 222 6.1.10",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "819922d6-5450-45cf-bcfa-eb6bc6d24d77",
@@ -1446,7 +1446,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/819922d6-5450-45cf-bcfa-eb6bc6d24d77",
       "source": "Math 222 6.1.11",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "303593fe-8253-430a-a6ba-f3cb97d986d0",
@@ -1463,7 +1463,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/303593fe-8253-430a-a6ba-f3cb97d986d0",
       "source": "Math 222 6.1.12",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "79065f87-2d76-448f-8253-c631b5f1d559",
@@ -1480,7 +1480,7 @@
       "tags": "vector, vector function, parametric equation, circle",
       "url": "/question/79065f87-2d76-448f-8253-c631b5f1d559",
       "source": "Math 222 6.1.13",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "c8255b5b-c2fa-47da-a6fe-d37c593c18bb",
@@ -1497,7 +1497,7 @@
       "tags": "vector, vector function, parametric equation",
       "url": "/question/c8255b5b-c2fa-47da-a6fe-d37c593c18bb",
       "source": "Math 222 6.1.14",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "952a2485-eb5e-4721-b5a2-eb2797b760c9",
@@ -1514,7 +1514,7 @@
       "tags": "vector, vector function, parametric equation",
       "url": "/question/952a2485-eb5e-4721-b5a2-eb2797b760c9",
       "source": "Math 222 6.1.15",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "20625934-ea2c-46de-9921-e6a73706833d",
@@ -1531,7 +1531,7 @@
       "tags": "vector, vector function, parametric equation",
       "url": "/question/20625934-ea2c-46de-9921-e6a73706833d",
       "source": "Math 222 6.1.17",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "ed7b19a4-3821-4b66-9a15-01128af633fb",
@@ -1548,7 +1548,7 @@
       "tags": "product rule, vector, velocity vector",
       "url": "/question/ed7b19a4-3821-4b66-9a15-01128af633fb",
       "source": "Math 222 6.1.17",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "f6701940-c5ed-4649-8fdb-9c0010f15377",
@@ -1565,7 +1565,7 @@
       "tags": "product rules, vector, velocity vector",
       "url": "/question/f6701940-c5ed-4649-8fdb-9c0010f15377",
       "source": "Math 222 6.1.18",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "b1e03dd1-5507-4938-b6f9-491cd3e5d962",
@@ -1582,7 +1582,7 @@
       "tags": "product rule, vector function, vector, angular momentum",
       "url": "/question/b1e03dd1-5507-4938-b6f9-491cd3e5d962",
       "source": "Math 222 6.1.19",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "40c40a62-f5d9-44d4-a1d2-ee1865c57fd9",
@@ -1599,7 +1599,7 @@
       "tags": "tangent vector, vector function",
       "url": "/question/40c40a62-f5d9-44d4-a1d2-ee1865c57fd9",
       "source": "Math 222 6.1.20",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Exponents and Logarithms",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5928.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5929.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5930.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5931.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5932.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5933.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5928.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5929.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5930.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5931.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5932.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5933.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential, logarithmic, exponents, logarithms, derivatives ",
       "url": "/text-content/45def5e3-eee9-44fb-b92e-db05b5a57959",
       "source": "Forgotten Text 6 6.1",
-      "topic": "Calculus/Exponentials and Logarithms/Exponents and Logarithms"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Logarithmic Functions"
     },
     {
       "uuid": "e0e53a9c-34da-4667-9b1f-0424a94be623",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivative of Exponents",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5934.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5936.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5934.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5936.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponents, exponential, derivatives of exponents ",
       "url": "/text-content/e0e53a9c-34da-4667-9b1f-0424a94be623",
       "source": "Forgotten Text 6 6.5",
-      "topic": "Calculus/Exponentials and Logarithms/Derivative of Exponents"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential Functions"
     },
     {
       "uuid": "c080b214-505f-48d2-a086-40678ea87235",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The indefinite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5946.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5947.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5948.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5946.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5947.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5948.png\"/\u003e",
       "allAnswers": [],
       "tags": "indefinite integral, integral, integration, antiderivatives ",
       "url": "/text-content/c080b214-505f-48d2-a086-40678ea87235",
       "source": "Forgotten Text 6 6.5",
-      "topic": "Calculus/The Integral/Indefinite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Indefinite Integrals"
     },
     {
       "uuid": "71cda21b-897e-4208-885a-f748d71e2328",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits involving exponentials and logarithms",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5938.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5939.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5938.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5939.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, exponential, logarithmic, exponent, logarithm",
       "url": "/text-content/71cda21b-897e-4208-885a-f748d71e2328",
       "source": "Forgotten Text 6 6.7",
-      "topic": "Calculus/Exponentials and Logarithms/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Exponentials and Logarithms"
     }
   ],
   "answers": [],

@@ -375,7 +375,7 @@
       "tags": "circle, radius, center, standard form, complete the square, center",
       "url": "/question/3b14d776-072a-4142-804f-96cd6b02ef0f",
       "source": "Precalculus, 3rd Edition 7.2.12",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "9fcb71fd-24d0-4e47-bc35-bf38f7ddc56d",
@@ -392,7 +392,7 @@
       "tags": "standard equation, circle, equation of a circle, criteria of a circle, standard equation of a circle, center",
       "url": "/question/9fcb71fd-24d0-4e47-bc35-bf38f7ddc56d",
       "source": "Precalculus, 3rd Edition 7.2.13",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "4f8226a1-aab4-4cb9-adcc-f795d4d7c43c",
@@ -409,7 +409,7 @@
       "tags": "standard equation, circle, equation of a circle, criteria of a circle, standard equation of a circle, center",
       "url": "/question/4f8226a1-aab4-4cb9-adcc-f795d4d7c43c",
       "source": "Precalculus, 3rd Edition 7.2.14",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "cde339f4-4666-4390-aef5-c6717a35ac75",
@@ -426,7 +426,7 @@
       "tags": "standard equation, circle, equation of a circle, criteria of a circle, standard equation of a circle, endpoints",
       "url": "/question/cde339f4-4666-4390-aef5-c6717a35ac75",
       "source": "Precalculus, 3rd Edition 7.2.15",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "d89b7c07-b139-406f-9f9a-77033c50be95",
@@ -443,7 +443,7 @@
       "tags": "standard equation, circle, equation of a circle, criteria of a circle, standard equation of a circle, endpoints",
       "url": "/question/d89b7c07-b139-406f-9f9a-77033c50be95",
       "source": "Precalculus, 3rd Edition 7.2.16",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "831c74df-97a2-4ae9-8d4d-7dbfac7c8081",
@@ -460,7 +460,7 @@
       "tags": "circle, diameter, height, center, x-axis, y-axis",
       "url": "/question/831c74df-97a2-4ae9-8d4d-7dbfac7c8081",
       "source": "Precalculus, 3rd Edition 7.2.17",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "d9f53e2a-8136-4d5a-9bd8-3abc3aea583d",
@@ -477,7 +477,7 @@
       "tags": "standard equation of a circle, circle, standard equation, unit circle, transformation ",
       "url": "/question/d9f53e2a-8136-4d5a-9bd8-3abc3aea583d",
       "source": "Precalculus, 3rd Edition 7.2.18",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "99152b32-04ac-44f1-abfa-3b4d2d5c0ec5",
@@ -494,7 +494,7 @@
       "tags": "circle, standard equation, graph, radius, equation of a circle",
       "url": "/question/99152b32-04ac-44f1-abfa-3b4d2d5c0ec5",
       "source": "Precalculus, 3rd Edition 7.2.2",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "302cce23-992b-4f1b-9cbf-f1e1a7c03554",
@@ -511,7 +511,7 @@
       "tags": "function, unit circle, transformation, arbitrary circles, circle",
       "url": "/question/302cce23-992b-4f1b-9cbf-f1e1a7c03554",
       "source": "Precalculus, 3rd Edition 7.2.20",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "509fa054-c9ba-4a1d-8ad9-fd93bcb1ea24",
@@ -528,7 +528,7 @@
       "tags": "one-to-one, circle, half of a circle, function, graph, piecewise",
       "url": "/question/509fa054-c9ba-4a1d-8ad9-fd93bcb1ea24",
       "source": "Precalculus, 3rd Edition 7.2.21",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "173494e3-1808-408b-838c-761f11e0b80a",
@@ -545,7 +545,7 @@
       "tags": "circle, standard equation, graph, radius, equation of a circle",
       "url": "/question/173494e3-1808-408b-838c-761f11e0b80a",
       "source": "Precalculus, 3rd Edition 7.2.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "1d5dce06-c11f-463a-8011-7e3684ce776b",
@@ -562,7 +562,7 @@
       "tags": "circle, standard equation, graph, radius, equation of a circle",
       "url": "/question/1d5dce06-c11f-463a-8011-7e3684ce776b",
       "source": "Precalculus, 3rd Edition 7.2.5",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "b40697d0-784b-4d06-b589-ccc3ec94e6bc",
@@ -579,7 +579,7 @@
       "tags": "circle, standard equation, graph, radius, equation of a circle",
       "url": "/question/b40697d0-784b-4d06-b589-ccc3ec94e6bc",
       "source": "Precalculus, 3rd Edition 7.2.6",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "edbfe056-dc0d-46f5-abf4-c389efda7360",
@@ -596,7 +596,7 @@
       "tags": "circle, radius, center, standard form, complete the square, center",
       "url": "/question/edbfe056-dc0d-46f5-abf4-c389efda7360",
       "source": "Precalculus, 3rd Edition 7.2.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "747db892-c37f-441a-890f-3e246ee49f86",
@@ -613,7 +613,7 @@
       "tags": "circle, radius, center, standard form, complete the square, center",
       "url": "/question/747db892-c37f-441a-890f-3e246ee49f86",
       "source": "Precalculus, 3rd Edition 7.2.8",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "0124ba49-1519-47f5-af33-b4cec9b7f2ae",
@@ -630,7 +630,7 @@
       "tags": "circle, radius, center, standard form, complete the square, center",
       "url": "/question/0124ba49-1519-47f5-af33-b4cec9b7f2ae",
       "source": "Precalculus, 3rd Edition 7.2.9",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "5a03d98c-5ffe-4e96-8f10-5ed21adc2831",
@@ -647,7 +647,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/5a03d98c-5ffe-4e96-8f10-5ed21adc2831",
       "source": "Precalculus, 3rd Edition 7.3.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "4b7e10cf-73b0-4e44-b9ed-071783c612e2",
@@ -664,7 +664,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/4b7e10cf-73b0-4e44-b9ed-071783c612e2",
       "source": "Precalculus, 3rd Edition 7.3.10",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "bf7fec7b-95e2-4e9b-b924-34244d19b69a",
@@ -681,7 +681,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/bf7fec7b-95e2-4e9b-b924-34244d19b69a",
       "source": "Precalculus, 3rd Edition 7.3.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations and Inequalities/Circles"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
     },
     {
       "uuid": "bd681b0c-f3ef-4eb4-ae75-53de62d827e7",
@@ -698,7 +698,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/bd681b0c-f3ef-4eb4-ae75-53de62d827e7",
       "source": "Precalculus, 3rd Edition 7.3.12",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "244b584b-475c-40b4-be2e-d52874f3639f",
@@ -715,7 +715,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/244b584b-475c-40b4-be2e-d52874f3639f",
       "source": "Precalculus, 3rd Edition 7.3.13",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "c801cb6c-f98e-4aaa-96c3-5716d1b0258a",
@@ -732,7 +732,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/c801cb6c-f98e-4aaa-96c3-5716d1b0258a",
       "source": "Precalculus, 3rd Edition 7.3.14",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "679b720d-f358-41f9-9ca6-ec25c92e9eb5",
@@ -749,7 +749,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/679b720d-f358-41f9-9ca6-ec25c92e9eb5",
       "source": "Precalculus, 3rd Edition 7.3.15",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "b8721174-8cff-4726-8a76-f7bb71a33b58",
@@ -766,7 +766,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/b8721174-8cff-4726-8a76-f7bb71a33b58",
       "source": "Precalculus, 3rd Edition 7.3.16",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "a697d2c7-f4d2-4263-9234-7982397d6e66",
@@ -783,7 +783,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/a697d2c7-f4d2-4263-9234-7982397d6e66",
       "source": "Precalculus, 3rd Edition 7.3.17",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "43aa2fe7-6f44-4b3f-af4e-680ddd241703",
@@ -800,7 +800,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/43aa2fe7-6f44-4b3f-af4e-680ddd241703",
       "source": "Precalculus, 3rd Edition 7.3.18",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "e59f0ca7-3be0-4d5f-8d3f-8b2e193ce2fa",
@@ -817,7 +817,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length, word problem",
       "url": "/question/e59f0ca7-3be0-4d5f-8d3f-8b2e193ce2fa",
       "source": "Precalculus, 3rd Edition 7.3.19",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "282a2e82-91e4-4862-9cff-7b6630b364ad",
@@ -834,7 +834,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length, word problem",
       "url": "/question/282a2e82-91e4-4862-9cff-7b6630b364ad",
       "source": "Precalculus, 3rd Edition 7.3.19",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "6e4dc28c-73f4-414a-a586-9f2fe9afc87c",
@@ -851,7 +851,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/6e4dc28c-73f4-414a-a586-9f2fe9afc87c",
       "source": "Precalculus, 3rd Edition 7.3.2",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "b523ce73-bdb9-450f-b73c-efa2b730845f",
@@ -868,7 +868,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/b523ce73-bdb9-450f-b73c-efa2b730845f",
       "source": "Precalculus, 3rd Edition 7.3.20",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "eda6ea4f-0784-415a-8d6c-d1656f08257a",
@@ -885,7 +885,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/eda6ea4f-0784-415a-8d6c-d1656f08257a",
       "source": "Precalculus, 3rd Edition 7.3.21",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "04007313-70f9-40c7-af0a-429848c85591",
@@ -902,7 +902,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/04007313-70f9-40c7-af0a-429848c85591",
       "source": "Precalculus, 3rd Edition 7.3.3",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "b8df75bf-425d-427f-8df5-061ea9f82ef4",
@@ -919,7 +919,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/b8df75bf-425d-427f-8df5-061ea9f82ef4",
       "source": "Precalculus, 3rd Edition 7.3.4",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "9ee98e2a-764d-4eac-9a30-0b3a4ca01709",
@@ -936,7 +936,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/9ee98e2a-764d-4eac-9a30-0b3a4ca01709",
       "source": "Precalculus, 3rd Edition 7.3.5",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "db07c543-ba70-4e8b-a7b6-08ae47eaa55a",
@@ -953,7 +953,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/db07c543-ba70-4e8b-a7b6-08ae47eaa55a",
       "source": "Precalculus, 3rd Edition 7.3.6",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "15ea015c-ba56-49cb-ac9a-54a6f76b4713",
@@ -970,7 +970,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/15ea015c-ba56-49cb-ac9a-54a6f76b4713",
       "source": "Precalculus, 3rd Edition 7.3.7",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "198c8863-4f87-4ed4-87b7-6afd5b327de6",
@@ -987,7 +987,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/198c8863-4f87-4ed4-87b7-6afd5b327de6",
       "source": "Precalculus, 3rd Edition 7.3.8",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "7466ea12-fdf3-46d5-9e99-7e36703ea9d5",
@@ -1004,7 +1004,7 @@
       "tags": "parabola, vertex, focus, directrix, latus rectum, focal length",
       "url": "/question/7466ea12-fdf3-46d5-9e99-7e36703ea9d5",
       "source": "Precalculus, 3rd Edition 7.3.9",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "c8d128e1-b9b3-4413-810d-262710d85b81",
@@ -1021,7 +1021,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/c8d128e1-b9b3-4413-810d-262710d85b81",
       "source": "Precalculus, 3rd Edition 7.4.1",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "2a6bf931-d456-4aa0-8ff1-6df11f26d302",
@@ -1038,7 +1038,7 @@
       "tags": "standard form, center, major axes, minor axes, vertices, endpoints, foci, eccentricity ",
       "url": "/question/2a6bf931-d456-4aa0-8ff1-6df11f26d302",
       "source": "Precalculus, 3rd Edition 7.4.10",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "3a90db93-ae19-4460-859c-0e7c3920b4bc",
@@ -1055,7 +1055,7 @@
       "tags": "standard form, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/3a90db93-ae19-4460-859c-0e7c3920b4bc",
       "source": "Precalculus, 3rd Edition 7.4.11",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Parabola/Directrix"
+      "topic": "Pre-Calculus/Conics/Parabolas/Directrix"
     },
     {
       "uuid": "588b536d-65a5-426b-94f9-941abf467a40",
@@ -1072,7 +1072,7 @@
       "tags": "standard form, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/588b536d-65a5-426b-94f9-941abf467a40",
       "source": "Precalculus, 3rd Edition 7.4.12",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "62c19c88-ed05-4c31-9d98-87def8948aa3",
@@ -1089,7 +1089,7 @@
       "tags": "standard form, center, major axes, minor axes, vertices, endpoints, foci, eccentricity ",
       "url": "/question/62c19c88-ed05-4c31-9d98-87def8948aa3",
       "source": "Precalculus, 3rd Edition 7.4.13",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "7330685c-da58-4400-8ff3-5be87217ec86",
@@ -1106,7 +1106,7 @@
       "tags": "standard form, center, major axes, minor axes, vertices, endpoints, foci, eccentricity ",
       "url": "/question/7330685c-da58-4400-8ff3-5be87217ec86",
       "source": "Precalculus, 3rd Edition 7.4.14",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "2b14fe05-93a2-4b3d-b48f-d2dcaa8d5f2a",
@@ -1123,7 +1123,7 @@
       "tags": "standard form, ellipse, center, vertex, focus",
       "url": "/question/2b14fe05-93a2-4b3d-b48f-d2dcaa8d5f2a",
       "source": "Precalculus, 3rd Edition 7.4.15",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "926f3e04-331d-4812-aeee-f36662336c9b",
@@ -1140,7 +1140,7 @@
       "tags": "standard form, ellipse, foci, vertices",
       "url": "/question/926f3e04-331d-4812-aeee-f36662336c9b",
       "source": "Precalculus, 3rd Edition 7.4.16",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "2e5d5507-b7de-4834-88f5-f4615360d570",
@@ -1157,7 +1157,7 @@
       "tags": "standard form, ellipse, foci, length of minor axis, minor axis",
       "url": "/question/2e5d5507-b7de-4834-88f5-f4615360d570",
       "source": "Precalculus, 3rd Edition 7.4.17",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "1ffbd097-003d-4823-9cdb-0c6cbd6e1e1d",
@@ -1174,7 +1174,7 @@
       "tags": "standard form, ellipse, vertices, endpoints, endpoints of the minor axis, minor axis",
       "url": "/question/1ffbd097-003d-4823-9cdb-0c6cbd6e1e1d",
       "source": "Precalculus, 3rd Edition 7.4.18",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "8aa98c1d-ebde-4b2e-9509-48d6e9004782",
@@ -1191,7 +1191,7 @@
       "tags": "standard form, ellipse, center, vertex, eccentricity ",
       "url": "/question/8aa98c1d-ebde-4b2e-9509-48d6e9004782",
       "source": "Precalculus, 3rd Edition 7.4.19",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "4eadfe59-0d1c-4259-a76d-6a3a3b355c40",
@@ -1208,7 +1208,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/4eadfe59-0d1c-4259-a76d-6a3a3b355c40",
       "source": "Precalculus, 3rd Edition 7.4.2",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "4eb9292a-69b8-47ab-bddc-02ff5d1c4955",
@@ -1225,7 +1225,7 @@
       "tags": "standard form, ellipse, quadrant IV, all points",
       "url": "/question/4eb9292a-69b8-47ab-bddc-02ff5d1c4955",
       "source": "Precalculus, 3rd Edition 7.4.20",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "97bfaf20-d76a-4442-937c-5de9712cb9f3",
@@ -1242,7 +1242,7 @@
       "tags": "example 7.4.5, word problem",
       "url": "/question/97bfaf20-d76a-4442-937c-5de9712cb9f3",
       "source": "Precalculus, 3rd Edition 7.4.21",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "1d770d50-5c5a-48d0-a9b4-28687d92ba8d",
@@ -1259,7 +1259,7 @@
       "tags": "word problem, ellipse, height, elliptical arch",
       "url": "/question/1d770d50-5c5a-48d0-a9b4-28687d92ba8d",
       "source": "Precalculus, 3rd Edition 7.4.22",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "883e4bd8-15e6-485a-90b5-210c8c8f91f8",
@@ -1276,7 +1276,7 @@
       "tags": "word problem, eccentricity, focus, ellipse, semimajor axis, major axis, oribt",
       "url": "/question/883e4bd8-15e6-485a-90b5-210c8c8f91f8",
       "source": "Precalculus, 3rd Edition 7.4.23",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "f094cc70-4f57-45fe-9291-e320ad26a271",
@@ -1293,7 +1293,7 @@
       "tags": "ellipse, vertical line test, graph, circle, parabolas",
       "url": "/question/f094cc70-4f57-45fe-9291-e320ad26a271",
       "source": "Precalculus, 3rd Edition 7.4.24",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "ab85bf4a-346b-4cf9-b0a2-5a361e7ccf47",
@@ -1310,7 +1310,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/ab85bf4a-346b-4cf9-b0a2-5a361e7ccf47",
       "source": "Precalculus, 3rd Edition 7.4.3",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "4fb454d1-e2bc-4df2-ba29-837059c0861a",
@@ -1327,7 +1327,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/4fb454d1-e2bc-4df2-ba29-837059c0861a",
       "source": "Precalculus, 3rd Edition 7.4.4",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "ce4b55b9-ce7c-48f8-bab1-72592cfe5164",
@@ -1344,7 +1344,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/ce4b55b9-ce7c-48f8-bab1-72592cfe5164",
       "source": "Precalculus, 3rd Edition 7.4.5",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "4d933d78-b4c2-44ca-be64-07577903990f",
@@ -1361,7 +1361,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/4d933d78-b4c2-44ca-be64-07577903990f",
       "source": "Precalculus, 3rd Edition 7.4.6",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "77b3e6f4-319e-46ca-8989-c5f06fd52703",
@@ -1378,7 +1378,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/77b3e6f4-319e-46ca-8989-c5f06fd52703",
       "source": "Precalculus, 3rd Edition 7.4.7",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "f103c236-5f05-4c53-be07-e2582882934b",
@@ -1395,7 +1395,7 @@
       "tags": "ellipse, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/f103c236-5f05-4c53-be07-e2582882934b",
       "source": "Precalculus, 3rd Edition 7.4.8",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "2b101a5f-f0c9-45a2-92e1-4012702133a2",
@@ -1412,7 +1412,7 @@
       "tags": "standard form, center, major axes, minor axes, vertices, endpoints, foci, eccentricity",
       "url": "/question/2b101a5f-f0c9-45a2-92e1-4012702133a2",
       "source": "Precalculus, 3rd Edition 7.4.9",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "b56ae814-d260-46c4-a21a-f33511e53e6e",
@@ -1429,7 +1429,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/b56ae814-d260-46c4-a21a-f33511e53e6e",
       "source": "Precalculus, 3rd Edition 7.5.1",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "dd4e9bce-0546-478a-a4f4-4f11881c0b0a",
@@ -1446,7 +1446,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/dd4e9bce-0546-478a-a4f4-4f11881c0b0a",
       "source": "Precalculus, 3rd Edition 7.5.10",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "941a6753-3e3c-47e8-a752-d7955672a40f",
@@ -1463,7 +1463,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/941a6753-3e3c-47e8-a752-d7955672a40f",
       "source": "Precalculus, 3rd Edition 7.5.11",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Ellipse"
+      "topic": "Pre-Calculus/Conics/Ellipses"
     },
     {
       "uuid": "bc72e89c-14ae-4fa2-b608-101bc9b9cba4",
@@ -1480,7 +1480,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/bc72e89c-14ae-4fa2-b608-101bc9b9cba4",
       "source": "Precalculus, 3rd Edition 7.5.12",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "73a2c9df-d30e-44d2-a5f8-334acab5c266",
@@ -1497,7 +1497,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/73a2c9df-d30e-44d2-a5f8-334acab5c266",
       "source": "Precalculus, 3rd Edition 7.5.13",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "56245758-69da-4444-b1df-2bbc1c5eb8fa",
@@ -1514,7 +1514,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/56245758-69da-4444-b1df-2bbc1c5eb8fa",
       "source": "Precalculus, 3rd Edition 7.5.14",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "557cfbe1-16af-45ca-be4c-ff1a625bf070",
@@ -1531,7 +1531,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/557cfbe1-16af-45ca-be4c-ff1a625bf070",
       "source": "Precalculus, 3rd Edition 7.5.15",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "ee8b7d61-47d5-463e-a3fb-d590e5f69a37",
@@ -1548,7 +1548,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/ee8b7d61-47d5-463e-a3fb-d590e5f69a37",
       "source": "Precalculus, 3rd Edition 7.5.16",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "e1a39c8c-875c-484b-9b58-cec1d5086c69",
@@ -1565,7 +1565,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/e1a39c8c-875c-484b-9b58-cec1d5086c69",
       "source": "Precalculus, 3rd Edition 7.5.17",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "5c4fc540-06e7-4693-bb32-b471f6c2c460",
@@ -1582,7 +1582,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/5c4fc540-06e7-4693-bb32-b471f6c2c460",
       "source": "Precalculus, 3rd Edition 7.5.18",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "f8eb276a-9135-48fa-b48a-d3c222deebef",
@@ -1599,7 +1599,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/f8eb276a-9135-48fa-b48a-d3c222deebef",
       "source": "Precalculus, 3rd Edition 7.5.19",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     },
     {
       "uuid": "51bd595d-d615-46e3-9d79-2e6dbfddebcd",
@@ -1616,7 +1616,7 @@
       "tags": "hyperbolas, transverse axis, asymptotes, vertices, conics",
       "url": "/question/51bd595d-d615-46e3-9d79-2e6dbfddebcd",
       "source": "Precalculus, 3rd Edition 7.5.2",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Hyperbola"
+      "topic": "Pre-Calculus/Conics/Hyperbolas"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Physics Applications: Work, Force, and Pressure",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4231.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4232.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4233.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4234.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4235.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4238.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4239.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4240.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4241.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4243.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4244.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4231.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4232.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4233.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4234.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4235.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4238.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4239.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4240.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4241.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4243.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4244.png\"/\u003e",
       "allAnswers": [],
       "tags": "integrals, integration, work, force, pressure ",
       "url": "/text-content/399c5d26-d509-49a0-9c4d-2101120c5316",
       "source": "Forgotten Text 2 6.4",
-      "topic": "Calculus/Definite Integrals/Work Force Pressure"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integrals/Work Force Pressure"
     },
     {
       "uuid": "56644a53-d386-4432-88fe-e49aade85249",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Improper Integrals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4248.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4249.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4250.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4251.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4252.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4253.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4248.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4249.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4250.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4251.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4252.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4253.png\"/\u003e",
       "allAnswers": [],
       "tags": "improper integrals, integrals, integration, converges, diverges ",
       "url": "/text-content/56644a53-d386-4432-88fe-e49aade85249",
       "source": "Forgotten Text 2 6.5",
-      "topic": "Calculus/Definite Integrals/Improper Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integrals/Improper Integrals"
     },
     {
       "uuid": "d88cd2f1-d2c2-4686-abcf-eaee2350391d",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "An Introduction to Differential Equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4254.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4255.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4256.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4257.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4258.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4259.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4260.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4261.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4262.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4263.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4264.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4254.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4255.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4256.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4257.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4258.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4259.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4260.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4261.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4262.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4263.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4264.png\"/\u003e",
       "allAnswers": [],
       "tags": "differential equations, derivatives, differentiability ",
       "url": "/text-content/d88cd2f1-d2c2-4686-abcf-eaee2350391d",
       "source": "Forgotten Text 2 7.1",
-      "topic": "Calculus/Differential Equations/Introduction"
+      "topic": "Calculus/Other Calculus Topics/Differential Equations/Introduction"
     },
     {
       "uuid": "edb14123-7477-4d37-9200-ba537533f864",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Qualitative behavior of solutions to DEs ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4265.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4266.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4267.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4268.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4269.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4270.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4271.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4272.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4265.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4266.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4267.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4268.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4269.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4270.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4271.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4272.png\"/\u003e",
       "allAnswers": [],
       "tags": "differential equations, derivatives, differentiability ",
       "url": "/text-content/edb14123-7477-4d37-9200-ba537533f864",
       "source": "Forgotten Text 2 7.2",
-      "topic": "Calculus/Differential Equations/Qualitative behavior"
+      "topic": "Calculus/Other Calculus Topics/Differential Equations/Qualitative behavior"
     },
     {
       "uuid": "104f3ea1-9c7d-40b8-8fbc-d33fbb8c0614",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Euler\u0027s Method",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4273.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4275.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4276.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4277.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4278.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4273.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4275.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4276.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4277.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4278.png\"/\u003e",
       "allAnswers": [],
       "tags": "eulers method, differential equations, derivatives, differentiability ",
       "url": "/text-content/104f3ea1-9c7d-40b8-8fbc-d33fbb8c0614",
       "source": "Forgotten Text 2 7.3",
-      "topic": "Calculus/Differential Equations/Euler\u0027s method"
+      "topic": "Calculus/Advanced Topics/Differential Equations/Euler\u0027s method"
     }
   ],
   "answers": [],

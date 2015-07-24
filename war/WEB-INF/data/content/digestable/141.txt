@@ -35,7 +35,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/7ff16092-d47d-474a-8526-a200525b02e5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\([-2,2]\\) ,  \\([-3,1]\\) ",
@@ -53,7 +53,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/e336dd01-ff43-451b-b695-f4a8e3b1258b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\(\\sqrt{13}\\) ",
@@ -71,7 +71,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/4ea1dab2-54a8-42fc-9e8d-7a298b56f326",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\(\\sqrt{11}\\) ,  \\(6\\) ",
@@ -89,7 +89,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/d450c4b5-e2cd-4c13-86f5-3b5bffc6f747",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\(1\\) ,  \\(0\\) ,  \\(3\\) ",
@@ -107,7 +107,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/e86e832d-284a-4d79-9697-83fb442518b1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\([-5,5]\\) ,  \\([2,17]\\) ",
@@ -125,7 +125,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/67c903bc-29eb-4c24-b609-62950d4d2380",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\([-\\frac32,-1] \\cup [1,2] \\cup [4,\\frac92]\\) ",
@@ -143,7 +143,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/1e981f1b-a4e4-4f68-81db-4a58ffdf89e4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\(36\\) ",
@@ -161,7 +161,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/274057bf-eb2f-44e5-bc7b-cd5f9a2d823d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\(\\dfrac16\\) ",
@@ -179,7 +179,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/18556610-6a10-4599-a82d-7ae78f7f88b7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "authorSolution": " \\(6\\) ",
@@ -197,7 +197,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/practice-problem/f7440a46-b7c3-4d67-ba46-8e28204dd2c3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     }
   ],
   "questions": [
@@ -216,7 +216,7 @@
       "tags": "word problem, determinants, matrices, matrix",
       "url": "/question/e2cbd6c5-718e-4911-9538-6a5e03f9d258",
       "source": "Precalculus, 3rd Edition 8.5.23",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "b6e05883-2c8f-4843-b309-bbaa7ec27e75",
@@ -233,7 +233,7 @@
       "tags": "determinant, matrices, matrix",
       "url": "/question/b6e05883-2c8f-4843-b309-bbaa7ec27e75",
       "source": "Precalculus, 3rd Edition 8.5.24",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "f84fe21c-6e7a-4731-93b1-af968a396370",
@@ -250,7 +250,7 @@
       "tags": "determinant, matrices, matrix",
       "url": "/question/f84fe21c-6e7a-4731-93b1-af968a396370",
       "source": "Precalculus, 3rd Edition 8.5.24",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "9a021d84-9b18-428c-ba6a-17c7a050226b",
@@ -267,7 +267,7 @@
       "tags": "determinant, matrices, matrix",
       "url": "/question/9a021d84-9b18-428c-ba6a-17c7a050226b",
       "source": "Precalculus, 3rd Edition 8.5.25",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "6ae40a70-f3f8-4b0c-a49f-33ee0468f0f0",
@@ -284,7 +284,7 @@
       "tags": "matrix, matrices, invertible matrix, determinant",
       "url": "/question/6ae40a70-f3f8-4b0c-a49f-33ee0468f0f0",
       "source": "Precalculus, 3rd Edition 8.5.26",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "141eef28-59e0-4661-afcc-cf800ac3827c",
@@ -301,7 +301,7 @@
       "tags": "characteristic polynomial, determinant. ",
       "url": "/question/141eef28-59e0-4661-afcc-cf800ac3827c",
       "source": "Precalculus, 3rd Edition 8.5.27",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "dc7a5198-8f84-42df-acff-153d4ad41266",
@@ -318,7 +318,7 @@
       "tags": "determinant, parametric description, linear equation, system",
       "url": "/question/dc7a5198-8f84-42df-acff-153d4ad41266",
       "source": "Precalculus, 3rd Edition 8.5.28",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "d608d89e-da05-4369-b1be-e2fc9db667d0",
@@ -335,7 +335,7 @@
       "tags": "determinant, characteristic polynomial, linear equations, parametric description",
       "url": "/question/d608d89e-da05-4369-b1be-e2fc9db667d0",
       "source": "Precalculus, 3rd Edition 8.5.29",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "6bd66075-d1c6-4970-a55a-fa427c951baa",
@@ -352,7 +352,7 @@
       "tags": "determinant, matrix, matrices, computing determinants ",
       "url": "/question/6bd66075-d1c6-4970-a55a-fa427c951baa",
       "source": "Precalculus, 3rd Edition 8.5.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Invertible"
     },
     {
       "uuid": "8cf50569-2940-449d-96ca-74970284af05",
@@ -369,7 +369,7 @@
       "tags": "parametric description, linear equations",
       "url": "/question/8cf50569-2940-449d-96ca-74970284af05",
       "source": "Precalculus, 3rd Edition 8.5.30",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Invertible"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Invertible"
     },
     {
       "uuid": "108f7f18-d550-44bd-b9c3-59e9f949fef4",
@@ -386,7 +386,7 @@
       "tags": "computing determinants, determinant, matrix, matrices",
       "url": "/question/108f7f18-d550-44bd-b9c3-59e9f949fef4",
       "source": "Precalculus, 3rd Edition 8.5.4",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "43df9cf9-0378-4003-8098-9cbe5bbe81a7",
@@ -403,7 +403,7 @@
       "tags": "computing determinants, determinant, matrix, matrices",
       "url": "/question/43df9cf9-0378-4003-8098-9cbe5bbe81a7",
       "source": "Precalculus, 3rd Edition 8.5.5",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "aae30620-1c85-4048-b45e-23980ed8ed6d",
@@ -420,7 +420,7 @@
       "tags": "determinant, computing determinant, matrix, matrices",
       "url": "/question/aae30620-1c85-4048-b45e-23980ed8ed6d",
       "source": "Precalculus, 3rd Edition 8.5.6",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "c472e809-0483-4cd7-a958-b2fe147722e4",
@@ -437,7 +437,7 @@
       "tags": "determinant, computing determinant, matrix, matrices",
       "url": "/question/c472e809-0483-4cd7-a958-b2fe147722e4",
       "source": "Precalculus, 3rd Edition 8.5.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "e7a80fac-723f-4a11-a8fa-f278b9b09c4b",
@@ -454,7 +454,7 @@
       "tags": "determinants, computing determinants, matrix, matrices",
       "url": "/question/e7a80fac-723f-4a11-a8fa-f278b9b09c4b",
       "source": "Precalculus, 3rd Edition 8.5.8",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "b1db6070-f934-4035-a2b0-6cedc568c662",
@@ -471,7 +471,7 @@
       "tags": "cramer\u0027s rule, linear equation, system, matrices, matrix",
       "url": "/question/b1db6070-f934-4035-a2b0-6cedc568c662",
       "source": "Precalculus, 3rd Edition 8.5.9",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "177fde8e-7b08-440b-a903-9675695ba394",
@@ -488,7 +488,7 @@
       "tags": "partial fraction, decomposition, linear equations, systems, rational expressions",
       "url": "/question/177fde8e-7b08-440b-a903-9675695ba394",
       "source": "Precalculus, 3rd Edition 8.6.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "16a67da9-24c7-41cc-9305-0865e7db7f84",
@@ -505,7 +505,7 @@
       "tags": "form, decomposition, partial fraction decomposition",
       "url": "/question/16a67da9-24c7-41cc-9305-0865e7db7f84",
       "source": "Precalculus, 3rd Edition 8.6.1",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "88d32cdb-09c2-441d-a6ac-2ad0a9901eb5",
@@ -522,7 +522,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/88d32cdb-09c2-441d-a6ac-2ad0a9901eb5",
       "source": "Precalculus, 3rd Edition 8.6.10",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "5bcfa92a-226d-456c-b026-c8a1ef4ed707",
@@ -539,7 +539,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/5bcfa92a-226d-456c-b026-c8a1ef4ed707",
       "source": "Precalculus, 3rd Edition 8.6.10",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer_s Rule/Independent Systems of Linear Equations"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Determinants and Cramer\u0027s Rule/Independent Systems of Linear Equations"
     },
     {
       "uuid": "1ea59675-447f-4a1a-af2b-65f6da30dc3c",
@@ -556,7 +556,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/1ea59675-447f-4a1a-af2b-65f6da30dc3c",
       "source": "Precalculus, 3rd Edition 8.6.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "c73ce5d1-a6c8-49b1-a91a-e7933d4077bb",
@@ -573,7 +573,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/c73ce5d1-a6c8-49b1-a91a-e7933d4077bb",
       "source": "Precalculus, 3rd Edition 8.6.11",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "512df282-93bc-47bc-80ea-1c502d11d999",
@@ -590,7 +590,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/512df282-93bc-47bc-80ea-1c502d11d999",
       "source": "Precalculus, 3rd Edition 8.6.12",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "86126b1e-4ba6-4f00-8251-586f8c59e604",
@@ -607,7 +607,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/86126b1e-4ba6-4f00-8251-586f8c59e604",
       "source": "Precalculus, 3rd Edition 8.6.12",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "b4751802-d62b-48d3-a657-1fa9bdcba454",
@@ -624,7 +624,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/b4751802-d62b-48d3-a657-1fa9bdcba454",
       "source": "Precalculus, 3rd Edition 8.6.13",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "b8414fbd-f339-4b84-b0ec-42fcaeb2698d",
@@ -641,7 +641,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/b8414fbd-f339-4b84-b0ec-42fcaeb2698d",
       "source": "Precalculus, 3rd Edition 8.6.13",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "e41727cb-cc4f-4939-bbfc-2eb85899ca34",
@@ -658,7 +658,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/e41727cb-cc4f-4939-bbfc-2eb85899ca34",
       "source": "Precalculus, 3rd Edition 8.6.14",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "d5d51ef8-a54f-4e87-abb5-b3fa303c7f29",
@@ -675,7 +675,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/d5d51ef8-a54f-4e87-abb5-b3fa303c7f29",
       "source": "Precalculus, 3rd Edition 8.6.14",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "a62b8bdb-53e2-4345-b1fb-077637d748b4",
@@ -692,7 +692,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/a62b8bdb-53e2-4345-b1fb-077637d748b4",
       "source": "Precalculus, 3rd Edition 8.6.15",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "038e7472-2c7d-4a7c-8895-0be793e60975",
@@ -709,7 +709,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/038e7472-2c7d-4a7c-8895-0be793e60975",
       "source": "Precalculus, 3rd Edition 8.6.15",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "96ef6d7a-da79-4f6a-808b-bca885a633cd",
@@ -726,7 +726,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/96ef6d7a-da79-4f6a-808b-bca885a633cd",
       "source": "Precalculus, 3rd Edition 8.6.16",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "c8e40135-79d4-4131-9f54-f078d436997d",
@@ -743,7 +743,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/c8e40135-79d4-4131-9f54-f078d436997d",
       "source": "Precalculus, 3rd Edition 8.6.16",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "62036de3-ba4f-46fe-b60d-865e90120874",
@@ -760,7 +760,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/62036de3-ba4f-46fe-b60d-865e90120874",
       "source": "Precalculus, 3rd Edition 8.6.17",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "851f7b05-6aca-4eb2-b65a-f2737f8a19c3",
@@ -777,7 +777,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/851f7b05-6aca-4eb2-b65a-f2737f8a19c3",
       "source": "Precalculus, 3rd Edition 8.6.17",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "0bc1dfc5-9422-4ae2-929b-cd49c6dd4ba3",
@@ -794,7 +794,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/0bc1dfc5-9422-4ae2-929b-cd49c6dd4ba3",
       "source": "Precalculus, 3rd Edition 8.6.18",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "28d4bfb7-7062-446e-a413-158eaecde126",
@@ -811,7 +811,7 @@
       "tags": "partial fraction decomposition, rational expression, partial fraction, decomposition, expressions",
       "url": "/question/28d4bfb7-7062-446e-a413-158eaecde126",
       "source": "Precalculus, 3rd Edition 8.6.18",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "2867fdb0-6128-4d51-863a-35b150cfb89e",
@@ -828,7 +828,7 @@
       "tags": "partial fraction, decomposition, matrix, linear equations, systems, rational expressions",
       "url": "/question/2867fdb0-6128-4d51-863a-35b150cfb89e",
       "source": "Precalculus, 3rd Edition 8.6.19",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     },
     {
       "uuid": "cca923cc-acbc-4c9d-a72c-8e51d8404b2c",
@@ -845,7 +845,7 @@
       "tags": "open-ended, calculus, theory, calculus theory",
       "url": "/question/cca923cc-acbc-4c9d-a72c-8e51d8404b2c",
       "source": "Precalculus, 3rd Edition 8.6.19",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition/Partial Fractions/ Factoring"
+      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
     }
   ],
   "textContent": [
@@ -859,12 +859,12 @@
       "viewable": true,
       "karma": 3,
       "title": "For Each Input, Exactly One Output",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4402.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4403.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4404.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4405.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4406.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4407.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4402.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4403.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4404.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4405.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4406.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4407.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, input, output, undefined, graphs of functions ",
       "url": "/text-content/15d6e4ec-e5dc-4e46-b75e-493cd0605265",
       "source": "Forgotten Text 3 0.1",
-      "topic": "Calculus/Functions/One-to-one"
+      "topic": "Calculus/Pre-Calculus Review/Function Basics/One-to-one"
     },
     {
       "uuid": "e2d11868-7438-4351-8964-b6a3232f2c65",
@@ -876,12 +876,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inverse Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4408.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4410.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4417.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4418.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4408.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4410.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4417.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4418.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, input, output, inverse functions ",
       "url": "/text-content/e2d11868-7438-4351-8964-b6a3232f2c65",
       "source": "Forgotten Text 3 0.2",
-      "topic": "Calculus/Functions/Inverse Functions"
+      "topic": "Calculus/Pre-Calculus Review/Function Basics/Inverse Functions"
     },
     {
       "uuid": "9d6ca75d-8f0d-4dd4-b085-290069a60e53",
@@ -893,12 +893,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Basic Ideas of Limits",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4419.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4420.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4421.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4422.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4419.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4420.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4421.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4422.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, right-side limits, left-side limits ",
       "url": "/text-content/9d6ca75d-8f0d-4dd4-b085-290069a60e53",
       "source": "Forgotten Text 3 1.1",
-      "topic": "Calculus/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits"
     }
   ],
   "answers": [],

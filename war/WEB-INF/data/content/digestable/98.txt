@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/348.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/348.png\"/\u003e",
       "uuid": "b0eac5fa-4abe-458d-9461-3bc348be4382",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Chord intersection ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/347.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/347.png\"/\u003e",
       "allAnswers": [],
       "tags": "chords, intersection of chords, circle ",
       "url": "/practice-problem/b0eac5fa-4abe-458d-9461-3bc348be4382",
       "source": "null 13.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/350.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/350.png\"/\u003e",
       "uuid": "4456e52c-569e-4083-8ae3-dc90b969acdc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of chord",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/349.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/349.png\"/\u003e",
       "allAnswers": [],
       "tags": "length of chord, circle ",
       "url": "/practice-problem/4456e52c-569e-4083-8ae3-dc90b969acdc",
       "source": "null 13.6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/356.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/356.png\"/\u003e",
       "uuid": "88266d5b-394a-4021-947e-30b6c4b7a5f0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/355.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/355.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation of circle, circle, length of radius, coordinates of center",
       "url": "/practice-problem/88266d5b-394a-4021-947e-30b6c4b7a5f0",
       "source": "null 13.7.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/358.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/358.png\"/\u003e",
       "uuid": "b1065251-f895-4386-b85e-bcfb57c1ef7d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "length of radius given equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/357.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/357.png\"/\u003e",
       "allAnswers": [],
       "tags": "radius, length, equation of circle, circle ",
       "url": "/practice-problem/b1065251-f895-4386-b85e-bcfb57c1ef7d",
       "source": "null 13.7.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/364.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/364.png\"/\u003e",
       "uuid": "4884bd65-3b59-43cd-9a49-2a2f935242ef",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Point of intersection of secant",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/363.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/363.png\"/\u003e",
       "allAnswers": [],
       "tags": "point of intersection, secant, circle ",
       "url": "/practice-problem/4884bd65-3b59-43cd-9a49-2a2f935242ef",
       "source": "null 13.8.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/371.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/371.png\"/\u003e",
       "uuid": "b6a59321-d44f-4abd-a704-1579a4c6e5ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "locus of points ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/370.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/370.png\"/\u003e",
       "allAnswers": [],
       "tags": "locus, interior angle ",
       "url": "/practice-problem/b6a59321-d44f-4abd-a704-1579a4c6e5ec",
       "source": "null 14.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/379.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/379.png\"/\u003e",
       "uuid": "67b613be-1d36-466d-b3d8-8f45c9a0c262",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Coordinates of the points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/378.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/378.png\"/\u003e",
       "allAnswers": [],
       "tags": "coordinates of points, line, coordinate geometry ",
       "url": "/practice-problem/67b613be-1d36-466d-b3d8-8f45c9a0c262",
       "source": "null 14.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/384.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/384.png\"/\u003e",
       "uuid": "c8c893bc-62f3-405d-95d5-b6695d15eb99",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of the locus of points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/383.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/383.png\"/\u003e",
       "allAnswers": [],
       "tags": "locus of points, equation of locus",
       "url": "/practice-problem/c8c893bc-62f3-405d-95d5-b6695d15eb99",
       "source": "null 14.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/392.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/392.png\"/\u003e",
       "uuid": "77dbcd4c-63c7-496d-a334-f920f460bac8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Coordinate Geometry ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/391.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/391.png\"/\u003e",
       "allAnswers": [],
       "tags": "coordinates, geometry, turning point, axis of symmetry",
       "url": "/practice-problem/77dbcd4c-63c7-496d-a334-f920f460bac8",
       "source": "null 14.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/394.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/394.png\"/\u003e",
       "uuid": "02c66d45-6abc-47c8-8b7f-120d684dc6f6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,7 +165,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Turning point of the parabola",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/393.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/393.png\"/\u003e",
       "allAnswers": [],
       "tags": "parabola, turning point, point and line",
       "url": "/practice-problem/02c66d45-6abc-47c8-8b7f-120d684dc6f6",
@@ -188,7 +188,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/52cc951c-55be-4dcc-a27c-170279fc69fe",
       "source": "First Year Calculus 7.1.19",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "3a810e49-2b25-435f-a642-529021844338",
@@ -205,7 +205,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/3a810e49-2b25-435f-a642-529021844338",
       "source": "First Year Calculus 7.1.20",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "9e1c9cbc-1b07-40c3-828b-8da9c3d63163",
@@ -222,7 +222,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/9e1c9cbc-1b07-40c3-828b-8da9c3d63163",
       "source": "First Year Calculus 7.1.21",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "c5537bb1-59da-4d86-9806-d7ae8b2058dc",
@@ -239,7 +239,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/c5537bb1-59da-4d86-9806-d7ae8b2058dc",
       "source": "First Year Calculus 7.1.22",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "cc6d570e-ff1a-400e-ba47-faaa42e07d92",
@@ -256,7 +256,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/cc6d570e-ff1a-400e-ba47-faaa42e07d92",
       "source": "AP Calculus Problems 1.1.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "52e5627e-77c1-4b7b-bbb7-5980d6a7ac99",
@@ -273,7 +273,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/52e5627e-77c1-4b7b-bbb7-5980d6a7ac99",
       "source": "AP Calculus Problems 1.1.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "1a591e58-6425-4f82-9c77-decb0a6d25d5",
@@ -290,7 +290,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/1a591e58-6425-4f82-9c77-decb0a6d25d5",
       "source": "AP Calculus Problems 1.1.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "c5e14d81-3386-49bb-8a3e-7efc892c8aa7",
@@ -307,7 +307,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/c5e14d81-3386-49bb-8a3e-7efc892c8aa7",
       "source": "AP Calculus Problems 1.1.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "7a27d410-9a02-4954-9098-50b83d42318f",
@@ -324,7 +324,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/7a27d410-9a02-4954-9098-50b83d42318f",
       "source": "AP Calculus Problems 1.1.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "bdc947b3-999b-4cd8-ac6a-857eeb47c1d1",
@@ -341,7 +341,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/bdc947b3-999b-4cd8-ac6a-857eeb47c1d1",
       "source": "AP Calculus Problems 1.1.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "1569dbad-418e-4424-8505-5c614401e095",
@@ -358,7 +358,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/1569dbad-418e-4424-8505-5c614401e095",
       "source": "AP Calculus Problems 1.1.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "6bedb841-0578-464e-a268-f4ed9d17c292",
@@ -375,7 +375,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/6bedb841-0578-464e-a268-f4ed9d17c292",
       "source": "AP Calculus Problems 1.1.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "211d8bb1-0221-49b5-9697-4cd95730235f",
@@ -392,7 +392,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/211d8bb1-0221-49b5-9697-4cd95730235f",
       "source": "AP Calculus Problems 1.1.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "102692c5-90b9-46c7-9f4e-e5337e450789",
@@ -409,7 +409,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/102692c5-90b9-46c7-9f4e-e5337e450789",
       "source": "AP Calculus Problems 1.1.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "b45fd926-d898-4e57-8385-e4ec9c38e017",
@@ -426,7 +426,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/b45fd926-d898-4e57-8385-e4ec9c38e017",
       "source": "AP Calculus Problems 1.1.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "25c4383c-4aa0-452e-9a31-f55b241d08b0",
@@ -443,7 +443,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/25c4383c-4aa0-452e-9a31-f55b241d08b0",
       "source": "AP Calculus Problems 1.1.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "c6456786-8f9d-422e-8dab-c211dd6ad61e",
@@ -460,7 +460,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/c6456786-8f9d-422e-8dab-c211dd6ad61e",
       "source": "AP Calculus Problems 1.1.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "b8ff96f1-765c-4d0f-8640-8c048fe24c33",
@@ -477,7 +477,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/b8ff96f1-765c-4d0f-8640-8c048fe24c33",
       "source": "AP Calculus Problems 1.1.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "dea31411-37c1-4976-b368-7496fda9086b",
@@ -494,7 +494,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/dea31411-37c1-4976-b368-7496fda9086b",
       "source": "AP Calculus Problems 1.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "005f4045-9778-436f-8da9-d81e6ab0cb08",
@@ -511,7 +511,7 @@
       "tags": "graphs, graphs of functions",
       "url": "/question/005f4045-9778-436f-8da9-d81e6ab0cb08",
       "source": "AP Calculus Problems 1.1.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "6de3c4aa-13eb-4af3-a274-a88a9489caf6",
@@ -528,7 +528,7 @@
       "tags": "graphs of function, functions, behavior of functions",
       "url": "/question/6de3c4aa-13eb-4af3-a274-a88a9489caf6",
       "source": "AP Calculus Problems 1.1.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "ea46acc1-b9c3-4be5-9cbc-302f62e6089a",
@@ -545,7 +545,7 @@
       "tags": "graphing functions, functions, zeros",
       "url": "/question/ea46acc1-b9c3-4be5-9cbc-302f62e6089a",
       "source": "AP Calculus Problems 1.1.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "3442d55a-ccec-469a-ac85-0ac639b683a2",
@@ -562,7 +562,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/3442d55a-ccec-469a-ac85-0ac639b683a2",
       "source": "AP Calculus Problems 1.1.20",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a24fc6ba-d7e8-4886-b79d-3d502a34a48e",
@@ -579,7 +579,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/a24fc6ba-d7e8-4886-b79d-3d502a34a48e",
       "source": "AP Calculus Problems 1.1.21",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "bdc605e5-71b4-459b-9ea1-e66c677a7b1d",
@@ -596,7 +596,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/bdc605e5-71b4-459b-9ea1-e66c677a7b1d",
       "source": "AP Calculus Problems 1.1.22",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "61d92ea3-4a34-4568-9057-2cfa5c5ee719",
@@ -613,7 +613,7 @@
       "tags": "graphing functions, functions, zeros",
       "url": "/question/61d92ea3-4a34-4568-9057-2cfa5c5ee719",
       "source": "AP Calculus Problems 1.1.23",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "79cac533-9141-40a2-a55b-ed6bd07dbe87",
@@ -630,7 +630,7 @@
       "tags": "graphing functions, functions, zeros",
       "url": "/question/79cac533-9141-40a2-a55b-ed6bd07dbe87",
       "source": "AP Calculus Problems 1.1.24",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "f14442b6-f30d-4793-9c3c-e9e8736e44a5",
@@ -647,7 +647,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/f14442b6-f30d-4793-9c3c-e9e8736e44a5",
       "source": "AP Calculus Problems 1.1.26",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "f6fedd16-e033-4f4b-8e05-27b74e94c43a",
@@ -664,7 +664,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/f6fedd16-e033-4f4b-8e05-27b74e94c43a",
       "source": "AP Calculus Problems 1.1.27",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "6fb241be-bbf0-476a-95e3-bdc9468624c2",
@@ -681,7 +681,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/6fb241be-bbf0-476a-95e3-bdc9468624c2",
       "source": "AP Calculus Problems 1.1.28",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "a56830d2-1af1-452d-9c95-fec2d13ddfe5",
@@ -698,7 +698,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/a56830d2-1af1-452d-9c95-fec2d13ddfe5",
       "source": "AP Calculus Problems 1.1.29",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "88aa9a30-d29e-4ac3-b151-b6d79cd5b2cb",
@@ -749,7 +749,7 @@
       "tags": "equation of a line, graphs of functions",
       "url": "/question/cd3b3c6d-628d-4a90-b6c6-3a6238dc5468",
       "source": "AP Calculus Problems 1.2.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "5cf2552a-bb4c-4d99-8a5e-93069ff69c7e",
@@ -766,7 +766,7 @@
       "tags": "equation of a line, graphs of functions",
       "url": "/question/5cf2552a-bb4c-4d99-8a5e-93069ff69c7e",
       "source": "AP Calculus Problems 1.2.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "9836dcce-ce4b-4e4a-84ca-62d1c6f5a217",
@@ -783,7 +783,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/9836dcce-ce4b-4e4a-84ca-62d1c6f5a217",
       "source": "AP Calculus Problems 1.2.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "eb14da11-eddc-4c47-8c2a-35ee0c626acd",
@@ -800,7 +800,7 @@
       "tags": "graphs of functions, equation of a line",
       "url": "/question/eb14da11-eddc-4c47-8c2a-35ee0c626acd",
       "source": "AP Calculus Problems 1.2.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Properties of the Integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5949.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5950.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5952.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5953.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5954.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5949.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5950.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5952.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5953.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5954.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, integration, definite integral, indefinite integral, substitution, Leibniz notation",
       "url": "/text-content/631d1039-b68c-479d-a1b2-ffde7c41b3f8",
       "source": "Forgotten Text 6 7.6",
-      "topic": "Calculus/The Integral/Properties of the Integral"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Properties of Integrals"
     },
     {
       "uuid": "336775c9-5a6d-42a0-a8c2-7ab4112b5f2e",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Distance from velocity, velocity from acceleration",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5966.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5967.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5968.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5969.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5966.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5967.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5968.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5969.png\"/\u003e",
       "allAnswers": [],
       "tags": "velocity, distance from velocity, applications of integrals ",
       "url": "/text-content/336775c9-5a6d-42a0-a8c2-7ab4112b5f2e",
       "source": "Forgotten Text 6 7.7",
-      "topic": "Calculus/Application of the Integral/Velocity"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics"
     }
   ],
   "answers": [],

@@ -396,7 +396,7 @@
       "tags": "quotient rule, derivative ",
       "url": "/question/fd7395c8-c102-48e8-ba1d-fddb685679ce",
       "source": "Mooculus 5.2.10",
-      "topic": "Calculus/Rules for Finding Derivative/The Quotient Rule/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "2623a938-516c-49ad-81e5-d7d3aef368c3",
@@ -413,7 +413,7 @@
       "tags": "quotient rule, derivative",
       "url": "/question/2623a938-516c-49ad-81e5-d7d3aef368c3",
       "source": "Mooculus 5.2.11",
-      "topic": "Calculus/Rules for Finding Derivative/The Quotient Rule/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "02012506-0520-4395-9b23-abfb057d6519",
@@ -430,7 +430,7 @@
       "tags": "quotient rule, derivative, functions",
       "url": "/question/02012506-0520-4395-9b23-abfb057d6519",
       "source": "Mooculus 5.2.12",
-      "topic": "Calculus/Rules for Finding Derivative/The Quotient Rule/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "74a857ed-7643-4060-9d60-77c2df4ac59b",
@@ -447,7 +447,7 @@
       "tags": "chain rule, derivatives",
       "url": "/question/74a857ed-7643-4060-9d60-77c2df4ac59b",
       "source": "Mooculus 6.1.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "441fc779-3f50-4fae-94d9-921e8ff014a6",
@@ -464,7 +464,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/441fc779-3f50-4fae-94d9-921e8ff014a6",
       "source": "Mooculus 6.1.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "14ec7517-e532-4b89-8e72-73826e896928",
@@ -481,7 +481,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/14ec7517-e532-4b89-8e72-73826e896928",
       "source": "Mooculus 6.1.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "50cd3e18-37a9-45ca-9d14-d546d1b833ac",
@@ -498,7 +498,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/50cd3e18-37a9-45ca-9d14-d546d1b833ac",
       "source": "Mooculus 6.1.4",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "724f6b43-5c63-4613-b0e3-4a474a539e51",
@@ -515,7 +515,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/724f6b43-5c63-4613-b0e3-4a474a539e51",
       "source": "Mooculus 6.1.5",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "a010ea12-5b53-4772-93e8-9c87efcd19ad",
@@ -532,7 +532,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/a010ea12-5b53-4772-93e8-9c87efcd19ad",
       "source": "Mooculus 6.1.6",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "68283049-77bc-411d-825f-04a849894e84",
@@ -549,7 +549,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/68283049-77bc-411d-825f-04a849894e84",
       "source": "Mooculus 6.1.7",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "b9eb9720-6fba-43b7-8ebb-e59714c7d886",
@@ -566,7 +566,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/b9eb9720-6fba-43b7-8ebb-e59714c7d886",
       "source": "Mooculus 6.1.8",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "ddd5ae73-905d-4555-94e9-cbcfd908ee64",
@@ -583,7 +583,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/ddd5ae73-905d-4555-94e9-cbcfd908ee64",
       "source": "Mooculus 6.1.9",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "fda251c1-061d-4d55-8c71-d1174f958dfe",
@@ -600,7 +600,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/fda251c1-061d-4d55-8c71-d1174f958dfe",
       "source": "Mooculus 6.1.10",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "503d832a-bc07-443e-821d-31cd86ed12b5",
@@ -617,7 +617,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/503d832a-bc07-443e-821d-31cd86ed12b5",
       "source": "Mooculus 6.1.11",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "86a4cf73-0de0-49da-9d6a-61ce4ff4d525",
@@ -634,7 +634,7 @@
       "tags": "chain rule, derivative ",
       "url": "/question/86a4cf73-0de0-49da-9d6a-61ce4ff4d525",
       "source": "Mooculus 6.1.12",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "2728d740-f2ce-48e5-bc1a-a248bb5dd278",
@@ -651,7 +651,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/2728d740-f2ce-48e5-bc1a-a248bb5dd278",
       "source": "Mooculus 6.1.13",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "f230a98b-4ee6-4b18-a816-c87486622758",
@@ -668,7 +668,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/f230a98b-4ee6-4b18-a816-c87486622758",
       "source": "Mooculus 6.1.14",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "e414c422-87a3-4c90-8630-b1f63d81b690",
@@ -685,7 +685,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/e414c422-87a3-4c90-8630-b1f63d81b690",
       "source": "Mooculus 6.1.15",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "f29b5c8a-ace0-43d9-bb57-6bff6e9a9caf",
@@ -702,7 +702,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/f29b5c8a-ace0-43d9-bb57-6bff6e9a9caf",
       "source": "Mooculus 6.1.6",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "7d02c03a-7250-4913-81aa-67bac1d5448c",
@@ -719,7 +719,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/7d02c03a-7250-4913-81aa-67bac1d5448c",
       "source": "Mooculus 6.1.17",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "2a0b4be9-1e64-4d13-bd0a-99631f903cd4",
@@ -736,7 +736,7 @@
       "tags": "chain rule, tangent line",
       "url": "/question/2a0b4be9-1e64-4d13-bd0a-99631f903cd4",
       "source": "Mooculus 6.1.18",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "2ce34f74-4943-40ca-8e5a-e868ce9a2e05",
@@ -753,7 +753,7 @@
       "tags": "chain rule, tangent line",
       "url": "/question/2ce34f74-4943-40ca-8e5a-e868ce9a2e05",
       "source": "Mooculus 6.1.19",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "79dae1e4-66bd-4fa3-93bc-bdaa87f84e07",
@@ -770,7 +770,7 @@
       "tags": "tangent line,  chain rule",
       "url": "/question/79dae1e4-66bd-4fa3-93bc-bdaa87f84e07",
       "source": "Mooculus 6.1.20",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "d438fbee-99c0-4f52-8b98-cfb386c714e8",
@@ -787,7 +787,7 @@
       "tags": "tangent line, chain rule",
       "url": "/question/d438fbee-99c0-4f52-8b98-cfb386c714e8",
       "source": "Mooculus 6.1.21",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "9c2318ec-5090-4cd1-b870-96902b338edf",
@@ -804,7 +804,7 @@
       "tags": "chain rule, tangent line",
       "url": "/question/9c2318ec-5090-4cd1-b870-96902b338edf",
       "source": "Mooculus 6.1.22",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "ca8ae17c-a784-46fe-aaa7-64c7765eed1a",
@@ -821,7 +821,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/ca8ae17c-a784-46fe-aaa7-64c7765eed1a",
       "source": "Mooculus 8.3.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "4ae77c1b-c4d7-47ce-845a-4c16b32d5056",
@@ -838,7 +838,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/4ae77c1b-c4d7-47ce-845a-4c16b32d5056",
       "source": "Mooculus 8.3.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "296a9c49-3613-47aa-aade-4dffa8fb0b0a",
@@ -855,7 +855,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/296a9c49-3613-47aa-aade-4dffa8fb0b0a",
       "source": "Mooculus 8.3.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "c1ae7c02-cf8b-4b95-b962-9562f4e8a2c4",
@@ -872,7 +872,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/c1ae7c02-cf8b-4b95-b962-9562f4e8a2c4",
       "source": "Mooculus 8.3.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e5ce1efb-3ab1-402f-b987-7b1328162f29",
@@ -889,7 +889,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/e5ce1efb-3ab1-402f-b987-7b1328162f29",
       "source": "Mooculus 8.3.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "cf45ba7b-7b95-45e6-9298-bd22b1ced216",
@@ -906,7 +906,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/cf45ba7b-7b95-45e6-9298-bd22b1ced216",
       "source": "Mooculus 8.3.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "0e0f5812-43b6-478f-9538-2e97d7953e55",
@@ -923,7 +923,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/0e0f5812-43b6-478f-9538-2e97d7953e55",
       "source": "Mooculus 8.3.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a2a7e8df-60cd-405a-8ead-d6da5b0d0892",
@@ -940,7 +940,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/a2a7e8df-60cd-405a-8ead-d6da5b0d0892",
       "source": "Mooculus 8.3.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e0e874d4-eac8-4c30-b0f3-5bbab13a3525",
@@ -957,7 +957,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/e0e874d4-eac8-4c30-b0f3-5bbab13a3525",
       "source": "Mooculus 8.3.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "aba64240-cbf0-4101-a70a-492acdd15040",
@@ -974,7 +974,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/aba64240-cbf0-4101-a70a-492acdd15040",
       "source": "Mooculus 8.3.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "533698bb-2ed4-486b-b270-2c89dd4b8934",
@@ -991,7 +991,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/533698bb-2ed4-486b-b270-2c89dd4b8934",
       "source": "Mooculus 8.3.16",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8e7a8be8-f738-4741-8ae1-2214e1f5c474",
@@ -1008,7 +1008,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/8e7a8be8-f738-4741-8ae1-2214e1f5c474",
       "source": "Mooculus 8.3.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "20c65301-45da-4c0f-80a0-bb2cb59e392a",
@@ -1025,7 +1025,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/20c65301-45da-4c0f-80a0-bb2cb59e392a",
       "source": "Mooculus 8.3.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e71796d5-83d7-4007-ac35-3e93cd18a907",
@@ -1042,7 +1042,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/e71796d5-83d7-4007-ac35-3e93cd18a907",
       "source": "Mooculus 8.3.19",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "cf87c8fd-6652-44b6-b036-da63aa7ae0e8",
@@ -1059,7 +1059,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/cf87c8fd-6652-44b6-b036-da63aa7ae0e8",
       "source": "Mooculus 8.3.20",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a492615f-0dc8-42a3-9350-eda4e55bd603",
@@ -1076,7 +1076,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/a492615f-0dc8-42a3-9350-eda4e55bd603",
       "source": "Mooculus 9.1.2",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "907feb30-33dc-4d34-a5f4-2ef4a7e7d221",
@@ -1093,7 +1093,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/907feb30-33dc-4d34-a5f4-2ef4a7e7d221",
       "source": "Mooculus 9.1.3",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "5290fa89-0bdd-44cd-9a52-5c1740b83437",
@@ -1110,7 +1110,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/5290fa89-0bdd-44cd-9a52-5c1740b83437",
       "source": "Mooculus 9.1.4",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "bb4774d9-86a2-4a04-9782-074c400828d0",
@@ -1127,7 +1127,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/bb4774d9-86a2-4a04-9782-074c400828d0",
       "source": "Mooculus 9.1.5",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "6ce5fd29-21da-419f-9c2a-29a28cf4fb61",
@@ -1144,7 +1144,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/6ce5fd29-21da-419f-9c2a-29a28cf4fb61",
       "source": "Mooculus 9.1.6",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "62504b39-1044-47ed-a1ea-299c8240e3db",
@@ -1161,7 +1161,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/62504b39-1044-47ed-a1ea-299c8240e3db",
       "source": "Mooculus 9.1.7",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "65ee2722-1d93-4c74-ab7d-ce4d62149b36",
@@ -1178,7 +1178,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/65ee2722-1d93-4c74-ab7d-ce4d62149b36",
       "source": "Mooculus 9.1.8",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "379626e2-8c45-4bad-ab6c-2d4b9ee2d28f",
@@ -1195,7 +1195,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/379626e2-8c45-4bad-ab6c-2d4b9ee2d28f",
       "source": "Mooculus 9.1.9",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "14dc8acc-7ff4-4db4-a869-5eb69c3396de",
@@ -1212,7 +1212,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/14dc8acc-7ff4-4db4-a869-5eb69c3396de",
       "source": "Mooculus 9.1.10",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "3267ac53-800e-459e-9472-b198ee3b7a89",
@@ -1229,7 +1229,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals",
       "url": "/question/3267ac53-800e-459e-9472-b198ee3b7a89",
       "source": "Mooculus 9.1.11",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "f9752691-b345-46ba-a825-76c5c1bcc324",
@@ -1246,7 +1246,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/f9752691-b345-46ba-a825-76c5c1bcc324",
       "source": "Mooculus 9.2.1",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "125e0660-68b2-4619-8d45-0819851fef1f",
@@ -1263,7 +1263,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/125e0660-68b2-4619-8d45-0819851fef1f",
       "source": "Mooculus 9.2.2",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "0828bc71-9771-4390-9bb0-03de6a63839b",
@@ -1280,7 +1280,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/0828bc71-9771-4390-9bb0-03de6a63839b",
       "source": "Mooculus 9.2.3",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "68310990-5ffc-44a2-a793-c38da3d4d6d6",
@@ -1297,7 +1297,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/68310990-5ffc-44a2-a793-c38da3d4d6d6",
       "source": "Mooculus 9.2.4",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "020a5fbc-9c48-49c0-9e38-e4ba2af09d16",
@@ -1314,7 +1314,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/020a5fbc-9c48-49c0-9e38-e4ba2af09d16",
       "source": "Mooculus 9.2.5",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "1af55707-8516-4ae5-ac04-154e05e6359b",
@@ -1331,7 +1331,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/1af55707-8516-4ae5-ac04-154e05e6359b",
       "source": "Mooculus 9.2.6",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "4120c21e-eefc-47cf-9e37-41e7ecbff846",
@@ -1348,7 +1348,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/4120c21e-eefc-47cf-9e37-41e7ecbff846",
       "source": "Mooculus 9.2.7",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "d6184e36-f5fd-42c9-8a60-09b369aa4a47",
@@ -1365,7 +1365,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/d6184e36-f5fd-42c9-8a60-09b369aa4a47",
       "source": "Mooculus 9.2.8",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "9455b57f-2b79-4e7d-abf0-a219b6be77f2",
@@ -1382,7 +1382,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/9455b57f-2b79-4e7d-abf0-a219b6be77f2",
       "source": "Mooculus 9.2.9",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "f5ad6171-48ad-43b2-b4f7-35e77962bba7",
@@ -1399,7 +1399,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/f5ad6171-48ad-43b2-b4f7-35e77962bba7",
       "source": "Mooculus 9.2.10",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "615c80ae-2b25-4a6f-ae7b-e6f93fdb7076",
@@ -1416,7 +1416,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/615c80ae-2b25-4a6f-ae7b-e6f93fdb7076",
       "source": "Mooculus 9.2.11",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "bcd6472c-b7ef-4a10-a136-946f4a60ed5d",
@@ -1433,7 +1433,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/bcd6472c-b7ef-4a10-a136-946f4a60ed5d",
       "source": "Mooculus 9.2.12",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "624a1491-657e-4e2f-93b1-17688185e067",
@@ -1450,7 +1450,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/624a1491-657e-4e2f-93b1-17688185e067",
       "source": "Mooculus 9.2.13",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "e3a024f2-ddbf-4b09-a85c-8a54651e28ef",
@@ -1467,7 +1467,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/e3a024f2-ddbf-4b09-a85c-8a54651e28ef",
       "source": "Mooculus 9.2.14",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "35bc997a-7716-4caa-9110-421c941fdaaf",
@@ -1484,7 +1484,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/35bc997a-7716-4caa-9110-421c941fdaaf",
       "source": "Mooculus 9.2.15",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "24f8c5d3-756f-48f7-997a-8ba47a23eac9",
@@ -1501,7 +1501,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/24f8c5d3-756f-48f7-997a-8ba47a23eac9",
       "source": "Mooculus 9.2.16",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "1783587f-e466-4470-b334-12814b1c891d",
@@ -1518,7 +1518,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/1783587f-e466-4470-b334-12814b1c891d",
       "source": "Mooculus 9.2.17",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "14f18a24-dfa3-43a3-8fa0-6038aee81956",
@@ -1535,7 +1535,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/14f18a24-dfa3-43a3-8fa0-6038aee81956",
       "source": "Mooculus 9.2.18",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "59413968-7e0a-491b-9c9c-0d019f6b67a6",
@@ -1552,7 +1552,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/59413968-7e0a-491b-9c9c-0d019f6b67a6",
       "source": "Mooculus 9.2.19",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "e9fde923-53f6-457a-9dd3-984a8db071cb",
@@ -1569,7 +1569,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/e9fde923-53f6-457a-9dd3-984a8db071cb",
       "source": "Mooculus 9.2.20",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "3020f169-1f97-4848-bcd8-110cc8cf462d",
@@ -1586,7 +1586,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/3020f169-1f97-4848-bcd8-110cc8cf462d",
       "source": "Mooculus 9.2.21",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "1fd8ebe7-44b5-4070-8aaa-5f8c0dced40a",
@@ -1603,7 +1603,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/1fd8ebe7-44b5-4070-8aaa-5f8c0dced40a",
       "source": "Mooculus 9.2.22",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "bfcc7d9d-6677-45a3-bab4-b1e8c6520476",
@@ -1620,7 +1620,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/bfcc7d9d-6677-45a3-bab4-b1e8c6520476",
       "source": "Mooculus 9.2.23",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     },
     {
       "uuid": "2dbf02de-06c7-4c51-8ad0-aae1dcd8071b",
@@ -1637,7 +1637,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/2dbf02de-06c7-4c51-8ad0-aae1dcd8071b",
       "source": "Mooculus 9.2.24",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
     }
   ],
   "textContent": [
@@ -1651,12 +1651,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Furth Arctrigonometric Forms",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5344.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5345.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5346.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5347.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5348.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5349.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5350.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5351.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5352.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5353.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5344.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5345.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5346.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5347.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5348.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5349.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5350.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5351.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5352.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5353.png\"/\u003e",
       "allAnswers": [],
       "tags": "arctrigonometric forms, integral, integration ",
       "url": "/text-content/f1821705-a23d-48f7-b034-663eab5801d3",
       "source": "Forgotten Text 4 6.7",
-      "topic": "Calculus/Basic Integration/Further Arctrigonometric Forms"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Further Arctrigonometric Forms"
     },
     {
       "uuid": "144496cb-25f8-4ba3-a671-9ba99e1f709d",
@@ -1668,12 +1668,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Substitution-Type Integration",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5353.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5354.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5355.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5356.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5357.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5358.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5353.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5354.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5355.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5356.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5357.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5358.png\"/\u003e",
       "allAnswers": [],
       "tags": "substitution integration, integral, definite integral, substitution method ",
       "url": "/text-content/144496cb-25f8-4ba3-a671-9ba99e1f709d",
       "source": "Forgotten Text 4 7.1",
-      "topic": "Calculus/Advanced Integration Techniques/Substitution-Type Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Substitution-Type Integration"
     },
     {
       "uuid": "c3309e6a-adda-4366-9ef3-16723da924aa",
@@ -1685,12 +1685,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Integration by Parts ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5359.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5360.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5361.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5363.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5366.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5367.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5368.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5371.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5374.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5375.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5376.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5377.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5378.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5379.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5380.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5381.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5359.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5360.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5361.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5363.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5366.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5367.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5368.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5371.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5374.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5375.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5376.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5377.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5378.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5379.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5380.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5381.png\"/\u003e",
       "allAnswers": [],
       "tags": "integration by parts, integration, integral, applications of integration, advanced integration ",
       "url": "/text-content/c3309e6a-adda-4366-9ef3-16723da924aa",
       "source": "Forgotten Text 4 7.2",
-      "topic": "Calculus/Advanced Integration Techniques/Integration by Parts"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "120a5508-2fb8-47c9-9aa9-80095454fb93",
@@ -1702,12 +1702,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Trigonometric Integrals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5382.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5383.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5384.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5385.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5386.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5387.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5388.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5389.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5390.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5395.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5397.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5400.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5401.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5402.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5403.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5404.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5408.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5410.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5411.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5412.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5413.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5414.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5382.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5383.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5384.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5385.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5386.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5387.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5388.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5389.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5390.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5395.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5397.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5400.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5401.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5402.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5403.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5404.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5408.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5410.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5411.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5412.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5413.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5414.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometric integrals, integrals, trig integral, integration ",
       "url": "/text-content/120a5508-2fb8-47c9-9aa9-80095454fb93",
       "source": "Forgotten Text 4 7.3",
-      "topic": "Calculus/Advanced Integration Techniques/Trigonometric Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Trigonometric Integrals"
     },
     {
       "uuid": "e086f114-5d7c-453e-a85f-42f9b17827f7",
@@ -1719,12 +1719,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Trigonometric Substitution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5415.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5416.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5417.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5418.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5419.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5420.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5421.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5422.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5423.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5424.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5425.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5426.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5427.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5415.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5416.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5417.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5418.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5419.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5420.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5421.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5422.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5423.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5424.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5425.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5426.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5427.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig substitution, trig integral, integral, integration, integration by substitution ",
       "url": "/text-content/e086f114-5d7c-453e-a85f-42f9b17827f7",
       "source": "Forgotten Text 4 7.4",
-      "topic": "Calculus/Advanced Integration Techniques/Trigonometric Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Trigonometric Substitution"
     }
   ],
   "answers": [],

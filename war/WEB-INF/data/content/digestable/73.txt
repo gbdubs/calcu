@@ -375,7 +375,7 @@
       "tags": "triangle, congruent, congruent triangles, word problem, Geometry word problem",
       "url": "/question/c118c120-690b-4239-bac7-4aefdeb798d6",
       "source": "Amsco Geometry Textbook 4.7.15",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "67c1d7b4-ae14-4d7c-8fc1-5356592d4ca6",
@@ -392,7 +392,7 @@
       "tags": "SSS, side side side, congruent triangle, Geometry proof, proof",
       "url": "/question/67c1d7b4-ae14-4d7c-8fc1-5356592d4ca6",
       "source": "Amsco Geometry Textbook 4.7.16",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "ad88cb76-dfef-4f29-be9e-f2f956819ac7",
@@ -409,7 +409,7 @@
       "tags": "SSS, side side side, congruent triangles, proof, Geometry proof",
       "url": "/question/ad88cb76-dfef-4f29-be9e-f2f956819ac7",
       "source": "Amsco Geometry Textbook 4.7.17",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "1f77c8c2-32c6-4fb1-a77c-3a0653c7558a",
@@ -426,7 +426,7 @@
       "tags": "SSS, side side side, proof, Geometry proof, congruent triangles",
       "url": "/question/1f77c8c2-32c6-4fb1-a77c-3a0653c7558a",
       "source": "Amsco Geometry Textbook 4.7.18",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "f2e5940f-916b-44ee-b437-b10fcf41abaf",
@@ -443,7 +443,7 @@
       "tags": "word problem, Geometry word problem, SSS, side side side, congruent triangles",
       "url": "/question/f2e5940f-916b-44ee-b437-b10fcf41abaf",
       "source": "Amsco Geometry Textbook 4.7.19",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "8f58f07e-2017-4aaa-b9a8-88b61c333e3b",
@@ -460,7 +460,7 @@
       "tags": "congruent, triangle, congruent triangle, corresponding side, word problem, Geometry word problem",
       "url": "/question/8f58f07e-2017-4aaa-b9a8-88b61c333e3b",
       "source": "Amsco Geometry Textbook 4.7.2",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "37e6744e-9479-40b3-9c3b-30cd95da2e2a",
@@ -472,12 +472,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving Triangles Congruent Using Side, Side, Side",
-      "body": "Pairs of line segments marked with the same number of strokes are congruent. A line seg- ment marked with ___ is congruent to itself by the reflexive property of congruence.\nIn each case, is the given information sufficient to prove congruent triangles?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20081.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20082.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20083.png\"/\u003e",
+      "body": "Pairs of line segments marked with the same number of strokes are congruent. A line seg- ment marked with ___ is congruent to itself by the reflexive property of congruence.\nIn each case, is the given information sufficient to prove congruent triangles?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20081.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20082.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20083.png\"/\u003e",
       "allAnswers": [],
       "tags": "line segment, SSS, side side side, congruent, triangle, congruent triangle",
       "url": "/question/37e6744e-9479-40b3-9c3b-30cd95da2e2a",
       "source": "Amsco Geometry Textbook 4.7.3",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "56b1bf03-716f-4955-89a5-de058baa7207",
@@ -489,12 +489,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving Triangles Congruent Using Side, Side, Side",
-      "body": "Two sides are marked to indicate that they are congruent. Name the pair of corresponding sides that would have to be proved congruent in order to prove the triangles congruent by SSS.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20084.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20085.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20086.png\"/\u003e",
+      "body": "Two sides are marked to indicate that they are congruent. Name the pair of corresponding sides that would have to be proved congruent in order to prove the triangles congruent by SSS.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20084.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20085.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20086.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle, congruent, congruent triangle, SSS, side side side",
       "url": "/question/56b1bf03-716f-4955-89a5-de058baa7207",
       "source": "Amsco Geometry Textbook 4.7.6",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "91723aae-ff49-4b81-966b-9b3f1b6d8114",
@@ -506,12 +506,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Proving Triangles Congruent Using Side, Side, Side",
-      "body": "Pairs of line segments marked with the same number of strokes are congruent. Pairs of angles marked with the same number of arcs are congruent. A line segment or an angle marked with ___ is congruent to itself by the reflexive property of congruence.\nIn each case, is the given information sufficient to prove congruent triangles? If so, write the abbreviation for the postulate that proves the triangles congruent.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20087.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20088.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20089.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20090.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20091.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20092.png\"/\u003e",
+      "body": "Pairs of line segments marked with the same number of strokes are congruent. Pairs of angles marked with the same number of arcs are congruent. A line segment or an angle marked with ___ is congruent to itself by the reflexive property of congruence.\nIn each case, is the given information sufficient to prove congruent triangles? If so, write the abbreviation for the postulate that proves the triangles congruent.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20087.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20088.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/20089.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/20090.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/20091.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/20092.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle, congruent triangles, SSS, side side side",
       "url": "/question/91723aae-ff49-4b81-966b-9b3f1b6d8114",
       "source": "Amsco Geometry Textbook 4.7.9",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "99601cb3-82d3-400b-9abf-91de4b3da43b",
@@ -545,7 +545,7 @@
       "tags": "inequality, equivalence, geometric relationships",
       "url": "/question/3e67c9e7-45ed-482e-b7b2-ef66fd3d667c",
       "source": "Amsco Geometry Textbook 5.1.1",
-      "topic": "GeometryGeometry/Inequalities/Properties of Inequality"
+      "topic": "Geometry/Other Topics/Inequalities/Properties of Inequality"
     },
     {
       "uuid": "af7f03cb-9edc-4741-91b1-ee669454bf8a",
@@ -579,7 +579,7 @@
       "tags": "geometry proof, midpoint, perpendicular, right angle, word problem",
       "url": "/question/0fbee6e8-e407-4a7e-aea1-2c26eecc170a",
       "source": "Amsco Geometry Textbook 5.1.11",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "dd07f40d-6511-4f87-8cbd-fa746ae61b2b",
@@ -630,7 +630,7 @@
       "tags": "line segments",
       "url": "/question/52f966ad-ea16-4888-b1aa-f60ee625564b",
       "source": "Amsco Geometry Textbook 5.1.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "ff4aff0d-a825-4fc6-a239-8b6c3407ffdc",
@@ -664,7 +664,7 @@
       "tags": "hypotheses, line segments, rays, postulates",
       "url": "/question/d9c8ffc6-6cc6-4276-a11f-3fd5a7d49679",
       "source": "Amsco Geometry Textbook 5.1.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "2050da0e-f236-43a8-9275-cb58ba0df85e",
@@ -693,12 +693,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Line Segment Proof",
-      "body": "Given PQRS and PQ \u003d RS\nProve: a. PR \u003e PQ\nb. PR \u003e RS\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10081.png\"/\u003e",
+      "body": "Given PQRS and PQ \u003d RS\nProve: a. PR \u003e PQ\nb. PR \u003e RS\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10081.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, line segments, congruence",
       "url": "/question/7c29baa8-0b2e-4b65-aeaa-dbe67c26180a",
       "source": "Amsco Geometry Textbook 5.1.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "49e4f7f4-f847-41b7-8b51-ef0377398933",
@@ -727,12 +727,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Proof",
-      "body": "a. If KLM and LM /{ \\cong /} NM, prove that KM \u003e NM.\nb. If KM \u003e KN, KN \u003e NM, and NM \u003d NL, prove that KM \u003e NL.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10082.png\"/\u003e",
+      "body": "a. If KLM and LM /{ \\cong /} NM, prove that KM \u003e NM.\nb. If KM \u003e KN, KN \u003e NM, and NM \u003d NL, prove that KM \u003e NL.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10082.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, angles, congruence, line segments",
       "url": "/question/38da20e2-177a-4941-905c-1dc563f8702c",
       "source": "Amsco Geometry Textbook 5.1.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "c911e36c-f734-4832-8f69-448dc99ef333",
@@ -749,7 +749,7 @@
       "tags": "angle bisectors, triangle properties, conjecture",
       "url": "/question/c911e36c-f734-4832-8f69-448dc99ef333",
       "source": "Amsco Geometry Textbook 5.1.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "2f170714-a050-4d12-9398-8d61374253c5",
@@ -778,7 +778,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Median Proof",
-      "body": "For the given information, draw and label an appropriate diagram, then show a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30056.png\"/\u003e",
+      "body": "For the given information, draw and label an appropriate diagram, then show a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30056.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle proof, median of a triangle, geometry proof, geometry, proof",
       "url": "/question/1abf04d1-bb8c-4014-9d97-c3224b632ca0",
@@ -795,7 +795,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Bisector Altitude Proof",
-      "body": "For the given information, draw and label an appropriate diagram, then show a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30055.png\"/\u003e",
+      "body": "For the given information, draw and label an appropriate diagram, then show a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30055.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle bisector, bisector, altitude of a triangle, altitude, proof, geometry proof",
       "url": "/question/2a8024a4-4256-4846-a791-3f9de2487288",
@@ -812,7 +812,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Indirect Triangle Altitude Proof",
-      "body": "For the given information, draw and label an appropriate diagram, then show a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30054.png\"/\u003e",
+      "body": "For the given information, draw and label an appropriate diagram, then show a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30054.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle proof, geometry proof, proof, median proof, congruent proof, indirect proof, altitude of a triangle, altitude",
       "url": "/question/2a202db3-0c46-4121-a0dd-bffe94db584c",
@@ -846,12 +846,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Geometry Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30059.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30059.png\"/\u003e",
       "allAnswers": [],
       "tags": "congruent angles, congruent triangles, geometry proof",
       "url": "/question/a137592d-6631-40f0-ab4d-c8d2eaed6bec",
       "source": "Amsco Geometry Textbook 5.2.10",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "aee0ea7c-4bff-4c8a-a9bb-f91c14bf4b3b",
@@ -863,12 +863,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Bisection Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30061.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30061.png\"/\u003e",
       "allAnswers": [],
       "tags": "Triangle bisection, triangle proof, geometry proof, proof ",
       "url": "/question/aee0ea7c-4bff-4c8a-a9bb-f91c14bf4b3b",
       "source": "Amsco Geometry Textbook 5.2.11",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "986f48ef-4fca-4f42-9751-9410f5256fce",
@@ -880,12 +880,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Right Triangle Congruence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30060.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30060.png\"/\u003e",
       "allAnswers": [],
       "tags": "congruent angles, congruent triangles, geometry proof, right angle proof",
       "url": "/question/986f48ef-4fca-4f42-9751-9410f5256fce",
       "source": "Amsco Geometry Textbook 5.2.12",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "8e3978f6-804d-4849-a5b7-beb1272e2e8f",
@@ -965,12 +965,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Congruent Segment/Angle Proof",
-      "body": "Prove the following in a two-column format.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30062.png\"/\u003e",
+      "body": "Prove the following in a two-column format.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30062.png\"/\u003e",
       "allAnswers": [],
       "tags": "congruent line segments, geometry proof, congruent angles",
       "url": "/question/0cd3df1a-8eb8-43ce-96e5-b695bc10a1e4",
       "source": "Amsco Geometry Textbook 5.2.17",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "1f453db8-bac2-42c4-a165-ecd39f9d283f",
@@ -982,7 +982,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Altitude of a triangle Proof",
-      "body": "Prove the following using a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30063.png\"/\u003e",
+      "body": "Prove the following using a two-column proof.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30063.png\"/\u003e",
       "allAnswers": [],
       "tags": "isosceles triangle, geometry proof, isosceles proof, median of a triangle",
       "url": "/question/1f453db8-bac2-42c4-a165-ecd39f9d283f",
@@ -1016,12 +1016,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Congruence Practice",
-      "body": "For each diagram:\na) name the two triangles that are congruent\nb) state the reason that the triangles are congruent\nc) For each pair of triangles, name three additional pairs of parts that are congruent because they are corresponding parts of congruent triangles.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30057.png\"/\u003e",
+      "body": "For each diagram:\na) name the two triangles that are congruent\nb) state the reason that the triangles are congruent\nc) For each pair of triangles, name three additional pairs of parts that are congruent because they are corresponding parts of congruent triangles.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30057.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, SAS, SSS, AAS, congruence",
       "url": "/question/b47aef1c-c9bc-4425-b5d5-6150eff8f593",
       "source": "Amsco Geometry Textbook 5.2.3",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "78ccad3e-1d45-4c54-b196-1d679e9ea379",
@@ -1033,12 +1033,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Basic Geometry Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30058.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30058.png\"/\u003e",
       "allAnswers": [],
       "tags": "congruent angles, congruent triangles, geometry proof",
       "url": "/question/78ccad3e-1d45-4c54-b196-1d679e9ea379",
       "source": "Amsco Geometry Textbook 5.2.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "646d7e39-f8e2-4c7f-bc59-23db2e0aeb69",
@@ -1050,7 +1050,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Isosceles Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30068.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 30069.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30068.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30069.png\"/\u003e",
       "allAnswers": [],
       "tags": "isosceles triangle proof, triangle proof, triangle congruence proof, geometry proof",
       "url": "/question/646d7e39-f8e2-4c7f-bc59-23db2e0aeb69",
@@ -1067,7 +1067,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular Lines Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30070.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30070.png\"/\u003e",
       "allAnswers": [],
       "tags": "Triangle Equivalence Proof, right angle proof, right triangles, right triangle congruence, geometry proof",
       "url": "/question/9393505a-9d3e-4952-ae5d-9e79d7955217",
@@ -1084,12 +1084,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Non-Congruence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30071.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30071.png\"/\u003e",
       "allAnswers": [],
       "tags": "indirect proof, geometry proof, non-congruence proof",
       "url": "/question/a8067262-8ecb-4e81-b0de-6df385ded675",
       "source": "Amsco Geometry Textbook 5.3.12",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "af4bc7e2-ef4c-4aa5-b752-95a8949fe11c",
@@ -1123,7 +1123,7 @@
       "tags": "Equilateral Triangle, Midpoint, Congruent line segments, geometry proof",
       "url": "/question/33cc6f00-c00f-4904-9af9-212a014af4bd",
       "source": "Amsco Geometry Textbook 5.3.14",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "ed605bd7-0c98-4dc7-af95-a8446dab29c1",
@@ -1174,7 +1174,7 @@
       "tags": "equiangular triangle, triangle congruence, triangle proof",
       "url": "/question/0f2313f5-dcb4-47da-b194-a035304dc842",
       "source": "Amsco Geometry Textbook 5.3.2",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "ab40ce41-ac10-4a00-919c-98b9a382c512",
@@ -1237,12 +1237,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Equivalence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30064.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30064.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle congruence proof, geometry proof",
       "url": "/question/8f7a6625-df14-4d4e-9966-c8bc5bac433e",
       "source": "Amsco Geometry Textbook 5.3.6",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "c4f7a7d1-0abe-44ed-b174-4cd239b44c44",
@@ -1254,7 +1254,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Quadrilateral Triangle Equivalence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30065.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30065.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle equivalence proof, angle equivalence, geometry proof",
       "url": "/question/c4f7a7d1-0abe-44ed-b174-4cd239b44c44",
@@ -1271,7 +1271,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Isosceles Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30066.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30066.png\"/\u003e",
       "allAnswers": [],
       "tags": "isosceles triangle proof, congruent angles proof, geometry proof",
       "url": "/question/60125764-2524-4bef-895d-fb21a8ca930f",
@@ -1288,12 +1288,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Congruence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30067.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30067.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence proof, angle equivalence proof, geometry proof",
       "url": "/question/154c692a-128f-4025-a627-f7b844ebcec9",
       "source": "Amsco Geometry Textbook 5.3.9",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "0d489c5f-3155-4d23-853f-3c4412104d7e",
@@ -1310,7 +1310,7 @@
       "tags": "geometry proof, multiple proof methods, line segment proof, perpendicular line proof",
       "url": "/question/0d489c5f-3155-4d23-853f-3c4412104d7e",
       "source": "Amsco Geometry Textbook 5.4.10",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "72bcf86f-70ad-4e0a-81b2-ce4227af2fc9",
@@ -1339,12 +1339,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Disjoint Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30073.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30073.png\"/\u003e",
       "allAnswers": [],
       "tags": "midpoint proof, geometry proof, triangle congruence",
       "url": "/question/246f8f32-c3f8-4bfb-84b9-06c21353801f",
       "source": "Amsco Geometry Textbook 5.4.3",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "bb1d356d-d4d4-4565-83ec-776a8db6e549",
@@ -1356,12 +1356,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Congruence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30072.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30072.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence proof, disjoint triangles, angle bisection proof",
       "url": "/question/bb1d356d-d4d4-4565-83ec-776a8db6e549",
       "source": "Amsco Geometry Textbook 5.4.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "18e6ca06-2a79-4bcd-9d1c-929fe76826a4",
@@ -1373,7 +1373,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Bisection Intersection Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30074.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30074.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence proof, triangle proof, geometry proof, midpoint",
       "url": "/question/18e6ca06-2a79-4bcd-9d1c-929fe76826a4",
@@ -1390,12 +1390,12 @@
       "viewable": true,
       "karma": 3,
       "title": "SubTriangle Equivalence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30075.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30075.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence, geometry proof",
       "url": "/question/1c80e6e8-30ce-4a73-aca9-4dbd60faa46d",
       "source": "Amsco Geometry Textbook 5.4.6",
-      "topic": "Geometry/Polygons/Triangles/Congruence"
+      "topic": "Geometry/Polygons/Triangles/Triangle Congruence"
     },
     {
       "uuid": "9d154dad-9c3f-4362-a9ec-34727ba15394",
@@ -1407,7 +1407,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Double Angle Bisection Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30076.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30076.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle equivalence proof, triangle proof, bisection proof, geometry proof",
       "url": "/question/9d154dad-9c3f-4362-a9ec-34727ba15394",
@@ -1424,7 +1424,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30077.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30077.png\"/\u003e",
       "allAnswers": [],
       "tags": "Triangle equivalence proof, right triangle proof, geometry proof, perpendicular lines proof",
       "url": "/question/1a7722dc-8c79-47f9-8bdc-7c5ad0955b73",
@@ -1446,7 +1446,7 @@
       "tags": "line segments, bisection proof, geometry proof",
       "url": "/question/3446467b-1312-4b56-a3cd-742e07277ff5",
       "source": "Amsco Geometry Textbook 5.4.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "85819ad9-081b-4bfa-afb9-36ecc383cc2f",
@@ -1509,7 +1509,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Right Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30078.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30078.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle proof, equilateral triangle proof, triangle congruency proof, geometry proof",
       "url": "/question/67e409cb-f0b0-4755-a7a5-f865e04d2af6",
@@ -1526,12 +1526,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangles Sharing an Angle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30079.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30079.png\"/\u003e",
       "allAnswers": [],
       "tags": "shared angle proof, triangle congruence proof, equal angles proof",
       "url": "/question/16d5d94a-8eb9-494e-895e-5efbcfb9801f",
       "source": "Amsco Geometry Textbook 5.5.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "608b9d4a-921c-4902-96c1-5a2a02c6cba4",
@@ -1543,7 +1543,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Box Triangle Congruency Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30080.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30080.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence proof, right triangle proof, geometry proof",
       "url": "/question/608b9d4a-921c-4902-96c1-5a2a02c6cba4",
@@ -1560,12 +1560,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Intersecting Triangle Congruence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30081.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30081.png\"/\u003e",
       "allAnswers": [],
       "tags": "Triangle congruence proof, geometry proof, angle equivalence proof",
       "url": "/question/d98e5772-18cf-4e48-9516-4a31551ddc3d",
       "source": "Amsco Geometry Textbook 5.5.6",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "2c5d6fa1-e29b-4cac-a9b9-5dea0ddd8b91",
@@ -1577,7 +1577,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Equivalence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30082.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30082.png\"/\u003e",
       "allAnswers": [],
       "tags": "midpoint triangle proof, midpoint proof, triangle proof, geometry proof",
       "url": "/question/2c5d6fa1-e29b-4cac-a9b9-5dea0ddd8b91",
@@ -1594,12 +1594,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Congruence Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30083.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30083.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle congruence proof, angle congruence proof, geometry proof",
       "url": "/question/090a5d4a-8885-4f91-8d77-4f5a335002b7",
       "source": "Amsco Geometry Textbook 5.5.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     },
     {
       "uuid": "72f9ad33-f851-4551-a8d2-4561cd3d550f",
@@ -1616,7 +1616,7 @@
       "tags": "isosceles triangles, angle bisector, base angle, triangle congruence",
       "url": "/question/72f9ad33-f851-4551-a8d2-4561cd3d550f",
       "source": "Amsco Geometry Textbook 5.5.9",
-      "topic": "Geometry/Points Lines Planes and Angles/Angles"
+      "topic": "Geometry/Points Lines Planes + Angles/Angles"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Critical points, monotone increase and decrease",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2097.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2097.png\"/\u003e",
       "allAnswers": [],
       "tags": "critical points, monotone increase, monotone decrease, increasing, decreasing ",
       "url": "/text-content/2dbcfe72-dd14-4bc4-8cab-eeef99a2a45f",
       "source": "Calculus Refresher 16",
-      "topic": "Calculus/Lines/Derivatives/Critical Points"
+      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Critical Points"
     },
     {
       "uuid": "e4d9c206-4532-4fe2-a2fc-0060b9c57492",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Minimization and Maximization",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2099.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2099.png\"/\u003e",
       "allAnswers": [],
       "tags": "minimization, maximization, minimum values, maximum values, critical points ",
       "url": "/text-content/e4d9c206-4532-4fe2-a2fc-0060b9c57492",
       "source": "Calculus Refresher 17",
-      "topic": "Calculus/Sequences and Series/Sequences/Monotonic/Increasing"
+      "topic": "Calculus/Sequences and Series/Sequences/Monotonic Increasing"
     },
     {
       "uuid": "62867136-0ce4-4223-8d1e-2ea3d5cff272",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Local minima and maxima (first derivative test)",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2102.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2102.png\"/\u003e",
       "allAnswers": [],
       "tags": "local min, local max, minimum, maximum, relative minimum, relative maximum, relative min, relative max",
       "url": "/text-content/62867136-0ce4-4223-8d1e-2ea3d5cff272",
       "source": "Calculus Refresher 18",
-      "topic": "Calculus/Applications of the Derivative/Optimization/Maximum/Local Maximum"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Local Maximum"
     },
     {
       "uuid": "a1d5c8c8-c777-4214-b0d5-3a7f3cc9b4d1",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "An algebra trick",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2103.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2104.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2103.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2104.png\"/\u003e",
       "allAnswers": [],
       "tags": "critical points, fractional or negative exponent, roots",
       "url": "/text-content/a1d5c8c8-c777-4214-b0d5-3a7f3cc9b4d1",
       "source": "Calculus Refresher 19",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Roots/Nth Root"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Nth Root"
     },
     {
       "uuid": "67b6c1ac-9cf8-4b6a-97b7-e6648e80843d",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Linear approximations: approximation by differentials ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2107.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2107.png\"/\u003e",
       "allAnswers": [],
       "tags": "linear approximations, approximation by differentials ",
       "url": "/text-content/67b6c1ac-9cf8-4b6a-97b7-e6648e80843d",
       "source": "Calculus Refresher 20",
-      "topic": "Calculus/Applications of the Derivative/Linear Approximations/Tangent Line"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
     }
   ],
   "answers": [],

@@ -188,7 +188,7 @@
       "tags": "substitution, chain rule, differentiation",
       "url": "/question/a32f7901-99d9-4700-bc83-b751106f1ee8",
       "source": "Calculus Refresher 33.1.1",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "eb70877b-b7ed-4b12-9a66-a24a12133f52",
@@ -205,7 +205,7 @@
       "tags": "substitution, differentiation, chain rule",
       "url": "/question/eb70877b-b7ed-4b12-9a66-a24a12133f52",
       "source": "Calculus Refresher 33.1.2",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "65eba194-059e-45c6-9071-daaa995578b6",
@@ -222,7 +222,7 @@
       "tags": "substitution, chain rule, differentiation",
       "url": "/question/65eba194-059e-45c6-9071-daaa995578b6",
       "source": "Calculus Refresher 33.1.3",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "79f72ed2-616f-49ce-86b0-04d2c623f020",
@@ -239,7 +239,7 @@
       "tags": "chain rule, change of variables, substitution, u-substitution",
       "url": "/question/79f72ed2-616f-49ce-86b0-04d2c623f020",
       "source": "Calculus Refresher 34.1.1",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "5bfd09df-4ba0-46e4-80ff-96275ac7fd90",
@@ -256,7 +256,7 @@
       "tags": "substitution, chain rule, change of variables, u-substitution",
       "url": "/question/5bfd09df-4ba0-46e4-80ff-96275ac7fd90",
       "source": "Calculus Refresher 34.1.2",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "828ab47b-4511-4225-b7d9-785171459df8",
@@ -273,7 +273,7 @@
       "tags": "substitution, chain rule, u-substitution, change of variables",
       "url": "/question/828ab47b-4511-4225-b7d9-785171459df8",
       "source": "Calculus Refresher 34.1.3",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "d077c5b6-7b5f-4025-84e6-fdb62743fdf7",
@@ -290,7 +290,7 @@
       "tags": "substitution, u-substitution, change of variables, chain rule",
       "url": "/question/d077c5b6-7b5f-4025-84e6-fdb62743fdf7",
       "source": "Calculus Refresher 34.1.4",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "f78632ac-9b08-4de1-a4cd-a91eba6b0f4c",
@@ -307,7 +307,7 @@
       "tags": "chain rule, u-substitution, change of variables, substitution",
       "url": "/question/f78632ac-9b08-4de1-a4cd-a91eba6b0f4c",
       "source": "Calculus Refresher 34.1.6",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "9928b597-3866-4f32-8ab5-88f34c698455",
@@ -324,7 +324,7 @@
       "tags": "area, curves, integrals, definite integrals, ",
       "url": "/question/9928b597-3866-4f32-8ab5-88f34c698455",
       "source": "Calculus Refresher 35.1.1",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "670d600b-6cb6-4098-afef-9868d023a589",
@@ -341,7 +341,7 @@
       "tags": "integrals, indefinite, definite, area, curves",
       "url": "/question/670d600b-6cb6-4098-afef-9868d023a589",
       "source": "Calculus Refresher 35.1.2",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "d3d257a2-848a-4fb2-ab29-fbce21ee0431",
@@ -358,7 +358,7 @@
       "tags": "area, curves, differentiation, integrals, definite, indefinite",
       "url": "/question/d3d257a2-848a-4fb2-ab29-fbce21ee0431",
       "source": "Calculus Refresher 35.1.3",
-      "topic": "Calculus/Integration/Powers of Sine and Cosine/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Substitution"
     },
     {
       "uuid": "ca56da42-2148-4379-baba-588fe750633d",
@@ -375,7 +375,7 @@
       "tags": "integrals, differentiation, definite, indefinite",
       "url": "/question/ca56da42-2148-4379-baba-588fe750633d",
       "source": "Calculus Refresher 35.1.4",
-      "topic": "Calculus/Applications of Integration/Surface Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area"
     },
     {
       "uuid": "805bea5d-2eee-4aa0-90e8-5b619d942b34",
@@ -392,7 +392,7 @@
       "tags": "curves, pythagorean theorem, integrals, integration, definite, indefinite",
       "url": "/question/805bea5d-2eee-4aa0-90e8-5b619d942b34",
       "source": "Calculus Refresher 36.1.1",
-      "topic": "Calculus/Applications of Integration/Surface Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area"
     },
     {
       "uuid": "598baa32-7c36-4639-9719-7255bcf37d3d",
@@ -409,7 +409,7 @@
       "tags": "differentiation, curves, integrals, integration, definite, indefinite",
       "url": "/question/598baa32-7c36-4639-9719-7255bcf37d3d",
       "source": "Calculus Refresher 36.1.2",
-      "topic": "Calculus/Applications of Integration/Surface Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area"
     },
     {
       "uuid": "47450981-7646-4fa3-9358-c45ad6780df7",
@@ -426,7 +426,7 @@
       "tags": "integrals, definite, indefinite, parabola, integration",
       "url": "/question/47450981-7646-4fa3-9358-c45ad6780df7",
       "source": "Calculus Refresher 36.1.3",
-      "topic": "Calculus/Applications of Integration/Surface Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area"
     },
     {
       "uuid": "50f819a3-c42b-4cf9-b303-2a9467493423",
@@ -443,7 +443,7 @@
       "tags": "center of mass, centroid, integration",
       "url": "/question/50f819a3-c42b-4cf9-b303-2a9467493423",
       "source": "Calculus Refresher 39.1.1",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "d15ec56f-a2c5-44e8-a5b7-d91dd89fe3bf",
@@ -460,7 +460,7 @@
       "tags": "center of mass, centroid, integration",
       "url": "/question/d15ec56f-a2c5-44e8-a5b7-d91dd89fe3bf",
       "source": "Calculus Refresher 39.1.2",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "6317421d-db0e-4cbb-b426-82edc5a47694",
@@ -477,7 +477,7 @@
       "tags": "centroid, center of mass, integration",
       "url": "/question/6317421d-db0e-4cbb-b426-82edc5a47694",
       "source": "Calculus Refresher 39.1.3",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "328656aa-31f8-497b-b5f7-a7c92fb7a853",
@@ -494,7 +494,7 @@
       "tags": "equation of a line, line, slope, points, intercepts",
       "url": "/question/328656aa-31f8-497b-b5f7-a7c92fb7a853",
       "source": "Calculus Refresher 4.1.1",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "742f12b5-c705-4694-839a-6581da81c668",
@@ -511,7 +511,7 @@
       "tags": "slope, equation of a line, line, points, intercepts",
       "url": "/question/742f12b5-c705-4694-839a-6581da81c668",
       "source": "Calculus Refresher 4.1.2",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "1ba8ec21-7632-4851-b469-329c3023bd1c",
@@ -528,7 +528,7 @@
       "tags": "equation of a line, line, slope point, slope, intercept",
       "url": "/question/1ba8ec21-7632-4851-b469-329c3023bd1c",
       "source": "Calculus Refresher 4.1.3",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "10663252-811d-421d-bb23-b6b0cfaf2a81",
@@ -545,7 +545,7 @@
       "tags": "equation of a line, slope, point, intercept, line",
       "url": "/question/10663252-811d-421d-bb23-b6b0cfaf2a81",
       "source": "Calculus Refresher 4.1.4",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "72038c82-c8a3-4dca-9bf8-4346103e7b32",
@@ -562,7 +562,7 @@
       "tags": "cross section, cone, volume, integration",
       "url": "/question/72038c82-c8a3-4dca-9bf8-4346103e7b32",
       "source": "Calculus Refresher 40.1.1",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "8f1f978a-8959-48f1-af32-9dd831fa937a",
@@ -579,7 +579,7 @@
       "tags": "volume, cross section, radius, sphere, integration",
       "url": "/question/8f1f978a-8959-48f1-af32-9dd831fa937a",
       "source": "Calculus Refresher 40.1.2",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "abdcebcc-b7e3-4911-9e51-cf15fb0e039e",
@@ -596,7 +596,7 @@
       "tags": "volume, radius, cross sections, squares, integration",
       "url": "/question/abdcebcc-b7e3-4911-9e51-cf15fb0e039e",
       "source": "Calculus Refresher 40.1.3",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "3140c27a-f858-4b90-bde6-9e938415395f",
@@ -613,7 +613,7 @@
       "tags": "volume, solid, integration, rotation, region",
       "url": "/question/3140c27a-f858-4b90-bde6-9e938415395f",
       "source": "Calculus Refresher 41.1.1",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "a86e1d54-4afd-4a70-a495-a115fe228db9",
@@ -630,7 +630,7 @@
       "tags": "volume, solid, rotating, integration",
       "url": "/question/a86e1d54-4afd-4a70-a495-a115fe228db9",
       "source": "Calculus Refresher 41.1.2",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "e1d83f1f-8aa2-4f2e-9a4d-05ad46b68ae6",
@@ -647,7 +647,7 @@
       "tags": "volume, integral, region, rotation, integration",
       "url": "/question/e1d83f1f-8aa2-4f2e-9a4d-05ad46b68ae6",
       "source": "Calculus Refresher 41.1.3",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "20458e5a-2dbf-4f76-be90-6d6085d32167",
@@ -664,7 +664,7 @@
       "tags": "area, revolution, curve, integration, arc length",
       "url": "/question/20458e5a-2dbf-4f76-be90-6d6085d32167",
       "source": "Calculus Refresher 42.1.1",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "271bfb46-870c-4a83-b846-36bf44b7f4b5",
@@ -681,7 +681,7 @@
       "tags": "integral, area, surface, rotating, curve, integration",
       "url": "/question/271bfb46-870c-4a83-b846-36bf44b7f4b5",
       "source": "Calculus Refresher 42.1.2",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "d8abc935-54ed-4b23-9e42-6d0bd4128829",
@@ -698,7 +698,7 @@
       "tags": "integration, area, surface, rotating, curve, integrals",
       "url": "/question/d8abc935-54ed-4b23-9e42-6d0bd4128829",
       "source": "Calculus Refresher 42.1.3",
-      "topic": "Calculus/Applications of Integration/Length Lines Volume Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Length Lines Volume Area"
     },
     {
       "uuid": "a704a218-5fdc-48c7-96a1-a30ece6b6877",
@@ -715,7 +715,7 @@
       "tags": "integrals, integration, surface, rotating, curve",
       "url": "/question/a704a218-5fdc-48c7-96a1-a30ece6b6877",
       "source": "Calculus Refresher 42.1.4",
-      "topic": "Calculus/Applications of Integration/Surface Area"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area"
     },
     {
       "uuid": "3067b38a-c0d8-46f1-95f3-d7ed5c2243f5",
@@ -732,7 +732,7 @@
       "tags": "integration by parts, integrals, integration",
       "url": "/question/3067b38a-c0d8-46f1-95f3-d7ed5c2243f5",
       "source": "Calculus Refresher 43.1.1",
-      "topic": "Calculus/Applications of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "18b0bf63-cabf-4374-98fd-95142096f4a0",
@@ -749,7 +749,7 @@
       "tags": "integration by parts, integrals",
       "url": "/question/18b0bf63-cabf-4374-98fd-95142096f4a0",
       "source": "Calculus Refresher 43.1.2",
-      "topic": "Calculus/Applications of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "b216db9a-c4d7-452a-8fb8-cccaf50f2f49",
@@ -766,7 +766,7 @@
       "tags": "integration by parts, integrals, ",
       "url": "/question/b216db9a-c4d7-452a-8fb8-cccaf50f2f49",
       "source": "Calculus Refresher 43.1.3",
-      "topic": "Calculus/Applications of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "uuid": "908ce092-45e0-4dee-b85b-52e7ae2b27d1",
@@ -783,7 +783,7 @@
       "tags": "integration by parts, integration, integrals",
       "url": "/question/908ce092-45e0-4dee-b85b-52e7ae2b27d1",
       "source": "Calculus Refresher 43.1.4",
-      "topic": "Calculus/Integration/Properties of Integrals/Integration by Parts"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "7c801b23-d4be-4c47-b49d-2097e8323ae0",
@@ -800,7 +800,7 @@
       "tags": "partial fractions, integrals, integration",
       "url": "/question/7c801b23-d4be-4c47-b49d-2097e8323ae0",
       "source": "Calculus Refresher 44.1.1",
-      "topic": "Calculus/Integration/Properties of Integrals/Integration by Parts"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Historical and theoretical comments: Mean Value Theorem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2166.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2166.png\"/\u003e",
       "allAnswers": [],
       "tags": "mean value theorem, infinite series ",
       "url": "/text-content/066513bb-bdec-4671-9c22-51fb7d455bd4",
       "source": "Calculus Refresher 47",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "be220a04-d80b-4e9b-8d72-1acb5de00796",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor Polynomials: formulas",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2167.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2168.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2167.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2168.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor\u0027s formula with remainder term, taylor polynomials ",
       "url": "/text-content/be220a04-d80b-4e9b-8d72-1acb5de00796",
       "source": "Calculus Refresher 48",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     }
   ],
   "answers": [],

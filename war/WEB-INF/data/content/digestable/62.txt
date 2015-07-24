@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2439.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2439.png\"/\u003e",
       "uuid": "ad2f13e6-47bc-497d-98b9-888b47bd19f4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find a polynomial with lowest degree",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2438.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2438.png\"/\u003e",
       "allAnswers": [],
       "tags": "polynomial functions, polynomials, integer coefficients ",
       "url": "/practice-problem/ad2f13e6-47bc-497d-98b9-888b47bd19f4",
       "source": "null 3.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2448.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2448.png\"/\u003e",
       "uuid": "c5a6ae08-8d2d-470a-932a-b3a05f40687c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Mathematical model for the population",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2447.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2447.png\"/\u003e",
       "allAnswers": [],
       "tags": "intercept, determine behavior of graph ",
       "url": "/practice-problem/c5a6ae08-8d2d-470a-932a-b3a05f40687c",
       "source": "null 4.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2453.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2453.png\"/\u003e",
       "uuid": "c1a1bb90-98b7-4511-907f-4369082ace30",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "List the horizontal asymptotes",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2451.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2451.png\"/\u003e",
       "allAnswers": [],
       "tags": "horizontal asymptotes, behavior of graph, rational functions ",
       "url": "/practice-problem/c1a1bb90-98b7-4511-907f-4369082ace30",
       "source": "null 4.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2455.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2455.png\"/\u003e",
       "uuid": "7ca8a038-b980-40bf-b7aa-8fe69ac7ecce",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Number of students with the flu",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2454.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2454.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, inequalities, interpret at 0, determine behavior ",
       "url": "/practice-problem/7ca8a038-b980-40bf-b7aa-8fe69ac7ecce",
       "source": "null 4.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2459.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2460.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2459.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2460.png\"/\u003e",
       "uuid": "d9f04d96-f50e-47b6-bb94-3475ebf14d43",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the slant asymptotes",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2458.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2458.png\"/\u003e",
       "allAnswers": [],
       "tags": "slant asymptotes, rational functions, behavior of graph ",
       "url": "/practice-problem/d9f04d96-f50e-47b6-bb94-3475ebf14d43",
       "source": "null 4.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2471.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2472.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2473.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2471.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2472.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2473.png\"/\u003e",
       "uuid": "1f2af9ab-394a-484c-8c2f-1e75573997ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Sketch a detailed graph of rational funciton",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2470.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2470.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, graphing rational functions, simplify expression, simplify rational function ",
       "url": "/practice-problem/1f2af9ab-394a-484c-8c2f-1e75573997ec",
       "source": "null 4.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2475.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2476.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2475.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2476.png\"/\u003e",
       "uuid": "de82def5-e8af-4065-a4ae-3b51906e2e1c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Sketch a graph of rational function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2474.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2474.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, graphing rational functions, behavior of graphs ",
       "url": "/practice-problem/de82def5-e8af-4065-a4ae-3b51906e2e1c",
       "source": "null 4.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2482.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2483.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2482.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2483.png\"/\u003e",
       "uuid": "a58c9057-1c8c-477c-b710-fe349b67df02",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Weeding the garden on Carl\u0027s own ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2481.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2481.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, rational inequalities, ratio, logic ",
       "url": "/practice-problem/a58c9057-1c8c-477c-b710-fe349b67df02",
       "source": "null 4.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2486.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2487.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2486.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2487.png\"/\u003e",
       "uuid": "1e971ca4-3e95-4920-947c-f95ee83c4696",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Cost Function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2484.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2485.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2484.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2485.png\"/\u003e",
       "allAnswers": [],
       "tags": "average cost function, interpret inequality, rational inequalities, applications of rational functions ",
       "url": "/practice-problem/1e971ca4-3e95-4920-947c-f95ee83c4696",
       "source": "null 4.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2489.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2490.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2491.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2489.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2490.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2491.png\"/\u003e",
       "uuid": "e39bd26c-f36b-4155-a4b4-436dac4c6b83",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "A square box question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2488.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2488.png\"/\u003e",
       "allAnswers": [],
       "tags": "applied domain, interpret behavior, surface area, dimensions of box, rational functions, applications of rational functions ",
       "url": "/practice-problem/e39bd26c-f36b-4155-a4b4-436dac4c6b83",
       "source": "null 4.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2507.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2508.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2507.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2508.png\"/\u003e",
       "uuid": "ce1ead42-8401-444d-9107-096dfcfcf011",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Functions as a composition of two or more",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2506.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2506.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions as a composition, composition of functions, rational functions, the function composition",
       "url": "/practice-problem/ce1ead42-8401-444d-9107-096dfcfcf011",
       "source": "null 5.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2522.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2523.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2524.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2525.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2522.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2523.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2524.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2525.png\"/\u003e",
       "uuid": "992daca4-78f8-4565-9b46-4af218f2be9a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph the following functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2521.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2521.png\"/\u003e",
       "allAnswers": [],
       "tags": "one-to-one, inverse, function composition ",
       "url": "/practice-problem/992daca4-78f8-4565-9b46-4af218f2be9a",
       "source": "null 5.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2528.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2528.png\"/\u003e",
       "uuid": "98c3c5b3-6efb-4e3a-b5a1-3b3a85ba7521",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "PortaBoy game system, cont.",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2526.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2527.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2526.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2527.png\"/\u003e",
       "allAnswers": [],
       "tags": "one-to-one, horizontal line test, function composition ",
       "url": "/practice-problem/98c3c5b3-6efb-4e3a-b5a1-3b3a85ba7521",
       "source": "null 5.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2540.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2540.png\"/\u003e",
       "uuid": "c4b8c6b1-e019-41c9-8d99-6c23751de88d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Carl wishes for high speed internet",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2538.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2539.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2538.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2539.png\"/\u003e",
       "allAnswers": [],
       "tags": "domain, functions, minimum cost, applied domain ",
       "url": "/practice-problem/c4b8c6b1-e019-41c9-8d99-6c23751de88d",
       "source": "null 5.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2552.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2552.png\"/\u003e",
       "uuid": "f0a0652e-016e-4415-9767-1dae33a4af21",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Simplify the following expressions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2551.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2551.png\"/\u003e",
       "allAnswers": [],
       "tags": "logarithm expression, exponential expression, log functions, exponential function ",
       "url": "/practice-problem/f0a0652e-016e-4415-9767-1dae33a4af21",
       "source": "null 6.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2554.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2555.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2554.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2555.png\"/\u003e",
       "uuid": "22480b03-a3b9-41a3-bfa9-385cd01f4610",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the domain of the following functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2553.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2553.png\"/\u003e",
       "allAnswers": [],
       "tags": "domain, range, log functions, exponential functions, logarithmic functions ",
       "url": "/practice-problem/22480b03-a3b9-41a3-bfa9-385cd01f4610",
       "source": "null 6.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2557.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2558.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2559.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2557.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2558.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2559.png\"/\u003e",
       "uuid": "a8f17f95-2e71-4889-98de-411aecd9e6d6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Exponential function questions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2556.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2556.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential functions, transformations, symmetry about y\u003dx, domain and range of inverse ",
       "url": "/practice-problem/a8f17f95-2e71-4889-98de-411aecd9e6d6",
       "source": "null 6.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2568.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2569.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2568.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2569.png\"/\u003e",
       "uuid": "93e5c88f-f1a5-4a31-8a2c-04b077272804",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Change of base formula",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2567.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2567.png\"/\u003e",
       "allAnswers": [],
       "tags": "change of base, convert bases, logarithms, logarithmic functions ",
       "url": "/practice-problem/93e5c88f-f1a5-4a31-8a2c-04b077272804",
       "source": "null 6.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2577.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2577.png\"/\u003e",
       "uuid": "990c2fa9-da4d-4227-a36f-cbb4858c3653",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "When will the coffee be warmer than 100 degrees F, homes?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2576.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2576.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential inequality, exponential function, domain ",
       "url": "/practice-problem/990c2fa9-da4d-4227-a36f-cbb4858c3653",
       "source": "null 6.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2580.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2580.png\"/\u003e",
       "uuid": "5018e8eb-c0b7-4b5f-a17f-dbd5ca888d22",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find a formula for f inverse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2578.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2578.png\"/\u003e",
       "allAnswers": [],
       "tags": "one-to-one, exponential function, rational function ",
       "url": "/practice-problem/5018e8eb-c0b7-4b5f-a17f-dbd5ca888d22",
       "source": "null 6.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2588.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2588.png\"/\u003e",
       "uuid": "879753c6-aad1-431a-98ba-e0acd9263419",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Determine the corresponding range ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2587.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2587.png\"/\u003e",
       "allAnswers": [],
       "tags": "logarithmic functions, log functions, log inequalities, logarithmic inequalities ",
       "url": "/practice-problem/879753c6-aad1-431a-98ba-e0acd9263419",
@@ -375,7 +375,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/61cc6125-4327-4e4b-92b7-1eb140f3585d",
       "source": "AP Calculus Problems 4.3.2",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "99ccf012-7e6a-499b-a38a-05acf61cbd46",
@@ -392,7 +392,7 @@
       "tags": "derivative rules, functions",
       "url": "/question/99ccf012-7e6a-499b-a38a-05acf61cbd46",
       "source": "AP Calculus Problems 2.8.1",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "dca95a0b-a5bd-42f4-b8da-95d33ca15c9c",
@@ -409,7 +409,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/dca95a0b-a5bd-42f4-b8da-95d33ca15c9c",
       "source": "AP Calculus Problems 4.3.3",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "b8a3f0db-a8b7-417e-85ee-6702b9a15fec",
@@ -426,7 +426,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/b8a3f0db-a8b7-417e-85ee-6702b9a15fec",
       "source": "AP Calculus Problems 4.3.4",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "f1ce8595-aa2c-4425-8bce-224b1647de4d",
@@ -443,7 +443,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/f1ce8595-aa2c-4425-8bce-224b1647de4d",
       "source": "AP Calculus Problems 4.3.5",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "e6694823-467c-40e5-af45-696c7ba9feeb",
@@ -460,7 +460,7 @@
       "tags": "derivative rules, functions, derivatives ",
       "url": "/question/e6694823-467c-40e5-af45-696c7ba9feeb",
       "source": "AP Calculus Problems 2.8.2",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "8950c8cc-598e-49e5-8a64-c2dce5de4bb1",
@@ -477,7 +477,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/8950c8cc-598e-49e5-8a64-c2dce5de4bb1",
       "source": "AP Calculus Problems 4.3.6",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "41c607af-b2ae-404c-9fb2-dde3bcb162de",
@@ -494,7 +494,7 @@
       "tags": "functions, derivative, derivative rule, tangent line",
       "url": "/question/41c607af-b2ae-404c-9fb2-dde3bcb162de",
       "source": "AP Calculus Problems 2.8.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "1f89d3b2-d2f9-4bae-b5ba-0bc2ac75e7d1",
@@ -511,7 +511,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/1f89d3b2-d2f9-4bae-b5ba-0bc2ac75e7d1",
       "source": "AP Calculus Problems 4.3.7",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "f5b2e357-6ec5-4814-b779-b83fd324f4d6",
@@ -528,7 +528,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/f5b2e357-6ec5-4814-b779-b83fd324f4d6",
       "source": "AP Calculus Problems 4.3.8",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "0968031a-8ffe-41a3-9b5c-c8728f25966f",
@@ -545,7 +545,7 @@
       "tags": "derivative rule, function, tangent line",
       "url": "/question/0968031a-8ffe-41a3-9b5c-c8728f25966f",
       "source": "AP Calculus Problems 2.8.4",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "023f9d65-3e27-47d2-98a5-4d65b4a28040",
@@ -562,7 +562,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/023f9d65-3e27-47d2-98a5-4d65b4a28040",
       "source": "AP Calculus Problems 4.3.9",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "adbd7fd4-aff4-41b6-bfc8-73b6c04eae3c",
@@ -579,7 +579,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
       "url": "/question/adbd7fd4-aff4-41b6-bfc8-73b6c04eae3c",
       "source": "AP Calculus Problems 4.3.10",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "7353628b-5bd3-436b-b3e9-6edf5647b58e",
@@ -596,7 +596,7 @@
       "tags": "derivative rule, derivative, function ",
       "url": "/question/7353628b-5bd3-436b-b3e9-6edf5647b58e",
       "source": "AP Calculus Problems 2.8.5",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "60976886-ed9e-4820-8db9-a5ff1b8728b1",
@@ -613,7 +613,7 @@
       "tags": "derivative rule, derivative, function",
       "url": "/question/60976886-ed9e-4820-8db9-a5ff1b8728b1",
       "source": "AP Calculus Problems 2.8.6",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "b4758c91-5dae-4e13-9e76-8ac808ad7d57",
@@ -630,7 +630,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, initial value, substitution",
       "url": "/question/b4758c91-5dae-4e13-9e76-8ac808ad7d57",
       "source": "AP Calculus Problems 4.3.11",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "51c2d9ba-4ba3-426e-9466-eec22eb3215a",
@@ -647,7 +647,7 @@
       "tags": "derivative rule, derivatives, functions ",
       "url": "/question/51c2d9ba-4ba3-426e-9466-eec22eb3215a",
       "source": "AP Calculus Problems 2.8.7",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "ca543fc7-d9a7-4ae6-80f9-d698b335f10f",
@@ -664,7 +664,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, initial value, substitution",
       "url": "/question/ca543fc7-d9a7-4ae6-80f9-d698b335f10f",
       "source": "AP Calculus Problems 4.3.12",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "fc0d1aab-51bb-49cf-9e28-f8392fddadc2",
@@ -681,7 +681,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/fc0d1aab-51bb-49cf-9e28-f8392fddadc2",
       "source": "AP Calculus Problems 2.8.8",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "91489c52-ebda-428a-813d-b6ce46406691",
@@ -698,7 +698,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, initial value, substitution",
       "url": "/question/91489c52-ebda-428a-813d-b6ce46406691",
       "source": "AP Calculus Problems 4.3.13",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "5e5d5df4-6441-4c7e-91c5-19afde5526bc",
@@ -715,7 +715,7 @@
       "tags": "derivative rule, functions, derivatives",
       "url": "/question/5e5d5df4-6441-4c7e-91c5-19afde5526bc",
       "source": "AP Calculus Problems 2.8.9",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "82f2e440-4817-453d-883e-090c329d97eb",
@@ -732,7 +732,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/82f2e440-4817-453d-883e-090c329d97eb",
       "source": "AP Calculus Problems 2.8.10",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "f87f23e5-070f-498b-bd2f-41b72b58b2d0",
@@ -749,7 +749,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, initial value, substitution",
       "url": "/question/f87f23e5-070f-498b-bd2f-41b72b58b2d0",
       "source": "AP Calculus Problems 4.3.14",
-      "topic": "Calculus/Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
     },
     {
       "uuid": "c28adf82-4182-4d41-9ae8-ffd907308ec6",
@@ -766,7 +766,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/c28adf82-4182-4d41-9ae8-ffd907308ec6",
       "source": "AP Calculus Problems 2.8.11",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "d7560251-989e-47bc-9e59-61435eff03ac",
@@ -783,7 +783,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/d7560251-989e-47bc-9e59-61435eff03ac",
       "source": "AP Calculus Problems 2.8.12",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "30a4a018-ffd2-4c66-bc8d-97aba1b985c4",
@@ -800,7 +800,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, area",
       "url": "/question/30a4a018-ffd2-4c66-bc8d-97aba1b985c4",
       "source": "AP Calculus Problems 4.3.15",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "bef6f726-67b6-439b-b546-18dc46653d7b",
@@ -817,7 +817,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/bef6f726-67b6-439b-b546-18dc46653d7b",
       "source": "AP Calculus Problems 2.8.13",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "6e522548-64e2-4883-a676-a82e9e7a4d6d",
@@ -834,7 +834,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/6e522548-64e2-4883-a676-a82e9e7a4d6d",
       "source": "AP Calculus Problems 2.8.14",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "f0471e70-43e4-4641-ba1d-dffe4166e2e0",
@@ -851,7 +851,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, volume, graph",
       "url": "/question/f0471e70-43e4-4641-ba1d-dffe4166e2e0",
       "source": "AP Calculus Problems 4.3.16",
-      "topic": "Calculus/Applications of Integration/Volume/Disk Method"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "5a8973dc-b5e0-4e65-b56a-b6519a1ce259",
@@ -868,7 +868,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/5a8973dc-b5e0-4e65-b56a-b6519a1ce259",
       "source": "AP Calculus Problems 2.8.15",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "bbccfb5c-6757-413f-9c56-7b9eee0a55ac",
@@ -885,7 +885,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/bbccfb5c-6757-413f-9c56-7b9eee0a55ac",
       "source": "AP Calculus Problems 2.8.16",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "7c300460-c2bf-438d-9099-a72686ce0785",
@@ -902,7 +902,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, area, graph",
       "url": "/question/7c300460-c2bf-438d-9099-a72686ce0785",
       "source": "AP Calculus Problems 4.3.17",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "f567744d-ecf3-4d2f-8126-d2caaabb3fc2",
@@ -919,7 +919,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/f567744d-ecf3-4d2f-8126-d2caaabb3fc2",
       "source": "AP Calculus Problems 2.8.17",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "33c0e34c-5b62-4bd2-bcea-0d5ebba1a5f0",
@@ -936,7 +936,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/33c0e34c-5b62-4bd2-bcea-0d5ebba1a5f0",
       "source": "AP Calculus Problems 2.8.18",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "af1233ed-ab62-416c-bd1c-925dfe92f2a3",
@@ -953,7 +953,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, volume, graph",
       "url": "/question/af1233ed-ab62-416c-bd1c-925dfe92f2a3",
       "source": "AP Calculus Problems 4.3.18",
-      "topic": "Calculus/Applications of Integration/Volume/Disk Method"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
     },
     {
       "uuid": "87fb55e2-4260-43cb-8a65-280471a39b01",
@@ -970,7 +970,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/87fb55e2-4260-43cb-8a65-280471a39b01",
       "source": "AP Calculus Problems 2.8.19",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "e97b5524-c8a1-47fa-9bfe-a9398c5c7570",
@@ -987,7 +987,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/e97b5524-c8a1-47fa-9bfe-a9398c5c7570",
       "source": "AP Calculus Problems 2.8.20",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "b936d71b-db99-47d5-a2a6-c4d551d67d48",
@@ -1004,7 +1004,7 @@
       "tags": "derivative rule, derivatives, functions",
       "url": "/question/b936d71b-db99-47d5-a2a6-c4d551d67d48",
       "source": "AP Calculus Problems 2.8.21",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "750abac0-346a-46a6-8605-52f601363d90",
@@ -1021,7 +1021,7 @@
       "tags": "trigonometric derivatives, derivative, trigonometry ",
       "url": "/question/750abac0-346a-46a6-8605-52f601363d90",
       "source": "AP Calculus Problems 2.9.1",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "6e1deeed-bb11-4524-bd7b-07195f85e1e2",
@@ -1038,7 +1038,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry",
       "url": "/question/6e1deeed-bb11-4524-bd7b-07195f85e1e2",
       "source": "AP Calculus Problems 2.9.2",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "a276f032-ba92-44a5-94f1-5478bfde570f",
@@ -1055,7 +1055,7 @@
       "tags": "trigonometric derivatives, derivative, trigonometry ",
       "url": "/question/a276f032-ba92-44a5-94f1-5478bfde570f",
       "source": "AP Calculus Problems 2.9.3",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "5e960f3d-b346-47d2-b022-ab1353728364",
@@ -1072,7 +1072,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry",
       "url": "/question/5e960f3d-b346-47d2-b022-ab1353728364",
       "source": "AP Calculus Problems 2.9.4",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "e4d48421-c396-4162-9214-7460fb81bbe6",
@@ -1089,7 +1089,7 @@
       "tags": "trigonometric derivative, derivative, trigonometry ",
       "url": "/question/e4d48421-c396-4162-9214-7460fb81bbe6",
       "source": "AP Calculus Problems 2.9.5",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "259f628e-1960-4c3a-84b3-6be37a45126a",
@@ -1106,7 +1106,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry",
       "url": "/question/259f628e-1960-4c3a-84b3-6be37a45126a",
       "source": "AP Calculus Problems 2.9.6",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "c648970d-63c7-4003-95b6-a140fb8da872",
@@ -1123,7 +1123,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry",
       "url": "/question/c648970d-63c7-4003-95b6-a140fb8da872",
       "source": "AP Calculus Problems 2.9.7",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "0557f3ac-591c-49fb-b023-460eba34ebe7",
@@ -1140,7 +1140,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/0557f3ac-591c-49fb-b023-460eba34ebe7",
       "source": "AP Calculus Problems 2.9.8",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "c7abdb5b-dee8-430d-897c-b9b278cb1e40",
@@ -1157,7 +1157,7 @@
       "tags": "trigonometric derivatives, trigonometry, derivatives",
       "url": "/question/c7abdb5b-dee8-430d-897c-b9b278cb1e40",
       "source": "AP Calculus Problems 2.9.9",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "234415d2-f374-4afd-96c1-863178736858",
@@ -1174,7 +1174,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/234415d2-f374-4afd-96c1-863178736858",
       "source": "AP Calculus Problems 2.9.10",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "2ce87c46-4e56-4ee5-a9a6-f9bf57ce4f15",
@@ -1191,7 +1191,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry",
       "url": "/question/2ce87c46-4e56-4ee5-a9a6-f9bf57ce4f15",
       "source": "AP Calculus Problems 2.9.10",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "29b7308c-0ef7-4b27-a728-2cd1ce0bbc99",
@@ -1208,7 +1208,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry",
       "url": "/question/29b7308c-0ef7-4b27-a728-2cd1ce0bbc99",
       "source": "AP Calculus Problems 2.9.11",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "c193adf7-a3c2-446c-af05-04ff14f37ff1",
@@ -1225,7 +1225,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/c193adf7-a3c2-446c-af05-04ff14f37ff1",
       "source": "AP Calculus Problems 2.9.12",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "86a3f9de-8fd8-4155-a0d2-ea3c7ca1c3d0",
@@ -1242,7 +1242,7 @@
       "tags": "trigonometric derivatives, derivative, trigonometry ",
       "url": "/question/86a3f9de-8fd8-4155-a0d2-ea3c7ca1c3d0",
       "source": "AP Calculus Problems 2.9.13",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "affe2c88-9ebf-4a22-a614-0565cd6d6449",
@@ -1259,7 +1259,7 @@
       "tags": "tangent line, curve, trigonometric derivatives, derivative, trigonometry ",
       "url": "/question/affe2c88-9ebf-4a22-a614-0565cd6d6449",
       "source": "AP Calculus Problems 2.9.14",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "e6a75708-8392-4135-9874-2802f15daf69",
@@ -1276,7 +1276,7 @@
       "tags": "tangent line, trigonometric derivatives, derivative, trigonometry ",
       "url": "/question/e6a75708-8392-4135-9874-2802f15daf69",
       "source": "AP Calculus Problems 2.9.15",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "83d5ec65-6a1f-4ecb-a4da-8a2b362d20b8",
@@ -1293,7 +1293,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/83d5ec65-6a1f-4ecb-a4da-8a2b362d20b8",
       "source": "AP Calculus Problems 2.9.16",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "00ce82b6-2921-4681-bc2b-9183a1cce466",
@@ -1310,7 +1310,7 @@
       "tags": "derivatives, trigonometric derivatives, trigonometry ",
       "url": "/question/00ce82b6-2921-4681-bc2b-9183a1cce466",
       "source": "AP Calculus Problems 2.9.17",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "85370489-36d7-4d93-95b8-072bdccdbe83",
@@ -1327,7 +1327,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/85370489-36d7-4d93-95b8-072bdccdbe83",
       "source": "AP Calculus Problems 2.9.18",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "b9322ffb-4ffc-4df1-a6c4-181ad17aae08",
@@ -1344,7 +1344,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/b9322ffb-4ffc-4df1-a6c4-181ad17aae08",
       "source": "AP Calculus Problems 2.9.19",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "6fb8d547-6f69-4f0e-b9d9-35a29f386bb0",
@@ -1361,7 +1361,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/6fb8d547-6f69-4f0e-b9d9-35a29f386bb0",
       "source": "AP Calculus Problems 2.9.20",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "fa57426d-5285-4250-a4f8-be2e6956d01b",
@@ -1378,7 +1378,7 @@
       "tags": "trigonometric derivatives, derivative, trigonometry ",
       "url": "/question/fa57426d-5285-4250-a4f8-be2e6956d01b",
       "source": "AP Calculus Problems 2.9.21",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "a20e7306-1574-4243-b45b-33d8324fefff",
@@ -1395,7 +1395,7 @@
       "tags": "trigonometric derivatives, derivatives, trigonometry ",
       "url": "/question/a20e7306-1574-4243-b45b-33d8324fefff",
       "source": "AP Calculus Problems 2.9.22",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "1c762b1f-b054-4eca-8509-e96d1155301a",
@@ -1412,7 +1412,7 @@
       "tags": "tangent line, curves",
       "url": "/question/1c762b1f-b054-4eca-8509-e96d1155301a",
       "source": "AP Calculus Problems 2.10.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "cd8e9a0f-50c2-4038-bf95-66bedc83f115",
@@ -1429,7 +1429,7 @@
       "tags": "normal line, curves",
       "url": "/question/cd8e9a0f-50c2-4038-bf95-66bedc83f115",
       "source": "AP Calculus Problems 2.10.2",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "69174b5c-149f-4862-a2b4-fb3785f00327",
@@ -1446,7 +1446,7 @@
       "tags": "tangent line, perpendicular, curves",
       "url": "/question/69174b5c-149f-4862-a2b4-fb3785f00327",
       "source": "AP Calculus Problems 2.10.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "79dad29e-82a8-4ccb-8f08-49e6ef9cabf8",
@@ -1463,7 +1463,7 @@
       "tags": "normal line, curves",
       "url": "/question/79dad29e-82a8-4ccb-8f08-49e6ef9cabf8",
       "source": "AP Calculus Problems 2.10.4",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "01ee9906-112d-499e-bfe6-2cf66b15098e",
@@ -1480,7 +1480,7 @@
       "tags": "tangent line, curve",
       "url": "/question/01ee9906-112d-499e-bfe6-2cf66b15098e",
       "source": "AP Calculus Problems 2.10.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "2de7b36c-95f2-4608-a0f9-b46d54a13740",
@@ -1497,7 +1497,7 @@
       "tags": "normal line, curves",
       "url": "/question/2de7b36c-95f2-4608-a0f9-b46d54a13740",
       "source": "AP Calculus Problems 2.10.6",
-      "topic": "Calculus/Applications of Integration/Area Between Curves/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Between Curves/Limits"
     },
     {
       "uuid": "73169c6e-1d17-40fc-9f3b-f8924e8b5a96",
@@ -1514,7 +1514,7 @@
       "tags": "tangent line, curves",
       "url": "/question/73169c6e-1d17-40fc-9f3b-f8924e8b5a96",
       "source": "AP Calculus Problems 2.10.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "19fe3926-98e9-4d27-b468-f442c79add50",
@@ -1531,7 +1531,7 @@
       "tags": "tangent line, equation of tangent line",
       "url": "/question/19fe3926-98e9-4d27-b468-f442c79add50",
       "source": "AP Calculus Problems 2.10.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "413d6a7c-eba9-4e7b-bdd2-2f39d058ae82",
@@ -1548,7 +1548,7 @@
       "tags": "functions, derivatives",
       "url": "/question/413d6a7c-eba9-4e7b-bdd2-2f39d058ae82",
       "source": "AP Calculus Problems 2.10.9",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "8eb132d8-7589-46a3-b5be-e47a49183ac3",
@@ -1565,7 +1565,7 @@
       "tags": "functions, derivatives",
       "url": "/question/8eb132d8-7589-46a3-b5be-e47a49183ac3",
       "source": "AP Calculus Problems 2.10.10",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "272182a4-1ef0-415d-b318-89d092d39f67",
@@ -1582,7 +1582,7 @@
       "tags": "functions, derivatives ",
       "url": "/question/272182a4-1ef0-415d-b318-89d092d39f67",
       "source": "AP Calculus Problems 2.10.11",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "fb91e968-dbfa-4372-b295-fd718a019804",
@@ -1599,7 +1599,7 @@
       "tags": "functions, derivatives",
       "url": "/question/fb91e968-dbfa-4372-b295-fd718a019804",
       "source": "AP Calculus Problems 2.10.12",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "65ecf11e-3255-4bcb-9d96-9991e90afb14",
@@ -1616,7 +1616,7 @@
       "tags": "functions, derivatives",
       "url": "/question/65ecf11e-3255-4bcb-9d96-9991e90afb14",
       "source": "AP Calculus Problems 2.10.13",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequalities with Absolute Value and Quadratic Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2350.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2351.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2352.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2353.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2358.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2359.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2360.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2350.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2351.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2352.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2353.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2358.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2359.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2360.png\"/\u003e",
       "allAnswers": [],
       "tags": "inequalites, absolute value functions, quadratic functions, absolute value inequalities, quadratic inequalities ",
       "url": "/text-content/b0c2fda1-8504-452b-bb54-de365d200f86",
       "source": "Precalculus, 3rd Edition 2.4",
-      "topic": "Pre-Calculus/Inequalities/Absolute Value and Quadratic Functions"
+      "topic": "Pre-Calculus/Other Topics/Absolute Value and Quadratic Functions"
     },
     {
       "uuid": "6aaa2d6f-6f6d-4500-aa42-8f9d5a5923b1",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Regression",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2369.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2370.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2371.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2374.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2369.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2370.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2371.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2374.png\"/\u003e",
       "allAnswers": [],
       "tags": "quadratic regression, regression line, correlation coefficient, coefficient of determination, least squares regression, total squared error ",
       "url": "/text-content/6aaa2d6f-6f6d-4500-aa42-8f9d5a5923b1",
       "source": "Precalculus, 3rd Edition 2.5",
-      "topic": "Pre-Calculus/Regression"
+      "topic": "Pre-Calculus/Algebra Review/Regression"
     },
     {
       "uuid": "5408f437-9924-4789-b6bd-fa6617a91bb5",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Polynomials ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2375.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2376.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2377.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2381.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2382.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2383.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2388.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2389.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2390 2391.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2375.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2376.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2377.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2381.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2382.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2383.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2388.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2389.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2390 2391.png\"/\u003e",
       "allAnswers": [],
       "tags": "polynomials, graphing polynomials, polynomial functions, end behavior ",
       "url": "/text-content/5408f437-9924-4789-b6bd-fa6617a91bb5",
       "source": "Precalculus, 3rd Edition 3.1",
-      "topic": "Pre-Calculus/Graphs of Functions/Graphs of Polynomials"
+      "topic": "Pre-Calculus/Graphing Functions/Graphs of Polynomials"
     },
     {
       "uuid": "ecf7cda9-12e0-4487-bffc-c4c580acde6f",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Factor Theorem and the Remainder Theorem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2394.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2395.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2397.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2398.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2399.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2402.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2394.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2395.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2397.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2398.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2399.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2402.png\"/\u003e",
       "allAnswers": [],
       "tags": "factor theorem, synthetic division tableau, remainder theorem, polynomial division ",
       "url": "/text-content/ecf7cda9-12e0-4487-bffc-c4c580acde6f",
       "source": "Precalculus, 3rd Edition 3.2",
-      "topic": "Pre-Calculus/Factor Theorem and Remainder Theorem"
+      "topic": "Pre-Calculus/Other Topics/Factor Theorem and Remainder Theorem"
     },
     {
       "uuid": "82e105a6-3061-4b69-8596-52fac758af50",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Real Zeros of Polynomials ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2403.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2404.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2408.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2413.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2414.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2417.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2421.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2422.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2403.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2404.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2408.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2409.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2413.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2414.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2417.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2421.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2422.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
       "allAnswers": [],
       "tags": "Cauchy\u0027s Bound, Rational zeros theorem, Upper and Lower bounds, Descartes\u0027 rule of signs, polynomials ",
       "url": "/text-content/82e105a6-3061-4b69-8596-52fac758af50",
       "source": "Precalculus, 3rd Edition 3.3",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials"
     }
   ],
   "answers": [],

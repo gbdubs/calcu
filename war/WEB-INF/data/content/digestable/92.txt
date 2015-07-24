@@ -17,7 +17,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/practice-problem/06f5ccc3-4a8c-4cf3-8848-2b33846b403d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "authorSolution": " \\(4\\) ",
@@ -35,7 +35,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/practice-problem/9fa3ce26-4603-456f-bc71-01874fc080d3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "authorSolution": " \\(\\dfrac{16\\pi}3\\) ",
@@ -53,7 +53,7 @@
       "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
       "url": "/practice-problem/e7454851-ed3d-4e6d-ad35-f027aca42e6d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Application of Integration"
+      "topic": "Calculus/Integral Calculus/Applications of Integration"
     },
     {
       "authorSolution": " \\(0\\) ,  \\(1\\) ,  \\(0\\) ,  \\(\\dfrac16\\) ",
@@ -287,7 +287,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/practice-problem/29e5a5a3-beba-40db-9e0d-350736d5929f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "authorSolution": " \\(\\dfrac1{2n+1}\\) ",
@@ -305,7 +305,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/practice-problem/d3ec172a-a0b7-44f3-b74e-64bcf3f207e3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "authorSolution": " \\(5\\) ,  \\(1\\) ",
@@ -323,7 +323,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/practice-problem/bf75383b-d8cb-4229-b385-1f5788739a99",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "authorSolution": "decreasing, is",
@@ -341,7 +341,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/practice-problem/3944806d-a73e-4ae5-b35c-0e6ae50a89b6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "authorSolution": "decreasing, is",
@@ -359,7 +359,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/practice-problem/802d1067-cd26-4d19-a345-67c5df166947",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     },
     {
       "authorSolution": "decreasing, is",
@@ -377,7 +377,7 @@
       "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
       "url": "/practice-problem/4eb26d0b-973c-4634-8a73-5d18dfcc17eb",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Sequences/Real Numbers"
+      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
     }
   ],
   "questions": [
@@ -396,7 +396,7 @@
       "tags": "function, evaluate functions",
       "url": "/question/02984b70-444b-438a-bfc8-fbefece93181",
       "source": "Mooculus 1.1.9",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "1867bea5-3de8-4c7b-a655-85d4fdf54426",
@@ -413,7 +413,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/1867bea5-3de8-4c7b-a655-85d4fdf54426",
       "source": "Active Calc 6.2.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "7e8a38f8-a2ff-4e00-b40d-9b863ce4a131",
@@ -430,7 +430,7 @@
       "tags": "function, evaluating functions",
       "url": "/question/7e8a38f8-a2ff-4e00-b40d-9b863ce4a131",
       "source": "Mooculus 0.1.10",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "5f29d3c6-a946-465f-8645-e34a108954e3",
@@ -447,7 +447,7 @@
       "tags": "function, evaluating functions",
       "url": "/question/5f29d3c6-a946-465f-8645-e34a108954e3",
       "source": "Mooculus 0.1.11",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "9232a9d3-19e7-4edc-b1bb-1f64229a498c",
@@ -464,7 +464,7 @@
       "tags": "functions, evaluating functions",
       "url": "/question/9232a9d3-19e7-4edc-b1bb-1f64229a498c",
       "source": "Mooculus 0.1.12",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "a581f30b-0c20-4724-aeb6-dd0dbfb60006",
@@ -481,7 +481,7 @@
       "tags": "function, evaluate function",
       "url": "/question/a581f30b-0c20-4724-aeb6-dd0dbfb60006",
       "source": "Mooculus 0.1.13",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "6faa068e-9c4a-4be6-919c-22200f549650",
@@ -498,7 +498,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/6faa068e-9c4a-4be6-919c-22200f549650",
       "source": "Active Calc 6.2.3",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "405ced76-2c59-48f9-89dc-c9765359e3df",
@@ -515,7 +515,7 @@
       "tags": "function, evaluate functions",
       "url": "/question/405ced76-2c59-48f9-89dc-c9765359e3df",
       "source": "Mooculus 0.1.14",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "53998178-3be2-4e7b-aaf8-ffa3abaf20b5",
@@ -532,7 +532,7 @@
       "tags": "function, evaluating functions",
       "url": "/question/53998178-3be2-4e7b-aaf8-ffa3abaf20b5",
       "source": "Mooculus 0.1.15",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "25249a70-331a-46f8-85ef-524de8b15d0c",
@@ -549,7 +549,7 @@
       "tags": "function, evaluating functions",
       "url": "/question/25249a70-331a-46f8-85ef-524de8b15d0c",
       "source": "Mooculus 0.1.16",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "2e663113-0eeb-4c95-91ff-2e3be79b1a9e",
@@ -566,7 +566,7 @@
       "tags": "function, evaluating functions",
       "url": "/question/2e663113-0eeb-4c95-91ff-2e3be79b1a9e",
       "source": "Mooculus 0.1.17",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "6d4ce3e4-cecb-4b70-b719-8ecb4ce1c3c4",
@@ -583,7 +583,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/6d4ce3e4-cecb-4b70-b719-8ecb4ce1c3c4",
       "source": "Active Calc 6.3.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "c6f3e1e3-59c1-4b87-a178-2eff0bf842bf",
@@ -600,7 +600,7 @@
       "tags": "function, evaluating functions",
       "url": "/question/c6f3e1e3-59c1-4b87-a178-2eff0bf842bf",
       "source": "Mooculus 0.1.18",
-      "topic": "Algebra/Rational Expressions and Functions/Properties of Rational Functions/Domain"
+      "topic": "Algebra/Functions/Rational Expressions and Functions/Properties of Rational Functions/Domain"
     },
     {
       "uuid": "d0c2ab16-3b76-40d8-818f-bc9a2fa31940",
@@ -617,7 +617,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/d0c2ab16-3b76-40d8-818f-bc9a2fa31940",
       "source": "Active Calc 6.3.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "ecf32acd-ee0a-4958-a0d5-86bd43eb9acd",
@@ -634,7 +634,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/ecf32acd-ee0a-4958-a0d5-86bd43eb9acd",
       "source": "Active Calc 6.3.3",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "e657fed6-70ab-48ff-af99-dd412d61939e",
@@ -668,7 +668,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/2a5d4b33-2659-43e2-be98-43081a967a06",
       "source": "Active Calc 6.3.4",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "dc0fb0d0-64b3-4ffc-ab6d-ee68c12152b7",
@@ -685,7 +685,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/dc0fb0d0-64b3-4ffc-ab6d-ee68c12152b7",
       "source": "Active Calc 6.3.5",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "983e216f-cabf-40a4-a9fb-237bae52b808",
@@ -702,7 +702,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/983e216f-cabf-40a4-a9fb-237bae52b808",
       "source": "Active Calc 6.3.6",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "c9a3a901-a07e-4606-ad73-c760c5f9f8da",
@@ -736,7 +736,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/7480afc2-f30d-4139-9bd3-fe2e33fd1548",
       "source": "Active Calc 6.4.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "5c38aa0b-966e-4a9e-addf-6fea1ff82518",
@@ -838,7 +838,7 @@
       "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
       "url": "/question/4ed4e0cb-f959-4fe4-bc7c-90f2dcd38e12",
       "source": "Active Calc 6.4.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
     },
     {
       "uuid": "591ce4ae-018b-4be1-8c63-1cc062be06f7",
@@ -923,7 +923,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/f74fbd7a-8096-4486-b527-8a51de28b9d8",
       "source": "Active Calc 6.5.1",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "14f21c09-c7ed-4849-ab81-f45fa2b488e3",
@@ -940,7 +940,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/14f21c09-c7ed-4849-ab81-f45fa2b488e3",
       "source": "Active Calc 6.5.2",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "33abcc10-66b6-454f-91e4-3c8d3c6f7ede",
@@ -957,7 +957,7 @@
       "tags": "limits, basic limits, plot",
       "url": "/question/33abcc10-66b6-454f-91e4-3c8d3c6f7ede",
       "source": "Mooculus 1.1.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ba06ff76-4cc4-4e5c-8631-cd4f01e39f22",
@@ -974,7 +974,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/ba06ff76-4cc4-4e5c-8631-cd4f01e39f22",
       "source": "Active Calc 6.5.3",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "9f84e336-7a4a-4b41-8537-3e0c957d54f0",
@@ -991,7 +991,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/9f84e336-7a4a-4b41-8537-3e0c957d54f0",
       "source": "Active Calc 6.5.4",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "8fb826b7-cbf3-4fe7-a0c2-ea72ea3c519a",
@@ -1008,7 +1008,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/8fb826b7-cbf3-4fe7-a0c2-ea72ea3c519a",
       "source": "Active Calc 6.5.5",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "19334c3c-a7fa-457f-88c2-fb32c7c8f65f",
@@ -1025,7 +1025,7 @@
       "tags": "limit, estimating limits",
       "url": "/question/19334c3c-a7fa-457f-88c2-fb32c7c8f65f",
       "source": "Mooculus 1.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "adc605c7-a327-4d64-aacd-a640c7c0b17e",
@@ -1042,7 +1042,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/adc605c7-a327-4d64-aacd-a640c7c0b17e",
       "source": "Active Calc 6.5.6",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "a0855ac4-238c-49d7-93b2-4d08a86a051d",
@@ -1059,7 +1059,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/a0855ac4-238c-49d7-93b2-4d08a86a051d",
       "source": "Mooculus 1.1.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "88f19015-4c91-4a3e-a805-df39b6a503ee",
@@ -1076,7 +1076,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/88f19015-4c91-4a3e-a805-df39b6a503ee",
       "source": "Mooculus 1.1.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ea44b7d7-5f95-4797-b50f-7d98abb2e37c",
@@ -1093,7 +1093,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/ea44b7d7-5f95-4797-b50f-7d98abb2e37c",
       "source": "Active Calc 6.5.7",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "6f4046a1-2463-4101-9f6d-355cb7140559",
@@ -1110,7 +1110,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/6f4046a1-2463-4101-9f6d-355cb7140559",
       "source": "Mooculus 1.1.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "43863f06-7015-41fd-abf3-029a24176408",
@@ -1127,7 +1127,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/43863f06-7015-41fd-abf3-029a24176408",
       "source": "Active Calc 6.5.8",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "266c0e52-b65e-4b27-8dd2-fe4c6d400882",
@@ -1144,7 +1144,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/266c0e52-b65e-4b27-8dd2-fe4c6d400882",
       "source": "Mooculus 1.1.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f9f64f66-9c4a-450c-85c9-a115ceaab746",
@@ -1161,7 +1161,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/f9f64f66-9c4a-450c-85c9-a115ceaab746",
       "source": "Active Calc 6.5.9",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "2750a2e1-b681-46ea-bf50-5c5a2a641adc",
@@ -1178,7 +1178,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/2750a2e1-b681-46ea-bf50-5c5a2a641adc",
       "source": "Mooculus 1.1.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8e75d640-1b02-4d0c-a4cd-a065e20f4dc2",
@@ -1195,7 +1195,7 @@
       "tags": "limit, sketch, plot",
       "url": "/question/8e75d640-1b02-4d0c-a4cd-a065e20f4dc2",
       "source": "Mooculus 1.1.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a7178c3a-ff47-4212-867b-c0fb74d319f9",
@@ -1212,7 +1212,7 @@
       "tags": "limits, tables",
       "url": "/question/a7178c3a-ff47-4212-867b-c0fb74d319f9",
       "source": "Mooculus 1.1.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a7b73512-6185-4cdb-97f2-7fcb7da574de",
@@ -1229,7 +1229,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges, probability",
       "url": "/question/a7b73512-6185-4cdb-97f2-7fcb7da574de",
       "source": "Active Calc 6.6.1",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "fef86776-ac2a-4784-8793-86e5a985cb0e",
@@ -1246,7 +1246,7 @@
       "tags": "limits, word problem, velocity",
       "url": "/question/fef86776-ac2a-4784-8793-86e5a985cb0e",
       "source": "Mooculus 1.1.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "1381a4d1-1faa-419d-b6d4-c3d3b2a29660",
@@ -1263,7 +1263,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges, probability",
       "url": "/question/1381a4d1-1faa-419d-b6d4-c3d3b2a29660",
       "source": "Mooculus 6.6.2",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "0709481d-3733-4e08-812b-257cf9c4451e",
@@ -1280,7 +1280,7 @@
       "tags": "limits, finding limits",
       "url": "/question/0709481d-3733-4e08-812b-257cf9c4451e",
       "source": "Mooculus 1.2.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "1e1ebc28-5fea-4f70-98b0-493c15449eb8",
@@ -1297,7 +1297,7 @@
       "tags": "limits, definition of limits, real numbers",
       "url": "/question/1e1ebc28-5fea-4f70-98b0-493c15449eb8",
       "source": "Mooculus 1.2.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f0d76d82-b074-47dc-8d3c-cc6c321cd0f1",
@@ -1314,7 +1314,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change",
       "url": "/question/f0d76d82-b074-47dc-8d3c-cc6c321cd0f1",
       "source": "Mooculus 7.1.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "95359c40-c847-4d43-8a85-f4937391bb10",
@@ -1331,7 +1331,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/95359c40-c847-4d43-8a85-f4937391bb10",
       "source": "Mooculus 1.2.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "fe80a3be-ecde-4bc2-b32b-c689e4ab6dac",
@@ -1348,7 +1348,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/fe80a3be-ecde-4bc2-b32b-c689e4ab6dac",
       "source": "Mooculus 1.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a503c832-c572-4da8-8464-f82767866a00",
@@ -1365,7 +1365,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/a503c832-c572-4da8-8464-f82767866a00",
       "source": "Mooculus 1.2.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5f957064-2a82-408d-8604-12bd1b181599",
@@ -1382,7 +1382,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change",
       "url": "/question/5f957064-2a82-408d-8604-12bd1b181599",
       "source": "Mooculus 7.1.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "71540cfc-8479-4c22-8a4f-4a38ef2488a0",
@@ -1399,7 +1399,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/71540cfc-8479-4c22-8a4f-4a38ef2488a0",
       "source": "Mooculus 1.2.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "73a9e809-2d5a-4816-85c8-675bb8bbea51",
@@ -1416,7 +1416,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/73a9e809-2d5a-4816-85c8-675bb8bbea51",
       "source": "Mooculus 1.2.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "d0371a2e-3339-41d2-8cc2-89b6cfee955a",
@@ -1433,7 +1433,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/d0371a2e-3339-41d2-8cc2-89b6cfee955a",
       "source": "Mooculus 1.2.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9259ebac-b951-4eef-9f83-c0b2443d7e11",
@@ -1450,7 +1450,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/9259ebac-b951-4eef-9f83-c0b2443d7e11",
       "source": "Mooculus 1.2.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a07b80a6-96f2-4789-aab7-2a5669387e0f",
@@ -1467,7 +1467,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/a07b80a6-96f2-4789-aab7-2a5669387e0f",
       "source": "Mooculus 1.2.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "96e980d6-6f01-4eaa-9c84-291746be537c",
@@ -1484,7 +1484,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
       "url": "/question/96e980d6-6f01-4eaa-9c84-291746be537c",
       "source": "Mooculus 7.2.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "f1f13ef5-d86d-4074-9aba-d1505ab1ed60",
@@ -1501,7 +1501,7 @@
       "tags": "limits, limit laws",
       "url": "/question/f1f13ef5-d86d-4074-9aba-d1505ab1ed60",
       "source": "Mooculus 1.3.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "acdd9052-d719-4ead-857c-c01722207887",
@@ -1518,7 +1518,7 @@
       "tags": "limits, limit laws",
       "url": "/question/acdd9052-d719-4ead-857c-c01722207887",
       "source": "Mooculus 1.3.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f36b4444-787c-4923-8dde-731059eb3032",
@@ -1535,7 +1535,7 @@
       "tags": "limits, limit laws",
       "url": "/question/f36b4444-787c-4923-8dde-731059eb3032",
       "source": "Mooculus 1.3.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9f9853a7-cc4d-4713-b5b6-28d4d62b210e",
@@ -1552,7 +1552,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
       "url": "/question/9f9853a7-cc4d-4713-b5b6-28d4d62b210e",
       "source": "Mooculus 7.2.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "81e837e0-6593-4b64-82ad-e89d19b98d0e",
@@ -1569,7 +1569,7 @@
       "tags": "limits, limit laws",
       "url": "/question/81e837e0-6593-4b64-82ad-e89d19b98d0e",
       "source": "Mooculus 1.3.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "0161ab68-d879-4d69-a51c-4756b50600e6",
@@ -1586,7 +1586,7 @@
       "tags": "limits, limit laws",
       "url": "/question/0161ab68-d879-4d69-a51c-4756b50600e6",
       "source": "Mooculus 1.3.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "43054ade-cd47-485d-95ba-d1d539db9b07",
@@ -1603,7 +1603,7 @@
       "tags": "limits, limit laws",
       "url": "/question/43054ade-cd47-485d-95ba-d1d539db9b07",
       "source": "Mooculus 1.3.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "4be0a287-03a3-429a-94fa-802f8d3caf08",
@@ -1620,7 +1620,7 @@
       "tags": "limit, limit laws",
       "url": "/question/4be0a287-03a3-429a-94fa-802f8d3caf08",
       "source": "Mooculus 1.3.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "84d7b94c-84d9-4543-94a7-9dd3fed9cfa3",
@@ -1637,7 +1637,7 @@
       "tags": "limit, limit laws",
       "url": "/question/84d7b94c-84d9-4543-94a7-9dd3fed9cfa3",
       "source": "Mooculus 1.3.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     }
   ],
   "textContent": [
@@ -1651,12 +1651,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Further Interpretations of Derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5173.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5174.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5173.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5174.png\"/\u003e",
       "allAnswers": [],
       "tags": "velocity, acceleration, power, derivatives, product rule, quotient rule, limits ",
       "url": "/text-content/8ec592d1-d036-4839-b374-93d6d4643f72",
       "source": "Forgotten Text 4 4.11",
-      "topic": "Calculus/The Derivative/Further Interpretation of Derivatives"
+      "topic": "Calculus/Derivative Calculus/Interpreting Derivatives"
     },
     {
       "uuid": "14cd5c17-121a-4477-ba25-737133b01b24",
@@ -1668,12 +1668,12 @@
       "viewable": true,
       "karma": 3,
       "title": "First Differentiation Rules; Leibniz Notation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5035.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5036.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5037.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5039.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5041.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5043.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5044.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5046.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5047.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5048.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5049.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5050.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5035.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5036.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5037.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5039.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5041.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5043.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5044.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5046.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5047.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5048.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5049.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5050.png\"/\u003e",
       "allAnswers": [],
       "tags": "liebniz, liebniz notation, derivatives, instantaneous, rate of change, slope, tangent lines",
       "url": "/text-content/14cd5c17-121a-4477-ba25-737133b01b24",
       "source": "Forgotten Text 4 4.2",
-      "topic": "Calculus/The Derivative/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "18114ad7-e725-487a-933d-5a0d3b09aaf1",
@@ -1685,12 +1685,12 @@
       "viewable": true,
       "karma": 3,
       "title": "First Applications of Derivatives",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5051.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5052.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5053.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5054.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5055.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5059.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5062.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5064.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5068.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5051.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5052.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5053.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5054.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5055.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5059.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5062.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5064.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5065.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5066.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5067.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5068.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, applications of derivatives, velocity, slope, rate of change, tangent lines ",
       "url": "/text-content/18114ad7-e725-487a-933d-5a0d3b09aaf1",
       "source": "Forgotten Text 4 4.3",
-      "topic": "Calculus/The Derivative/First Applications of Derivatives"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Introduction"
     },
     {
       "uuid": "78cfe13f-2f05-4b0c-96b6-5af9ec77ad5d",
@@ -1702,12 +1702,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Chain Rule I",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5069.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5070.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5074.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5075.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5080.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5081.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5084.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5085.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5069.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5070.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5074.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5075.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5080.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5081.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5084.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5085.png\"/\u003e",
       "allAnswers": [],
       "tags": "chain rule, derivatives, trigonometric derivatives, derivative ",
       "url": "/text-content/78cfe13f-2f05-4b0c-96b6-5af9ec77ad5d",
       "source": "Forgotten Text 4 4.4",
-      "topic": "Calculus/The Derivative/Chain Rule I"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Chain Rule"
     },
     {
       "uuid": "e46af15e-2dd7-4161-ae81-76d6caa59884",
@@ -1719,12 +1719,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Product, Quotient and Other Trigonometric Rules",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5094.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5101.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5094.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5101.png\"/\u003e",
       "allAnswers": [],
       "tags": "product rule, quotient rule, trigonometric rules, derivatives ",
       "url": "/text-content/e46af15e-2dd7-4161-ae81-76d6caa59884",
       "source": "Forgotten Text 4 4.5",
-      "topic": "Calculus/The Derivative/Product Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Product Quotient Rule"
     }
   ],
   "answers": [],

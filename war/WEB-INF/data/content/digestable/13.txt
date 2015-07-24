@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Using Derivatives to Evaluate Limits",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4007.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4015.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4007.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4015.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, limits, evaluating limits ",
       "url": "/text-content/b78be17a-a5a1-4319-882b-aa1320b6d68e",
       "source": "Forgotten Text 2 2.8",
-      "topic": "Calculus/Computing Derivatives/Limits"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Limits"
     },
     {
       "uuid": "d43fa7f3-f238-4188-93b2-52bfa0eb3468",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Using derivatives to identify extreme values",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4016.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4017.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4018.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4019.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4020.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4021.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4022.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4023.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4024.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4025.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4026.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4027.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4029.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4030.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4031.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4016.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4017.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4018.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4019.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4020.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4021.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4022.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4023.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4024.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4025.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4026.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4027.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4029.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4030.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4031.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, extreme values, critical values, increases, continuity ",
       "url": "/text-content/d43fa7f3-f238-4188-93b2-52bfa0eb3468",
       "source": "Forgotten Text 2 3.1",
-      "topic": "Calculus/Using Derivatives/Extreme values"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Values"
     },
     {
       "uuid": "548bd999-cba8-41c8-a29a-db1f49b851a5",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Using derivatives to describe families of functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4032.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4033.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4034.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4035.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4036.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4037.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4039.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4041.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4032.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4033.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4034.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4035.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4036.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4037.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4039.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4041.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, functions, families of functions, critical values, continuity ",
       "url": "/text-content/548bd999-cba8-41c8-a29a-db1f49b851a5",
       "source": "Forgotten Text 2 3.2",
-      "topic": "Calculus/Using Derivatives/Families of Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Families of Functions"
     },
     {
       "uuid": "2fff4a2a-df73-43f0-80e3-39498983461f",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Global Optimization",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4043.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4044.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4046.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4047.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4048.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4049.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4050.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4051.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4052.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4053.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4043.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4044.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4046.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4047.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4048.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4049.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4050.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4051.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4052.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4053.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, global optimization, continuity, extreme values ",
       "url": "/text-content/2fff4a2a-df73-43f0-80e3-39498983461f",
       "source": "Forgotten Text 2 3.3",
-      "topic": "Calculus/Using Derivatives/Global Optimization"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Global Optimization"
     },
     {
       "uuid": "6ca0627b-a2b3-4566-9538-3df20eca4b1a",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Applied Optimization",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4054.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4055.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4059.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4054.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4055.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4056.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/4059.png\"/\u003e",
       "allAnswers": [],
       "tags": "optimization, applied optimization, derivatives, global optimization",
       "url": "/text-content/6ca0627b-a2b3-4566-9538-3df20eca4b1a",
       "source": "Forgotten Text 2 3.4",
-      "topic": "Calculus/Using Derivatives/Applied Optimization"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Local Optimization"
     }
   ],
   "answers": [],

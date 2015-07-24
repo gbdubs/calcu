@@ -205,7 +205,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs, right triangles",
       "url": "/question/3ae0dc20-daf5-48ba-a7ec-b48294cca6d2",
       "source": "Precalculus, 3rd Edition 11.2.34",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "a831f049-5e68-4395-bb76-44461a931737",
@@ -222,7 +222,7 @@
       "tags": "law of sines, SSS, SAS, Triangle Congruence, theoretical",
       "url": "/question/a831f049-5e68-4395-bb76-44461a931737",
       "source": "Precalculus, 3rd Edition 11.2.36",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "cf105db8-03ce-4804-ae15-3fbff5194b3f",
@@ -239,7 +239,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs",
       "url": "/question/cf105db8-03ce-4804-ae15-3fbff5194b3f",
       "source": "Precalculus, 3rd Edition 11.2.4",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "3b6f8cad-c92f-48d2-bc28-c237000343fa",
@@ -256,7 +256,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs",
       "url": "/question/3b6f8cad-c92f-48d2-bc28-c237000343fa",
       "source": "Precalculus, 3rd Edition 11.2.5",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "24bf5565-f6f6-42d0-9995-0ede4d978fdf",
@@ -273,7 +273,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs",
       "url": "/question/24bf5565-f6f6-42d0-9995-0ede4d978fdf",
       "source": "Precalculus, 3rd Edition 11.2.6",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "4679cffc-8dea-4968-b84a-6b7bee92dfa6",
@@ -290,7 +290,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs",
       "url": "/question/4679cffc-8dea-4968-b84a-6b7bee92dfa6",
       "source": "Precalculus, 3rd Edition 11.2.7",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "7af452c3-dc09-4a2f-94aa-c40bad5a0df8",
@@ -307,7 +307,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs",
       "url": "/question/7af452c3-dc09-4a2f-94aa-c40bad5a0df8",
       "source": "Precalculus, 3rd Edition 11.2.8",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "49d76b53-7f30-4a9d-b0ea-96b85cb9bbbf",
@@ -324,7 +324,7 @@
       "tags": "trigonometry, law of sines, opposite side pairs",
       "url": "/question/49d76b53-7f30-4a9d-b0ea-96b85cb9bbbf",
       "source": "Precalculus, 3rd Edition 11.2.9",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "6f626ed1-f97b-4c21-bebe-93e635d8124d",
@@ -341,7 +341,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/6f626ed1-f97b-4c21-bebe-93e635d8124d",
       "source": "Precalculus, 3rd Edition 11.3.1",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "c563b585-c86e-44d5-b8eb-937c09a20373",
@@ -358,7 +358,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/c563b585-c86e-44d5-b8eb-937c09a20373",
       "source": "Precalculus, 3rd Edition 11.3.10",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "14b2208a-2719-4c27-8cee-d26bc7ac15e8",
@@ -375,7 +375,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines",
       "url": "/question/14b2208a-2719-4c27-8cee-d26bc7ac15e8",
       "source": "Precalculus, 3rd Edition 11.3.11",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "55e4923c-ce90-4e5e-996b-1a3f7742d645",
@@ -392,7 +392,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines",
       "url": "/question/55e4923c-ce90-4e5e-996b-1a3f7742d645",
       "source": "Precalculus, 3rd Edition 11.3.12",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "0b684749-239e-4884-aff9-751faca20635",
@@ -409,7 +409,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines",
       "url": "/question/0b684749-239e-4884-aff9-751faca20635",
       "source": "Precalculus, 3rd Edition 11.3.13",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "de334bec-bcfd-403f-8c24-a403719aa27f",
@@ -426,7 +426,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines",
       "url": "/question/de334bec-bcfd-403f-8c24-a403719aa27f",
       "source": "Precalculus, 3rd Edition 11.3.14",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "6dcc3a9f-b009-4608-bd1f-a0ccf64af9d1",
@@ -443,7 +443,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines",
       "url": "/question/6dcc3a9f-b009-4608-bd1f-a0ccf64af9d1",
       "source": "Precalculus, 3rd Edition 11.3.15",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "46ac56ef-1f4e-4706-956a-90bd9bcb52a7",
@@ -460,7 +460,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines",
       "url": "/question/46ac56ef-1f4e-4706-956a-90bd9bcb52a7",
       "source": "Precalculus, 3rd Edition 11.3.16",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "67d89df0-4885-4040-89cd-f19d26dc562c",
@@ -477,7 +477,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines, heros formula",
       "url": "/question/67d89df0-4885-4040-89cd-f19d26dc562c",
       "source": "Precalculus, 3rd Edition 11.3.17.1",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "22c05488-a5bf-46e8-9e0f-4d7a2370b546",
@@ -494,7 +494,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines, heros formula",
       "url": "/question/22c05488-a5bf-46e8-9e0f-4d7a2370b546",
       "source": "Precalculus, 3rd Edition 11.3.17.2",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "b3d0d5b9-ef41-4474-bcee-4d7e546defe2",
@@ -511,7 +511,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines, heros formula",
       "url": "/question/b3d0d5b9-ef41-4474-bcee-4d7e546defe2",
       "source": "Precalculus, 3rd Edition 11.3.17.3",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "108db564-b352-45b4-ac66-8e0b384d0a9a",
@@ -528,7 +528,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, word problem, clock",
       "url": "/question/108db564-b352-45b4-ac66-8e0b384d0a9a",
       "source": "Precalculus, 3rd Edition 11.3.18",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "1edd1488-d53c-4ea2-8f9a-9de8b8046e67",
@@ -545,7 +545,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, word problem",
       "url": "/question/1edd1488-d53c-4ea2-8f9a-9de8b8046e67",
       "source": "Precalculus, 3rd Edition 11.3.19",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "be817951-cf03-40d0-904f-17125b9beb3f",
@@ -562,7 +562,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/be817951-cf03-40d0-904f-17125b9beb3f",
       "source": "Precalculus, 3rd Edition 11.3.2",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "d951dcbd-c8e3-4a36-87bd-5358c97b0fff",
@@ -579,7 +579,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, word problem, bearings",
       "url": "/question/d951dcbd-c8e3-4a36-87bd-5358c97b0fff",
       "source": "Precalculus, 3rd Edition 11.3.20",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "30317d23-f05e-4c58-9ef7-0f6a9cc8de7b",
@@ -596,7 +596,7 @@
       "tags": "trigonometry, law of cosines, bearings, word problem",
       "url": "/question/30317d23-f05e-4c58-9ef7-0f6a9cc8de7b",
       "source": "Precalculus, 3rd Edition 11.3.22",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "0e590c33-d1e8-47b3-bced-0edcbd865a33",
@@ -613,7 +613,7 @@
       "tags": "trigonometry, law of cosines, word problem, bearings",
       "url": "/question/0e590c33-d1e8-47b3-bced-0edcbd865a33",
       "source": "Precalculus, 3rd Edition 11.3.23",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "64404995-0162-46db-9fc7-39e33766d584",
@@ -630,7 +630,7 @@
       "tags": "trigonometry, law of cosines, bearings, word problem",
       "url": "/question/64404995-0162-46db-9fc7-39e33766d584",
       "source": "Precalculus, 3rd Edition 11.3.24",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "c56cee24-0d87-4e41-b572-4f12836c090d",
@@ -647,7 +647,7 @@
       "tags": "trigonometry, law of cosines, word problem",
       "url": "/question/c56cee24-0d87-4e41-b572-4f12836c090d",
       "source": "Precalculus, 3rd Edition 11.3.25",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "ff0b4e1b-14af-48f5-9b7c-03ad60681f3d",
@@ -664,7 +664,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs, law of sines, heros formula, herons formula, unit analysis",
       "url": "/question/ff0b4e1b-14af-48f5-9b7c-03ad60681f3d",
       "source": "Precalculus, 3rd Edition 11.3.27",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "b4d4d362-f014-425c-aa66-d2595f857282",
@@ -681,7 +681,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/b4d4d362-f014-425c-aa66-d2595f857282",
       "source": "Precalculus, 3rd Edition 11.3.3",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "a6ddeac5-29a3-49c1-91c2-a82d25774286",
@@ -698,7 +698,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/a6ddeac5-29a3-49c1-91c2-a82d25774286",
       "source": "Precalculus, 3rd Edition 11.3.4",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "0606c532-028d-48bc-9cda-075c513dba54",
@@ -715,7 +715,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/0606c532-028d-48bc-9cda-075c513dba54",
       "source": "Precalculus, 3rd Edition 11.3.5",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "2b187bfd-7e31-49fa-b0a7-d11b64c89641",
@@ -732,7 +732,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/2b187bfd-7e31-49fa-b0a7-d11b64c89641",
       "source": "Precalculus, 3rd Edition 11.3.6",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "25a7dfdc-6216-4139-b289-fcc073b142cc",
@@ -749,7 +749,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/25a7dfdc-6216-4139-b289-fcc073b142cc",
       "source": "Precalculus, 3rd Edition 11.3.7",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "ebf56dd8-3334-4701-8664-07822bce947f",
@@ -766,7 +766,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/ebf56dd8-3334-4701-8664-07822bce947f",
       "source": "Precalculus, 3rd Edition 11.3.8",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "28070408-96bc-41ec-88c6-35b92992f511",
@@ -783,7 +783,7 @@
       "tags": "trigonometry, law of cosines, opposite side pairs",
       "url": "/question/28070408-96bc-41ec-88c6-35b92992f511",
       "source": "Precalculus, 3rd Edition 11.3.9",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "85563407-9ebc-41af-94b4-707d65c2a38a",
@@ -800,7 +800,7 @@
       "tags": "polar coordinates, polar",
       "url": "/question/85563407-9ebc-41af-94b4-707d65c2a38a",
       "source": "Precalculus, 3rd Edition 11.4.1",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "267c2cae-fcb9-45ca-9086-719e966eabdf",
@@ -817,7 +817,7 @@
       "tags": "polar coordinates, polar",
       "url": "/question/267c2cae-fcb9-45ca-9086-719e966eabdf",
       "source": "Precalculus, 3rd Edition 11.4.1",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "40798683-6054-4109-8f89-7d6a6a8b3f52",
@@ -834,7 +834,7 @@
       "tags": "polar coordinates, polar to cartesian, polar to rectangular, polar coordinate conversion, polar",
       "url": "/question/40798683-6054-4109-8f89-7d6a6a8b3f52",
       "source": "Precalculus, 3rd Edition 11.4.17",
-      "topic": "Pre-Calculus/Trigonometry/Triangle Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     }
   ],
   "textContent": [
@@ -853,7 +853,7 @@
       "tags": "rational functions, horizontal asymptotes, vertical asymptotes and holes, ",
       "url": "/text-content/9517eb8a-fb89-4bb0-9882-d4d5181779cd",
       "source": "Forgotten Text 1 4.1",
-      "topic": "Algebra/Rational Functions/Introduction to Rational Functions"
+      "topic": "Algebra/Functions/Rational Functions/Introduction to Rational Functions"
     },
     {
       "uuid": "82a51f9f-fb4c-45fc-aa54-a2dbfab5303b",
@@ -870,7 +870,7 @@
       "tags": "rational functions, graphing rational functions, asymptotes, ",
       "url": "/text-content/82a51f9f-fb4c-45fc-aa54-a2dbfab5303b",
       "source": "Forgotten Text 1 4.2",
-      "topic": "Algebra/Rational Functions/Graphing Rational Functions"
+      "topic": "Algebra/Functions/Rational Functions/Graphing Rational Functions"
     },
     {
       "uuid": "968f34c3-efff-429c-ad09-41e3661e7645",
@@ -887,7 +887,7 @@
       "tags": "rational functions, applications of rational functions, rational inequalities, applications of rational inequalities",
       "url": "/text-content/968f34c3-efff-429c-ad09-41e3661e7645",
       "source": "Forgotten Text 1 4.3",
-      "topic": "Algebra/Rational Functions/Rational Inequalities and Applications"
+      "topic": "Algebra/Functions/Rational Functions/Rational Inequalities and Applications"
     }
   ],
   "answers": [],

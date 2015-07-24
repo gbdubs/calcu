@@ -87,7 +87,7 @@
       "source": "null 10.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3841.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3847.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3841.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3847.png\"/\u003e",
       "uuid": "db18bc94-7d45-4751-bdbc-7de5e4ccca15",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -104,7 +104,7 @@
       "source": "null 10.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3861.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3862.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3861.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3862.png\"/\u003e",
       "uuid": "088a0572-65ee-457f-bba4-870b37309d55",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the cosine and sine",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3860.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3860.png\"/\u003e",
       "allAnswers": [],
       "tags": "cosine, sine, unit circle, trig ",
       "url": "/practice-problem/088a0572-65ee-457f-bba4-870b37309d55",
       "source": "null 10.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3867.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3867.png\"/\u003e",
       "uuid": "5ddb61f2-cc7e-4cd2-bd8a-5533c1ca14ca",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find sin of angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3864.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3864.png\"/\u003e",
       "allAnswers": [],
       "tags": "sine, cosine, unit circle, trig ",
       "url": "/practice-problem/5ddb61f2-cc7e-4cd2-bd8a-5533c1ca14ca",
       "source": "null 10.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3869.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3871.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3869.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3871.png\"/\u003e",
       "uuid": "8a7f3c60-d0dc-4e1d-9f00-afd423d913f9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find all the angles ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3868.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3868.png\"/\u003e",
       "allAnswers": [],
       "tags": "angles, measure, sine, cosine, unit circle ",
       "url": "/practice-problem/8a7f3c60-d0dc-4e1d-9f00-afd423d913f9",
       "source": "null 10.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3876.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3876.png\"/\u003e",
       "uuid": "a8e21cc0-9af6-44b1-97b1-fb4c5c3265d4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Terminal side on angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3875.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3875.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle, measure of angle, trig, sine, cosine, unit circle ",
       "url": "/practice-problem/a8e21cc0-9af6-44b1-97b1-fb4c5c3265d4",
       "source": "null 10.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3879.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3879.png\"/\u003e",
       "uuid": "af647b30-3a87-4044-bf92-6b360f40528a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Lakeland College",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3878.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3878.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle, measure, cosine, sine, unit circle ",
       "url": "/practice-problem/af647b30-3a87-4044-bf92-6b360f40528a",
       "source": "null 10.2.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3884.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3885.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3884.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3885.png\"/\u003e",
       "uuid": "eb4bbd4c-9f44-4d3b-a743-5b3a61b18700",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the measure of angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3883.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3883.png\"/\u003e",
       "allAnswers": [],
       "tags": "measure, angle, angle of measure, unit circle ",
       "url": "/practice-problem/eb4bbd4c-9f44-4d3b-a743-5b3a61b18700",
       "source": "null 10.2.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3972.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3972.png\"/\u003e",
       "uuid": "fc2402a4-b4ae-46ad-a08d-0778dc657778",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find a formula for the derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3971.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/3971.png\"/\u003e",
       "allAnswers": [],
       "tags": "chain rule, derivatives ",
       "url": "/practice-problem/fc2402a4-b4ae-46ad-a08d-0778dc657778",
       "source": "null 2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4217.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4218.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4217.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4218.png\"/\u003e",
       "uuid": "8309011b-45a3-4ddd-91ea-b40f891bd933",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the volume of revolution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4216.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4216.png\"/\u003e",
       "allAnswers": [],
       "tags": "definite integral, integration, volume, solid of revolution ",
       "url": "/practice-problem/8309011b-45a3-4ddd-91ea-b40f891bd933",
       "source": "null 6.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4376.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4376.png\"/\u003e",
       "uuid": "49a519ea-1bbd-4bc4-aa3b-59e4a357b4fa",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor Polynomial",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4375.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4375.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, taylor series, series, summation, approximation ",
       "url": "/practice-problem/49a519ea-1bbd-4bc4-aa3b-59e4a357b4fa",
       "source": "null 8.5.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4378.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4379.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4378.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4379.png\"/\u003e",
       "uuid": "d416387a-cf47-4288-8d5b-b0def46c5768",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Taylor series converge",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4377.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4377.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, taylor series, convergence, divergence ",
       "url": "/practice-problem/d416387a-cf47-4288-8d5b-b0def46c5768",
       "source": "null 8.5.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4412.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4413.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4412.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4413.png\"/\u003e",
       "uuid": "5c50f06d-2ceb-44e8-a801-100457cdf2a8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Restrict Domain",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4411.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4411.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, domain, graphing functions, inverse functions ",
       "url": "/practice-problem/5c50f06d-2ceb-44e8-a801-100457cdf2a8",
       "source": "null 0.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4415.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4416.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4415.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4416.png\"/\u003e",
       "uuid": "84402567-9704-400f-9e57-153ca17d5975",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Does function have inverse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4414.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4414.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, inverse functions, domain, input, output ",
       "url": "/practice-problem/84402567-9704-400f-9e57-153ca17d5975",
       "source": "null 0.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4424.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4424.png\"/\u003e",
       "uuid": "cb80bece-0179-4af4-86ea-a23ba988bde7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Discuss these limits",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4423.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4423.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, right-side limit, left-side limit ",
       "url": "/practice-problem/cb80bece-0179-4af4-86ea-a23ba988bde7",
       "source": "null 1.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4433.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4433.png\"/\u003e",
       "uuid": "ddcd26d3-2a26-4946-b1ec-817d159a042f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4432.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4432.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, compute limits, squeeze theorem",
       "url": "/practice-problem/ddcd26d3-2a26-4946-b1ec-817d159a042f",
       "source": "null 1.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4436.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4437.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4436.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4437.png\"/\u003e",
       "uuid": "2d5ae1a0-0792-41cb-b1a7-38ff2ba8f010",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Compute the limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4435.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4435.png\"/\u003e",
       "allAnswers": [],
       "tags": "limit, squeeze theorem, limit laws ",
       "url": "/practice-problem/2d5ae1a0-0792-41cb-b1a7-38ff2ba8f010",
@@ -375,7 +375,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/8f19732e-946f-4a63-810e-ad8dbbd5f1de",
       "source": "Active Calc 5.1.11",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "3aba66a0-8155-4c40-b5ca-6c4c1971c43d",
@@ -392,7 +392,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/3aba66a0-8155-4c40-b5ca-6c4c1971c43d",
       "source": "Active Calc 5.1.12",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "1ad0fe7c-fef8-42e8-9a24-28a657bc636b",
@@ -409,7 +409,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/1ad0fe7c-fef8-42e8-9a24-28a657bc636b",
       "source": "Active Calc 1.4.30",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "10c487a4-8ff1-45f5-b62c-b7bc2c812586",
@@ -426,7 +426,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/10c487a4-8ff1-45f5-b62c-b7bc2c812586",
       "source": "Active Calc 5.1.13",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "34eb3cbb-38a3-4c92-a527-26956b79770a",
@@ -443,7 +443,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/34eb3cbb-38a3-4c92-a527-26956b79770a",
       "source": "Active Calc 5.1.14",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "87734d8c-b978-47b6-915c-2a00eb6e68f9",
@@ -460,7 +460,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/87734d8c-b978-47b6-915c-2a00eb6e68f9",
       "source": "Active Calc 1.4.31",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "0d1f2484-1f5c-4cd4-a390-91e8ce3dffdf",
@@ -477,7 +477,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/0d1f2484-1f5c-4cd4-a390-91e8ce3dffdf",
       "source": "Active Calc 5.1.15",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "7e8d44a5-6f2a-4358-980f-5f306b12986a",
@@ -494,7 +494,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/7e8d44a5-6f2a-4358-980f-5f306b12986a",
       "source": "Active Calc 5.1.16",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "e5e28878-3182-45fd-9fc7-45d8aeaf5419",
@@ -511,7 +511,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/e5e28878-3182-45fd-9fc7-45d8aeaf5419",
       "source": "Active Calc 1.4.32",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "72a35d15-068c-44ac-9207-4d3cadee85ed",
@@ -528,7 +528,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/72a35d15-068c-44ac-9207-4d3cadee85ed",
       "source": "Active Calc 5.1.17",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "43bedfd5-3871-4e4e-a00d-0ec89ebb297f",
@@ -545,7 +545,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/43bedfd5-3871-4e4e-a00d-0ec89ebb297f",
       "source": "Active Calc 1.4.33",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b31260a9-faf8-4fcf-ba7a-1a21a9c94cf6",
@@ -562,7 +562,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b31260a9-faf8-4fcf-ba7a-1a21a9c94cf6",
       "source": "Active Calc 5.1.18",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "298142de-3376-4c08-917f-39216b876d5b",
@@ -579,7 +579,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/298142de-3376-4c08-917f-39216b876d5b",
       "source": "Active Calc 5.1.19",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "aa842c38-dd5b-4696-a48e-db459cca427d",
@@ -596,7 +596,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/aa842c38-dd5b-4696-a48e-db459cca427d",
       "source": "Active Calc 5.1.20",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "19fcae5f-7dc5-4058-a8db-12d218303bb3",
@@ -613,7 +613,7 @@
       "tags": "function, solving functions, function notations ",
       "url": "/question/19fcae5f-7dc5-4058-a8db-12d218303bb3",
       "source": "Active Calc 1.4.34",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "70bee87d-a5fa-4424-a43b-94a377463b34",
@@ -630,7 +630,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/70bee87d-a5fa-4424-a43b-94a377463b34",
       "source": "Active Calc 5.1.21",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "eca72257-ecfd-412e-a84b-42ca8796eded",
@@ -647,7 +647,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/eca72257-ecfd-412e-a84b-42ca8796eded",
       "source": "Active Calc 5.1.22",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9c04d85a-43bf-4cb6-96a7-b83d1e4f179f",
@@ -664,7 +664,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/9c04d85a-43bf-4cb6-96a7-b83d1e4f179f",
       "source": "Active Calc 5.1.23",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "6f9aaef8-eda1-4783-a0eb-5eafcc3e514e",
@@ -681,7 +681,7 @@
       "tags": "function notation, function values, functions, multi-step problem",
       "url": "/question/6f9aaef8-eda1-4783-a0eb-5eafcc3e514e",
       "source": "Active Calc 1.4.35",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b0810f49-9c62-4d29-867d-01ff14c7687f",
@@ -698,7 +698,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b0810f49-9c62-4d29-867d-01ff14c7687f",
       "source": "Active Calc 5.1.24",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "cc29c9ec-31db-415e-8dba-6106b4e61960",
@@ -715,7 +715,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/cc29c9ec-31db-415e-8dba-6106b4e61960",
       "source": "Active Calc 5.1.25",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "52ad01ee-a496-46c5-82d1-4ac7a69e672a",
@@ -732,7 +732,7 @@
       "tags": "function, function notation, function values",
       "url": "/question/52ad01ee-a496-46c5-82d1-4ac7a69e672a",
       "source": "Active Calc 1.4.36",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "0c66a7a3-be70-4073-abfa-41643f1e1cf3",
@@ -749,7 +749,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/0c66a7a3-be70-4073-abfa-41643f1e1cf3",
       "source": "Active Calc 5.1.26",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "11c2ff4e-84c0-4bae-8a16-b01999e39998",
@@ -766,7 +766,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/11c2ff4e-84c0-4bae-8a16-b01999e39998",
       "source": "Active Calc 5.1.27",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "96ba711d-fba5-4a53-bf46-3f115a8b6a9b",
@@ -783,7 +783,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/96ba711d-fba5-4a53-bf46-3f115a8b6a9b",
       "source": "Active Calc 5.1.28",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b9c71cee-fa65-4b38-b2b8-9061ff0ee95e",
@@ -800,7 +800,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b9c71cee-fa65-4b38-b2b8-9061ff0ee95e",
       "source": "Active Calc 5.1.29",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "02c49ba0-b994-48fa-9a2d-033d7354fbf2",
@@ -817,7 +817,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/02c49ba0-b994-48fa-9a2d-033d7354fbf2",
       "source": "Active Calc 5.1.30",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "a349a46c-2ab9-431b-9f37-fa0eeb118864",
@@ -834,7 +834,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/a349a46c-2ab9-431b-9f37-fa0eeb118864",
       "source": "Active Calc 5.1.31",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "6246fccb-2887-4592-a531-3dfa58210926",
@@ -851,7 +851,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/6246fccb-2887-4592-a531-3dfa58210926",
       "source": "Active Calc 5.1.32",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9fdcba4e-1e8b-4f2e-9b52-555a0ca425c3",
@@ -868,7 +868,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/9fdcba4e-1e8b-4f2e-9b52-555a0ca425c3",
       "source": "Active Calc 5.1.33",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "f6baee09-6174-4686-905e-bebf5825c7ea",
@@ -885,7 +885,7 @@
       "tags": "",
       "url": "/question/f6baee09-6174-4686-905e-bebf5825c7ea",
       "source": "Active Calc 5.1.34",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b8b3903e-cb8f-4e4d-9bae-473f5de7d0eb",
@@ -902,7 +902,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b8b3903e-cb8f-4e4d-9bae-473f5de7d0eb",
       "source": "Active Calc 5.1.35",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "a19efa3a-4138-4ab8-a2fb-9faa44f9d96a",
@@ -919,7 +919,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/a19efa3a-4138-4ab8-a2fb-9faa44f9d96a",
       "source": "Active Calc 5.1.36",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b4f6ddeb-48bd-44f1-91e7-5dca3ee143c5",
@@ -936,7 +936,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b4f6ddeb-48bd-44f1-91e7-5dca3ee143c5",
       "source": "Active Calc 5.1.37",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "1f0b1b94-5ca1-467b-9c66-2fc12015a7a0",
@@ -953,7 +953,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/1f0b1b94-5ca1-467b-9c66-2fc12015a7a0",
       "source": "Active Calc 5.1.38",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "aac4eac8-0390-4d2a-a6c0-4461b5e6df6a",
@@ -970,7 +970,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/aac4eac8-0390-4d2a-a6c0-4461b5e6df6a",
       "source": "Active Calc 1.4.37",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "d96c9325-8cb9-4fdc-a4bf-a577fcaf4201",
@@ -987,7 +987,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/d96c9325-8cb9-4fdc-a4bf-a577fcaf4201",
       "source": "Active Calc 5.1.39",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "2da49af4-3b6d-4913-8e58-e568ed7bd06c",
@@ -1004,7 +1004,7 @@
       "tags": "function, function, notation, domain, domain of functions",
       "url": "/question/2da49af4-3b6d-4913-8e58-e568ed7bd06c",
       "source": "Active Calc 1.4.38",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "e25658de-77ee-49d4-bcf6-0cfa3f05f8b2",
@@ -1021,7 +1021,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/e25658de-77ee-49d4-bcf6-0cfa3f05f8b2",
       "source": "Active Calc 5.1.40",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "30ae4ef6-4c35-409a-93c8-594064fc1e0c",
@@ -1038,7 +1038,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/30ae4ef6-4c35-409a-93c8-594064fc1e0c",
       "source": "Active Calc 1.4.39",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8a0cec51-c3fe-47cc-aeea-fd1807c36e04",
@@ -1055,7 +1055,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/8a0cec51-c3fe-47cc-aeea-fd1807c36e04",
       "source": "Active Calc 5.1.41",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "efa8ee0d-ec40-457a-830d-bd7de4fb9e75",
@@ -1072,7 +1072,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/efa8ee0d-ec40-457a-830d-bd7de4fb9e75",
       "source": "Active Calc 5.1.42",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "3107b97d-56bd-46f1-9b67-88bd9edc0217",
@@ -1089,7 +1089,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/3107b97d-56bd-46f1-9b67-88bd9edc0217",
       "source": "Active Calc 5.1.43",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "0c985d78-e218-4ce4-b95a-ec403d1e8313",
@@ -1106,7 +1106,7 @@
       "tags": "function, domain, domain of function, function notation",
       "url": "/question/0c985d78-e218-4ce4-b95a-ec403d1e8313",
       "source": "Active Calc 1.4.40",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "d06a6154-1c9c-4d58-92c3-df9b235a184a",
@@ -1123,7 +1123,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/d06a6154-1c9c-4d58-92c3-df9b235a184a",
       "source": "Active Calc 5.1.44",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "85895f21-725d-439d-8fc9-3fa6fecfabc5",
@@ -1140,7 +1140,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/85895f21-725d-439d-8fc9-3fa6fecfabc5",
       "source": "Active Calc 5.1.45",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8980f06d-2214-41b3-b09d-cba91134e76d",
@@ -1157,7 +1157,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/8980f06d-2214-41b3-b09d-cba91134e76d",
       "source": "Active Calc 1.4.41",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "b5d850de-a76b-4dec-8007-a47cb3007303",
@@ -1174,7 +1174,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b5d850de-a76b-4dec-8007-a47cb3007303",
       "source": "Active Calc 5.1.46",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "aa4d2eb1-04a8-44a5-bb1f-7399f07e2d87",
@@ -1191,7 +1191,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/aa4d2eb1-04a8-44a5-bb1f-7399f07e2d87",
       "source": "Active Calc 5.1.47",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9220bd5c-5d7a-424b-ad24-937039bda939",
@@ -1208,7 +1208,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/9220bd5c-5d7a-424b-ad24-937039bda939",
       "source": "Active Calc 1.4.42",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "cc60d943-2af3-446f-bad2-c8c6c0450a49",
@@ -1225,7 +1225,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/cc60d943-2af3-446f-bad2-c8c6c0450a49",
       "source": "Active Calc 5.1.48",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "9ee1bcb6-b8c9-47bf-945c-5e2541d7733b",
@@ -1242,7 +1242,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/9ee1bcb6-b8c9-47bf-945c-5e2541d7733b",
       "source": "Active Calc 5.1.49",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "85d02921-a11d-44b3-9b0d-326c835fe742",
@@ -1259,7 +1259,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/85d02921-a11d-44b3-9b0d-326c835fe742",
       "source": "Active Calc 5.1.50",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "a23872a3-4391-4a96-8c4d-3e360baa2d44",
@@ -1276,7 +1276,7 @@
       "tags": "domain, domain of function, function, function of notation",
       "url": "/question/a23872a3-4391-4a96-8c4d-3e360baa2d44",
       "source": "Active Calc 1.4.43",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "40fc7ae1-517e-4235-8d4f-b23b255c4e1e",
@@ -1293,7 +1293,7 @@
       "tags": "function, domain, domain of function, function notation",
       "url": "/question/40fc7ae1-517e-4235-8d4f-b23b255c4e1e",
       "source": "Active Calc 1.4.44",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "f162b467-619b-4098-881e-2d39e898beed",
@@ -1310,7 +1310,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/f162b467-619b-4098-881e-2d39e898beed",
       "source": "Active Calc 1.4.45",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "1e283181-be6e-44c3-b54a-8679526b8ea8",
@@ -1327,7 +1327,7 @@
       "tags": "function, domain of function, domain, function notation",
       "url": "/question/1e283181-be6e-44c3-b54a-8679526b8ea8",
       "source": "Active Calc 1.4.46",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "24eb2370-e8e2-45fd-9a51-e28d3916dd21",
@@ -1344,7 +1344,7 @@
       "tags": "function, domain, domain of function, function of notation",
       "url": "/question/24eb2370-e8e2-45fd-9a51-e28d3916dd21",
       "source": "Active Calc 1.4.47",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "eaf37dfc-9f7c-4fb1-ab56-38af6d8f0a97",
@@ -1361,7 +1361,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/eaf37dfc-9f7c-4fb1-ab56-38af6d8f0a97",
       "source": "Active Calc 5.1.51",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "39409cb7-f343-4eba-a3d9-2b68f186b985",
@@ -1378,7 +1378,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/39409cb7-f343-4eba-a3d9-2b68f186b985",
       "source": "Active Calc 5.1.52",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "32b6c25b-19ab-4a16-b2ca-2e8fdbcdfd5c",
@@ -1395,7 +1395,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/32b6c25b-19ab-4a16-b2ca-2e8fdbcdfd5c",
       "source": "Active Calc 1.4.48",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8ee2a517-8450-4ece-bee5-4a38f79b0fe1",
@@ -1412,7 +1412,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/8ee2a517-8450-4ece-bee5-4a38f79b0fe1",
       "source": "Active Calc 5.1.53",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "180520c0-f20b-4bbd-926f-3cff222062f5",
@@ -1429,7 +1429,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/180520c0-f20b-4bbd-926f-3cff222062f5",
       "source": "Active Calc 5.1.54",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "25deb5e2-e8c6-4905-ab5d-a1407ff68d4e",
@@ -1446,7 +1446,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/25deb5e2-e8c6-4905-ab5d-a1407ff68d4e",
       "source": "Active Calc 1.4.49",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "d041d7aa-776d-4343-add9-a152efb3582e",
@@ -1463,7 +1463,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/d041d7aa-776d-4343-add9-a152efb3582e",
       "source": "Active Calc 5.1.55",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "cd68b404-db34-4eff-ad17-5002bd5fe3e6",
@@ -1480,7 +1480,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/cd68b404-db34-4eff-ad17-5002bd5fe3e6",
       "source": "Active Calc 5.1.56",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "48ce8964-6ddd-4d33-8560-29b29e73d384",
@@ -1497,7 +1497,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/48ce8964-6ddd-4d33-8560-29b29e73d384",
       "source": "Active Calc 1.4.50",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "7f5aebd1-9c01-40bd-b14b-2f47d88458c8",
@@ -1514,7 +1514,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/7f5aebd1-9c01-40bd-b14b-2f47d88458c8",
       "source": "Active Calc 5.1.57",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "138d1959-7cef-4440-8880-3b617bdf646d",
@@ -1531,7 +1531,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/138d1959-7cef-4440-8880-3b617bdf646d",
       "source": "Active Calc 5.1.58",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "4b07dd84-7c3b-48fe-873c-70d61ec0c8c3",
@@ -1548,7 +1548,7 @@
       "tags": "domain, function, domain of function, function notation ",
       "url": "/question/4b07dd84-7c3b-48fe-873c-70d61ec0c8c3",
       "source": "Active Calc 1.4.51",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "cb398486-972e-47a7-9039-0ff01e64804a",
@@ -1565,7 +1565,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/cb398486-972e-47a7-9039-0ff01e64804a",
       "source": "Active Calc 1.4.52",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "630e81e7-6b17-41e3-a28e-d5b4884abc91",
@@ -1582,7 +1582,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/630e81e7-6b17-41e3-a28e-d5b4884abc91",
       "source": "Active Calc 5.1.59",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "8ccb062a-b6d6-4fb2-8336-85fe77e5ec6f",
@@ -1599,7 +1599,7 @@
       "tags": "function notation, function, domain, domain of function",
       "url": "/question/8ccb062a-b6d6-4fb2-8336-85fe77e5ec6f",
       "source": "Active Calc 1.4.53",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     },
     {
       "uuid": "2fdcce43-32a8-4c6f-b023-8d9b194f8d95",
@@ -1616,7 +1616,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/2fdcce43-32a8-4c6f-b023-8d9b194f8d95",
       "source": "Active Calc 5.2.1",
-      "topic": "Algebra/Functions, Equations, and Graphs"
+      "topic": "Algebra/Functions/Graphing Functions"
     }
   ],
   "textContent": [
@@ -1635,7 +1635,7 @@
       "tags": "law of sines, sine, trigonometric functions ",
       "url": "/text-content/f093d3b8-dc23-47b5-b991-19e412a8492f",
       "source": "Precalculus, 3rd Edition 11.2",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Sines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
     },
     {
       "uuid": "aa3ae324-62b9-4f39-a4a6-b3fbac2cd017",
@@ -1652,7 +1652,7 @@
       "tags": "cosines, trigonometric functions, applications of trigonometry ",
       "url": "/text-content/aa3ae324-62b9-4f39-a4a6-b3fbac2cd017",
       "source": "Precalculus, 3rd Edition 11.3",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "420bbeb2-d68a-4a1f-ad36-e044969afaa6",
@@ -1669,7 +1669,7 @@
       "tags": "polar coordinates, applications of trigonometry, trig, cartesian coordinates ",
       "url": "/text-content/420bbeb2-d68a-4a1f-ad36-e044969afaa6",
       "source": "Precalculus, 3rd Edition 11.4",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "021b17ab-8cbc-41b3-a796-0af2872db77e",
@@ -1686,7 +1686,7 @@
       "tags": "graphing polar functions, polar coordinates, graphs of polar equations ",
       "url": "/text-content/021b17ab-8cbc-41b3-a796-0af2872db77e",
       "source": "Precalculus, 3rd Edition 11.5",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Polar Equations/The Fundamental Graphing Principle for Polar Equations"
+      "topic": "Trigonometry/Polar Coordinates/Graphing Principle for Polar"
     },
     {
       "uuid": "337afaaa-3ead-42dc-9969-3e622458d9a0",
@@ -1703,7 +1703,7 @@
       "tags": "conics, conic sections, hyperbola, parabola ",
       "url": "/text-content/337afaaa-3ead-42dc-9969-3e622458d9a0",
       "source": "Precalculus, 3rd Edition 11.6",
-      "topic": "Pre-Calculus/Hooked on Conics"
+      "topic": "Pre-Calculus/Conics"
     }
   ],
   "answers": [],

@@ -375,7 +375,7 @@
       "tags": "integrals, integration, partial fractions",
       "url": "/question/60e36291-80d7-48d3-8ba3-69b15c2ef7fb",
       "source": "Calculus Refresher 44.1.2",
-      "topic": "Calculus/Integration/Properties of Integrals/Integration by Parts"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "59b0b13c-c66a-4525-8ddd-45cd0baf02b8",
@@ -392,7 +392,7 @@
       "tags": "integrals, integration, partial fractions",
       "url": "/question/59b0b13c-c66a-4525-8ddd-45cd0baf02b8",
       "source": "Calculus Refresher 44.1.3",
-      "topic": "Calculus/Integration/Properties of Integrals/Integration by Parts"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "0b298faf-c221-4286-9958-7d0529bd4bd3",
@@ -409,7 +409,7 @@
       "tags": "integration, integrals, partial fractions",
       "url": "/question/0b298faf-c221-4286-9958-7d0529bd4bd3",
       "source": "Calculus Refresher 44.1.4",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "988a7829-c99a-4055-9ad2-cf961100b23f",
@@ -426,7 +426,7 @@
       "tags": "integrals, integration, trigonometric integrals",
       "url": "/question/988a7829-c99a-4055-9ad2-cf961100b23f",
       "source": "Calculus Refresher 45.1.1",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "1ea867ca-a398-435c-ae5a-83b35eba6776",
@@ -443,7 +443,7 @@
       "tags": "integrals, integration, trigonometric integrals",
       "url": "/question/1ea867ca-a398-435c-ae5a-83b35eba6776",
       "source": "Calculus Refresher 45.1.2",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "189db3f8-08f4-499a-a90e-2c982395207f",
@@ -460,7 +460,7 @@
       "tags": "integrals, integration, trigonometric integrals",
       "url": "/question/189db3f8-08f4-499a-a90e-2c982395207f",
       "source": "Calculus Refresher 45.1.3",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "47326f9a-1e18-4840-93e6-677636ffda99",
@@ -477,7 +477,7 @@
       "tags": "integration, integrals, trigonometric integration",
       "url": "/question/47326f9a-1e18-4840-93e6-677636ffda99",
       "source": "Calculus Refresher 45.1.4",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "52dfc265-23a4-493a-9b3c-87123dd39e02",
@@ -494,7 +494,7 @@
       "tags": "trigonometric substitution, substitution, integration",
       "url": "/question/52dfc265-23a4-493a-9b3c-87123dd39e02",
       "source": "Calculus Refresher 46.1.1",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "9a54d2c6-f620-4b77-b75b-a32524b81631",
@@ -511,7 +511,7 @@
       "tags": "trigonometric substitution, substitution, trigonometry, integration",
       "url": "/question/9a54d2c6-f620-4b77-b75b-a32524b81631",
       "source": "Calculus Refresher 46.1.2",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "7533c2fd-5ecd-4f4c-88e7-d20f45b949f7",
@@ -528,7 +528,7 @@
       "tags": "trigonometric substitution, substitution, integration, trigonometry",
       "url": "/question/7533c2fd-5ecd-4f4c-88e7-d20f45b949f7",
       "source": "Calculus Refresher 46.1.3",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "0f927c34-4530-4319-a2de-cde73765da60",
@@ -545,7 +545,7 @@
       "tags": "taylor series, polynomials, taylor\u0027s formula, differentiation",
       "url": "/question/0f927c34-4530-4319-a2de-cde73765da60",
       "source": "Calculus Refresher 48.1.1",
-      "topic": "Calculus/Trigonometric Substitution/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Trigonometric Substitution"
     },
     {
       "uuid": "9432026b-91c2-4611-b0d6-23ff1b2f7d1e",
@@ -562,7 +562,7 @@
       "tags": "taylor series, taylor\u0027s formula, differentiation, polynomials",
       "url": "/question/9432026b-91c2-4611-b0d6-23ff1b2f7d1e",
       "source": "Calculus Refresher 48.1.2",
-      "topic": "Calculus/Trigonometric Substitution/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Trigonometric Substitution"
     },
     {
       "uuid": "97c8ce54-d6e3-4a14-aee2-7da79b4f9263",
@@ -579,7 +579,7 @@
       "tags": "taylor series, taylor\u0027s formula, polynomials, differentiation",
       "url": "/question/97c8ce54-d6e3-4a14-aee2-7da79b4f9263",
       "source": "Calculus Refresher 48.1.3",
-      "topic": "Calculus/Trigonometric Substitution/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Trigonometric Substitution"
     },
     {
       "uuid": "fd3ab692-3067-4a53-b9f5-45f0ea6262fe",
@@ -596,7 +596,7 @@
       "tags": "limits, finding limits, polynomials, limits of polynomials ",
       "url": "/question/fd3ab692-3067-4a53-b9f5-45f0ea6262fe",
       "source": "Calculus Refresher 5.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "e2e4c98c-e132-4811-aca5-f95ac36f0e3c",
@@ -613,7 +613,7 @@
       "tags": "limits, finding limits, basic limits, elementary limits",
       "url": "/question/e2e4c98c-e132-4811-aca5-f95ac36f0e3c",
       "source": "Calculus Refresher 5.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "96dd7da1-da81-4199-8fbd-8970edd9e52b",
@@ -630,7 +630,7 @@
       "tags": "limits, finding limits, basic limits, elementary limits, finding basic limits",
       "url": "/question/96dd7da1-da81-4199-8fbd-8970edd9e52b",
       "source": "Calculus Refresher 5.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "d74a99e1-cef4-435c-bcde-2e6918ab84be",
@@ -647,7 +647,7 @@
       "tags": "shortcut, taylor series, taylor\u0027s formula, expansion",
       "url": "/question/d74a99e1-cef4-435c-bcde-2e6918ab84be",
       "source": "Calculus Refresher 50.1.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits"
     },
     {
       "uuid": "ad7996e0-d1e4-4b31-8381-f86c9b87fbee",
@@ -664,7 +664,7 @@
       "tags": "polynomial, taylor series, taylor formula, expansion",
       "url": "/question/ad7996e0-d1e4-4b31-8381-f86c9b87fbee",
       "source": "Calculus Refresher 50.1.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits"
     },
     {
       "uuid": "85337bb6-94b4-446b-86e9-4b94231a3725",
@@ -681,7 +681,7 @@
       "tags": "taylor series, taylor formula, polynomials, expansion",
       "url": "/question/85337bb6-94b4-446b-86e9-4b94231a3725",
       "source": "Calculus Refresher 50.1.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits"
     },
     {
       "uuid": "6a432aa3-c21a-401d-9b91-f471134a33d7",
@@ -698,7 +698,7 @@
       "tags": "expansion, taylor series, taylor\u0027s formula, shortcut",
       "url": "/question/6a432aa3-c21a-401d-9b91-f471134a33d7",
       "source": "Calculus Refresher 50.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "6112940f-ac93-4214-8e5c-2f410269672f",
@@ -715,7 +715,7 @@
       "tags": "taylor series, taylor polynomials, polynomials, expansion",
       "url": "/question/6112940f-ac93-4214-8e5c-2f410269672f",
       "source": "Calculus Refresher 50.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "469faa3d-ac79-460b-a5fe-704d0aeb3af4",
@@ -732,7 +732,7 @@
       "tags": "expansion, taylor series, taylor\u0027s formula, shortcut",
       "url": "/question/469faa3d-ac79-460b-a5fe-704d0aeb3af4",
       "source": "Calculus Refresher 50.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "751d2db4-5e82-4cee-92c4-3164fa0e23e7",
@@ -749,7 +749,7 @@
       "tags": "tolerance, error, taylor series, taylor\u0027s formula, expansion",
       "url": "/question/751d2db4-5e82-4cee-92c4-3164fa0e23e7",
       "source": "Calculus Refresher 51.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "82bc05f0-abd0-4416-b0d7-346945982bb4",
@@ -766,7 +766,7 @@
       "tags": "tolerance, error, taylor series, taylor\u0027s formula, expansion",
       "url": "/question/82bc05f0-abd0-4416-b0d7-346945982bb4",
       "source": "Calculus Refresher 51.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "ee000c9b-7d7b-4359-9481-d74d0aadaae4",
@@ -783,7 +783,7 @@
       "tags": "tolerance, error, taylor series, taylor\u0027s formula, expansion",
       "url": "/question/ee000c9b-7d7b-4359-9481-d74d0aadaae4",
       "source": "Calculus Refresher 51.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "8fa92609-6365-4739-8b9a-74713e0aab04",
@@ -800,7 +800,7 @@
       "tags": "tolerance, range, interval, taylor series, taylor polynomial",
       "url": "/question/8fa92609-6365-4739-8b9a-74713e0aab04",
       "source": "Calculus Refresher 52.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "1a455830-2f03-4d6e-b308-0c31c7a9f1d6",
@@ -817,7 +817,7 @@
       "tags": "taylor series, taylor polynomial, tolerance, range, interval",
       "url": "/question/1a455830-2f03-4d6e-b308-0c31c7a9f1d6",
       "source": "Calculus Refresher 52.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "51fa9e71-598c-431c-ae4b-7d36af8986b8",
@@ -834,7 +834,7 @@
       "tags": "tolerance, range, interval, taylor series, taylor polynomial",
       "url": "/question/51fa9e71-598c-431c-ae4b-7d36af8986b8",
       "source": "Calculus Refresher 52.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "837e9a9e-4734-420c-9c1f-6bf1376bc051",
@@ -851,7 +851,7 @@
       "tags": "tolerance, range, interval, taylor series, taylor polynomial",
       "url": "/question/837e9a9e-4734-420c-9c1f-6bf1376bc051",
       "source": "Calculus Refresher 52.1.4",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "6c4b045e-73b9-4cf9-a5b7-b323576f1ce3",
@@ -868,7 +868,7 @@
       "tags": "taylor polynomial, taylor series, tolerance",
       "url": "/question/6c4b045e-73b9-4cf9-a5b7-b323576f1ce3",
       "source": "Calculus Refresher 53.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "0e2630ff-0df0-432c-b06e-8daaaf195280",
@@ -885,7 +885,7 @@
       "tags": "taylor polynomial, taylor series, tolerance, differentiation",
       "url": "/question/0e2630ff-0df0-432c-b06e-8daaaf195280",
       "source": "Calculus Refresher 53.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "5acb91d8-5428-4e55-b53f-74c8c81fa49f",
@@ -902,7 +902,7 @@
       "tags": "taylor polynomial, taylor series, tolerance, differentiation",
       "url": "/question/5acb91d8-5428-4e55-b53f-74c8c81fa49f",
       "source": "Calculus Refresher 53.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "c7bea3df-74c4-4e8a-bd62-3e8b66da372c",
@@ -919,7 +919,7 @@
       "tags": "taylor polynomial, taylor series, tolerance, differentiation",
       "url": "/question/c7bea3df-74c4-4e8a-bd62-3e8b66da372c",
       "source": "Calculus Refresher 53.1.4",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "17ce0cb9-9daf-4b7d-b77b-b3235c1b5b03",
@@ -936,7 +936,7 @@
       "tags": "taylor polynomial, taylor series, tolerance, differentiation",
       "url": "/question/17ce0cb9-9daf-4b7d-b77b-b3235c1b5b03",
       "source": "Calculus Refresher 53.1.5",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "13d8641d-3f7f-4646-84be-2dfa28c06dcf",
@@ -953,7 +953,7 @@
       "tags": "taylor polynomial, taylor series, tolerance, differentiation",
       "url": "/question/13d8641d-3f7f-4646-84be-2dfa28c06dcf",
       "source": "Calculus Refresher 53.1.6",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "f525ecb6-7249-4073-8a66-6d1dc8dae89d",
@@ -970,7 +970,7 @@
       "tags": "limits, finding limits, cancellation, limits with cancellation",
       "url": "/question/f525ecb6-7249-4073-8a66-6d1dc8dae89d",
       "source": "Calculus Refresher 6.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "0e4ff5f2-e1ca-4632-956b-e2437781eaa6",
@@ -987,7 +987,7 @@
       "tags": "limits, finding limits, cancellation, limits with cancellation ",
       "url": "/question/0e4ff5f2-e1ca-4632-956b-e2437781eaa6",
       "source": "Calculus Refresher 6.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "3adde6fb-7488-4e45-9f3d-187859d4017f",
@@ -1004,7 +1004,7 @@
       "tags": "limits, finding limits, infinity, limits at infinity, approaching infinity",
       "url": "/question/3adde6fb-7488-4e45-9f3d-187859d4017f",
       "source": "Calculus Refresher 6.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor_s Theorem/Taylor_s Series/Tolerance"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Tolerance"
     },
     {
       "uuid": "eed9e90b-3652-4888-9205-b74fa3e9c43e",
@@ -1021,7 +1021,7 @@
       "tags": "limits, finding limits, cancellation, limits with cancellation",
       "url": "/question/eed9e90b-3652-4888-9205-b74fa3e9c43e",
       "source": "Calculus Refresher 6.1.3",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "67021380-c0a2-4b39-925d-d4847e3cab63",
@@ -1038,7 +1038,7 @@
       "tags": "limits, finding limits, infinity, limits at infinity, approaching infinity ",
       "url": "/question/67021380-c0a2-4b39-925d-d4847e3cab63",
       "source": "Calculus Refresher 7.1.1",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "3cc23fee-1ba2-42f6-9860-9722e997be58",
@@ -1055,7 +1055,7 @@
       "tags": "limits, approaching infinity, infinity, limits at infinity, finding limits",
       "url": "/question/3cc23fee-1ba2-42f6-9860-9722e997be58",
       "source": "Calculus Refresher 7.1.3",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "83d1b872-4289-43e1-98ae-9e0463f0a01b",
@@ -1072,7 +1072,7 @@
       "tags": "limits, infinity, approaching infinity, finding limits",
       "url": "/question/83d1b872-4289-43e1-98ae-9e0463f0a01b",
       "source": "Calculus Refresher 7.1.4",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "cfe0cbdf-ff36-422d-a86d-0a00f5e0ad22",
@@ -1089,7 +1089,7 @@
       "tags": "equation of line, line, points, slope form",
       "url": "/question/cfe0cbdf-ff36-422d-a86d-0a00f5e0ad22",
       "source": "Calculus Refresher 1.1.1",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "b6d78750-9659-4be7-824c-eb42699274ac",
@@ -1106,7 +1106,7 @@
       "tags": "y \u003d mx + b form, equation of a line, line equation, vertices, triangle",
       "url": "/question/b6d78750-9659-4be7-824c-eb42699274ac",
       "source": "Calculus Refresher 1.1.10",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "ef35dfe5-32e6-4b73-9c35-1037be6fd189",
@@ -1123,7 +1123,7 @@
       "tags": "word problem, geometry word problem, constant speed problem, line equation, distance rate time",
       "url": "/question/ef35dfe5-32e6-4b73-9c35-1037be6fd189",
       "source": "Calculus Refresher 1.1.11",
-      "topic": "Calculus/Find Limits/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Evaluating Limits"
     },
     {
       "uuid": "87fa6f36-23b8-489a-bc0f-9973bf586768",
@@ -1378,7 +1378,7 @@
       "tags": "equation of line, line equation, changing equation form, point slope form, graphing line equation",
       "url": "/question/9b60b821-4675-4c3a-8c82-6f7c858e68bd",
       "source": "Calculus, Early Transcendentals 1.1.7",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "cd4f98f8-e27b-47e8-a956-c9ac87e1f22c",
@@ -1412,7 +1412,7 @@
       "tags": "line equation, equation of a line, changing form, point slope form, graphing line equation",
       "url": "/question/b5121384-999d-4ec3-8658-a5b4c3b58998",
       "source": "Calculus, Early Transcendentals 1.1.8",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "7ab95ffa-ea18-4408-a37c-2e8b8655f242",
@@ -1446,7 +1446,7 @@
       "tags": "equation of a circle, circle equation, radius, points",
       "url": "/question/eca7f46a-7fc5-41a3-a5e8-8ddf3d74700a",
       "source": "Calculus, Early Transcendentals 1.2.1",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "3afe5ca8-a98d-4e88-86dc-b66eda58ec60",
@@ -1497,7 +1497,7 @@
       "tags": "graph, graphing circle, circle equation, equation of a circle",
       "url": "/question/14ca171e-a434-4a0f-b3ef-56bcdb5fac45",
       "source": "Calculus, Early Transcendentals 1.2.4",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "d8f950b6-4d07-453d-8beb-edbce24e341e",
@@ -1514,7 +1514,7 @@
       "tags": "domain, functions, multi-problem",
       "url": "/question/d8f950b6-4d07-453d-8beb-edbce24e341e",
       "source": "Calculus, Early Transcendentals 1.3.1",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "15f87034-4f13-4235-8bf6-e50f05208b12",
@@ -1531,7 +1531,7 @@
       "tags": "domain, functions, multi-problem",
       "url": "/question/15f87034-4f13-4235-8bf6-e50f05208b12",
       "source": "Calculus, Early Transcendentals 1.3.2",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "85f15312-db82-42a9-9914-3f3dc583c116",
@@ -1548,7 +1548,7 @@
       "tags": "domain, functions, multi-problem",
       "url": "/question/85f15312-db82-42a9-9914-3f3dc583c116",
       "source": "Calculus, Early Transcendentals 1.3.3",
-      "topic": "Pre-Calculus/Hooked on Conics/Conic Sections/Circle/Standard Equation of a Circle/Radius"
+      "topic": "Pre-Calculus/Conics/Circles/Radius"
     },
     {
       "uuid": "21be5229-25b2-464a-8bc1-04a9e744880f",
@@ -1565,7 +1565,7 @@
       "tags": "domain, function",
       "url": "/question/21be5229-25b2-464a-8bc1-04a9e744880f",
       "source": "Calculus, Early Transcendentals 1.3.4",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Function Operations/Composition of Functions/Domain"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Composition of Functions"
     },
     {
       "uuid": "54b37e97-673b-48c7-b4d0-58dc646844c3",
@@ -1582,7 +1582,7 @@
       "tags": "functions, composition, domain, composition of functions",
       "url": "/question/54b37e97-673b-48c7-b4d0-58dc646844c3",
       "source": "Calculus, Early Transcendentals 1.3.5",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Function Operations/Composition of Functions/Domain"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Composition of Functions"
     },
     {
       "uuid": "c410f714-1378-4953-a1ec-2d87ddd91f80",
@@ -1599,7 +1599,7 @@
       "tags": "word problem, function word problem, domain, area",
       "url": "/question/c410f714-1378-4953-a1ec-2d87ddd91f80",
       "source": "Calculus, Early Transcendentals 1.3.6",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Function Operations/Composition of Functions/Domain"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Composition of Functions"
     },
     {
       "uuid": "ff05a905-db95-4a83-ad77-7e13ca4c6d8c",
@@ -1616,7 +1616,7 @@
       "tags": "geometry word problem, word problem, cylinder, function, domain, volume",
       "url": "/question/ff05a905-db95-4a83-ad77-7e13ca4c6d8c",
       "source": "Calculus, Early Transcendentals 1.3.7",
-      "topic": "Algebra/Radical Functions and Rational Exponents/Function Operations/Composition of Functions/Domain"
+      "topic": "Algebra/Functions/Radical Functions + Rational Exponents/Composition of Functions"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Classic examples of Taylor polynomials ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2169.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2170.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2169.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2170.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, series, sequences, geometric series ",
       "url": "/text-content/408f1b7c-ac2a-4a35-a3c5-7791205c288d",
       "source": "Calculus Refresher 49",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "3df8f03e-95a0-4cf7-b269-67fc0eb39aa9",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Computational tricks regarding Taylor polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2171.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2172.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2171.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2172.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, series, sequences ",
       "url": "/text-content/3df8f03e-95a0-4cf7-b269-67fc0eb39aa9",
       "source": "Calculus Refresher 50",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     },
     {
       "uuid": "82a2fad0-7bf2-441b-9976-a2fc83a23c6e",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Prototypes: More serious questions about Taylor polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2173.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2173.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor polynomials, approximation by a polynomial on an interval, series, sequences ",
       "url": "/text-content/82a2fad0-7bf2-441b-9976-a2fc83a23c6e",
       "source": "Calculus Refresher 51",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "65bed3c5-7218-4129-b064-f6b8924e4195",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Determining Tolerance/Error",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2174.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2174.png\"/\u003e",
       "allAnswers": [],
       "tags": "tolerance, error, taylor polynomial ",
       "url": "/text-content/65bed3c5-7218-4129-b064-f6b8924e4195",
       "source": "Calculus Refresher 52",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "8b5e41b5-0b12-4cb8-aca1-13ec85445b64",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "How large an invert with given tolerance",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2175.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2176.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2175.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2176.png\"/\u003e",
       "allAnswers": [],
       "tags": "tolerance, remainder, interval with given tolerance ",
       "url": "/text-content/8b5e41b5-0b12-4cb8-aca1-13ec85445b64",
       "source": "Calculus Refresher 53",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     }
   ],
   "answers": [],

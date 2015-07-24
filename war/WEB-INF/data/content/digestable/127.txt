@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/276.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/276.png\"/\u003e",
       "uuid": "2e44ab81-d1b4-40bb-936c-31f3752958f5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of Hypotenuse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/275.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/275.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, hypotenuse, length, leg, measurements ",
       "url": "/practice-problem/2e44ab81-d1b4-40bb-936c-31f3752958f5",
       "source": "null 12.8.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/280.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/280.png\"/\u003e",
       "uuid": "07a707ab-6c58-445c-b62c-c3593764133d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Slant height of cone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/279.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/279.png\"/\u003e",
       "allAnswers": [],
       "tags": "pythagorean theorem, slant height, cone ",
       "url": "/practice-problem/07a707ab-6c58-445c-b62c-c3593764133d",
       "source": "null 12.9"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/285.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/285.png\"/\u003e",
       "uuid": "f46c652e-383e-4973-b83a-566a9382e048",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of other leg, Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/283.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/284.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/283.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/284.png\"/\u003e",
       "allAnswers": [],
       "tags": "length of leg, triangle ",
       "url": "/practice-problem/f46c652e-383e-4973-b83a-566a9382e048",
       "source": "null 12.9.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/292.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/293.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/292.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/293.png\"/\u003e",
       "uuid": "b23526fa-23cd-49a1-9be2-79d9fcca89e7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Midpoint hypotenuse, right triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/290.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/291.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/290.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/291.png\"/\u003e",
       "allAnswers": [],
       "tags": "midpoint, distance formula, equidistant vertices ",
       "url": "/practice-problem/b23526fa-23cd-49a1-9be2-79d9fcca89e7",
       "source": "null 12.10.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/295.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/295.png\"/\u003e",
       "uuid": "d66c4142-8c6f-427b-bfdd-76d944d64ae8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Base angle congruency",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/294.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/294.png\"/\u003e",
       "allAnswers": [],
       "tags": "base angles, congruency, congruent, isosceles triangle ",
       "url": "/practice-problem/d66c4142-8c6f-427b-bfdd-76d944d64ae8",
       "source": "null 12.10.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/311.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/312.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/311.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/312.png\"/\u003e",
       "uuid": "fdff8112-2d6d-443f-b316-ca279f063c88",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Apothem, length, and right triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/309.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/310.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/309.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/310.png\"/\u003e",
       "allAnswers": [],
       "tags": "apothem, length, right triangle, angle, length",
       "url": "/practice-problem/fdff8112-2d6d-443f-b316-ca279f063c88",
       "source": "null 13.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/315.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/315.png\"/\u003e",
       "uuid": "c4648e4a-20e4-43fd-85c8-0609e9f5f0fa",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Inscribed in a circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/314.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/314.png\"/\u003e",
       "allAnswers": [],
       "tags": "circle, inscribed, rectangle, diagonals ",
       "url": "/practice-problem/c4648e4a-20e4-43fd-85c8-0609e9f5f0fa",
       "source": "null 13.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/327.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/327.png\"/\u003e",
       "uuid": "d9490d70-3332-4bb1-a574-809ec647d579",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove equality and intersection",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/326.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/326.png\"/\u003e",
       "allAnswers": [],
       "tags": "prove equality, intersection, tangent ",
       "url": "/practice-problem/d9490d70-3332-4bb1-a574-809ec647d579",
       "source": "null 13.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/333.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/333.png\"/\u003e",
       "uuid": "daf3efe7-e6d2-473d-8be4-1814fa3ba600",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Perimeter of triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/332.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/332.png\"/\u003e",
       "allAnswers": [],
       "tags": "perimeter, triangle, inscribed circle ",
       "url": "/practice-problem/daf3efe7-e6d2-473d-8be4-1814fa3ba600",
       "source": "null 13.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/335.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/335.png\"/\u003e",
       "uuid": "628047b6-8c0e-40dd-a0c6-a8a1bc28c3ff",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Length of radius",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/334.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/334.png\"/\u003e",
       "allAnswers": [],
       "tags": "radius, length of radius, circle, tangent segment ",
       "url": "/practice-problem/628047b6-8c0e-40dd-a0c6-a8a1bc28c3ff",
       "source": "null 13.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/341.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/341.png\"/\u003e",
       "uuid": "4ef61ed1-826b-4ded-b384-539505c43f9a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,7 +182,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Measure of minor arc",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/340.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/340.png\"/\u003e",
       "allAnswers": [],
       "tags": "minor arc, measure of arc, tangent segments ",
       "url": "/practice-problem/4ef61ed1-826b-4ded-b384-539505c43f9a",
@@ -205,7 +205,7 @@
       "tags": "vector function, parametric curve",
       "url": "/question/6ca9b686-d25e-4fc3-a17e-6342ead39b7a",
       "source": "Math 222 6.1.21",
-      "topic": "Pre-Calculus/Trigonometry/Parametric Equations/System of Parametric Equation/Parameter"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
     },
     {
       "uuid": "ff6746d6-7360-4dae-833a-10f81c763814",
@@ -222,7 +222,7 @@
       "tags": "vector, tangent vector",
       "url": "/question/ff6746d6-7360-4dae-833a-10f81c763814",
       "source": "Math 222 6.1.22",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "f5198f42-962b-4c2d-a8c9-a3d38200ae99",
@@ -239,7 +239,7 @@
       "tags": "vector, vector function, integrals ",
       "url": "/question/f5198f42-962b-4c2d-a8c9-a3d38200ae99",
       "source": "Math 222 6.1.23",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "e0400b21-d133-4761-ac99-ca470f8cb81f",
@@ -256,7 +256,7 @@
       "tags": "vector, parametrized curves, tangents, intervals",
       "url": "/question/e0400b21-d133-4761-ac99-ca470f8cb81f",
       "source": "Math 222 6.1.25",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "558b7222-6f7e-43c7-8a13-dc01c34612c4",
@@ -273,7 +273,7 @@
       "tags": "polar graph, vector, horizontal tangents, arclength ",
       "url": "/question/558b7222-6f7e-43c7-8a13-dc01c34612c4",
       "source": "Math 222 6.1.26",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinates/Polar Axis"
+      "topic": "Trigonometry/Polar Coordinates/Polar Axis"
     },
     {
       "uuid": "a26f6e65-499b-4688-9eba-377103812e72",
@@ -290,7 +290,7 @@
       "tags": "vector, vector function, tangents",
       "url": "/question/a26f6e65-499b-4688-9eba-377103812e72",
       "source": "Math 222 6.1.27",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "7b193aa0-1b94-44b3-9d3d-f76306dbbc72",
@@ -341,7 +341,7 @@
       "tags": "vector function, vector, word problem",
       "url": "/question/689da9a7-ff0c-4e06-9207-aa6cd45cbdf3",
       "source": "Math 222 6.1.30",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "9c87ddbd-efce-4179-8e08-e823e77437d9",
@@ -358,7 +358,7 @@
       "tags": "vector, vector function",
       "url": "/question/9c87ddbd-efce-4179-8e08-e823e77437d9",
       "source": "Math 222 6.1.31",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Unit Vector/Principal Vector Decomposition Theorem"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
     },
     {
       "uuid": "37a5dac5-b159-4827-88be-322f194be49b",
@@ -375,7 +375,7 @@
       "tags": "antiderivative, integral, substitution ",
       "url": "/question/37a5dac5-b159-4827-88be-322f194be49b",
       "source": "First Year Calculus 7.1.1",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "f808e3dc-db39-4548-bc1d-3a9b8496307b",
@@ -392,7 +392,7 @@
       "tags": "antiderivative, integral, substitution ",
       "url": "/question/f808e3dc-db39-4548-bc1d-3a9b8496307b",
       "source": "First Year Calculus 7.1.2",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "ba977ab6-4674-437b-9848-b81baa73b9ea",
@@ -409,7 +409,7 @@
       "tags": "antiderivative, integral, substitution ",
       "url": "/question/ba977ab6-4674-437b-9848-b81baa73b9ea",
       "source": "First Year Calculus 7.1.3",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "8d414a1a-a84e-4748-80e1-49082cf486f7",
@@ -426,7 +426,7 @@
       "tags": "antiderivative, substitution, integrals",
       "url": "/question/8d414a1a-a84e-4748-80e1-49082cf486f7",
       "source": "First Year Calculus 7.1.4",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "fa00f382-6b0c-4475-b019-59dedee91a11",
@@ -443,7 +443,7 @@
       "tags": "antiderivative, substitution, integral",
       "url": "/question/fa00f382-6b0c-4475-b019-59dedee91a11",
       "source": "First Year Calculus 7.1.5",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "c5cff2a1-5364-4b6d-add9-6c524f400ae7",
@@ -460,7 +460,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/c5cff2a1-5364-4b6d-add9-6c524f400ae7",
       "source": "First Year Calculus 1.1.1",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "6049b8a5-2fb6-4e54-8e7a-60e32cd23803",
@@ -477,7 +477,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/6049b8a5-2fb6-4e54-8e7a-60e32cd23803",
       "source": "First Year Calculus 1.1.2",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "dd8005f6-6946-4008-be9e-389f228ea50b",
@@ -494,7 +494,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/dd8005f6-6946-4008-be9e-389f228ea50b",
       "source": "First Year Calculus 1.1.3",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "2a4c7d95-0ab2-4dee-b8a7-3238d2b111bb",
@@ -511,7 +511,7 @@
       "tags": "antiderivative, integrals, substitution ",
       "url": "/question/2a4c7d95-0ab2-4dee-b8a7-3238d2b111bb",
       "source": "First Year Calculus 7.1.6",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "860a6972-df71-443c-bf9d-868e7537b931",
@@ -528,7 +528,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/860a6972-df71-443c-bf9d-868e7537b931",
       "source": "First Year Calculus 1.1.4",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "9f66e50b-b7f5-45b3-8f59-4ef2d50eca00",
@@ -545,7 +545,7 @@
       "tags": "antiderivative, integrals, substitution ",
       "url": "/question/9f66e50b-b7f5-45b3-8f59-4ef2d50eca00",
       "source": "First Year Calculus 7.1.7",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "dd9d5f59-d75c-4c5b-81de-a834ce67a5de",
@@ -562,7 +562,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/dd9d5f59-d75c-4c5b-81de-a834ce67a5de",
       "source": "First Year Calculus 1.1.5",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "8dd8bad0-982b-476a-8892-6554cea9004f",
@@ -579,7 +579,7 @@
       "tags": "substitution, integral, antiderivative ",
       "url": "/question/8dd8bad0-982b-476a-8892-6554cea9004f",
       "source": "First Year Calculus 7.1.8",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Quadratic Polynomial/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Quadratic Polynomial/Substitution"
     },
     {
       "uuid": "b4542818-554e-4350-9501-be7971335918",
@@ -596,7 +596,7 @@
       "tags": "integrals, antiderivative, substitution ",
       "url": "/question/b4542818-554e-4350-9501-be7971335918",
       "source": "First Year Calculus 7.1.9",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "7483579b-e792-48dd-ae38-183c156e72a0",
@@ -613,7 +613,7 @@
       "tags": "antiderivative, integral, substitution ",
       "url": "/question/7483579b-e792-48dd-ae38-183c156e72a0",
       "source": "First Year Calculus 7.1.10",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "86dd81b1-fa3f-4cb9-9361-7c3114f08562",
@@ -630,7 +630,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/86dd81b1-fa3f-4cb9-9361-7c3114f08562",
       "source": "First Year Calculus 1.1.6",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "80058661-cfa0-4911-aa07-f1a3aad6bb58",
@@ -647,7 +647,7 @@
       "tags": "antiderivative, integrals, substitution ",
       "url": "/question/80058661-cfa0-4911-aa07-f1a3aad6bb58",
       "source": "First Year Calculus 7.1.11",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "beb1d616-e744-4fb9-af3f-118baf3e3be5",
@@ -664,7 +664,7 @@
       "tags": "antiderivative, substitution, integrals ",
       "url": "/question/beb1d616-e744-4fb9-af3f-118baf3e3be5",
       "source": "First Year Calculus 7.1.12",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "0eaebb4a-5638-4aa8-920e-e4abdfd8e877",
@@ -681,7 +681,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/0eaebb4a-5638-4aa8-920e-e4abdfd8e877",
       "source": "First Year Calculus 1.1.7",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "8735bf94-c764-455a-a87b-1523184d4eed",
@@ -698,7 +698,7 @@
       "tags": "antiderivative, substitution, integrals",
       "url": "/question/8735bf94-c764-455a-a87b-1523184d4eed",
       "source": "First Year Calculus 7.1.13",
-      "topic": "Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
     },
     {
       "uuid": "ab1cb7a5-457e-4d05-9741-88f2a561b13d",
@@ -715,7 +715,7 @@
       "tags": "substitution, integrals, antiderivative",
       "url": "/question/ab1cb7a5-457e-4d05-9741-88f2a561b13d",
       "source": "First Year Calculus 7.1.14",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Quadratic Polynomial/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Quadratic Polynomial/Substitution"
     },
     {
       "uuid": "af7c9d32-c7db-4fb0-93c5-fd2350804c8a",
@@ -732,7 +732,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/af7c9d32-c7db-4fb0-93c5-fd2350804c8a",
       "source": "First Year Calculus 1.1.8",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "d6e1e001-ca06-45e8-9ec0-5c5886955e8f",
@@ -749,7 +749,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/d6e1e001-ca06-45e8-9ec0-5c5886955e8f",
       "source": "First Year Calculus 7.1.15",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "795e42d0-2529-4b41-9ec1-df5921a49224",
@@ -766,7 +766,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/795e42d0-2529-4b41-9ec1-df5921a49224",
       "source": "First Year Calculus 1.1.9",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     },
     {
       "uuid": "b27caa8b-84ec-4498-a890-b9c7bacffc8d",
@@ -783,7 +783,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/b27caa8b-84ec-4498-a890-b9c7bacffc8d",
       "source": "First Year Calculus 7.1.16",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "35ad932f-ef9f-4434-b564-7765c7441e4f",
@@ -800,7 +800,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/35ad932f-ef9f-4434-b564-7765c7441e4f",
       "source": "First Year Calculus 7.1.17",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "2c7f96cf-e788-4c83-b670-45f81624da0e",
@@ -817,7 +817,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/2c7f96cf-e788-4c83-b670-45f81624da0e",
       "source": "First Year Calculus 7.1.18",
-      "topic": "Calculus/Integration by Parts/Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
     },
     {
       "uuid": "8920d4f3-9f01-4b1a-8f54-54efe7b8bda1",
@@ -834,7 +834,7 @@
       "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
       "url": "/question/8920d4f3-9f01-4b1a-8f54-54efe7b8bda1",
       "source": "First Year Calculus 1.1.10",
-      "topic": "Pre-Calculus/Sequence and the Binomial Theorem/Mathematical Induction/The Principle of Mathematical Induction/Inductive Step"
+      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
     }
   ],
   "textContent": [
@@ -848,12 +848,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Area under a Graph",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5940.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5942.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5943.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5940.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5942.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5943.png\"/\u003e",
       "allAnswers": [],
       "tags": "area under the curve, integral, integration ",
       "url": "/text-content/c8576b51-f111-48d9-92d5-46e4b5988217",
       "source": "Forgotten Text 6 7.1",
-      "topic": "Calculus/The Integral/Area Under Curve"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under Curve"
     },
     {
       "uuid": "618c411e-3dbf-4d2d-9fed-edeb3edc2f0b",
@@ -865,12 +865,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Work done by a force",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5973.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5975.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5976.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5973.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5975.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5976.png\"/\u003e",
       "allAnswers": [],
       "tags": "integral, force, work, integration, applications of integrals ",
       "url": "/text-content/618c411e-3dbf-4d2d-9fed-edeb3edc2f0b",
       "source": "Forgotten Text 6 7.11",
-      "topic": "Calculus/Application of the Integral/Work done by a force"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Work (Physics)"
     },
     {
       "uuid": "d2667d9d-d817-4827-b8f1-518f92e49e1a",
@@ -882,12 +882,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Fundamental Theorem of Calculus",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5944.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5945.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5944.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5945.png\"/\u003e",
       "allAnswers": [],
       "tags": "fundamental theorem, integral, integration ",
       "url": "/text-content/d2667d9d-d817-4827-b8f1-518f92e49e1a",
       "source": "Forgotten Text 6 7.3",
-      "topic": "Calculus/The Integral/Fundamental Theorem of Calculus"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Fundamental Theorem of Calculus"
     }
   ],
   "answers": [],

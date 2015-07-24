@@ -188,7 +188,7 @@
       "tags": "trigonometric identities, quadrants",
       "url": "/question/794b6bb7-8d39-4c3d-a2fe-31de07359c96",
       "source": "Precalculus, 3rd Edition 10.4.88.3",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "e0311c7e-ae34-4cf1-90bd-a8b6c9f6992b",
@@ -205,7 +205,7 @@
       "tags": "trigonometric identities, quadrants",
       "url": "/question/e0311c7e-ae34-4cf1-90bd-a8b6c9f6992b",
       "source": "Precalculus, 3rd Edition 10.4.88.4",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "3e74dc83-29d7-45cc-9eef-87ca1176add8",
@@ -222,7 +222,7 @@
       "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities",
       "url": "/question/3e74dc83-29d7-45cc-9eef-87ca1176add8",
       "source": "Precalculus, 3rd Edition 10.4.9",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "88e8c3a7-cfaa-43bb-98e2-2c65552939f3",
@@ -239,7 +239,7 @@
       "tags": "trigonometric identities, double angle formula, half angle formula, constructing trigonometric identities ",
       "url": "/question/88e8c3a7-cfaa-43bb-98e2-2c65552939f3",
       "source": "Precalculus, 3rd Edition 10.4.90",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "aedd8b56-19c3-4c78-b1d7-0a0c8e346433",
@@ -256,7 +256,7 @@
       "tags": "trigonometric identities, double angle formula, half angle formula, constructing trigonometric identities ",
       "url": "/question/aedd8b56-19c3-4c78-b1d7-0a0c8e346433",
       "source": "Precalculus, 3rd Edition 10.4.91",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "a6c6e258-ed4c-4efc-a8a3-b1ea2ad6c982",
@@ -273,7 +273,7 @@
       "tags": "trigonometric identities, double angle formula, half angle formula, constructing trigonometric identities, logarithms, natural logarithms, properties of logarithms",
       "url": "/question/a6c6e258-ed4c-4efc-a8a3-b1ea2ad6c982",
       "source": "Precalculus, 3rd Edition 10.4.92",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "66597171-bd2f-4499-85ac-a83dfb54f385",
@@ -290,7 +290,7 @@
       "tags": "trigonometric identities, double angle formula, half angle formula, constructing trigonometric identities ",
       "url": "/question/66597171-bd2f-4499-85ac-a83dfb54f385",
       "source": "Precalculus, 3rd Edition 10.4.93",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "9f394855-b50b-4aeb-8873-b150f569a551",
@@ -307,7 +307,7 @@
       "tags": "trigonometric identities, double angle formula, half angle formula",
       "url": "/question/9f394855-b50b-4aeb-8873-b150f569a551",
       "source": "Precalculus, 3rd Edition 10.4.94",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "ce05b297-850a-418a-926e-0f029fdcd26c",
@@ -324,7 +324,7 @@
       "tags": "algebra, trigonometry",
       "url": "/question/ce05b297-850a-418a-926e-0f029fdcd26c",
       "source": "Precalculus, 3rd Edition 10.4.95",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "1255fa08-25b1-4d82-9249-c63078fbb0c3",
@@ -341,7 +341,7 @@
       "tags": "periodic, functions, fundamental cycle, trigonometry, sinusoids, amplitude",
       "url": "/question/1255fa08-25b1-4d82-9249-c63078fbb0c3",
       "source": "Precalculus, 3rd Edition 10.5.1",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "58ddd8f4-17dd-4a84-9218-737a8c59ef76",
@@ -358,7 +358,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/58ddd8f4-17dd-4a84-9218-737a8c59ef76",
       "source": "Precalculus, 3rd Edition 10.5.10",
-      "topic": "Pre-Calculus/Trigonometry/Fundamental Identities"
+      "topic": "Trigonometry/Fundamental Identities"
     },
     {
       "uuid": "91847fbb-e879-4b19-b33e-0a8a13225e4a",
@@ -375,7 +375,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/91847fbb-e879-4b19-b33e-0a8a13225e4a",
       "source": "Precalculus, 3rd Edition 10.5.11",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometry and Algebra"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Trigonometry and Algebra"
     },
     {
       "uuid": "1fab7916-7321-486e-a5cd-d20ddc911472",
@@ -392,7 +392,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/1fab7916-7321-486e-a5cd-d20ddc911472",
       "source": "Precalculus, 3rd Edition 10.5.12",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "8ce7e0ca-cf29-4cda-bd2a-945661490ddc",
@@ -409,7 +409,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/8ce7e0ca-cf29-4cda-bd2a-945661490ddc",
       "source": "Precalculus, 3rd Edition 10.5.13",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "17397c35-bdcb-44dd-843f-f7278bf0e601",
@@ -426,7 +426,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/17397c35-bdcb-44dd-843f-f7278bf0e601",
       "source": "Precalculus, 3rd Edition 10.5.14",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "105b5b0e-f6fa-4fa7-b79a-b854b34a0599",
@@ -443,7 +443,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/105b5b0e-f6fa-4fa7-b79a-b854b34a0599",
       "source": "Precalculus, 3rd Edition 10.5.15",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "2daa93fa-a105-48d8-b443-3a7177cdb800",
@@ -460,7 +460,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/2daa93fa-a105-48d8-b443-3a7177cdb800",
       "source": "Precalculus, 3rd Edition 10.5.16",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "2a48b307-c993-4011-9569-5440595a6266",
@@ -477,7 +477,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/2a48b307-c993-4011-9569-5440595a6266",
       "source": "Precalculus, 3rd Edition 10.5.17",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "a73225c7-a0b5-4663-b4f5-4d115736d315",
@@ -494,7 +494,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/a73225c7-a0b5-4663-b4f5-4d115736d315",
       "source": "Precalculus, 3rd Edition 10.5.18",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "fa822d88-6bb8-4541-aae7-395c836b37fb",
@@ -511,7 +511,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/fa822d88-6bb8-4541-aae7-395c836b37fb",
       "source": "Precalculus, 3rd Edition 10.5.19",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "9a7f9d4b-5c0c-4385-84d8-a6012821faa1",
@@ -528,7 +528,7 @@
       "tags": "periodic, functions, fundamental cycle, trigonometry, sinusoids, amplitude",
       "url": "/question/9a7f9d4b-5c0c-4385-84d8-a6012821faa1",
       "source": "Precalculus, 3rd Edition 10.5.2",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "32e1e095-d603-4ed8-ad55-ac0d753a828d",
@@ -545,7 +545,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/32e1e095-d603-4ed8-ad55-ac0d753a828d",
       "source": "Precalculus, 3rd Edition 10.5.20",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "db3ac105-67dd-4c0a-8570-62281439c21b",
@@ -562,7 +562,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/db3ac105-67dd-4c0a-8570-62281439c21b",
       "source": "Precalculus, 3rd Edition 10.5.21",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "23c6e789-c472-4da7-9922-40e29135c91a",
@@ -579,7 +579,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/23c6e789-c472-4da7-9922-40e29135c91a",
       "source": "Precalculus, 3rd Edition 10.5.22",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "99d30663-c0e7-47ee-9b28-7e5b91bc5928",
@@ -596,7 +596,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/99d30663-c0e7-47ee-9b28-7e5b91bc5928",
       "source": "Precalculus, 3rd Edition 10.5.23",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "d1d82852-ba36-4118-b6cc-c35d582d0369",
@@ -613,7 +613,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/d1d82852-ba36-4118-b6cc-c35d582d0369",
       "source": "Precalculus, 3rd Edition 10.5.24",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "40a6710c-9874-492f-944d-1f34bfd2cb51",
@@ -630,7 +630,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/40a6710c-9874-492f-944d-1f34bfd2cb51",
       "source": "Precalculus, 3rd Edition 10.5.25",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "9bd38bdf-d559-44c5-bcb3-b5cec4318c8f",
@@ -647,7 +647,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/9bd38bdf-d559-44c5-bcb3-b5cec4318c8f",
       "source": "Precalculus, 3rd Edition 10.5.26",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "e81d2c09-dcfa-4ec5-93a2-e273a433423a",
@@ -664,7 +664,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/e81d2c09-dcfa-4ec5-93a2-e273a433423a",
       "source": "Precalculus, 3rd Edition 10.5.27",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "5c8abcb0-97bd-4799-bfa4-324979ad14a6",
@@ -681,7 +681,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/5c8abcb0-97bd-4799-bfa4-324979ad14a6",
       "source": "Precalculus, 3rd Edition 10.5.28",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "2f58015a-e7a7-45ed-9851-992c07268ef5",
@@ -698,7 +698,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/2f58015a-e7a7-45ed-9851-992c07268ef5",
       "source": "Precalculus, 3rd Edition 10.5.29",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "e4088228-3af9-46f8-84b6-159f66e67360",
@@ -715,7 +715,7 @@
       "tags": "periodic, functions, fundamental cycle, trigonometry, sinusoids, amplitude",
       "url": "/question/e4088228-3af9-46f8-84b6-159f66e67360",
       "source": "Precalculus, 3rd Edition 10.5.3",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "8a5a6f3d-c42a-455e-9615-39f911d29485",
@@ -732,7 +732,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/8a5a6f3d-c42a-455e-9615-39f911d29485",
       "source": "Precalculus, 3rd Edition 10.5.30",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "3f6ccbff-6dfc-4881-949e-1f7f6406d312",
@@ -749,7 +749,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/3f6ccbff-6dfc-4881-949e-1f7f6406d312",
       "source": "Precalculus, 3rd Edition 10.5.31",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "376cb3d2-e713-4550-afd9-8eb5ea0cdf05",
@@ -766,7 +766,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/376cb3d2-e713-4550-afd9-8eb5ea0cdf05",
       "source": "Precalculus, 3rd Edition 10.5.32",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "b753fa32-52e3-43dc-94ab-28bb702e2625",
@@ -783,7 +783,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/b753fa32-52e3-43dc-94ab-28bb702e2625",
       "source": "Precalculus, 3rd Edition 10.5.33",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "f2079674-65e7-49bb-8ee9-0af3d368c101",
@@ -800,7 +800,7 @@
       "tags": "sinusoids, amplitude, periodic, functions, trigonometry, fundamental cycle",
       "url": "/question/f2079674-65e7-49bb-8ee9-0af3d368c101",
       "source": "Precalculus, 3rd Edition 10.5.34",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Probability ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/977.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/978.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/979.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/980.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/981.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/982.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/983.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/977.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/978.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/979.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/980.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/981.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/982.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/983.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, integral, probability ",
       "url": "/text-content/f19cbb71-658f-49be-948a-0efdfe2fd2ec",
       "source": "Calculus, Early Transcendentals 9.8.1 (My mistake)",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "ae7db28e-bfc2-4dd9-b665-25ac93762348",
@@ -836,7 +836,7 @@
       "tags": "Relations and Functions, Midpoint formula, Distance formula, symmetry, cartesian coordinate plane",
       "url": "/text-content/ae7db28e-bfc2-4dd9-b665-25ac93762348",
       "source": "Forgotten Text 1 1.1",
-      "topic": "Algebra/Relations and Functions/Set of Real Numbers"
+      "topic": "Algebra/Functions/Sets of Real Numbers"
     }
   ],
   "answers": [],

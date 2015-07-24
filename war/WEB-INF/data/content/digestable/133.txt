@@ -188,7 +188,7 @@
       "tags": "stokes\u0027 theorem,",
       "url": "/question/b754ddf8-ad50-467c-8088-9ad159b47459",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "bcc56946-9229-4949-a410-63e08b11f010",
@@ -205,7 +205,7 @@
       "tags": "stokes\u0027 theorem,",
       "url": "/question/bcc56946-9229-4949-a410-63e08b11f010",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "415e2c88-de9a-46b4-aa27-7f4bdce18c57",
@@ -222,7 +222,7 @@
       "tags": "stokes\u0027 theorem,, word problem",
       "url": "/question/415e2c88-de9a-46b4-aa27-7f4bdce18c57",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "e65e0d56-6a93-44d4-8924-f3aef1adc197",
@@ -239,7 +239,7 @@
       "tags": "stokes\u0027 theorem,",
       "url": "/question/e65e0d56-6a93-44d4-8924-f3aef1adc197",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "5d3e6f53-5561-4675-bfc5-f4a0ff1198f8",
@@ -256,7 +256,7 @@
       "tags": "stokes\u0027 theorem,",
       "url": "/question/5d3e6f53-5561-4675-bfc5-f4a0ff1198f8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "7a675bd3-6b44-4b31-96d4-93e2284060e5",
@@ -273,7 +273,7 @@
       "tags": "stokes\u0027 theorem,, word problem",
       "url": "/question/7a675bd3-6b44-4b31-96d4-93e2284060e5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "b91b5a75-7685-4c58-970e-1acac023c548",
@@ -290,7 +290,7 @@
       "tags": "stokes\u0027 theorem,",
       "url": "/question/b91b5a75-7685-4c58-970e-1acac023c548",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Stokes’ Theorem"
+      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
     },
     {
       "uuid": "c3c470a4-df1a-46be-ac2e-5aeb67e70e98",
@@ -307,7 +307,7 @@
       "tags": "proof, diagram, given/prove, vertex, perpendicular, vertex of triangle, triangle, opposite side",
       "url": "/question/c3c470a4-df1a-46be-ac2e-5aeb67e70e98",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "c949744a-0b70-41a2-94da-8c68b9506570",
@@ -324,7 +324,7 @@
       "tags": "proof, diagram, triangle, equilateral, given/prove",
       "url": "/question/c949744a-0b70-41a2-94da-8c68b9506570",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "061b4718-b123-4c61-aeb7-137b2470f4df",
@@ -341,7 +341,7 @@
       "tags": "proof, diagram, given/prove, distinct points, intersect",
       "url": "/question/061b4718-b123-4c61-aeb7-137b2470f4df",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "dc206915-46f2-486c-acfc-31dbb590ae0a",
@@ -358,7 +358,7 @@
       "tags": "proof, diagram, given/prove, circle, line segment, length of line segment, arc",
       "url": "/question/dc206915-46f2-486c-acfc-31dbb590ae0a",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "2c40d8f4-daf0-4b12-8fff-441bb4a06c78",
@@ -375,7 +375,7 @@
       "tags": "proof, diagram, given/prove, line, distinct points",
       "url": "/question/2c40d8f4-daf0-4b12-8fff-441bb4a06c78",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "f30244e6-d901-4e2f-ae80-8329808097ea",
@@ -392,7 +392,7 @@
       "tags": "finding angles, find angle, congruent, congruency ",
       "url": "/question/f30244e6-d901-4e2f-ae80-8329808097ea",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "c53676bf-d128-454c-832b-dd1a50b71e1b",
@@ -409,7 +409,7 @@
       "tags": "perpendicular, perpendicular lines, finding angles, find angle, angle twice as large",
       "url": "/question/c53676bf-d128-454c-832b-dd1a50b71e1b",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "08a9fb00-5a1a-4c4a-a298-d995212233ea",
@@ -426,7 +426,7 @@
       "tags": "perpendicular, finding angles, find angle, perpendicular lines",
       "url": "/question/08a9fb00-5a1a-4c4a-a298-d995212233ea",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "702d0a02-8f1b-4471-9199-50161b9e0b33",
@@ -443,7 +443,7 @@
       "tags": "segments, segment, extended, extend ",
       "url": "/question/702d0a02-8f1b-4471-9199-50161b9e0b33",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "7fe22f81-d804-4756-98f5-1a1a125bee04",
@@ -460,7 +460,7 @@
       "tags": "postulates, intersections, distinct lines, points, lines",
       "url": "/question/7fe22f81-d804-4756-98f5-1a1a125bee04",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "72decd3e-9bde-4e14-aa42-0b5b65674937",
@@ -477,7 +477,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/72decd3e-9bde-4e14-aa42-0b5b65674937",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "26ed6773-1180-4e6d-b382-3b880d1e6cd1",
@@ -494,7 +494,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/26ed6773-1180-4e6d-b382-3b880d1e6cd1",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "4b07d533-35bc-46a9-a08d-97cd07b33d09",
@@ -511,7 +511,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/4b07d533-35bc-46a9-a08d-97cd07b33d09",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "27120f4f-89e6-4662-9693-52196006989a",
@@ -528,7 +528,7 @@
       "tags": "conditional statement, Given/Prove format, Given/Prove, proof, formal proof",
       "url": "/question/27120f4f-89e6-4662-9693-52196006989a",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "3a6646c9-4bd2-4f5d-9bb1-558b7831b199",
@@ -545,7 +545,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/3a6646c9-4bd2-4f5d-9bb1-558b7831b199",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "7b42d622-78d2-4dc1-aa7a-6359d6a7ec0c",
@@ -562,7 +562,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/7b42d622-78d2-4dc1-aa7a-6359d6a7ec0c",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "fdedbb4c-cbb0-47ef-8b2a-e34320ad2bf1",
@@ -579,7 +579,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/fdedbb4c-cbb0-47ef-8b2a-e34320ad2bf1",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "e98dfc2b-4541-47ea-adc9-d04af39a426c",
@@ -596,7 +596,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/e98dfc2b-4541-47ea-adc9-d04af39a426c",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "874dc240-4828-4820-85bc-b5a2f6779f6e",
@@ -613,7 +613,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/874dc240-4828-4820-85bc-b5a2f6779f6e",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "78117dc9-2cd5-4221-a1bb-0e7f377a764b",
@@ -630,7 +630,7 @@
       "tags": "conditional statement, Given/Prove, Given/Prove format, formal proof, proof",
       "url": "/question/78117dc9-2cd5-4221-a1bb-0e7f377a764b",
       "source": "Amsco Geometry Textbook 4.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "331b2f23-8eae-4aa9-8f1e-4c7ae18b37c8",
@@ -647,7 +647,7 @@
       "tags": "symbols, segments, line, same line, different symbols",
       "url": "/question/331b2f23-8eae-4aa9-8f1e-4c7ae18b37c8",
       "source": "Amsco Geometry Textbook 4.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "f29a9511-9074-486f-bf12-2c64b51e46e7",
@@ -664,7 +664,7 @@
       "tags": "word problem, geometry word problem, proportion, extremes, means",
       "url": "/question/f29a9511-9074-486f-bf12-2c64b51e46e7",
       "source": "Amsco Geometry Textbook 12.1",
-      "topic": "Geometry/Ratios"
+      "topic": "Geometry/Ratios and Proportions"
     },
     {
       "uuid": "04d6ade0-4c0f-43e6-bc69-b5340950850b",
@@ -681,7 +681,7 @@
       "tags": "geometric mean, exact value",
       "url": "/question/04d6ade0-4c0f-43e6-bc69-b5340950850b",
       "source": "Amsco Geometry Textbook 12.5",
-      "topic": "Geometry/Ratios"
+      "topic": "Geometry/Ratios and Proportions"
     },
     {
       "uuid": "4a4e2d55-a4cd-46ec-a97a-640c36cb3f64",
@@ -698,7 +698,7 @@
       "tags": "geometry, definition, plane, plane definition",
       "url": "/question/4a4e2d55-a4cd-46ec-a97a-640c36cb3f64",
       "source": "Amsco Geometry Textbook 1.1.1",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "65f70dc0-455d-482d-aaa1-eac7abd631c3",
@@ -715,7 +715,7 @@
       "tags": "Line, string, line definition, undefined terms",
       "url": "/question/65f70dc0-455d-482d-aaa1-eac7abd631c3",
       "source": "Amsco Geometry Textbook 1.1.2",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "d6bc761d-27df-43ad-8589-30b1d21f79f2",
@@ -732,7 +732,7 @@
       "tags": "point, undefined terms, geometry, point definition",
       "url": "/question/d6bc761d-27df-43ad-8589-30b1d21f79f2",
       "source": "Amsco Geometry Textbook 1.1.3",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "9468a80d-0c81-4490-be21-05c35262753a",
@@ -749,7 +749,7 @@
       "tags": "line, line definition, line segment, undefined terms",
       "url": "/question/9468a80d-0c81-4490-be21-05c35262753a",
       "source": "Amsco Geometry Textbook 1.1.4",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "70e1357f-8a5f-47d3-9f73-0cd478a1e20c",
@@ -766,7 +766,7 @@
       "tags": "plane, plane definition, geometry, undefined terms",
       "url": "/question/70e1357f-8a5f-47d3-9f73-0cd478a1e20c",
       "source": "Amsco Geometry Textbook 1.1.5",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "1b74496c-7a26-4114-8bd4-6965477e93a7",
@@ -783,7 +783,7 @@
       "tags": "Geometry, Fundamental definitions, undefined terms, line definition, line",
       "url": "/question/1b74496c-7a26-4114-8bd4-6965477e93a7",
       "source": "Amsco Geometry Textbook 1.1.6",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     },
     {
       "uuid": "93547af3-3563-4ef4-b12c-609f7a559e4e",
@@ -800,7 +800,7 @@
       "tags": "line, line definition",
       "url": "/question/93547af3-3563-4ef4-b12c-609f7a559e4e",
       "source": "Amsco Geometry Textbook 1.1.7",
-      "topic": "Geometry/Points Lines Planes and Angles"
+      "topic": "Geometry/Points Lines Planes + Angles"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Ratio and Proportion",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/228.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/229.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/231.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/228.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/229.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/231.png\"/\u003e",
       "allAnswers": [],
       "tags": "ratio, proportion ",
       "url": "/text-content/d59a5a2c-06ce-4100-82c7-8457c9501a90",
       "source": "Amsco Geometry Textbook 12.1",
-      "topic": "Pre-Calculus/Graphs of Functions/Transformations"
+      "topic": "Pre-Calculus/Graphing Functions/Graph Transformations"
     },
     {
       "uuid": "6f93b1dc-ba0c-49d8-bb1e-344e8c96c3b1",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Distance Formula",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/286.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/287.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/288.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/289.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/286.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/287.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/288.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/289.png\"/\u003e",
       "allAnswers": [],
       "tags": "distance formula ",
       "url": "/text-content/6f93b1dc-ba0c-49d8-bb1e-344e8c96c3b1",
       "source": "Amsco Geometry Textbook 12.1",
-      "topic": "Calculus/Sequences and Series/Taylor�s Theorem/Taylor�s Series"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
     }
   ],
   "answers": [],

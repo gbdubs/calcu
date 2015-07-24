@@ -681,7 +681,7 @@
       "tags": "arcs, circles, congruent arcs",
       "url": "/question/d95b15b2-9e73-45b3-91ce-d8a92465f2d3",
       "source": "Amsco Geometry Textbook 13.1.1",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "21766bc0-fd90-4b46-80d2-69676fef1f9e",
@@ -698,7 +698,7 @@
       "tags": "arcs, perpendicular lines, congruent arcs, circles",
       "url": "/question/21766bc0-fd90-4b46-80d2-69676fef1f9e",
       "source": "Amsco Geometry Textbook 13.1.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "8244f5f8-28d4-464c-994e-c68def4bd056",
@@ -710,12 +710,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Measure of an Arc",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30155.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30155.png\"/\u003e",
       "allAnswers": [],
       "tags": "measure of an arc, measure of an angle, circle geometry",
       "url": "/question/8244f5f8-28d4-464c-994e-c68def4bd056",
       "source": "Amsco Geometry Textbook 13.1.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "45ee84ca-a838-42bf-8d67-c7f2c7a66893",
@@ -727,12 +727,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Inscribed in a Circle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30157.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30157.png\"/\u003e",
       "allAnswers": [],
       "tags": "SSS, circle geometry, arc length, measure of an arc, triangle congruence",
       "url": "/question/45ee84ca-a838-42bf-8d67-c7f2c7a66893",
       "source": "Amsco Geometry Textbook 13.1.33",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "ad174610-5ca1-4e04-b06d-a2ec6635232a",
@@ -744,12 +744,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Arc Congruence In a Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30158.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30158.png\"/\u003e",
       "allAnswers": [],
       "tags": "circle geometry, arc measures, endpoints, geometry proof",
       "url": "/question/ad174610-5ca1-4e04-b06d-a2ec6635232a",
       "source": "Amsco Geometry Textbook 13.1.34",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "eb238a6c-f546-4b92-abe4-1d2794a99490",
@@ -766,7 +766,7 @@
       "tags": "circle geometry, perpendicular lines, measure of an arc",
       "url": "/question/eb238a6c-f546-4b92-abe4-1d2794a99490",
       "source": "Amsco Geometry Textbook 13.1.35",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "926a36da-9e55-402a-bdc0-972870c5c78d",
@@ -783,7 +783,7 @@
       "tags": "Geometry proof, circle geometry, perpendicular lines, square",
       "url": "/question/926a36da-9e55-402a-bdc0-972870c5c78d",
       "source": "Amsco Geometry Textbook 13.1.36",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "d293875c-2d25-404c-83b0-dcc8119eae99",
@@ -800,7 +800,7 @@
       "tags": "chord of a circle, right triangle, apothem, radius, circle geometry",
       "url": "/question/d293875c-2d25-404c-83b0-dcc8119eae99",
       "source": "Amsco Geometry Textbook 13.2.1",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "32321796-e63f-4378-a5c4-56a758f7bc98",
@@ -817,7 +817,7 @@
       "tags": "radius of a circle, diameter of a circle",
       "url": "/question/32321796-e63f-4378-a5c4-56a758f7bc98",
       "source": "Amsco Geometry Textbook 13.2.13",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "d4c01b1e-873b-4616-ae64-77080b4f1dbc",
@@ -834,7 +834,7 @@
       "tags": "circle geometry, chord of a circle, chord, perpendicular lines",
       "url": "/question/d4c01b1e-873b-4616-ae64-77080b4f1dbc",
       "source": "Amsco Geometry Textbook 13.2.14",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "a470c010-9e28-4df9-9fd0-1babbe59421d",
@@ -851,7 +851,7 @@
       "tags": "circle geometry, circles, chords, chord of a circle",
       "url": "/question/a470c010-9e28-4df9-9fd0-1babbe59421d",
       "source": "Amsco Geometry Textbook 13.2.15",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "8933e82e-4323-4918-b4bc-7f196bb5f0e0",
@@ -868,7 +868,7 @@
       "tags": "chord of a circle, chord, circle geometry",
       "url": "/question/8933e82e-4323-4918-b4bc-7f196bb5f0e0",
       "source": "Amsco Geometry Textbook 13.2.18",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "51be8925-c097-4a74-a37c-892f693cd872",
@@ -885,7 +885,7 @@
       "tags": "chord geometry, chord of a circle, circle geometry",
       "url": "/question/51be8925-c097-4a74-a37c-892f693cd872",
       "source": "Amsco Geometry Textbook 13.2.19",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "a742a07c-33ae-476a-9bbf-69bde8f03f69",
@@ -902,7 +902,7 @@
       "tags": "Radius of a circle, arc length, arc congruence, circle geometry",
       "url": "/question/a742a07c-33ae-476a-9bbf-69bde8f03f69",
       "source": "Amsco Geometry Textbook 13.2.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "d62b88fa-0ca6-47c8-8bef-4b6156ef18cc",
@@ -919,7 +919,7 @@
       "tags": "chords of a circle, chord geometry, chord",
       "url": "/question/d62b88fa-0ca6-47c8-8bef-4b6156ef18cc",
       "source": "Amsco Geometry Textbook 13.2.22",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "7fda6493-c65c-4df3-b6aa-814fd4c72d88",
@@ -936,7 +936,7 @@
       "tags": "chord proof, chord, congruent arcs, circle geometry",
       "url": "/question/7fda6493-c65c-4df3-b6aa-814fd4c72d88",
       "source": "Amsco Geometry Textbook 13.2.24",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "f422d1a2-2605-40c1-9352-638eab0a6976",
@@ -953,7 +953,7 @@
       "tags": "chord geometry, geometry proof, chord, circle geometry,  perpendicular lines",
       "url": "/question/f422d1a2-2605-40c1-9352-638eab0a6976",
       "source": "Amsco Geometry Textbook 13.2.25",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "7a78b0c3-c80e-40b3-99bc-77ebb3f3ea2d",
@@ -970,7 +970,7 @@
       "tags": "sphere, chord geometry, geometry proof, circle geometry, chord",
       "url": "/question/7a78b0c3-c80e-40b3-99bc-77ebb3f3ea2d",
       "source": "Amsco Geometry Textbook 13.2.26",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "bd2f6d41-0306-46fa-ac4e-4500cc45a1a2",
@@ -987,7 +987,7 @@
       "tags": "circle geometry, chord geometry, chord, angles of a triangle",
       "url": "/question/bd2f6d41-0306-46fa-ac4e-4500cc45a1a2",
       "source": "Amsco Geometry Textbook 13.2.27",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "1705f5ff-966e-4613-95ae-77ab8e616625",
@@ -1004,7 +1004,7 @@
       "tags": "radius of a circle, diameter of a circle",
       "url": "/question/1705f5ff-966e-4613-95ae-77ab8e616625",
       "source": "Amsco Geometry Textbook 13.2.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "6bb2e2a1-8b5c-4698-90a9-57ee1576cf70",
@@ -1021,7 +1021,7 @@
       "tags": "radius of a circle, diameter of a circle",
       "url": "/question/6bb2e2a1-8b5c-4698-90a9-57ee1576cf70",
       "source": "Amsco Geometry Textbook 13.2.8",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "15221741-ad47-411c-a4bf-9efd3a322398",
@@ -1033,12 +1033,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle in a Circle Geometry",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30159.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30159.png\"/\u003e",
       "allAnswers": [],
       "tags": "inscribed triangle, angles of a triangle, arcs of a circle, arc measure",
       "url": "/question/15221741-ad47-411c-a4bf-9efd3a322398",
       "source": "Amsco Geometry Textbook 13.3.13",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "a2629d7c-d9c1-4459-a3c7-3248684bc818",
@@ -1050,12 +1050,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inscribed Triangle Algebra",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30160.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30160.png\"/\u003e",
       "allAnswers": [],
       "tags": "angles of a triangle, arc measure, inscribed angle, inscribed angle of a circle, isosceles triangle",
       "url": "/question/a2629d7c-d9c1-4459-a3c7-3248684bc818",
       "source": "Amsco Geometry Textbook 13.3.14",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "38556fb2-02a4-440e-9c0e-6edad056402d",
@@ -1072,7 +1072,7 @@
       "tags": "congruent circles, angle congruency, circle geometry, circles",
       "url": "/question/38556fb2-02a4-440e-9c0e-6edad056402d",
       "source": "Amsco Geometry Textbook 13.3.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "58d5e8d1-f8af-4d5e-b56e-1abcc6d65898",
@@ -1084,12 +1084,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Geometry Inscribed Angle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30162.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30162.png\"/\u003e",
       "allAnswers": [],
       "tags": "inscribed angle, triangle similarity, AAA",
       "url": "/question/58d5e8d1-f8af-4d5e-b56e-1abcc6d65898",
       "source": "Amsco Geometry Textbook 13.3.20",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "84ee9d14-79e8-4421-aca0-964657d48b2a",
@@ -1106,7 +1106,7 @@
       "tags": "inscribed triangle, inscribed angle, isosceles triangle",
       "url": "/question/84ee9d14-79e8-4421-aca0-964657d48b2a",
       "source": "Amsco Geometry Textbook 13.3.21",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "86099149-519f-4148-ab12-eb6db3a8c8fb",
@@ -1123,7 +1123,7 @@
       "tags": "inscribed quadrilateral, parallel lines, geometry proof, ",
       "url": "/question/86099149-519f-4148-ab12-eb6db3a8c8fb",
       "source": "Amsco Geometry Textbook 13.3.22",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "b7bc1287-6307-4c0b-b2e5-5235c5a85cd6",
@@ -1135,12 +1135,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Right Triangle Inscription Proof",
-      "body": "Triangle DEF is inscribed in a circle and G is any point not on DEF.  If \\(m\\overarc{DE} + m\\overarc{EF} \u003d m\\overarc{FGD}\\), show that \\(\\bigtriangleup{DEF}\\) is a right triangle.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30164.png\"/\u003e",
+      "body": "Triangle DEF is inscribed in a circle and G is any point not on DEF.  If \\(m\\overarc{DE} + m\\overarc{EF} \u003d m\\overarc{FGD}\\), show that \\(\\bigtriangleup{DEF}\\) is a right triangle.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30164.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangle, inscribed angle, geometry proof",
       "url": "/question/b7bc1287-6307-4c0b-b2e5-5235c5a85cd6",
       "source": "Amsco Geometry Textbook 13.3.23",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "d01c235b-7b03-4283-a2c8-43dbc6eef03c",
@@ -1157,7 +1157,7 @@
       "tags": "ASA, inscribed angles, diameter of a circle, circle geometry, geometry proof",
       "url": "/question/d01c235b-7b03-4283-a2c8-43dbc6eef03c",
       "source": "Amsco Geometry Textbook 13.3.24",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "f17e9d4c-ec53-4699-bfd7-8be292337b05",
@@ -1169,12 +1169,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Congruent Inscribed Triangles",
-      "body": "In circle O, \\(\\overline{AOC}\\) and \\(\\overline{BOD}\\) are diameters.  If \\(\\overline{AB} \\cong \\overline{CD}\\), prove that \\(\\bigtriangleup{ABC} \\cong \\bigtriangleup{DCB}\\) by ASA.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30165.png\"/\u003e",
+      "body": "In circle O, \\(\\overline{AOC}\\) and \\(\\overline{BOD}\\) are diameters.  If \\(\\overline{AB} \\cong \\overline{CD}\\), prove that \\(\\bigtriangleup{ABC} \\cong \\bigtriangleup{DCB}\\) by ASA.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30165.png\"/\u003e",
       "allAnswers": [],
       "tags": "ASA, inscribed angles, diameter of a circle, circle geometry, geometry proof",
       "url": "/question/f17e9d4c-ec53-4699-bfd7-8be292337b05",
       "source": "Amsco Geometry Textbook 13.3.24",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "5ce18da4-efec-463e-b211-ca39066be641",
@@ -1186,12 +1186,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inscribed Triangle Proof",
-      "body": "Chords \\(\\overline{AC} \\) and \\(\\overline{BD}\\) of circle \\(O\\) intersect at \\(E\\). If \\(\\overarc{AB} \\cong \\overarc{CD}\\), prove that \\(\\bigtriangleup{ABC} \\cong \\bigtriangleup{DCB}\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30166.png\"/\u003e",
+      "body": "Chords \\(\\overline{AC} \\) and \\(\\overline{BD}\\) of circle \\(O\\) intersect at \\(E\\). If \\(\\overarc{AB} \\cong \\overarc{CD}\\), prove that \\(\\bigtriangleup{ABC} \\cong \\bigtriangleup{DCB}\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30166.png\"/\u003e",
       "allAnswers": [],
       "tags": "Inscribed triangle, inscribed angle, angles of a triangle, circle geometry, geometry proof",
       "url": "/question/5ce18da4-efec-463e-b211-ca39066be641",
       "source": "Amsco Geometry Textbook 13.3.25",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "aa1089e5-49b2-4d8e-a54e-0d30680614ec",
@@ -1208,7 +1208,7 @@
       "tags": "geometry proof, trapezoid, isosceles trapezoid, inscribed angles, parallel lines",
       "url": "/question/aa1089e5-49b2-4d8e-a54e-0d30680614ec",
       "source": "Amsco Geometry Textbook 13.3.26",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "6865112e-496f-47f4-a75f-04100001425e",
@@ -1220,12 +1220,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Three Circle Proofs",
-      "body": "Prove each of the following proofs separately, using the common diagram.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30167.png\"/\u003e",
+      "body": "Prove each of the following proofs separately, using the common diagram.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30167.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, major arc, minor arc, congruent arcs, circle proof, geometry proof",
       "url": "/question/6865112e-496f-47f4-a75f-04100001425e",
       "source": "Amsco Geometry Textbook 13.3.27",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "df64587f-b2f4-4ed3-b6c1-e6ffc2d5a4b6",
@@ -1242,7 +1242,7 @@
       "tags": "arc algebra, arc of a circle",
       "url": "/question/df64587f-b2f4-4ed3-b6c1-e6ffc2d5a4b6",
       "source": "Amsco Geometry Textbook 13.3.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "6cba50f6-878c-4878-a900-9da6d712b3d8",
@@ -1254,12 +1254,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Multiple Inscribed ",
-      "body": "Points \\(A, B, C, D, E,\\) and \\(F\\) are on circle \\(O \\), \\(\\overline{AB} || \\overline{CD} || \\overline{EF}\\), and \\(\\overline{CB} || \\overline{ED}\\). \\(ABCD\\) and \\(CDEF\\) are trapezoids.  Prove that \\(\\overarc{CA} \\cong \\overarc{BD} \\cong \\overarc{DF} \\cong \\overarc{EC}\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30168.png\"/\u003e",
+      "body": "Points \\(A, B, C, D, E,\\) and \\(F\\) are on circle \\(O \\), \\(\\overline{AB} || \\overline{CD} || \\overline{EF}\\), and \\(\\overline{CB} || \\overline{ED}\\). \\(ABCD\\) and \\(CDEF\\) are trapezoids.  Prove that \\(\\overarc{CA} \\cong \\overarc{BD} \\cong \\overarc{DF} \\cong \\overarc{EC}\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30168.png\"/\u003e",
       "allAnswers": [],
       "tags": "parallel lines, trapezoid, arc congruence, geometry proof, circle geometry, arc of a circle",
       "url": "/question/6cba50f6-878c-4878-a900-9da6d712b3d8",
       "source": "Amsco Geometry Textbook 13.3.30",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "6b3ebfaf-aff0-4c65-84d0-8706aa2b4696",
@@ -1276,7 +1276,7 @@
       "tags": "inscribed polygon, inscribed quadrilateral, parallelogram, parallel lines, inscribed angles",
       "url": "/question/6b3ebfaf-aff0-4c65-84d0-8706aa2b4696",
       "source": "Amsco Geometry Textbook 13.3.31",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "880e176e-589c-4a31-9366-39a815fe002d",
@@ -1293,7 +1293,7 @@
       "tags": "Tangent line, circle tangent, circle geometry",
       "url": "/question/880e176e-589c-4a31-9366-39a815fe002d",
       "source": "Amsco Geometry Textbook 13.4.1",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "61a13715-99ef-4cb7-9cb2-a685b6556367",
@@ -1305,12 +1305,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sides of a Triangle Inscribing a Circle",
-      "body": "The sides of \\(\\bigtriangleup\\)ABC are tangent to a circle at D, E, and F. If DB \u003d 4, BC \u003d 7, and the perimeter of the triangle is 30, find:\n\na.BE \nb.EC \nc.CF \nd.AF \ne.AC \nf.AB\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30171.png\"/\u003e",
+      "body": "The sides of \\(\\bigtriangleup\\)ABC are tangent to a circle at D, E, and F. If DB \u003d 4, BC \u003d 7, and the perimeter of the triangle is 30, find:\n\na.BE \nb.EC \nc.CF \nd.AF \ne.AC \nf.AB\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30171.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangents of a circle, perimeter, triangles",
       "url": "/question/61a13715-99ef-4cb7-9cb2-a685b6556367",
       "source": "Amsco Geometry Textbook 13.4.12",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "463925de-c6ea-48c4-8a4d-b9f8575a4497",
@@ -1322,12 +1322,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Deducing the Radius of a Circle",
-      "body": "Line \\(\\overset\\leftrightarrow{RP}\\) is tangent to circle O at P and \\(\\overline{OR}\\) intersects the circle at M, the midpoint of \\(\\overline{OR}\\). If \\(\\overline{RP} \u003d 3\\, cm\\), find the length of the radius of the circle:\n\na. in radical form\nb. to the nearest hundredth\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30172.png\"/\u003e",
+      "body": "Line \\(\\overset\\leftrightarrow{RP}\\) is tangent to circle O at P and \\(\\overline{OR}\\) intersects the circle at M, the midpoint of \\(\\overline{OR}\\). If \\(\\overline{RP} \u003d 3\\, cm\\), find the length of the radius of the circle:\n\na. in radical form\nb. to the nearest hundredth\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30172.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangent of a circle, right triangle, midpoint",
       "url": "/question/463925de-c6ea-48c4-8a4d-b9f8575a4497",
       "source": "Amsco Geometry Textbook 13.4.13",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "af35ab6a-8331-4706-a8c4-776cdb33ad73",
@@ -1339,12 +1339,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Circle Inscribed in a Quadrilateral",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30173.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30173.png\"/\u003e",
       "allAnswers": [],
       "tags": "arc measure, circle geometry, tangents of a circle, inscription, inscribed circle, angles of an ngon",
       "url": "/question/af35ab6a-8331-4706-a8c4-776cdb33ad73",
       "source": "Amsco Geometry Textbook 13.4.14",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "376a3d7d-6b91-4b3e-90e9-a3e7502ae568",
@@ -1361,7 +1361,7 @@
       "tags": "tangents of a circle proof, bisector of an angle proof, SSS, congruent triangles, circle geometry",
       "url": "/question/376a3d7d-6b91-4b3e-90e9-a3e7502ae568",
       "source": "Amsco Geometry Textbook 13.4.15",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "e0ff2bff-a98a-46ad-87bb-230c72e6f77e",
@@ -1378,7 +1378,7 @@
       "tags": "geometry proof, bisected angle, SSS, triangle congruency",
       "url": "/question/e0ff2bff-a98a-46ad-87bb-230c72e6f77e",
       "source": "Amsco Geometry Textbook 13.4.16",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "caedc0f7-c0bf-4ede-970d-3d94ca16e58f",
@@ -1390,12 +1390,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangents to a Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30174.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30174.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometry proof, tangents of a circle, right triangles, circle geometry",
       "url": "/question/caedc0f7-c0bf-4ede-970d-3d94ca16e58f",
       "source": "Amsco Geometry Textbook 13.4.17",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "67a06d41-48fd-4a47-91ee-b7000e81771a",
@@ -1412,7 +1412,7 @@
       "tags": "Tangents to a circle, perpendicular lines, square, geometry proof, circle geometry",
       "url": "/question/67a06d41-48fd-4a47-91ee-b7000e81771a",
       "source": "Amsco Geometry Textbook 13.4.18",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "af02428c-3891-418a-8a22-6147cdf6d013",
@@ -1429,7 +1429,7 @@
       "tags": "inscription, inscribed in a circle, polygon inscribed in a circle",
       "url": "/question/af02428c-3891-418a-8a22-6147cdf6d013",
       "source": "Amsco Geometry Textbook 13.4.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "ff89f799-4c7f-40a3-ac81-b6f3f42eb9ba",
@@ -1441,12 +1441,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Two Tangent Circles",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30175.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30175.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangent of a circle, tangent, similar triangles, circle geometry, parallel lines",
       "url": "/question/ff89f799-4c7f-40a3-ac81-b6f3f42eb9ba",
       "source": "Amsco Geometry Textbook 13.4.20",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "d4ae0be9-a7ab-4b72-a29e-fc3f17255639",
@@ -1458,12 +1458,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Internal Tangent of Two Circles",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30175.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30175.png\"/\u003e",
       "allAnswers": [],
       "tags": "internal tangent, circle geometry, congruent triangles",
       "url": "/question/d4ae0be9-a7ab-4b72-a29e-fc3f17255639",
       "source": "Amsco Geometry Textbook 13.4.21",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "e3619b09-79f9-497c-b2c7-bae957dfae8f",
@@ -1475,12 +1475,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Circle inscribed in a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30169.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30169.png\"/\u003e",
       "allAnswers": [],
       "tags": "circle inscribed in a polygon, tangents of a circle, circle tangents, isosceles triangle",
       "url": "/question/e3619b09-79f9-497c-b2c7-bae957dfae8f",
       "source": "Amsco Geometry Textbook 13.4.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "bc8db19a-2801-4e86-a50b-6a09945bddd2",
@@ -1492,12 +1492,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangents of a Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30170.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30170.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangents of a circle, right triangles, pythagorean theorem, circle geometry",
       "url": "/question/bc8db19a-2801-4e86-a50b-6a09945bddd2",
       "source": "Amsco Geometry Textbook 13.4.5",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "c638cf1e-4763-496f-a4a7-468f26c45ede",
@@ -1514,7 +1514,7 @@
       "tags": "secant, tangent, circle geometry",
       "url": "/question/c638cf1e-4763-496f-a4a7-468f26c45ede",
       "source": "Amsco Geometry Textbook 13.5.1",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "102c2158-a223-44b8-ae03-7d933b136133",
@@ -1526,12 +1526,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangent Arc Algebra",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30179.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30179.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangent, arc length, arc algebra",
       "url": "/question/102c2158-a223-44b8-ae03-7d933b136133",
       "source": "Amsco Geometry Textbook 13.5.15",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "43151397-c0c0-4de9-b426-6bb51dc7e8e0",
@@ -1548,7 +1548,7 @@
       "tags": "chord of a circle, chord, secant of a circle, secant",
       "url": "/question/43151397-c0c0-4de9-b426-6bb51dc7e8e0",
       "source": "Amsco Geometry Textbook 13.5.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "94dafce7-f58e-40d3-80d2-df2e21116f55",
@@ -1560,12 +1560,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Intersecting Chords",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30180.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30180.png\"/\u003e",
       "allAnswers": [],
       "tags": "chords of a circle, chord, arc algebra, circle algebra",
       "url": "/question/94dafce7-f58e-40d3-80d2-df2e21116f55",
       "source": "Amsco Geometry Textbook 13.5.21",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "d1443e1f-e094-43c7-92af-2b6f837a6b0b",
@@ -1577,12 +1577,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Arc Algebra",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30181.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30181.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangents of a circle, perpendicular bisector, chord of a circle, arc alegebra",
       "url": "/question/d1443e1f-e094-43c7-92af-2b6f837a6b0b",
       "source": "Amsco Geometry Textbook 13.5.27",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "7b285810-f084-4566-bf93-5894d7ffda81",
@@ -1594,12 +1594,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangent Secant Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30182.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30182.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle algebra, arc algebra, circle geometry",
       "url": "/question/7b285810-f084-4566-bf93-5894d7ffda81",
       "source": "Amsco Geometry Textbook 13.5.28",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "1b698357-2b3d-4deb-b47a-c3d979911800",
@@ -1611,12 +1611,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parallel Tangent and Chord",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30184.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30184.png\"/\u003e",
       "allAnswers": [],
       "tags": "chord, similar triangles, parallel lines, tangent, geometry proof, circle geometry",
       "url": "/question/1b698357-2b3d-4deb-b47a-c3d979911800",
       "source": "Amsco Geometry Textbook 13.5.29",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Median of a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30090.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30090.png\"/\u003e",
       "allAnswers": [],
       "tags": "median of a triangle, median, triangle properties",
       "url": "/text-content/39fb988d-eddc-4081-a3bd-ee314333ab0c",
       "source": "Amsco Geometry Textbook 5.1.2",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "8c410163-d78c-470a-b998-193137e985f4",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Angle Bisector of a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30091.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30091.png\"/\u003e",
       "allAnswers": [],
       "tags": "angle bisector of a triangle",
       "url": "/text-content/8c410163-d78c-470a-b998-193137e985f4",
       "source": "Amsco Geometry Textbook 5.1.3",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "5ff932ee-f9d3-48fe-af88-1952c14e03b2",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Perpendicular Bisector of a Line Segment",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30106.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30106.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular bisector, perpendicular, bisector, perpendicular bisector proof",
       "url": "/text-content/5ff932ee-f9d3-48fe-af88-1952c14e03b2",
       "source": "Amsco Geometry Textbook 5.6.1",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinates"
+      "topic": "Trigonometry/Polar Coordinates"
     },
     {
       "uuid": "b9459927-c936-4e46-b152-458aef1e850a",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Methods of Proving Lines/Segments Perpendicular",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30107.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30107.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular lines, perpendicular proof, right angles",
       "url": "/text-content/b9459927-c936-4e46-b152-458aef1e850a",
       "source": "Amsco Geometry Textbook 5.6.2",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "467c4937-3722-4efa-9422-b003a49b611f",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Intersection of Perpendicular Bisectors of the Sides of a Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30109.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30109.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular bisector, concurrence, concurrence theorem, circumcenter",
       "url": "/text-content/467c4937-3722-4efa-9422-b003a49b611f",
       "source": "Amsco Geometry Textbook 5.6.3",
-      "topic": "Pre-Calculus/Trigonometry/Polar Coordinates"
+      "topic": "Trigonometry/Polar Coordinates"
     }
   ],
   "answers": [],

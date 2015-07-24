@@ -358,7 +358,7 @@
       "tags": "vector addition, vectors, word problem, vector arithmetic, vector magnitude, dot product",
       "url": "/question/77edd807-d8b5-49ac-b63e-40cdcf748bc5",
       "source": "Precalculus, 3rd Edition 11.8.56",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "c10312b4-d978-4ee6-b75e-d2682aae36c7",
@@ -375,7 +375,7 @@
       "tags": "vector addition, vectors, word problem, vector arithmetic, vector magnitude, dot product",
       "url": "/question/c10312b4-d978-4ee6-b75e-d2682aae36c7",
       "source": "Precalculus, 3rd Edition 11.8.57",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "c62c0fc7-800f-4aeb-a2c8-9acf59f1f4d6",
@@ -392,7 +392,7 @@
       "tags": "vector addition, vectors, word problem, vector arithmetic, vector magnitude, dot product, tension, physics",
       "url": "/question/c62c0fc7-800f-4aeb-a2c8-9acf59f1f4d6",
       "source": "Precalculus, 3rd Edition 11.8.58",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "044cfdbf-93d6-4baf-a08b-7cc74e137874",
@@ -409,7 +409,7 @@
       "tags": "vector addition, vectors, word problem, vector arithmetic, vector magnitude, dot product, physics, tension",
       "url": "/question/044cfdbf-93d6-4baf-a08b-7cc74e137874",
       "source": "Precalculus, 3rd Edition 11.8.59",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "f3e3feb5-e521-4189-a70d-6410899a67fc",
@@ -426,7 +426,7 @@
       "tags": "vector dot product, dot product, vector addition, vector multiplication, vector arithmetic, magnitude, vector magnitude",
       "url": "/question/f3e3feb5-e521-4189-a70d-6410899a67fc",
       "source": "Precalculus, 3rd Edition 11.8.6",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "a2e93bc9-1906-469a-84d2-3ce646f95852",
@@ -443,7 +443,7 @@
       "tags": "vector addition, vectors, word problem, vector arithmetic, vector magnitude, dot product, tension, physics",
       "url": "/question/a2e93bc9-1906-469a-84d2-3ce646f95852",
       "source": "Precalculus, 3rd Edition 11.8.60",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "cd9e8a50-3c20-4716-bb5b-bbc62cefbbbc",
@@ -460,7 +460,7 @@
       "tags": "vector addition, vectors, word problem, vector arithmetic, vector magnitude, dot product, lol",
       "url": "/question/cd9e8a50-3c20-4716-bb5b-bbc62cefbbbc",
       "source": "Precalculus, 3rd Edition 11.8.61",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "dfe479d4-992e-4066-af07-70f015db36f5",
@@ -477,7 +477,7 @@
       "tags": "vector dot product, dot product, vector addition, vector multiplication, vector arithmetic, magnitude, vector magnitude",
       "url": "/question/dfe479d4-992e-4066-af07-70f015db36f5",
       "source": "Precalculus, 3rd Edition 11.8.7",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "5a8126f6-0d78-4b63-93d9-0fb62d0f30f7",
@@ -494,7 +494,7 @@
       "tags": "vector dot product, dot product, vector addition, vector multiplication, vector arithmetic, magnitude, vector magnitude",
       "url": "/question/5a8126f6-0d78-4b63-93d9-0fb62d0f30f7",
       "source": "Precalculus, 3rd Edition 11.8.9",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "b5ee258c-8585-47d2-98a4-1a6452a46b3f",
@@ -511,7 +511,7 @@
       "tags": "dot product, vectors ",
       "url": "/question/b5ee258c-8585-47d2-98a4-1a6452a46b3f",
       "source": "Precalculus, 3rd Edition 11.9.1",
-      "topic": "Pre-Calculus/Trigonometry/Vectors/Properties of Vector Addition"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Vector Addition"
     },
     {
       "uuid": "51c101ab-9698-4806-b5d7-dc450338f18c",
@@ -528,7 +528,7 @@
       "tags": "dot product, force, vectors ",
       "url": "/question/51c101ab-9698-4806-b5d7-dc450338f18c",
       "source": "Precalculus, 3rd Edition 11.9.2",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "e34e322e-cf59-49bc-a630-5e197ef5d87c",
@@ -545,7 +545,7 @@
       "tags": "force, work, dot product, vectors ",
       "url": "/question/e34e322e-cf59-49bc-a630-5e197ef5d87c",
       "source": "Precalculus, 3rd Edition 11.9.3",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "18bba031-0421-419d-a3f9-ec1fa9e02edb",
@@ -562,7 +562,7 @@
       "tags": "dot product, vectors, force ",
       "url": "/question/18bba031-0421-419d-a3f9-ec1fa9e02edb",
       "source": "Precalculus, 3rd Edition 11.9.4",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "698da5bb-c0e6-41a6-97d6-070f92619c10",
@@ -579,7 +579,7 @@
       "tags": "force, vectors, motion, work ",
       "url": "/question/698da5bb-c0e6-41a6-97d6-070f92619c10",
       "source": "Precalculus, 3rd Edition 11.9.5",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "957d580a-4bcd-4491-a549-701b7efd9754",
@@ -596,7 +596,7 @@
       "tags": "work, force, vectors, gravity ",
       "url": "/question/957d580a-4bcd-4491-a549-701b7efd9754",
       "source": "Precalculus, 3rd Edition 11.9.6",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "0575ca16-589d-4fb3-acb8-5f7b96543b93",
@@ -613,7 +613,7 @@
       "tags": "work, triangle inequality, vectors ",
       "url": "/question/0575ca16-589d-4fb3-acb8-5f7b96543b93",
       "source": "Precalculus, 3rd Edition 11.9.7",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "713ab2b4-8273-4cf6-98b9-2da124cb0c44",
@@ -630,7 +630,7 @@
       "tags": "work, triangle inequality, vectors ",
       "url": "/question/713ab2b4-8273-4cf6-98b9-2da124cb0c44",
       "source": "Precalculus, 3rd Edition 11.9.7.1",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "a5381ce4-e09f-4ebf-8895-56fd2569c255",
@@ -647,7 +647,7 @@
       "tags": "triangle inequality, complex numbers, vectors ",
       "url": "/question/a5381ce4-e09f-4ebf-8895-56fd2569c255",
       "source": "Precalculus, 3rd Edition 11.9.8",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "534b9027-7180-4c10-8257-663c06dd6c85",
@@ -664,7 +664,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/534b9027-7180-4c10-8257-663c06dd6c85",
       "source": "Precalculus, 3rd Edition 2.1.1",
-      "topic": "Pre-Calculus/Trigonometry/The Dot Product and Projection/Properties of the Dot Product"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product"
     },
     {
       "uuid": "cc53642b-f51d-44f4-9cb7-07e7d22c821c",
@@ -681,7 +681,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/cc53642b-f51d-44f4-9cb7-07e7d22c821c",
       "source": "Precalculus, 3rd Edition 2.1.10",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "99ee8c83-f211-40d7-8364-bfb24c747133",
@@ -698,7 +698,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/99ee8c83-f211-40d7-8364-bfb24c747133",
       "source": "Precalculus, 3rd Edition 2.1.11",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "118f3830-0d2e-46d2-b118-523411dd6fc7",
@@ -715,7 +715,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/118f3830-0d2e-46d2-b118-523411dd6fc7",
       "source": "Precalculus, 3rd Edition 2.1.12",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "3f455e26-28c5-4ae7-8b35-0de610cd56df",
@@ -732,7 +732,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/3f455e26-28c5-4ae7-8b35-0de610cd56df",
       "source": "Precalculus, 3rd Edition 2.1.13",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "cb7271d0-f101-402f-a56e-ff58645f8166",
@@ -749,7 +749,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/cb7271d0-f101-402f-a56e-ff58645f8166",
       "source": "Precalculus, 3rd Edition 2.1.14",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "029bd845-ff56-44e5-9003-a1f919c7f186",
@@ -766,7 +766,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/029bd845-ff56-44e5-9003-a1f919c7f186",
       "source": "Precalculus, 3rd Edition 2.1.15",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "4cd92da2-4c71-4687-a78d-4a5579ea921a",
@@ -783,7 +783,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/4cd92da2-4c71-4687-a78d-4a5579ea921a",
       "source": "Precalculus, 3rd Edition 2.1.16",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "53164767-93bf-4f3a-90d7-2262ae498216",
@@ -800,7 +800,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/53164767-93bf-4f3a-90d7-2262ae498216",
       "source": "Precalculus, 3rd Edition 2.1.17",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "c0f5ff82-9962-4c4a-b2a7-0c7932144775",
@@ -817,7 +817,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/c0f5ff82-9962-4c4a-b2a7-0c7932144775",
       "source": "Precalculus, 3rd Edition 2.1.18",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "eac61a45-6072-4f28-be6b-3c9834713cfa",
@@ -834,7 +834,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/eac61a45-6072-4f28-be6b-3c9834713cfa",
       "source": "Precalculus, 3rd Edition 2.1.19",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "e88a29ba-493a-4851-baaa-e0347ba6be2f",
@@ -851,7 +851,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/e88a29ba-493a-4851-baaa-e0347ba6be2f",
       "source": "Precalculus, 3rd Edition 2.1.2",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "1574fb2e-19c4-44bd-ab57-770a047efa27",
@@ -868,7 +868,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/1574fb2e-19c4-44bd-ab57-770a047efa27",
       "source": "Precalculus, 3rd Edition 2.1.2",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "2967b527-c7db-45c2-9427-6339dddf7725",
@@ -885,7 +885,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line, equation of a line given two points",
       "url": "/question/2967b527-c7db-45c2-9427-6339dddf7725",
       "source": "Precalculus, 3rd Edition 2.1.20",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "ea9826e1-ab3c-48ee-a52d-4aa314488fdd",
@@ -902,7 +902,7 @@
       "tags": "slope intercept form,  equation of a line, graphing linear equations, basic graphing",
       "url": "/question/ea9826e1-ab3c-48ee-a52d-4aa314488fdd",
       "source": "Precalculus, 3rd Edition 2.1.21",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "9d0413b0-2f95-45e4-9fbb-142f7fe058b7",
@@ -919,7 +919,7 @@
       "tags": "slope intercept form,  equation of a line, graphing linear equations, basic graphing",
       "url": "/question/9d0413b0-2f95-45e4-9fbb-142f7fe058b7",
       "source": "Precalculus, 3rd Edition 2.1.22",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "dae375aa-3f9a-47b2-94ac-acf8ef1861fa",
@@ -936,7 +936,7 @@
       "tags": "slope intercept form,  equation of a line, graphing linear equations, basic graphing",
       "url": "/question/dae375aa-3f9a-47b2-94ac-acf8ef1861fa",
       "source": "Precalculus, 3rd Edition 2.1.23",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "d2cac50d-3600-4bfa-9914-776a1b133ab6",
@@ -953,7 +953,7 @@
       "tags": "slope intercept form,  equation of a line, graphing linear equations, basic graphing",
       "url": "/question/d2cac50d-3600-4bfa-9914-776a1b133ab6",
       "source": "Precalculus, 3rd Edition 2.1.24",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "819a0f29-cecb-47e6-8220-1818402391ea",
@@ -970,7 +970,7 @@
       "tags": "slope intercept form,  equation of a line, graphing linear equations, basic graphing",
       "url": "/question/819a0f29-cecb-47e6-8220-1818402391ea",
       "source": "Precalculus, 3rd Edition 2.1.25",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "d022d32e-9486-49fa-93cf-79afedd49c7a",
@@ -987,7 +987,7 @@
       "tags": "slope intercept form,  equation of a line, graphing linear equations, basic graphing",
       "url": "/question/d022d32e-9486-49fa-93cf-79afedd49c7a",
       "source": "Precalculus, 3rd Edition 2.1.26",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "730b8997-2c6f-4d7a-9245-2dbc70ca1520",
@@ -1004,7 +1004,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/730b8997-2c6f-4d7a-9245-2dbc70ca1520",
       "source": "Precalculus, 3rd Edition 2.1.27",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "7e655e8c-ff64-44e6-86ae-6a2d1c849e13",
@@ -1021,7 +1021,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/7e655e8c-ff64-44e6-86ae-6a2d1c849e13",
       "source": "Precalculus, 3rd Edition 2.1.28",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "37220a1b-6182-4615-ba12-5696e0ace9a4",
@@ -1038,7 +1038,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/37220a1b-6182-4615-ba12-5696e0ace9a4",
       "source": "Precalculus, 3rd Edition 2.1.29",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "b601b15e-34f8-48f9-b5a5-14238017b10d",
@@ -1055,7 +1055,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/b601b15e-34f8-48f9-b5a5-14238017b10d",
       "source": "Precalculus, 3rd Edition 2.1.3",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "40103742-2b1b-4363-a55e-1b29b2ade359",
@@ -1072,7 +1072,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/40103742-2b1b-4363-a55e-1b29b2ade359",
       "source": "Precalculus, 3rd Edition 2.1.31",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "e00070db-2fa8-4cb3-8d92-889718047460",
@@ -1089,7 +1089,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/e00070db-2fa8-4cb3-8d92-889718047460",
       "source": "Precalculus, 3rd Edition 2.1.32",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "adff360a-083a-409b-8a0e-e77fd4268db5",
@@ -1106,7 +1106,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/adff360a-083a-409b-8a0e-e77fd4268db5",
       "source": "Precalculus, 3rd Edition 2.1.33",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "c0469aee-c775-4d30-b0fc-bd27c9e584e3",
@@ -1123,7 +1123,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/c0469aee-c775-4d30-b0fc-bd27c9e584e3",
       "source": "Precalculus, 3rd Edition 2.1.34",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "b681cd34-ed05-45f5-a181-e62af527addb",
@@ -1140,7 +1140,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/b681cd34-ed05-45f5-a181-e62af527addb",
       "source": "Precalculus, 3rd Edition 2.1.35",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "de98766a-0780-425d-9c6f-06cfc5da6405",
@@ -1157,7 +1157,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/de98766a-0780-425d-9c6f-06cfc5da6405",
       "source": "Precalculus, 3rd Edition 2.1.36",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "07c34a89-2b5c-42ea-a89d-fad77d85d45d",
@@ -1174,7 +1174,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/07c34a89-2b5c-42ea-a89d-fad77d85d45d",
       "source": "Precalculus, 3rd Edition 2.1.39",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "e7785a7f-4085-4a9e-8730-2eb212a50425",
@@ -1191,7 +1191,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/e7785a7f-4085-4a9e-8730-2eb212a50425",
       "source": "Precalculus, 3rd Edition 2.1.4",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "75794927-dd7d-4931-9f41-419fa5e62a70",
@@ -1208,7 +1208,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/75794927-dd7d-4931-9f41-419fa5e62a70",
       "source": "Precalculus, 3rd Edition 2.1.40",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "7d69ff7c-fd69-4fdd-ab4b-70f872f1b0ae",
@@ -1225,7 +1225,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/7d69ff7c-fd69-4fdd-ab4b-70f872f1b0ae",
       "source": "Precalculus, 3rd Edition 2.1.41",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "fdfac77e-6a58-432c-a3c4-142b36d25747",
@@ -1242,7 +1242,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems",
       "url": "/question/fdfac77e-6a58-432c-a3c4-142b36d25747",
       "source": "Precalculus, 3rd Edition 2.1.42",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "ebe75c7e-4d97-4c25-a4d0-2b4fbe9dfc47",
@@ -1259,7 +1259,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, word problems, piecewise function",
       "url": "/question/ebe75c7e-4d97-4c25-a4d0-2b4fbe9dfc47",
       "source": "Precalculus, 3rd Edition 2.1.43",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "36023fe1-72da-457f-baea-0fad06541064",
@@ -1276,7 +1276,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/36023fe1-72da-457f-baea-0fad06541064",
       "source": "Precalculus, 3rd Edition 2.1.44",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "f7481c54-e76c-4f6a-9e0f-dd6ef53b7030",
@@ -1293,7 +1293,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/f7481c54-e76c-4f6a-9e0f-dd6ef53b7030",
       "source": "Precalculus, 3rd Edition 2.1.45",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "e6641df3-c5f2-4670-b9f0-caa684861eea",
@@ -1310,7 +1310,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/e6641df3-c5f2-4670-b9f0-caa684861eea",
       "source": "Precalculus, 3rd Edition 2.1.46",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "b1548a9a-6d4d-4cae-bfb7-6448cf5229ca",
@@ -1327,7 +1327,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/b1548a9a-6d4d-4cae-bfb7-6448cf5229ca",
       "source": "Precalculus, 3rd Edition 2.1.47",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "1124a701-0af2-490c-94d1-fab3943d09cb",
@@ -1344,7 +1344,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/1124a701-0af2-490c-94d1-fab3943d09cb",
       "source": "Precalculus, 3rd Edition 2.1.48",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "618e4795-f56a-428e-be83-4aec4f36a0ec",
@@ -1361,7 +1361,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/618e4795-f56a-428e-be83-4aec4f36a0ec",
       "source": "Precalculus, 3rd Edition 2.1.49",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "a9eebfcc-7cb0-431a-be5f-86574fda0651",
@@ -1378,7 +1378,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/a9eebfcc-7cb0-431a-be5f-86574fda0651",
       "source": "Precalculus, 3rd Edition 2.1.5",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "4366ee1a-13ef-4991-b19e-f1f6a4864cf9",
@@ -1395,7 +1395,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/4366ee1a-13ef-4991-b19e-f1f6a4864cf9",
       "source": "Precalculus, 3rd Edition 2.1.50",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "09ce92d4-6ece-4c0b-9b95-aca0b0864ca5",
@@ -1412,7 +1412,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/09ce92d4-6ece-4c0b-9b95-aca0b0864ca5",
       "source": "Precalculus, 3rd Edition 2.1.51",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "09262ce3-cf41-4116-8969-793bae76e351",
@@ -1429,7 +1429,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/09262ce3-cf41-4116-8969-793bae76e351",
       "source": "Precalculus, 3rd Edition 2.1.52",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "f557a40f-48b6-4704-afa8-d6149dae9039",
@@ -1446,7 +1446,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/f557a40f-48b6-4704-afa8-d6149dae9039",
       "source": "Precalculus, 3rd Edition 2.1.53",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "7ee624a1-6332-4561-98c9-6ce7b971145e",
@@ -1463,7 +1463,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/7ee624a1-6332-4561-98c9-6ce7b971145e",
       "source": "Precalculus, 3rd Edition 2.1.54",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "05ccdf9a-6446-4dda-ba65-038cd3eaec17",
@@ -1480,7 +1480,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/05ccdf9a-6446-4dda-ba65-038cd3eaec17",
       "source": "Precalculus, 3rd Edition 2.1.55",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "661329d0-6b3d-4e6c-9358-df2fc9edc652",
@@ -1497,7 +1497,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/661329d0-6b3d-4e6c-9358-df2fc9edc652",
       "source": "Precalculus, 3rd Edition 2.1.56",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "1c2a0646-9d0b-49d4-a94a-714e94a4616e",
@@ -1514,7 +1514,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, average rate of change",
       "url": "/question/1c2a0646-9d0b-49d4-a94a-714e94a4616e",
       "source": "Precalculus, 3rd Edition 2.1.57",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "8272e635-6627-4ef3-b45d-d3d4a2587ed2",
@@ -1531,7 +1531,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, parallel lines, equation of parallel lines",
       "url": "/question/8272e635-6627-4ef3-b45d-d3d4a2587ed2",
       "source": "Precalculus, 3rd Edition 2.1.59",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "0a7c1157-7b43-40ef-a599-239f4dd9c8b6",
@@ -1548,7 +1548,7 @@
       "tags": "slope intercept form, slope, intercept, equation of a line",
       "url": "/question/0a7c1157-7b43-40ef-a599-239f4dd9c8b6",
       "source": "Precalculus, 3rd Edition 2.1.6",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "fb433921-0c5e-41f0-9ebf-ee390622f262",
@@ -1565,7 +1565,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, parallel lines, equation of parallel lines",
       "url": "/question/fb433921-0c5e-41f0-9ebf-ee390622f262",
       "source": "Precalculus, 3rd Edition 2.1.60",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "a6aa82b3-63c8-42b9-9b54-c8f82e20de5b",
@@ -1582,7 +1582,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, parallel lines, equation of parallel lines",
       "url": "/question/a6aa82b3-63c8-42b9-9b54-c8f82e20de5b",
       "source": "Precalculus, 3rd Edition 2.1.61",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     },
     {
       "uuid": "c9c54c8b-1185-4d53-aeaa-52c3631ea39e",
@@ -1599,7 +1599,7 @@
       "tags": "slope intercept form, equation of a line, linear problem solving, parallel lines, equation of parallel lines",
       "url": "/question/c9c54c8b-1185-4d53-aeaa-52c3631ea39e",
       "source": "Precalculus, 3rd Edition 2.1.62",
-      "topic": "Pre-Calculus/Linear and Quadratic Functions/Slope-Intercept Form"
+      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
     }
   ],
   "textContent": [
@@ -1618,7 +1618,7 @@
       "tags": "matrices, matrix, system of equations ",
       "url": "/text-content/52577dba-88c2-4090-b10b-8e5243c592bd",
       "source": "Forgotten Text 1 8.1",
-      "topic": "Algebra/Equations and System of Linear Equations"
+      "topic": "Algebra/Solving Equations/System of Linear Equations"
     },
     {
       "uuid": "fc1b6f3b-c9e7-434a-b84a-c3f7c146cff2",
@@ -1635,7 +1635,7 @@
       "tags": "system of linear equations, matrices, matrix, augmented matrices ",
       "url": "/text-content/fc1b6f3b-c9e7-434a-b84a-c3f7c146cff2",
       "source": "Forgotten Text 1 8.2",
-      "topic": "Algebra/System of Equations and Matrices"
+      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
     },
     {
       "uuid": "2026d1a7-6aa6-46cd-ae0e-f4beeec5877c",
@@ -1652,7 +1652,7 @@
       "tags": "matrix, matrices, system of equations ",
       "url": "/text-content/2026d1a7-6aa6-46cd-ae0e-f4beeec5877c",
       "source": "Forgotten Text 1 8.3",
-      "topic": "Algebra/System of Equations and Matrices"
+      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
     },
     {
       "uuid": "52743b16-21d7-4438-8418-42dadcc0bfcb",
@@ -1669,7 +1669,7 @@
       "tags": "system of linear equations, matrix, inverse matrix, matrices ",
       "url": "/text-content/52743b16-21d7-4438-8418-42dadcc0bfcb",
       "source": "Forgotten Text 1 8.4",
-      "topic": "Algebra/System of Equations and Matrices"
+      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
     }
   ],
   "answers": [],

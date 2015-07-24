@@ -353,12 +353,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Secants of a Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30177.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30177.png\"/\u003e",
       "allAnswers": [],
       "tags": "secant of a circle, arc angles, secant, circle algebra",
       "url": "/question/c023b36a-e8c0-4df2-9827-7ca93278fda8",
       "source": "Amsco Geometry Textbook 13.5.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "5e6fc244-879c-4688-aa66-4ab22f673de7",
@@ -370,12 +370,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Complex Circle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30183.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30183.png\"/\u003e",
       "allAnswers": [],
       "tags": "secant, tangent, arc length, opposite angles, isosceles triangle",
       "url": "/question/5e6fc244-879c-4688-aa66-4ab22f673de7",
       "source": "Amsco Geometry Textbook 13.5.30",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "2a1382b6-b538-4823-994d-115c65aeaccd",
@@ -387,12 +387,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Equilateral Triangle and Cirlcle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30185.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30185.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangent, tangent of a circle, equilateral triangle, circle geometry, geometry proof",
       "url": "/question/2a1382b6-b538-4823-994d-115c65aeaccd",
       "source": "Amsco Geometry Textbook 13.5.31",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "dce29c2a-1119-4c85-9bdc-65fb233b6d8b",
@@ -404,12 +404,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Circle Geometry Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30186.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30186.png\"/\u003e",
       "allAnswers": [],
       "tags": "secant, chord, circle geometry, geometry proof",
       "url": "/question/dce29c2a-1119-4c85-9bdc-65fb233b6d8b",
       "source": "Amsco Geometry Textbook 13.5.32",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "acc97f64-8b45-406b-a541-732ece89d0a9",
@@ -421,12 +421,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangent and Secant of a Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30178.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30178.png\"/\u003e",
       "allAnswers": [],
       "tags": "secant of a circle, tangent of a circle, arc measure, circle arithmetic",
       "url": "/question/acc97f64-8b45-406b-a541-732ece89d0a9",
       "source": "Amsco Geometry Textbook 13.5.9",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "ecf3fdd5-684e-4d87-90ff-099d02af2c78",
@@ -443,7 +443,7 @@
       "tags": "right triangles, chord length, tangent, chord, secant, Chord algebra, chord length, circle algebra, circle geometry",
       "url": "/question/ecf3fdd5-684e-4d87-90ff-099d02af2c78",
       "source": "Amsco Geometry Textbook 13.6.15",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "f029be53-4def-4063-9322-e00789273783",
@@ -455,12 +455,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Chord and Secant Algebra",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30188.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30188.png\"/\u003e",
       "allAnswers": [],
       "tags": "right triangles, chord length, tangent, chord, secant, Chord algebra, chord length, circle algebra, circle geometry",
       "url": "/question/f029be53-4def-4063-9322-e00789273783",
       "source": "Amsco Geometry Textbook 13.6.15",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "9fc34a37-04da-4f06-8286-50e7e10406d5",
@@ -472,12 +472,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Secant Intersected Length",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30189.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30189.png\"/\u003e",
       "allAnswers": [],
       "tags": "chord length, chord, secant, Chord algebra, chord length, circle algebra, circle geometry",
       "url": "/question/9fc34a37-04da-4f06-8286-50e7e10406d5",
       "source": "Amsco Geometry Textbook 13.6.23",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "b44b5a11-cf80-46af-97a0-fdcc7b6f75a3",
@@ -489,12 +489,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Lengths of Chords",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30187.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30187.png\"/\u003e",
       "allAnswers": [],
       "tags": "Chord algebra, intersecting chords, chord length",
       "url": "/question/b44b5a11-cf80-46af-97a0-fdcc7b6f75a3",
       "source": "Amsco Geometry Textbook 13.6.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "638dc35b-c904-4b9c-89e9-24bd3f27080a",
@@ -511,7 +511,7 @@
       "tags": "tangent, diameter, circle algebra, circle geometry",
       "url": "/question/638dc35b-c904-4b9c-89e9-24bd3f27080a",
       "source": "Amsco Geometry Textbook 13.6.31",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "bac504eb-8198-4a6c-b575-44ba3891efde",
@@ -528,7 +528,7 @@
       "tags": "circle, equation of a circle, coordinate plane",
       "url": "/question/bac504eb-8198-4a6c-b575-44ba3891efde",
       "source": "Amsco Geometry Textbook 13.7.1",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "a182ef8f-4c77-4113-8648-8e4dae222914",
@@ -545,7 +545,7 @@
       "tags": "equation of a circle, endpoints of a circle, diameter of a circle, coordinate geometry",
       "url": "/question/a182ef8f-4c77-4113-8648-8e4dae222914",
       "source": "Amsco Geometry Textbook 13.7.10",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "2551a184-1d66-4731-9dcc-46d252e441a5",
@@ -557,12 +557,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of a Circle?",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30190.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30190.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation of a circle, coordinate geometry",
       "url": "/question/2551a184-1d66-4731-9dcc-46d252e441a5",
       "source": "Amsco Geometry Textbook 13.7.17",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "5cb42592-af2b-4b8c-a903-d84cb57dee9d",
@@ -579,7 +579,7 @@
       "tags": "equation of a circle",
       "url": "/question/5cb42592-af2b-4b8c-a903-d84cb57dee9d",
       "source": "Amsco Geometry Textbook 13.7.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "4760f9ed-a501-44cc-a327-dabda9d92386",
@@ -596,7 +596,7 @@
       "tags": "equation of a circle, radius, coordinate geometry",
       "url": "/question/4760f9ed-a501-44cc-a327-dabda9d92386",
       "source": "Amsco Geometry Textbook 13.7.23",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "26826150-00ea-4ec7-a180-3e704fa476d6",
@@ -613,7 +613,7 @@
       "tags": "equation of a circle, coordinate geometry",
       "url": "/question/26826150-00ea-4ec7-a180-3e704fa476d6",
       "source": "Amsco Geometry Textbook 13.7.25",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "9539ea33-dd0c-49bc-99e6-07372cbedf21",
@@ -630,7 +630,7 @@
       "tags": "equation of a circle, distance formula",
       "url": "/question/9539ea33-dd0c-49bc-99e6-07372cbedf21",
       "source": "Amsco Geometry Textbook 13.7.29",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "14643610-5bfc-4c1f-ab39-e069eaf258fb",
@@ -647,7 +647,7 @@
       "tags": "Equation of a circle, circle equation",
       "url": "/question/14643610-5bfc-4c1f-ab39-e069eaf258fb",
       "source": "Amsco Geometry Textbook 13.7.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "ae532ad6-af15-468d-aa19-59e48cb6211c",
@@ -664,7 +664,7 @@
       "tags": "equation of a circle, coordinate geometry",
       "url": "/question/ae532ad6-af15-468d-aa19-59e48cb6211c",
       "source": "Amsco Geometry Textbook 13.7.30",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "13789f41-1432-46fc-9e9b-79ebc71a2971",
@@ -681,7 +681,7 @@
       "tags": "Factoring, equation of a circle, coordinate geometry",
       "url": "/question/13789f41-1432-46fc-9e9b-79ebc71a2971",
       "source": "Amsco Geometry Textbook 13.7.31",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "a7e8c221-2e40-4d01-bf9d-b26a9db839e7",
@@ -693,12 +693,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of a Circumscribed Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30192.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30192.png\"/\u003e",
       "allAnswers": [],
       "tags": "equation of a circle, coordinate geometry, perpendicular bisector",
       "url": "/question/a7e8c221-2e40-4d01-bf9d-b26a9db839e7",
       "source": "Amsco Geometry Textbook 13.7.33",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "7d6d852a-ea4b-4948-b143-317dc4e8006e",
@@ -710,12 +710,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of a Circumscribing Circle",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/30193.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/30193.png\"/\u003e",
       "allAnswers": [],
       "tags": "circle geometry, coordinate geometry, equation of a circle, system of equations",
       "url": "/question/7d6d852a-ea4b-4948-b143-317dc4e8006e",
       "source": "Amsco Geometry Textbook 13.7.34",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "84accc64-ba95-47e8-bb0e-955053d48b9f",
@@ -732,7 +732,7 @@
       "tags": "word problem, circle geometry, circumscribed circle, equilateral triangle, altitude of a triangle",
       "url": "/question/84accc64-ba95-47e8-bb0e-955053d48b9f",
       "source": "Amsco Geometry Textbook 13.7.35",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "52059ea0-c7c8-4518-a454-84d94c7a4a80",
@@ -749,7 +749,7 @@
       "tags": "word problem, circles, circle geometry, coordinate geometry, chord of a circle",
       "url": "/question/52059ea0-c7c8-4518-a454-84d94c7a4a80",
       "source": "Amsco Geometry Textbook 13.7.36",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "e974ed40-3f0d-4eb5-be4d-5c71dd2bcb76",
@@ -766,7 +766,7 @@
       "tags": "equation of a circle, diameter of a circle",
       "url": "/question/e974ed40-3f0d-4eb5-be4d-5c71dd2bcb76",
       "source": "Amsco Geometry Textbook 13.7.9",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "f0bcca5b-6f8e-449e-9204-9b7c31cdd9c7",
@@ -783,7 +783,7 @@
       "tags": "radius, circle, tangent",
       "url": "/question/f0bcca5b-6f8e-449e-9204-9b7c31cdd9c7",
       "source": "Amsco Geometry Textbook 13.8.1",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "c5d936e5-bd02-4091-8f22-187e22fb859f",
@@ -800,7 +800,7 @@
       "tags": "center, circles, points, radius",
       "url": "/question/c5d936e5-bd02-4091-8f22-187e22fb859f",
       "source": "Amsco Geometry Textbook 13.8.10",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "9cadb317-2f87-4df9-b235-7a353bf0c53b",
@@ -817,7 +817,7 @@
       "tags": "inscribed, triangle, circle, coordinates, tangent",
       "url": "/question/9cadb317-2f87-4df9-b235-7a353bf0c53b",
       "source": "Amsco Geometry Textbook 13.8.11",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "3a2eab60-3791-47de-ad32-306cde374731",
@@ -834,7 +834,7 @@
       "tags": "tangent, circle, center, intersection, slope",
       "url": "/question/3a2eab60-3791-47de-ad32-306cde374731",
       "source": "Amsco Geometry Textbook 13.8.2",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "2dffe5cd-c096-4bc9-9dec-19fc02484bee",
@@ -851,7 +851,7 @@
       "tags": "coordinates, tangent, circles, intersection, lines, secant",
       "url": "/question/2dffe5cd-c096-4bc9-9dec-19fc02484bee",
       "source": "Amsco Geometry Textbook 13.8.3",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "66f04157-e027-462a-bf95-f05429efb07f",
@@ -868,7 +868,7 @@
       "tags": "coordinates, circles, intersection, circle, line, secant, tangent",
       "url": "/question/66f04157-e027-462a-bf95-f05429efb07f",
       "source": "Amsco Geometry Textbook 13.8.4",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "4b2d0c48-dd06-4998-a322-85ebf0f1ab1a",
@@ -885,7 +885,7 @@
       "tags": "tangent, lines, circles, equation",
       "url": "/question/4b2d0c48-dd06-4998-a322-85ebf0f1ab1a",
       "source": "Amsco Geometry Textbook 13.8.5",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "c126c2e1-1c1a-4d39-a9b6-4a2b0268289b",
@@ -902,7 +902,7 @@
       "tags": "line, equations, secant, intersection, coordinates",
       "url": "/question/c126c2e1-1c1a-4d39-a9b6-4a2b0268289b",
       "source": "Amsco Geometry Textbook 13.8.6",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "3d7d2811-a7af-45a4-8f13-45a8cc1a6b61",
@@ -919,7 +919,7 @@
       "tags": "line, equations, secant, intersection, tangent ",
       "url": "/question/3d7d2811-a7af-45a4-8f13-45a8cc1a6b61",
       "source": "Amsco Geometry Textbook 13.8.7",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "2898c732-cfb9-4b53-876f-d37a7662178a",
@@ -936,7 +936,7 @@
       "tags": "line, equations, tangent, intersections",
       "url": "/question/2898c732-cfb9-4b53-876f-d37a7662178a",
       "source": "Amsco Geometry Textbook 13.8.8",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "7caa7daa-5319-48f7-bc2e-a218ef2ba1cf",
@@ -953,7 +953,7 @@
       "tags": "circles, tangents, lines, equations",
       "url": "/question/7caa7daa-5319-48f7-bc2e-a218ef2ba1cf",
       "source": "Amsco Geometry Textbook 13.8.9 ",
-      "topic": "Geometry/Circles"
+      "topic": "Geometry/Circle Geometry"
     },
     {
       "uuid": "f1a39a9b-cd8a-46f0-a3ad-2e4db13a023a",
@@ -970,7 +970,7 @@
       "tags": "grammar, logic, sentence, definition",
       "url": "/question/f1a39a9b-cd8a-46f0-a3ad-2e4db13a023a",
       "source": "Amsco Geometry Textbook 2.1.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "715e5599-53ee-48bc-b333-ca9d26ff208a",
@@ -987,7 +987,7 @@
       "tags": "logic, mathematical sentences",
       "url": "/question/715e5599-53ee-48bc-b333-ca9d26ff208a",
       "source": "Amsco Geometry Textbook 2.1.10",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "33d72001-1016-4f22-8052-9b3a2c1dc223",
@@ -1004,7 +1004,7 @@
       "tags": "variable, mathematical sentences, logic",
       "url": "/question/33d72001-1016-4f22-8052-9b3a2c1dc223",
       "source": "Amsco Geometry Textbook 2.1.11",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "b964b8c6-a148-4ac0-b15c-b597159804f3",
@@ -1021,7 +1021,7 @@
       "tags": "open sentences, variables, logic, mathematical sentences",
       "url": "/question/b964b8c6-a148-4ac0-b15c-b597159804f3",
       "source": "Amsco Geometry Textbook 2.1.12",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "e869151b-1f70-46ee-97c7-c14c360e09ab",
@@ -1038,7 +1038,7 @@
       "tags": "truth set, open sentences, replacement sets, mathematical sentences, logic",
       "url": "/question/e869151b-1f70-46ee-97c7-c14c360e09ab",
       "source": "Amsco Geometry Textbook 2.1.13",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4d011cf7-038f-4f35-bb51-fc0e47a3e70d",
@@ -1055,7 +1055,7 @@
       "tags": "truth set, open sentences, mathematical sentences, domain, logic",
       "url": "/question/4d011cf7-038f-4f35-bb51-fc0e47a3e70d",
       "source": "Amsco Geometry Textbook 2.1.14",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "525a88eb-3f85-4ed5-9293-3eead2a203ac",
@@ -1072,7 +1072,7 @@
       "tags": "negations, mathematical sentences, logic",
       "url": "/question/525a88eb-3f85-4ed5-9293-3eead2a203ac",
       "source": "Amsco Geometry Textbook 2.1.15",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "327f013f-4d90-46bf-b48a-675c30ba4393",
@@ -1089,7 +1089,7 @@
       "tags": "symbolic form, mathematical sentences, logic, open sentences",
       "url": "/question/327f013f-4d90-46bf-b48a-675c30ba4393",
       "source": "Amsco Geometry Textbook 2.1.16",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "1dbba5d1-f862-4829-8496-13b3811fb96c",
@@ -1106,7 +1106,7 @@
       "tags": "symbolic form, open sentences, mathematical sentences, logic",
       "url": "/question/1dbba5d1-f862-4829-8496-13b3811fb96c",
       "source": "Amsco Geometry Textbook 2.1.17",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "266a7018-cbca-46a4-8711-8db59095b93e",
@@ -1123,7 +1123,7 @@
       "tags": "true, false, conditional",
       "url": "/question/266a7018-cbca-46a4-8711-8db59095b93e",
       "source": "Amsco Geometry Textbook 2.1.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "af57e26e-b7e7-4098-9e99-be5fcec188ae",
@@ -1140,7 +1140,7 @@
       "tags": "mathematical sentences, logic",
       "url": "/question/af57e26e-b7e7-4098-9e99-be5fcec188ae",
       "source": "Amsco Geometry Textbook 2.1.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "8e5085af-1cb2-4573-b56c-94ab6b380afa",
@@ -1157,7 +1157,7 @@
       "tags": "logic, mathematical sentences",
       "url": "/question/8e5085af-1cb2-4573-b56c-94ab6b380afa",
       "source": "Amsco Geometry Textbook 2.1.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "67cc73cd-fc72-4481-9632-a6760b595ba4",
@@ -1174,7 +1174,7 @@
       "tags": "mathematical sentences, logic",
       "url": "/question/67cc73cd-fc72-4481-9632-a6760b595ba4",
       "source": "Amsco Geometry Textbook 2.1.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "b9660e91-6f77-40a3-bc3a-c2ab0046f941",
@@ -1191,7 +1191,7 @@
       "tags": "mathematical sentences, logic",
       "url": "/question/b9660e91-6f77-40a3-bc3a-c2ab0046f941",
       "source": "Amsco Geometry Textbook 2.1.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "dacf4b54-3777-4067-a564-e34a1d5febd9",
@@ -1208,7 +1208,7 @@
       "tags": "mathematical sentences, logic",
       "url": "/question/dacf4b54-3777-4067-a564-e34a1d5febd9",
       "source": "Amsco Geometry Textbook 2.1.7",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "e33c211e-fc5b-4b0d-9a74-1179fe8516e4",
@@ -1225,7 +1225,7 @@
       "tags": "logic, mathematical sentences",
       "url": "/question/e33c211e-fc5b-4b0d-9a74-1179fe8516e4",
       "source": "Amsco Geometry Textbook 2.1.8",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9863f2ca-5f42-4c02-b73f-cf0e36770a56",
@@ -1242,7 +1242,7 @@
       "tags": "logic, mathematical sentences",
       "url": "/question/9863f2ca-5f42-4c02-b73f-cf0e36770a56",
       "source": "Amsco Geometry Textbook 2.1.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "b00a6e8b-fd09-4964-9bd6-419c186f9434",
@@ -1259,7 +1259,7 @@
       "tags": "negations, conjunctions, mathematical sentences",
       "url": "/question/b00a6e8b-fd09-4964-9bd6-419c186f9434",
       "source": "Amsco Geometry Textbook 2.2.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "c5ba13cf-c9b4-4f3d-8d61-50834a8e0ef3",
@@ -1276,7 +1276,7 @@
       "tags": "truth values, mathematical sentences, logic, symbols, conjunctions, ",
       "url": "/question/c5ba13cf-c9b4-4f3d-8d61-50834a8e0ef3",
       "source": "Amsco Geometry Textbook 2.2.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "0d8b0cb8-dfba-4b30-8b7c-41c8aebe6a91",
@@ -1293,7 +1293,7 @@
       "tags": "symbolic form, truth value, open sentences, mathematical sentences, logic, conjunctions",
       "url": "/question/0d8b0cb8-dfba-4b30-8b7c-41c8aebe6a91",
       "source": "Amsco Geometry Textbook 2.2.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "7d8c0492-ca6c-4341-b3b2-65f8aee756f2",
@@ -1310,7 +1310,7 @@
       "tags": "truth value, conjunctions, mathematical sentences, symbols, logic",
       "url": "/question/7d8c0492-ca6c-4341-b3b2-65f8aee756f2",
       "source": "Amsco Geometry Textbook 2.2.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "92566cc9-6672-4e2c-ab9f-902a9f81559e",
@@ -1327,7 +1327,7 @@
       "tags": "conjunctions, truth values, mathematical sentences, logic, symbols",
       "url": "/question/92566cc9-6672-4e2c-ab9f-902a9f81559e",
       "source": "Amsco Geometry Textbook 2.2.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9b723af8-2483-4b1a-b6e2-04a8055eef13",
@@ -1344,7 +1344,7 @@
       "tags": "truth values, uncertain truth values, conjunctions, symbols, logic",
       "url": "/question/9b723af8-2483-4b1a-b6e2-04a8055eef13",
       "source": "Amsco Geometry Textbook 2.2.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "08d99b01-488e-4005-8285-8e189f7a6ef2",
@@ -1361,7 +1361,7 @@
       "tags": "truth value, compound sentences, mathematical sentences, open sentences, conjunctions, symbols, logic",
       "url": "/question/08d99b01-488e-4005-8285-8e189f7a6ef2",
       "source": "Amsco Geometry Textbook 2.2.7",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "6dc12841-0d12-4e60-94a8-da44bfa52cc0",
@@ -1378,7 +1378,7 @@
       "tags": "truth set, complements, sets, negations, disjunction",
       "url": "/question/6dc12841-0d12-4e60-94a8-da44bfa52cc0",
       "source": "Amsco Geometry Textbook 2.3.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "1021c0e5-8ec5-4047-826e-d31ee6aab689",
@@ -1395,7 +1395,7 @@
       "tags": "truth value, disjunction, symbols, logic, symbolic form",
       "url": "/question/1021c0e5-8ec5-4047-826e-d31ee6aab689",
       "source": "Amsco Geometry Textbook 2.3.10",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "2b6236fb-e3cd-4434-87fd-7d86afcefed9",
@@ -1412,7 +1412,7 @@
       "tags": "inclusive, exclusive, disjunction, sets",
       "url": "/question/2b6236fb-e3cd-4434-87fd-7d86afcefed9",
       "source": "Amsco Geometry Textbook 2.3.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "ed6c2f13-57d5-46a4-883e-bfc1204c6669",
@@ -1429,7 +1429,7 @@
       "tags": "logic, symbols, symbolic form, mathematical sentences, open form",
       "url": "/question/ed6c2f13-57d5-46a4-883e-bfc1204c6669",
       "source": "Amsco Geometry Textbook 2.3.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "767dba04-09c3-477c-8651-ccd300547cf0",
@@ -1446,7 +1446,7 @@
       "tags": "symbols, symbolic form, logic, mathematical sentences, disjunction",
       "url": "/question/767dba04-09c3-477c-8651-ccd300547cf0",
       "source": "Amsco Geometry Textbook 2.3.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "705fd133-e123-4d81-9608-34c103e2f62e",
@@ -1463,7 +1463,7 @@
       "tags": "disjunction, symbols, symbolic form, logic",
       "url": "/question/705fd133-e123-4d81-9608-34c103e2f62e",
       "source": "Amsco Geometry Textbook 2.3.8",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "dfdd9b05-b2b5-491a-bd6b-f4660f5af57c",
@@ -1480,7 +1480,7 @@
       "tags": "disjunction, symbolic form, symbols, logic",
       "url": "/question/dfdd9b05-b2b5-491a-bd6b-f4660f5af57c",
       "source": "Amsco Geometry Textbook 2.3.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "a7d5bc0c-1777-4eb9-a361-1e340b434a04",
@@ -1497,7 +1497,7 @@
       "tags": "conditionals, logic, symbols, symbolic form",
       "url": "/question/a7d5bc0c-1777-4eb9-a361-1e340b434a04",
       "source": "Amsco Geometry Textbook 2.4.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "cbfcec0f-747c-47cc-931a-93ef90e48826",
@@ -1514,7 +1514,7 @@
       "tags": "symbols, symbolic form, conditionals, truth value",
       "url": "/question/cbfcec0f-747c-47cc-931a-93ef90e48826",
       "source": "Amsco Geometry Textbook 2.4.10",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "93af408a-2417-4ce1-a6d8-347c9fd830d3",
@@ -1531,7 +1531,7 @@
       "tags": "symbols, symbolic form, truth values, conditionals",
       "url": "/question/93af408a-2417-4ce1-a6d8-347c9fd830d3",
       "source": "Amsco Geometry Textbook 2.4.11",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "b96b1fc3-6048-4552-a34f-921e56cf892a",
@@ -1548,7 +1548,7 @@
       "tags": "truth values, conditionals, symbols, symbolic form, logic",
       "url": "/question/b96b1fc3-6048-4552-a34f-921e56cf892a",
       "source": "Amsco Geometry Textbook 2.4.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "bc751ec4-01a8-4e8e-8c06-558d001e1a57",
@@ -1565,7 +1565,7 @@
       "tags": "hypotheses, conclusions, symbols, logic",
       "url": "/question/bc751ec4-01a8-4e8e-8c06-558d001e1a57",
       "source": "Amsco Geometry Textbook 2.4.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "e931af37-137f-4b03-808e-3b5c66f0f35b",
@@ -1582,7 +1582,7 @@
       "tags": "symbols, logic, hypotheses, conclusions",
       "url": "/question/e931af37-137f-4b03-808e-3b5c66f0f35b",
       "source": "Amsco Geometry Textbook 2.4.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4e291b0e-31c1-4d19-8457-eaefb0bd1f83",
@@ -1599,7 +1599,7 @@
       "tags": "symbolic form, logic, symbols, conditionals",
       "url": "/question/4e291b0e-31c1-4d19-8457-eaefb0bd1f83",
       "source": "Amsco Geometry Textbook 2.4.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Inequalities ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2073.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2071.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2072.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2073.png\"/\u003e",
       "allAnswers": [],
       "tags": "inequalities, polynomials, roots ",
       "url": "/text-content/eb638d3c-a1ef-454a-9e50-299dcfbfd3cd",
       "source": "Calculus Refresher 2",
-      "topic": "Calculus/Inequalities"
+      "topic": "Calculus/Pre-Calculus Review/Inequalities"
     },
     {
       "uuid": "6b43c119-41d8-4567-a951-f69374dafbdc",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Domain of functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2074.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2075.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2074.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2075.png\"/\u003e",
       "allAnswers": [],
       "tags": "domain, functions, range ",
       "url": "/text-content/6b43c119-41d8-4567-a951-f69374dafbdc",
       "source": "Calculus Refresher 3",
-      "topic": "Calculus/Points Lines Planes and Angles/Domain of Functions"
+      "topic": "Calculus/Pre-Calculus Review/Points Lines Planes and Angles/Domain of Functions"
     },
     {
       "uuid": "f5c489d4-2b5e-4e9c-842f-5dd60f400f8e",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Lines(and other items in Analytic Geometry)",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2076.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2077.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2076.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2077.png\"/\u003e",
       "allAnswers": [],
       "tags": "lines, points, origin, vertical coordinates, horizontal coordinates, point-slope form, two-point form, slope, vertical line ",
       "url": "/text-content/f5c489d4-2b5e-4e9c-842f-5dd60f400f8e",
       "source": "Calculus Refresher 4",
-      "topic": "Calculus/Points Lines Planes and Angles/Lines"
+      "topic": "Calculus/Pre-Calculus Review/Points Lines Planes and Angles/Lines"
     },
     {
       "uuid": "96b7268c-acd0-4fc4-8bf2-45f2efaa5fa2",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Elementary limits ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2078.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2078.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, calculus ",
       "url": "/text-content/96b7268c-acd0-4fc4-8bf2-45f2efaa5fa2",
       "source": "Calculus Refresher 5",
-      "topic": "Calculus/Limits/Elementary Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Elementary Limits"
     }
   ],
   "answers": [],

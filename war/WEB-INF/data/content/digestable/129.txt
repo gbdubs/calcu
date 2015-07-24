@@ -375,7 +375,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/2f3e94bc-5354-466a-b912-55e6f3cde4d4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "18cc165a-6916-4a1b-a340-a86c7f7e23d0",
@@ -392,7 +392,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/18cc165a-6916-4a1b-a340-a86c7f7e23d0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "b647c3d4-443b-4965-ad2c-5ee73b88e648",
@@ -409,7 +409,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/b647c3d4-443b-4965-ad2c-5ee73b88e648",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "ab63d3f9-dd1c-44bc-a32b-b7feb24f02ff",
@@ -426,7 +426,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/ab63d3f9-dd1c-44bc-a32b-b7feb24f02ff",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "fdb03c8e-64ff-441f-83d1-ad5a8c361ce8",
@@ -443,7 +443,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/fdb03c8e-64ff-441f-83d1-ad5a8c361ce8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "1075dec6-bcfd-450d-9f9e-f22c80593f8b",
@@ -460,7 +460,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/1075dec6-bcfd-450d-9f9e-f22c80593f8b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "5055f7a1-c2c9-4814-96fd-b3710ec7671f",
@@ -477,7 +477,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/5055f7a1-c2c9-4814-96fd-b3710ec7671f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "5367caea-eda8-445e-8daf-13d566ddca0a",
@@ -494,7 +494,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/5367caea-eda8-445e-8daf-13d566ddca0a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "e3c22cbf-eb9c-4965-9f6c-2788e5459911",
@@ -511,7 +511,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/e3c22cbf-eb9c-4965-9f6c-2788e5459911",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "47cb04d9-dc83-4e6d-b025-b1ba27991cff",
@@ -528,7 +528,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/47cb04d9-dc83-4e6d-b025-b1ba27991cff",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "8ef3e0a1-fab4-4a6d-a135-e3734fcbe681",
@@ -545,7 +545,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/8ef3e0a1-fab4-4a6d-a135-e3734fcbe681",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "856c6deb-0161-4f55-9498-de3f8b105963",
@@ -562,7 +562,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/856c6deb-0161-4f55-9498-de3f8b105963",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "e91dba0f-7423-4733-8257-b3e38f8cba3b",
@@ -579,7 +579,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/e91dba0f-7423-4733-8257-b3e38f8cba3b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "5faf859b-5142-4ddd-8ea7-3b798faa38e0",
@@ -596,7 +596,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/5faf859b-5142-4ddd-8ea7-3b798faa38e0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "a868f424-da57-4d31-ad94-bdf4184aa6f2",
@@ -613,7 +613,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/a868f424-da57-4d31-ad94-bdf4184aa6f2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "a10bf141-be55-40f5-8f8e-4793da29e6cf",
@@ -630,7 +630,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/a10bf141-be55-40f5-8f8e-4793da29e6cf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "500f0740-15c1-46d5-9e0d-f4ad5e4aefb6",
@@ -647,7 +647,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/500f0740-15c1-46d5-9e0d-f4ad5e4aefb6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "09af222c-7ae3-4a07-88bf-bd0c3422584d",
@@ -664,7 +664,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/09af222c-7ae3-4a07-88bf-bd0c3422584d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "b6e26b9e-8bb9-46a5-b820-ee198c047d3a",
@@ -681,7 +681,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/b6e26b9e-8bb9-46a5-b820-ee198c047d3a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "ea4df763-f0c6-4d6a-9a55-2fa34f26049f",
@@ -698,7 +698,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/ea4df763-f0c6-4d6a-9a55-2fa34f26049f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "30938089-d881-4e22-96eb-997ef8a85845",
@@ -715,7 +715,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/30938089-d881-4e22-96eb-997ef8a85845",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "2cdfea54-2014-48f1-af6d-ed19e73f847b",
@@ -732,7 +732,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits, word problem",
       "url": "/question/2cdfea54-2014-48f1-af6d-ed19e73f847b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "47aaaad3-c7c0-40c7-a8fc-1c3d11e0bc3a",
@@ -749,7 +749,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits, word problem",
       "url": "/question/47aaaad3-c7c0-40c7-a8fc-1c3d11e0bc3a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "9365fa6c-5d3e-4054-a56e-18a5fe3db5a9",
@@ -766,7 +766,7 @@
       "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
       "url": "/question/9365fa6c-5d3e-4054-a56e-18a5fe3db5a9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "2ebdbd28-ef86-4c3c-b160-a6dac04f49a2",
@@ -783,7 +783,7 @@
       "tags": "continuity, continuous functions ,, word problem",
       "url": "/question/2ebdbd28-ef86-4c3c-b160-a6dac04f49a2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "891372e0-7ca1-4a87-bc92-b03b4190776f",
@@ -800,7 +800,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/891372e0-7ca1-4a87-bc92-b03b4190776f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "1a9d944f-98f7-42b2-9811-67009578dae9",
@@ -817,7 +817,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/1a9d944f-98f7-42b2-9811-67009578dae9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "baf8756b-4a8f-48a2-9ccb-29f2c7a4acc6",
@@ -834,7 +834,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/baf8756b-4a8f-48a2-9ccb-29f2c7a4acc6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "b862487b-2832-4099-b253-af5e07726ecf",
@@ -851,7 +851,7 @@
       "tags": "continuity, continuous functions ,, word problem",
       "url": "/question/b862487b-2832-4099-b253-af5e07726ecf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "5f0ebaf1-f6a2-47a0-8647-ce1b925b9270",
@@ -868,7 +868,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/5f0ebaf1-f6a2-47a0-8647-ce1b925b9270",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "75ded1e0-9515-4f5d-80c8-edf3d0341958",
@@ -885,7 +885,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/75ded1e0-9515-4f5d-80c8-edf3d0341958",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "70db8148-95ba-4591-b650-426b25a10616",
@@ -902,7 +902,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/70db8148-95ba-4591-b650-426b25a10616",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "45e5ddb9-2e1d-4456-bcdc-34ddb2728d9a",
@@ -919,7 +919,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/45e5ddb9-2e1d-4456-bcdc-34ddb2728d9a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "652b5487-9f42-4270-8a6e-eea2ab4c8f70",
@@ -936,7 +936,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/652b5487-9f42-4270-8a6e-eea2ab4c8f70",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "a9b7a2b9-da63-4ed8-8897-4a4ad83ef2f5",
@@ -953,7 +953,7 @@
       "tags": "continuity, continuous functions ,",
       "url": "/question/a9b7a2b9-da63-4ed8-8897-4a4ad83ef2f5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "4dcba0d5-89d4-44f2-bb80-f88c5f74c5c5",
@@ -970,7 +970,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/4dcba0d5-89d4-44f2-bb80-f88c5f74c5c5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "cf943618-5d99-4f64-a2b8-ec7d3858bb74",
@@ -987,7 +987,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/cf943618-5d99-4f64-a2b8-ec7d3858bb74",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "bc69bf2c-9977-4e98-9f0f-2fd97206628e",
@@ -1004,7 +1004,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/bc69bf2c-9977-4e98-9f0f-2fd97206628e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "a7b683c6-8f1b-4c37-afa2-056a9fea6fd8",
@@ -1021,7 +1021,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/a7b683c6-8f1b-4c37-afa2-056a9fea6fd8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "6bdbf8d8-a132-4638-b796-1367d2f0ca43",
@@ -1038,7 +1038,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/6bdbf8d8-a132-4638-b796-1367d2f0ca43",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "8a38477c-0565-464d-b2c3-857ad0621d35",
@@ -1055,7 +1055,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/8a38477c-0565-464d-b2c3-857ad0621d35",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "d5225a6a-cb23-482f-b739-c2b96a41eee1",
@@ -1072,7 +1072,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/d5225a6a-cb23-482f-b739-c2b96a41eee1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "5eeb7ddc-d167-4f0c-aa76-1a1152f25417",
@@ -1089,7 +1089,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/5eeb7ddc-d167-4f0c-aa76-1a1152f25417",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "c154dd44-9adb-4fbe-bf15-66a80afb9811",
@@ -1106,7 +1106,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/c154dd44-9adb-4fbe-bf15-66a80afb9811",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "74c2f779-f439-42aa-bbd1-ee75bbdd3e6c",
@@ -1123,7 +1123,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/74c2f779-f439-42aa-bbd1-ee75bbdd3e6c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "c9503da1-985e-42c7-a37f-62bf7e857d2d",
@@ -1140,7 +1140,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/c9503da1-985e-42c7-a37f-62bf7e857d2d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "4d543e17-32e8-4237-a896-9dafd03e4220",
@@ -1157,7 +1157,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/4d543e17-32e8-4237-a896-9dafd03e4220",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "4bbf7ee4-9246-4ab1-a25a-daef73c2e8c6",
@@ -1174,7 +1174,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/4bbf7ee4-9246-4ab1-a25a-daef73c2e8c6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "b08e016b-79a2-4475-a362-97bcd0db5d0c",
@@ -1191,7 +1191,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/b08e016b-79a2-4475-a362-97bcd0db5d0c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "f8f4da90-a3dd-4393-97d4-602a4b44788b",
@@ -1208,7 +1208,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/f8f4da90-a3dd-4393-97d4-602a4b44788b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "794bf72a-b547-438d-a60e-20eca08f29d8",
@@ -1225,7 +1225,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/794bf72a-b547-438d-a60e-20eca08f29d8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "38b1f22a-d811-47ca-bc9b-cd7821b5c587",
@@ -1242,7 +1242,7 @@
       "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
       "url": "/question/38b1f22a-d811-47ca-bc9b-cd7821b5c587",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "c2409653-88c6-4c03-8832-bae5af9a4d64",
@@ -1259,7 +1259,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/c2409653-88c6-4c03-8832-bae5af9a4d64",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "0fbfb5b8-ff24-4542-9bd5-2416eddb0db1",
@@ -1276,7 +1276,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/0fbfb5b8-ff24-4542-9bd5-2416eddb0db1",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "0bd19d55-0866-4c25-8025-1be90feb2960",
@@ -1293,7 +1293,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/0bd19d55-0866-4c25-8025-1be90feb2960",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "e9da1c40-6dea-470c-90db-ccd05e95dd7d",
@@ -1310,7 +1310,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/e9da1c40-6dea-470c-90db-ccd05e95dd7d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "58c1f4f7-e28b-47e9-be82-0c0939f9905a",
@@ -1327,7 +1327,7 @@
       "tags": "techniques of differentiation,, word problem",
       "url": "/question/58c1f4f7-e28b-47e9-be82-0c0939f9905a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "ef5b8b51-d808-4876-999e-7cb6bb497e67",
@@ -1344,7 +1344,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/ef5b8b51-d808-4876-999e-7cb6bb497e67",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "9d0c8099-0d57-424c-92f4-76399d3f3af3",
@@ -1361,7 +1361,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/9d0c8099-0d57-424c-92f4-76399d3f3af3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "90ec2fc0-0ed4-42e2-b327-6a895b4ce18e",
@@ -1378,7 +1378,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/90ec2fc0-0ed4-42e2-b327-6a895b4ce18e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "76241515-02bd-4115-80d7-c5f8b6e9aecd",
@@ -1395,7 +1395,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/76241515-02bd-4115-80d7-c5f8b6e9aecd",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "e223d3ac-6528-4e41-83e2-9729c4fef906",
@@ -1412,7 +1412,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/e223d3ac-6528-4e41-83e2-9729c4fef906",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "d98ad14a-b6b9-4805-a051-f49ce5981cd2",
@@ -1429,7 +1429,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/d98ad14a-b6b9-4805-a051-f49ce5981cd2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "135a2e7f-a978-4f19-acd8-d2e3edc5cbcf",
@@ -1446,7 +1446,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/135a2e7f-a978-4f19-acd8-d2e3edc5cbcf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "ab71b739-873d-4af6-9b67-1ea0633dc7fc",
@@ -1463,7 +1463,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/ab71b739-873d-4af6-9b67-1ea0633dc7fc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "916a5159-f198-4a72-bde1-c905a9ceb9b9",
@@ -1480,7 +1480,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/916a5159-f198-4a72-bde1-c905a9ceb9b9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "da7002e4-846d-4d21-a73d-fa50e026c469",
@@ -1497,7 +1497,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/da7002e4-846d-4d21-a73d-fa50e026c469",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "503cca6a-72fb-4e7f-8dfc-4acdf59091dc",
@@ -1514,7 +1514,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/503cca6a-72fb-4e7f-8dfc-4acdf59091dc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "35ea640b-54b7-459f-bd17-7addc35f36cf",
@@ -1531,7 +1531,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/35ea640b-54b7-459f-bd17-7addc35f36cf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "8989d4c4-5e9e-4f2e-a0a5-60f327434779",
@@ -1548,7 +1548,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/8989d4c4-5e9e-4f2e-a0a5-60f327434779",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "82c1795d-0fe6-4371-93cd-fd65c721cd1a",
@@ -1565,7 +1565,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/82c1795d-0fe6-4371-93cd-fd65c721cd1a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "c23b0826-fee6-4eda-978a-2adb2902b918",
@@ -1582,7 +1582,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/c23b0826-fee6-4eda-978a-2adb2902b918",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "739c7728-8384-4452-a785-fc9e9bb4c5f2",
@@ -1599,7 +1599,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/739c7728-8384-4452-a785-fc9e9bb4c5f2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     },
     {
       "uuid": "f7a3c80f-d60e-4901-b0a9-18db7b947ccc",
@@ -1616,7 +1616,7 @@
       "tags": "techniques of differentiation,",
       "url": "/question/f7a3c80f-d60e-4901-b0a9-18db7b947ccc",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Differentiation"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     }
   ],
   "textContent": [
@@ -1635,7 +1635,7 @@
       "tags": "disjunctions, truth set, mathematical sentences, open sentences, conjunctions, symbols, logic",
       "url": "/text-content/bc553cd7-93be-46f0-9c55-510ef3bb542c",
       "source": "Amsco Geometry Textbook 2.3",
-      "topic": "Geometry/Logic/Disjunctions"
+      "topic": "Geometry/Other Topics/Logic/Disjunctions"
     },
     {
       "uuid": "f747fa66-e58e-4e62-ac78-4dd8973acfdb",
@@ -1652,7 +1652,7 @@
       "tags": "symbols, symbolic form, conditionals, truth values, logic",
       "url": "/text-content/f747fa66-e58e-4e62-ac78-4dd8973acfdb",
       "source": "Amsco Geometry Textbook 2.4",
-      "topic": "Geometry/Logic/Proofs"
+      "topic": "Geometry/Other Topics/Logic/Proofs"
     },
     {
       "uuid": "5313a332-a841-41ef-b37f-acacf4fec96c",
@@ -1669,7 +1669,7 @@
       "tags": "symbols, symbolic form, inverses, conditionals, contrapositives, converses",
       "url": "/text-content/5313a332-a841-41ef-b37f-acacf4fec96c",
       "source": "Amsco Geometry Textbook 2.5",
-      "topic": "Geometry/Logic/Symbols/Symbolic Form"
+      "topic": "Geometry/Other Topics/Logic/Symbolic Form"
     },
     {
       "uuid": "8763c2ae-892e-4f78-946a-6b149344c45d",
@@ -1686,7 +1686,7 @@
       "tags": "biconditionals, conditionals, conjunction, disjunction, logic, symbols",
       "url": "/text-content/8763c2ae-892e-4f78-946a-6b149344c45d",
       "source": "Amsco Geometry Textbook 2.6",
-      "topic": "Geometry/Logic/Proofs"
+      "topic": "Geometry/Other Topics/Logic/Proofs"
     },
     {
       "uuid": "c89a237a-7c9a-475b-89fe-fc3587b4a9a7",
@@ -1703,7 +1703,7 @@
       "tags": "logic, conditionals, biconditionals, converses, inverses, conjunctions, disjunctions, contrapositives, detachment",
       "url": "/text-content/c89a237a-7c9a-475b-89fe-fc3587b4a9a7",
       "source": "Amsco Geometry Textbook 2.6",
-      "topic": "Geometry/Logic/Laws Of Logic"
+      "topic": "Geometry/Other Topics/Logic/Laws Of Logic"
     }
   ],
   "answers": [],

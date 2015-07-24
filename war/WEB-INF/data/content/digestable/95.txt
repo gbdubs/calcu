@@ -17,7 +17,7 @@
       "tags": "the exterior differential operator, exterior differential operator",
       "url": "/practice-problem/7426e2ff-3f59-4e8c-ba78-9a0f6c971502",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Exterior Differential Operator"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
     },
     {
       "authorSolution": " \\(x^2y + 3y^2z^5\\) ",
@@ -35,7 +35,7 @@
       "tags": "the hodge star operator, Hodge star operator",
       "url": "/practice-problem/f65b9425-0d15-4b1e-85fe-8fdba16bd5ee",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Hodge Star Operator"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
     },
     {
       "authorSolution": " \\(3z + 2yz\\) ",
@@ -53,7 +53,7 @@
       "tags": "the hodge star operator, Hodge star operator",
       "url": "/practice-problem/3772f1a6-39ee-41a7-8b36-fe1c133deef7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Hodge Star Operator"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
     },
     {
       "authorSolution": " \\(\\ast(\\omega \\land (\\ast\\mu) )\\)  \\quad (\\textbf{or}  \\(\\ast( (\\ast\\omega) \\land \\mu)\\) )",
@@ -71,7 +71,7 @@
       "tags": "the hodge star operator, Hodge star operator",
       "url": "/practice-problem/55d7faaf-f748-465a-9465-38ddcd900e75",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Hodge Star Operator"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
     },
     {
       "authorSolution": " \\((xz + 1)e^{xz} + z\\) ,  \\(0\\) ,  \\(x(1 + xe^{xz})\\) ",
@@ -89,7 +89,7 @@
       "tags": "the hodge star operator, Hodge star operator",
       "url": "/practice-problem/2f1be94e-5b8e-4a1e-869f-80b10e6125f9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Hodge Star Operator"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
     },
     {
       "authorSolution": " \\(\\ast(\\omega \\land \\mu \\land \\eta)\\) ",
@@ -107,7 +107,7 @@
       "tags": "the hodge star operator, Hodge star operator, word problem",
       "url": "/practice-problem/51380522-00f4-48ba-a1b8-e03bce7cb635",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Hodge Star Operator"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
     },
     {
       "authorSolution": "is,  \\(\\exp(xy)\\) ",
@@ -125,7 +125,7 @@
       "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
       "url": "/practice-problem/3be57d42-3c2c-4cce-b868-78720bb81598",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Closed Differential Forms"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
     },
     {
       "authorSolution": "is,  \\(\\arcsin x  \\arctan y + \\dfrac{x^2}{2y} + x^3 + e^y\\) ",
@@ -143,7 +143,7 @@
       "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
       "url": "/practice-problem/576265da-0a78-40bd-8c69-69b8e6f8aed6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Closed Differential Forms"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
     },
     {
       "authorSolution": "is,  \\(\\exp(xyz) + x^2y^3 + y\\sin z + z^4\\) ",
@@ -161,7 +161,7 @@
       "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
       "url": "/practice-problem/1cf1a072-71d4-4a4f-950c-4e0400c2b516",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Closed Differential Forms"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
     },
     {
       "authorSolution": " \\(\\dfrac2{x^2}\\) ",
@@ -179,7 +179,7 @@
       "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
       "url": "/practice-problem/2eb7934f-936f-4c00-8fa7-a561eccd406d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Differential Forms/Closed Differential Forms"
+      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
     },
     {
       "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(1\\) ,  \\(2t\\) ,  \\(t\\) ,  \\(2 - 2t\\) ,  \\(1 - t\\) ",
@@ -197,7 +197,7 @@
       "tags": "manifolds and orientation, manifolds ,parametrization ,orientation ,unit normal vector",
       "url": "/practice-problem/522ed655-68cb-42cf-a1e8-fc98ff7f0a32",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Manifolds and Orientation"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Manifolds and Orientation"
     },
     {
       "authorSolution": " \\(-1\\) ,  \\(0\\) ,  \\(-2\\pi\\) ,  \\(0\\) ,  \\(1\\) ,  \\(9\\pi\\) ",
@@ -215,7 +215,7 @@
       "tags": "manifolds and orientation, manifolds ,parametrization ,orientation ,unit normal vector",
       "url": "/practice-problem/0a438af0-22b4-46d1-b22f-c3e0c6fdf2c4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Manifolds and Orientation"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Manifolds and Orientation"
     },
     {
       "authorSolution": "closed, ball, centered at the origin, has radius  \\(1\\)  (the preceding in any order),  \\(u \\sin v\\) ,  \\(\\sin v \\cos w\\) ,",
@@ -233,7 +233,7 @@
       "tags": "manifolds and orientation, manifolds ,parametrization ,orientation ,unit normal vector",
       "url": "/practice-problem/4c5d83da-4269-4517-8029-dae9e1c98385",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Manifolds and Orientation"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Manifolds and Orientation"
     },
     {
       "authorSolution": " \\(2\\) ",
@@ -251,7 +251,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/3c1cf28c-0283-4da1-9080-f2985d1ca034",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(\\dfrac32\\) ",
@@ -269,7 +269,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/51aff320-f394-4f74-92bb-5ad314a0a061",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(4\\) ,  \\(\\pi\\) ",
@@ -287,7 +287,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/6d4ab2ca-15fc-4fb6-907a-6c4f3ac5f5e6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(38\\) ",
@@ -305,7 +305,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/4eb5ce66-73d3-485d-b308-2c3c0a898310",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(128\\) ,  \\(\\pi + 2\\) ,  \\(\\pi + 2\\) ",
@@ -323,7 +323,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/a4d55e20-a1c8-4056-8603-c9787ce1cb12",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(4\\) ",
@@ -341,7 +341,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/8f670835-f423-4cf8-a6e7-ae661d531b66",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(147\\) ",
@@ -359,7 +359,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/a81d8281-71fe-49b3-adb5-381b9f81546b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     },
     {
       "authorSolution": " \\(150\\) ",
@@ -377,7 +377,7 @@
       "tags": "line integrals, line integrals ,",
       "url": "/practice-problem/7b6f8d3b-8df0-4cc2-83cc-7fbefd5d042a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Fundamental Theorem/Line Integrals"
+      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
     }
   ],
   "questions": [
@@ -396,7 +396,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/38002375-9b61-4026-a382-53d56a387498",
       "source": "Math 221 8.1.5",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "f1ff8006-1c92-48fa-b8ae-674fa91e6d99",
@@ -413,7 +413,7 @@
       "tags": "functions, derivatives",
       "url": "/question/f1ff8006-1c92-48fa-b8ae-674fa91e6d99",
       "source": "Math 221 4.3.18",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "fc3b5bca-934f-47e5-bd87-2ac3674d9604",
@@ -430,7 +430,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/fc3b5bca-934f-47e5-bd87-2ac3674d9604",
       "source": "Math 221 8.1.6",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "cbd5b751-bdef-4d73-941a-1be39ecde78d",
@@ -447,7 +447,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/cbd5b751-bdef-4d73-941a-1be39ecde78d",
       "source": "Math 221 8.1.7",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "bbae6da2-a139-46af-bb93-41a2feac6675",
@@ -464,7 +464,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/bbae6da2-a139-46af-bb93-41a2feac6675",
       "source": "Math 221 8.1.8",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "7290230f-9db5-46cd-801f-d2f93894c7dd",
@@ -481,7 +481,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/7290230f-9db5-46cd-801f-d2f93894c7dd",
       "source": "Math 221 8.1.9",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "0906d644-f60d-4564-8066-5dca7b21cf4c",
@@ -498,7 +498,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/0906d644-f60d-4564-8066-5dca7b21cf4c",
       "source": "Math 221 8.1.10",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "98d596a9-91fe-4a87-bf74-5fee60f660cd",
@@ -515,7 +515,7 @@
       "tags": "derivatives, functions",
       "url": "/question/98d596a9-91fe-4a87-bf74-5fee60f660cd",
       "source": "Math 221 4.3.19",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "80a7d305-5dbe-45f5-b713-cbaf8fadd2b6",
@@ -532,7 +532,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/80a7d305-5dbe-45f5-b713-cbaf8fadd2b6",
       "source": "Math 221 8.1.11",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "aa751504-2a30-4dac-aa19-f8115854d343",
@@ -549,7 +549,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/aa751504-2a30-4dac-aa19-f8115854d343",
       "source": "Math 221 8.1.12",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "28983fa8-5d1d-4bb5-977c-2fbe80fb0754",
@@ -566,7 +566,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/28983fa8-5d1d-4bb5-977c-2fbe80fb0754",
       "source": "Math 221 8.1.13",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "146b757d-d6f9-42d8-803f-66234abeb871",
@@ -583,7 +583,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/146b757d-d6f9-42d8-803f-66234abeb871",
       "source": "Math 221 8.1.14",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "f258275e-9b23-45d1-85c2-3de9c0bcf7e9",
@@ -600,7 +600,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/f258275e-9b23-45d1-85c2-3de9c0bcf7e9",
       "source": "Math 221 8.1.15",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "20b7bf67-c172-4c9a-a0b3-1b15167d98d0",
@@ -617,7 +617,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/20b7bf67-c172-4c9a-a0b3-1b15167d98d0",
       "source": "Math 221 8.1.16",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "51198eef-57d9-46f7-8efd-4a38937a89aa",
@@ -634,7 +634,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/51198eef-57d9-46f7-8efd-4a38937a89aa",
       "source": "Math 221 8.1.17",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "e2419f46-9703-4616-b473-d98b07ee8a15",
@@ -651,7 +651,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/e2419f46-9703-4616-b473-d98b07ee8a15",
       "source": "Math 221 8.1.18",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "4fc99b65-3eab-4cec-9fc8-6d6197197c3d",
@@ -668,7 +668,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/4fc99b65-3eab-4cec-9fc8-6d6197197c3d",
       "source": "Math 221 8.1.19",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "54818cac-b015-47dd-a613-6f80855a8873",
@@ -685,7 +685,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/54818cac-b015-47dd-a613-6f80855a8873",
       "source": "Math 221 8.1.20",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "dd6dba02-033c-4c22-909a-329a2a2b87d3",
@@ -702,7 +702,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/dd6dba02-033c-4c22-909a-329a2a2b87d3",
       "source": "Math 221 8.1.21",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "1aef33cb-a314-4ef0-a264-6d741f1a1e48",
@@ -719,7 +719,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/1aef33cb-a314-4ef0-a264-6d741f1a1e48",
       "source": "Math 221 8.1.21",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "44fdd06c-2e7c-4fdd-b186-68037c9feb21",
@@ -736,7 +736,7 @@
       "tags": "derivatives, third derivative",
       "url": "/question/44fdd06c-2e7c-4fdd-b186-68037c9feb21",
       "source": "Math 221 4.4.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "b81842ff-856b-47a5-9478-ce64a6ad5cdb",
@@ -753,7 +753,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/b81842ff-856b-47a5-9478-ce64a6ad5cdb",
       "source": "Math 221 8.1.22",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "4d88a9fb-5ba4-4880-b472-aea078154f81",
@@ -770,7 +770,7 @@
       "tags": "functions, derivatives, third derivative",
       "url": "/question/4d88a9fb-5ba4-4880-b472-aea078154f81",
       "source": "Math 221 4.4.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "6b08686a-ab97-4228-842f-ae0be5758548",
@@ -787,7 +787,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/6b08686a-ab97-4228-842f-ae0be5758548",
       "source": "Math 221 8.1.23",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "ba0942c0-5387-4fa6-b06c-1975ce0f8b06",
@@ -804,7 +804,7 @@
       "tags": "derivatives, multiple derivative, functions, higher derivatives",
       "url": "/question/ba0942c0-5387-4fa6-b06c-1975ce0f8b06",
       "source": "Math 221 4.4.3",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "13c3e219-94e0-4323-b78e-c58992a9de52",
@@ -821,7 +821,7 @@
       "tags": "derivatives, functions, third derivative",
       "url": "/question/13c3e219-94e0-4323-b78e-c58992a9de52",
       "source": "Math 221 4.4.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "1e424f63-ecae-4f0c-bd40-563f6d6bd393",
@@ -838,7 +838,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/1e424f63-ecae-4f0c-bd40-563f6d6bd393",
       "source": "Math 221 8.1.24",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "9bd5b5b6-ab2a-44d8-a442-d678e59543f3",
@@ -855,7 +855,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/9bd5b5b6-ab2a-44d8-a442-d678e59543f3",
       "source": "Math 221 8.1.25",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "9058ebc8-d1d5-44ff-ac0d-010f52bbeab4",
@@ -872,7 +872,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/9058ebc8-d1d5-44ff-ac0d-010f52bbeab4",
       "source": "Math 221 8.1.26",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "7ffe5eee-0458-415e-8f90-9597fc59ffda",
@@ -889,7 +889,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/7ffe5eee-0458-415e-8f90-9597fc59ffda",
       "source": "Math 221 8.1.27",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "82cf9e18-51b4-4b75-b7f5-2898fa3ec04c",
@@ -906,7 +906,7 @@
       "tags": "derivative, higher derivatives",
       "url": "/question/82cf9e18-51b4-4b75-b7f5-2898fa3ec04c",
       "source": "Math 221 4.4.5",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "3824651d-2501-4fdb-9df8-57a048b90cef",
@@ -923,7 +923,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/3824651d-2501-4fdb-9df8-57a048b90cef",
       "source": "Math 221 8.1.28",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "f5f8d009-e4c5-483c-8497-06fa28c38349",
@@ -940,7 +940,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/f5f8d009-e4c5-483c-8497-06fa28c38349",
       "source": "Math 221 8.1.29",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "1fdf9cf4-2ab2-4769-9f2e-e4e94e15e357",
@@ -957,7 +957,7 @@
       "tags": "derivatives, higher derivatives",
       "url": "/question/1fdf9cf4-2ab2-4769-9f2e-e4e94e15e357",
       "source": "Math 221 4.4.6",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "1df20b38-2c7b-4ba8-99c0-1633476e3a08",
@@ -974,7 +974,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/1df20b38-2c7b-4ba8-99c0-1633476e3a08",
       "source": "Math 221 8.1.30",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "c139cf77-3758-4127-9b36-34dfcbbfcc47",
@@ -991,7 +991,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/c139cf77-3758-4127-9b36-34dfcbbfcc47",
       "source": "Math 221 4.4.7",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "89096dbf-b007-496c-92a8-1cfa00ad9a6c",
@@ -1008,7 +1008,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/89096dbf-b007-496c-92a8-1cfa00ad9a6c",
       "source": "Math 221 4.5.2",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "d171282a-2445-4f88-8cff-4a20f0c20b9e",
@@ -1025,7 +1025,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/d171282a-2445-4f88-8cff-4a20f0c20b9e",
       "source": "Math 221 4.5.3",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "93e8cba9-c623-483d-aa1f-ff2b58c8e634",
@@ -1042,7 +1042,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/93e8cba9-c623-483d-aa1f-ff2b58c8e634",
       "source": "Math 221 8.1.31",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "9f4b9c77-e3fc-4b5e-a91c-a80ba7009a54",
@@ -1059,7 +1059,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/9f4b9c77-e3fc-4b5e-a91c-a80ba7009a54",
       "source": "Math 221 8.1.32",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "b73de8e6-3b23-446d-913c-ce4c8c5a2d96",
@@ -1076,7 +1076,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/b73de8e6-3b23-446d-913c-ce4c8c5a2d96",
       "source": "Math 221 4.5.4",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "6e73776d-2b07-46f8-9aab-5860ef1c1e6c",
@@ -1093,7 +1093,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/6e73776d-2b07-46f8-9aab-5860ef1c1e6c",
       "source": "Math 221 8.1.33",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "64a97644-de54-4f77-9cad-61ea4de14398",
@@ -1110,7 +1110,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/64a97644-de54-4f77-9cad-61ea4de14398",
       "source": "Math 221 4.5.5",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "31802759-7a99-4fb5-bf1a-ef04ae44e33e",
@@ -1127,7 +1127,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/31802759-7a99-4fb5-bf1a-ef04ae44e33e",
       "source": "Math 221 4.5.6",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "acc23b43-4d0e-4553-a975-ec1924bb6f1b",
@@ -1144,7 +1144,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/acc23b43-4d0e-4553-a975-ec1924bb6f1b",
       "source": "Math 221 8.1.34",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "33e5806e-92ee-4c15-9d4a-7a2605cd8344",
@@ -1161,7 +1161,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/33e5806e-92ee-4c15-9d4a-7a2605cd8344",
       "source": "Math 221 4.5.7",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "bee73478-85c7-47bd-8a4e-601efce5eed4",
@@ -1178,7 +1178,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/bee73478-85c7-47bd-8a4e-601efce5eed4",
       "source": "Math 221 8.1.35",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "237eee8e-5f5f-4fd8-86c2-be88566802de",
@@ -1195,7 +1195,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/237eee8e-5f5f-4fd8-86c2-be88566802de",
       "source": "Math 221 4.5.8",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "e56a5951-2590-4f4e-9dcd-eca84fe2dba1",
@@ -1212,7 +1212,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/e56a5951-2590-4f4e-9dcd-eca84fe2dba1",
       "source": "Math 221 8.1.36",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "29310fd1-f577-4d45-bc05-984fa0b82dc5",
@@ -1229,7 +1229,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/29310fd1-f577-4d45-bc05-984fa0b82dc5",
       "source": "Math 221 4.5.9",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "e9d466e2-1e05-482a-9297-cd7cbc9a6146",
@@ -1246,7 +1246,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/e9d466e2-1e05-482a-9297-cd7cbc9a6146",
       "source": "Math 221 4.5.10",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "52066ef9-7b6f-4cd1-a33e-3da0841f9538",
@@ -1263,7 +1263,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/52066ef9-7b6f-4cd1-a33e-3da0841f9538",
       "source": "Math 221 8.1.37",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "5863500a-da3f-4b0a-90ff-7731470e6efa",
@@ -1280,7 +1280,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/5863500a-da3f-4b0a-90ff-7731470e6efa",
       "source": "Math 221 8.1.38",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "1e740fb8-3110-4cb3-b600-aa0ea43c2579",
@@ -1297,7 +1297,7 @@
       "tags": "derivative, function, derivatives of trig",
       "url": "/question/1e740fb8-3110-4cb3-b600-aa0ea43c2579",
       "source": "Math 221 4.5.10",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "d08f5279-bd9e-4c51-8632-015635d609b4",
@@ -1314,7 +1314,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/d08f5279-bd9e-4c51-8632-015635d609b4",
       "source": "Math 221 8.1.39",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "05416d1e-d1fe-4f3c-bf62-932b2e749719",
@@ -1331,7 +1331,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/05416d1e-d1fe-4f3c-bf62-932b2e749719",
       "source": "Math 221 4.5.11",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "a1013f6d-e09e-4621-af96-631d84c528a6",
@@ -1348,7 +1348,7 @@
       "tags": "proof, function, derivatives",
       "url": "/question/a1013f6d-e09e-4621-af96-631d84c528a6",
       "source": "Math 221 4.5.12",
-      "topic": "Calculus/Rules for Finding Derivative/The Product Rule/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "b4631468-1f21-48eb-925b-f87a2d6741ee",
@@ -1365,7 +1365,7 @@
       "tags": "derivatives, functions, derivative of trig",
       "url": "/question/b4631468-1f21-48eb-925b-f87a2d6741ee",
       "source": "Math 221 4.5.13",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Derivative Function/Leibniz Notation"
+      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
     },
     {
       "uuid": "49996ee2-1e69-453f-8e64-b6830356427f",
@@ -1382,7 +1382,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/49996ee2-1e69-453f-8e64-b6830356427f",
       "source": "Math 221 8.1.37",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "4cffd323-f8b0-4b76-ae91-5bd9ba9e3635",
@@ -1399,7 +1399,7 @@
       "tags": "derivatives, functions, derivatives of trig",
       "url": "/question/4cffd323-f8b0-4b76-ae91-5bd9ba9e3635",
       "source": "Math 221 4.5.14",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "8a0e9596-a4d0-4179-a04a-7c4efe17e3d5",
@@ -1416,7 +1416,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/8a0e9596-a4d0-4179-a04a-7c4efe17e3d5",
       "source": "Math 221 4.6.1",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "c1614a32-94a3-4459-9c6b-6c9bbb9cc513",
@@ -1433,7 +1433,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/c1614a32-94a3-4459-9c6b-6c9bbb9cc513",
       "source": "Math 221 8.1.38",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "0d20bdfe-2ced-4f92-9da5-a2365e802735",
@@ -1450,7 +1450,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/0d20bdfe-2ced-4f92-9da5-a2365e802735",
       "source": "Math 221 4.6.2",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "82f9bdff-3fa1-4b0d-a6bb-3484265198a0",
@@ -1467,7 +1467,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/82f9bdff-3fa1-4b0d-a6bb-3484265198a0",
       "source": "Math 221 8.2.1",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "b9884358-86c8-43bd-b542-0761779ca3cc",
@@ -1484,7 +1484,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/b9884358-86c8-43bd-b542-0761779ca3cc",
       "source": "Math 221 8.2.2",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "2cfff4b1-a7f1-4412-ae27-8bf069be9385",
@@ -1501,7 +1501,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/2cfff4b1-a7f1-4412-ae27-8bf069be9385",
       "source": "Math 221 8.2.3",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "d1c9367a-5f54-46e8-8d37-39badabda082",
@@ -1518,7 +1518,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/d1c9367a-5f54-46e8-8d37-39badabda082",
       "source": "Math 221 8.2.4",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "438526a9-a81e-4d9b-9915-452869f7314d",
@@ -1535,7 +1535,7 @@
       "tags": "chain rule, derivative, word problem",
       "url": "/question/438526a9-a81e-4d9b-9915-452869f7314d",
       "source": "Math 221 4.6.3",
-      "topic": "Calculus/Rules for Finding Derivative/The Chain Rule/The Quotient Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
     },
     {
       "uuid": "d5301759-8b4c-4e78-bc6f-5db3a5e32e2f",
@@ -1552,7 +1552,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/d5301759-8b4c-4e78-bc6f-5db3a5e32e2f",
       "source": "Math 221 8.2.5",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "cb88a1b6-cb6d-45c0-be62-7e5f7a909c98",
@@ -1569,7 +1569,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/cb88a1b6-cb6d-45c0-be62-7e5f7a909c98",
       "source": "Math 221 8.2.6",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "4803b760-2143-4f87-8f68-1dc66b48e99c",
@@ -1586,7 +1586,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/4803b760-2143-4f87-8f68-1dc66b48e99c",
       "source": "Math 221 8.2.7",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "ed7394c0-12d0-465c-8816-c02b18142d64",
@@ -1603,7 +1603,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/ed7394c0-12d0-465c-8816-c02b18142d64",
       "source": "Math 221 8.2.8",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "6f15da47-bab5-455f-8238-82b3c359c79a",
@@ -1620,7 +1620,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/6f15da47-bab5-455f-8238-82b3c359c79a",
       "source": "Math 221 8.2.7",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     },
     {
       "uuid": "206f2d03-0a20-411b-8999-d970ab82a2d6",
@@ -1637,7 +1637,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/206f2d03-0a20-411b-8999-d970ab82a2d6",
       "source": "Math 221 8.2.8",
-      "topic": "Calculus/Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
     }
   ],
   "textContent": [
@@ -1651,12 +1651,12 @@
       "viewable": true,
       "karma": 3,
       "title": "What is a number?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5836.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5837.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5838.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5839.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5836.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5837.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5838.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5839.png\"/\u003e",
       "allAnswers": [],
       "tags": "number, functions, intersection, union, real numbers, integers",
       "url": "/text-content/2c8e6949-7dbd-4580-89d4-5ba35f7c6ef0",
       "source": "Forgotten Text 6 1",
-      "topic": "Calculus/Numbers and Functions/Numbers"
+      "topic": "Calculus/Pre-Calculus Review/Numbers and Functions/Numbers"
     },
     {
       "uuid": "0117cd2f-1204-4993-9f70-1df102b737db",
@@ -1668,12 +1668,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangent to a curve",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5846.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5847.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5846.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5847.png\"/\u003e",
       "allAnswers": [],
       "tags": "tangent to curve, tangent line, derivatives",
       "url": "/text-content/0117cd2f-1204-4993-9f70-1df102b737db",
       "source": "Forgotten Text 6 2.1",
-      "topic": "Calculus/Derivatives/Tangent to curve"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Tangent to curve"
     },
     {
       "uuid": "75385364-5ba6-494a-b244-bbbddb66f449",
@@ -1685,12 +1685,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Instantaneous velocity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5848.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5849.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5850.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5848.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5849.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5850.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, instantaneous velocity, rate of change",
       "url": "/text-content/75385364-5ba6-494a-b244-bbbddb66f449",
       "source": "Forgotten Text 6 2.3",
-      "topic": "Calculus/Derivatives/Instantaneous velocity"
+      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Instantaneous velocity"
     },
     {
       "uuid": "ae3bb2db-16fe-47d1-827d-0d52c14bd49e",
@@ -1702,12 +1702,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5840.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5841.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5842.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5843.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5844.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5845.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5840.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5841.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5842.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5843.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5844.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5845.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, inverse trigonometric functions, inverse functions, implicit functions ",
       "url": "/text-content/ae3bb2db-16fe-47d1-827d-0d52c14bd49e",
       "source": "Forgotten Text 6 3",
-      "topic": "Calculus/Numbers and Functions/Functions"
+      "topic": "Calculus/Pre-Calculus Review/Numbers and Functions/Functions"
     },
     {
       "uuid": "21990b58-f80c-45bf-a37f-3849354bd7f0",
@@ -1719,12 +1719,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5851.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5852.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5853.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5854.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5855.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5851.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5852.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5853.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5854.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5855.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/text-content/21990b58-f80c-45bf-a37f-3849354bd7f0",
       "source": "Forgotten Text 6 3.1",
-      "topic": "Calculus/Limits and Continuous Functions/Limits"
+      "topic": "Calculus/Pre-Calculus Review/Limits and Continuous Functions/Limits"
     }
   ],
   "answers": [],

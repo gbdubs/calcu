@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/952.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/952.png\"/\u003e",
       "uuid": "16af438b-6c35-43b4-8a6d-92c29567e1b8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,7 +12,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Work to pump out water ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/950.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/950.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, hooke\u0027s law, integral ",
       "url": "/practice-problem/16af438b-6c35-43b4-8a6d-92c29567e1b8",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Magnitude of the force ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/953.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/953.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, magnitude of force ",
       "url": "/practice-problem/a68cb6fc-c860-405a-9739-0aa7baab12d6",
       "source": "null 9.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/955.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/955.png\"/\u003e",
       "uuid": "2cf1de01-31de-42ce-87dd-ff9552bf006d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Work on spring ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/954.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/954.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, integral, work ",
       "url": "/practice-problem/2cf1de01-31de-42ce-87dd-ff9552bf006d",
       "source": "null 9.5.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/961.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/962.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/961.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/962.png\"/\u003e",
       "uuid": "e2ed79f5-fd5d-4779-ae5e-40cac937a9d2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Plate of uniform density ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/960.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/960.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, integral, uniform density ",
       "url": "/practice-problem/e2ed79f5-fd5d-4779-ae5e-40cac937a9d2",
       "source": "null 9.6.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/964.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/964.png\"/\u003e",
       "uuid": "86d3f733-624b-45a9-82a0-af1c15158df6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Center of mass of uniform plate",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/963.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/963.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, center of mass, uniform density ",
       "url": "/practice-problem/86d3f733-624b-45a9-82a0-af1c15158df6",
       "source": "null 9.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/975.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/975.png\"/\u003e",
       "uuid": "8a190a2c-4a17-4e65-b0c7-d10468c2c9e2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Describe function and integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/973.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/973.png\"/\u003e",
       "allAnswers": [],
       "tags": "applications of integration, integral ",
       "url": "/practice-problem/8a190a2c-4a17-4e65-b0c7-d10468c2c9e2",
       "source": "null 9.8.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/996.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/996.png\"/\u003e",
       "uuid": "231b0a1f-984a-45b9-9130-246a70288a00",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,7 +114,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Equation of line in polar corrdinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/995.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/995.png\"/\u003e",
       "allAnswers": [],
       "tags": "polar coordinates, calculus ",
       "url": "/practice-problem/231b0a1f-984a-45b9-9130-246a70288a00",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find equation for circle in polar coordinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/997.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/997.png\"/\u003e",
       "allAnswers": [],
       "tags": "polar coordinates, calculus ",
       "url": "/practice-problem/06b1de2b-9eb1-4082-96ac-91c362300187",
       "source": "null 10.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/999.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/999.png\"/\u003e",
       "uuid": "272dad2d-f435-42de-9cda-f448f51ff352",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph polar equation ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/998.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/998.png\"/\u003e",
       "allAnswers": [],
       "tags": "polar coordinates, graph polar equations ",
       "url": "/practice-problem/272dad2d-f435-42de-9cda-f448f51ff352",
       "source": "null 10.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2001.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2001.png\"/\u003e",
       "uuid": "708edf22-24f2-4e9a-9ceb-d7b78b2c3eb3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Graph polar function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2000.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2000.png\"/\u003e",
       "allAnswers": [],
       "tags": "polar coordinates, graphing polar equations ",
       "url": "/practice-problem/708edf22-24f2-4e9a-9ceb-d7b78b2c3eb3",
       "source": "null 10.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2019.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2019.png\"/\u003e",
       "uuid": "78c988d2-e984-40e1-9a58-51b8342725c1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Show convergence ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2018.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2018.png\"/\u003e",
       "allAnswers": [],
       "tags": "convergence, sequences ",
       "url": "/practice-problem/78c988d2-e984-40e1-9a58-51b8342725c1",
       "source": "null 11.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2021.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2021.png\"/\u003e",
       "uuid": "bb1cf90e-4cab-47a0-984a-7b14174eb41b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Show if function converges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2020.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2020.png\"/\u003e",
       "allAnswers": [],
       "tags": "convergence, sequences, divergence ",
       "url": "/practice-problem/bb1cf90e-4cab-47a0-984a-7b14174eb41b",
       "source": "null 11.12"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2027.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2027.png\"/\u003e",
       "uuid": "d494071f-b4a0-426c-be41-3614f6d341a4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Show if series diverges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2026.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2026.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, sequences, convergence, divergence ",
       "url": "/practice-problem/d494071f-b4a0-426c-be41-3614f6d341a4",
       "source": "null 11.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2032.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2032.png\"/\u003e",
       "uuid": "34ff8866-01e1-4491-b4e5-f6088f00aa68",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Show convergence of series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2031.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2031.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, convergence, divergence, sequences ",
       "url": "/practice-problem/34ff8866-01e1-4491-b4e5-f6088f00aa68",
       "source": "null 11.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2034.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2034.png\"/\u003e",
       "uuid": "d6447dc0-d8b1-4201-9239-dcbf7763bf44",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Show if the series converges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2033.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2033.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, sequences, convergence, divergence ",
       "url": "/practice-problem/d6447dc0-d8b1-4201-9239-dcbf7763bf44",
       "source": "null 11.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2036.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2036.png\"/\u003e",
       "uuid": "9a04cd68-373e-4859-8593-c026c9d36c6e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Show that series diverges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2035.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2035.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, sequences, convergence, divergence ",
       "url": "/practice-problem/9a04cd68-373e-4859-8593-c026c9d36c6e",
       "source": "null 11.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2039.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2039.png\"/\u003e",
       "uuid": "a0313412-995d-413b-bddb-e8cbbaff3b4b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Approximate series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2037.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2037.png\"/\u003e",
       "allAnswers": [],
       "tags": "series, sequences, convergence, divergence ",
       "url": "/practice-problem/a0313412-995d-413b-bddb-e8cbbaff3b4b",
       "source": "null 11.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2061.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2061.png\"/\u003e",
       "uuid": "afb3a425-be77-477f-859e-b775cd5e50da",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Maclaurin series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2060.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2060.png\"/\u003e",
       "allAnswers": [],
       "tags": "maclaurin series, taylor series, series, sequences ",
       "url": "/practice-problem/afb3a425-be77-477f-859e-b775cd5e50da",
       "source": "null 11.10.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2064.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2064.png\"/\u003e",
       "uuid": "4e962c56-a292-4717-86bc-f8ec19ae5036",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find a series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2062.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2062.png\"/\u003e",
       "allAnswers": [],
       "tags": "taylor series, series, sequences, derivative ",
       "url": "/practice-problem/4e962c56-a292-4717-86bc-f8ec19ae5036",
       "source": "null 11.10.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2195.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2195.png\"/\u003e",
       "uuid": "fce652b5-70ab-4d84-9dfd-71bcdea4d558",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,7 +335,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Distance between points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2194.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2194.png\"/\u003e",
       "allAnswers": [],
       "tags": "distance formula, distance between points ",
       "url": "/practice-problem/fce652b5-70ab-4d84-9dfd-71bcdea4d558",
@@ -358,7 +358,7 @@
       "tags": "functions, even, odd, continuity ",
       "url": "/question/86561133-69a5-49a6-8870-a083426f9029",
       "source": "AP Calculus Problems 1.16.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "5763eb5e-442a-4f31-bddd-30ed7e4a7f5f",
@@ -375,7 +375,7 @@
       "tags": "continuity, odd, even, function",
       "url": "/question/5763eb5e-442a-4f31-bddd-30ed7e4a7f5f",
       "source": "AP Calculus Problems 1.16.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "79d5df12-1154-40cf-9a3f-5dcd6425b9ad",
@@ -392,7 +392,7 @@
       "tags": "function, continuity, even, odd",
       "url": "/question/79d5df12-1154-40cf-9a3f-5dcd6425b9ad",
       "source": "AP Calculus Problems 1.16.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "9f75e810-623e-4434-ad5b-6b61d56f6f4a",
@@ -409,7 +409,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/9f75e810-623e-4434-ad5b-6b61d56f6f4a",
       "source": "AP Calculus Problems 4.2.39",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "b4f7531a-29d6-4039-86f2-549950a5788a",
@@ -426,7 +426,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/b4f7531a-29d6-4039-86f2-549950a5788a",
       "source": "AP Calculus Problems 4.2.40",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "11b8c872-2136-4cc7-a7f8-73ff1ccf244e",
@@ -443,7 +443,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/11b8c872-2136-4cc7-a7f8-73ff1ccf244e",
       "source": "AP Calculus Problems 4.2.41",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "c0b18818-5e58-4669-81da-1a6f5dfdb8be",
@@ -460,7 +460,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/c0b18818-5e58-4669-81da-1a6f5dfdb8be",
       "source": "AP Calculus Problems 4.2.42",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "1e722b15-ac17-438f-a0b7-b206af21e5b1",
@@ -477,7 +477,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/1e722b15-ac17-438f-a0b7-b206af21e5b1",
       "source": "AP Calculus Problems 4.2.43",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "2a0c6bf5-19f6-4136-a4ed-9ad0c87b1870",
@@ -494,7 +494,7 @@
       "tags": "continuous, discontinuous",
       "url": "/question/2a0c6bf5-19f6-4136-a4ed-9ad0c87b1870",
       "source": "AP Calculus Problems 1.16.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Continuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
     },
     {
       "uuid": "62cef636-8d94-4ef5-85b5-af9a4183b5c6",
@@ -511,7 +511,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/62cef636-8d94-4ef5-85b5-af9a4183b5c6",
       "source": "AP Calculus Problems 1.16.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "2f62f778-40b9-479e-98b1-22e9138dbcd1",
@@ -528,7 +528,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/2f62f778-40b9-479e-98b1-22e9138dbcd1",
       "source": "AP Calculus Problems 1.16.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "290ef653-e38d-4478-b9bb-b638e9e02748",
@@ -545,7 +545,7 @@
       "tags": "continuity, discontinuity",
       "url": "/question/290ef653-e38d-4478-b9bb-b638e9e02748",
       "source": "AP Calculus Problems 1.16.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "b0b3478d-52f5-4ffd-818c-b45ed148a08f",
@@ -562,7 +562,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/b0b3478d-52f5-4ffd-818c-b45ed148a08f",
       "source": "AP Calculus Problems 1.16.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "a5c3f8d6-a559-48cf-b854-6433b04d2352",
@@ -579,7 +579,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/a5c3f8d6-a559-48cf-b854-6433b04d2352",
       "source": "AP Calculus Problems 1.16.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "abd09c0a-2c01-4f4a-9c2f-c92db19fbda0",
@@ -596,7 +596,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/abd09c0a-2c01-4f4a-9c2f-c92db19fbda0",
       "source": "AP Calculus Problems 1.16.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "d3f013db-ee95-4e08-a78b-6eaad19ff371",
@@ -613,7 +613,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/d3f013db-ee95-4e08-a78b-6eaad19ff371",
       "source": "AP Calculus Problems 1.16.8",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "3f446eb0-54cf-4a9b-8387-995654b76710",
@@ -630,7 +630,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/3f446eb0-54cf-4a9b-8387-995654b76710",
       "source": "AP Calculus Problems 1.16.9",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "422e93f9-37a2-4423-b748-8df80dfea99c",
@@ -647,7 +647,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/422e93f9-37a2-4423-b748-8df80dfea99c",
       "source": "AP Calculus Problems 1.16.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "12929928-8c7a-4fb0-92b1-1394f5189c74",
@@ -664,7 +664,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/12929928-8c7a-4fb0-92b1-1394f5189c74",
       "source": "AP Calculus Problems 1.16.11",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "0b1a0d91-7abf-44af-9f0b-17c2089535f8",
@@ -681,7 +681,7 @@
       "tags": "continuity, discontinuity ",
       "url": "/question/0b1a0d91-7abf-44af-9f0b-17c2089535f8",
       "source": "AP Calculus Problems 1.16.12",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Discontinuous Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Discontinuous Functions"
     },
     {
       "uuid": "cfe15e45-f02c-4bc0-bf55-913cb6ed8063",
@@ -698,7 +698,7 @@
       "tags": "limits, infinity, graph",
       "url": "/question/cfe15e45-f02c-4bc0-bf55-913cb6ed8063",
       "source": "AP Calculus Problems 1.17.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e280efff-bb04-4e89-b77c-5f45f11e50bf",
@@ -715,7 +715,7 @@
       "tags": "limits, infinity, graph",
       "url": "/question/e280efff-bb04-4e89-b77c-5f45f11e50bf",
       "source": "AP Calculus Problems 1.17.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "55eceb74-c897-416b-a78f-92ccd5f6a6c4",
@@ -732,7 +732,7 @@
       "tags": "graphing functions, limits, continuity",
       "url": "/question/55eceb74-c897-416b-a78f-92ccd5f6a6c4",
       "source": "AP Calculus Problems 1.17.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "13f15cc9-296b-4b81-b1f7-a66e69161e70",
@@ -749,7 +749,7 @@
       "tags": "limits, continuity, function",
       "url": "/question/13f15cc9-296b-4b81-b1f7-a66e69161e70",
       "source": "AP Calculus Problems 1.17.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "a634b4c1-50d7-4576-b136-d87d8effef8c",
@@ -766,7 +766,7 @@
       "tags": "limits, continuity, function",
       "url": "/question/a634b4c1-50d7-4576-b136-d87d8effef8c",
       "source": "AP Calculus Problems 1.17.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5d6ac7eb-d95f-469d-8a78-f4d92b338c32",
@@ -783,7 +783,7 @@
       "tags": "limits, continuity ",
       "url": "/question/5d6ac7eb-d95f-469d-8a78-f4d92b338c32",
       "source": "AP Calculus Problems 1.17.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6e3ede0f-9c2a-4ec1-9b73-6d07c7e27e8a",
@@ -800,7 +800,7 @@
       "tags": "limits, continuity",
       "url": "/question/6e3ede0f-9c2a-4ec1-9b73-6d07c7e27e8a",
       "source": "AP Calculus Problems 1.17.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "1412dd89-598f-4b79-946a-83afba8b33e2",
@@ -817,7 +817,7 @@
       "tags": "limits, continuity ",
       "url": "/question/1412dd89-598f-4b79-946a-83afba8b33e2",
       "source": "AP Calculus Problems 1.17.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "26a84b1a-e59e-4f1f-a00e-fef68e9b432d",
@@ -834,7 +834,7 @@
       "tags": "limits, continuity ",
       "url": "/question/26a84b1a-e59e-4f1f-a00e-fef68e9b432d",
       "source": "AP Calculus Problems 1.17.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "73c7c9e1-5685-4707-a634-61a874c95ec0",
@@ -851,7 +851,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/73c7c9e1-5685-4707-a634-61a874c95ec0",
       "source": "AP Calculus Problems 1.18.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "faf879bb-0aca-4fb0-9318-173ce7cf0e65",
@@ -868,7 +868,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/faf879bb-0aca-4fb0-9318-173ce7cf0e65",
       "source": "AP Calculus Problems 1.18.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f55e577f-8e2c-4360-be73-36e47b70a3de",
@@ -885,7 +885,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/f55e577f-8e2c-4360-be73-36e47b70a3de",
       "source": "AP Calculus Problems 1.18.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "7393ca55-a3ef-4943-861a-ec29a9166c49",
@@ -902,7 +902,7 @@
       "tags": "limits, functions, multiple choice",
       "url": "/question/7393ca55-a3ef-4943-861a-ec29a9166c49",
       "source": "AP Calculus Problems 1.18.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5cbd6342-63f6-4512-942b-1531ef25eda5",
@@ -919,7 +919,7 @@
       "tags": "limits, asymptotes, multiple choice, infinity ",
       "url": "/question/5cbd6342-63f6-4512-942b-1531ef25eda5",
       "source": "AP Calculus Problems 1.18.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "75bf6d4a-104d-4f97-948a-c2bf6ea34514",
@@ -936,7 +936,7 @@
       "tags": "limits, function, multiple choice, continuity",
       "url": "/question/75bf6d4a-104d-4f97-948a-c2bf6ea34514",
       "source": "AP Calculus Problems 1.18.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ab87a7f2-fc3b-4ef0-88d8-5e20078e8a53",
@@ -953,7 +953,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/ab87a7f2-fc3b-4ef0-88d8-5e20078e8a53",
       "source": "AP Calculus Problems 1.18.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "34f6b9dd-a3b9-4a82-8f24-d1f777247e32",
@@ -970,7 +970,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/34f6b9dd-a3b9-4a82-8f24-d1f777247e32",
       "source": "AP Calculus Problems 1.18.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "0043c01c-0d73-489b-8c85-9b6b128a0702",
@@ -987,7 +987,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/0043c01c-0d73-489b-8c85-9b6b128a0702",
       "source": "AP Calculus Problems 1.18.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8e367970-e651-4016-8749-fe32e968134d",
@@ -1004,7 +1004,7 @@
       "tags": "limits, multiple choice, infinity ",
       "url": "/question/8e367970-e651-4016-8749-fe32e968134d",
       "source": "AP Calculus Problems 1.18.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6eb4e167-e4f6-453f-a5b5-3ee9bb9918de",
@@ -1021,7 +1021,7 @@
       "tags": "limits, infinity, multiple choice",
       "url": "/question/6eb4e167-e4f6-453f-a5b5-3ee9bb9918de",
       "source": "AP Calculus Problems 1.18.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f1fb1727-a732-432a-96db-ac579d5ba338",
@@ -1038,7 +1038,7 @@
       "tags": "limits, function, continuity, multiple choice",
       "url": "/question/f1fb1727-a732-432a-96db-ac579d5ba338",
       "source": "AP Calculus Problems 1.18.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6e2e1ff5-bb2c-4b6b-aabe-cca4d65d6de1",
@@ -1055,7 +1055,7 @@
       "tags": "limits, domain, function, multiple choice",
       "url": "/question/6e2e1ff5-bb2c-4b6b-aabe-cca4d65d6de1",
       "source": "AP Calculus Problems 1.18.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "d918c402-d59d-487b-99bc-d1d93ecbbf45",
@@ -1072,7 +1072,7 @@
       "tags": "limits, multiple choice",
       "url": "/question/d918c402-d59d-487b-99bc-d1d93ecbbf45",
       "source": "AP Calculus Problems 1.18.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6b804b18-cbb7-4d0c-84c4-453cf5cd81f3",
@@ -1089,7 +1089,7 @@
       "tags": "limits, continuity, multiple choice",
       "url": "/question/6b804b18-cbb7-4d0c-84c4-453cf5cd81f3",
       "source": "AP Calculus Problems 1.18.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9a88132e-b2b7-49f1-87fe-ccbdf444e193",
@@ -1106,7 +1106,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/9a88132e-b2b7-49f1-87fe-ccbdf444e193",
       "source": "AP Calculus Problems 4.2.44",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "44eb75d8-04d5-45f4-b1a0-607c3be49e82",
@@ -1123,7 +1123,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/44eb75d8-04d5-45f4-b1a0-607c3be49e82",
       "source": "AP Calculus Problems 4.2.45",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "88b6f83b-62db-4e28-93a3-ef90fa3dd3f0",
@@ -1140,7 +1140,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/88b6f83b-62db-4e28-93a3-ef90fa3dd3f0",
       "source": "AP Calculus Problems 4.2.46",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "ed13a0ce-4a8c-4442-a3c6-3e4b1e54ee39",
@@ -1157,7 +1157,7 @@
       "tags": "integrals, differentiation, fundamental theorem of calculus, average value, area",
       "url": "/question/ed13a0ce-4a8c-4442-a3c6-3e4b1e54ee39",
       "source": "AP Calculus Problems 4.2.47",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Integral/Limits"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
     },
     {
       "uuid": "7299e478-afd8-4631-986c-8b998404c12e",
@@ -1174,7 +1174,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/7299e478-afd8-4631-986c-8b998404c12e",
       "source": "AP Calculus Problems 4.2.48",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "74660f6b-9e25-4bd0-bf44-8e2b1c1810bd",
@@ -1191,7 +1191,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/74660f6b-9e25-4bd0-bf44-8e2b1c1810bd",
       "source": "AP Calculus Problems 4.2.49",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "1a68a0f4-1961-4756-bf2c-08407c80874b",
@@ -1208,7 +1208,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/1a68a0f4-1961-4756-bf2c-08407c80874b",
       "source": "AP Calculus Problems 4.2.50",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "5ad331a7-28da-4904-8134-e8386977786f",
@@ -1225,7 +1225,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/5ad331a7-28da-4904-8134-e8386977786f",
       "source": "AP Calculus Problems 4.2.51",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "c745adba-515f-4e5f-9209-e4806e5d58b6",
@@ -1242,7 +1242,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/c745adba-515f-4e5f-9209-e4806e5d58b6",
       "source": "AP Calculus Problems 4.2.52",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "aaa30d6f-3c8b-484b-a8ee-b71862014029",
@@ -1259,7 +1259,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/aaa30d6f-3c8b-484b-a8ee-b71862014029",
       "source": "AP Calculus Problems 4.2.53",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b4aeb02c-ee14-4bd4-87a5-91bc3a86c799",
@@ -1276,7 +1276,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/b4aeb02c-ee14-4bd4-87a5-91bc3a86c799",
       "source": "AP Calculus Problems 4.2.54",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ce0e899b-1c50-4340-b48b-b104156823e6",
@@ -1293,7 +1293,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/ce0e899b-1c50-4340-b48b-b104156823e6",
       "source": "AP Calculus Problems 4.2.55",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "efbec294-ddc8-434b-91c4-36852fe4ae9b",
@@ -1310,7 +1310,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/efbec294-ddc8-434b-91c4-36852fe4ae9b",
       "source": "AP Calculus Problems 4.2.56",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "3b26e2ef-9d80-488f-842f-547c422720b5",
@@ -1327,7 +1327,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/3b26e2ef-9d80-488f-842f-547c422720b5",
       "source": "AP Calculus Problems 4.2.57",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "031799d2-27f6-4ba8-9b23-ba32707b041e",
@@ -1344,7 +1344,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/031799d2-27f6-4ba8-9b23-ba32707b041e",
       "source": "AP Calculus Problems 4.2.58",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "9cd8e652-38c5-4bf0-93f9-8e686d8742da",
@@ -1378,7 +1378,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/99c80d1e-7bdd-4309-8b4b-eba844fdb29a",
       "source": "AP Calculus Problems 4.2.59",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "21e28802-dbe0-4b14-a7c7-11a928d10bc4",
@@ -1395,7 +1395,7 @@
       "tags": "limits, function, domain, asymptote, zeros",
       "url": "/question/21e28802-dbe0-4b14-a7c7-11a928d10bc4",
       "source": "AP Calculus Problems 1.19.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "3694f753-82f3-444a-a537-0fcdfed946bf",
@@ -1412,7 +1412,7 @@
       "tags": "limits, function, zeros, domain",
       "url": "/question/3694f753-82f3-444a-a537-0fcdfed946bf",
       "source": "AP Calculus Problems 1.19.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6dba6899-9b4f-42b3-9fea-fdf9a326e480",
@@ -1429,7 +1429,7 @@
       "tags": "integrals, differentiation, equations, derivatives, antiderivatives",
       "url": "/question/6dba6899-9b4f-42b3-9fea-fdf9a326e480",
       "source": "AP Calculus Problems 4.2.60",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "0afa7e25-f019-4e56-93d5-264aaf86fea2",
@@ -1446,7 +1446,7 @@
       "tags": "integrals, differentiation, equations, derivatives, antiderivatives",
       "url": "/question/0afa7e25-f019-4e56-93d5-264aaf86fea2",
       "source": "AP Calculus Problems 4.2.61",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "d3ddefc0-0d8f-4c51-8d38-2b37ae85f5e1",
@@ -1463,7 +1463,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/d3ddefc0-0d8f-4c51-8d38-2b37ae85f5e1",
       "source": "AP Calculus Problems 4.2.62",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "63de2a54-7a45-46ea-b510-52e4bebf92ca",
@@ -1480,7 +1480,7 @@
       "tags": "limits, graph, domain",
       "url": "/question/63de2a54-7a45-46ea-b510-52e4bebf92ca",
       "source": "AP Calculus Problems 1.19.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "520aff59-8a7d-4a06-89d5-803eae85cd77",
@@ -1497,7 +1497,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/520aff59-8a7d-4a06-89d5-803eae85cd77",
       "source": "AP Calculus Problems 4.2.63",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "587a7cd3-0a3a-417a-89c4-aca319fca40b",
@@ -1514,7 +1514,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/587a7cd3-0a3a-417a-89c4-aca319fca40b",
       "source": "AP Calculus Problems 4.2.64",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "5dfb8b23-7f78-4cd1-9d05-911e56c2d568",
@@ -1531,7 +1531,7 @@
       "tags": "integrals, differentiation, cross section, volume, antiderivatives",
       "url": "/question/5dfb8b23-7f78-4cd1-9d05-911e56c2d568",
       "source": "AP Calculus Problems 4.2.65",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "d3175dd0-e830-4db2-8f61-c1c83f262069",
@@ -1548,7 +1548,7 @@
       "tags": "fractional exponents, derivatives",
       "url": "/question/d3175dd0-e830-4db2-8f61-c1c83f262069",
       "source": "AP Calculus Problems 2.1.1",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     },
     {
       "uuid": "a3c8708c-d665-4119-80f4-3e3bfcc4a8a8",
@@ -1565,7 +1565,7 @@
       "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
       "url": "/question/a3c8708c-d665-4119-80f4-3e3bfcc4a8a8",
       "source": "AP Calculus Problems 4.2.66",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "f674e145-5a0a-478d-ba2d-a04c07109b94",
@@ -1582,7 +1582,7 @@
       "tags": "fractional exponents, derivative, expressions",
       "url": "/question/f674e145-5a0a-478d-ba2d-a04c07109b94",
       "source": "AP Calculus Problems 2.1.2",
-      "topic": "Algebra/Quadratic Equations and Functions/Factoring/Perfect Square Trinomial"
+      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
     },
     {
       "uuid": "f8244ec9-bc8f-48a6-9237-134a63c7b424",
@@ -1599,7 +1599,7 @@
       "tags": "fractional exponents, expression, derivatives",
       "url": "/question/f8244ec9-bc8f-48a6-9237-134a63c7b424",
       "source": "AP Calculus Problems 2.1.3",
-      "topic": "Calculus/Rules for Finding Derivatives/The Power Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Cross Product",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6094.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6089.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6090.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6094.png\"/\u003e",
       "allAnswers": [],
       "tags": "cross product, determinants, distributive law, triple product, right hand rule, parallelopiped",
       "url": "/text-content/71a5420a-04a7-4754-9e16-e47cc54fbb3e",
       "source": "Forgotten Text 7 5.46",
-      "topic": "Calculus/Vectors/Cross Product"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Cross Product"
     },
     {
       "uuid": "0a2259c1-2572-4eab-b176-cb840f431614",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivative of a vector function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6099.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6103.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6104.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6099.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6102.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6103.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6104.png\"/\u003e",
       "allAnswers": [],
       "tags": "vector functions, derivatives, rectilinear motion, parametric curves ",
       "url": "/text-content/0a2259c1-2572-4eab-b176-cb840f431614",
       "source": "Forgotten Text 7 5.52",
-      "topic": "Calculus/Vector Functions/Derivatives"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Vector Derivatives"
     },
     {
       "uuid": "f9c0a335-d7a5-473f-8a48-1a886b0372a5",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Acceleration and Force",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6106.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6105.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6106.png\"/\u003e",
       "allAnswers": [],
       "tags": "acceleration, force, derivatives",
       "url": "/text-content/f9c0a335-d7a5-473f-8a48-1a886b0372a5",
       "source": "Forgotten Text 7 5.55",
-      "topic": "Calculus/Vector Functions/Acceleration and Force"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Acceleration and Force"
     },
     {
       "uuid": "10547ab1-7ecc-4497-bb3b-ce761a8aeef4",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Parametric Curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6098.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6096.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6097.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6098.png\"/\u003e",
       "allAnswers": [],
       "tags": "parametric curves, vector functions, rectilinear motion, counterclockwise direction",
       "url": "/text-content/10547ab1-7ecc-4497-bb3b-ce761a8aeef4",
       "source": "Forgotten Text 7 6.5",
-      "topic": "Calculus/Vector Functions/Parametric Curves"
+      "topic": "Calculus/Other Calculus Topics/Vectors/Parametric Equations/Parametric Vectors"
     }
   ],
   "answers": [],

@@ -188,7 +188,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/257d5b17-95ba-4dbf-af51-bc9a6e8da672",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "1cbbfbfd-8243-4bd2-b591-2c6a4e10da30",
@@ -205,7 +205,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/1cbbfbfd-8243-4bd2-b591-2c6a4e10da30",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "f96a8461-5589-4483-8785-4d4ccbb5f93c",
@@ -222,7 +222,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/f96a8461-5589-4483-8785-4d4ccbb5f93c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "778222f6-f7b6-47bb-b8af-6a91abf12c5f",
@@ -239,7 +239,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/778222f6-f7b6-47bb-b8af-6a91abf12c5f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "f03b5a43-0566-4b6f-9d05-0b3c5bb76138",
@@ -256,7 +256,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/f03b5a43-0566-4b6f-9d05-0b3c5bb76138",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "d3201494-d1df-4561-a2d2-f0a719328565",
@@ -273,7 +273,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/d3201494-d1df-4561-a2d2-f0a719328565",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "bfed24ea-65ac-4f84-ab0f-7697d52b9467",
@@ -290,7 +290,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/bfed24ea-65ac-4f84-ab0f-7697d52b9467",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "6b2cf2c8-5eef-46c8-8f35-1706e5d21824",
@@ -307,7 +307,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/6b2cf2c8-5eef-46c8-8f35-1706e5d21824",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "479b58be-fc3f-4ea9-a132-9179ebb261be",
@@ -324,7 +324,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/479b58be-fc3f-4ea9-a132-9179ebb261be",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "5844d659-8793-42bf-8e13-9ba8e7e3159e",
@@ -426,7 +426,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/0105c0a5-d2c6-4022-9177-5bb3127db37e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "1b8080eb-94dd-4a04-85c1-5605caedcaaa",
@@ -443,7 +443,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/1b8080eb-94dd-4a04-85c1-5605caedcaaa",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "72b07ee0-386c-4a05-ba08-66b0d2d75820",
@@ -460,7 +460,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/72b07ee0-386c-4a05-ba08-66b0d2d75820",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "fa8e2aac-20eb-4d35-b467-0ba15ecfc4ed",
@@ -477,7 +477,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/fa8e2aac-20eb-4d35-b467-0ba15ecfc4ed",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "ba253549-c32b-4852-a78c-d3cc658a5ec5",
@@ -494,7 +494,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions, word problem",
       "url": "/question/ba253549-c32b-4852-a78c-d3cc658a5ec5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "84445d4f-824e-4742-989e-8a203063a7c6",
@@ -511,7 +511,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/84445d4f-824e-4742-989e-8a203063a7c6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "248285fb-a952-4b23-8afe-45950489af28",
@@ -528,7 +528,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/248285fb-a952-4b23-8afe-45950489af28",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "a4639725-3662-4031-b1b6-38bf05fccfbb",
@@ -545,7 +545,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/a4639725-3662-4031-b1b6-38bf05fccfbb",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "b816dfcf-b2a0-4973-9f4d-fcd821082f9f",
@@ -562,7 +562,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/b816dfcf-b2a0-4973-9f4d-fcd821082f9f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "77e89c1f-f7f2-4a79-a288-abc0c96f9aed",
@@ -579,7 +579,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/77e89c1f-f7f2-4a79-a288-abc0c96f9aed",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "0ab506a1-6bc9-4501-be59-ea229449ff2a",
@@ -596,7 +596,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/0ab506a1-6bc9-4501-be59-ea229449ff2a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "0da11d31-2f69-4571-ae24-fa3473a8cbcb",
@@ -613,7 +613,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/0da11d31-2f69-4571-ae24-fa3473a8cbcb",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "6e568981-3ec8-4a16-a120-ab7cc78fc011",
@@ -630,7 +630,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions, word problem",
       "url": "/question/6e568981-3ec8-4a16-a120-ab7cc78fc011",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "d00835fe-0d44-40cd-a2d6-75c6886e3918",
@@ -647,7 +647,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/d00835fe-0d44-40cd-a2d6-75c6886e3918",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "bb71806a-c8ad-45e1-bafe-3a87f46e9f9d",
@@ -664,7 +664,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/bb71806a-c8ad-45e1-bafe-3a87f46e9f9d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "5b92ba18-03b2-4b02-a0ce-a56d878bba83",
@@ -681,7 +681,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/5b92ba18-03b2-4b02-a0ce-a56d878bba83",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "b0bbe439-94f2-4e47-8bb1-d14964d8782f",
@@ -698,7 +698,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/b0bbe439-94f2-4e47-8bb1-d14964d8782f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "3e923a57-3c3c-466f-bf89-a7e033e79ac0",
@@ -715,7 +715,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/3e923a57-3c3c-466f-bf89-a7e033e79ac0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "3ea848c8-d820-407b-8c23-c03dec6b6eb5",
@@ -732,7 +732,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/3ea848c8-d820-407b-8c23-c03dec6b6eb5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "ce756a6e-e071-4911-9cc6-8909d5aa1144",
@@ -749,7 +749,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/ce756a6e-e071-4911-9cc6-8909d5aa1144",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "32291331-63fe-4f22-b4ad-ed8f562b13ec",
@@ -766,7 +766,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
       "url": "/question/32291331-63fe-4f22-b4ad-ed8f562b13ec",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "962bb81c-642d-484c-b8fb-b57a4b42ae91",
@@ -783,7 +783,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions, word problem",
       "url": "/question/962bb81c-642d-484c-b8fb-b57a4b42ae91",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     },
     {
       "uuid": "25383d1c-db7c-4c48-b711-360fefe2e0ea",
@@ -800,7 +800,7 @@
       "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions, word problem",
       "url": "/question/25383d1c-db7c-4c48-b711-360fefe2e0ea",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions, Equations, and Graphs/Relations/Domain and Range"
+      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
     }
   ],
   "textContent": [
@@ -819,7 +819,7 @@
       "tags": "logic, truth value, mathematical sentences, non mathematical sentences, open sentences, negations",
       "url": "/text-content/2abc3963-7943-4727-ae84-f4ea33191cc8",
       "source": "Amsco Geometry Textbook 2.1",
-      "topic": "Geometry/Logic/Inductive Reasoning"
+      "topic": "Geometry/Other Topics/Logic/Inductive Reasoning"
     },
     {
       "uuid": "9a3e0be2-0ba5-4599-9718-c040e5ac8a83",
@@ -836,7 +836,7 @@
       "tags": "conjunctions, open sentences, symbols, logic, mathematical sentences, domains, truth sets, replacement sets, compound sentences",
       "url": "/text-content/9a3e0be2-0ba5-4599-9718-c040e5ac8a83",
       "source": "Amsco Geometry Textbook 2.2",
-      "topic": "Geometry/Logic/Conjunctions"
+      "topic": "Geometry/Other Topics/Logic/Conjunctions"
     }
   ],
   "answers": [],

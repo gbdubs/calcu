@@ -358,7 +358,7 @@
       "tags": "convergence, divergence, divergent, convergent, sum, series, sequences ",
       "url": "/question/443908fe-206b-4e2d-b099-07553ec7bc43",
       "source": "Calculus, Early Transcendentals 11.5.1",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series "
+      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
     },
     {
       "uuid": "d14e644f-6854-4297-8a2f-6f6df5ef628a",
@@ -375,7 +375,7 @@
       "tags": "multi-problem, converge absolutely, converge conditionally, diverge, converge",
       "url": "/question/d14e644f-6854-4297-8a2f-6f6df5ef628a",
       "source": "Calculus, Early Transcendentals 11.6.1",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "1407d19c-a65e-49aa-be24-1ddc18a61413",
@@ -392,7 +392,7 @@
       "tags": "converges absolutely, converges conditionally, diverges, converges, convergence, divergence, sums, series, sequences ",
       "url": "/question/1407d19c-a65e-49aa-be24-1ddc18a61413",
       "source": "Calculus, Early Transcendentals 11.6.1 ",
-      "topic": "Calculus/Sequences and Series/Sequences/Converges"
+      "topic": "Calculus/Sequences and Series/Sequences/Convergent Series"
     },
     {
       "uuid": "8381e522-b7f0-48c8-a53a-ebd31efdc296",
@@ -477,7 +477,7 @@
       "tags": "radius, interval, convergence, radius of convergence, interval of convergence, multi-problem",
       "url": "/question/ea619900-224f-4b26-914c-2404eee0d740",
       "source": "Calculus, Early Transcendentals 11.8.1",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series "
+      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
     },
     {
       "uuid": "4560a78b-dcc4-4b1d-8687-7b7546ad1b4d",
@@ -494,7 +494,7 @@
       "tags": "radius, interval, interval of convergence, radius of convergence, multi-problem",
       "url": "/question/4560a78b-dcc4-4b1d-8687-7b7546ad1b4d",
       "source": "Calculus, Early Transcendentals 11.8.2",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series "
+      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
     },
     {
       "uuid": "1ab1ba19-3c8a-4e58-868e-d5790f6b218a",
@@ -647,7 +647,7 @@
       "tags": "algebraic expression, derivatives",
       "url": "/question/2f5629ce-3f7f-4e1f-8691-52de64635a98",
       "source": "Calculus, Early Transcendentals 2.1.4",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "9fc7c04a-736d-4f61-80fd-6df4721cea79",
@@ -664,7 +664,7 @@
       "tags": "graphing, derivatives, chords, lines, slope",
       "url": "/question/9fc7c04a-736d-4f61-80fd-6df4721cea79",
       "source": "Calculus, Early Transcendentals 2.1.5",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "25e45755-65ab-47af-9649-ae32bc9ae74e",
@@ -681,7 +681,7 @@
       "tags": "algebraic expression, derivatives, ",
       "url": "/question/25e45755-65ab-47af-9649-ae32bc9ae74e",
       "source": "Calculus, Early Transcendentals 2.1.6",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "dbab400d-dee6-4a10-a5d9-93ecd80535ca",
@@ -698,7 +698,7 @@
       "tags": "parabola, slope, tangent line, functions, derivatives",
       "url": "/question/dbab400d-dee6-4a10-a5d9-93ecd80535ca",
       "source": "Calculus, Early Transcendentals 2.1.8",
-      "topic": "Calculus/Rules for Finding Derivatives/Linearity of the Derivative/The Sum Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Sum Rule"
     },
     {
       "uuid": "68e53bc3-965b-4602-980d-d0c8ec22e47d",
@@ -710,12 +710,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the Average Speed",
-      "body": "An object is traveling in a straight line so that its position (that is, distance from some fixed point) is given by the table. Find the average speed of the object during the following time intervals: [0, 1], [0, 2], [0, 3], [1,2], [1,3], [2,3]. If you had to guess the speed at \\(t \u003d 2\\) just on the basis of these, what would you guess?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10146.png\"/\u003e",
+      "body": "An object is traveling in a straight line so that its position (that is, distance from some fixed point) is given by the table. Find the average speed of the object during the following time intervals: [0, 1], [0, 2], [0, 3], [1,2], [1,3], [2,3]. If you had to guess the speed at \\(t \u003d 2\\) just on the basis of these, what would you guess?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10146.png\"/\u003e",
       "allAnswers": [],
       "tags": "average speed, derivatives, rate of change, instantaneous ",
       "url": "/question/68e53bc3-965b-4602-980d-d0c8ec22e47d",
       "source": "Calculus, Early Transcendentals 2.2.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Tangent Line/Derivative"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
     },
     {
       "uuid": "6add39b2-75c4-4d67-95ca-cbb9a3426ce5",
@@ -732,7 +732,7 @@
       "tags": "instantaneous speed, slope, derivatives, rate of change",
       "url": "/question/6add39b2-75c4-4d67-95ca-cbb9a3426ce5",
       "source": "Calculus, Early Transcendentals 2.2.2",
-      "topic": "Calculus/Rules for Finding Derivatives/Linearity of the Derivative/The Sum Rule"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Sum Rule"
     },
     {
       "uuid": "934eeb23-00b6-49b3-ac6f-ee0584ebcaa7",
@@ -749,7 +749,7 @@
       "tags": "instantaneous speed, derivatives, rate of change, velocity",
       "url": "/question/934eeb23-00b6-49b3-ac6f-ee0584ebcaa7",
       "source": "Calculus, Early Transcendentals 2.2.3",
-      "topic": "Pre-Calculus/Trigonometry/Hooked on Conics/Non-Degenerate Conic Section/Parabola"
+      "topic": "Trigonometry/Other Topics in Trigonometry/Conics/Parabola"
     },
     {
       "uuid": "4e2624f0-dd25-4f4f-ba18-9c05ffcfe5d3",
@@ -766,7 +766,7 @@
       "tags": "slope, unit circle, tangent line, trigonometric function",
       "url": "/question/4e2624f0-dd25-4f4f-ba18-9c05ffcfe5d3",
       "source": "Calculus, Early Transcendentals 2.2.7",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Slope of a Chord/Difference Quotient"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Slope of a Function"
     },
     {
       "uuid": "7f178591-ff68-4322-97ea-f280d291a750",
@@ -783,7 +783,7 @@
       "tags": "limits, rate of change",
       "url": "/question/7f178591-ff68-4322-97ea-f280d291a750",
       "source": "Calculus, Early Transcendentals 2.3.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Slope of a Chord/Difference Quotient"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Slope of a Function"
     },
     {
       "uuid": "ad165127-2625-46f5-b310-6f16bb5a1903",
@@ -800,7 +800,7 @@
       "tags": "limits, rate of change",
       "url": "/question/ad165127-2625-46f5-b310-6f16bb5a1903",
       "source": "Calculus, Early Transcendentals 2.3.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Slope of a Chord/Difference Quotient"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Slope of a Function"
     },
     {
       "uuid": "3a923477-316c-4baf-978a-c901e93af3a7",
@@ -817,7 +817,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/3a923477-316c-4baf-978a-c901e93af3a7",
       "source": "Calculus, Early Transcendentals 4.1.1",
-      "topic": "Pre-Calculus/Trigonometry/The Unit Circle/The Pythagorean Identity/Angle"
+      "topic": "Trigonometry/Foundations of Trigonometry/The Unit Circle/Pythagorean Theorem/Angles"
     },
     {
       "uuid": "19f7ea65-9527-4cd8-a530-076bd9ed0997",
@@ -834,7 +834,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/19f7ea65-9527-4cd8-a530-076bd9ed0997",
       "source": "Calculus, Early Transcendentals 4.1.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Slope of a Chord/Difference Quotient"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Slope of a Function"
     },
     {
       "uuid": "e3c181c0-fdd3-4aff-aa57-8e49e2bc1718",
@@ -851,7 +851,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/e3c181c0-fdd3-4aff-aa57-8e49e2bc1718",
       "source": "Calculus, Early Transcendentals 4.1.10",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/The Slope of a Function/Chord/Slope of a Chord/Difference Quotient"
+      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Slope of a Function"
     },
     {
       "uuid": "996bc231-3a28-419b-adac-24b95224942d",
@@ -868,7 +868,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations, solution to trig function",
       "url": "/question/996bc231-3a28-419b-adac-24b95224942d",
       "source": "Calculus, Early Transcendentals 4.1.11",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "277be0a5-fdf0-416a-b22a-85f429089cf8",
@@ -885,7 +885,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/277be0a5-fdf0-416a-b22a-85f429089cf8",
       "source": "Calculus, Early Transcendentals 4.1.2",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "d9a47dfe-d059-47e4-a205-bf2d99211b5e",
@@ -902,7 +902,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/d9a47dfe-d059-47e4-a205-bf2d99211b5e",
       "source": "Calculus, Early Transcendentals 4.1.2",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "9ae9a046-8da7-475e-ab15-960b8a93272c",
@@ -919,7 +919,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/9ae9a046-8da7-475e-ab15-960b8a93272c",
       "source": "Calculus, Early Transcendentals 4.1.3",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "c231f54b-bb09-448d-ba4b-4bb71c8cea18",
@@ -936,7 +936,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/c231f54b-bb09-448d-ba4b-4bb71c8cea18",
       "source": "Calculus, Early Transcendentals 4.1.4",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "b71e0518-dd7d-43a5-bd6a-6a00c8d1c1d2",
@@ -953,7 +953,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations, angle sum identity",
       "url": "/question/b71e0518-dd7d-43a5-bd6a-6a00c8d1c1d2",
       "source": "Calculus, Early Transcendentals 4.1.5",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "76d0cce7-9d70-4ca1-94c6-e67d46479384",
@@ -970,7 +970,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/76d0cce7-9d70-4ca1-94c6-e67d46479384",
       "source": "Calculus, Early Transcendentals 4.1.6",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "f74df7f7-ebad-41bc-980c-a646935c3429",
@@ -987,7 +987,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/f74df7f7-ebad-41bc-980c-a646935c3429",
       "source": "Calculus, Early Transcendentals 4.1.7",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "3a8af87d-42a1-4cf2-b4c2-effa5dabafd9",
@@ -1004,7 +1004,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations, graphing trig equations",
       "url": "/question/3a8af87d-42a1-4cf2-b4c2-effa5dabafd9",
       "source": "Calculus, Early Transcendentals 4.1.8",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "4aeaa067-a9f3-457d-a159-d5ffed584054",
@@ -1021,7 +1021,7 @@
       "tags": "trigonometric functions, basic trigonometry, subtended angle, sine equations, cosine equations",
       "url": "/question/4aeaa067-a9f3-457d-a159-d5ffed584054",
       "source": "Calculus, Early Transcendentals 4.1.9",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "da0989c1-e640-44b0-bcb0-666234474c1f",
@@ -1038,7 +1038,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/da0989c1-e640-44b0-bcb0-666234474c1f",
       "source": "Calculus, Early Transcendentals 4.10.1",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "ccf85c43-aac4-43a4-8744-9d94b9829d5d",
@@ -1055,7 +1055,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/ccf85c43-aac4-43a4-8744-9d94b9829d5d",
       "source": "Calculus, Early Transcendentals 4.10.10",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "8ae13341-d970-420b-88e3-55543b814103",
@@ -1072,7 +1072,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/8ae13341-d970-420b-88e3-55543b814103",
       "source": "Calculus, Early Transcendentals 4.10.11",
-      "topic": "Pre-Calculus/Trigonometry/Trigonometric Equations and Inequalities/Solving Basic Equations Involving Trigonometric Functions"
+      "topic": "Trigonometry/Trigonometric Equations/Equations"
     },
     {
       "uuid": "2b7c8d61-19c5-41f3-860c-f41406f91625",
@@ -1089,7 +1089,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/2b7c8d61-19c5-41f3-860c-f41406f91625",
       "source": "Calculus, Early Transcendentals 4.10.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9e962a21-c6bd-467d-bfa2-5e99899ab5fe",
@@ -1106,7 +1106,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/9e962a21-c6bd-467d-bfa2-5e99899ab5fe",
       "source": "Calculus, Early Transcendentals 4.10.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "72ea2356-0062-4b2b-87b2-ac584b07e316",
@@ -1123,7 +1123,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/72ea2356-0062-4b2b-87b2-ac584b07e316",
       "source": "Calculus, Early Transcendentals 4.10.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f16495d6-f120-410d-8445-d56e1ab0d177",
@@ -1140,7 +1140,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/f16495d6-f120-410d-8445-d56e1ab0d177",
       "source": "Calculus, Early Transcendentals 4.10.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "92516ad0-1fc1-488c-8e92-d2c81db07af5",
@@ -1157,7 +1157,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/92516ad0-1fc1-488c-8e92-d2c81db07af5",
       "source": "Calculus, Early Transcendentals 4.10.16",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "062a8e56-8897-48d1-83e8-401820f04a0f",
@@ -1174,7 +1174,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/062a8e56-8897-48d1-83e8-401820f04a0f",
       "source": "Calculus, Early Transcendentals 4.10.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "dad47c13-c50a-4230-a104-fc5d25614021",
@@ -1191,7 +1191,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/dad47c13-c50a-4230-a104-fc5d25614021",
       "source": "Calculus, Early Transcendentals 4.10.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8f8bb48a-1e18-4b54-be6a-6b685cfcae25",
@@ -1208,7 +1208,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/8f8bb48a-1e18-4b54-be6a-6b685cfcae25",
       "source": "Calculus, Early Transcendentals 4.10.19",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "c98df599-039b-40f6-a735-f6d2391b3ca6",
@@ -1225,7 +1225,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/c98df599-039b-40f6-a735-f6d2391b3ca6",
       "source": "Calculus, Early Transcendentals 4.10.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ccf2a57b-30f8-4482-bfe2-835005c68859",
@@ -1242,7 +1242,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/ccf2a57b-30f8-4482-bfe2-835005c68859",
       "source": "Calculus, Early Transcendentals 4.10.20",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "0969188c-f9f9-4758-aa77-0f7727eaae2b",
@@ -1259,7 +1259,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/0969188c-f9f9-4758-aa77-0f7727eaae2b",
       "source": "Calculus, Early Transcendentals 4.10.21",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "769183b0-b0a1-4652-baf1-6a64a133addd",
@@ -1276,7 +1276,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/769183b0-b0a1-4652-baf1-6a64a133addd",
       "source": "Calculus, Early Transcendentals 4.10.22",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "0cba0c0c-34f2-4ae0-8559-772ceed62380",
@@ -1293,7 +1293,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/0cba0c0c-34f2-4ae0-8559-772ceed62380",
       "source": "Calculus, Early Transcendentals 4.10.23",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e2715079-19e4-44d1-b4e4-2795ad6a8a17",
@@ -1310,7 +1310,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/e2715079-19e4-44d1-b4e4-2795ad6a8a17",
       "source": "Calculus, Early Transcendentals 4.10.24",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "f39e7458-8301-49e6-9e7a-b9f9f4b52f06",
@@ -1327,7 +1327,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/f39e7458-8301-49e6-9e7a-b9f9f4b52f06",
       "source": "Calculus, Early Transcendentals 4.10.25",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "46c54865-55a0-4b00-9c3f-36fc7f4f7c73",
@@ -1344,7 +1344,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/46c54865-55a0-4b00-9c3f-36fc7f4f7c73",
       "source": "Calculus, Early Transcendentals 4.10.26",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "e14c9078-9e2f-46af-9467-3fa6be2a722c",
@@ -1361,7 +1361,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/e14c9078-9e2f-46af-9467-3fa6be2a722c",
       "source": "Calculus, Early Transcendentals 4.10.27",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "1e913579-d5ce-4c7c-b602-967ab75c9bbd",
@@ -1378,7 +1378,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/1e913579-d5ce-4c7c-b602-967ab75c9bbd",
       "source": "Calculus, Early Transcendentals 4.10.28",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "c3c36fc2-d444-442e-9074-f6742fb6cafa",
@@ -1395,7 +1395,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/c3c36fc2-d444-442e-9074-f6742fb6cafa",
       "source": "Calculus, Early Transcendentals 4.10.29",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6c131b20-dad7-422e-9459-8da6f568a136",
@@ -1412,7 +1412,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/6c131b20-dad7-422e-9459-8da6f568a136",
       "source": "Calculus, Early Transcendentals 4.10.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "70af9fc6-3678-468c-90db-5c69510c49e9",
@@ -1429,7 +1429,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/70af9fc6-3678-468c-90db-5c69510c49e9",
       "source": "Calculus, Early Transcendentals 4.10.30",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "ffebbb4a-260d-41bd-a932-852e955e5ea2",
@@ -1446,7 +1446,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/ffebbb4a-260d-41bd-a932-852e955e5ea2",
       "source": "Calculus, Early Transcendentals 4.10.31",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "9a37f418-ed39-497f-a2d8-e0afe42c62b3",
@@ -1463,7 +1463,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/9a37f418-ed39-497f-a2d8-e0afe42c62b3",
       "source": "Calculus, Early Transcendentals 4.10.32",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "3eef6534-80f0-4169-963e-ccf211c4ab4e",
@@ -1480,7 +1480,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/3eef6534-80f0-4169-963e-ccf211c4ab4e",
       "source": "Calculus, Early Transcendentals 4.10.33",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "fbaccf32-7c06-4592-a740-12c4e98d7d89",
@@ -1497,7 +1497,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/fbaccf32-7c06-4592-a740-12c4e98d7d89",
       "source": "Calculus, Early Transcendentals 4.10.34",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "6dff33cc-cf3f-4f54-baac-d697c28ed413",
@@ -1514,7 +1514,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/6dff33cc-cf3f-4f54-baac-d697c28ed413",
       "source": "Calculus, Early Transcendentals 4.10.35",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "636dfbd5-cded-49ef-a902-f73101e39470",
@@ -1531,7 +1531,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/636dfbd5-cded-49ef-a902-f73101e39470",
       "source": "Calculus, Early Transcendentals 4.10.36",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8fef6737-f909-48e6-8172-caae9e4c05ee",
@@ -1548,7 +1548,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/8fef6737-f909-48e6-8172-caae9e4c05ee",
       "source": "Calculus, Early Transcendentals 4.10.37",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "fdd68093-9165-4d3f-90fc-a8c4f1035303",
@@ -1565,7 +1565,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/fdd68093-9165-4d3f-90fc-a8c4f1035303",
       "source": "Calculus, Early Transcendentals 4.10.38",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "c5b8941b-10ea-495b-8924-246c806252d9",
@@ -1582,7 +1582,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/c5b8941b-10ea-495b-8924-246c806252d9",
       "source": "Calculus, Early Transcendentals 4.10.39",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "8f128ed5-e96f-40c4-8072-86a32df14aba",
@@ -1599,7 +1599,7 @@
       "tags": "L_hopitals rule, complex limits, undefined limits, l_hopital, limits of trig functions, limits of exponential functions, trigonometric limits",
       "url": "/question/8f128ed5-e96f-40c4-8072-86a32df14aba",
       "source": "Calculus, Early Transcendentals 4.10.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L_Hopital_s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     }
   ],
   "textContent": [
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/691.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/692.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/693.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/694.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/691.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/692.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/693.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/694.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, calc, velocity function ",
       "url": "/text-content/0117b0f2-bcf5-4c14-9fc1-f9e35d7f18db",
       "source": "Calculus, Early Transcendentals 1.3",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "871fbaa3-b5fd-40c5-92cf-aa5ca3d1333c",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Shifts and Dilations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/698.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/699.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/700.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/701.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/698.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/699.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/700.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/701.png\"/\u003e",
       "allAnswers": [],
       "tags": "shifts, dilations, calc",
       "url": "/text-content/871fbaa3-b5fd-40c5-92cf-aa5ca3d1333c",
       "source": "Calculus, Early Transcendentals 1.4",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "88148079-17f2-4062-b213-59e883b9849a",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Slope of a Function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/702.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/703.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/704.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/705.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/706.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/702.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/703.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/704.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/705.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/706.png\"/\u003e",
       "allAnswers": [],
       "tags": "slope of function, functions, slope, calc",
       "url": "/text-content/88148079-17f2-4062-b213-59e883b9849a",
       "source": "Calculus, Early Transcendentals 2.1",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "0c73b9c4-329a-49f7-9b96-aeb4fd03d008",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "An Example",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/707.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/708.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/707.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/708.png\"/\u003e",
       "allAnswers": [],
       "tags": "average speed, distance function, calc ",
       "url": "/text-content/0c73b9c4-329a-49f7-9b96-aeb4fd03d008",
       "source": "Calculus, Early Transcendentals 2.2",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     },
     {
       "uuid": "6b24af86-5943-4784-addf-f1d1fdfff6f5",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Derivative Function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/732.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/733.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/734.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/735.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/736.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/732.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/733.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/734.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/735.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/736.png\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, derivative functions, calc ",
       "url": "/text-content/6b24af86-5943-4784-addf-f1d1fdfff6f5",
       "source": "Calculus, Early Transcendentals 2.4",
-      "topic": "Pre-Calculus/Trigonometry/Polar Form of Complex Numbers/Complex Number"
+      "topic": "Trigonometry/Polar Coordinates/Complex Numbers in Polar"
     }
   ],
   "answers": [],

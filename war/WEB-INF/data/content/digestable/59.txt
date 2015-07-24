@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/468.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/468.png\"/\u003e",
       "uuid": "a2a0e502-b006-429b-bca7-84bbda622410",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Exact sin and cos theta",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/467.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/467.png\"/\u003e",
       "allAnswers": [],
       "tags": "sin, tan, cos, trig, trig functions ",
       "url": "/practice-problem/a2a0e502-b006-429b-bca7-84bbda622410",
       "source": "null 1.4.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/480.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/480.png\"/\u003e",
       "uuid": "146b291d-adca-4308-b2dc-d1046958c6cc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Solving triangles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/479.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/479.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangles, sines, trig ",
       "url": "/practice-problem/146b291d-adca-4308-b2dc-d1046958c6cc",
       "source": "null 2.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/488.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/488.png\"/\u003e",
       "uuid": "1ed0fcec-5acd-4c65-9232-2273414001ee",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,14 +46,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Solving triangles, pt. 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/487.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/487.png\"/\u003e",
       "allAnswers": [],
       "tags": "sine, cos, trig identities ",
       "url": "/practice-problem/1ed0fcec-5acd-4c65-9232-2273414001ee",
       "source": "null 2.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/490.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/490.png\"/\u003e",
       "uuid": "756833a4-5a78-49a0-a476-86e19e17d654",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -63,14 +63,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Solving triangles, pt.3",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/489.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/489.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangles, trig, trig identities, cos ",
       "url": "/practice-problem/756833a4-5a78-49a0-a476-86e19e17d654",
       "source": "null 2.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/492.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/492.png\"/\u003e",
       "uuid": "03c99abd-7286-44fb-aa84-caf5f0808528",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "solving triangles, pt. 4",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/491.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/491.png\"/\u003e",
       "allAnswers": [],
       "tags": "law of cosines, cos, law of sines, trig ",
       "url": "/practice-problem/03c99abd-7286-44fb-aa84-caf5f0808528",
       "source": "null 2.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/494.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/494.png\"/\u003e",
       "uuid": "000f2d88-5190-4fd3-95ef-a397cdfd06a4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,14 +97,14 @@
       "viewable": true,
       "karma": 3,
       "title": "parallelogram, law of cosines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/493.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/493.png\"/\u003e",
       "allAnswers": [],
       "tags": "law of cosines, cosines, parallelogram ",
       "url": "/practice-problem/000f2d88-5190-4fd3-95ef-a397cdfd06a4",
       "source": "null 2.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/498.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/498.png\"/\u003e",
       "uuid": "abbc6097-95d7-48b2-b740-f1989fead39e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -114,14 +114,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Hypothetical triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/497.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/497.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle, law of tangents, tangents, proof ",
       "url": "/practice-problem/abbc6097-95d7-48b2-b740-f1989fead39e",
       "source": "null 2.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/503.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/503.png\"/\u003e",
       "uuid": "d201db2f-13ec-470a-876b-bdf55ee5bf1e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -131,14 +131,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Find area of triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/502.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/502.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle, area of triangle, triangle area formula ",
       "url": "/practice-problem/d201db2f-13ec-470a-876b-bdf55ee5bf1e",
       "source": "null 2.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/505.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/505.png\"/\u003e",
       "uuid": "e657ad9e-f4dd-4c67-9e70-5c85c441bfaf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -148,14 +148,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Floating point triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/504.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/504.png\"/\u003e",
       "allAnswers": [],
       "tags": "floating point, Herons formula, area of triangle, triangle ",
       "url": "/practice-problem/e657ad9e-f4dd-4c67-9e70-5c85c441bfaf",
       "source": "null 2.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/514.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/514.png\"/\u003e",
       "uuid": "9f04cf1f-8e31-4699-a5ab-7adcbc7d8151",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -165,14 +165,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Radius of inscribed circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/513.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/513.png\"/\u003e",
       "allAnswers": [],
       "tags": "radius of circle, inscribed circle, triangle ",
       "url": "/practice-problem/9f04cf1f-8e31-4699-a5ab-7adcbc7d8151",
       "source": "null 2.5.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/519.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/519.png\"/\u003e",
       "uuid": "9b51efa7-130b-44e9-866c-5cfd604a54ac",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -182,14 +182,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove trig identity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/518.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/518.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identity, trig, tan, cot, sec, csc",
       "url": "/practice-problem/9b51efa7-130b-44e9-866c-5cfd604a54ac",
       "source": "null 3.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/521.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/521.png\"/\u003e",
       "uuid": "0765e65f-0a21-432a-a0ca-dc0ff1ce6405",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -199,14 +199,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove trig identity, pt. 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/520.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/520.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identity, trig, cot, sec, csc, cot",
       "url": "/practice-problem/0765e65f-0a21-432a-a0ca-dc0ff1ce6405",
       "source": "null 3.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/523.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/523.png\"/\u003e",
       "uuid": "a03245f8-0701-46f9-969b-abeb0354fd70",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -216,14 +216,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove trig identity, pt.3",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/522.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/522.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identity, trig, tan, cos ",
       "url": "/practice-problem/a03245f8-0701-46f9-969b-abeb0354fd70",
       "source": "null 3.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/525.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/525.png\"/\u003e",
       "uuid": "9676c07f-c752-4f8b-8988-bf1e7fd3f8ae",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -233,14 +233,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove trig identity, pt. 4",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/524.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/524.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identity, trig, cos, sin ",
       "url": "/practice-problem/9676c07f-c752-4f8b-8988-bf1e7fd3f8ae",
       "source": "null 3.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/527.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/527.png\"/\u003e",
       "uuid": "4887d823-31a9-4555-a57a-842db5a6ac87",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -250,14 +250,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove trig formula ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/526.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/526.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identity, trig, proof, cos, sin ",
       "url": "/practice-problem/4887d823-31a9-4555-a57a-842db5a6ac87",
       "source": "null 3.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/533.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/533.png\"/\u003e",
       "uuid": "f47a8eaf-e832-47c5-b06e-399f558e72d6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -267,14 +267,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Sum and difference trig problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/532.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/532.png\"/\u003e",
       "allAnswers": [],
       "tags": "sum and difference formula, trig ",
       "url": "/practice-problem/f47a8eaf-e832-47c5-b06e-399f558e72d6",
       "source": "null 3.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/535.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/536.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/535.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/536.png\"/\u003e",
       "uuid": "1daaa97c-3ac5-4708-8055-7d50cfc485fb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -284,14 +284,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove sum formula, trig",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/534.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/534.png\"/\u003e",
       "allAnswers": [],
       "tags": "sum and difference formulas, sum formulas, trig ",
       "url": "/practice-problem/1daaa97c-3ac5-4708-8055-7d50cfc485fb",
       "source": "null 3.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/538.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/538.png\"/\u003e",
       "uuid": "5b532470-ef14-4e64-b1f0-f4da7f1ec7b3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -301,14 +301,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Fresnel coefficient problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/537.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/537.png\"/\u003e",
       "allAnswers": [],
       "tags": "smells law, angle of transmission, angle of incidence, indexes of refraction, fresnel coefficient",
       "url": "/practice-problem/5b532470-ef14-4e64-b1f0-f4da7f1ec7b3",
       "source": "null 3.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/543.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/543.png\"/\u003e",
       "uuid": "79b88ebd-cc07-497e-8040-d3834c1c32ab",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -318,14 +318,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove formulas, trig",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/542.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/542.png\"/\u003e",
       "allAnswers": [],
       "tags": "half-angle formulas, double-angle formulas, angle formulas, trig ",
       "url": "/practice-problem/79b88ebd-cc07-497e-8040-d3834c1c32ab",
       "source": "null 3.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/547.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/547.png\"/\u003e",
       "uuid": "7d53a994-a4ad-4af3-85f4-820c50da58e1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -335,14 +335,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove other trig identities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/546.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/546.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identities, trig ",
       "url": "/practice-problem/7d53a994-a4ad-4af3-85f4-820c50da58e1",
       "source": "null 3.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/549.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/549.png\"/\u003e",
       "uuid": "98586f06-d745-431b-81a1-1d497d2d3434",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -352,7 +352,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove other trig identities, pt.2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/548.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/548.png\"/\u003e",
       "allAnswers": [],
       "tags": "trig identities, trig ",
       "url": "/practice-problem/98586f06-d745-431b-81a1-1d497d2d3434",
@@ -375,7 +375,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/050ef104-9d31-4b7a-a66f-49b6b55e3266",
       "source": "AP Calculus Problems 6.1.26",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "8270758c-2e19-4d79-9801-50c7a2ca8446",
@@ -392,7 +392,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/8270758c-2e19-4d79-9801-50c7a2ca8446",
       "source": "AP Calculus Problems 6.1.27",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "6869b579-9d7c-40fa-a156-d88b8c76fd3c",
@@ -409,7 +409,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/6869b579-9d7c-40fa-a156-d88b8c76fd3c",
       "source": "AP Calculus Problems 6.1.28",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "7428f1d7-a405-4e17-9005-53924aa5963a",
@@ -426,7 +426,7 @@
       "tags": "graphing functions, domain, y-intercept, asymptotes ",
       "url": "/question/7428f1d7-a405-4e17-9005-53924aa5963a",
       "source": "AP Calculus Problems 1.4.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "59df0f83-1243-45b1-83f8-9f5768925d60",
@@ -443,7 +443,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/59df0f83-1243-45b1-83f8-9f5768925d60",
       "source": "AP Calculus Problems 6.1.29",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b06c866d-41f6-4096-ac25-da8af70d44ea",
@@ -460,7 +460,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/b06c866d-41f6-4096-ac25-da8af70d44ea",
       "source": "AP Calculus Problems 1.4.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "84ec7b07-67ca-43bd-a7c1-3a7bbc9e15d0",
@@ -477,7 +477,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/84ec7b07-67ca-43bd-a7c1-3a7bbc9e15d0",
       "source": "AP Calculus Problems 6.1.30",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "17d3b122-3cf7-45b9-8989-98beb474fe0e",
@@ -494,7 +494,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/17d3b122-3cf7-45b9-8989-98beb474fe0e",
       "source": "AP Calculus Problems 6.1.31",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "d92dbaf7-024b-4c24-b118-e65058c7a57d",
@@ -511,7 +511,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d92dbaf7-024b-4c24-b118-e65058c7a57d",
       "source": "AP Calculus Problems 6.1.32",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ae99fb9f-0990-4cd9-be69-d0dd61e3110b",
@@ -528,7 +528,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/ae99fb9f-0990-4cd9-be69-d0dd61e3110b",
       "source": "AP Calculus Problems 1.4.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "538ffbae-b535-4838-a04c-71c1a57a4662",
@@ -545,7 +545,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/538ffbae-b535-4838-a04c-71c1a57a4662",
       "source": "AP Calculus Problems 6.1.33",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b3b2aebd-c3f5-4a93-b41c-d8df368e55d3",
@@ -562,7 +562,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/b3b2aebd-c3f5-4a93-b41c-d8df368e55d3",
       "source": "AP Calculus Problems 6.1.34",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "7a5dcdd2-ca4f-481c-8709-6da27a3ce4b7",
@@ -579,7 +579,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/7a5dcdd2-ca4f-481c-8709-6da27a3ce4b7",
       "source": "AP Calculus Problems 1.4.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "ba776769-18cd-4721-b823-94d925adadfb",
@@ -596,7 +596,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/ba776769-18cd-4721-b823-94d925adadfb",
       "source": "AP Calculus Problems 6.1.35",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "5a9ea938-a73d-462f-a457-f53bfbed924e",
@@ -613,7 +613,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/5a9ea938-a73d-462f-a457-f53bfbed924e",
       "source": "AP Calculus Problems 1.4.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "732b9626-c461-4757-a54c-d3b6ca6c831c",
@@ -630,7 +630,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/732b9626-c461-4757-a54c-d3b6ca6c831c",
       "source": "AP Calculus Problems 1.4.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "22d64039-263d-4a4d-9d0c-b013da71d418",
@@ -647,7 +647,7 @@
       "tags": "graphing functions, translations, multiple choice",
       "url": "/question/22d64039-263d-4a4d-9d0c-b013da71d418",
       "source": "AP Calculus Problems 1.4.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "622e159b-6f93-4a18-b062-0951704f4e13",
@@ -664,7 +664,7 @@
       "tags": "graphing functions, translations, multiple choice",
       "url": "/question/622e159b-6f93-4a18-b062-0951704f4e13",
       "source": "AP Calculus Problems 1.4.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "8056800b-3811-466d-979e-4cb90bb1ea72",
@@ -681,7 +681,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/8056800b-3811-466d-979e-4cb90bb1ea72",
       "source": "AP Calculus Problems 1.4.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "d4f15e8e-57f9-499a-900b-fd574aca0817",
@@ -698,7 +698,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d4f15e8e-57f9-499a-900b-fd574aca0817",
       "source": "AP Calculus Problems 6.1.36",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "954f61b1-2996-4147-9959-2cc625c1e77b",
@@ -715,7 +715,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/954f61b1-2996-4147-9959-2cc625c1e77b",
       "source": "AP Calculus Problems 6.1.37",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "8115ab38-f8fa-41b1-829c-9c5138b0ae50",
@@ -732,7 +732,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/8115ab38-f8fa-41b1-829c-9c5138b0ae50",
       "source": "AP Calculus Problems 1.4.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "67d8a846-816c-4e34-b358-acaa69cd9de3",
@@ -749,7 +749,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/67d8a846-816c-4e34-b358-acaa69cd9de3",
       "source": "AP Calculus Problems 1.4.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "425e7c6f-baa3-442a-90b5-25fc8ee339b9",
@@ -766,7 +766,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/425e7c6f-baa3-442a-90b5-25fc8ee339b9",
       "source": "AP Calculus Problems 6.1.38",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "38c21797-81b3-49eb-9a8c-3b85ea230e4c",
@@ -783,7 +783,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/38c21797-81b3-49eb-9a8c-3b85ea230e4c",
       "source": "AP Calculus Problems 6.1.39",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "396d47f1-a448-458a-8adb-6778ff83dd65",
@@ -800,7 +800,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/396d47f1-a448-458a-8adb-6778ff83dd65",
       "source": "AP Calculus Problems 1.4.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "d7582cf3-aeef-420c-9c40-86e841fc971e",
@@ -817,7 +817,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d7582cf3-aeef-420c-9c40-86e841fc971e",
       "source": "AP Calculus Problems 6.1.40",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ae784414-ea9c-437a-ac05-c2f8fd37115b",
@@ -834,7 +834,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/ae784414-ea9c-437a-ac05-c2f8fd37115b",
       "source": "AP Calculus Problems 1.4.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "bec81476-c3b8-4e99-b117-a9cc84df474a",
@@ -851,7 +851,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/bec81476-c3b8-4e99-b117-a9cc84df474a",
       "source": "AP Calculus Problems 6.1.41",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "dbf23350-3311-40c0-aa9f-a9060a7a9edb",
@@ -868,7 +868,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/dbf23350-3311-40c0-aa9f-a9060a7a9edb",
       "source": "AP Calculus Problems 1.4.20",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "5268ceaf-7028-45a5-b23c-6ca6e23251b2",
@@ -885,7 +885,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/5268ceaf-7028-45a5-b23c-6ca6e23251b2",
       "source": "AP Calculus Problems 6.1.42",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b2a0b8b9-dc5b-4ebb-be17-0850f1c7d5ae",
@@ -902,7 +902,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/b2a0b8b9-dc5b-4ebb-be17-0850f1c7d5ae",
       "source": "AP Calculus Problems 1.5.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "56ffd8ef-6f40-424c-81c1-41ff65788aed",
@@ -919,7 +919,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/56ffd8ef-6f40-424c-81c1-41ff65788aed",
       "source": "AP Calculus Problems 6.1.43",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "280185af-d700-4540-bf05-229693abc7ce",
@@ -936,7 +936,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/280185af-d700-4540-bf05-229693abc7ce",
       "source": "AP Calculus Problems 1.5.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "29086797-4a36-4125-bdea-0ea004006cd3",
@@ -953,7 +953,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/29086797-4a36-4125-bdea-0ea004006cd3",
       "source": "AP Calculus Problems 6.1.44",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b7ee8129-73d9-4c66-8e3c-1c528be2dae3",
@@ -970,7 +970,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/b7ee8129-73d9-4c66-8e3c-1c528be2dae3",
       "source": "AP Calculus Problems 1.5.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "4d590a4c-9b55-4f83-bd6d-3fb2bc857f7c",
@@ -987,7 +987,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/4d590a4c-9b55-4f83-bd6d-3fb2bc857f7c",
       "source": "AP Calculus Problems 6.1.45",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "8947652c-de76-4214-921b-a0b873cf6475",
@@ -1004,7 +1004,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/8947652c-de76-4214-921b-a0b873cf6475",
       "source": "AP Calculus Problems 1.5.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "2f350d39-601a-4aaa-b4a6-34e29d394e45",
@@ -1021,7 +1021,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/2f350d39-601a-4aaa-b4a6-34e29d394e45",
       "source": "AP Calculus Problems 6.1.46",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "97dea7c7-47ca-413f-a7ef-25f8be329d38",
@@ -1038,7 +1038,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/97dea7c7-47ca-413f-a7ef-25f8be329d38",
       "source": "AP Calculus Problems 1.5.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "2d1500d9-bda7-4a78-a4d3-437667922bbe",
@@ -1055,7 +1055,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/2d1500d9-bda7-4a78-a4d3-437667922bbe",
       "source": "AP Calculus Problems 6.1.47",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "ca827cfa-a3cd-4d3e-9d51-aa1d772d64f6",
@@ -1072,7 +1072,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/ca827cfa-a3cd-4d3e-9d51-aa1d772d64f6",
       "source": "AP Calculus Problems 1.5.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "4e556df0-59d7-4f36-b305-277479f25f6c",
@@ -1089,7 +1089,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/4e556df0-59d7-4f36-b305-277479f25f6c",
       "source": "AP Calculus Problems 6.1.48",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "7ce1feb8-493f-49de-87d8-570e17461427",
@@ -1106,7 +1106,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/7ce1feb8-493f-49de-87d8-570e17461427",
       "source": "AP Calculus Problems 6.1.49",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "44a2f1cc-792a-4e9b-b2ac-1d47981672b1",
@@ -1123,7 +1123,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/44a2f1cc-792a-4e9b-b2ac-1d47981672b1",
       "source": "AP Calculus Problems 1.5.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "e8962d91-5a8e-4839-927d-6d3e83cc2689",
@@ -1140,7 +1140,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/e8962d91-5a8e-4839-927d-6d3e83cc2689",
       "source": "AP Calculus Problems 6.1.50",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "0c8c2f11-6697-4e6d-a969-eefcef699d1a",
@@ -1157,7 +1157,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/0c8c2f11-6697-4e6d-a969-eefcef699d1a",
       "source": "AP Calculus Problems 1.5.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "8ec5b8e0-cbc2-42cb-9fff-bb45afbe6266",
@@ -1174,7 +1174,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/8ec5b8e0-cbc2-42cb-9fff-bb45afbe6266",
       "source": "AP Calculus Problems 6.1.51",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "3dd7aaa0-de96-460a-afeb-7224d9843286",
@@ -1191,7 +1191,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/3dd7aaa0-de96-460a-afeb-7224d9843286",
       "source": "AP Calculus Problems 1.5.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "171fe9a8-ed2a-4179-94ed-4ca1cdc33da6",
@@ -1208,7 +1208,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/171fe9a8-ed2a-4179-94ed-4ca1cdc33da6",
       "source": "AP Calculus Problems 6.1.52",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "16793274-c977-4622-90c5-c3704a7f5988",
@@ -1225,7 +1225,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/16793274-c977-4622-90c5-c3704a7f5988",
       "source": "AP Calculus Problems 1.5.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "45ed3fc1-c584-4e3b-a30f-6b4370d999d2",
@@ -1242,7 +1242,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/45ed3fc1-c584-4e3b-a30f-6b4370d999d2",
       "source": "AP Calculus Problems 1.5.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "36c7804b-be26-4726-871d-ad2b4cccca03",
@@ -1259,7 +1259,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/36c7804b-be26-4726-871d-ad2b4cccca03",
       "source": "AP Calculus Problems 6.1.53",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "15869f24-e34c-481e-ba38-a97da548b4bb",
@@ -1276,7 +1276,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/15869f24-e34c-481e-ba38-a97da548b4bb",
       "source": "AP Calculus Problems 1.5.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "506649e2-b34b-4b10-b25e-dea1b63d0d45",
@@ -1293,7 +1293,7 @@
       "tags": "graphing functions, limits, functions ",
       "url": "/question/506649e2-b34b-4b10-b25e-dea1b63d0d45",
       "source": "AP Calculus Problems 1.5.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "8767bb5f-7e29-4b5f-a610-30876e2eb7be",
@@ -1310,7 +1310,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/8767bb5f-7e29-4b5f-a610-30876e2eb7be",
       "source": "AP Calculus Problems 6.1.54",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "eb786a15-d8a0-4778-aef5-907dec6a779f",
@@ -1327,7 +1327,7 @@
       "tags": "graphing functions, limits, functions ",
       "url": "/question/eb786a15-d8a0-4778-aef5-907dec6a779f",
       "source": "AP Calculus Problems 1.5.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "6132ac1c-03a9-4c50-8b83-c484f1ca5486",
@@ -1344,7 +1344,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/6132ac1c-03a9-4c50-8b83-c484f1ca5486",
       "source": "AP Calculus Problems 6.1.55",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "e3fd1b72-f203-4e12-b3bf-5791618d5a27",
@@ -1361,7 +1361,7 @@
       "tags": "graphing functions, limits, functions",
       "url": "/question/e3fd1b72-f203-4e12-b3bf-5791618d5a27",
       "source": "AP Calculus Problems 1.5.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "d218e423-c433-472b-8ec0-11f496c577a3",
@@ -1378,7 +1378,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d218e423-c433-472b-8ec0-11f496c577a3",
       "source": "AP Calculus Problems 6.1.56",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "e863910f-5226-45b8-8d07-7eec2307f178",
@@ -1395,7 +1395,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/e863910f-5226-45b8-8d07-7eec2307f178",
       "source": "AP Calculus Problems 6.1.57",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "9ef98db0-96b9-481e-8b75-6df0404d1c2e",
@@ -1412,7 +1412,7 @@
       "tags": "graphing functions, limits, functions",
       "url": "/question/9ef98db0-96b9-481e-8b75-6df0404d1c2e",
       "source": "AP Calculus Problems 1.5.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "5e2f729d-6f7b-40ff-b7df-1c17ea88c527",
@@ -1429,7 +1429,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/5e2f729d-6f7b-40ff-b7df-1c17ea88c527",
       "source": "AP Calculus Problems 6.1.58",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "2883d0a2-5ece-4f30-87b7-0f75eebcac4f",
@@ -1446,7 +1446,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/2883d0a2-5ece-4f30-87b7-0f75eebcac4f",
       "source": "AP Calculus Problems 6.1.59",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "a3689816-4e41-4b6c-b41c-4d4fd18c1135",
@@ -1463,7 +1463,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/a3689816-4e41-4b6c-b41c-4d4fd18c1135",
       "source": "AP Calculus Problems 6.1.60",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "5ecac2b2-8b76-4cd4-bdc6-e6cc7397e3b0",
@@ -1480,7 +1480,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/5ecac2b2-8b76-4cd4-bdc6-e6cc7397e3b0",
       "source": "AP Calculus Problems 6.1.61",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b4503553-1205-42e0-b746-5964351cc7f9",
@@ -1497,7 +1497,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/b4503553-1205-42e0-b746-5964351cc7f9",
       "source": "AP Calculus Problems 6.1.62",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b0ca85c2-c65a-4341-8de1-a35f8349251f",
@@ -1514,7 +1514,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/b0ca85c2-c65a-4341-8de1-a35f8349251f",
       "source": "AP Calculus Problems 6.1.63",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "4a315b25-5c75-412b-9001-c89191bcc8e8",
@@ -1531,7 +1531,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/4a315b25-5c75-412b-9001-c89191bcc8e8",
       "source": "AP Calculus Problems 6.1.64",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "a9d1b8ad-08a5-48bf-8aa1-9d8fc8c6fe79",
@@ -1548,7 +1548,7 @@
       "tags": "system of equations, graphing functions",
       "url": "/question/a9d1b8ad-08a5-48bf-8aa1-9d8fc8c6fe79",
       "source": "AP Calculus Problems 1.5.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "d10b90dd-0a6c-4d6f-bb4d-44a8def5cc23",
@@ -1565,7 +1565,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d10b90dd-0a6c-4d6f-bb4d-44a8def5cc23",
       "source": "AP Calculus Problems 6.1.65",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "bde707df-d13e-40e5-8967-2068a3be0922",
@@ -1582,7 +1582,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/bde707df-d13e-40e5-8967-2068a3be0922",
       "source": "AP Calculus Problems 6.1.66",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     },
     {
       "uuid": "b156db52-d763-43b8-bcb1-23f9f832e50a",
@@ -1599,7 +1599,7 @@
       "tags": "system of equations, graphing functions",
       "url": "/question/b156db52-d763-43b8-bcb1-23f9f832e50a",
       "source": "AP Calculus Problems 1.5.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/The Fundamental Graphing Principle for Functions"
+      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
     },
     {
       "uuid": "6af08ba7-1ce7-481a-8b50-8c641cab3a76",
@@ -1616,7 +1616,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/6af08ba7-1ce7-481a-8b50-8c641cab3a76",
       "source": "AP Calculus Problems 6.1.67",
-      "topic": "Calculus/Integration/Properties of Integrals/Integrals"
+      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
     }
   ],
   "textContent": [
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Lagrange\u0027s Formula for the Remainder Term",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6001.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/6002.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6001.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/6002.png\"/\u003e",
       "allAnswers": [],
       "tags": "Lagrange\u0027s formula, remainder theorem, taylor polynomials ",
       "url": "/text-content/7ef533c4-bcf3-4794-abfe-ab0176d484d8",
       "source": "Forgotten Text 7 1.1",
-      "topic": "Calculus/Taylor Polynomials/Lagrange\u0027s Formula"
+      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Lagranges Formula"
     },
     {
       "uuid": "585d2a52-cc64-4330-931e-cff1ba632890",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Standard Integrals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5979.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5979.png\"/\u003e",
       "allAnswers": [],
       "tags": "standard integrals, integrals, indefinite integral ",
       "url": "/text-content/585d2a52-cc64-4330-931e-cff1ba632890",
       "source": "Forgotten Text 7 1.4",
-      "topic": "Calculus/Methods of Integration/Standard Integrals"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Standard Integrals"
     },
     {
       "uuid": "526c3fd4-3c56-442e-865d-d112e8840426",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Substitution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5980.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5981.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5980.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5981.png\"/\u003e",
       "allAnswers": [],
       "tags": "substitution, integral, integration, methods of integration ",
       "url": "/text-content/526c3fd4-3c56-442e-865d-d112e8840426",
       "source": "Forgotten Text 7 1.5",
-      "topic": "Calculus/Methods of Integration/Substitution"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Substitution"
     },
     {
       "uuid": "a2294ebf-7775-4e9b-ad70-512719b897c6",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Double Angle trick",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5982.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5983.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5984.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5982.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5983.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5984.png\"/\u003e",
       "allAnswers": [],
       "tags": "double angle trick, double angle, methods of integration, integration by parts",
       "url": "/text-content/a2294ebf-7775-4e9b-ad70-512719b897c6",
       "source": "Forgotten Text 7 1.6",
-      "topic": "Calculus/Methods of Integration/Double Angle Trick"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Double Angle Trick"
     },
     {
       "uuid": "813a6075-b215-49de-9995-b7733618bc48",
@@ -1698,12 +1698,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Reduction Formulas",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5985.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5986.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5987.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5985.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5986.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5987.png\"/\u003e",
       "allAnswers": [],
       "tags": "reduction formulas, integration, integral, methods of integration ",
       "url": "/text-content/813a6075-b215-49de-9995-b7733618bc48",
       "source": "Forgotten Text 7 1.8",
-      "topic": "Calculus/Methods of Integration/Reduction Formulas"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Reduction Formulas"
     }
   ],
   "answers": [],

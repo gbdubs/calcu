@@ -205,7 +205,7 @@
       "tags": "truth values, conditionals, symbols, logic, symbolic form",
       "url": "/question/0f5df027-7aa0-4920-840a-aded88c20db8",
       "source": "Amsco Geometry Textbook 2.4.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "99098475-6001-447b-9b1a-7056f96bf588",
@@ -222,7 +222,7 @@
       "tags": "truth values, conditionals, logic, symbols, symbolic form",
       "url": "/question/99098475-6001-447b-9b1a-7056f96bf588",
       "source": "Amsco Geometry Textbook 2.4.7",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9db5ec53-2fce-4b65-a53b-456178e4a919",
@@ -239,7 +239,7 @@
       "tags": "negation, symbols, symbolic form, truth value, compound statements, logic, conditionals",
       "url": "/question/9db5ec53-2fce-4b65-a53b-456178e4a919",
       "source": "Amsco Geometry Textbook 2.4.8",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "5e4d2203-f5ba-4c1a-b678-b683c4b173f2",
@@ -256,7 +256,7 @@
       "tags": "symbols, symbolic form, conditionals, logic",
       "url": "/question/5e4d2203-f5ba-4c1a-b678-b683c4b173f2",
       "source": "Amsco Geometry Textbook 2.4.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "a8762ce7-d981-42ae-9dba-5b2f12385833",
@@ -273,7 +273,7 @@
       "tags": "conditionals, converses, logic, symbols, symbolic form",
       "url": "/question/a8762ce7-d981-42ae-9dba-5b2f12385833",
       "source": "Amsco Geometry Textbook 2.5.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "dd793263-61f0-4b06-bce7-af409a82f62b",
@@ -290,7 +290,7 @@
       "tags": "symbols, symbolic form, converses, inverses, conditionals, contrapositives",
       "url": "/question/dd793263-61f0-4b06-bce7-af409a82f62b",
       "source": "Amsco Geometry Textbook 2.5.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "104d3fd2-9cec-4a0d-90bb-27ceacbaef8a",
@@ -307,7 +307,7 @@
       "tags": "inverses, converses, contrapositives, conditionals, symbolic form",
       "url": "/question/104d3fd2-9cec-4a0d-90bb-27ceacbaef8a",
       "source": "Amsco Geometry Textbook 2.5.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "3b3fac5e-7d8d-4117-b2aa-e892d88bb523",
@@ -324,7 +324,7 @@
       "tags": "inverses, conditionals, truth values, logic",
       "url": "/question/3b3fac5e-7d8d-4117-b2aa-e892d88bb523",
       "source": "Amsco Geometry Textbook 2.5.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "f38a1165-c438-430d-aaa3-2e82d8397788",
@@ -336,7 +336,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Isosceles Proof",
-      "body": "Given: ABC is isosceles, AC /{ \\cong /} BC, mCBD \u003e mCBA\nProve: mCBD \u003e mA\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10080.png\"/\u003e",
+      "body": "Given: ABC is isosceles, AC /{ \\cong /} BC, mCBD \u003e mCBA\nProve: mCBD \u003e mA\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10080.png\"/\u003e",
       "allAnswers": [],
       "tags": "proof, geometry proof, isosceles, congruence, line segments, angles",
       "url": "/question/f38a1165-c438-430d-aaa3-2e82d8397788",
@@ -358,7 +358,7 @@
       "tags": "converses, conditionals, logic",
       "url": "/question/cf70bbd9-0a18-4a24-a8a7-2ea30b7be169",
       "source": "Amsco Geometry Textbook 2.5.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "31ea6d0c-a1ad-4f6f-be4a-b2d0b58b594d",
@@ -375,7 +375,7 @@
       "tags": "conditionals, converses, truth values, logic",
       "url": "/question/31ea6d0c-a1ad-4f6f-be4a-b2d0b58b594d",
       "source": "Amsco Geometry Textbook 2.5.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "11d2ca67-dc38-4b2d-9ae6-8b276b00269c",
@@ -392,7 +392,7 @@
       "tags": "conditionals, converses, contrapositives, truth values, logic",
       "url": "/question/11d2ca67-dc38-4b2d-9ae6-8b276b00269c",
       "source": "Amsco Geometry Textbook 2.5.7",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "7ed2ad0d-ac8b-4f69-97a8-69f94283ee37",
@@ -409,7 +409,7 @@
       "tags": "converses, conditionals, contrapositives, inverses, logic",
       "url": "/question/7ed2ad0d-ac8b-4f69-97a8-69f94283ee37",
       "source": "Amsco Geometry Textbook 2.5.8",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "8d97a7fa-4867-4a77-ac9c-8efc59c7c53c",
@@ -426,7 +426,7 @@
       "tags": "converses, conditionals, contrapositives, inverses, logic",
       "url": "/question/8d97a7fa-4867-4a77-ac9c-8efc59c7c53c",
       "source": "Amsco Geometry Textbook 2.5.8",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "b7d2313d-7dc6-4aaa-8c07-5e63a1d9e367",
@@ -443,7 +443,7 @@
       "tags": "conditionals, converses, inverses, contrapositives, converses, logic",
       "url": "/question/b7d2313d-7dc6-4aaa-8c07-5e63a1d9e367",
       "source": "Amsco Geometry Textbook 2.5.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "8983a576-7fcb-4d64-a83e-a90e1b4d9cef",
@@ -460,7 +460,7 @@
       "tags": "biconditionals, definition, conditionals, logic",
       "url": "/question/8983a576-7fcb-4d64-a83e-a90e1b4d9cef",
       "source": "Amsco Geometry Textbook 2.6.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "d84c1bdd-12e4-4dfb-acf8-41a6e773f04b",
@@ -477,7 +477,7 @@
       "tags": "logic, biconditionals, conditionals",
       "url": "/question/d84c1bdd-12e4-4dfb-acf8-41a6e773f04b",
       "source": "Amsco Geometry Textbook 2.6.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "4ba6e305-1870-4e33-8ce1-d035b1b72a22",
@@ -494,7 +494,7 @@
       "tags": "truth values, conditionals, biconditionals, logic",
       "url": "/question/4ba6e305-1870-4e33-8ce1-d035b1b72a22",
       "source": "Amsco Geometry Textbook 2.6.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "fb5bfc56-813e-4aea-a008-7c2d1c59c32d",
@@ -511,7 +511,7 @@
       "tags": "conditionals, biconditionals, truth values, logic",
       "url": "/question/fb5bfc56-813e-4aea-a008-7c2d1c59c32d",
       "source": "Amsco Geometry Textbook 2.6.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "65c79843-4991-4e0a-b41f-a790e6698023",
@@ -528,7 +528,7 @@
       "tags": "biconditionals, conditionals, logic, symbols",
       "url": "/question/65c79843-4991-4e0a-b41f-a790e6698023",
       "source": "Amsco Geometry Textbook 2.6.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "2b471b81-b1ab-42b5-a281-4e7a219c3000",
@@ -545,7 +545,7 @@
       "tags": "biconditionals, conditionals, truth values, logic",
       "url": "/question/2b471b81-b1ab-42b5-a281-4e7a219c3000",
       "source": "Amsco Geometry Textbook 2.6.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "697f6142-bc3a-48c0-a70b-53c857db4e55",
@@ -562,7 +562,7 @@
       "tags": "biconditionals, conditionals, logic, truth value",
       "url": "/question/697f6142-bc3a-48c0-a70b-53c857db4e55",
       "source": "Amsco Geometry Textbook 2.6.7",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9bdee97c-21b4-4635-b8ef-ec365e63c469",
@@ -579,7 +579,7 @@
       "tags": "conditionals, biconditionals, logic, conjunctions, disjunctions",
       "url": "/question/9bdee97c-21b4-4635-b8ef-ec365e63c469",
       "source": "Amsco Geometry Textbook 2.7.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9fe79f95-f51d-426b-a3ab-0c4b3314e57c",
@@ -596,7 +596,7 @@
       "tags": "conditionals, biconditionals, logic",
       "url": "/question/9fe79f95-f51d-426b-a3ab-0c4b3314e57c",
       "source": "Amsco Geometry Textbook 2.7.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "c4b98685-fb51-479c-b121-4f20a7912bd5",
@@ -613,7 +613,7 @@
       "tags": "logic, conditionals, biconditionals, symbols",
       "url": "/question/c4b98685-fb51-479c-b121-4f20a7912bd5",
       "source": "Amsco Geometry Textbook 2.7.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "241acb92-a6a1-4a83-ac7d-f3aa2e12b4a0",
@@ -630,7 +630,7 @@
       "tags": "logic, conditionals, biconditionals, symbols",
       "url": "/question/241acb92-a6a1-4a83-ac7d-f3aa2e12b4a0",
       "source": "Amsco Geometry Textbook 2.7.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "bd31e77e-ca07-49a4-a1db-e34362264332",
@@ -647,7 +647,7 @@
       "tags": "conclusions, truth value, logic, conditionals, biconditionals",
       "url": "/question/bd31e77e-ca07-49a4-a1db-e34362264332",
       "source": "Amsco Geometry Textbook 2.7.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "2913bebf-613b-47ab-ae9e-10ad25e055f9",
@@ -664,7 +664,7 @@
       "tags": "logic, conditionals, biconditionals, symbols, symbolic form",
       "url": "/question/2913bebf-613b-47ab-ae9e-10ad25e055f9",
       "source": "Amsco Geometry Textbook 2.8.1",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "e95c2073-9294-4d3f-a21a-bd6f12cb6202",
@@ -681,7 +681,7 @@
       "tags": "logic, conditionals, biconditionals",
       "url": "/question/e95c2073-9294-4d3f-a21a-bd6f12cb6202",
       "source": "Amsco Geometry Textbook 2.8.10",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "9d0eb246-54c8-482c-a28a-c4b163b8991e",
@@ -698,7 +698,7 @@
       "tags": "logic, conditionals, biconditionals, word problem",
       "url": "/question/9d0eb246-54c8-482c-a28a-c4b163b8991e",
       "source": "Amsco Geometry Textbook 2.8.11",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "53dad176-e9ec-4bb8-9fe6-56b2291793c7",
@@ -715,7 +715,7 @@
       "tags": "logic, symbols, symbolic form, conditionals",
       "url": "/question/53dad176-e9ec-4bb8-9fe6-56b2291793c7",
       "source": "Amsco Geometry Textbook 2.8.2",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "06ae1bd4-8ba8-4499-ab06-c5dbfacbb485",
@@ -732,7 +732,7 @@
       "tags": "logic, symbols, symbolic form, conditionals, biconditionals",
       "url": "/question/06ae1bd4-8ba8-4499-ab06-c5dbfacbb485",
       "source": "Amsco Geometry Textbook 2.8.3",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "0e73d965-6bd5-4c25-92d7-deb3339e7842",
@@ -749,7 +749,7 @@
       "tags": "logic, symbols, symbolic form, conditionals, biconditionals",
       "url": "/question/0e73d965-6bd5-4c25-92d7-deb3339e7842",
       "source": "Amsco Geometry Textbook 2.8.4",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "a49412ea-a9d9-4252-9165-ff45c744d9b5",
@@ -766,7 +766,7 @@
       "tags": "logic, conditionals, biconditionals",
       "url": "/question/a49412ea-a9d9-4252-9165-ff45c744d9b5",
       "source": "Amsco Geometry Textbook 2.8.5",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "848a3458-17da-44c1-9d8e-c4845b7fb971",
@@ -783,7 +783,7 @@
       "tags": "logic, conditionals, biconditionals",
       "url": "/question/848a3458-17da-44c1-9d8e-c4845b7fb971",
       "source": "Amsco Geometry Textbook 2.8.6",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "40dd670d-7ea2-47d5-af9f-56dd23a34ae0",
@@ -800,7 +800,7 @@
       "tags": "logic, conditionals, biconditionals",
       "url": "/question/40dd670d-7ea2-47d5-af9f-56dd23a34ae0",
       "source": "Amsco Geometry Textbook 2.8.7",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "71655df4-f833-44b4-8e30-29f3aaf3d95d",
@@ -817,7 +817,7 @@
       "tags": "logic, conditionals, biconditionals",
       "url": "/question/71655df4-f833-44b4-8e30-29f3aaf3d95d",
       "source": "Amsco Geometry Textbook 2.8.8",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     },
     {
       "uuid": "5cffb699-5a06-4a72-b19d-ae41f25cbe2a",
@@ -834,7 +834,7 @@
       "tags": "logic, conditionals, biconditionals",
       "url": "/question/5cffb699-5a06-4a72-b19d-ae41f25cbe2a",
       "source": "Amsco Geometry Textbook 2.8.9",
-      "topic": "Geometry/Mathematical Sentences/Logic"
+      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
     }
   ],
   "textContent": [
@@ -848,12 +848,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits with cancellation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2079.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2079.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, cancellation ",
       "url": "/text-content/0b7fce4d-3f86-4067-b2a2-060c2771c067",
       "source": "Calculus Refresher 6",
-      "topic": "Calculus/Limits/Limits with Cancellation"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Limits with Cancellation"
     },
     {
       "uuid": "1e1739e4-4154-40a3-a3bc-f2d90895519c",
@@ -865,12 +865,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits at infinity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2080.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2081.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2080.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2081.png\"/\u003e",
       "allAnswers": [],
       "tags": "infinity, limits, rational functions ",
       "url": "/text-content/1e1739e4-4154-40a3-a3bc-f2d90895519c",
       "source": "Calculus Refresher 7",
-      "topic": "Calculus/Limits/Limits at Infinity"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Limits at Infinity"
     },
     {
       "uuid": "bac73502-ea52-45d9-9785-963ca33d2834",
@@ -882,12 +882,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits of exponential functions at infinity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2084.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2084.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, fundamental properties of exponents, abbreviation, infinity ",
       "url": "/text-content/bac73502-ea52-45d9-9785-963ca33d2834",
       "source": "Calculus Refresher 8",
-      "topic": "Calculus/Limits/Limits of Exponential Functions"
+      "topic": "Calculus/Pre-Calculus Review/Limits/Limits of Exponential Functions"
     }
   ],
   "answers": [],

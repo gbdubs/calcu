@@ -17,7 +17,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/10232f61-cdf4-4033-92f3-07bb110fdb09",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(7\\) ",
@@ -35,7 +35,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/cb298ee8-0039-42ec-be16-6c07eb6271e3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(6\\) ,  \\(3\\) ",
@@ -53,7 +53,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/b8095b5e-3eec-4704-8fd5-f3522b852e63",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(2\\) ",
@@ -71,7 +71,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/3de81513-ff14-4e51-96e4-7b0c9c0578af",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": "yes,  \\(1\\) ",
@@ -89,7 +89,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/22a53e27-3e73-4f1f-bfaa-245862bd5412",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": "no, -",
@@ -107,7 +107,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/afc35aa9-a207-4154-a374-4cbed7952572",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": "yes,  \\(\\dfrac15\\) ",
@@ -125,7 +125,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/d58b8204-9860-426c-8556-f06c6dda0bed",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(12\\) ",
@@ -143,7 +143,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/3be70c76-a4f3-49b8-8960-4f57195f686b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(4\\) ",
@@ -161,7 +161,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/8de9dc8a-07b3-483f-a190-ee5b0eb4a624",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(e\\) ",
@@ -179,7 +179,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/4be1862f-2d04-4615-9389-986dd049014e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     },
     {
       "authorSolution": " \\(\\sqrt3\\) ",
@@ -197,7 +197,7 @@
       "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
       "url": "/practice-problem/522fa7b6-6aa2-4dd7-a739-3b6fd9405297",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Techniques of Integration"
+      "topic": "Calculus/Integral Calculus/Methods of Integration"
     }
   ],
   "questions": [
@@ -216,7 +216,7 @@
       "tags": "cauchy\u0027s bound, rational zeros theorem, descarte\u0027s rule of signs, polynomials, functions",
       "url": "/question/2fdb279b-5af7-4651-9999-ffbde53fc2d9",
       "source": "Active Calc 3.3.3",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials/Cauchy�s Bound/Real Zeros"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials/Cauchys Bound + Real Zeros"
     },
     {
       "uuid": "34091c29-6680-4c12-ab33-e8cb0326f443",
@@ -233,7 +233,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/34091c29-6680-4c12-ab33-e8cb0326f443",
       "source": "Active Calc 8.2.30",
-      "topic": "Algebra/Matrices/Systems of Equations Using Inverse Matrices/Coefficient Matrix"
+      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
     },
     {
       "uuid": "a12d9941-0f3f-4fb2-a96d-9d59bf8bf412",
@@ -250,7 +250,7 @@
       "tags": "cauchy\u0027s bound, rational zeros theorem, descate\u0027s rule of signs, polynomials, functions",
       "url": "/question/a12d9941-0f3f-4fb2-a96d-9d59bf8bf412",
       "source": "Active Calc 3.3.4",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials/Cauchy�s Bound/Real Zeros"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials/Cauchys Bound + Real Zeros"
     },
     {
       "uuid": "ef617946-4499-4aa8-b98d-9a2bd4415fd7",
@@ -267,7 +267,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/ef617946-4499-4aa8-b98d-9a2bd4415fd7",
       "source": "Active Calc 8.2.31",
-      "topic": "Algebra/Matrices/Systems of Equations Using Inverse Matrices/Coefficient Matrix"
+      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
     },
     {
       "uuid": "240e4c2a-e5e9-4f42-ad74-c268f143a755",
@@ -284,7 +284,7 @@
       "tags": "cauchy\u0027s bound, rational zeros theorem, descarte\u0027s rule of signs, polynomials, functions",
       "url": "/question/240e4c2a-e5e9-4f42-ad74-c268f143a755",
       "source": "Active Calc 3.3.5",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials/Cauchy�s Bound/Real Zeros"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials/Cauchys Bound + Real Zeros"
     },
     {
       "uuid": "ed770c3b-7578-4386-9634-3166cf4fc130",
@@ -301,7 +301,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/ed770c3b-7578-4386-9634-3166cf4fc130",
       "source": "Active Calc 8.2.32",
-      "topic": "Algebra/Matrices/Systems of Equations Using Inverse Matrices/Coefficient Matrix"
+      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
     },
     {
       "uuid": "9a11635a-ddd1-4678-b58d-b29cde6b8da1",
@@ -318,7 +318,7 @@
       "tags": "graph, velocity, interval, understanding derivative ",
       "url": "/question/9a11635a-ddd1-4678-b58d-b29cde6b8da1",
       "source": "Active Calc 1.1.1",
-      "topic": "Pre-Calculus/Polynomial Functions/Real Zeros of Polynomials/Cauchy�s Bound/Intervals"
+      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials/Cauchys Bound + Intervals"
     },
     {
       "uuid": "37ba4014-5f9c-437b-b268-f852f78aac16",
@@ -335,7 +335,7 @@
       "tags": "derivative, interval, graph, average velocity, position",
       "url": "/question/37ba4014-5f9c-437b-b268-f852f78aac16",
       "source": "Active Calc 1.1.2",
-      "topic": "Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
     },
     {
       "uuid": "f41bf6f6-6f2c-4e14-9b1e-1cfaa9ca8007",
@@ -352,7 +352,7 @@
       "tags": "derivative, position function, interval, velocity, instantaneous velocity",
       "url": "/question/f41bf6f6-6f2c-4e14-9b1e-1cfaa9ca8007",
       "source": "Active Calc 1.1.3",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Net Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Net Distance"
     },
     {
       "uuid": "7f55af1e-2f55-4e27-a243-bb0f2604d886",
@@ -369,7 +369,7 @@
       "tags": "derivative, instantaneous velocity, average velocity, function",
       "url": "/question/7f55af1e-2f55-4e27-a243-bb0f2604d886",
       "source": "Active Calc 1.1.3",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Net Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Net Distance"
     },
     {
       "uuid": "0680b69c-7c4f-4bb8-b14a-fbb99f80491f",
@@ -386,7 +386,7 @@
       "tags": "limits, function",
       "url": "/question/0680b69c-7c4f-4bb8-b14a-fbb99f80491f",
       "source": "Active Calc 1.1.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L�Hopital�s Rule"
+      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
     },
     {
       "uuid": "5bdff897-b0bf-4477-9c73-a2eddb07d8ea",
@@ -454,7 +454,7 @@
       "tags": "derivative, average rate of change, interval, instantaneous rate of change",
       "url": "/question/c24c76d9-8b8c-4ad2-b86d-88f16d4c9c14",
       "source": "Active Calc 1.3.2",
-      "topic": "Calculus/Application of Integration/Distance, Velocity, Acceleration/Velocity Function/Net Distance"
+      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Net Distance"
     },
     {
       "uuid": "fe17ec62-aa69-43a2-b234-fdc4d8ad1ea6",
@@ -471,7 +471,7 @@
       "tags": "derivative, function, rate of change",
       "url": "/question/fe17ec62-aa69-43a2-b234-fdc4d8ad1ea6",
       "source": "Active Calc 1.3.3",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "e280948d-8e19-42a5-9248-a60daff119a0",
@@ -488,7 +488,7 @@
       "tags": "derivative, function, derivative function",
       "url": "/question/e280948d-8e19-42a5-9248-a60daff119a0",
       "source": "Active Calc 1.4.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "2ff4467f-c8d2-4ecd-af21-5cf51a73d12f",
@@ -505,7 +505,7 @@
       "tags": "derivative, derivative function, function",
       "url": "/question/2ff4467f-c8d2-4ecd-af21-5cf51a73d12f",
       "source": "Active Calc 1.4.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "80459b36-d1b2-4a5f-8c57-f5b70bbf7296",
@@ -522,7 +522,7 @@
       "tags": "derivative, derivative function, function",
       "url": "/question/80459b36-d1b2-4a5f-8c57-f5b70bbf7296",
       "source": "Active Calc 1.4.2",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "9c4bc90a-e97c-4208-9284-9e150c2049ea",
@@ -539,7 +539,7 @@
       "tags": "derivative, function, derivative unit",
       "url": "/question/9c4bc90a-e97c-4208-9284-9e150c2049ea",
       "source": "Active Calc 1.5.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Limits/One-Side Limit"
+      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
     },
     {
       "uuid": "1c1bb7d9-3e5c-4d2a-adf6-0a21e8f1944a",
@@ -692,7 +692,7 @@
       "tags": "second derivative, velocity function, position function, instantaneous rate of change, acceleration ",
       "url": "/question/00465f74-ce64-4955-8b22-8ad031b2c98d",
       "source": "Active Calc 1.6.1",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "1631174d-376e-4387-a67e-fb5fd2a120c2",
@@ -709,7 +709,7 @@
       "tags": "second derivative, function, behavior, graph",
       "url": "/question/1631174d-376e-4387-a67e-fb5fd2a120c2",
       "source": "Active Calc 1.6.2",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "6622c727-b148-49c8-84e3-18b2c9021af9",
@@ -743,7 +743,7 @@
       "tags": "second derivative, derivatives, increasing rate, decreasing",
       "url": "/question/9b6a53a8-b993-4e58-b8ab-18de08852567",
       "source": "Active Calc 1.6.3",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "44dd6c67-0bc5-4a13-8a40-f2b51be2113e",
@@ -755,12 +755,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits, Continuity, and Differentiability ",
-      "body": "Consider a function that is piecewise-defined according to the formula\n\nUse the given formula to answer the following questions.\n(a) For each of the values a \u003d -2, -1, 0, 1, 2, compute f(a).\n(b) For each of the values a \u003d -2, -1, 0, 1, 2, determine \\(\\ds \\lim_{x \\to a^{-}} f(x)\\) and \\(\\ds \\lim_{x \\to a^{+}} f(x)\\).  \n(c) For each of the values a \u003d -2, -1, 0, 1, 2, determine \\(\\ds \\lim_{x \\to a} f(x)\\).  If the limit fails to exist, explain why by discussing the left- and right-hand limits at the relevant a-value.\n(d) For which values of a is the following statement true?\n\t\\(\\lim_{x \\to a} f(x) \\ne f(a)\\)\n(e) On the axes provided in the figure, sketch an accurate, labeled graph of y \u003d f(x).  Be sure to carefully use open circles \\(\\circ)\\ and filled circles \\(\\bullet)\\ to represent key points on the graph, as dictated by the piecewise formula.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20398.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 20399.png\"/\u003e",
+      "body": "Consider a function that is piecewise-defined according to the formula\n\nUse the given formula to answer the following questions.\n(a) For each of the values a \u003d -2, -1, 0, 1, 2, compute f(a).\n(b) For each of the values a \u003d -2, -1, 0, 1, 2, determine \\(\\ds \\lim_{x \\to a^{-}} f(x)\\) and \\(\\ds \\lim_{x \\to a^{+}} f(x)\\).  \n(c) For each of the values a \u003d -2, -1, 0, 1, 2, determine \\(\\ds \\lim_{x \\to a} f(x)\\).  If the limit fails to exist, explain why by discussing the left- and right-hand limits at the relevant a-value.\n(d) For which values of a is the following statement true?\n\t\\(\\lim_{x \\to a} f(x) \\ne f(a)\\)\n(e) On the axes provided in the figure, sketch an accurate, labeled graph of y \u003d f(x).  Be sure to carefully use open circles \\(\\circ)\\ and filled circles \\(\\bullet)\\ to represent key points on the graph, as dictated by the piecewise formula.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20398.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20399.png\"/\u003e",
       "allAnswers": [],
       "tags": "second derivative, limits, piecewise formula",
       "url": "/question/44dd6c67-0bc5-4a13-8a40-f2b51be2113e",
       "source": "Active Calc 1.7.1",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "0d422a2e-ef55-4e77-8c36-ea425537ec9f",
@@ -794,7 +794,7 @@
       "tags": "second derivative, derivative, differentiable, function",
       "url": "/question/d3a2b970-b784-4ba0-a4a9-f1c9e11f5644",
       "source": "Active Calc 1.7.2",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "48619fdc-6230-4fad-9e5b-dd28095e382a",
@@ -828,7 +828,7 @@
       "tags": "second derivative, limit, function",
       "url": "/question/ed281248-393c-48aa-897e-fef20e8aafb8",
       "source": "Active Calc 1.7.3",
-      "topic": "Calculus/Curve Sketching/The Second Derivative Test/Increasing"
+      "topic": "Calculus/Curve Sketching/Second Derivative Test"
     },
     {
       "uuid": "6f06e992-fa42-4581-ba06-ad6094e4205a",
@@ -845,7 +845,7 @@
       "tags": "tangent line, tangent line approximation, linearization, differentiable function",
       "url": "/question/6f06e992-fa42-4581-ba06-ad6094e4205a",
       "source": "Active Calc 1.8.1",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     }
   ],
   "textContent": [
@@ -859,12 +859,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Continuity Theorems",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4893.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4894.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4895.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4896.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4897.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4898.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4900.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4901.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4902.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4909.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4910.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4911.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4893.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4894.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4895.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4896.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4897.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4898.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4900.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4901.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4902.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4909.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4910.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4911.png\"/\u003e",
       "allAnswers": [],
       "tags": "continuity, continuous function, functions, limits, smooth curves ",
       "url": "/text-content/d6a8cd02-b62a-43ee-adc7-97f5ecad0b21",
       "source": "Forgotten Text 4 3.2",
-      "topic": "Calculus/Continuity and Limits of Functions/Continuity Theorems"
+      "topic": "Calculus/Continuity and Limits/Continuity/Continuity Theorems"
     },
     {
       "uuid": "79368252-a1c0-411b-a218-63aed2382d15",
@@ -876,12 +876,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Continuity on Intervals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4912.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4914.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4915.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4916.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4917.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4918.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4919.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4922.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4926.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4929.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4930.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4931.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4912.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4914.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4915.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4916.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4917.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4918.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4919.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4922.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4926.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4929.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4930.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4931.png\"/\u003e",
       "allAnswers": [],
       "tags": "continuity, continuous functions, functions, inequalities, limits",
       "url": "/text-content/79368252-a1c0-411b-a218-63aed2382d15",
       "source": "Forgotten Text 4 3.3",
-      "topic": "Calculus/Continuity and Limits of Functions/Continuity on Intervals"
+      "topic": "Calculus/Continuity and Limits/Continuity/Continuity on Intervals"
     },
     {
       "uuid": "aad9832e-c9c5-40fd-a937-8c694f2745d4",
@@ -893,12 +893,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Finite Limits at Points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4934.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4936.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4938.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4944.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4950.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4952.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4953.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4954.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4934.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4936.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4938.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4944.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4950.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4952.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4953.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4954.png\"/\u003e",
       "allAnswers": [],
       "tags": "limits, rational functions, continuity, continuous functions, functions",
       "url": "/text-content/aad9832e-c9c5-40fd-a937-8c694f2745d4",
       "source": "Forgotten Text 4 3.4",
-      "topic": "Calculus/Continuity and Limits of Functions/Finite Limits at Points"
+      "topic": "Calculus/Continuity and Limits/Finite Limits at Points"
     }
   ],
   "answers": [],

@@ -2,7 +2,7 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30038.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30038.png\"/\u003e",
       "uuid": "6d1b99dd-854c-4f25-847d-f40fd836c011",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -12,14 +12,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Triangle Classification",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30037.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30037.png\"/\u003e",
       "allAnswers": [],
       "tags": "triangle classification, isoceles triangles, right triangles, acute, obtuse, included angle, included side, opposite angle, opposite side",
       "url": "/practice-problem/6d1b99dd-854c-4f25-847d-f40fd836c011",
       "source": "null 1.7.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10019.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10019.png\"/\u003e",
       "uuid": "e680cb15-8b8e-4e96-a059-64fa18cbefdf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -29,14 +29,14 @@
       "viewable": true,
       "karma": 3,
       "title": "True, False, or Uncertain Truth Values",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10018.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10018.png\"/\u003e",
       "allAnswers": [],
       "tags": "truth value, conditionals, uncertain truth value, symbols, logic",
       "url": "/practice-problem/e680cb15-8b8e-4e96-a059-64fa18cbefdf",
       "source": "null 2.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30042.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30042.png\"/\u003e",
       "uuid": "6e3c5240-5a3d-4559-9e26-4c64fa20b006",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -46,7 +46,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Geometry Diagram Assumptions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30041.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30041.png\"/\u003e",
       "allAnswers": [],
       "tags": "geometry diagrams, diagram inference, diagram assumptions",
       "url": "/practice-problem/6e3c5240-5a3d-4559-9e26-4c64fa20b006",
@@ -70,7 +70,7 @@
       "source": "null 4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10023.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10023.png\"/\u003e",
       "uuid": "c818cf6a-4dd6-424a-bfe8-68a304049bf0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -80,14 +80,14 @@
       "viewable": true,
       "karma": 3,
       "title": "Sentences in Symbolic Form",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10022.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10022.png\"/\u003e",
       "allAnswers": [],
       "tags": "symbolic form, mathematical sentences, open sentences, symbols, logic",
       "url": "/practice-problem/c818cf6a-4dd6-424a-bfe8-68a304049bf0",
       "source": "null 2.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10025.png\"/\u003e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10025.png\"/\u003e",
       "uuid": "a2c61609-3ed8-4453-9279-5cdce751d85c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
@@ -97,7 +97,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Find the Solution Set",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10024.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10024.png\"/\u003e",
       "allAnswers": [],
       "tags": "solution set, domain, logic, truth set",
       "url": "/practice-problem/a2c61609-3ed8-4453-9279-5cdce751d85c",
@@ -188,7 +188,7 @@
       "tags": "differential equation",
       "url": "/question/2b3c5113-692c-43da-9ec6-e864b4bb5059",
       "source": "Math 222 4.1.18",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "4a2dc4fa-61bd-4489-b0aa-e699d01e4146",
@@ -205,7 +205,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/4a2dc4fa-61bd-4489-b0aa-e699d01e4146",
       "source": "Math 222 1.2.6",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "ac76eac8-a1ec-4053-8748-07c9f2e9bede",
@@ -222,7 +222,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/ac76eac8-a1ec-4053-8748-07c9f2e9bede",
       "source": "Math 222 1.2.7",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "186e97ee-9d56-40ec-884b-e87dfdb17a72",
@@ -239,7 +239,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/186e97ee-9d56-40ec-884b-e87dfdb17a72",
       "source": "Math 222 1.2.8",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "19d64934-e517-4504-9d28-ec45cfb8f9f2",
@@ -256,7 +256,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/19d64934-e517-4504-9d28-ec45cfb8f9f2",
       "source": "Math 222 1.2.9",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "bf0ae9f7-7194-4907-9432-7fc90621b385",
@@ -273,7 +273,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/bf0ae9f7-7194-4907-9432-7fc90621b385",
       "source": "Math 222 1.2.10",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "2da03f93-238b-42b8-90e0-5ed46f0e308f",
@@ -290,7 +290,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/2da03f93-238b-42b8-90e0-5ed46f0e308f",
       "source": "Math 222 1.2.11",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "2cc60ade-6ced-43d8-a3ee-e8f4f4040dae",
@@ -307,7 +307,7 @@
       "tags": "differential equation",
       "url": "/question/2cc60ade-6ced-43d8-a3ee-e8f4f4040dae",
       "source": "Math 222 4.1.19",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "879b366d-9816-4e22-82ea-ef815cd2a074",
@@ -324,7 +324,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/879b366d-9816-4e22-82ea-ef815cd2a074",
       "source": "Math 222 1.2.12",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "6dc9368d-d2dd-49ad-a084-15f5fa6f67cd",
@@ -341,7 +341,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/6dc9368d-d2dd-49ad-a084-15f5fa6f67cd",
       "source": "Math 222 1.2.13",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "26c1d180-21a9-4c3b-a01f-7781e7291236",
@@ -358,7 +358,7 @@
       "tags": "differential equation",
       "url": "/question/26c1d180-21a9-4c3b-a01f-7781e7291236",
       "source": "Math 222 4.1.20",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "2a809370-98a2-4505-a91a-a10cb3aff27a",
@@ -375,7 +375,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/2a809370-98a2-4505-a91a-a10cb3aff27a",
       "source": "Math 222 1.2.14",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "ade69c5b-8190-4f1f-8952-f801ca3dcca0",
@@ -392,7 +392,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/ade69c5b-8190-4f1f-8952-f801ca3dcca0",
       "source": "Math 222 1.2.15",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "9ae27a83-72b3-4a9e-be4c-edc2610fbe2e",
@@ -409,7 +409,7 @@
       "tags": "differential equation",
       "url": "/question/9ae27a83-72b3-4a9e-be4c-edc2610fbe2e",
       "source": "Math 222 4.1.21",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "32b6e9c0-6e2b-4bf0-90cc-d2ce59bec46d",
@@ -426,7 +426,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/32b6e9c0-6e2b-4bf0-90cc-d2ce59bec46d",
       "source": "Math 222 1.2.16",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "af705f88-5b2b-4ebb-a4bf-6d755562d55e",
@@ -443,7 +443,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/af705f88-5b2b-4ebb-a4bf-6d755562d55e",
       "source": "Math 222 1.2.17",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "9d0e5223-a824-44b6-ac59-5c36d9185c3c",
@@ -460,7 +460,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/9d0e5223-a824-44b6-ac59-5c36d9185c3c",
       "source": "Math 222 1.2.18",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "c8cf4965-5150-4702-86d9-2612168138e3",
@@ -477,7 +477,7 @@
       "tags": "differential equation",
       "url": "/question/c8cf4965-5150-4702-86d9-2612168138e3",
       "source": "Math 222 4.1.22",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "48a47a0a-a9ee-4b9b-91a3-9929b608d660",
@@ -494,7 +494,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/48a47a0a-a9ee-4b9b-91a3-9929b608d660",
       "source": "Math 222 1.2.19",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "9d2a9eff-2c7a-417b-8caa-baa0311d598a",
@@ -511,7 +511,7 @@
       "tags": "differential equation",
       "url": "/question/9d2a9eff-2c7a-417b-8caa-baa0311d598a",
       "source": "Math 222 4.1.23",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "f6b5fcec-380a-42c4-9f69-537220ff0cf7",
@@ -528,7 +528,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/f6b5fcec-380a-42c4-9f69-537220ff0cf7",
       "source": "Math 222 1.2.20",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "cd1fe0e8-fb40-4cbb-92d5-ca2db5eded0f",
@@ -545,7 +545,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/cd1fe0e8-fb40-4cbb-92d5-ca2db5eded0f",
       "source": "Math 222 4.1.24",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "3b23bb60-99e5-49d9-98eb-3f89c48ab7e3",
@@ -562,7 +562,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/3b23bb60-99e5-49d9-98eb-3f89c48ab7e3",
       "source": "Math 222 4.1.25",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "d75b1f78-9032-4913-add1-ca076e1655c9",
@@ -579,7 +579,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d75b1f78-9032-4913-add1-ca076e1655c9",
       "source": "Math 222 1.2.21",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "9ff9a9a4-7247-48bd-abf5-222e5f2e219a",
@@ -596,7 +596,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/9ff9a9a4-7247-48bd-abf5-222e5f2e219a",
       "source": "Math 222 1.2.22",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "ab84e934-4f33-4bc6-bd12-c0e4bfe50223",
@@ -613,7 +613,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/ab84e934-4f33-4bc6-bd12-c0e4bfe50223",
       "source": "Math 222 4.1.26",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "2c761c42-b660-4505-9bb9-b33ccb0a983d",
@@ -630,7 +630,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/2c761c42-b660-4505-9bb9-b33ccb0a983d",
       "source": "Math 222 1.2.23",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "78c4ae45-648b-4233-ab5e-09ab29cf76ba",
@@ -647,7 +647,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/78c4ae45-648b-4233-ab5e-09ab29cf76ba",
       "source": "Math 222 4.1.27",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "067c4f11-af0d-42db-b5a5-fd179f2134f7",
@@ -664,7 +664,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/067c4f11-af0d-42db-b5a5-fd179f2134f7",
       "source": "Math 222 1.2.24",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "8f8d42e4-ec3d-49f9-8c00-9813d784494c",
@@ -681,7 +681,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/8f8d42e4-ec3d-49f9-8c00-9813d784494c",
       "source": "Math 222 1.2.25",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "47216a63-3f78-427a-8b21-7cf8937774cc",
@@ -698,7 +698,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/47216a63-3f78-427a-8b21-7cf8937774cc",
       "source": "Math 222 1.2.26",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "e2af6e0a-5478-4b5d-8527-b81c7be4bc80",
@@ -715,7 +715,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/e2af6e0a-5478-4b5d-8527-b81c7be4bc80",
       "source": "Math 222 1.2.27",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "c19ab2c3-902e-4684-aeaa-0d1467a2893c",
@@ -732,7 +732,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/c19ab2c3-902e-4684-aeaa-0d1467a2893c",
       "source": "Math 222 4.1.28",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "49ca2c65-ac35-49bc-a8ef-6d146cfbec03",
@@ -749,7 +749,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/49ca2c65-ac35-49bc-a8ef-6d146cfbec03",
       "source": "Math 222 1.2.28",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "ade28728-0ec0-4c86-b79a-05f0d8c4e5ae",
@@ -766,7 +766,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/ade28728-0ec0-4c86-b79a-05f0d8c4e5ae",
       "source": "Math 222 1.2.29",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     },
     {
       "uuid": "4b0aedd1-d661-4484-a5fd-f946fc9d68a7",
@@ -783,7 +783,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/4b0aedd1-d661-4484-a5fd-f946fc9d68a7",
       "source": "Math 222 4.1.29",
-      "topic": "Calculus/Instantaneous Rate of Change: The Derivative/Bounded Differentiable Function"
+      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
     },
     {
       "uuid": "45a2d345-d35b-4f0a-b0cd-736f862d35e2",
@@ -800,7 +800,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/45a2d345-d35b-4f0a-b0cd-736f862d35e2",
       "source": "Math 222 1.2.30",
-      "topic": "Calculus/Integration/Integrating Rational Functions/Partial Fractions"
+      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
     }
   ],
   "textContent": [
@@ -814,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Some non-differentiable functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5879.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5881.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5879.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5881.png\"/\u003e",
       "allAnswers": [],
       "tags": "non-differentiable functions, tangents, domain",
       "url": "/text-content/c75fa4ee-9e74-41f5-922f-720ee8b8cd0c",
       "source": "Forgotten Text 6 4.4",
-      "topic": "Calculus/Derivatives/Some non-differentiable functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Some non-differentiable functions"
     },
     {
       "uuid": "1bc4082c-c239-4494-89a6-c37c47ffe33c",
@@ -831,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Differentiation Rules",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5882.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5883.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5884.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5882.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5883.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/5884.png\"/\u003e",
       "allAnswers": [],
       "tags": "differentiation rules, product rule, quotient rule, sum rule ",
       "url": "/text-content/1bc4082c-c239-4494-89a6-c37c47ffe33c",
       "source": "Forgotten Text 6 4.6",
-      "topic": "Calculus/Derivatives/Differentiation Rules"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
     }
   ],
   "answers": [],

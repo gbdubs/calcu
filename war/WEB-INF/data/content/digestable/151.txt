@@ -780,7 +780,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/85efb965-b900-456a-8556-02a0a388dd6f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     },
     {
       "uuid": "3a96f7dc-38c2-44d6-81c2-f16bf1d00f91",
@@ -797,7 +797,7 @@
       "tags": "inequalities and absolute values, inequalities ,absolute values",
       "url": "/question/3a96f7dc-38c2-44d6-81c2-f16bf1d00f91",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Systems/Systems of Inequalities/Absolute Value System"
+      "topic": "Algebra/Solving Equations/System of Linear Equations/Solving Systems with Absolute Values"
     }
   ],
   "textContent": [
@@ -811,12 +811,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Geometry Undefined Terms",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30000.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30000.png\"/\u003e",
       "allAnswers": [],
       "tags": "undefined terms, set, point, line, straight line, plane, geometry, undefined",
       "url": "/text-content/b144a71a-5484-419f-81c8-b731e236b11f",
       "source": "Amsco Geometry Textbook 1.1",
-      "topic": "Calculus/Transcendental Functions/Derivatives of the Trigonometric Functions"
+      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
     },
     {
       "uuid": "4a30ae4e-131a-4fde-813f-0fa559eafd09",
@@ -828,12 +828,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Properties of the Real Number System",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30001.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30002.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30001.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30002.png\"/\u003e",
       "allAnswers": [],
       "tags": "real number, closure, properties of real numbers, real identities",
       "url": "/text-content/4a30ae4e-131a-4fde-813f-0fa559eafd09",
       "source": "Amsco Geometry Textbook 1.2",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "e77cc3a3-29b5-43dd-9e12-98f230b5e7db",
@@ -845,12 +845,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Midpoints and Bisectors",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30015.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30015.png\"/\u003e",
       "allAnswers": [],
       "tags": "midpoint, bisector, line segment, geometry",
       "url": "/text-content/e77cc3a3-29b5-43dd-9e12-98f230b5e7db",
       "source": "Amsco Geometry Textbook 1.4",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     }
   ],
   "answers": [],

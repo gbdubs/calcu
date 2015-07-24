@@ -358,7 +358,7 @@
       "tags": "parallel, coplanar, common point, biconditional ",
       "url": "/question/092da2f3-23ac-4602-942b-fdeea92b97e6",
       "source": "Amsco Geometry Textbook 11.1.7",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "5f6805be-1040-4f3e-80cc-53b68d523256",
@@ -370,7 +370,7 @@
       "viewable": true,
       "karma": 3,
       "title": "Equilateral triangles ",
-      "body": "A. A photographer wants to have a steady base for his camera. Should he choose a base with four legs or with three? Explain your answer.\nB. Ken is building a tool shed in his backyard. He begins by driving four stakes into the ground to be the corners of a rectangular floor. He stretches strings from two of the stakes to the opposite stakes and adjusts the height of the stakes until the strings intersect. Explain how the strings assure him that the four stakes will all be in the same plane.\nC. Each of four equilateral triangles has a common side with each of the three other triangles and form a solid called a tetrahedron. Prove that the triangles are congruent.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/399.png\"/\u003e",
+      "body": "A. A photographer wants to have a steady base for his camera. Should he choose a base with four legs or with three? Explain your answer.\nB. Ken is building a tool shed in his backyard. He begins by driving four stakes into the ground to be the corners of a rectangular floor. He stretches strings from two of the stakes to the opposite stakes and adjusts the height of the stakes until the strings intersect. Explain how the strings assure him that the four stakes will all be in the same plane.\nC. Each of four equilateral triangles has a common side with each of the three other triangles and form a solid called a tetrahedron. Prove that the triangles are congruent.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/2/399.png\"/\u003e",
       "allAnswers": [],
       "tags": "equilateral triangles, tetrahedron ",
       "url": "/question/5f6805be-1040-4f3e-80cc-53b68d523256",
@@ -392,7 +392,7 @@
       "tags": "perpendicular, dihedral angles, equal measures, two planes ",
       "url": "/question/852cc37c-f8b4-42a2-a415-84f3684c5407",
       "source": "Amsco Geometry Textbook 11.2.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "577ecf50-ed48-4a73-83f1-d020a3d743b5",
@@ -409,7 +409,7 @@
       "tags": "intersecting planes, dihedral angles, perpendicular",
       "url": "/question/577ecf50-ed48-4a73-83f1-d020a3d743b5",
       "source": "Amsco Geometry Textbook 11.2.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "3ce8388a-86c4-417b-8fec-edd26664caaf",
@@ -426,7 +426,7 @@
       "tags": "perpendicular lines ",
       "url": "/question/3ce8388a-86c4-417b-8fec-edd26664caaf",
       "source": "Amsco Geometry Textbook 11.2.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "d0efbbc1-826c-4578-8845-16d74610fd91",
@@ -443,7 +443,7 @@
       "tags": "perpendicular, planes, lines",
       "url": "/question/d0efbbc1-826c-4578-8845-16d74610fd91",
       "source": "Amsco Geometry Textbook 11.2.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "6494ad9d-e45c-45c7-bf8d-bd923aa200ad",
@@ -460,7 +460,7 @@
       "tags": "line, true and false, perpendicular, plane, intersecting, points",
       "url": "/question/6494ad9d-e45c-45c7-bf8d-bd923aa200ad",
       "source": "Amsco Geometry Textbook 11.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "fb76bae2-f469-4282-a0c8-087c05c67de0",
@@ -477,7 +477,7 @@
       "tags": "postulates, theorem, perpendicular line, perpendicular plane",
       "url": "/question/fb76bae2-f469-4282-a0c8-087c05c67de0",
       "source": "Amsco Geometry Textbook 11.2.3",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "2655e95f-f92f-45c2-8728-3d867fa8632e",
@@ -494,7 +494,7 @@
       "tags": "lines, true and false, perpendicular, plane, intersecting",
       "url": "/question/2655e95f-f92f-45c2-8728-3d867fa8632e",
       "source": "Amsco Geometry Textbook 11.2.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "18deef51-5b2a-41e6-82c2-4dcf1bb0d3db",
@@ -506,12 +506,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Prove theorems and points",
-      "body": "a. Prove step 1 of Theorem 11.4.\nb. Prove step 3 of Theorem 11.4.\nc. Prove step 5 of Theorem 11.4.\nd. Prove that if a line segment is perpendicular to a plane at the midpoint of the line segment, then every point in the plane is equidistant from the endpoints of the line segment.\nGiven: AB /( \\perp /) plane p at M, the midpoint of AB, and R is any point in plane p.\nProve: AR \u003d BR\ne. Prove that if two points are each equidistant from the endpoints of a line segment, then the line segment is per- pendicular to the plane determined by the two points and the midpoint of the line segment.\nGiven: M is the midpoint of AB, RA /( \\cong /) RB, and SA /( \\cong /) SB.\nProve: AB is perpendicular to the plane determined by M, R, and S.\n______f. Equilateral triangle ABC is in plane p and AD is perpendicular to plane p. Prove that BD /( \\cong /) CD.\ng. AB and AC intersect at A and determine plane p. AD is perpendicular to plane p at A. If AB \u003d AC, prove that /( \\triangle ABD /) /( \\cong /) /( \\triangle ACD /).\nh. Triangle QRS is in plane p, ST is perpendicular to plane p, and /( \\angle QTS /) /( \\cong /) /( \\angle_ _RTS /). Prove that TQ /( \\cong /) TR.\ni. Workers who are installing a new telephone pole position the pole so that it is perpendicu- lar to the ground along two different lines. Prove that this is sufficient to prove that the tele- phone pole is perpendicular to the ground.\nj. A telephone pole is perpendicular to the level ground. Prove that two wires of equal length attached to the pole at the same point and fastened to the ground are at equal distances from the pole.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/400.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/ 401.png\"/\u003e",
+      "body": "a. Prove step 1 of Theorem 11.4.\nb. Prove step 3 of Theorem 11.4.\nc. Prove step 5 of Theorem 11.4.\nd. Prove that if a line segment is perpendicular to a plane at the midpoint of the line segment, then every point in the plane is equidistant from the endpoints of the line segment.\nGiven: AB /( \\perp /) plane p at M, the midpoint of AB, and R is any point in plane p.\nProve: AR \u003d BR\ne. Prove that if two points are each equidistant from the endpoints of a line segment, then the line segment is per- pendicular to the plane determined by the two points and the midpoint of the line segment.\nGiven: M is the midpoint of AB, RA /( \\cong /) RB, and SA /( \\cong /) SB.\nProve: AB is perpendicular to the plane determined by M, R, and S.\n______f. Equilateral triangle ABC is in plane p and AD is perpendicular to plane p. Prove that BD /( \\cong /) CD.\ng. AB and AC intersect at A and determine plane p. AD is perpendicular to plane p at A. If AB \u003d AC, prove that /( \\triangle ABD /) /( \\cong /) /( \\triangle ACD /).\nh. Triangle QRS is in plane p, ST is perpendicular to plane p, and /( \\angle QTS /) /( \\cong /) /( \\angle_ _RTS /). Prove that TQ /( \\cong /) TR.\ni. Workers who are installing a new telephone pole position the pole so that it is perpendicu- lar to the ground along two different lines. Prove that this is sufficient to prove that the tele- phone pole is perpendicular to the ground.\nj. A telephone pole is perpendicular to the level ground. Prove that two wires of equal length attached to the pole at the same point and fastened to the ground are at equal distances from the pole.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/2/400.png\"/\u003e\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/2/401.png\"/\u003e",
       "allAnswers": [],
       "tags": "Line segment, perpendicular plane, endpoints",
       "url": "/question/18deef51-5b2a-41e6-82c2-4dcf1bb0d3db",
       "source": "Amsco Geometry Textbook 11.2.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "c6d0a900-9deb-43e1-b25d-a3ef2eed3f8f",
@@ -528,7 +528,7 @@
       "tags": "perpendicular, plane, line, midpoint, proof",
       "url": "/question/c6d0a900-9deb-43e1-b25d-a3ef2eed3f8f",
       "source": "Amsco Geometry Textbook 11.2.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "b51e4a73-0bec-417e-b4ce-d052bb1bff46",
@@ -540,12 +540,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Plane Proof",
-      "body": "Prove that if two points are each equidistant from the endpoints of a line segment, then the line segment is per- pendicular to the plane determined by the two points and the midpoint of the line segment.\nGiven: M is the midpoint of AB, RA \u003e RB, and SA \u003e SB.\nProve: AB is perpendicular to the plane determined by M, R, and S.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10131.png\"/\u003e",
+      "body": "Prove that if two points are each equidistant from the endpoints of a line segment, then the line segment is per- pendicular to the plane determined by the two points and the midpoint of the line segment.\nGiven: M is the midpoint of AB, RA \u003e RB, and SA \u003e SB.\nProve: AB is perpendicular to the plane determined by M, R, and S.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10131.png\"/\u003e",
       "allAnswers": [],
       "tags": "line, plane, proof, midpoint, perpendicular, endpoints",
       "url": "/question/b51e4a73-0bec-417e-b4ce-d052bb1bff46",
       "source": "Amsco Geometry Textbook 11.2.6",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "33a845cf-18ce-4f61-9e68-2f717621d042",
@@ -562,7 +562,7 @@
       "tags": "plane, line, triangle, proof, perpendicular, triangle, ",
       "url": "/question/33a845cf-18ce-4f61-9e68-2f717621d042",
       "source": "Amsco Geometry Textbook 11.2.7",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "ace23238-e254-4566-b9de-64c8136b79b6",
@@ -579,7 +579,7 @@
       "tags": "line, plane, perpendicular, proof",
       "url": "/question/ace23238-e254-4566-b9de-64c8136b79b6",
       "source": "Amsco Geometry Textbook 11.2.8",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "e63db9dc-7cdb-4ca2-a06d-757718f6fd0a",
@@ -596,7 +596,7 @@
       "tags": "perpendicular planes, parallel planes ",
       "url": "/question/e63db9dc-7cdb-4ca2-a06d-757718f6fd0a",
       "source": "Amsco Geometry Textbook 11.3.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "2db8dabe-9a8b-45cc-8591-08ee03f4b081",
@@ -613,7 +613,7 @@
       "tags": "parallel, planes, lines",
       "url": "/question/2db8dabe-9a8b-45cc-8591-08ee03f4b081",
       "source": "Amsco Geometry Textbook 11.3.1",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "6ab3fb64-1008-4b00-9615-8bbea2f44f99",
@@ -625,12 +625,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Perpendicular and Parallel General Questions",
-      "body": "Each of the given statements is sometimes true and some- times false. a. Give an example from the diagram to show that the statement can be true. b. Give a counterexample from the diagram to show that the statement can be false. In the diagram, each quadrilateral is a rectangle.\nA. If two planes are perpendicular, a line parallel to one plane is perpendicular to the other.\nB. Two planes parallel to the same line are parallel to each other.\nC. Two lines perpendicular to the same line are parallel.\nD. Two lines that do not intersect are parallel.\nE. Two planes perpendicular to the same plane are parallel to each other.\nF. Two lines parallel to the same plane are parallel.\nG. If two lines are parallel, then a line that is skew to one line is skew to the other.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/402.png\"/\u003e",
+      "body": "Each of the given statements is sometimes true and some- times false. a. Give an example from the diagram to show that the statement can be true. b. Give a counterexample from the diagram to show that the statement can be false. In the diagram, each quadrilateral is a rectangle.\nA. If two planes are perpendicular, a line parallel to one plane is perpendicular to the other.\nB. Two planes parallel to the same line are parallel to each other.\nC. Two lines perpendicular to the same line are parallel.\nD. Two lines that do not intersect are parallel.\nE. Two planes perpendicular to the same plane are parallel to each other.\nF. Two lines parallel to the same plane are parallel.\nG. If two lines are parallel, then a line that is skew to one line is skew to the other.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/2/402.png\"/\u003e",
       "allAnswers": [],
       "tags": "perpendicular planes, parallel planes, intersection, lines ",
       "url": "/question/6ab3fb64-1008-4b00-9615-8bbea2f44f99",
       "source": "Amsco Geometry Textbook 11.3.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "2d5d9a6b-1d6c-40f5-ab82-a25fef7d7350",
@@ -642,12 +642,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Line and Plane Practice",
-      "body": "Each of the given statements is sometimes true and sometimes false. a. Give an example from the diagram to show that the statement can be true. b. Give a counterexample from the diagram to show that the statement can be false. In the diagram, each quadrilateral is a rectangle.\n\na. If two planes are perpendicular, a line parallel to one plane is perpendicular to the other.\nb. Two planes parallel to the same line are parallel to each other.\nc. Two lines perpendicular to the same line are parallel.\nd. Two lines that do not intersect are parallel.\ne. Two planes perpendicular to the same plane are parallel to each other.\nf. Two lines parallel to the same plane are parallel.\ng. If two lines are parallel, then a line that is skew to one line is skew to the other.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/10132.png\"/\u003e",
+      "body": "Each of the given statements is sometimes true and sometimes false. a. Give an example from the diagram to show that the statement can be true. b. Give a counterexample from the diagram to show that the statement can be false. In the diagram, each quadrilateral is a rectangle.\n\na. If two planes are perpendicular, a line parallel to one plane is perpendicular to the other.\nb. Two planes parallel to the same line are parallel to each other.\nc. Two lines perpendicular to the same line are parallel.\nd. Two lines that do not intersect are parallel.\ne. Two planes perpendicular to the same plane are parallel to each other.\nf. Two lines parallel to the same plane are parallel.\ng. If two lines are parallel, then a line that is skew to one line is skew to the other.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/0/10132.png\"/\u003e",
       "allAnswers": [],
       "tags": "lines, planes, perpendicular, parallel, skew lines",
       "url": "/question/2d5d9a6b-1d6c-40f5-ab82-a25fef7d7350",
       "source": "Amsco Geometry Textbook 11.3.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "360ada7c-36ec-490a-ae16-7083944d1d7f",
@@ -698,7 +698,7 @@
       "tags": "parallel, lines, planes, perpendicular",
       "url": "/question/b93283c0-cc71-4f07-a44e-3106828e7440",
       "source": "Amsco Geometry Textbook 11.3.4",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "bad8fe33-5499-48f4-816d-182fda67f72c",
@@ -715,7 +715,7 @@
       "tags": "parallel, planes, lines, perpendicular",
       "url": "/question/bad8fe33-5499-48f4-816d-182fda67f72c",
       "source": "Amsco Geometry Textbook 11.3.5",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "cdfadb6e-4b26-44bc-8b83-33e2422fa172",
@@ -783,7 +783,7 @@
       "tags": "parallelpiped, planes, lines, lateral",
       "url": "/question/289c26bc-51a3-4ced-910b-77c507d02f03",
       "source": "Amsco Geometry Textbook 11.4.10",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "03d56346-4016-4f52-9702-f78bbbcb7546",
@@ -817,7 +817,7 @@
       "tags": "parallelpiped, cube, congruent, planes, lines",
       "url": "/question/045767d8-5644-4c6a-8494-dd7954636f6f",
       "source": "Amsco Geometry Textbook 11.4.11",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "723f96d2-6d59-424f-9041-0fac5e01edb2",
@@ -834,7 +834,7 @@
       "tags": "parallelepiped, parallel line. line segments ",
       "url": "/question/723f96d2-6d59-424f-9041-0fac5e01edb2",
       "source": "Amsco Geometry Textbook 11.4.12",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "d7e8908a-f280-4a9a-aa29-ce3ab676eec4",
@@ -851,7 +851,7 @@
       "tags": "planes, lines, lateral area",
       "url": "/question/d7e8908a-f280-4a9a-aa29-ce3ab676eec4",
       "source": "Amsco Geometry Textbook 11.4.12",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "e0734b20-a20b-4c2d-aee4-def6fc87bda2",
@@ -868,7 +868,7 @@
       "tags": "parallelepiped, squares, shape of bases",
       "url": "/question/e0734b20-a20b-4c2d-aee4-def6fc87bda2",
       "source": "Amsco Geometry Textbook 11.4.13",
-      "topic": "Geometry/Polygons/Squares"
+      "topic": "Geometry/Polygons/Quadrilaterals/Squares"
     },
     {
       "uuid": "1af1b125-abe5-441e-94ba-766a2129a5dc",
@@ -885,7 +885,7 @@
       "tags": "parallelepiped, squares, angle, bases, rectangular parallelepiped",
       "url": "/question/1af1b125-abe5-441e-94ba-766a2129a5dc",
       "source": "Amsco Geometry Textbook 11.4.14",
-      "topic": "Geometry/Polygons/Squares"
+      "topic": "Geometry/Polygons/Quadrilaterals/Squares"
     },
     {
       "uuid": "8089fab8-bc4a-4f7e-8502-6d3cb67dac1c",
@@ -936,7 +936,7 @@
       "tags": "surface area, rectangle, lines, planes",
       "url": "/question/19a02dca-29a5-4357-b276-0c33548fd334",
       "source": "Amsco Geometry Textbook 11.4.2",
-      "topic": "Geometry/Points Lines Planes and Angles/Lines"
+      "topic": "Geometry/Points Lines Planes + Angles/Lines"
     },
     {
       "uuid": "392b48a6-caf8-4241-9491-dfeac3a11625",
@@ -1378,7 +1378,7 @@
       "tags": "proof, plane, triangular prism, intersects, lines, congruent",
       "url": "/question/4e0ff9d7-0522-46a4-ba50-3b8f64b7e498",
       "source": "Amsco Geometry Textbook 11.5.6",
-      "topic": "Geometry/Points Lines Planes and Angles/Planes"
+      "topic": "Geometry/Points Lines Planes + Angles/Planes"
     },
     {
       "uuid": "be016e18-62cd-44a0-bbfd-9cd322e88b06",
@@ -1613,12 +1613,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Distance Between Two Points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30007.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30007.png\"/\u003e",
       "allAnswers": [],
       "tags": "number line, distance between points, distance between two points, geometry, betweenness",
       "url": "/text-content/62ec0201-579a-4ad7-81a1-444f5e5e53d9",
       "source": "Amsco Geometry Textbook 1.3.1",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "93c693d7-5991-482f-b4be-0e6538010a09",
@@ -1630,12 +1630,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Line Segments",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30009.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30009.png\"/\u003e",
       "allAnswers": [],
       "tags": "line segment, segment, length, distance, congruent segments, ",
       "url": "/text-content/93c693d7-5991-482f-b4be-0e6538010a09",
       "source": "Amsco Geometry Textbook 1.3.2",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "5cbc94be-c706-4bd1-a114-403aaf342614",
@@ -1647,12 +1647,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Adding and subtracting Line Segments",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30015.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30016.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30015.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30016.png\"/\u003e",
       "allAnswers": [],
       "tags": "Line Segment Algebra, line segments, addition, subtraction",
       "url": "/text-content/5cbc94be-c706-4bd1-a114-403aaf342614",
       "source": "Amsco Geometry Textbook 1.4.2",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     },
     {
       "uuid": "40309ba3-5031-4ced-9b5b-e456aa54e21c",
@@ -1664,12 +1664,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Half Lines and Rays",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30017.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30018.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30017.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30018.png\"/\u003e",
       "allAnswers": [],
       "tags": "ray, half line, half-line, geometry, opposite rays",
       "url": "/text-content/40309ba3-5031-4ced-9b5b-e456aa54e21c",
       "source": "Amsco Geometry Textbook 1.5.1",
-      "topic": "Pre-Calculus/Trigonometry/Graphs of Trigonometric Functions/Fundamental Cycle/Sinusoids"
+      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
     },
     {
       "uuid": "76196217-7617-47c2-86b2-95acfbe842ea",
@@ -1681,12 +1681,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30019.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/30020.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30019.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30020.png\"/\u003e",
       "allAnswers": [],
       "tags": "vertex, angle sides, angle vertex, straight angle, opposite rays, interior angle, exterior angle, ",
       "url": "/text-content/76196217-7617-47c2-86b2-95acfbe842ea",
       "source": "Amsco Geometry Textbook 1.5.2",
-      "topic": "Pre-Calculus/Trigonometric Identities/Law of Cosines"
+      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
     }
   ],
   "answers": [],
