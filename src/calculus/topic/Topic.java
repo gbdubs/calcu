@@ -111,13 +111,23 @@ public class Topic {
 		this.parentTopics = new ArrayList<String>();
 	}
 	
-	
 	public String getUuid(){
 		return uuid;
 	}
 	
 	public String getTitle(){
 		return title;
+	}
+	
+	public String getUpperCaseTitle(){
+		String s = "";
+		if (title.length() == 0){
+			return s;
+		}
+		for (String word : title.toLowerCase().split(" ")){
+			s += (" " + word.charAt(0)).toUpperCase() + word.substring(1);
+		}
+		return s.trim();
 	}
 	
 	public List<String> getSubTopics(){

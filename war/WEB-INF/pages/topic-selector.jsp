@@ -16,8 +16,7 @@
 				<div id="topic-selector">
 				
 					<div id="ts-columns">
-					
-						<!-- FIRST COLUMN --> 
+						<!-- FIRST COLUMN, PRE LOADED. --> 
 						<div id="ts-col-1" class="col-lg-3 col-md-4 col-sm-4">
 							<div class="box box-primary box-solid">
 								<div class="box-header centered">
@@ -25,21 +24,21 @@
 								</div>
 								<div class="box-body align-left">
 									<c:forEach var="topic" items="${rootTopics}">
-										<a id="ts-${topic.uuid}" class="btn btn-block btn-default">
-											${topic.title}
-										</a>
+										<c:if test="${topic.upperCaseTitle != 'None'}">
+											<a id="ts-${topic.uuid}" class="btn btn-block btn-default">
+												${topic.upperCaseTitle}
+											</a>
+										</c:if>
 									</c:forEach>
 								</div>
 							</div>
 						</div>
-				
 					</div>
-		
-					
+			
 					<div class="hidden" id="ts-data">
 						<c:forEach var="topic" items="${allTopics}">
 							<div id="ts-${topic.uuid}-data">
-								<div class="title">${topic.title}</div>
+								<div class="title">${topic.upperCaseTitle}</div>
 								<div class="sub-topics">${topic.subTopics}</div>
 								<div class="short-desc">${topic.shortDescription}</div>
 								<div class="long-desc">${topic.longDescription}</div>
@@ -53,29 +52,19 @@
 								</div>
 						</c:forEach>
 					</div>					
-					
-					
-					
-					
-					
+
 					<div id="templates" class="hidden">
 				
-						<div id="ts-column-template" class="col-lg-3 col-md-4 col-sm-4">
-							
-						</div>
+						<div id="ts-column-template" class="col-lg-3 col-md-4 col-sm-4"></div>
 								
 						<div id="ts-topic-box-template" class="box box-success box-solid topic-box hidden">
 							<div class="box-header centered topic-selector-header">
 								<h3 class="box-title float-none">[TOPIC_TITLE]</h3>
 							</div>
-							<div class="box-body align-left">
-								
-							</div>
+							<div class="box-body align-left"></div>
 						</div>
 					
-						<a id="ts-topic-box-button" class="btn btn-block btn-default">
-							
-						</a>
+						<a id="ts-topic-box-button" class="btn btn-block btn-default"></a>
 						
 						<div id="ts-info-box-template" class="max-width-at-1000 align-left hidden ts-info-box">
 							<div class = "box box-primary box-solid">
@@ -108,15 +97,10 @@
 							<a href="/practice-problem/af335f4c-8538-4c46-87cf-62bee879c31b"><b>[CONTENT_TITLE]</b></a>
 							[CONTENT_BODY]
 						</div>
-					
 					</div>
-					
 				</div>
 			</div>
 		</div>
-					
-					
-					
 
 	</jsp:attribute>
 	<jsp:attribute name="javascriptDependencies">

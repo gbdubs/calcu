@@ -21,24 +21,28 @@ public class TopicAPI {
 	
 	
 	public static Topic getOrCreateTopicFromUrl(String topicUrl){
+		if (topicUrl.equals("")){
+			return getOrCreateTopicFromUrl("NONE");
+		}
+		topicUrl = topicUrl.toLowerCase();
 		Entity titleMappingEntity = Topic.getTopicTitleMapping();
 		
 		String title = topicUrl.substring(topicUrl.lastIndexOf('/') + 1).toLowerCase();
 		
-		if (titleMappingEntity.getProperty(title) != null){
-			return getTopicByUUID((String) titleMappingEntity.getProperty(title));
-		} 
-		if (topicMapping.get(title) != null){
-			return getTopicByUUID(topicMapping.get(title));
+		if (titleMappingEntity.getProperty(topicUrl) != null){
+			return getTopicByUUID((String) titleMappingEntity.getProperty(topicUrl));
+		}
+		
+		if (topicMapping.get(topicUrl) != null){
+			return getTopicByUUID(topicMapping.get(topicUrl));
 		}
 		
 		System.out.println("CREATING FROM URL: " + topicUrl + " TITLE: " + title);
 		Topic result = getTopicByUUID(createTopicFromUrl(topicUrl));
 		
-		titleMappingEntity.setUnindexedProperty(title, result.getUuid());
-		topicMapping.put(title, result.getUuid());
+		titleMappingEntity.setUnindexedProperty(topicUrl, result.getUuid());
+		topicMapping.put(topicUrl, result.getUuid());
 		datastore.put(titleMappingEntity);
-		
 		
 		return result;
 	}
@@ -71,9 +75,9 @@ public class TopicAPI {
 				parent.save();
 			}
 			Entity titleMapping = Topic.getTopicTitleMapping();
-			titleMapping.setUnindexedProperty(t.getTitle().toLowerCase(), t.getUuid());
+			titleMapping.setUnindexedProperty(topicUrl.toLowerCase(), t.getUuid());
 			datastore.put(titleMapping);
-			topicMapping.put(t.getTitle().toLowerCase(), t.getUuid());
+			topicMapping.put(topicUrl.toLowerCase(), t.getUuid());
 			t.save();
 			return t.getUuid();
 		}
