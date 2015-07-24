@@ -71,6 +71,7 @@
 						</div>
 					</div>
 				</c:if>
+				
 				<div class="box-solid practice-problem">
 					<div class="box-header">
 						<c:if test="${! practiceProblem.anonymous}">
