@@ -210,3 +210,8 @@ p.large-icon-bullet-point {
 .full-width{
 	width: 100%;
 }
+
+.tutorial-content-box{
+	max-width: 800px;
+  	display: inline-block;
+}

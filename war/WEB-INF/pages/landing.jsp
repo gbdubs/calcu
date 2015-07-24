@@ -7,45 +7,398 @@
 	</jsp:attribute>
 
 	<jsp:attribute name="content">
-		<div class="centered">
-			<div class="max-width-at-1000">
 		
-		
-		<div class="shield big-shield thin-shield">
-			<h1 class="shield-integral">\[\int\]</h1>
-			<div class="shield-outer">
-				<div class="shield-top"></div>
-				<div class="shield-body"></div>
-				<div class="shield-bottom"></div>
+		<div class="landing-decoration-wrapper">
+			<div class="centered margin-bottom-100">
+				<div class="max-width-at-1000 margin-top-40">
+					<div class="shield med-shield thin-shield bright-blue-shield landing-shield-deriv">
+						<h1 class="shield-deriv">\[\frac{\partial u}{\partial x}\]</h1>
+						<div class="shield-outer">
+							<div class="shield-top"></div>
+							<div class="shield-body"></div>
+							<div class="shield-bottom"></div>
+						</div>
+						<div class="shield-inner">
+							<div class="shield-top"></div>
+							<div class="shield-body"></div>
+							<div class="shield-bottom"></div>
+						</div>
+					</div>
+				
+					<div class="title-between-shield">
+						<h1 class="welcome-banner font-weight-400">CalcU</h1>
+						<h3 class="welcome-banner-subtitle font-weight-400">A free course aid for the 21st century</h3>
+					</div>
+					
+					<br class="hidden-above-1218">
+					
+					<div class="shield med-shield thin-shield bright-blue-shield landing-shield-integral">
+						<h1 class="shield-integral">\[\int\]</h1>
+						<div class="shield-outer">
+							<div class="shield-top"></div>
+							<div class="shield-body"></div>
+							<div class="shield-bottom"></div>
+						</div>
+						<div class="shield-inner">
+							<div class="shield-top"></div>
+							<div class="shield-body"></div>
+							<div class="shield-bottom"></div>
+						</div>
+					</div>
+					
+					<div class="shield med-shield thin-shield bright-blue-shield hidden-med-shield-integral">
+						<h1 class="shield-integral">\[\int\]</h1>
+						<div class="shield-outer">
+							<div class="shield-top"></div>
+							<div class="shield-body"></div>
+							<div class="shield-bottom"></div>
+						</div>
+						<div class="shield-inner">
+							<div class="shield-top"></div>
+							<div class="shield-body"></div>
+							<div class="shield-bottom"></div>
+						</div>
+					</div>
+					
+					<br>
+					
+					<div class="max-width-at-700 margin-bottom-10">
+						<p>
+							TEXT UNDER CONSTRUCTION
+						</p>
+					</div>
+				
+					<br>
+					
+					<div class="max-width-at-700">
+						<a href="/tutorial" class="hexagon-button float-left">
+							<div class="text-yellow">
+								<div class="hexagon outer-hexagon"></div>
+								<div class="hexagon-button-insides bg-white text-white">
+									<div class="hexagon inner-hexagon"></div>
+								</div>
+								<i class="fa fa-fw fa-university fa-5x badge-icon"></i>
+								<h4 class="hexagon-title">Tutorial</h4>
+							</div>
+						</a>
+						<div class="box box-warning box-solid landing-text-box">
+							<div class="box-header">
+								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+							</div>
+							<div class="box-body box-body-padding">
+								<p> 
+									TEXT UNDER CONSTRUCTION
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="max-width-at-700">
+						<a href="/search" class="hexagon-button float-right">
+							<div class="text-blue">
+								<div class="hexagon outer-hexagon"></div>
+								<div class="hexagon-button-insides bg-white text-white">
+									<div class="hexagon inner-hexagon"></div>
+								</div>
+								<i class="fa fa-fw fa-search fa-5x badge-icon"></i>
+								<h4 class="hexagon-title">Search by Tag</h4>
+							</div>
+						</a>
+						<div class="box box-primary box-solid landing-text-box">
+							<div class="box-header">
+								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+							</div>
+							<div class="box-body box-body-padding">
+								<p> 
+									TEXT UNDER CONSTRUCTION
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="max-width-at-700">
+						<a href="/explore" class="hexagon-button float-left">
+							<div class="text-green">
+								<div class="hexagon outer-hexagon"></div>
+								<div class="hexagon-button-insides bg-white text-white">
+									<div class="hexagon inner-hexagon"></div>
+								</div>
+								<i class="fa fa-fw fa-binoculars fa-5x badge-icon"></i>
+								<h4 class="hexagon-title">Explore the Site</h4>
+							</div>
+						</a>
+						<div class="box box-success box-solid landing-text-box">
+							<div class="box-header">
+								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+							</div>
+							<div class="box-body box-body-padding">
+								<p> 
+									TEXT UNDER CONSTRUCTION
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="max-width-at-700">
+						<a href="/about" class="hexagon-button float-right">
+							<div class="text-red">
+								<div class="hexagon outer-hexagon"></div>
+								<div class="hexagon-button-insides bg-white text-white">
+									<div class="hexagon inner-hexagon"></div>
+								</div>
+								<i class="fa fa-fw fa-cogs fa-5x badge-icon"></i>
+								<h4 class="hexagon-title">About</h4>
+							</div>
+						</a>
+						<div class="box box-danger box-solid landing-text-box">
+							<div class="box-header">
+								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+							</div>
+							<div class="box-body box-body-padding">
+								<p> 
+									TEXT UNDER CONSTRUCTION
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="shield-inner">
-				<div class="shield-top"></div>
-				<div class="shield-body"></div>
-				<div class="shield-bottom"></div>
+		
+			<div class="hexagon-table landing-right-decoration landing-decoration-opacity">
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>	
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+			</div>
+			
+			<div class="hexagon-table landing-left-decoration landing-decoration-opacity">
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>	
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>	
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-blue"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-red"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
+				
+				<br>
+				
+				<div class="hexagon-row">
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-blank"></div>
+					<div class="hexagon-decoration"><div class="text-green"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+					<div class="hexagon-decoration"><div class="text-yellow"><div class="hexagon outer-hexagon"></div><div class="hexagon-button-insides bg-white text-white"><div class="hexagon inner-hexagon"></div></div></div></div>
+				</div>
 			</div>
 		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		<h1 class="welcome-banner">CalcU</h1>
-		<h3 class="welcome-banner-subtitle">A Course Aid For the 21st Century</h3>
-		
-		
-		<h1 class="welcome-banner">CALCU IS CURRENTLY DOWN FOR MAINTAINANCE, AND WILL BE FOR SEVERAL DAYS. SERVICE WILL BE RESTORED ON AUGUST 1st 2015.</h1>		
-		
-		
 	</jsp:attribute>
 </t:genericpage>
