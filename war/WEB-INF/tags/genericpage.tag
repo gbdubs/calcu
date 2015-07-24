@@ -39,7 +39,7 @@
     <!-- LOGO -->
     <a href="/home" class="logo">
         <!-- Add the class icon to your logo image or logo icon to add the margining -->
-        <img src="/_static/img/shield-icons/deriv-w.png"> CalcU <img src="/_static/img/shield-icons/integ-w.png">
+        <img src="/_static/img/shield-icons/deriv-w-b.png"> CalcU <img src="/_static/img/shield-icons/int-w-b.png">
     </a>
 
     <!-- Header, Navbar -->
@@ -54,6 +54,11 @@
         <div class="navbar-right">
             <ul class="nav navbar-nav">
 
+                <!-- Search Menu-->
+                <li class="dropdown messages-menu">
+                    <jsp:include page="/WEB-INF/templates/searchbar-menu.jsp" />
+                </li>
+                
                 <!-- Notifications Menu-->
                 <li class="dropdown messages-menu">
                     <jsp:include page="/WEB-INF/templates/notifications-menu.jsp" />

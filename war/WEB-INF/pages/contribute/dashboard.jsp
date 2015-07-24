@@ -24,6 +24,7 @@
 					as people have rated and reviewed them. If you have any questions about content creation, please feel free to contact us.
 				</p>
 			</div>
+			<br>
 			<div class="max-width-at-1000 align-left">
 				<div class="row create-content-buttons">
 					<div class="col-sm-4 col-xs-12">

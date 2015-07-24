@@ -1,5 +1,7 @@
 package calculus.models;
 
+import calculus.utilities.LatexPatcher;
+
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.Text;
@@ -39,4 +41,11 @@ public class PracticeProblem extends Content{
 	public void setTypeSpecificEntityProperties() {
 		this.entity.setProperty("authorSolution", new Text(authorSolution));
 	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		authorSolution = LatexPatcher.makeReplacements(authorSolution);
+	}
+
+	
 }

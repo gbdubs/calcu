@@ -27,4 +27,9 @@ public class Question extends Content{
 	public void setTypeSpecificEntityProperties() {
 		// Questions have no special properties!
 	}
+
+	@Override
+	public void patchLatexTypeSpecificProperties() {
+		// Questions have no special properties!
+	}
 }
