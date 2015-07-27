@@ -40,7 +40,7 @@
 										<input type="hidden" name="userId" value="${user.userId}"/>
 										<input type="file" class="form-control bg-blue" id="profile-picture-upload" name="profilePictureUpload" multiple="false"/>
 										<span class="input-group-btn">
-											<button class="btn btn-primary" type="submit">Square Crop and Save</button>
+											<button class="btn btn-primary" type="submit" disabled id="profile-picture-upload-button">Square Crop and Save</button>
 										</span>
 									</div>
 								</form>
