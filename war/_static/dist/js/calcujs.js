@@ -1025,19 +1025,6 @@ $(function() {
     		} 
     	});
     });
-	
-	var ratingInstructions = $(".rating-system-horizontal .rating-instructions");
-	var ratingInstructionsButton = $(".info-button", ratingInstructions);
-	
-	$(ratingInstructionsButton).click(function(){
-		$(ratingInstructions).toggleClass("no-height");
-	});
-	$("#tags-input-bar").tagsInput({
-    	'width': '100%',
-    	'height': 'auto',
-    	'defaultText': 'Type Tags Here',
-    	'removeWithBackspace': true,
-    }); 
 });
 
 function fix_sidebar() {
@@ -2431,6 +2418,16 @@ $(function() {
 	    	$(this).val("Changed!").addClass("btn-success").removeClass("btn-primary");
 	    });
 	    
+	    $("#profile-picture-upload").change(function(){
+	    	var fileName = $("#profile-picture-upload").val();
+	    	if (fileName.length > 0) {
+	    		$("#profile-picture-upload-button").prop("disabled", false);
+	    	} else {
+	    		$("#profile-picture-upload-button").prop("disabled", true);
+	    	}
+	    		
+	    });
+	    
 	    $(".remove-bookmark-button").click(function(){
 	    	var userId = $(this).data("user");
 	    	var content = $(this).data("content");
@@ -2562,6 +2559,18 @@ $(function() {
 	    	});
 	    });
 	    
+	    var ratingInstructionsButton = $(".rating-instructions > .info-button");
+		
+		$(ratingInstructionsButton).click(function(){
+			var ratingInstructions = $(this).closest(".rating-system-horizontal .rating-instructions");
+			$(ratingInstructions).toggleClass("no-height");
+		});
+		$("#tags-input-bar").tagsInput({
+	    	'width': '100%',
+	    	'height': 'auto',
+	    	'defaultText': 'Type Tags Here',
+	    	'removeWithBackspace': true,
+	    });  
     }
 });$(function() {
 	"use strict";
@@ -2686,10 +2695,12 @@ $(function() {
 	    	
 	    	$(this).addClass('disabled');
 	    	$(this).text('All Recommendations Unhidden');
+	    	setTimeout(location.reload, 500);
+	    	window.location.reload();
 	    };
 	    
 	    $(".show-all-recommendations").click(showAll);
-	    
+
 	    $(".search-result-page").each(function(){
 	    	var parent = $(this).parent(".all-search-results");
 	    	var id = "#" + $(this).attr("id");
@@ -2760,11 +2771,15 @@ $(function() {
 	    	var tag = $(this).data("tag");
 	    	var input = $("#tags-input");
 	    
-	    	var newTag = "<span class=\"tag\"><span>"+ tag +"&nbsp;&nbsp;</span><a href=\"#\" title=\"Removing tag\"></a></span>"
+	    	var newTag = "<span id=\"" + tag + "-recommended-tag-input\" class=\"tag\"><span>"+ tag +"&nbsp;&nbsp;</span><a href=\"#\" title=\"Removing tag\"></a></span>"
 	    	
 	    	$(input).val($(input).val() + "," + tag);
 	    	$(newTag).insertBefore("#tags-input_tag");
-	
+	    	
+	    	$("#" + tag + "-recommended-tag-input > a").click(function() {
+	    		console.log("WE MADE IT");
+	    		$(this).parent().remove();
+	    	});
 	    	$(this).remove();
 	    });
     }

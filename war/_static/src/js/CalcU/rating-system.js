@@ -32,5 +32,17 @@ $(function() {
 	    	});
 	    });
 	    
+	    var ratingInstructionsButton = $(".rating-instructions > .info-button");
+		
+		$(ratingInstructionsButton).click(function(){
+			var ratingInstructions = $(this).closest(".rating-system-horizontal .rating-instructions");
+			$(ratingInstructions).toggleClass("no-height");
+		});
+		$("#tags-input-bar").tagsInput({
+	    	'width': '100%',
+	    	'height': 'auto',
+	    	'defaultText': 'Type Tags Here',
+	    	'removeWithBackspace': true,
+	    });  
     }
 });

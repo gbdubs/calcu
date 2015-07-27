@@ -5342,6 +5342,7 @@ h1.welcome-banner{
     font-weight: 100;
 }
 
+
 .max-width-at-575{  
 	display: inline-block;
     max-width: 575px;
@@ -5368,3 +5369,8 @@ h1.welcome-banner{
 		display: none;
 	}
 }
+
+.font-cursive {
+	font-family: cursive; 
+}
+
