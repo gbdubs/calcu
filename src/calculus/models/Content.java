@@ -152,6 +152,9 @@ public abstract class Content {
 	}
 
 	public Author getAuthor(){
+		if (creatorUserId == null || creatorUserId.length() < 5){
+			return null;
+		}
 		if (author == null){
 			author = new Author(creatorUserId);
 		}

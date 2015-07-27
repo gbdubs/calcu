@@ -38,9 +38,11 @@ public class ContributeAnswerServlet extends HttpServlet {
 		String uuid = ContentAPI.createOrUpdateContentFromRequest(req, "answer");
 		Answer answer;
 		try {
+			System.out.println("Attempting to instantiate the answer with UUID: " + uuid);
 			answer = new Answer(uuid);
 		} catch (EntityNotFoundException e) {
 			// Return, there was error in the code that saves a piece of content.
+			resp.getWriter().println("THERE WAS AN ERROR IN THE INSTANTIATION OF THE ANSWER: IT WAS NOT FOUND.");
 			return;
 		}
 		
@@ -60,9 +62,12 @@ public class ContributeAnswerServlet extends HttpServlet {
 		// Increment their stats for Achievments
 		AchievementsAPI.incrementUserAchievementStatsFromContentSubmission(userId, req.getParameter("body"), "Answers");
 		
-		// Sends the author a notification
-		Notification n = ContributeAnswerServlet.answerNotification(answerParentUuid, userId);
-		NotificationsAPI.sendNotification(n);
+		// Sends the author a notification if the author is not null.
+		String authorUserId = ContentAPI.getContentAuthorId(answerParentUuid);
+		if (authorUserId != null && authorUserId.length() > 5){
+			Notification n = ContributeAnswerServlet.answerNotification(answerParentUuid, userId);
+			NotificationsAPI.sendNotification(n);
+		}
 		
 		// Redirects the user to a thank you page
 		resp.setContentType("text/html");

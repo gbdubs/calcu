@@ -13,6 +13,7 @@ import java.util.concurrent.Future;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.Author;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
@@ -112,6 +113,10 @@ public class ContentAPI {
 	public static String getContentAuthorId(String contentUuid) {
 		try {
 			Content c = instantiateContent(contentUuid);
+			Author a = c.getAuthor();
+			if (a == null){
+				return null;
+			}
 			return c.getAuthor().getUserId();
 		} catch (EntityNotFoundException e) {
 			return null;
@@ -320,7 +325,6 @@ public class ContentAPI {
 		String url = "/content/" + uuid;
 		if (contentType.equals("answer")){
 			String parentUuid = req.getParameter("parentUuid");
-			uuid = UUID.randomUUID().toString();
 			try {
 				url = (ContentAPI.instantiateContent(parentUuid)).getUrl();
 			} catch (EntityNotFoundException e) {
@@ -339,8 +343,9 @@ public class ContentAPI {
 		String creatorId = "";
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user != null){
-			creatorId = user.getUserId();
+			creatorId = user.getUserId();	
 		}
+		System.out.println("CREATOR ID = " + creatorId);
 		
 		System.out.println("SAVING CONTENT WITH UUID: " + uuid);
 		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
