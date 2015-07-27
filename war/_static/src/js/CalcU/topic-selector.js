@@ -48,9 +48,9 @@ $(function(){
 			$("a.btn", scopeElement).click(function(){
 				var id = $(this).attr("id");
 				$(".no-dropdown").removeClass("no-dropdown");
+				$("#ts-view-topic-button").addClass("hidden");
 				if ($(this).hasClass("topic-selector-selected")){
 					unselectSelectedButton($(this).parent());
-					$("#" + id + "-info-box").addClass("hidden");
 				} else {
 					unselectSelectedButton($(this).parent());
 					$(this).addClass("topic-selector-selected").removeClass("btn-default").addClass("btn-success");
@@ -65,11 +65,7 @@ $(function(){
 					} else {
 						$(this).parent().addClass("no-dropdown");
 					}
-					$(".ts-info-box").addClass("hidden");
-					if ($("#" + id + "-info-box").length == 0){
-						createNewInfoBox(id);
-					}
-					$("#" + id + "-info-box").removeClass("hidden");
+					 updateViewTopicButton(id);
 				}
 				hideOrShowColumns();
 			});
@@ -109,7 +105,7 @@ $(function(){
 			$(column).append(template);
 		}
 		
-		function createNewInfoBox(id){
+		function updateViewTopicButton(id){
 			var data = $("#" + id + "-data");
 			var title = $(".title", data).text();
 			var shortDesc = $(".short-desc", data).text();
@@ -117,21 +113,22 @@ $(function(){
 			var numContent = $(".content-size", data).text();
 			var tags = $(".tags", data).text();
 			
-			var template = $("#ts-info-box-template").clone().attr("id", id + "-info-box");
-			$(".box-title", template).text("Currently Selected: " + title);
-			$(".short-description", template).text(shortDesc);
-			$(".long-description", template).text(longDesc);
-			$(".tags", template).text(tags);
-			$("b", template).text(numContent);
+			var viewTopicBtn = $("#ts-view-topic-button").attr("href", "/topic/" + id.substr(3)).removeClass("hidden");
 			
-			$("#topic-selector").append(template);
+			if (parseInt(numContent) > 0){
+				$(viewTopicBtn).text("View All " + numContent + " " + title + " Resources");
+				$(viewTopicBtn).removeClass("btn-success").addClass("btn-primary");
+			} else {
+				$(viewTopicBtn).text("View All Subtopics of " + title);
+				$(viewTopicBtn).removeClass("btn-primary").addClass("btn-success");
+			}
 		}
 		
 		function hideOrShowColumns(){
 			$(".ts-stashed-col", "#ts-columns").removeClass("ts-stashed-col").removeClass("ts-last-stashed");
 		
 			var numShown = 3;
-		    if (window.width >= 1200){
+		    if (window.outerWidth >= 1200){
 		    	numShown = 4;
 		    }
 		    var lastVisibleCol = 0;

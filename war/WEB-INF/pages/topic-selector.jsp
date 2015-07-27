@@ -13,6 +13,9 @@
 			<div class="max-width-at-1000 topic-selector-page">
 				<h2 class="welcome-banner margin-top-100">Topic Selector</h2>
 				<h3 class="margin-bottom-50 welcome-banner-subtitle">Choose a topic you're interested in, and we will find related content, practice problems, and examples for you.</h3>
+				<div class="centered margin-bottom-25">
+					<a id="ts-view-topic-button" class="hidden btn btn-success"></a>
+				</div>
 				<div id="topic-selector">
 				
 					<div id="ts-columns">
