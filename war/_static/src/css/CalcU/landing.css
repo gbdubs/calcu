@@ -56,9 +56,8 @@ h3.welcome-banner-subtitle.font-weight-400{
 .landing-decoration-wrapper{
 	position: relative;
     width: Calc(100% - -30px);
-    margin: -20px -15px;
+    margin: -20px -15px -20px -15px;
     overflow: hidden;
-    height: 1400px;
 }
 
 .landing-decoration-opacity{
@@ -112,7 +111,7 @@ h3.welcome-banner-subtitle.font-weight-400{
 }
 
 @media screen and (max-width: 377px) {
-	.hidden-med-shield-integral{
+	div.shield.hidden-med-shield-integral{
  		top: -243px;
 	}
 }
@@ -137,4 +136,10 @@ h3.welcome-banner-subtitle.font-weight-400{
 
 .margin-top-40{
 	margin-top: 40px;
+}
+
+@media only screen and (max-width: 514px) {
+	.landing-text-box {
+		width:	Calc(100% - 15px);
+	}
 }
