@@ -691,6 +691,7 @@ body>.header .logo .icon {
 		padding-top: 15px;
 		padding-bottom: 15px;
 		line-height: 20px;
+		padding: 15px 13px;
 	}
 	.navbar .navbar-right {
 		float: right;
@@ -1283,18 +1284,19 @@ to {
 	}
 	.navbar-nav>.tasks-menu>.dropdown-menu {
 		position: absolute;
-		right: -120px;
+		right: -95px;
 		left: auto;
+		max-width: Calc(100% - 100px)
 	}
 	.navbar-nav>.notifications-menu>.dropdown-menu {
 		position: absolute;
-		right: -170px;
+		right: Calc(100% - 172px);
 		left: auto;
 	}
 	.navbar-nav>.messages-menu>.dropdown-menu {
 		position: absolute;
-		right: -210px;
-		left: auto;
+   		right: -172px;
+   		left: -68px;
 	}
 }
 /* 
@@ -5341,7 +5343,27 @@ h1.welcome-banner{
 	font-size: 120px;
     font-weight: 100;
 }
-.achievement-badge{
+
+.max-width-at-575{  
+	display: inline-block;
+    max-width: 575px;
+    width: 100%;
+}
+
+.box-height-explore{
+    max-height: 500px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+	h2.welcome-banner{
+		font-size: 50px !important;	
+	}
+	
+	h2.secondary-banner{
+		font-size: 30px !important;
+	}
+}.achievement-badge{
     text-align: center;
     width: 100%;
     height: 205px;
@@ -5715,9 +5737,8 @@ h3.welcome-banner-subtitle.font-weight-400{
 .landing-decoration-wrapper{
 	position: relative;
     width: Calc(100% - -30px);
-    margin: -20px -15px;
+    margin: -20px -15px -20px -15px;
     overflow: hidden;
-    height: 1400px;
 }
 
 .landing-decoration-opacity{
@@ -5771,7 +5792,7 @@ h3.welcome-banner-subtitle.font-weight-400{
 }
 
 @media screen and (max-width: 377px) {
-	.hidden-med-shield-integral{
+	div.shield.hidden-med-shield-integral{
  		top: -243px;
 	}
 }
@@ -5796,6 +5817,12 @@ h3.welcome-banner-subtitle.font-weight-400{
 
 .margin-top-40{
 	margin-top: 40px;
+}
+
+@media only screen and (max-width: 514px) {
+	.landing-text-box {
+		width:	Calc(100% - 15px);
+	}
 }.lpg-button-disabled,
 .lpg-button{
 	height: 40px;

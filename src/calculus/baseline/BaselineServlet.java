@@ -53,7 +53,13 @@ public class BaselineServlet extends HttpServlet {
 		}
 		String result = urlRequest.substring(start+1, end);
 		
-		int stepNumber = Integer.parseInt(result);
+		int stepNumber;
+		try {
+			stepNumber = Integer.parseInt(result);
+		} catch (java.lang.NumberFormatException jnfe){
+			resp.sendRedirect("/baseline");
+			return;
+		}
 		
 		String uuid = UuidTools.getUuidFromUrl(urlRequest);
 		
@@ -86,17 +92,17 @@ public class BaselineServlet extends HttpServlet {
 		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
 		String problemUuid = req.getParameter("problemUuid");
 		int stepNumber = Integer.parseInt(req.getParameter("stepNumber"));
-		int difficulty = 0;
+		double difficulty = 0;
 		if (req.getParameter("diff1") != null){
-			difficulty = 1;
+			difficulty = .2;
 		} else if (req.getParameter("diff2") != null){
-			difficulty = 2;
+			difficulty = .4;
 		} else if (req.getParameter("diff3") != null){
-			difficulty = 3;
+			difficulty = .6;
 		} else if (req.getParameter("diff4") != null){
-			difficulty = 4;
+			difficulty = .8;
 		} else if (req.getParameter("diff5") != null){
-			difficulty = 5;
+			difficulty = 1;
 		}
 		BaselineAPI.userRankedProblemWithDifficulty(userId, problemUuid, difficulty);
 		
