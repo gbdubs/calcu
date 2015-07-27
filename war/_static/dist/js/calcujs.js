@@ -2418,6 +2418,16 @@ $(function() {
 	    	$(this).val("Changed!").addClass("btn-success").removeClass("btn-primary");
 	    });
 	    
+	    $("#profile-picture-upload").change(function(){
+	    	var fileName = $("#profile-picture-upload").val();
+	    	if (fileName.length > 0) {
+	    		$("#profile-picture-upload-button").prop("disabled", false);
+	    	} else {
+	    		$("#profile-picture-upload-button").prop("disabled", true);
+	    	}
+	    		
+	    });
+	    
 	    $(".remove-bookmark-button").click(function(){
 	    	var userId = $(this).data("user");
 	    	var content = $(this).data("content");
