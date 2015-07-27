@@ -35,6 +35,11 @@
 						</div>
 					</div>
 			
+					<div id="ts-info-box">
+					
+					
+					</div>
+			
 					<div class="hidden" id="ts-data">
 						<c:forEach var="topic" items="${allTopics}">
 							<div id="ts-${topic.uuid}-data">
@@ -64,30 +69,6 @@
 						</div>
 					
 						<a id="ts-topic-box-button" class="btn btn-block btn-default"></a>
-						
-						<div id="ts-info-box-template" class="max-width-at-1000 align-left hidden ts-info-box">
-							<div class = "box box-primary box-solid">
-								<div class="box-header">
-									<div class="align-right">
-										<h3 class="box-title"></h3>
-										<div class="padding-top-4 margin-right-5">
-											<input class="btn btn-danger" type="submit" value="Edit Topic">
-											<input class="btn btn-success" type="submit" value="See Full Topic">
-										</div>
-									</div>
-								</div>
-								<div class="box-body">
-									<h4 class="tags"></h4>
-									<span class="short-description"></span>
-									<div class="margin-left-100 margin-top-10 centered">
-										<a class="btn btn-warning large-input-group-button margin-10" href="/topic/[TOPIC_UUID]">See <b></b> Pieces of Related Content</a>
-										<a class="btn btn-success large-input-group-button margin-10" href="/topic/[TOPIC_UUID]">See <b></b> Related Practice Problems</a>
-										<a class="btn btn-primary large-input-group-button margin-10" href="/topic/[TOPIC_UUID]">See <b></b> Related Questions</a>
-									</div>
-									<span class="long-description"></span>
-								</div>
-							</div>
-						</div>
 					
 						<div id="ts-info-box-content-template" class="alert alert-success hidden">							
 							<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="[CONTENT_UUID]">

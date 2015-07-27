@@ -22,32 +22,31 @@
 								</div>
 							</div>
 							<div class="box-body">
-								<c:forEach begin="1" end="5" var="i">
+								<c:forEach items="${textContent}" var="tc">
 									<div class="alert alert-dismissable alert-warning margin-top-20">
-										<i class="fa">${i}</i>
 										<c:choose>
 											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
+												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${tc.uuid}">
 													<i class="fa fa-bookmark"></i>
 												</button>
 											</c:when>
 											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
+												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${tc.uuid}">
 													<i class="fa fa-bookmark-o"></i>
 												</button>
 											</c:otherwise>
 										</c:choose>
-										<a href="${question.url}"><b>Pythagorean Theorem</b></a>
-										This is a bunch of garbage text used for testing, you should really not read this. This really isn't worth your time man. Just stop here. 
+										<a href="${tc.url}"><b>${tc.title}</b></a>
+										${tc.body} 
 									</div>
 								</c:forEach>
-								<div class="centered">
+								<!--<div class="centered">
 									<div class="btn-group margin-bottom-10">
 										<c:forEach begin="1" end="5" var="i">
 											<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
 										</c:forEach>
 									</div>
-								</div>
+								</div>-->
 							</div>	
 						</div>
 						<div class="box box-success box-solid">
@@ -58,32 +57,31 @@
 								</div>
 							</div>
 							<div class="box-body">
-								<c:forEach begin="1" end="5" var="i">
+								<c:forEach var="pp" items="${practiceProblems}">
 									<div class="alert alert-dismissable alert-success margin-top-20">
-										<i class="fa">${i}</i>
 										<c:choose>
 											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
+												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${pp.uuid}">
 													<i class="fa fa-bookmark"></i>
 												</button>
 											</c:when>
 											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
+												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${pp.uuid}">
 													<i class="fa fa-bookmark-o"></i>
 												</button>
 											</c:otherwise>
 										</c:choose>
-										<a href="${question.url}"><b>Pythagorean Theorem Practice Problem</b></a>
-										This is a bunch of garbage text used for testing, you should really not read this. This really isn't worth your time man. Just stop here. 
+										<a href="${pp.url}"><b>${pp.title}</b></a>
+										${pp.body}
 									</div>
 								</c:forEach>
-								<div class="centered">
+								<!--<div class="centered">
 									<div class="btn-group margin-bottom-10">
 										<c:forEach begin="1" end="5" var="i">
 											<button class="result-page-tab btn btn-success" id="tc-result-page-${i}-tab">${i}</button>
 										</c:forEach>
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 						<div class="box box-primary box-solid">
@@ -94,32 +92,31 @@
 								</div>
 							</div>
 							<div class="box-body">
-								<c:forEach begin="1" end="5" var="i">
+								<c:forEach var="q" items="${questions}">
 									<div class="alert alert-dismissable alert-info margin-top-20">
-										<i class="fa">${i}</i>
 										<c:choose>
 											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
+												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${q.uuid}">
 													<i class="fa fa-bookmark"></i>
 												</button>
 											</c:when>
 											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
+												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${q.uuid}">
 													<i class="fa fa-bookmark-o"></i>
 												</button>
 											</c:otherwise>
 										</c:choose>
-										<a href="${question.url}"><b>Pythagorean Theorem Question</b></a>
-										This is a bunch of garbage text used for testing, you should really not read this. This really isn't worth your time man. Just stop here. 
+										<a href="${q.url}"><b>${q.title}</b></a>
+										${q.body}
 									</div>
 								</c:forEach>
-								<div class="centered">
+								<!--<div class="centered">
 									<div class="btn-group margin-bottom-10">
 										<c:forEach begin="1" end="5" var="i">
 											<button class="result-page-tab btn btn-primary" id="tc-result-page-${i}-tab">${i}</button>
 										</c:forEach>
 									</div>
-								</div>
+								</div>-->
 							</div>
 						</div>
 						<div class="box box-info box-solid">

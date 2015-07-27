@@ -289,9 +289,13 @@ public class ContentAPI {
 
 	public static String createOrUpdateContentFromRequest(HttpServletRequest req, String contentType){
 		
-		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
+		System.out.println(req.getRequestURI());
+		System.out.println(req.getParameter("uuid"));
+		
+		String uuid = UuidTools.getUuidFromUrl(req.getParameter("uuid"));
 		if (uuid == null){
 			uuid = UUID.randomUUID().toString();
+			System.out.println("CREATED NEW CONTENT WITH UUID: " + uuid);
 		}
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
@@ -338,7 +342,7 @@ public class ContentAPI {
 			creatorId = user.getUserId();
 		}
 		
-		System.out.println("CREATED NEW CONTENT WITH UUID: " + uuid);
+		System.out.println("SAVING CONTENT WITH UUID: " + uuid);
 		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
 		// Content Model.  We only want that SINGLE class to determine which properties are indexed.
 		entity.setProperty("uuid", uuid);
@@ -366,7 +370,7 @@ public class ContentAPI {
 	public static List<Content> getAllContentOfType(String contentType){
 		List<Content> results = new ArrayList<Content>();
 		Query q = new Query("Content");
-		Filter typeFilter = new FilterPredicate("contentType", FilterOperator.EQUAL,contentType);
+		Filter typeFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, contentType);
 		q.addSort("createdAt").setFilter(typeFilter);
 		PreparedQuery pq = datastore.prepare(q);
 		for (Entity e : pq.asIterable()){
