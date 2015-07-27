@@ -10,6 +10,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 import calculus.utilities.LevenshteinDistance;
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -39,7 +40,7 @@ public class TagAPI {
 		List<String> uuids = new ArrayList<String>();
 		try {
 			entity = datastore.get(key);
-			uuids = (List<String>) entity.getProperty("matchingContent");
+			uuids = SafeList.string(entity, "matchingContent");
 		} catch (EntityNotFoundException e) {
 			entity.setUnindexedProperty("name", cleanedTag);
 			addNewTagToAllTags(cleanedTag);
@@ -62,7 +63,7 @@ public class TagAPI {
 		List<String> uuids = new ArrayList<String>();
 		try {
 			entity = datastore.get(key);
-			uuids = (List<String>) entity.getProperty("matchingContent");
+			uuids = SafeList.string(entity, "matchingContent");
 		} catch (EntityNotFoundException e) {
 			return;
 		}
@@ -81,13 +82,14 @@ public class TagAPI {
 		}
 		Key key = KeyFactory.createKey("Tag", cleanedTag);
 		Entity entity = new Entity(key);
-		List<String> topicUuids = new ArrayList<String>();
+		List<String> topicUuids;
 		try {
 			entity = datastore.get(key);
-			topicUuids = (List<String>) entity.getProperty("matchingTopics");
+			topicUuids = SafeList.string(entity, "matchingTopics");
 		} catch (EntityNotFoundException e) {
 			entity.setUnindexedProperty("name", cleanedTag);
 			addNewTagToAllTags(cleanedTag);
+			topicUuids = new ArrayList<String>();
 		}
 		if (!topicUuids.contains(topicUuid)){
 			topicUuids.add(topicUuid);
@@ -105,7 +107,7 @@ public class TagAPI {
 		List<String> topicUuids = new ArrayList<String>();
 		try {
 			entity = datastore.get(key);
-			topicUuids = (List<String>) entity.getProperty("matchingTopics");
+			topicUuids = SafeList.string(entity, "matchingTopics");
 		} catch (EntityNotFoundException e) {
 			return;
 		}
@@ -126,8 +128,7 @@ public class TagAPI {
 			e = new Entity(key);
 		}
 		
-		List<String> allTags = (List<String>) e.getProperty("allTags");
-		if (allTags == null) allTags = new ArrayList<String>();
+		List<String> allTags = SafeList.string(e, "allTags");
 		
 		if (!allTags.contains(tag)){
 			allTags.add(tag);
@@ -141,8 +142,7 @@ public class TagAPI {
 		Entity e;
 		try {
 			e = datastore.get(key);
-			List<String> allTags = (List<String>) e.getProperty("allTags");
-			if (allTags == null) allTags = new ArrayList<String>();
+			List<String> allTags = SafeList.string(e, "allTags");
 			return allTags;
 		} catch (EntityNotFoundException enfe) {
 			return new ArrayList<String>();
@@ -178,7 +178,7 @@ public class TagAPI {
 			Entity e;
 			try {
 				e = future.get();
-				List<String> uuids = (List<String>) e.getProperty("matchingContent");
+				List<String> uuids = SafeList.string(e, "matchingContent");
 				for(String uuid : uuids){
 					if (mapping.containsKey(uuid)){
 						mapping.put(uuid, mapping.get(uuid) + 1);

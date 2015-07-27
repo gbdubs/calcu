@@ -1,6 +1,7 @@
 package calculus.topic;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -82,8 +83,15 @@ public class Topic {
 	}
 
 	private void postSave(){
+		
 	}
 
+	public List<Topic> getFamilyTopics(){
+		List<String> family = new ArrayList<String>();
+		family.addAll(parentTopics);
+		family.addAll(subTopics);
+		return TopicAPI.getTopicsAsync(family);
+	}
 
 
 	public static Entity getTopicTitleMapping(){
@@ -148,6 +156,29 @@ public class Topic {
 	
 	public String getTags(){
 		return tags;
+	}
+	
+	public String getUpperCaseTags(){
+		String s = "";
+		if (tags.length() < 3){
+			return s;
+		}
+		for (String word : tags.toLowerCase().split(" ")){
+			if (word.length() > 0){
+				s += (" " + word.charAt(0)).toUpperCase() + word.substring(1);
+			} else {
+				s += " " + word;
+			}
+		}
+		return s.trim();
+	}
+	
+	public List<String> getUpperCaseTagsAsList(){
+		List<String> result = new ArrayList<String>();
+		for (String s : getUpperCaseTags().split(",")){
+			result.add(s.trim());
+		}
+		return result;
 	}
 	
 	public int getDifficulty(){

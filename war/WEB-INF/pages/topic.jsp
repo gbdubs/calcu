@@ -10,8 +10,20 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 margin-bottom-50 full-width">
-				<h2 class="welcome-banner margin-top-100">${topic.title}</h2>
-				<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.shortDescription}</h3>
+				<h2 class="welcome-banner margin-top-100">${topic.upperCaseTitle}</h2>
+				<c:if test="${topic.tags != 'AUTO GENERATED'}">
+					<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.upperCaseTags}</h3>
+				</c:if>
+				<c:if test="${topic.tags == 'AUTO GENERATED'}">
+					<br>
+				</c:if>
+				
+				<c:if test="${topic.shortDescription != 'AUTO GENERATED'}">
+					<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.shortDescription}</h3>
+				</c:if>
+				<c:if test="${topic.shortDescription == 'AUTO GENERATED'}">
+					<br>
+				</c:if>
 				<div class="align-left">
 					<div class="box-body">
 						<div class="box box-warning box-solid">
@@ -23,7 +35,7 @@
 							</div>
 							<div class="box-body">
 								<c:forEach items="${textContent}" var="tc">
-									<div class="alert alert-dismissable alert-warning margin-top-20">
+									<div class="alert alert-warning topic-page-content">
 										<c:choose>
 											<c:when test="${bookmarked}">
 												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${tc.uuid}">
@@ -58,7 +70,7 @@
 							</div>
 							<div class="box-body">
 								<c:forEach var="pp" items="${practiceProblems}">
-									<div class="alert alert-dismissable alert-success margin-top-20">
+									<div class="alert alert-success topic-page-content">
 										<c:choose>
 											<c:when test="${bookmarked}">
 												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${pp.uuid}">
@@ -93,7 +105,7 @@
 							</div>
 							<div class="box-body">
 								<c:forEach var="q" items="${questions}">
-									<div class="alert alert-dismissable alert-info margin-top-20">
+									<div class="alert alert-info topic-page-content">
 										<c:choose>
 											<c:when test="${bookmarked}">
 												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${q.uuid}">
@@ -166,16 +178,16 @@
 						<div class="col-sm-12 col-md-6">
 							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Topics</h2>
 							<p>
-								<c:forEach begin="1" end="5" var="i">
-									<a href="/answer/practice-problem/new" class="btn btn-block btn-warning topic-related-box-display">Something Something ${i}</a>
+								<c:forEach items="${topic.familyTopics}" var="famTopic">
+									<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-warning topic-related-box-display">${famTopic.upperCaseTitle}</a>
 								</c:forEach>
 							</p>
 						</div>
 						<div class="col-sm-12 col-md-6">
 							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Tags</h2>
 							<div class="row">
-								<c:forEach begin="1" end="20" var="i">
-									<a href="/search/" class="btn btn-primary large-input-group-button margin-5-all">topic ${i}</a>
+								<c:forEach items="${topic.upperCaseTagsAsList}" var="tag">
+									<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
 								</c:forEach>
 							</div>
 						</div>

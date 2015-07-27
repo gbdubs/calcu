@@ -4,18 +4,26 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
+import calculus.api.ContentAPI;
+import calculus.models.Content;
+import calculus.utilities.CountMap;
 import calculus.utilities.UuidTools;
 
+import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
+import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 
 public class TopicAPI {
 
+	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Map<String, String> topicMapping = new HashMap<String, String>();
 	
@@ -172,6 +180,63 @@ public class TopicAPI {
 		}
 		return topics;
 	}
+
+	public static void recalculateTags(String topicUuid, int n){
+		CountMap<String> countMap = new CountMap<String>();
+		
+		Topic t = TopicAPI.getTopicByUUID(topicUuid);
+		
+		if (t == null){
+			return;
+		}
+		
+		List<String> contentUuids = t.getContentUuids();
+		List<Content> allContent = ContentAPI.getContentAsync(contentUuids);
+		
+		for (Content c : allContent){
+			for(String tag : c.getListOfTags()){
+				countMap.increment(tag);
+			}
+		}
+		
+		List<String> sortedTags = countMap.getDescendingList(n);
+		
+		String result = "";
+		for (String tag : sortedTags){
+			result += ", " + tag;
+		}
+		if (result.length() > 0){
+			t.setTags(result.substring(2));
+			t.saveAsync();
+		}
+	}
 	
+	public static void recalculateAllTopicTags(){
+		List<Topic> allTopics = getAllTopics();
+		for (Topic t : allTopics){
+			recalculateTags(t.getUuid(), 10);
+		}
+	}
+	
+	public static List<Topic> getTopicsAsync(List<String> uuids){
+		List<Topic> topics = new ArrayList<Topic>();
+		List<Future<Entity>> allFutures = new ArrayList<Future<Entity>>();
+		for (String uuid : uuids){
+			allFutures.add(asyncDatastore.get(KeyFactory.createKey("Topic", uuid)));
+		}
+		for (Future<Entity> f : allFutures){
+			Entity e;
+			try {
+				e = f.get();
+				Topic t = new Topic(e);
+				topics.add(t);
+			} catch (InterruptedException e1) {
+				
+			} catch (ExecutionException e1) {
+	
+			}
+		}
+		return topics;
+	}
 }
 
