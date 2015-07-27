@@ -309,6 +309,8 @@ public class ContentAPI {
 		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
 		boolean viewable = submitted;
 		
+		System.out.println("ANONYMOUS: " + anonymous + " SUBMITTED " + submitted);
+		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
 		if (title == null || title.equals("")) title = "[Un-named "+contentType+"]";
