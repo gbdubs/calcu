@@ -2771,11 +2771,15 @@ $(function() {
 	    	var tag = $(this).data("tag");
 	    	var input = $("#tags-input");
 	    
-	    	var newTag = "<span class=\"tag\"><span>"+ tag +"&nbsp;&nbsp;</span><a href=\"#\" title=\"Removing tag\"></a></span>"
+	    	var newTag = "<span id=\"" + tag + "-recommended-tag-input\" class=\"tag\"><span>"+ tag +"&nbsp;&nbsp;</span><a href=\"#\" title=\"Removing tag\"></a></span>"
 	    	
 	    	$(input).val($(input).val() + "," + tag);
 	    	$(newTag).insertBefore("#tags-input_tag");
-	
+	    	
+	    	$("#" + tag + "-recommended-tag-input > a").click(function() {
+	    		console.log("WE MADE IT");
+	    		$(this).parent().remove();
+	    	});
 	    	$(this).remove();
 	    });
     }

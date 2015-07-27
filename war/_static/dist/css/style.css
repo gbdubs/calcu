@@ -5341,6 +5341,10 @@ h1.welcome-banner{
 	font-size: 120px;
     font-weight: 100;
 }
+
+.font-cursive {
+	font-family: cursive; 
+}
 .achievement-badge{
     text-align: center;
     width: 100%;
