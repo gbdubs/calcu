@@ -2695,10 +2695,12 @@ $(function() {
 	    	
 	    	$(this).addClass('disabled');
 	    	$(this).text('All Recommendations Unhidden');
+	    	setTimeout(location.reload, 500);
+	    	window.location.reload();
 	    };
 	    
 	    $(".show-all-recommendations").click(showAll);
-	    
+
 	    $(".search-result-page").each(function(){
 	    	var parent = $(this).parent(".all-search-results");
 	    	var id = "#" + $(this).attr("id");
