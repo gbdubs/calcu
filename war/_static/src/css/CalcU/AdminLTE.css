@@ -5339,3 +5339,7 @@ h1.welcome-banner{
 	font-size: 120px;
     font-weight: 100;
 }
+
+.font-cursive {
+	font-family: cursive; 
+}
