@@ -10,16 +10,19 @@ import java.util.concurrent.Future;
 import calculus.api.ContentAPI;
 import calculus.models.Content;
 import calculus.utilities.CountMap;
+import calculus.utilities.SafeList;
 import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.EmbeddedEntity;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Text;
 
 public class TopicAPI {
 
@@ -153,11 +156,53 @@ public class TopicAPI {
 		child.save();
 	}
 
-	public static List<Topic> getAllTopics() {
-		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
+	public static String getAllTopicsData() {
+		Entity e = getAllTopicsEntity();
+		return ((Text) e.getProperty("allData")).getValue();
+	}
+
+	public static List<Topic> getRootTopics(){
+		Entity e = getAllTopicsEntity();
+		return TopicAPI.getTopicsAsync(SafeList.string(e, "rootTopicUuids"));
+	}
+
+	private static Entity getAllTopicsEntity(){
+		try {
+			Entity e = datastore.get(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
+			if (System.currentTimeMillis() - (Long) e.getProperty("updatedAt") < 24 * 60 * 60 * 1000){
+				return e;
+			}
+		} catch (EntityNotFoundException enfe) {
+			
+		}
+		Entity e = new Entity(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
+		e.setUnindexedProperty("updatedAt", System.currentTimeMillis());
+		
+		List<Topic> allTopics = bruteForceGetTopics();
+		StringBuffer data = new StringBuffer();
+		for (Topic t : allTopics){
+			data.append("<div id=\"ts-"+t.getUuid()+"-data\">");
+			data.append("<div class=\"title\">"+t.getTitle()+"</div>");
+			data.append("<div class=\"sub-topics\">"+t.getSubTopics().toString()+"</div>");
+			data.append("<div class=\"content-size\">"+t.getContentUuids().size()+"</div>");
+			data.append("</div>");
+		}
+		e.setUnindexedProperty("allData", new Text(data.toString()));
+		
+		List<Topic> rootTopics = bruteForceGetRootTopics();
+		List<String> rootTopicUuids = new ArrayList<String>();
+		for (Topic t : rootTopics){
+			rootTopicUuids.add(t.getUuid());
+		}
+		e.setUnindexedProperty("rootTopicUuids", rootTopicUuids);
+		datastore.put(e);
+		return e;
+	}
+	
+	private static List<Topic> bruteForceGetTopics(){
 		List<Topic> topics = new ArrayList<Topic>();
 		Query q = new Query("Topic");
-		PreparedQuery pq = ds.prepare(q);
+		PreparedQuery pq = datastore.prepare(q);
 		for (Entity e : pq.asIterable()){
 			Topic t = new Topic(e);
 			if (t != null){
@@ -167,7 +212,11 @@ public class TopicAPI {
 		return topics;
 	}
 	
-	public static List<Topic> getAllRootTopics(){
+	public static List<Topic> downloadAllTopics(){
+		return bruteForceGetRootTopics();
+	}
+	
+	private static List<Topic> bruteForceGetRootTopics(){
 		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
 		List<Topic> topics = new ArrayList<Topic>();
 		Query q = new Query("Topic");
@@ -212,7 +261,7 @@ public class TopicAPI {
 	}
 	
 	public static void recalculateAllTopicTags(){
-		List<Topic> allTopics = getAllTopics();
+		List<Topic> allTopics = bruteForceGetTopics();
 		for (Topic t : allTopics){
 			recalculateTags(t.getUuid(), 10);
 		}

@@ -16,9 +16,9 @@ public class TopicSelectorServlet extends HttpServlet{
 		
 		UserContextAPI.addUserContextToRequest(req, "/topic-selector");
 		
-		req.setAttribute("allTopics", TopicAPI.getAllTopics());
-		req.setAttribute("rootTopics", TopicAPI.getAllRootTopics());
-		
+		req.setAttribute("allTopicData", TopicAPI.getAllTopicsData());
+		req.setAttribute("rootTopics", TopicAPI.getRootTopics());
+
 		
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/topic-selector.jsp");

@@ -108,7 +108,7 @@ public class DataUploadPackage {
 		dup.practiceProblems = PracticeProblemAPI.getAllPracticeProblems();
 		dup.textContent = TextContentAPI.getAllTextContent();
 		dup.answers = AnswersAPI.getAllAnswers();
-		dup.topics = TopicAPI.getAllTopics();
+		dup.topics = TopicAPI.downloadAllTopics();
 		dup.achievements = AchievementsAPI.getAllAchievements();
 		return dup;
 	}

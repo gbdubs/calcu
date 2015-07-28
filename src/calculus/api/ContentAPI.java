@@ -193,7 +193,7 @@ public class ContentAPI {
 		
 		Query allQ = new Query("Content").setFilter(compositeFilter);
 		PreparedQuery allPQ = datastore.prepare(allQ);
-		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n/4).offset((int) (Math.random() * 1000)));
+		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n/4).offset((int) (Math.random() * 10000)));
 		
 		List<Content> randomResults = RandomValuesAPI.randomContents(n/4);
 		
