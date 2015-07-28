@@ -286,7 +286,7 @@ public abstract class Content {
 		if (tags == null || tags.length() == 0) return allTags;
 		String[] tagsList = tags.split(",");
 		for(String tag : tagsList){
-			if (!tag.equals("")){
+			if (!tag.equals("") && !tag.equalsIgnoreCase("auto generated")){
 				allTags.add(tag);
 			}
 		}

@@ -175,8 +175,10 @@ public class Topic {
 	
 	public List<String> getUpperCaseTagsAsList(){
 		List<String> result = new ArrayList<String>();
-		for (String s : getUpperCaseTags().split(",")){
-			result.add(s.trim());
+		for (String tag : getUpperCaseTags().split(",")){
+			if (!tag.equalsIgnoreCase("auto generated")){
+				result.add(tag.trim());
+			}
 		}
 		return result;
 	}

@@ -26,111 +26,117 @@
 				</c:if>
 				<div class="align-left">
 					<div class="box-body">
-						<div class="box box-warning box-solid">
-							<div class="box-header">
-								<h3 class="box-title">Text Content</h3>
-								<div class="pull-right box-tools">
-									<button class="btn btn-warning btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<c:if test="${fn:length(textContent) > 0}">
+							<div class="box box-warning box-solid">
+								<div class="box-header">
+									<h3 class="box-title">Text Content</h3>
+									<div class="pull-right box-tools">
+										<button class="btn btn-warning btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<c:forEach items="${textContent}" var="tc">
+										<div class="alert alert-warning topic-page-content">
+											<c:choose>
+												<c:when test="${bookmarked}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${tc.uuid}">
+														<i class="fa fa-bookmark"></i>
+													</button>
+												</c:when>
+												<c:otherwise>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${tc.uuid}">
+														<i class="fa fa-bookmark-o"></i>
+													</button>
+												</c:otherwise>
+											</c:choose>
+											<a href="${tc.url}"><b>${tc.title}</b></a>
+											${tc.body} 
+										</div>
+									</c:forEach>
+									<!--<div class="centered">
+										<div class="btn-group margin-bottom-10">
+											<c:forEach begin="1" end="5" var="i">
+												<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
+											</c:forEach>
+										</div>
+									</div>-->
+								</div>	
+							</div>
+						</c:if>
+						<c:if test="${fn:length(practiceProblems) > 0}">
+							<div class="box box-success box-solid">
+								<div class="box-header">
+									<h3 class="box-title">Practice Problems</h3>
+									<div class="pull-right box-tools">
+										<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<c:forEach var="pp" items="${practiceProblems}">
+										<div class="alert alert-success topic-page-content">
+											<c:choose>
+												<c:when test="${bookmarked}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${pp.uuid}">
+														<i class="fa fa-bookmark"></i>
+													</button>
+												</c:when>
+												<c:otherwise>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${pp.uuid}">
+														<i class="fa fa-bookmark-o"></i>
+													</button>
+												</c:otherwise>
+											</c:choose>
+											<a href="${pp.url}"><b>${pp.title}</b></a>
+											${pp.body}
+										</div>
+									</c:forEach>
+									<!--<div class="centered">
+										<div class="btn-group margin-bottom-10">
+											<c:forEach begin="1" end="5" var="i">
+												<button class="result-page-tab btn btn-success" id="tc-result-page-${i}-tab">${i}</button>
+											</c:forEach>
+										</div>
+									</div>-->
 								</div>
 							</div>
-							<div class="box-body">
-								<c:forEach items="${textContent}" var="tc">
-									<div class="alert alert-warning topic-page-content">
-										<c:choose>
-											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${tc.uuid}">
-													<i class="fa fa-bookmark"></i>
-												</button>
-											</c:when>
-											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${tc.uuid}">
-													<i class="fa fa-bookmark-o"></i>
-												</button>
-											</c:otherwise>
-										</c:choose>
-										<a href="${tc.url}"><b>${tc.title}</b></a>
-										${tc.body} 
+						</c:if>
+						<c:if test="${fn:length(questions) > 0}">
+							<div class="box box-primary box-solid">
+								<div class="box-header">
+									<h3 class="box-title">Questions</h3>
+									<div class="pull-right box-tools">
+										<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 									</div>
-								</c:forEach>
-								<!--<div class="centered">
-									<div class="btn-group margin-bottom-10">
-										<c:forEach begin="1" end="5" var="i">
-											<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
-										</c:forEach>
-									</div>
-								</div>-->
-							</div>	
-						</div>
-						<div class="box box-success box-solid">
-							<div class="box-header">
-								<h3 class="box-title">Practice Problems</h3>
-								<div class="pull-right box-tools">
-									<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+								</div>
+								<div class="box-body">
+									<c:forEach var="q" items="${questions}">
+										<div class="alert alert-info topic-page-content">
+											<c:choose>
+												<c:when test="${bookmarked}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${q.uuid}">
+														<i class="fa fa-bookmark"></i>
+													</button>
+												</c:when>
+												<c:otherwise>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${q.uuid}">
+														<i class="fa fa-bookmark-o"></i>
+													</button>
+												</c:otherwise>
+											</c:choose>
+											<a href="${q.url}"><b>${q.title}</b></a>
+											${q.body}
+										</div>
+									</c:forEach>
+									<!--<div class="centered">
+										<div class="btn-group margin-bottom-10">
+											<c:forEach begin="1" end="5" var="i">
+												<button class="result-page-tab btn btn-primary" id="tc-result-page-${i}-tab">${i}</button>
+											</c:forEach>
+										</div>
+									</div>-->
 								</div>
 							</div>
-							<div class="box-body">
-								<c:forEach var="pp" items="${practiceProblems}">
-									<div class="alert alert-success topic-page-content">
-										<c:choose>
-											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${pp.uuid}">
-													<i class="fa fa-bookmark"></i>
-												</button>
-											</c:when>
-											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${pp.uuid}">
-													<i class="fa fa-bookmark-o"></i>
-												</button>
-											</c:otherwise>
-										</c:choose>
-										<a href="${pp.url}"><b>${pp.title}</b></a>
-										${pp.body}
-									</div>
-								</c:forEach>
-								<!--<div class="centered">
-									<div class="btn-group margin-bottom-10">
-										<c:forEach begin="1" end="5" var="i">
-											<button class="result-page-tab btn btn-success" id="tc-result-page-${i}-tab">${i}</button>
-										</c:forEach>
-									</div>
-								</div>-->
-							</div>
-						</div>
-						<div class="box box-primary box-solid">
-							<div class="box-header">
-								<h3 class="box-title">Questions</h3>
-								<div class="pull-right box-tools">
-									<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
-								</div>
-							</div>
-							<div class="box-body">
-								<c:forEach var="q" items="${questions}">
-									<div class="alert alert-info topic-page-content">
-										<c:choose>
-											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${q.uuid}">
-													<i class="fa fa-bookmark"></i>
-												</button>
-											</c:when>
-											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${q.uuid}">
-													<i class="fa fa-bookmark-o"></i>
-												</button>
-											</c:otherwise>
-										</c:choose>
-										<a href="${q.url}"><b>${q.title}</b></a>
-										${q.body}
-									</div>
-								</c:forEach>
-								<!--<div class="centered">
-									<div class="btn-group margin-bottom-10">
-										<c:forEach begin="1" end="5" var="i">
-											<button class="result-page-tab btn btn-primary" id="tc-result-page-${i}-tab">${i}</button>
-										</c:forEach>
-									</div>
-								</div>-->
-							</div>
-						</div>
+						</c:if>
 						<div class="box box-info box-solid">
 							<div class="box-header">
 								<h3 class="box-title">Practice Tests</h3>
@@ -138,8 +144,10 @@
 									<button class="btn btn-info btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 								</div>
 							</div>
-							<div class="box-body row">
-								<form class="col-sm-12 col-md-12 col-lg-12" action="/topic/${topic.uuid}/generate-test" method="post">
+							<div class="box-body">
+								<h1 class="welcome-banner-subtitle">This feature is under development</h1>
+								<h4>...but we need additional time and funding to implement it.  To support the project (which we would sincerely appreciate), please visit our <a href="/donate">donations</a> page!</h4>
+								<!--<form class="col-sm-12 col-md-12 col-lg-12" action="/topic/${topic.uuid}/generate-test" method="post">
 									<input type="hidden" name="userId" value="${user.userId}"/>
 									<div class="col-sm-12 col-md-12 col-lg-12 no-padding">
 										<label for="difficulty">Difficulty</label>
@@ -170,7 +178,7 @@
 										</select>
 									</div>
 									<input type="submit" value="Generate Practice Test" class="btn btn-primary pull-right margin-top-10"/>
-								</form>
+								</form>-->
 							</div>
 						</div>
 					</div>
@@ -183,14 +191,16 @@
 								</c:forEach>
 							</p>
 						</div>
-						<div class="col-sm-12 col-md-6">
-							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Tags</h2>
-							<div class="row">
-								<c:forEach items="${topic.upperCaseTagsAsList}" var="tag">
-									<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
-								</c:forEach>
+						<c:if test="${fn:length(topic.upperCaseTagsAsList) > 0}">
+							<div class="col-sm-12 col-md-6">
+								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Tags</h2>
+								<div class="row">
+									<c:forEach items="${topic.upperCaseTagsAsList}" var="tag">
+										<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
+									</c:forEach>
+								</div>
 							</div>
-						</div>
+						</c:if>
 					</div>
 				</div>
 			</div>
