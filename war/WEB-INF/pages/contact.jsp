@@ -11,7 +11,8 @@
 			<div class="max-width-at-1000">
 				<form class="box-primary box-solid contact-page-content" action="/submit-contact-form" method="post">
 					<div class="box-header centered margin-top-100">
-						<h2 class="welcome-banner">Suggestions/Feedback</h2>
+						<h2 class="welcome-banner">Suggestions/
+						Feedback</h2>
 					</div>
 					<div class="centered margin-top-25">
 						<h3 class="welcome-banner-subtitle">
@@ -67,7 +68,7 @@
 						<a href="mailto:grady.b.ward@gmail.com">Grady</a>, 
 						<a href="mailto:rsantos@cs.brandeis.edu">Russ</a>, 
 						<a href="mailto:rlacroix@cs.brandeis.edu">Roger</a>, 
-						<a href="mailto:dsmyda@cs.brandeis.edu">Danny</a>, or <a href="mailto:seaurchi@brandeis.edu">Sofiya</a>  .
+						<a href="mailto:dsmyda@cs.brandeis.edu">Danny</a>, or <a href="mailto:seaurchi@brandeis.edu">Sofiya</a>.
 						Feel free to reach out to discuss anything regarding ed-tech,
 						your thoughts on the site, or how we can better deliver information to those who need it.
 					</div>

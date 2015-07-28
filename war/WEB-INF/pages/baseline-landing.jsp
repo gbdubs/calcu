@@ -99,6 +99,7 @@
 								</div>
 							</div>
 						</div>
+						<br>
 						<div class="hexagon-big-row">
 							<div class="hexagon-text hexagon-text-big hidden" id="what-to-expect-text">
 								<div class="text-blue">
@@ -125,7 +126,7 @@
 									<div class="hex-text-wrapper-1">
 										<div class="hex-text-wrapper-2">
 											<div class="hex-text-wrapper-3">
-												<h3 class="no-margin">FOR SCIENCE!!!h3>
+												<h3 class="no-margin">FOR SCIENCE!!!</h3>
 												<p>What to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to ExpectWhat to Expect</p>
 											</div>
 										</div>

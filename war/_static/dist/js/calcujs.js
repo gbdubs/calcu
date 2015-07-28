@@ -2695,10 +2695,12 @@ $(function() {
 	    	
 	    	$(this).addClass('disabled');
 	    	$(this).text('All Recommendations Unhidden');
+	    	setTimeout(location.reload, 500);
+	    	window.location.reload();
 	    };
 	    
 	    $(".show-all-recommendations").click(showAll);
-	    
+
 	    $(".search-result-page").each(function(){
 	    	var parent = $(this).parent(".all-search-results");
 	    	var id = "#" + $(this).attr("id");
@@ -2769,11 +2771,15 @@ $(function() {
 	    	var tag = $(this).data("tag");
 	    	var input = $("#tags-input");
 	    
-	    	var newTag = "<span class=\"tag\"><span>"+ tag +"&nbsp;&nbsp;</span><a href=\"#\" title=\"Removing tag\"></a></span>"
+	    	var newTag = "<span id=\"" + tag + "-recommended-tag-input\" class=\"tag\"><span>"+ tag +"&nbsp;&nbsp;</span><a href=\"#\" title=\"Removing tag\"></a></span>"
 	    	
 	    	$(input).val($(input).val() + "," + tag);
 	    	$(newTag).insertBefore("#tags-input_tag");
-	
+	    	
+	    	$("#" + tag + "-recommended-tag-input > a").click(function() {
+	    		console.log("WE MADE IT");
+	    		$(this).parent().remove();
+	    	});
 	    	$(this).remove();
 	    });
     }

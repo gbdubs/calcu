@@ -1,7 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-user="${user.userId}" data-type="recommendations">
+<a href="#" class="dropdown-toggle small-header-icon-padding" data-toggle="dropdown" data-user="${user.userId}" data-type="recommendations">
 	<i class="fa fa-search"></i>
 </a>
 <ul class="dropdown-menu dropdown-search">

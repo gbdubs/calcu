@@ -15,7 +15,7 @@
 				<input type="hidden" name="problemUuid" value="${content.uuid}"/>
 				<input type="hidden" name="stepNumber" value="${stepNumber}"/>
 				<h2>${content.body}</h2>
-				<div class="rating-buttons margin-top-100">
+				<div class="rating-buttons margin-top-100 max-width-at-575">
 					<button class="btn btn-block btn-danger" name="diff0"><h4>Never Seen This Material</h4></button>
 					<button class="btn btn-block btn-danger" name="diff1"><h4>Very Challenging</h4></button>
 					<button class="btn btn-block btn-warning" name="diff2"><h4>Challenging</h4></button>

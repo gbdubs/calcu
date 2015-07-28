@@ -80,6 +80,44 @@
 					</div>
 				</c:if>
 				
+				<c:if test="${difficultyCalibration}">
+					<div class="box box-success box-solid">
+						<div class="box-header">
+							<i class="fa fa-refresh"></i>
+							<h3 class="box-title">Difficulty Calibration: Step (${stepNumber}/10)</h3>
+						</div>
+						<div class="box-body">
+							<p>
+								How difficult would it be for you to solve this problem?
+							</p>
+							<ul>
+								<li>"Not Yet" -- I am not yet able to answer this question, in any amount of time. </li>
+								<li>"Very Difficult" -- The math in this example is significantly more difficult than I have been working with.</li>
+								<li>"Difficult" -- I have worked with a few problems this difficult, with mixed success.</li>
+								<li>"Moderate" -- This question is approximately as difficult as the problems I am looking for.</li>
+								<li>"Easy" -- I know how to solve this question, and I am confident I could do it.</li>
+								<li>"Very Easy" -- I have progressed beyond this point in my Calculus curriculum, and I am very confident in this area of calculus.</li>
+							</ul>	
+							<div class="btn-group difficulty-rating-buttons" data-uuid="${practiceProblem.uuid}" data-user="${user.userId}">
+								<button class="btn btn-default" data-difficulty="not-yet">Not Yet</button>
+								<button class="btn btn-default" data-difficulty="very-difficult">Very Difficult</button>
+								<button class="btn btn-default" data-difficulty="difficult">Difficult</button>
+								<button class="btn btn-default" data-difficulty="moderate">Moderate</button>
+								<button class="btn btn-default" data-difficulty="easy">Easy</button>
+								<button class="btn btn-default" data-difficulty="very-easy">Very Easy</button>
+							</div>
+							<div class="overflower">
+								<div class="pull-right">
+									<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
+										Next Step
+										<i class="fa fa-arrow-circle-right fa-fw"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</c:if>
+				
 				<div class="box-solid practice-problem">
 					<div class="box-header">
 						<c:if test="${! practiceProblem.anonymous}">
@@ -311,43 +349,6 @@
 							</div>
 						</div>
 					</div>
-						<c:if test="${difficultyCalibration}">
-					<div class="box box-success box-solid">
-						<div class="box-header">
-							<i class="fa fa-refresh"></i>
-							<h3 class="box-title">Difficulty Calibration: Step (${stepNumber}/10)</h3>
-						</div>
-						<div class="box-body">
-							<p>
-								How difficult would it be for you to solve this problem?
-							</p>
-							<ul>
-								<li>"Not Yet" -- I am not yet able to answer this question, in any amount of time. </li>
-								<li>"Very Difficult" -- The math in this example is significantly more difficult than I have been working with.</li>
-								<li>"Difficult" -- I have worked with a few problems this difficult, with mixed success.</li>
-								<li>"Moderate" -- This question is approximately as difficult as the problems I am looking for.</li>
-								<li>"Easy" -- I know how to solve this question, and I am confident I could do it.</li>
-								<li>"Very Easy" -- I have progressed beyond this point in my Calculus curriculum, and I am very confident in this area of calculus.</li>
-							</ul>	
-							<div class="btn-group difficulty-rating-buttons" data-uuid="${practiceProblem.uuid}" data-user="${user.userId}">
-								<button class="btn btn-default" data-difficulty="not-yet">Not Yet</button>
-								<button class="btn btn-default" data-difficulty="very-difficult">Very Difficult</button>
-								<button class="btn btn-default" data-difficulty="difficult">Difficult</button>
-								<button class="btn btn-default" data-difficulty="moderate">Moderate</button>
-								<button class="btn btn-default" data-difficulty="easy">Easy</button>
-								<button class="btn btn-default" data-difficulty="very-easy">Very Easy</button>
-							</div>
-							<div class="overflower">
-								<div class="pull-right">
-									<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
-										Next Step
-										<i class="fa fa-arrow-circle-right fa-fw"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</c:if>
 				</div>
 			</div>
 		</div>
