@@ -293,6 +293,19 @@
 						</div>
 					</div>
 				</div>
+				<div class="similar-content centered margin-top-100">
+					Like this explanation, or want to explore a different area of it? You can see other content on the
+					<a class="content-display-topic-link" href="${textContent.topicUrl}">
+						Same Topic
+					</a>
+					or, explore a specific related topic by searching for it:
+					<br>
+					<div class="content-display-tag-links">
+						<c:forEach var="tag" items="${textContent.listOfTags}">
+							<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
+						</c:forEach>
+					</div>
+				</div>
 			</div>
 		</div>
 		<jsp:include page="/WEB-INF/templates/latex-playground.jsp">

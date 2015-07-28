@@ -404,4 +404,8 @@ public abstract class Content {
 			entity.setUnindexedProperty("topic", topic);
 		}
 	}
+	
+	public String getTopicUrl(){
+		return "/topic/" + topic;
+	}
 }
