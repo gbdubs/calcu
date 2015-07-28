@@ -210,7 +210,7 @@
 								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50">More Specific Topics</h2>
 								<p>
 									<c:forEach items="${subTopics}" var="famTopic">
-										<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-warning topic-related-box-display">${famTopic.upperCaseTitle}</a>
+										<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-success topic-related-box-display">${famTopic.upperCaseTitle}</a>
 									</c:forEach>
 								</p>
 							</c:if>
