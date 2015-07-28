@@ -214,8 +214,14 @@
                 </li>
                 <li>
                     <a href="/contact">
-                        <i class="fa fa-fw fa-heart"></i>
+                        <i class="fa fa-fw fa-send-o"></i>
                         <span>Suggestions/Contact</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/thank-you">
+                        <i class="fa fa-fw fa-heart"></i>
+                        <span>Acknowledgments</span>
                     </a>
                 </li>
             </ul>

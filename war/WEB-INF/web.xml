@@ -513,6 +513,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>AcknowledgementServlet</servlet-name>
 		<url-pattern>/thankyou/*</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<url-pattern>/thank-you/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<url-pattern>/thanks/*</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>TopicServlet</servlet-name>
