@@ -68,21 +68,7 @@
 					</div>
 			
 					<div class="hidden" id="ts-data">
-						<c:forEach var="topic" items="${allTopics}">
-							<div id="ts-${topic.uuid}-data">
-								<div class="title">${topic.upperCaseTitle}</div>
-								<div class="sub-topics">${topic.subTopics}</div>
-								<div class="short-desc">${topic.shortDescription}</div>
-								<div class="long-desc">${topic.longDescription}</div>
-								<div class="tags">${topic.tags}</div>
-								<div class="content-size">${fn:length(topic.contentUuids)}</div>
-								<c:forEach var="i" begin="${0}" end="${5}">
-									<c:if test="${fn:length(topic.contentUuids) > i + 1}">
-										<div class="content-${i}">${topic.contentUuids[i]}</div>
-									</c:if>
-								</c:forEach>
-								</div>
-						</c:forEach>
+						${allTopicData}
 					</div>					
 
 					<div id="templates" class="hidden">

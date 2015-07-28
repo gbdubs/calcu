@@ -1,7 +1,6 @@
 package calculus.topic;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -13,6 +12,7 @@ import calculus.utilities.SafeList;
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.EmbeddedEntity;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
@@ -119,6 +119,22 @@ public class Topic {
 		this.parentTopics = new ArrayList<String>();
 	}
 	
+	public Topic(EmbeddedEntity ee) {
+		Entity e = new Entity(ee.getKey());
+		e.setPropertiesFrom(ee);
+		this.uuid = (String) e.getProperty("uuid");
+		this.subTopics = SafeList.string(e, "subTopics");
+		if (subTopics == null){ subTopics = new ArrayList<String>(); }
+		this.parentTopics = SafeList.string(e, "parentTopics");
+		this.contentUuids = SafeList.string(e, "contentUuids");
+		if (parentTopics == null){ parentTopics = new ArrayList<String>(); }
+		this.title = (String) e.getProperty("title");
+		this.shortDescription = (String) e.getProperty("shortDescription");
+		this.longDescription = ((Text) e.getProperty("longDescription")).getValue();
+		this.tags = (String) e.getProperty("tags");
+		this.difficulty = (int) ((Long) e.getProperty("difficulty")).intValue();
+	}
+
 	public String getUuid(){
 		return uuid;
 	}
@@ -265,6 +281,12 @@ public class Topic {
 
 	void setDifficulty(int difficulty) {
 		this.difficulty = difficulty;
+	}
+	
+	public EmbeddedEntity getEmbeddedEntity() {
+		EmbeddedEntity ee = new EmbeddedEntity();
+		ee.setPropertiesFrom(preSave());
+		return ee;
 	}
 }
 	
