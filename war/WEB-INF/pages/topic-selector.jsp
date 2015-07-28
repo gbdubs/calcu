@@ -12,7 +12,31 @@
 		<div class="centered">
 			<div class="max-width-at-1000 topic-selector-page">
 				<h2 class="welcome-banner margin-top-100">Topic Selector</h2>
-				<h3 class="margin-bottom-50 welcome-banner-subtitle">Choose a topic you're interested in, and we will find related content, practice problems, and examples for you.</h3>
+				<h3 class="welcome-banner-subtitle">Choose a topic you're interested in, and we will find related content, practice problems, and examples for you.</h3>
+				<div class="topic-explorer-explanation margin-bottom-50">
+					<p>
+						The topic explorer is a simple way of traversing the hierarchical nature of learning
+						mathematics.  When you dive deeper into a subject you are shown some more specific options,
+						and find that there are many levels of learning.  Additionally, it is a great way
+						to find the kinds of questions you are looking for, even if you can't quite remember
+						what the subject is called.
+					</p>
+					<p> 
+						To Begin using the topic selector, simply press on any of the grey buttons in the "topics"
+						panel.  When you do that, a new panel, with more specific options, will pop up, and your 
+						selection will lead you to it.  To go back, simply click on a previous option or on the 
+						currently selected option.  Once you have settled on a topic you want to examine, you can
+						click on the button that appears above the topic selector, which will lead you to a page
+						with all of the content on that topic.
+					</p>
+					<p>
+						This is just one way of engaging with our database.  You can also 
+						<a href="/search">Search</a> for what you are looking for, or use our 
+						personalization and recommendation features, which will attempt to deduce
+						what you are interested in learning.
+					</p>
+				</div>
+				
 				<div class="centered margin-bottom-25">
 					<a id="ts-view-topic-button" class="hidden btn btn-success"></a>
 				</div>
@@ -82,6 +106,8 @@
 						</div>
 					</div>
 				</div>
+			
+				
 			</div>
 		</div>
 

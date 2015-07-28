@@ -26,6 +26,20 @@
 				</c:if>
 				<div class="align-left">
 					<div class="box-body">
+						<c:if test="${fn:length(questions) == 0 && fn:length(practiceProblems) == 0 && fn:length(textContent) == 0}">
+							<div class="box box-danger box-solid">
+								<div class="box-header">
+									<h3 class="box-title">No Content In this Topic</h3>
+								</div>
+								<div class="box-body">
+									<p>
+										This topic happens to not have any content.  This probably means that it is too broad of a topic;
+										in order to see the content that is in this topic, you should check out its sub-topics.  Those can
+										be found at the bottom of the page, on the Left.
+									</p>
+								</div>
+							</div>
+						</c:if>
 						<c:if test="${fn:length(textContent) > 0}">
 							<div class="box box-warning box-solid">
 								<div class="box-header">
@@ -184,12 +198,22 @@
 					</div>
 					<div class="centered row">
 						<div class="col-sm-12 col-md-6">
-							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Topics</h2>
-							<p>
-								<c:forEach items="${familyTopics}" var="famTopic">
-									<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-warning topic-related-box-display">${famTopic.upperCaseTitle}</a>
-								</c:forEach>
-							</p>
+							<c:if test="${fn:length(parentTopics) > 0}">
+								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50">Broader Topics</h2>
+								<p>
+									<c:forEach items="${parentTopics}" var="famTopic">
+										<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-warning topic-related-box-display">${famTopic.upperCaseTitle}</a>
+									</c:forEach>
+								</p>
+							</c:if>
+							<c:if test="${fn:length(subTopics) > 0}">
+								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50">More Specific Topics</h2>
+								<p>
+									<c:forEach items="${subTopics}" var="famTopic">
+										<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-success topic-related-box-display">${famTopic.upperCaseTitle}</a>
+									</c:forEach>
+								</p>
+							</c:if>
 						</div>
 						<c:if test="${fn:length(topic.upperCaseTagsAsList) > 0}">
 							<div class="col-sm-12 col-md-6">

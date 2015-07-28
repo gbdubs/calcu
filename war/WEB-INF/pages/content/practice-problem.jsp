@@ -202,6 +202,9 @@
 										<jsp:param name="alreadyRated" value="${practiceProblem.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
 									<span class="preserve-line-formatting">${practiceProblem.body}</span>
+									<c:if test="${practiceProblem.anonymous}">
+										<span class="credit-attribution">This problem was generously made available through an open source textbook project.  Information about the license and the text can be found <a href="/thank-you">here</a>.
+									</c:if>
 								</div>
 							</div>
 							<div class="panel box box-primary">				

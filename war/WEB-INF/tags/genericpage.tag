@@ -139,15 +139,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/explore">
-                        <i class="fa fa-fw fa-binoculars"></i>
-                        <span>Explore</span>
-                    </a>
-                </li>
-                <li>
                     <a href="/topic-explorer">
                         <i class="fa fa-fw fa-sitemap"></i>
                         <span>Browse Topics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/explore">
+                        <i class="fa fa-fw fa-binoculars"></i>
+                        <span>Explore</span>
                     </a>
                 </li>
                 <li>
@@ -207,15 +207,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/about">
-                        <i class="fa fa-fw fa-cogs"></i>
-                        <span>About</span>
-                    </a>
-                </li>
-                <li>
                     <a href="/contact">
                         <i class="fa fa-fw fa-send-o"></i>
                         <span>Suggestions/Contact</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/about">
+                        <i class="fa fa-fw fa-cogs"></i>
+                        <span>About</span>
                     </a>
                 </li>
                 <li>

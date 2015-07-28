@@ -9,17 +9,25 @@
 		<div class="centered">
 			<div class="max-width-at-700">
 				<h2 class="welcome-banner margin-top-100">Donations</h2>
-				<h3 class="welcome-banner-subtitle margin-bottom-50">Help keep CalcU up and running by donating today</h3>
+				<h3 class="welcome-banner-subtitle margin-bottom-50">CalcU relies on the Generosity of its Community</h3>
 				<div class="align-left">
 					<p>
-						Built primarily to promote free learning for all, CalcU is a non-profit website.  Users never have to pay 
-						to access any features on the website, as it is our goal to make education accessible to all.  While we pledge 
-						never to change our mission statement we now need funds in order to maintain the website and pay hosting fees.
-						We have dedicated the entire summer to working on this project and hope to sustain the website through donations. 
-						Any and all donations are greatly appreciated!
+						Built to be a free resource for education, CalcU does not make itself or its owners any revenue.  
+						Users never have to pay (nor will they ever) to access any features on the website, 
+						as it is our goal to make education accessible to all.  
 					</p>
 					<p>
-						You can donate by going to our Kickstarter or by <a href="http:/contact">contacting us</a>.
+						However, we are spending a small amount of money to maintain the website and pay hosting fees.
+						We also have some goals for the future of the site that are big and will require a lot of work, 
+						including automatically generated practice tests, and better algorithms for recommendations.
+					</p>
+					<p>
+						We have dedicated the entire summer to working on this project and hope to sustain the website 
+						through the generosity of people who appreciate it. If you are able to support the project,
+						we would really appreciate it!
+					</p>
+					<p>
+						You can donate by going to our <a href="">Kickstarter</a> or by <a href="http:/contact">contacting us</a>.
 					</p>
 				</div>
 				<br>
@@ -28,7 +36,7 @@
 					<h3>Thank you!</h3>
 				</div>
 				<div class="font-cursive">
-					<p>Grady Ward, Sofiya Semenova, Russ Santos, Danny Smyda and Roger LaCroix</p>
+					<p>Grady, Sofiya, Russ, Danny and Roger</p>
 				</div>
 			</div>
 		</div>

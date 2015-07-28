@@ -4086,7 +4086,7 @@ Component: timeline
 	width: 271px;
 	display: inline-block;
 	float: right;
-	margin: -10px -10px 5px 5px;
+	margin: -10px -10px 30px 5px;
 	border-left: 1px solid #f4f4f4;
 	border-bottom: 1px solid #f4f4f4;
 	border-top: 1px solid #f4f4f4;
@@ -4156,6 +4156,14 @@ Component: timeline
 	max-height: 0;
 	padding: 0;
 	border: none;
+}
+
+.credit-attribution{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    left: 0;
 }
 
 .box.box-solid>.box-header.solid-box-header, .about-author .box-header,
@@ -5395,3 +5403,8 @@ h1.welcome-banner{
     margin: 15px;
 }
 
+.max-height-500{
+	max-height: 500px;
+	overflow: hidden;
+	display: block;
+}

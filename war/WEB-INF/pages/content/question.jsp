@@ -198,6 +198,9 @@
 										<jsp:param name="alreadyRated" value="${question.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
 									<span class="">${question.body}</span>
+									<c:if test="${question.anonymous}">
+										<span class="credit-attribution">This question was generously made available through an open source textbook project.  Information about the license and the text can be found <a href="/thank-you">here</a>.
+									</c:if>
 								</div>
 							</div>
 							<c:forEach items="${question.answers}" var="answer" varStatus="loop">

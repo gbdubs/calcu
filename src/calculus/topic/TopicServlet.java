@@ -51,7 +51,9 @@ public class TopicServlet extends HttpServlet {
 				req.setAttribute("textContent", tc);
 				req.setAttribute("practiceProblems", pp);
 				req.setAttribute("questions", qs);
-				req.setAttribute("familyTopics", t.getFamilyTopics());
+				
+				req.setAttribute("parentTopics", TopicAPI.getTopicsAsync(t.getParentTopics()));
+				req.setAttribute("subTopics", TopicAPI.getTopicsAsync(t.getSubTopics()));
 				
 			} catch (EntityNotFoundException e) {
 				// TODO Auto-generated catch block
