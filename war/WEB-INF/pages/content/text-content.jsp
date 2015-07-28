@@ -163,6 +163,9 @@
 										<jsp:param name="alreadyRated" value="${textContent.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
 									<span class="preserve-line-formatting">${textContent.body}</span>
+									<c:if test="${textContent.anonymous}">
+										<span class="credit-attribution">This question was generously made available through an open source textbook project.  Information about the license and the text can be found <a href="/thank-you">here</a>.
+									</c:if>
 								</div>
 							</div>
 							<c:forEach items="${textContent.answers}" var="answer" varStatus="loop">
