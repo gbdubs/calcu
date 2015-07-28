@@ -178,7 +178,7 @@
 						<div class="col-sm-12 col-md-6">
 							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Topics</h2>
 							<p>
-								<c:forEach items="${topic.familyTopics}" var="famTopic">
+								<c:forEach items="${familyTopics}" var="famTopic">
 									<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-warning topic-related-box-display">${famTopic.upperCaseTitle}</a>
 								</c:forEach>
 							</p>
