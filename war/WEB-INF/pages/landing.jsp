@@ -27,7 +27,7 @@
 				
 					<div class="title-between-shield">
 						<h1 class="welcome-banner font-weight-400">CalcU</h1>
-						<h3 class="welcome-banner-subtitle font-weight-400">A free course aid for the 21st century</h3>
+						<h3 class="welcome-banner-subtitle font-weight-400">A Free Course Aid for the 21st century</h3>
 					</div>
 					
 					<br class="hidden-above-1218">
@@ -64,7 +64,13 @@
 					
 					<div class="max-width-at-700 margin-bottom-10">
 						<p>
-							TEXT UNDER CONSTRUCTION
+							We think that educational technology means the deliberate and careful
+							implementation of tools for learning, rather than simply throwing 
+							technology in the classroom.  Learning Calculus is hard, and it will 
+							always be, regardless of the course aids that are used to teach it. 
+							But we think that CalcU can make it easier for learners of all abilities, 
+							backgrounds, and ages to pursue understanding and excellence in the 
+							cornerstone of mathematics.
 						</p>
 					</div>
 				
@@ -83,11 +89,13 @@
 						</a>
 						<div class="box box-warning box-solid landing-text-box">
 							<div class="box-header">
-								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+								<h3 class="box-title small-header">Learn How to Navigate the Site</h3>
 							</div>
 							<div class="box-body box-body-padding">
 								<p> 
-									TEXT UNDER CONSTRUCTION
+									To learn about the interconnected features of CalcU, 
+									and to get the most out of the site, visit our tutorial page for a brief 
+									introduction and a guide to getting started.
 								</p>
 							</div>
 						</div>
@@ -106,11 +114,13 @@
 						</a>
 						<div class="box box-primary box-solid landing-text-box">
 							<div class="box-header">
-								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+								<h3 class="box-title small-header">Start with a Search</h3>
 							</div>
 							<div class="box-body box-body-padding">
 								<p> 
-									TEXT UNDER CONSTRUCTION
+									CalcU has a ton of content, so we use a search
+									feature to allow you to find the questions, practice problems and explanations
+									you are looking for.
 								</p>
 							</div>
 						</div>
@@ -129,11 +139,12 @@
 						</a>
 						<div class="box box-success box-solid landing-text-box">
 							<div class="box-header">
-								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+								<h3 class="box-title small-header">Browse an Epic Amount of Content</h3>
 							</div>
 							<div class="box-body box-body-padding">
 								<p> 
-									TEXT UNDER CONSTRUCTION
+									CalcU has a gargantuan quantity of content. We start with Geometry, 
+									going through third semester calculus. Click the hexagon to browse this collection.
 								</p>
 							</div>
 						</div>
@@ -152,11 +163,12 @@
 						</a>
 						<div class="box box-danger box-solid landing-text-box">
 							<div class="box-header">
-								<h3 class="box-title small-header">TEXT UNDER CONSTRUCTION</h3>
+								<h3 class="box-title small-header">Learn about the Site and its Developers</h3>
 							</div>
 							<div class="box-body box-body-padding">
 								<p> 
-									TEXT UNDER CONSTRUCTION
+									This is a non-profit project with the goal of making learning and teaching
+									easier, by providing technology to fit an educational need. Learn about our mission and our crazy developers here.
 								</p>
 							</div>
 						</div>
