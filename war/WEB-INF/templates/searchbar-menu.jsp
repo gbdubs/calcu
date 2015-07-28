@@ -10,8 +10,7 @@
 			<div class="input-group">
 				<input name="tagsInput" id="tags-input-bar" value="${tags}" />
 				<span class="input-group-btn">
-					<input class="btn btn-primary large-input-group-button" type="submit" value="Search!">
-					<input class="btn btn-info large-input-group-button" type="submit" value="Search!">
+					<input id="tags-input-bar-button" class="btn btn-primary large-input-group-button" type="submit" value="Search!">
 				</span>
 			</div>
 		</form>

@@ -1025,6 +1025,13 @@ $(function() {
     		} 
     	});
     });
+	
+	$("#tags-input-bar").tagsInput({
+    	'width': '100%',
+    	'height': 'auto',
+    	'defaultText': 'Type Tags Here',
+    	'removeWithBackspace': true,
+    });
 });
 
 function fix_sidebar() {
