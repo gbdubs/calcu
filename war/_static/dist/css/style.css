@@ -5405,6 +5405,11 @@ h1.welcome-banner{
     margin: 15px;
 }
 
+.max-height-500{
+	max-height: 500px;
+	overflow: hidden;
+	display: block;
+}
 .achievement-badge{
     text-align: center;
     width: 100%;
