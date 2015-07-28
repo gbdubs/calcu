@@ -549,6 +549,23 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	    <url-pattern>/admin/recalculate-topics-tags</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <servlet-class>calculus.pages.DonationsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <url-pattern>/donate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <url-pattern>/donations</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <url-pattern>/money-plz</url-pattern>
+	</servlet-mapping>
+	
 	<filter>
 		<filter-name>appstats</filter-name>
         <filter-class>com.google.appengine.tools.appstats.AppstatsFilter</filter-class>

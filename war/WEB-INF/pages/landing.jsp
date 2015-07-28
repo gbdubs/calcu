@@ -173,6 +173,13 @@
 							</div>
 						</div>
 					</div>
+					
+					<div class="max-width-at-700 margin-top-100">
+						CalcU is a non-revenue generating project run by a couple of college students.
+						We rely on <a href="/donate">the generosity</a> of the people who love and use
+						the site to keep it going. If you find this site helpful, we would appreciate
+						any and all contributions to its maintenance and hosting.
+					</div>
 				</div>
 			</div>
 		
