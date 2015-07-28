@@ -96,6 +96,7 @@ public class LivePreviewServlet extends HttpServlet{
 			}
 			if (tc.getCreatorUserId().equals(userId) && !tc.getSubmitted()){
 				resp.setContentType("text/html");
+				req.setAttribute("textContent", tc);
 				req.setAttribute("livePreview", true);
 				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");	
 				jsp.forward(req, resp);

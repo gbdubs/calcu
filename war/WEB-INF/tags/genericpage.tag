@@ -145,6 +145,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/topic-explorer">
+                        <i class="fa fa-fw fa-sitemap"></i>
+                        <span>Browse Topics</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/baseline">
                         <i class="fa fa-fw fa-area-chart"></i>
                         <span>Baseline</span>
@@ -208,8 +214,14 @@
                 </li>
                 <li>
                     <a href="/contact">
-                        <i class="fa fa-fw fa-heart"></i>
+                        <i class="fa fa-fw fa-send-o"></i>
                         <span>Suggestions/Contact</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/thank-you">
+                        <i class="fa fa-fw fa-heart"></i>
+                        <span>Acknowledgments</span>
                     </a>
                 </li>
             </ul>

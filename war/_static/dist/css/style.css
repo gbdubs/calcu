@@ -5344,6 +5344,21 @@ h1.welcome-banner{
     font-weight: 100;
 }
 
+#ts-columns{
+	position: relative;
+}
+
+.ts-stashed-col{
+	display: none;
+}
+
+.ts-stashed-col.ts-last-stashed{
+	position: absolute;
+    left: -200px;
+    opacity: 0.3;
+    width: 200px;
+    display: block;
+}
 
 .max-width-at-575{  
 	display: inline-block;
@@ -5373,7 +5388,13 @@ h1.welcome-banner{
 }
 
 .font-cursive {
-	font-family: cursive; 
+	font-family: cursive;
+}
+
+.alert.topic-page-content{
+	max-height: 300px;
+    overflow: hidden;
+    margin: 15px;
 }
 
 .achievement-badge{

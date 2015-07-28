@@ -1,17 +1,17 @@
 package calculus.utilities;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public class LatexPatcher {
 
+	private static String[] removals = {"\\vc"};
+	
 	private static String[][] replacements =
 		{
-			{"\\R", "\\mathbb R"},
-			{"\\D", "\\mathbb D"},
-			{"\\Z", "\\mathbb Z"},
-			{"\\N", "\\mathbb N"},
+			{"\n", "<br/>"},
+			{"\\R ", "\\mathbb R"},
+			{"\\D ", "\\mathbb D"},
+			{"\\Z ", "\\mathbb Z"},
+			{"\\N ", "\\mathbb N"},
 			{"\\sto", "\\rightarrow"}
 		};
 	
@@ -22,6 +22,9 @@ public class LatexPatcher {
 		};
 	
 	public static String makeReplacements(String s){
+		for (String removal : removals){
+			s = s.replace(removal, "");
+		}
 		for (String[] replacement : replacements){
 			s = s.replace(replacement[0], replacement[1]);
 		}
@@ -34,6 +37,7 @@ public class LatexPatcher {
 				startIndex = s.indexOf(wrappedReplacement[0][0]);
 			}
 		}
+		
 		return s;
 	}
 	

@@ -11,6 +11,14 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 inline-block align-left margin-top-50">
+				<c:if test="${contentApprovalMode}">
+					<form class="content-approval-buttons" action="/content-approval" method="POST">
+						<input type="submit" class="btn btn-success" value="Approved" name="approved"/>
+						<input type="submit" class="btn btn-danger" value="Not Approved" name="not-approved"/>
+						<input type="hidden" value="${practiceProblem.uuid}" name="contentUuid"/>
+					</form>
+				</c:if>
+			
 				<c:if test="${!livePreview && !practiceProblem.viewable}">
 					<div class="box box-solid bg-maroon-gradient">
 						<div class="box-header solid-box-header">
@@ -339,7 +347,23 @@
 									</c:otherwise>
 								</c:choose>
 							</div>
+						
+							
 						</div>
+					</div>
+				</div>
+			
+				<div class="similar-content centered margin-top-100">
+					Did you like this practice problem, or want to explore a different area of it? You can see other content on the
+					<a class="content-display-topic-link" href="${practiceProblem.topicUrl}">
+						Same Topic
+					</a>
+					or, explore a specific related topic by searching for it:
+					<br>
+					<div class="content-display-tag-links">
+						<c:forEach var="tag" items="${practiceProblem.listOfTags}">
+							<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
+						</c:forEach>
 					</div>
 				</div>
 			</div>

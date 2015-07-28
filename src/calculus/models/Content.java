@@ -10,9 +10,13 @@ import calculus.api.AchievementsAPI;
 import calculus.api.ContentAPI;
 import calculus.api.RatingsAPI;
 import calculus.api.TagAPI;
+import calculus.topic.Topic;
+import calculus.topic.TopicAPI;
 import calculus.utilities.Cleaner;
 import calculus.utilities.KarmaDescription;
 import calculus.utilities.LatexPatcher;
+import calculus.utilities.SafeList;
+import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -58,6 +62,7 @@ public abstract class Content {
 	private String tags;
 	private String url;
 	private String source;
+	private String topic;
 	
 	/*
 	 * Each of the following properties is either UNINDEXED (meaning we don't perform queries over it, but
@@ -78,6 +83,7 @@ public abstract class Content {
 	 * tags           = UNINDEXED
 	 * url            = UNINDEXED
 	 * source         = UNINDEXED
+	 * topic       = UNINDEXED
 	 * 
 	 * SUBCLASSES:
 	 * authorSolution = UNINDEXED [practiceProblem only]
@@ -98,10 +104,11 @@ public abstract class Content {
 		this.karma = ((Long) entity.getProperty("karma")).intValue();
 		this.title = (String) entity.getProperty("title");
 		this.body = ((Text) entity.getProperty("body")).getValue();
-		this.allAnswers = (List<String>) entity.getProperty("allAnswers");
+		this.allAnswers = SafeList.string(entity, "allAnswers");
 		this.tags = (String) entity.getProperty("tags");
 		this.url = (String) entity.getProperty("url");
 		this.source = (String) entity.getProperty("source");
+		this.topic = (String) entity.getProperty("topic");
 		
 		this.entity = entity;
 		this.author = null;
@@ -145,6 +152,9 @@ public abstract class Content {
 	}
 
 	public Author getAuthor(){
+		if (creatorUserId == null || creatorUserId.length() < 5){
+			return null;
+		}
 		if (author == null){
 			author = new Author(creatorUserId);
 		}
@@ -276,7 +286,7 @@ public abstract class Content {
 		if (tags == null || tags.length() == 0) return allTags;
 		String[] tagsList = tags.split(",");
 		for(String tag : tagsList){
-			if (!tag.equals("")){
+			if (!tag.equals("") && !tag.equalsIgnoreCase("auto generated")){
 				allTags.add(tag);
 			}
 		}
@@ -301,6 +311,14 @@ public abstract class Content {
 
 	public String getSource(){
 		return source;
+	}
+	
+	public String getTopicString(){
+		return topic;
+	}
+	
+	public void setTopicUuid(String topicUuid) {
+		this.entity.setUnindexedProperty("topic", topicUuid);
 	}
 	
 	public boolean getAlreadyRatedByCurrentUser(){
@@ -344,8 +362,10 @@ public abstract class Content {
 		entity.setUnindexedProperty("tags", tags);
 		entity.setUnindexedProperty("url", url);
 		entity.setUnindexedProperty("source", source);
+		entity.setUnindexedProperty("topic", topic);
 		
 		saveTags();
+		saveTopic();
 		
 		setTypeSpecificEntityProperties();
 	}
@@ -370,5 +390,22 @@ public abstract class Content {
 	
 	public abstract void patchLatexTypeSpecificProperties();
 	
+	public void cleanForHtml(){
+		title = Cleaner.cleanHtml(title);
+		body = Cleaner.cleanHtml(body);
+	}
 	
+	public void saveTopic(){
+		if (UuidTools.getUuidFromUrl(topic) == null && topic != null){
+			Topic t = TopicAPI.getOrCreateTopicFromUrl(topic);
+			t.addContentUuid(this.uuid);
+			t.save();
+			topic = t.getUuid();
+			entity.setUnindexedProperty("topic", topic);
+		}
+	}
+	
+	public String getTopicUrl(){
+		return "/topic/" + topic;
+	}
 }

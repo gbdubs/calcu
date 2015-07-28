@@ -7,4 +7,9 @@
 		<name>calculateRecommendationsQueue</name>
 		<rate>10/s</rate>
 	</queue>
+	<queue>
+		<name>uploadQueue</name>
+		<rate>10/m</rate>
+		<max-concurrent-requests>1</max-concurrent-requests> 
+	</queue>
 </queue-entries>
