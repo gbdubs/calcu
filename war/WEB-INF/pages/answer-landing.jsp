@@ -11,7 +11,9 @@
 		<div class="centered">
 			<h2 class="welcome-banner margin-top-100">Answering Mode</h2>
 			<h3 class="welcome-banner-subtitle max-width-at-1000 margin-bottom-50">In this mode, we provide you with questions matched to your skill level. Every consecutive question you
-				answer correctly will contribute to your answer streak, which will boost your karma.</h3>
+				answer correctly will contribute to your answer streak, which will boost your karma.
+			</h3>
+			<br>
 			<div class="row max-width-at-1000">
 				<div class="col-sm-12 max">
 					<div class="box box-solid bg-blue-gradient">

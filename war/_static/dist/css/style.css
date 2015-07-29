@@ -5290,6 +5290,14 @@ h2.mini-font {
 	display: inline;
 }
 
+.topic-editor-title{
+	font-size:100px;
+}
+
+.box .topic-editor-textarea{
+	width:100%;
+}
+
 
 .hexagon-bullet-line-item:nth-child(even) {
 	margin: -8px 0 -8px 23px;

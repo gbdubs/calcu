@@ -442,6 +442,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>TopicEditorServlet</servlet-name>
+		<servlet-class>calculus.TopicEditorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopicEditorServlet</servlet-name>
+		<url-pattern>/topic-editor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>Upload</servlet-name>
 		<servlet-class>calculus.upload.UploadServlet</servlet-class>
 	</servlet>
