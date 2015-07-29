@@ -53,7 +53,9 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 					try {
 						pp = new PracticeProblem(uuid);
 					} catch (EntityNotFoundException e) {
-						resp.sendRedirect("/page-not-found");
+						resp.setContentType("text/html");
+						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+						jsp.forward(req, resp);
 						return;
 					}
 					// If they request editing a page which has already been submitted, redirect them to its
@@ -69,7 +71,9 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 						jsp.forward(req, resp);
 					}
 				} else {
-					resp.sendRedirect("/page-not-found");
+					resp.setContentType("text/html");
+					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+					jsp.forward(req, resp);
 				}
 				return;
 			}

@@ -56,7 +56,9 @@ public class ContributeTextContentServlet extends HttpServlet {
 						tc = new TextContent(uuid);
 					} catch (EntityNotFoundException e) {
 						// If it doesn't yet exist, send a 404.
-						resp.sendRedirect("/page-not-found");
+						resp.setContentType("text/html");
+						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+						jsp.forward(req, resp);
 						return;
 					}
 					
@@ -72,7 +74,10 @@ public class ContributeTextContentServlet extends HttpServlet {
 						jsp.forward(req, resp);
 					}
 				} else {
-					resp.sendRedirect("/page-not-found");
+					resp.setContentType("text/html");
+					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+					jsp.forward(req, resp);
+					return;
 				}
 				return;
 			}

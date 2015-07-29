@@ -38,7 +38,9 @@ public class AdminConsoleServlet extends HttpServlet {
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/admin-console.jsp");	
 			jsp.forward(req, resp);
 		} else {
-			resp.sendRedirect("/page-not-found");
+			resp.setContentType("text/html");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+			jsp.forward(req, resp);
 		}		
 	}
 }

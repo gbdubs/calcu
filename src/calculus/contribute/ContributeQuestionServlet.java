@@ -55,7 +55,9 @@ public class ContributeQuestionServlet extends HttpServlet {
 					try {
 						q = new Question(uuid);
 					} catch (EntityNotFoundException e) {
-						resp.sendRedirect("/page-not-found");
+						resp.setContentType("text/html");
+						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+						jsp.forward(req, resp);
 						return;
 					}
 					//If the question is already submitted, redirect the user to the live page with it.
@@ -71,10 +73,11 @@ public class ContributeQuestionServlet extends HttpServlet {
 					}
 					
 				} else {
-					resp.sendRedirect("/page-not-found");
+					resp.setContentType("text/html");
+					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+					jsp.forward(req, resp);
 				}
 				return;
-				
 			}
 		}
 		
