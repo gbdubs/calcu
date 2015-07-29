@@ -10,118 +10,147 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 margin-bottom-50 full-width">
-				<h2 class="welcome-banner margin-top-100">Geometry</h2>
-				<h3 class="welcome-banner-subtitle margin-bottom-50">Click on something to get started!</h3>
+				<h2 class="welcome-banner margin-top-100">${topic.upperCaseTitle}</h2>
+				<c:if test="${topic.tags != 'AUTO GENERATED'}">
+					<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.upperCaseTags}</h3>
+				</c:if>
+				<c:if test="${topic.tags == 'AUTO GENERATED'}">
+					<br>
+				</c:if>
+				
+				<c:if test="${topic.shortDescription != 'AUTO GENERATED'}">
+					<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.shortDescription}</h3>
+				</c:if>
+				<c:if test="${topic.shortDescription == 'AUTO GENERATED'}">
+					<br>
+				</c:if>
 				<div class="align-left">
 					<div class="box-body">
-						<div class="box box-warning box-solid">
-							<div class="box-header">
-								<h3 class="box-title">Text Content</h3>
-								<div class="pull-right box-tools">
-									<button class="btn btn-warning btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+						<c:if test="${fn:length(questions) == 0 && fn:length(practiceProblems) == 0 && fn:length(textContent) == 0}">
+							<div class="box box-danger box-solid">
+								<div class="box-header">
+									<h3 class="box-title">No Content In this Topic</h3>
+								</div>
+								<div class="box-body">
+									<p>
+										This topic happens to not have any content.  This probably means that it is too broad of a topic;
+										in order to see the content that is in this topic, you should check out its sub-topics.  Those can
+										be found at the bottom of the page, on the Left.
+									</p>
 								</div>
 							</div>
-							<div class="box-body">
-								<c:forEach begin="1" end="5" var="i">
-									<div class="alert alert-dismissable alert-warning margin-top-20">
-										<i class="fa">${i}</i>
-										<c:choose>
-											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
-													<i class="fa fa-bookmark"></i>
-												</button>
-											</c:when>
-											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
-													<i class="fa fa-bookmark-o"></i>
-												</button>
-											</c:otherwise>
-										</c:choose>
-										<a href="${question.url}"><b>Pythagorean Theorem</b></a>
-										This is a bunch of garbage text used for testing, you should really not read this. This really isn't worth your time man. Just stop here. 
-									</div>
-								</c:forEach>
-								<div class="centered">
-									<div class="btn-group margin-bottom-10">
-										<c:forEach begin="1" end="5" var="i">
-											<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
-										</c:forEach>
+						</c:if>
+						<c:if test="${fn:length(textContent) > 0}">
+							<div class="box box-warning box-solid">
+								<div class="box-header">
+									<h3 class="box-title">Text Content</h3>
+									<div class="pull-right box-tools">
+										<button class="btn btn-warning btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 									</div>
 								</div>
-							</div>	
-						</div>
-						<div class="box box-success box-solid">
-							<div class="box-header">
-								<h3 class="box-title">Practice Problems</h3>
-								<div class="pull-right box-tools">
-									<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+								<div class="box-body">
+									<c:forEach items="${textContent}" var="tc">
+										<div class="alert alert-warning topic-page-content">
+											<c:choose>
+												<c:when test="${bookmarked}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${tc.uuid}">
+														<i class="fa fa-bookmark"></i>
+													</button>
+												</c:when>
+												<c:otherwise>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${tc.uuid}">
+														<i class="fa fa-bookmark-o"></i>
+													</button>
+												</c:otherwise>
+											</c:choose>
+											<a href="${tc.url}"><b>${tc.title}</b></a>
+											${tc.body} 
+										</div>
+									</c:forEach>
+									<!--<div class="centered">
+										<div class="btn-group margin-bottom-10">
+											<c:forEach begin="1" end="5" var="i">
+												<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
+											</c:forEach>
+										</div>
+									</div>-->
+								</div>	
+							</div>
+						</c:if>
+						<c:if test="${fn:length(practiceProblems) > 0}">
+							<div class="box box-success box-solid">
+								<div class="box-header">
+									<h3 class="box-title">Practice Problems</h3>
+									<div class="pull-right box-tools">
+										<button class="btn btn-success btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+									</div>
+								</div>
+								<div class="box-body">
+									<c:forEach var="pp" items="${practiceProblems}">
+										<div class="alert alert-success topic-page-content">
+											<c:choose>
+												<c:when test="${bookmarked}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${pp.uuid}">
+														<i class="fa fa-bookmark"></i>
+													</button>
+												</c:when>
+												<c:otherwise>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${pp.uuid}">
+														<i class="fa fa-bookmark-o"></i>
+													</button>
+												</c:otherwise>
+											</c:choose>
+											<a href="${pp.url}"><b>${pp.title}</b></a>
+											${pp.body}
+										</div>
+									</c:forEach>
+									<!--<div class="centered">
+										<div class="btn-group margin-bottom-10">
+											<c:forEach begin="1" end="5" var="i">
+												<button class="result-page-tab btn btn-success" id="tc-result-page-${i}-tab">${i}</button>
+											</c:forEach>
+										</div>
+									</div>-->
 								</div>
 							</div>
-							<div class="box-body">
-								<c:forEach begin="1" end="5" var="i">
-									<div class="alert alert-dismissable alert-success margin-top-20">
-										<i class="fa">${i}</i>
-										<c:choose>
-											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
-													<i class="fa fa-bookmark"></i>
-												</button>
-											</c:when>
-											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
-													<i class="fa fa-bookmark-o"></i>
-												</button>
-											</c:otherwise>
-										</c:choose>
-										<a href="${question.url}"><b>Pythagorean Theorem Practice Problem</b></a>
-										This is a bunch of garbage text used for testing, you should really not read this. This really isn't worth your time man. Just stop here. 
-									</div>
-								</c:forEach>
-								<div class="centered">
-									<div class="btn-group margin-bottom-10">
-										<c:forEach begin="1" end="5" var="i">
-											<button class="result-page-tab btn btn-success" id="tc-result-page-${i}-tab">${i}</button>
-										</c:forEach>
+						</c:if>
+						<c:if test="${fn:length(questions) > 0}">
+							<div class="box box-primary box-solid">
+								<div class="box-header">
+									<h3 class="box-title">Questions</h3>
+									<div class="pull-right box-tools">
+										<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="box box-primary box-solid">
-							<div class="box-header">
-								<h3 class="box-title">Questions</h3>
-								<div class="pull-right box-tools">
-									<button class="btn btn-primary btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+								<div class="box-body">
+									<c:forEach var="q" items="${questions}">
+										<div class="alert alert-info topic-page-content">
+											<c:choose>
+												<c:when test="${bookmarked}">
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${q.uuid}">
+														<i class="fa fa-bookmark"></i>
+													</button>
+												</c:when>
+												<c:otherwise>
+													<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${q.uuid}">
+														<i class="fa fa-bookmark-o"></i>
+													</button>
+												</c:otherwise>
+											</c:choose>
+											<a href="${q.url}"><b>${q.title}</b></a>
+											${q.body}
+										</div>
+									</c:forEach>
+									<!--<div class="centered">
+										<div class="btn-group margin-bottom-10">
+											<c:forEach begin="1" end="5" var="i">
+												<button class="result-page-tab btn btn-primary" id="tc-result-page-${i}-tab">${i}</button>
+											</c:forEach>
+										</div>
+									</div>-->
 								</div>
 							</div>
-							<div class="box-body">
-								<c:forEach begin="1" end="5" var="i">
-									<div class="alert alert-dismissable alert-info margin-top-20">
-										<i class="fa">${i}</i>
-										<c:choose>
-											<c:when test="${bookmarked}">
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="remove" data-user="${user.userId}" data-content="${question.uuid}">
-													<i class="fa fa-bookmark"></i>
-												</button>
-											</c:when>
-											<c:otherwise>
-												<button type="button" class="toggle-bookmark-button pull-right buttonless" data-action="add" data-user="${user.userId}" data-content="${question.uuid}">
-													<i class="fa fa-bookmark-o"></i>
-												</button>
-											</c:otherwise>
-										</c:choose>
-										<a href="${question.url}"><b>Pythagorean Theorem Question</b></a>
-										This is a bunch of garbage text used for testing, you should really not read this. This really isn't worth your time man. Just stop here. 
-									</div>
-								</c:forEach>
-								<div class="centered">
-									<div class="btn-group margin-bottom-10">
-										<c:forEach begin="1" end="5" var="i">
-											<button class="result-page-tab btn btn-primary" id="tc-result-page-${i}-tab">${i}</button>
-										</c:forEach>
-									</div>
-								</div>
-							</div>
-						</div>
+						</c:if>
 						<div class="box box-info box-solid">
 							<div class="box-header">
 								<h3 class="box-title">Practice Tests</h3>
@@ -129,8 +158,10 @@
 									<button class="btn btn-info btn-sm" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 								</div>
 							</div>
-							<div class="box-body row">
-								<form class="col-sm-12 col-md-12 col-lg-12" action="/topic/${topic.uuid}/generate-test" method="post">
+							<div class="box-body">
+								<h1 class="welcome-banner-subtitle">This feature is under development</h1>
+								<h4>...but we need additional time and funding to implement it.  To support the project (which we would sincerely appreciate), please visit our <a href="/donate">donations</a> page!</h4>
+								<!--<form class="col-sm-12 col-md-12 col-lg-12" action="/topic/${topic.uuid}/generate-test" method="post">
 									<input type="hidden" name="userId" value="${user.userId}"/>
 									<div class="col-sm-12 col-md-12 col-lg-12 no-padding">
 										<label for="difficulty">Difficulty</label>
@@ -161,27 +192,39 @@
 										</select>
 									</div>
 									<input type="submit" value="Generate Practice Test" class="btn btn-primary pull-right margin-top-10"/>
-								</form>
+								</form>-->
 							</div>
 						</div>
 					</div>
 					<div class="centered row">
 						<div class="col-sm-12 col-md-6">
-							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Topics</h2>
-							<p>
-								<c:forEach begin="1" end="5" var="i">
-									<a href="/answer/practice-problem/new" class="btn btn-block btn-warning topic-related-box-display">Something Something ${i}</a>
-								</c:forEach>
-							</p>
+							<c:if test="${fn:length(parentTopics) > 0}">
+								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50">Broader Topics</h2>
+								<p>
+									<c:forEach items="${parentTopics}" var="famTopic">
+										<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-warning topic-related-box-display">${famTopic.upperCaseTitle}</a>
+									</c:forEach>
+								</p>
+							</c:if>
+							<c:if test="${fn:length(subTopics) > 0}">
+								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50">More Specific Topics</h2>
+								<p>
+									<c:forEach items="${subTopics}" var="famTopic">
+										<a href="/topic/${famTopic.uuid}" class="btn btn-block btn-success topic-related-box-display">${famTopic.upperCaseTitle}</a>
+									</c:forEach>
+								</p>
+							</c:if>
 						</div>
-						<div class="col-sm-12 col-md-6">
-							<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Tags</h2>
-							<div class="row">
-								<c:forEach begin="1" end="20" var="i">
-									<a href="/search/" class="btn btn-primary large-input-group-button margin-5-all">topic ${i}</a>
-								</c:forEach>
+						<c:if test="${fn:length(topic.upperCaseTagsAsList) > 0}">
+							<div class="col-sm-12 col-md-6">
+								<h2 class=" welcome-banner-subtitle centered margin-top-bottom-50"> Related Tags</h2>
+								<div class="row">
+									<c:forEach items="${topic.upperCaseTagsAsList}" var="tag">
+										<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
+									</c:forEach>
+								</div>
 							</div>
-						</div>
+						</c:if>
 					</div>
 				</div>
 			</div>

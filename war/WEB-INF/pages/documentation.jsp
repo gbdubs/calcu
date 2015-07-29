@@ -93,7 +93,7 @@
 			</div>
 		
 			<div class="box box-solid max-width-at-1000 align-left" id="level-explanation">
-				<div class="box-header bg-purple">
+				<div class="box-header bg-red">
 					<i class="fa fa-level-up"></i>
 					<h3 class="box-title">Leveling Up!</h3>
 				</div>
@@ -119,7 +119,7 @@
 						<p> 
 							<b>BUT!</b> we can only give you Karma (and subsequently level up) when you are logged in! 
 						</p>
-						<button class="btn btn-block bg-purple login-button">Log In!</button>
+						<button class="btn btn-block bg-red login-button">Log In!</button>
 					</c:if>
 				</div>
 			</div>

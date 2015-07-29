@@ -63,7 +63,7 @@ public class ContributeQuestionServlet extends HttpServlet {
 						resp.sendRedirect("/question/"+uuid);
 					} else {
 						// Adds the current question to the context, and prepares it for editing.
-						req.setAttribute("questoin", q);
+						req.setAttribute("question", q);
 						resp.setContentType("text/html");
 						UserContextAPI.addUserContextToRequest(req, "/contribute/question/edit/" + uuid);
 						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/contribute/question.jsp");

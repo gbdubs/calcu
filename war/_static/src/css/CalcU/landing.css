@@ -1,0 +1,145 @@
+div.title-between-shield{
+	display: inline-block;
+	position: relative;
+    top: -70px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+h1.welcome-banner.font-weight-400{
+	font-weight: 400;
+}
+
+h3.welcome-banner-subtitle.font-weight-400{
+	font-weight: 400;
+}
+ 
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.landing-text-box{
+	display: inline-block;
+	width: 500px;
+	margin-top: 55px;
+}
+
+.box .box-body.box-body-padding{
+	padding: 6px 10px 6px 10px;
+	text-align: left;
+}
+
+.box .box-header .box-title.small-header{
+	padding: 5px 10px 5px 10px;
+}
+
+.landing-left-decoration.hexagon-table{
+	display: inline-block;
+    text-align: center;
+    top: -100px;
+    position: absolute;
+    left: Calc(50% - 1670px);
+}
+
+.landing-right-decoration.hexagon-table{
+	display: inline-block;
+    text-align: center;
+    top: -100px;
+    position: absolute;
+    right: Calc(50% - 1670px);
+}
+
+.landing-decoration-wrapper{
+	position: relative;
+    width: Calc(100% - -30px);
+    margin: -20px -15px -20px -15px;
+    overflow: hidden;
+}
+
+.landing-decoration-opacity{
+	opacity: .3;
+}
+
+.margin-bottom-100{
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1400px) {
+	.landing-right-decoration.hexagon-table{
+		right: Calc(50% - 1600px);
+	}
+	
+	.landing-left-decoration.hexagon-table{
+		left: Calc(50% - 1600px);
+	}
+}
+
+.hidden-above-1218{
+	display: none;	
+}
+
+@media screen and (max-width: 1218px) {
+	.shield.landing-shield-deriv{
+		display: none;
+	}
+	
+	.hidden-above-1218{
+		display: block;
+	}
+	
+	div.title-between-shield{
+		top: 280px;
+	}
+	
+	.shield.landing-shield-integral{
+		display: none;
+	}
+	
+	div.shield.hidden-med-shield-integral{
+		display: inline-block;
+		position: relative;
+ 		top: -217px;
+	}
+}
+
+.shield.hidden-med-shield-integral{
+	display: none;
+}
+
+@media screen and (max-width: 377px) {
+	div.shield.hidden-med-shield-integral{
+ 		top: -243px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.max-width-at-700{
+		max-width: 100%;
+	}
+	
+	.max-width-at-700 .float-left{
+		float: none;
+	}
+	
+	.max-width-at-700 .float-right{
+		float: none;
+	}
+	
+	.text-box-landing{
+		width: Calc(100% - 10px);
+	}
+}
+
+.margin-top-40{
+	margin-top: 40px;
+}
+
+@media only screen and (max-width: 514px) {
+	.landing-text-box {
+		width:	Calc(100% - 15px);
+	}
+}

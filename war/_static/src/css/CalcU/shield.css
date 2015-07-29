@@ -38,6 +38,10 @@
 	background: #367fa9;
 }
 
+.bright-blue-shield .shield-outer .shield-body {
+	background: #0073b7;
+}
+
 .blue-shield-inverted .shield-outer .shield-body {
 	background: #F9F9F9;
 }
@@ -86,6 +90,10 @@
 
 .blue-shield .shield-outer .shield-bottom{
 	border-top-color: #367fa9;
+}
+
+.bright-blue-shield .shield-outer .shield-bottom{
+	border-top-color: #0073b7;
 }
 
 .blue-shield-inverted .shield-outer .shield-bottom{
@@ -137,6 +145,11 @@
 	background: #367fa9;
 }
 
+.bright-blue-shield .shield-inner .shield-top:after,
+.blue-shield .shield-inner .shield-top:after{
+	background: #0073b7;
+}
+
 .blue-shield-inverted .shield-inner .shield-top:after,
 .blue-shield-inverted .shield-inner .shield-top:after{
 	background: #F9F9F9;
@@ -156,6 +169,10 @@
 
 .blue-shield .shield-inner .shield-top:before{
 	background: #367fa9;
+}
+
+.bright-blue-shield .shield-inner .shield-top:before{
+	background: #0073b7;
 }
 
 .blue-shield-inverted .shield-inner .shield-top:before{

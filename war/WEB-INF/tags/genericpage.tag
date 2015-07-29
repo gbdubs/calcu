@@ -54,6 +54,11 @@
         <div class="navbar-right">
             <ul class="nav navbar-nav">
 
+                <!-- Search Menu-->
+                <li class="dropdown messages-menu">
+                    <jsp:include page="/WEB-INF/templates/searchbar-menu.jsp" />
+                </li>
+                
                 <!-- Notifications Menu-->
                 <li class="dropdown messages-menu">
                     <jsp:include page="/WEB-INF/templates/notifications-menu.jsp" />
@@ -134,6 +139,12 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/topic-explorer">
+                        <i class="fa fa-fw fa-sitemap"></i>
+                        <span>Browse Topics</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/explore">
                         <i class="fa fa-fw fa-binoculars"></i>
                         <span>Explore</span>
@@ -196,15 +207,21 @@
                     </a>
                 </li>
                 <li>
+                    <a href="/contact">
+                        <i class="fa fa-fw fa-send-o"></i>
+                        <span>Suggestions/Contact</span>
+                    </a>
+                </li>
+                <li>
                     <a href="/about">
                         <i class="fa fa-fw fa-cogs"></i>
                         <span>About</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/contact">
+                    <a href="/thank-you">
                         <i class="fa fa-fw fa-heart"></i>
-                        <span>Suggestions/Contact</span>
+                        <span>Acknowledgments</span>
                     </a>
                 </li>
             </ul>

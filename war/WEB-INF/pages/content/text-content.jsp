@@ -11,6 +11,13 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 inline-block align-left margin-top-50">
+				<c:if test="${contentApprovalMode}">
+					<form class="content-approval-buttons" action="/content-approval" method="POST">
+						<input type="submit" class="btn btn-success" value="Approved" name="approved"/>
+						<input type="submit" class="btn btn-danger" value="Not Approved" name="not-approved"/>
+						<input type="hidden" value="${textContent.uuid}" name="contentUuid"/>
+					</form>
+				</c:if>
 				<c:if test="${!livePreview && !textContent.viewable}">
 					<div class="box box-solid bg-maroon-gradient">
 						<div class="box-header solid-box-header">
@@ -156,6 +163,9 @@
 										<jsp:param name="alreadyRated" value="${textContent.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
 									<span class="preserve-line-formatting">${textContent.body}</span>
+									<c:if test="${textContent.anonymous}">
+										<span class="credit-attribution">This question was generously made available through an open source textbook project.  Information about the license and the text can be found <a href="/thank-you">here</a>.
+									</c:if>
 								</div>
 							</div>
 							<c:forEach items="${textContent.answers}" var="answer" varStatus="loop">
@@ -284,6 +294,19 @@
 								</c:choose>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div class="similar-content centered margin-top-100">
+					Like this explanation, or want to explore a different area of it? You can see other content on the
+					<a class="content-display-topic-link" href="${textContent.topicUrl}">
+						Same Topic
+					</a>
+					or, explore a specific related topic by searching for it:
+					<br>
+					<div class="content-display-tag-links">
+						<c:forEach var="tag" items="${textContent.listOfTags}">
+							<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
+						</c:forEach>
 					</div>
 				</div>
 			</div>

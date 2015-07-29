@@ -13,6 +13,7 @@ import java.util.concurrent.Future;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Answer;
+import calculus.models.Author;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
@@ -112,6 +113,10 @@ public class ContentAPI {
 	public static String getContentAuthorId(String contentUuid) {
 		try {
 			Content c = instantiateContent(contentUuid);
+			Author a = c.getAuthor();
+			if (a == null){
+				return null;
+			}
 			return c.getAuthor().getUserId();
 		} catch (EntityNotFoundException e) {
 			return null;
@@ -186,11 +191,7 @@ public class ContentAPI {
 		PreparedQuery bestPQ = datastore.prepare(bestQ);
 		List<Entity> bestE = bestPQ.asList(FetchOptions.Builder.withLimit(n/4));
 		
-		Query allQ = new Query("Content").setFilter(compositeFilter);
-		PreparedQuery allPQ = datastore.prepare(allQ);
-		List<Entity> allE = allPQ.asList(FetchOptions.Builder.withLimit(n/4).offset((int) (Math.random() * 1000)));
-		
-		List<Content> randomResults = RandomValuesAPI.randomContents(n/4);
+		List<Content> randomResults = RandomValuesAPI.randomContents(n/2);
 		
 		Set<Content> result = new HashSet<Content>();
 
@@ -198,9 +199,6 @@ public class ContentAPI {
 			result.add(instantiateContent(e));
 		}
 		for(Entity e : bestE){
-			result.add(instantiateContent(e));
-		}
-		for(Entity e : allE){
 			result.add(instantiateContent(e));
 		}
 		result.addAll(randomResults);
@@ -289,9 +287,13 @@ public class ContentAPI {
 
 	public static String createOrUpdateContentFromRequest(HttpServletRequest req, String contentType){
 		
-		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
+		System.out.println(req.getRequestURI());
+		System.out.println(req.getParameter("uuid"));
+		
+		String uuid = UuidTools.getUuidFromUrl(req.getParameter("uuid"));
 		if (uuid == null){
 			uuid = UUID.randomUUID().toString();
+			System.out.println("CREATED NEW CONTENT WITH UUID: " + uuid);
 		}
 		
 		Entity entity = new Entity(KeyFactory.createKey("Content", uuid));
@@ -299,6 +301,8 @@ public class ContentAPI {
 		boolean anonymous = (req.getParameter("saveButton").equals("Submit Anonymously"));
 		boolean submitted = (req.getParameter("saveButton").equals("Submit") || anonymous);
 		boolean viewable = submitted;
+		
+		System.out.println("ANONYMOUS: " + anonymous + " SUBMITTED " + submitted);
 		
 		String title = (String) req.getParameter("title");
 		title = Cleaner.autoclave(title);
@@ -334,9 +338,11 @@ public class ContentAPI {
 		String creatorId = "";
 		User user = UserServiceFactory.getUserService().getCurrentUser();
 		if (user != null){
-			creatorId = user.getUserId();
+			creatorId = user.getUserId();	
 		}
+		System.out.println("CREATOR ID = " + creatorId);
 		
+		System.out.println("SAVING CONTENT WITH UUID: " + uuid);
 		// Here, we can set the entity properties to all be indexed, because we are only saving through the 
 		// Content Model.  We only want that SINGLE class to determine which properties are indexed.
 		entity.setProperty("uuid", uuid);
@@ -364,7 +370,7 @@ public class ContentAPI {
 	public static List<Content> getAllContentOfType(String contentType){
 		List<Content> results = new ArrayList<Content>();
 		Query q = new Query("Content");
-		Filter typeFilter = new FilterPredicate("contentType", FilterOperator.EQUAL,contentType);
+		Filter typeFilter = new FilterPredicate("contentType", FilterOperator.EQUAL, contentType);
 		q.addSort("createdAt").setFilter(typeFilter);
 		PreparedQuery pq = datastore.prepare(q);
 		for (Entity e : pq.asIterable()){

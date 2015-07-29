@@ -76,7 +76,9 @@
 												</c:otherwise>
 											</c:choose>
 											<a href="${question.url}"><b>${question.title}</b></a>
-											${question.abbreviatedBody}
+											<span class="max-height-500">
+												${question.abbreviatedBody}
+											</span>
 										</div>
 								</c:forEach>
 								</div>
@@ -137,7 +139,9 @@
 										</c:choose>
 							
 										<a href="${practiceProblem.url}"><b>${practiceProblem.title}</b></a>
-										${practiceProblem.abbreviatedBody}
+										<span class="max-height-500">
+											${practiceProblem.abbreviatedBody}
+										</span>
 									</div>
 								</c:forEach>
 								</div>
@@ -197,7 +201,9 @@
 										</c:choose>
 							
 										<a href="${textContent.url}"><b>${textContent.title}</b></a>
-										${textContent.abbreviatedBody}
+										<span class="max-height-500">
+											${textContent.abbreviatedBody}
+										</span>
 									</div>
 								</c:forEach>
 								</div>
@@ -283,19 +289,21 @@
 						<div class= "max-width-at-1000 align-left">
 							<p>
 								The search by tag feature is a powerful tool for exploring content when you have a good idea of what you are interested in looking at.
-								You can choose to search with as many "tags" as you want. Each tag is treated like a plain string, and results with matching tags will
-								be displayed. Note that adding more tags will never decrease the number of results you return, it can only increase them. To type in a
-								tag, simply type the word or multi word expression (no commas) into the box below, and press enter. That completes the tag, and you can
-								begin to type a new tag. When you are done, press the search button.
+								You can choose to search with as many "tags" as you want. Each tag is treated like a plain word, and results with matching tags will
+								be displayed. Tags can contain spaces, dashes and apostrophes, but no other characters.  Tags are not case sensitive.
+								Note that adding more tags will never decrease the number of results you return, it can only increase them. To type in a
+								tag, simply type the word or multi word expression (no commas) into the box above, and press enter. That completes the tag, and you can
+								begin to type a new tag. When you have a sequence of tags you want to try, press the search button.
 							</p>
 							<p>
-								After you have completed a search, a box will pop up which contains tags you might want to consider adding to your search. These tags
-								come in two categories. One will help you broaden your search, by suggesting tags which will widen the number of results that you get back.
+								After you have completed a search, a box may pop up which contains tags you might want to consider adding to your search. 
+								These tags will help you broaden your search, by suggesting tags which will widen the number of results that you get back,
+								including ones which might be very close to your
 								The other will refine your search, bringing to the top content which matches it along with your current search.
 							</p>
 							<p>
-								Finally, we are always doing our best to respond to the needs and requests of our users. We are working on developing a search by text
-								feature, which should be unrolled in mid-may of 2015.
+								Finally, we are always doing our best to respond to the needs and requests of our users. If you think there is another way to explore
+								our content that could be helpful, please visit our contact page and let us know about it!
 							</p>
 						</div>
 					</div>

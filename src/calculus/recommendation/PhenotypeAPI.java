@@ -20,8 +20,8 @@ public class PhenotypeAPI {
 
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
-	private static final int phenotypeLength = 10;
-	public static final String DEFAULT_PHENOTYPE = "----------";	
+	private static final int phenotypeLength = 13;
+	public static final String DEFAULT_PHENOTYPE = "-------------";	
 	
 	protected static List<String> getSimilarUsers(String userId, int n) {
 		String phenotype = UserPublicInfoAPI.getPhenotype(userId);

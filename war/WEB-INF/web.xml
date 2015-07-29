@@ -506,6 +506,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>TopicSelectorServlet</servlet-name>
 		<url-pattern>/topic-selector/*</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TopicSelectorServlet</servlet-name>
+		<url-pattern>/topic-explorer/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TopicSelectorServlet</servlet-name>
+		<url-pattern>/topics</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>AcknowledgementServlet</servlet-name>
@@ -515,6 +523,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>AcknowledgementServlet</servlet-name>
 		<url-pattern>/thankyou/*</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<url-pattern>/thank-you/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AcknowledgementServlet</servlet-name>
+		<url-pattern>/thanks/*</url-pattern>
+	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>TopicServlet</servlet-name>
@@ -523,6 +539,41 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet-mapping>
 		<servlet-name>TopicServlet</servlet-name>
 		<url-pattern>/topic/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	    <servlet-name>ContentApprovalServlet</servlet-name>
+	    <servlet-class>calculus.general.ContentApprovalServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>ContentApprovalServlet</servlet-name>
+	    <url-pattern>/content-approval/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+	    <servlet-name>RecalculateTopicTagsServlet</servlet-name>
+	    <servlet-class>calculus.admin.RecalculateTopicTagsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>RecalculateTopicTagsServlet</servlet-name>
+	    <url-pattern>/admin/recalculate-topics-tags</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <servlet-class>calculus.pages.DonationsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <url-pattern>/donate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <url-pattern>/donations</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>DonationsServlet</servlet-name>
+	    <url-pattern>/money-plz</url-pattern>
 	</servlet-mapping>
 	
 	<filter>

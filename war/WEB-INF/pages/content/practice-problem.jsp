@@ -11,6 +11,14 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 inline-block align-left margin-top-50">
+				<c:if test="${contentApprovalMode}">
+					<form class="content-approval-buttons" action="/content-approval" method="POST">
+						<input type="submit" class="btn btn-success" value="Approved" name="approved"/>
+						<input type="submit" class="btn btn-danger" value="Not Approved" name="not-approved"/>
+						<input type="hidden" value="${practiceProblem.uuid}" name="contentUuid"/>
+					</form>
+				</c:if>
+			
 				<c:if test="${!livePreview && !practiceProblem.viewable}">
 					<div class="box box-solid bg-maroon-gradient">
 						<div class="box-header solid-box-header">
@@ -71,6 +79,45 @@
 						</div>
 					</div>
 				</c:if>
+				
+				<c:if test="${difficultyCalibration}">
+					<div class="box box-success box-solid">
+						<div class="box-header">
+							<i class="fa fa-refresh"></i>
+							<h3 class="box-title">Difficulty Calibration: Step (${stepNumber}/10)</h3>
+						</div>
+						<div class="box-body">
+							<p>
+								How difficult would it be for you to solve this problem?
+							</p>
+							<ul>
+								<li>"Not Yet" -- I am not yet able to answer this question, in any amount of time. </li>
+								<li>"Very Difficult" -- The math in this example is significantly more difficult than I have been working with.</li>
+								<li>"Difficult" -- I have worked with a few problems this difficult, with mixed success.</li>
+								<li>"Moderate" -- This question is approximately as difficult as the problems I am looking for.</li>
+								<li>"Easy" -- I know how to solve this question, and I am confident I could do it.</li>
+								<li>"Very Easy" -- I have progressed beyond this point in my Calculus curriculum, and I am very confident in this area of calculus.</li>
+							</ul>	
+							<div class="btn-group difficulty-rating-buttons" data-uuid="${practiceProblem.uuid}" data-user="${user.userId}">
+								<button class="btn btn-default" data-difficulty="not-yet">Not Yet</button>
+								<button class="btn btn-default" data-difficulty="very-difficult">Very Difficult</button>
+								<button class="btn btn-default" data-difficulty="difficult">Difficult</button>
+								<button class="btn btn-default" data-difficulty="moderate">Moderate</button>
+								<button class="btn btn-default" data-difficulty="easy">Easy</button>
+								<button class="btn btn-default" data-difficulty="very-easy">Very Easy</button>
+							</div>
+							<div class="overflower">
+								<div class="pull-right">
+									<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
+										Next Step
+										<i class="fa fa-arrow-circle-right fa-fw"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</c:if>
+				
 				<div class="box-solid practice-problem">
 					<div class="box-header">
 						<c:if test="${! practiceProblem.anonymous}">
@@ -155,6 +202,9 @@
 										<jsp:param name="alreadyRated" value="${practiceProblem.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
 									<span class="preserve-line-formatting">${practiceProblem.body}</span>
+									<c:if test="${practiceProblem.anonymous}">
+										<span class="credit-attribution">This problem was generously made available through an open source textbook project.  Information about the license and the text can be found <a href="/thank-you">here</a>.
+									</c:if>
 								</div>
 							</div>
 							<div class="panel box box-primary">				
@@ -300,45 +350,24 @@
 									</c:otherwise>
 								</c:choose>
 							</div>
+						
+							
 						</div>
 					</div>
-						<c:if test="${difficultyCalibration}">
-					<div class="box box-success box-solid">
-						<div class="box-header">
-							<i class="fa fa-refresh"></i>
-							<h3 class="box-title">Difficulty Calibration: Step (${stepNumber}/10)</h3>
-						</div>
-						<div class="box-body">
-							<p>
-								How difficult would it be for you to solve this problem?
-							</p>
-							<ul>
-								<li>"Not Yet" -- I am not yet able to answer this question, in any amount of time. </li>
-								<li>"Very Difficult" -- The math in this example is significantly more difficult than I have been working with.</li>
-								<li>"Difficult" -- I have worked with a few problems this difficult, with mixed success.</li>
-								<li>"Moderate" -- This question is approximately as difficult as the problems I am looking for.</li>
-								<li>"Easy" -- I know how to solve this question, and I am confident I could do it.</li>
-								<li>"Very Easy" -- I have progressed beyond this point in my Calculus curriculum, and I am very confident in this area of calculus.</li>
-							</ul>	
-							<div class="btn-group difficulty-rating-buttons" data-uuid="${practiceProblem.uuid}" data-user="${user.userId}">
-								<button class="btn btn-default" data-difficulty="not-yet">Not Yet</button>
-								<button class="btn btn-default" data-difficulty="very-difficult">Very Difficult</button>
-								<button class="btn btn-default" data-difficulty="difficult">Difficult</button>
-								<button class="btn btn-default" data-difficulty="moderate">Moderate</button>
-								<button class="btn btn-default" data-difficulty="easy">Easy</button>
-								<button class="btn btn-default" data-difficulty="very-easy">Very Easy</button>
-							</div>
-							<div class="overflower">
-								<div class="pull-right">
-									<a class="btn btn-success" href="/personalize/${stepNumber + 1}">
-										Next Step
-										<i class="fa fa-arrow-circle-right fa-fw"></i>
-									</a>
-								</div>
-							</div>
-						</div>
+				</div>
+			
+				<div class="similar-content centered margin-top-100">
+					Did you like this practice problem, or want to explore a different area of it? You can see other content on the
+					<a class="content-display-topic-link" href="${practiceProblem.topicUrl}">
+						Same Topic
+					</a>
+					or, explore a specific related topic by searching for it:
+					<br>
+					<div class="content-display-tag-links">
+						<c:forEach var="tag" items="${practiceProblem.listOfTags}">
+							<a href="/search/${fn:toLowerCase(tag)}" class="btn btn-primary large-input-group-button margin-5-all">${tag}</a>
+						</c:forEach>
 					</div>
-				</c:if>
 				</div>
 			</div>
 		</div>

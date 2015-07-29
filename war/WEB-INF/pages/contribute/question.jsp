@@ -9,12 +9,12 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 align-left">
-				<div class="box box-info contribute-box box-solid">
+				<div class="box box-primary contribute-box box-solid">
 					<div class="box-header">
 						<i class="fa fa-info-circle hidden-xs"></i>
 						<h3 class="box-title">Welcome to the Question Editor! <small>Here are some basic guidelines to keep in mind</small></h3>
 						<div class="pull-right box-tools hidden-xs">
-							<button class="btn btn-info btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+							<button class="btn btn-primary btn-xs" type="button" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
 						</div>
 					</div>
 					<div class="box-body">
