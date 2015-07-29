@@ -38,7 +38,6 @@ public class ContributeAnswerServlet extends HttpServlet {
 		String uuid = ContentAPI.createOrUpdateContentFromRequest(req, "answer");
 		Answer answer;
 		try {
-			System.out.println("Attempting to instantiate the answer with UUID: " + uuid);
 			answer = new Answer(uuid);
 		} catch (EntityNotFoundException e) {
 			// Return, there was error in the code that saves a piece of content.

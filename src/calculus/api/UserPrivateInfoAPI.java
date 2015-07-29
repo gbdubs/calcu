@@ -38,7 +38,7 @@ public class UserPrivateInfoAPI {
 					changed = true;
 				}
 			} else {
-				System.out.println("USER DATASTORE API ERROR: Unknown Property");
+				System.err.println("USER DATASTORE API ERROR: Unknown Property");
 			}
 		}
 		if (changed){

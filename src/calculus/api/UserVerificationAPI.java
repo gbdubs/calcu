@@ -33,10 +33,12 @@ public class UserVerificationAPI {
 		if (pageUrl.length() < 26) return false;
 		String pagePublicId = pageUrl.substring(pageIdLocation, pageIdLocation + 20);
 		
-		if (pagePublicId.equals(userId)) return true;
-		System.out.println("USER: '"+  userId + "' attempted to access page '"+ pagePublicId +"'.  The attempt was blocked.");
-		
-		return false;
+		if (pagePublicId.equals(userId)){
+			return true;
+		} else {
+			System.err.println("USER: '"+  userId + "' attempted to access page '"+ pagePublicId +"'.  The attempt was blocked.");
+			return false;
+		}
 	}
 	
 	public static boolean verifyUserLoggedIn(String currentUrl, String pageName, HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

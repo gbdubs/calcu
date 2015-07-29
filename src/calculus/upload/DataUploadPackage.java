@@ -52,7 +52,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED PRACTICE PROBLEMS : " + count);
 		
 		count = 0;
 		for (Content q : questions){
@@ -61,7 +60,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED QUESTIONS : " + count);
 		
 		count = 0;
 		for (Content tc : textContent){
@@ -70,7 +68,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED TEXT CONTENT : " + count);
 		
 		count = 0;
 		for (Content a : answers){
@@ -79,7 +76,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED ANSWERS : " + count);
 		
 		count = 0;
 		for (Topic t : topics){
@@ -88,7 +84,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED TOPICS : " + count);
 		
 		count = 0;
 		for (Achievement a : achievements){
@@ -97,9 +92,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED ACHIEVEMENTS : " + count);
-		
-		System.out.println("UPLOAD TOOK: " + (System.currentTimeMillis() - l) + " milliseconds.");
 	}
 	
 	public static DataUploadPackage getSiteContent(){

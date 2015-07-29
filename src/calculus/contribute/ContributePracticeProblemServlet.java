@@ -88,13 +88,13 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		String uuid = req.getParameter("uuid");
 		
 		if (submitter == null){
-			System.out.println("A user not logged in attempted to post a practice problem");
+			System.err.println("A user not logged in attempted to post a practice problem");
 			return;
 		}
 		if (uuid != null && !uuid.equals("")){
 			String authorUserId = ContentAPI.getContentAuthorId(uuid);
 			if (!submitter.getUserId().equals(authorUserId)){
-				System.out.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
+				System.err.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
 				return;
 			}
 		}

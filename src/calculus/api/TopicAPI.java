@@ -54,7 +54,6 @@ public class TopicAPI {
 			return getTopicByUUID(topicMapping.get(topicUrl));
 		}
 		
-		System.out.println("CREATING FROM URL: " + topicUrl + " TITLE: " + title);
 		Topic result = getTopicByUUID(createTopicFromUrl(topicUrl));
 		
 		titleMappingEntity.setUnindexedProperty(topicUrl, result.getUuid());

@@ -42,8 +42,6 @@ public class RecommendationsServlet extends HttpServlet{
 		String contentUuid = req.getParameter("contentUuid");
 		String action = req.getParameter("action");
 		
-		System.out.println("action: " + action);
-		
 		if (action.equals("hide")){
 			PublicRecommendationAPI.dismissRecommendation(userId, contentUuid);
 		} else if (action.equals("disinterested")){
