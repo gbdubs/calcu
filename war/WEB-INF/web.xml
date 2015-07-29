@@ -387,17 +387,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>PageNotFound</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
-
-
-
-	<servlet>
-		<servlet-name>SimulateUserQueue</servlet-name>
-		<servlet-class>calculus.usermodeling.SimulateUserQueueServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>SimulateUserQueue</servlet-name>
-		<url-pattern>/admin/tasks/simulate-random-user</url-pattern>
-	</servlet-mapping>
 	
 	<servlet>
 		<servlet-name>CalculateRecommendations</servlet-name>
@@ -439,15 +428,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet-mapping>
 		<servlet-name>BaselineServlet</servlet-name>
 		<url-pattern>/baseline/*</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>TopicEditorServlet</servlet-name>
-		<servlet-class>calculus.TopicEditorServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TopicEditorServlet</servlet-name>
-		<url-pattern>/topic-editor</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
