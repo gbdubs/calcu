@@ -1,7 +1,8 @@
 package calculus.recommendation;
 
-import java.util.ArrayList;
 import java.util.List;
+
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -38,9 +39,7 @@ public class HelpfulContentAPI {
 	}
 	
 	private static List<String> getHelpfulContent(Entity e){
-		List<String> result = (List<String>) e.getProperty("helpfulContent");
-		if (result == null) return new ArrayList<String>();
-		return result;
+		return SafeList.string(e, "helpfulContent");
 	}
 	
 	private static void setHelpfulContent(Entity e, List<String> l){

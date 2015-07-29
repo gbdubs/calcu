@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
 import calculus.api.ContentAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Answer;
-import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;

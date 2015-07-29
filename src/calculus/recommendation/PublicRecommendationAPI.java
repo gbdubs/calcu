@@ -1,9 +1,7 @@
 package calculus.recommendation;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -15,14 +13,12 @@ import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.utilities.MenuItem;
-import calculus.utilities.UrlGenerator;
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
-import com.google.appengine.api.datastore.Key;
-import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.Text;
 import com.google.appengine.api.users.User;
 
@@ -36,12 +32,12 @@ public class PublicRecommendationAPI {
 		}
 		Entity recEntity = MasterRecommendationsAPI.getRecommendationsEntity(userId);
 
-		List<Text> jsonRecommendations = (List<Text>) recEntity.getProperty("jsonMenuItems");
+		List<Text> jsonRecommendations = SafeList.text(recEntity, "jsonMenuItems");
 		
 		if (jsonRecommendations != null) {
-			List<String> hidden = (List<String>) recEntity.getProperty("hiddenRecommendations");
-			List<String> interested = (List<String>) recEntity.getProperty("interestedRecommendations");
-			List<String> disinterested = (List<String>) recEntity.getProperty("disinterestedRecommendations");
+			List<String> hidden = SafeList.string(recEntity, "hiddenRecommendations");
+			List<String> interested = SafeList.string(recEntity, "interestedRecommendations");
+			List<String> disinterested = SafeList.string(recEntity, "disinterestedRecommendations");
 		
 			List<MenuItem> results = new ArrayList<MenuItem>();
 			for(int i = 0; results.size() < n && i < jsonRecommendations.size(); i++){
@@ -88,7 +84,6 @@ public class PublicRecommendationAPI {
 				Content content = ContentAPI.instantiateContent(uuid);
 				String title = content.getTitle();
 				String body = content.getAbbreviatedBody();
-				String karma = content.getKarma();
 				String contentUrl = content.getUrl();
 				String color = ContentAPI.getBoxColor(content.getContentType());
 			

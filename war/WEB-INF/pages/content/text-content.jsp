@@ -162,7 +162,7 @@
 										<jsp:param name="userIsAuthor" value="${user.userId == textContent.creatorUserId}" />
 										<jsp:param name="alreadyRated" value="${textContent.alreadyRatedByCurrentUser}"/>
 									</jsp:include>
-									<span class="preserve-line-formatting">${textContent.body}</span>
+									<span class="preserve-line-formatting content-body-with-attribution">${textContent.body}</span>
 									<c:if test="${textContent.anonymous}">
 										<span class="credit-attribution">This question was generously made available through an open source textbook project.  Information about the license and the text can be found <a href="/thank-you">here</a>.
 									</c:if>

@@ -12,14 +12,14 @@ import calculus.api.AnswersAPI;
 import calculus.api.PracticeProblemAPI;
 import calculus.api.QuestionAPI;
 import calculus.api.TextContentAPI;
+import calculus.api.TopicAPI;
 import calculus.models.Achievement;
 import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
-import calculus.topic.Topic;
-import calculus.topic.TopicAPI;
+import calculus.models.Topic;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -52,7 +52,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED PRACTICE PROBLEMS : " + count);
 		
 		count = 0;
 		for (Content q : questions){
@@ -61,7 +60,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED QUESTIONS : " + count);
 		
 		count = 0;
 		for (Content tc : textContent){
@@ -70,7 +68,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED TEXT CONTENT : " + count);
 		
 		count = 0;
 		for (Content a : answers){
@@ -79,7 +76,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED ANSWERS : " + count);
 		
 		count = 0;
 		for (Topic t : topics){
@@ -88,7 +84,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED TOPICS : " + count);
 		
 		count = 0;
 		for (Achievement a : achievements){
@@ -97,9 +92,6 @@ public class DataUploadPackage {
 				count++;
 			}
 		}
-		System.out.println("SAVED ACHIEVEMENTS : " + count);
-		
-		System.out.println("UPLOAD TOOK: " + (System.currentTimeMillis() - l) + " milliseconds.");
 	}
 	
 	public static DataUploadPackage getSiteContent(){

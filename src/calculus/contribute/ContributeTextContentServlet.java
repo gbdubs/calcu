@@ -56,7 +56,9 @@ public class ContributeTextContentServlet extends HttpServlet {
 						tc = new TextContent(uuid);
 					} catch (EntityNotFoundException e) {
 						// If it doesn't yet exist, send a 404.
-						resp.sendRedirect("/page-not-found");
+						resp.setContentType("text/html");
+						RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+						jsp.forward(req, resp);
 						return;
 					}
 					
@@ -72,7 +74,10 @@ public class ContributeTextContentServlet extends HttpServlet {
 						jsp.forward(req, resp);
 					}
 				} else {
-					resp.sendRedirect("/page-not-found");
+					resp.setContentType("text/html");
+					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+					jsp.forward(req, resp);
+					return;
 				}
 				return;
 			}
@@ -92,13 +97,13 @@ public class ContributeTextContentServlet extends HttpServlet {
 		String uuid = req.getParameter("uuid");
 		
 		if (submitter == null){
-			System.out.println("A user not logged in attempted to post text content.");
+			System.err.println("A user not logged in attempted to post text content.");
 			return;
 		}
 		if (uuid != null && !uuid.equals("")){
 			String authorUserId = ContentAPI.getContentAuthorId(uuid);
 			if (!submitter.getUserId().equals(authorUserId)){
-				System.out.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
+				System.err.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
 				return;
 			}
 		}

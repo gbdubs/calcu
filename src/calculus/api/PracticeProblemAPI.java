@@ -3,7 +3,6 @@ package calculus.api;
 import java.util.ArrayList;
 import java.util.List;
 
-import calculus.models.Answer;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 

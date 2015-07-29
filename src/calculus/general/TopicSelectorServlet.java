@@ -1,4 +1,4 @@
-package calculus.topic;
+package calculus.general;
 
 import java.io.IOException;
 
@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import calculus.api.TopicAPI;
 import calculus.api.UserContextAPI;
 
 @SuppressWarnings("serial")

@@ -5418,6 +5418,16 @@ h1.welcome-banner{
 	overflow: hidden;
 	display: block;
 }
+
+.max-width-at-1300{
+	max-width: 1300px;
+	display: inline-block;
+}
+
+.content-body-with-attribution{
+	margin-bottom: 25px;
+    display: block;
+}
 .achievement-badge{
     text-align: center;
     width: 100%;

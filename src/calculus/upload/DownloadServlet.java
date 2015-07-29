@@ -28,7 +28,10 @@ public class DownloadServlet extends HttpServlet{
 			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/admin-download.jsp");	
 			jsp.forward(req, resp);
 		} else {
-			resp.sendRedirect("/page-not-found");
+			resp.setContentType("text/html");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+			jsp.forward(req, resp);
+			return;
 		}
 	}
 	
@@ -43,7 +46,10 @@ public class DownloadServlet extends HttpServlet{
 				DownloadWorker.printAll(resp.getWriter());
 			}
 		} else {
-			resp.sendRedirect("/page-not-found");
+			resp.setContentType("text/html");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+			jsp.forward(req, resp);
+			return;
 		}
 	}
 }

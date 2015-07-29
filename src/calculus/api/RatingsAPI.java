@@ -1,11 +1,11 @@
 package calculus.api;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import calculus.recommendation.HelpfulContentAPI;
 import calculus.recommendation.InterestsAPI;
 import calculus.recommendation.SkillsAPI;
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -128,12 +128,11 @@ public class RatingsAPI {
 	
 	private static boolean testAndSetContentRatedByUser(String contentUuid, String userId){
 		Entity content = getOrCreateContentRatingProfile(contentUuid);
-		List<String> ratedBy = (List<String>) content.getProperty("ratedBy");
+		List<String> ratedBy = SafeList.string(content, "ratedBy");
 		boolean alreadyThere = false;
-		if (ratedBy == null){
-			ratedBy = new ArrayList<String>();
+		if (ratedBy.contains(userId)){
+			alreadyThere = true;
 		}
-		if (ratedBy.contains(userId)) alreadyThere = true;
 		ratedBy.add(userId);
 		content.setUnindexedProperty("ratedBy", ratedBy);
 		datastore.put(content);
@@ -142,10 +141,7 @@ public class RatingsAPI {
 	
 	public static boolean contentRatedByUser(String contentUuid, String userId){
 		Entity content = getOrCreateContentRatingProfile(contentUuid);
-		List<String> ratedBy = (List<String>) content.getProperty("ratedBy");
-		if (ratedBy == null) {
-			return false;
-		}
+		List<String> ratedBy = SafeList.string(content, "ratedBy");
 		if (ratedBy.contains(userId)) {
 			return true;
 		} else {

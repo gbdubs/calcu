@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.Text;
 
 public class SafeList {
 
@@ -17,6 +18,19 @@ public class SafeList {
 			return result;
 		} catch (Exception exception){
 			return new ArrayList<String>();
+		}
+	}
+
+	@SuppressWarnings("unchecked")
+	public static List<Text> text(Entity e, String property) {
+		try{
+			List<Text> result = (List<Text>) e.getProperty(property);
+			if (result == null){
+				return new ArrayList<Text>();
+			}
+			return result;
+		} catch (Exception exception){
+			return new ArrayList<Text>();
 		}
 	}
 	

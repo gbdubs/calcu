@@ -57,11 +57,14 @@ public class AnswerModeServlet extends HttpServlet{
 		
 		if (url.contains("new")){
 			if (url.contains("question")){
-				redirectToNewQuestion(req, resp); return;
+				redirectToNewQuestion(req, resp); 
+				return;
 			} else if (url.contains("practice-problem")){
-				redirectToNewPracticeProblem(req, resp); return;
+				redirectToNewPracticeProblem(req, resp); 
+				return;
 			} else {
-				pageNotFound(req, resp); return;
+				pageNotFound(req, resp); 
+				return;
 			}
 		} else {
 			if (url.contains("question")){
@@ -69,7 +72,7 @@ public class AnswerModeServlet extends HttpServlet{
 			} else if (url.contains("practice-problem")){
 				practiceProblemLanding(req, resp); return;
 			} else {
-				resp.sendRedirect("/page-not-found");
+				pageNotFound(req, resp);
 				return;
 			}
 		}
@@ -101,7 +104,9 @@ public class AnswerModeServlet extends HttpServlet{
 		jsp.forward(req, resp);
 	}
 
-	private void pageNotFound(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-		resp.sendRedirect("page-not-found");
+	private void pageNotFound(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+		resp.setContentType("text/html");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+		jsp.forward(req, resp);
 	}
 }

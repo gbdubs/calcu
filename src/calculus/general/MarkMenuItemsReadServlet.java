@@ -31,7 +31,7 @@ public class MarkMenuItemsReadServlet extends HttpServlet {
 		} else if (type.equals("recommendations")) {
 			PublicRecommendationAPI.markAllRecommendationsRead(userId);
 		} else {
-			System.out.println("Unrecognized Type Argument: " + type);
+			System.err.println("Unrecognized Type Argument: " + type);
 		}
 	}
 }

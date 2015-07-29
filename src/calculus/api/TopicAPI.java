@@ -1,4 +1,4 @@
-package calculus.topic;
+package calculus.api;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-import calculus.api.ContentAPI;
 import calculus.models.Content;
+import calculus.models.Topic;
 import calculus.utilities.CountMap;
 import calculus.utilities.SafeList;
 import calculus.utilities.UuidTools;
@@ -16,7 +16,6 @@ import calculus.utilities.UuidTools;
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
-import com.google.appengine.api.datastore.EmbeddedEntity;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
@@ -30,6 +29,13 @@ public class TopicAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Map<String, String> topicMapping = new HashMap<String, String>();
 	
+	public static Topic getTopicWithAproximateDifficulty(int difficulty){
+		
+		// TODO
+		
+		
+		return null;
+	}
 	
 	public static Topic getOrCreateTopicFromUrl(String topicUrl){
 		if (topicUrl.equals("")){
@@ -48,7 +54,6 @@ public class TopicAPI {
 			return getTopicByUUID(topicMapping.get(topicUrl));
 		}
 		
-		System.out.println("CREATING FROM URL: " + topicUrl + " TITLE: " + title);
 		Topic result = getTopicByUUID(createTopicFromUrl(topicUrl));
 		
 		titleMappingEntity.setUnindexedProperty(topicUrl, result.getUuid());

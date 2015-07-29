@@ -13,10 +13,8 @@ import calculus.api.UserContextAPI;
 @SuppressWarnings("serial")
 public class PageNotFoundServlet extends HttpServlet {
 
-	public void doGet(HttpServletRequest req, HttpServletResponse resp) 
-			throws IOException, ServletException {
-		
-		UserContextAPI.addUserContextToRequest(req, "/");
+	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
 		
 		String requestUri = req.getRequestURI();
 		if (requestUri.equals("") || requestUri.equals("/")){
@@ -25,9 +23,7 @@ public class PageNotFoundServlet extends HttpServlet {
 		}
 		
 		resp.setContentType("text/html");
-		
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 		jsp.forward(req, resp);
 	}
-	
 }

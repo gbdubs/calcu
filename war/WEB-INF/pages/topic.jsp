@@ -5,7 +5,7 @@
 
 <t:genericpage>
 	<jsp:attribute name="pageTitle">
-		CalcU | Topics
+		CalcU | ${topic.upperCaseTitle}
 	</jsp:attribute>
 	<jsp:attribute name="content">
 		<div class="centered">
@@ -41,6 +41,8 @@
 							</div>
 						</c:if>
 						<c:if test="${fn:length(textContent) > 0}">
+							
+						
 							<div class="box box-warning box-solid">
 								<div class="box-header">
 									<h3 class="box-title">Text Content</h3>
@@ -50,6 +52,13 @@
 								</div>
 								<div class="box-body">
 									<c:forEach items="${textContent}" var="tc">
+										<c:set var="bookmarked" value="false" />
+										<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+									  		<c:if test="${bookmarkUuid eq tc.uuid}">
+												<c:set var="bookmarked" value="true"/>
+									  		</c:if>
+										</c:forEach>
+									
 										<div class="alert alert-warning topic-page-content">
 											<c:choose>
 												<c:when test="${bookmarked}">
@@ -67,13 +76,6 @@
 											${tc.body} 
 										</div>
 									</c:forEach>
-									<!--<div class="centered">
-										<div class="btn-group margin-bottom-10">
-											<c:forEach begin="1" end="5" var="i">
-												<button class="result-page-tab btn btn-warning" id="tc-result-page-${i}-tab">${i}</button>
-											</c:forEach>
-										</div>
-									</div>-->
 								</div>	
 							</div>
 						</c:if>
@@ -87,6 +89,12 @@
 								</div>
 								<div class="box-body">
 									<c:forEach var="pp" items="${practiceProblems}">
+										<c:set var="bookmarked" value="false" />
+										<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+									  		<c:if test="${bookmarkUuid eq pp.uuid}">
+												<c:set var="bookmarked" value="true"/>
+									  		</c:if>
+										</c:forEach>
 										<div class="alert alert-success topic-page-content">
 											<c:choose>
 												<c:when test="${bookmarked}">
@@ -104,13 +112,6 @@
 											${pp.body}
 										</div>
 									</c:forEach>
-									<!--<div class="centered">
-										<div class="btn-group margin-bottom-10">
-											<c:forEach begin="1" end="5" var="i">
-												<button class="result-page-tab btn btn-success" id="tc-result-page-${i}-tab">${i}</button>
-											</c:forEach>
-										</div>
-									</div>-->
 								</div>
 							</div>
 						</c:if>
@@ -124,6 +125,12 @@
 								</div>
 								<div class="box-body">
 									<c:forEach var="q" items="${questions}">
+										<c:set var="bookmarked" value="false" />
+										<c:forEach var="bookmarkUuid" items="${bookmarkUuids}">
+									  		<c:if test="${bookmarkUuid eq q.uuid}">
+												<c:set var="bookmarked" value="true"/>
+									  		</c:if>
+										</c:forEach>
 										<div class="alert alert-info topic-page-content">
 											<c:choose>
 												<c:when test="${bookmarked}">
@@ -141,13 +148,6 @@
 											${q.body}
 										</div>
 									</c:forEach>
-									<!--<div class="centered">
-										<div class="btn-group margin-bottom-10">
-											<c:forEach begin="1" end="5" var="i">
-												<button class="result-page-tab btn btn-primary" id="tc-result-page-${i}-tab">${i}</button>
-											</c:forEach>
-										</div>
-									</div>-->
 								</div>
 							</div>
 						</c:if>
@@ -229,5 +229,9 @@
 				</div>
 			</div>
 		</div>
+	</jsp:attribute>
+	
+	<jsp:attribute name="javascriptDependencies">
+		topic-display
 	</jsp:attribute>
 </t:genericpage>

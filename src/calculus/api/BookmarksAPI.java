@@ -6,6 +6,7 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import calculus.utilities.MenuItem;
+import calculus.utilities.SafeList;
 import calculus.utilities.UrlGenerator;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -72,22 +73,17 @@ public class BookmarksAPI {
 	}
 	
 	private static List<String> getBookmarkUuids(Entity bookmarkInfo) {
-		List<String> result = (List<String>) bookmarkInfo.getProperty("bookmarkUuids");
-		if (result != null) return result;
-		return new ArrayList<String>();
+		return SafeList.string(bookmarkInfo, "bookmarkUuids");
 	}
 
 	private static List<Text> getBookmarkJsons (Entity bookmarkInfo) {
-		List<Text> result = (List<Text>) bookmarkInfo.getProperty("bookmarkJsons");
-		if (result != null) return result;
-		return new ArrayList<Text>();
+		return SafeList.text(bookmarkInfo, "bookmarkJsons");
 	}
 	
 	private static int getNumberOfUnreadBookmarks(Entity bookmarkInfo) {
 		Long l = (Long) bookmarkInfo.getProperty("unreadBookmarks");
 		if (l == null) {
-			List<Text> texts = (List<Text>) bookmarkInfo.getProperty("bookmarkJsons");
-			if (texts == null) return 0;
+			List<Text> texts = SafeList.text(bookmarkInfo, "bookmarkJsons");
 			return texts.size();
 		}
 		return l.intValue();

@@ -41,7 +41,10 @@ public class LivePreviewServlet extends HttpServlet{
 		
 		String authorId = ContentAPI.getContentAuthorId(uuid);
 		if (!authorId.equals(userId)){
-			resp.sendRedirect("/page-not-found");
+			resp.setContentType("text/html");
+			RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+			jsp.forward(req, resp);
+			return;
 		}
 		
 		

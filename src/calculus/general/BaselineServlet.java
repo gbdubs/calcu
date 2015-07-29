@@ -1,4 +1,4 @@
-package calculus.baseline;
+package calculus.general;
 
 import java.io.IOException;
 
@@ -74,7 +74,9 @@ public class BaselineServlet extends HttpServlet {
 				c = ContentAPI.instantiateContent(uuid);
 			} catch (EntityNotFoundException e) {
 				// If the requested piece of content does not exist, 
-				resp.sendRedirect("/page-not-found");
+				resp.setContentType("text/html");
+				RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
+				jsp.forward(req, resp);
 				return;
 			}
 			req.setAttribute("content", c);

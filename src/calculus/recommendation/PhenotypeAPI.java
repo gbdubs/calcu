@@ -7,6 +7,7 @@ import java.util.Map;
 
 import calculus.api.RandomValuesAPI;
 import calculus.api.UserPublicInfoAPI;
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -72,11 +73,12 @@ public class PhenotypeAPI {
 	}
 	
 	private static void addUserToPhenotypeEntity(Entity pEntity, String userId){
-		List<String> users = (List<String>) pEntity.getProperty("users");
-		if (users == null) users = new ArrayList<String>();
-		if (! users.contains(userId)) users.add(userId);
-		pEntity.setUnindexedProperty("users", users);
-		asyncDatastore.put(pEntity);
+		List<String> users = SafeList.string(pEntity, "users");
+		if (! users.contains(userId)){
+			users.add(userId);
+			pEntity.setUnindexedProperty("users", users);
+			asyncDatastore.put(pEntity);
+		}
 	}
 	
 	// WE WILL ONLY DO THIS IF WE GET A LOT OF USERS. This way, there will be more people in each type, and 
@@ -95,7 +97,7 @@ public class PhenotypeAPI {
 	
 	private static List<String> getUsersWithPhenotype(String phenotype){
 		Entity phenotypeEntity = getPhenotypeEntity(phenotype);
-		List<String> userIds = (List<String>) phenotypeEntity.getProperty("users");
+		List<String> userIds = SafeList.string(phenotypeEntity, "users");
 		if (userIds == null) return new ArrayList<String>();
 		return userIds;
 	}

@@ -1,4 +1,4 @@
-package calculus.topic;
+package calculus.models;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.UUID;
 
 import calculus.api.TagAPI;
+import calculus.api.TopicAPI;
 import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
@@ -221,7 +222,7 @@ public class Topic {
 		contentUuids.remove(uuid);
 	}
 	
-	void setTitle(String newTitle){
+	public void setTitle(String newTitle){
 		this.title = newTitle;
 		Entity mapping = getTopicTitleMapping();
 		if (mapping.hasProperty(uuid)){
@@ -233,27 +234,27 @@ public class Topic {
 		asyncDatastore.put(mapping);
 	}
 	
-	void addSubTopic(String subTopic){
+	public void addSubTopic(String subTopic){
 		if (!this.subTopics.contains(subTopic)){
 			this.subTopics.add(subTopic);
 		}
 	}
 	
-	void addParentTopic(String parentTopic){
+	public void addParentTopic(String parentTopic){
 		if (!this.parentTopics.contains(parentTopic)){
 			this.parentTopics.add(parentTopic);
 		}
 	}
 	
-	void setShortDescription(String s){
+	public void setShortDescription(String s){
 		this.shortDescription = s;
 	}
 	
-	void setLongDescription(String s){
+	public void setLongDescription(String s){
 		this.longDescription = s;
 	}
 	
-	void setTags(String newTags){
+	public void setTags(String newTags){
 		Set<String> originals = new HashSet<String>();
 		for (String s : tags.split(",")){
 			originals.add(s.trim().toLowerCase());
@@ -279,7 +280,7 @@ public class Topic {
 		this.tags = newTags;
 	}
 
-	void setDifficulty(int difficulty) {
+	public void setDifficulty(int difficulty) {
 		this.difficulty = difficulty;
 	}
 	

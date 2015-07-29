@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import calculus.models.Achievement;
 import calculus.models.Notification;
+import calculus.utilities.SafeList;
 import calculus.utilities.Settings;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -82,9 +83,7 @@ public class AchievementsAPI {
 
 	private static List<String> getUserAchievementUuids(String userId){
 		Entity e = getUserAchievementEntity(userId);
-		List<String> result = (List<String>) e.getProperty("achievements");
-		if (result == null) result = new ArrayList<String>();
-		return result;
+		return SafeList.string(e, "achievements");
 	}
 
 	private static List<String> getUnfinishedAchievementUuids(String userId){
@@ -193,8 +192,7 @@ public class AchievementsAPI {
 	}
 
 	private static void setUserAchievement(Entity e, String achievementUuid){
-		List<String> achievements = (List<String>) e.getProperty("achievements");
-		if (achievements == null) achievements = new ArrayList<String>();
+		List<String> achievements = SafeList.string(e, "achievements");
 		if (! achievements.contains(achievementUuid)){
 			achievements.add(achievementUuid);
 			e.setUnindexedProperty("achievements", achievements);

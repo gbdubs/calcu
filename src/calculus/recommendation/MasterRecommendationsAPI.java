@@ -7,6 +7,7 @@ import java.util.Map;
 
 import calculus.api.BookmarksAPI;
 import calculus.api.TagAPI;
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
 import com.google.appengine.api.datastore.DatastoreService;
@@ -35,18 +36,15 @@ public class MasterRecommendationsAPI {
 	
 	protected static List<String> getRecommendations(String userId){
 		Entity e = getRecommendationsEntity(userId);
-		List<String> recs = (List<String>) e.getProperty("recommendations");
-		if (recs == null) recs = new ArrayList<String>();
-		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
-		if (hidden == null) hidden = new ArrayList<String>();
+		List<String> recs = SafeList.string(e, "recommendations");
+		List<String> hidden = SafeList.string(e, "hiddenRecommendations");
 		recs.removeAll(hidden);
 		return recs;
 	}
 	
 	protected static void hideRecommendation(String userId, String contentUuid){
 		Entity e = getRecommendationsEntity(userId);
-		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
-		if (hidden == null) hidden = new ArrayList<String>();
+		List<String> hidden = SafeList.string(e, "hiddenRecommendations");
 		hidden.add(contentUuid);
 		e.setUnindexedProperty("hiddenRecommendations", hidden);
 		asyncDatastore.put(e);
@@ -54,10 +52,9 @@ public class MasterRecommendationsAPI {
 
 	protected static void markDisinterestedRecommendation(String userId, String contentUuid) {
 		Entity e = getRecommendationsEntity(userId);
-		List<String> disinterested = (List<String>) e.getProperty("disinterestedRecommendations");
-		if (disinterested == null) disinterested = new ArrayList<String>();
+		List<String> disinterested = SafeList.string(e, "disinterestedRecommendations");
 		if (!disinterested.contains(contentUuid)){
-			List<String> interested = (List<String>) e.getProperty("interestedRecommendations");
+			List<String> interested = SafeList.string(e, "interestedRecommendations");
 			interested.remove(contentUuid);
 			disinterested.add(contentUuid);
 			e.setUnindexedProperty("disinterestedRecommendations", disinterested);
@@ -68,10 +65,9 @@ public class MasterRecommendationsAPI {
 	
 	protected static void markInterestedRecommendation(String userId, String contentUuid) {
 		Entity e = getRecommendationsEntity(userId);
-		List<String> interested = (List<String>) e.getProperty("interestedRecommendations");
-		if (interested == null) interested = new ArrayList<String>();
+		List<String> interested = SafeList.string(e, "interestedRecommendations");
 		if (!interested.contains(contentUuid)){
-			List<String> disinterested = (List<String>) e.getProperty("disinterestedRecommendations");
+			List<String> disinterested = SafeList.string(e, "disinterestedRecommendations");
 			disinterested.remove(contentUuid);
 			interested.add(contentUuid);
 			e.setUnindexedProperty("interestedRecommendations", interested);
@@ -82,8 +78,7 @@ public class MasterRecommendationsAPI {
 
 	protected static void unmarkDisinterestedRecommendation(String userId, String contentUuid) {
 		Entity e = getRecommendationsEntity(userId);
-		List<String> disinterested = (List<String>) e.getProperty("disinterestedRecommendations");
-		if (disinterested == null) return;
+		List<String> disinterested = SafeList.string(e, "disinterestedRecommendations");
 		int length = disinterested.size();
 		disinterested.remove(contentUuid);
 		if (disinterested.size() < length){
@@ -94,8 +89,7 @@ public class MasterRecommendationsAPI {
 	
 	protected static void unmarkInterestedRecommendation(String userId, String contentUuid) {
 		Entity e = getRecommendationsEntity(userId);
-		List<String> interested = (List<String>) e.getProperty("interestedRecommendations");
-		if (interested == null) return;
+		List<String> interested = SafeList.string(e, "interestedRecommendations");
 		int length = interested.size();
 		interested.remove(contentUuid);
 		if (interested.size() < length){
@@ -106,10 +100,8 @@ public class MasterRecommendationsAPI {
 
 	protected static List<String> refreshRecommendations(String userId){
 		Entity e = refreshRecommendationsEntity(userId);
-		List<String> recs = (List<String>) e.getProperty("recommendations");
-		if (recs == null) recs = new ArrayList<String>();
-		List<String> hidden = (List<String>) e.getProperty("hiddenRecommendations");
-		if (hidden == null) hidden = new ArrayList<String>();
+		List<String> recs = SafeList.string(e, "recommendations");
+		List<String> hidden = SafeList.string(e, "hiddenRecommendations");
 		recs.removeAll(hidden);
 		return recs;
 	}
@@ -160,7 +152,7 @@ public class MasterRecommendationsAPI {
 		} catch (EntityNotFoundException e1) {
 			e = new Entity(key);
 		}
-		List<String> oldRecommendations = (List<String>) e.getProperty("recommendations");
+		List<String> oldRecommendations = SafeList.string(e, "recommendations");
 		RecommendationIndexAPI.updateUserRecommendations(userId);
 		Map<String, Integer> mapping = new HashMap<String, Integer>();
 		List<String> similarUsers = PhenotypeAPI.getSimilarUsers(userId, 20);
@@ -233,8 +225,7 @@ public class MasterRecommendationsAPI {
 		Entity entity = getRecommendationsEntity(userId);
 		Long l = (Long) entity.getProperty("unreadRecommendations");
 		if (l == null) {
-			List<String> recommendations = (List<String>) entity.getProperty("recommendations");
-			if (recommendations == null) return 0;
+			List<String> recommendations = SafeList.string(entity, "recommendations");
 			return recommendations.size();
 		}
 		return l.intValue();

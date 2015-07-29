@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.topic.TopicAPI;
+import calculus.api.TopicAPI;
 
 import com.google.appengine.api.users.UserServiceFactory;
 
