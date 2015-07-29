@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import calculus.models.Notification;
 import calculus.utilities.MenuItem;
+import calculus.utilities.SafeList;
 import calculus.utilities.Settings;
 
 import com.google.appengine.api.datastore.DatastoreService;
@@ -32,9 +33,8 @@ public class NotificationsAPI {
 	}
 	
 	private static List<MenuItem> getUserNotifications(Entity entity) {
-		List<String> jsonNotifications = (List<String>) entity.getProperty("notifications");
+		List<String> jsonNotifications = SafeList.string(entity, "notifications");
 		List<MenuItem> notifications = new ArrayList<MenuItem>();
-		if (jsonNotifications == null) return new ArrayList<MenuItem>();
 		// Goes in reverse order so that the oldest notifications appear on the bottom
 		for (int i = jsonNotifications.size() - 1; i >= 0; i--){
 			String json = jsonNotifications.get(i);
@@ -47,8 +47,7 @@ public class NotificationsAPI {
 	private static void addUserNotification(String userId, Notification n){
 		Entity userNotifications = getNotificationsEntity(userId);
 		int unreadNotifications = getNumberOfUnreadNotifications(userNotifications);
-		List<String> notificationJsons = (List<String>) userNotifications.getProperty("notifications");
-		if (notificationJsons == null) notificationJsons = new ArrayList<String>();
+		List<String> notificationJsons = SafeList.string(userNotifications, "notifications");
 		notificationJsons.add(n.toJson());
 		userNotifications.setUnindexedProperty("notifications", notificationJsons);
 		userNotifications.setUnindexedProperty("unreadNotifications", new Long(unreadNotifications + 1));
@@ -57,8 +56,8 @@ public class NotificationsAPI {
 	
 	public static void removeUserNotification(String userId, String notificationUuid){
 		Entity userNotifications = getNotificationsEntity(userId);
-		List<String> notificationJsons = (List<String>) userNotifications.getProperty("notifications");
-		if (notificationJsons == null) return;
+		List<String> notificationJsons = SafeList.string(userNotifications, "notifications");
+		if (notificationJsons.size() == 0) return;
 		for (int i = 0; i < notificationJsons.size(); i++){
 			String json = notificationJsons.get(i);
 			Notification n = Notification.fromJson(json);
@@ -149,7 +148,7 @@ public class NotificationsAPI {
 	private static int getNumberOfUnreadNotifications(Entity entity) {
 		Long l = (Long) entity.getProperty("unreadNotifications");
 		if (l == null) {
-			int size = ((List<String>) entity.getProperty("notifications")).size();
+			int size = (SafeList.string(entity, "notifications")).size();
 			return size;
 		}
 		return l.intValue();

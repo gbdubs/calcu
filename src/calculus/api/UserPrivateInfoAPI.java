@@ -1,10 +1,11 @@
 package calculus.api;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
+import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
@@ -59,11 +60,9 @@ public class UserPrivateInfoAPI {
 			userPrivateInfo = UserPrivateInfoAPI.datastore.get(privateInfoKey);
 			return userPrivateInfo;
 		} catch (EntityNotFoundException e){
-			List<String> bookmarks = new ArrayList<String>();
 			userPrivateInfo.setUnindexedProperty("emailKarma", "none");
 			userPrivateInfo.setUnindexedProperty("emailRecommend", "weekly");
 			userPrivateInfo.setUnindexedProperty("emailReply", "none");
-			userPrivateInfo.setUnindexedProperty("bookmarks", bookmarks);
 			UserPrivateInfoAPI.datastore.put(userPrivateInfo);
 			return userPrivateInfo;
 		}
@@ -71,8 +70,7 @@ public class UserPrivateInfoAPI {
 
 	public static void addUserSkippedContent(String userId, String uuid){
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
-		if (skipped == null) skipped = new ArrayList<String>();
+		List<String> skipped = SafeList.string(userPrivateInfo, "answerModeSkipped");
 		skipped.add(uuid);
 		userPrivateInfo.setUnindexedProperty("answerModeSkipped", skipped);
 		datastore.put(userPrivateInfo);
@@ -80,8 +78,7 @@ public class UserPrivateInfoAPI {
 	
 	public static void addUserAnsweredContent(String userId, String uuid){
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<String> skipped = (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
-		if (skipped == null) skipped = new ArrayList<String>();
+		List<String> skipped = SafeList.string(userPrivateInfo, "answerModeAnswered");
 		skipped.add(uuid);
 		userPrivateInfo.setUnindexedProperty("answerModeAnswered", skipped);
 		datastore.put(userPrivateInfo);
@@ -89,22 +86,18 @@ public class UserPrivateInfoAPI {
 	
 	public static List<String> getUserAnsweredContentUuids(String userId){
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<String> result = (List<String>) userPrivateInfo.getProperty("answerModeAnswered");
-		if (result != null) return result;
-		return new ArrayList<String>();
+		return SafeList.string(userPrivateInfo, "answerModeAnswered");
 	}
 	
 	public static List<String> getUserSkippedContentUuids(String userId){
 		Entity userPrivateInfo = getOrCreateUserPrivateInfo(userId);
-		List<String> result = (List<String>) userPrivateInfo.getProperty("answerModeSkipped");
-		if (result != null) return result;
-		return new ArrayList<String>();
+		return SafeList.string(userPrivateInfo, "answerModeSkipped");
 	}
 
 	public static boolean userExists(String userId) {
 		Key privateInfoKey = KeyFactory.createKey("UserPrivateInfo", userId);
 		try {
-			Entity userPrivateInfo = UserPrivateInfoAPI.datastore.get(privateInfoKey);
+			datastore.get(privateInfoKey);
 			return true;
 		} catch (EntityNotFoundException e) {
 			return false;

@@ -7,6 +7,7 @@ import java.util.UUID;
 import calculus.models.Content;
 import calculus.models.Notification;
 import calculus.models.Report;
+import calculus.utilities.SafeList;
 import calculus.utilities.Settings;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;
@@ -86,13 +87,11 @@ public class ReportAPI {
 			
 			// Deletes all Children of the content.
 			Entity content = datastore.get(KeyFactory.createKey("Content", contentUuid));
-			List<String> children = (List<String>) content.getProperty("allAnswers");
-			if (children != null) {
-				for(String child : children){
-					datastore.delete(KeyFactory.createKey("Content", child));
-				}
+			List<String> children = SafeList.string(content, "allAnswers");
+
+			for(String child : children){
+				datastore.delete(KeyFactory.createKey("Content", child));
 			}
-				
 			
 			// Deletes the Parental reference.
 			String parentUuid = (String) content.getProperty("parentUuid");
