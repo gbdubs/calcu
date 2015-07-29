@@ -27,7 +27,7 @@ public class TopicServlet extends HttpServlet {
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
-		UserContextAPI.addUserContextToRequest(req, "/topic");
+		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
 		
 		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 		if (uuid != null){
@@ -61,9 +61,7 @@ public class TopicServlet extends HttpServlet {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
 		}
-		
 		
 		resp.setContentType("text/html");
 		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/topic.jsp");
