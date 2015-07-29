@@ -34,37 +34,42 @@ public class TopicServlet extends HttpServlet {
 			try {
 				Topic t = new Topic(uuid);
 				
-				List<TextContent> tc = new ArrayList<TextContent>();
-				List<PracticeProblem> pp = new ArrayList<PracticeProblem>();
-				List<Question> qs = new ArrayList<Question>();
-				
-				for (String contentUuid : t.getContentUuids()){
-					Content c = ContentAPI.instantiateContent(contentUuid);
-					if (c.getContentType().equals("textContent")){
-						tc.add((TextContent) c);
-					} else if (c.getContentType().equals("question")){
-						qs.add((Question) c);
-					} else if (c.getContentType().equals("practiceProblem")){
-						pp.add((PracticeProblem) c);
+				if (! t.getTags().equalsIgnoreCase("none")){
+					List<TextContent> tc = new ArrayList<TextContent>();
+					List<PracticeProblem> pp = new ArrayList<PracticeProblem>();
+					List<Question> qs = new ArrayList<Question>();
+					
+					for (String contentUuid : t.getContentUuids()){
+						Content c = ContentAPI.instantiateContent(contentUuid);
+						if (c.getContentType().equals("textContent")){
+							tc.add((TextContent) c);
+						} else if (c.getContentType().equals("question")){
+							qs.add((Question) c);
+						} else if (c.getContentType().equals("practiceProblem")){
+							pp.add((PracticeProblem) c);
+						}
 					}
+					
+					req.setAttribute("topic", t);
+					req.setAttribute("textContent", tc);
+					req.setAttribute("practiceProblems", pp);
+					req.setAttribute("questions", qs);
+					
+					req.setAttribute("parentTopics", TopicAPI.getTopicsAsync(t.getParentTopics()));
+					req.setAttribute("subTopics", TopicAPI.getTopicsAsync(t.getSubTopics()));
+					resp.setContentType("text/html");
+					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/topic.jsp");
+					jsp.forward(req, resp);
+					return;
 				}
-				
-				req.setAttribute("topic", t);
-				req.setAttribute("textContent", tc);
-				req.setAttribute("practiceProblems", pp);
-				req.setAttribute("questions", qs);
-				
-				req.setAttribute("parentTopics", TopicAPI.getTopicsAsync(t.getParentTopics()));
-				req.setAttribute("subTopics", TopicAPI.getTopicsAsync(t.getSubTopics()));
-				
 			} catch (EntityNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				// Skip down to the 404.
 			}
 		}
-		
 		resp.setContentType("text/html");
-		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/topic.jsp");
+		RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
 		jsp.forward(req, resp);
+		return;
 	}
+		
 }
