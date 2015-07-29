@@ -175,7 +175,6 @@
 						<i class="fa fa-user"></i>
 						<h3 class="box-title">About the Team</h3>
 					</div>
-
 					<div class="box-body">
 					<p> 
 						CalcU was started by Grady Ward, a Brandeis Junior, as an independent study in educational
@@ -184,7 +183,6 @@
 						justice into their missions. After receiving a SPARK grant, Grady enlisted the aid of fellow 
 						Brandeis peers Sofiya Semenova, Roger LaCroix, Danny Smyda, and Russell Santos.
 					</p>	
-
 					</div>
 				</div>
 				<div class="row about-tiles">	
