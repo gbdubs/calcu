@@ -1,4 +1,4 @@
-package calculus.topic;
+package calculus.general;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -11,11 +11,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import calculus.api.ContentAPI;
+import calculus.api.TopicAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Content;
 import calculus.models.PracticeProblem;
 import calculus.models.Question;
 import calculus.models.TextContent;
+import calculus.models.Topic;
 import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;

@@ -439,7 +439,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>BaselineServlet</servlet-name>
-		<servlet-class>calculus.baseline.BaselineServlet</servlet-class>
+		<servlet-class>calculus.general.BaselineServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>BaselineServlet</servlet-name>
@@ -490,7 +490,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	
 	<servlet>
 		<servlet-name>TopicSelectorServlet</servlet-name>
-		<servlet-class>calculus.topic.TopicSelectorServlet</servlet-class>
+		<servlet-class>calculus.general.TopicSelectorServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>TopicSelectorServlet</servlet-name>

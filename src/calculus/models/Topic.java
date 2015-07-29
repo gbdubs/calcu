@@ -1,4 +1,4 @@
-package calculus.topic;
+package calculus.models;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.UUID;
 
 import calculus.api.TagAPI;
+import calculus.api.TopicAPI;
 import calculus.utilities.SafeList;
 
 import com.google.appengine.api.datastore.AsyncDatastoreService;

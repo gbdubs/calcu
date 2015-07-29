@@ -1,4 +1,4 @@
-package calculus.topic;
+package calculus.api;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,8 +7,8 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
-import calculus.api.ContentAPI;
 import calculus.models.Content;
+import calculus.models.Topic;
 import calculus.utilities.CountMap;
 import calculus.utilities.SafeList;
 import calculus.utilities.UuidTools;
@@ -30,6 +30,13 @@ public class TopicAPI {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Map<String, String> topicMapping = new HashMap<String, String>();
 	
+	public static Topic getTopicWithAproximateDifficulty(int difficulty){
+		
+		// TODO
+		
+		
+		return null;
+	}
 	
 	public static Topic getOrCreateTopicFromUrl(String topicUrl){
 		if (topicUrl.equals("")){
