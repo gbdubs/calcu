@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import calculus.utilities.SafeList;
+
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
@@ -89,9 +91,7 @@ public class RecommendationIndexAPI {
 	}
 
 	private static List<String> getRecommendations(Entity entity){
-		List<String> result = (List<String>) entity.getProperty(recommendationsTagsKey);
-		if (result == null) result = new ArrayList<String>();
-		return result;
+		return SafeList.string(entity, recommendationsTagsKey);
 	}
 	
 	private static void setRecommendations(Entity entity, List<String> recommendations){
