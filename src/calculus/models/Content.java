@@ -34,13 +34,7 @@ public abstract class Content {
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static UserService userService = UserServiceFactory.getUserService();
 	
-	protected static List<String> CONTENT_TYPES;
-	
-	static {
-		CONTENT_TYPES = new ArrayList<String>();
-		String[] contentTypes = {"practiceProblem", "question", "answer", "textContent"};
-		for (String s : contentTypes) {CONTENT_TYPES.add(s);}
-	}
+	protected static List<String> CONTENT_TYPES = Arrays.asList("practiceProblem", "question", "answer", "textContent");
 	
 	// We have these as transient fields so they are not saved in the JSON Serialization process.
 	protected transient Entity entity;
@@ -396,10 +390,12 @@ public abstract class Content {
 	
 	public void saveTopic(){
 		if (UuidTools.getUuidFromUrl(topic) == null && topic != null){
+			// Debugging statement for topic creation System.out.print("TRANSFORMED TOPIC : " + topic);
 			Topic t = TopicAPI.getOrCreateTopicFromUrl(topic);
 			t.addContentUuid(this.uuid);
 			t.save();
 			topic = t.getUuid();
+			// Debugging statment for topic creation System.out.println("INTO TOPIC : " + topic);
 			entity.setUnindexedProperty("topic", topic);
 		}
 	}
