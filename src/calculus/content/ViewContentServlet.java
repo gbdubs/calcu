@@ -52,6 +52,12 @@ public class ViewContentServlet extends HttpServlet {
 			return;
 		}
 		
+		if (UserServiceFactory.getUserService().isUserLoggedIn()){
+			if (UserServiceFactory.getUserService().isUserAdmin()){
+				req.setAttribute("isUserAdmin", true);
+			}
+		}
+		
 		if (contentType.equals("practiceProblem")) {
 			PracticeProblem pp;
 			try {
