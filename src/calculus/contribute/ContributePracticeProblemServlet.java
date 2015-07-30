@@ -18,7 +18,6 @@ import calculus.utilities.UuidTools;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
-import com.google.gson.Gson;
 
 @SuppressWarnings("serial")
 public class ContributePracticeProblemServlet extends HttpServlet {

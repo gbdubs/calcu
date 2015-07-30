@@ -8,10 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import calculus.api.LandingFactsAPI;
 import calculus.api.UserContextAPI;
-
-import com.google.appengine.api.datastore.Entity;
 
 @SuppressWarnings("serial")
 public class TopicEditorServlet extends HttpServlet {

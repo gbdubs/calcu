@@ -44,8 +44,6 @@ public class TopicAPI {
 		topicUrl = topicUrl.toLowerCase();
 		Entity titleMappingEntity = Topic.getTopicTitleMapping();
 		
-		String title = topicUrl.substring(topicUrl.lastIndexOf('/') + 1).toLowerCase();
-		
 		if (titleMappingEntity.getProperty(topicUrl) != null){
 			return getTopicByUUID((String) titleMappingEntity.getProperty(topicUrl));
 		}
