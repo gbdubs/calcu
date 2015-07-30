@@ -16,6 +16,7 @@
 						<input type="submit" class="btn btn-success" value="Approved" name="approved"/>
 						<input type="submit" class="btn btn-danger" value="Not Approved" name="not-approved"/>
 						<input type="hidden" value="${question.uuid}" name="contentUuid"/>
+						<a href="${question.editUrl}" class="btn btn-warning">Edit Now!</a>
 					</form>
 				</c:if>
 				<c:if test="${!livePreview && !question.viewable}">

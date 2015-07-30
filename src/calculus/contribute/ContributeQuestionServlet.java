@@ -49,7 +49,10 @@ public class ContributeQuestionServlet extends HttpServlet {
 				
 				// Verifies that the Viewer is the Author
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
-				boolean correctAuthor = authorUserId != null && authorUserId.equals(user.getUserId());
+				boolean correctAuthor = authorUserId != null;
+				if (correctAuthor) {
+					correctAuthor = authorUserId.equals(user.getUserId());
+				}
 				boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
 				if (correctAuthor || userIsAdmin){				
 				

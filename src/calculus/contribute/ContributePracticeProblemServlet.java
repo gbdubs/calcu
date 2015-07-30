@@ -47,7 +47,10 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 			if (uuid != null && uuid.length() == 36){
 				// Verifies that the Viewer is the Author
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
-				boolean correctAuthor = authorUserId != null && authorUserId.equals(user.getUserId());
+				boolean correctAuthor = authorUserId != null;
+				if (correctAuthor) {
+					correctAuthor = authorUserId.equals(user.getUserId());
+				}
 				boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
 				if (correctAuthor || userIsAdmin){
 					// Create the practice problem from the UUID
