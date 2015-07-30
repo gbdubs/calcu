@@ -18,6 +18,7 @@ import calculus.utilities.UuidTools;
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserServiceFactory;
+import com.google.gson.Gson;
 
 @SuppressWarnings("serial")
 public class ContributePracticeProblemServlet extends HttpServlet {
@@ -44,10 +45,11 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		if (urlRequest.startsWith("/edit/")){
 			String uuid = UuidTools.getUuidFromUrl(urlRequest);
 			if (uuid != null && uuid.length() == 36){
-				
 				// Verifies that the Viewer is the Author
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
-				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
+				boolean correctAuthor = authorUserId != null && authorUserId.equals(user.getUserId());
+				boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
+				if (correctAuthor || userIsAdmin){
 					// Create the practice problem from the UUID
 					PracticeProblem pp;
 					try {
@@ -60,7 +62,7 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 					}
 					// If they request editing a page which has already been submitted, redirect them to its
 					// published state.
-					if (pp.getSubmitted()){
+					if (pp.getSubmitted() && !userIsAdmin){
 						resp.sendRedirect("/practice-problem/" + uuid);
 					} else {
 						// Otherwise, display the problem for editing
@@ -97,7 +99,7 @@ public class ContributePracticeProblemServlet extends HttpServlet {
 		}
 		if (uuid != null && !uuid.equals("")){
 			String authorUserId = ContentAPI.getContentAuthorId(uuid);
-			if (!submitter.getUserId().equals(authorUserId)){
+			if (!submitter.getUserId().equals(authorUserId) && !UserServiceFactory.getUserService().isUserAdmin()){
 				System.err.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
 				return;
 			}

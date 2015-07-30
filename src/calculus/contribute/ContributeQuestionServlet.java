@@ -49,7 +49,9 @@ public class ContributeQuestionServlet extends HttpServlet {
 				
 				// Verifies that the Viewer is the Author
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
-				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){				
+				boolean correctAuthor = authorUserId != null && authorUserId.equals(user.getUserId());
+				boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
+				if (correctAuthor || userIsAdmin){				
 				
 					Question q;
 					try {
@@ -61,7 +63,7 @@ public class ContributeQuestionServlet extends HttpServlet {
 						return;
 					}
 					//If the question is already submitted, redirect the user to the live page with it.
-					if (q.getSubmitted()){	
+					if (q.getSubmitted() && !userIsAdmin){	
 						resp.sendRedirect("/question/"+uuid);
 					} else {
 						// Adds the current question to the context, and prepares it for editing.
@@ -100,7 +102,8 @@ public class ContributeQuestionServlet extends HttpServlet {
 		}
 		if (uuid != null && !uuid.equals("")){
 			String authorUserId = ContentAPI.getContentAuthorId(uuid);
-			if (!submitter.getUserId().equals(authorUserId)){
+			boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
+			if (!submitter.getUserId().equals(authorUserId) && !userIsAdmin){
 				System.err.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
 				return;
 			}
