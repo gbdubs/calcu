@@ -94,8 +94,8 @@
 							<div class="box-body box-body-padding">
 								<p> 
 									To learn about the interconnected features of CalcU, 
-									and to get the most out of the site, visit our tutorial page for a brief 
-									introduction and a guide to getting started.
+									and to get the most out of the site, click on the tutorial hexagon to visit 
+									our tutorial page for a brief introduction and a guide to getting started.
 								</p>
 							</div>
 						</div>
@@ -120,7 +120,7 @@
 								<p> 
 									CalcU has a ton of content, so we use a search
 									feature to allow you to find the questions, practice problems and explanations
-									you are looking for.
+									you are looking for. Click on the search hexagon to get started!
 								</p>
 							</div>
 						</div>
@@ -139,11 +139,11 @@
 						</a>
 						<div class="box box-success box-solid landing-text-box">
 							<div class="box-header">
-								<h3 class="box-title small-header">Browse an Epic Amount of Content</h3>
+								<h3 class="box-title small-header">Browse Some of Our Content</h3>
 							</div>
 							<div class="box-body box-body-padding">
 								<p> 
-									CalcU has a gargantuan quantity of content. We start with Geometry, 
+									CalcU has a large quantity of content. We start with Geometry, 
 									going through third semester calculus. Click the hexagon to browse this collection.
 								</p>
 							</div>
@@ -168,7 +168,8 @@
 							<div class="box-body box-body-padding">
 								<p> 
 									This is a non-profit project with the goal of making learning and teaching
-									easier, by providing technology to fit an educational need. Learn about our mission and our crazy developers here.
+									easier, by providing technology to fit an educational need. Learn about our mission and our developers
+									by clicking on the about hexagon. 
 								</p>
 							</div>
 						</div>

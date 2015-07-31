@@ -22,7 +22,7 @@
 						what the subject is called.
 					</p>
 					<p> 
-						To Begin using the topic selector, simply press on any of the grey buttons in the "topics"
+						To begin using the topic selector, simply press on any of the grey buttons in the "topics"
 						panel.  When you do that, a new panel, with more specific options, will pop up, and your 
 						selection will lead you to it.  To go back, simply click on a previous option or on the 
 						currently selected option.  Once you have settled on a topic you want to examine, you can

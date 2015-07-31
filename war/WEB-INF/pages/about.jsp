@@ -238,9 +238,9 @@
 									Developer
 								</h4>
 								<p>
-									Russ is a junior programer for CalcU. He attends Brandeis University and runs track
+									Russ is a developer for CalcU. He attends Brandeis University and runs track
 									and cross country.  He is excited to be working on a project with so much real world
-									potential, and is excited to continue to Shepard the project beyond the summer.
+									potential, and is excited to continue to shepherd the project beyond the summer.
 								</p>
 							</div>
 						</div>
@@ -257,9 +257,9 @@
 									Developer
 								</h4>
 								<p>
-									Roger is a junior programmer for CalcU. When he isn't playing video games or arguing with Danny,
-									he is asleep. A Waltham Native, it is very much possible that he has not left
-									this zipcode in the last two years.
+									Roger is a developer for CalcU. He's a rising sophomore at Brandeis University and plans on majoring in
+									computer science. A Waltham native, he's excited to integrate CalcU into 
+									his local school district. After the summer he'd like to continue to maintain and run the site. 
 								</p>
 							</div>
 						</div>
@@ -276,9 +276,10 @@
 									Developer
 								</h4>
 								<p>
-									Danny is a swimmer at Brandeis whose main interests are "bleeding for CalcU" and
-									reminding everyone to get back to work.  When he isn't setting wifi passwords,
-									he can be found in the gym.
+									Danny is a developer for CalcU. He attends Brandeis University and will be going into his sophomore
+									year. He hopes to pursue a degree in computer science and mathematics and is excited to be
+									part of the dev team at CalcU. After the initial launch, he'd like to continue working and adding new 
+									features to the website.
 								</p>
 							</div>
 						</div>

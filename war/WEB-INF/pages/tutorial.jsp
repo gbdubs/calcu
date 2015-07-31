@@ -23,7 +23,7 @@
 							<td class="bg-green">
 								<h3 class="no-margin padding-20">Practice Problems</h3>
 								<p>
-									Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
+									Some are scraped from the web, others come from users like you. Practice problems have an author's answer, user answers, and admin approved answers.
 								</p>
 							</td>
 							<td class="bg-blue">
@@ -45,7 +45,7 @@
 							<td class="bg-green">
 								<h3 class="no-margin padding-20">Practice Problems</h3>
 								<p>
-									Some are Scraped from the web, others come from users like you. Practice Problems have an author's answer, user answers, and admin approved answers.
+									Some are scraped from the web, others come from users like you. Practice problems have an author's answer, user answers, and admin approved answers.
 								</p>
 							</td>
 						</tr>
@@ -72,7 +72,7 @@
 					<h2 class="tutorial-item-title">Search By Tag</h2>
 					<div class="search-explanation">
 						<p>
-							We use Tagging much like it is used in social media, and in music.  All content has tags associated with it based on what it is.
+							We use tagging much like it is used in social media, and in music.  All content has tags associated with it based on what it is.
 							Most pieces of content have many tags, so to find the most relevant search results, enter all the tags you are interested in finding.
 							To create a new tag, type it in then press enter. 
 						</p>
@@ -146,7 +146,7 @@
 						</p>
 						<p class="large-icon-bullet-point">
 							<i class="fa fa-bookmark-o toggle-me"></i>
-							All Content can be bookmarked with a simple click of this button, anywhere on the site.  Filled in means that it is already bookmarked.
+							All content can be bookmarked with a simple click of this button, anywhere on the site.  Filled in means that it is already bookmarked.
 						</p>
 						<p class="large-icon-bullet-point">
 							<i class="fa fa-magic"></i>
@@ -160,7 +160,7 @@
 						</p>
 						<p class="large-icon-bullet-point">
 							<i class="fa fa-comment-o"></i>
-							All Content can be commented on, allowing brilliant user generated discussions. The best posts float to the top, and can be marked as "approved" by the author.
+							All content can be commented on, allowing brilliant user generated discussions. The best posts float to the top, and can be marked as "approved" by the author.
 						</p>
 					</div>
 				</div>
