@@ -4,4 +4,5 @@
 .settings/
 /war/WEB-INF/appengine-generated/
 /war/WEB-INF/classes/.gitignore
+/war/WEB-INF/classes/*
 

@@ -290,5 +290,45 @@ public class TopicAPI {
 		}
 		return topics;
 	}
+	
+	
+	public static boolean mergeTopicIntoTopic(String tUuid1, String tUuid2){
+		Topic t1;
+		try {
+			t1 = new Topic(tUuid1);
+			Topic t2 = new Topic(tUuid2);
+			return mergeTopicIntoTopic(t1, t2);	
+		} catch (EntityNotFoundException e) {
+			return false;
+		}
+	}
+
+	
+	public static boolean mergeTopicIntoTopic(Topic t1, Topic t2){
+		for (String contentUuid : t1.getContentUuids()){
+			t2.addContentUuid(contentUuid);
+			try {
+				Content c = ContentAPI.instantiateContent(contentUuid);
+				c.setTopicUuid(t2.getUuid());
+				c.saveAsync();
+			} catch (EntityNotFoundException e) {
+				return false;
+			}
+		}
+		for (String subTopicUuid : t1.getSubTopics()){
+			t2.addSubTopic(subTopicUuid);
+			try {
+				Topic transferredChild = new Topic(subTopicUuid);
+				transferredChild.removeParentTopic(t1.getUuid());
+				transferredChild.addParentTopic(t2.getUuid());
+				transferredChild.saveAsync();
+			} catch (EntityNotFoundException e) {
+				return false;
+			}
+		}
+		t2.save();
+		return true;
+	}
+
 }
 

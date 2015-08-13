@@ -245,6 +245,11 @@ public class Topic {
 			this.parentTopics.add(parentTopic);
 		}
 	}
+	public void removeParentTopic(String parentTopic) {
+		if (this.parentTopics.contains(parentTopic)){
+			this.parentTopics.remove(parentTopic);
+		}
+	}
 	
 	public void setShortDescription(String s){
 		this.shortDescription = s;
@@ -289,5 +294,10 @@ public class Topic {
 		ee.setPropertiesFrom(preSave());
 		return ee;
 	}
+	
+	
+	
+	
+	
 }
 	

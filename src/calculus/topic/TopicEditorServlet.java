@@ -14,6 +14,7 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
+import calculus.api.TopicAPI;
 import calculus.api.UserContextAPI;
 import calculus.models.Topic;
 import calculus.utilities.UuidTools;
@@ -50,33 +51,44 @@ public class TopicEditorServlet extends HttpServlet {
 	public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		boolean isAdmin = userService.isUserLoggedIn() && userService.isUserAdmin();
 		
-		String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
-		if (uuid != null && isAdmin){
-			try {
-				Topic t = new Topic(uuid);
-				List<String> subTopics = Arrays.asList(req.getParameter("subTopics").split(","));
-				List<String> parentTopics = Arrays.asList(req.getParameter("subTopics").split(","));
-				String title = req.getParameter("title");
-				String shortDescription = req.getParameter("shortDescription");
-				String longDescription = req.getParameter("longDescription");
-				String tags = req.getParameter("tags");
-				int difficulty = Integer.parseInt(req.getParameter("difficulty"));
-				for (String subTopic : subTopics){
-					t.addSubTopic(subTopic);
+		if (req.getParameter("action").equals("merge")){
+			String topicUuid1 = req.getParameter("targetTopic");
+			String topicUuid2 = req.getParameter("sourceTopic");
+			boolean success = TopicAPI.mergeTopicIntoTopic(topicUuid2, topicUuid1);
+			if (success){
+				resp.getWriter().println("SUCCESSFULLY MERGED TOPICS.");
+			} else {
+				resp.getWriter().println("FAILED TO MERGE TOPICS.");
+			}
+		} else if (req.getParameter("action").equals("update")){
+			String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
+			if (uuid != null && isAdmin){
+				try {
+					Topic t = new Topic(uuid);
+					List<String> subTopics = Arrays.asList(req.getParameter("subTopics").split(","));
+					List<String> parentTopics = Arrays.asList(req.getParameter("subTopics").split(","));
+					String title = req.getParameter("title");
+					String shortDescription = req.getParameter("shortDescription");
+					String longDescription = req.getParameter("longDescription");
+					String tags = req.getParameter("tags");
+					int difficulty = Integer.parseInt(req.getParameter("difficulty"));
+					for (String subTopic : subTopics){
+						t.addSubTopic(subTopic);
+					}
+					for (String parentTopic : parentTopics){
+						t.addParentTopic(parentTopic);
+					}
+					t.setTitle(title);
+					t.setShortDescription(shortDescription);
+					t.setLongDescription(longDescription);
+					t.setTags(tags);
+					t.setDifficulty(difficulty);
+					t.save();
+					resp.sendRedirect("/topic/" + uuid);
+					return;
+				} catch (EntityNotFoundException e) {
+					// Throw the not found page.
 				}
-				for (String parentTopic : parentTopics){
-					t.addParentTopic(parentTopic);
-				}
-				t.setTitle(title);
-				t.setShortDescription(shortDescription);
-				t.setLongDescription(longDescription);
-				t.setTags(tags);
-				t.setDifficulty(difficulty);
-				t.save();
-				resp.sendRedirect("/topic/" + uuid);
-				return;
-			} catch (EntityNotFoundException e) {
-				// Throw the not found page.
 			}
 		}
 		UserContextAPI.addUserContextToRequest(req, req.getRequestURI());
