@@ -112,9 +112,9 @@
 					</div>
 		
 					<div class="submit-buttons-pull-right">
-						<input class="btn btn-primary" name="action" type="submit" value="Save">
+						<input class="btn btn-primary" name="action" type="submit" value="Save"/>
 						<a class="btn btn-warning" href="/topic/${topic.uuid}">Cancel</a>
-						<input class="btn btn-danger" name="action" type="submit" value="Delete">
+						<input class="btn btn-danger" name="action" type="submit" value="Delete"/>
 					</div>
 				</form>
 				<form action="/topic-editor/merge" method="POST">

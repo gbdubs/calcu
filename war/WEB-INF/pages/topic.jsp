@@ -10,6 +10,11 @@
 	<jsp:attribute name="content">
 		<div class="centered">
 			<div class="max-width-at-1000 margin-bottom-50 full-width">
+				<c:if test="${userIsAdmin}">
+					<div class="centered">
+						<a href="/topic-editor/${topic.uuid}" class="btn btn-success">Edit This Topic Now</a>
+					</div>
+				</c:if>
 				<h2 class="welcome-banner margin-top-100">${topic.upperCaseTitle}</h2>
 				<c:if test="${topic.tags != 'AUTO GENERATED'}">
 					<h3 class="welcome-banner-subtitle margin-bottom-50">${topic.upperCaseTags}</h3>

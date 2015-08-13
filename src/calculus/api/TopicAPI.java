@@ -25,6 +25,8 @@ import com.google.appengine.api.datastore.Text;
 
 public class TopicAPI {
 
+	private static int topicSelectorUpdateInterval = 24 * 60 * 60 * 1000;
+	
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Map<String, String> topicMapping = new HashMap<String, String>();
@@ -172,7 +174,7 @@ public class TopicAPI {
 	private static Entity getAllTopicsEntity(){
 		try {
 			Entity e = datastore.get(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
-			if (System.currentTimeMillis() - (Long) e.getProperty("updatedAt") < 24 * 60 * 60 * 1000){
+			if (System.currentTimeMillis() - (Long) e.getProperty("updatedAt") < topicSelectorUpdateInterval){
 				return e;
 			}
 		} catch (EntityNotFoundException enfe) {
@@ -200,6 +202,15 @@ public class TopicAPI {
 		e.setUnindexedProperty("rootTopicUuids", rootTopicUuids);
 		datastore.put(e);
 		return e;
+	}
+	
+	private static void setTopicTrackerToUpdateNextTime(){
+		try {
+			Entity e = datastore.get(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
+			e.setUnindexedProperty("updatedAt", System.currentTimeMillis() - topicSelectorUpdateInterval);
+		} catch (EntityNotFoundException e) {
+			return;
+		}
 	}
 	
 	private static List<Topic> bruteForceGetTopics(){
@@ -327,6 +338,8 @@ public class TopicAPI {
 			}
 		}
 		t2.save();
+		datastore.delete(KeyFactory.createKey("Topic", t1.getUuid()));
+		setTopicTrackerToUpdateNextTime();
 		return true;
 	}
 

@@ -53,12 +53,14 @@ public class TopicEditorServlet extends HttpServlet {
 		if (req.getParameter("action").equals("merge")){
 			String topicUuid1 = req.getParameter("targetTopic");
 			String topicUuid2 = req.getParameter("sourceTopic");
+			System.out.println(topicUuid1 + " = " + topicUuid2);
 			boolean success = TopicAPI.mergeTopicIntoTopic(topicUuid2, topicUuid1);
 			if (success){
 				resp.getWriter().println("SUCCESSFULLY MERGED TOPICS.");
 			} else {
 				resp.getWriter().println("FAILED TO MERGE TOPICS.");
 			}
+			return;
 		} else if (req.getParameter("action").equals("Save")){
 			String uuid = UuidTools.getUuidFromUrl(req.getRequestURI());
 			if (uuid == null){
