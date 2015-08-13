@@ -49,7 +49,12 @@ public class ContributeTextContentServlet extends HttpServlet {
 				
 				// Verifies that the Viewer is the Author
 				String authorUserId = ContentAPI.getContentAuthorId(uuid);
-				if (authorUserId.equals(user.getUserId()) || UserServiceFactory.getUserService().isUserAdmin()){
+				boolean correctAuthor = authorUserId != null;
+				if (correctAuthor) {
+					correctAuthor = authorUserId.equals(user.getUserId());
+				}
+				boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
+				if (correctAuthor || userIsAdmin){
 				
 					TextContent tc;
 					try {
@@ -63,7 +68,7 @@ public class ContributeTextContentServlet extends HttpServlet {
 					}
 					
 					//If the TextContent is already submitted, redirect the user to the live page with it.
-					if (tc.getSubmitted()){	
+					if (tc.getSubmitted() && !userIsAdmin){	
 						resp.sendRedirect("/practice-problem/"+uuid);
 					} else {
 						// Adds the current TextContent to the context, and prepares it for editing.
@@ -102,7 +107,8 @@ public class ContributeTextContentServlet extends HttpServlet {
 		}
 		if (uuid != null && !uuid.equals("")){
 			String authorUserId = ContentAPI.getContentAuthorId(uuid);
-			if (!submitter.getUserId().equals(authorUserId)){
+			boolean userIsAdmin = UserServiceFactory.getUserService().isUserAdmin();
+			if (!submitter.getUserId().equals(authorUserId) && !userIsAdmin){
 				System.err.println("A user ["+submitter.getUserId()+"], not the author ["+authorUserId+"] attempted to modify problem ["+uuid+"].");
 				return;
 			}

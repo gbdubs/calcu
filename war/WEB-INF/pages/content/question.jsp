@@ -16,8 +16,16 @@
 						<input type="submit" class="btn btn-success" value="Approved" name="approved"/>
 						<input type="submit" class="btn btn-danger" value="Not Approved" name="not-approved"/>
 						<input type="hidden" value="${question.uuid}" name="contentUuid"/>
+						<a href="${question.editUrl}" class="btn btn-warning" target="_blank">Edit Now!</a>
 					</form>
 				</c:if>
+				
+				<c:if test="${isUserAdmin && !contentApprovalMode}">
+					<div class="centered">
+						<a href="${question.editUrl}" class="btn btn-warning" target="_blank">Edit This Question Now!</a>
+					</div>
+				</c:if>
+				
 				<c:if test="${!livePreview && !question.viewable}">
 					<div class="box box-solid bg-maroon-gradient">
 						<div class="box-header solid-box-header">
@@ -26,6 +34,7 @@
 						</div>
 					</div>
 				</c:if>
+				
 				<c:if test="${livePreview}">
 					<div class="box box-solid bg-yellow-gradient">
 						<div class="box-header solid-box-header">

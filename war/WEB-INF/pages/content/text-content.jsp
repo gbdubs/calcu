@@ -16,8 +16,16 @@
 						<input type="submit" class="btn btn-success" value="Approved" name="approved"/>
 						<input type="submit" class="btn btn-danger" value="Not Approved" name="not-approved"/>
 						<input type="hidden" value="${textContent.uuid}" name="contentUuid"/>
+						<a href="${textContent.editUrl}" class="btn btn-warning" target="_blank">Edit Now!</a>
 					</form>
 				</c:if>
+				
+				<c:if test="${isUserAdmin && !contentApprovalMode}">
+					<div class="centered">
+						<a href="${textContent.editUrl}" class="btn btn-warning" target="_blank">Edit This Content Now!</a>
+					</div>
+				</c:if>
+				
 				<c:if test="${!livePreview && !textContent.viewable}">
 					<div class="box box-solid bg-maroon-gradient">
 						<div class="box-header solid-box-header">
@@ -26,6 +34,7 @@
 						</div>
 					</div>
 				</c:if>
+				
 				<c:if test="${livePreview}">
 					<div class="box box-solid bg-yellow-gradient">
 						<div class="box-header solid-box-header">

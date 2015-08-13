@@ -43,53 +43,40 @@ public class DataUploadPackage {
 	}
 	
 	public void asyncSave(){
-		long l = System.currentTimeMillis();
 		
-		int count = 0;
 		for (Content pp : practiceProblems){
 			if (pp != null){
 				pp.saveAsync();
-				count++;
 			}
 		}
 		
-		count = 0;
 		for (Content q : questions){
 			if (q != null){
 				q.saveAsync();
-				count++;
 			}
 		}
 		
-		count = 0;
 		for (Content tc : textContent){
 			if (tc != null){
 				tc.saveAsync();
-				count++;
 			}
 		}
 		
-		count = 0;
 		for (Content a : answers){
 			if (a != null){
 				a.saveAsync();
-				count++;
 			}
 		}
 		
-		count = 0;
 		for (Topic t : topics){
 			if (t != null){
 				t.saveAsync();
-				count++;
 			}
 		}
 		
-		count = 0;
 		for (Achievement a : achievements){
 			if (a != null){
 				a.saveAsync();
-				count++;
 			}
 		}
 	}
