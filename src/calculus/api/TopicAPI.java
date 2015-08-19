@@ -23,21 +23,34 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
+import com.google.appengine.api.datastore.Query.Filter;
+import com.google.appengine.api.datastore.Query.FilterOperator;
+import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Text;
+
 
 public class TopicAPI {
 
-	private static int topicSelectorUpdateInterval = 24 * 60 * 60 * 1000;
+	private static final int topicSelectorUpdateInterval = 24 * 60 * 60 * 1000;
+	public static final int MAX_TOPIC_DIFFICULTY = 750000;
 	
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Map<String, String> topicMapping = new HashMap<String, String>();
 	
 	public static Topic getTopicWithAproximateDifficulty(int difficulty){
+		difficulty = Math.max(difficulty, 500);
+		difficulty = Math.min(difficulty, MAX_TOPIC_DIFFICULTY - 500);
 		
-		// TODO
-		
-		
+		Filter lowerBound = new FilterPredicate("difficulty", FilterOperator.GREATER_THAN, difficulty - 501);
+		Filter upperBound = new FilterPredicate("difficulty", FilterOperator.GREATER_THAN, difficulty + 501);
+		Filter compositeFilter = CompositeFilterOperator.and(lowerBound, upperBound);
+		Query q = new Query("Topic").setFilter(compositeFilter);
+		PreparedQuery pq = datastore.prepare(q);
+		for (Entity e : pq.asIterable()){
+			return new Topic(e);
+		}
 		return null;
 	}
 	

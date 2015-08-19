@@ -5,10 +5,12 @@ import java.util.List;
 
 import calculus.models.Content;
 import calculus.models.Question;
+import calculus.models.Topic;
 
 import com.google.appengine.api.datastore.DatastoreService;
 import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
 import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
@@ -52,4 +54,30 @@ public class QuestionAPI {
 		}
 		return questions;
 	}
+	
+	public static Question getQuestionWithAproximateDifficulty(int difficulty){
+		while (difficulty > 0){
+			Question q = attemptToGetQuestionWithDifficulty(difficulty);
+			if (q != null){
+				return q;
+			}
+			difficulty -= 1000;
+		}
+		return getQuestionWithAproximateDifficulty(12000);
+	}
+	
+	private static Question attemptToGetQuestionWithDifficulty(int difficulty){
+		Topic t = TopicAPI.getTopicWithAproximateDifficulty(difficulty);
+		List<String> uuids = t.getContentUuids();
+		for (String uuid : uuids){
+			try {
+				Content c = ContentAPI.instantiateContent(uuid);
+				if (c.getContentType().equals("question")){
+					return (Question) c;
+				}
+			} catch (EntityNotFoundException e) {}
+		}
+		return null;
+	}
+	
 }

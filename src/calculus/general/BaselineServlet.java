@@ -64,11 +64,20 @@ public class BaselineServlet extends HttpServlet {
 		String uuid = UuidTools.getUuidFromUrl(urlRequest);
 		
 		if (uuid == null){
-			String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
-			uuid = BaselineAPI.getQuestionForBaseliningUser(userId);
-			resp.sendRedirect("/baseline/" + stepNumber + "/" + uuid);
-			return;
-		} else if (stepNumber < 11){
+			int currentDifficulty = 201000;
+			if (end != -1){
+				try {
+					currentDifficulty = Integer.parseInt(urlRequest.substring(end+1));
+				} catch (java.lang.NumberFormatException jnfe){
+					
+				} catch (java.lang.StringIndexOutOfBoundsException sioobe){
+					currentDifficulty = 201000;
+				}
+			}
+			req.setAttribute("difficulty", currentDifficulty);
+			uuid = BaselineAPI.getQuestionForBaseliningUser(currentDifficulty);
+		}
+		if (uuid != null && stepNumber < 11){
 			Content c;
 			try {
 				c = ContentAPI.instantiateContent(uuid);
@@ -94,6 +103,8 @@ public class BaselineServlet extends HttpServlet {
 		String userId = UserServiceFactory.getUserService().getCurrentUser().getUserId();
 		String problemUuid = req.getParameter("problemUuid");
 		int stepNumber = Integer.parseInt(req.getParameter("stepNumber"));
+		int problemDifficulty = Integer.parseInt(req.getParameter("difficulty"));
+		
 		double difficulty = 0;
 		if (req.getParameter("diff1") != null){
 			difficulty = .2;
@@ -108,6 +119,8 @@ public class BaselineServlet extends HttpServlet {
 		}
 		BaselineAPI.userRankedProblemWithDifficulty(userId, problemUuid, difficulty);
 		
-		resp.sendRedirect("/baseline/" + (stepNumber+1));
+		int nextDifficulty = BaselineAPI.transformDifficulty(problemDifficulty, (int) (difficulty * 10), stepNumber);
+		
+		resp.sendRedirect("/baseline/" + (stepNumber+1) + "/" + nextDifficulty);
 	}
 }
