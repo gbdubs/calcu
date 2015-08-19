@@ -2,430 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(8595\\) ",
-      "uuid": "2b8e4db2-f798-404d-b116-de0dd19579aa",
+      "authorSolution": " \\(1\\) ,  \\(3\\) ",
+      "uuid": "63221328-a3ca-4a85-af0b-c795a873422a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361855,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Newton\u0027s Method Question",
-      "body": " If the half-life of carbon 14 is approximately 5730 years, how old is a wooden axe handle that is found to contain only  \\(\\dfrac1{2\\sqrt2}\\)  times the atmospheric proportion of carbon 14?  Answer: _________ years.",
+      "title": "On Improper Double Integrals",
+      "body": "  \\(\\int_0^1\\int_{2y}^2 \\dfrac x{1+x^3} dx dy \u003d \\dfrac ab \\ln b\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/2b8e4db2-f798-404d-b116-de0dd19579aa",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/63221328-a3ca-4a85-af0b-c795a873422a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(625,000\\) ",
-      "uuid": "0e5e1dd5-ecd9-4b3d-a2ca-d9d2a8734adb",
+      "authorSolution": " \\(4\\) ,  \\(5\\) ,  \\(-3\\) ",
+      "uuid": "0f5131b0-b199-48ca-a152-a19a4a128140",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361855,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Optimization Question",
-      "body": " If we assume exponential growth, what was the population of a city in 1930 if its population in 1940 was 750,000 and in 1970 was1,296,000?  Answer: ________.",
+      "title": "Improper Double Integrals Question",
+      "body": "  \\(\\int_0^1\\int_{-1/2}^2 (x+y)e^{x^2+2xy} dy dx \u003d \\dfrac1a e^p + \\dfrac b2\\)  where  \\(a\\) \u003d___,  \\(p\\) \u003d___, and  \\(b\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/0e5e1dd5-ecd9-4b3d-a2ca-d9d2a8734adb",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/0f5131b0-b199-48ca-a152-a19a4a128140",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(\\dfrac12\\) ,  \\(\\dfrac t3\\) ",
-      "uuid": "b0eb48ca-f543-43df-9939-2609293bc6ee",
+      "authorSolution": " \\(\\pi\\) ",
+      "uuid": "b25ec11a-d0d8-477d-aaae-4a1d5ca9c692",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361856,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Antiderivatives Question",
-      "body": " An electric condenser discharges through a resistance, losing voltage at a rate proportional to the voltage remaining.   If the initial voltage of 100 volts decreases to 50 volts in 3 seconds, then the function representing the voltage on the condenser at any time  \\(t\\)  is  \\(100 a^{f(t)}\\)  where  \\(a\\) \u003d____ and  \\(f(t)\\) \u003d_____.",
+      "title": "Practice With Density And Mass Of A Plane Lamina",
+      "body": "  \\(\\int_0^1\\int_0^\\pi x^2\\cos{xy} dx dy\\)  \u003d ___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/b0eb48ca-f543-43df-9939-2609293bc6ee",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/b25ec11a-d0d8-477d-aaae-4a1d5ca9c692",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(9\\) ,  \\(161\\) ,  \\(51841\\) ",
-      "uuid": "9cc681a4-684c-41b8-893f-da74ef36f50a",
+      "authorSolution": " \\(0\\) ,  \\(\\dfrac{\\pi}{4}\\) ,  \\(2\\sqrt2\\) ,  \\(2\\sec\\theta\\) ,  \\(3\\) ",
+      "uuid": "257f93f5-376a-4b0f-a7cc-e1b1c1f4debe",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361856,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Optimization Practice",
-      "body": " Use \u003ci\u003eNewton\u0027s method\u003c/i\u003e to find the first three estimates to  \\(\\sqrt 5\\)  starting at  \\(x \u003d 2\\) .   Answer:  \\(x_1\u003d\\dfrac a4\\)  where  \\(a\u003d\\)  ___.    \\(x_2\u003d\\dfrac a{72}\\)  where  \\(a\u003d\\)  ______.    \\(x_3\u003d\\dfrac a{23184}\\)  where  \\(a\u003d\\)  __________.",
+      "title": "Moment Of A Plane Region About A Line Question",
+      "body": " Express  \\(\\int_0^2\\int_2^{\\sqrt{8 - y^2}}xy dx dy\\)  as an integral in polar coordinates.   \\noindent Answer:  \\(\\int_a^b\\int_{f(\\theta)}^c r^p\\sin\\theta \\cos\\theta dr d\\theta\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d_____,  \\(c\\) \u003d___, \n  \\(f(\\theta)\\) \u003d________,  and  \\(p\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/9cc681a4-684c-41b8-893f-da74ef36f50a",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/257f93f5-376a-4b0f-a7cc-e1b1c1f4debe",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(5\\) ,  \\(0\\) ,  \\(2\\) ,  \\(8\\) ,  \\(0\\) ,  \\(9\\) ,  \\(8\\) ,  \\(7\\) ,  \\(5\\) ",
-      "uuid": "451495f6-bf43-4340-a6a8-ad84b18adf77",
+      "authorSolution": " \\(3\\) ",
+      "uuid": "d8d85c6d-58ee-4a29-a9dd-98549fa189c3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361856,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Optimization",
-      "body": " Find the first 6 approximations given by \u003ci\u003eNewton\u0027s method\u003c/i\u003e to the root of the polynomial  \\(x^3 - x - 1\\)  starting with  \\(x_0\u003d1\\) .    Carry out your answers to 9 decimal places.   Answer:   \\(x_0 \u003d 1.000  000  000\\) ; \\qquad  \\(x_1 \u003d 1.   \\text{_} \\text{_} 0  000  000\\) ;  \\(x_2 \u003d 1.347  8 \\text{_}6  0\\text{_}7\\) ;  \\qquad  \\(x_3 \u003d 1.325  2 \\text{\\underbar{\\hphantom{0}}} 0  3 \\text{_} 9\\) ;  \\(x_4 \u003d 1.324  71 \\text{_}  1 \\text{\\underbar{\\hphantom{0}}} 4\\) ;  \\qquad  \\(x_5 \u003d 1.324  717  9 \\text{_} 7\\) .",
+      "title": "On Riemann Sums",
+      "body": " Let  \\(R\\)  be the region defined by   \\(1 \\le x^2 + y^2 \\le 2\\) , and   \\(x \\ge 0\\) .    The integral of  \\(f(x,y) \u003d x^2\\)  over this region is  \\(\\dfrac a8\\pi\\)  where  \\(a \u003d\\) ___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method, word problem",
-      "url": "/practice-problem/451495f6-bf43-4340-a6a8-ad84b18adf77",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/d8d85c6d-58ee-4a29-a9dd-98549fa189c3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "7250ec59-753d-453d-b947-fa498d0155ab",
+      "authorSolution": " \\(\\arctan\\frac12\\) ,  \\(3\\sqrt5\\) ,  \\(5\\) ,  \\(0\\) ,  \\(2\\) ",
+      "uuid": "e39451f9-34dc-47fd-b77b-eb62304f3a27",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361856,
+      "createdAt": 1437419362087,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Newton\u0027s Method Question",
-      "body": " A ball is thrown upward from the edge of the roof of a building 176 feet high with an initial velocity of 56 ft/sec.   (Assume that the acceleration due to gravity is32ft/sec \\(^2\\) .)\n  (a) How high does the ball go? Answer: ______ft.\n  (b) When does it reach the ground? Answer: after _____sec.",
+      "title": "On Center Of Gravity (or Mass)",
+      "body": " In polar coordinates  \\(\\int_0^3\\int_{2y}^{\\sqrt{45-y^2}}\\bigl(x^4 + x^2y^2\\bigr) dx dy\\)  can be writtenas \n  \\(\\int_0^a\\int_0^b r^m \\sin^n\\theta \\cos^p\\theta dr d\\theta\\)  where  \\(a\\) \u003d_________,  \\(b\\) \u003d______,  \\(m\\) \u003d___, \\noindent  \\(n\\) \u003d___, and  \\(p\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/7250ec59-753d-453d-b947-fa498d0155ab",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/e39451f9-34dc-47fd-b77b-eb62304f3a27",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "02d1d520-6175-4f22-b8f1-1ea94909198a",
+      "authorSolution": " \\(2a^2\\) ",
+      "uuid": "a19b8b99-1b7f-46da-b586-7e69eec4ee63",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361857,
+      "createdAt": 1437419362087,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Newton\u0027s Method Question",
-      "body": " A ball is thrown upward from the edge of the roof of a building at 72 ft./sec.   It hits the ground 10 seconds later.   (Use 32 ft./sec.   \\(^2\\)  as the magnitude of the acceleration due to gravity.)\n  (a) How tall is the building? Answer:  \\(8\\text{_} \\text{_}\\)  ft.\n  (b) What is the maximum height reached by the ball? Answer:  \\(\\text{_} 6 \\text{_}\\)  ft.",
+      "title": "Practice With Moment Of A Plane Region About A Line",
+      "body": " The area of the region bounded by the lemniscate  \\(\\bigl(x^2 + y^2\\bigr)^2 \u003d 2a^2(x^2 - y^2)\\)  is ______.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/02d1d520-6175-4f22-b8f1-1ea94909198a",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/a19b8b99-1b7f-46da-b586-7e69eec4ee63",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(175\\) ",
-      "uuid": "b9541e79-52c2-44c5-b915-3484d85ce1a1",
+      "authorSolution": " \\(3\\) ,  \\(4\\) ",
+      "uuid": "5d00bfb3-2cea-4d46-8be9-ab9150503e66",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361857,
+      "createdAt": 1437419362087,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Antiderivatives Question",
-      "body": " A falling stone is observed to be at a height of 171 feet.    Two seconds later it is observed to be at a height of 75 feet.   From what height was it dropped? (Use 32 ft./sec.   \\(^2\\)  as the magnitude of the acceleration due to gravity.)  Answer: ______ft.",
+      "title": "Question On Double Integrals",
+      "body": " The volume of the solid bounded below by the  \\(xy-\\) plane, above by the ellipsoid \\\\  \\(\\dfrac{x^2}{a^2} + \\dfrac{y^2}{a^2} + \\dfrac{z^2}{b^2} \u003d 1\\) , and on the sides by the cylinder  \\(x^2 + y^2 - ay \u003d 0\\)  is  \\(\\frac29a^2b(m\\pi - n)\\)  where  \\(m\\) \u003d___ and  \\(n\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/b9541e79-52c2-44c5-b915-3484d85ce1a1",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/5d00bfb3-2cea-4d46-8be9-ab9150503e66",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(1800\\) ",
-      "uuid": "3657597a-31ef-4a51-95c2-abb5e2bbcdfb",
+      "authorSolution": " \\(2\\) ,  \\(1\\) ,  \\(\\alpha\\) ,  \\(\\dfrac12\\) ",
+      "uuid": "faae700e-84a3-4b2f-b2c4-eb067438a39e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361857,
+      "createdAt": 1437419362087,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Optimization Practice",
-      "body": " Two seconds after being thrown upward an object is rising at 176 ft./sec.   How far does it travel before returning to the position from which it was thrown? Answer: _______ft.",
+      "title": "Practice With Moment Of A Plane Region About A Line",
+      "body": " Let  \\(\\alpha \u003e 0\\)  and  \\(0 \u003c \\beta \u003c \\frac\\pi2\\) .    Then  \\(\\int_0^{\\alpha\\sin\\beta}\\int_{y\\cot\\beta}^{\\sqrt{\\alpha^2-y^2}}\\ln(x^2+y^2) dxdy \u003d \\alpha^p \\beta^q(\\ln r - s)\\)  where  \\(p\\) \u003d___,  \\(q\\) \u003d___,  \\(r\\) \u003d___, and  \\(s\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/3657597a-31ef-4a51-95c2-abb5e2bbcdfb",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/faae700e-84a3-4b2f-b2c4-eb067438a39e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(55\\) ",
-      "uuid": "910be1b4-1d4a-4227-b26a-04de10b14b46",
+      "authorSolution": " \\(\\dfrac\\pi2\\) ",
+      "uuid": "9812770f-9a95-4a13-832b-25005e7dcafd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361873,
+      "createdAt": 1437419362087,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On The Riemann Integral",
-      "body": "  \\(\\sum_{k\u003d1}^5 k^2\\)  \u003d ______.",
+      "title": "Center Of Gravity (or Mass) Question",
+      "body": "  \\(\\int_0^{\\infty}\\dfrac{\\sin t}t dt \u003d a\\)  where  \\(a\\) \u003d_____.    \\\\ \u003ci\u003eHint.\u003c/i\u003e Consider the iterated integral  \\(\\int_0^{\\infty}\\int_0^{\\infty}e^{-st}\\sin t ds dt\\) .   You may use the fact that in this problem the order of integration of the improper integrals may be reversed.",
       "allAnswers": [],
-      "tags": "the riemann integral, summation notation ,Riemann sums ,Riemann integral ,upper and lower Darboux sums ,definite and indefinite integrals",
-      "url": "/practice-problem/910be1b4-1d4a-4227-b26a-04de10b14b46",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/9812770f-9a95-4a13-832b-25005e7dcafd",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
-    },
-    {
-      "authorSolution": " \\(323,200\\) ",
-      "uuid": "c461e030-d6c4-44bc-91d5-c0f2440e7e8e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361873,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In The Riemann Integral",
-      "body": "  \\(\\sum_{k\u003d1}^{100}k(k-3)\\)  \u003d ___________.",
-      "allAnswers": [],
-      "tags": "the riemann integral, summation notation ,Riemann sums ,Riemann integral ,upper and lower Darboux sums ,definite and indefinite integrals",
-      "url": "/practice-problem/c461e030-d6c4-44bc-91d5-c0f2440e7e8e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
-    },
-    {
-      "authorSolution": " \\(232\\) ",
-      "uuid": "387ba9ef-4ccc-4699-8e9f-5763353ad05a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361874,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Summation Notation",
-      "body": "  \\(\\sum_{k\u003d1}^4 (-1)^k k^k\\)  \u003d ________.",
-      "allAnswers": [],
-      "tags": "the riemann integral, summation notation ,Riemann sums ,Riemann integral ,upper and lower Darboux sums ,definite and indefinite integrals",
-      "url": "/practice-problem/387ba9ef-4ccc-4699-8e9f-5763353ad05a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
-    },
-    {
-      "authorSolution": " \\(25\\) ",
-      "uuid": "8920d8e4-986a-4741-bd3e-94c9ba6de398",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361874,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On The Riemann Integral",
-      "body": "  \\(\\sum_{k\u003d3}^{50} \\frac1{k^2-k} \u003d \\dfrac{12}a\\)  where  \\(a\\) \u003d_____.   \u003ci\u003eHint.\u003c/i\u003e Find numbers  \\(p\\)  and  \\(q\\)  such that  \\(\\dfrac1{k^2-k} \u003d \\dfrac p{k-1}-\\dfrac qk\\) .",
-      "allAnswers": [],
-      "tags": "the riemann integral, summation notation ,Riemann sums ,Riemann integral ,upper and lower Darboux sums ,definite and indefinite integrals",
-      "url": "/practice-problem/8920d8e4-986a-4741-bd3e-94c9ba6de398",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
-    },
-    {
-      "authorSolution": " \\(90\\) ",
-      "uuid": "1ee1a2d9-a1bf-44c9-998f-1dfc4622343b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361875,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Summation Notation Practice",
-      "body": "  \\(\\sum_{k\u003d1}^4(k-1) k (k+1)\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "the riemann integral, summation notation ,Riemann sums ,Riemann integral ,upper and lower Darboux sums ,definite and indefinite integrals",
-      "url": "/practice-problem/1ee1a2d9-a1bf-44c9-998f-1dfc4622343b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
-    },
-    {
-      "authorSolution": " \\(51\\) ,  \\(7\\) ",
-      "uuid": "b4825568-704d-487e-9ce3-d34b0e483ee5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361876,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Definite And Indefinite Integrals",
-      "body": "  \\(\\sum_{k\u003d7}^{60}\\frac1{3^{k-2}} \u003d \\sum_{j\u003d-2}^a\\frac1{3^{j+b}}\\)  where  \\(a\\)  \u003d _____ and  \\(b\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "the riemann integral, summation notation ,Riemann sums ,Riemann integral ,upper and lower Darboux sums ,definite and indefinite integrals",
-      "url": "/practice-problem/b4825568-704d-487e-9ce3-d34b0e483ee5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     }
   ],
   "questions": [
-    {
-      "uuid": "76e5c325-97bb-4645-b49a-6f8213fd8a8f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch and Find the Riemann Sum",
-      "body": "Sketch the function and find the smallest possible value and the largest possible value for a Riemann sum of the given function and partition.\n\n\\( f(x) \u003d 1 + x^{2} \\)\n(a) \\(P \u003d \\left \\{ 1,2,4,5 \\right \\}\\)\n(b) \\(P \u003d \\right \\{ 1,2,3,4,5 \\right \\}\\)\n(c) \\(P \u003d \\right \\{ 1,1.5,2,3,4,5 \\right \\}\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, sketch, graph, functions, integral, calculus",
-      "url": "/question/76e5c325-97bb-4645-b49a-6f8213fd8a8f",
-      "source": "Washington 1.1.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "fab70126-3c61-4927-acae-384d71106abb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "Find the volume of the squarebased pyramid in the figure\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20436.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "volume, application of integrals, pyramid",
-      "url": "/question/fab70126-3c61-4927-acae-384d71106abb",
-      "source": "Washington 2.2.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
-    },
-    {
-      "uuid": "40a22c80-9706-44d2-881a-80d9173e53da",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "Find the volume generated when the region between one arch of the sine curve (0\\(\\leq\\)x\\(\\leq \\pi\\)) and the x-axis is revolved about (a) the x-axis and (b) the line y \u003d 1/2.",
-      "allAnswers": [],
-      "tags": "volume, sine curve, line, application of integrals",
-      "url": "/question/40a22c80-9706-44d2-881a-80d9173e53da",
-      "source": "Washington 2.2.3",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
-    },
-    {
-      "uuid": "d206f703-c86e-434e-b13b-d251b11d1f2b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch and Find the Riemann Sum",
-      "body": "Sketch the function and find the smallest possible value and the largest possible value for a Riemann sum of the given function and partition.\n\n\\( f(x) \u003d 7-2x \\)\n(a) \\(P \u003d \\left \\{ 0,2,3 \\right \\}\\)\n(b) \\(P \u003d \\right \\{ 0,1,2,3 \\right \\}\\)\n(c) \\(P \u003d \\right \\{ 0, .5, 1, 1.5, 2, 3 \\right \\}\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, sketch, graph, functions, integral, calculus",
-      "url": "/question/d206f703-c86e-434e-b13b-d251b11d1f2b",
-      "source": "Washington 1.1.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "84f2a71a-dfb1-4aff-bc88-0df0ca5581ba",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "Given that \\(\\int_{1}^{5}\\) f(x)dx \u003d 4 and \\(\\int_{1}^{5} f(x)^{2}\\) dx \u003d 7. Represent the volumes of the solids (a), (b), (c) and (d) in the figure as definite integrals and evaluate the integrals.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20437.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "application of integrals, volume, definite integrals",
-      "url": "/question/84f2a71a-dfb1-4aff-bc88-0df0ca5581ba",
-      "source": "Washington 2.2.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Limit at Infinity"
-    },
-    {
-      "uuid": "db093f06-31c7-4c22-a480-798f79f4d1e6",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "For 0\\(\\leq\\) x \\(\\leq\\) 3, each face is a circle with height (diameter) 4-x meters.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20438.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "application of integrals, circle, diameter, volume",
-      "url": "/question/db093f06-31c7-4c22-a480-798f79f4d1e6",
-      "source": "Washington 2.2.5",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Limit at Infinity"
-    },
-    {
-      "uuid": "382877d6-7c32-45a3-8c59-5b81a19c774c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "Suppose A and B are solids so that every horizontal cut produces faces of A and B that have equal areas. What (if anything) can we conclude about the volumes of A and B? Justify your answer.",
-      "allAnswers": [],
-      "tags": "area, volumes, application of integrals, solids",
-      "url": "/question/382877d6-7c32-45a3-8c59-5b81a19c774c",
-      "source": "Washington 2.2.6",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under the Curve/Subintervals"
-    },
-    {
-      "uuid": "421ab3e5-28d1-4cfc-adc6-81b806f582de",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch and Find the Riemann Sum",
-      "body": "Sketch the function and find the smallest possible value and the largest possible value for a Riemann sum of the given function and partition.\n\n\\( f(x) \u003d \\sin (x) \\)\n(a) \\(P \u003d \\left \\{ 0, \\pi /2, \\pi \\right \\}\\)\n(b) \\(P \u003d \\right \\{ 0,\\pi /4, \\pi/ 2, \\pi \\right \\}\\)\n(c) \\(P \u003d \\right \\{ 0, \\pi /4, 3\\pi /4, \\pi \\right \\}\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, sketch, graph, functions, integral, calculus",
-      "url": "/question/421ab3e5-28d1-4cfc-adc6-81b806f582de",
-      "source": "Washington 1.1.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "708c4dc8-09af-4935-85af-11e8da40a98c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "Calculate the volume of a sphere of radius 2.",
-      "allAnswers": [],
-      "tags": "volume, sphere, radius, application of integrals",
-      "url": "/question/708c4dc8-09af-4935-85af-11e8da40a98c",
-      "source": "Washington 2.2.7",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
-    },
     {
       "uuid": "adae3bca-748c-4a4b-bfa4-ac2c58e536e1",
       "contentType": "question",
@@ -441,7 +198,7 @@
       "tags": "volume, circle, application of integrals",
       "url": "/question/adae3bca-748c-4a4b-bfa4-ac2c58e536e1",
       "source": "Washington 2.2.8",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
+      "topic": "360d6d80-2016-4832-9885-6999d85c5de4"
     },
     {
       "uuid": "dcc7ed88-4335-4edb-891e-b27382a74f36",
@@ -458,7 +215,7 @@
       "tags": "riemann sum, sketch, graph, functions, integral, calculus",
       "url": "/question/dcc7ed88-4335-4edb-891e-b27382a74f36",
       "source": "Washington 1.1.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "883d8c55-ff8b-446b-999d-82b4a4f48f29",
@@ -475,7 +232,7 @@
       "tags": "riemann sum, sketch, graph, functions, integral, calculus",
       "url": "/question/883d8c55-ff8b-446b-999d-82b4a4f48f29",
       "source": "Washington 1.1.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "8604a170-9f63-49da-a88d-89a0c35db2e6",
@@ -492,7 +249,7 @@
       "tags": "riemann sum, sketch, graph, monotonic, functions, integral, calculus, subintervals",
       "url": "/question/8604a170-9f63-49da-a88d-89a0c35db2e6",
       "source": "Washington 1.1.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "23324a69-8abe-4c2a-ab37-751af65c6a7c",
@@ -509,7 +266,7 @@
       "tags": "riemann sum, sketch, graph, functions, integral, calculus, subintervals",
       "url": "/question/23324a69-8abe-4c2a-ab37-751af65c6a7c",
       "source": "Washington 1.1.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "52ce66f0-376a-486f-b64e-784af3ec5913",
@@ -526,7 +283,7 @@
       "tags": "volume, area, application of integrals, approaching infinity ",
       "url": "/question/52ce66f0-376a-486f-b64e-784af3ec5913",
       "source": "Washington 2.2.9",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
+      "topic": "360d6d80-2016-4832-9885-6999d85c5de4"
     },
     {
       "uuid": "8bce76de-8f05-4ce5-ae15-f2a5850beeb5",
@@ -543,7 +300,7 @@
       "tags": "volume, application of integrals",
       "url": "/question/8bce76de-8f05-4ce5-ae15-f2a5850beeb5",
       "source": "Washington 2.2.10",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
+      "topic": "360d6d80-2016-4832-9885-6999d85c5de4"
     },
     {
       "uuid": "bb50cf55-d9b6-4093-984a-4c797e3c5383",
@@ -560,7 +317,7 @@
       "tags": "volume, application of integrals",
       "url": "/question/bb50cf55-d9b6-4093-984a-4c797e3c5383",
       "source": "Washington 2.2.11",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
+      "topic": "360d6d80-2016-4832-9885-6999d85c5de4"
     },
     {
       "uuid": "58379701-926c-4265-8421-4840f73d3239",
@@ -577,7 +334,7 @@
       "tags": "volume, application of integrals ",
       "url": "/question/58379701-926c-4265-8421-4840f73d3239",
       "source": "Washington 2.2.12",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Volume + The Disk Method"
+      "topic": "360d6d80-2016-4832-9885-6999d85c5de4"
     },
     {
       "uuid": "97bd43e4-2222-4ad0-a00b-da78fff67df3",
@@ -589,12 +346,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Values",
-      "body": "Use the values in the figure to estimate the average values.\nEstimate the average value of f on the interval [0.5, 4.5].\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20439.png\"/\u003e",
+      "body": "Use the values in the figure to estimate the average values.\nEstimate the average value of f on the interval [0.5, 4.5].\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20439.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average values, intervals, application of integrals ",
       "url": "/question/97bd43e4-2222-4ad0-a00b-da78fff67df3",
       "source": "Washington 2.3.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "fb8945dd-833a-4100-bdc6-01d6a56f2085"
     },
     {
       "uuid": "fb3b0289-b0c1-4059-beaf-6e701693056b",
@@ -606,12 +363,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Values",
-      "body": "Use the values in the figures to estimate the average values.\nEstimate the average value of f on the interval [0.5, 6.5].\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20439.png\"/\u003e",
+      "body": "Use the values in the figures to estimate the average values.\nEstimate the average value of f on the interval [0.5, 6.5].\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20439.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average values, intervals, application of integrals",
       "url": "/question/fb3b0289-b0c1-4059-beaf-6e701693056b",
       "source": "Washington 2.3.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "fb8945dd-833a-4100-bdc6-01d6a56f2085"
     },
     {
       "uuid": "5b51993d-5dfc-412e-acf3-e6e60c779a3f",
@@ -623,12 +380,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Values",
-      "body": "Use the values in the figures to estimate the average values.\nEstimate the average value of f on the interval [1.5,3.5].\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20439.png\"/\u003e",
+      "body": "Use the values in the figures to estimate the average values.\nEstimate the average value of f on the interval [1.5,3.5].\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20439.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average values, interval, application of integrals",
       "url": "/question/5b51993d-5dfc-412e-acf3-e6e60c779a3f",
       "source": "Washington 2.3.3",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "fb8945dd-833a-4100-bdc6-01d6a56f2085"
     },
     {
       "uuid": "7b9bf908-91dd-41fd-a50b-547f214af9ee",
@@ -640,12 +397,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Values",
-      "body": "Use the values in the figures to estimate the average values.\nEstimate the average value of f on the interval [3.5,6.5].\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20439.png\"/\u003e",
+      "body": "Use the values in the figures to estimate the average values.\nEstimate the average value of f on the interval [3.5,6.5].\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20439.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average value, interval, application of integrals",
       "url": "/question/7b9bf908-91dd-41fd-a50b-547f214af9ee",
       "source": "Washington 2.3.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "fb8945dd-833a-4100-bdc6-01d6a56f2085"
     },
     {
       "uuid": "31558728-ff57-40eb-be76-bec9ac91750b",
@@ -662,7 +419,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/31558728-ff57-40eb-be76-bec9ac91750b",
       "source": "Washington 1.2.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "9e1e8417-5b9f-4f37-8acb-cbacfa597129",
@@ -674,12 +431,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Values",
-      "body": "Use the values in the figures to estimate the average values.\nFind the average value of \\(\\sin\\)(x), 0\\(\\leq\\)x\\(\\leq \\pi\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20439.png\"/\u003e",
+      "body": "Use the values in the figures to estimate the average values.\nFind the average value of \\(\\sin\\)(x), 0\\(\\leq\\)x\\(\\leq \\pi\\).\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20439.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average values, intervals, application of integrals",
       "url": "/question/9e1e8417-5b9f-4f37-8acb-cbacfa597129",
       "source": "Washington 2.3.5",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "fb8945dd-833a-4100-bdc6-01d6a56f2085"
     },
     {
       "uuid": "5878fbd2-ab6f-43a1-9c38-df9e9e67af4d",
@@ -696,7 +453,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/5878fbd2-ab6f-43a1-9c38-df9e9e67af4d",
       "source": "Washington 1.2.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "da4aa9bf-c6e9-4fce-b277-4538087883a3",
@@ -708,12 +465,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Values",
-      "body": "Use the values in the figures to estimate the average values.\nFind the average value of x\\(^{2}\\), -1\\(\\leq\\)x\\(\\leq\\)1.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20439.png\"/\u003e",
+      "body": "Use the values in the figures to estimate the average values.\nFind the average value of x\\(^{2}\\), -1\\(\\leq\\)x\\(\\leq\\)1.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20439.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average values, intervals, application of integrals",
       "url": "/question/da4aa9bf-c6e9-4fce-b277-4538087883a3",
       "source": "Washington 2.3.6",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/Average Velocity"
+      "topic": "fb8945dd-833a-4100-bdc6-01d6a56f2085"
     },
     {
       "uuid": "ab2bf356-ba96-4581-bb00-c5c1f023c7a7",
@@ -730,7 +487,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/ab2bf356-ba96-4581-bb00-c5c1f023c7a7",
       "source": "Washington 1.2.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "e3853c36-baa9-42f8-a985-f0e46c3fd2fe",
@@ -747,7 +504,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/e3853c36-baa9-42f8-a985-f0e46c3fd2fe",
       "source": "Washington 1.2.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "15cc23d2-1a61-4525-9f36-c455dd7178c2",
@@ -764,7 +521,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/15cc23d2-1a61-4525-9f36-c455dd7178c2",
       "source": "Washington 1.2.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "4bc8c376-bd31-47f7-bdfc-4994bc3505d1",
@@ -781,7 +538,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/4bc8c376-bd31-47f7-bdfc-4994bc3505d1",
       "source": "Washington 1.2.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "9907edaa-806f-4537-b53f-d16128bc431c",
@@ -798,7 +555,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/9907edaa-806f-4537-b53f-d16128bc431c",
       "source": "Washington 1.4.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "34177441-59e5-4d94-afb8-b1ef6c6f66b2",
@@ -815,7 +572,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/34177441-59e5-4d94-afb8-b1ef6c6f66b2",
       "source": "Washington 1.4.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "c7391f7b-d440-44d5-8f7d-fbd96ac2199f",
@@ -849,7 +606,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/65b3aba9-710b-4777-befc-ce4b991c5bb4",
       "source": "Washington 1.4.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "c2f66b20-9fd1-47e7-88b5-b8c837c54cce",
@@ -866,7 +623,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/c2f66b20-9fd1-47e7-88b5-b8c837c54cce",
       "source": "Washington 1.4.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "95c6906d-ab56-45c0-9a7a-b2af4824dbe3",
@@ -883,7 +640,7 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/95c6906d-ab56-45c0-9a7a-b2af4824dbe3",
       "source": "Washington 1.4.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "a0724ee5-5192-4742-a1fc-ca7a161a2544",
@@ -900,7 +657,160 @@
       "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
       "url": "/question/a0724ee5-5192-4742-a1fc-ca7a161a2544",
       "source": "Washington 1.4.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "76e556d4-6fed-4046-84d3-979743d3c18b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": "Sketch the graph of the integrand function and use it to help evaluate the integral. (|...| denotes the absolute value and [...] denotes the integer part.)\n\n\\( \\int _3 ^1 \\left | x \\right | dx \\)",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals",
+      "url": "/question/76e556d4-6fed-4046-84d3-979743d3c18b",
+      "source": "Washington 1.4.8",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "b84e3be3-63ba-44cb-bafa-5932398da775",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Numbers and Functions",
+      "body": "What is the 2007\\(^{th}\\) digit after the period in the expansion of \\(\\frac{1}{7}\\)?",
+      "allAnswers": [],
+      "tags": "basics numbers, digit, period",
+      "url": "/question/b84e3be3-63ba-44cb-bafa-5932398da775",
+      "source": "Math 221 1.1.1",
+      "topic": "4b1fdd1a-8199-4732-9c14-0800b5e029cb"
+    },
+    {
+      "uuid": "e8b33449-9a58-44ed-ad7b-82662e4c1a35",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Comparing Velocities",
+      "body": "Two objects start from the same location and travel along the same path\nwith velocities \\( V_A (t) \u003d t + 3 \\) and \\( V_B (t) \u003d t^{2} 4t + 3 \\). How far ahead is A after 3 seconds? After 5 seconds?",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement",
+      "url": "/question/e8b33449-9a58-44ed-ad7b-82662e4c1a35",
+      "source": "Math 221 1.5.1",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "d423db03-3f0f-424c-ba51-a0bbb7d59c5e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": "Sketch the graph of each function and find the area between the graphs\nof \\(f(x) \u003d x^{2} + 3\\), \\(g(x) \u003d 1\\) and \\(_1 \\leq x \\leq 2\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement, graph",
+      "url": "/question/d423db03-3f0f-424c-ba51-a0bbb7d59c5e",
+      "source": "Math 221 1.5.2",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "ba002445-00e1-4e09-8476-e9e52c735dd3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": "Sketch the graph of each function and find the area between the graphs\nof \\(f(x) \u003d x^{2} + 3\\), \\(g(x) \u003d 1 + x\\) and \\(0 \\leq x \\leq 3\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement, graph",
+      "url": "/question/ba002445-00e1-4e09-8476-e9e52c735dd3",
+      "source": "Math 221 1.5.3",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "c354aa98-4d75-4c7d-ab8d-01131d470b37",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Numbers and Functions",
+      "body": "Which of the following fractions have finite decimal expansions?\na \u003d \\(\\frac{2}{3}\\), b \u003d \\(\\frac{3}{25}\\), c \u003d \\(\\frac{276937}{15625}\\).",
+      "allAnswers": [],
+      "tags": "basic numbers, functions, finite decimal expansions",
+      "url": "/question/c354aa98-4d75-4c7d-ab8d-01131d470b37",
+      "source": "Math 221 1.1.2",
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
+    },
+    {
+      "uuid": "541a2f97-e471-4d84-b7cd-43f667fb970d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": " Sketch the graph of each function and find the area between the graphs\nof \\(f(x) \u003d x^{2}\\), \\(g(x) \u003d x\\) and \\(0 \\leq x \\leq 2\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement, graph",
+      "url": "/question/541a2f97-e471-4d84-b7cd-43f667fb970d",
+      "source": "Math 221 1.5.4",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "4ae6607b-bbe3-40ac-a558-df6e82e049ef",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": "Sketch the graph of each function and find the area between the graphs\nof \\(f(x) \u003d x + 1\\), \\(g(x) \u003d \\cos (x)\\) and \\(0 \\leq x \\leq \\pi /4\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement, graph",
+      "url": "/question/4ae6607b-bbe3-40ac-a558-df6e82e049ef",
+      "source": "Math 221 1.5.5",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "08c86d4b-12e2-49da-8a8a-5797893195b3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Distance Traveled",
+      "body": "If f(t) denoted the velocity of a bug traveling along a line at time t, find\nthe distance traveled in the first 4 seconds.",
+      "allAnswers": [],
+      "tags": "riemann sum, functions, definite, integral, calculus, subintervals, velocity, displacement, graph",
+      "url": "/question/08c86d4b-12e2-49da-8a8a-5797893195b3",
+      "source": "Math 221 1.5.6",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     }
   ],
   "textContent": [
@@ -919,7 +829,7 @@
       "tags": "complex numbers, polar coordinates, cube roots, imaginary numbers ",
       "url": "/text-content/f9d8a0d7-4e47-4a22-9443-b4d3acdc9581",
       "source": "Forgotten Text 5 3.3",
-      "topic": "Calculus/Polar Coordinates/Complex Numbers"
+      "topic": "65d458e0-24c6-4034-be70-6d53ed5a8f51"
     },
     {
       "uuid": "591fa709-5d76-490e-9d40-6ff9a26a8e2e",
@@ -936,9 +846,93 @@
       "tags": "complex exponentials, trigonometry exponentials, trigonometric identities ",
       "url": "/text-content/591fa709-5d76-490e-9d40-6ff9a26a8e2e",
       "source": "Forgotten Text 5 3.4",
-      "topic": "Calculus/Polar Coordinates/Complex Exponentials"
+      "topic": "f5e5463c-0f7d-4ab1-b5be-5ffdc8122563"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "f36cb5a6-dd75-48e5-9bdd-a6e5b06f3f58",
+      "subTopics": [
+        "9ab950bc-9fab-40b4-bf0f-7ec59c4cbb2b"
+      ],
+      "parentTopics": [
+        "56b222b3-44e9-4b0e-9455-62ce2eb21659"
+      ],
+      "title": "Inverse Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " one-to-one, inverse, range, function, domain,inverse function, inverse function,inverse,domain,invertible, common denominator approach, functions, invertible function, product rule, factoring, quotient rule,algebraic, values, conditions, finding inverse of functions, conversion function, decreasing, inverse of own, one-to-one. inverse, invertible , graphical feature, inverse of functions, inverse functions, word problem,one-to-one, computing functions, odd, inverse of function,function, graph",
+      "difficulty": 293000,
+      "contentUuids": [
+        "519b007e-53f7-4516-9259-1a90930505e8",
+        "98ad13a6-5775-4349-a342-bfaee7fc4c14",
+        "3567264c-abde-408d-9d7a-761ac34619d1",
+        "e26c6799-4900-4c31-9b64-9362cc99c663",
+        "3a0fe298-77a2-485a-b516-bdb81aba16de",
+        "6b99a828-9f0e-4151-b653-fa8e312cf3eb",
+        "784001c2-0492-4c06-9d42-bb15ff194284",
+        "adcba24b-648f-40f1-84d2-6ad5d0f4fe59",
+        "035a9dde-e567-44fe-90e3-ed4f97ad8d73",
+        "efd64d3f-9c72-4185-9a54-c1c57e9c80a1",
+        "9d2c41d3-94a6-4d7e-bf44-509b7ae3e22e",
+        "2143b02b-dde2-485c-bc06-f7f34a43864d",
+        "94aed5d3-b7bb-40d1-a996-89888593fbae",
+        "31a74fbc-a99c-41cf-9d1b-f9c595013143",
+        "87aaed33-c517-48f2-99f2-f70fbd8ce334",
+        "32eabba9-47e8-44f1-8e96-28bd2b251aa7",
+        "47c577a4-9c89-4fd0-9d9b-520c078d4f07",
+        "c821be1c-c48a-4dda-a24b-a66ce9155c2a",
+        "9a9199c7-4614-4ea1-acc8-dfcaa04570a4",
+        "b0b69d77-f2d8-47a5-a82d-52bd5963637d",
+        "eb99112a-d882-48fb-b50e-eaf6dd879cee",
+        "ebe4b444-2585-471a-a075-2b50629e72b5",
+        "12e9de51-dbef-4cff-982b-41b50de9620d",
+        "3fa9931d-80ac-45cd-916f-4e32cbc78eff",
+        "1df9d4bb-0cce-43d4-9b6e-78f9a1b7bcb8",
+        "e1e189ec-b670-4f2f-9a64-034ea1fb8af3",
+        "4763188c-4821-47c6-9515-708ccc6f5127",
+        "0cf35f7d-5c85-47ca-aa5e-45710e3742dc",
+        "0aa644dc-10fc-4b60-86ab-c0d8d5222551",
+        "84d2110d-54fe-4d8c-b8d0-2686f1ca40c0",
+        "4c21beb0-f2c7-4d60-ad2e-9ef59d5f76b8",
+        "1d185a9a-41c8-4a3b-81d6-ea9c14f64a16",
+        "8eb929b9-3aa0-4b1f-a42c-622e9b66f6ec",
+        "f0ac2a14-1879-4b2e-b2d4-75ee771e9d2d"
+      ]
+    },
+    {
+      "uuid": "2bdb845d-7e0c-43d5-aa85-47c006d47107",
+      "subTopics": [],
+      "parentTopics": [
+        "d9503ed8-98ca-4163-b483-9ac2c147ca67"
+      ],
+      "title": "Real Zeros",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " real zeros ,polynomial functions,",
+      "difficulty": 19000,
+      "contentUuids": [
+        "56557591-de8a-40e2-b2a0-a882fe6a29d6"
+      ]
+    },
+    {
+      "uuid": "ceb24ccc-cb8b-448e-b91d-e22b8c04eaa9",
+      "subTopics": [
+        "d1c35f7e-7fba-45c2-9126-27088e9e946c",
+        "48c2f873-510f-47c0-909f-efab1c41580b",
+        "119a4e0b-9f8d-4e61-9805-2f1e757946d1",
+        "3532a7bf-b9db-4043-a424-4e7cf1cbaf45"
+      ],
+      "parentTopics": [
+        "d7881072-7e4d-4352-9b31-a296358563d9"
+      ],
+      "title": "Parametric Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 657000,
+      "contentUuids": []
+    }
+  ]
 }

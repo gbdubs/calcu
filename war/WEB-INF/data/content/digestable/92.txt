@@ -2,313 +2,194 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3200.png\"/\u003e",
-      "uuid": "411ca70b-01e4-43b5-a0c5-0a3d05ffacf0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3653.png\"/\u003e",
+      "uuid": "0265a047-2eb0-470d-b4b4-26d1c7be0eee",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Model Rocket Question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3199.png\"/\u003e",
+      "title": "Quadratic function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3652.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, functions, piecewise functions, intercepts",
-      "url": "/practice-problem/411ca70b-01e4-43b5-a0c5-0a3d05ffacf0",
-      "source": "null 1.4.4"
+      "tags": "system of equations, matrices, matrix, augmented matrix ",
+      "url": "/practice-problem/0265a047-2eb0-470d-b4b4-26d1c7be0eee",
+      "source": "null 8.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3211.png\"/\u003e",
-      "uuid": "df9eb3db-e310-4d37-ac7c-aa07be0b8e51",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3666.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3667.png\"/\u003e",
+      "uuid": "a90bf14b-ff37-4124-86fc-e8e9f3c5d106",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the intercepts",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3210.png\"/\u003e",
+      "title": "Matrix Problem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3665.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, functions, intercepts ",
-      "url": "/practice-problem/df9eb3db-e310-4d37-ac7c-aa07be0b8e51",
-      "source": "null 1.5.3"
+      "tags": "matrix, matrices, system of equations ",
+      "url": "/practice-problem/a90bf14b-ff37-4124-86fc-e8e9f3c5d106",
+      "source": "null 8.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3216.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3217.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3218.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3219.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3220.png\"/\u003e",
-      "uuid": "3c320a23-d79f-48f2-9e2e-7f93e0855c49",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3711.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3712.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3713.png\"/\u003e",
+      "uuid": "4a83cfe9-1f6b-48fd-a9f5-6470acdba8de",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Determine if functions are even, odd",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3215.png\"/\u003e",
+      "title": "Nonlinear inequalities",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3710.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, functions, even, odd, graphing functions ",
-      "url": "/practice-problem/3c320a23-d79f-48f2-9e2e-7f93e0855c49",
-      "source": "null 1.6.3"
+      "tags": "nonlinear inequalities, system of inequalities ",
+      "url": "/practice-problem/4a83cfe9-1f6b-48fd-a9f5-6470acdba8de",
+      "source": "null 8.7.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3239.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3240.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3241.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3242.png\"/\u003e",
-      "uuid": "7b0df1db-5537-4135-a9ff-b5fd584a1aba",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3751.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3717.png\"/\u003e",
+      "uuid": "31c605e0-534a-4ce3-bf90-34bc8c497537",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Domain and ranges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3238.png\"/\u003e",
+      "title": "equation of nth term",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3750.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, functions, domain, range",
-      "url": "/practice-problem/7b0df1db-5537-4135-a9ff-b5fd584a1aba",
-      "source": "null 1.7.3"
+      "tags": "sequences, binomial theorem, nth term, arithmetic ",
+      "url": "/practice-problem/31c605e0-534a-4ce3-bf90-34bc8c497537",
+      "source": "null 9.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3248.png\"/\u003e",
-      "uuid": "f245472e-5250-4f23-bd69-e3475626e08c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3775.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3786.png\"/\u003e",
+      "uuid": "f82c2867-f89f-4d15-b63b-eb1b22c4e97c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Complete the graph ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3245.png\"/\u003e",
+      "title": "Graph each angle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3764.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, functions, graphing functions, graphs, domain, range ",
-      "url": "/practice-problem/f245472e-5250-4f23-bd69-e3475626e08c",
-      "source": "null 1.7.4"
+      "tags": "angles, measure of angles, trig",
+      "url": "/practice-problem/f82c2867-f89f-4d15-b63b-eb1b22c4e97c",
+      "source": "null 10.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3250.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3251.png\"/\u003e",
-      "uuid": "fd96e4e5-fecb-4362-b743-61820426b3ce",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3841.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3847.png\"/\u003e",
+      "uuid": "db18bc94-7d45-4751-bdbc-7de5e4ccca15",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Transformations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3249.png\"/\u003e",
+      "title": "Sketch the arc on Unit Circle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3830.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, functions, transformations ",
-      "url": "/practice-problem/fd96e4e5-fecb-4362-b743-61820426b3ce",
-      "source": "null 1.7.5"
+      "tags": "angles, arc, measure of angle, trig ",
+      "url": "/practice-problem/db18bc94-7d45-4751-bdbc-7de5e4ccca15",
+      "source": "null 10.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3328.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3329.png\"/\u003e",
-      "uuid": "62104bfc-985a-4ea7-a44c-8da5cb18edbc",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3861.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3862.png\"/\u003e",
+      "uuid": "088a0572-65ee-457f-bba4-870b37309d55",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Graph the following functions, find slope and intercept",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3319.png\"/\u003e",
+      "title": "Find the cosine and sine",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3860.png\"/\u003e",
       "allAnswers": [],
-      "tags": "slope-intercept form, slope, y-intercept, linear functions ",
-      "url": "/practice-problem/62104bfc-985a-4ea7-a44c-8da5cb18edbc",
-      "source": "null 2.1.4"
+      "tags": "cosine, sine, unit circle, trig ",
+      "url": "/practice-problem/088a0572-65ee-457f-bba4-870b37309d55",
+      "source": "null 10.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3256.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3257.png\"/\u003e",
-      "uuid": "1d8e374b-edda-4bec-aa95-068014d0065d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3867.png\"/\u003e",
+      "uuid": "5ddb61f2-cc7e-4cd2-bd8a-5533c1ca14ca",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Cost of game systems",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3255.png\"/\u003e",
+      "title": "Find sin of angle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3864.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear functions, slope, intercepts ",
-      "url": "/practice-problem/1d8e374b-edda-4bec-aa95-068014d0065d",
-      "source": "null 2.1.5"
+      "tags": "sine, cosine, unit circle, trig ",
+      "url": "/practice-problem/5ddb61f2-cc7e-4cd2-bd8a-5533c1ca14ca",
+      "source": "null 10.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3259.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3260.png\"/\u003e",
-      "uuid": "c50f9f22-cdfa-4267-af63-549f07356015",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3869.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3871.png\"/\u003e",
+      "uuid": "8a7f3c60-d0dc-4e1d-9f00-afd423d913f9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "PortaBoy game system, week two",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3258.png\"/\u003e",
+      "title": "Find all the angles ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3868.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear functions, domain, slope, dependent variable, independent variable ",
-      "url": "/practice-problem/c50f9f22-cdfa-4267-af63-549f07356015",
-      "source": "null 2.1.6"
+      "tags": "angles, measure, sine, cosine, unit circle ",
+      "url": "/practice-problem/8a7f3c60-d0dc-4e1d-9f00-afd423d913f9",
+      "source": "null 10.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3265.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3266.png\"/\u003e",
-      "uuid": "06d4a1c0-c17f-4bab-b269-6cc12d7acaf8",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3876.png\"/\u003e",
+      "uuid": "a8e21cc0-9af6-44b1-97b1-fb4c5c3265d4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Revenue from selling",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3263.png\"/\u003e",
+      "title": "Terminal side on angle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3875.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear algebra, rate of change, slope, intercepts  ",
-      "url": "/practice-problem/06d4a1c0-c17f-4bab-b269-6cc12d7acaf8",
-      "source": "null 2.1.7"
+      "tags": "angle, measure of angle, trig, sine, cosine, unit circle ",
+      "url": "/practice-problem/a8e21cc0-9af6-44b1-97b1-fb4c5c3265d4",
+      "source": "null 10.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3276.png\"/\u003e",
-      "uuid": "1c408146-6796-4366-ac5c-faf8f852d90d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3879.png\"/\u003e",
+      "uuid": "af647b30-3a87-4044-bf92-6b360f40528a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Graph functions using transformations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3273.png\"/\u003e",
+      "title": "Lakeland College",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3878.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear functions, absolute value functions, transformations, graphing functions ",
-      "url": "/practice-problem/1c408146-6796-4366-ac5c-faf8f852d90d",
-      "source": "null 2.2.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3278.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3279.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3280.png\"/\u003e",
-      "uuid": "cb107008-d99b-4b67-a6e3-4d218414f167",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "FInd zeros of each function and intercepts",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3277.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "linear functions, absolute value function, intercepts, domain, range, absolute extrema, relative extrema",
-      "url": "/practice-problem/cb107008-d99b-4b67-a6e3-4d218414f167",
-      "source": "null 2.2.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3292.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3293.png\"/\u003e",
-      "uuid": "21f86012-2188-46ef-959b-8fe144cd00ff",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Portably Game Systems, cont.",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3291.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quadratic functions, x-intercepts, y-intercepts, zeros ",
-      "url": "/practice-problem/21f86012-2188-46ef-959b-8fe144cd00ff",
-      "source": "null 2.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3295.png\"/\u003e",
-      "uuid": "5279bd5f-5bb5-434c-ad48-6882e583ea7e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Donnie\u0027s Surprise ;)",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3294.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quadratic functions, quadratic formula, maximum area, alpaca",
-      "url": "/practice-problem/5279bd5f-5bb5-434c-ad48-6882e583ea7e",
-      "source": "null 2.3.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3298.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3299.png\"/\u003e",
-      "uuid": "5c01e09b-6503-4397-b577-10be2c8a4d91",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graph the absolute value functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3296.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quadratic functions, absolute value function, intercepts ",
-      "url": "/practice-problem/5c01e09b-6503-4397-b577-10be2c8a4d91",
-      "source": "null 2.3.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3306.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3307.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3309.png\"/\u003e",
-      "uuid": "39525c29-843c-48c9-a590-7cd6f3418320",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inequalities analytically",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3305.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quadratic functions, inequalities, sign diagrams ",
-      "url": "/practice-problem/39525c29-843c-48c9-a590-7cd6f3418320",
-      "source": "null 2.4.3"
+      "tags": "angle, measure, cosine, sine, unit circle ",
+      "url": "/practice-problem/af647b30-3a87-4044-bf92-6b360f40528a",
+      "source": "null 10.2.7"
     }
   ],
   "questions": [
-    {
-      "uuid": "8dfc2eab-bb2b-4800-8dde-b531f99ee273",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946152,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Following Values",
-      "body": "Use the given pair of functions to find the following values if they exist.\n\n\\((g \\cdot f)(0)\\)\n\\((f \\cdot g)(_1)\\)\n\\((f \\cdot f)(2)\\)\n\\((g \\cdot f)(_3)\\)\n\\((f \\cdot g)\\)\n\\((f \\cdot f)(_2)\\)\n\n\\( f(x) \u003d x/(x+5) \\), \\( g(x) \u003d 2/(7-x^{2}) \\)",
-      "allAnswers": [],
-      "tags": "function, algebra, function arithmetic, function composition",
-      "url": "/question/8dfc2eab-bb2b-4800-8dde-b531f99ee273",
-      "source": "Active Calc 5.1.10",
-      "topic": "Algebra/Functions/Graphing Functions"
-    },
-    {
-      "uuid": "55ee25ba-8c4a-4072-bb3a-517ee8c291e2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946152,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Function Notation",
-      "body": "Use the given function f to find f(0) and solve f(x) \u003d 0\nf(x) \u003d 2x\\(^{2}\\) - 6",
-      "allAnswers": [],
-      "tags": "function, solving functions, function notation",
-      "url": "/question/55ee25ba-8c4a-4072-bb3a-517ee8c291e2",
-      "source": "Active Calc 1.4.29",
-      "topic": "Algebra/Functions/Graphing Functions"
-    },
     {
       "uuid": "8f19732e-946f-4a63-810e-ad8dbbd5f1de",
       "contentType": "question",
@@ -324,7 +205,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/8f19732e-946f-4a63-810e-ad8dbbd5f1de",
       "source": "Active Calc 5.1.11",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "3aba66a0-8155-4c40-b5ca-6c4c1971c43d",
@@ -341,7 +222,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/3aba66a0-8155-4c40-b5ca-6c4c1971c43d",
       "source": "Active Calc 5.1.12",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "1ad0fe7c-fef8-42e8-9a24-28a657bc636b",
@@ -358,7 +239,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/1ad0fe7c-fef8-42e8-9a24-28a657bc636b",
       "source": "Active Calc 1.4.30",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "10c487a4-8ff1-45f5-b62c-b7bc2c812586",
@@ -375,7 +256,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/10c487a4-8ff1-45f5-b62c-b7bc2c812586",
       "source": "Active Calc 5.1.13",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "34eb3cbb-38a3-4c92-a527-26956b79770a",
@@ -392,7 +273,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/34eb3cbb-38a3-4c92-a527-26956b79770a",
       "source": "Active Calc 5.1.14",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "87734d8c-b978-47b6-915c-2a00eb6e68f9",
@@ -409,7 +290,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/87734d8c-b978-47b6-915c-2a00eb6e68f9",
       "source": "Active Calc 1.4.31",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "0d1f2484-1f5c-4cd4-a390-91e8ce3dffdf",
@@ -426,7 +307,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/0d1f2484-1f5c-4cd4-a390-91e8ce3dffdf",
       "source": "Active Calc 5.1.15",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "7e8d44a5-6f2a-4358-980f-5f306b12986a",
@@ -443,7 +324,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/7e8d44a5-6f2a-4358-980f-5f306b12986a",
       "source": "Active Calc 5.1.16",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "e5e28878-3182-45fd-9fc7-45d8aeaf5419",
@@ -460,7 +341,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/e5e28878-3182-45fd-9fc7-45d8aeaf5419",
       "source": "Active Calc 1.4.32",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "72a35d15-068c-44ac-9207-4d3cadee85ed",
@@ -477,7 +358,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/72a35d15-068c-44ac-9207-4d3cadee85ed",
       "source": "Active Calc 5.1.17",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "43bedfd5-3871-4e4e-a00d-0ec89ebb297f",
@@ -494,7 +375,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/43bedfd5-3871-4e4e-a00d-0ec89ebb297f",
       "source": "Active Calc 1.4.33",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b31260a9-faf8-4fcf-ba7a-1a21a9c94cf6",
@@ -511,7 +392,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b31260a9-faf8-4fcf-ba7a-1a21a9c94cf6",
       "source": "Active Calc 5.1.18",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "298142de-3376-4c08-917f-39216b876d5b",
@@ -528,7 +409,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/298142de-3376-4c08-917f-39216b876d5b",
       "source": "Active Calc 5.1.19",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "aa842c38-dd5b-4696-a48e-db459cca427d",
@@ -545,7 +426,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/aa842c38-dd5b-4696-a48e-db459cca427d",
       "source": "Active Calc 5.1.20",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "19fcae5f-7dc5-4058-a8db-12d218303bb3",
@@ -562,7 +443,7 @@
       "tags": "function, solving functions, function notations ",
       "url": "/question/19fcae5f-7dc5-4058-a8db-12d218303bb3",
       "source": "Active Calc 1.4.34",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "70bee87d-a5fa-4424-a43b-94a377463b34",
@@ -579,7 +460,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/70bee87d-a5fa-4424-a43b-94a377463b34",
       "source": "Active Calc 5.1.21",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "eca72257-ecfd-412e-a84b-42ca8796eded",
@@ -596,7 +477,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/eca72257-ecfd-412e-a84b-42ca8796eded",
       "source": "Active Calc 5.1.22",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "9c04d85a-43bf-4cb6-96a7-b83d1e4f179f",
@@ -613,7 +494,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/9c04d85a-43bf-4cb6-96a7-b83d1e4f179f",
       "source": "Active Calc 5.1.23",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "6f9aaef8-eda1-4783-a0eb-5eafcc3e514e",
@@ -625,12 +506,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Function Notation",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20344.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20344.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function notation, function values, functions, multi-step problem",
       "url": "/question/6f9aaef8-eda1-4783-a0eb-5eafcc3e514e",
       "source": "Active Calc 1.4.35",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b0810f49-9c62-4d29-867d-01ff14c7687f",
@@ -647,7 +528,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b0810f49-9c62-4d29-867d-01ff14c7687f",
       "source": "Active Calc 5.1.24",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "cc29c9ec-31db-415e-8dba-6106b4e61960",
@@ -664,7 +545,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/cc29c9ec-31db-415e-8dba-6106b4e61960",
       "source": "Active Calc 5.1.25",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "52ad01ee-a496-46c5-82d1-4ac7a69e672a",
@@ -676,12 +557,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Function Notation",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20345.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20345.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, function notation, function values",
       "url": "/question/52ad01ee-a496-46c5-82d1-4ac7a69e672a",
       "source": "Active Calc 1.4.36",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "0c66a7a3-be70-4073-abfa-41643f1e1cf3",
@@ -698,7 +579,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/0c66a7a3-be70-4073-abfa-41643f1e1cf3",
       "source": "Active Calc 5.1.26",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "11c2ff4e-84c0-4bae-8a16-b01999e39998",
@@ -715,7 +596,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/11c2ff4e-84c0-4bae-8a16-b01999e39998",
       "source": "Active Calc 5.1.27",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "96ba711d-fba5-4a53-bf46-3f115a8b6a9b",
@@ -732,7 +613,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/96ba711d-fba5-4a53-bf46-3f115a8b6a9b",
       "source": "Active Calc 5.1.28",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b9c71cee-fa65-4b38-b2b8-9061ff0ee95e",
@@ -749,7 +630,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b9c71cee-fa65-4b38-b2b8-9061ff0ee95e",
       "source": "Active Calc 5.1.29",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "02c49ba0-b994-48fa-9a2d-033d7354fbf2",
@@ -766,7 +647,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/02c49ba0-b994-48fa-9a2d-033d7354fbf2",
       "source": "Active Calc 5.1.30",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a349a46c-2ab9-431b-9f37-fa0eeb118864",
@@ -783,7 +664,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/a349a46c-2ab9-431b-9f37-fa0eeb118864",
       "source": "Active Calc 5.1.31",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "6246fccb-2887-4592-a531-3dfa58210926",
@@ -800,7 +681,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/6246fccb-2887-4592-a531-3dfa58210926",
       "source": "Active Calc 5.1.32",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "9fdcba4e-1e8b-4f2e-9b52-555a0ca425c3",
@@ -817,7 +698,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/9fdcba4e-1e8b-4f2e-9b52-555a0ca425c3",
       "source": "Active Calc 5.1.33",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "f6baee09-6174-4686-905e-bebf5825c7ea",
@@ -834,7 +715,7 @@
       "tags": "",
       "url": "/question/f6baee09-6174-4686-905e-bebf5825c7ea",
       "source": "Active Calc 5.1.34",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b8b3903e-cb8f-4e4d-9bae-473f5de7d0eb",
@@ -851,7 +732,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b8b3903e-cb8f-4e4d-9bae-473f5de7d0eb",
       "source": "Active Calc 5.1.35",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a19efa3a-4138-4ab8-a2fb-9faa44f9d96a",
@@ -868,7 +749,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/a19efa3a-4138-4ab8-a2fb-9faa44f9d96a",
       "source": "Active Calc 5.1.36",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b4f6ddeb-48bd-44f1-91e7-5dca3ee143c5",
@@ -885,7 +766,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b4f6ddeb-48bd-44f1-91e7-5dca3ee143c5",
       "source": "Active Calc 5.1.37",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "1f0b1b94-5ca1-467b-9c66-2fc12015a7a0",
@@ -902,7 +783,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/1f0b1b94-5ca1-467b-9c66-2fc12015a7a0",
       "source": "Active Calc 5.1.38",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "aac4eac8-0390-4d2a-a6c0-4461b5e6df6a",
@@ -919,7 +800,24 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/aac4eac8-0390-4d2a-a6c0-4461b5e6df6a",
       "source": "Active Calc 1.4.37",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
+    },
+    {
+      "uuid": "d96c9325-8cb9-4fdc-a4bf-a577fcaf4201",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946153,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Write the Composition",
+      "body": "Write the function \\( F(x) \u003d \\sqrt{\\frac{x^{3}+6}{x^{3}-9}} \\) as a composition of three or more non-identity functions.",
+      "allAnswers": [],
+      "tags": "function, algebra, function arithmetic, function composition",
+      "url": "/question/d96c9325-8cb9-4fdc-a4bf-a577fcaf4201",
+      "source": "Active Calc 5.1.39",
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     }
   ],
   "textContent": [
@@ -933,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Law of Sines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2987.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2988.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2989.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2990.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2991.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2992.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2993.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2997.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2987.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2988.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2989.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2990.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2991.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2992.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2993.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2997.png\"/\u003e",
       "allAnswers": [],
       "tags": "law of sines, sine, trigonometric functions ",
       "url": "/text-content/f093d3b8-dc23-47b5-b991-19e412a8492f",
       "source": "Precalculus, 3rd Edition 11.2",
-      "topic": "Trigonometry/Triangle Formulas/Law of Sines"
+      "topic": "d0343081-55fd-4609-a7e1-86f80d7774a8"
     },
     {
       "uuid": "aa3ae324-62b9-4f39-a4a6-b3fbac2cd017",
@@ -950,12 +848,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Law of Cosines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3000.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3001.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3002.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3005.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3000.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3001.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3002.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3005.png\"/\u003e",
       "allAnswers": [],
       "tags": "cosines, trigonometric functions, applications of trigonometry ",
       "url": "/text-content/aa3ae324-62b9-4f39-a4a6-b3fbac2cd017",
       "source": "Precalculus, 3rd Edition 11.3",
-      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
+      "topic": "6450955b-442d-4d0d-8ab5-11c7fee38648"
     },
     {
       "uuid": "420bbeb2-d68a-4a1f-ad36-e044969afaa6",
@@ -967,14 +865,86 @@
       "viewable": true,
       "karma": 3,
       "title": "Polar Coordinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3011.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3015.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3011.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3012.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3013.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3014.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3015.png\"/\u003e",
       "allAnswers": [],
       "tags": "polar coordinates, applications of trigonometry, trig, cartesian coordinates ",
       "url": "/text-content/420bbeb2-d68a-4a1f-ad36-e044969afaa6",
       "source": "Precalculus, 3rd Edition 11.4",
-      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
+      "topic": "e80fe800-5e12-45b3-8658-222fc6143441"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "35bcb0a4-3f9f-404e-920f-efcd33c70fbd",
+      "subTopics": [],
+      "parentTopics": [
+        "7b191e73-6552-43d2-a3cf-be528d04af9b"
+      ],
+      "title": "Inverse of a Function",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " inverse,domain, graph, function,",
+      "difficulty": 26000,
+      "contentUuids": [
+        "5182667b-3ccb-4a85-acfb-3d0643948805"
+      ]
+    },
+    {
+      "uuid": "0533c89b-d45c-4f30-8ab0-16f7bb439fca",
+      "subTopics": [],
+      "parentTopics": [
+        "7b191e73-6552-43d2-a3cf-be528d04af9b"
+      ],
+      "title": "Nth Root",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "critical points, fractional or negative exponent, roots,",
+      "difficulty": 28000,
+      "contentUuids": [
+        "a1d5c8c8-c777-4214-b0d5-3a7f3cc9b4d1"
+      ]
+    },
+    {
+      "uuid": "e0db03a6-994a-42cd-8335-d30fb84041f1",
+      "subTopics": [],
+      "parentTopics": [
+        "b62261d9-fa99-4b1d-b157-efc3493c66c5"
+      ],
+      "title": "Independent Systems of Linear Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " matrix, matrices,determinant, determinant, system,cramer\\u0027s rule, decomposition, linear equations, linear equation, determinants,word problem,matrix, inverse,determinants,computing determinants, systems,partial fraction, adjoints, computing determinant, parametric description, rational expressions,partial fraction decomposition,form, matrices word problem, partial fraction, rational expression, partial fraction decomposition, computing determinants, invertible matrix",
+      "difficulty": 347000,
+      "contentUuids": [
+        "9ea572dc-fb01-439b-9007-cd224be53d6d",
+        "2cb8b1f7-012d-460e-a57e-8ae5f730b38e",
+        "fb920432-dab2-4abb-8e4a-7cceb6be51a9",
+        "35aad5ba-49a0-4b29-b92d-03fc28ac247d",
+        "50369ce0-9cb6-4235-a9be-f38fa5b894f9",
+        "97075e52-8e34-4638-a0c2-628b37905376",
+        "c8548d72-4166-45e4-8a6f-0fa43beeaf9d",
+        "169b7ca2-bf11-4271-943d-98d96b9c3c04",
+        "4cddc996-b8a5-4f94-a533-c4b541394e2d",
+        "e2cbd6c5-718e-4911-9538-6a5e03f9d258",
+        "b6e05883-2c8f-4843-b309-bbaa7ec27e75",
+        "f84fe21c-6e7a-4731-93b1-af968a396370",
+        "9a021d84-9b18-428c-ba6a-17c7a050226b",
+        "6ae40a70-f3f8-4b0c-a49f-33ee0468f0f0",
+        "141eef28-59e0-4661-afcc-cf800ac3827c",
+        "dc7a5198-8f84-42df-acff-153d4ad41266",
+        "d608d89e-da05-4369-b1be-e2fc9db667d0",
+        "108f7f18-d550-44bd-b9c3-59e9f949fef4",
+        "43df9cf9-0378-4003-8098-9cbe5bbe81a7",
+        "aae30620-1c85-4048-b45e-23980ed8ed6d",
+        "c472e809-0483-4cd7-a958-b2fe147722e4",
+        "e7a80fac-723f-4a11-a8fa-f278b9b09c4b",
+        "b1db6070-f934-4035-a2b0-6cedc568c662",
+        "177fde8e-7b08-440b-a903-9675695ba394",
+        "16a67da9-24c7-41cc-9305-0865e7db7f84",
+        "88d32cdb-09c2-441d-a6ac-2ad0a9901eb5",
+        "5bcfa92a-226d-456c-b026-c8a1ef4ed707"
+      ]
+    }
+  ]
 }

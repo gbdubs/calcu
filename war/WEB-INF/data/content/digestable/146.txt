@@ -2,482 +2,205 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(\\dfrac16\\) ",
-      "uuid": "18556610-6a10-4599-a82d-7ae78f7f88b7",
+      "authorSolution": " \\(y^2\\ln x + x^2y^3 - \\arctan x + \\cos y\\) ",
+      "uuid": "bb7f3da5-1bc8-46bd-9279-f9b76934438c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361705,
+      "createdAt": 1437419362030,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Range",
-      "body": " Let  \\(f(x)\u003dx^2\\) ,  \\(g(x)\u003d\\sqrt{9+x}\\) , and  \\(h(x)\u003d\\dfrac 1{x-2}\\) .   Then  \\((h \\circ (f \\circ g - g \\circ f))(4)\u003d\\)  ____.",
+      "title": "Gradients Of Scalar Fields And Tangent Planes Practice",
+      "body": " Find a function (if one exists) whose gradient is       \\[ \\left(\\dfrac{y^2}x+2xy^3 - \\dfrac1{1+x^2}, 2y\\ln x+3x^2y^2-\\sin y\\right).   \\] Answer: _______________________.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/18556610-6a10-4599-a82d-7ae78f7f88b7",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/bb7f3da5-1bc8-46bd-9279-f9b76934438c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "f7440a46-b7c3-4d67-ba46-8e28204dd2c3",
+      "authorSolution": " \\(xy^3 + x^2y + x^3 + x^2y^2 + y^4\\) ",
+      "uuid": "510c8dfb-9d3f-45ab-9d93-c5727f23f7fd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361706,
+      "createdAt": 1437419362030,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Domain",
-      "body": " Let  \\(f(x)\u003d\\dfrac 5x\\) ,  \\(g(x)\u003d \\sqrt x\\) , and  \\(h(x)\u003d x+1\\) .   Then  \\((g(f \\circ g)+(g \\circ f \\circ h))(4)\u003d\\)  ___.",
+      "title": "Question On Gradients Of Scalar Fields And Tangent Planes",
+      "body": " Find a function (if one exists) whose gradient is       \\[ (y^3+2xy+3x^2+2xy^2) \\vec{ }i+(4y^3+x^2+2x^2y+3xy^2) \\vec{ }j.   \\] Answer: _______________________.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/f7440a46-b7c3-4d67-ba46-8e28204dd2c3",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/510c8dfb-9d3f-45ab-9d93-c5727f23f7fd",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(-4\\) ",
-      "uuid": "cd214485-2dcf-40e7-ab4d-618aa31571fd",
+      "authorSolution": " \\(x^2ye^y + \\arcsin y + x\\ln x - \\sqrt{1 - x^2}\\) ",
+      "uuid": "4c35470e-af82-42c6-b82c-15464dd747d0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361706,
+      "createdAt": 1437419362030,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Range",
-      "body": " Let  \\(h(x)\u003d \\dfrac 1{\\sqrt{x+6}}\\) ,  \\(j(x)\u003d \\dfrac 1x\\) , and  \\(g(x)\u003d5-x^2\\) .   Then  \\((g \\circ j \\circ h)(3)\u003d\\)  ____.",
+      "title": "Gradient Problem",
+      "body": " Find a function (if one exists) whose gradient is       \\[ \\left(\\ln x + 2xye^y + \\dfrac{x}{\\sqrt{1 - x^2}} + 1 , x^2e^y + \\dfrac1{\\sqrt{1 - y^2}} + x^2ye^y\\right).   \\] Answer: _______________________.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/cd214485-2dcf-40e7-ab4d-618aa31571fd",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/4c35470e-af82-42c6-b82c-15464dd747d0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "c19dcf83-9a4e-42b4-89a4-c2dc65c2ab41",
+      "authorSolution": " \\(x^2y + e^y + xz^2 + \\sin\\pi z + y^2z^3\\) ",
+      "uuid": "b218c569-1189-43c9-98a6-2095c36fd31d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361707,
+      "createdAt": 1437419362030,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Functions",
-      "body": " Let  \\(f(x)\u003d3(x+1)^3\\) ,  \\(g(x)\u003d \\dfrac{x^5+x^4}{x+1}\\) , and  \\(h(x)\u003d \\sqrt x\\) .   Then  \\((h \\circ (g + (h \\circ f)))(2)\u003d\\)  ____.",
+      "title": "Path Of Steepest Descent Question",
+      "body": " Find a function (if one exists) whose gradient is       \\[ (2xy + z^2) \\vec{ }i + (x^2 + e^y + 2yz^3)  \\vec{ }j + (2xz + \\pi\\cos\\pi z + 3y^2z^2) \\vec{ }k.   \\] Answer: _______________________.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/c19dcf83-9a4e-42b4-89a4-c2dc65c2ab41",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/b218c569-1189-43c9-98a6-2095c36fd31d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(3x + 5\\) ",
-      "uuid": "742ae893-8e63-4c2d-8b1d-b9104fdd23cb",
+      "authorSolution": " \\(4\\) ,  \\(-5\\) ",
+      "uuid": "fc133f34-b60b-4d94-bda3-cee9f36c7669",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361708,
+      "createdAt": 1437419362030,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Codomain Practice",
-      "body": " Let  \\(f(x) \u003d x^3-5x^2+x-7\\) .   Find a function  \\(g\\)  such that  \\((f\\circ g)(x)  \u003d 27x^3+90x^2+78x-2\\) .   Answer:  \\(g(x)\u003d\\)  __________.",
+      "title": "A Path Of Steepest Descent Question",
+      "body": " The equation of the tangent plane to the surface  \\(x^3 + y^3 \u003d 3xyz\\)  at the point  \\((1,2,\\frac32)\\)  is  \\(ax + by + 4z \u003d 0\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/742ae893-8e63-4c2d-8b1d-b9104fdd23cb",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/fc133f34-b60b-4d94-bda3-cee9f36c7669",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": "",
-      "uuid": "6625b919-c337-4a2f-938a-3e1f47338b8a",
+      "authorSolution": " \\(-2\\) ,  \\(-8\\) ,  \\(3\\) ,  \\(2\\) ,  \\(-2\\) ,  \\(-8\\) ,  \\(0\\) ,  \\(-2\\) ,  \\(-8\\) ,  \\(0\\) ",
+      "uuid": "ff06b9c8-8f6e-4fc2-b384-6ca1270398a6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361708,
+      "createdAt": 1437419362030,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Range",
-      "body": " Let  \\(f(x) \u003d x^3\\) ,  \\(g(x) \u003d x-2\\) , and  \\(h(x) \u003d \\sin x\\)  for all \\(x\\) .   Write each of the following functions in terms of  \\(f\\) ,  \\(g\\) , and \\(h\\) .    \u003ci\u003eExample.\u003c/i\u003e If  \\(k(x) \u003d \\sin^3(x-2)^3\\) , then  \\(k \u003d f \\circ h \\circ f \\circ g\\) .\n  (a) If  \\(k(x) \u003d \\sin^3x\\) , then  \\(k\\)  \u003d ________ .\n  (b) If  \\(k(x)\u003d \\sin x^3\\) , then  \\(k\\)  \u003d ________ .\n  (c) If  \\(k(x) \u003d \\sin(x^3-2)\\) , then  \\(k\\)  \u003d __________ .\n  (d) If  \\(k(x) \u003d \\sin(\\sin x - 2)\\) , then  \\(k\\)  \u003d __________ .\n  (e) If  \\(k(x) \u003d \\sin^3(\\sin^3(x-2)\\) , then  \\(k\\)  \u003d __________________ .\n  (f) If  \\(k(x) \u003d \\sin^9(x - 2)\\) , then  \\(k\\)  \u003d ______________ .\n  (g) If  \\(k(x) \u003d \\sin(x^3-8)\\) , then  \\(k\\)  \u003d ____________________ .\n  (h) If  \\(k(x) \u003d \\sin(x^3-6x^2+12x-8)\\) , then  \\(k\\)  \u003d __________ .",
+      "title": "Practice In Gradients Of Scalar Fields And Tangent Planes",
+      "body": " Let  \\(f(x,y) \u003d x^2 + 2y^2 - 4x - 4y +6\\)  and  \\(\\vec{ }p \u003d (1,-1)\\) .   The equation of the tangent plane to the surface  \\(z \u003d f(x,y)\\)  at  \\(\\vec{ }p\\)  is  \\(z \u003d ax + by + c\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.    The value of  \\(\\Delta f_{\\vec{ }p}\\)  at  \\((x,y)\\)  is  \\(x^2 + ay^2 + bx + cy + d\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___,  \\(c\\) \u003d___, and  \\(d\\) \u003d___.    The equation of the tangent plane to the surface  \\(z \u003d \\Delta f_{\\vec{ }p}(x,y)\\)  at  \\((0,0)\\)  is  \\(z \u003d ax + by + c\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions, word problem",
-      "url": "/practice-problem/6625b919-c337-4a2f-938a-3e1f47338b8a",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent, word problem",
+      "url": "/practice-problem/ff06b9c8-8f6e-4fc2-b384-6ca1270398a6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(-2\\) ",
-      "uuid": "5b27880b-5571-4c6e-ac9b-57f6e5d68a6f",
+      "authorSolution": " \\(a\\) ",
+      "uuid": "cac100c9-18e0-497a-b9c4-fca0dc5c9a90",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361709,
+      "createdAt": 1437419362031,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Functions Question",
-      "body": " Let  \\(h(x)\u003d\\arctan x\\)  for  \\(x\\ge0\\) ,  \\(g(x)\u003d\\cos x\\) , and  \\(f(x)\u003d(1-x^2)^{-1}\\) .   Find a number  \\(p\\)  such that  \\((f\\circ g\\circ h)(x)\u003d1+x^p\\) .   Answer:  \\(p\u003d\\)  _____.",
+      "title": "Question On Path Of Steepest Descent",
+      "body": " The sum of the intercepts of a plane tangent to the surface  \\(\\sqrt x + \\sqrt y + \\sqrt z \u003d \\sqrt a\\)  is ______.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/5b27880b-5571-4c6e-ac9b-57f6e5d68a6f",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/cac100c9-18e0-497a-b9c4-fca0dc5c9a90",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(x^3 - 4x^2 + 3x - 6\\) ",
-      "uuid": "de216f14-bb12-4e8d-8c06-6ca745981b8a",
+      "authorSolution": " \\(1\\) ,  \\(-8\\) ,  \\(1\\) ",
+      "uuid": "3e2ae089-4f4e-4a77-8a3c-c7e5722a1a39",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361710,
+      "createdAt": 1437419362031,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Bounded Below",
-      "body": " Let  \\(g(x) \u003d 2x-1\\) .   Find a function  \\(f\\)  such that  \\((f \\circ g)(x) \u003d 8x^3-28x^2+28x-14\\) .   Answer:  \\(f(x)\u003d\\)  _________________.",
+      "title": "Gradients Of Scalar Fields And Tangent Planes",
+      "body": " The equation of the tangent plane to the surface  \\(x^4 + y^4 + z^4 \u003d 18\\)  at the point  \\((1,-2,1)\\)  is  \\(ax + by + cz \u003d 18\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/de216f14-bb12-4e8d-8c06-6ca745981b8a",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/3e2ae089-4f4e-4a77-8a3c-c7e5722a1a39",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(\\dfrac9{17}\\) ",
-      "uuid": "d2a23864-db7c-446d-a880-54874466bc93",
+      "authorSolution": " \\(1\\) ,  \\(1\\) ,  \\(2\\) ",
+      "uuid": "67a66a1f-e6a2-4e01-b1c8-a764f79c74ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361710,
+      "createdAt": 1437419362031,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Bounded Above Question",
-      "body": " Let  \\(f(x)\u003d(x+4)^{-1/2}\\) ,  \\(g(x)\u003dx^2+1\\) ,  \\(h(x)\u003d(x-3)^{1/2}\\) , and  \\(j(x)\u003dx^{-1}\\) .   Then  \\((j \\circ ((g \\circ h)-(g \\circ f)))(5)\u003d\\)  _____.",
+      "title": "Tangent Plane",
+      "body": " The equation of the tangent plane to the surface  \\(ye^{xy} + z^2 \u003d 0\\)  at the point  \\((0,-1,1)\\)  is  \\(ax + by + cz \u003d 1\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/d2a23864-db7c-446d-a880-54874466bc93",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/67a66a1f-e6a2-4e01-b1c8-a764f79c74ec",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(3x + 5\\) ",
-      "uuid": "d48b5d79-2d2d-428c-b1ba-1baf4cc536a5",
+      "authorSolution": " \\(2\\) ,  \\(-3\\) ,  \\(1\\) ",
+      "uuid": "e285ea96-4124-4086-a4aa-9325243bc494",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361711,
+      "createdAt": 1437419362031,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Composition Of Functions Question",
-      "body": " Let  \\(f(x) \u003d x^3-5x^2+x-7\\) .   Find a function  \\(g\\)  such that  \\((f\\circ g)(x)  \u003d 27x^3+90x^2+78x-2\\) .   Answer:  \\(g(x)\u003d\\)  __________.",
+      "title": "Practice With Gradients Of Scalar Fields And Tangent Planes",
+      "body": " The equation of the tangent plane to the ellipsoid  \\(2x^2 + y^2 + z^2 \u003d 12\\)  at the point  \\((1,-3,1)\\)  is  \\(ax + by + cz \u003d 12\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/d48b5d79-2d2d-428c-b1ba-1baf4cc536a5",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/e285ea96-4124-4086-a4aa-9325243bc494",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     },
     {
-      "authorSolution": " \\(-2x\\) ,  \\(2x - 3\\) ",
-      "uuid": "c7d6262f-dfa2-40d5-9fdf-705424e52f02",
+      "authorSolution": " \\(10\\) ",
+      "uuid": "6ef53541-674c-4cc3-87e1-1322e0568969",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361712,
+      "createdAt": 1437419362031,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Codomain Practice",
-      "body": " Let  \\(f(x) \u003d x^2+3x+4\\) .   Find two functions  \\(g\\)  such that  \\((f \\circ g)(x)   \u003d 4x^2-6x+4\\) .   Answer:  \\(g(x)\u003d\\)  ______ and  \\(g(x)\u003d\\)  ______.",
+      "title": "Practice In Tangent Plane",
+      "body": " Let  \\(f(x,y,z) \u003d x^2y - y^2z\\) .    The directional derivative of f at the point  \\((2,1,1)\\)  in the direction of the curve  \\(\\vec{ }r(t) \u003d (2\\cos(t - 1), t, \\exp(t^4 - t))\\)  is  \\(-\\dfrac1{\\sqrt a}\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/c7d6262f-dfa2-40d5-9fdf-705424e52f02",
+      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
+      "url": "/practice-problem/6ef53541-674c-4cc3-87e1-1322e0568969",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
-    },
-    {
-      "authorSolution": " \\(x^2 - 2x + 3\\) ",
-      "uuid": "b7477003-d20c-450e-a2b3-f217af1acf59",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361712,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Composition Of Functions",
-      "body": " Let  \\(g(x) \u003d x^2+x-1\\) .   Find a function  \\(f\\)  such that  \\((f \\circ g)(x) \u003d x^4+2x^3-3x^2-4x+6\\) .   Answer:  \\(f(x)\u003d\\)  ____________.",
-      "allAnswers": [],
-      "tags": "functions, functions ,domain ,codomain ,range ,bounded above ,bounded below ,composition of functions",
-      "url": "/practice-problem/b7477003-d20c-450e-a2b3-f217af1acf59",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
-    },
-    {
-      "authorSolution": " \\(-4\\) ",
-      "uuid": "2c20b785-e248-4428-8578-a3d6caf7b227",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361732,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Left- And Right-hand Limits Question",
-      "body": "  \\(\\lim_{x \\sto 3} \\frac{x^3-13x^2+51x-63}{x^3-4x^2-3x+18} \u003d \\dfrac a5\\)  where  \\(a\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
-      "url": "/practice-problem/2c20b785-e248-4428-8578-a3d6caf7b227",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
-    },
-    {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "0d137068-6283-4a35-a3a7-5d78d41f28e7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361734,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Limit Of F(x) As X Approaches Infinity",
-      "body": "  \\(\\lim_{x \\sto 1} \\dfrac{x^3-x^2+2x-2}{x^3+3x^2-4x} \u003d \\dfrac3a\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
-      "url": "/practice-problem/0d137068-6283-4a35-a3a7-5d78d41f28e7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
-    },
-    {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "fea6c736-1259-4062-b9f5-d6b4dc15aab3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361735,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Of F(x) As X Approaches Infinity Practice",
-      "body": "  \\(\\lim_{x \\sto 0} \\frac{\\sqrt{x+9}-3}x\u003d \\dfrac 1a\\)  where  \\(a\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
-      "url": "/practice-problem/fea6c736-1259-4062-b9f5-d6b4dc15aab3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
-    },
-    {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "1cef0bc9-5331-4c0c-8dee-71a5e11096e3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361735,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Limit Of F(x) As X Approaches~a",
-      "body": "  \\(\\lim_{x \\sto 2} \\frac{x^3-x^2-8x+12}{x^3-10x^2+28x-24}\u003d -\\frac a4\\)  where  \\(a\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "limits, limit of f(x) as x approaches~a ,limit of f(x) as x approaches infinity ,left- and right-hand limits",
-      "url": "/practice-problem/1cef0bc9-5331-4c0c-8dee-71a5e11096e3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
+      "topic": "c41432a8-3853-41c2-946a-bf8e7f6684c7"
     }
   ],
   "questions": [
-    {
-      "uuid": "18ed662b-6953-4890-93e0-49034614ba1f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Antiderivative",
-      "body": "\\(\\int 5x^4 \\sin(x^5+3) \\d x\\)",
-      "allAnswers": [],
-      "tags": "antiderivatives, definite, indefinite, integrals, sum rule",
-      "url": "/question/18ed662b-6953-4890-93e0-49034614ba1f",
-      "source": "Mooculus 11.1.30",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
-    },
-    {
-      "uuid": "41a5b13b-14f3-4caa-8134-7b68e855bf52",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Integration by Substitution",
-      "body": "\\(\\int\\)(x\\(^{2}\\)+1)\\(^{2}\\)dx",
-      "allAnswers": [],
-      "tags": "integration by substitution, integration, substitution ",
-      "url": "/question/41a5b13b-14f3-4caa-8134-7b68e855bf52",
-      "source": "Mooculus 14.1.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
-    },
-    {
-      "uuid": "e5872979-4ac8-4fae-a7f6-e6a18ba2ca97",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Integration by Substitution",
-      "body": "\\(\\int\\)x(x\\(^{2}\\)+1)\\(^{100}\\)dx",
-      "allAnswers": [],
-      "tags": "integration by substitution, integration, substitution ",
-      "url": "/question/e5872979-4ac8-4fae-a7f6-e6a18ba2ca97",
-      "source": "Mooculus 14.1.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
-    },
-    {
-      "uuid": "b239869f-f9c7-412a-8fe8-d268d54aad17",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equation Practice",
-      "body": "You toss a ball from a height height of 1 meter with an upward\nvelocity of 10 meters per second. What is the velocity of the ball\nafter 1.25 seconds?",
-      "allAnswers": [],
-      "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
-      "url": "/question/b239869f-f9c7-412a-8fe8-d268d54aad17",
-      "source": "Mooculus 11.2.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
-    },
-    {
-      "uuid": "587b0ee4-13f5-4038-af26-e27548a1ed98",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Integration by Substitution",
-      "body": "\\(\\int\\)\\(\\frac{1}{\\sqrt[3]{1-5t}}\\)dt",
-      "allAnswers": [],
-      "tags": "integration by substitution, integration, substitution ",
-      "url": "/question/587b0ee4-13f5-4038-af26-e27548a1ed98",
-      "source": "Mooculus 14.1.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
-    },
-    {
-      "uuid": "01583886-d498-411d-85be-a4302901c5d8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equation Practice",
-      "body": "You toss a ball from a height height of 1.5 meters with an upward\nvelocity of 12 meters per second. When does the ball hit the ground?",
-      "allAnswers": [],
-      "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
-      "url": "/question/01583886-d498-411d-85be-a4302901c5d8",
-      "source": "Mooculus 11.2.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
-    },
-    {
-      "uuid": "c0f06735-e1ff-4a90-9c6a-e46fe6f36c61",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equation Practice",
-      "body": "A culture of bacteria starts with 250 cells. After 120 minutes, there\nare 400 cells. Assuming that the growth rate of the bacteria is\nproportional to the number of cells present, estimate when the\nculture will have 2000 cells.",
-      "allAnswers": [],
-      "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
-      "url": "/question/c0f06735-e1ff-4a90-9c6a-e46fe6f36c61",
-      "source": "Mooculus 11.2.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
-    },
-    {
-      "uuid": "934d3f7f-5082-421f-8e7d-97ae0049278e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Integration by Substitution",
-      "body": "\\(\\int\\)\\(\\sin^{3}\\)x\\(\\cos\\)x dx",
-      "allAnswers": [],
-      "tags": "integration by substitution, integration, substitution ",
-      "url": "/question/934d3f7f-5082-421f-8e7d-97ae0049278e",
-      "source": "Mooculus 14.1.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
-    },
-    {
-      "uuid": "e5a06042-c151-4c46-a245-23e8c490fb55",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equation Practice",
-      "body": "A culture of bacteria starts with 310 cells. After 72 minutes, there\nare 500 cells. Assuming that the growth rate of the bacteria is\nproportional to the number of cells present, estimate how long it takes the\npopulation to double, and then how much longer it takes for the population to double again.",
-      "allAnswers": [],
-      "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
-      "url": "/question/e5a06042-c151-4c46-a245-23e8c490fb55",
-      "source": "Mooculus 11.2.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
-    },
-    {
-      "uuid": "ba7b46cf-174a-4142-b937-b9d14dfa90e7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equation Practice",
-      "body": "Uranium-232 has a half life of 68.9 years. If the rate of decay is\nproportional to the amount of uranium-232 and one started with a 10\ngram sample, how many grams of uranium-232 are left after 34.45 years?",
-      "allAnswers": [],
-      "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
-      "url": "/question/ba7b46cf-174a-4142-b937-b9d14dfa90e7",
-      "source": "Mooculus 11.2.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
-    },
-    {
-      "uuid": "9fff87b1-b812-45cc-a4da-fa605487dc46",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Integration by Substitution",
-      "body": "\\(\\int\\)x\\(\\sqrt{100-x^{2}}\\)dx",
-      "allAnswers": [],
-      "tags": "integration by substitution, integration, substitution ",
-      "url": "/question/9fff87b1-b812-45cc-a4da-fa605487dc46",
-      "source": "Mooculus 14.1.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
-    },
     {
       "uuid": "f6452399-5c86-4318-8ceb-88f055f49dca",
       "contentType": "question",
@@ -493,7 +216,7 @@
       "tags": "antiderivatives, definite, indefinite, integrals, sum rule, differential equations",
       "url": "/question/f6452399-5c86-4318-8ceb-88f055f49dca",
       "source": "Mooculus 11.2.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "62630514-0714-4b50-b3b6-2b72a87a512a"
     },
     {
       "uuid": "00183bb6-1a49-40d0-8e1e-8d6c29aef6ee",
@@ -510,7 +233,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/00183bb6-1a49-40d0-8e1e-8d6c29aef6ee",
       "source": "Mooculus 14.1.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "290bb771-4c9c-4b29-a227-ea227144125a",
@@ -527,7 +250,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/290bb771-4c9c-4b29-a227-ea227144125a",
       "source": "Mooculus 14.1.8",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "42c18184-0031-4f3d-a603-5c1b9ed68790",
@@ -544,7 +267,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/42c18184-0031-4f3d-a603-5c1b9ed68790",
       "source": "Mooculus 14.1.9",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "ed8b04fc-f451-422b-8347-138917534a5b",
@@ -561,7 +284,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/ed8b04fc-f451-422b-8347-138917534a5b",
       "source": "Mooculus 14.1.10",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "a4c917c4-1204-477b-ba75-f3809072d0ee",
@@ -578,7 +301,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/a4c917c4-1204-477b-ba75-f3809072d0ee",
       "source": "Mooculus 14.1.11",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "23bfdc50-3cbc-490b-9cf5-9a147508ad77",
@@ -595,7 +318,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/23bfdc50-3cbc-490b-9cf5-9a147508ad77",
       "source": "Mooculus 14.1.12",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "2b279fd6-e1d0-4290-a82f-74ef49e72db3",
@@ -612,7 +335,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/2b279fd6-e1d0-4290-a82f-74ef49e72db3",
       "source": "Mooculus 14.1.13",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "0bf4f2b3-cd1c-48ab-8ca6-d3ad21efde62",
@@ -629,7 +352,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/0bf4f2b3-cd1c-48ab-8ca6-d3ad21efde62",
       "source": "Mooculus 14.1.14",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "7fccd1e9-6e52-4dcc-abad-211bfa1628bd",
@@ -646,7 +369,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/7fccd1e9-6e52-4dcc-abad-211bfa1628bd",
       "source": "Mooculus 14.1.15",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "00e28d31-eebb-4c09-8eeb-a2a3ce7ab62b",
@@ -663,7 +386,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/00e28d31-eebb-4c09-8eeb-a2a3ce7ab62b",
       "source": "Mooculus 14.1.16",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "857b94b0-1b8b-4da8-b45a-81d15ffe73d0",
@@ -680,7 +403,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/857b94b0-1b8b-4da8-b45a-81d15ffe73d0",
       "source": "Mooculus 14.1.17",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "27877513-2729-4607-92c3-c353b275984b",
@@ -697,7 +420,7 @@
       "tags": "definite, integrals, accumulation functions, area, antiderivatives, riemann sum, summation notation",
       "url": "/question/27877513-2729-4607-92c3-c353b275984b",
       "source": "Mooculus 12.2.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "f6fdb887-9ad3-4e7f-b864-79ad37e7149f",
@@ -714,7 +437,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/f6fdb887-9ad3-4e7f-b864-79ad37e7149f",
       "source": "Mooculus 14.1.18",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "38844396-90de-4677-9437-67df8d6a8bff",
@@ -731,7 +454,7 @@
       "tags": "definite, integrals, accumulation functions, area, antiderivatives, riemann sum, summation notation",
       "url": "/question/38844396-90de-4677-9437-67df8d6a8bff",
       "source": "Mooculus 12.2.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "c12751f1-644a-4e49-9736-dcdfdb8db169",
@@ -748,7 +471,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/c12751f1-644a-4e49-9736-dcdfdb8db169",
       "source": "Mooculus 14.1.19",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "479d1599-ca66-49a1-ade5-fc9287bf4a9e",
@@ -765,7 +488,7 @@
       "tags": "integration by substitution, integration, substitution ",
       "url": "/question/479d1599-ca66-49a1-ade5-fc9287bf4a9e",
       "source": "Mooculus 14.1.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution"
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
     },
     {
       "uuid": "7f23d7fd-bb46-43ac-b917-6bff481236ef",
@@ -782,7 +505,7 @@
       "tags": "definite, integrals, accumulation functions, area, antiderivatives, riemann sum, summation notation",
       "url": "/question/7f23d7fd-bb46-43ac-b917-6bff481236ef",
       "source": "Mooculus 12.2.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "750d0bdc-0195-4de7-b276-0d18917fe97a",
@@ -799,7 +522,7 @@
       "tags": "definite, integrals, accumulation functions, area, antiderivatives, riemann sum, summation notation",
       "url": "/question/750d0bdc-0195-4de7-b276-0d18917fe97a",
       "source": "Mooculus 12.2.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "3e423d35-5e56-42c2-b0d4-e38ee37a8e45",
@@ -816,7 +539,7 @@
       "tags": "definite, integrals, accumulation functions, area, antiderivatives, riemann sum, summation notation",
       "url": "/question/3e423d35-5e56-42c2-b0d4-e38ee37a8e45",
       "source": "Mooculus 12.2.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "a66dab69-83c7-4131-ada8-3ae43a162907",
@@ -833,7 +556,7 @@
       "tags": "antiderivatives, integration, integration of trigonometry",
       "url": "/question/a66dab69-83c7-4131-ada8-3ae43a162907",
       "source": "Mooculus 14.2.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
     },
     {
       "uuid": "9b9e557c-3095-4409-89be-141990530c53",
@@ -850,7 +573,7 @@
       "tags": "definite, integrals, accumulation functions, area, antiderivatives, riemann sum, summation notation",
       "url": "/question/9b9e557c-3095-4409-89be-141990530c53",
       "source": "Mooculus 12.2.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "d26e4a78-d875-487b-abe4-c7adcbf997da",
@@ -867,7 +590,7 @@
       "tags": "antiderivatives, integration, integration of trigonometry",
       "url": "/question/d26e4a78-d875-487b-abe4-c7adcbf997da",
       "source": "Mooculus 14.2.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
     },
     {
       "uuid": "5795c9ea-3010-40be-96ff-d0be316aeccc",
@@ -884,7 +607,7 @@
       "tags": "antiderivatives, integration, integration of trigonometry",
       "url": "/question/5795c9ea-3010-40be-96ff-d0be316aeccc",
       "source": "Mooculus 14.2.3",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
     },
     {
       "uuid": "61730b20-e82d-4c20-be1f-34f62ed1bb25",
@@ -901,7 +624,7 @@
       "tags": "antiderivatives, integration, integration of trigonometry",
       "url": "/question/61730b20-e82d-4c20-be1f-34f62ed1bb25",
       "source": "Mooculus 14.2.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
     },
     {
       "uuid": "ff03024b-4fda-4bbe-8242-77df06971602",
@@ -918,7 +641,194 @@
       "tags": "antiderivatives, integration, integration of trigonometry",
       "url": "/question/ff03024b-4fda-4bbe-8242-77df06971602",
       "source": "Mooculus 14.2.5",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
+    },
+    {
+      "uuid": "c25fb89b-049c-43e7-bad2-aa99582c175e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Powers of Sine and Cosine",
+      "body": "Find the antiderivatives \n\\(\\int \\sin^{2}x \\cos^{2}x\\) dx",
+      "allAnswers": [],
+      "tags": "antiderivatives, integration, integration of trigonometry",
+      "url": "/question/c25fb89b-049c-43e7-bad2-aa99582c175e",
+      "source": "Mooculus 14.2.6",
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
+    },
+    {
+      "uuid": "c337e07f-113c-4ea6-8dda-cca15a8acc5c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Powers of Sine and Cosine",
+      "body": "\\(\\int \\cos^{3}x \\sin^{2}x\\) dx",
+      "allAnswers": [],
+      "tags": "antiderivatives, integration, integration of trigonometry",
+      "url": "/question/c337e07f-113c-4ea6-8dda-cca15a8acc5c",
+      "source": "Mooculus 14.2.7",
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
+    },
+    {
+      "uuid": "a3ee8c22-615f-405e-9f23-9a25e011dc6d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Powers of Sine and Cosine",
+      "body": "\\(\\int \\sin x(\\cos x)^{3/2}\\) dx",
+      "allAnswers": [],
+      "tags": "antiderivatives, integration, integration of trigonometry",
+      "url": "/question/a3ee8c22-615f-405e-9f23-9a25e011dc6d",
+      "source": "Mooculus 14.2.8",
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
+    },
+    {
+      "uuid": "d3c9522e-db15-4294-aa4f-c3ad06d757d7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Powers of Sine and Cosine",
+      "body": "\\(\\int \\sec^{2} x \\csc^{2} x\\) dx",
+      "allAnswers": [],
+      "tags": "antiderivatives, integration, integration of trigonometry",
+      "url": "/question/d3c9522e-db15-4294-aa4f-c3ad06d757d7",
+      "source": "Mooculus 14.2.9",
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
+    },
+    {
+      "uuid": "8fda7c5c-fa00-498b-a899-2c2242f43e48",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Powers of Sine and Cosine",
+      "body": "\\(\\int \\tan^{3} x \\sec x\\) dx",
+      "allAnswers": [],
+      "tags": "antiderivatives, integration, integration of trigonometry",
+      "url": "/question/8fda7c5c-fa00-498b-a899-2c2242f43e48",
+      "source": "Mooculus 14.2.10",
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
+    },
+    {
+      "uuid": "738f4505-531c-4d6d-97ad-0c9a0116eae1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Definite Integral",
+      "body": "\\(\\int_1^4 t^2+3t\\d t\\)",
+      "allAnswers": [],
+      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives",
+      "url": "/question/738f4505-531c-4d6d-97ad-0c9a0116eae1",
+      "source": "Mooculus 13.1.1",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "38e59889-4e26-4179-8a4c-84ebec138c34",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Definite Integral",
+      "body": "\\(\\int_0^\\pi \\sin t\\d t\\)",
+      "allAnswers": [],
+      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives",
+      "url": "/question/38e59889-4e26-4179-8a4c-84ebec138c34",
+      "source": "Mooculus 13.1.2",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "be018d78-db7a-4014-850d-c565cfc3ac6e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Definite Integral",
+      "body": "\\(\\int_1^{10} {1\\over x}\\d x\\)",
+      "allAnswers": [],
+      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives",
+      "url": "/question/be018d78-db7a-4014-850d-c565cfc3ac6e",
+      "source": "Mooculus 13.1.3",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "25085610-8ced-4ea6-8a19-d4b69586bbe8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Integration by Parts",
+      "body": "Compute the indefinite integrals.\n\\(\\int\\) x\\(\\cos\\)x dx",
+      "allAnswers": [],
+      "tags": "indefinite integrals, integrals",
+      "url": "/question/25085610-8ced-4ea6-8a19-d4b69586bbe8",
+      "source": "Mooculus 14.3.1",
+      "topic": "62630514-0714-4b50-b3b6-2b72a87a512a"
+    },
+    {
+      "uuid": "fa6170a2-cd26-4983-a9e3-075b4b7b40bf",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Integration by Parts",
+      "body": "Compute the indefinite integrals.\n\\(\\int\\) x\\(^{2}\\)\\(\\cos\\)x dx",
+      "allAnswers": [],
+      "tags": "integrals, indefinite integrals ",
+      "url": "/question/fa6170a2-cd26-4983-a9e3-075b4b7b40bf",
+      "source": "Mooculus 14.3.2",
+      "topic": "62630514-0714-4b50-b3b6-2b72a87a512a"
+    },
+    {
+      "uuid": "2eebd455-8dc6-40ea-b93e-ba747537a1d8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Integration by Parts",
+      "body": "Compute the indefinite integrals.\n\\(\\int\\)xe\\(^{x}\\) dx",
+      "allAnswers": [],
+      "tags": "indefinite integrals, integrals",
+      "url": "/question/2eebd455-8dc6-40ea-b93e-ba747537a1d8",
+      "source": "Mooculus 14.3.3",
+      "topic": "62630514-0714-4b50-b3b6-2b72a87a512a"
     }
   ],
   "textContent": [
@@ -937,7 +847,7 @@
       "tags": "ratio tests, root tests, limit, series of constants, convergence, divergence ",
       "url": "/text-content/2d951a55-b4f9-44c2-a445-1cce81374d83",
       "source": "Forgotten Text 4 10.5",
-      "topic": "Calculus/Sequences and Series/Ratio and Root Tests"
+      "topic": "08e5bff2-09f9-45ff-a3d8-9250512f34d7"
     },
     {
       "uuid": "a858ccd4-fcf0-4999-800d-1f0bf4e4ee48",
@@ -954,7 +864,7 @@
       "tags": "taylor series, taylor polynomials, derivatives, integrals ",
       "url": "/text-content/a858ccd4-fcf0-4999-800d-1f0bf4e4ee48",
       "source": "Forgotten Text 4 11.1",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Taylor Polynomials"
+      "topic": "ab61550e-d531-4d67-874a-ed44f5ed553e"
     },
     {
       "uuid": "ff6092ec-1d54-4895-9ffc-5eb208ddd5ff",
@@ -971,9 +881,99 @@
       "tags": "taylor series, accuracy, derivative, integral ",
       "url": "/text-content/ff6092ec-1d54-4895-9ffc-5eb208ddd5ff",
       "source": "Forgotten Text 4 11.2",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Accuracy of Pn(x)"
+      "topic": "9f997ed2-6974-4c25-a64f-66c08fddab8f"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "339fbaa8-fdf1-424f-8607-2e76488ecf7c",
+      "subTopics": [],
+      "parentTopics": [
+        "e583a88c-2765-426d-89c5-e06a0e0b3d92"
+      ],
+      "title": "Law of Sine",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "fundamental identities, intervals, rate of change, trig , cos,law of sines, fundamental identities, tan, even function, word problem, volume, sin, sines, function,functions,odd function,",
+      "difficulty": 200000,
+      "contentUuids": [
+        "a30661c2-59a5-45f1-bb9f-60d8ff109629",
+        "ba029ec0-ff6f-495e-a971-88d926bfdada",
+        "03ba60a4-2d68-4321-9647-6b23e6935e08",
+        "f11e4cb8-15fc-42f9-8be4-27dcf4bf93a5",
+        "7b6bba3b-dd04-4904-b102-5612b138aefa",
+        "a6d20954-c20c-4c6e-8868-c35e9122f376",
+        "56644ca8-2261-4108-81a4-dc6b84eb2228",
+        "1e0f50f0-dde6-46f4-a826-2f9a293a2824",
+        "0ca50680-5882-4cf5-9a37-1ee441c4da91",
+        "28602c37-567d-43ec-9ee6-59a284ee3806"
+      ]
+    },
+    {
+      "uuid": "625081f8-b127-4e59-8b11-dca572b533e2",
+      "subTopics": [],
+      "parentTopics": [
+        "05273aba-df0a-4de5-820b-034b4291f211"
+      ],
+      "title": "Concave Up",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " velocity, graph, concave down, concave up, intervals,quadratic functions, piecewise, antiderivatives, maximum, minimum, functions,intervals, relative, definite integrals, fundamental theorem of calculus,quadratic, integrals, second fundamental theorem of calculus,",
+      "difficulty": 530000,
+      "contentUuids": [
+        "59624513-596e-4e50-8812-4e5f862f75cf",
+        "1f7d7123-c832-4129-b9bb-cfaf08acf277",
+        "85de5695-67e9-4163-b8b6-bbdd494a343a",
+        "1fdcbdb3-75be-4931-9f7c-71556ebf05c9",
+        "6622c727-b148-49c8-84e3-18b2c9021af9",
+        "0d422a2e-ef55-4e77-8c36-ea425537ec9f",
+        "48619fdc-6230-4fad-9e5b-dd28095e382a",
+        "eb8ecd23-6c14-44a1-a5c9-cc57de7353e4"
+      ]
+    },
+    {
+      "uuid": "0706c155-0760-4160-8d55-2a5a3916204d",
+      "subTopics": [],
+      "parentTopics": [
+        "1441ba09-76ce-498e-862a-b5638a6a1798"
+      ],
+      "title": "Infinity",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " asymptotes, local minimum, inflection points, intercepts,curves, local maximum,local maximum, concavity,function, intercepts , intervals, asymptote, function, area,interval,maximum value, infinity , function concave up, word problem, optimization word problem, interval,vertical asymptote, minimum value, domain,word problem,optimization, graph, optimization, semicircle,sketching function, horizontal asymptote, rectangle, concave down, optimization word problems, inflection point, concavity ,",
+      "difficulty": 534000,
+      "contentUuids": [
+        "e789fd6b-3b2e-4e96-b389-cca80f9dc825",
+        "7be3461a-f1a1-4332-9f03-5fe18d28a974",
+        "10db0d03-0482-4f16-93a4-66e72f4b1874",
+        "f8ce26fa-e0aa-49b7-a25d-bdffff5c2e2f",
+        "2c3fce82-7ea4-40bd-bfaf-24b68f1f252f",
+        "33973249-cf5e-4c1b-8b0c-93ab2d843b3a",
+        "7e7c0367-a1e6-485f-bbf0-56d1744f7ada",
+        "d99d0178-3e92-4066-96e9-3598a8f55e2a",
+        "6d66d496-10cc-4df0-9ffa-dbff6f926cb6",
+        "681c1d42-63ee-46b1-ab8a-1331e228662a",
+        "c89c2fb9-0110-4890-a81a-90a7066cd10f",
+        "6f8d362a-c4b7-4c30-8720-bc0da6dce4df",
+        "4d51f9b7-c7d9-4bda-827c-b2bdb1fe3102",
+        "0552b50c-62bc-44ef-94f1-ffa3c5198a6d",
+        "e6d6631d-fca8-4394-bcc7-9fa7a83bf81a",
+        "3ef48582-848e-44f4-a3ff-6e6833f0fdd9",
+        "c6edc782-1c26-42c8-a024-d1ac38b9dcc7",
+        "e3055834-6224-4150-b654-80cd943ecf76",
+        "290ecc2c-b862-4f73-a936-c98d65d0add3",
+        "01c244e0-031d-412e-b66f-20d929e2c9c5",
+        "43a4252b-10fd-4013-b032-7eebb019ed7e",
+        "4af6d411-c4c1-46c2-97b5-4d10624bcc6a",
+        "51016ef3-fe56-48b8-8f01-33656cb9c9ce",
+        "77e7ac11-86e4-4f02-aeec-d413abb3a1ef",
+        "59a25263-0d57-4722-9a7f-3491441c427e",
+        "22e1729a-f8d2-4e0f-8310-617bfbceba72",
+        "6fadfe75-807a-4df2-856b-ea3de0d8ace3",
+        "3cf0cc1c-552f-415c-b3de-f6be9bab4a16",
+        "6dd77f92-1d93-4531-82b6-d7dff4df6611"
+      ]
+    }
+  ]
 }

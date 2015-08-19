@@ -2,413 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(\\dfrac97\\) ,  \\(\\dfrac{11}7\\) ",
-      "uuid": "408ed841-494f-467f-8842-d1b84ed52dac",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10064.png\"/\u003e",
+      "uuid": "263302ec-0cae-4cf6-ad11-e0b167df405a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361989,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Vector And Metric Properties Of $\\r^n$ Practice",
-      "body": " Let  \\(\\vec{ }x \u003d (3,2)\\) ,  \\(\\vec{ }y \u003d (2,-1)\\)  and  \\(\\vec{ }z \u003d (7,1)\\)  be vectors in the plane.    We know that  \\(\\vec{ }z\\)  is a linear combination of  \\(\\vec{ }x\\)  and  \\(\\vec{ }y\\)  because  \\(\\vec{ }z \u003d \\alpha\\vec{ }x + \\beta\\vec{ }y\\)  where  \\(\\alpha\\) \u003d___ and  \\(\\beta\\) \u003d___.",
+      "title": "Conditionals and Truth Values",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10062.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/408ed841-494f-467f-8842-d1b84ed52dac",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "conditionals, logic, converses, inverses, truth value",
+      "url": "/practice-problem/263302ec-0cae-4cf6-ad11-e0b167df405a",
+      "source": "null 2.6.2"
     },
     {
-      "authorSolution": " \\(-\\dfrac52\\) ",
-      "uuid": "ec332f35-5824-4c87-bc66-9b221f4842e8",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10066.png\"/\u003e",
+      "uuid": "0c163f32-ef9a-45ad-8332-1a8c05ba1070",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361989,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Vector And Metric Properties Of $\\r^n$",
-      "body": " Let  \\(\\vec{ }x \u003d (1,0,1)\\) ,  \\(\\vec{ }y \u003d (0,1,1)\\) , and  \\(\\vec{ }z \u003d (1,2,3)\\) .   The only number  \\(\\alpha\\)  such that  \\(\\alpha\\vec{ }x + 2\\vec{ }y\\)  is perpendicular to  \\(\\vec{ }z\\)  is  \\(\\alpha\\)  \u003d _____.",
+      "title": "Drawing Conclusions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10065.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/ec332f35-5824-4c87-bc66-9b221f4842e8",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "conditionals, logic, conclusions, truth value",
+      "url": "/practice-problem/0c163f32-ef9a-45ad-8332-1a8c05ba1070",
+      "source": "null 2.6.3"
     },
     {
-      "authorSolution": " \\(\\dfrac12\\) ,  \\(1\\) ",
-      "uuid": "b1337add-3a4e-478b-9f52-9ee3ea775ce4",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30093.png\"/\u003e",
+      "uuid": "72f00411-b9d7-466b-a672-5ad7dc2a57ea",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361989,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Vector And Metric Properties Of $\\r^n$",
-      "body": " Find all numbers  \\(\\alpha\\)  such that the vectors  \\(2\\alpha \\vec{ }i - 2 \\vec{ }j - \\vec{ }k\\)  and  \\(2\\alpha\\vec{ }i + 3\\alpha\\vec{ }j - 2\\vec{ }k\\)  are perpendicular.   Answer:  \\(\\alpha\\)  \u003d ____ and ___.",
+      "title": "Angle Bisector of a Triangle Proof",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30092.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/b1337add-3a4e-478b-9f52-9ee3ea775ce4",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "angle bisector of a triangle, angle bisector, geometry proof",
+      "url": "/practice-problem/72f00411-b9d7-466b-a672-5ad7dc2a57ea",
+      "source": "null 5.1"
     },
     {
-      "authorSolution": " \\(\\dfrac34\\) ",
-      "uuid": "6cc09b3d-bb46-44c5-8777-0072de8a4f64",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10070.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10071.png\"/\u003e",
+      "uuid": "8ef4766c-66c1-474e-982c-6a0c479fb084",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361989,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Vector And Metric Properties Of $\\r^n$",
-      "body": " The angle in  \\(\\R^3\\)  between the vectors  \\((-3,1,2)\\)  and  \\((1,2,-3)\\)  is  \\(a\\pi\\)  where  \\(a\\) \u003d_____.",
+      "title": "Practicing Logic",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10069.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/6cc09b3d-bb46-44c5-8777-0072de8a4f64",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "conditionals, logic, symbols, word problem",
+      "url": "/practice-problem/8ef4766c-66c1-474e-982c-6a0c479fb084",
+      "source": "null 2.8.1"
     },
     {
-      "authorSolution": " \\(-2\\) ,  \\(3\\) ",
-      "uuid": "e7f70d43-ffe7-4abb-9a17-264a471d18e3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10074.png\"/\u003e",
+      "uuid": "df126874-a91c-4e5e-a8b0-3108903dcfb2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361990,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
-      "body": " Let  \\(\\vec{ }x \u003d (1,1,-1)\\)  and  \\(\\vec{ }y \u003d (2,0,3)\\)  .   Find a scalar  \\(\\alpha\\)  such that  \\(\\vec{ }x + \\alpha \\vec{ }y \\perp \\vec{ }x\\)  .   \\\\ Answer:  \\(\\alpha\\)  \u003d ___.",
+      "title": "Practicing Logic",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10072.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/e7f70d43-ffe7-4abb-9a17-264a471d18e3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "logic, conditionals, biconditionals, word problem",
+      "url": "/practice-problem/df126874-a91c-4e5e-a8b0-3108903dcfb2",
+      "source": "null 2.8.2"
     },
     {
-      "authorSolution": " \\(-\\dfrac13\\) ",
-      "uuid": "f76744d1-a99b-4a73-9ad4-ee556ace5746",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30103.png\"/\u003e",
+      "uuid": "1ababb55-8c64-4e29-84be-36c261335a08",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361990,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
-      "body": " Suppose that the hydrogen atoms of a methane molecule  \\(\\mathrm{CH}_4\\)  are located at  \\((0,0,0)\\) ,  \\((1,1,0)\\) ,  \\((0,1,1)\\) , and  \\((1,0,1)\\)  while the carbon atom is at  \\((\\frac12,\\frac12,\\frac12)\\) .    Find the cosine of the angle  \\(\\theta\\)  between two rays starting at the carbon atom and going to different hydrogen atoms.    Answer:  \\(\\cos \\theta\\)  \u003d ___ .",
+      "title": "Overlapping Angle Practice",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30102.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/f76744d1-a99b-4a73-9ad4-ee556ace5746",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "overlapping triangles proof, shared angle proof",
+      "url": "/practice-problem/1ababb55-8c64-4e29-84be-36c261335a08",
+      "source": "null 5.5.1"
     },
     {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "a441fe8d-6b01-4077-8e38-5b6e98fcd80c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30111.png\"/\u003e",
+      "uuid": "4750b61f-f286-402f-b175-c0b8bc97478c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361990,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Vector And Metric Properties Of $\\r^n$ Practice",
-      "body": " The length of the vector  \\((2,-2,0,3,-2,2)\\)  in  \\(\\R^6\\)  is _____.",
+      "title": "Perpendicular Bisectors and Isosceles Triangle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30110.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/a441fe8d-6b01-4077-8e38-5b6e98fcd80c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "Perpendicular bisector, midpoint, right triangle congruence, isosceles triangle",
+      "url": "/practice-problem/4750b61f-f286-402f-b175-c0b8bc97478c",
+      "source": "null 5.6.1"
     },
     {
-      "authorSolution": " \\(a\\) ,  \\(b\\) ,  \\(c\\) ,  \\(d\\) ,  \\(e\\) ,  \\(f\\) ",
-      "uuid": "e9c5d9d8-8a11-4caf-b8c6-74fd3e3e0ece",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10079.png\"/\u003e",
+      "uuid": "e5efa2d8-5874-4155-81e8-984c10959908",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361991,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
-      "body": " If  \\(a\\) ,  \\(b\\) ,  \\(c\\) ,  \\(d\\) ,  \\(e\\) ,  \\(f \\in \\R\\) , then          \\[ \\abs{ad + be + cf} \\le \\sqrt{a^2 + b^2 + c^2}\\sqrt{d^2 + e^2 + f^2}.   \\] The proof of this inequality is obvious since this is just the \u003ci\u003eSchwarz inequality\u003c/i\u003e where \\\\  \\(\\vec{ }x\\)  \u003d ( __ , __ , __ ) and  \\(\\vec{ }y\\)  \u003d ( __ , __ , __).",
+      "title": "Midpoint Proof",
+      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10078.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/e9c5d9d8-8a11-4caf-b8c6-74fd3e3e0ece",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "geometry proof, midpoint, line, line segment",
+      "url": "/practice-problem/e5efa2d8-5874-4155-81e8-984c10959908",
+      "source": "null 2.7.1"
     },
     {
-      "authorSolution": " \\(12\\) ",
-      "uuid": "8b85fd89-ac0d-450a-b735-13bfe059921d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/40.png\"/\u003e",
+      "uuid": "6c8b544e-a0b1-462b-bf7e-1ccab464177a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361991,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Vector And Metric Properties Of $\\r^n$",
-      "body": " The volume of the parallelepiped generated by the three vectors  \\(\\vec{ }i  +  2\\vec{ }j  -  \\vec{ }k\\) ,   \\(\\vec{ }j  +  \\vec{ }k\\) , and  \\(3\\vec{ }i - \\vec{ }j + 2\\vec{ }k\\)  is\\underbar{\\hphantom{0000}}.",
+      "title": "Slope of line",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/39.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/8b85fd89-ac0d-450a-b735-13bfe059921d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "slope of line, slope ",
+      "url": "/practice-problem/6c8b544e-a0b1-462b-bf7e-1ccab464177a",
+      "source": "null 8.1.2"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(1\\) ,  \\(5\\) ,  \\(-1\\) ",
-      "uuid": "b889d17b-0c5b-49ec-a42e-dc48892fc5bf",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/44.png\"/\u003e",
+      "uuid": "410d0e4b-e0b3-43c8-883b-367860ef0dd7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361991,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Vector And Metric Properties Of $\\r^n$",
-      "body": " The equations of the line containing the points  \\((5,2,-1)\\)  and  \\((9,-4,1)\\)  are       \\[ \\frac{x-h}a \u003d \\frac{y-2}{-3} \u003d \\frac{z-k}c \\] where  \\(a\\) \u003d___,  \\(c\\) \u003d___,  \\(h\\) \u003d___, and  \\(k\\) \u003d___.",
+      "title": "Points on line",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/43.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/b889d17b-0c5b-49ec-a42e-dc48892fc5bf",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": " \\(-3\\) ,  \\(2\\) ,  \\(5\\) ",
-      "uuid": "03192831-0ab2-46bc-acd9-12c7eb7c54da",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361991,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Vector And Metric Properties Of $\\r^n$",
-      "body": " The equation of the plane containing the points  \\((0,-1,1)\\) ,  \\((1,0,2)\\) , and  \\((3,0,1)\\)  is  \\(x + by + cz \u003d d\\)  where  \\(b\\) \u003d___,  \\(c\\) \u003d___, and  \\(d\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/03192831-0ab2-46bc-acd9-12c7eb7c54da",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": " \\(1\\)  (or  \\(2\\) ),  \\(3\\) ",
-      "uuid": "36c18b8e-103f-4ea8-abbe-1ae53eb2f818",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361992,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
-      "body": " The angle between the planes  \\(4x + 4z - 16 \u003d 0\\)  and  \\(-2x + 2y - 13 \u003d 0\\)  is  \\(\\dfrac ab\\pi\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/36c18b8e-103f-4ea8-abbe-1ae53eb2f818",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": " \\(2\\sqrt6\\) ,  \\(\\dfrac\\pi3\\) ",
-      "uuid": "89204196-0a8c-40d5-ba1d-5de8e6658d3b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361992,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Vector And Metric Properties Of $\\r^n$",
-      "body": " Suppose that  \\(\\vec{ }u\\)  and  \\(\\vec{ }v\\)  are vectors in  \\(\\R^7\\)  both of length  \\(2\\sqrt{2}\\)  and that the length of  \\(\\vec{ }u - \\vec{ }v\\)  is also  \\(2\\sqrt 2\\) .    Then  \\(\\abs{\\vec{ }u + \\vec{ }v} \u003d\\)  \\underbar{\\hphantom{0000000}} and the angle between  \\(\\vec{ }u\\)  and  \\(\\vec{ }v\\)  is\\underbar{\\hphantom{0000000}}.",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/89204196-0a8c-40d5-ba1d-5de8e6658d3b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": "",
-      "uuid": "960c31a0-bacc-4b07-b025-9febe36f6e1d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361997,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Limits Of Scalar Fields",
-      "body": " Let  \\(f(x,y) \u003d \\dfrac{x^2y}{x^3+y^3}\\)  for all  \\((x,y) \\ne (0,0)\\) .",
-      "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/960c31a0-bacc-4b07-b025-9febe36f6e1d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
-    },
-    {
-      "authorSolution": " \\(1\\) ",
-      "uuid": "6066ef81-d399-485e-9667-940132449017",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361997,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits Of Scalar Fields Practice",
-      "body": "  \\(\\lim_{x \\to 0} f(x,x) \u003d \\)  ____.",
-      "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/6066ef81-d399-485e-9667-940132449017",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "points on line, equation of line",
+      "url": "/practice-problem/410d0e4b-e0b3-43c8-883b-367860ef0dd7",
+      "source": "null 8.2.2"
     }
   ],
   "questions": [
-    {
-      "uuid": "555dabe6-49cb-40cc-b64e-3c7eca913b33",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "Solve each of the following initial value problems. Your final answer should not use complex numbers, but you may use complex numbers to find it.\n\\( y\u0027\u0027+4y\u0027+5y\u003d0\\), \\( y(0)\u003d0, y\u0027(0)\u003d1.\\)",
-      "allAnswers": [],
-      "tags": "differential equations, linear homogeneous ",
-      "url": "/question/555dabe6-49cb-40cc-b64e-3c7eca913b33",
-      "source": "Math 222 4.1.46",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "1dda94ae-3f4d-4ae6-8915-8f11cd8552de",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "Solve each of the following initial value problems. Your final answer should not use complex numbers, but you may use complex numbers to find it.\n\\( y\u0027\u0027-5y\u0027+6y\u003d0\\), \\( y(0)\u003d1, y\u0027(0)\u003d0.\\)",
-      "allAnswers": [],
-      "tags": "differential equation, linear homogeneous ",
-      "url": "/question/1dda94ae-3f4d-4ae6-8915-8f11cd8552de",
-      "source": "Math 222 4.1.47",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "a2d08464-3e17-4d41-ac77-cca009efe7b5",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int_0^a x\\sin x\\,\\dd x  \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/a2d08464-3e17-4d41-ac77-cca009efe7b5",
-      "source": "Math 222 1.3.1",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "ca2bf149-1c7f-4b04-ba89-a5c383550b37",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int_0^a x^2\\cos x\\,\\dd x \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/ca2bf149-1c7f-4b04-ba89-a5c383550b37",
-      "source": "Math 222 1.3.2",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "4d58fc53-33c2-435b-bf66-206156322b3a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int_3^4 \\frac {x\\,\\dd x}{\\sqrt{x^2-1}} \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/4d58fc53-33c2-435b-bf66-206156322b3a",
-      "source": "Math 222 1.3.3",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "9840487e-021c-461b-a73d-f0ad54d19d89",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int_{1/4}^{1/3} \\frac {x\\,\\dd x}{\\sqrt{1-x^2}}\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/9840487e-021c-461b-a73d-f0ad54d19d89",
-      "source": "Math 222 1.3.4",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "5683e1f3-9ebd-4905-9fad-dd727a5980f9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int_3^4 \\frac {\\dd x}{x\\sqrt{x^2-1}} \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/5683e1f3-9ebd-4905-9fad-dd727a5980f9",
-      "source": "Math 222 1.3.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "6520574a-d9de-4084-a94d-574b068a9c0b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int\\frac{x\\,\\dd x}{x^2+2x+17}\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/6520574a-d9de-4084-a94d-574b068a9c0b",
-      "source": "Math 222 1.3.6",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
     {
       "uuid": "9e0220d0-ce9a-4602-8267-f4ba6d2ea725",
       "contentType": "question",
@@ -424,7 +188,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/9e0220d0-ce9a-4602-8267-f4ba6d2ea725",
       "source": "Math 222 4.1.48",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "d5b87b61-8ca6-4d6e-81d1-13ff0677dd8a",
@@ -441,7 +205,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d5b87b61-8ca6-4d6e-81d1-13ff0677dd8a",
       "source": "Math 222 1.3.7",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "b34e9068-14e9-41e7-94aa-807260fe410e",
@@ -458,7 +222,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/b34e9068-14e9-41e7-94aa-807260fe410e",
       "source": "Math 222 1.3.8",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "06279649-9468-4465-99b3-fdcdb4bbac8e",
@@ -475,7 +239,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/06279649-9468-4465-99b3-fdcdb4bbac8e",
       "source": "Math 222 1.3.9",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "00dabcc1-dc11-41af-b64d-ea9ad8a21f64",
@@ -492,7 +256,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/00dabcc1-dc11-41af-b64d-ea9ad8a21f64",
       "source": "Math 222 1.3.10",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "b35486da-07bb-4832-b46f-51409fbf396b",
@@ -509,7 +273,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/b35486da-07bb-4832-b46f-51409fbf396b",
       "source": "Math 222 1.3.11",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "dd66989b-ffe8-440d-9b50-3425766bcda4",
@@ -526,7 +290,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/dd66989b-ffe8-440d-9b50-3425766bcda4",
       "source": "Math 222 1.3.12",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "fffd95a9-84f8-45e9-81f0-54ce58b987d9",
@@ -543,7 +307,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/fffd95a9-84f8-45e9-81f0-54ce58b987d9",
       "source": "Math 222 1.3.13",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "99f70e48-3545-40d9-befe-e280b4447fcc",
@@ -560,7 +324,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/99f70e48-3545-40d9-befe-e280b4447fcc",
       "source": "Math 222 1.3.14",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "d79b8cf7-2d12-4c0e-9261-69175a4d3843",
@@ -577,7 +341,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d79b8cf7-2d12-4c0e-9261-69175a4d3843",
       "source": "Math 222 1.3.15",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "4035d296-cc11-432d-9c3a-38ad069bba78",
@@ -594,7 +358,7 @@
       "tags": "differential equation, linear inhomogeneous ",
       "url": "/question/4035d296-cc11-432d-9c3a-38ad069bba78",
       "source": "Math 222 4.1.49",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "a1d31bde-c815-4fad-b066-0c385af2745d",
@@ -611,7 +375,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/a1d31bde-c815-4fad-b066-0c385af2745d",
       "source": "Math 222 1.3.16",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "6998b086-9d42-4fa9-9ee2-a25514599b39",
@@ -628,7 +392,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/6998b086-9d42-4fa9-9ee2-a25514599b39",
       "source": "Math 222 1.3.17",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "e75e2e41-8b9d-4933-9c58-22b2c6ed0472",
@@ -645,7 +409,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/e75e2e41-8b9d-4933-9c58-22b2c6ed0472",
       "source": "Math 222 1.3.18",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "e25b3ff9-efe4-4026-9606-de4544b6d568",
@@ -662,7 +426,7 @@
       "tags": "differential equation, linear inhomogeneous ",
       "url": "/question/e25b3ff9-efe4-4026-9606-de4544b6d568",
       "source": "Math 222 4.1.50",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "344e087d-0bec-4c90-a55e-518454da4053",
@@ -679,7 +443,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/344e087d-0bec-4c90-a55e-518454da4053",
       "source": "Math 222 1.3.19",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "a66d5a9e-bb19-4dd7-96cf-5241189244cb",
@@ -696,7 +460,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/a66d5a9e-bb19-4dd7-96cf-5241189244cb",
       "source": "Math 222 1.3.20",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "175db7a8-9f86-4a32-8066-b145cdc4b344",
@@ -713,7 +477,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/175db7a8-9f86-4a32-8066-b145cdc4b344",
       "source": "Math 222 1.3.21",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "2557e971-48f1-43c4-9e8c-0818f96ef857",
@@ -730,7 +494,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/2557e971-48f1-43c4-9e8c-0818f96ef857",
       "source": "Math 222 1.3.22",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "760cfc38-3cf5-41b2-81f0-4fed89166cae",
@@ -747,7 +511,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/760cfc38-3cf5-41b2-81f0-4fed89166cae",
       "source": "Math 222 1.3.23",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "315e3114-71b7-4be3-b7ee-ee7a67c4a0e5",
@@ -764,7 +528,7 @@
       "tags": "differential equations, linear inhomogeneous ",
       "url": "/question/315e3114-71b7-4be3-b7ee-ee7a67c4a0e5",
       "source": "Math 222 4.1.51",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "f09a1bc4-e1b1-4b64-83b6-9774295cc45e",
@@ -781,7 +545,7 @@
       "tags": "differential equations, linear inhomogeneous ",
       "url": "/question/f09a1bc4-e1b1-4b64-83b6-9774295cc45e",
       "source": "Math 222 4.1.52",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "d446d642-3bdf-49cb-9bc7-303eb7fe37a9",
@@ -798,7 +562,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d446d642-3bdf-49cb-9bc7-303eb7fe37a9",
       "source": "Math 222 1.3.24",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "bd900724-2964-47a6-80cc-4b219e88ea56",
@@ -815,7 +579,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/bd900724-2964-47a6-80cc-4b219e88ea56",
       "source": "Math 222 1.3.25",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "24c07a05-3139-4402-93f2-6385a7641873",
@@ -832,7 +596,7 @@
       "tags": "differential equation, linear inhomogeneous ",
       "url": "/question/24c07a05-3139-4402-93f2-6385a7641873",
       "source": "Math 222 4.1.53",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "1478af94-4bd4-44c7-a95b-dc53d882494d",
@@ -849,7 +613,7 @@
       "tags": "differential equations, linear inhomogeneous ",
       "url": "/question/1478af94-4bd4-44c7-a95b-dc53d882494d",
       "source": "Math 222 4.1.54",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "8712b7d3-6330-494d-ab53-f1e68249c766",
@@ -866,7 +630,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/8712b7d3-6330-494d-ab53-f1e68249c766",
       "source": "Math 222 1.4.1",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "0f124128-c7bb-4fb1-8459-86096f58a092",
@@ -883,7 +647,7 @@
       "tags": "differential equations, linear inhomogeneous ",
       "url": "/question/0f124128-c7bb-4fb1-8459-86096f58a092",
       "source": "Math 222 4.1.55",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "c1eb86c2-d084-4979-b1bd-5fa6b76348c4",
@@ -900,7 +664,143 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/c1eb86c2-d084-4979-b1bd-5fa6b76348c4",
       "source": "Math 222 1.4.2",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "09d8dd99-f1f1-4cd9-89c9-b75a393482d0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int \\sqrt{1+x^2}\\, \\dd x  \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/09d8dd99-f1f1-4cd9-89c9-b75a393482d0",
+      "source": "Math 222 1.4.3",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "4b76ae7d-215d-45a0-8215-fc7d2ce04e57",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/4b76ae7d-215d-45a0-8215-fc7d2ce04e57",
+      "source": "Math 222 ",
+      "topic": ""
+    },
+    {
+      "uuid": "49e8ed28-6bc5-4bbd-adc1-e3db0040e13f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Find \\(y\\) if\n\n   \\(\\text{(a)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2}+2\\odiff{y}{x} + y \u003d 0 \u0026\u0026\n    y(0)\u003d2, \u0026\u0026 y\u0027(0)\u003d3\\)\n    \\(\\text{(b)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2}+2\\odiff{y}{x} + y \u003d e^{-x} \u0026\u0026\n    y(0)\u003d0, \u0026\u0026 y\u0027(0)\u003d0\\)\n    \\(\\text{(c)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2}+2\\odiff{y}{x} + y \u003d xe^{-x} \u0026\u0026\n    y(0)\u003d0, \u0026\u0026 y\u0027(0)\u003d0\\)\n    \\(\\text{(d)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2} + 2\\odiff{y}{x} +y \u003d\n    e^{-x}+xe^{-x} \u0026\u0026 y(0)\u003d2, \u0026\u0026 y\u0027(0)\u003d3.\\)",
+      "allAnswers": [],
+      "tags": "differential equation, linear inhomogeneous ",
+      "url": "/question/49e8ed28-6bc5-4bbd-adc1-e3db0040e13f",
+      "source": "Math 222 4.1.56",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "46f2e4fe-26cd-4bd0-99b6-316b5d6b6edb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "A population of bacteria grows at a rate proportional to its\nsize. Write and solve a differential equation which expresses this. If\nthere are 1000 bacteria after one hour and 2000 bacteria after two hours, how many bacteria are there after three hours?",
+      "allAnswers": [],
+      "tags": "word problem differential equation",
+      "url": "/question/46f2e4fe-26cd-4bd0-99b6-316b5d6b6edb",
+      "source": "Math 222 4.1.57",
+      "topic": "ec922915-3b80-4476-be6b-6125a913671f"
+    },
+    {
+      "uuid": "56033214-e86d-48bd-91d3-2fe06764ef02",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Rabbits in Madison have a birth rate of 5\\% per year and a death\nrate (from old age) of 2\\% per year. Each year 1000 rabbits get run over and 700 rabbits move in from Sun Prairie.\n(i) Write a differential equation which describes Madison\u0027s rabbit population at time t.\n(ii) If there were 12,000 rabbits in Madison in 1991, how many are there in 1994?",
+      "allAnswers": [],
+      "tags": "differential equation, word problem",
+      "url": "/question/56033214-e86d-48bd-91d3-2fe06764ef02",
+      "source": "Math 222 4.1.58",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "da6f000e-6e7e-4067-9804-2dc1f1bc5329",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Express as Integrals of Rational Functions",
+      "body": "Express these integrals as integrals of rational functions of \\(t\\).\n\n\\(\\DS \\int \\sqrt{1-z^2}\\, \\dd z  \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/da6f000e-6e7e-4067-9804-2dc1f1bc5329",
+      "source": "Math 222 1.4.4",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "4e5054cb-5ec8-4f46-94b9-c1ee4443ce2c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Express as Integrals of Rational Functions",
+      "body": "Express these integrals as integrals of\nrational functions of \\(t\\).\n\n\\(\\DS \\int \\frac{ \\dd z }{\\sqrt{1-z^2}}\\, \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/4e5054cb-5ec8-4f46-94b9-c1ee4443ce2c",
+      "source": "Math 222 1.4.5",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "195ce25c-3ed4-4578-941a-6c8a9bda013d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": " According to \\(\\emph{Newton\u0027s law of cooling}\\) the rate \\(\\dd T/\\dd t\\)\nat which an object cools is proportional to the difference \\(T-A\\) between its temperature \\(T\\) and the ambient temperature \\(A\\). The \nequation which expresses this is\n\\(\\frac{\\dd T}{\\dd t}\u003d k(T-A)\\)\nwhere \\(k\u003c0\\) and \\(A\\) are constants.\n(i) Solve this equation and show that every solution satisfies\n\\(\\lim_{t\\to\\infty} T \u003d A.\\)\n(ii) A cup of coffee at a temperature of \\(180^o\\)F sits in a room whose\ntemperature is \\(75^0\\)F. In five minutes its temperature has dropped to \\(150^\\circ\\)F. When will its temperature be \\(90^\\circ\\)F?  What is the limit of the temperature as \\(t\\to\\infty\\)?",
+      "allAnswers": [],
+      "tags": "differential equation, word problem",
+      "url": "/question/195ce25c-3ed4-4578-941a-6c8a9bda013d",
+      "source": "Math 222 4.1.59",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     }
   ],
   "textContent": [
@@ -919,7 +819,7 @@
       "tags": "sketching, curves, graph sketching, method of graph sketching",
       "url": "/text-content/ea2f21d5-7e46-4a96-bc46-38771eb40a63",
       "source": "Forgotten Text 6 5.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Graph Sketching"
+      "topic": "fd5d7184-ff06-4c6c-92a7-f98b77b43b3d"
     },
     {
       "uuid": "aa436adb-97fe-44c6-839b-c4fec8345ea0",
@@ -936,9 +836,104 @@
       "tags": "convexity, concavity, maxima, minima ",
       "url": "/text-content/aa436adb-97fe-44c6-839b-c4fec8345ea0",
       "source": "Forgotten Text 6 5.11",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Graph Sketching/Convexity and Concavity"
+      "topic": "ad2ba358-5b83-4a6e-b908-097829a8ea32"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "ad38e59d-324a-4971-86e2-1c71c80d0dde",
+      "subTopics": [
+        "783b1c2a-5f94-4ca2-b690-e74419633196",
+        "691e7a71-205f-4a9d-9944-ba90066a40b3",
+        "6ee14f55-97cc-4896-94bb-41ff071bd741"
+      ],
+      "parentTopics": [
+        "bcb4f0e4-542a-4fc3-aa96-39a5e2c9eff1"
+      ],
+      "title": "Algebra Review",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " domain,quadratic function, range, absolute min, general form, absolute max, standard form, decreasing, increasing, y-intercept, x-intercept, functions, quadratic,word problem, solving quadratic equation, quadratic function, indicated variable,quadratic equation, maximize profit, y-intercepts, relations, function, price-demand function,profit function,relations, word problem, area, maximum height, cost, break-even point, absolute value functions, x-intercepts,x-intercepts, break-even points",
+      "difficulty": 252000,
+      "contentUuids": [
+        "afe40ef7-519f-49b1-9974-8eefaa4c81aa",
+        "ebdea691-59d6-4ba8-b65c-154b12491ff7",
+        "898e6104-92b4-401f-8275-ca5d03899f88",
+        "f788a131-a9bc-4e33-8edc-fb2f00c184ad",
+        "49f8d769-0185-45f3-9179-336647c04b92",
+        "ba29de09-0e4b-458b-a6dd-26be3909f497",
+        "9b037f1b-e65c-4cf6-9bbd-e5797322d359",
+        "604fb9d4-f6fe-44a8-ad7b-c5f0cb13d074",
+        "34e1cd5d-ba6b-4c49-bbce-858982a2b133",
+        "70d9ea11-54d3-49c5-aa6f-f501513f2b60",
+        "2af078fd-4622-47fb-aa64-1bf17b6cf831",
+        "eede5714-bc88-4249-ba63-8156f3acd292",
+        "e1830c63-fad8-4e11-b12a-f544f44d422d",
+        "403430ab-34b2-49f0-8c31-eb2e8eb3c103",
+        "d7d769aa-27c7-46d7-a7cb-e4805a1f01f8",
+        "9c42f9ba-af6c-40aa-972c-f5c446e049cf",
+        "391ddb78-a52d-482a-8aa0-c706420ebd6e",
+        "13b86b5e-bce2-44f4-832a-cff00759180c",
+        "e4663133-b92f-4e96-8f0c-aa7cb05a6c82",
+        "15ae449f-9b14-4b17-b5d4-ebb01a5a04af",
+        "d0011210-7b40-4c91-8175-6c47a6fef042",
+        "ef446420-89f1-4b81-ae94-c11b2d8b8613",
+        "6d99839b-9d8c-4d18-aff1-cce842bd5a51",
+        "fe923323-dca4-4d1b-b613-00d695404019",
+        "de0bb070-6801-40c8-b738-dda5b5aca845",
+        "2a74eb08-38d9-4c4d-8d60-c284feb9a52a",
+        "32a54168-dbb2-4a9d-9864-9fdfcfc49979",
+        "faf664b9-df25-43f6-acb5-34e5afef2a87",
+        "ec1df93d-3f6b-411d-9126-d8868c0cc01a",
+        "513abda3-6701-41a7-a68b-bde079b4e155",
+        "1e9a4a9c-b11a-49d1-ae89-f1b1f2c29cfd",
+        "781050b3-f63b-4632-87ec-3cd71d4596dd",
+        "5e80863e-1d12-44c7-8abe-5923011130d1",
+        "86688feb-5dba-4f2d-aee2-f5a2648bf5d3",
+        "f1986125-3008-4cd5-a5a8-01a02a5d9ed4",
+        "b687af4e-73f1-4568-8535-6cf0c94fbc84",
+        "7c6bb1d3-7162-4505-96e2-b14828eb45ec",
+        "2003ae70-6239-4f3d-8d58-fcbd86f18cb2",
+        "7cfb3394-4f42-4895-916a-182798b11a32",
+        "af0f5561-1d69-47d1-ab76-3114b6afe51a",
+        "6ce0b721-4d5b-4cf9-a99e-c8ba9623bcfb",
+        "eda9fc3c-3353-4f3e-b573-7e9d378b209e",
+        "042e42b0-8e22-493a-9d65-270d55af2b3d",
+        "2e6385d8-d73e-4543-847f-a2fb038fa427",
+        "06b3adff-906e-4860-b603-6e301cf43a29"
+      ]
+    },
+    {
+      "uuid": "895419fb-f40d-4b54-9527-30de9f7fadb3",
+      "subTopics": [
+        "20fb6b4f-d9a7-40d3-896f-0f7847df045a",
+        "009ac558-82e2-4853-b2a2-169366e9114f"
+      ],
+      "parentTopics": [
+        "568e9d65-ff3b-4598-b370-646c1951a7ae"
+      ],
+      "title": "Advanced Topics",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 741000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "7e7d3f4c-2431-41c0-976c-414725c2bbb9",
+      "subTopics": [],
+      "parentTopics": [
+        "d91b9014-181a-4e25-ae6e-d93afc415c1b"
+      ],
+      "title": "Lines",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " ratio, measure of segment,line segment,",
+      "difficulty": 130000,
+      "contentUuids": [
+        "c2754b80-6c29-49a0-9228-881a4a96d575"
+      ]
+    }
+  ]
 }

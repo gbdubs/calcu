@@ -2,313 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2385.png\"/\u003e",
-      "uuid": "038f9f65-4c72-40e6-b4de-170295274593",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3163.png\"/\u003e",
+      "uuid": "db251166-709d-4cf1-804a-42da19e13e51",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Intermediate Value Theorem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2384.png\"/\u003e",
+      "title": "Find the midpoint",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3162.png\"/\u003e",
       "allAnswers": [],
-      "tags": "intermediate value theorem, complex numbers, real numbers ",
-      "url": "/practice-problem/038f9f65-4c72-40e6-b4de-170295274593",
-      "source": "null 3.1.2"
+      "tags": "Relations and Functions, midpoint, line segment, functions",
+      "url": "/practice-problem/db251166-709d-4cf1-804a-42da19e13e51",
+      "source": "null 1.1.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2387.png\"/\u003e",
-      "uuid": "4aa85bed-3622-4cd0-a896-3d0397ba7e60",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3165.png\"/\u003e",
+      "uuid": "4b18addc-8d01-4ff3-b5a2-2851b6114600",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Construct a sign diagram",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2386.png\"/\u003e",
+      "title": "Line segment with endpoints",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3164.png\"/\u003e",
       "allAnswers": [],
-      "tags": "sign diagram, polynomial function, sketching polynomials, polynomial function sign diagram ",
-      "url": "/practice-problem/4aa85bed-3622-4cd0-a896-3d0397ba7e60",
-      "source": "null 3.1.3"
+      "tags": "Relations and Functions, functions, line segment, end points",
+      "url": "/practice-problem/4b18addc-8d01-4ff3-b5a2-2851b6114600",
+      "source": "null 1.1.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2393.png\"/\u003e",
-      "uuid": "86c182fe-8a33-4f47-95b8-87b6ed1da6df",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3177.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3178.png\"/\u003e",
+      "uuid": "60984008-ce95-4a0f-b35b-9957c1d7d1b5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "End behavior of polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2392.png\"/\u003e",
+      "title": "x and y intercepts",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3176.png\"/\u003e",
       "allAnswers": [],
-      "tags": "end behavior, polynomial function, multiplicity, sketching polynomials ",
-      "url": "/practice-problem/86c182fe-8a33-4f47-95b8-87b6ed1da6df",
-      "source": "null 3.1.4"
+      "tags": "Relations and Functions, x-intercepts, y-intercepts, symmetry",
+      "url": "/practice-problem/60984008-ce95-4a0f-b35b-9957c1d7d1b5",
+      "source": "null 1.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2401.png\"/\u003e",
-      "uuid": "8f1767be-3b5a-4b92-842a-27d76de165a2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3185.png\"/\u003e",
+      "uuid": "add456c8-af30-4b0b-8ce8-add1e9188bfd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find all real zeros of p",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2400.png\"/\u003e",
+      "title": "Find the domain and range",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3183.png\"/\u003e",
       "allAnswers": [],
-      "tags": "multiplicity, real zeros, polynomial functions, polynomials, quadratic formula ",
-      "url": "/practice-problem/8f1767be-3b5a-4b92-842a-27d76de165a2",
-      "source": "null 3.2.1"
+      "tags": "Relations and Functions, domain, range, functions",
+      "url": "/practice-problem/add456c8-af30-4b0b-8ce8-add1e9188bfd",
+      "source": "null 1.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2406.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2407.png\"/\u003e",
-      "uuid": "4b74cde0-9b44-483a-a855-c0c826073fd8",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3187.png\"/\u003e",
+      "uuid": "ff87631e-c887-4372-9c9a-87032862d69f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Rational zeros, real zeros of polynomial",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2405.png\"/\u003e",
+      "title": "Determine which equation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3186.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polynomial function, rational zeros, real zeros, multiplicities ",
-      "url": "/practice-problem/4b74cde0-9b44-483a-a855-c0c826073fd8",
-      "source": "null 3.3.1"
+      "tags": "Relation and Functions, functions, equations",
+      "url": "/practice-problem/ff87631e-c887-4372-9c9a-87032862d69f",
+      "source": "null 1.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2411.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2412.png\"/\u003e",
-      "uuid": "b63255b9-3d21-4d59-a83b-f64fa363b173",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3196.png\"/\u003e",
+      "uuid": "7cf49c9e-b8c3-46fc-b434-8d584d859a6e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Rational zeros theorem, polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2410.png\"/\u003e",
+      "title": "Find the domain of functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3194.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational zeros theorem, multiplicities, rational zeros, real zeros, Cauchy\u0027s bound",
-      "url": "/practice-problem/b63255b9-3d21-4d59-a83b-f64fa363b173",
-      "source": "null 3.3.2"
+      "tags": "Relations and Functions, functions, domain",
+      "url": "/practice-problem/7cf49c9e-b8c3-46fc-b434-8d584d859a6e",
+      "source": "null 1.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2416.png\"/\u003e",
-      "uuid": "64d15b29-0cb7-4ea1-957c-1030a4a34341",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3200.png\"/\u003e",
+      "uuid": "411ca70b-01e4-43b5-a0c5-0a3d05ffacf0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Descartes\u0027 Rule of Signs",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2415.png\"/\u003e",
+      "title": "Model Rocket Question",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3199.png\"/\u003e",
       "allAnswers": [],
-      "tags": "descartes\u0027 rule of signs, real zeros, number of real zeros, location of real zeros ",
-      "url": "/practice-problem/64d15b29-0cb7-4ea1-957c-1030a4a34341",
-      "source": "null 3.3.3"
+      "tags": "Relations and Functions, functions, piecewise functions, intercepts",
+      "url": "/practice-problem/411ca70b-01e4-43b5-a0c5-0a3d05ffacf0",
+      "source": "null 1.4.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2419.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2420.png\"/\u003e",
-      "uuid": "a7a1f656-3ece-49f4-b188-1b6a184c531f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3211.png\"/\u003e",
+      "uuid": "df9eb3db-e310-4d37-ac7c-aa07be0b8e51",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Real zeros and their multiplicities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2418.png\"/\u003e",
+      "title": "Find the intercepts",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3210.png\"/\u003e",
       "allAnswers": [],
-      "tags": "real zeros of f, multiplicities of real zeros, sketch the polynomial, polynomial functions ",
-      "url": "/practice-problem/a7a1f656-3ece-49f4-b188-1b6a184c531f",
-      "source": "null 3.3.4"
+      "tags": "Relations and Functions, functions, intercepts ",
+      "url": "/practice-problem/df9eb3db-e310-4d37-ac7c-aa07be0b8e51",
+      "source": "null 1.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2424.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2425.png\"/\u003e",
-      "uuid": "ce97bc96-bec0-4937-9f5d-5285134461d6",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3216.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3217.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3218.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3219.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3220.png\"/\u003e",
+      "uuid": "3c320a23-d79f-48f2-9e2e-7f93e0855c49",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Real solutions to equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2423.png\"/\u003e",
+      "title": "Determine if functions are even, odd",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3215.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polynomial equations, real solutions to polynomials, solve polynomial inequality, graph polynomials ",
-      "url": "/practice-problem/ce97bc96-bec0-4937-9f5d-5285134461d6",
-      "source": "null 3.3.5"
+      "tags": "Relations and Functions, functions, even, odd, graphing functions ",
+      "url": "/practice-problem/3c320a23-d79f-48f2-9e2e-7f93e0855c49",
+      "source": "null 1.6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2427.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2428.png\"/\u003e",
-      "uuid": "c4022ceb-3c9c-4206-a5d9-75e2dbee05d4",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3239.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3240.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3241.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3242.png\"/\u003e",
+      "uuid": "7b0df1db-5537-4135-a9ff-b5fd584a1aba",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655788,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "How many TVs produced to make a profit?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2426.png\"/\u003e",
+      "title": "Domain and ranges",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3238.png\"/\u003e",
       "allAnswers": [],
-      "tags": "inequalities, polynomial inequalities, graphing polynomials ",
-      "url": "/practice-problem/c4022ceb-3c9c-4206-a5d9-75e2dbee05d4",
-      "source": "null 3.3.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2436.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2437.png\"/\u003e",
-      "uuid": "b8ce22b2-7ceb-44cf-a95b-e609db6abc16",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655788,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "remaining complex zeros of f",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2345.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "complex zeros, real numbers, synthetic division ",
-      "url": "/practice-problem/b8ce22b2-7ceb-44cf-a95b-e609db6abc16",
-      "source": "null 3.4.1 "
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2439.png\"/\u003e",
-      "uuid": "ad2f13e6-47bc-497d-98b9-888b47bd19f4",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655788,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find a polynomial with lowest degree",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2438.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, polynomials, integer coefficients ",
-      "url": "/practice-problem/ad2f13e6-47bc-497d-98b9-888b47bd19f4",
-      "source": "null 3.4.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2448.png\"/\u003e",
-      "uuid": "c5a6ae08-8d2d-470a-932a-b3a05f40687c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655788,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Mathematical model for the population",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2447.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "intercept, determine behavior of graph ",
-      "url": "/practice-problem/c5a6ae08-8d2d-470a-932a-b3a05f40687c",
-      "source": "null 4.1.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2453.png\"/\u003e",
-      "uuid": "c1a1bb90-98b7-4511-907f-4369082ace30",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "List the horizontal asymptotes",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2451.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "horizontal asymptotes, behavior of graph, rational functions ",
-      "url": "/practice-problem/c1a1bb90-98b7-4511-907f-4369082ace30",
-      "source": "null 4.1.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2455.png\"/\u003e",
-      "uuid": "7ca8a038-b980-40bf-b7aa-8fe69ac7ecce",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Number of students with the flu",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2454.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "rational functions, inequalities, interpret at 0, determine behavior ",
-      "url": "/practice-problem/7ca8a038-b980-40bf-b7aa-8fe69ac7ecce",
-      "source": "null 4.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2459.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2460.png\"/\u003e",
-      "uuid": "d9f04d96-f50e-47b6-bb94-3475ebf14d43",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the slant asymptotes",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2458.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "slant asymptotes, rational functions, behavior of graph ",
-      "url": "/practice-problem/d9f04d96-f50e-47b6-bb94-3475ebf14d43",
-      "source": "null 4.1.4"
+      "tags": "Relations and Functions, functions, domain, range",
+      "url": "/practice-problem/7b0df1db-5537-4135-a9ff-b5fd584a1aba",
+      "source": "null 1.7.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "58830e3a-3bb0-4c25-ad7d-2f7defeb2519",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787607,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Minimization and Maximization",
-      "body": "Charity is building a window in the shape of an equilateral triangle whose sides each measure 4 meters.  Charity wants to inscribe a rectangular piece of stained glass in the triangle, so that two of the vertices of the rectangle lie on one of the sides of the triangle.  Find the dimensions of the rectangle of maximum area that can be inscribed in the given triangle. ",
-      "allAnswers": [],
-      "tags": "word problem, minimization, maximization",
-      "url": "/question/58830e3a-3bb0-4c25-ad7d-2f7defeb2519",
-      "source": "AP Calculus Problems 3.8.2",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
-    },
-    {
-      "uuid": "f6a8823c-d47f-433e-a69a-21ad907c3afd",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787607,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Minimization and Maximization",
-      "body": "It has been determined by the brilliant deductive mind of Bruce Wayne that Gotham Highway is located on the line \\(y\u003d2x+3\\).  Determine the point on Gotham Highway closest to the Wayne Foundation Building, which happens to be located at the point \\((1, 2)\\). ",
-      "allAnswers": [],
-      "tags": "word problem, minimization, maximization",
-      "url": "/question/f6a8823c-d47f-433e-a69a-21ad907c3afd",
-      "source": "AP Calculus Problems 3.8.3",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
-    },
     {
       "uuid": "087ec2c0-a439-458c-a940-3d27413c083b",
       "contentType": "question",
@@ -324,7 +188,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/087ec2c0-a439-458c-a940-3d27413c083b",
       "source": "AP Calculus Problems 3.8.4",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "692b8821-c118-44b1-bf46-59dada894e3c",
@@ -341,7 +205,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/692b8821-c118-44b1-bf46-59dada894e3c",
       "source": "AP Calculus Problems 3.14.7",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "542b4d32-d3e1-4fd7-99c9-60118e4917fd",
@@ -358,7 +222,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/542b4d32-d3e1-4fd7-99c9-60118e4917fd",
       "source": "AP Calculus Problems 3.8.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "33b3e451-8637-4a3c-a093-075e9ab11e62",
@@ -375,7 +239,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/33b3e451-8637-4a3c-a093-075e9ab11e62",
       "source": "AP Calculus Problems 3.8.6",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "71974687-b949-4424-a519-8b50694ac159",
@@ -392,7 +256,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/71974687-b949-4424-a519-8b50694ac159",
       "source": "AP Calculus Problems 3.8.7",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "42f602d3-39bd-4645-bf6b-9ce78ab0ae2e",
@@ -409,7 +273,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/42f602d3-39bd-4645-bf6b-9ce78ab0ae2e",
       "source": "AP Calculus Problems 3.14.8",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "8e31ec23-2cc9-4608-8e9d-07be2dbbbd10",
@@ -426,7 +290,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/8e31ec23-2cc9-4608-8e9d-07be2dbbbd10",
       "source": "AP Calculus Problems 3.8.8",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "748932da-15e6-46ba-ab48-c8e6c64ca9fa",
@@ -443,7 +307,7 @@
       "tags": "word problem, minimization, maximization",
       "url": "/question/748932da-15e6-46ba-ab48-c8e6c64ca9fa",
       "source": "AP Calculus Problems 3.8.9",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "bc331f85-8c00-4965-b644-a30135aa24e3",
@@ -460,7 +324,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/bc331f85-8c00-4965-b644-a30135aa24e3",
       "source": "AP Calculus Problems 3.8.10",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "913b500f-3d7c-4b0b-847c-d2faa99aa715",
@@ -477,7 +341,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/913b500f-3d7c-4b0b-847c-d2faa99aa715",
       "source": "AP Calculus Problems 3.14.9",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "4d91e693-b267-4d54-8f25-755737970cf3",
@@ -494,7 +358,7 @@
       "tags": "word problem, minimization, maximization, function",
       "url": "/question/4d91e693-b267-4d54-8f25-755737970cf3",
       "source": "AP Calculus Problems 3.8.11",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "3566b152-e302-40d1-aa4c-96e4b961a431",
@@ -506,12 +370,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Minimization and Maximization",
-      "body": " What is the area of the largest rectangle that can be inscribed in a semicircle of radius \\(R\\) so that one of the sides of the rectangle lies on the diameter of the semicircle?\n  \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20488.png\"/\u003e",
+      "body": " What is the area of the largest rectangle that can be inscribed in a semicircle of radius \\(R\\) so that one of the sides of the rectangle lies on the diameter of the semicircle?\n  \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20488.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "word problem, minimization, maximization ",
       "url": "/question/3566b152-e302-40d1-aa4c-96e4b961a431",
       "source": "AP Calculus Problems 3.8.12",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "1c7e0209-a98b-4d22-9c77-c5cdc7b8e330",
@@ -528,7 +392,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/1c7e0209-a98b-4d22-9c77-c5cdc7b8e330",
       "source": "AP Calculus Problems 3.8.13",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "30c1c7a3-bb20-4655-a96f-703736d596cd",
@@ -545,7 +409,7 @@
       "tags": "word problem, minimization, maximization, area",
       "url": "/question/30c1c7a3-bb20-4655-a96f-703736d596cd",
       "source": "AP Calculus Problems 3.8.14",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "94970035-82c8-450b-8d8f-79adc7ea23ac",
@@ -562,7 +426,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/94970035-82c8-450b-8d8f-79adc7ea23ac",
       "source": "AP Calculus Problems 3.14.10",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "b34554fe-0978-48ce-99f7-400e82dda4e1",
@@ -579,7 +443,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/b34554fe-0978-48ce-99f7-400e82dda4e1",
       "source": "AP Calculus Problems 3.8.15",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "26952ea5-e91d-4f71-bc52-5bbfc2d5290a",
@@ -596,7 +460,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/26952ea5-e91d-4f71-bc52-5bbfc2d5290a",
       "source": "AP Calculus Problems 3.8.16",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "66dd157c-41c6-49cb-9bcf-483556471407",
@@ -613,7 +477,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/66dd157c-41c6-49cb-9bcf-483556471407",
       "source": "AP Calculus Problems 3.8.17",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "65a76509-f0af-4e04-9fa3-49f1d067eef0",
@@ -630,7 +494,7 @@
       "tags": "word problem, minimization, maximization ",
       "url": "/question/65a76509-f0af-4e04-9fa3-49f1d067eef0",
       "source": "AP Calculus Problems 3.8.18",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value"
+      "topic": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3"
     },
     {
       "uuid": "3884f86e-343d-470e-9bc7-ac22f7fdff3a",
@@ -647,7 +511,7 @@
       "tags": "tangent lines, derivatives",
       "url": "/question/3884f86e-343d-470e-9bc7-ac22f7fdff3a",
       "source": "AP Calculus Problems 3.9.1",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "93edc458-0e7b-45d3-8ce3-1bfaa26dc46d",
@@ -664,7 +528,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/93edc458-0e7b-45d3-8ce3-1bfaa26dc46d",
       "source": "AP Calculus Problems 3.9.2",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "e95c8b4b-f31b-4c5b-b5dd-8e752e46bd7f",
@@ -681,7 +545,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/e95c8b4b-f31b-4c5b-b5dd-8e752e46bd7f",
       "source": "AP Calculus Problems 3.14.11",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "757aaa38-8073-43c1-a1b3-3d821310dbfb",
@@ -698,7 +562,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/757aaa38-8073-43c1-a1b3-3d821310dbfb",
       "source": "AP Calculus Problems 3.9.3",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "d968ad01-913b-463f-9ee1-272d4de85378",
@@ -715,7 +579,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/d968ad01-913b-463f-9ee1-272d4de85378",
       "source": "AP Calculus Problems 3.9.4",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "d953b585-2cba-4363-a149-fe534fd3a2a1",
@@ -732,7 +596,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/d953b585-2cba-4363-a149-fe534fd3a2a1",
       "source": "AP Calculus Problems 3.9.5",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "744395c6-ca35-4b84-a823-4a6394fbb125",
@@ -749,7 +613,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/744395c6-ca35-4b84-a823-4a6394fbb125",
       "source": "AP Calculus Problems 3.9.6",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "87900511-8eb0-49d3-af30-7491f9192790",
@@ -766,7 +630,7 @@
       "tags": "tangent line, derivative ",
       "url": "/question/87900511-8eb0-49d3-af30-7491f9192790",
       "source": "AP Calculus Problems 3.9.7",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "2557074f-aeb5-444d-a7bb-0586808347a5",
@@ -783,7 +647,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/2557074f-aeb5-444d-a7bb-0586808347a5",
       "source": "AP Calculus Problems 3.9.8",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "4dc441f4-e06e-41cb-b893-4eed31ed6fc4",
@@ -800,7 +664,7 @@
       "tags": "tangent line, derivative",
       "url": "/question/4dc441f4-e06e-41cb-b893-4eed31ed6fc4",
       "source": "AP Calculus Problems 3.9.9",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "a3d23c32-1d55-45be-91c2-5544d2d93ad8",
@@ -817,7 +681,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum",
       "url": "/question/a3d23c32-1d55-45be-91c2-5544d2d93ad8",
       "source": "AP Calculus Problems 3.14.12",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "23ad3d3a-63f6-4ddf-919d-8bed1ceb4821",
@@ -834,7 +698,7 @@
       "tags": "tangent line, derivatives, function, local extrema",
       "url": "/question/23ad3d3a-63f6-4ddf-919d-8bed1ceb4821",
       "source": "AP Calculus Problems 3.9.10",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "31655627-e141-4ab8-ac10-51975739384a",
@@ -851,7 +715,7 @@
       "tags": "tangent line, derivative, function",
       "url": "/question/31655627-e141-4ab8-ac10-51975739384a",
       "source": "AP Calculus Problems 3.9.11",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "e93d98a3-9bb6-4363-bbf7-9c9621f2416a",
@@ -868,7 +732,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, mean value theorem",
       "url": "/question/e93d98a3-9bb6-4363-bbf7-9c9621f2416a",
       "source": "AP Calculus Problems 3.14.13",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "1d8013c7-68f1-494b-a49a-67eb91f18910",
@@ -880,12 +744,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangents and Derivatives",
-      "body": "Let \\(f\\) be a continuous function on \\([0, 3]\\) that has the following signs and values as in the table.\nFind the absolute extrema of \\(f\\) and where they occur; find any points of inflection; and sketch a possible graph of \\(f\\). \n \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20489.png\"/\u003e",
+      "body": "Let \\(f\\) be a continuous function on \\([0, 3]\\) that has the following signs and values as in the table.\nFind the absolute extrema of \\(f\\) and where they occur; find any points of inflection; and sketch a possible graph of \\(f\\). \n \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20489.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "tangent line, derivative, continuous function, extrema",
       "url": "/question/1d8013c7-68f1-494b-a49a-67eb91f18910",
       "source": "AP Calculus Problems 3.9.12",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "b3c92775-7b42-4462-8d13-559bf590dbd4",
@@ -902,7 +766,41 @@
       "tags": "tangent line, derivative, functions, velocity",
       "url": "/question/b3c92775-7b42-4462-8d13-559bf590dbd4",
       "source": "AP Calculus Problems 3.9.13",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "b9db1f1b-8ad4-4f7f-b219-db3f20c84e70",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787607,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangents and Derivatives",
+      "body": "Find the values of \\(a\\), \\(b\\), \\(c\\), and \\(d\\) such that the cubic \\(f(x)\u003dax^3+bx^2+cx+d\\) has a relative maximum at \\((2, 4)\\), a relative minimum at \\((4, 2)\\), and an inflection point at \\((3, 3)\\). ",
+      "allAnswers": [],
+      "tags": "tangent line, derivative, inflection points, extrema",
+      "url": "/question/b9db1f1b-8ad4-4f7f-b219-db3f20c84e70",
+      "source": "AP Calculus Problems 3.9.14",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "c47ee6c2-cacd-4de0-9d85-9039d7545ab2",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787607,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangents and Derivatives",
+      "body": " Show that the point of inflection of \\(f(x)\u003dx(x-6)^2\\) lies midway between the relative extrema of \\(f\\).",
+      "allAnswers": [],
+      "tags": "tangent line, derivative, inflection, function, extrema",
+      "url": "/question/c47ee6c2-cacd-4de0-9d85-9039d7545ab2",
+      "source": "AP Calculus Problems 3.9.15",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Matrix Arithmetic ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2699.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2700.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2701.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2702.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2703.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2704.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2705.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2706.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2707.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2708.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2712.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2713.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2699.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2700.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2701.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2702.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2703.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2704.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2705.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2706.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2707.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2708.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2712.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2713.png\"/\u003e",
       "allAnswers": [],
       "tags": "matrices, matrix arithmetic, linear systems, systems of equations ",
       "url": "/text-content/4632d91f-386b-44ae-a99b-2a18dac511de",
       "source": "Precalculus, 3rd Edition 8.3",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Augmented Matrices/Matrix"
+      "topic": "cbcd1a75-2aa6-42fa-8bd9-b9fc68112ee0"
     },
     {
       "uuid": "036bf6ea-0276-455b-bf9f-97933bc0db18",
@@ -933,14 +831,129 @@
       "viewable": true,
       "karma": 3,
       "title": "Systems of linear equations: Matrix Inverse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2714.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2715.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2716.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2717.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2718.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2719.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2720.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2721.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2722.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2723.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2724.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2714.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2715.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2716.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2717.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2718.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2719.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2720.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2721.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2722.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2723.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2724.png\"/\u003e",
       "allAnswers": [],
       "tags": "matrix inverses, matrix, matrices, system of equations, systems of linear equations ",
       "url": "/text-content/036bf6ea-0276-455b-bf9f-97933bc0db18",
       "source": "Precalculus, 3rd Edition 8.4",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Augmented Matrices/Matrix Inversion"
+      "topic": "5e0ee0c0-5faa-4213-936f-c85aa2d7034b"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "64ef556b-1a99-4f98-a6f9-8a43217fca8c",
+      "subTopics": [],
+      "parentTopics": [
+        "8177d58d-e84b-4f1b-9995-0b93ae67ca98"
+      ],
+      "title": "Half Angle Formulas",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " double angle formulas,trigonometric identities, trigonometric identity proof, trig proof, half angle identity, half angle formulas, double angle identity, half angle,half angle formulas, double angle, even identity, odd identity, reciprocal identity, half angle formula, right triangle, properties of triangles, trigonometric identity, sum to product,product to sum, properties of sine, even odd identities, properties of cosine, sum and difference formulas, sum and difference",
+      "difficulty": 193000,
+      "contentUuids": [
+        "b34e46cd-6ce1-470e-85c9-c8c2d5b5810e",
+        "773a9a28-3e65-4e36-a130-35de52f5f29d",
+        "55c8ca91-6a7d-4b66-97a4-dd507fcdc391",
+        "f328b629-24dc-490d-8eeb-021005a86d48",
+        "7b878b72-5c18-4caa-95df-02c1530ed6ee",
+        "2b15c66d-2ad6-43e7-88a4-59829df9c261",
+        "45f5d5f5-ad9d-4ec6-a93f-1ace2d07ccdf",
+        "57368902-dcf2-45c8-ba5a-4958e8bc41c7",
+        "c445ed67-1519-44aa-9b76-66f8d13aed5b",
+        "690a4a62-7a3f-485e-b22b-dc0b3f02b2ba",
+        "474ba75b-2da3-4846-83a8-de2c589cf26f",
+        "6ed4678a-2fd4-422a-9dfa-528d7f791816",
+        "757cefb2-8d5a-4b7e-8e35-0d898830afa3",
+        "6f6e2ff2-c4cc-4363-a40f-2801858fd8f0",
+        "78631a8a-3b5a-45f1-a204-afdd85d8ebce",
+        "6e02e6a2-2ea2-41fd-929d-274fe29fa63f",
+        "9cdc4468-8331-4908-8d34-28edb9869c2d",
+        "982755e8-582c-479f-be1e-7ba256fddbf0",
+        "a9fceebb-dbd2-4f6c-bdc3-59c066d32581",
+        "826c89e4-e1ee-4376-bace-1ef8f10a730a",
+        "00d6053e-8820-4d11-b022-a7eaa6298288",
+        "961aae49-9dba-48fd-9488-353b08cd0005",
+        "79984b18-2bd3-4278-a233-a33c904c4006",
+        "3ab3a35e-c75e-40d5-81b4-778207e8fd8f",
+        "1524f7e5-d1fe-4a6a-af41-f2436b59550b",
+        "3e08365e-b44c-400a-9624-07a794a6736f",
+        "f52d469f-2ab4-4b78-bdd1-554e9ef5be22",
+        "4fcb51b5-784f-42b1-b5ab-7033facf8742",
+        "06b06078-5b1f-4e0d-a860-368e0609f307",
+        "fe9864e3-57e0-4e25-b35e-bba9e746ded0",
+        "242dd9a2-c162-4c65-a23a-f6e981bb2b81",
+        "6b162e71-0e32-4f76-ad8b-0e983d8f2662",
+        "1bc73274-0003-4ae4-bac6-67666da4df6f",
+        "57802372-3a18-4963-9743-06d6f4c8143a",
+        "7e2fb35d-c272-4fec-b2d9-f4431d043437",
+        "8dd460ad-0478-43b0-9dc8-422ae7725c52",
+        "2dacda59-5096-484d-beec-297abeb7b442",
+        "e954163f-34c6-4eda-a0da-34d871e1a63b",
+        "b12de6fa-ebf5-4557-8e31-b9d9301812a9",
+        "206138a9-0765-4565-8c57-b8310f0326a3",
+        "6f4d0aed-7596-4be5-a15c-75d9493fe2b2",
+        "c2d89f84-2b2f-408c-89fe-7f42f4ebd5fc",
+        "0b546279-9b2a-4697-95f5-aa42bb1b3338",
+        "e80894c7-b52f-4281-b06e-d2cbd159957e",
+        "f26f1c09-4d20-44d1-87ac-8a40278859bc",
+        "dfd11a26-d454-43f4-9b6b-b1cff8eac379",
+        "7f68ffe0-3725-4dbc-99ea-9fa6c3d3d744",
+        "b79c70fc-6181-4c5a-9ba8-55f9bf31194b"
+      ]
+    },
+    {
+      "uuid": "bc3dfcab-62bb-4d5d-adf4-5f4aff18beaf",
+      "subTopics": [],
+      "parentTopics": [
+        "4d3166cf-92b8-49cb-ad79-8c3198d64834"
+      ],
+      "title": "Synthetic Division",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " polynomial,synthetic division, dividing polynomials, dividing polynomial , dividing polynomial,",
+      "difficulty": 23000,
+      "contentUuids": [
+        "cf6c6946-c2eb-40a6-9ab6-0c74f99a14b1",
+        "d68fce5c-a902-4142-aec0-60298f6217a1",
+        "71cf4602-8713-4b69-a8fe-a40c232056eb",
+        "b21ea12a-c532-4a06-a49b-c5923084ee32",
+        "56a4c561-3fa6-436e-9cca-78b026bfdba0",
+        "aa326a2a-f74b-4a98-a23d-9d79c5382e64"
+      ]
+    },
+    {
+      "uuid": "47974b5f-fedf-4ac4-adc7-5c6bc1e25a98",
+      "subTopics": [],
+      "parentTopics": [
+        "d58c5a8e-f834-448b-9242-8d8f7f349c10"
+      ],
+      "title": "Determinants",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "transpose ,cofactor,determinant ,matrices and determinants,symmetric , matrix ,minor , word problem,",
+      "difficulty": 83000,
+      "contentUuids": [
+        "fc06eb30-9159-47d2-bed4-7588c73d9fa3",
+        "17b13a3b-b76e-4155-883a-c5c9fccc85d0",
+        "d11e4c10-a338-4fe8-8849-77447a9d232c",
+        "60d28086-750b-43bc-889e-980940a730b7",
+        "58d074a0-c4fd-46b9-afe9-5aaa98df3dc0",
+        "8fc021ae-ab49-4f57-9d0f-17d2870e11c0",
+        "30879e74-5e6f-4da9-9e7f-0d3f2b73876d",
+        "1bf7e299-b9d8-4df3-9863-a0dfdde441f4",
+        "4c394bcb-870d-4611-9450-0d3c667a5e24",
+        "0171ce74-d7c1-411b-8963-265006da7564",
+        "abd34d3b-3ed8-4a4d-99af-bfbdca0cc542",
+        "e35b9454-25d0-4112-82fe-3de6f1dd3519",
+        "a8684021-51ac-490f-b553-ad1d33252799",
+        "1fb8396f-1fe5-4ace-98b2-d969da3438e5",
+        "2335872c-c996-411a-9693-9aee474fc752",
+        "530f2ca3-bf28-4152-9b7d-511dccc70aef",
+        "54c53ddd-4c4a-42ec-8159-02a6c04fff21",
+        "e92a5131-9c08-481e-8d2a-c504f73e37ac"
+      ]
+    }
+  ]
 }

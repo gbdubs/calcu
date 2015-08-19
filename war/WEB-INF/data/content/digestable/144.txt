@@ -2,483 +2,205 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eA function \\( \\phi (z)\\, \\) is zero when \\( z\u003d0\\, \\) , and is real when \\( x\\, \\) is real, and is analytic when \\( |z|\\leq 1\\, \\) . If \\( f(x,y)\\, \\) is the imaginary part of \\( \\phi (x+iy)\\, \\) prove that \\( \\int _{0}^{{2\\pi }}{\\frac {x\\sin \\theta }{1-2x\\cos \\theta +x^{2}}}f(\\cos \\theta ,\\sin \\theta )\\ d\\theta \u003d\\pi \\phi (x) \\) holds when \\( -1\u0026lt;x\u0026lt;1\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eParametrizing with \\( z\u003de^{{i\\theta }}\\, \\) , the function \\( \\phi (z)\u003du(\\cos \\theta ,\\sin \\theta )+if(\\cos \\theta ,\\sin \\theta )\\, \\) . Consider \u003c/p\u003e  \n\u003cp\u003e \\( \\int _{{\\Gamma }}{\\frac {x\\left(z-{\\frac {1}{z}}\\right){\\frac {1}{2i}}}{1-2x\\left(z+{\\frac {1}{z}}\\right){\\frac {1}{2}}+x^{2}}}\\phi (z)\\ {\\frac {dz}{iz}} \\) \u003c/p\u003e  \n\u003cp\u003eon the unit circle. Then \u003c/p\u003e     \\( \u003d{\\frac {1}{2}}\\int _{\\Gamma }{\\frac {x\\left(z-{\\frac {1}{z}}\\right)}{1-x\\left(z+{\\frac {1}{z}}\\right)+x^{2}}}\\phi (z)\\ {\\frac {dz}{-z}} \\)    \\( \u003d{\\frac {1}{2}}\\int _{\\Gamma }{\\frac {x\\left(z-{\\frac {1}{z}}\\right)}{(x-z)\\left(x-{\\frac {1}{z}}\\right)}}\\phi (z)\\ {\\frac {dz}{-z}} \\)    \\( \u003d{\\frac {1}{2}}\\int _{\\Gamma }{\\frac {x\\left(z-{\\frac {1}{z}}\\right)}{(z-x)(xz-1)}}\\phi (z)\\ dz \\)    \\( \u003d{\\frac {1}{2}}\\int _{\\Gamma }{\\frac {x(z^{2}-1)}{z(z-x)(xz-1)}}\\phi (z)\\ dz \\)   \n\u003cp\u003eSo the poles are at \\( z\u003d0\\, \\) and \\( z\u003dx\\, \\) , since \\( -1\u0026lt;x\u0026lt;1\\, \\) , and the other singularity \\( 1/x\\, \\) is outside the unit circle. Thus \u003c/p\u003e     \\( \u003d{\\frac {1}{2}}\\left(2\\pi i\\left[\\left({\\mathrm {Residue\\ at\\ }}z\u003d0\\right)+\\left({\\mathrm {Residue\\ at\\ }}z\u003dx\\right)\\right]\\right) \\)    \\( \u003d\\pi i\\left[\\left(\\lim _{{z\\to 0}}{\\frac {x(z^{2}-1)}{(z-x)(xz-1)}}\\phi (z)\\right)+\\left(\\lim _{{z\\to x}}{\\frac {x(z^{2}-1)}{z(xz-1)}}\\phi (z)\\right)\\right] \\)    \\( \u003d\\pi i\\left[\\left({\\frac {x(-1)}{(-x)(-1)}}\\phi (0)\\right)+\\left({\\frac {x(x^{2}-1)}{x(xx-1)}}\\phi (x)\\right)\\right] \\)    \\( \u003d\\pi i\\left[0+1\\phi (x)\\right] \\)    \\( \u003d\\pi i\\phi (x)\\, \\)   \n\u003cp\u003eThus \u003c/p\u003e     \\( i\\pi \\phi (x)\\, \\)   \\( \u003d\\int _{0}^{{2\\pi }}{\\frac {x\\sin \\theta }{1-2x\\cos \\theta +x^{2}}}u(\\cos \\theta ,\\sin \\theta )\\ d\\theta \\)     \u0026nbsp;\u0026nbsp;\u0026nbsp; \\( +\\ i\\int _{0}^{{2\\pi }}{\\frac {x\\sin \\theta }{1-2x\\cos \\theta +x^{2}}}f(\\cos \\theta ,\\sin \\theta )\\ d\\theta \\)   \n\u003cp\u003eTherefore, \u003c/p\u003e  \n\u003cp\u003e \\( \\int _{0}^{{2\\pi }}{\\frac {x\\sin \\theta }{1-2x\\cos \\theta +x^{2}}}f(\\cos \\theta ,\\sin \\theta )\\ d\\theta \u003d\\pi \\phi (x) \\) \u003c/p\u003e  \n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "109a5771-067b-489e-9b12-aa73cdb00fe8",
+      "authorSolution": " \\(k+1\\) ,  \\(1\\) ",
+      "uuid": "047e87a9-02ad-4ad9-9ad3-9b4cdabf93fa",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166456,
+      "creatorUserId": "",
+      "createdAt": 1437419361966,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "A function \\( \\phi (z)\\, \\) is zero when \\( z\u003d0\\, \\) , and is real when \\( x\\, \\) is real, and is analytic when \\( |z|\\leq 1\\, \\) . If \\( f(x,y)\\, \\) is the imaginary part of \\( \\phi (x+iy)\\, \\) prove that \\( \\int _{0}^{{2\\pi }}{\\frac {x\\sin \\theta }{1-2x\\cos \\theta +x^{2}}}f(\\cos \\theta ,\\sin \\theta )\\ d\\theta \u003d\\pi \\phi (x) \\) holds when \\( -1\u0026lt;x\u0026lt;1\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/109a5771-067b-489e-9b12-aa73cdb00fe8",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC6",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Power Series Problem",
+      "body": "  \\(\\D\\frac1{(1+x)^2} \u003d \\sum_{k\u003d0}^\\infty(-1)^k a_k x^k\\)  where (for each  \\(k\\) )  \\(a_k\\) \u003d______.    The radius of convergence of the series is  \\(R\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/047e87a9-02ad-4ad9-9ad3-9b4cdabf93fa",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eProve that \\( \\int _{0}^{{\\pi /2}}{\\frac {r\\theta \\sin(2\\theta )}{1-2r\\cos(2\\theta )+r^{2}}}\\ d\\theta \u003d{\\begin{cases}{\\frac {\\pi }{4}}\\ln(1+r)\u0026amp;{\\mathrm {if}}\\ r^{2}\u0026lt;1\\\\{\\frac {\\pi }{4}}\\ln(1+1/r)\u0026amp;{\\mathrm {if}}\\ r^{2}\u0026gt;1\\end{cases}} \\) .\u0026nbsp;\u0026nbsp; \u003cb\u003eHint:\u003c/b\u003e Integrate \\( {\\frac {2zr}{z^{2}(1+r)^{2}+(1-r)^{2}}}{\\frac {{\\mathrm {Log}}(1-iz)}{1+z^{2}}} \\) over the semicircle contour in the upper half plane, then put \\( x\u003d\\tan \\theta \\, \\) . \u003c/p\u003e",
-      "uuid": "d7a5d644-fc79-441b-a1e0-76c5c729a1a0",
+      "authorSolution": " \\(n(n+2)\\) ",
+      "uuid": "9d48a196-f418-459b-aee3-a2ee4af8e5ba",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166474,
+      "creatorUserId": "",
+      "createdAt": 1437419361966,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Prove that \\( \\int _{0}^{{\\pi /2}}{\\frac {r\\theta \\sin(2\\theta )}{1-2r\\cos(2\\theta )+r^{2}}}\\ d\\theta \u003d{\\begin{cases}{\\frac {\\pi }{4}}\\ln(1+r)\u0026amp;{\\mathrm {if}}\\ r^{2}\u0026lt;1\\\\{\\frac {\\pi }{4}}\\ln(1+1/r)\u0026amp;{\\mathrm {if}}\\ r^{2}\u0026gt;1\\end{cases}} \\) .\u0026nbsp;\u0026nbsp; \n\u003cb\u003eHint:\u003c/b\u003e Integrate \\( {\\frac {2zr}{z^{2}(1+r)^{2}+(1-r)^{2}}}{\\frac {{\\mathrm {Log}}(1-iz)}{1+z^{2}}} \\) over the semicircle contour in the upper half plane, then put \\( x\u003d\\tan \\theta \\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/d7a5d644-fc79-441b-a1e0-76c5c729a1a0",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC7",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Taylor Series Question",
+      "body": " A power series expansion for  \\(\\int\\dfrac{\\frac12x^2-x+\\ln(1+x)}{x^3} dx\\)  is  \\(\\sum_1^\\infty \\dfrac{(-1)^{n-1}}{a(n)}x^n + c\\)  where \\\\  \\(a(n)\\) \u003d____________ and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/9d48a196-f418-459b-aee3-a2ee4af8e5ba",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that \\( \\int _{0}^{\\infty }\\left\\{\\prod _{{k\u003d1}}^{n}{\\frac {\\sin(\\phi _{k}x)}{x}}\\right\\}\\left\\{\\prod _{{j\u003d1}}^{m}\\cos(a_{j}x)\\right\\}{\\frac {\\sin(ax)}{x}}\\ dx\u003d{\\frac {\\pi }{2}}\\phi _{1}\\phi _{2}\\ldots \\phi _{n}\\, \\) , \u0026nbsp; if \\( \\phi _{1},\\phi _{2},\\ldots ,\\phi _{n},a_{1},a_{2},\\ldots ,a_{m}\\, \\) are real, \\( a\\, \\) is positive and \\( a\u0026gt;\\sum _{{k\u003d1}}^{n}|\\phi _{k}|+\\sum _{{j\u003d1}}^{m}|a_{j}| \\) . \u003c/p\u003e",
-      "uuid": "11ee97f3-58c5-413c-9340-aad5f232567a",
+      "authorSolution": " \\(2k+1\\) ,  \\(1\\) ",
+      "uuid": "97a2c893-f742-4b2b-821f-c46f258a9b00",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166484,
+      "creatorUserId": "",
+      "createdAt": 1437419361967,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that \\( \\int _{0}^{\\infty }\\left\\{\\prod _{{k\u003d1}}^{n}{\\frac {\\sin(\\phi _{k}x)}{x}}\\right\\}\\left\\{\\prod _{{j\u003d1}}^{m}\\cos(a_{j}x)\\right\\}{\\frac {\\sin(ax)}{x}}\\ dx\u003d{\\frac {\\pi }{2}}\\phi _{1}\\phi _{2}\\ldots \\phi _{n} \\) , \u0026nbsp; if \\( \\phi _{1},\\phi _{2},\\ldots ,\\phi _{n},a_{1},a_{2},\\ldots ,a_{m} \\) are real, \\( a\\, \\) is positive and \\( a\u0026gt;\\sum _{{k\u003d1}}^{n}|\\phi _{k}|+\\sum _{{j\u003d1}}^{m}|a_{j}| \\) .",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/11ee97f3-58c5-413c-9340-aad5f232567a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC8",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Interval Of Convergence Problem",
+      "body": "  \\(\\D\\ln\\left(\\frac{1+x}{1-x}\\right) \u003d \\sum_{k\u003d0}^\\infty \\frac2{a_k} x^{2k+1}\\)  where (for each  \\(k\\) )  \\(a_k\\) \u003d______.    The interval of convergence of the series is  \\((-b,b)\\)  where  \\(b\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/97a2c893-f742-4b2b-821f-c46f258a9b00",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{0}^{\\infty }{\\frac {dx}{x^{3}+1}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e Consider the following four curves where \\( R\u0026gt;\\epsilon \u0026gt;0 \\) : \u003c/p\u003e\n\u003cp\u003e \\( \\gamma _{1}:[0,R]\\to {\\mathbb {C}} \\) where \\( \\gamma _{1}(t)\u003dt \\) \u003c/p\u003e\n\u003cp\u003e \\( \\gamma _{2}:[0,{\\frac {2\\pi }{3}}]\\to {\\mathbb {C}} \\) where \\( \\gamma _{2}(t)\u003dRe^{{it}} \\) \u003c/p\u003e\n\u003cp\u003eand \u003c/p\u003e\n\u003cp\u003e \\( \\gamma _{3}:[0,R]\\to {\\mathbb {C}} \\) where \\( \\gamma _{3}(t)\u003dte^{{{\\frac {2\\pi i}{3}}}} \\) \u003c/p\u003e\n\u003cp\u003eWe want to integrate \\( {\\frac {1}{z^{3}+1}} \\) over the closed contour \\( C\u003d\\gamma _{1}+\\gamma _{2}-\\gamma _{3} \\) . \u003c/p\u003e\n\u003cp\u003eBy the residue theorem we know that \u003c/p\u003e \n\u003cpre\u003e \\( \\int _{C}{\\frac  {dz}{z^{3}+1}}\u003d2\\pi \\;res_{{z\u003de^{{{\\frac  {\\pi i}{3}}}}}}\\left({\\frac  {1}{z^{3}+1}}\\right) \\) \n\u003c/pre\u003e \n\u003cp\u003eA very useful lemma is if \\( f\\,g \\) are holomorphic functions defined on an open set that contains the point \\( z_{0} \\) , and \\( z_{0} \\) is a simple zero of \\( g \\) then \\( res_{{z\u003dz_{0}}}{\\frac {f}{g}}\u003d{\\frac {f(z_{0})}{g^{\\prime }(z_{0})}} \\) . \u003c/p\u003e\n\u003cp\u003eSo we have \\( \\int _{C}{\\frac {dz}{z^{3}+1}}\u003d2\\pi i{\\frac {1}{3{\\left(e^{{{\\frac {\\pi i}{3}}}}\\right)}^{2}+0}}\u003d{\\frac {2\\pi i}{3}}e^{{-{\\frac {2\\pi i}{3}}}} \\) \u003c/p\u003e\n\u003cp\u003eNow we integrate over each part of the contour, and then take the limit as \\( R \\) goes to infinity. \u003c/p\u003e\n\u003cp\u003e \\( \\int _{{\\gamma _{1}}}{\\frac {dz}{z^{3}+1}}\u003d\\int _{0}^{R}{\\frac {dt}{t^{3}+1}} \\) \u003c/p\u003e\n\u003cp\u003eThe \\( p \\) -test from single variable calculus tells us that this integral converges as \\( R \\) goes to infinity. Therefore we simply have \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{R\\to \\infty }}\\int _{{\\gamma _{1}}}{\\frac {dz}{z^{3}+1}}\u003d\\int _{0}^{\\infty }{\\frac {dt}{t^{3}+1}} \\) . \u003c/p\u003e\n\u003cp\u003eNext we see that \u003c/p\u003e\n\u003cp\u003e \\( \\left|\\int _{{\\gamma _{2}}}{\\frac {dz}{z^{3}+1}}\\right|\u003d\\left|\\int _{0}^{{{\\frac {2\\pi }{3}}}}{\\frac {Rie^{{it}}dt}{{\\left(Re^{{it}}\\right)}^{3}+1}}\\right|\\leq \\int _{0}^{{{\\frac {2\\pi }{3}}}}\\left|{\\frac {Rie^{{it}}}{R^{3}e^{{3it}}+1}}\\right|dt \\) \u003c/p\u003e\n\u003cp\u003eFor all \\( R \\) large enough we have \\( R^{3}-1\u0026gt;{\\frac {1}{2}}R^{3} \\) . Then for a \\( R \\) large enough it\u0027s easy to see \\( |R^{3}e^{{3it}}+1|\u003d|R^{3}+e^{{-3it}}|\\geq |R^{3}-1|\u0026gt;{\\frac {1}{2}}R^{3} \\) . Then getting back to out integral we have \u003c/p\u003e\n\u003cp\u003e \\( \\left|\\int _{{\\gamma _{2}}}{\\frac {dz}{z^{3}+1}}\\right|\\leq \\int _{0}^{{{\\frac {2\\pi }{3}}}}{\\frac {|Ri||e^{{it}}|dt}{|R^{3}e^{{3it}}+1|}}\u0026lt;\\int _{0}^{{{\\frac {2\\pi }{3}}}}{\\frac {Rdt}{{\\frac {1}{2}}R^{3}}}\u003d{\\frac {2}{R^{2}}}\\int _{0}^{{{\\frac {2\\pi }{3}}}}dt\u003d{\\frac {4\\pi }{3R^{2}}} \\) \u003c/p\u003e\n\u003cp\u003eTaking the limit as both as \\( R \\) tend to infinity \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{R\\to \\infty }}\\left|\\int _{{\\gamma _{2}}}{\\frac {dz}{z^{3}+1}}\\right|\\leq 0\\Rightarrow \\lim _{{R\\to \\infty }}\\int _{{\\gamma _{2}}}{\\frac {dz}{z^{3}+1}}\u003d0 \\) \u003c/p\u003e\n\u003cp\u003eNow we have just one more curve to integrate. \u003c/p\u003e\n\u003cp\u003e \\( \\int _{{\\gamma _{3}}}{\\frac {dz}{z^{3}+1}}\u003d\\int _{0}^{R}{\\frac {e^{{{\\frac {2}{3}}\\pi i}}\\ dt}{t^{3}+1}} \\) \u003c/p\u003e\n\u003cp\u003eAgain taking the limit as \\( R \\) goes to infinity we get \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{R\\to \\infty }}\\int _{{\\gamma _{3}}}{\\frac {dz}{z^{3}+1}}\u003de^{{{\\frac {2}{3}}\\pi i}}\\int _{0}^{\\infty }{\\frac {dt}{t^{3}+1}} \\) . \u003c/p\u003e\n\u003cp\u003ei.e. \\( \\ e^{{{\\frac {2}{3}}\\pi i}}\\ \\) times the original integral \u003c/p\u003e\n\u003cp\u003eTherefore \u003c/p\u003e\n\u003cp\u003e \\( \\int _{{C}}{\\frac {dz}{z^{3}+1}}\u003d(1-e^{{{\\frac {2}{3}}\\pi i}})\\int _{0}^{\\infty }{\\frac {dx}{x^{3}+1}}\u003d(1-e^{{{\\frac {2}{3}}\\pi i}})I \\) \u003c/p\u003e\n\u003cp\u003einserting the result of the integral on the left hand side we get \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {2\\pi i}{3}}e^{{-{\\frac {2\\pi i}{3}}}}\u003d(1-e^{{{\\frac {2}{3}}\\pi i}})I\u003de^{{{\\frac {1}{3}}\\pi i}}(e^{{-{\\frac {1}{3}}\\pi i}}-e^{{{\\frac {1}{3}}\\pi i}})I\u003de^{{{\\frac {1}{3}}\\pi i}}\\ 2i\\ \\sin(-{\\frac {\\pi }{3}})I \\) \u003c/p\u003e\n\u003cp\u003eso that \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\pi }{3}}e^{{-{\\frac {2\\pi i}{3}}}}\u003de^{{{\\frac {1}{3}}\\pi i}}\\ \\sin(-{\\frac {\\pi }{3}})I \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\pi }{3}}e^{{-\\pi i}}\u003d-{\\frac {{\\sqrt {3}}}{2}}I \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e Eventually, \u003c/p\u003e\n\u003cp\u003e \\( I\u003d\\int _{0}^{\\infty }{\\frac {dx}{x^{3}+1}}\u003d{\\frac {2\\pi }{3{\\sqrt {3}}}} \\) \u003c/p\u003e",
-      "uuid": "7fca8d1d-4346-4ad5-ad2e-5cf3ee416d5a",
+      "authorSolution": " \\(n^2\\) ",
+      "uuid": "70e717ca-7a5e-4b2f-8ca0-e095b4f6ed38",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166501,
+      "creatorUserId": "",
+      "createdAt": 1437419361967,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{0}^{\\infty }{\\frac {dx}{x^{3}+1}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/7fca8d1d-4346-4ad5-ad2e-5cf3ee416d5a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC9",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Power Series Problem",
+      "body": " A power series expansion of  \\(\\int_0^x\\dfrac{\\ln(1+t)}t dt\\)  is  \\(c + \\D \\sum_{n\u003d1}^\\infty \\frac{(-1)^{n+1}}{a(n)} x^n\\)  where  \\(a(n)\\) \u003d_____ and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/70e717ca-7a5e-4b2f-8ca0-e095b4f6ed38",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that \\( \\overline {z_{1}+z_{2}}\u003d\\overline {z_{1}}+\\overline {z_{2}}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( z_{1}\u003dx_{1}+iy_{1}\\, \\) and \\( z_{2}\u003dx_{2}+iy_{2}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\overline {x_{1}+iy_{1}+x_{2}+iy_{2}}\u003d\\overline {x_{1}+x_{2}+i(y_{1}+y_{2})}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003dx_{1}+x_{2}-i(y_{1}+y_{2})\u003dx_{1}-iy_{1}+x_{2}-iy_{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\overline {x_{1}+iy_{1}}+\\overline {x_{2}+iy_{2}}\u003d\\overline {z_{1}}+\\overline {z_{2}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "5ccfbbdb-38ec-44c8-be23-928015b8fd9e",
+      "authorSolution": " \\(4\\) ,  \\(9\\) ,  \\(8\\) ,  \\(9\\) ",
+      "uuid": "3d639a3e-53d6-4739-9001-46ec2ce4ddd6",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166512,
+      "creatorUserId": "",
+      "createdAt": 1437419361968,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that \\( \\overline {z_{1}+z_{2}}\u003d\\overline {z_{1}}+\\overline {z_{2}}\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Proofs,auto-uploaded",
-      "url": "/practice-problem/5ccfbbdb-38ec-44c8-be23-928015b8fd9e",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVP1",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Interval Of Convergence",
+      "body": " To six decimal places  \\(\\int_0^{1/2}\\frac1{1 + x^6} dx\\)  \u003d 0._ _  \\(8\\)  _ _ \\(3\\) .",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/3d639a3e-53d6-4739-9001-46ec2ce4ddd6",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that \\( |z_{1}z_{2}|\u003d|z_{1}||z_{2}|\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( |z_{1}z_{2}|\u003d|(x_{1}+iy_{1})(x_{2}+iy_{2})|\u003d|x_{1}x_{2}-y_{1}y_{2}+i(x_{1}y_{2}+y_{1}x_{2})|\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\sqrt {(x_{1}x_{2}-y_{1}y_{2})^{2}+(x_{1}y_{2}+y_{1}x_{2})^{2}}}\u003d{\\sqrt {(x_{1}^{2}+y_{1}^{2})(x_{2}^{2}+y_{2}^{2})}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\sqrt {x_{1}^{2}+y_{1}^{2}}}{\\sqrt {x_{2}^{2}+y_{2}^{2}}}\u003d|z_{1}||z_{2}|\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cspan\u003eAlternate Proof\u003c/span\u003e \n\u003cp\u003e \\( |z_{1}z_{2}|^{2}\u003d(z_{1}z_{2})(\\overline {z_{1}z_{2}})\u003dz_{1}z_{2}\\overline {z_{1}}\\overline {z_{2}}\u003d(z_{1}\\overline {z_{1}})(z_{2}\\overline {z_{2}})\u003d|z_{1}|^{2}|z_{2}|^{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\implies |z_{1}z_{2}|\u003d|z_{1}||z_{2}|\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "cd71021d-1f72-49d4-a9dc-804aa12d4164",
+      "authorSolution": " \\(2\\) ",
+      "uuid": "7ab72809-0e96-49d2-b25e-b4e613d310a3",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166524,
+      "creatorUserId": "",
+      "createdAt": 1437419361968,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that \\( |z_{1}z_{2}|\u003d|z_{1}||z_{2}|\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Proofs,auto-uploaded",
-      "url": "/practice-problem/cd71021d-1f72-49d4-a9dc-804aa12d4164",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVP2",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Use Of Power Series To Solve Differential Equations Practice",
+      "body": "  \\(\\sum_{k\u003d1}^\\infty \\frac k{2^k}\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/7ab72809-0e96-49d2-b25e-b4e613d310a3",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that \\( |z_{1}+z_{2}|\\leq |z_{1}|+|z_{2}|\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( z_{1}\u003dx_{1}+iy_{1},z_{2}\u003dx_{2}+iy_{2}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eShow that \\( {\\sqrt {(x_{1}+x_{2})^{2}+(y_{1}+y_{2})^{2}}}\\leq {\\sqrt {x_{1}^{2}+y_{1}^{2}}}+{\\sqrt {x_{2}^{2}+y_{2}^{2}}}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSquare both sides.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( (x_{1}+x_{2})^{2}+(y_{1}+y_{2})^{2}\\leq x_{1}^{2}+y_{1}^{2}+2{\\sqrt {(x_{1}^{2}+y_{1}^{2})(x_{2}^{2}+y_{2}^{2})}}+x_{2}^{2}+y_{2}^{2}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( 2x_{1}x_{2}y_{1}y_{2}\\leq x_{1}^{2}y_{2}^{2}+y_{1}^{2}x_{2}^{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( (x_{1}y_{2}-x_{2}y_{1})^{2}\\geq 0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "9ddb8352-75b8-4030-a08c-8c803389ef0a",
+      "authorSolution": " \\(6\\) ",
+      "uuid": "e999e8a7-37f4-459c-bcd1-92a315f879c7",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166534,
+      "creatorUserId": "",
+      "createdAt": 1437419361968,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that \\( |z_{1}+z_{2}|\\leq |z_{1}|+|z_{2}|\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Proofs,auto-uploaded",
-      "url": "/practice-problem/9ddb8352-75b8-4030-a08c-8c803389ef0a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVP3",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Radius Of Convergence Practice",
+      "body": "  \\(\\sum_{k\u003d1}^\\infty \\frac{k^2}{2^k}\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/e999e8a7-37f4-459c-bcd1-92a315f879c7",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that \\( |z_{1}+z_{2}+z_{3}|\\leq |z_{1}|+|z_{2}|+|z_{3}|\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eBy the triangle inequality,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( |z_{1}+(z_{2}+z_{3})|\\leq |z_{1}|+|z_{2}+z_{3}|\\leq |z_{1}|+|z_{2}|+|z_{3}|\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "bbe81a09-7a5c-469a-8feb-18e6fe8e7321",
+      "authorSolution": " \\(-3\\) ",
+      "uuid": "b13e0748-27f2-4f82-af51-31405ff315e1",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166543,
+      "creatorUserId": "",
+      "createdAt": 1437419361968,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that \\( |z_{1}+z_{2}+z_{3}|\\leq |z_{1}|+|z_{2}|+|z_{3}|\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Proofs,auto-uploaded",
-      "url": "/practice-problem/bbe81a09-7a5c-469a-8feb-18e6fe8e7321",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVP4",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Interval Of Convergence",
+      "body": " Express  \\(\\sum_{k\u003d0}^\\infty \\tfrac12(n+1)(n+2) x^n\\)  as an elementary function.\\\\ Answer:  \\(f(x)\u003d(1 - x)^p\\)  where  \\(p\u003d\\) ____.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/b13e0748-27f2-4f82-af51-31405ff315e1",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that \\( \\overline {z_{1}z_{2}}\u003d\\overline {z_{1}}\\,\\overline {z_{2}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( z_{1}\u003dx_{1}+iy_{1}\\, \\) and \\( z_{2}\u003dx_{2}+iy_{2}\\, \\) . Then \u003c/p\u003e     \\( \\overline {z_{1}z_{2}} \\)   \\( \u003d\\overline {(x_{1}+iy_{1})(x_{2}+iy_{2})} \\)      \\( \u003d\\overline {x_{1}x_{2}+x_{1}y_{2}i+x_{2}y_{1}i-y_{1}y_{2}} \\)      \\( \u003d\\overline {(x_{1}x_{2}-y_{1}y_{2})+i(x_{1}y_{2}+x_{2}y_{1})} \\)      \\( \u003d(x_{1}x_{2}-y_{1}y_{2})-i(x_{1}y_{2}+x_{2}y_{1})\\, \\)      \\( \u003dx_{1}x_{2}-x_{1}y_{2}i-x_{2}y_{1}i-y_{1}y_{2}\\, \\)      \\( \u003d(x_{1}-y_{1}i)(x_{2}-y_{2}i)\\, \\)      \\( \u003d\\overline {(x_{1}+y_{1}i)}\\,\\overline {(x_{2}+y_{2}i)} \\)      \\( \u003d\\overline {z_{1}}\\,\\overline {z_{2}} \\)",
-      "uuid": "957fd371-dfef-4657-b161-6fe618304e44",
+      "authorSolution": " \\(25\\) ,  \\(64\\) ",
+      "uuid": "4126be21-9585-4abc-99ef-88f39f067997",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166556,
+      "creatorUserId": "",
+      "createdAt": 1437419361969,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that \\( \\overline {z_{1}z_{2}}\u003d\\overline {z_{1}}\\,\\overline {z_{2}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Proofs,auto-uploaded",
-      "url": "/practice-problem/957fd371-dfef-4657-b161-6fe618304e44",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVP5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Use Of Power Series To Solve Differential Equations",
+      "body": " The Taylor polynomial of degree 4 for  \\(f(x)\u003d2(x-1)^3+2(x+1)^{1/2}\\)  is  \\(7x - \\frac a4 x^2 + \\frac{17}8 x^3 - \\frac 5b x^4\\)  where  \\(a\\)  \u003d _____ and  \\(b\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/4126be21-9585-4abc-99ef-88f39f067997",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eProve that there are infinitely many primes. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e Let \\( q\u003d2\\cdot 3\\cdot 5\\cdot \\cdot \\cdot p+1 \\) where \\( p \\) is a prime. Then \\( q \\) is not divisible by any prime less than or equal to \\( p \\) . Now either \\( q \\) is prime or it is divisible by primes greater than \\( p \\) and less than \\( q \\) . In either case there is a prime greater than \\( p \\) , which proves the theorem. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e -Euclid \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "c2d6fd8b-427e-4074-8b96-e855172f525f",
+      "authorSolution": " \\(3\\) ,  \\(-3\\) ,  \\(7\\) ",
+      "uuid": "7819965d-e54d-4e10-8a7e-bc42f72e6ebd",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166565,
+      "creatorUserId": "",
+      "createdAt": 1437419361969,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Prove that there are infinitely many",
-      "tags": "Number Theory,Number,Theory,Prime Numbers,Prime,Numbers,auto-uploaded",
-      "url": "/practice-problem/c2d6fd8b-427e-4074-8b96-e855172f525f",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT1",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Radius Of Convergence Question",
+      "body": " The Taylor polynomial of degree 3 for  \\(f(x)\u003d(x+4)^{3/2}-(x+1)^{3/2}\\)  is  \\(7 + \\frac a2x + \\frac b{16}x^2 + \\frac c{128}x^3\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d____, and  \\(c\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/7819965d-e54d-4e10-8a7e-bc42f72e6ebd",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eProve that there are infinitely many primes of the form \\( p\u003d6k-1\\, \\) . \u003c/p\u003e\n\u003cp\u003eSuppose on the contrary that there are just a finite number of these primes, say \u003ci\u003ep\u003c/i\u003e\u003csub\u003e1\u003c/sub\u003e, ..., \u003ci\u003ep\u003c/i\u003e\u003csub\u003e\u003ci\u003en\u003c/i\u003e\u003c/sub\u003e. Let \u003ci\u003ea\u003c/i\u003e \u003d \u003ci\u003ep\u003c/i\u003e\u003csub\u003e1\u003c/sub\u003e...\u003ci\u003ep\u003c/i\u003e\u003csub\u003e\u003ci\u003en\u003c/i\u003e\u003c/sub\u003e. Obviously, \u003ci\u003ea\u003c/i\u003e \u003d (?1)\u003csup\u003e\u003ci\u003en\u003c/i\u003e\u003c/sup\u003e modulo 6. If \u003ci\u003en\u003c/i\u003e is even, let \u003ci\u003eb\u003c/i\u003e \u003d \u003ci\u003ea\u003c/i\u003e + 4 and otherwise let \u003ci\u003eb\u003c/i\u003e \u003d \u003ci\u003ea\u003c/i\u003e + 6. Then \u003ci\u003eb\u003c/i\u003e \u003d 5 modulo 6 \u003d ?1 modulo 6. Moreover, any prime number \u003ci\u003eq\u003c/i\u003e dividing both \u003ci\u003ea\u003c/i\u003e and \u003ci\u003eb\u003c/i\u003e will also divide either 4 or 6, hence such a \u003ci\u003eq\u003c/i\u003e will equal 2 or 3. In particular, none of the \u003ci\u003ep\u003c/i\u003e\u003csub\u003e\u003ci\u003ej\u003c/i\u003e\u003c/sub\u003e will divide \u003ci\u003eb\u003c/i\u003e. Now write \u003ci\u003eb\u003c/i\u003e as a product of prime numbers. Since \u003ci\u003eb\u003c/i\u003e is odd, every prime factor \u003ci\u003eq\u003c/i\u003e of \u003ci\u003eb\u003c/i\u003e can be written as \u003ci\u003eq\u003c/i\u003e \u003d 6\u003ci\u003er\u003c/i\u003e + 1, \u003ci\u003eq\u003c/i\u003e \u003d 6\u003ci\u003er\u003c/i\u003e + 3 or \u003ci\u003eq\u003c/i\u003e \u003d 6\u003ci\u003er\u003c/i\u003e + 5. However, the last type (which is ?1 modulo 6) is already ruled out, since none of the \u003ci\u003ep\u003c/i\u003e\u003csub\u003e\u003ci\u003ej\u003c/i\u003e\u003c/sub\u003e divides \u003ci\u003eb\u003c/i\u003e. The second type only permits \u003ci\u003eq\u003c/i\u003e \u003d 3. Therefore \u003ci\u003eb\u003c/i\u003e, being the product of all its prime factors, is either 1 or 3 modulo 6 (since 3\u003csup\u003e\u003ci\u003em\u003c/i\u003e\u003c/sup\u003e \u003d 3 modulo 6), a contradiction which completes the proof. \u003c/p\u003e",
-      "uuid": "11bb74c6-1d10-423c-acae-3b204ddbc61c",
+      "authorSolution": " \\(2\\) ,  \\(-1\\) ,  \\(4\\) ,  \\(2\\) ",
+      "uuid": "64b69f14-ff51-400d-8a44-83f22a1b72a7",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166586,
+      "creatorUserId": "",
+      "createdAt": 1437419361969,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Prove that there are infinitely many primes of the form \\( p\u003d6k-1\\, \\) .",
-      "tags": "Number Theory,Number,Theory,Prime Numbers,Prime,Numbers,auto-uploaded",
-      "url": "/practice-problem/11bb74c6-1d10-423c-acae-3b204ddbc61c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT8",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eProve that \\( \\pi (x) \\) (the number of primes less than \\( x \\) ) is bounded below by \\( \\log \\log x \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e Let \\( p_{n}\\, \\) be the \\( n^{{th}} \\) prime. Let \\( q\u003d2\\cdot 3\\cdot 5\\cdot \\cdot \\cdot p_{n}+1 \\) . \u003c/p\u003e\n\u003cp\u003eBy the proof of \u003ca rel\u003d\"nofollow\"\u003eNT1\u003c/a\u003e, \\( p_{{n+1}}\\leq q \\) . \u003c/p\u003e\n\u003cp\u003eSuppose that \\( p_{n}\u0026lt;2^{{2^{n}}} \\) for \\( n\u003d1,2,...,N \\) . It is true for \\( n\u003d1 \\) . The last result gives \u003c/p\u003e\n\u003cp\u003e \\( p_{{N+1}}\\leq p_{1}p_{2}...p_{N}+1\u0026lt;2^{{2+4+...+2^{N}}}+1\u0026lt;2^{{2^{{N+1}}}} \\) \u003c/p\u003e\n\u003cp\u003ewhich proves it inductively for all \\( n \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSuppose \\( n\\geq 4 \\) . Let \\( x \\) be such that \u003c/p\u003e\n\u003cp\u003e \\( e^{{e^{{n-1}}}}\u0026lt;x\\leq e^{{e^{n}}} \\) . \u003c/p\u003e\n\u003cp\u003eSince \u003c/p\u003e\n\u003cp\u003e \\( e^{{n-1}}\u0026gt;2^{n},n\u0026gt;1\\, \\) \u003c/p\u003e\n\u003cp\u003eit is true that \u003c/p\u003e\n\u003cp\u003e \\( e^{{e^{{n-1}}}}\u0026gt;2^{{2^{n}}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eAnd so \u003c/p\u003e\n\u003cp\u003e \\( \\pi (x)\\geq \\pi (e^{{e^{{n-1}}}})\\geq \\pi (2^{{2^{n}}})\\geq n\\, \\) \u003c/p\u003e\n\u003cp\u003eSince \\( \\log \\log x\\leq n \\) , it is true that \u003c/p\u003e\n\u003cp\u003e \\( \\pi (x)\\geq \\log \\log x,x\\geq 2 \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "02f6be19-f297-49ad-9934-f5a9c02874e9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Prove that the number of primes less than \\( x \\) is bounded below by \\( \\log \\log x \\) .",
-      "tags": "Number Theory,Number,Theory,Prime Numbers,Prime,Numbers,auto-uploaded",
-      "url": "/practice-problem/02f6be19-f297-49ad-9934-f5a9c02874e9",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT2",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eProve that there are \\( n\\, \\) consecutive composite numbers, for any \\( n\u0026gt;0\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( m\u003dn+1\\, \\) . Consider the sequence of \\( n\\, \\) numbers \u003c/p\u003e  \n\u003cp\u003e \\( m!+2,m!+3,\\ldots ,m!+m\\, \\) \u003c/p\u003e  \n\u003cp\u003eThen for any \\( k\\, \\) such that \\( 2\\leq k\\leq m\\, \\) \u003c/p\u003e     \\( m!+k\\, \\)   \\( \u003d\\left(1\\cdot 2\\cdot \\ldots \\cdot (k-1)\\cdot k\\cdot (k+1)\\cdot \\ldots \\cdot m\\right)+k\\, \\)      \\( \u003dk\\left[\\left(1\\cdot 2\\cdot \\ldots \\cdot (k-1)\\cdot (k+1)\\cdot \\ldots \\cdot m\\right)+1\\right]\\, \\)   \n\u003cp\u003eTherefore, \\( m!+k\\, \\) is composite, and since \\( k\\, \\) was arbitrary, every number in the sequence is composite.\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eAs an interesting side note, now consider taking \\( n\\to \\infty \\, \\) . \u003c/p\u003e",
-      "uuid": "9b6ebe77-3842-4f41-8e2f-f076e3f46321",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166609,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Prove that there are \\( n\\, \\) consecutive",
-      "tags": "Number Theory,Number,Theory,Prime Numbers,Prime,Numbers,auto-uploaded",
-      "url": "/practice-problem/9b6ebe77-3842-4f41-8e2f-f076e3f46321",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT3",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eProve that any number \\( x\\ {\\boldsymbol {\\epsilon }}\\ {\\mathbb {Z}} \\) can be represented by the sum of \u003ca rel\u003d\"nofollow\"\u003eFibonacci numbers\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cp\u003e The problem is known as Zeckendorf\u0027s theorem and a proof can be found \u003ca href\u003d\"http://en.wikipedia.org/wiki/Zeckendorf\u0027s_theorem\" rel\u003d\"nofollow\"\u003ehere\u003c/a\u003e. \u003c/p\u003e\n\u003cspan\u003eplease revise the statement of the problem.\u003c/span\u003e \n\u003cp\u003eIf it is stated as so we can easily consider \\( f_{1}\u003d1 \\) be a fibonnaci number and construct \\( \\forall k\u003dk\\cdot f_{1} \\) \u003cbr\u003e Perhaps the problem asks for \u003cb\u003edistinct\u003c/b\u003e fibonacci numbers which added up equal any integer\u0026nbsp;?\u003cbr\u003e If so we can have the following perl program\u003cbr\u003e \u003cbr\u003e \u003c/p\u003e \n\u003cpre\u003e\n$p[0]\u003d0;\n$p[1]\u003d1;\n$k\u003d\u0026lt;\u0026gt;;\n$i\u003d1;\n#building fibonnaci less than k\nwhile($k\u0026gt;$p[$i]) {\n\t$i++;\n\t$p[$i] \u003d $p[$i-1]+$p[$i-2];\n};\n$i--;\n#decomposing k into distinctfibbonaci less than it\nwhile($k\u0026gt;0) {\n\t$k-\u003d$p[$i];\n\tprint \"$p[$i]\".($k\u0026gt;0?\u0027+\u0027:\u0027\u0027);\n\twhile($k\u0026lt;$p[$i]) {\n\t\t$i--;\n\t}\n}\n\u003c/pre\u003e \n\u003cp\u003eThe algorithm shows good evidence that this is possible.\u003cbr\u003e I was not able to prove the problem for distinct fibonacci.\u003cbr\u003e \u003c/p\u003e \n\u003cp\u003e\u003c/p\u003e",
-      "uuid": "1ec21071-3f34-49d2-8061-0aa4bc734e07",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166622,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Prove that any number \\( x\\ {\\boldsymbol {\\epsilon }}\\ {\\mathbb {Z}} \\) can be represented by the sum of",
-      "tags": "Number Theory,Number,Theory,Prime Numbers,Prime,Numbers,auto-uploaded",
-      "url": "/practice-problem/1ec21071-3f34-49d2-8061-0aa4bc734e07",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT9",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the remainder when \\( 37^{{100}} \\) is divided by 29. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \\( 37^{{100}}\\equiv 8^{{100}}({\\mathrm {mod}}29) \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d(8^{2})^{{50}}\u003d64^{{50}}\\equiv 6^{{50}}\u003d(6^{2})^{{25}}\u003d36^{{25}}({\\mathrm {mod}}29) \\) \u003c/p\u003e\n\u003cp\u003e \\( \\equiv 7^{{25}}\u003d(7^{5})^{5}\\equiv 16^{5}\u003d2^{{20}}\u003d(2^{5})^{4}\u003d32^{4}\\equiv 3^{4}\\equiv 23({\\mathrm {mod}}29) \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "b4363bfc-be81-45e8-bf0f-c7ff7a5f974f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166638,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Find the remainder when \\( 37^{{100}} \\) is divided by 29.",
-      "tags": "Number Theory,Number,Theory,Divisibility,auto-uploaded",
-      "url": "/practice-problem/b4363bfc-be81-45e8-bf0f-c7ff7a5f974f",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT4",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the remainder when \\( 45^{{1000}} \\) is divided by 31. \u003cbr\u003e\u003cbr\u003e \\( 45^{{1000}}\\equiv 14^{{1000}}\\equiv 196^{{500}}\\equiv 10^{{500}}\\equiv 100^{{250}}(mod31)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\equiv 7^{{250}}\\equiv (7^{3})^{{83}}\\times 7\\equiv 343^{{83}}\\times 7\\equiv 2^{{83}}\\times 7(mod31)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\equiv (2^{5})^{{16}}\\times 56\\equiv 32^{{16}}\\times 25\\equiv 1^{{16}}\\times 25\\equiv 25(mod31)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "8e4def8a-3bb7-4c4a-ac4b-e47d624af043",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166647,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Number Theory Practice",
-      "body": "Find the remainder when \\( 45^{{1000}} \\) is divided by 31.",
-      "tags": "Number Theory,Number,Theory,Divisibility,auto-uploaded",
-      "url": "/practice-problem/8e4def8a-3bb7-4c4a-ac4b-e47d624af043",
-      "source": "http://www.exampleproblems.com/wiki/index.php/NT5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Power Series Practice",
+      "body": " Write  \\(p(x)\u003dx^4-2x^3+4x^2-7x+6\\)  as a polynomial in powers of  \\(x-1\\) .   Answer:  \\(a + b(x-1) + c(x-1)^2 + d(x-1)^3 + (x-1)^4\\)  where  \\(a\u003d\\) ___,  \\(b\u003d\\) ____,  \\(c\u003d\\) ___, and  \\(d\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/64b69f14-ff51-400d-8a44-83f22a1b72a7",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     }
   ],
   "questions": [
-    {
-      "uuid": "18794b93-5e79-4eb3-a101-9081c0238efb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Product Rule",
-      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)xg(x)|\\(_{x\u003d4}\\)",
-      "allAnswers": [],
-      "tags": "derivative, product rule",
-      "url": "/question/18794b93-5e79-4eb3-a101-9081c0238efb",
-      "source": "Mooculus 5.1.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "f4e58aba-dde3-4e38-b994-7242c1136b2a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Product Rule",
-      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)f(x)g(x)|\\(_{x\u003d1}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20433.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "derivative, product rule",
-      "url": "/question/f4e58aba-dde3-4e38-b994-7242c1136b2a",
-      "source": "Mooculus 5.1.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "c14762c7-18d8-424a-98f5-7eafc8667ccc",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Product Rule",
-      "body": "Suppose that f(x), g(x), and h(x) are differentiable functions. Show that \\(\\frac{d}{dx}\\)f(x)\\(\\cdot\\)g(x)\\(\\cdot\\)h(x) \u003d f(x)g(x)h\u0027(x)+f(x)g\u0027(x)h(x)+f\u0027(x)g(x)h(x).",
-      "allAnswers": [],
-      "tags": "product rule, differentiable functions, derivatives, functions",
-      "url": "/question/c14762c7-18d8-424a-98f5-7eafc8667ccc",
-      "source": "Mooculus 5.1.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "8476cb54-10d1-4d40-9efd-4e0b2261e658",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Quotient Rule",
-      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{x^{3}}{x^{3}-5x+10}\\)",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative",
-      "url": "/question/8476cb54-10d1-4d40-9efd-4e0b2261e658",
-      "source": "Mooculus 5.2.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "63fc88d3-8e56-4a1b-9fb1-942b062030dc",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{x^{2}+5x-3}{x^{5}-6x^{3}+3x^{2}-7x+1}\\)",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative",
-      "url": "/question/63fc88d3-8e56-4a1b-9fb1-942b062030dc",
-      "source": "Mooculus 5.2.2",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "15fd2bf4-0f6c-47ab-b268-e1d454624636",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{e^{x}-4}{2x}\\)",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative",
-      "url": "/question/15fd2bf4-0f6c-47ab-b268-e1d454624636",
-      "source": "Mooculus 5.2.3",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "049f256c-788e-417d-aab0-fc532fc61496",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{2-x-\\sqrt{x}}{x+2}\\)",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative",
-      "url": "/question/049f256c-788e-417d-aab0-fc532fc61496",
-      "source": "Mooculus 5.2.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "db04de30-f8e5-43af-b10d-3ff507e5544d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Find an equation for the tangent line to f(x)\u003d(x\\(^{2}\\)-4)/(5-x) at x \u003d 3.",
-      "allAnswers": [],
-      "tags": "tangent line, quotient rule",
-      "url": "/question/db04de30-f8e5-43af-b10d-3ff507e5544d",
-      "source": "Mooculus 5.2.5",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
-    },
-    {
-      "uuid": "db37e422-378c-4578-9be9-12ca8170214e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Find an equation for the tangent line to f(x)\u003d(x-2)/(x\\(^{3}\\)+4x-1) at x \u003d 1.",
-      "allAnswers": [],
-      "tags": "tangent line, quotient rule, equation of tangent line",
-      "url": "/question/db37e422-378c-4578-9be9-12ca8170214e",
-      "source": "Mooculus 5.2.6",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
-    },
-    {
-      "uuid": "855946fc-e79e-4269-8692-4864702d3f53",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "The curve y \u003d 1/(1+x\\(^{2}\\)) is an example of a class of curves each of which is called a witch of Agnesi. Find the tangent line to the curve at x \u003d 5. Note, the word witch here is due to a mistranslation. ",
-      "allAnswers": [],
-      "tags": "curves, tangent line, quotient rule",
-      "url": "/question/855946fc-e79e-4269-8692-4864702d3f53",
-      "source": "Mooculus 5.2.7",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
-    },
-    {
-      "uuid": "0b08f9e2-8193-4393-94fb-74b6f22b55d8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{f(x)}{g(x)}|_{x\u003d2}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20434.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "derivative, quotient rule",
-      "url": "/question/0b08f9e2-8193-4393-94fb-74b6f22b55d8",
-      "source": "Mooculus 5.2.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "79d9d456-f091-4420-adbe-c47aa28262be",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quotient Rule",
-      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{f(x)}{x}|_{x\u003d3}\\)",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative",
-      "url": "/question/79d9d456-f091-4420-adbe-c47aa28262be",
-      "source": "Mooculus 5.2.9",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
     {
       "uuid": "fd7395c8-c102-48e8-ba1d-fddb685679ce",
       "contentType": "question",
@@ -489,12 +211,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Quotient Rule",
-      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{xf(x)}{g(x)}|_{x\u003d4}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20434.png\"/\u003e",
+      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{xf(x)}{g(x)}|_{x\u003d4}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20434.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "quotient rule, derivative ",
       "url": "/question/fd7395c8-c102-48e8-ba1d-fddb685679ce",
       "source": "Mooculus 5.2.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "2623a938-516c-49ad-81e5-d7d3aef368c3",
@@ -506,12 +228,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Quotient Rule",
-      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{f(x)g(x)}{x}|_{x\u003d1}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20434.png\"/\u003e",
+      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{f(x)g(x)}{x}|_{x\u003d1}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20434.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "quotient rule, derivative",
       "url": "/question/2623a938-516c-49ad-81e5-d7d3aef368c3",
       "source": "Mooculus 5.2.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "02012506-0520-4395-9b23-abfb057d6519",
@@ -528,7 +250,7 @@
       "tags": "quotient rule, derivative, functions",
       "url": "/question/02012506-0520-4395-9b23-abfb057d6519",
       "source": "Mooculus 5.2.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "74a857ed-7643-4060-9d60-77c2df4ac59b",
@@ -545,7 +267,7 @@
       "tags": "chain rule, derivatives",
       "url": "/question/74a857ed-7643-4060-9d60-77c2df4ac59b",
       "source": "Mooculus 6.1.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "441fc779-3f50-4fae-94d9-921e8ff014a6",
@@ -562,7 +284,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/441fc779-3f50-4fae-94d9-921e8ff014a6",
       "source": "Mooculus 6.1.2",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "14ec7517-e532-4b89-8e72-73826e896928",
@@ -579,7 +301,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/14ec7517-e532-4b89-8e72-73826e896928",
       "source": "Mooculus 6.1.3",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "50cd3e18-37a9-45ca-9d14-d546d1b833ac",
@@ -596,7 +318,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/50cd3e18-37a9-45ca-9d14-d546d1b833ac",
       "source": "Mooculus 6.1.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "724f6b43-5c63-4613-b0e3-4a474a539e51",
@@ -613,7 +335,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/724f6b43-5c63-4613-b0e3-4a474a539e51",
       "source": "Mooculus 6.1.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "a010ea12-5b53-4772-93e8-9c87efcd19ad",
@@ -630,7 +352,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/a010ea12-5b53-4772-93e8-9c87efcd19ad",
       "source": "Mooculus 6.1.6",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "68283049-77bc-411d-825f-04a849894e84",
@@ -647,7 +369,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/68283049-77bc-411d-825f-04a849894e84",
       "source": "Mooculus 6.1.7",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "b9eb9720-6fba-43b7-8ebb-e59714c7d886",
@@ -664,7 +386,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/b9eb9720-6fba-43b7-8ebb-e59714c7d886",
       "source": "Mooculus 6.1.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "ddd5ae73-905d-4555-94e9-cbcfd908ee64",
@@ -681,7 +403,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/ddd5ae73-905d-4555-94e9-cbcfd908ee64",
       "source": "Mooculus 6.1.9",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "fda251c1-061d-4d55-8c71-d1174f958dfe",
@@ -698,7 +420,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/fda251c1-061d-4d55-8c71-d1174f958dfe",
       "source": "Mooculus 6.1.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "503d832a-bc07-443e-821d-31cd86ed12b5",
@@ -715,7 +437,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/503d832a-bc07-443e-821d-31cd86ed12b5",
       "source": "Mooculus 6.1.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "86a4cf73-0de0-49da-9d6a-61ce4ff4d525",
@@ -732,7 +454,7 @@
       "tags": "chain rule, derivative ",
       "url": "/question/86a4cf73-0de0-49da-9d6a-61ce4ff4d525",
       "source": "Mooculus 6.1.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "2728d740-f2ce-48e5-bc1a-a248bb5dd278",
@@ -749,7 +471,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/2728d740-f2ce-48e5-bc1a-a248bb5dd278",
       "source": "Mooculus 6.1.13",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "f230a98b-4ee6-4b18-a816-c87486622758",
@@ -766,7 +488,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/f230a98b-4ee6-4b18-a816-c87486622758",
       "source": "Mooculus 6.1.14",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "e414c422-87a3-4c90-8630-b1f63d81b690",
@@ -783,7 +505,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/e414c422-87a3-4c90-8630-b1f63d81b690",
       "source": "Mooculus 6.1.15",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "f29b5c8a-ace0-43d9-bb57-6bff6e9a9caf",
@@ -800,7 +522,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/f29b5c8a-ace0-43d9-bb57-6bff6e9a9caf",
       "source": "Mooculus 6.1.6",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "7d02c03a-7250-4913-81aa-67bac1d5448c",
@@ -817,7 +539,7 @@
       "tags": "chain rule, derivative",
       "url": "/question/7d02c03a-7250-4913-81aa-67bac1d5448c",
       "source": "Mooculus 6.1.17",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "2a0b4be9-1e64-4d13-bd0a-99631f903cd4",
@@ -834,7 +556,7 @@
       "tags": "chain rule, tangent line",
       "url": "/question/2a0b4be9-1e64-4d13-bd0a-99631f903cd4",
       "source": "Mooculus 6.1.18",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "2ce34f74-4943-40ca-8e5a-e868ce9a2e05",
@@ -851,7 +573,7 @@
       "tags": "chain rule, tangent line",
       "url": "/question/2ce34f74-4943-40ca-8e5a-e868ce9a2e05",
       "source": "Mooculus 6.1.19",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "79dae1e4-66bd-4fa3-93bc-bdaa87f84e07",
@@ -868,7 +590,7 @@
       "tags": "tangent line,  chain rule",
       "url": "/question/79dae1e4-66bd-4fa3-93bc-bdaa87f84e07",
       "source": "Mooculus 6.1.20",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "d438fbee-99c0-4f52-8b98-cfb386c714e8",
@@ -885,7 +607,7 @@
       "tags": "tangent line, chain rule",
       "url": "/question/d438fbee-99c0-4f52-8b98-cfb386c714e8",
       "source": "Mooculus 6.1.21",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "9c2318ec-5090-4cd1-b870-96902b338edf",
@@ -902,7 +624,7 @@
       "tags": "chain rule, tangent line",
       "url": "/question/9c2318ec-5090-4cd1-b870-96902b338edf",
       "source": "Mooculus 6.1.22",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "ca8ae17c-a784-46fe-aaa7-64c7765eed1a",
@@ -919,7 +641,194 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/ca8ae17c-a784-46fe-aaa7-64c7765eed1a",
       "source": "Mooculus 8.3.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "4ae77c1b-c4d7-47ce-845a-4c16b32d5056",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "Sand is poured onto a surface at 15 cm\\({}^3\\)/sec, forming a\nconical pile whose base diameter is always equal to its altitude.  How\nfast is the altitude of the pile increasing when the pile is 3 cm\nhigh?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/4ae77c1b-c4d7-47ce-845a-4c16b32d5056",
+      "source": "Mooculus 8.3.7",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "296a9c49-3613-47aa-aade-4dffa8fb0b0a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A boat is pulled in to a dock by a rope with one end attached to the front\nof the boat and the other end passing through a ring attached to the dock\nat a point 5 ft higher than the front of the boat.  The rope is being pulled through the ring at the rate of 0.6 ft/sec.  How fast is the boat approaching the dock when 13 ft of rope are out?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/296a9c49-3613-47aa-aade-4dffa8fb0b0a",
+      "source": "Mooculus 8.3.8",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "c1ae7c02-cf8b-4b95-b962-9562f4e8a2c4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A balloon is at a height of 50 meters, and is rising at the constant rate\nof 5 m/sec.  A bicyclist passes beneath it, traveling in a straight line at the constant speed of 10 m/sec.  How fast is the distance between the bicyclist and the balloon increasing 2 seconds later?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/c1ae7c02-cf8b-4b95-b962-9562f4e8a2c4",
+      "source": "Mooculus 8.3.9",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "e5ce1efb-3ab1-402f-b987-7b1328162f29",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A pyramid-shaped vat has square cross-section and stands on its\ntip.  The dimensions at the top are 2 m \\(\\times\\) 2 m, and the depth is\n5 m.  If water is flowing into the vat at 3 m\\({}^3\\)/min, how fast is\nthe water level rising when the depth of water (at the deepest point)\nis 4 m?  Note: the volume of any ``conical\u0027\u0027 shape (including\npyramids) is \\((1/3)(\\hbox{height})(\\hbox{area of base})\\).",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/e5ce1efb-3ab1-402f-b987-7b1328162f29",
+      "source": "Mooculus 8.3.10",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "cf45ba7b-7b95-45e6-9298-bd22b1ced216",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A woman 5 ft tall walks at the rate of 3.5 ft/sec away from a streetlight\nthat is 12 ft above the ground.  At what rate is the tip of her shadow\nmoving?  At what rate is her shadow lengthening?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/cf45ba7b-7b95-45e6-9298-bd22b1ced216",
+      "source": "Mooculus 8.3.11",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "0e0f5812-43b6-478f-9538-2e97d7953e55",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A man 1.8 meters tall walks at the rate of 1 meter per second toward a streetlight that is 4 meters above the ground.  At what rate is the tip of his shadow moving?  At what rate is his shadow shortening?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/0e0f5812-43b6-478f-9538-2e97d7953e55",
+      "source": "Mooculus 8.3.12",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "a2a7e8df-60cd-405a-8ead-d6da5b0d0892",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A police helicopter is flying at 150 mph at a constant altitude of 0.5 mile\nabove a straight road.  The pilot uses radar to determine that an oncoming\ncar is at a distance of exactly 1 mile from the helicopter, and that this\ndistance is decreasing at 190 mph.  Find the speed of the car.",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/a2a7e8df-60cd-405a-8ead-d6da5b0d0892",
+      "source": "Mooculus 8.3.13",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "e0e874d4-eac8-4c30-b0f3-5bbab13a3525",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A police helicopter is flying at 200 kilometers per hour at a constant altitude of 1 km above a straight road.  The pilot uses radar to determine that an oncoming car is at a distance of exactly 2 kilometers from the helicopter, and that this distance is decreasing at 250 kph.  Find the speed of the car.",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/e0e874d4-eac8-4c30-b0f3-5bbab13a3525",
+      "source": "Mooculus 8.3.14",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "aba64240-cbf0-4101-a70a-492acdd15040",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A road running in a northwest direction crosses a road going east to\nwest at a \\(120^\\circ\\) at a point \\(P\\). Car \\(A\\) is driving northwesterly\nalong the first road, and car \\(B\\) is driving east along the second\nroad. At a particular time car \\(A\\) is \\(10\\) kilometers to the northwest\nof P and traveling at \\(80\\) km/hr, while car \\(B\\) is \\(15\\) kilometers to\nthe east of \\(P\\) and traveling at \\(100\\) km/hr. How fast is the distance\nbetween the two cars changing? Hint, recall the law of cosines:\n\\(c^2\u003da^2+b^2-2ab\\cos\\theta\\).",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/aba64240-cbf0-4101-a70a-492acdd15040",
+      "source": "Mooculus 8.3.15",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "533698bb-2ed4-486b-b270-2c89dd4b8934",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A road running north to south crosses a road going east to west at the\npoint \\(P\\). Car A is 300 meters north of \\(P\\), car B is 400 meters east\nof \\(P\\), both cars are going at constant speed toward \\(P\\), and the two\ncars will collide in 10 seconds. How fast is the distance between the\ntwo cars changing?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/533698bb-2ed4-486b-b270-2c89dd4b8934",
+      "source": "Mooculus 8.3.16",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "8e7a8be8-f738-4741-8ae1-2214e1f5c474",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A road running north to south crosses a road going east to west at the\npoint \\(P\\). Eight seconds ago car \\(A\\) started from rest at \\(P\\) and has\nbeen driving north, picking up speed at the steady rate of \\(5\\)\nm/sec\\({}^2\\). Six seconds after car \\(A\\) started, car \\(B\\) passed \\(P\\)\nmoving east at constant speed 60 m/sec. How fast is the distance\nbetween the two cars changing?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/8e7a8be8-f738-4741-8ae1-2214e1f5c474",
+      "source": "Mooculus 8.3.17",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     }
   ],
   "textContent": [
@@ -938,7 +847,7 @@
       "tags": "arctrigonometric forms, integral, integration ",
       "url": "/text-content/f1821705-a23d-48f7-b034-663eab5801d3",
       "source": "Forgotten Text 4 6.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Further Arctrigonometric Forms"
+      "topic": "4cec7a83-c134-49af-bb08-09bd991bbd25"
     },
     {
       "uuid": "144496cb-25f8-4ba3-a671-9ba99e1f709d",
@@ -955,7 +864,7 @@
       "tags": "substitution integration, integral, definite integral, substitution method ",
       "url": "/text-content/144496cb-25f8-4ba3-a671-9ba99e1f709d",
       "source": "Forgotten Text 4 7.1",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Substitution-Type Integration"
+      "topic": "d3eb749e-ab75-438a-9863-5d1edad38b57"
     },
     {
       "uuid": "c3309e6a-adda-4366-9ef3-16723da924aa",
@@ -972,9 +881,100 @@
       "tags": "integration by parts, integration, integral, applications of integration, advanced integration ",
       "url": "/text-content/c3309e6a-adda-4366-9ef3-16723da924aa",
       "source": "Forgotten Text 4 7.2",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
+      "topic": "1c185413-98ee-41a5-a258-4dc229746797"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "5e44b3a4-96cf-44dc-bee3-9488b0f3dc9e",
+      "subTopics": [
+        "1d3c3a16-7488-4738-b17e-85221f2a3457"
+      ],
+      "parentTopics": [
+        "29f4db72-a2c1-4165-8293-0a566eeab72f"
+      ],
+      "title": "The Ratio and Root Tests",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 684000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "773e3868-d79c-4440-8815-90af4384893c",
+      "subTopics": [],
+      "parentTopics": [
+        "dee5ca4e-2be5-4dba-b299-cdc409e35a18"
+      ],
+      "title": "Conjunctions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " compound sentences, logic,conjunctions, domains, mathematical sentences, replacement sets, truth sets, symbols, open sentences,",
+      "difficulty": 157000,
+      "contentUuids": [
+        "9a3e0be2-0ba5-4599-9718-c040e5ac8a83"
+      ]
+    },
+    {
+      "uuid": "c0e3f893-4008-4156-9e1e-1d9a6c62c312",
+      "subTopics": [],
+      "parentTopics": [
+        "6846ecf2-fa29-41a0-8315-fd49f306572b"
+      ],
+      "title": "Properties of Vectors",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "vector and metric properties of $\\\\r^n$, word problem,,",
+      "difficulty": 234000,
+      "contentUuids": [
+        "65ed8903-91e7-4c36-b931-eb0296c9ab16",
+        "232d45ec-edff-4895-8fb6-702d967e38b5",
+        "8ff4bf51-bc55-4436-85b1-a1addda24547",
+        "4d2bba78-a5df-45d2-97d8-2edb4dd5a203",
+        "408ed841-494f-467f-8842-d1b84ed52dac",
+        "ec332f35-5824-4c87-bc66-9b221f4842e8",
+        "b1337add-3a4e-478b-9f52-9ee3ea775ce4",
+        "6cc09b3d-bb46-44c5-8777-0072de8a4f64",
+        "e7f70d43-ffe7-4abb-9a17-264a471d18e3",
+        "f76744d1-a99b-4a73-9ad4-ee556ace5746",
+        "a441fe8d-6b01-4077-8e38-5b6e98fcd80c",
+        "e9c5d9d8-8a11-4caf-b8c6-74fd3e3e0ece",
+        "8b85fd89-ac0d-450a-b735-13bfe059921d",
+        "b889d17b-0c5b-49ec-a42e-dc48892fc5bf",
+        "03192831-0ab2-46bc-acd9-12c7eb7c54da",
+        "36c18b8e-103f-4ea8-abbe-1ae53eb2f818",
+        "89204196-0a8c-40d5-ba1d-5de8e6658d3b",
+        "a613188f-ed3b-4462-b0d1-5cb973c7c692",
+        "fa206109-8a85-4b28-b5f2-4d1ab1d3c4ed",
+        "8015e158-9ef7-4944-b1e2-852279d704bd",
+        "1d404443-1d4c-4c2a-9c77-e9290a25aa3d",
+        "a0cb76b7-f9a8-40d0-953b-ff227053993a",
+        "1a1bb8fd-7d70-4d59-8d68-68616be7a262",
+        "9e79766e-85db-47cb-97e0-5dbc2e8bd4a0",
+        "910238cf-467d-4d10-bdc5-6cfd460bf843",
+        "2c1804ec-dbde-43bc-9c52-3e153bce823a",
+        "b762aadb-5881-44ae-bc19-7d724fd41fe8",
+        "43de42a9-2756-410f-8577-842a9df6849b",
+        "6d81a3d9-8407-4a09-9011-93b2820fee2a",
+        "59947977-b79c-4817-8421-5171a78660a4",
+        "7d58df5e-65db-4d82-ab42-bba164f2ff2a",
+        "afbf1bcd-75ff-45c1-b5d5-629e82547124",
+        "f4a7b2ee-5e76-44b9-b118-835110c45647",
+        "4bdacbff-66bd-4b7b-b3bb-453cc3b167e3",
+        "2a53de45-960c-4ed5-88ad-45b4dcf6763e",
+        "6a834c1b-18a4-4aef-aaec-f7a3a5fd2ea2",
+        "e89472a6-a58a-49ec-8249-d79b0f76de54",
+        "4458ebea-8b02-4f55-ae6a-f66f3664cd7d",
+        "f988ced2-0160-4084-bfb7-c038c6e58d37",
+        "495e9c27-7426-4fc9-b110-8969674f0500",
+        "47270c89-069f-4507-93e9-3603ec4a5967",
+        "515a5252-d05b-4a4b-9c71-a90641d2c04e",
+        "fa3b4250-abde-45fc-9911-b003ebc5e617",
+        "7bcb4d7f-0d00-4c21-ba85-7a0d3b7afb33",
+        "a44fb6e3-bfdb-42d8-8d71-f60e91d4834d",
+        "91e4d52e-74e8-46ed-a8ec-5db882d28233"
+      ]
+    }
+  ]
 }

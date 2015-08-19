@@ -2,431 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(\\dfrac1e\\) ,  \\(e\\) ",
-      "uuid": "ab4c68fe-778e-48b1-aa9b-c82f0be42878",
+      "authorSolution": " \\(\\pi\\) ",
+      "uuid": "380474e2-eb44-48b2-9b2f-c4f1dca9f8e6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361942,
+      "createdAt": 1437419362142,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sequences Of Real Numbers Problem",
-      "body": " For each natural number  \\(k\\)  let  \\(a_k \u003d (\\ln x)^k\\) .    Then the sequence  \\((a_k)\\)  converges if and only if  \\(a \u003c x \\le b\\)  where  \\(a\\)  \u003d ____ and  \\(b\\)  \u003d ___.",
+      "title": "On Stokes\u0027 Theorem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d y^2z \\vec{ }i + xz \\vec{ }j + x^2y^2 \\vec{ }k\\)  and  \\(S\\)  be that portion of the paraboloid  \\(z \u003d x^2 + y^2\\)  which lies inside the cylinder  \\(x^2 + y^2 \u003d 1\\) .    Take  \\(S\\)  to be oriented inward.    Then the surface integral of (the normal component of) the vector field  \\(\\nabla \\times \\vec{ }F\\)  over the surface  \\(S\\)  is ___.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/ab4c68fe-778e-48b1-aa9b-c82f0be42878",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/380474e2-eb44-48b2-9b2f-c4f1dca9f8e6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(121\\) ",
-      "uuid": "7473c590-3fd6-4793-99b0-d98e6579a3e1",
+      "authorSolution": "\\begin{enumerate}",
+      "uuid": "22eb472e-aeb4-4fcc-aa66-66ff52628e7c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361942,
+      "createdAt": 1437419362142,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Monotone (increasing And Decreasing) Sequences",
-      "body": "  \\(\\lim_{n \\sto \\infty}\\sum_{k\u003d1}^n \\frac {(n+2k)^4}{n^5} \u003d \\frac a5\\)  where  \\(a\\)  \u003d _____.",
+      "title": "Practice In Stokes\u0027 Theorem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d z \\vec{ }i  +  x \\vec{ }j  +  y \\vec{ }k\\)  and  \\(H\\)  be the upper half of the unit sphere centered at the origin in \\(\\R^3\\) .",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/7473c590-3fd6-4793-99b0-d98e6579a3e1",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/22eb472e-aeb4-4fcc-aa66-66ff52628e7c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(3\\) ",
-      "uuid": "867ce65a-27f2-487f-adae-512bfe0b5d84",
+      "authorSolution": " \\(\\pi\\) ",
+      "uuid": "b9f90da4-831d-4b69-9506-ad9c7aaa2972",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361942,
+      "createdAt": 1437419362142,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Sequences Of Real Numbers",
-      "body": " Let  \\(a_n\u003d\\dfrac{1^2}{n^3} + \\dfrac{2^2}{n^3} + \\cdots + \\dfrac{n^2}{n^3}\\)  for each \\(n\\) .   Then  \\(\\lim_{n\\sto\\infty}a_n \u003d \\frac 1a\\)  where  \\(a\\)  \u003d ___.",
+      "title": "Practice In Stokes\u0027 Theorem",
+      "body": " Repeat part (a), this time making use of \u003ci\u003eStokes\u0027 theorem\u003c/i\u003e.   Answer: ___.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/867ce65a-27f2-487f-adae-512bfe0b5d84",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/b9f90da4-831d-4b69-9506-ad9c7aaa2972",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "a8a80d2b-421c-4a0b-ab16-5c575ea94984",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361942,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Convergence Of Sequences Question",
-      "body": "  \\(\\lim_{n \\sto \\infty}\\sum_{k\u003d1}^n\\frac {15}{60k+4n} \u003d \\ln a\\)  where  \\(a\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/a8a80d2b-421c-4a0b-ab16-5c575ea94984",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(6\\) ,  \\(5\\) ",
-      "uuid": "8b1e4985-2357-454e-98c9-e8700a9e07e8",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361943,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Sequences",
-      "body": "  \\(\\lim_{n \\sto \\infty} \\sum_{k\u003d1}^n\\frac{\\ln(5k+n)-\\ln n}{n} \u003d \\dfrac ab \\ln a - 1\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/8b1e4985-2357-454e-98c9-e8700a9e07e8",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(\\dfrac15\\) ",
-      "uuid": "13250d75-50dc-4854-b764-7e5e4a641c4f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361945,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Sum Of An Infinite Series Question",
-      "body": " Let  \\(a_n \u003d (5 + 8^{-n})^{-1}\\)  for each  \\(n \\ge 3\\) .    We know that the series  \\(\\sum_3^\\infty a_n\\)  does not converge since  \\(a_n \\sto\\)  ___  \\(\\ne 0\\)  as  \\(n \\sto \\infty\\) .",
-      "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/13250d75-50dc-4854-b764-7e5e4a641c4f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
-    },
-    {
-      "authorSolution": " \\(e\\) ",
-      "uuid": "45bed056-de31-4692-bf4f-d5b7e63af5c7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361945,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Infinite Series",
-      "body": " Let  \\(a_n \u003d \\left(1 + \\dfrac1n\\right)^n\\)  for each natural number \\(n\\) .   Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  diverges because  \\(a_n \\sto\\)  ___  \\(\\ne 0\\)  as  \\(n \\sto \\infty\\) .",
-      "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/45bed056-de31-4692-bf4f-d5b7e63af5c7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
       "authorSolution": " \\(4\\) ",
-      "uuid": "7d4855ac-253d-45e8-9d24-52cbca697be4",
+      "uuid": "259c18a2-484e-44c1-8e65-c61588a0f82f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Taylor Series",
-      "body": "  \\(\\sum_{k\u003d5}^\\infty \\frac 1{k(k-1)} \u003d \\frac1a\\)  where  \\(a\\) \u003d___.",
+      "title": "Practice With Stokes\u0027 Theorem",
+      "body": " Let  \\(\\omega \u003d (x+y) dx + (y-x) dy + z^3 dz\\)  and  \\(S\\)  be the upper half of the unit sphere centered at the origin.    Then  \\(\\int\\limits_Sd\\omega\\)  \u003d ______.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/7d4855ac-253d-45e8-9d24-52cbca697be4",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/259c18a2-484e-44c1-8e65-c61588a0f82f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "9108136e-a50a-437d-900a-5326e04a262c",
+      "authorSolution": " \\(-288\\) ",
+      "uuid": "5c167d10-6f08-4e31-b5ae-a660245cff99",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Sum Of An Infinite Series",
-      "body": "  \\(\\sum_{n\u003d2}^\\infty \\frac{4n}{(n^2-2n+1)(n^2+2n+1)} \u003d \\frac a4\\)  where  \\(a\\) \u003d___.",
+      "title": "Stokes\u0027 Theorem Problem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d (e^x + \\arctan(y^2z^3)) \\vec{ }i + y^2z \\vec{ }j + z \\vec{ }k\\)  and  \\(S\\)  be that portion of the hemisphere  \\(x \u003d \\sqrt{9 - y^2 - z^2}\\)  which lies inside the cylinder  \\(y^2 + z^2 \u003d 4\\) .   Use \u003ci\u003eStokes\u0027 theorem\u003c/i\u003e to find the surface integral of (the normal component of) the curl of  \\(\\vec{ }F\\)  over the surface  \\(S\\) .   Answer:  \\(\\iint\\limits_S\\crl\\vec{ }F\\cdot d\\vec{ }S \u003d -a\\pi\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/9108136e-a50a-437d-900a-5326e04a262c",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/5c167d10-6f08-4e31-b5ae-a660245cff99",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(600\\) ",
-      "uuid": "68f2053c-e547-4235-8edf-70f7555053b6",
+      "authorSolution": " \\(-1\\) ,  \\(0\\) ,  \\(3\\) ",
+      "uuid": "153c8ffa-10c4-49dd-a652-3766058c9fab",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Infinite Series Problem",
-      "body": "  \\(\\sum_0^\\infty \\frac{k!}{(k+6)!} \u003d \\frac1a\\)  where  \\(a\\) \u003d______.   \u003ci\u003eHint.\u003c/i\u003e Suppose that  \\(a_k :\u003d \\dfrac{k!}{(k+5)!}\\)  Then what can you say about  \\(\\sum_0^n (a_k - a_{k+1})\\) ?",
+      "title": "Question On Stokes\u0027 Theorem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d  z^2 \\vec{ }i + y^2 \\vec{ }j + xy \\vec{ }k\\)  and  \\(T\\)  be the triangular region whose vertices are  \\((1,0,0)\\) ,  \\((0,1,0)\\) , and  \\((0,0,2)\\) .   Then  \\(\\int\\limits_{\\partial T}\\vec{ }F \\cdot d\\vec{ }r \u003d \\frac a3\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/68f2053c-e547-4235-8edf-70f7555053b6",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/153c8ffa-10c4-49dd-a652-3766058c9fab",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(\\dfrac12\\) ",
-      "uuid": "f45a355b-1784-4dfb-b6ec-a4b234010823",
+      "authorSolution": " \\(-\\pi\\) ",
+      "uuid": "ee549418-47cd-448d-bbe4-8e016a13d469",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Geometric Series Problem",
-      "body": " Let  \\(S_n \u003d \\sum_{k\u003d1}^n\\left(\\frac1{\\sqrt k} - \\frac1{\\sqrt{k+2}}\\right)\\)  for each natural number \\(n\\) .    Then  \\(\\lim_{n \\sto \\infty} S_n \u003d a + b\\sqrt2\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d____.",
+      "title": "Stokes\u0027 Theorem Problem",
+      "body": " Let  \\(\\omega \u003d (x^2 + y - 4) dx + 3xy dy + (2xz + z^2) dz\\)  and  \\(S\\)  be the surface  \\(x^2+y^2+z^2 \u003d 16\\) ,  \\(z \\ge 0\\) .    Then, using the \u003ci\u003egeneralized Stokes\u0027 theorem\u003c/i\u003e, we get  \\(\\int\\limits_Sd\\omega\\)  \u003d ________.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/f45a355b-1784-4dfb-b6ec-a4b234010823",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/ee549418-47cd-448d-bbe4-8e016a13d469",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(3\\) ",
-      "uuid": "5d894af3-f4ac-47e0-b457-d8b5b906211a",
+      "authorSolution": " \\(F^2_1\\) , normal component, curl, unit disk,  \\(xy\\) -plane, boundary, Stokes\u0027",
+      "uuid": "ff73a253-75e8-4cf9-b799-63298ed17c57",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Infinite Series Question",
-      "body": "  \\(\\sum_{n\u003d1}^\\infty \\frac{2n^2 + 4n + 1}{(n^2 + n)^2}\\)  \u003d ___.   \u003ci\u003eHint.\u003c/i\u003e Partial fractions.",
+      "title": "Practice In Stokes\u0027 Theorem",
+      "body": " Let  \\(\\omega \u003d 3y dx - xz dy + yz^2 dz\\)  and  \\(S\\)  be that portion of the surface  \\(2z \u003d x^2+y^2\\)  which lies below the plane  \\(z \u003d 2\\) .",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/5d894af3-f4ac-47e0-b457-d8b5b906211a",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/ff73a253-75e8-4cf9-b799-63298ed17c57",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(7k - 14\\) ,  \\(2^k\\) ,  \\(5\\) ",
-      "uuid": "827df4f1-baf0-43d7-b3c3-12fd9153fa86",
+      "authorSolution": " \\(8\\) ",
+      "uuid": "80ec22d3-e97c-456a-97d8-127ae1f42f17",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sum Of An Infinite Series Question",
-      "body": " Suppose the  \\(n^{\\text{th}}\\)  partial sum of the series  \\(\\sum_{k\u003d1}^\\infty a_k\\)  is  \\(5 - 7n2^{-n}\\) .    Then  \\(a_k \u003d \\dfrac bc\\)  where  \\(b\\) \u003d_______ and  \\(c\\) \u003d____; and  \\(\\sum_{k\u003d1}^\\infty a_k \u003d\\) ___.",
+      "title": "Stokes\u0027 Theorem Practice",
+      "body": "  \u003ci\u003eWithout\u003c/i\u003e using any form of \u003ci\u003eStokes\u0027 theorem\u003c/i\u003e, we find that  \\(\\int\\limits_Sd\\omega\\)  \u003d ________.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/827df4f1-baf0-43d7-b3c3-12fd9153fa86",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/80ec22d3-e97c-456a-97d8-127ae1f42f17",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(135\\) ",
-      "uuid": "f2efaa6d-9e04-4265-87fd-2b2cfd4783ca",
+      "authorSolution": " \\(12\\) ",
+      "uuid": "8881cd2b-ea09-4329-b302-b63494220c33",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361946,
+      "createdAt": 1437419362143,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Sum Of An Infinite Series",
-      "body": "  \\(\\sum_6^{\\infty} \\dfrac{(-1)^n2^{n-3}}{3^{n-2}} \u003d \\frac 8a\\)  where  \\(a\\) \u003d______.",
+      "title": "Stokes\u0027 Theorem Problem",
+      "body": " Let  \\(\\omega \u003d \\dfrac{x^2+y^2}y dx + \\dfrac y{x^2 + y^2} dy + xy^2 dz\\)  and  \\(S\\)  be the surface  \\(x^2+y^2+z^2 \u003d 1\\) ,  \\(z \\ge 0\\) .   Then  \\(\\int\\limits_Sd\\omega\\)  \u003d ______.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/f2efaa6d-9e04-4265-87fd-2b2cfd4783ca",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/8881cd2b-ea09-4329-b302-b63494220c33",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
-    },
-    {
-      "authorSolution": " \\(66\\) ",
-      "uuid": "96f02ab3-1e56-4f95-a935-87b9c7d1bb77",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361946,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Infinite Series",
-      "body": "  \\(\\sum_7^\\infty\\frac{5^{n-4}}{3^{3n-17}} \u003d \\frac{125}a\\)  where  \\(a\\) \u003d_____.",
-      "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/96f02ab3-1e56-4f95-a935-87b9c7d1bb77",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
-    },
-    {
-      "authorSolution": " \\(37\\) ",
-      "uuid": "fb456b4c-1872-4c03-b6f2-c45171957731",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361947,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Infinite Series",
-      "body": " The repeating decimal  \\(0.108\\overline{108} \u003d \\dfrac4a\\)  where  \\(a\\) \u003d_____.",
-      "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/fb456b4c-1872-4c03-b6f2-c45171957731",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     }
   ],
   "questions": [
-    {
-      "uuid": "fe2e1735-3b1b-4afb-a82c-33cd1fa35825",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y-x)\\(^{2}\\)+x\u003d0",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivative, function",
-      "url": "/question/fe2e1735-3b1b-4afb-a82c-33cd1fa35825",
-      "source": "Math 221 4.7.7",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "1fed19fc-0d1d-4e5e-ba1e-24ceb55b282f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y+x)\\(^{2}\\)+2y-x\u003d0",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivative, function",
-      "url": "/question/1fed19fc-0d1d-4e5e-ba1e-24ceb55b282f",
-      "source": "Math 221 4.7.8",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "f2e11603-627c-4158-b89c-57f3ed5d3d09",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y\\(^{2}\\)-1)\\(^{2}\\)+x\u003d0",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivatives, functions",
-      "url": "/question/f2e11603-627c-4158-b89c-57f3ed5d3d09",
-      "source": "Math 221 4.7.9",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "3f4acf24-a904-4fe6-895d-7018e70f9813",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y\\(^{2}\\)+)\\(^{2}\\)-x\u003d0",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivatives, function",
-      "url": "/question/3f4acf24-a904-4fe6-895d-7018e70f9813",
-      "source": "Math 221 4.7.10",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "8b94a2dd-d163-4298-b4c4-c89c4f0f4470",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\nx\\(^{3}\\)+xy+y\\^{3}\\)\u003d3",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivative, function",
-      "url": "/question/8b94a2dd-d163-4298-b4c4-c89c4f0f4470",
-      "source": "Math 221 4.7.11",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "08fb1e34-0ccb-4180-ad4d-9cd4c0b17d5d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n\\(\\sin x + \\sin y\\) \u003d 1",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivative, function",
-      "url": "/question/08fb1e34-0ccb-4180-ad4d-9cd4c0b17d5d",
-      "source": "Math 221 4.7.12",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "6ac376a7-88df-40ec-bb6e-df556beea379",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n\\(\\sin x + xy + y\\(^{5}\\) \u003d \\(\\pi\\)",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivative, function",
-      "url": "/question/6ac376a7-88df-40ec-bb6e-df556beea379",
-      "source": "Math 221 4.7.13",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
-    {
-      "uuid": "a306ae7f-9015-40e4-8d81-4797a066ac96",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Implicit Differentiation",
-      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n\\(\\tan x + \\tan y\\) \u003d 1",
-      "allAnswers": [],
-      "tags": "implicit differentiation, derivative, function",
-      "url": "/question/a306ae7f-9015-40e4-8d81-4797a066ac96",
-      "source": "Math 221 4.7.14",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
-    },
     {
       "uuid": "0f95f129-ceec-414b-a61b-1b61961316a4",
       "contentType": "question",
@@ -442,7 +198,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/0f95f129-ceec-414b-a61b-1b61961316a4",
       "source": "Math 221 4.7.15",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "76465185-edc6-4ca8-b456-62e04f9b6e53",
@@ -459,7 +215,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/76465185-edc6-4ca8-b456-62e04f9b6e53",
       "source": "Math 221 4.7.16",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "56d2ed5d-c9ae-453d-9efb-22a5b324d84c",
@@ -476,7 +232,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/56d2ed5d-c9ae-453d-9efb-22a5b324d84c",
       "source": "Math 221 4.7.17",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "7cd0d927-07a2-40ef-8518-4a5ed61e91e8",
@@ -493,7 +249,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/7cd0d927-07a2-40ef-8518-4a5ed61e91e8",
       "source": "Math 221 4.7.18",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "c569d40b-56a2-492b-b785-3d20d3c9efab",
@@ -510,7 +266,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/c569d40b-56a2-492b-b785-3d20d3c9efab",
       "source": "Math 221 4.7.19",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "3d5d01f2-dc7d-4041-ace4-4acef11c9862",
@@ -527,7 +283,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/3d5d01f2-dc7d-4041-ace4-4acef11c9862",
       "source": "Math 221 4.7.20",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "42550295-68ae-4d13-856d-882e937180e7",
@@ -544,7 +300,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/42550295-68ae-4d13-856d-882e937180e7",
       "source": "Math 221 4.7.21",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "e4fcddbf-c627-4644-80f6-41e9837f8263",
@@ -561,7 +317,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/e4fcddbf-c627-4644-80f6-41e9837f8263",
       "source": "Math 221 4.7.22",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "85ccc3fc-26dc-469b-bad8-690a25bf1463",
@@ -578,7 +334,7 @@
       "tags": "chain rule, derivative, function",
       "url": "/question/85ccc3fc-26dc-469b-bad8-690a25bf1463",
       "source": "Math 221 4.7.23",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "8258dbd6-8f74-49cd-a24e-54a9075f9f36",
@@ -595,7 +351,7 @@
       "tags": "implicit differentiation, derivative ",
       "url": "/question/8258dbd6-8f74-49cd-a24e-54a9075f9f36",
       "source": "Math 221 4.7.24",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "46bb9706-ab94-4e89-add8-557d7bbe24bd",
@@ -612,7 +368,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/46bb9706-ab94-4e89-add8-557d7bbe24bd",
       "source": "Math 221 4.7.25",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "5c66c4c0-ff31-4797-bbdd-d079e884e349",
@@ -629,7 +385,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/5c66c4c0-ff31-4797-bbdd-d079e884e349",
       "source": "Math 221 4.7.26",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "2a6a7c59-d198-4637-8668-fc9aa36a74c8",
@@ -646,7 +402,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/2a6a7c59-d198-4637-8668-fc9aa36a74c8",
       "source": "Math 221 4.7.27",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "5950c580-a8a7-41f9-b2b4-2c7cd6e2b68a",
@@ -663,7 +419,7 @@
       "tags": "implicit differentiation, derivative ",
       "url": "/question/5950c580-a8a7-41f9-b2b4-2c7cd6e2b68a",
       "source": "Math 221 4.7.28",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "d2f46516-0768-4f1f-ac05-1f866ea35e2f",
@@ -680,7 +436,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/d2f46516-0768-4f1f-ac05-1f866ea35e2f",
       "source": "Math 221 4.7.29",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "aa2521d3-486b-4c98-a1dd-bbbb8df5a491",
@@ -697,7 +453,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/aa2521d3-486b-4c98-a1dd-bbbb8df5a491",
       "source": "Math 221 4.7.30",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "caa8035f-dda5-4310-8953-d390f1ffa9f1",
@@ -714,7 +470,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/caa8035f-dda5-4310-8953-d390f1ffa9f1",
       "source": "Math 221 4.7.31",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "4c076cfe-95ec-4511-bae0-b5db43ed6399",
@@ -726,12 +482,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Related Rates",
-      "body": "A 10 foot long pole has one end (B) on the floor and another (A) against a wall. If the bottom of the pole is 8 feet away from the wall, and if it is sliding away from the wall at 7 feet per second, then with what speed is the top (A) going down?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20452.png\"/\u003e",
+      "body": "A 10 foot long pole has one end (B) on the floor and another (A) against a wall. If the bottom of the pole is 8 feet away from the wall, and if it is sliding away from the wall at 7 feet per second, then with what speed is the top (A) going down?\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20452.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, derivative",
       "url": "/question/4c076cfe-95ec-4511-bae0-b5db43ed6399",
       "source": "Math 221 4.8.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "378316e9-f4df-4c5d-9dce-da4032592249",
@@ -743,12 +499,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Related Rates",
-      "body": "A pole 10 feet long rest against a vertical wall. If the bottom of the pole slides away from the wall at a speed of 2 ft / sec, how fast is the angle between the top of the pole and the wall changing when the angel is \\(\\pi\\)/4 radius?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20452.png\"/\u003e",
+      "body": "A pole 10 feet long rest against a vertical wall. If the bottom of the pole slides away from the wall at a speed of 2 ft / sec, how fast is the angle between the top of the pole and the wall changing when the angel is \\(\\pi\\)/4 radius?\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20452.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "related rates, derivatives",
       "url": "/question/378316e9-f4df-4c5d-9dce-da4032592249",
       "source": "Math 221 4.8.2",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "47b6cfcf-fc28-4c6c-a4f6-55c7bcc28b6e",
@@ -765,7 +521,7 @@
       "tags": "related rates, derivatives",
       "url": "/question/47b6cfcf-fc28-4c6c-a4f6-55c7bcc28b6e",
       "source": "Math 221 4.8.3",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "fb127bc9-11d5-4987-a4c7-5a3e57a69c96",
@@ -782,7 +538,7 @@
       "tags": "related rates, derivatives",
       "url": "/question/fb127bc9-11d5-4987-a4c7-5a3e57a69c96",
       "source": "Math 221 4.8.4",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "a9764ea6-d2c0-451e-be78-e74d92f684a2",
@@ -799,7 +555,7 @@
       "tags": "related rates, derivatives",
       "url": "/question/a9764ea6-d2c0-451e-be78-e74d92f684a2",
       "source": "Math 221 4.8.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "758f7319-8d5c-443c-ac09-ffddd8474cec",
@@ -816,7 +572,7 @@
       "tags": "related rates, derivatives, area, triangle",
       "url": "/question/758f7319-8d5c-443c-ac09-ffddd8474cec",
       "source": "Math 221 4.8.6",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "cf0faf6e-8f7f-4e07-b7dd-b46a2f780ead",
@@ -833,7 +589,7 @@
       "tags": "related rates, derivatives ",
       "url": "/question/cf0faf6e-8f7f-4e07-b7dd-b46a2f780ead",
       "source": "Math 221 4.8.7",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "6cdc5704-8472-4bac-ada4-1e19725c12b5",
@@ -850,7 +606,7 @@
       "tags": "related rates, derivatives, velocity",
       "url": "/question/6cdc5704-8472-4bac-ada4-1e19725c12b5",
       "source": "Math 221 4.8.8",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "3cd4dc57-c0b8-4b0a-af53-f821f7cee3bb",
@@ -867,7 +623,7 @@
       "tags": "related rates, rate of change, derivative, parabola",
       "url": "/question/3cd4dc57-c0b8-4b0a-af53-f821f7cee3bb",
       "source": "Math 221 4.8.9",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "bac6ce9f-54f6-4657-84e5-5792bd519895",
@@ -918,7 +674,143 @@
       "tags": "word problem, related rates, derivative ",
       "url": "/question/7f3eb83d-42cb-4680-a8f2-9154bdda74ec",
       "source": "Math 221 4.8.10",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
+    },
+    {
+      "uuid": "9f46bace-c583-42df-8181-07d95af738f1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/9f46bace-c583-42df-8181-07d95af738f1",
+      "source": " ",
+      "topic": ""
+    },
+    {
+      "uuid": "4c0f21cb-c9f1-403a-bd47-8cdab37b8bbc",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/4c0f21cb-c9f1-403a-bd47-8cdab37b8bbc",
+      "source": " ",
+      "topic": ""
+    },
+    {
+      "uuid": "88fd91a1-f158-40f4-b74d-c97feebd5409",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/88fd91a1-f158-40f4-b74d-c97feebd5409",
+      "source": " ",
+      "topic": ""
+    },
+    {
+      "uuid": "15fff79e-c1f2-4c26-ac2d-237d000d11d7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/15fff79e-c1f2-4c26-ac2d-237d000d11d7",
+      "source": " ",
+      "topic": ""
+    },
+    {
+      "uuid": "12f16c43-0e5f-4e66-9895-952a06b47726",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/12f16c43-0e5f-4e66-9895-952a06b47726",
+      "source": " ",
+      "topic": ""
+    },
+    {
+      "uuid": "500a695f-4a49-4099-82af-66311b05056b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/500a695f-4a49-4099-82af-66311b05056b",
+      "source": " ",
+      "topic": ""
+    },
+    {
+      "uuid": "b65b5473-c8c2-4f93-8105-f3375d200c22",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(A\u003d\\int x^{-2} \\,dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/b65b5473-c8c2-4f93-8105-f3375d200c22",
+      "source": "Math 222 1.1.1",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "eba034c4-a5a0-472c-aa78-b22da383f5d1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\int t^{-2} \\,dt\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/eba034c4-a5a0-472c-aa78-b22da383f5d1",
+      "source": "Math 222 1.1.2",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     }
   ],
   "textContent": [
@@ -937,7 +829,7 @@
       "tags": "free variable, dummy variable, limits ",
       "url": "/text-content/ef58277a-4456-4444-a4e7-2df2b5ffbeeb",
       "source": "Forgotten Text 6 3.8",
-      "topic": "Calculus/Pre-Calculus Review/Limits and Continuous Functions"
+      "topic": "09bafac4-ae91-4fef-8173-99a7dad9c07d"
     },
     {
       "uuid": "5eb787a6-f49b-4c78-863c-c16721267f04",
@@ -954,7 +846,7 @@
       "tags": "limits, inequalities, sandwich theorem ",
       "url": "/text-content/5eb787a6-f49b-4c78-863c-c16721267f04",
       "source": "Forgotten Text 6 3.9",
-      "topic": "Calculus/Pre-Calculus Review/Limits and Continuous Functions/Limits "
+      "topic": "c7059538-f317-4f9a-8c40-4c71f183e716"
     },
     {
       "uuid": "ff563d73-ee8c-45ca-bbf1-43988cddf98a",
@@ -971,9 +863,66 @@
       "tags": "derivatives, differentiable, derivative, derivative of a function",
       "url": "/text-content/ff563d73-ee8c-45ca-bbf1-43988cddf98a",
       "source": "Forgotten Text 6 4.1",
-      "topic": "Calculus/Derivative Calculus/Definition of Derivative"
+      "topic": "2c56c9d0-ae69-45e8-8a4e-bae01af13a8b"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "70cc61e1-22fc-43b7-a2b5-0307b62510b0",
+      "subTopics": [],
+      "parentTopics": [
+        "91597a29-8015-44cc-81e4-cba1f95d6a48"
+      ],
+      "title": "Solving Absolute Value Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " absolute value, solving equations, absolute value equation,equation, solving absolute value equation, proof,absolute value equation solving equation,absolute value equation,proof, absolute value equations, equation,",
+      "difficulty": 67000,
+      "contentUuids": [
+        "c2da4f92-fff1-4939-a2e8-66c8cf630ce3",
+        "d62aa910-2d15-4811-bfd4-681bcf4adbd8",
+        "84761fa5-8f9d-48e9-bba8-ab2140a814b0",
+        "4c9be7ef-5db8-4c4c-bfa7-fdfb3768bd74",
+        "17a789ba-1a6b-406f-896a-52c95d4f3cf3",
+        "fa37e327-1f3f-41d4-af0a-56222102eb9d",
+        "e0e6a18f-e638-4d93-b44e-7f2e41578049",
+        "f629e4db-9540-4bfb-a000-dc06492e98a3"
+      ]
+    },
+    {
+      "uuid": "5684ad47-d1ed-4405-93fd-236478e5a29a",
+      "subTopics": [
+        "de176cb3-d178-4115-95a3-52efdf14100c",
+        "3a7e8a7c-233a-41df-905a-fa3719475bdf",
+        "7d331c6e-1eab-45bd-b44f-bf54f598caeb",
+        "8177d58d-e84b-4f1b-9995-0b93ae67ca98",
+        "00d4b8b6-c73b-493f-8a10-04a0542309f7",
+        "dacb5196-1daf-46c9-a05e-c7a1b9910e1c",
+        "9055cb78-276d-4849-8c44-30d1b3b51849",
+        "22d95da2-ce20-4cb8-bad6-4ae251c83a2d"
+      ],
+      "title": "Trigonometry",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 165000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "f809ea50-ac38-4929-92d7-d367efc65986",
+      "subTopics": [
+        "6dd86cf3-0cf9-448d-9262-a1070b2a1457"
+      ],
+      "parentTopics": [
+        "53b0429a-3345-42f8-ad65-4cde4767328f"
+      ],
+      "title": "Bell Curve",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    }
+  ]
 }

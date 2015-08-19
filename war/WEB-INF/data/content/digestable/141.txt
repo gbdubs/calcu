@@ -2,483 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eLet \\( H\u003dl^{2}\\, \\) and \\( e_{n}\u003d(0,...,0,1,0,...)\\, \\) where \\( 1\\, \\) is in the \\( n\\, \\) th position. Let \\( \\{a_{n}\\}\\, \\) be a sequence of complex numbers. \u003c/p\u003e\n\u003cp\u003e(a) Show that \\( Te_{n}\u003da_{n}e_{n}(n\u003d1,2,...)\\, \\) defines a bounded linear operator on \\( H\\, \\) if and only if \\( {\\mathrm {sup}}\\left\\{|a_{n}|:n\u003d1,2,...\\right\\}\u0026lt;\\infty \\, \\) . In this case, find the norm of \\( T\\, \\) . \u003c/p\u003e\n\u003cp\u003e(b) Find the necessary and sufficient condition for \\( T\\, \\) to be bounded invertible (i.e., the inverse exists and is bounded). \u003c/p\u003e",
-      "uuid": "193d06e6-a348-4048-8591-cf2ac05302e7",
+      "authorSolution": " \\(2\\) ",
+      "uuid": "8b3a7f1d-bec1-48ae-97f1-c57bfae02f58",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165355,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( H\u003dl^{2}\\, \\) and \\( e_{n}\u003d(0,...,0,1,0,...)\\, \\) where \\( 1\\, \\) is in the \\( n\\, \\) th position. Let \\( \\{a_{n}\\}\\, \\) be a sequence of complex numbers.",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/193d06e6-a348-4048-8591-cf2ac05302e7",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA25",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Sequences Question",
+      "body": "  \\(\\lim_{n \\sto \\infty} \\left(1 + \\frac 1{5n} \\right)^{10n} \u003d e^p\\)  where  \\(p\\)  \u003d ___ .",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/8b3a7f1d-bec1-48ae-97f1-c57bfae02f58",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( \\left\\{\\beta _{n}\\right\\}\\, \\) be a sequence of real numbers such that \\( \\sum _{{n\u003d1}}^{\\infty }\\alpha _{n}\\beta _{n}\\, \\) is convergent for every \\( \\left\\{\\alpha _{n}\\right\\}\\in l^{1}\\, \\) . Use the Uniform Boundedness theorem to prove that \\( \\left\\{\\beta _{n}\\right\\}\\in l^{\\infty }\\, \\) . \u003c/p\u003e",
-      "uuid": "b62d4723-dc87-4619-afc3-714a46d794b4",
+      "authorSolution": " \\(3\\) ",
+      "uuid": "703dc597-ee2e-4eab-ab3d-942953eed55b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165363,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( \\left\\{\\beta _{n}\\right\\}\\, \\) be a sequence of real numbers such that \\( \\sum _{{n\u003d1}}^{\\infty }\\alpha _{n}\\beta _{n}\\, \\) is convergent for every \\( \\left\\{\\alpha _{n}\\right\\}\\in l^{1}\\, \\) . Use the Uniform Boundedness theorem to prove that \\( \\left\\{\\beta _{n}\\right\\}\\in l^{\\infty }\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/b62d4723-dc87-4619-afc3-714a46d794b4",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA26",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Sequences Of Real Numbers",
+      "body": "  \\(\\lim_{n \\sto \\infty}\\int_{2n}^{3n}\\frac {x+3}{x^2+1} dx \u003d \\ln \\frac a2\\)  where  \\(a\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/703dc597-ee2e-4eab-ab3d-942953eed55b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( X\\, \\) be a normed space and \\( \\{x_{1},...,x_{n}\\}\\, \\) be a linearly independent subset of \\( X\\, \\) . Use the Hahn-Banach extension theorem to show that there exist bounded linear functionals \\( f_{1},...,f_{n}\\, \\) on \\( X\\, \\) such that \u003c/p\u003e  \\( f_{i}(x_{j})\u003d\\delta _{{i,j}}\\, \\)  \n\u003cp\u003ewhere \\( \\delta _{{i,j}}\u003d0\\, \\) when \\( i\\neq j\\, \\) and \\( 1\\, \\) when \\( i\u003dj\\, \\) . Can you think about extending this to an infinite sequence \\( \\left\\{x_{1},...,x_{n},...\\right\\}\\, \\) of vectors? \u003c/p\u003e",
-      "uuid": "82473b2b-5987-4e89-b1c8-5502f5c19de2",
+      "authorSolution": " \\(2\\) ",
+      "uuid": "d6aad375-c5c8-44c7-9106-79d3a3c02ea5",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165371,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( X\\, \\) be a normed space and \\( \\{x_{1},...,x_{n}\\}\\, \\) be a linearly independent subset of \\( X\\, \\) . Use the Hahn-Banach extension theorem to show that there exist bounded linear functionals \\( f_{1},...,f_{n}\\, \\) on \\( X\\, \\) such that",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/82473b2b-5987-4e89-b1c8-5502f5c19de2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA27",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Convergence Of Sequences",
+      "body": "  \\(\\lim_{n\\sto\\infty} n^{2/3}((n+2)^{1/3}-n^{1/3}) \u003d \\frac a3\\)  where  \\(a\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/d6aad375-c5c8-44c7-9106-79d3a3c02ea5",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eEvaluate \\( i^{{243}}\\, \\) \u003c/p\u003e\n\u003cp\u003ePowers of \\( i\\, \\) are periodic with period 4, so replace 243 with its remainder on division by 4. \u003c/p\u003e\n\u003cp\u003e \\( 243\u003d4(60)+3\\, \\) \u003c/p\u003e\n\u003cp\u003eSo now \u003c/p\u003e\n\u003cp\u003e \\( i^{{243}}\u003d\\left(i^{{4}}\\right)^{{60}}i^{3}\u003d(1)^{{60}}i^{3}\u003di^{3}\u003d-i\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "0fed3810-dbd9-49d5-86fa-03301d7ab4fb",
+      "authorSolution": " \\(8\\) ",
+      "uuid": "60cde89a-99fc-4862-b1ae-9267db8e31e6",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165379,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( i^{{243}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/0fed3810-dbd9-49d5-86fa-03301d7ab4fb",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV15",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Bounded Sequences",
+      "body": "  \\(\\lim_{n \\sto \\infty}\\left(1 + \\dfrac2{3n}\\right)^{4n} \u003d e^{a/3}\\)  where  \\(a\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/60cde89a-99fc-4862-b1ae-9267db8e31e6",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eIf \\( z\u003d5+(3{\\sqrt {2}})i\\, \\) Find \\( z{\\bar {z}}\\, \\) Given \\( z\u003d5+(3{\\sqrt {2}})i\\, \\) \u003cbr\u003e\u003cbr\u003e Then, As per the complex theory \\( {\\bar {z}}\u003d5-(3{\\sqrt {2}})i\\, \\) \u003cbr\u003e\u003cbr\u003e \\( z{\\bar {z}}\u003d(5+(3{\\sqrt {2}})i)(5-(3{\\sqrt {2}})i)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( z{\\bar {z}}\u003d5^{2}-((3{\\sqrt {2}})i)^{{2}}\\, \\) \u003cbr\u003e\u003cbr\u003e \\( z{\\bar {z}}\u003d25-((9\\cdot 2\\cdot (i)^{{2}})\\, \\) \u003cbr\u003e\u003cbr\u003e \\( z{\\bar {z}}\u003d25+18\\, \\) \u003cbr\u003e\u003cbr\u003e The solution is \\( z{\\bar {z}}\u003d43\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "5e73d791-dda3-497a-b615-353ff26b4ca5",
+      "authorSolution": " \\(27\\) ",
+      "uuid": "d9196d97-036c-423f-bac5-1cf9efe1ad94",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165389,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "If \\( z\u003d5+(3{\\sqrt {2}})i\\, \\) Find \\( z{\\bar {z}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/5e73d791-dda3-497a-b615-353ff26b4ca5",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV16",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Convergence Of Sequences Problem",
+      "body": "  \\(\\lim_{n\\sto\\infty} \\left(\\frac{(3n)!}{(n!)^3}\\right)^{1/n}\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/d9196d97-036c-423f-bac5-1cf9efe1ad94",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( {\\sqrt {7+24i}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eRearranging the coeficient of \\( i\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\sqrt {7+24i}}\u003d{\\sqrt {7+2(3)(4)(i)}}\\, \\) \u003cbr\u003e\u003cbr\u003e Adding and subtracting 16 on the right hand side, we get \\( {\\sqrt {7+24i}}\u003d{\\sqrt {7+2(3)(4)(i)+16-16}}\\, \\) \u003cbr\u003e\u003cbr\u003e Simplifying and readjusting \\( {\\sqrt {7+24i}}\u003d{\\sqrt {2(3)(4)(i)+4^{{2}}-9}}\\, \\) \u003cbr\u003e\u003cbr\u003e again rearranging 9 as a multiple of \\( i\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\sqrt {7+24i}}\u003d{\\sqrt {2(3i)(4)+4^{{2}}+(3i)^{{2}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e Hence readjusting the values \\( {\\sqrt {7+24i}}\u003d{\\sqrt {(3i+4)^{{2}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e Hence the value is \\( {\\sqrt {7+24i}}\u003d3i+4\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "a2501247-bc9a-4c46-a29c-92ade53fcf66",
+      "authorSolution": " \\(0\\) ",
+      "uuid": "1720a85b-8fc1-42b3-b28e-b25386280f34",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165399,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( {\\sqrt {7+24i}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/a2501247-bc9a-4c46-a29c-92ade53fcf66",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV17",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Bounded Sequences",
+      "body": " Find  \\(\\lim_{n \\sto \\infty}\\int_{n+3}^{n+5} \\frac {x^{5/2}-1}{x^3+4}   dx\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/1720a85b-8fc1-42b3-b28e-b25386280f34",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( {\\sqrt {-8-6i}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eRearranging the coeficient of \\( i\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\sqrt {-8-6i}}\u003d{\\sqrt {-8-2(3)(1)(i)}}\\, \\) \u003cbr\u003e\u003cbr\u003e Adding and subtracting 9 on the right hand side, we get \\( {\\sqrt {-8-6i}}\u003d{\\sqrt {-8-2(3)(1)(i)+9-9}}\\, \\) \u003cbr\u003e\u003cbr\u003e Simplifying and readjusting \\( {\\sqrt {-8-6i}}\u003d{\\sqrt {1-2(3)(1)(i)-3^{{2}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e again rearranging 9 as a multiple of \\( i\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\sqrt {-8-6i}}\u003d{\\sqrt {1^{{2}}-2(3i)(1)+(3i)^{{2}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e Hence readjusting the values \\( {\\sqrt {-8-6i}}\u003d{\\sqrt {(1-3i)^{{2}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e Hence the value is \\( {\\sqrt {-8-6i}}\u003d1-3i\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "0903e557-2f08-4754-9105-e0eb8bb3d6fd",
+      "authorSolution": " \\(2\\) ",
+      "uuid": "ca54d59f-740f-4871-8e8f-8afde3a88aea",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165417,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( {\\sqrt {-8-6i}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/0903e557-2f08-4754-9105-e0eb8bb3d6fd",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV18",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Convergence Of Sequences",
+      "body": "  \\(\\lim_{n \\sto \\infty} \\left(\\frac{1+2+\\cdots+n}{n+2}-\\frac n2\\right) \u003d -\\dfrac1a\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/ca54d59f-740f-4871-8e8f-8afde3a88aea",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that the four points in the Argand plane represented by the complex numbers are the vertices of a square \\( 2+i,4+3i,2+5i,3i\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFrom the given complex numbers,we can derive the points in the plane as \\( (2,1)(4,3)(2,5)(0,3)\\, \\) \u003cbr\u003e\u003cbr\u003e Let the points represent the four sides of a squate respectively \\( A,B,C,D\\, \\) \u003cbr\u003e\u003cbr\u003e Now writing the line equation \\( AB\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {AB}}\u003d(y-1)\u003d({\\frac {3-1}{4-2}})(x-2)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {AB}}\u003d(y-1)\u003d(x-2)\\, \\) \u003cbr\u003e\u003cbr\u003e Simplifying further we get \\( {\\bar {AB}}\u003dx-y-1\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e Now writing the line equation \\( BC\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {BC}}\u003d(y-3)\u003d({\\frac {5-3}{2-4}})(x-4)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {BC}}\u003d(y-3)\u003d(4-x)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {BC}}\u003dx+y-7\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e Now writing the line equation \\( CD\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {CD}}\u003d(y-5)\u003d({\\frac {3-5}{0-2}})(x-2)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {CD}}\u003d(y-5)\u003d(x-2)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {CD}}\u003d-x+y-3\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e Now writing the line equation \\( DA\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {DA}}\u003d(y-3)\u003d({\\frac {1-3}{2-0}})(x-0)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {DA}}\u003d(y-3)\u003d(-1)(x)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( {\\bar {DA}}\u003dx+y-3)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e The slope of \\( {\\bar {AB}}\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e The slope of \\( {\\bar {BC}}\u003d-1\\, \\) \u003cbr\u003e\u003cbr\u003e The slope of \\( {\\bar {CD}}\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e The slope of \\( {\\bar {DA}}\u003d-1\\, \\) \u003cbr\u003e\u003cbr\u003e From these slopes,the slopes of opposite sides are equal,which means they are parallel to each other and product of the one to the next is -1,which means they are perpendicular. The lenth of \\( AB\u003d{\\sqrt {(2-4)^{2}+(1-3)^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \\( AB\u003d{\\sqrt {8}}\\, \\) \u003cbr\u003e\u003cbr\u003e The lenth of \\( BC\u003d{\\sqrt {(4-2)^{2}+(3-5)^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \\( BC\u003d{\\sqrt {8}}\\, \\) \u003cbr\u003e\u003cbr\u003e The lenth of \\( CD\u003d{\\sqrt {(2-0)^{2}+(5-3)^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \\( CD\u003d{\\sqrt {8}}\\, \\) \u003cbr\u003e\u003cbr\u003e The lenth of \\( DA\u003d{\\sqrt {(2-0)^{2}+(1-3)^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \\( DA\u003d{\\sqrt {8}}\\, \\) \u003cbr\u003e\u003cbr\u003e From the above all the sides are equal. Hence all these conditions prove that the numbers form the vertices of a square. \u003c/p\u003e",
-      "uuid": "288382e6-c7f4-4626-8401-3483968ca0d9",
+      "authorSolution": " \\(0\\) ",
+      "uuid": "1639cd57-cf98-45b2-9664-b1bb885b1a4b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165430,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Show that the four points in the Argand plane represented by the complex numbers are the vertices of a square \\( 2+i,4+3i,2+5i,3i\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/288382e6-c7f4-4626-8401-3483968ca0d9",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV19",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Sequences",
+      "body": "  \\(\\lim_{n \\sto \\infty}\\int_{n}^{n+1}\\dfrac {x+1}{x^2+1} dx\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/1639cd57-cf98-45b2-9664-b1bb885b1a4b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the equation of the straight line joining the points \\( (-9+6i),(11-4i)\\, \\) \u003cbr\u003e\u003cbr\u003e in the Argand plane. \u003c/p\u003e\n\u003cp\u003eFrom the complex numbers,we can derive the points as \\( (9,6),(11,-4)\\, \\) .\u003cbr\u003e\u003cbr\u003e Let the points be \\( A(9,6),B(11,-4)\\, \\) .\u003cbr\u003e\u003cbr\u003e Now the straight line joining these two points is as below \u003c/p\u003e\n\u003cp\u003e \\( \\overline {AB}\u003d(y-6)\u003d\\left({\\frac {-4-6}{11-9}}\\right)(x-9)\\, \\) \u003cbr\u003e\u003cbr\u003e Simplifying the fraction \\( \\overline {AB}\u003d(y-6)\u003d\\left({\\frac {-10}{2}}\\right)(x-9)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\overline {AB}\u003d(y-6)\u003d(-5)(x-9)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\overline {AB}\u003d(y-6)\u003d-5x+45\\, \\) \u003cbr\u003e\u003cbr\u003e The straight line equation is \\( \\overline {AB}\u003dy+5x-51\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "09f2a817-06e4-4924-97de-fc95f790ed9b",
+      "authorSolution": " \\(\\infty\\) ",
+      "uuid": "cad37e8c-1e90-451d-9321-e934e60f076b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165439,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Find the equation of the straight line joining the points \\( (-9+6i),(11-4i)\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/09f2a817-06e4-4924-97de-fc95f790ed9b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV20",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Monotone (increasing And Decreasing) Sequences",
+      "body": "  \\(\\lim_{n \\sto \\infty}\\int_{n}^{n^2}\\dfrac {x+1}{x^2+1} dx\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/cad37e8c-1e90-451d-9321-e934e60f076b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eEvaluate \\( i^{{23}}\\, \\) .\u003cbr\u003e\u003cbr\u003e \\( i^{{23}}\u003di^{{4\\cdot 5+3}}\u003d(i^{4})^{5}\\cdot i^{3}\u003d1^{5}\\cdot i^{3}\u003d-i\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "887c57e3-0cc7-498a-97ba-9c27d0347b14",
+      "authorSolution": " \\(e\\) ",
+      "uuid": "a1dd60df-5e98-450c-8551-5a11abf25e2b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165447,
+      "creatorUserId": "",
+      "createdAt": 1437419361941,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( i^{{23}}\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/887c57e3-0cc7-498a-97ba-9c27d0347b14",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV1",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( (1+i)\\cdot (7-i)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d7-i+7i-i^{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d8+6i\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "637ee21e-c48f-4567-91b0-cb08eabbb29f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165455,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( (1+i)\\cdot (7-i)\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/637ee21e-c48f-4567-91b0-cb08eabbb29f",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV2",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( {\\frac {1+i}{7-i}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1+i}{7-i}}\\,\\cdot \\,{\\frac {7+i}{7+i}}\u003d{\\frac {7+i+7i+i^{2}}{49-i^{2}}}\u003d{\\frac {6+8i}{50}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {3}{25}}+{\\frac {4}{25}}i\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "66475d77-f43c-4163-9f48-c1cce4ca856a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165464,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( {\\frac {1+i}{7-i}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/66475d77-f43c-4163-9f48-c1cce4ca856a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV3",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eIf \\( arg(z)\u003d{\\frac {\\pi }{20}}\\, \\) , then what is \\( arg(-z)\\, \\) ?\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( arg(-z)\u003d{\\frac {\\pi }{20}}+\\pi \u003d{\\frac {21\\pi }{20}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "f77cd77a-6c67-4029-a1db-49331733d31b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165472,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "If \\( arg(z)\u003d{\\frac {\\pi }{20}}\\, \\) , then what is \\( arg(-z)\\, \\) ?",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/f77cd77a-6c67-4029-a1db-49331733d31b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV4",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eIf \\( arg(z)\u003d{\\frac {\\pi }{20}}\\, \\) , then what is \\( arg({\\bar {z}})\\, \\) ?\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d-\\,{\\frac {\\pi }{20}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "75d77989-e594-4c47-a40f-50a50a185199",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165480,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "If \\( arg(z)\u003d{\\frac {\\pi }{20}}\\, \\) , then what is \\( arg({\\bar {z}})\\, \\) ?",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/75d77989-e594-4c47-a40f-50a50a185199",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV5",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eIf \\( arg(z)\u003d{\\frac {\\pi }{20}}\\, \\) , then what is \\( arg(z^{3})\\, \\) ?\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {3\\pi }{20}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "51be6001-fa08-46c9-98d3-db80f23e20ef",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165488,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "If \\( arg(z)\u003d{\\frac {\\pi }{20}}\\, \\) , then what is \\( arg(z^{3})\\, \\) ?",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/51be6001-fa08-46c9-98d3-db80f23e20ef",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV6",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eIf \\( z_{1}\u003d2+i,z_{2}\u003d3-2i\\, \\) find \\( |3z_{1}-4z_{2}|\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( |3(2+i)-4(3-2i)|\u003d|6+3i-12+8i|\u003d|-6+11i|\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\sqrt {6^{2}+11^{2}}}\u003d{\\sqrt {157}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eComplex Variables\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "2fbfb5a8-da69-4299-9e53-6c27ec278223",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165496,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "If \\( z_{1}\u003d2+i,z_{2}\u003d3-2i\\, \\) find \\( |3z_{1}-4z_{2}|\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Problems,auto-uploaded",
-      "url": "/practice-problem/2fbfb5a8-da69-4299-9e53-6c27ec278223",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CV11",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Monotone (increasing And Decreasing) Sequences",
+      "body": "  \\(\\lim_{n\\sto\\infty} \\dfrac n{(n!)^{1/n}}\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/a1dd60df-5e98-450c-8551-5a11abf25e2b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     }
   ],
   "questions": [
-    {
-      "uuid": "9259ebac-b951-4eef-9f83-c0b2443d7e11",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits by the Definition",
-      "body": "Use the definition of limits to explain why  \\(\\lim_{x \\rightarrow 9}\\)\\(\\frac{x-9}{\\sqrt{x}-3}\\) \u003d 6.",
-      "allAnswers": [],
-      "tags": "limits, definition of limits",
-      "url": "/question/9259ebac-b951-4eef-9f83-c0b2443d7e11",
-      "source": "Mooculus 1.2.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "a07b80a6-96f2-4789-aab7-2a5669387e0f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits by the Definition",
-      "body": "Use the definition of limits to explain why  \\(\\lim_{x \\rightarrow 2}\\)\\(\\frac{1}{x}\\) \u003d \\(\\frac{1}{2}\\).",
-      "allAnswers": [],
-      "tags": "limits, definition of limits",
-      "url": "/question/a07b80a6-96f2-4789-aab7-2a5669387e0f",
-      "source": "Mooculus 1.2.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "96e980d6-6f01-4eaa-9c84-291746be537c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketching Differential Equations",
-      "body": "Consider the differential equation \\(\\frac{dy}{dt} \u003d t-y\\).\n\na. Sketch a slope field.\nb. Sketch the solutions whose initial values are \\(y(0)\u003d -4, -3, \\ldots, 4\\).\nc. What do your sketches suggest is the solution whose initial value is \\(y(0) \u003d -1\\)?  Verify that this is indeed the solution to this initial value problem.\nd. By considering the differential equation and the graphs you have sketched, what is the relationship between $t$ and $y$ at a point where a solution has a local minimum?",
-      "allAnswers": [],
-      "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
-      "url": "/question/96e980d6-6f01-4eaa-9c84-291746be537c",
-      "source": "Mooculus 7.2.1",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "f1f13ef5-d86d-4074-9aba-d1505ab1ed60",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 3} \\frac{x^{2}+x-12}{x-3}\\)",
-      "allAnswers": [],
-      "tags": "limits, limit laws",
-      "url": "/question/f1f13ef5-d86d-4074-9aba-d1505ab1ed60",
-      "source": "Mooculus 1.3.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "acdd9052-d719-4ead-857c-c01722207887",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 1} \\frac{x^{2}+x-12}{x-3}\\)",
-      "allAnswers": [],
-      "tags": "limits, limit laws",
-      "url": "/question/acdd9052-d719-4ead-857c-c01722207887",
-      "source": "Mooculus 1.3.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "f36b4444-787c-4923-8dde-731059eb3032",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow -4} \\frac{x^{2}+x-12}{x-3}\\)",
-      "allAnswers": [],
-      "tags": "limits, limit laws",
-      "url": "/question/f36b4444-787c-4923-8dde-731059eb3032",
-      "source": "Mooculus 1.3.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "9f9853a7-cc4d-4713-b5b6-28d4d62b210e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketching Differential Equations",
-      "body": "The population of a species of fish in a lake is \\(P(t)\\) where \\(P\\) is measured in thousands of fish and \\(t\\) is measured in months.  The growth of the population is described by the differential equation \\(\\frac{dP}{dt} \u003d f(P) \u003d P(6-P)\\).\n\na. Sketch a graph of \\(f(P) \u003d P(6-P)\\) and use it to determine the equilibrium solutions and whether they are stable or unstable. Write a complete sentence that describes the long-term behavior of the fish population.\nb. Suppose now that the owners of the lake allow fishers toremove 1000 fish from the lake every month (remember that \\(P(t)\\) is measured in thousands of fish.  Modify the differential equation to take this into account.  Sketch the new graph of \\(dP/dt\\) versus \\(P\\).  Determine the new equilibrium solutions and decide whether they are stable or unstable. \nc. Given the situation in part (b), give a description of the long-term behavior of the fish population.\nd. Suppose that fishermen remove \\(h\\) thousand fish per month. How is the differential equation modified? \ne. What is the largest number of fish that can be removed per month without eliminating the fish population?  If fish are removed at this maximum rate, what is the eventual population of fish?",
-      "allAnswers": [],
-      "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
-      "url": "/question/9f9853a7-cc4d-4713-b5b6-28d4d62b210e",
-      "source": "Mooculus 7.2.2",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "81e837e0-6593-4b64-82ad-e89d19b98d0e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 2} \\frac{x^{2}+x-12}{x-2}\\)",
-      "allAnswers": [],
-      "tags": "limits, limit laws",
-      "url": "/question/81e837e0-6593-4b64-82ad-e89d19b98d0e",
-      "source": "Mooculus 1.3.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "0161ab68-d879-4d69-a51c-4756b50600e6",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 1} \\frac{\\sqrt{x+8}-3}{x-1}\\)",
-      "allAnswers": [],
-      "tags": "limits, limit laws",
-      "url": "/question/0161ab68-d879-4d69-a51c-4756b50600e6",
-      "source": "Mooculus 1.3.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "43054ade-cd47-485d-95ba-d1d539db9b07",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 0^{+}} \\sqrt{\\frac{1}{x}+2}-\\sqrt{\\frac{1}{x}}\\)",
-      "allAnswers": [],
-      "tags": "limits, limit laws",
-      "url": "/question/43054ade-cd47-485d-95ba-d1d539db9b07",
-      "source": "Mooculus 1.3.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "4be0a287-03a3-429a-94fa-802f8d3caf08",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 2} 3\\)",
-      "allAnswers": [],
-      "tags": "limit, limit laws",
-      "url": "/question/4be0a287-03a3-429a-94fa-802f8d3caf08",
-      "source": "Mooculus 1.3.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "84d7b94c-84d9-4543-94a7-9dd3fed9cfa3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit Laws",
-      "body": "\\(\\lim_{x \\rightarrow 0} \\frac{4x-5x^{2}}{x-1}\\)",
-      "allAnswers": [],
-      "tags": "limit, limit laws",
-      "url": "/question/84d7b94c-84d9-4543-94a7-9dd3fed9cfa3",
-      "source": "Mooculus 1.3.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
     {
       "uuid": "cc9488aa-59c6-48d1-9ff2-2e8821cda35b",
       "contentType": "question",
@@ -494,7 +198,7 @@
       "tags": "limit, limit laws",
       "url": "/question/cc9488aa-59c6-48d1-9ff2-2e8821cda35b",
       "source": "Mooculus 1.3.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "6ef003a6-6fa7-4d40-a118-d09d614c7c50",
@@ -511,7 +215,7 @@
       "tags": "limit, limit laws",
       "url": "/question/6ef003a6-6fa7-4d40-a118-d09d614c7c50",
       "source": "Mooculus 1.3.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d4ede664-6bca-4ba8-8f9d-32d55245c9e5",
@@ -528,7 +232,7 @@
       "tags": "limit, limit laws",
       "url": "/question/d4ede664-6bca-4ba8-8f9d-32d55245c9e5",
       "source": "Mooculus 1.3.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "50e28d34-c9a6-454a-a696-0142dd71a8f9",
@@ -545,7 +249,7 @@
       "tags": "limit, limit laws",
       "url": "/question/50e28d34-c9a6-454a-a696-0142dd71a8f9",
       "source": "Mooculus 1.3.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "2f215b7f-2216-4160-8a4b-f6e3a3fe4abb",
@@ -562,7 +266,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
       "url": "/question/2f215b7f-2216-4160-8a4b-f6e3a3fe4abb",
       "source": "Mooculus 7.2.3",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "f96891b8-017d-41a2-beb4-1f2d3a887153",
@@ -579,7 +283,7 @@
       "tags": "limit, limit laws",
       "url": "/question/f96891b8-017d-41a2-beb4-1f2d3a887153",
       "source": "Mooculus 1.3.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "174aea4c-75d6-42c8-ac23-fa5a1c9962e3",
@@ -591,12 +295,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limit Laws",
-      "body": "\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20424.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20424.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limit, limit laws",
       "url": "/question/174aea4c-75d6-42c8-ac23-fa5a1c9962e3",
       "source": "Mooculus 1.3.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "12f72dde-c1c8-4f34-a8dc-50de5c6bcdf9",
@@ -613,7 +317,7 @@
       "tags": "limits, infinite limits, computing limits",
       "url": "/question/12f72dde-c1c8-4f34-a8dc-50de5c6bcdf9",
       "source": "Mooculus 2.1.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9fa1cd17-c3a7-46d0-b393-fcbf0071c335",
@@ -630,7 +334,7 @@
       "tags": "limits, computing limits, infinite limits ",
       "url": "/question/9fa1cd17-c3a7-46d0-b393-fcbf0071c335",
       "source": "Mooculus 2.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "84e7c370-8fab-4c9b-a195-5d87cd82d145",
@@ -647,7 +351,7 @@
       "tags": "infinite limits, limits, computing limits",
       "url": "/question/84e7c370-8fab-4c9b-a195-5d87cd82d145",
       "source": "Mooculus 2.1.3",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "de263d5e-04a4-415d-864f-7b49e4d4ef40",
@@ -664,7 +368,7 @@
       "tags": "limits, infinite limits, computing limits",
       "url": "/question/de263d5e-04a4-415d-864f-7b49e4d4ef40",
       "source": "Mooculus 2.1.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "52b2b1e3-9613-4180-aaad-167f234b5c22",
@@ -681,7 +385,7 @@
       "tags": "limits, infinite limits, computing limits",
       "url": "/question/52b2b1e3-9613-4180-aaad-167f234b5c22",
       "source": "Mooculus 2.1.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ba34a128-5e2e-411d-987e-12f884290d16",
@@ -698,7 +402,7 @@
       "tags": "limits, infinite limits, computing limits",
       "url": "/question/ba34a128-5e2e-411d-987e-12f884290d16",
       "source": "Mooculus 2.1.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "2c760056-8498-4c05-9358-aaf7de783869",
@@ -715,7 +419,7 @@
       "tags": "limits, infinite limits, computing limits",
       "url": "/question/2c760056-8498-4c05-9358-aaf7de783869",
       "source": "Mooculus 2.1.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "5b48223e-4bb9-40cb-83bc-bdbc8f90f256",
@@ -732,7 +436,7 @@
       "tags": "limits, infinite limits, computing limits",
       "url": "/question/5b48223e-4bb9-40cb-83bc-bdbc8f90f256",
       "source": "Mooculus 2.1.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "189bff29-c681-46ab-ba43-246be21113e3",
@@ -749,7 +453,7 @@
       "tags": "limits, infinite limits, vertical asymptotes ",
       "url": "/question/189bff29-c681-46ab-ba43-246be21113e3",
       "source": "Mooculus 2.1.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "edf73a41-4bce-4983-a1d8-f45b3200094c",
@@ -766,7 +470,7 @@
       "tags": "limit, infinite limits, vertical asymptote",
       "url": "/question/edf73a41-4bce-4983-a1d8-f45b3200094c",
       "source": "Mooculus 2.1.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "59abe18f-4c20-412a-b7d5-c4de8ac943d1",
@@ -783,7 +487,7 @@
       "tags": "limits, computing limits, limits at infinity ",
       "url": "/question/59abe18f-4c20-412a-b7d5-c4de8ac943d1",
       "source": "Mooculus 2.2.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d5ecda43-2e85-4902-b8ee-2995fb6e7d50",
@@ -800,7 +504,7 @@
       "tags": "limits, computing limits, limits at infinity ",
       "url": "/question/d5ecda43-2e85-4902-b8ee-2995fb6e7d50",
       "source": "Mooculus 2.2.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "97d82ec4-9422-43aa-999c-9f89193fcf3c",
@@ -817,7 +521,7 @@
       "tags": "limits, computing limits, limits at infinity ",
       "url": "/question/97d82ec4-9422-43aa-999c-9f89193fcf3c",
       "source": "Mooculus 2.2.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f8dd1297-85cb-4870-968c-dc827252f1cf",
@@ -834,7 +538,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field, euler\u0027s method",
       "url": "/question/f8dd1297-85cb-4870-968c-dc827252f1cf",
       "source": "Mooculus 7.3.1",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "f8552392-5457-4095-b507-252da6b46853",
@@ -851,7 +555,7 @@
       "tags": "limits, limits at infinity, computing infinity ",
       "url": "/question/f8552392-5457-4095-b507-252da6b46853",
       "source": "Mooculus 2.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "bef8adae-be0e-4ae9-a0b9-acfb2109624f",
@@ -868,7 +572,7 @@
       "tags": "limits, limits at infinity, computing limits",
       "url": "/question/bef8adae-be0e-4ae9-a0b9-acfb2109624f",
       "source": "Mooculus 2.2.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "fe840fb0-7bb6-4f19-b324-8f728a4a59db",
@@ -885,7 +589,7 @@
       "tags": "limits, limits at infinity, computing limits",
       "url": "/question/fe840fb0-7bb6-4f19-b324-8f728a4a59db",
       "source": "Mooculus 2.2.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "99bc9db8-dcb0-4555-b461-5948cf2e4a85",
@@ -902,7 +606,211 @@
       "tags": "limits, limits at infinity, computing infinity ",
       "url": "/question/99bc9db8-dcb0-4555-b461-5948cf2e4a85",
       "source": "Mooculus 2.2.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "75b0e2ba-c2d0-4044-ac45-b5be53003095",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits at Infinity",
+      "body": "Compute the limits\n\\(\\lim_{x \\rightarrow \\infty} \\frac{\\cos(x)}{\\ln(x)}\\)",
+      "allAnswers": [],
+      "tags": "limits, limits at infinity, computing limits",
+      "url": "/question/75b0e2ba-c2d0-4044-ac45-b5be53003095",
+      "source": "Mooculus 2.2.8",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "48a72b30-4cc0-44fc-b2bb-aa1127e66a68",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits at Infinity",
+      "body": "Compute the limits\n\\(\\lim_{x \\rightarrow \\infty} \\frac{\\sin(x^{7})}{\\sqrt{x}}\\)",
+      "allAnswers": [],
+      "tags": "limits, computing limits, limits at infinity ",
+      "url": "/question/48a72b30-4cc0-44fc-b2bb-aa1127e66a68",
+      "source": "Mooculus 2.2.9",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "7f9235de-4276-4697-9eb2-211f0d8a3935",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits at Infinity",
+      "body": "Compute the limits\n\\(\\lim_{x \\rightarrow \\infty} (17+\\frac{32}{x}-\\frac{\\(sin(x/2))^{2}}{x^{3}})\\)",
+      "allAnswers": [],
+      "tags": "limits, computing limits, limits at infinity",
+      "url": "/question/7f9235de-4276-4697-9eb2-211f0d8a3935",
+      "source": "Mooculus 2.2.10",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "ecbd7289-48ec-4742-9500-608be9964d05",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Euler\u0027s Method",
+      "body": "We have seen that the error in approximating the solution to an initial value problem is proportional to \\(\\Delta t\\).  That is, if \\(E_{\\Delta t}\\) is the Euler\u0027s method approximation to the solution to an initial value problem at \\(\\overline{t}\\), then \\(y(\\overline{t})-E_{\\Delta t} \\approx K\\Delta t\\) for some constant of proportionality \\(K\\). In this problem, we will see how to use this fact to improve our estimates, using an idea called accelerated convergence.\n\na.  Using our earlier results from the initial value problem \\(dy/dt \u003d y\\) and \\(y(0)\u003d1\\) with \\(\\Delta t \u003d 0.2\\) and \\(\\Delta t \u003d 0.1\\), we have\n    \\(\\begin{eqnarray*}\n      y(1) - 2.4883 \u0026 \u003d \u0026 0.2K \\\\\n      y(1) - 2.5937 \u0026 \u003d \u0026 0.1K. \\\\\n    \\end{eqnarray*}\\)\nThis is a system of two linear equations in the unknowns \\(y(1)\\)\nand \\(K\\).  Solve this system to find a new approximation for\n\\(y(1)\\).  (You may remember that the exact value is \\(y(1) \u003d e \u003d\n2.71828\\ldots.\\))\nb. Use the other data, \\(E_{0.05} \u003d 2.6533\\) and \\(E_{0.025} \u003d 2.6851\\) to do similar work as in (a) to obtain another approximation.  Which gives the better approximation?  Why do you think this is?",
+      "allAnswers": [],
+      "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution",
+      "url": "/question/ecbd7289-48ec-4742-9500-608be9964d05",
+      "source": "Mooculus 7.3.2",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "274a5e3b-28a6-451e-a0d8-1b06d3f8e10b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits at Infinity",
+      "body": "Suppose a population of feral cats on a certain college campus t years from now is approximated by p(t)\u003d\\(\\frac{1000}{5+2e^{-0.1t}}\\)\nApproximately how many feral cats are on campus 10 years from now? 50 years from now? 100 years from now? 1000 years from now? What do you notice about the prediction - is this realistic?",
+      "allAnswers": [],
+      "tags": "limits, word problem limits at infinity",
+      "url": "/question/274a5e3b-28a6-451e-a0d8-1b06d3f8e10b",
+      "source": "Mooculus 2.2.11",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "84406ea5-6933-41d6-8cb8-6fab175ef081",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits at Infinity",
+      "body": "The amplitude of an oscillating spring is given by a(t) \u003d \\(\\frac{\\sin(t)}{t}\\)\nWhat happens to the amplitude of the oscillation over a long period of time?",
+      "allAnswers": [],
+      "tags": "limits, amplitude",
+      "url": "/question/84406ea5-6933-41d6-8cb8-6fab175ef081",
+      "source": "Mooculus 2.2.12",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "85fa7f8f-40eb-45ff-bff8-9372fcff5a51",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Separable Differential Equations Practice",
+      "body": "The mass of a radioactive sample decays at a rate that is proportional to its mass. \n\na. Express this fact as a differential equation for the mass \\(M(t)\\) using \\(k\\) for the constant of proportionality.\nb. If the initial mass is \\(M_0\\), find an expression for the mass \\(M(t)\\).\nc. The {\\em half-life} of the sample is the amount of time required for half of the mass to decay.  Knowing that the half-life of Carbon-14 is 5730 years, find the value of \\(k\\) for a sample of Carbon-14.\nd. How long does it take for a sample of Carbon-14 to be reduced to one-quarter its original mass?",
+      "allAnswers": [],
+      "tags": "separable, differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
+      "url": "/question/85fa7f8f-40eb-45ff-bff8-9372fcff5a51",
+      "source": "Mooculus 7.4.1",
+      "topic": ""
+    },
+    {
+      "uuid": "e297702b-0a80-4e02-b1e4-e007f3cda54d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity ",
+      "body": "Consider the function f(x) \u003d \\(\\sqrt{x-4}\\)\nIs f(x) continuous at the point x \u003d 4? Is f(x) a continuous function on \\(\\mathbb{R}\\)?",
+      "allAnswers": [],
+      "tags": "continuity, function, continuous function",
+      "url": "/question/e297702b-0a80-4e02-b1e4-e007f3cda54d",
+      "source": "Mooculus 2.3.1",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
+    },
+    {
+      "uuid": "fb060fef-7c7e-4639-9734-d6165062642c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Initial Value Practice",
+      "body": "Consider the initial value problem \\(\\frac{dy}{dt} \u003d -\\frac ty, \\ y(0) \u003d 8\\)\n\na. Find the solution of the initial value problem and sketch its graph.\nb. For what values of \\(t\\) is the solution defined? \nc. What is the value of \\(y\\) at the last time that the solution is defined? \nd. By looking at the differential equation, explain why we should not expect to find solutions with the value of\\(y\\) you noted in (c).",
+      "allAnswers": [],
+      "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution",
+      "url": "/question/fb060fef-7c7e-4639-9734-d6165062642c",
+      "source": "Mooculus 7.4.2",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "cf4c8450-e12f-4aaf-8e9c-b133a0754b46",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity",
+      "body": "Consider the function f(x) \u003d \\(\\frac{1}{x+3}\\)\nIs f(x) continuous at the point x \u003d 3? Is f(x) a continuous function on \\(\\mathbb{R}\\)?",
+      "allAnswers": [],
+      "tags": "continuity, function, continuous function",
+      "url": "/question/cf4c8450-e12f-4aaf-8e9c-b133a0754b46",
+      "source": "Mooculus 2.3.2",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
+    },
+    {
+      "uuid": "b0100d3e-ee10-4c7e-850c-b83334b368a9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20425.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "function, continuity, continuous function",
+      "url": "/question/b0100d3e-ee10-4c7e-850c-b83334b368a9",
+      "source": "Mooculus 2.3.3",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
+    },
+    {
+      "uuid": "88b75811-4822-44ba-8852-938c99d931bc",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787592,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20426.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "function, continuous function, continuity ",
+      "url": "/question/88b75811-4822-44ba-8852-938c99d931bc",
+      "source": "Mooculus 2.3.4",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
     }
   ],
   "textContent": [
@@ -921,7 +829,7 @@
       "tags": "implicit differentiation, derivatives, chain rule, product rule, quotient rule ",
       "url": "/text-content/984e6658-1ebb-404e-9b33-d63fb81fa618",
       "source": "Forgotten Text 4 4.6",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation"
+      "topic": "ae96efba-ab3e-4210-9275-fdf7ac9ca436"
     },
     {
       "uuid": "73994bdd-c870-4a53-9625-4d0bdbea312f",
@@ -938,7 +846,7 @@
       "tags": "arctrigonometric functions, trigonometric functions, derivatives, chain rule, product rule, quotient rule ",
       "url": "/text-content/73994bdd-c870-4a53-9625-4d0bdbea312f",
       "source": "Forgotten Text 4 4.7",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Arctrigonometric Functions"
+      "topic": "0dad7b1e-f306-4153-8d3a-4457c3934ff4"
     },
     {
       "uuid": "e9c41781-3bb3-4a0d-bb7e-030a2bd85960",
@@ -955,9 +863,79 @@
       "tags": "exponential functions, derivatives of exponential functions, derivatives, chain rule, product rule ",
       "url": "/text-content/e9c41781-3bb3-4a0d-bb7e-030a2bd85960",
       "source": "Forgotten Text 4 4.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential Functions"
+      "topic": "0774c552-9384-45b4-8b61-78c7c187016b"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "27bd130c-6e9a-4bd7-a6e9-d2bb455d90e3",
+      "subTopics": [],
+      "parentTopics": [
+        "5125ebbc-3098-4683-b2bf-37f4ab49e919"
+      ],
+      "title": "Extreme Value",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "word problem, minimization, maximization , maximization, area, function,",
+      "difficulty": 485000,
+      "contentUuids": [
+        "58830e3a-3bb0-4c25-ad7d-2f7defeb2519",
+        "f6a8823c-d47f-433e-a69a-21ad907c3afd",
+        "087ec2c0-a439-458c-a940-3d27413c083b",
+        "542b4d32-d3e1-4fd7-99c9-60118e4917fd",
+        "33b3e451-8637-4a3c-a093-075e9ab11e62",
+        "71974687-b949-4424-a519-8b50694ac159",
+        "8e31ec23-2cc9-4608-8e9d-07be2dbbbd10",
+        "748932da-15e6-46ba-ab48-c8e6c64ca9fa",
+        "bc331f85-8c00-4965-b644-a30135aa24e3",
+        "4d91e693-b267-4d54-8f25-755737970cf3",
+        "3566b152-e302-40d1-aa4c-96e4b961a431",
+        "1c7e0209-a98b-4d22-9c77-c5cdc7b8e330",
+        "30c1c7a3-bb20-4655-a96f-703736d596cd",
+        "b34554fe-0978-48ce-99f7-400e82dda4e1",
+        "26952ea5-e91d-4f71-bc52-5bbfc2d5290a",
+        "66dd157c-41c6-49cb-9bcf-483556471407",
+        "65a76509-f0af-4e04-9fa3-49f1d067eef0"
+      ]
+    },
+    {
+      "uuid": "c3018b7b-332f-486a-86b7-c4b8f43dfb9e",
+      "subTopics": [
+        "59a9a17d-cc4e-4815-ada6-501e57511bd8"
+      ],
+      "parentTopics": [
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
+      ],
+      "title": "Multiple Variables",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 514000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "4e0cb2ac-015c-4a6a-b4c3-ff28e86e6b29",
+      "subTopics": [],
+      "parentTopics": [
+        "67a8b5e4-f808-43d9-9eda-f9e5a3e310a7"
+      ],
+      "title": "Point-Slope Form",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " circle equation, equation of a line, equation of a circle,graphing circles, line equations, y-intercept, slope form,line equation, point slope form, circle graph, points,slope, standard equation of a circle, x - intercept, radius,parallel lines, line joining,equation of a circle, Celsius/Fahrenheit problem,standard equation, geometry word problem,word problem, graph, line equation, x-intercept, tangent line, circle,",
+      "difficulty": 119000,
+      "contentUuids": [
+        "87fa6f36-23b8-489a-bc0f-9973bf586768",
+        "47cf1fdb-8336-4f1a-9c51-a1db87f34b50",
+        "39beda3a-4eca-4fb4-88ea-5b89653941ca",
+        "528cea2a-f3d7-4bcd-a088-ca4859ceba8d",
+        "9b21d82a-8f9f-496d-bbd0-15c9378e0fe2",
+        "cd4f98f8-e27b-47e8-a956-c9ac87e1f22c",
+        "7ab95ffa-ea18-4408-a37c-2e8b8655f242",
+        "3afe5ca8-a98d-4e88-86dc-b66eda58ec60",
+        "46d28fe6-8a90-4e03-b39c-e2e12ff253f6"
+      ]
+    }
+  ]
 }

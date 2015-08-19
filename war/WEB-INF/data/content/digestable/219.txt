@@ -2,364 +2,194 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10122.png\"/\u003e",
-      "uuid": "fbea73ae-44bd-4c07-9032-1575ef23b708",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2197.png\"/\u003e",
+      "uuid": "6803576f-873c-4686-ace2-63e61e93bb50",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Congruent Triangle Proof ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10121.png\"/\u003e",
+      "title": "find all points with x coordinates",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2196.png\"/\u003e",
       "allAnswers": [],
-      "tags": "congruence, triangles, proof, inequality postulate, geometric inequality",
-      "url": "/practice-problem/fbea73ae-44bd-4c07-9032-1575ef23b708",
-      "source": "null 7.6.1"
+      "tags": "distance formula, distance, x-coordinate, all points from one point ",
+      "url": "/practice-problem/6803576f-873c-4686-ace2-63e61e93bb50",
+      "source": "null 1.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/233.png\"/\u003e",
-      "uuid": "6fd291da-ec4a-4bee-8519-5a40b92fb44e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2201.png\"/\u003e",
+      "uuid": "d17aba3b-9e31-424a-9b78-f837ec5d770f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Mean proportion ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/232.png\"/\u003e",
+      "title": "Midpoint of line segment",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2200.png\"/\u003e",
       "allAnswers": [],
-      "tags": "mean proportion ",
-      "url": "/practice-problem/6fd291da-ec4a-4bee-8519-5a40b92fb44e",
-      "source": "null 12.1.2"
+      "tags": "midpoint, midpoint formula, line segment, lines",
+      "url": "/practice-problem/d17aba3b-9e31-424a-9b78-f837ec5d770f",
+      "source": "null 1.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/235.png\"/\u003e",
-      "uuid": "06a17a8c-c341-400c-8d6c-140ffae11f1d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2203.png\"/\u003e",
+      "uuid": "f4cb6ef5-66d7-489f-b702-b8e10d99d1bf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Measure of exterior angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/234.png\"/\u003e",
+      "title": "Line divides line segment",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2202.png\"/\u003e",
       "allAnswers": [],
-      "tags": "exterior angle, angle ",
-      "url": "/practice-problem/06a17a8c-c341-400c-8d6c-140ffae11f1d",
-      "source": "null 12.1.3"
+      "tags": "midpoint, line segment, line, midpoint formula ",
+      "url": "/practice-problem/f4cb6ef5-66d7-489f-b702-b8e10d99d1bf",
+      "source": "null 1.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/241.png\"/\u003e",
-      "uuid": "3bfb34de-8eee-497f-8137-a0147bba8481",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2210.png\"/\u003e",
+      "uuid": "f128ad08-06f9-4a88-bd2e-a41cb2d28030",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Proportional division",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/240.png\"/\u003e",
+      "title": "Graph the function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2209.png\"/\u003e",
       "allAnswers": [],
-      "tags": "proportion, division, line segments ",
-      "url": "/practice-problem/3bfb34de-8eee-497f-8137-a0147bba8481",
-      "source": "null 12.2.2"
+      "tags": "points for graph, graphing functions, higher order functions, high order polynomials ",
+      "url": "/practice-problem/f128ad08-06f9-4a88-bd2e-a41cb2d28030",
+      "source": "null 1.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/244.png\"/\u003e",
-      "uuid": "66c1f307-d5e0-4e88-ad48-4b679891a355",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2214.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2215.png\"/\u003e",
+      "uuid": "f23464f4-3b50-4153-badf-8daee3f86782",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Prove based on proportion",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/243.png\"/\u003e",
+      "title": "find the x and y intercepts",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2213.png\"/\u003e",
       "allAnswers": [],
-      "tags": "proof, proportions ",
-      "url": "/practice-problem/66c1f307-d5e0-4e88-ad48-4b679891a355",
-      "source": "null 12.2.3"
+      "tags": "x intercepts, y intercepts, square roots, relations ",
+      "url": "/practice-problem/f23464f4-3b50-4153-badf-8daee3f86782",
+      "source": "null 1.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/254.png\"/\u003e",
-      "uuid": "0fb85233-e420-48d3-8a79-42aac8877899",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2222.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2223.png\"/\u003e",
+      "uuid": "4482cfe3-bd0b-41fe-bef1-59c2ac19d796",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Finding line lengths",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/253.png\"/\u003e",
+      "title": "Find the domain and range",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2221.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/0fb85233-e420-48d3-8a79-42aac8877899",
-      "source": "null 12.4.2"
+      "tags": "domain, range, function, graphs",
+      "url": "/practice-problem/4482cfe3-bd0b-41fe-bef1-59c2ac19d796",
+      "source": "null 1.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/256.png\"/\u003e",
-      "uuid": "c3adcc25-e85a-48eb-afa1-48a48765ed1b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2226.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2227.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2228.png\"/\u003e",
+      "uuid": "d54851b3-a088-402e-bcf9-8926d627dc1f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Proving equality and similarity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/255.png\"/\u003e",
+      "title": "Determine which equations",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2225.png\"/\u003e",
       "allAnswers": [],
-      "tags": "proof, equality, similarity",
-      "url": "/practice-problem/c3adcc25-e85a-48eb-afa1-48a48765ed1b",
-      "source": "null 12.4.3"
+      "tags": "equations, functions, range, domain, graphs, y as function of x",
+      "url": "/practice-problem/d54851b3-a088-402e-bcf9-8926d627dc1f",
+      "source": "null 1.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/261.png\"/\u003e",
-      "uuid": "e1f0ba31-0e7c-4fdd-b7f4-1b172b6a494a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2234.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2235.png\"/\u003e",
+      "uuid": "1ae06bb8-e640-497c-8434-35ac4aac90ff",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655780,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Coordinates under transformations ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/260.png\"/\u003e",
+      "title": "Find the domain of functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2233.png\"/\u003e",
       "allAnswers": [],
-      "tags": "transformations, coordinates ",
-      "url": "/practice-problem/e1f0ba31-0e7c-4fdd-b7f4-1b172b6a494a",
-      "source": "null 12.5.2"
+      "tags": "domain, functions, implied domain, applied domain ",
+      "url": "/practice-problem/1ae06bb8-e640-497c-8434-35ac4aac90ff",
+      "source": "null 1.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/266.png\"/\u003e",
-      "uuid": "90cbd6a8-cd97-4712-a2da-6f75a8add5d8",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2240.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2241.png\"/\u003e",
+      "uuid": "eef62da3-c59f-4243-91dd-e88f15d076b2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655781,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Prove equality and similarity ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/265.png\"/\u003e",
+      "title": "The height h of model rocket",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2239.png\"/\u003e",
       "allAnswers": [],
-      "tags": "prove equality, prove similarity, equality, similarity ",
-      "url": "/practice-problem/90cbd6a8-cd97-4712-a2da-6f75a8add5d8",
-      "source": "null 12.6.2"
+      "tags": "intercepts of functions, intercepts, solve function, graph ",
+      "url": "/practice-problem/eef62da3-c59f-4243-91dd-e88f15d076b2",
+      "source": "null 1.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/276.png\"/\u003e",
-      "uuid": "2e44ab81-d1b4-40bb-936c-31f3752958f5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2250.png\"/\u003e",
+      "uuid": "31ed18b5-f8a2-438c-9986-5210726c9e45",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655781,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Length of Hypotenuse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/275.png\"/\u003e",
+      "title": "dOpi media players ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2249.png\"/\u003e",
       "allAnswers": [],
-      "tags": "right triangle, hypotenuse, length, leg, measurements ",
-      "url": "/practice-problem/2e44ab81-d1b4-40bb-936c-31f3752958f5",
-      "source": "null 12.8.2"
+      "tags": "interpret points in function, function arithmetic, economic functions ",
+      "url": "/practice-problem/31ed18b5-f8a2-438c-9986-5210726c9e45",
+      "source": "null 1.5.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/280.png\"/\u003e",
-      "uuid": "07a707ab-6c58-445c-b62c-c3593764133d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2255.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2256.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2257.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2258.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2259.png\"/\u003e",
+      "uuid": "5776333c-dd89-40f5-b4bf-c2e5c178baaf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655781,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Slant height of cone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/279.png\"/\u003e",
+      "title": "Determine analytically functions ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2254.png\"/\u003e",
       "allAnswers": [],
-      "tags": "pythagorean theorem, slant height, cone ",
-      "url": "/practice-problem/07a707ab-6c58-445c-b62c-c3593764133d",
-      "source": "null 12.9"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/285.png\"/\u003e",
-      "uuid": "f46c652e-383e-4973-b83a-566a9382e048",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655781,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Length of other leg, Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/283.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/284.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "length of leg, triangle ",
-      "url": "/practice-problem/f46c652e-383e-4973-b83a-566a9382e048",
-      "source": "null 12.9.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/292.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/293.png\"/\u003e",
-      "uuid": "b23526fa-23cd-49a1-9be2-79d9fcca89e7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655781,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Midpoint hypotenuse, right triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/290.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/291.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "midpoint, distance formula, equidistant vertices ",
-      "url": "/practice-problem/b23526fa-23cd-49a1-9be2-79d9fcca89e7",
-      "source": "null 12.10.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/295.png\"/\u003e",
-      "uuid": "d66c4142-8c6f-427b-bfdd-76d944d64ae8",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655781,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Base angle congruency",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/294.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "base angles, congruency, congruent, isosceles triangle ",
-      "url": "/practice-problem/d66c4142-8c6f-427b-bfdd-76d944d64ae8",
-      "source": "null 12.10.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/311.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/312.png\"/\u003e",
-      "uuid": "fdff8112-2d6d-443f-b316-ca279f063c88",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655781,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Apothem, length, and right triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/309.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/310.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "apothem, length, right triangle, angle, length",
-      "url": "/practice-problem/fdff8112-2d6d-443f-b316-ca279f063c88",
-      "source": "null 13.2.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/315.png\"/\u003e",
-      "uuid": "c4648e4a-20e4-43fd-85c8-0609e9f5f0fa",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655781,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inscribed in a circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/314.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "circle, inscribed, rectangle, diagonals ",
-      "url": "/practice-problem/c4648e4a-20e4-43fd-85c8-0609e9f5f0fa",
-      "source": "null 13.2.3"
+      "tags": "functions, even, odd, neither even nor odd, graphing calculator ",
+      "url": "/practice-problem/5776333c-dd89-40f5-b4bf-c2e5c178baaf",
+      "source": "null 1.6.1"
     }
   ],
   "questions": [
-    {
-      "uuid": "5dfb8b23-7f78-4cd1-9d05-911e56c2d568",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve the Differential Equation",
-      "body": "\\(\\dfrac{dy}{dx}\u003d2(3x+5)^3\\)",
-      "allAnswers": [],
-      "tags": "integrals, differentiation, cross section, volume, antiderivatives",
-      "url": "/question/5dfb8b23-7f78-4cd1-9d05-911e56c2d568",
-      "source": "AP Calculus Problems 4.2.65",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "d3175dd0-e830-4db2-8f61-c1c83f262069",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Negative and Fractional Exponents",
-      "body": "Rewrite each expression with fractional exponents and simplify.\n \\(\\sqrt[3]{x}\\sqrt[5]{y^2}\\)",
-      "allAnswers": [],
-      "tags": "fractional exponents, derivatives",
-      "url": "/question/d3175dd0-e830-4db2-8f61-c1c83f262069",
-      "source": "AP Calculus Problems 2.1.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "a3c8708c-d665-4119-80f4-3e3bfcc4a8a8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve the Differential Equation",
-      "body": "\\(\\dfrac{ds}{dt}\u003d\\cos t+\\sin t\\), \\ \\(s(\\pi)\u003d1\\)",
-      "allAnswers": [],
-      "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
-      "url": "/question/a3c8708c-d665-4119-80f4-3e3bfcc4a8a8",
-      "source": "AP Calculus Problems 4.2.66",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "f674e145-5a0a-478d-ba2d-a04c07109b94",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Negative and Fractional Exponents",
-      "body": "Rewrite each expression with fractional exponents and simplify.\n\\(\\sqrt{x+2}\\sqrt[4]{(x+2)^9}\\)",
-      "allAnswers": [],
-      "tags": "fractional exponents, derivative, expressions",
-      "url": "/question/f674e145-5a0a-478d-ba2d-a04c07109b94",
-      "source": "AP Calculus Problems 2.1.2",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
-    },
-    {
-      "uuid": "f8244ec9-bc8f-48a6-9237-134a63c7b424",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Negative and Fractional Exponents",
-      "body": "Rewrite each expression with fractional exponents and simplify.\n\\(x^3\\sqrt[5]{x^3}\\)",
-      "allAnswers": [],
-      "tags": "fractional exponents, expression, derivatives",
-      "url": "/question/f8244ec9-bc8f-48a6-9237-134a63c7b424",
-      "source": "AP Calculus Problems 2.1.3",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
     {
       "uuid": "73daa09d-2f9b-41c5-920e-4ae80c503bf9",
       "contentType": "question",
@@ -375,7 +205,7 @@
       "tags": "fractional exponents, expressions, derivatives",
       "url": "/question/73daa09d-2f9b-41c5-920e-4ae80c503bf9",
       "source": "AP Calculus Problems 2.1.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "a4180dbe-b2e9-4d3d-9dcc-34d877e694ab",
@@ -392,7 +222,7 @@
       "tags": "derivatives, radicals, fractional exponents",
       "url": "/question/a4180dbe-b2e9-4d3d-9dcc-34d877e694ab",
       "source": "AP Calculus Problems 2.1.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "2f169dce-e018-498e-9ad9-7161e05a2df7",
@@ -409,7 +239,7 @@
       "tags": "fractional exponents, radicals, expressions, derivatives",
       "url": "/question/2f169dce-e018-498e-9ad9-7161e05a2df7",
       "source": "AP Calculus Problems 2.1.6",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "c8ad88f4-b11b-4481-b6a4-13c3caf2aa4e",
@@ -426,7 +256,7 @@
       "tags": "radicals, expressions, fractional exponents, derivatives",
       "url": "/question/c8ad88f4-b11b-4481-b6a4-13c3caf2aa4e",
       "source": "AP Calculus Problems 2.1.7",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "81ed3f3a-9abc-4de7-bbd2-520247589ff4",
@@ -443,7 +273,7 @@
       "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
       "url": "/question/81ed3f3a-9abc-4de7-bbd2-520247589ff4",
       "source": "AP Calculus Problems 4.2.67",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "4be34ec2-58ac-472f-b0c9-9f8769c173b7",
@@ -460,7 +290,7 @@
       "tags": "fractional exponents, radicals, expression, derivatives",
       "url": "/question/4be34ec2-58ac-472f-b0c9-9f8769c173b7",
       "source": "AP Calculus Problems 2.1.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "253b47b2-8c1d-42f3-813b-831eb657be63",
@@ -477,7 +307,7 @@
       "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
       "url": "/question/253b47b2-8c1d-42f3-813b-831eb657be63",
       "source": "AP Calculus Problems 4.2.68",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "266852d5-1d3d-4141-92da-0cef7d495873",
@@ -494,7 +324,7 @@
       "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
       "url": "/question/266852d5-1d3d-4141-92da-0cef7d495873",
       "source": "AP Calculus Problems 4.2.69",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "d54ec5e8-e0f1-40e6-a06e-66a242d6434a",
@@ -511,7 +341,7 @@
       "tags": "radicals, fractional exponents, derivatives, expressions",
       "url": "/question/d54ec5e8-e0f1-40e6-a06e-66a242d6434a",
       "source": "AP Calculus Problems 2.1.9",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "1ed8e795-31ac-4ef1-b76e-f60b33d2242b",
@@ -528,7 +358,7 @@
       "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
       "url": "/question/1ed8e795-31ac-4ef1-b76e-f60b33d2242b",
       "source": "AP Calculus Problems 4.2.70",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "fd76abe2-2534-4e65-b83f-e936941c22a5",
@@ -545,7 +375,7 @@
       "tags": "negative exponents, derivatives ",
       "url": "/question/fd76abe2-2534-4e65-b83f-e936941c22a5",
       "source": "AP Calculus Problems 2.1.10",
-      "topic": "Algebra/Functions/Exponential Functions/Negative Exponential Functions"
+      "topic": "bab58b48-5041-4aaf-8371-d264f6d03e34"
     },
     {
       "uuid": "85f37ee3-94c0-43c8-85b7-1afa16d8d7dd",
@@ -562,7 +392,7 @@
       "tags": "integrals, differentiation, equation, derivatives, antiderivatives",
       "url": "/question/85f37ee3-94c0-43c8-85b7-1afa16d8d7dd",
       "source": "AP Calculus Problems 4.2.71",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "25839a54-ac06-4d47-86d4-f8dbef19c503",
@@ -579,7 +409,7 @@
       "tags": "negative exponents, derivatives",
       "url": "/question/25839a54-ac06-4d47-86d4-f8dbef19c503",
       "source": "AP Calculus Problems 2.1.11",
-      "topic": "Algebra/Functions/Exponential Functions/Negative Exponential Functions"
+      "topic": "bab58b48-5041-4aaf-8371-d264f6d03e34"
     },
     {
       "uuid": "b02ff0e7-9fcb-46d8-a38b-17af6446f3b1",
@@ -596,7 +426,7 @@
       "tags": "derivatives, negative exponents",
       "url": "/question/b02ff0e7-9fcb-46d8-a38b-17af6446f3b1",
       "source": "AP Calculus Problems 2.1.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "a7b351b3-4217-4f8c-bcff-4fb86fdd81d9",
@@ -613,7 +443,7 @@
       "tags": "negative exponents, derivatives",
       "url": "/question/a7b351b3-4217-4f8c-bcff-4fb86fdd81d9",
       "source": "AP Calculus Problems 2.1.13",
-      "topic": "Algebra/Functions/Exponential Functions/Negative Exponential Functions"
+      "topic": "bab58b48-5041-4aaf-8371-d264f6d03e34"
     },
     {
       "uuid": "b9f35b18-b888-4157-a3f7-7a3c2f773321",
@@ -630,7 +460,7 @@
       "tags": "fractional exponents, derivatives",
       "url": "/question/b9f35b18-b888-4157-a3f7-7a3c2f773321",
       "source": "AP Calculus Problems 2.1.14",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "f4579d2d-481e-4f03-9db7-54d5fb7bc902",
@@ -647,7 +477,7 @@
       "tags": "fractional exponents, derivatives",
       "url": "/question/f4579d2d-481e-4f03-9db7-54d5fb7bc902",
       "source": "AP Calculus Problems 2.1.15",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "961dc2f8-4a9b-48d9-8edb-20a0dc61c4a0",
@@ -664,7 +494,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/961dc2f8-4a9b-48d9-8edb-20a0dc61c4a0",
       "source": "AP Calculus Problems 4.2.72",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "a103ca43-34fc-4229-baa0-b96b8b2977b5",
@@ -681,7 +511,7 @@
       "tags": "factoring, fractional exponents",
       "url": "/question/a103ca43-34fc-4229-baa0-b96b8b2977b5",
       "source": "AP Calculus Problems 2.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "33d3c9af-43c5-4923-af2d-6cfc203e28a0",
@@ -698,7 +528,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/33d3c9af-43c5-4923-af2d-6cfc203e28a0",
       "source": "AP Calculus Problems 4.2.73",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "b8b83ff9-e8d2-4e18-9d93-a083333c864d",
@@ -715,7 +545,7 @@
       "tags": "factoring, negative exponents, fractional exponents",
       "url": "/question/b8b83ff9-e8d2-4e18-9d93-a083333c864d",
       "source": "AP Calculus Problems 2.1.17",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
     },
     {
       "uuid": "dfcedd71-1806-4eb3-8d64-6767d2955ddd",
@@ -732,7 +562,7 @@
       "tags": "factoring, negative exponents ",
       "url": "/question/dfcedd71-1806-4eb3-8d64-6767d2955ddd",
       "source": "AP Calculus Problems 2.1.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "6d71182f-46a3-44ca-a4be-21c45dd7ce7d",
@@ -749,7 +579,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/6d71182f-46a3-44ca-a4be-21c45dd7ce7d",
       "source": "AP Calculus Problems 4.2.74",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "8279cdf5-1c85-4623-996e-e7d50938fd02",
@@ -766,7 +596,7 @@
       "tags": "factoring, fractional exponents",
       "url": "/question/8279cdf5-1c85-4623-996e-e7d50938fd02",
       "source": "AP Calculus Problems 2.1.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "a54d341d-54d3-4bcb-bd04-a2f385ddcf6c",
@@ -783,7 +613,7 @@
       "tags": "factoring, negative exponents, fractional exponents ",
       "url": "/question/a54d341d-54d3-4bcb-bd04-a2f385ddcf6c",
       "source": "AP Calculus Problems 2.1.20",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
     },
     {
       "uuid": "707932e5-42ff-4183-961a-1b4f44dfa6e3",
@@ -800,7 +630,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/707932e5-42ff-4183-961a-1b4f44dfa6e3",
       "source": "AP Calculus Problems 4.2.75",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "6900a111-94d8-4261-a733-834fb070b9ca",
@@ -817,7 +647,7 @@
       "tags": "factoring, negative exponents, fraction exponents",
       "url": "/question/6900a111-94d8-4261-a733-834fb070b9ca",
       "source": "AP Calculus Problems 2.1.21",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
     },
     {
       "uuid": "934d5426-b417-433f-9d32-1abc39a55d81",
@@ -834,7 +664,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives, rate of growth",
       "url": "/question/934d5426-b417-433f-9d32-1abc39a55d81",
       "source": "AP Calculus Problems 4.2.76",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "f71ca1c7-c602-4fbe-8559-5b083446697f",
@@ -851,7 +681,7 @@
       "tags": "factoring, negative exponents, fraction exponents ",
       "url": "/question/f71ca1c7-c602-4fbe-8559-5b083446697f",
       "source": "AP Calculus Problems 2.1.22",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
     },
     {
       "uuid": "5f27f463-9e1d-4689-8858-cf4ac3e8d9f1",
@@ -868,7 +698,7 @@
       "tags": "factoring, negative exponents, fractional exponents ",
       "url": "/question/5f27f463-9e1d-4689-8858-cf4ac3e8d9f1",
       "source": "AP Calculus Problems 2.1.23",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
     },
     {
       "uuid": "d1b489b2-27fd-46e4-9f08-6578c89b6784",
@@ -885,7 +715,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives, rate of growth, rate of change",
       "url": "/question/d1b489b2-27fd-46e4-9f08-6578c89b6784",
       "source": "AP Calculus Problems 4.2.77",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "5e59977b-c7c2-484e-ba12-3cd3afba5646",
@@ -902,7 +732,7 @@
       "tags": "factoring, negative exponents, fractional exponents ",
       "url": "/question/5e59977b-c7c2-484e-ba12-3cd3afba5646",
       "source": "AP Calculus Problems 2.1.24",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
     },
     {
       "uuid": "079d3182-d387-4fbb-97c9-fa504d992c34",
@@ -919,7 +749,92 @@
       "tags": "factoring, negative exponents, fractional exponents",
       "url": "/question/079d3182-d387-4fbb-97c9-fa504d992c34",
       "source": "AP Calculus Problems 2.1.25",
-      "topic": "Algebra/Functions/Quadratic Functions/Factoring/Perfect Square Trinomial"
+      "topic": "e6b899b0-3ba3-46f6-9362-669c29a7ca83"
+    },
+    {
+      "uuid": "fe76196b-25e3-4f43-9ff9-8acd1926c80c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graph and Find the Area",
+      "body": "Solve the differential equation \\(dP/dt\u003dkP^2\\) for constant \\(k\\), with initial condition \\(P(0)\u003dP_0\\).  Prove that the graph of the solution has a vertical asymptote at a positive value of \\(t\\).  What is that value of \\(t\\)? (This value is called the catastrophic solution.",
+      "allAnswers": [],
+      "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
+      "url": "/question/fe76196b-25e3-4f43-9ff9-8acd1926c80c",
+      "source": "AP Calculus Problems 4.2.78",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "5008a8d0-b626-46a4-bf03-64f4ffcda39f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the Differential Equation",
+      "body": "Given a differential equation of the form \\(ay\u0027\u0027+by\u0027+y\u003d0\\), find constants \\(a\\) and \\(b\\) so that both \\(y\u003de^x\\) and \\(y\u003de^{2x}\\) are solutions.",
+      "allAnswers": [],
+      "tags": "integrals, differentiation, differential equation, derivatives, antiderivatives",
+      "url": "/question/5008a8d0-b626-46a4-bf03-64f4ffcda39f",
+      "source": "AP Calculus Problems 4.2.79",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "8c80d612-439d-4bc2-af50-c4b0ed12318a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logic",
+      "body": "In each of the following problems, you are given a true statement.  From the statement, determine which one of the three choices is logically equivalent. (You do not need to know what the words mean in order to determine the correct answer.) \n\nIf it is raining, then I will go to the mall. \n  a) If I go to the mall, then it is raining.\n  b) If it is not raining, then I will not go to the mall.\n  c) If I do not go to the mall, then it is not raining.\n ",
+      "allAnswers": [],
+      "tags": "logic, multiple choice",
+      "url": "/question/8c80d612-439d-4bc2-af50-c4b0ed12318a",
+      "source": "AP Calculus Problems 2.2.1",
+      "topic": "be98959f-161a-4933-8aa2-94002b3bf319"
+    },
+    {
+      "uuid": "b8a8167d-17f9-4021-98dd-5803ccd854f7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logic",
+      "body": "If a snark is a grunk, then a quango is a trone. \n  a) If a quango is a trone, then a snark is a grunk.\n  b) If a quango is not a trone, then a snark is not a grunk.\n  c) If a snark is not a grunk, then a quango is not a trone.",
+      "allAnswers": [],
+      "tags": "logic, multiple choice",
+      "url": "/question/b8a8167d-17f9-4021-98dd-5803ccd854f7",
+      "source": "AP Calculus Problems 2.2.2",
+      "topic": "be98959f-161a-4933-8aa2-94002b3bf319"
+    },
+    {
+      "uuid": "a958be65-c224-4512-8e1d-e6ffcfa16194",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logic",
+      "body": "If a function is linear, then the graph is not a parabola. \n  a) If the graph is a parabola, then the function is not linear.\n  b) If the graph is a parabola, then the function is linear.\n  c) If the function is not linear, then the graph is a parabola.",
+      "allAnswers": [],
+      "tags": "logic, multiple choice",
+      "url": "/question/a958be65-c224-4512-8e1d-e6ffcfa16194",
+      "source": "AP Calculus Problems 2.2.3",
+      "topic": "be98959f-161a-4933-8aa2-94002b3bf319"
     }
   ],
   "textContent": [
@@ -938,7 +853,7 @@
       "tags": "tangents, unit tangent vector, secant ",
       "url": "/text-content/4edf9371-d782-4262-a71b-d0435b7eb34e",
       "source": "Forgotten Text 7 6.56",
-      "topic": "Calculus/Other Calculus Topics/Vectors/Vector Tangents"
+      "topic": "da13d9eb-fb92-47e5-a40d-d4b562cd52ab"
     },
     {
       "uuid": "928fa551-959b-4bd9-a58f-ca2f1305d290",
@@ -955,7 +870,7 @@
       "tags": "parametric curves, sketching parametric curve ",
       "url": "/text-content/928fa551-959b-4bd9-a58f-ca2f1305d290",
       "source": "Forgotten Text 7 6.57",
-      "topic": "Calculus/Other Calculus Topics/Vectors/Parametric Equations/Graphing Parametric Curves"
+      "topic": "f1421085-9531-43a6-a900-5944b422a7f4"
     },
     {
       "uuid": "e78c0353-3e8e-41ae-af56-3c2c62571557",
@@ -972,9 +887,94 @@
       "tags": "Curve, cartesian, polar coordinates, arclength function, line segments, perimeter of circle, length of cycloid",
       "url": "/text-content/e78c0353-3e8e-41ae-af56-3c2c62571557",
       "source": "Forgotten Text 7 6.58",
-      "topic": "Calculus/Other Calculus Topics/Vectors/Length of a curve"
+      "topic": "be6b6543-6d2b-4ca7-87c0-9c5d29174706"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "4546c129-681e-4b1e-a71a-01f3fdf6d1da",
+      "subTopics": [],
+      "parentTopics": [
+        "63ea291a-5194-49b0-921f-da6a1b98ca83"
+      ],
+      "title": "Hyperbolic Sine",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " curves,area, area between curves, area bounded by curves, area between curve, area bounded by curves ,",
+      "difficulty": 411000,
+      "contentUuids": [
+        "bdde9dd6-b884-48d1-a832-b078baf3b647",
+        "2f7ec8bd-91a3-4707-a531-21a99399d4d6",
+        "d7452c39-f1fc-45af-9d6a-10b212dd1d26"
+      ]
+    },
+    {
+      "uuid": "6dd86cf3-0cf9-448d-9262-a1070b2a1457",
+      "subTopics": [],
+      "parentTopics": [
+        "f809ea50-ac38-4929-92d7-d367efc65986"
+      ],
+      "title": "Standard Normal Distribution",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " probability, probability density function, interval, function,arc length, density function,probability, expected sum, sum,integral, dice, mean, standard deviation, distribution, expected value,normal distribution, infinity,dice, integral, substitution,",
+      "difficulty": 632000,
+      "contentUuids": [
+        "67fce183-6893-4e0f-b0ca-116988c03113",
+        "b78e7721-895e-40bf-b15c-f77f56fb4829",
+        "b3ce0960-5f04-4962-86fb-3c0e3ab03d5c",
+        "3ea6b96b-c567-4456-8d93-b3dc13a63a39",
+        "b53e87b3-035e-48ba-bf31-593748d5b86f",
+        "44fdf5d8-0988-45f9-95ac-0fa3ef1831d7",
+        "db55ba9e-eb73-4fe7-b021-dd1872e0ef3f",
+        "d1ea1f4e-4c02-45b9-9c4f-dc4be9b344f6"
+      ]
+    },
+    {
+      "uuid": "7bd6a3b5-77c1-48e5-aa52-4dc9b7bb186a",
+      "subTopics": [],
+      "parentTopics": [
+        "f2da5e08-a673-4427-8a50-218303fa816e"
+      ],
+      "title": "Geometry of Arithmetic",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " complex numbers ,arithmetic, sine cosine, De Moivre\\u0027s formula,",
+      "difficulty": 710000,
+      "contentUuids": [
+        "86fde405-f23d-465e-9f7e-d0c816ca4c72"
+      ]
+    },
+    {
+      "uuid": "9248dd21-66c0-45f7-8182-3da33850e603",
+      "subTopics": [],
+      "parentTopics": [
+        "f2fcffac-de28-4e51-a73d-1b701b4ba449"
+      ],
+      "title": "Newton\u0027s Method",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " tangent line, root, approximation , intermediate value theorem, transcendental functions,derivatives,Newton\\u0027s method, derivatives, derivatives of transcendental functions,limits,derivative, rate of change, functions,curves, newton\\u0027s method,newton\\u0027s method, function, dimensions, domain, approximation,function, finding transcendental functions, significant figures, limit of f(x), even function, rectangle, volume,newtons method,curve,functions, odd function, x approaches a value",
+      "difficulty": 504000,
+      "contentUuids": [
+        "d1488ac0-9cb6-44e4-8088-e0b552cf3240",
+        "2b30fd0a-2dfa-4400-834f-9f298c63ccbe",
+        "3cf8fd6f-5c13-488b-b779-555d4b669b9f",
+        "cc83b452-3bdc-45e5-97c3-de9eb5e480e3",
+        "9dba91e8-7037-4da5-b3ce-37395aaf9383",
+        "93aeb62f-f353-48b5-805e-2521dcc1e3e7",
+        "ecb763be-a6c5-4084-a737-1835d7164420",
+        "8ad72f3f-ecac-4c62-a889-99c040f37a9c",
+        "13365e55-82db-4659-ac68-bddda8366b7d",
+        "71ba4d1f-df6e-4467-9de5-b10353db7c54",
+        "855946fc-e79e-4269-8692-4864702d3f53",
+        "8dbb3d0f-3888-4d38-b9ab-247d324c30d4",
+        "d166b6dc-73a0-4f95-9210-4b378824b91e",
+        "31564a42-f15f-4379-881b-79dab4f0390a",
+        "80419772-9ac2-436c-8320-51cba7a14a61",
+        "0afa44b1-ae4e-4d63-ace2-2426b50c190a"
+      ]
+    }
+  ]
 }

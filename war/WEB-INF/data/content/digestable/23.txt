@@ -2,396 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(-1\\) ,  \\(35\\) ,  \\(20\\) ,  \\(2\\) ",
-      "uuid": "009e9327-1009-41e3-ac15-e438bfde641f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/222.png\"/\u003e",
+      "uuid": "4da30866-7434-4ffd-b7f2-a89f6cb0b994",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362047,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Chain Rule Problem",
-      "body": " Suppose  \\(w\u003d\\frac1{12}t^2x^3-5y^2\\ln t\\)  where  \\(x\u003dt^2-u^2\\)  and  \\(y\u003d\\dfrac tu\\) .    At the point where  \\(t \u003d 2\\)  and  \\(u \u003d 1\\)        \\[ \\left(\\frac{\\partial  }{\\partial w}t\\right)_{x,y} \u003d \\text{____} \\qquad \\text{ and }                                                              \\qquad \\left(\\frac{\\partial  }{\\partial w}t\\right)_u \u003d a - b\\ln c \\] where  \\(a\\) \u003d_____,  \\(b\\) \u003d_____, and  \\(c\\) \u003d___.",
+      "title": "Radius of base of Cylinder",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/221.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/009e9327-1009-41e3-ac15-e438bfde641f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "radius of base, cylinder ",
+      "url": "/practice-problem/4da30866-7434-4ffd-b7f2-a89f6cb0b994",
+      "source": "null 11.8.2"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(76\\) ",
-      "uuid": "d626930d-5e5f-4c26-a5b5-c88ffdc24da0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10122.png\"/\u003e",
+      "uuid": "fbea73ae-44bd-4c07-9032-1575ef23b708",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362048,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Chain Rule",
-      "body": " Suppose  \\(w \u003d \\frac12x^2y + \\arctan(tx)\\)  where  \\(x \u003d t^2 - 3u^2\\)  and  \\(y \u003d 2tu\\) .    At the point where  \\(t \u003d 2\\)  and  \\(u \u003d -1\\)        \\[ \\left(\\frac{\\partial  }{\\partial w}t \\right)_{x,y} \u003d \\dfrac a5  \\qquad \\text{ and } \\qquad \\left(\\frac{\\partial  }{\\partial w}t \\right)_u \u003d -\\dfrac b5 \\] where  \\(a\\) \u003d___ and  \\(b\\) \u003d_____.",
+      "title": "Congruent Triangle Proof ",
+      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10121.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/d626930d-5e5f-4c26-a5b5-c88ffdc24da0",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "congruence, triangles, proof, inequality postulate, geometric inequality",
+      "url": "/practice-problem/fbea73ae-44bd-4c07-9032-1575ef23b708",
+      "source": "null 7.6.1"
     },
     {
-      "authorSolution": " \\(4x\\) ,  \\(8y\\) ,  \\(4x\\) ,  \\(4\\) ,  \\(0\\) ",
-      "uuid": "1ae932f7-609d-420b-85f3-01687ab94c35",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/233.png\"/\u003e",
+      "uuid": "6fd291da-ec4a-4bee-8519-5a40b92fb44e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362048,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Chain Rule",
-      "body": " Suppose that  \\(w \u003d f(x,y) \u003d g(u,v)\\)  where  \\(x \u003d u^2 - v^2\\)  and  \\(y \u003d 2uv\\) , and that  \\(f\\)  and  \\(g\\)  are twice continuously differentiable functions.   Then        \\[\\ppd gu - \\ppd gv \u003d  \\text{____}\\ppd  fx +  \\text{____}\\ppdd fxy                  - \\text{____}\\ppd  fy + \\text{__}\\frac{\\partial  }{\\partial f}x +  \\text{__}\\frac{\\partial  }{\\partial f}y.   \\]",
+      "title": "Mean proportion ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/232.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/1ae932f7-609d-420b-85f3-01687ab94c35",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "mean proportion ",
+      "url": "/practice-problem/6fd291da-ec4a-4bee-8519-5a40b92fb44e",
+      "source": "null 12.1.2"
     },
     {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "68c1ba58-d358-49c3-a567-5077d1518ed1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/235.png\"/\u003e",
+      "uuid": "06a17a8c-c341-400c-8d6c-140ffae11f1d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362048,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Chain Rule Question",
-      "body": " Let  \\(f(x,y) \u003d \\dfrac{x^2 - y^2}{\\sqrt{x^2 + y^2}}\\) .    Then at the point where  \\(x \u003d 1\\)  and  \\(y \u003d 1\\)            \\[xy\\left(\\ppd fy - \\ppd fx \\right) + (x^2-y^2)\\ppdd fxy  + x\\frac{\\partial  }{\\partial f}y - y\\frac{\\partial  }{\\partial f}x \u003d -a\\sqrt a \\] where  \\(a\\) \u003d___.    \u003ci\u003eHint.\u003c/i\u003e Use the preceding exercise.",
+      "title": "Measure of exterior angle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/234.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/68c1ba58-d358-49c3-a567-5077d1518ed1",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "exterior angle, angle ",
+      "url": "/practice-problem/06a17a8c-c341-400c-8d6c-140ffae11f1d",
+      "source": "null 12.1.3"
     },
     {
-      "authorSolution": " \\(-3  \\dfrac{x^2 - y^2}{\\bigl(x^2 + y^2\\bigr)^{\\frac32}}\\) ",
-      "uuid": "6db213f2-a9eb-4b7f-b055-28dd93e8d23b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/241.png\"/\u003e",
+      "uuid": "3bfb34de-8eee-497f-8137-a0147bba8481",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362048,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Chain Rule Question",
-      "body": " Let  \\(f(x,y)\u003d\\dfrac{x^2-y^2}{\\sqrt{x^2+y^2}}\\) .    Then  \\(\\ppd fx + \\ppd fy\\)  \u003d _____________.    \\\\ \u003ci\u003eHint.\u003c/i\u003e Use the preceding exercise.",
+      "title": "Proportional division",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/240.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/6db213f2-a9eb-4b7f-b055-28dd93e8d23b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "proportion, division, line segments ",
+      "url": "/practice-problem/3bfb34de-8eee-497f-8137-a0147bba8481",
+      "source": "null 12.2.2"
     },
     {
-      "authorSolution": " \\(-1\\) ",
-      "uuid": "fbaccad9-eb10-4df9-811c-e522baf652f6",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/244.png\"/\u003e",
+      "uuid": "66c1f307-d5e0-4e88-ad48-4b679891a355",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362048,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Chain Rule Problem",
-      "body": " Let  \\(f(x,y) \u003d \\dfrac{\\sqrt{x + y}+\\sqrt{x - y}}{\\sqrt{x+y} - \\sqrt{x-y}} + \\sqrt{\\sqrt{x + y}-\\sqrt{x - y}}\\) .   Then the value of the expression \\noindent  \\(2y\\ppd fx + 4x\\ppdd fxy + 2y\\ppd fy + 2\\frac{\\partial  }{\\partial f}y\\)  at the point where  \\(x \u003d 5\\)  and  \\(y \u003d 4\\)  is ____.   \\\\ \u003ci\u003eHint.\u003c/i\u003e  Use the preceding exercise.",
+      "title": "Prove based on proportion",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/243.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/fbaccad9-eb10-4df9-811c-e522baf652f6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "proof, proportions ",
+      "url": "/practice-problem/66c1f307-d5e0-4e88-ad48-4b679891a355",
+      "source": "null 12.2.3"
     },
     {
-      "authorSolution": " \\(\\begin{bmatrix} \\dfrac1{2\\pi^3}  \u0026  -\\dfrac3{2\\pi} \\\\[15 pt]",
-      "uuid": "4ef30c03-3d31-4756-866b-0d3fcf5401ba",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/254.png\"/\u003e",
+      "uuid": "0fb85233-e420-48d3-8a79-42aac8877899",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362048,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Chain Rule Question",
-      "body": " At the point  \\((1,\\pi)\\)  the vector field  \\(\\vec{ }F\\)  defined by  \\(\\vec{ }F(x,y) \u003d (x^2y^3,x\\tan y)\\)  is locally invertible.   Then  \\(d\\bigl(\\vec{ }F^{-1}\\bigr)_{(\\pi^3,0)} \u003d \\begin{bmatrix} \\hphantom{XXX}  \u0026\\hphantom{XXX}  \\\\                                                             \\hphantom{XXX}  \u0026\\hphantom{XXX}  \\\\                                                             \\hphantom{XXX}  \u0026\\hphantom{XXX}  \\\\                                                             \\hphantom{XXX}  \u0026\\hphantom{XXX}  \\\\                                                             \\hphantom{XXX}  \u0026\\hphantom{XXX}  \\end{bmatrix}\\)  .",
+      "title": "Finding line lengths",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/253.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule, word problem",
-      "url": "/practice-problem/4ef30c03-3d31-4756-866b-0d3fcf5401ba",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "",
+      "url": "/practice-problem/0fb85233-e420-48d3-8a79-42aac8877899",
+      "source": "null 12.4.2"
     },
     {
-      "authorSolution": " \\(-1\\) ,  \\(1\\) ,  \\(0\\) , saddle point",
-      "uuid": "38a2a5ec-ad38-4774-bdcc-c6ae0f53a956",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/256.png\"/\u003e",
+      "uuid": "c3adcc25-e85a-48eb-afa1-48a48765ed1b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362052,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Local Extrema",
-      "body": " In the first  \\(7\\)  exercises below you are asked to classify critical points as \u003ci\u003elocal minima\u003c/i\u003e, \u003ci\u003elocal maxima\u003c/i\u003e, or \u003ci\u003esaddle points\u003c/i\u003e.",
+      "title": "Proving equality and similarity",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/255.png\"/\u003e",
       "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/38a2a5ec-ad38-4774-bdcc-c6ae0f53a956",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "tags": "proof, equality, similarity",
+      "url": "/practice-problem/c3adcc25-e85a-48eb-afa1-48a48765ed1b",
+      "source": "null 12.4.3"
     },
     {
-      "authorSolution": " \\(-2\\) ,  \\(1\\) ,  \\(1\\) , saddle point",
-      "uuid": "c0c50b51-c224-4e67-9c60-9d8fa35d3391",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/261.png\"/\u003e",
+      "uuid": "e1f0ba31-0e7c-4fdd-b7f4-1b172b6a494a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362052,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Lagrange Multipliers",
-      "body": " Let  \\(f(x,y) \u003d x^3 - 3xy + y^3 - 2\\) .    Then  \\(f\\)  has two critical points.    One is located at  \\((0,__)\\)  and is a _______________.    The other is located at (__,__) and is a _______________.",
+      "title": "Coordinates under transformations ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/260.png\"/\u003e",
       "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/c0c50b51-c224-4e67-9c60-9d8fa35d3391",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "tags": "transformations, coordinates ",
+      "url": "/practice-problem/e1f0ba31-0e7c-4fdd-b7f4-1b172b6a494a",
+      "source": "null 12.5.2"
     },
     {
-      "authorSolution": " \\(\\dfrac\\pi3\\) ,  \\(\\dfrac\\pi3\\) , local maximum",
-      "uuid": "2ee9f5ff-633f-4e57-ac0c-f9b6c4269d19",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/266.png\"/\u003e",
+      "uuid": "90cbd6a8-cd97-4712-a2da-6f75a8add5d8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362052,
+      "createdAt": 1437611655781,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "More Applications Of The Derivative Problem",
-      "body": " Let  \\(f(x,y) \u003d -\\frac12xy + \\dfrac2x - \\dfrac1y\\) .    The only critical point of  \\(f\\)  is located at (__,___) and it is a ________________.",
+      "title": "Prove equality and similarity ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/265.png\"/\u003e",
       "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/2ee9f5ff-633f-4e57-ac0c-f9b6c4269d19",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(1\\) ,  \\(2\\) ,  \\(\\dfrac\\pi2\\) , saddle points",
-      "uuid": "62bfd11a-d696-4803-9dbe-f70bdcb3e6e4",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362052,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Global Extrema",
-      "body": " Let  \\(f(x,y,z) \u003d x^3y + z^2 - 3x - y + 4z + 5\\) .   The only critical point of the function  \\(f\\)  is located at ( __ , __ , ___ ) and it is a _______________.",
-      "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/62bfd11a-d696-4803-9dbe-f70bdcb3e6e4",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(-1\\) ,  \\(1\\) ,  \\(1\\) ,  \\(3\\) ,  \\(2\\) ,  \\(2\\) ,  \\(0\\) ",
-      "uuid": "83b26bd6-5cb4-4b9c-b69e-90eccc44d839",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362052,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Optimization Of Functions Of Several Variables",
-      "body": " Suppose that  \\(f\\colon \\R^2 \\sto \\R\\) ,  \\(f(2,1) \u003d -3\\) ,  \\(\\nabla f(2,1) \u003d (2,0)\\)  and the Hessian matrix of  \\(f\\)  at  \\((a,b)\\)  is  \\(\\begin{bmatrix} 2 \u0026 -3 \\\\ -3 \u0026 4 \\end{bmatrix}\\)  for all  \\((a,b)\\) .   Then  \\(f(x,y,z) \u003d \\text{______________________.}\\) ",
-      "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/83b26bd6-5cb4-4b9c-b69e-90eccc44d839",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(-3\\) ,  \\(1\\) ,  \\(1\\) ,  \\(25\\) ,  \\(3\\) ,  \\(0\\) ",
-      "uuid": "6ce712a7-8995-490f-88fa-63bb937fe658",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362052,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Lagrange Multipliers Practice",
-      "body": " Let  \\(f(x,y) \u003d xy - x^2 + 10\\)  be defined over the rectangular region  \\([0,5] \\times [0,4]\\) .   The global minimum of  \\(f\\)  is _____ and occurs at the point (__,__).    The global maximum of  \\(f\\)  is ____ and occurs at the point (__,__).",
-      "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/6ce712a7-8995-490f-88fa-63bb937fe658",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(-5\\) ,  \\(1\\) ,  \\(2\\) ,  \\(68\\) ,  \\(3\\) ,  \\(5\\) ",
-      "uuid": "6e70b8f6-9064-47d3-ac88-89f09b0f1d60",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362052,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Lagrange Multipliers Question",
-      "body": " Let  \\(f(x,y) \u003d 3x^2 - 2xy + 3y^2 - 10x + 6y + 8\\)  be defined on the square region  \\([0,2] \\times [-1,1]\\) .    The global minimum of  \\(f\\)  is ____ and occurs at the point (_____,_____).   The global maximum of  \\(f\\)  is ____ and occurs at the point (__,__).",
-      "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/6e70b8f6-9064-47d3-ac88-89f09b0f1d60",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(6\\) ,  \\(2\\sqrt3\\) ,  \\(\\sqrt3\\) ,  \\(6\\) ",
-      "uuid": "8531f78e-cf22-40ba-ab2d-e842207327b3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362052,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Of Functions Of Several Variables",
-      "body": " Let  \\(f(x,y) \u003d x^2 + 2xy + 4x - y^2 - 8y - 6\\)  be defined on the triangular region whose vertices are  \\((0,0)\\) ,  \\((0,-8)\\) , and  \\((4,-4)\\) .    The global minimum of  \\(f\\)  is ____ and occurs at the point (___,___).    The global maximum of  \\(f\\)  is ____ and occurs at the point (___,___).",
-      "allAnswers": [],
-      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
-      "url": "/practice-problem/8531f78e-cf22-40ba-ab2d-e842207327b3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "tags": "prove equality, prove similarity, equality, similarity ",
+      "url": "/practice-problem/90cbd6a8-cd97-4712-a2da-6f75a8add5d8",
+      "source": "null 12.6.2"
     }
   ],
   "questions": [
-    {
-      "uuid": "28d68f7e-8a58-4daa-9c2f-d920c09d7287",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Vectors",
-      "body": "Given the vectors \\(\\va\u003d\\tvek 2\\\\1\\\\3\\ttor\\) and \\(\\vb\u003d\\tvek 1\n\\\\ 1 \\\\ 0\\ttor\\) find \\(\\va^\\pll\\), \\(\\va^\\perp\\), \\(\\vb^\\pll\\), \\(\\vb^\\perp\\)\nfor which\n\\[\n\\va\u003d\\va^\\pll+\\va^\\perp, \\text{ with }a^\\pll\\pll\\vb, a^\\perp\\perp\\vb, \n\\]\nand\n\\[\n\\vb\u003d\\vb^\\pll+\\vb^\\perp, \\text{ with }b^\\pll\\pll\\va, b^\\perp\\perp\\va. \n\\]",
-      "allAnswers": [],
-      "tags": "vectors",
-      "url": "/question/28d68f7e-8a58-4daa-9c2f-d920c09d7287",
-      "source": "Math 222 5.1.20",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
-    },
-    {
-      "uuid": "b62c88de-0da4-4990-a6b9-e6a5bffab410",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Indefinite Integral",
-      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int\\sin(3x)\\cos(5x)\\,\\dd x\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/b62c88de-0da4-4990-a6b9-e6a5bffab410",
-      "source": "Math 222 3.1.49",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "86a73f6a-381e-45d0-a29a-a5802c43e606",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Indefinite Integral",
-      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int\\sin^2(2x)\\cos(3x)\\,\\dd x\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/86a73f6a-381e-45d0-a29a-a5802c43e606",
-      "source": "Math 222 3.1.50",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "a066d038-8724-408b-a3f6-fbb82ec341dd",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Indefinite Integral",
-      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int_{0}^{\\pi/4} \\sin(3x)\\cos(x)\\, \\dd x\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/a066d038-8724-408b-a3f6-fbb82ec341dd",
-      "source": "Math 222 3.1.51",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "d8d2dc49-79a5-4460-aaa8-c07215363247",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Vectors",
-      "body": "Russ left his backpack on a hill, which in some coordinate system\nhappens to be the line with equation \\(12x_1 + 5x_2 \u003d 130\\).\nThe force exerted by gravity on the backpack is \\(\\vf_{\\rm grav}\u003d\\tvek 0 \\\\\n-mg\\ttor\\). Decompose this force into a part perpendicular to the hill, and a part parallel to the hill.",
-      "allAnswers": [],
-      "tags": "vector, word problem",
-      "url": "/question/d8d2dc49-79a5-4460-aaa8-c07215363247",
-      "source": "Math 222 5.1.21",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
-    },
-    {
-      "uuid": "4821d693-bc7f-462d-b6e6-e9dd1b3d1e0d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Indefinite Integral",
-      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int_{0}^{\\pi/3} \\sin^3(x)\\cos^2(x)\\, \\dd x\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/4821d693-bc7f-462d-b6e6-e9dd1b3d1e0d",
-      "source": "Math 222 3.1.52",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "c08ca6dc-a2ea-4451-b9ff-cb4dc0b516d9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Indefinite Integral",
-      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int_{0}^{\\pi/2} \\sin^2(x)\\cos^2(x)\\, \\dd x\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/c08ca6dc-a2ea-4451-b9ff-cb4dc0b516d9",
-      "source": "Math 222 3.1.53",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
     {
       "uuid": "01674ee3-f6e2-403a-b80c-1c4c346aaf26",
       "contentType": "question",
@@ -407,7 +188,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/01674ee3-f6e2-403a-b80c-1c4c346aaf26",
       "source": "Math 222 3.1.54",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "405017a5-c566-41c3-94bf-5124efe7b6ec",
@@ -419,12 +200,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Vectors",
-      "body": "An eraser is lying on the plane \\(\\cP\\) with equation\n\\(x_1+3x_2+x_3 \u003d 6\\). Gravity pulls the eraser down, and exerts a force\ngiven by\n\\[\n\\vf_{\\rm grav} \u003d \\vek 0\\\\ 0\\\\ -mg\\tor.\n\\]\n\n(a) Find a normal \\(\\vn\\) for the plane \\(\\cP\\).\n\n(b) Decompose the force \\(\\vf\\) into a part perpendicular to the plane \\(\\cP\\) and a\npart perpendicular to \\(\\vn\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20455.png\"/\u003e",
+      "body": "An eraser is lying on the plane \\(\\cP\\) with equation\n\\(x_1+3x_2+x_3 \u003d 6\\). Gravity pulls the eraser down, and exerts a force\ngiven by\n\\[\n\\vf_{\\rm grav} \u003d \\vek 0\\\\ 0\\\\ -mg\\tor.\n\\]\n\n(a) Find a normal \\(\\vn\\) for the plane \\(\\cP\\).\n\n(b) Decompose the force \\(\\vf\\) into a part perpendicular to the plane \\(\\cP\\) and a\npart perpendicular to \\(\\vn\\).\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20455.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "vectors, word problem",
       "url": "/question/405017a5-c566-41c3-94bf-5124efe7b6ec",
       "source": "Math 222 5.1.22",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "845c876a-7f28-46ab-b0d3-c11be6b33461",
@@ -441,7 +222,7 @@
       "tags": "vectors",
       "url": "/question/845c876a-7f28-46ab-b0d3-c11be6b33461",
       "source": "Math 222 5.1.23",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "1d494044-53ad-4d23-8e77-ddc968fdbb18",
@@ -458,7 +239,7 @@
       "tags": "vectors, vertices, angles",
       "url": "/question/1d494044-53ad-4d23-8e77-ddc968fdbb18",
       "source": "Math 222 5.1.24",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "0ec0893a-d3b8-495f-aaab-6079841aa111",
@@ -475,7 +256,7 @@
       "tags": "vectors, parametric equation, triangles ",
       "url": "/question/0ec0893a-d3b8-495f-aaab-6079841aa111",
       "source": "Math 222 5.1.25",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "ee42b456-887b-47ae-b39c-7b3e57790c8b",
@@ -492,7 +273,7 @@
       "tags": "vectors, defining equation, normal vectors",
       "url": "/question/ee42b456-887b-47ae-b39c-7b3e57790c8b",
       "source": "Math 222 5.1.26",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "5b8d91cd-4d0c-4fb5-80bc-d350c5b6b19b",
@@ -509,7 +290,7 @@
       "tags": "parametrizations, intersect, vectors",
       "url": "/question/5b8d91cd-4d0c-4fb5-80bc-d350c5b6b19b",
       "source": "Math 222 5.1.27",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "5bf8998f-79f5-4ea3-8b78-6f4311c9866e",
@@ -526,7 +307,7 @@
       "tags": "parametrization, vectors",
       "url": "/question/5bf8998f-79f5-4ea3-8b78-6f4311c9866e",
       "source": "Math 222 5.1.28",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "b249661c-43a1-47bc-a554-6da485012c47",
@@ -543,7 +324,7 @@
       "tags": "vectors, parametrization ",
       "url": "/question/b249661c-43a1-47bc-a554-6da485012c47",
       "source": "Math 222 5.1.29",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "aaf79157-2d32-4cd2-9170-04fea6b70625",
@@ -560,7 +341,7 @@
       "tags": "cross product, vectors",
       "url": "/question/aaf79157-2d32-4cd2-9170-04fea6b70625",
       "source": "Math 222 5.1.30",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product and Projection/Relation of Magnitude"
+      "topic": "df17ef6d-95b5-435e-af77-5367b8a74511"
     },
     {
       "uuid": "d614f463-d55f-4ddf-9a7c-109954c2b4de",
@@ -577,7 +358,7 @@
       "tags": "cross product, vectors",
       "url": "/question/d614f463-d55f-4ddf-9a7c-109954c2b4de",
       "source": "Math 222 5.1.31",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product and Projection/Relation of Magnitude"
+      "topic": "df17ef6d-95b5-435e-af77-5367b8a74511"
     },
     {
       "uuid": "b053522b-cfc1-40be-af0f-9cf7b2ce3df1",
@@ -594,7 +375,7 @@
       "tags": "cross product, vectors",
       "url": "/question/b053522b-cfc1-40be-af0f-9cf7b2ce3df1",
       "source": "Math 222 5.1.32",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/The Dot Product and Projection/Relation of Magnitude"
+      "topic": "df17ef6d-95b5-435e-af77-5367b8a74511"
     },
     {
       "uuid": "9078d8e3-306e-4818-9173-e49025cb7bc0",
@@ -611,7 +392,7 @@
       "tags": "vectors, cross product",
       "url": "/question/9078d8e3-306e-4818-9173-e49025cb7bc0",
       "source": "Math 222 5.1.33",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "9b6cdd7a-7b1f-4e1b-a7c8-b2e8a10aad32",
@@ -628,7 +409,7 @@
       "tags": "vector, triangle, coordinate axes",
       "url": "/question/9b6cdd7a-7b1f-4e1b-a7c8-b2e8a10aad32",
       "source": "Math 222 5.1.34",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "afc89688-402a-47dc-af98-10ed0df87a20",
@@ -645,7 +426,7 @@
       "tags": "vector, plane",
       "url": "/question/afc89688-402a-47dc-af98-10ed0df87a20",
       "source": "Math 222 5.1.35",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "f1d47003-3503-469b-b9a4-70e7e21b9b25",
@@ -662,7 +443,7 @@
       "tags": "vectors, parallelogram, area",
       "url": "/question/f1d47003-3503-469b-b9a4-70e7e21b9b25",
       "source": "Math 222 5.1.36",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "39b4a55f-cd9f-47f9-b403-f7feaaf47efe",
@@ -679,7 +460,7 @@
       "tags": "vectors, area, volume",
       "url": "/question/39b4a55f-cd9f-47f9-b403-f7feaaf47efe",
       "source": "Math 222 5.1.37",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "f808e91b-041e-4de0-8ed4-b5114fb0f131",
@@ -696,7 +477,7 @@
       "tags": "vectors, parametric equation, plane, position vectors, midpoints",
       "url": "/question/f808e91b-041e-4de0-8ed4-b5114fb0f131",
       "source": "Math 222 5.1.38",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "028d9fe9-d0a1-491f-afbf-5b1acf9ff89c",
@@ -713,7 +494,7 @@
       "tags": "parametrized curves, vectors",
       "url": "/question/028d9fe9-d0a1-491f-afbf-5b1acf9ff89c",
       "source": "Math 222 6.1.1",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "f5a97eb7-ba05-4e5a-8ab0-dc6b6ba72cf5",
@@ -730,7 +511,7 @@
       "tags": "parametrized curves, vectors, vector functions",
       "url": "/question/f5a97eb7-ba05-4e5a-8ab0-dc6b6ba72cf5",
       "source": "Math 222 6.1.2",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "30503564-025b-48f4-bbca-6a7cc40e30e2",
@@ -747,7 +528,7 @@
       "tags": "vectors, parametrized curves, vector functions",
       "url": "/question/30503564-025b-48f4-bbca-6a7cc40e30e2",
       "source": "Math 222 6.1.3",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "c14e2eca-4585-43d5-87e7-308bc029e627",
@@ -764,7 +545,7 @@
       "tags": "vector, vector function, parametrized curves",
       "url": "/question/c14e2eca-4585-43d5-87e7-308bc029e627",
       "source": "Math 222 6.1.4",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "8a0b268e-9a15-4d5d-8401-3478696cc2a7",
@@ -781,7 +562,7 @@
       "tags": "vector, vector function, parametrized curves",
       "url": "/question/8a0b268e-9a15-4d5d-8401-3478696cc2a7",
       "source": "Math 222 6.1.5",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "5d531630-0e4c-4853-b62b-9f233ad5f9f5",
@@ -798,7 +579,7 @@
       "tags": "parametrized curves, vector, vector function",
       "url": "/question/5d531630-0e4c-4853-b62b-9f233ad5f9f5",
       "source": "Math 222 6.1.6",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "4b54efa6-a889-4dfa-a7bd-984ad83398f4",
@@ -815,7 +596,7 @@
       "tags": "parametrized curves, vector, vector functions",
       "url": "/question/4b54efa6-a889-4dfa-a7bd-984ad83398f4",
       "source": "Math 222 6.1.7",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "bb1d8994-12e7-422e-af39-5d1fcd521b5b",
@@ -832,7 +613,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/bb1d8994-12e7-422e-af39-5d1fcd521b5b",
       "source": "Math 222 6.1.9",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "78d25ce2-5ad3-4d25-b9d8-01c8eab6498d",
@@ -849,7 +630,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/78d25ce2-5ad3-4d25-b9d8-01c8eab6498d",
       "source": "Math 222 6.1.10",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "819922d6-5450-45cf-bcfa-eb6bc6d24d77",
@@ -866,7 +647,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/819922d6-5450-45cf-bcfa-eb6bc6d24d77",
       "source": "Math 222 6.1.11",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "303593fe-8253-430a-a6ba-f3cb97d986d0",
@@ -883,7 +664,7 @@
       "tags": "vector, vector function, parametrized equation",
       "url": "/question/303593fe-8253-430a-a6ba-f3cb97d986d0",
       "source": "Math 222 6.1.12",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "79065f87-2d76-448f-8253-c631b5f1d559",
@@ -900,7 +681,126 @@
       "tags": "vector, vector function, parametric equation, circle",
       "url": "/question/79065f87-2d76-448f-8253-c631b5f1d559",
       "source": "Math 222 6.1.13",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
+    },
+    {
+      "uuid": "c8255b5b-c2fa-47da-a6fe-d37c593c18bb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "Find parametric equations for the curve traced out by the \\(X\\) in each of\nthe following descriptions.\nA circle of radius \\(0\u003cr\u003c1\\) rolls on the inside of the\nunit circle. \\(X\\) is a point on the rolling circle.",
+      "allAnswers": [],
+      "tags": "vector, vector function, parametric equation",
+      "url": "/question/c8255b5b-c2fa-47da-a6fe-d37c593c18bb",
+      "source": "Math 222 6.1.14",
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
+    },
+    {
+      "uuid": "952a2485-eb5e-4721-b5a2-eb2797b760c9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "Find parametric equations for the curve traced out by the \\(X\\) in each of the following descriptions.\n Let \\(O\\) be the origin, \\(A\\) the point \\((1,0)\\), and \\(B\\) the point\non the unit circle for which the angle \\(\\angle AOB \u003d \\theta\\).  Then \\(X\\) is the point on the tangent to the unit circle through \\(B\\) for which the distance \\(BX\\) equals the length of the circle arc \\(AB\\).",
+      "allAnswers": [],
+      "tags": "vector, vector function, parametric equation",
+      "url": "/question/952a2485-eb5e-4721-b5a2-eb2797b760c9",
+      "source": "Math 222 6.1.15",
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
+    },
+    {
+      "uuid": "20625934-ea2c-46de-9921-e6a73706833d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "Find parametric equations for the curve traced out by the \\(X\\) in each of the following descriptions.\n\\(X\\) is the point where the tangent line at \\(\\vx(\\theta)\\) to the\nhelix of example \\ref{ex:helix} intersects the \\(x_1x_2\\) plane.",
+      "allAnswers": [],
+      "tags": "vector, vector function, parametric equation",
+      "url": "/question/20625934-ea2c-46de-9921-e6a73706833d",
+      "source": "Math 222 6.1.17",
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
+    },
+    {
+      "uuid": "ed7b19a4-3821-4b66-9a15-01128af633fb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "If a moving object has position vector \\(\\vx(t)\\) at time \\(t\\), and\nif it\u0027s speed is constant, then show that the acceleration vector\nis always perpendicular to the velocity vector.",
+      "allAnswers": [],
+      "tags": "product rule, vector, velocity vector",
+      "url": "/question/ed7b19a4-3821-4b66-9a15-01128af633fb",
+      "source": "Math 222 6.1.17",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "f6701940-c5ed-4649-8fdb-9c0010f15377",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "If a charged particle moves in a magnetic field \\(\\vB\\), then the\nlaws of electromagnetism say that the magnetic field exerts a force on the particle and that this force is given by the following miraculous formula:\n\\[\n\\vF \u003d q\\vv\\cp\\vB.\n\\]\nwhere \\(q\\) is the charge of the particle, and \\(\\vv\\) is its velocity.\n\nNot only does the particle know calculus (since Newton found $\\vF\u003dm\\va$),\nit also knows vector geometry!\n\nShow that even though the magnetic field is pushing the particle around,\nand even though its velocity vector may be changing with time, its speed\n\\(v\u003d\\nm\\vv\\) remains constant.",
+      "allAnswers": [],
+      "tags": "product rules, vector, velocity vector",
+      "url": "/question/f6701940-c5ed-4649-8fdb-9c0010f15377",
+      "source": "Math 222 6.1.18",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "b1e03dd1-5507-4938-b6f9-491cd3e5d962",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "Newton\u0027s law of gravitation states that the Earth pulls\nany object of mass \\(m\\) towards its center with a force inversely\nproportional to the squared distance of the object to the Earth\u0027s center.\n(i) Show that if the Earth\u0027s center is the origin, and \\(\\vr\\) is the\nposition vector of the object of mass \\(m\\), then the gravitational force is given by\n\\[\n\\vF \u003d -C\\frac{\\vr}{\\nm\\vr^3} \\qquad\\text{(\\(C\\) is a positive constant.)}\n\\] [No calculus required. You are supposed to check that this vector\nsatisfies the description in the beginning of the problem, i.e.~that it has\nthe right length and direction.]\n(ii) If the object is moving, then its \\emph{angular momentum} is\ndefined in physics books by the formula \\(\\vL\u003dm\\vr\\cp\\vv\\).  Show that, if the Earth\u0027s gravitational field is the only force acting on the object,\nthen its angular momentum remains constant. [Hint: you should differentiate\n\\(\\vL\\) with respect to time, and use a product rule.]",
+      "allAnswers": [],
+      "tags": "product rule, vector function, vector, angular momentum",
+      "url": "/question/b1e03dd1-5507-4938-b6f9-491cd3e5d962",
+      "source": "Math 222 6.1.19",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "40c40a62-f5d9-44d4-a1d2-ee1865c57fd9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vector Functions and Parametrized Curves",
+      "body": "Consider a triangle \\(ABC\\) and let \\(\\va, \\vb\\) and \\(\\vc\\) be the\nposition vectors of \\(A,B\\) and \\(C\\).\n(i) Show that the parametric curve given by\n\\[\n\\vx(t) \u003d (1-t)^2 \\va + 2t(1-t)\\vb + t^2 \\vc,\n\\]\ngoes through the points \\(A\\) and \\(C\\), and that at these points it is tangent\nto the sides of the triangle.  Make a drawing.\n\n(ii) At which point on this curve is the tangent parallel to the side\n\\(AC\\) of the triangle?",
+      "allAnswers": [],
+      "tags": "tangent vector, vector function",
+      "url": "/question/40c40a62-f5d9-44d4-a1d2-ee1865c57fd9",
+      "source": "Math 222 6.1.20",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     }
   ],
   "textContent": [
@@ -919,7 +819,7 @@
       "tags": "indefinite integral, integral, integration, antiderivatives ",
       "url": "/text-content/c080b214-505f-48d2-a086-40678ea87235",
       "source": "Forgotten Text 6 6.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Indefinite Integrals"
+      "topic": "2469d7a0-2df9-43d9-97cf-5dcee25cdb0b"
     },
     {
       "uuid": "71cda21b-897e-4208-885a-f748d71e2328",
@@ -936,9 +836,75 @@
       "tags": "limits, exponential, logarithmic, exponent, logarithm",
       "url": "/text-content/71cda21b-897e-4208-885a-f748d71e2328",
       "source": "Forgotten Text 6 6.7",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Exponentials and Logarithms"
+      "topic": "68b9a327-d4ac-4496-b918-44e4d2c9b8bb"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "a809b55e-751c-47e1-afb0-c81deb3e890c",
+      "subTopics": [],
+      "parentTopics": [
+        "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+      ],
+      "title": "Lagranges Formula",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " taylor polynomials , remainder theorem,Lagrange\\u0027s formula,",
+      "difficulty": 697000,
+      "contentUuids": [
+        "7ef533c4-bcf3-4794-abfe-ab0176d484d8"
+      ]
+    },
+    {
+      "uuid": "ea770225-5c09-41a0-933f-e2951c72db90",
+      "subTopics": [],
+      "parentTopics": [
+        "d58c5a8e-f834-448b-9242-8d8f7f349c10"
+      ],
+      "title": "Linear Maps",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "linear maps (transformations) ,linear maps, vector spaces , word problem,,",
+      "difficulty": 82000,
+      "contentUuids": [
+        "e75b684e-0c85-4a3d-bc5c-e383d34ccc91",
+        "b6036119-2f77-4ab0-8ad8-1219c4011b53",
+        "6806f0a0-f02e-467f-a4c5-a35b624ccd25",
+        "976bf494-ba55-4131-b712-5d29d605e55c",
+        "dd13ffcd-0bea-41b6-8a25-95e07c92a5cc",
+        "675ba17a-5c8b-48ad-a530-664e2459ac6f",
+        "745d35b5-d074-4882-9377-a7007e57390a",
+        "36c02728-1cb9-4448-9797-1ec02c5ee610",
+        "4e9ea18e-4aef-419b-90bf-44b92bfc2c27",
+        "41b67e36-4489-46bd-8cea-ed9fdebd0241",
+        "deb64091-3ca8-4d59-a2ca-c6d5f8ae45ee",
+        "35f66f80-d0af-43d2-adb2-8434f99aa41a",
+        "7616d1ee-f110-4135-a284-f0283427c138",
+        "f6c09b18-258e-44f5-8d2c-d8af16fb5382",
+        "dc09573e-92e6-4801-8946-6de14b6a3b7a",
+        "56bffd3b-4bd3-4fdf-832e-055611a532c2",
+        "8ab79656-de42-4e4d-b9d0-52799d98421a",
+        "6c39ab55-ca0f-4f52-be39-f9b386e2cc22",
+        "84384b97-feb3-4bae-a7c3-2b24794b4cd6",
+        "4f4e7e09-241c-4fb2-903f-ef05f519be7e",
+        "a798d68f-b52b-46d1-bc05-68f54ea86ec4"
+      ]
+    },
+    {
+      "uuid": "011f041c-9891-44c7-83c2-b6635843044b",
+      "subTopics": [],
+      "parentTopics": [
+        "dee5ca4e-2be5-4dba-b299-cdc409e35a18"
+      ],
+      "title": "Whole Numbers",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "closure, closure properties, properties of numbers,",
+      "difficulty": 154000,
+      "contentUuids": [
+        "aa8a6795-dbdf-477f-9209-d9104c42d9c7"
+      ]
+    }
+  ]
 }

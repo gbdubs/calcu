@@ -54,9 +54,16 @@ public class TopicServlet extends HttpServlet {
 					req.setAttribute("textContent", tc);
 					req.setAttribute("practiceProblems", pp);
 					req.setAttribute("questions", qs);
-					
-					req.setAttribute("parentTopics", TopicAPI.getTopicsAsync(t.getParentTopics()));
-					req.setAttribute("subTopics", TopicAPI.getTopicsAsync(t.getSubTopics()));
+					if (t.getParentTopics() == null || t.getParentTopics().size() == 0){
+						req.setAttribute("parentTopics", new ArrayList<String>());
+					} else {
+						req.setAttribute("parentTopics", TopicAPI.getTopicsAsync(t.getParentTopics()));
+					}
+					if (t.getSubTopics() == null || t.getSubTopics().size() == 0){
+						req.setAttribute("subTopics", new ArrayList<String>());
+					} else {
+						req.setAttribute("subTopics", TopicAPI.getTopicsAsync(t.getSubTopics()));
+					}
 					resp.setContentType("text/html");
 					RequestDispatcher jsp = req.getRequestDispatcher("/WEB-INF/pages/topic.jsp");
 					jsp.forward(req, resp);

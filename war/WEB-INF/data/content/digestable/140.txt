@@ -2,483 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eLet \\( Y\\, \\) be a closed subspace of a normed space \\( (X,||\\cdot ||_{2})\\, \\) . Define \\( ||\\cdot ||_{0}\\, \\) on the quotient space \\( X/Y\\, \\) by \u003c/p\u003e  \\( ||{\\hat {x}}||_{0}\u003d{\\mathrm (}inf)_{{x\\in {\\hat {x}}}}||x||\\, \\)  \n\u003cp\u003efor every \\( {\\hat {x}}\\in X/Y\\, \\) . Prove that \\( ||\\cdot ||_{0}\\, \\) is a norm. \u003c/p\u003e",
-      "uuid": "a82327f3-a18b-4045-bb24-dfef728f3229",
+      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(-\\dfrac12\\) ,  \\(0\\) ,  \\(-\\dfrac1{12}\\) ",
+      "uuid": "3075f7eb-f62a-4921-b88f-ca302f2f0f8f",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165241,
+      "creatorUserId": "",
+      "createdAt": 1437419361935,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( Y\\, \\) be a closed subspace of a normed space \\( (X,||\\cdot ||_{2})\\, \\) . Define \\( ||\\cdot ||_{0}\\, \\) on the quotient space \\( X/Y\\, \\) by",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/a82327f3-a18b-4045-bb24-dfef728f3229",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA9",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Approximation By Polynomials Question",
+      "body": " Find the Maclaurin polynomial of degree 4 for  \\(f(x) \u003d \\ln\\cos x\\) .   Answer:  \\(A + Bx + Cx^2 + Dx^3 + Ex^4\\)  where  \\(A\u003d\\) ___,  \\(B\u003d\\) ___,  \\(C\u003d\\) ___,  \\(D\u003d\\) ___, and  \\(E\u003d\\) _____.",
+      "allAnswers": [],
+      "tags": "approximation by polynomials, Taylor polynomials ,Maclaurin polynomials ,Lagrange form for the remainder (error term)",
+      "url": "/practice-problem/3075f7eb-f62a-4921-b88f-ca302f2f0f8f",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "798dc7c9-cc0d-411e-929d-55038ad7464b"
     },
     {
-      "authorSolution": "\u003cp\u003eAssume that \\( \\left\\{x_{1},...,x_{n},...\\right\\}\\, \\) is a countable linearly independent subset of a vector space \\( X\\, \\) , and span \\( \\left\\{x_{1},...,x_{n},...\\right\\}\u003dX\\, \\) . Prove that \\( X\\, \\) admits two inequivalent norms. \u003c/p\u003e",
-      "uuid": "a3064e98-82c5-4823-b708-d6eeaaa08cf2",
+      "authorSolution": " \\(449\\) ",
+      "uuid": "ba9542ed-bceb-4af6-9981-f802b9c7cb2b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165248,
+      "creatorUserId": "",
+      "createdAt": 1437419361935,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Assume that \\( \\left\\{x_{1},...,x_{n},...\\right\\}\\, \\) is a countable linearly independent subset of a vector space \\( X\\, \\) , and span \\( \\left\\{x_{1},...,x_{n},...\\right\\}\u003dX\\, \\) . Prove that \\( X\\, \\) admits two inequivalent norms.",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/a3064e98-82c5-4823-b708-d6eeaaa08cf2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA10",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Approximation By Polynomials",
+      "body": " Find an approximate value for  \\(\\int_0^1 \\sin x^3 dx\\)  by replacing the integrand with an appropriate polynomial of degree 15.    Answer:  \\(\\dfrac a{1920}\\)  where  \\(a\\) \u003d_______.",
+      "allAnswers": [],
+      "tags": "approximation by polynomials, Taylor polynomials ,Maclaurin polynomials ,Lagrange form for the remainder (error term)",
+      "url": "/practice-problem/ba9542ed-bceb-4af6-9981-f802b9c7cb2b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "798dc7c9-cc0d-411e-929d-55038ad7464b"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( T:C[0,1]\\to C[0,1]\\, \\) be defined by \u003c/p\u003e  \\( (Tx)(t)\u003d\\int _{0}^{t}x(\\tau )d\\tau \\, \\)  \n\u003cp\u003e(i) Show that \\( T\\, \\) is a bounded linear operator. \u003c/p\u003e\n\u003cp\u003e(ii) Find \\( ||T||\\, \\) . \u003c/p\u003e\n\u003cp\u003e(iii) Show that \\( T\\, \\) is one-to-one but not onto. Find the range space of \\( T\\, \\) . \u003c/p\u003e",
-      "uuid": "b2b13080-1896-49c4-8c99-31d8c1af6ae1",
+      "authorSolution": " \\(50\\) ,  \\(750\\) ,  \\(15000\\) ",
+      "uuid": "2c824d03-1d5d-4e21-bd63-daaedb49bf78",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165255,
+      "creatorUserId": "",
+      "createdAt": 1437419361936,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( T:C[0,1]\\to C[0,1]\\, \\) be defined by",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/b2b13080-1896-49c4-8c99-31d8c1af6ae1",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA11",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Maclaurin Polynomials",
+      "body": " Find  \\(e^{1/5}\\)  with an error of less than  \\(10^{-5}\\) .   Express your answer as a sum of fractions in lowest terms.   Answer:  \\(1 + \\dfrac15 + \\dfrac1a + \\dfrac1b + \\dfrac1c\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d____, and  \\(c\\) \u003d______.",
+      "allAnswers": [],
+      "tags": "approximation by polynomials, Taylor polynomials ,Maclaurin polynomials ,Lagrange form for the remainder (error term)",
+      "url": "/practice-problem/2c824d03-1d5d-4e21-bd63-daaedb49bf78",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "798dc7c9-cc0d-411e-929d-55038ad7464b"
     },
     {
-      "authorSolution": "\u003cp\u003eProve that the dual space of \\( l^{1}\\, \\) is \\( l^{\\infty }\\, \\) . \u003c/p\u003e",
-      "uuid": "9e5fbd44-b6e7-4cf7-a111-65470365bc35",
+      "authorSolution": " \\(336\\) ",
+      "uuid": "e320df46-b521-49e5-82f4-de2b3807d739",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165262,
+      "creatorUserId": "",
+      "createdAt": 1437419361936,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Prove that the dual space of \\( l^{1}\\, \\) is \\( l^{\\infty }\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/9e5fbd44-b6e7-4cf7-a111-65470365bc35",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA12",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Lagrange Form For The Remainder (error Term) Practice",
+      "body": " Let  \\(f(x)\u003dx^3\\sin x\\) .    Then  \\(f^{(8)}(0)\\)  \u003d ______.",
+      "allAnswers": [],
+      "tags": "approximation by polynomials, Taylor polynomials ,Maclaurin polynomials ,Lagrange form for the remainder (error term)",
+      "url": "/practice-problem/e320df46-b521-49e5-82f4-de2b3807d739",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "798dc7c9-cc0d-411e-929d-55038ad7464b"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( T_{n},T\\in B(X,Y)\\, \\) such that \\( ||T_{n}-T||\\to 0\\, \\) . Show that \\( T_{n}x\\to Tx\\, \\) for every \\( x\\in H\\, \\) . \u003c/p\u003e",
-      "uuid": "38e6933b-a134-4168-ac69-144d23a4485e",
+      "authorSolution": " \\(3k - 1\\) ",
+      "uuid": "29e5a5a3-beba-40db-9e0d-350736d5929f",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165268,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( T_{n},T\\in B(X,Y)\\, \\) such that \\( ||T_{n}-T||\\to 0\\, \\) . Show that \\( T_{n}x\\to Tx\\, \\) for every \\( x\\in H\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/38e6933b-a134-4168-ac69-144d23a4485e",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA13",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Sequences Of Real Numbers",
+      "body": " Let  \\(\\bigl(a_k\\bigr)_{k\u003d1}^\\infty\\)  be the sequence whose first few terms are  \\(\\frac12, \\frac15, \\frac18, \\frac1{11}, \\frac1{14}, \\frac1{17}, \\dots\\) .    Then an explicit formula for  \\(a_k\\)  which works for all values of  \\(k\\)  is  \\(a_k\u003d(b(k))^{-1}\\)  where  \\(b(k)\\) \u003d______.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/29e5a5a3-beba-40db-9e0d-350736d5929f",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( X\u003dl^{2}\\, \\) and \\( e_{n}\u003d(0,..,0,1,0,...)\\, \\) where 1 is in the \\( n\\, \\) th position. Define \\( T_{n}x\u003d\\xi _{n}\\, \\) for \\( x\u003d(\\xi _{j})\\in l^{2}\\, \\) . Show that \\( T_{n}x\\to 0\\, \\) for each \\( x\\, \\) , but \\( ||T_{n}-0||\\not \\to 0\\, \\) . \u003c/p\u003e",
-      "uuid": "b0e72bfb-6830-4946-b6a4-2c8f598d0fe2",
+      "authorSolution": " \\(\\dfrac1{2n+1}\\) ",
+      "uuid": "d3ec172a-a0b7-44f3-b74e-64bcf3f207e3",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165275,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( X\u003dl^{2}\\, \\) and \\( e_{n}\u003d(0,..,0,1,0,...)\\, \\) where 1 is in the \\( n\\, \\) th position. Define \\( T_{n}x\u003d\\xi _{n}\\, \\) for \\( x\u003d(\\xi _{j})\\in l^{2}\\, \\) . Show that \\( T_{n}x\\to 0\\, \\) for each \\( x\\, \\) , but \\( ||T_{n}-0||\\not \\to 0\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/b0e72bfb-6830-4946-b6a4-2c8f598d0fe2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA14",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Monotone (increasing And Decreasing) Sequences",
+      "body": " Find the  \\(n^{\\text{th}}\\)  term of the sequence  \\((\\frac13, \\frac15, \\frac17, \\frac19, \\dots)\\) .    Answer:  \\(a_n \u003d\\)  _________.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/d3ec172a-a0b7-44f3-b74e-64bcf3f207e3",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( T:X\\to Y\\, \\) be a bounded linear operator. Show that \\( T^{{-1}}\\, \\) exists and is bounded if and only if there exists \\( K\u0026gt;0\\, \\) such that \\( ||Tx||\\geq K||x||\\, \\) for every \\( x\\in X\\, \\) . \u003c/p\u003e",
-      "uuid": "87cf16c5-8b25-4363-bfca-de5754fd16a3",
+      "authorSolution": " \\(5\\) ,  \\(1\\) ",
+      "uuid": "bf75383b-d8cb-4229-b385-1f5788739a99",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165282,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( T:X\\to Y\\, \\) be a bounded linear operator. Show that \\( T^{{-1}}\\, \\) exists and is bounded if and only if there exists \\( K\u0026gt;0\\, \\) such that \\( ||Tx||\\geq K||x||\\, \\) for every \\( x\\in X\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/87cf16c5-8b25-4363-bfca-de5754fd16a3",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA15",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Bounded Sequences",
+      "body": " Find the  \\(n^{\\text{th}}\\)  term of the sequence  \\((1,5,1,5,1,\\dots)\\) .   Answer:  \\(a_{2n}\u003d\\) ___ and  \\(a_{2n-1}\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/bf75383b-d8cb-4229-b385-1f5788739a99",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( X\\, \\) be a normed space and \\( x,y\\in X\\, \\) . Prove that if \\( f(x)\u003df(y)\\, \\) for every bounded linear functional \\( f\\, \\) on \\( X\\, \\) , then \\( x\u003dy\\, \\) . \u003c/p\u003e",
-      "uuid": "79b08875-7710-463a-a4c5-fc8f1833d101",
+      "authorSolution": "decreasing, is",
+      "uuid": "3944806d-a73e-4ae5-b35c-0e6ae50a89b6",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165289,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( X\\, \\) be a normed space and \\( x,y\\in X\\, \\) . Prove that if \\( f(x)\u003df(y)\\, \\) for every bounded linear functional \\( f\\, \\) on \\( X\\, \\) , then \\( x\u003dy\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/79b08875-7710-463a-a4c5-fc8f1833d101",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA16",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Monotone (increasing And Decreasing) Sequences Question",
+      "body": " Let  \\(a_n \u003d \\dfrac2{3n + 1}\\)  for every  \\(n \\in \\N\\) .    Then the sequence  \\((a_n)\\)  \\noindent is _______________ (increasing/decreasing/not monotone) \\noindent and ________ (is/is not) bounded.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/3944806d-a73e-4ae5-b35c-0e6ae50a89b6",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( Y\\, \\) be a closed subspace of a normed space \\( X\\, \\) . Let \\( x_{0}\\in X\\, \\) but not in \\( Y\\, \\) . Use the \u003ca rel\u003d\"nofollow\"\u003eHahn-Banach Theorem\u003c/a\u003e to prove that there exists a bounded linear functional \\( {\\hat {f}}\\, \\) on \\( X\\, \\) such that \u003c/p\u003e\n\u003cp\u003e(a) \\( {\\hat {f}}(y)\u003d0\\, \\) for every \\( y\\in Y\\, \\) \u003c/p\u003e\n\u003cp\u003e(b) \\( ||{\\hat {f}}||\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003e(c) \\( {\\hat {f}}(x_{0})\u003dd(x_{0},Y)\\, \\) \u003c/p\u003e",
-      "uuid": "3edd584c-e9b4-43a2-8128-17bc26854b22",
+      "authorSolution": "decreasing, is",
+      "uuid": "802d1067-cd26-4d19-a345-67c5df166947",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165297,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( Y\\, \\) be a closed subspace of a normed space \\( X\\, \\) . Let \\( x_{0}\\in X\\, \\) but not in \\( Y\\, \\) . Use the",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/3edd584c-e9b4-43a2-8128-17bc26854b22",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA17",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Convergence Of Sequences",
+      "body": " Let  \\(a_n \u003d \\dfrac {n^2+2}{n^2+1}\\)  for every  \\(n \\in \\N\\) .    Then the sequence  \\((a_n)\\)  \\noindent is _______________ (increasing/decreasing/not monotone) \\noindent and ________ (is/is not) bounded.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/802d1067-cd26-4d19-a345-67c5df166947",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     },
     {
-      "authorSolution": "\u003cp\u003eLet \\( T\\, \\) be a bounded linear operator from a normed space \\( X\\, \\) to a normed space \\( Y\\, \\) , and its norm be defined by \u003c/p\u003e  \\( ||T||\u003d{\\mathrm {sup}}\\left\\{||Tx||:x\\in X,||x||\\leq 1\\right\\}\\, \\)  \n\u003cp\u003eShow that \\( ||T||\u003d{\\mathrm {sup}}\\left\\{||Tx||:x\\in X,||x||\u003d1\\right\\}\\, \\) . \u003c/p\u003e",
-      "uuid": "88ed876e-ea3a-4d99-9cfc-662c0693aa3a",
+      "authorSolution": "decreasing, is",
+      "uuid": "4eb26d0b-973c-4634-8a73-5d18dfcc17eb",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165305,
+      "creatorUserId": "",
+      "createdAt": 1437419361940,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( T\\, \\) be a bounded linear operator from a normed space \\( X\\, \\) to a normed space \\( Y\\, \\) , and its norm be defined by",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/88ed876e-ea3a-4d99-9cfc-662c0693aa3a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA18",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eLet \\( X\\, \\) and \\( Y\\, \\) be two normed spaces and \\( T\\, \\) be a linear mapping from \\( X\\, \\) to \\( Y\\, \\) . Show that if \\( T\\, \\) is continuous, then the null space \\( N(T)\\, \\) is a closed subspace of \\( X\\, \\) . Give an example showing that the closedness of \\( N(T)\\, \\) does not imply the continuity of \\( T\\, \\) . \u003c/p\u003e",
-      "uuid": "4f19b62d-8e69-426b-8983-5712dc2460f7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165312,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( X\\, \\) and \\( Y\\, \\) be two normed spaces and \\( T\\, \\) be a linear mapping from \\( X\\, \\) to \\( Y\\, \\) . Show that if \\( T\\, \\) is continuous, then the null space \\( N(T)\\, \\) is a",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/4f19b62d-8e69-426b-8983-5712dc2460f7",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA19",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eState the Hahn-Banach Extension theorem for bounded linear functionals on normed spaces. \u003c/p\u003e",
-      "uuid": "8a3fe051-8c9c-42dd-aa7f-91b760e32367",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165318,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "State the Hahn-Banach Extension theorem for bounded linear functionals on normed spaces.",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/8a3fe051-8c9c-42dd-aa7f-91b760e32367",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA20",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eLet \\( X\\, \\) be a normed space. Use the Hahn-Banach Extension to prove that for every \\( x\\in X\\, \\) , there exists a bounded linear functional \\( f\\, \\) on \\( X\\, \\) such that \\( f(x)\u003d||x||\\, \\) and \\( ||f||\u003d1\\, \\) . \u003c/p\u003e",
-      "uuid": "d7cff98b-e87c-430e-afe1-278f71e3d13e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165325,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( X\\, \\) be a normed space. Use the Hahn-Banach Extension to prove that for every \\( x\\in X\\, \\) , there exists a bounded linear functional \\( f\\, \\) on \\( X\\, \\) such that \\( f(x)\u003d||x||\\, \\) and \\( ||f||\u003d1\\, \\) .",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/d7cff98b-e87c-430e-afe1-278f71e3d13e",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA21",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003e\u003cbr\u003e State the Uniform Boundedness Theorem. \u003c/p\u003e",
-      "uuid": "06a7751f-9596-425d-a533-a34cb11e1f4a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165332,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "State the Uniform Boundedness Theorem.",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/06a7751f-9596-425d-a533-a34cb11e1f4a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA22",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eLet \\( X\\, \\) and \\( Y\\, \\) be Banach spaces and \\( T_{n}\\in B(X,Y)\\, \\) . Show that the following are equivalent: \u003c/p\u003e\n\u003cp\u003e(a) \\( \\left\\{||T_{n}||\\right\\}_{{n\u003d1}}^{\\infty }\\, \\) is bounded; \u003c/p\u003e\n\u003cp\u003e(b) \\( \\left\\{||T_{n}x||\\right\\}_{{n\u003d1}}^{\\infty }\\, \\) is bounded for each \\( x\\in X\\, \\) ; \u003c/p\u003e\n\u003cp\u003e(c) \\( \\left\\{g\\left(T_{n}x\\right)||\\right\\}_{{n\u003d1}}^{\\infty }\\, \\) is bounded for all \\( x\\in X\\, \\) and all \\( g\\in Y\u0027\\, \\) . \u003c/p\u003e",
-      "uuid": "830f7d99-b8fd-4636-b197-048a57c25e1d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165339,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( X\\, \\) and \\( Y\\, \\) be Banach spaces and \\( T_{n}\\in B(X,Y)\\, \\) . Show that the following are equivalent:",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/830f7d99-b8fd-4636-b197-048a57c25e1d",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA23",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eLet \\( L^{2}[a,b]\u003d\\left\\{f:\\int _{a}^{b}\\left|f(t)\\right|^{2}dt\u0026lt;\\infty \\right\\}\\, \\) and define \\( ||f||\u003d\\left(\\int _{a}^{b}\\left|f(t)\\right|^{2}dt\\right)^{{1/2}}\\, \\) . Show that \u003c/p\u003e  \\( (Tf)(t)\u003d\\int _{a}^{b}K(s,t)f(s)ds\\, \\)  \n\u003cp\u003edefines a \u003ca rel\u003d\"nofollow\"\u003ebounded linear operator\u003c/a\u003e on \\( L^{2}[a,b]\\, \\) when \\( K(s,t)\\, \\) is a continuous function on \\( [a,b]\\times [a,b]\\, \\) . Estimate the norm of \\( T\\, \\) . \u003c/p\u003e",
-      "uuid": "0be44dee-1988-40e8-aa52-483131a6a8e3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556165347,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Functional Analysis Practice",
-      "body": "Let \\( L^{2}[a,b]\u003d\\left\\{f:\\int _{a}^{b}\\left|f(t)\\right|^{2}dt\u0026lt;\\infty \\right\\}\\, \\) and define \\( ||f||\u003d\\left(\\int _{a}^{b}\\left|f(t)\\right|^{2}dt\\right)^{{1/2}}\\, \\) . Show that",
-      "tags": "Functional Analysis,Functional,Analysis,auto-uploaded",
-      "url": "/practice-problem/0be44dee-1988-40e8-aa52-483131a6a8e3",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FA24",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Sequences Question",
+      "body": " Let  \\(a_n \u003d \\dfrac{\\sqrt{n+1}}{5n+3}\\)  for every  \\(n \\in \\N\\) .   Then the sequence  \\((a_n)\\)  \\noindent is _______________ (increasing/decreasing/not monotone) \\noindent and ________ (is/is not) bounded.",
+      "allAnswers": [],
+      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
+      "url": "/practice-problem/4eb26d0b-973c-4634-8a73-5d18dfcc17eb",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3b1783f9-347f-4a33-b4d6-239bde9daf3d"
     }
   ],
   "questions": [
-    {
-      "uuid": "2a494585-991a-497e-9d37-8eb3471f0402",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inverses of Functions",
-      "body": "The loudness d (in decibels) is given by the equation d(t) \u003d 10 \\(\\cdot\\) \\(\\log_{10} \\frac{I}{I_{0}\\) where t is the given intensity and I\\(_{0}\\) is the threshold sound (the quietest detectable intensity). Determine d\\(^{-1}\\)(85) in terms of the threshold sound.",
-      "allAnswers": [],
-      "tags": "inverse function, function, intensity",
-      "url": "/question/2a494585-991a-497e-9d37-8eb3471f0402",
-      "source": "Mooculus 0.2.7",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Functions/Function Composition"
-    },
-    {
-      "uuid": "4ed4e0cb-f959-4fe4-bc7c-90f2dcd38e12",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Mass in a Non-Constant Manner",
-      "body": "A cylindrical tank, buried on its side, has radius 3 feet and length 10 feet.  It is filled completely with water whose weight density is 62.4 lbs/ft\\(^3\\), and the top of the tank is two feet underground.\n\na. Set up, but do not evaluate, an integral expression that represents the amount of work required to empty the top half of the water in the tank to a truck whose tank lies 4.5 feet above ground.\nb. With the tank now only half-full, set up, but do not evaluate an integral expression that represents the total force due to hydrostatic pressure against one end of the tank.",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, integrals, area, length, antiderivatives",
-      "url": "/question/4ed4e0cb-f959-4fe4-bc7c-90f2dcd38e12",
-      "source": "Active Calc 6.4.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "591ce4ae-018b-4be1-8c63-1cc062be06f7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inverses of Functions",
-      "body": "What is the difference in meaning between f\\(^{-1}\\)(x) and f(x)\\(^{-1}\\)?",
-      "allAnswers": [],
-      "tags": "inverse of function, function, inverse",
-      "url": "/question/591ce4ae-018b-4be1-8c63-1cc062be06f7",
-      "source": "Mooculus 0.2.8",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Functions/Function Composition"
-    },
-    {
-      "uuid": "75956369-c9bf-4d1a-b9e7-78814b9f2273",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inverses of Functions",
-      "body": "Sort the following expressions into two equivalent groups:\n\\(\\sin^{2}\\)x, \\(\\sin(x)^{2}\\), (\\(\\sinx)^{2}\\), \\(\\sin(x^{2}\\)), \\(\\sinx^{2}\\), (\\(\\sinx)(\\sinx)\\)",
-      "allAnswers": [],
-      "tags": "inverse function, function, sine, sine function",
-      "url": "/question/75956369-c9bf-4d1a-b9e7-78814b9f2273",
-      "source": "Mooculus 0.2.9",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Functions/Function Composition"
-    },
-    {
-      "uuid": "75a63465-beb5-4187-af38-516172b6d4d1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inverses of Functions",
-      "body": "Sort the following expressions into two equivalent groups: \n\\(\\arcsin\\)(x), (\\(\\sin\\)x)\\(^{-1}\\), \\(\\sin^{-1}\\)x, \\(\\frac{1}{\\sinx}\\)",
-      "allAnswers": [],
-      "tags": "function, inverse function, arcsine",
-      "url": "/question/75a63465-beb5-4187-af38-516172b6d4d1",
-      "source": "Mooculus 0.2.10",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Function/Definition of Inverse Function/Invertible"
-    },
-    {
-      "uuid": "c7e42f82-6868-425f-afb7-1f0a974f46a3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inverses of Functions",
-      "body": "Is \\(\\sqrt{x^{2}}\\) \u003d \\(\\sqrt[3]{x^{3}}\\)? Explain your reasoning.",
-      "allAnswers": [],
-      "tags": "inverse functions, function",
-      "url": "/question/c7e42f82-6868-425f-afb7-1f0a974f46a3",
-      "source": "Mooculus 0.2.11",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Functions/Function Composition"
-    },
-    {
-      "uuid": "f74fbd7a-8096-4486-b527-8a51de28b9d8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine Whether the Integral Converges or Diverges",
-      "body": "\\(\\ds \\int_e^{\\infty} \\frac{\\ln(x)}{x} \\, dx\\)",
-      "allAnswers": [],
-      "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
-      "url": "/question/f74fbd7a-8096-4486-b527-8a51de28b9d8",
-      "source": "Active Calc 6.5.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "14f21c09-c7ed-4849-ab81-f45fa2b488e3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine Whether the Integral Converges or Diverges",
-      "body": "\\(\\ds \\int_e^{\\infty} \\frac{1}{x\\ln(x)} \\, dx\\)",
-      "allAnswers": [],
-      "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
-      "url": "/question/14f21c09-c7ed-4849-ab81-f45fa2b488e3",
-      "source": "Active Calc 6.5.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "33abcc10-66b6-454f-91e4-3c8d3c6f7ede",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Basic Ideas of Limits",
-      "body": "Evaluate the expressions by referencing the plot in the figure\na. \\(\\lim_{x \\rightarrow 4}\\)f(x)\nb. \\(\\lim_{x \\rightarrow 3}\\)f(x)\nc. \\(\\lim_{x \\rightarrow 0}\\)f(x)\nd. \\(\\lim_{x \\rightarrow 0^{-}}\\)f(x)\ne. \\(\\lim_{x \\rightarrow 0^{+}}\\)f(x)\nf. f(-2)\ng. \\(\\lim_{x \\rightarrow 2^{-}}\\)f(x)\nh. \\(\\lim_{x \\rightarrow 2^{-}}\\)f(x)\ni.\\(\\lim_{x \\rightarrow 0}\\)f(x+1)\nj. f(0)\nk. \\(\\lim_{x \\rightarrow 1^{-1}}\\)f(x-4)\nl. \\(\\lim_{x \\rightarrow 0^{+}}\\)f(x-2)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20422.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits, basic limits, plot",
-      "url": "/question/33abcc10-66b6-454f-91e4-3c8d3c6f7ede",
-      "source": "Mooculus 1.1.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "ba06ff76-4cc4-4e5c-8631-cd4f01e39f22",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine Whether the Integral Converges or Diverges",
-      "body": "\\(\\ds \\int_e^{\\infty} \\frac{1}{x(\\ln(x))^2} \\, dx\\)",
-      "allAnswers": [],
-      "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
-      "url": "/question/ba06ff76-4cc4-4e5c-8631-cd4f01e39f22",
-      "source": "Active Calc 6.5.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "9f84e336-7a4a-4b41-8537-3e0c957d54f0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine Whether the Integral Converges or Diverges",
-      "body": "\\(\\ds \\int_e^{\\infty} \\frac{1}{x(\\ln(x))^p} \\, dx\\), where \\(p\\) is a positive real number",
-      "allAnswers": [],
-      "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
-      "url": "/question/9f84e336-7a4a-4b41-8537-3e0c957d54f0",
-      "source": "Active Calc 6.5.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "8fb826b7-cbf3-4fe7-a0c2-ea72ea3c519a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787591,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine Whether the Integral Converges or Diverges",
-      "body": "\\(\\ds \\int_0^1 \\frac{\\ln(x)}{x} \\, dx\\)",
-      "allAnswers": [],
-      "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
-      "url": "/question/8fb826b7-cbf3-4fe7-a0c2-ea72ea3c519a",
-      "source": "Active Calc 6.5.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
     {
       "uuid": "19334c3c-a7fa-457f-88c2-fb32c7c8f65f",
       "contentType": "question",
@@ -494,7 +198,7 @@
       "tags": "limit, estimating limits",
       "url": "/question/19334c3c-a7fa-457f-88c2-fb32c7c8f65f",
       "source": "Mooculus 1.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "adc605c7-a327-4d64-aacd-a640c7c0b17e",
@@ -511,7 +215,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/adc605c7-a327-4d64-aacd-a640c7c0b17e",
       "source": "Active Calc 6.5.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "a0855ac4-238c-49d7-93b2-4d08a86a051d",
@@ -528,7 +232,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/a0855ac4-238c-49d7-93b2-4d08a86a051d",
       "source": "Mooculus 1.1.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "88f19015-4c91-4a3e-a805-df39b6a503ee",
@@ -545,7 +249,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/88f19015-4c91-4a3e-a805-df39b6a503ee",
       "source": "Mooculus 1.1.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ea44b7d7-5f95-4797-b50f-7d98abb2e37c",
@@ -562,7 +266,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/ea44b7d7-5f95-4797-b50f-7d98abb2e37c",
       "source": "Active Calc 6.5.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "6f4046a1-2463-4101-9f6d-355cb7140559",
@@ -579,7 +283,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/6f4046a1-2463-4101-9f6d-355cb7140559",
       "source": "Mooculus 1.1.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "43863f06-7015-41fd-abf3-029a24176408",
@@ -596,7 +300,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/43863f06-7015-41fd-abf3-029a24176408",
       "source": "Active Calc 6.5.8",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "266c0e52-b65e-4b27-8dd2-fe4c6d400882",
@@ -613,7 +317,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/266c0e52-b65e-4b27-8dd2-fe4c6d400882",
       "source": "Mooculus 1.1.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f9f64f66-9c4a-450c-85c9-a115ceaab746",
@@ -630,7 +334,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges",
       "url": "/question/f9f64f66-9c4a-450c-85c9-a115ceaab746",
       "source": "Active Calc 6.5.9",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "2750a2e1-b681-46ea-bf50-5c5a2a641adc",
@@ -647,7 +351,7 @@
       "tags": "limits, estimating limits",
       "url": "/question/2750a2e1-b681-46ea-bf50-5c5a2a641adc",
       "source": "Mooculus 1.1.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "8e75d640-1b02-4d0c-a4cd-a065e20f4dc2",
@@ -664,7 +368,7 @@
       "tags": "limit, sketch, plot",
       "url": "/question/8e75d640-1b02-4d0c-a4cd-a065e20f4dc2",
       "source": "Mooculus 1.1.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a7178c3a-ff47-4212-867b-c0fb74d319f9",
@@ -676,12 +380,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Basic Ideas of Limits",
-      "body": "Let f(x) \u003d \\(\\sin (\\frac{\\pi}{x})\\). Construct three tables of the following form where d \u003d 1,3,7. What do you notice? How do you reconcile the entries in your tables with value of \\(\\lim_{x \\rightarrow 0}\\)f(x)?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20423.png\"/\u003e",
+      "body": "Let f(x) \u003d \\(\\sin (\\frac{\\pi}{x})\\). Construct three tables of the following form where d \u003d 1,3,7. What do you notice? How do you reconcile the entries in your tables with value of \\(\\lim_{x \\rightarrow 0}\\)f(x)?\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20423.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, tables",
       "url": "/question/a7178c3a-ff47-4212-867b-c0fb74d319f9",
       "source": "Mooculus 1.1.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a7b73512-6185-4cdb-97f2-7fcb7da574de",
@@ -698,7 +402,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges, probability",
       "url": "/question/a7b73512-6185-4cdb-97f2-7fcb7da574de",
       "source": "Active Calc 6.6.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "fef86776-ac2a-4784-8793-86e5a985cb0e",
@@ -715,7 +419,7 @@
       "tags": "limits, word problem, velocity",
       "url": "/question/fef86776-ac2a-4784-8793-86e5a985cb0e",
       "source": "Mooculus 1.1.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "1381a4d1-1faa-419d-b6d4-c3d3b2a29660",
@@ -732,7 +436,7 @@
       "tags": "definite, improper, integrals, area, length, antiderivatives, converges, diverges, probability",
       "url": "/question/1381a4d1-1faa-419d-b6d4-c3d3b2a29660",
       "source": "Mooculus 6.6.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "0709481d-3733-4e08-812b-257cf9c4451e",
@@ -749,7 +453,7 @@
       "tags": "limits, finding limits",
       "url": "/question/0709481d-3733-4e08-812b-257cf9c4451e",
       "source": "Mooculus 1.2.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "1e1ebc28-5fea-4f70-98b0-493c15449eb8",
@@ -766,7 +470,7 @@
       "tags": "limits, definition of limits, real numbers",
       "url": "/question/1e1ebc28-5fea-4f70-98b0-493c15449eb8",
       "source": "Mooculus 1.2.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f0d76d82-b074-47dc-8d3c-cc6c321cd0f1",
@@ -783,7 +487,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change",
       "url": "/question/f0d76d82-b074-47dc-8d3c-cc6c321cd0f1",
       "source": "Mooculus 7.1.1",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "95359c40-c847-4d43-8a85-f4937391bb10",
@@ -800,7 +504,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/95359c40-c847-4d43-8a85-f4937391bb10",
       "source": "Mooculus 1.2.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "fe80a3be-ecde-4bc2-b32b-c689e4ab6dac",
@@ -817,7 +521,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/fe80a3be-ecde-4bc2-b32b-c689e4ab6dac",
       "source": "Mooculus 1.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a503c832-c572-4da8-8464-f82767866a00",
@@ -834,7 +538,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/a503c832-c572-4da8-8464-f82767866a00",
       "source": "Mooculus 1.2.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "5f957064-2a82-408d-8604-12bd1b181599",
@@ -851,7 +555,7 @@
       "tags": "differential equations, derivatives, differentiation, initial value, rate of change",
       "url": "/question/5f957064-2a82-408d-8604-12bd1b181599",
       "source": "Mooculus 7.1.2",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "71540cfc-8479-4c22-8a4f-4a38ef2488a0",
@@ -868,7 +572,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/71540cfc-8479-4c22-8a4f-4a38ef2488a0",
       "source": "Mooculus 1.2.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "73a9e809-2d5a-4816-85c8-675bb8bbea51",
@@ -885,7 +589,7 @@
       "tags": "limits, definition of limits",
       "url": "/question/73a9e809-2d5a-4816-85c8-675bb8bbea51",
       "source": "Mooculus 1.2.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d0371a2e-3339-41d2-8cc2-89b6cfee955a",
@@ -902,7 +606,211 @@
       "tags": "limits, definition of limits",
       "url": "/question/d0371a2e-3339-41d2-8cc2-89b6cfee955a",
       "source": "Mooculus 1.2.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "9259ebac-b951-4eef-9f83-c0b2443d7e11",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits by the Definition",
+      "body": "Use the definition of limits to explain why  \\(\\lim_{x \\rightarrow 9}\\)\\(\\frac{x-9}{\\sqrt{x}-3}\\) \u003d 6.",
+      "allAnswers": [],
+      "tags": "limits, definition of limits",
+      "url": "/question/9259ebac-b951-4eef-9f83-c0b2443d7e11",
+      "source": "Mooculus 1.2.9",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "a07b80a6-96f2-4789-aab7-2a5669387e0f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits by the Definition",
+      "body": "Use the definition of limits to explain why  \\(\\lim_{x \\rightarrow 2}\\)\\(\\frac{1}{x}\\) \u003d \\(\\frac{1}{2}\\).",
+      "allAnswers": [],
+      "tags": "limits, definition of limits",
+      "url": "/question/a07b80a6-96f2-4789-aab7-2a5669387e0f",
+      "source": "Mooculus 1.2.10",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "96e980d6-6f01-4eaa-9c84-291746be537c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketching Differential Equations",
+      "body": "Consider the differential equation \\(\\frac{dy}{dt} \u003d t-y\\).\n\na. Sketch a slope field.\nb. Sketch the solutions whose initial values are \\(y(0)\u003d -4, -3, \\ldots, 4\\).\nc. What do your sketches suggest is the solution whose initial value is \\(y(0) \u003d -1\\)?  Verify that this is indeed the solution to this initial value problem.\nd. By considering the differential equation and the graphs you have sketched, what is the relationship between $t$ and $y$ at a point where a solution has a local minimum?",
+      "allAnswers": [],
+      "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
+      "url": "/question/96e980d6-6f01-4eaa-9c84-291746be537c",
+      "source": "Mooculus 7.2.1",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "f1f13ef5-d86d-4074-9aba-d1505ab1ed60",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 3} \\frac{x^{2}+x-12}{x-3}\\)",
+      "allAnswers": [],
+      "tags": "limits, limit laws",
+      "url": "/question/f1f13ef5-d86d-4074-9aba-d1505ab1ed60",
+      "source": "Mooculus 1.3.1",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "acdd9052-d719-4ead-857c-c01722207887",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 1} \\frac{x^{2}+x-12}{x-3}\\)",
+      "allAnswers": [],
+      "tags": "limits, limit laws",
+      "url": "/question/acdd9052-d719-4ead-857c-c01722207887",
+      "source": "Mooculus 1.3.2",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "f36b4444-787c-4923-8dde-731059eb3032",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow -4} \\frac{x^{2}+x-12}{x-3}\\)",
+      "allAnswers": [],
+      "tags": "limits, limit laws",
+      "url": "/question/f36b4444-787c-4923-8dde-731059eb3032",
+      "source": "Mooculus 1.3.3",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "9f9853a7-cc4d-4713-b5b6-28d4d62b210e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketching Differential Equations",
+      "body": "The population of a species of fish in a lake is \\(P(t)\\) where \\(P\\) is measured in thousands of fish and \\(t\\) is measured in months.  The growth of the population is described by the differential equation \\(\\frac{dP}{dt} \u003d f(P) \u003d P(6-P)\\).\n\na. Sketch a graph of \\(f(P) \u003d P(6-P)\\) and use it to determine the equilibrium solutions and whether they are stable or unstable. Write a complete sentence that describes the long-term behavior of the fish population.\nb. Suppose now that the owners of the lake allow fishers toremove 1000 fish from the lake every month (remember that \\(P(t)\\) is measured in thousands of fish.  Modify the differential equation to take this into account.  Sketch the new graph of \\(dP/dt\\) versus \\(P\\).  Determine the new equilibrium solutions and decide whether they are stable or unstable. \nc. Given the situation in part (b), give a description of the long-term behavior of the fish population.\nd. Suppose that fishermen remove \\(h\\) thousand fish per month. How is the differential equation modified? \ne. What is the largest number of fish that can be removed per month without eliminating the fish population?  If fish are removed at this maximum rate, what is the eventual population of fish?",
+      "allAnswers": [],
+      "tags": "differential equations, derivatives, differentiation, initial value, rate of change, equilibrium solution, slope field",
+      "url": "/question/9f9853a7-cc4d-4713-b5b6-28d4d62b210e",
+      "source": "Mooculus 7.2.2",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "81e837e0-6593-4b64-82ad-e89d19b98d0e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 2} \\frac{x^{2}+x-12}{x-2}\\)",
+      "allAnswers": [],
+      "tags": "limits, limit laws",
+      "url": "/question/81e837e0-6593-4b64-82ad-e89d19b98d0e",
+      "source": "Mooculus 1.3.4",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "0161ab68-d879-4d69-a51c-4756b50600e6",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 1} \\frac{\\sqrt{x+8}-3}{x-1}\\)",
+      "allAnswers": [],
+      "tags": "limits, limit laws",
+      "url": "/question/0161ab68-d879-4d69-a51c-4756b50600e6",
+      "source": "Mooculus 1.3.5",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "43054ade-cd47-485d-95ba-d1d539db9b07",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 0^{+}} \\sqrt{\\frac{1}{x}+2}-\\sqrt{\\frac{1}{x}}\\)",
+      "allAnswers": [],
+      "tags": "limits, limit laws",
+      "url": "/question/43054ade-cd47-485d-95ba-d1d539db9b07",
+      "source": "Mooculus 1.3.6",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "4be0a287-03a3-429a-94fa-802f8d3caf08",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 2} 3\\)",
+      "allAnswers": [],
+      "tags": "limit, limit laws",
+      "url": "/question/4be0a287-03a3-429a-94fa-802f8d3caf08",
+      "source": "Mooculus 1.3.7",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "84d7b94c-84d9-4543-94a7-9dd3fed9cfa3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787591,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limit Laws",
+      "body": "\\(\\lim_{x \\rightarrow 0} \\frac{4x-5x^{2}}{x-1}\\)",
+      "allAnswers": [],
+      "tags": "limit, limit laws",
+      "url": "/question/84d7b94c-84d9-4543-94a7-9dd3fed9cfa3",
+      "source": "Mooculus 1.3.8",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     }
   ],
   "textContent": [
@@ -921,7 +829,7 @@
       "tags": "chain rule, derivatives, trigonometric derivatives, derivative ",
       "url": "/text-content/78cfe13f-2f05-4b0c-96b6-5af9ec77ad5d",
       "source": "Forgotten Text 4 4.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Chain Rule"
+      "topic": "88bd01b1-8c5e-40e7-90e6-d1c467c8eefe"
     },
     {
       "uuid": "e46af15e-2dd7-4161-ae81-76d6caa59884",
@@ -938,9 +846,79 @@
       "tags": "product rule, quotient rule, trigonometric rules, derivatives ",
       "url": "/text-content/e46af15e-2dd7-4161-ae81-76d6caa59884",
       "source": "Forgotten Text 4 4.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Product Quotient Rule"
+      "topic": "fc8ace12-00d1-4efc-b84c-20091ee0e055"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "0616bb18-11a3-4589-90c3-f6bec1e0098d",
+      "subTopics": [],
+      "parentTopics": [
+        "3ece6a2f-95ed-4d2f-a2d0-405a80304e40"
+      ],
+      "title": "Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " inverse trigonometric functions, implicit functions , inverse functions,functions,",
+      "difficulty": 368000,
+      "contentUuids": [
+        "ae3bb2db-16fe-47d1-827d-0d52c14bd49e"
+      ]
+    },
+    {
+      "uuid": "ea4e6a49-8bdf-43a5-9c01-700bec4162d8",
+      "subTopics": [
+        "f1421085-9531-43a6-a900-5944b422a7f4",
+        "49e011a6-a49b-4ccb-8b07-e86b1e9acb16"
+      ],
+      "parentTopics": [
+        "412ce51e-93d1-437c-9dad-c9e840622cc8"
+      ],
+      "title": "Parametric Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " standard basis vectors , basis,vectors, parametric equations,",
+      "difficulty": 736000,
+      "contentUuids": [
+        "c8f9917c-13db-40e4-aea1-b96c9f73320e"
+      ]
+    },
+    {
+      "uuid": "3f279473-3f3b-4716-93d7-52e1956f36b5",
+      "subTopics": [],
+      "parentTopics": [
+        "17122c43-f335-49b0-bd9d-e93b03a1f691"
+      ],
+      "title": "Factorials",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "the binomial theorem, factorial, pascals triangle, binomial theorem, expanding a binomial, complex pascal triangle, complex numbers, binomial, degrees, proof,angle, combinations, right angle, word problem,angles, multi-problem, angle of triangle, triangles, induction, right triangle,",
+      "difficulty": 327000,
+      "contentUuids": [
+        "cdd2e4b3-42e6-4852-bca8-44d4bd700add",
+        "10aeb1d1-db62-463e-a585-e8dfe6ea822f",
+        "ba215d44-b16c-467a-8678-efa972742742",
+        "2dd4013a-28b1-41a9-bd32-174aab147e08",
+        "480961dd-2ab8-4921-a66b-d15c9e948c85",
+        "a0ac5b2c-074b-4f02-abca-e208b938aa46",
+        "1bb20d1e-6cff-472f-b23e-7901a49f3346",
+        "af48802b-2476-47c2-9324-7b625ef07dd8",
+        "692d39c0-079f-45d2-848a-67db66f00a9f",
+        "64758f1e-5118-41ed-b705-c0251dc21696",
+        "64812259-6865-4056-a7b8-bcba8b5aeb3e",
+        "93198bb9-d282-435b-9e8e-770fdac853ff",
+        "23e54a13-efa9-4280-9e21-5ffd63d872dc",
+        "cd026286-348a-45aa-a938-afb3727cae0b",
+        "c890ccc8-18f3-49fc-9158-a653eb23de2f",
+        "c5fb916a-f58e-4130-87e7-f0996d8cace9",
+        "80551129-ea2d-4782-baa6-d63d16636a22",
+        "9607f177-7395-4972-bc67-69804733c6ca",
+        "7f7d1a9d-23f2-4df5-8a08-8d9fd4b7492d",
+        "46d17ff7-fdec-48f6-94c2-9aed327cda25",
+        "0279d986-69b6-446c-b1f8-b980634f24ac",
+        "14a3e428-50ec-4d3a-8fef-5bc86cfd00ab"
+      ]
+    }
+  ]
 }

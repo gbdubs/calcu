@@ -2,313 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2471.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2472.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2473.png\"/\u003e",
-      "uuid": "1f2af9ab-394a-484c-8c2f-1e75573997ec",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3248.png\"/\u003e",
+      "uuid": "f245472e-5250-4f23-bd69-e3475626e08c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sketch a detailed graph of rational funciton",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2470.png\"/\u003e",
+      "title": "Complete the graph ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3245.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, graphing rational functions, simplify expression, simplify rational function ",
-      "url": "/practice-problem/1f2af9ab-394a-484c-8c2f-1e75573997ec",
-      "source": "null 4.2.1"
+      "tags": "Relations and Functions, functions, graphing functions, graphs, domain, range ",
+      "url": "/practice-problem/f245472e-5250-4f23-bd69-e3475626e08c",
+      "source": "null 1.7.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2475.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2476.png\"/\u003e",
-      "uuid": "de82def5-e8af-4065-a4ae-3b51906e2e1c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3250.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3251.png\"/\u003e",
+      "uuid": "fd96e4e5-fecb-4362-b743-61820426b3ce",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sketch a graph of rational function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2474.png\"/\u003e",
+      "title": "Transformations",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3249.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, graphing rational functions, behavior of graphs ",
-      "url": "/practice-problem/de82def5-e8af-4065-a4ae-3b51906e2e1c",
-      "source": "null 4.2.2"
+      "tags": "Relations and Functions, functions, transformations ",
+      "url": "/practice-problem/fd96e4e5-fecb-4362-b743-61820426b3ce",
+      "source": "null 1.7.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2482.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2483.png\"/\u003e",
-      "uuid": "a58c9057-1c8c-477c-b710-fe349b67df02",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3328.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3329.png\"/\u003e",
+      "uuid": "62104bfc-985a-4ea7-a44c-8da5cb18edbc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Weeding the garden on Carl\u0027s own ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2481.png\"/\u003e",
+      "title": "Graph the following functions, find slope and intercept",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3319.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, rational inequalities, ratio, logic ",
-      "url": "/practice-problem/a58c9057-1c8c-477c-b710-fe349b67df02",
-      "source": "null 4.3.1"
+      "tags": "slope-intercept form, slope, y-intercept, linear functions ",
+      "url": "/practice-problem/62104bfc-985a-4ea7-a44c-8da5cb18edbc",
+      "source": "null 2.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2486.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2487.png\"/\u003e",
-      "uuid": "1e971ca4-3e95-4920-947c-f95ee83c4696",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3256.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3257.png\"/\u003e",
+      "uuid": "1d8e374b-edda-4bec-aa95-068014d0065d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Average Cost Function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2484.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2485.png\"/\u003e",
+      "title": "Cost of game systems",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3255.png\"/\u003e",
       "allAnswers": [],
-      "tags": "average cost function, interpret inequality, rational inequalities, applications of rational functions ",
-      "url": "/practice-problem/1e971ca4-3e95-4920-947c-f95ee83c4696",
-      "source": "null 4.3.2"
+      "tags": "linear functions, slope, intercepts ",
+      "url": "/practice-problem/1d8e374b-edda-4bec-aa95-068014d0065d",
+      "source": "null 2.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2489.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2490.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2491.png\"/\u003e",
-      "uuid": "e39bd26c-f36b-4155-a4b4-436dac4c6b83",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3259.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3260.png\"/\u003e",
+      "uuid": "c50f9f22-cdfa-4267-af63-549f07356015",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A square box question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2488.png\"/\u003e",
+      "title": "PortaBoy game system, week two",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3258.png\"/\u003e",
       "allAnswers": [],
-      "tags": "applied domain, interpret behavior, surface area, dimensions of box, rational functions, applications of rational functions ",
-      "url": "/practice-problem/e39bd26c-f36b-4155-a4b4-436dac4c6b83",
-      "source": "null 4.3.3"
+      "tags": "linear functions, domain, slope, dependent variable, independent variable ",
+      "url": "/practice-problem/c50f9f22-cdfa-4267-af63-549f07356015",
+      "source": "null 2.1.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2507.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2508.png\"/\u003e",
-      "uuid": "ce1ead42-8401-444d-9107-096dfcfcf011",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3265.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3266.png\"/\u003e",
+      "uuid": "06d4a1c0-c17f-4bab-b269-6cc12d7acaf8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Functions as a composition of two or more",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2506.png\"/\u003e",
+      "title": "Revenue from selling",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3263.png\"/\u003e",
       "allAnswers": [],
-      "tags": "functions as a composition, composition of functions, rational functions, the function composition",
-      "url": "/practice-problem/ce1ead42-8401-444d-9107-096dfcfcf011",
-      "source": "null 5.1.1"
+      "tags": "linear algebra, rate of change, slope, intercepts  ",
+      "url": "/practice-problem/06d4a1c0-c17f-4bab-b269-6cc12d7acaf8",
+      "source": "null 2.1.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2522.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2523.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2524.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2525.png\"/\u003e",
-      "uuid": "992daca4-78f8-4565-9b46-4af218f2be9a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3276.png\"/\u003e",
+      "uuid": "1c408146-6796-4366-ac5c-faf8f852d90d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Graph the following functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2521.png\"/\u003e",
+      "title": "Graph functions using transformations",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3273.png\"/\u003e",
       "allAnswers": [],
-      "tags": "one-to-one, inverse, function composition ",
-      "url": "/practice-problem/992daca4-78f8-4565-9b46-4af218f2be9a",
-      "source": "null 5.2.1"
+      "tags": "linear functions, absolute value functions, transformations, graphing functions ",
+      "url": "/practice-problem/1c408146-6796-4366-ac5c-faf8f852d90d",
+      "source": "null 2.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2528.png\"/\u003e",
-      "uuid": "98c3c5b3-6efb-4e3a-b5a1-3b3a85ba7521",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3278.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3279.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3280.png\"/\u003e",
+      "uuid": "cb107008-d99b-4b67-a6e3-4d218414f167",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "PortaBoy game system, cont.",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2526.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2527.png\"/\u003e",
+      "title": "FInd zeros of each function and intercepts",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3277.png\"/\u003e",
       "allAnswers": [],
-      "tags": "one-to-one, horizontal line test, function composition ",
-      "url": "/practice-problem/98c3c5b3-6efb-4e3a-b5a1-3b3a85ba7521",
-      "source": "null 5.2.2"
+      "tags": "linear functions, absolute value function, intercepts, domain, range, absolute extrema, relative extrema",
+      "url": "/practice-problem/cb107008-d99b-4b67-a6e3-4d218414f167",
+      "source": "null 2.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2540.png\"/\u003e",
-      "uuid": "c4b8c6b1-e019-41c9-8d99-6c23751de88d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3292.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3293.png\"/\u003e",
+      "uuid": "21f86012-2188-46ef-959b-8fe144cd00ff",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Carl wishes for high speed internet",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2538.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2539.png\"/\u003e",
+      "title": "Portably Game Systems, cont.",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3291.png\"/\u003e",
       "allAnswers": [],
-      "tags": "domain, functions, minimum cost, applied domain ",
-      "url": "/practice-problem/c4b8c6b1-e019-41c9-8d99-6c23751de88d",
-      "source": "null 5.3.1"
+      "tags": "quadratic functions, x-intercepts, y-intercepts, zeros ",
+      "url": "/practice-problem/21f86012-2188-46ef-959b-8fe144cd00ff",
+      "source": "null 2.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2552.png\"/\u003e",
-      "uuid": "f0a0652e-016e-4415-9767-1dae33a4af21",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3295.png\"/\u003e",
+      "uuid": "5279bd5f-5bb5-434c-ad48-6882e583ea7e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Simplify the following expressions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2551.png\"/\u003e",
+      "title": "Donnie\u0027s Surprise ;)",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3294.png\"/\u003e",
       "allAnswers": [],
-      "tags": "logarithm expression, exponential expression, log functions, exponential function ",
-      "url": "/practice-problem/f0a0652e-016e-4415-9767-1dae33a4af21",
-      "source": "null 6.1.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2554.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2555.png\"/\u003e",
-      "uuid": "22480b03-a3b9-41a3-bfa9-385cd01f4610",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the domain of the following functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2553.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "domain, range, log functions, exponential functions, logarithmic functions ",
-      "url": "/practice-problem/22480b03-a3b9-41a3-bfa9-385cd01f4610",
-      "source": "null 6.1.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2557.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2558.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2559.png\"/\u003e",
-      "uuid": "a8f17f95-2e71-4889-98de-411aecd9e6d6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Exponential function questions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2556.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "exponential functions, transformations, symmetry about y\u003dx, domain and range of inverse ",
-      "url": "/practice-problem/a8f17f95-2e71-4889-98de-411aecd9e6d6",
-      "source": "null 6.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2568.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2569.png\"/\u003e",
-      "uuid": "93e5c88f-f1a5-4a31-8a2c-04b077272804",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Change of base formula",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2567.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "change of base, convert bases, logarithms, logarithmic functions ",
-      "url": "/practice-problem/93e5c88f-f1a5-4a31-8a2c-04b077272804",
-      "source": "null 6.2.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2577.png\"/\u003e",
-      "uuid": "990c2fa9-da4d-4227-a36f-cbb4858c3653",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "When will the coffee be warmer than 100 degrees F, homes?",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2576.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "exponential inequality, exponential function, domain ",
-      "url": "/practice-problem/990c2fa9-da4d-4227-a36f-cbb4858c3653",
-      "source": "null 6.3.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2579.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2580.png\"/\u003e",
-      "uuid": "5018e8eb-c0b7-4b5f-a17f-dbd5ca888d22",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find a formula for f inverse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2578.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "one-to-one, exponential function, rational function ",
-      "url": "/practice-problem/5018e8eb-c0b7-4b5f-a17f-dbd5ca888d22",
-      "source": "null 6.3.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2588.png\"/\u003e",
-      "uuid": "879753c6-aad1-431a-98ba-e0acd9263419",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine the corresponding range ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2587.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "logarithmic functions, log functions, log inequalities, logarithmic inequalities ",
-      "url": "/practice-problem/879753c6-aad1-431a-98ba-e0acd9263419",
-      "source": "null 6.4.1"
+      "tags": "quadratic functions, quadratic formula, maximum area, alpaca",
+      "url": "/practice-problem/5279bd5f-5bb5-434c-ad48-6882e583ea7e",
+      "source": "null 2.3.4"
     }
   ],
   "questions": [
-    {
-      "uuid": "b9db1f1b-8ad4-4f7f-b219-db3f20c84e70",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787607,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangents and Derivatives",
-      "body": "Find the values of \\(a\\), \\(b\\), \\(c\\), and \\(d\\) such that the cubic \\(f(x)\u003dax^3+bx^2+cx+d\\) has a relative maximum at \\((2, 4)\\), a relative minimum at \\((4, 2)\\), and an inflection point at \\((3, 3)\\). ",
-      "allAnswers": [],
-      "tags": "tangent line, derivative, inflection points, extrema",
-      "url": "/question/b9db1f1b-8ad4-4f7f-b219-db3f20c84e70",
-      "source": "AP Calculus Problems 3.9.14",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
-    },
-    {
-      "uuid": "c47ee6c2-cacd-4de0-9d85-9039d7545ab2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787607,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangents and Derivatives",
-      "body": " Show that the point of inflection of \\(f(x)\u003dx(x-6)^2\\) lies midway between the relative extrema of \\(f\\).",
-      "allAnswers": [],
-      "tags": "tangent line, derivative, inflection, function, extrema",
-      "url": "/question/c47ee6c2-cacd-4de0-9d85-9039d7545ab2",
-      "source": "AP Calculus Problems 3.9.15",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
-    },
     {
       "uuid": "4176ef8e-e5eb-4a3d-9e80-dd33fd24ebcb",
       "contentType": "question",
@@ -324,7 +188,7 @@
       "tags": "derivatives, functions",
       "url": "/question/4176ef8e-e5eb-4a3d-9e80-dd33fd24ebcb",
       "source": "AP Calculus Problems 3.10.1",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "afccaa1f-7744-47c1-ba29-0f761314c613",
@@ -341,7 +205,7 @@
       "tags": "derivatives, functions",
       "url": "/question/afccaa1f-7744-47c1-ba29-0f761314c613",
       "source": "AP Calculus Problems 3.10.2",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "d1711701-ff5e-4cdd-a423-3a998a38d133",
@@ -358,7 +222,7 @@
       "tags": "derivative, function",
       "url": "/question/d1711701-ff5e-4cdd-a423-3a998a38d133",
       "source": "AP Calculus Problems 3.10.3",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "1ce75ec7-d384-4077-a3cb-a21fb2f67674",
@@ -375,7 +239,7 @@
       "tags": "graph, derivatives, concave, up, down, relative, maximum, minimum, continuous, differentiable",
       "url": "/question/1ce75ec7-d384-4077-a3cb-a21fb2f67674",
       "source": "AP Calculus Problems 3.14.14",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "ad654b55-b3ca-42da-a4ff-0b236916b8b5",
@@ -392,7 +256,7 @@
       "tags": "derivatives",
       "url": "/question/ad654b55-b3ca-42da-a4ff-0b236916b8b5",
       "source": "AP Calculus Problems 3.10.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "38ad3d20-b30a-4039-818d-372806dcbe52",
@@ -409,7 +273,7 @@
       "tags": "derivative, slope, tangent line",
       "url": "/question/38ad3d20-b30a-4039-818d-372806dcbe52",
       "source": "AP Calculus Problems 3.10.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "2a302094-bb94-40a8-9d8d-389d87884995",
@@ -426,7 +290,7 @@
       "tags": "derivative, slope, tangent line",
       "url": "/question/2a302094-bb94-40a8-9d8d-389d87884995",
       "source": "AP Calculus Problems 3.10.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "1066ef98-1203-4267-8f87-de09667ade5d",
@@ -443,7 +307,7 @@
       "tags": "slope, tangent line, derivatives",
       "url": "/question/1066ef98-1203-4267-8f87-de09667ade5d",
       "source": "AP Calculus Problems 3.10.6",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "1e0909bf-e18d-481b-90c9-f281309a44a4",
@@ -460,7 +324,7 @@
       "tags": "derivatives, function",
       "url": "/question/1e0909bf-e18d-481b-90c9-f281309a44a4",
       "source": "AP Calculus Problems 3.10.7",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "8f586352-d7ea-4c40-8c16-9c9961ab3c51",
@@ -477,7 +341,7 @@
       "tags": "derivatives",
       "url": "/question/8f586352-d7ea-4c40-8c16-9c9961ab3c51",
       "source": "AP Calculus Problems 3.10.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "7cde256c-b3f0-4584-acb5-fb5d2c4f4a91",
@@ -494,7 +358,7 @@
       "tags": "derivatives, limits",
       "url": "/question/7cde256c-b3f0-4584-acb5-fb5d2c4f4a91",
       "source": "AP Calculus Problems 3.10.9",
-      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
+      "topic": "14400885-9fb4-475c-bb71-681ee37bcd1e"
     },
     {
       "uuid": "c0432608-d8ee-497e-9009-d629e8b1e6a7",
@@ -506,12 +370,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "The graph below shows the velocity \\(v(t)\\) in meters per second of a body moving along the coordinate line.\n  \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20490.png\"/\u003e",
+      "body": "The graph below shows the velocity \\(v(t)\\) in meters per second of a body moving along the coordinate line.\n  \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20490.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "derivative, velocity, function",
       "url": "/question/c0432608-d8ee-497e-9009-d629e8b1e6a7",
       "source": "AP Calculus Problems 3.11.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
+      "topic": "1fef4c8d-4637-4b3c-8062-d53f335e6b44"
     },
     {
       "uuid": "becfb448-9b73-4a58-a619-88bfc58b9631",
@@ -523,12 +387,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "The graph below shows the velocity \\(v(t)\\) in meters per second of a body moving along the coordinate line.\n   a) When does the body reverse direction?\n   b) When is the body moving at a constant speed?\n   c) Graph the body\u0027s speed for the interval \\([0, 10]\\).\n   d) Graph the acceleration.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20490.png\"/\u003e",
+      "body": "The graph below shows the velocity \\(v(t)\\) in meters per second of a body moving along the coordinate line.\n   a) When does the body reverse direction?\n   b) When is the body moving at a constant speed?\n   c) Graph the body\u0027s speed for the interval \\([0, 10]\\).\n   d) Graph the acceleration.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20490.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "derivative, velocity, function, interval, acceleration ",
       "url": "/question/becfb448-9b73-4a58-a619-88bfc58b9631",
       "source": "AP Calculus Problems 3.11.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Velocity Function/Total Distance"
+      "topic": "1fef4c8d-4637-4b3c-8062-d53f335e6b44"
     },
     {
       "uuid": "12567828-52bf-4a46-ac64-c0be5bfc51c2",
@@ -540,12 +404,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "A particle \\(P\\) moves along the coordinate line so that the graph at the right is its position \\(x(t)\\) for time \\(t\\) in the interval \\([0, 6]\\).\n   a) When is \\(P\\) moving to the left? Moving to the right? Standing still?\n   b) Graph the particle\u0027s velocity and speed.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20491.png\"/\u003e",
+      "body": "A particle \\(P\\) moves along the coordinate line so that the graph at the right is its position \\(x(t)\\) for time \\(t\\) in the interval \\([0, 6]\\).\n   a) When is \\(P\\) moving to the left? Moving to the right? Standing still?\n   b) Graph the particle\u0027s velocity and speed.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20491.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "word problem, graph, velocity",
       "url": "/question/12567828-52bf-4a46-ac64-c0be5bfc51c2",
       "source": "AP Calculus Problems 3.11.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics/Anti-Derivative"
+      "topic": "570bd325-12e9-4c62-b29e-2dc3f35b660e"
     },
     {
       "uuid": "627d7607-814c-4b93-91e5-3863009e7d42",
@@ -557,12 +421,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "When a model rocket is launched, the propellant burns for a few seconds, accelerating the rocket upward.  After burnout, the rocket coasts upward for a while and then begins to fall.  A small explosive charge pops out a parachute shortly after the rocket starts down.  The parachute slows the rocket to keep it from breaking when it lands.  The figure here shows the velocity from the flight of a model rocket.\n   a) How fast was the rocket climbing when the engine stopped?\n   b) For how many seconds did the engine burn?\n   c) When did the rocket reach its highest point?  What was its velocity then?\n   d) When did the parachute pop out?  How fast was the rocket falling then?\n   e) How long did the rocket fall before the parachute opened?\n   f) When was the rocket\u0027s acceleration greatest?\n   g) When was the acceleration constant?  What was its value then?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20492.png\"/\u003e",
+      "body": "When a model rocket is launched, the propellant burns for a few seconds, accelerating the rocket upward.  After burnout, the rocket coasts upward for a while and then begins to fall.  A small explosive charge pops out a parachute shortly after the rocket starts down.  The parachute slows the rocket to keep it from breaking when it lands.  The figure here shows the velocity from the flight of a model rocket.\n   a) How fast was the rocket climbing when the engine stopped?\n   b) For how many seconds did the engine burn?\n   c) When did the rocket reach its highest point?  What was its velocity then?\n   d) When did the parachute pop out?  How fast was the rocket falling then?\n   e) How long did the rocket fall before the parachute opened?\n   f) When was the rocket\u0027s acceleration greatest?\n   g) When was the acceleration constant?  What was its value then?\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20492.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "word problem, velocity, acceleration, position",
       "url": "/question/627d7607-814c-4b93-91e5-3863009e7d42",
       "source": "AP Calculus Problems 3.11.3",
-      "topic": "Geometry/Coordinate Geometry/Vectors/Magnitude"
+      "topic": "ada1b734-b5ff-472e-b08e-5786686be8e9"
     },
     {
       "uuid": "612063c9-e82e-439b-8155-b4fb9c20081e",
@@ -574,12 +438,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "The graph shows the position \\(s\\) (for \\(0\\leq s\u003c600\\)) of a truck traveling on a highway.  The truck starts at \\(t\u003d0\\) and returns 15 hours later at \\(t\u003d15\\).  (Note: the vertical axis scale is 50, while the horizontal axis scale is 1.)\n   a) Graph the truck\u0027s velocity and acceleration for \\(0\\leq t\\leq 15\\).\n   b) Suppose \\(s\u003d15t^2-t^3\\).  Graph \\(s\u0027\\) and \\(s\u0027\u0027\\) on your calculator and compare with the graphs obtained in part (a).\n  \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20493.png\"/\u003e",
+      "body": "The graph shows the position \\(s\\) (for \\(0\\leq s\u003c600\\)) of a truck traveling on a highway.  The truck starts at \\(t\u003d0\\) and returns 15 hours later at \\(t\u003d15\\).  (Note: the vertical axis scale is 50, while the horizontal axis scale is 1.)\n   a) Graph the truck\u0027s velocity and acceleration for \\(0\\leq t\\leq 15\\).\n   b) Suppose \\(s\u003d15t^2-t^3\\).  Graph \\(s\u0027\\) and \\(s\u0027\u0027\\) on your calculator and compare with the graphs obtained in part (a).\n  \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20493.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "velocity, position, graph, word problem",
       "url": "/question/612063c9-e82e-439b-8155-b4fb9c20081e",
       "source": "AP Calculus Problems 3.11.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Length/Trigonometric Substitution/Antiderivative"
+      "topic": "ff124437-698d-44a7-830e-8e955adea8e2"
     },
     {
       "uuid": "7886c544-e383-4fc8-a496-3ec38c989149",
@@ -591,12 +455,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "The cross sections of an irrigation canal are isosceles trapezoids of which three sides are 8 feet long.  Determine the angle of elevation \\(\\theta\\) of the sides so that the area of the cross section is a maximum.\n \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20494.png\"/\u003e",
+      "body": "The cross sections of an irrigation canal are isosceles trapezoids of which three sides are 8 feet long.  Determine the angle of elevation \\(\\theta\\) of the sides so that the area of the cross section is a maximum.\n \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20494.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "word problem, angle of elevation, area, maximum",
       "url": "/question/7886c544-e383-4fc8-a496-3ec38c989149",
       "source": "AP Calculus Problems 3.11.5",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "d7da2ec8-75ba-487e-81fb-12644edc06bb",
@@ -608,12 +472,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "Let \\(h(x)\u003df(x)g(x)\\), where the functions \\(f\\) and \\(g\\) are given by the graphs.\n   a) Estimate \\(h(-2)\\) and \\(h(3)\\).\n   b) Estimate \\(f\u0027(-2)\\), \\(f\u0027(3)\\), \\(g\u0027(-2)\\), and \\(g\u0027(3)\\).\n   c) Estimate \\(h\u0027(-2)\\) and \\(h\u0027(3)\\).\n  \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20495.png\"/\u003e",
+      "body": "Let \\(h(x)\u003df(x)g(x)\\), where the functions \\(f\\) and \\(g\\) are given by the graphs.\n   a) Estimate \\(h(-2)\\) and \\(h(3)\\).\n   b) Estimate \\(f\u0027(-2)\\), \\(f\u0027(3)\\), \\(g\u0027(-2)\\), and \\(g\u0027(3)\\).\n   c) Estimate \\(h\u0027(-2)\\) and \\(h\u0027(3)\\).\n  \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20495.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph, graphing derivatives",
       "url": "/question/d7da2ec8-75ba-487e-81fb-12644edc06bb",
       "source": "AP Calculus Problems 3.11.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Transformations/Rigid Transformations"
+      "topic": "6ff4a01d-4641-4b4c-9659-fd44c821b2ce"
     },
     {
       "uuid": "be2ac9dc-7581-420c-8d42-a9fbd9044831",
@@ -625,12 +489,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "Let \\(h(x)\u003df(g(x))\\), where the functions \\(f\\) and \\(g\\) are given by the graphs.\n   a) Estimate \\(h(-2)\\) and \\(h(3)\\).\n   b) Is \\(h\u0027(-3)\\) positive, negative, or zero? Explain how you know this.\n   c) Is \\(h\u0027(-1)\\) positive, negative, or zero? Explain how you know this.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20495.png\"/\u003e",
+      "body": "Let \\(h(x)\u003df(g(x))\\), where the functions \\(f\\) and \\(g\\) are given by the graphs.\n   a) Estimate \\(h(-2)\\) and \\(h(3)\\).\n   b) Is \\(h\u0027(-3)\\) positive, negative, or zero? Explain how you know this.\n   c) Is \\(h\u0027(-1)\\) positive, negative, or zero? Explain how you know this.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20495.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graphing derivatives",
       "url": "/question/be2ac9dc-7581-420c-8d42-a9fbd9044831",
       "source": "AP Calculus Problems 3.11.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Transformations/Rigid Transformations"
+      "topic": "6ff4a01d-4641-4b4c-9659-fd44c821b2ce"
     },
     {
       "uuid": "214088ce-20f0-49aa-ae27-e19e73d68961",
@@ -647,7 +511,7 @@
       "tags": "derivatives, function, differentiable functions",
       "url": "/question/214088ce-20f0-49aa-ae27-e19e73d68961",
       "source": "AP Calculus Problems 3.12.1",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "813f90ab-2bdb-4ad1-900d-5582784140fd",
@@ -664,7 +528,7 @@
       "tags": "derivative",
       "url": "/question/813f90ab-2bdb-4ad1-900d-5582784140fd",
       "source": "AP Calculus Problems 3.12.2",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "4ad3af8d-debc-4c5e-acd1-957ac234730e",
@@ -681,7 +545,7 @@
       "tags": "derivative, inverse function, function",
       "url": "/question/4ad3af8d-debc-4c5e-acd1-957ac234730e",
       "source": "AP Calculus Problems 3.12.3",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Function/One-to-One/Steps for Finding the Inverse of a One-to-One Function/Interchange"
+      "topic": "9d405043-49ea-41f6-a67a-e5502c6f94d0"
     },
     {
       "uuid": "80419772-9ac2-436c-8320-51cba7a14a61",
@@ -698,7 +562,7 @@
       "tags": "derivatives, tangent line, function, even function, odd function",
       "url": "/question/80419772-9ac2-436c-8320-51cba7a14a61",
       "source": "AP Calculus Problems 3.12.4",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Newton\u0027s Method"
+      "topic": "9248dd21-66c0-45f7-8182-3da33850e603"
     },
     {
       "uuid": "29e71c87-1b8b-4d04-ace1-7d1b7868ef75",
@@ -732,7 +596,7 @@
       "tags": "derivatives, limits",
       "url": "/question/b2f1e2e5-2ff5-49fb-954d-23757d209b73",
       "source": "AP Calculus Problems 3.12.6",
-      "topic": "Calculus/Pre-Calculus Review/Limits/One-Side Limit"
+      "topic": "14400885-9fb4-475c-bb71-681ee37bcd1e"
     },
     {
       "uuid": "c2f7acf4-4953-4c60-b51e-abece105b036",
@@ -749,7 +613,7 @@
       "tags": "function, derivative, inverse functions",
       "url": "/question/c2f7acf4-4953-4c60-b51e-abece105b036",
       "source": "AP Calculus Problems 3.12.7",
-      "topic": "Pre-Calculus/Topics in Functions/Inverse Functions/Function Composition"
+      "topic": "9ab950bc-9fab-40b4-bf0f-7ec59c4cbb2b"
     },
     {
       "uuid": "c1dab8f1-9c37-4f2a-a8ae-b5c3df9eae81",
@@ -761,12 +625,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": " Let \\(f\\) be a continuous function on \\([-3, 3]\\) whose first and second derivatives have the following signs and values.\n   a) What are the \\(x\\)-coordinates of the relative extrema of \\(f\\) on \\([-3, 3]\\)?\n   b) What are the \\(x\\)-coordinates of the points of inflection of \\(f\\) on \\([-3, 3]\\)?\n   c) Sketch a possible graph of \\(f\\) which satisfies all the given properties.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20496.png\"/\u003e",
+      "body": " Let \\(f\\) be a continuous function on \\([-3, 3]\\) whose first and second derivatives have the following signs and values.\n   a) What are the \\(x\\)-coordinates of the relative extrema of \\(f\\) on \\([-3, 3]\\)?\n   b) What are the \\(x\\)-coordinates of the points of inflection of \\(f\\) on \\([-3, 3]\\)?\n   c) Sketch a possible graph of \\(f\\) which satisfies all the given properties.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20496.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, continuous function, function interval, inflection points, extrema",
       "url": "/question/c1dab8f1-9c37-4f2a-a8ae-b5c3df9eae81",
       "source": "AP Calculus Problems 3.12.8",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Continuoity"
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
     },
     {
       "uuid": "bc70594b-efd1-4c68-80d7-a51c31326375",
@@ -783,7 +647,7 @@
       "tags": "function, derivative, graph, concavity, extrema",
       "url": "/question/bc70594b-efd1-4c68-80d7-a51c31326375",
       "source": "AP Calculus Problems 3.12.9",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
     },
     {
       "uuid": "ac7d8db7-ed80-4924-9529-2d50c9c9e8cc",
@@ -800,7 +664,7 @@
       "tags": "domain, local extrema, derivatives",
       "url": "/question/ac7d8db7-ed80-4924-9529-2d50c9c9e8cc",
       "source": "AP Calculus Problems 3.12.10",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "1763b792-e0cf-4038-aad9-b588a7f889ac",
@@ -817,7 +681,7 @@
       "tags": "domain, local extrema, function, derivative",
       "url": "/question/1763b792-e0cf-4038-aad9-b588a7f889ac",
       "source": "AP Calculus Problems 3.12.11",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "971367d7-d1e6-45bb-8c3b-01660a5c7bb6",
@@ -834,7 +698,7 @@
       "tags": "domain, local extrema, function, derivative",
       "url": "/question/971367d7-d1e6-45bb-8c3b-01660a5c7bb6",
       "source": "AP Calculus Problems 3.12.12",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "7a4a757e-8502-4302-a690-7c711486d537",
@@ -851,7 +715,7 @@
       "tags": "domain, local extrema, functions, derivatives",
       "url": "/question/7a4a757e-8502-4302-a690-7c711486d537",
       "source": "AP Calculus Problems 3.12.13",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "d0497d8e-6532-48ab-8ba9-d28bd151dd34",
@@ -868,7 +732,7 @@
       "tags": "domain, local extrema, functions, derivatives ",
       "url": "/question/d0497d8e-6532-48ab-8ba9-d28bd151dd34",
       "source": "AP Calculus Problems 3.12.14",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "bbd7e5c5-f79a-4c0e-85be-d5ec4dab2fbb",
@@ -885,7 +749,7 @@
       "tags": "domain, function, local extrema, derivatives",
       "url": "/question/bbd7e5c5-f79a-4c0e-85be-d5ec4dab2fbb",
       "source": "AP Calculus Problems 3.12.15",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "0b5825fd-1380-448d-b879-b3161e99a546",
@@ -902,7 +766,41 @@
       "tags": "derivatives, high derivative, factored form",
       "url": "/question/0b5825fd-1380-448d-b879-b3161e99a546",
       "source": "AP Calculus Problems 3.12.16",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787607,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Find \\(y\u0027\u0027\\) in simplest factored form. \n\\(y\u003dx^2e^x\\)",
+      "allAnswers": [],
+      "tags": "derivatives, high derivatives, factored form",
+      "url": "/question/b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
+      "source": "AP Calculus Problems 3.12.17",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787607,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Find \\(y\u0027\u0027\\) in simplest factored form. \n\\(y\u003de^{e^x}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, high derivatives, factored form",
+      "url": "/question/29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
+      "source": "AP Calculus Problems 3.12.18",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Partial Fraction Decomposition",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2734.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2735.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2736.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2737.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2738.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2739.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2740.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2734.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2735.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2736.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2737.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2738.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2739.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2740.png\"/\u003e",
       "allAnswers": [],
       "tags": "partial fraction decomposition, system of equations, matrix, matrices ",
       "url": "/text-content/a045f307-09e9-45a2-b14e-8b13f8663976",
       "source": "Precalculus, 3rd Edition 8.6",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Partial Fraction Decomposition"
+      "topic": "a80b1824-6c01-45c1-a48f-4e35295bf509"
     },
     {
       "uuid": "bc76007b-de79-4b16-bd42-47ee5c7833bb",
@@ -933,14 +831,71 @@
       "viewable": true,
       "karma": 3,
       "title": "Systems of Non-Linear Equations and Inequalities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2741.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2742.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2743.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2744.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2745.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2746.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2747.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2741.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2742.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2743.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2744.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2745.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2746.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2747.png\"/\u003e",
       "allAnswers": [],
       "tags": "systems of non-linear equations, non-linear equations, system of non-linear inequalities, matrix, matrices ",
       "url": "/text-content/bc76007b-de79-4b16-bd42-47ee5c7833bb",
       "source": "Precalculus, 3rd Edition 8.7",
-      "topic": "Pre-Calculus/Systems of Equations and Matrices/Systems of Non-Linear Equations"
+      "topic": "4e0de009-4e55-4fd8-8865-c9cbbfacbf2d"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "73aa58fd-db2c-4fbe-bd7e-ed2eaf081b47",
+      "subTopics": [],
+      "parentTopics": [
+        "6985b4ef-f0e2-4bc9-8871-63b0f2b20f58"
+      ],
+      "title": "Extrema Problems (Max+Min)",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " maximum values,optimization, continuity , minimum values,",
+      "difficulty": 506000,
+      "contentUuids": [
+        "6bb69439-1c02-4b09-a25c-c1af7d3b6b86"
+      ]
+    },
+    {
+      "uuid": "ee2a9bac-e558-4d08-a9ff-da7517844cc8",
+      "subTopics": [],
+      "parentTopics": [
+        "8d8b229e-ecbc-40e3-a3f2-61a8cba6b4aa"
+      ],
+      "title": "Parabola",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " derivatives, velocity, rate of change,instantaneous speed,",
+      "difficulty": 246000,
+      "contentUuids": [
+        "934eeb23-00b6-49b3-ac6f-ee0584ebcaa7"
+      ]
+    },
+    {
+      "uuid": "c4264af0-21e2-4bfb-8a2b-36cfb4021e3c",
+      "subTopics": [],
+      "parentTopics": [
+        "85d73e55-74cb-423e-96c0-c851f49f7e01"
+      ],
+      "title": "Geometric Sum Formula",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " interest rate, compounding period, future value, compounded monthly, payment,future value of an ordinary annuity, annual rate, upper limit, summation, upper limit of summation,summation notation, lower limit of summation, lower limit, index of summation, notation, summation notation,sums, sequences, natural numbers, annuity due, real numbers, rate, calculus proof, lower limits , upper limits,proof, properties of summation notation, value of annuity due,interest, interest, annuity,",
+      "difficulty": 334000,
+      "contentUuids": [
+        "9ef0b6fc-db1f-4adc-96ae-393256f7b065",
+        "4e43d45e-3c0d-47a9-a058-e37c86cdaef5",
+        "112bfb3c-b9cd-460d-9876-f38b254fe8b7",
+        "2580f172-f621-4b5f-920a-e5857898d7ea",
+        "f73ea0a5-632c-4b15-97e3-45820b3b8af3",
+        "487a0785-5513-4ec7-ae08-74cd0c545b51",
+        "c7c29e66-1288-4e4a-b8de-9bb16eac823c",
+        "a9028eda-4e20-4290-82ae-dae33caebc91",
+        "c96e10ea-3ec7-44b0-8e98-25e93455ea20",
+        "093d27b9-d737-4ae0-9733-71cc4fec66ab",
+        "6aa274ef-b760-4df5-8846-ff4bb27424db",
+        "995ffbe2-b5f1-4f9d-9aa2-2d1235b4e95c"
+      ]
+    }
+  ]
 }

@@ -2,364 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/327.png\"/\u003e",
-      "uuid": "d9490d70-3332-4bb1-a574-809ec647d579",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2266.png\"/\u003e",
+      "uuid": "aae66ae5-c606-445a-b7b2-fcf3188c53db",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Prove equality and intersection",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/326.png\"/\u003e",
+      "title": "Approximate the interval",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2265.png\"/\u003e",
       "allAnswers": [],
-      "tags": "prove equality, intersection, tangent ",
-      "url": "/practice-problem/d9490d70-3332-4bb1-a574-809ec647d579",
-      "source": "null 13.3.2"
+      "tags": "approximate interval, increasing interval, decreasing interval, graphing calculator ",
+      "url": "/practice-problem/aae66ae5-c606-445a-b7b2-fcf3188c53db",
+      "source": "null 1.6.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/333.png\"/\u003e",
-      "uuid": "daf3efe7-e6d2-473d-8be4-1814fa3ba600",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2268.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2269.png\"/\u003e",
+      "uuid": "eadf8308-273c-4d92-825f-7057f994def5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Perimeter of triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/332.png\"/\u003e",
+      "title": "Find the points on the graph of y",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2267.png\"/\u003e",
       "allAnswers": [],
-      "tags": "perimeter, triangle, inscribed circle ",
-      "url": "/practice-problem/daf3efe7-e6d2-473d-8be4-1814fa3ba600",
-      "source": "null 13.3.3"
+      "tags": "points on the graph, distance to origin ",
+      "url": "/practice-problem/eadf8308-273c-4d92-825f-7057f994def5",
+      "source": "null 1.6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/335.png\"/\u003e",
-      "uuid": "628047b6-8c0e-40dd-a0c6-a8a1bc28c3ff",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2284.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2285.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2286.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2287.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2288.png\"/\u003e",
+      "uuid": "2a0a3c66-c80d-4891-b216-a95d78ea46b4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Length of radius",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/334.png\"/\u003e",
+      "title": "Use graph of f to graph functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2283.png\"/\u003e",
       "allAnswers": [],
-      "tags": "radius, length of radius, circle, tangent segment ",
-      "url": "/practice-problem/628047b6-8c0e-40dd-a0c6-a8a1bc28c3ff",
-      "source": "null 13.3.4"
+      "tags": "graph functions, graphing functions, domain, range, transformations ",
+      "url": "/practice-problem/2a0a3c66-c80d-4891-b216-a95d78ea46b4",
+      "source": "null 1.7.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/341.png\"/\u003e",
-      "uuid": "4ef61ed1-826b-4ded-b384-539505c43f9a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2290.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2291.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2292.png\"/\u003e",
+      "uuid": "3a70a47b-3646-4a3d-aad3-f99e1de2ef8b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Measure of minor arc",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/340.png\"/\u003e",
+      "title": "Use it to graph g(x)",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2289.png\"/\u003e",
       "allAnswers": [],
-      "tags": "minor arc, measure of arc, tangent segments ",
-      "url": "/practice-problem/4ef61ed1-826b-4ded-b384-539505c43f9a",
-      "source": "null 13.4.2"
+      "tags": "graphing functions, functions, key points, intercepts, curves ",
+      "url": "/practice-problem/3a70a47b-3646-4a3d-aad3-f99e1de2ef8b",
+      "source": "null 1.7.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/348.png\"/\u003e",
-      "uuid": "b0eac5fa-4abe-458d-9461-3bc348be4382",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2294.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2295.png\"/\u003e",
+      "uuid": "8a85e302-e429-462f-a076-49304a75b4a8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Chord intersection ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/347.png\"/\u003e",
+      "title": "Find and simplify the formula",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2293.png\"/\u003e",
       "allAnswers": [],
-      "tags": "chords, intersection of chords, circle ",
-      "url": "/practice-problem/b0eac5fa-4abe-458d-9461-3bc348be4382",
-      "source": "null 13.6.2"
+      "tags": "find formula of function, simplify function, transformations, vertical shift, reflection, horizontal shift, horizontal stretching ",
+      "url": "/practice-problem/8a85e302-e429-462f-a076-49304a75b4a8",
+      "source": "null 1.7.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/350.png\"/\u003e",
-      "uuid": "4456e52c-569e-4083-8ae3-dc90b969acdc",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2302.png\"/\u003e",
+      "uuid": "8b2bce09-eb8c-4d07-b9ff-d49a73bd11c6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Length of chord",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/349.png\"/\u003e",
+      "title": "write equation of line ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2301.png\"/\u003e",
       "allAnswers": [],
-      "tags": "length of chord, circle ",
-      "url": "/practice-problem/4456e52c-569e-4083-8ae3-dc90b969acdc",
-      "source": "null 13.6.3"
+      "tags": "equation of line, line containing points, slope-intercept form ",
+      "url": "/practice-problem/8b2bce09-eb8c-4d07-b9ff-d49a73bd11c6",
+      "source": "null 2.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/356.png\"/\u003e",
-      "uuid": "88266d5b-394a-4021-947e-30b6c4b7a5f0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2305.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2306.png\"/\u003e",
+      "uuid": "d3c75219-d533-4dbe-9df7-47cf93bec4cc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Equation of circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/355.png\"/\u003e",
+      "title": "Graph and identify functions ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2304.png\"/\u003e",
       "allAnswers": [],
-      "tags": "equation of circle, circle, length of radius, coordinates of center",
-      "url": "/practice-problem/88266d5b-394a-4021-947e-30b6c4b7a5f0",
-      "source": "null 13.7.2"
+      "tags": "functions, slope, y-intercept, horizontal line, point-slope form ",
+      "url": "/practice-problem/d3c75219-d533-4dbe-9df7-47cf93bec4cc",
+      "source": "null 2.1.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/358.png\"/\u003e",
-      "uuid": "b1065251-f895-4386-b85e-bcfb57c1ef7d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2309.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2310.png\"/\u003e",
+      "uuid": "b22d468f-1b29-4896-a9fe-b11faeb75e02",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "length of radius given equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/357.png\"/\u003e",
+      "title": "The cost C in dollars ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2308.png\"/\u003e",
       "allAnswers": [],
-      "tags": "radius, length, equation of circle, circle ",
-      "url": "/practice-problem/b1065251-f895-4386-b85e-bcfb57c1ef7d",
-      "source": "null 13.7.3"
+      "tags": "intercept, slope, function, interpret slope ",
+      "url": "/practice-problem/b22d468f-1b29-4896-a9fe-b11faeb75e02",
+      "source": "null 2.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/364.png\"/\u003e",
-      "uuid": "4884bd65-3b59-43cd-9a49-2a2f935242ef",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2312.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2313.png\"/\u003e",
+      "uuid": "1671cc0d-8e8c-4bf4-9b4e-06f349447375",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Point of intersection of secant",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/363.png\"/\u003e",
+      "title": "Local retailer",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2311.png\"/\u003e",
       "allAnswers": [],
-      "tags": "point of intersection, secant, circle ",
-      "url": "/practice-problem/4884bd65-3b59-43cd-9a49-2a2f935242ef",
-      "source": "null 13.8.2"
+      "tags": "slope, intercepts, domain, function, linear function, midpoint ",
+      "url": "/practice-problem/1671cc0d-8e8c-4bf4-9b4e-06f349447375",
+      "source": "null 2.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/371.png\"/\u003e",
-      "uuid": "b6a59321-d44f-4abd-a704-1579a4c6e5ec",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2317.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2318.png\"/\u003e",
+      "uuid": "4fa95b5c-4109-4f9b-affb-e32a435a5de9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655783,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "locus of points ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/370.png\"/\u003e",
+      "title": "The revenue from selling x units",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2316.png\"/\u003e",
       "allAnswers": [],
-      "tags": "locus, interior angle ",
-      "url": "/practice-problem/b6a59321-d44f-4abd-a704-1579a4c6e5ec",
-      "source": "null 14.2.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/379.png\"/\u003e",
-      "uuid": "67b613be-1d36-466d-b3d8-8f45c9a0c262",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655783,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Coordinates of the points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/378.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "coordinates of points, line, coordinate geometry ",
-      "url": "/practice-problem/67b613be-1d36-466d-b3d8-8f45c9a0c262",
-      "source": "null 14.4.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/384.png\"/\u003e",
-      "uuid": "c8c893bc-62f3-405d-95d5-b6695d15eb99",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655783,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Equation of the locus of points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/383.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "locus of points, equation of locus",
-      "url": "/practice-problem/c8c893bc-62f3-405d-95d5-b6695d15eb99",
-      "source": "null 14.5.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/392.png\"/\u003e",
-      "uuid": "77dbcd4c-63c7-496d-a334-f920f460bac8",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655783,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Coordinate Geometry ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/391.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "coordinates, geometry, turning point, axis of symmetry",
-      "url": "/practice-problem/77dbcd4c-63c7-496d-a334-f920f460bac8",
-      "source": "null 14.6.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/394.png\"/\u003e",
-      "uuid": "02c66d45-6abc-47c8-8b7f-120d684dc6f6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655783,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Turning point of the parabola",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/393.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "parabola, turning point, point and line",
-      "url": "/practice-problem/02c66d45-6abc-47c8-8b7f-120d684dc6f6",
-      "source": "null 14.6.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/396.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/397.png\"/\u003e",
-      "uuid": "6c6f4f75-b30c-4d3b-a432-1a59e0513ffe",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655783,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "System of equations ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/395.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "System of equations, graph, turning point ",
-      "url": "/practice-problem/6c6f4f75-b30c-4d3b-a432-1a59e0513ffe",
-      "source": "null 14.6.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20099.png\"/\u003e",
-      "uuid": "bbda8a53-02ec-4fb7-8b23-c35e9eec06e9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655783,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Line Reflection",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/20136.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/bbda8a53-02ec-4fb7-8b23-c35e9eec06e9",
-      "source": "null 6.2"
+      "tags": "simplify expression, intercept, average rate of change, slope  ",
+      "url": "/practice-problem/4fa95b5c-4109-4f9b-affb-e32a435a5de9",
+      "source": "null 2.1.5"
     }
   ],
   "questions": [
-    {
-      "uuid": "fe76196b-25e3-4f43-9ff9-8acd1926c80c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graph and Find the Area",
-      "body": "Solve the differential equation \\(dP/dt\u003dkP^2\\) for constant \\(k\\), with initial condition \\(P(0)\u003dP_0\\).  Prove that the graph of the solution has a vertical asymptote at a positive value of \\(t\\).  What is that value of \\(t\\)? (This value is called the catastrophic solution.",
-      "allAnswers": [],
-      "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
-      "url": "/question/fe76196b-25e3-4f43-9ff9-8acd1926c80c",
-      "source": "AP Calculus Problems 4.2.78",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "5008a8d0-b626-46a4-bf03-64f4ffcda39f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve the Differential Equation",
-      "body": "Given a differential equation of the form \\(ay\u0027\u0027+by\u0027+y\u003d0\\), find constants \\(a\\) and \\(b\\) so that both \\(y\u003de^x\\) and \\(y\u003de^{2x}\\) are solutions.",
-      "allAnswers": [],
-      "tags": "integrals, differentiation, differential equation, derivatives, antiderivatives",
-      "url": "/question/5008a8d0-b626-46a4-bf03-64f4ffcda39f",
-      "source": "AP Calculus Problems 4.2.79",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "8c80d612-439d-4bc2-af50-c4b0ed12318a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logic",
-      "body": "In each of the following problems, you are given a true statement.  From the statement, determine which one of the three choices is logically equivalent. (You do not need to know what the words mean in order to determine the correct answer.) \n\nIf it is raining, then I will go to the mall. \n  a) If I go to the mall, then it is raining.\n  b) If it is not raining, then I will not go to the mall.\n  c) If I do not go to the mall, then it is not raining.\n ",
-      "allAnswers": [],
-      "tags": "logic, multiple choice",
-      "url": "/question/8c80d612-439d-4bc2-af50-c4b0ed12318a",
-      "source": "AP Calculus Problems 2.2.1",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
-    },
-    {
-      "uuid": "b8a8167d-17f9-4021-98dd-5803ccd854f7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logic",
-      "body": "If a snark is a grunk, then a quango is a trone. \n  a) If a quango is a trone, then a snark is a grunk.\n  b) If a quango is not a trone, then a snark is not a grunk.\n  c) If a snark is not a grunk, then a quango is not a trone.",
-      "allAnswers": [],
-      "tags": "logic, multiple choice",
-      "url": "/question/b8a8167d-17f9-4021-98dd-5803ccd854f7",
-      "source": "AP Calculus Problems 2.2.2",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
-    },
-    {
-      "uuid": "a958be65-c224-4512-8e1d-e6ffcfa16194",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logic",
-      "body": "If a function is linear, then the graph is not a parabola. \n  a) If the graph is a parabola, then the function is not linear.\n  b) If the graph is a parabola, then the function is linear.\n  c) If the function is not linear, then the graph is a parabola.",
-      "allAnswers": [],
-      "tags": "logic, multiple choice",
-      "url": "/question/a958be65-c224-4512-8e1d-e6ffcfa16194",
-      "source": "AP Calculus Problems 2.2.3",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
-    },
     {
       "uuid": "da74361a-0c92-4379-b964-53fec4a36b64",
       "contentType": "question",
@@ -375,7 +188,7 @@
       "tags": "logic, multiple choice",
       "url": "/question/da74361a-0c92-4379-b964-53fec4a36b64",
       "source": "AP Calculus Problems 2.2.4",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
+      "topic": "be98959f-161a-4933-8aa2-94002b3bf319"
     },
     {
       "uuid": "fbb18651-aa8a-4274-85a3-32006493fc1c",
@@ -392,7 +205,7 @@
       "tags": "logic, multiple choice",
       "url": "/question/fbb18651-aa8a-4274-85a3-32006493fc1c",
       "source": "AP Calculus Problems 2.2.5",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
+      "topic": "be98959f-161a-4933-8aa2-94002b3bf319"
     },
     {
       "uuid": "165e693e-7a1c-4e56-a624-94c9cfb40421",
@@ -409,7 +222,7 @@
       "tags": "derivatives, functions",
       "url": "/question/165e693e-7a1c-4e56-a624-94c9cfb40421",
       "source": "AP Calculus Problems 2.3.1",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "7314839b-7f31-41a0-b01c-b41e267f23ab",
@@ -426,7 +239,7 @@
       "tags": "derivatives, functions",
       "url": "/question/7314839b-7f31-41a0-b01c-b41e267f23ab",
       "source": "AP Calculus Problems 2.3.2",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "56bb6f88-ac96-4c29-b99a-123209c4c668",
@@ -443,7 +256,7 @@
       "tags": "derivatives, functions",
       "url": "/question/56bb6f88-ac96-4c29-b99a-123209c4c668",
       "source": "AP Calculus Problems 2.3.3",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "e6d9f2ff-8a8e-4f13-b3da-4502eb251f85",
@@ -460,7 +273,7 @@
       "tags": "derivatives, functions",
       "url": "/question/e6d9f2ff-8a8e-4f13-b3da-4502eb251f85",
       "source": "AP Calculus Problems 2.3.4",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "4023588b-74d3-4f2b-aab6-fa6fc67ca1a8",
@@ -477,7 +290,7 @@
       "tags": "function, derivative ",
       "url": "/question/4023588b-74d3-4f2b-aab6-fa6fc67ca1a8",
       "source": "AP Calculus Problems 2.3.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "59bbee89-07e1-421f-aa80-8c5fee5db731",
@@ -494,7 +307,7 @@
       "tags": "derivatives, functions",
       "url": "/question/59bbee89-07e1-421f-aa80-8c5fee5db731",
       "source": "AP Calculus Problems 2.3.6",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "04c94b07-92a8-4216-b011-810d7b683263",
@@ -511,7 +324,7 @@
       "tags": "derivatives, functions",
       "url": "/question/04c94b07-92a8-4216-b011-810d7b683263",
       "source": "AP Calculus Problems 2.3.7",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "3f4be421-eb4b-4cec-af05-bf1ea9991bcf",
@@ -528,7 +341,7 @@
       "tags": "derivatives, functions",
       "url": "/question/3f4be421-eb4b-4cec-af05-bf1ea9991bcf",
       "source": "AP Calculus Problems 2.3.8",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "10afc86a-9b2b-4bd4-812f-2ea93d6d10c5",
@@ -545,7 +358,7 @@
       "tags": "derivatives, functions",
       "url": "/question/10afc86a-9b2b-4bd4-812f-2ea93d6d10c5",
       "source": "AP Calculus Problems 2.3.9",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "2ce6eb7d-ff1c-4810-a171-98189393ba27",
@@ -562,7 +375,7 @@
       "tags": "derivatives, functions",
       "url": "/question/2ce6eb7d-ff1c-4810-a171-98189393ba27",
       "source": "AP Calculus Problems 2.3.10",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "035cf1fe-ecf8-41c3-8bf7-40b300832449",
@@ -579,7 +392,7 @@
       "tags": "derivatives, functions",
       "url": "/question/035cf1fe-ecf8-41c3-8bf7-40b300832449",
       "source": "AP Calculus Problems 2.3.11",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "ea99cfa9-3a6f-4151-8505-42ef854c4bc4",
@@ -596,7 +409,7 @@
       "tags": "derivatives, functions",
       "url": "/question/ea99cfa9-3a6f-4151-8505-42ef854c4bc4",
       "source": "AP Calculus Problems 2.3.12",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "278a8642-62db-4caf-aae5-9a78d9b60f22",
@@ -613,7 +426,7 @@
       "tags": "derivatives, functions",
       "url": "/question/278a8642-62db-4caf-aae5-9a78d9b60f22",
       "source": "AP Calculus Problems 2.3.13",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "1aaeefc0-19c9-4cd1-baad-9021d50aed65",
@@ -630,7 +443,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, rate of change",
       "url": "/question/1aaeefc0-19c9-4cd1-baad-9021d50aed65",
       "source": "AP Calculus Problems 4.2.80",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "032e33c4-237d-437d-bc62-d0715c1dc380",
@@ -647,7 +460,7 @@
       "tags": "derivatives, functions",
       "url": "/question/032e33c4-237d-437d-bc62-d0715c1dc380",
       "source": "AP Calculus Problems 2.3.14",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "c6d6f3ef-6ffd-4f02-814e-a30abfdeeb1c",
@@ -664,7 +477,7 @@
       "tags": "derivatives, functions",
       "url": "/question/c6d6f3ef-6ffd-4f02-814e-a30abfdeeb1c",
       "source": "AP Calculus Problems 2.3.15",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "fb398592-8fc0-44ed-9746-3a59f00b044c",
@@ -681,7 +494,7 @@
       "tags": "derivatives, functions",
       "url": "/question/fb398592-8fc0-44ed-9746-3a59f00b044c",
       "source": "AP Calculus Problems 2.3.16",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "dd7272d7-c8c3-4ada-9413-8d22b075fdc7",
@@ -698,7 +511,7 @@
       "tags": "derivatives, functions",
       "url": "/question/dd7272d7-c8c3-4ada-9413-8d22b075fdc7",
       "source": "AP Calculus Problems 2.3.17",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "f87a2e70-cf83-4f3c-a027-57fc6c5b7304",
@@ -715,7 +528,7 @@
       "tags": "derivatives, functions",
       "url": "/question/f87a2e70-cf83-4f3c-a027-57fc6c5b7304",
       "source": "AP Calculus Problems 2.3.18",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "99711101-7d07-4667-ac67-b8478797f4b7",
@@ -732,7 +545,7 @@
       "tags": "derivatives, functions",
       "url": "/question/99711101-7d07-4667-ac67-b8478797f4b7",
       "source": "AP Calculus Problems 2.3.19",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "7f53a8ef-1d05-4129-bb89-9bbeb2c70009",
@@ -749,7 +562,7 @@
       "tags": "derivatives, functions",
       "url": "/question/7f53a8ef-1d05-4129-bb89-9bbeb2c70009",
       "source": "AP Calculus Problems 2.3.20",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "93ac12c9-2021-403d-a486-208f426de95a",
@@ -766,7 +579,7 @@
       "tags": "derivatives, functions",
       "url": "/question/93ac12c9-2021-403d-a486-208f426de95a",
       "source": "AP Calculus Problems 2.3.21",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "3aa1d737-e1ac-4da6-a912-6af68b5cc8ef",
@@ -783,7 +596,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, rate of growth, rate of change",
       "url": "/question/3aa1d737-e1ac-4da6-a912-6af68b5cc8ef",
       "source": "AP Calculus Problems 4.2.81",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "6c191dfb-d10c-41c0-ad2a-10405ea8606b",
@@ -800,7 +613,7 @@
       "tags": "derivatives, functions",
       "url": "/question/6c191dfb-d10c-41c0-ad2a-10405ea8606b",
       "source": "AP Calculus Problems 2.3.22",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "182f39a5-4e0c-4e34-a25b-ae50c66b4af9",
@@ -817,7 +630,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/182f39a5-4e0c-4e34-a25b-ae50c66b4af9",
       "source": "AP Calculus Problems 4.2.82",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "b768e512-b7b3-420f-bad0-6e55add8b38f",
@@ -834,7 +647,7 @@
       "tags": "derivatives, functions",
       "url": "/question/b768e512-b7b3-420f-bad0-6e55add8b38f",
       "source": "AP Calculus Problems 2.3.23",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "5844702d-a7bb-46fd-a65f-4f7e76ff72d8",
@@ -851,7 +664,7 @@
       "tags": "derivatives, functions",
       "url": "/question/5844702d-a7bb-46fd-a65f-4f7e76ff72d8",
       "source": "AP Calculus Problems 2.3.24",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "10685bca-4c3b-439c-994e-b36b4971391f",
@@ -868,7 +681,7 @@
       "tags": "integrals, differentiation, area, graph, derivatives, antiderivatives",
       "url": "/question/10685bca-4c3b-439c-994e-b36b4971391f",
       "source": "AP Calculus Problems 4.2.83",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "ef1c105f-36c3-4820-a54b-2825c6571c4d",
@@ -885,7 +698,7 @@
       "tags": "derivatives, functions",
       "url": "/question/ef1c105f-36c3-4820-a54b-2825c6571c4d",
       "source": "AP Calculus Problems 2.3.25",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "08ae02e0-82e0-4916-a056-1518be0a2bd3",
@@ -902,7 +715,92 @@
       "tags": "tangent line, curves, equations",
       "url": "/question/08ae02e0-82e0-4916-a056-1518be0a2bd3",
       "source": "AP Calculus Problems 2.4.1",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "0c1020f2-618f-4d76-971b-68b2f3299f64",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangent Lines",
+      "body": "For the following five problems, find an equation for the tangent line to the curve at the given \\(x\\)-coordinate. \n\\(y\u003d2\\sqrt{x}\\); \\quad \\(x\u003d1\\)",
+      "allAnswers": [],
+      "tags": "tangent line, curves, equation",
+      "url": "/question/0c1020f2-618f-4d76-971b-68b2f3299f64",
+      "source": "AP Calculus Problems 2.4.2",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "8e37c826-754b-4175-b79b-da02d75c24a5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangent Lines",
+      "body": "For the following five problems, find an equation for the tangent line to the curve at the given \\(x\\)-coordinate. \n\\(y\u003dx-2x^2\\); \\quad \\(x\u003d1\\)",
+      "allAnswers": [],
+      "tags": "tangent line, curve, equation ",
+      "url": "/question/8e37c826-754b-4175-b79b-da02d75c24a5",
+      "source": "AP Calculus Problems 2.4.3",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "c0981df6-370b-466b-aad2-cbca578cc3c6",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangent Lines",
+      "body": "For the following five problems, find an equation for the tangent line to the curve at the given \\(x\\)-coordinate. \n\\(y\u003dx^{-3}\\); \\quad \\(x\u003d-2\\)",
+      "allAnswers": [],
+      "tags": "tangent line, curve, equation",
+      "url": "/question/c0981df6-370b-466b-aad2-cbca578cc3c6",
+      "source": "AP Calculus Problems 2.4.4",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "365995d2-7afd-4a9b-bc71-4138e8a2d48e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangent Lines",
+      "body": "For the following five problems, find an equation for the tangent line to the curve at the given \\(x\\)-coordinate. \n\\(y\u003dx^3+3x\\); \\quad \\(x\u003d1\\)",
+      "allAnswers": [],
+      "tags": "tangent line, curve, equation",
+      "url": "/question/365995d2-7afd-4a9b-bc71-4138e8a2d48e",
+      "source": "AP Calculus Problems 2.4.5",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "6cd2cdd2-63f2-4e01-9d39-ef5166e1c790",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Tangent Lines",
+      "body": "At what points does the graph of \\(y\u003dx^2+4x-1\\) have a horizontal tangent? ",
+      "allAnswers": [],
+      "tags": "tangent line, horizontal tangent, graph",
+      "url": "/question/6cd2cdd2-63f2-4e01-9d39-ef5166e1c790",
+      "source": "AP Calculus Problems 2.4.6",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Function Notation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2229.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2231.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2232.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2238.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2229.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2230.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2231.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2232.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2236.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2237.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2238.png\"/\u003e",
       "allAnswers": [],
       "tags": "inputs, outputs, function notation, f of x, independent variable, argument of f, dependent variable, implied domain, applied domain ",
       "url": "/text-content/c004e48f-a1ea-4555-9c64-204f99fbbd13",
       "source": "Precalculus, 3rd Edition 1.4",
-      "topic": "Pre-Calculus/Relations and Functions/Function Notation"
+      "topic": "bfa8875a-cfaa-4a2f-bd35-ebabf7b46689"
     },
     {
       "uuid": "4f987841-1f1b-4a86-999a-d5335ff7a8ca",
@@ -933,14 +831,84 @@
       "viewable": true,
       "karma": 3,
       "title": "Function Arithmetic",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2243.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2244.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2248.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2242.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2243.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2244.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2245.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2246.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2247.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2248.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, arithmetic of functions, difference quotient  ",
       "url": "/text-content/4f987841-1f1b-4a86-999a-d5335ff7a8ca",
       "source": "Precalculus, 3rd Edition 1.5",
-      "topic": "Pre-Calculus/Relations and Functions/Function Arithmetic"
+      "topic": "0a26381e-574c-49ff-9d55-fe02b8023f02"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "b53acade-ad77-49cd-aac4-76fd79b4f986",
+      "subTopics": [],
+      "parentTopics": [
+        "6846ecf2-fa29-41a0-8315-fd49f306572b"
+      ],
+      "title": "The Dot Product",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " vectors, vector magnitude, vectors , dot product,work, vector arithmetic, magnitude,dot product,force, triangle inequality, word problem, force, polar,vector addition,vector to polar, sine, cosine,triangle inequality, bearings, slope, vector multiplication, work , force , gravity , motion, work, complex numbers, equation of a line,slope intercept form,vector dot product, intercept, vector addition,",
+      "difficulty": 237000,
+      "contentUuids": [
+        "0b025161-f197-49cb-95a7-304e6773993e",
+        "f356023f-f2c2-45db-b5af-eceee9f1c041",
+        "d1d9eaf3-73a6-4e00-9e7d-6750e3d6abcf",
+        "0e99ced5-15e8-4fce-8a2a-c429c7f8f06d",
+        "dfe479d4-992e-4066-af07-70f015db36f5",
+        "51c101ab-9698-4806-b5d7-dc450338f18c",
+        "e34e322e-cf59-49bc-a630-5e197ef5d87c",
+        "18bba031-0421-419d-a3f9-ec1fa9e02edb",
+        "698da5bb-c0e6-41a6-97d6-070f92619c10",
+        "957d580a-4bcd-4491-a549-701b7efd9754",
+        "0575ca16-589d-4fb3-acb8-5f7b96543b93",
+        "713ab2b4-8273-4cf6-98b9-2da124cb0c44",
+        "a5381ce4-e09f-4ebf-8895-56fd2569c255",
+        "534b9027-7180-4c10-8257-663c06dd6c85"
+      ]
+    },
+    {
+      "uuid": "a5adfa54-171b-41ac-b4b3-2f96b4b503af",
+      "subTopics": [
+        "1ef63a67-df8a-4c7a-a29e-19ff0a231405"
+      ],
+      "parentTopics": [
+        "01223b5e-0a0e-4d15-a377-a4496066ec20"
+      ],
+      "title": "Area Under A Curve",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    },
+    {
+      "uuid": "1c42f68a-563d-4ab1-97dc-5b593b28f4ad",
+      "subTopics": [],
+      "parentTopics": [
+        "a8e25fb0-3be6-4ce8-a458-ef5b5deae285"
+      ],
+      "title": "Domain",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "function, evaluating functions, domain, evaluate functions, inverse, domain of function, evaluate function,",
+      "difficulty": 55000,
+      "contentUuids": [
+        "f9ff2a64-cada-4938-892d-71e8fd215278",
+        "02984b70-444b-438a-bfc8-fbefece93181",
+        "7e8a38f8-a2ff-4e00-b40d-9b863ce4a131",
+        "5f29d3c6-a946-465f-8645-e34a108954e3",
+        "a581f30b-0c20-4724-aeb6-dd0dbfb60006",
+        "405ced76-2c59-48f9-89dc-c9765359e3df",
+        "53998178-3be2-4e7b-aaf8-ffa3abaf20b5",
+        "25249a70-331a-46f8-85ef-524de8b15d0c",
+        "2e663113-0eeb-4c95-91ff-2e3be79b1a9e",
+        "c6f3e1e3-59c1-4b87-a178-2eff0bf842bf",
+        "d6927881-f0ea-4aec-b74e-556c172157f9",
+        "36eff6db-f411-403a-8f45-bdfd652c4905"
+      ]
+    }
+  ]
 }

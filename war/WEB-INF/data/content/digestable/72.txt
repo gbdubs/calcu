@@ -2,448 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(\\dfrac{10}3\\) ,  \\(\\dfrac{50}3\\) ",
-      "uuid": "cd85fa08-0cba-4457-a9da-2b7971c6f794",
+      "authorSolution": " \\(6\\) ,  \\(5\\) ",
+      "uuid": "bad49eb5-4d47-403f-b772-feafe6e7df42",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361852,
+      "createdAt": 1437419362075,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Antiderivatives Problem",
-      "body": " Express 20 as the sum of two positive numbers  \\(x\\)  and  \\(y\\)  such that  \\(x^3+y^2\\)  is as small as possible.    Answer:  \\(x\u003d\\) _____ and  \\(y\u003d\\) _____.",
+      "title": "Practice With Acceleration",
+      "body": " velocity is  \\(a(t) \\vec{ }i + b(t) \\vec{ }j\\)  where  \\(a(t)\\) \u003d_____ and  \\(b(t)\\) \u003d_______.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/cd85fa08-0cba-4457-a9da-2b7971c6f794",
+      "tags": "acceleration and curvature, velocity ,speed ,acceleration ,tangential component of the acceleration (denoted by",
+      "url": "/practice-problem/bad49eb5-4d47-403f-b772-feafe6e7df42",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "48c2f873-510f-47c0-909f-efab1c41580b"
     },
     {
-      "authorSolution": " \\(-1\\) ,  \\(0\\) ",
-      "uuid": "f7214bcc-bd23-4e1f-9255-8bf44ed8f585",
+      "authorSolution": " \\(a\\theta\\) ,  \\(1 + a^2\\) ",
+      "uuid": "fad72cab-9a3a-4115-bbcc-9405caf9fd37",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361852,
+      "createdAt": 1437419362075,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Applications Of The Derivative Practice",
-      "body": " Find the point on the curve  \\(y^2\u003d\\frac 52(x+1)\\)  which is nearest the origin.   Answer:(__,__).",
+      "title": "Acceleration Problem",
+      "body": " acceleration is  \\(a(t) \\vec{ }i + b(t) \\vec{ }j\\)  where  \\(a(t)\\) \u003d___ and  \\(b(t)\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/f7214bcc-bd23-4e1f-9255-8bf44ed8f585",
+      "tags": "acceleration and curvature, velocity ,speed ,acceleration ,tangential component of the acceleration (denoted by",
+      "url": "/practice-problem/fad72cab-9a3a-4115-bbcc-9405caf9fd37",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "48c2f873-510f-47c0-909f-efab1c41580b"
     },
     {
-      "authorSolution": " \\(4\\sqrt2\\) ,  \\(8\\sqrt2\\) ",
-      "uuid": "fbc13728-dfbe-46ea-8e82-4e99cc3fccf4",
+      "authorSolution": " \\(6\\) ,  \\(5\\) ",
+      "uuid": "5ecbe572-9041-4a82-a8dd-25e1a53ec06f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361853,
+      "createdAt": 1437419362075,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Antiderivatives",
-      "body": " Find the lengths of the sides of the rectangle of largest area which can be inscribed in a semicircle of radius 8.   (The lower base of the rectangle lies along the diameter of the semicircle.)  Answer: the sides should have lengths _____and_____.",
+      "title": "Practice In Speed",
+      "body": " normal component of acceleration is _____.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/fbc13728-dfbe-46ea-8e82-4e99cc3fccf4",
+      "tags": "acceleration and curvature, velocity ,speed ,acceleration ,tangential component of the acceleration (denoted by",
+      "url": "/practice-problem/5ecbe572-9041-4a82-a8dd-25e1a53ec06f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "48c2f873-510f-47c0-909f-efab1c41580b"
     },
     {
-      "authorSolution": " \\(4\\) ,  \\(12\\) ",
-      "uuid": "ff3ba5a7-4ebc-47fb-babe-550c4cef334c",
+      "authorSolution": " \\(6\\) ",
+      "uuid": "9662a6a4-463b-4ef4-a20b-d5911335ad24",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361853,
+      "createdAt": 1437419362075,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Related Rates Question",
-      "body": " An open cylindrical tank of volume 192 \\(\\pi\\)  cubic feet is to be constructed.   If the material for the sides costs $3 per square foot, and the material for the bottom costs $9 per square foot, find the radius and height of the tank which will be most economical.   Answer: radius \u003d ___ft; height \u003d ____ft.",
+      "title": "A Acceleration Question",
+      "body": " A particle  \\(P\\)  moves along a curve  \\(C\\) .   Its position at time  \\(t\\)  is given by \n  \\(\\vec{ }r(t) \u003d 2t \\vec{ }i + t^2 \\vec{ }j + \\frac13t^3 \\vec{ }k\\) .    Then",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/ff3ba5a7-4ebc-47fb-babe-550c4cef334c",
+      "tags": "acceleration and curvature, velocity ,speed ,acceleration ,tangential component of the acceleration (denoted by",
+      "url": "/practice-problem/9662a6a4-463b-4ef4-a20b-d5911335ad24",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "48c2f873-510f-47c0-909f-efab1c41580b"
     },
     {
-      "authorSolution": " \\(20\\) ",
-      "uuid": "199110f9-a56c-4c6c-adb1-5d5cad71d48f",
+      "authorSolution": " \\(4\\) ",
+      "uuid": "fcf53421-3ad4-4cdc-b90c-e24f7f9d14d0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361853,
+      "createdAt": 1437419362085,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Related Rates",
-      "body": " A farmer has 100 pigs each weighing 300 pounds.   It costs $.50 a day to keep one pig.    The pigs gain weight at 10 pounds a day.   They sell today for $.75 a pound, but the price is falling by $.01 a day.   How many days should the farmer wait to sell his pigs in order to maximize his profit?  Answer: _____days.",
+      "title": "Question On Center Of Gravity (or Mass)",
+      "body": " Let  \\(f(x,y) \u003d 2y - x^2\\)  and  \\(R\\)  be the region in the  \\(xy\\) -plane bounded by the coordinate axes and the line  \\(x + y \u003d 1\\) .   Then  \\(\\int_R f dA \u003d \\dfrac1a\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/199110f9-a56c-4c6c-adb1-5d5cad71d48f",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/fcf53421-3ad4-4cdc-b90c-e24f7f9d14d0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(4\\sqrt2\\) ",
-      "uuid": "bc017945-dbff-45f9-883c-d23d16a97ade",
+      "authorSolution": " \\(2\\) ,  \\(0\\) ,  \\(2\\sqrt 2\\) ,  \\(x\\) ,  \\(\\sqrt{8 - x^2}\\) ",
+      "uuid": "16d5aed5-9233-40a6-9e23-a2536d19a94b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361853,
+      "createdAt": 1437419362085,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Newton\u0027s Method Problem",
-      "body": " Two men carry a  \\(14\\sqrt 7\\)  ft.   ladder down a  \\(10\\sqrt 5\\)  ft.   wide corridor.    They turn into a second corridor, perpendicular to the first one, while keeping the ladder horizontal.   Find the minimum possible width of the second corridor.   Answer:_____feet.",
+      "title": "Double Integrals",
+      "body": " Let  \\(f\\)  be a continuous function of two variables.    Then       \\[ \\int_0^2 \\int_y^{\\sqrt{8-y^2}} f(x,y) dx dy                          \u003d \\int_0^a\\int_b^{g(x)} f(x,y) dy dx + \\int_a^c\\int_b^{h(x)} f(x,y) dy dx \\] \\noindent where  \\(a\\) \u003d___,  \\(b\\) \u003d___,  \\(c\\) \u003d____,  \\(g(x)\\) \u003d___, and  \\(h(x)\\) \u003d________.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/bc017945-dbff-45f9-883c-d23d16a97ade",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/16d5aed5-9233-40a6-9e23-a2536d19a94b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(18\\) ,  \\(18\\) ",
-      "uuid": "bc7e54d6-08cd-4fad-b6ce-73fa00f7efbc",
+      "authorSolution": " \\(-2\\) ,  \\(2\\) ,  \\(0\\) ,  \\(\\sqrt{4 - y^2}\\) ,  \\(0\\) ,  \\(2\\) ,  \\(-\\sqrt{4 - x^2}\\) ,  \\(\\sqrt{4 - x^2}\\) ",
+      "uuid": "3b32cd42-3bc5-4415-9482-30eef09f685a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361853,
+      "createdAt": 1437419362085,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Newton\u0027s Method",
-      "body": " A window is in the shape of a rectangle surmounted by a semicircle.    If the perimeter is to be 18 feet, find the dimensions which maximize the area.   Answer: the radius of the semicircle should be  \\(\\dfrac a{4+\\pi}\\) ft and the height of the rectangle should be  \\(\\dfrac b{4+\\pi}\\) ft where  \\(a\u003d\\) _____ and  \\(b\u003d\\) _____.",
+      "title": "Practice In Riemann Sums",
+      "body": " The volume of the region satisfying  \\(x^2+y^2 \\le 4\\)  and  \\(0 \\le z \\le 2x\\)  can be expressed as the iterated integral       \\[ \\int_a^b\\int_{f(y)}^{g(y)} 2x dx dy \\] where  \\(a\\) \u003d___,  \\(b\\) \u003d___,  \\(f(y)\\) \u003d___, and  \\(g(y)\\) \u003d________ or as the iterated integral       \\[ \\int_c^d\\int_{k(x)}^{l(x)} 2x dy dx \\] where  \\(c\\) \u003d___,  \\(d\\) \u003d___,  \\(k(x)\\) \u003d_______, and  \\(l(x)\\) \u003d_______.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/bc7e54d6-08cd-4fad-b6ce-73fa00f7efbc",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/3b32cd42-3bc5-4415-9482-30eef09f685a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(5\\) ,  \\(3\\) ",
-      "uuid": "b4b223ff-5740-4667-9e01-bd31edc52398",
+      "authorSolution": " \\(2\\sqrt 3\\) ,  \\(\\dfrac{z}{\\sqrt 3}\\) ,  \\(\\sqrt{16 - z^2}\\) ",
+      "uuid": "eb1c7002-163c-4308-b899-8f44a2419118",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361854,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Antiderivatives",
-      "body": " What are the dimensions of a rectangular box---with no top---of greatest volume that can be constructed from 120 sq.   in.   of material if the base of the box is to be twice as long as it is wide?  Answer: width of base  \\(\u003d 2 \\sqrt a\\)  and height of box  \\(\u003d\\dfrac4b\\sqrt a\\)  where  \\(a\u003d\\) ___ in.   and  \\(b\u003d\\) ___ in.",
+      "title": "A Density And Mass Of A Plane Lamina Question",
+      "body": " Let  \\(f\\)  be a continuous function of two variables.    Then        \\[ \\int_0^2\\int_0^{\\sqrt3 y}f(y,z) dz dy + \\int_2^4\\int_0^{\\sqrt{16-y^2}}f(y,z) dz dy                        \u003d \\int_0^a\\int_{g(z)}^{h(z)}f(y,z) dy dz \\] where  \\(a\\) \u003d____,  \\(g(z)\\) \u003d______, and  \\(h(z)\\) \u003d__________.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/b4b223ff-5740-4667-9e01-bd31edc52398",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/eb1c7002-163c-4308-b899-8f44a2419118",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(\\dfrac{\\pi}3\\) ,  \\(2\\sqrt3\\) ",
-      "uuid": "17f931ed-69db-4484-9915-dc9be9a5b0c8",
+      "authorSolution": " \\(1\\) ,  \\(3\\) ",
+      "uuid": "9256257f-1856-43f3-bd4e-a8a51cd94ddf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361854,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Newton\u0027s Method Problem",
-      "body": " Consider all rectangles which have one side on the positive  \\(x\\) -axis and which lie under the curve  \\(y \u003d 4\\sin x\\)  with  \\(0 \\le x \\le \\pi\\) .    The one with the largest perimeter has width ____ and height____.",
+      "title": "Iterated Integrals Practice",
+      "body": "  \\(\\int_0^1 \\int_{\\sqrt y}^1 \\cos x^3 dx dy \u003d \\dfrac ab \\sin a\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/17f931ed-69db-4484-9915-dc9be9a5b0c8",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/9256257f-1856-43f3-bd4e-a8a51cd94ddf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     },
     {
-      "authorSolution": " \\(-15\\) ",
-      "uuid": "b80d3687-55e8-44d3-bf03-376a41bb000b",
+      "authorSolution": " \\(1\\) ,  \\(2\\) ,  \\(4\\) ",
+      "uuid": "3c57ee1d-d5e2-4e84-83b0-dace090812eb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361854,
+      "createdAt": 1437419362086,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Related Rates",
-      "body": " Suppose that  \\(f\u0027\u0027(x) \u003d 18x - 14\\) , that  \\(f\u0027(-1) \u003d 8\\) , and that  \\(f(-1) \u003d 9\\) .    Then  \\(f(1)\\) \u003d_____.",
+      "title": "Practice In Moment Of A Plane Region About A Line",
+      "body": "  \\(\\int_0^2\\int_0^1 e^{\\max\\{x^2,4y^2\\}} dy dx \u003d \\dfrac ab(e^p-a)\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(p\\) \u003d___.   \n [Note:  \\(\\max\\{u,v\\}\\)  denotes the larger of the numbers  \\(u\\)  and \\(v\\) .]",
       "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/b80d3687-55e8-44d3-bf03-376a41bb000b",
+      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
+      "url": "/practice-problem/3c57ee1d-d5e2-4e84-83b0-dace090812eb",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(\\dfrac14\\) ,  \\(1\\) ,  \\(5\\) ,  \\(-7\\) ",
-      "uuid": "51882834-bace-4e0d-a197-ed9a0c9728b1",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361854,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Optimization",
-      "body": " Suppose that  \\(f\u0027\u0027\u0027(x) \u003d 6x + 6\\) ,  \\(f(0) \u003d -7\\) ,  \\(f(1) \u003d \\frac14\\) , and  \\(f(2) \u003d 19\\) .   Then  \\(f(x)\u003d ax^4 + x^3 + bx^2 + cx + d\\)  where  \\(a\u003d\\) ___,  \\(b\u003d\\) ___,  \\(c\u003d\\) ___, and  \\(d\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/51882834-bace-4e0d-a197-ed9a0c9728b1",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(30\\) ",
-      "uuid": "82a2a37f-d5de-4f2c-90fc-b2ad685fa727",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361854,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Related Rates Practice",
-      "body": " An object is heated to  \\(838^{\\circ}\\)  and then allowed to cool in air that is \\(70^{\\circ}\\) .   Suppose that it takes 2 hours to cool the object to  \\(313^{\\circ}\\) .    Then it takes _____ minutes to cool the object to \\(646^{\\circ}\\) .    \u003ci\u003eHint.\u003c/i\u003e Use \u003ci\u003eNewton\u0027s law of cooling.\u003c/i\u003e",
-      "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/82a2a37f-d5de-4f2c-90fc-b2ad685fa727",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(28\\) , right",
-      "uuid": "75443deb-a467-4466-be62-b97bc0c30d09",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361855,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Optimization Question",
-      "body": " A point is moving along the  \\(x\\) -axis in such a way that its acceleration at each time  \\(t\\)  is  \\(\\frac34\\pi^2\\sin\\frac\\pi2t\\) .   Initially the point is located 4 units to the left of the origin.   One second later it is at the origin.   Where is it at time  \\(t \u003d 5\\) ? Answer: _____ units to the _______ of the origin.",
-      "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/75443deb-a467-4466-be62-b97bc0c30d09",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(-6\\) ,  \\(12\\) ,  \\(-3\\) ",
-      "uuid": "9ae9bbb9-9b5c-4253-be36-d95edbb4ff24",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361855,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Applications Of The Derivative",
-      "body": " A function  \\(f\\)  satisfies the following conditions:\n  (i)  \\(f\u0027\u0027(x) \u003d 6x - 12\\)  for all  \\(x\\) , and\n  (i) the graph of the curve  \\(y \u003d f(x)\\)  passes through the point  \\((2,5)\\)  and has a horizontal tangent at that point.   Then  \\(f(x) \u003d x^3 +ax^2 + bx + c\\)  where  \\(a\u003d\\) ___,  \\(b\u003d\\) ___, and  \\(c\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/9ae9bbb9-9b5c-4253-be36-d95edbb4ff24",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(9\\) ,  \\(4\\) ,  \\(-11\\) ",
-      "uuid": "d601a2db-2912-4de7-a677-8f5d8a2ba550",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361855,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Related Rates Question",
-      "body": " The solution to the differential equation  \\(\\dfrac{dy}{dx} \u003d 3x^{1/3}\\)  subject to the condition  \\(y \u003d 25\\)  when  \\(x \u003d 8\\)  is  \\(y(x) \u003d \\frac a4x^{p/3} + b\\)  where  \\(a\u003d\\) ___,  \\(p\u003d\\) ___, and  \\(b\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/d601a2db-2912-4de7-a677-8f5d8a2ba550",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
-    },
-    {
-      "authorSolution": " \\(3 - \\exp(\\cos x)\\) ",
-      "uuid": "39bc1f8f-386f-4af2-85c9-710d0dcc1a5e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361855,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Related Rates",
-      "body": " The solution to the differential equation  \\(y\u0027(x) \u003d \\sin x e^{\\cos x}\\)  which satisfies the condition  \\(y \u003d 2\\)  when  \\(x \u003d \\dfrac{\\pi}2\\)  is  \\(y(x)\u003d\\) ____________.",
-      "allAnswers": [],
-      "tags": "applications of the derivative, antiderivatives ,related rates ,optimization ,Newton\u0027s method",
-      "url": "/practice-problem/39bc1f8f-386f-4af2-85c9-710d0dcc1a5e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives"
+      "topic": "7708db5c-347f-45ac-836a-8eceac9fe7f7"
     }
   ],
   "questions": [
-    {
-      "uuid": "3bb60add-038c-4508-9ab0-f4dc7681f283",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/3bb60add-038c-4508-9ab0-f4dc7681f283",
-      "source": "First Year Calculus ",
-      "topic": ""
-    },
-    {
-      "uuid": "61e281f2-8178-4478-b1b0-0e1f3fd4ef68",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\u003dx^3\\) is continuous at \\(x\u003d1\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/61e281f2-8178-4478-b1b0-0e1f3fd4ef68",
-      "source": "First Year Calculus 3.1.8",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "9f3d4cf2-8d27-4a2c-a0f3-b00b2c02a747",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\u003d\\sqrt{x}\\) is continuous at \\(x\u003d9\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/9f3d4cf2-8d27-4a2c-a0f3-b00b2c02a747",
-      "source": "First Year Calculus 3.1.9",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "ec85bbb1-d12d-48b9-8d52-eb915f404150",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\u003d\\sqrt{x}\\) is continuous at any \\(a\u003e0\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/ec85bbb1-d12d-48b9-8d52-eb915f404150",
-      "source": "First Year Calculus 3.1.10",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "dca02480-9584-4236-9972-a39077117709",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\u003d\\frac1x\\) is continuous at any \\(a\\ne 0\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/dca02480-9584-4236-9972-a39077117709",
-      "source": "First Year Calculus 3.1.11",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "7dd72555-fb31-4654-90fe-71a411bc96be",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\\) is continuous at \\(x\u003d0\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/7dd72555-fb31-4654-90fe-71a411bc96be",
-      "source": "First Year Calculus 3.1.12",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "3a3e17a6-e376-47d9-8218-bab8de12b86e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\\) is continuous at \\(x\u003d8\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/3a3e17a6-e376-47d9-8218-bab8de12b86e",
-      "source": "First Year Calculus 3.1.13",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "5b0efca4-d801-40d0-b18c-f7e40d788637",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\\) is continuous at \\(a\\) for any \\(a\u003e0\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/5b0efca4-d801-40d0-b18c-f7e40d788637",
-      "source": "First Year Calculus 3.1.14",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
-    {
-      "uuid": "33747170-0185-4a7f-9562-50d0c987978e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Continuity Practice",
-      "body": "Show that \\(f(x)\\) is continuous at any \\(a\\ne0\\).",
-      "allAnswers": [],
-      "tags": "reciprocal, continuity, proof, limits, calculus",
-      "url": "/question/33747170-0185-4a7f-9562-50d0c987978e",
-      "source": "First Year Calculus 3.1.15",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
-    },
     {
       "uuid": "1df1c43e-6df5-46f3-a877-fd597b31a292",
       "contentType": "question",
@@ -459,7 +198,7 @@
       "tags": "reciprocal, continuity, proof, limits, calculus",
       "url": "/question/1df1c43e-6df5-46f3-a877-fd597b31a292",
       "source": "First Year Calculus 3.2.1",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "a847bcfb-9c48-4788-ad24-3e1ba3686244",
@@ -476,7 +215,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/a847bcfb-9c48-4788-ad24-3e1ba3686244",
       "source": "First Year Calculus 3.2.2",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "eca69bfa-df88-493e-bb1d-00ba6392b30a",
@@ -493,7 +232,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/eca69bfa-df88-493e-bb1d-00ba6392b30a",
       "source": "First Year Calculus 3.2.3",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "33566f90-650e-40e6-bc91-e6e7cf2772ab",
@@ -510,7 +249,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/33566f90-650e-40e6-bc91-e6e7cf2772ab",
       "source": "First Year Calculus 3.2.4",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "85dfd12c-859a-4bea-b199-75ea90cdbccd",
@@ -527,7 +266,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/85dfd12c-859a-4bea-b199-75ea90cdbccd",
       "source": "First Year Calculus 3.2.5",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "ff190df0-3b99-4995-a40e-3dee901cb43a",
@@ -544,7 +283,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/ff190df0-3b99-4995-a40e-3dee901cb43a",
       "source": "First Year Calculus 3.2.6",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "0ca557cc-5785-4859-8160-3e23b3f6212a",
@@ -561,7 +300,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/0ca557cc-5785-4859-8160-3e23b3f6212a",
       "source": "First Year Calculus 3.2.7",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "0cb70556-86b3-43eb-93a0-4b4042b803a2",
@@ -578,7 +317,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/0cb70556-86b3-43eb-93a0-4b4042b803a2",
       "source": "First Year Calculus 3.2.8",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "beadcf42-3c48-4fad-8d83-189d71bbe9be",
@@ -595,7 +334,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/beadcf42-3c48-4fad-8d83-189d71bbe9be",
       "source": "First Year Calculus 3.2.9",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "935fcf37-06e0-4dcd-b67a-e80c0ced3b68",
@@ -612,7 +351,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/935fcf37-06e0-4dcd-b67a-e80c0ced3b68",
       "source": "First Year Calculus 3.2.10",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "af6700a5-b411-42f5-825d-e111efae3603",
@@ -629,7 +368,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/af6700a5-b411-42f5-825d-e111efae3603",
       "source": "First Year Calculus 3.2.11",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "5cc918be-14f1-4df5-a5c3-32919ad79adf",
@@ -646,7 +385,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/5cc918be-14f1-4df5-a5c3-32919ad79adf",
       "source": "First Year Calculus 3.2.12",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "495162b1-3519-4c03-b919-e06c66be59c4",
@@ -663,7 +402,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/495162b1-3519-4c03-b919-e06c66be59c4",
       "source": "First Year Calculus 3.2.13",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "ba582e31-17ce-40ea-9b8b-1bdde2cc0aa2",
@@ -680,7 +419,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/ba582e31-17ce-40ea-9b8b-1bdde2cc0aa2",
       "source": "First Year Calculus 3.2.14",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "de70acec-ebc1-4128-a8c6-8b12f0694093",
@@ -697,7 +436,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/de70acec-ebc1-4128-a8c6-8b12f0694093",
       "source": "First Year Calculus 3.2.15",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "50508120-deea-4995-b5da-3691536c623d",
@@ -714,7 +453,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/50508120-deea-4995-b5da-3691536c623d",
       "source": "First Year Calculus 3.2.16",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "d458a053-4698-4542-8e84-2f75daf00779",
@@ -731,7 +470,7 @@
       "tags": "reciprocal, continuity, limits, calculus",
       "url": "/question/d458a053-4698-4542-8e84-2f75daf00779",
       "source": "First Year Calculus 3.2.17",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Properties of Exponential Functions/Approaching Infinity"
+      "topic": "5d092d1a-9544-415e-a2b0-7d7c1617ce77"
     },
     {
       "uuid": "697973c2-0bda-4feb-92b5-d03686443257",
@@ -913,12 +652,165 @@
       "viewable": true,
       "karma": 3,
       "title": "Computing Volumes of Surfaces of Revolution",
-      "body": "For the solid in the figure the face formed by a cut at x is a triangle with a base of 4 inches and a height of x\\(^{2}\\) inches. Write and evaluate an integral for the volume of the solid for x between 1 and 2.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20435.png\"/\u003e",
+      "body": "For the solid in the figure the face formed by a cut at x is a triangle with a base of 4 inches and a height of x\\(^{2}\\) inches. Write and evaluate an integral for the volume of the solid for x between 1 and 2.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20435.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "application of integrals, solids, triangle, volume",
       "url": "/question/55a2390f-3183-4ccb-b849-1349ea0d959c",
       "source": "Washington 2.2.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Improper Integrals/Limit at Infinity"
+      "topic": "42a6e68e-c1a9-42c7-8b39-90ed3b64fa29"
+    },
+    {
+      "uuid": "76e5c325-97bb-4645-b49a-6f8213fd8a8f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch and Find the Riemann Sum",
+      "body": "Sketch the function and find the smallest possible value and the largest possible value for a Riemann sum of the given function and partition.\n\n\\( f(x) \u003d 1 + x^{2} \\)\n(a) \\(P \u003d \\left \\{ 1,2,4,5 \\right \\}\\)\n(b) \\(P \u003d \\right \\{ 1,2,3,4,5 \\right \\}\\)\n(c) \\(P \u003d \\right \\{ 1,1.5,2,3,4,5 \\right \\}\\)",
+      "allAnswers": [],
+      "tags": "riemann sum, sketch, graph, functions, integral, calculus",
+      "url": "/question/76e5c325-97bb-4645-b49a-6f8213fd8a8f",
+      "source": "Washington 1.1.1",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "fab70126-3c61-4927-acae-384d71106abb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Computing Volumes of Surfaces of Revolution",
+      "body": "Find the volume of the squarebased pyramid in the figure\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20436.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "volume, application of integrals, pyramid",
+      "url": "/question/fab70126-3c61-4927-acae-384d71106abb",
+      "source": "Washington 2.2.2",
+      "topic": "360d6d80-2016-4832-9885-6999d85c5de4"
+    },
+    {
+      "uuid": "40a22c80-9706-44d2-881a-80d9173e53da",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Computing Volumes of Surfaces of Revolution",
+      "body": "Find the volume generated when the region between one arch of the sine curve (0\\(\\leq\\)x\\(\\leq \\pi\\)) and the x-axis is revolved about (a) the x-axis and (b) the line y \u003d 1/2.",
+      "allAnswers": [],
+      "tags": "volume, sine curve, line, application of integrals",
+      "url": "/question/40a22c80-9706-44d2-881a-80d9173e53da",
+      "source": "Washington 2.2.3",
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
+    },
+    {
+      "uuid": "d206f703-c86e-434e-b13b-d251b11d1f2b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch and Find the Riemann Sum",
+      "body": "Sketch the function and find the smallest possible value and the largest possible value for a Riemann sum of the given function and partition.\n\n\\( f(x) \u003d 7-2x \\)\n(a) \\(P \u003d \\left \\{ 0,2,3 \\right \\}\\)\n(b) \\(P \u003d \\right \\{ 0,1,2,3 \\right \\}\\)\n(c) \\(P \u003d \\right \\{ 0, .5, 1, 1.5, 2, 3 \\right \\}\\)",
+      "allAnswers": [],
+      "tags": "riemann sum, sketch, graph, functions, integral, calculus",
+      "url": "/question/d206f703-c86e-434e-b13b-d251b11d1f2b",
+      "source": "Washington 1.1.2",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "84f2a71a-dfb1-4aff-bc88-0df0ca5581ba",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Computing Volumes of Surfaces of Revolution",
+      "body": "Given that \\(\\int_{1}^{5}\\) f(x)dx \u003d 4 and \\(\\int_{1}^{5} f(x)^{2}\\) dx \u003d 7. Represent the volumes of the solids (a), (b), (c) and (d) in the figure as definite integrals and evaluate the integrals.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20437.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "application of integrals, volume, definite integrals",
+      "url": "/question/84f2a71a-dfb1-4aff-bc88-0df0ca5581ba",
+      "source": "Washington 2.2.4",
+      "topic": "42a6e68e-c1a9-42c7-8b39-90ed3b64fa29"
+    },
+    {
+      "uuid": "db093f06-31c7-4c22-a480-798f79f4d1e6",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Computing Volumes of Surfaces of Revolution",
+      "body": "For 0\\(\\leq\\) x \\(\\leq\\) 3, each face is a circle with height (diameter) 4-x meters.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20438.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "application of integrals, circle, diameter, volume",
+      "url": "/question/db093f06-31c7-4c22-a480-798f79f4d1e6",
+      "source": "Washington 2.2.5",
+      "topic": "42a6e68e-c1a9-42c7-8b39-90ed3b64fa29"
+    },
+    {
+      "uuid": "382877d6-7c32-45a3-8c59-5b81a19c774c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Computing Volumes of Surfaces of Revolution",
+      "body": "Suppose A and B are solids so that every horizontal cut produces faces of A and B that have equal areas. What (if anything) can we conclude about the volumes of A and B? Justify your answer.",
+      "allAnswers": [],
+      "tags": "area, volumes, application of integrals, solids",
+      "url": "/question/382877d6-7c32-45a3-8c59-5b81a19c774c",
+      "source": "Washington 2.2.6",
+      "topic": "1d7ec98c-10dc-4bff-b331-2b22d8ba0300"
+    },
+    {
+      "uuid": "421ab3e5-28d1-4cfc-adc6-81b806f582de",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch and Find the Riemann Sum",
+      "body": "Sketch the function and find the smallest possible value and the largest possible value for a Riemann sum of the given function and partition.\n\n\\( f(x) \u003d \\sin (x) \\)\n(a) \\(P \u003d \\left \\{ 0, \\pi /2, \\pi \\right \\}\\)\n(b) \\(P \u003d \\right \\{ 0,\\pi /4, \\pi/ 2, \\pi \\right \\}\\)\n(c) \\(P \u003d \\right \\{ 0, \\pi /4, 3\\pi /4, \\pi \\right \\}\\)",
+      "allAnswers": [],
+      "tags": "riemann sum, sketch, graph, functions, integral, calculus",
+      "url": "/question/421ab3e5-28d1-4cfc-adc6-81b806f582de",
+      "source": "Washington 1.1.3",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "708c4dc8-09af-4935-85af-11e8da40a98c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Computing Volumes of Surfaces of Revolution",
+      "body": "Calculate the volume of a sphere of radius 2.",
+      "allAnswers": [],
+      "tags": "volume, sphere, radius, application of integrals",
+      "url": "/question/708c4dc8-09af-4935-85af-11e8da40a98c",
+      "source": "Washington 2.2.7",
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
     }
   ],
   "textContent": [
@@ -937,7 +829,7 @@
       "tags": "arc lengths, integral, integration, applications of integral ",
       "url": "/text-content/39f02128-e317-4b07-b0d6-e2bee697d0f1",
       "source": "Forgotten Text 5 2.5",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Arc Lengths"
+      "topic": "f51dc1f8-8965-4090-8ae2-e91cf584e1f5"
     },
     {
       "uuid": "8a4f3b5f-ee5f-4f25-8e6c-a2609cd8c4c2",
@@ -954,7 +846,7 @@
       "tags": "polar coordinates, cartesian coordinates, unit circle ",
       "url": "/text-content/8a4f3b5f-ee5f-4f25-8e6c-a2609cd8c4c2",
       "source": "Forgotten Text 5 3.1",
-      "topic": "Calculus/Polar Coordinates/Polar Coordinates"
+      "topic": "1176a467-9bc5-42f0-b7fe-ee52e05125f9"
     },
     {
       "uuid": "b1fd0ae8-4db3-4bd3-a0d2-5d7d839a4a9e",
@@ -971,9 +863,88 @@
       "tags": "areas, polar coordinates, areas in polar coordinates, cartesian coordinates, unit circle ",
       "url": "/text-content/b1fd0ae8-4db3-4bd3-a0d2-5d7d839a4a9e",
       "source": "Forgotten Text 5 3.2",
-      "topic": "Calculus/Polar Coordinates/Area in Polar Coordinates"
+      "topic": "0ad18a21-5a3f-4307-b4ef-73171dd45537"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "061df8fb-2d77-4499-95a6-72191d40e355",
+      "subTopics": [
+        "bcb2083d-fc46-49b4-89f9-b0431dd803ba"
+      ],
+      "parentTopics": [
+        "fb051bbf-fd62-437d-a29e-2e27d5591574"
+      ],
+      "title": "Factoring",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 58000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "ce8b3abf-066e-4cab-ae9b-88bb8d91d866",
+      "subTopics": [],
+      "parentTopics": [
+        "22b1df01-adef-412c-99aa-d3c870c624db"
+      ],
+      "title": "Some non-differentiable functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " domain,non-differentiable functions, tangents,",
+      "difficulty": 467000,
+      "contentUuids": [
+        "c75fa4ee-9e74-41f5-922f-720ee8b8cd0c"
+      ]
+    },
+    {
+      "uuid": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101",
+      "subTopics": [],
+      "parentTopics": [
+        "3a7e8a7c-233a-41df-905a-fa3719475bdf"
+      ],
+      "title": "Parametric Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "parametric equations, orientation of parametric equations, graphing parametric equations, vector function,vector, vectors,parametrized curves, parametric equation, parametrized equation, opposite side pairs, law of sines,trigonometry, vector functions, parametrized curves, vector, parametric curve,vector function, intersect,parametrization,parametric equation,parametrizations, coordinate planes, circle, line,",
+      "difficulty": 240000,
+      "contentUuids": [
+        "e9f021c5-ebe9-4501-803c-0dd63351555e",
+        "cc2bfa01-4144-4354-9fa6-6443564fea25",
+        "c46e6c3d-c5b9-4417-81fd-f869fd642af0",
+        "1cd80d2c-b91c-4d56-b9a5-4cc30c02188f",
+        "e3138b25-a91e-46ac-b374-780691f4509b",
+        "e79bd77a-7a4b-42ea-a025-7e830abadec1",
+        "ee5a4c5d-01d9-43ff-9405-9a8d5834f541",
+        "e4f436d1-e1c6-439c-9875-780761d963bd",
+        "143fe947-7dfa-4a6a-974c-77c5b2616c1a",
+        "f10fdb9a-c64a-42c4-b7e5-f694f17a6fa9",
+        "c822bf33-3ffa-432f-8cba-4a83d1712154",
+        "1471faac-9f11-4d5f-b8f8-cc67e99b79f8",
+        "e505e188-a499-46c9-aca7-972ff4e70bb6",
+        "dc0aea8c-31fb-4756-9d45-24a72d5b3832",
+        "bce81302-a32b-4400-a7df-979b45ebd07d",
+        "c4f6ab70-d519-4a3e-a2be-e4ed0910764a",
+        "84280221-425e-4bc3-a4c6-4ba7e143ac26",
+        "5b8d91cd-4d0c-4fb5-80bc-d350c5b6b19b",
+        "5bf8998f-79f5-4ea3-8b78-6f4311c9866e",
+        "028d9fe9-d0a1-491f-afbf-5b1acf9ff89c",
+        "f5a97eb7-ba05-4e5a-8ab0-dc6b6ba72cf5",
+        "c14e2eca-4585-43d5-87e7-308bc029e627",
+        "8a0b268e-9a15-4d5d-8401-3478696cc2a7",
+        "5d531630-0e4c-4853-b62b-9f233ad5f9f5",
+        "4b54efa6-a889-4dfa-a7bd-984ad83398f4",
+        "bb1d8994-12e7-422e-af39-5d1fcd521b5b",
+        "78d25ce2-5ad3-4d25-b9d8-01c8eab6498d",
+        "819922d6-5450-45cf-bcfa-eb6bc6d24d77",
+        "303593fe-8253-430a-a6ba-f3cb97d986d0",
+        "79065f87-2d76-448f-8253-c631b5f1d559",
+        "c8255b5b-c2fa-47da-a6fe-d37c593c18bb",
+        "952a2485-eb5e-4721-b5a2-eb2797b760c9",
+        "20625934-ea2c-46de-9921-e6a73706833d",
+        "6ca9b686-d25e-4fc3-a17e-6342ead39b7a"
+      ]
+    }
+  ]
 }

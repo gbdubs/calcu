@@ -2,380 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(x^2y^3z^4\\) ,  \\(20\\) ",
-      "uuid": "edc1698b-ec20-4f83-9dbf-7a211e61c4a7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/648.png\"/\u003e",
+      "uuid": "fedd5994-4281-4c5b-99a9-7e68839a3f32",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362133,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Line Integrals Question",
-      "body": " Let  \\(C\\)  be the curve given by  \\(\\vec{ }r(t) \u003d  t \\vec{ }i + t^2 \\vec{ }j + t^3 \\vec{ }k\\)  for  \\(0 \\le t \\le 2\\)  and let  \\(\\omega \u003d 2xy^3z^4 dx + 3x^2y^2z^4 dy + 4x^2y^3z^3 dz\\) .    The  \\(1\\) -form  \\(\\omega\\)  is exact because  \\(\\omega \u003d df\\)  where  \\(f\\)  is the  \\(0\\) -form  \\(f(x,y,z)\\)  \u003d ________.    Thus  \\(\\int\\limits_C \\omega \u003d 2^p\\)  where  \\(p\\) \u003d____.",
+      "title": "Solving trig equations, pt.5",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/647.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/edc1698b-ec20-4f83-9dbf-7a211e61c4a7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "trig equations, solving trig equations, trig ",
+      "url": "/practice-problem/fedd5994-4281-4c5b-99a9-7e68839a3f32",
+      "source": "null 6.1.5"
     },
     {
-      "authorSolution": " \\(8\\) ",
-      "uuid": "dc4799f3-c0f3-4932-ba87-589db71fb836",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/650.png\"/\u003e",
+      "uuid": "ce43cd7b-182e-4dd7-9f58-3a139635ad7f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362133,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Line Integrals",
-      "body": " Let  \\(C\\)  be the path given parametrically by  \\(\\vec{ }r(t) \u003d (t - 1)e^{t^2 - t} \\vec{ }i + (4t^2 - 1) \\vec{ }j\\)  for  \\(0 \\le t \\le 1\\) , then  \\(\\int\\limits_C(y - x^2) dx + (x + y^2) dy\\)  \u003d ___.",
+      "title": "Solving trig equations, pt.6",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/649.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/dc4799f3-c0f3-4932-ba87-589db71fb836",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "trig equations, solving trig equations, trig ",
+      "url": "/practice-problem/ce43cd7b-182e-4dd7-9f58-3a139635ad7f",
+      "source": "null 6.1.6"
     },
     {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "6195cea9-693f-46d7-8999-005373dfa9f8",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/662.png\"/\u003e",
+      "uuid": "f32e86ec-91dc-43fa-9e7f-8e40e5943905",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362133,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Line Integrals Practice",
-      "body": " A force field in the plane is given by  \\(\\vec{ }F(x,y) \u003d \\dfrac{y^2}{x^2} \\vec{ }i - \\dfrac{2y}x  \\vec{ }j\\) .    The work done in moving a particle from the point  \\((2,4)\\)  to the point \\((1,2)\\)  is___.",
+      "title": "complex numbers trig ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/661.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/6195cea9-693f-46d7-8999-005373dfa9f8",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "complex numbers, trig, trig equations ",
+      "url": "/practice-problem/f32e86ec-91dc-43fa-9e7f-8e40e5943905",
+      "source": "null 6.3.1"
     },
     {
-      "authorSolution": " \\(\\dfrac\\pi2(b^4 - a^4)\\) ",
-      "uuid": "23551775-d227-4ab8-a44c-3ebab4f17a0d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/665.png\"/\u003e",
+      "uuid": "66a61f22-6657-4bbc-8a44-5e53440aca2f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362133,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Line Integrals Problem",
-      "body": " Let  \\(\\vec{ }F(x,y) \u003d (2x - x^2y, 3y + xy^2)\\)  and let  \\(C_a\\)  and  \\(C_b\\)  be the circles centered at the origin with radii  \\(a\\)  and  \\(b\\) , respectively, where  \\(a\u003cb\\) .   Suppose that  \\(C_a\\)  is oriented clockwise and  \\(C_b\\)  is oriented counterclockwise.   Then       \\[ \\int\\limits_{C_a} \\vec{ }F \\cdot d\\vec{ }r + \\int\\limits_{C_b} \\vec{ }F \\cdot d\\vec{ }r \u003d \\text{______________.} \\]",
+      "title": "Find complex number value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/664.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/23551775-d227-4ab8-a44c-3ebab4f17a0d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "complex numbers, trig ",
+      "url": "/practice-problem/66a61f22-6657-4bbc-8a44-5e53440aca2f",
+      "source": "null 6.3.2"
     },
     {
-      "authorSolution": " \\(96\\) ",
-      "uuid": "8e51a549-b688-4ca1-85a2-74234c95b528",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/668.png\"/\u003e",
+      "uuid": "fc361ab6-cea8-48bf-95e5-516494d12a22",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362134,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Line Integrals Practice",
-      "body": " The integral of the differential form  \\(\\omega \u003d (y^2 - \\arctan x) dx + (3x + \\sin y) dy\\)  along the curve which forms the boundary of the region  \\(\\{(x,y)\\colon y \\ge x^2 \\text{ and } y \\le 4\\}\\)  is  \\(-\\dfrac a5\\)  where  \\(a\\) \u003d_____.",
+      "title": "Three cube roots",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/667.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/8e51a549-b688-4ca1-85a2-74234c95b528",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "cube roots, complex numbers, trig ",
+      "url": "/practice-problem/fc361ab6-cea8-48bf-95e5-516494d12a22",
+      "source": "null 6.3.3"
     },
     {
-      "authorSolution": " \\(360\\) ",
-      "uuid": "d37cde7e-c809-4355-ab74-4eb1dd3dbb91",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/675.png\"/\u003e",
+      "uuid": "f1f351da-db64-49c7-ad02-041da8dd144d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362134,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Line Integrals",
-      "body": " Let  \\(\\vec{ }F(x,y) \u003d (2xy - x\\ln x) \\vec{ }i + (x^2y + y^2e^y) \\vec{ }j\\) , let  \\(R\\)  be the rectangular region  \\([1,7] \\times [2,5]\\) , and let  \\(C\\)  be the counterclockwise path bordering \\(R\\) .    Then       \\[ \\int\\limits_C\\mathbf F \\cdot d\\mathbf r \u003d \\text{_______.} \\]",
+      "title": "Convert to polar",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/674.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/d37cde7e-c809-4355-ab74-4eb1dd3dbb91",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "polar coordinates, cartesian coordinates, trig ",
+      "url": "/practice-problem/f1f351da-db64-49c7-ad02-041da8dd144d",
+      "source": "null 6.4.1"
     },
     {
-      "authorSolution": " \\(2\\pi(b^2 - a^2)\\) ",
-      "uuid": "54d1e3ef-0fa9-49a6-a7d2-2c041cc802a7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/678.png\"/\u003e",
+      "uuid": "6caf3f1f-c531-4a84-80d5-fac3b85b99e4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362134,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Line Integrals",
-      "body": " Let  \\(\\vec{ }F(x,y) \u003d (-y,x)\\)  and let  \\(C_a\\)  and  \\(C_b\\)  be the circles centered at the origin with radii  \\(a\\)  and  \\(b\\) , respectively, where  \\(a\u003cb\\) .   Suppose that  \\(C_a\\)  is oriented clockwise and  \\(C_b\\)  is oriented counterclockwise.    Then        \\[ \\int\\limits_{C_a} \\vec{ }F \\cdot d\\vec{ }r + \\int\\limits_{C_b} \\vec{ }F \\cdot d\\vec{ }r \u003d \\text{_____________.} \\]",
+      "title": "Equations in polar ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/677.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/54d1e3ef-0fa9-49a6-a7d2-2c041cc802a7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "polar coordinates, cartesian coordinates, polar cord, trig",
+      "url": "/practice-problem/6caf3f1f-c531-4a84-80d5-fac3b85b99e4",
+      "source": "null 6.4.2"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "2d743f21-a2d5-4912-a36b-18ddc493889d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/680.png\"/\u003e",
+      "uuid": "8c8ed941-660b-4e16-90f5-a2d8069e75fa",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362134,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Line Integrals",
-      "body": " Evaluate  \\(\\D\\oint_{\\partial S} x^2y dx + xy^5 dy\\)  where  \\(S\\)  is the square  \\(\\{(x,y)\\colon \\abs{x}\\le1 \\text{ and } \\abs y \\le 1\\}\\) .   \\\\ Answer:  \\(-\\dfrac a3\\)  where  \\(a\\) \u003d___.",
+      "title": "Equation in polar cords.",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/679.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/2d743f21-a2d5-4912-a36b-18ddc493889d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "polar coordinates, equations, trig ",
+      "url": "/practice-problem/8c8ed941-660b-4e16-90f5-a2d8069e75fa",
+      "source": "null 6.4.3"
     },
     {
-      "authorSolution": " \\(120\\) ",
-      "uuid": "06940da8-681f-4862-8061-de154e26db57",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/682.png\"/\u003e",
+      "uuid": "29edea52-fb74-4464-a07c-44f2373ac659",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362134,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Line Integrals Question",
-      "body": " Evaluate  \\(\\D\\oint_{\\partial R} (x^3 - y^3) dx + (x^3 + y^3) dy\\)  where  \\(R\\)  is the annular region  \\(\\{(x,y)\\colon 1\\lex^2+y^2\\le9\\}\\) .   Answer:  \\(a\\pi\\)  where  \\(a\\) \u003d_______.",
+      "title": "Putting equation in polar cords",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/681.png\"/\u003e",
       "allAnswers": [],
-      "tags": "line integrals, line integrals ,",
-      "url": "/practice-problem/06940da8-681f-4862-8061-de154e26db57",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Line Integrals"
+      "tags": "polar coordinates, equations in polar coordinates, polar cords",
+      "url": "/practice-problem/29edea52-fb74-4464-a07c-44f2373ac659",
+      "source": "null 6.4.4"
     },
     {
-      "authorSolution": " \\(24\\) ",
-      "uuid": "61d62a76-be94-49ca-8883-3814674e560c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/684.png\"/\u003e",
+      "uuid": "4f7b9e14-8e1c-4d27-9e04-5bb19ec5730c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362136,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Surface Integrals",
-      "body": " Let  \\(f\\colon \\R^3 \\to \\R\\colon (x,y,z) \\mapsto xz\\) .   Then the surface integral of the scalar field  \\(f\\)  over the triangle whose vertices are  \\(\\vec{ }i\\) ,  \\(\\vec{ }j\\) , and  \\(\\vec{ }k\\)  is  \\(\\dfrac{\\sqrt 3}a\\)  where  \\(a\\) \u003d______.",
+      "title": "Distance in polar cord",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/683.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/61d62a76-be94-49ca-8883-3814674e560c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
-    },
-    {
-      "authorSolution": " \\(73\\) ",
-      "uuid": "4dbf673f-2ebc-4de8-a0b4-eb42c589e78f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362136,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Surface Integrals Problem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d -x \\vec{ }i - y \\vec{ }j + z^2 \\vec{ }k\\)  and  \\(S\\)  be that portion of the cone  \\(z \u003d \\sqrt{x^2 + y^2}\\)  which lies between the planes  \\(z \u003d 1\\)  and  \\(z \u003d 2\\) .    Then the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the surface  \\(S\\)  is  \\(\\dfrac a6\\pi\\)  where  \\(a\\) \u003d_____.",
-      "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/4dbf673f-2ebc-4de8-a0b4-eb42c589e78f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
-    },
-    {
-      "authorSolution": " \\(\\dfrac\\pi2\\) ",
-      "uuid": "6eb6b5b9-e03d-43d6-9158-20f16a1d53f6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362136,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Surface Integrals",
-      "body": " If  \\(S\\)  is that portion of the unit sphere which lies in the first octant (that is, where  \\(x\\) ,  \\(y\\) ,  \\(z \\ge 0\\) ), then  \\(\\D\\iint\\limits_S x dy dz + y dz dx + z dx dy\\)  \u003d ______.",
-      "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/6eb6b5b9-e03d-43d6-9158-20f16a1d53f6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "38f5cfd9-8a5b-4b30-8a9a-95fbfaf542cc",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362136,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Surface Integrals",
-      "body": " Find the surface integral of the scalar field  \\(f(x,y,z) \u003d xyz\\)  over that portion of the unit sphere centered at the origin which lies inside the cone  \\(z \u003d \\sqrt{x^2 + y^2}\\) .    Answer: ___.",
-      "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/38f5cfd9-8a5b-4b30-8a9a-95fbfaf542cc",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
-    },
-    {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "9eb15bc6-7333-420d-bdd6-184b13773e63",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362136,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Surface Integrals",
-      "body": " Let  \\(V\\)  be the solid region bounded by the cylinder  \\(x^2 + z^2 \u003d 1\\)  and the planes  \\(y \u003d 0\\)  and  \\(x + y \u003d 2\\) , and let  \\(f\\colon \\R^3 \\to \\R\\colon (x,y,z) \\mapsto xy\\) .   Then the surface integral of the scalar field  \\(f\\)  over the boundary of  \\(V\\)  is  \\(-\\left(a + \\dfrac1{a\\sqrt a}\\right)\\pi\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/9eb15bc6-7333-420d-bdd6-184b13773e63",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
-    },
-    {
-      "authorSolution": " \\(-1\\) ",
-      "uuid": "df101b39-6a43-4699-ac9d-446b33b3d9a9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362137,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Surface Integrals Problem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x^2y \\vec{ }i - 3xy^2 \\vec{ }j + 4y^3 \\vec{ }k\\)  and  \\(S\\)  be that portion of the elliptic paraboloid  \\(z \u003d x^2 + y^2 - 9\\)  which lies below the rectangle  \\([0,2] \\times [0,1]\\)  in the  \\(xy\\) -plane.    Then the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the surface  \\(S\\)  is ____.",
-      "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/df101b39-6a43-4699-ac9d-446b33b3d9a9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
-    },
-    {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "a6631413-bdc0-4f27-9b6e-7c393268695c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362137,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Surface Integrals",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x \\vec{ }i + y \\vec{ }j + 5 \\vec{ }k\\)  and  \\(V\\)  be that portion of the solid cylinder  \\(x^2 + z^2 \u003d 1\\)  which lies between the  \\(xz\\) -plane and the plane  \\(x + y \u003d 2\\) .   Then the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the surface  \\(\\partial V\\)  is  \\(a\\pi\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/a6631413-bdc0-4f27-9b6e-7c393268695c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
+      "tags": "distance in polar coordinates, polar coordinates, trig ",
+      "url": "/practice-problem/4f7b9e14-8e1c-4d27-9e04-5bb19ec5730c",
+      "source": "null 6.4.5"
     }
   ],
   "questions": [
-    {
-      "uuid": "a6c39323-ebb4-4503-874f-bb0874d3170c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint e^x(e^x-1)^7\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
-      "url": "/question/a6c39323-ebb4-4503-874f-bb0874d3170c",
-      "source": "AP Calculus Problems 6.1.122",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
-    },
-    {
-      "uuid": "380636cb-fb72-4c17-905b-c8706f3c6199",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint [\\sin(5\\theta)+1]^4\\cos(5\\theta)\\ d\\theta\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
-      "url": "/question/380636cb-fb72-4c17-905b-c8706f3c6199",
-      "source": "AP Calculus Problems 6.1.123",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
-    },
-    {
-      "uuid": "78a83e14-0641-42bf-af71-26e133173110",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint 2^{\\log_2 7x}\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
-      "url": "/question/78a83e14-0641-42bf-af71-26e133173110",
-      "source": "AP Calculus Problems 6.1.124",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
-    },
-    {
-      "uuid": "c7798a58-de8b-4ecb-8297-5477dd30bb18",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits by Table",
-      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} \\dfrac{\\sqrt{x+3}-\\sqrt{3}}{x}\\)\n \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20460.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits, limits by table",
-      "url": "/question/c7798a58-de8b-4ecb-8297-5477dd30bb18",
-      "source": "AP Calculus Problems 1.9.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "88971ac0-22f6-4763-b9f5-e4926f4c41ad",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits by Table",
-      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n \\(\\lim\\limits_{x\\to -3} \\dfrac{\\sqrt{1-x}-2}{x+3}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20461.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits, limits by table",
-      "url": "/question/88971ac0-22f6-4763-b9f5-e4926f4c41ad",
-      "source": "AP Calculus Problems 1.9.2 ",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
     {
       "uuid": "210b8baf-df68-4015-b08f-6aa1fc7387de",
       "contentType": "question",
@@ -391,7 +188,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/210b8baf-df68-4015-b08f-6aa1fc7387de",
       "source": "AP Calculus Problems 6.1.125",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "1f82aaca-677e-4b42-a228-a1cd66300d08",
@@ -403,12 +200,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Table",
-      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} \\dfrac{\\sin x}{x}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20462.png\"/\u003e",
+      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} \\dfrac{\\sin x}{x}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20462.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by table",
       "url": "/question/1f82aaca-677e-4b42-a228-a1cd66300d08",
       "source": "AP Calculus Problems 1.9.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d7fda75a-1ed4-493a-acca-89e8d0c1a9f1",
@@ -425,7 +222,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/d7fda75a-1ed4-493a-acca-89e8d0c1a9f1",
       "source": "AP Calculus Problems 6.1.126",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "d649b107-b27c-4958-852e-3c0f140c5942",
@@ -442,7 +239,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/d649b107-b27c-4958-852e-3c0f140c5942",
       "source": "AP Calculus Problems 6.1.127",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "5aafb03e-5ffe-49b0-a9fc-a7af9e7da88c",
@@ -459,7 +256,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/5aafb03e-5ffe-49b0-a9fc-a7af9e7da88c",
       "source": "AP Calculus Problems 6.1.128",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "e79cc85b-d1a0-4776-8fe3-fb2c240e6e59",
@@ -471,12 +268,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Table",
-      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} \\dfrac{1-\\cos x}{x}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20463.png\"/\u003e",
+      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} \\dfrac{1-\\cos x}{x}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20463.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by table",
       "url": "/question/e79cc85b-d1a0-4776-8fe3-fb2c240e6e59",
       "source": "AP Calculus Problems 1.9.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "8025637c-4896-4c21-9773-56c3a4bb130a",
@@ -493,7 +290,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/8025637c-4896-4c21-9773-56c3a4bb130a",
       "source": "AP Calculus Problems 6.1.129",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "a35f8835-beb4-463a-8cbb-e2b745906de0",
@@ -510,7 +307,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/a35f8835-beb4-463a-8cbb-e2b745906de0",
       "source": "AP Calculus Problems 6.1.130",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "1e7456e2-9bc0-4a7f-91b6-fdae8bd53d32",
@@ -527,7 +324,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/1e7456e2-9bc0-4a7f-91b6-fdae8bd53d32",
       "source": "AP Calculus Problems 6.1.131",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "9d9e80f9-2c3b-4848-af11-8d177123df25",
@@ -544,7 +341,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/9d9e80f9-2c3b-4848-af11-8d177123df25",
       "source": "AP Calculus Problems 6.1.132",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "d919a111-5490-4cf9-b64b-37284da9ae8c",
@@ -556,12 +353,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Table",
-      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} (1+x)^{1/x}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20464.png\"/\u003e",
+      "body": "Using your calculator, fill in each of the following tables to five decimal places.  Using the information from the table, determine each limit.  (For the trigonometric functions, your calculator must be in \\emph{radian} mode.) \n\\(\\lim\\limits_{x\\to 0} (1+x)^{1/x}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20464.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by table",
       "url": "/question/d919a111-5490-4cf9-b64b-37284da9ae8c",
       "source": "AP Calculus Problems 1.9.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "e1a7e33f-50e3-4b29-b38b-d82f17a691b9",
@@ -578,7 +375,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/e1a7e33f-50e3-4b29-b38b-d82f17a691b9",
       "source": "AP Calculus Problems 6.1.133",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "1ed5a818-0a54-4a3d-a45f-d4c33cb63677",
@@ -595,7 +392,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/1ed5a818-0a54-4a3d-a45f-d4c33cb63677",
       "source": "AP Calculus Problems 6.1.134",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "2eb51bcc-077b-44b2-9108-49c2d1ee2b04",
@@ -612,7 +409,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/2eb51bcc-077b-44b2-9108-49c2d1ee2b04",
       "source": "AP Calculus Problems 6.1.135",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "f5e1d326-6479-40e7-95ea-77020ae435f5",
@@ -624,12 +421,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to\\infty} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to\\infty} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/f5e1d326-6479-40e7-95ea-77020ae435f5",
       "source": "AP Calculus Problems 1.10.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "b37f2c6c-f30e-478f-b619-3a852a0e7585",
@@ -646,7 +443,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/b37f2c6c-f30e-478f-b619-3a852a0e7585",
       "source": "AP Calculus Problems 6.1.136",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "7858cbe1-bb56-46d7-a405-a9f40b913767",
@@ -658,12 +455,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to -\\infty} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to -\\infty} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/7858cbe1-bb56-46d7-a405-a9f40b913767",
       "source": "AP Calculus Problems 1.10.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ea6ec2ba-2053-49ab-9f3a-774b2489c1b3",
@@ -675,12 +472,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to a^+} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to a^+} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/ea6ec2ba-2053-49ab-9f3a-774b2489c1b3",
       "source": "AP Calculus Problems 1.10.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9ee08a4b-9d8d-480b-ba23-b53e537d7c4a",
@@ -692,12 +489,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to a^-} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to a^-} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/9ee08a4b-9d8d-480b-ba23-b53e537d7c4a",
       "source": "AP Calculus Problems 1.10.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "07f272af-5732-4b96-80ab-a7dfba5b8066",
@@ -709,12 +506,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to a} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to a} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/07f272af-5732-4b96-80ab-a7dfba5b8066",
       "source": "AP Calculus Problems 1.10.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "de35a0cd-60a4-490e-9d59-8d1324b8bcf0",
@@ -726,12 +523,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n \\(\\lim\\limits_{x\\to 0} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n \\(\\lim\\limits_{x\\to 0} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/de35a0cd-60a4-490e-9d59-8d1324b8bcf0",
       "source": "AP Calculus Problems 1.10.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "acc6ba64-c9af-40bf-b04d-042c9954554c",
@@ -743,12 +540,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to b^+} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to b^+} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/acc6ba64-c9af-40bf-b04d-042c9954554c",
       "source": "AP Calculus Problems 1.10.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "0af561a8-dca9-4884-911d-f8e5d23286f6",
@@ -765,7 +562,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/0af561a8-dca9-4884-911d-f8e5d23286f6",
       "source": "AP Calculus Problems 6.1.137",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "e38e1e38-147f-4166-9ae5-7d0e4aa92c61",
@@ -777,12 +574,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n \\(\\lim\\limits_{x\\to b^-} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n \\(\\lim\\limits_{x\\to b^-} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/e38e1e38-147f-4166-9ae5-7d0e4aa92c61",
       "source": "AP Calculus Problems 1.10.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "0edcd392-5cf7-4300-a4ee-f49f529def0d",
@@ -794,12 +591,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n \\(\\lim\\limits_{x\\to b} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n \\(\\lim\\limits_{x\\to b} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/0edcd392-5cf7-4300-a4ee-f49f529def0d",
       "source": "AP Calculus Problems 1.10.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a96f35f1-1d80-4523-ba33-7568cb8b8655",
@@ -811,12 +608,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to c} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to c} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/a96f35f1-1d80-4523-ba33-7568cb8b8655",
       "source": "AP Calculus Problems 1.10.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "7ba08f06-4c5c-4e88-b710-f86349cef858",
@@ -828,12 +625,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to d} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to d} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/7ba08f06-4c5c-4e88-b710-f86349cef858",
       "source": "AP Calculus Problems 1.10.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a9dc1dab-5a54-4359-a8b4-e965c11246df",
@@ -845,12 +642,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to e} R(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(\\lim\\limits_{x\\to e} R(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/a9dc1dab-5a54-4359-a8b4-e965c11246df",
       "source": "AP Calculus Problems 1.10.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "60b50f74-ef2c-4b4e-b6e4-d4599f92216f",
@@ -862,12 +659,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(e)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(e)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/60b50f74-ef2c-4b4e-b6e4-d4599f92216f",
       "source": "AP Calculus Problems 1.10.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "2ebfe3d8-0aad-408d-b96b-8ed09ae53893",
@@ -884,7 +681,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/2ebfe3d8-0aad-408d-b96b-8ed09ae53893",
       "source": "AP Calculus Problems 6.1.138",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "6d2df9c7-29e7-4c73-8ed6-470f11af3d82",
@@ -901,7 +698,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/6d2df9c7-29e7-4c73-8ed6-470f11af3d82",
       "source": "AP Calculus Problems 6.1.139",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "b9d3112e-add3-4623-acc2-65e1f0469e37",
@@ -913,12 +710,97 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(0)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(0)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits",
       "url": "/question/b9d3112e-add3-4623-acc2-65e1f0469e37",
       "source": "AP Calculus Problems 1.10.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "f1c0aa69-6cf9-48cd-b4a3-911daeb8551a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(b)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits",
+      "url": "/question/f1c0aa69-6cf9-48cd-b4a3-911daeb8551a",
+      "source": "AP Calculus Problems 1.10.15",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "c7252e42-5fe4-4e70-8a9b-da2aedb9dd56",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits",
+      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(d)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20465.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits",
+      "url": "/question/c7252e42-5fe4-4e70-8a9b-da2aedb9dd56",
+      "source": "AP Calculus Problems 1.10.16",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "74a4577b-92e2-4e50-bb83-2dd78351c9d1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Area Under the Curve",
+      "body": "Find the area under the curve over the given interval. \n\n\\(y\u003d\\csc(2x)\\cot(2x)\\) \\([\\frac{\\pi}{12}, \\frac{\\pi}{4}]\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
+      "url": "/question/74a4577b-92e2-4e50-bb83-2dd78351c9d1",
+      "source": "AP Calculus Problems 6.1.140",
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
+    },
+    {
+      "uuid": "590f0099-0203-4ab6-9ae5-0c1d99215055",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Average Rate of Change",
+      "body": "Find a formula for the average rate of change of the area of a circle as its radius \\(r\\) changes from \\(3\\) to some number \\(x\\).  Then determine the average rate of change of the area of a circle as the radius \\(r\\) changes from \n a) \\(3\\) to \\(3.5\\) \\hspace*{\\fill} b) \\(3\\) to \\(3.2\\) \\hspace*{\\fill} c) \\(3\\) to \\(3.1\\) \\hspace*{\\fill} d) \\(3\\) to \\(3.01\\)\n  ",
+      "allAnswers": [],
+      "tags": "average rate of change, area of circle, radius",
+      "url": "/question/590f0099-0203-4ab6-9ae5-0c1d99215055",
+      "source": "AP Calculus Problems 1.11.1",
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
+    },
+    {
+      "uuid": "eab780ac-51e3-4742-b635-90bd5371a037",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint \\frac{1}{x+1}\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
+      "url": "/question/eab780ac-51e3-4742-b635-90bd5371a037",
+      "source": "AP Calculus Problems 6.1.141",
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     }
   ],
   "textContent": [
@@ -937,7 +819,7 @@
       "tags": "arithmetic, De Moivre\u0027s formula, sine cosine, complex numbers ",
       "url": "/text-content/86fde405-f23d-465e-9f7e-d0c816ca4c72",
       "source": "Forgotten Text 7 3.25",
-      "topic": "Calculus/Other Calculus Topics/Complex Numbers/Geometry of Arithmetic"
+      "topic": "7bd6a3b5-77c1-48e5-aa52-4dc9b7bb186a"
     },
     {
       "uuid": "a6f57bd1-e2dc-43ef-a126-352d135188fa",
@@ -954,9 +836,55 @@
       "tags": "complex numbers, complex valued functions, real numbers, imaginary numbers, derivative ",
       "url": "/text-content/a6f57bd1-e2dc-43ef-a126-352d135188fa",
       "source": "Forgotten Text 7 3.27",
-      "topic": "Calculus/Other Calculus Topics/Complex Numbers/Complex valued functions"
+      "topic": "bda522ad-4033-493f-b8dd-cae1393b62d6"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "987f0858-44db-46cb-b87b-a5c431989e1f",
+      "subTopics": [],
+      "parentTopics": [
+        "d048488e-d45f-4311-a117-edefa591e0e1"
+      ],
+      "title": "Radii",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "cone, volume, radius,",
+      "difficulty": 635000,
+      "contentUuids": [
+        "efa09f71-aab0-47b3-b717-9b3c9f9c8127"
+      ]
+    },
+    {
+      "uuid": "5928e5ef-9840-43c0-96f2-29f95e12d0a6",
+      "subTopics": [],
+      "parentTopics": [
+        "4cb634d5-ce78-4397-b8e7-83da114a0604"
+      ],
+      "title": "Substitution",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " methods of integration , integration, integral,substitution,",
+      "difficulty": 595000,
+      "contentUuids": [
+        "526c3fd4-3c56-442e-865d-d112e8840426"
+      ]
+    },
+    {
+      "uuid": "f40d8543-193b-42c3-879d-0c7dc3ed8fd5",
+      "subTopics": [],
+      "parentTopics": [
+        "412ce51e-93d1-437c-9dad-c9e840622cc8"
+      ],
+      "title": "Acceleration and Force",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " derivatives, force,acceleration,",
+      "difficulty": 731000,
+      "contentUuids": [
+        "f9c0a335-d7a5-473f-8a48-1a886b0372a5"
+      ]
+    }
+  ]
 }

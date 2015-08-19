@@ -2,296 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2590.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2591.png\"/\u003e",
-      "uuid": "84ef462a-1ce5-439c-8917-49d90cc7e21c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3298.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3299.png\"/\u003e",
+      "uuid": "5c01e09b-6503-4397-b577-10be2c8a4d91",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find a formula for the inverse of the function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2589.png\"/\u003e",
+      "title": "Graph the absolute value functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3296.png\"/\u003e",
       "allAnswers": [],
-      "tags": "one-to-one, rational functions, logarithmic functions ",
-      "url": "/practice-problem/84ef462a-1ce5-439c-8917-49d90cc7e21c",
-      "source": "null 6.4.2"
+      "tags": "quadratic functions, absolute value function, intercepts ",
+      "url": "/practice-problem/5c01e09b-6503-4397-b577-10be2c8a4d91",
+      "source": "null 2.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2602.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2603.png\"/\u003e",
-      "uuid": "6544c709-502d-4ddc-b5b6-0abb20e26c1e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3306.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3307.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3309.png\"/\u003e",
+      "uuid": "39525c29-843c-48c9-a590-7cd6f3418320",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Temperature of the roast",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2601.png\"/\u003e",
+      "title": "Inequalities analytically",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3305.png\"/\u003e",
       "allAnswers": [],
-      "tags": "logarithmic functions, exponential functions, applications of log functions, applications of exponential functions ",
-      "url": "/practice-problem/6544c709-502d-4ddc-b5b6-0abb20e26c1e",
-      "source": "null 6.5.2"
+      "tags": "quadratic functions, inequalities, sign diagrams ",
+      "url": "/practice-problem/39525c29-843c-48c9-a590-7cd6f3418320",
+      "source": "null 2.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2598.png\"/\u003e",
-      "uuid": "945b9e70-17ee-4e20-a22e-ed920d24c137",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3320.png\"/\u003e",
+      "uuid": "f2f9eba7-6630-426b-8a5c-b799a5433079",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Iodine-131",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2597.png\"/\u003e",
+      "title": "Area A of a square piece",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3318.png\"/\u003e",
       "allAnswers": [],
-      "tags": "logarithmic functions, exponential functions, applications of logarithmic functions, radioactive decay ",
-      "url": "/practice-problem/945b9e70-17ee-4e20-a22e-ed920d24c137",
-      "source": "null 6.5.1"
+      "tags": "quadratic functions, area, inequalities ",
+      "url": "/practice-problem/f2f9eba7-6630-426b-8a5c-b799a5433079",
+      "source": "null 2.4.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2606.png\"/\u003e",
-      "uuid": "b465b5ef-4d4b-418b-97e7-9fe76abda260",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3322.png\"/\u003e",
+      "uuid": "3c8fa2ba-f385-4cbd-a3a9-1d58e8fe13b1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Number of people at a local community college ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2605.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2605.1.png\"/\u003e",
+      "title": "Relations",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3321.png\"/\u003e",
       "allAnswers": [],
-      "tags": "logarithmic functions, applications of logarithmic functions, log, exponential functions, applications of exponential functions ",
-      "url": "/practice-problem/b465b5ef-4d4b-418b-97e7-9fe76abda260",
-      "source": "null 6.5.3"
+      "tags": "quadratic functions, inequalities ",
+      "url": "/practice-problem/3c8fa2ba-f385-4cbd-a3a9-1d58e8fe13b1",
+      "source": "null 2.4.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2620.png\"/\u003e",
-      "uuid": "cb3a882e-e494-4157-9a35-b541cc200de7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3384.png\"/\u003e",
+      "uuid": "6d114b27-6138-4c9a-8f41-8ebc780581af",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Complete the square",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2619.png\"/\u003e",
+      "title": "Find the volume of the box",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3362.png\"/\u003e",
       "allAnswers": [],
-      "tags": "complete the square, circles, find the center, find the radius ",
-      "url": "/practice-problem/cb3a882e-e494-4157-9a35-b541cc200de7",
-      "source": "null 7.2.1"
+      "tags": "polynomial functions, volume of box, applied domain, maximum volume ",
+      "url": "/practice-problem/6d114b27-6138-4c9a-8f41-8ebc780581af",
+      "source": "null 3.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2622.png\"/\u003e",
-      "uuid": "ab237e5a-0699-463f-85ea-0fb807f00461",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3331.png\"/\u003e",
+      "uuid": "c27f871d-bab7-447e-b0fa-f8c3b4ede9ab",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Standard equation of the circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2621.png\"/\u003e",
+      "title": "Intermediate Value Theorem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3330.png\"/\u003e",
       "allAnswers": [],
-      "tags": "standard equation of circle, circles, diameter, center, radius ",
-      "url": "/practice-problem/ab237e5a-0699-463f-85ea-0fb807f00461",
-      "source": "null 7.2.2"
+      "tags": "polynomial functions, intermediate Value Theorem, imaginary numbers, complex numbers ",
+      "url": "/practice-problem/c27f871d-bab7-447e-b0fa-f8c3b4ede9ab",
+      "source": "null 3.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2625.png\"/\u003e",
-      "uuid": "a887f4f2-4370-4754-a8e4-79671fa16224",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3334.png\"/\u003e",
+      "uuid": "69e02ec5-30c7-443c-b28c-11de881d79c8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the points on the unit circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2624.png\"/\u003e",
+      "title": "Sign Diagram",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3333.png\"/\u003e",
       "allAnswers": [],
-      "tags": "unit circle, circles, y-coordinate point ",
-      "url": "/practice-problem/a887f4f2-4370-4754-a8e4-79671fa16224",
-      "source": "null 7.2.3"
+      "tags": "polynomial functions, sign diagram ",
+      "url": "/practice-problem/69e02ec5-30c7-443c-b28c-11de881d79c8",
+      "source": "null 3.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2633.png\"/\u003e",
-      "uuid": "7fc88ab9-03c2-4259-bc2e-66d91a5e5116",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3341.png\"/\u003e",
+      "uuid": "f089fb63-aa95-4fb6-832f-cd9bc4509403",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the vertex, focus, and directrix",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2632.png\"/\u003e",
+      "title": "Sketch the graph end behavior",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3339.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vertex, focus, directrix, parabolas",
-      "url": "/practice-problem/7fc88ab9-03c2-4259-bc2e-66d91a5e5116",
-      "source": "null 7.3.1"
+      "tags": "polynomial functions, end behavior, multiplicity of its zeros",
+      "url": "/practice-problem/f089fb63-aa95-4fb6-832f-cd9bc4509403",
+      "source": "null 3.1.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2636.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2637.png\"/\u003e",
-      "uuid": "d6ea2a6e-c68b-4dac-a0d1-0c6f4194b306",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3350.png\"/\u003e",
+      "uuid": "850d98c9-c874-4021-86b6-c7ff23227782",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Put equations into standard form of parabola",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2635.png\"/\u003e",
+      "title": "Find all the real zeros",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3349.png\"/\u003e",
       "allAnswers": [],
-      "tags": "standard form of parabola, parabola, vertex, focus, directrix ",
-      "url": "/practice-problem/d6ea2a6e-c68b-4dac-a0d1-0c6f4194b306",
-      "source": "null 7.3.2"
+      "tags": "real zeros, polynomial functions, factor theorem, remainder theorem",
+      "url": "/practice-problem/850d98c9-c874-4021-86b6-c7ff23227782",
+      "source": "null 3.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2641.png\"/\u003e",
-      "uuid": "f591b994-85ad-4bd0-b9f0-24d87ce0c3a9",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3357.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3358.png\"/\u003e",
+      "uuid": "4bdd8211-883b-4806-b311-255f98c31173",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655789,
+      "createdAt": 1437611655791,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Vertex of the dish",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2640.png\"/\u003e",
+      "title": "Various questions about a polynomial ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3356.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vertex, parabola, focus, paraboloid of revolution ",
-      "url": "/practice-problem/f591b994-85ad-4bd0-b9f0-24d87ce0c3a9",
-      "source": "null 7.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2649.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2650.png\"/\u003e",
-      "uuid": "670f0413-5baa-475f-a9da-d09c39feab75",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the center, the lines, etc.",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2648.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "center, lines which contain major axes, vertices, endpoints of minor axis, foci ",
-      "url": "/practice-problem/670f0413-5baa-475f-a9da-d09c39feab75",
-      "source": "null 7.4.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2653.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2654.png\"/\u003e",
-      "uuid": "e0fe97e2-5186-46ad-81fb-f9e52033787b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Equation of ellipse",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2652.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "ellipse, vertices, eccentricity, equation of the ellipse ",
-      "url": "/practice-problem/e0fe97e2-5186-46ad-81fb-f9e52033787b",
-      "source": "null 7.4.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2657.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2658.png\"/\u003e",
-      "uuid": "db20b7a6-8feb-4d02-8932-22419e7e3356",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Whispering gallery",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2656.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "ellipse, foci, vertex, conics, conic sections ",
-      "url": "/practice-problem/db20b7a6-8feb-4d02-8932-22419e7e3356",
-      "source": "null 7.4.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2667.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2668.png\"/\u003e",
-      "uuid": "08ec95b8-7f05-4ffd-bfcf-f455c4e131bb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Consider the hyperbola equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2666.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "standard form of hyerbola, transverse and conjugate axes, vertices, foci, asymptotes ",
-      "url": "/practice-problem/08ec95b8-7f05-4ffd-bfcf-f455c4e131bb",
-      "source": "null 7.5.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2670.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2671.png\"/\u003e",
-      "uuid": "ac911792-fd3d-4ee9-8f14-1054982e341b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655789,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine hyperbolic path",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2669.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "hyperbola, hyperbolic path, conic, conic sections ",
-      "url": "/practice-problem/ac911792-fd3d-4ee9-8f14-1054982e341b",
-      "source": "null 7.5.2"
+      "tags": "polynomial functions, real zeros, rational zeros ",
+      "url": "/practice-problem/4bdd8211-883b-4806-b311-255f98c31173",
+      "source": "null 3.3.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787607,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find \\(y\u0027\u0027\\) in simplest factored form. \n\\(y\u003dx^2e^x\\)",
-      "allAnswers": [],
-      "tags": "derivatives, high derivatives, factored form",
-      "url": "/question/b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
-      "source": "AP Calculus Problems 3.12.17",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787607,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find \\(y\u0027\u0027\\) in simplest factored form. \n\\(y\u003de^{e^x}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, high derivatives, factored form",
-      "url": "/question/29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
-      "source": "AP Calculus Problems 3.12.18",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
     {
       "uuid": "d455d793-e041-4d40-aea5-4686a1a3a406",
       "contentType": "question",
@@ -302,12 +183,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sets of Numbers",
-      "body": "Fill in the chart below:\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20314.png\"/\u003e",
+      "body": "Fill in the chart below:\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20314.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "interval notation, real number, set of real number, number line, region",
       "url": "/question/d455d793-e041-4d40-aea5-4686a1a3a406",
       "source": "Active Calc 1.1.1",
-      "topic": "Pre-Calculus/Relations and Functions/Sets of Numbers/Real Numbers"
+      "topic": "7d5db8d3-025a-4a70-9794-0d7d8c47fce8"
     },
     {
       "uuid": "c9666cf1-1eb4-4304-b0df-9ede1e841040",
@@ -324,7 +205,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/c9666cf1-1eb4-4304-b0df-9ede1e841040",
       "source": "Active Calc 1.1.2",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "2fd6b06e-8f4c-4c41-98bd-84f9d8f71d3d",
@@ -341,7 +222,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/2fd6b06e-8f4c-4c41-98bd-84f9d8f71d3d",
       "source": "Active Calc 1.1.3",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "aeadf2ac-e9f1-48e6-b91d-b6cd3414c597",
@@ -358,7 +239,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/aeadf2ac-e9f1-48e6-b91d-b6cd3414c597",
       "source": "Active Calc 1.1.4",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "5c6e22a3-b81d-435b-b20c-8a2b7bf00af0",
@@ -375,7 +256,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/5c6e22a3-b81d-435b-b20c-8a2b7bf00af0",
       "source": "Active Calc 1.1.5",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "0ae5cb77-46f6-4f36-a938-a5b84ea7a049",
@@ -392,7 +273,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/0ae5cb77-46f6-4f36-a938-a5b84ea7a049",
       "source": "Active Calc 1.1.6",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "bb826924-de6d-4239-af2b-143424be83ef",
@@ -409,7 +290,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/bb826924-de6d-4239-af2b-143424be83ef",
       "source": "Active Calc 1.1.7",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "4ff68082-1554-48fa-be39-fa4b4394b032",
@@ -426,7 +307,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/4ff68082-1554-48fa-be39-fa4b4394b032",
       "source": "Active Calc 1.1.8",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "534fdc04-b8f4-44cb-837b-8c4889177cc4",
@@ -443,7 +324,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/534fdc04-b8f4-44cb-837b-8c4889177cc4",
       "source": "Active Calc 1.1.9",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "4463a0bc-6df6-4d04-b9e5-12d373d18329",
@@ -460,7 +341,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/4463a0bc-6df6-4d04-b9e5-12d373d18329",
       "source": "Active Calc 1.1.10",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "eda59f6f-d73b-4220-984a-3edad9eb599c",
@@ -477,7 +358,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/eda59f6f-d73b-4220-984a-3edad9eb599c",
       "source": "Active Calc 1.1.11",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "c15a8653-a0ae-492f-900b-fdd192800d0d",
@@ -494,7 +375,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/c15a8653-a0ae-492f-900b-fdd192800d0d",
       "source": "Active Calc 1.1.12",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "41da8c8b-450f-41aa-91eb-225a0d232965",
@@ -511,7 +392,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/41da8c8b-450f-41aa-91eb-225a0d232965",
       "source": "Active Calc 1.1.13",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "8424172b-34db-4052-9572-bfcf490bc42d",
@@ -528,7 +409,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/8424172b-34db-4052-9572-bfcf490bc42d",
       "source": "Active Calc 1.1.14",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "b25d3bcf-e102-4533-a1ad-d55c2b613ef4",
@@ -545,7 +426,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/b25d3bcf-e102-4533-a1ad-d55c2b613ef4",
       "source": "Active Calc 1.1.15",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "738fa3b6-6e88-4b74-acf5-204a3303774e",
@@ -562,7 +443,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/738fa3b6-6e88-4b74-acf5-204a3303774e",
       "source": "Active Calc 1.1.16",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "dd4e2267-282b-4ee5-92d1-5ed97f4e737e",
@@ -579,7 +460,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/dd4e2267-282b-4ee5-92d1-5ed97f4e737e",
       "source": "Active Calc 1.1.17",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "9bbd545e-8792-45a7-8631-594d9b71025f",
@@ -596,7 +477,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/9bbd545e-8792-45a7-8631-594d9b71025f",
       "source": "Active Calc 1.1.18",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "04a6d6d1-b511-468c-b14b-01e561578863",
@@ -613,7 +494,7 @@
       "tags": "intersection, union, interval notation, set of numbers",
       "url": "/question/04a6d6d1-b511-468c-b14b-01e561578863",
       "source": "Active Calc 1.1.19",
-      "topic": "Geometry/Other Topics/Logic/Mathematical Sentences"
+      "topic": "466ba35a-5309-45c5-bb08-eaea8d515378"
     },
     {
       "uuid": "3b2b52cf-1126-47ec-b663-57aa4ae984ab",
@@ -630,7 +511,7 @@
       "tags": "plotting, Cartesian Coordinate Plane, coordinates, points, graphing",
       "url": "/question/3b2b52cf-1126-47ec-b663-57aa4ae984ab",
       "source": "Active Calc 1.1.20",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "ea5b0448-6ae5-4d84-a291-0341e211e202",
@@ -642,12 +523,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sets of Numbers",
-      "body": "For each point given in Exercise 20.\n\\(\\bullet\\) Identify the quadrant or axis in / on which the point lies.\n\\(\\bullet\\) Find the point symmetric to the given point about the x-axis.\n\\(\\bullet\\) Find the point symmetric to the given point about the y-axis.\n\\(\\bullet\\) Find the point symmetric to the given point about the origin.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20315.png\"/\u003e",
+      "body": "For each point given in Exercise 20.\n\\(\\bullet\\) Identify the quadrant or axis in / on which the point lies.\n\\(\\bullet\\) Find the point symmetric to the given point about the x-axis.\n\\(\\bullet\\) Find the point symmetric to the given point about the y-axis.\n\\(\\bullet\\) Find the point symmetric to the given point about the origin.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20315.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "quadrant, points, symmetry, origin, y-axis, x-axis",
       "url": "/question/ea5b0448-6ae5-4d84-a291-0341e211e202",
       "source": "Active Calc 1.1.21",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "39b4b928-7d51-4d17-8ff4-33c3c43cfc8e",
@@ -664,7 +545,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates ",
       "url": "/question/39b4b928-7d51-4d17-8ff4-33c3c43cfc8e",
       "source": "Active Calc 1.1.22",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "bc37422b-f261-4d39-8947-1ddf489a9ef6",
@@ -681,7 +562,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates",
       "url": "/question/bc37422b-f261-4d39-8947-1ddf489a9ef6",
       "source": "Active Calc 1.1.23",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "6a4ea4af-4e0f-4f75-9bc7-04760b1479c5",
@@ -698,7 +579,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates",
       "url": "/question/6a4ea4af-4e0f-4f75-9bc7-04760b1479c5",
       "source": "Active Calc 1.1.24",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "f98c7583-f788-45d9-aaca-fe395dcec3a2",
@@ -715,7 +596,7 @@
       "tags": "distance, points, midpoint, line segment, distance between points, coordinates",
       "url": "/question/f98c7583-f788-45d9-aaca-fe395dcec3a2",
       "source": "Active Calc 1.1.25",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "06e31ff0-ed45-447f-8aa8-8991e228a06d",
@@ -732,7 +613,7 @@
       "tags": "Find the distance d between the points and the midpoint M of the line segment which connects them.",
       "url": "/question/06e31ff0-ed45-447f-8aa8-8991e228a06d",
       "source": "Active Calc 1.1.26",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "c7091f36-abb7-4195-bb6d-5400e8373ffa",
@@ -749,7 +630,7 @@
       "tags": "midpoint, line segment, points, distance, distance between points",
       "url": "/question/c7091f36-abb7-4195-bb6d-5400e8373ffa",
       "source": "Active Calc 1.1.27",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "3a8ede30-6d73-4f36-9a29-3b66df3b45d1",
@@ -766,7 +647,7 @@
       "tags": "midpoint, line segment, points, distance, distance between points",
       "url": "/question/3a8ede30-6d73-4f36-9a29-3b66df3b45d1",
       "source": "Active Calc 1.1.28",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "9787f577-8283-478c-8abd-f2bd2e84817f",
@@ -783,7 +664,7 @@
       "tags": "points, midpoint, line segment, distance, distance between points",
       "url": "/question/9787f577-8283-478c-8abd-f2bd2e84817f",
       "source": "Active Calc 1.1.29",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "f3f493b1-3263-4796-9d54-a64feada06fb",
@@ -800,7 +681,7 @@
       "tags": "points, distance, distance between points, sets of numbers",
       "url": "/question/f3f493b1-3263-4796-9d54-a64feada06fb",
       "source": "Active Calc 1.1.30",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "36e76206-ebf0-4020-bd0b-25c281b1b2bf",
@@ -817,7 +698,7 @@
       "tags": "points, y-axis, distance, distance between points, sets of numbers",
       "url": "/question/36e76206-ebf0-4020-bd0b-25c281b1b2bf",
       "source": "Active Calc 1.1.31",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "88cd1fe8-5ec3-469c-b32e-695da2a903ec",
@@ -834,7 +715,7 @@
       "tags": "points, x-axis, distance, distance between points, sets of numbers",
       "url": "/question/88cd1fe8-5ec3-469c-b32e-695da2a903ec",
       "source": "Active Calc 1.1.32",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "9592a4ef-5076-481f-a6aa-1d1eecfd4bc6",
@@ -851,7 +732,7 @@
       "tags": "points, form, origin, distance, distance between points, sets of numbers",
       "url": "/question/9592a4ef-5076-481f-a6aa-1d1eecfd4bc6",
       "source": "Active Calc 1.1.33",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "927f1a27-c30e-435c-9632-ea2f8761eebf",
@@ -868,7 +749,7 @@
       "tags": "word-problem, algebra word problem, sets of numbers, coordinates, distance, distance between points",
       "url": "/question/927f1a27-c30e-435c-9632-ea2f8761eebf",
       "source": "Active Calc 1.1.34",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     },
     {
       "uuid": "7f884354-c9eb-4064-bb3a-2ee94559c7bf",
@@ -885,7 +766,41 @@
       "tags": "distance formula, distance, distance between points, points, sets of numbers",
       "url": "/question/7f884354-c9eb-4064-bb3a-2ee94559c7bf",
       "source": "Active Calc 1.1.35",
-      "topic": "Geometry/Points Lines Planes + Angles/Coordinate Geometry"
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
+    },
+    {
+      "uuid": "69446a61-e4cf-4506-b6a5-357fc605f95a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946145,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sets of Numbers",
+      "body": "Verify the Midpoint Formula by showing the distance between P(x\\(_{1}, y_{1}\\)) and M and the distance between M and Q(x\\(_{2}, y_{2}\\)) are both half of the distance between P and Q.",
+      "allAnswers": [],
+      "tags": "midpoint, midpoint formula, distance, distance between points, sets of numbers",
+      "url": "/question/69446a61-e4cf-4506-b6a5-357fc605f95a",
+      "source": "Active Calc 1.1.36",
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
+    },
+    {
+      "uuid": "38afe467-8730-4a74-9753-eb8890ef7a35",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946145,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sets of Numbers",
+      "body": "Show that the points A, B, and C below are the vertices of a right triangle.\n(a) A(-3,2), B(-6,4), and C(1,8)\n(b) A(-3,1), B(4,0) and C(0,-3)",
+      "allAnswers": [],
+      "tags": "points, sets of numbers, coordinates",
+      "url": "/question/38afe467-8730-4a74-9753-eb8890ef7a35",
+      "source": "Active Calc 1.1.37",
+      "topic": "dc33d91b-cf8f-4c98-bb26-1de3bb80a179"
     }
   ],
   "textContent": [
@@ -899,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Sequences ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2752.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2753.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2754.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2755.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2756.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2757.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2761.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2752.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2753.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2754.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2755.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2756.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2757.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2761.png\"/\u003e",
       "allAnswers": [],
       "tags": "sequences, series, annuity, matrix, matrices ",
       "url": "/text-content/f219089c-bd8e-4181-ab12-76ac61aa3a99",
       "source": "Precalculus, 3rd Edition 9.1",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Sequences"
+      "topic": "ee0c33f6-fec5-4745-b14d-b17f93943e1f"
     },
     {
       "uuid": "4f2a9c35-e0ca-424e-9f4a-9d8694494ec8",
@@ -916,14 +831,60 @@
       "viewable": true,
       "karma": 3,
       "title": "Summation Notation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2762.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2763.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2764.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2765.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2766.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2767.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2768.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2769.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2770.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2762.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2763.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2764.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2765.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2766.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2767.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2768.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2769.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2770.png\"/\u003e",
       "allAnswers": [],
       "tags": "sequences, series, summation notation ",
       "url": "/text-content/4f2a9c35-e0ca-424e-9f4a-9d8694494ec8",
       "source": "Precalculus, 3rd Edition 9.2",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Summation Notation"
+      "topic": "85d73e55-74cb-423e-96c0-c851f49f7e01"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "826a24c8-cc63-4dd1-8bec-0ce6c4777ce9",
+      "subTopics": [],
+      "parentTopics": [
+        "17122c43-f335-49b0-bd9d-e93b03a1f691"
+      ],
+      "title": "The Binomial Theorem",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " pascal\\u0027s triangle , theorems, sequences,binomial theorem,",
+      "difficulty": 339000,
+      "contentUuids": [
+        "a737e637-da99-447d-8664-3eba0477c4ac"
+      ]
+    },
+    {
+      "uuid": "385abd06-2bd4-4935-b837-d212caddbc26",
+      "subTopics": [],
+      "parentTopics": [
+        "817dbd92-2bf3-4756-80fe-a8854865e561"
+      ],
+      "title": "Arithmetic of Units; Significant Digits",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " logic, proof , real numbers, significant digits,arithmetic, functions, mathematical logic, algebra,",
+      "difficulty": 372000,
+      "contentUuids": [
+        "a2ce18db-58fc-4a76-a924-cba157ed6464"
+      ]
+    },
+    {
+      "uuid": "7032b43e-975d-4964-9b68-f538d2bfc400",
+      "subTopics": [],
+      "parentTopics": [
+        "00d4b8b6-c73b-493f-8a10-04a0542309f7"
+      ],
+      "title": "Radian Conversion",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " imaginary number, i, tangent,sine, cosine,",
+      "difficulty": 173000,
+      "contentUuids": [
+        "aacce7a9-7261-4bbe-a2cc-ec5eb21887ac"
+      ]
+    }
+  ]
 }

@@ -2,296 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3402.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3403.png\"/\u003e",
-      "uuid": "e78eeda2-fa45-43cb-85c9-7e3ccd4bf358",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4444.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4445.png\"/\u003e",
+      "uuid": "65154a57-e073-4ca9-98ba-26d73380fdb3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Horizontal Asymptotes",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3401.png\"/\u003e",
+      "title": "Compute this limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4443.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, horizontal asymptotes, graphing funcitons",
-      "url": "/practice-problem/e78eeda2-fa45-43cb-85c9-7e3ccd4bf358",
-      "source": "null 4.1.4"
+      "tags": "limits, limits approaching infinity, asymptotes, vertical asymptotes, horizontal asymptotes",
+      "url": "/practice-problem/65154a57-e073-4ca9-98ba-26d73380fdb3",
+      "source": "null 2.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3405.png\"/\u003e",
-      "uuid": "1f974b6f-23ca-4af3-8648-0df448d77094",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4447.png\"/\u003e",
+      "uuid": "18f3e020-b051-4802-af45-f0ac973d7922",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Number of students at local colleges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3404.png\"/\u003e",
+      "title": "Find horizontal asymptotes",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4446.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, zero, graphing functions ",
-      "url": "/practice-problem/1f974b6f-23ca-4af3-8648-0df448d77094",
-      "source": "null 4.1.5"
+      "tags": "asymptotes, limits, limits to infinity, vertical asymptotes, horizontal asymptotes",
+      "url": "/practice-problem/18f3e020-b051-4802-af45-f0ac973d7922",
+      "source": "null 2.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3410.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3411.png\"/\u003e",
-      "uuid": "b655cf6a-03b8-4f7c-8c64-6be79c8fef12",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4450.png\"/\u003e",
+      "uuid": "71cd4339-5c9f-40a8-8912-6ced210c9e63",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Asymptotes of graph",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3408.png\"/\u003e",
+      "title": "Give a horizontal asymptote",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4449.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, asymptotes, graphing functions",
-      "url": "/practice-problem/b655cf6a-03b8-4f7c-8c64-6be79c8fef12",
-      "source": "null 4.1.6"
+      "tags": "asymptotes, horizontal asymptotes, vertical asymptotes, limits ",
+      "url": "/practice-problem/71cd4339-5c9f-40a8-8912-6ced210c9e63",
+      "source": "null 2.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3424.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3425.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3426.png\"/\u003e",
-      "uuid": "39296b02-bb60-4597-a943-cd2d1ecc89c5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4453.png\"/\u003e",
+      "uuid": "b81a4430-b85e-43aa-8b64-65efc1a4b88b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sketch the following rational function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3423.png\"/\u003e",
+      "title": "Limits natural log",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4451.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, graphing rational functions, asymptotes",
-      "url": "/practice-problem/39296b02-bb60-4597-a943-cd2d1ecc89c5",
-      "source": "null 4.2.3"
+      "tags": "limits, asymptotes, limits to infinity, natural log ",
+      "url": "/practice-problem/b81a4430-b85e-43aa-8b64-65efc1a4b88b",
+      "source": "null 2.2.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3428.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3429.png\"/\u003e",
-      "uuid": "6f9def22-a2c0-4422-9a6e-4787ac11b2e5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4459.png\"/\u003e",
+      "uuid": "79ddf86c-04b4-4116-b8e7-a166a6fd6c2a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sketch the following rational functions, 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3427.png\"/\u003e",
+      "title": "Roots between 0 and 1",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4458.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, graphing rational functions, asymptotes",
-      "url": "/practice-problem/6f9def22-a2c0-4422-9a6e-4787ac11b2e5",
-      "source": "null 4.2.4"
+      "tags": "roots, continuity, intermediate value theorem ",
+      "url": "/practice-problem/79ddf86c-04b4-4116-b8e7-a166a6fd6c2a",
+      "source": "null 2.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3436.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3437.png\"/\u003e",
-      "uuid": "adf737e9-c237-43da-9837-cd244c4f7908",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4461.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4463.png\"/\u003e",
+      "uuid": "52fc194f-a6f8-4509-9618-9204bd5ffad1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Taylor working alone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3435.png\"/\u003e",
+      "title": "Approximate one decimal place",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4460.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, proportions, word problem ",
-      "url": "/practice-problem/adf737e9-c237-43da-9837-cd244c4f7908",
-      "source": "null 4.3.3"
+      "tags": "intermediate value theorem",
+      "url": "/practice-problem/52fc194f-a6f8-4509-9618-9204bd5ffad1",
+      "source": "null 2.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3441.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3443.png\"/\u003e",
-      "uuid": "3324a7b6-341d-4138-8e74-a8c663eb355e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4470.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4471.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4472.png\"/\u003e",
+      "uuid": "6aade042-3fbb-4b0d-a519-f71bc677fee7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Cost function, do the following",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3439.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3440.png\"/\u003e",
+      "title": "Compute derivative absolute value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4469.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, rational inequalities, applications of rational functions ",
-      "url": "/practice-problem/3324a7b6-341d-4138-8e74-a8c663eb355e",
-      "source": "null 4.3.4"
+      "tags": "derivatives, absolute value, limits ",
+      "url": "/practice-problem/6aade042-3fbb-4b0d-a519-f71bc677fee7",
+      "source": "null 3.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3445.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3446.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3447.png\"/\u003e",
-      "uuid": "4bc4bdeb-03e3-47f0-879b-a74ce39cd41f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4478.png\"/\u003e",
+      "uuid": "4465dfb0-a495-4e36-af99-2028337f19f6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Answer questions about Boxes",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3444.png\"/\u003e",
+      "title": "Compute the derivative",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4477.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, applications of rational functions, rational inequalities, applications of rational inequalities ",
-      "url": "/practice-problem/4bc4bdeb-03e3-47f0-879b-a74ce39cd41f",
-      "source": "null 4.3.5"
+      "tags": "power rule, derivatives, basic derivatives ",
+      "url": "/practice-problem/4465dfb0-a495-4e36-af99-2028337f19f6",
+      "source": "null 3.2.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3451.png\"/\u003e",
-      "uuid": "d5eb10a5-44fc-4d60-a21a-4b6930ce0e66",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4482.png\"/\u003e",
+      "uuid": "830c489a-81b0-43f3-b049-3209acd89676",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Translate into mathematical equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3449.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3450.png\"/\u003e",
+      "title": "Compute derivative ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4481.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, applications of rational functions, hooke\u0027s law, boyle\u0027s law ",
-      "url": "/practice-problem/d5eb10a5-44fc-4d60-a21a-4b6930ce0e66",
-      "source": "null 4.3.6"
+      "tags": "sum rule, derivatives, power rule",
+      "url": "/practice-problem/830c489a-81b0-43f3-b049-3209acd89676",
+      "source": "null 3.2.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3454.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3455.png\"/\u003e",
-      "uuid": "05274e44-110a-4ab1-89ff-ab88761a84f5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4484.png\"/\u003e",
+      "uuid": "ec957522-3f2a-4ffb-a028-404b9228ca44",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655792,
+      "createdAt": 1437611655793,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Volume of gas, V",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3452.png\"/\u003e",
+      "title": "Compute this supa complex deriv, bro",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4483.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, applications of rational functions ",
-      "url": "/practice-problem/05274e44-110a-4ab1-89ff-ab88761a84f5",
-      "source": "null 4.3.7"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3460.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3461.png\"/\u003e",
-      "uuid": "8e124694-d2a1-48d8-b8f8-488fb1b4ded9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655792,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write function as composition",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3459.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "function composition, functions, rational functions, absolute value functions, linear functions ",
-      "url": "/practice-problem/8e124694-d2a1-48d8-b8f8-488fb1b4ded9",
-      "source": "null 5.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3477.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3478.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3479.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3481.png\"/\u003e",
-      "uuid": "efad2260-0e5e-48e2-989e-e85bfd7a1bce",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655792,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graph the following functions to show they are one-to-one",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3476.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "inverse functions, functions, graphing functions ",
-      "url": "/practice-problem/efad2260-0e5e-48e2-989e-e85bfd7a1bce",
-      "source": "null 5.2.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3483.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3484.png\"/\u003e",
-      "uuid": "868fd218-3868-4749-97d9-2b75f8916c2b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655792,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Price-demand equation, PortaBoy",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3482.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "functions, inverse functions, graphing functions, interpret inverse ",
-      "url": "/practice-problem/868fd218-3868-4749-97d9-2b75f8916c2b",
-      "source": "null 5.2.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3496.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3497.png\"/\u003e",
-      "uuid": "d829e724-a612-4016-bc61-9f5a24948dae",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655792,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Carl wishes to get high speed internet",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3495.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "functions, algebraic functions, graphing functions ",
-      "url": "/practice-problem/d829e724-a612-4016-bc61-9f5a24948dae",
-      "source": "null 5.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3503.png\"/\u003e",
-      "uuid": "da0d0b98-5be4-4bc6-a677-d8a1d93cae99",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655792,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Simplify the follow log funcitons",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3576.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "functions, exponential functions, logarithmic functions",
-      "url": "/practice-problem/da0d0b98-5be4-4bc6-a677-d8a1d93cae99",
-      "source": "null 6.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3506.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3507.png\"/\u003e",
-      "uuid": "71f9479b-fbfb-42a5-81d7-24bc676975d4",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655792,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the domain of the following functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3505.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "functions, exponential functions, logarithmic functions ",
-      "url": "/practice-problem/71f9479b-fbfb-42a5-81d7-24bc676975d4",
-      "source": "null 6.1.4"
+      "tags": "derivatives, power rule, sum rule",
+      "url": "/practice-problem/ec957522-3f2a-4ffb-a028-404b9228ca44",
+      "source": "null 3.2.8"
     }
   ],
   "questions": [
-    {
-      "uuid": "2fdcce43-32a8-4c6f-b023-8d9b194f8d95",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946153,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Inverse",
-      "body": "Show that the given function is one-to-one and find its inverse. Check your answers algebraically and graphically. Verify that the range of f is the domain of f _1 and vice-versa.\n\n\\( f(x) \u003d 6x - 2 \\)",
-      "allAnswers": [],
-      "tags": "function, algebra, function arithmetic, function composition",
-      "url": "/question/2fdcce43-32a8-4c6f-b023-8d9b194f8d95",
-      "source": "Active Calc 5.2.1",
-      "topic": "Algebra/Functions/Graphing Functions"
-    },
     {
       "uuid": "fe0e13a7-4fb3-44c8-9507-650045a23f2c",
       "contentType": "question",
@@ -307,7 +188,7 @@
       "tags": "domain, function, domain of function, function notation ",
       "url": "/question/fe0e13a7-4fb3-44c8-9507-650045a23f2c",
       "source": "Active Calc 1.4.54",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "329cca9d-3be8-4b42-a47e-9b99cefdff21",
@@ -324,7 +205,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/329cca9d-3be8-4b42-a47e-9b99cefdff21",
       "source": "Active Calc 5.2.2",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "61622017-91b4-4943-9846-9e75c78494fa",
@@ -341,7 +222,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/61622017-91b4-4943-9846-9e75c78494fa",
       "source": "Active Calc 5.2.3",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "6c843329-23c1-4ed4-9807-2387830679cd",
@@ -358,7 +239,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/6c843329-23c1-4ed4-9807-2387830679cd",
       "source": "Active Calc 1.4.55",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "4de2237d-c95e-4a67-b2d7-a69b88f59f50",
@@ -375,7 +256,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/4de2237d-c95e-4a67-b2d7-a69b88f59f50",
       "source": "Active Calc 5.2.4",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "ce70300d-d9a9-4c03-ba26-d6dc3982bbe0",
@@ -392,7 +273,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/ce70300d-d9a9-4c03-ba26-d6dc3982bbe0",
       "source": "Active Calc 1.4.56",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "21797ae0-1d3d-4338-912c-3736cd36547e",
@@ -409,7 +290,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/21797ae0-1d3d-4338-912c-3736cd36547e",
       "source": "Active Calc 5.2.5",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "4598fa98-7380-467c-b59f-6b308c4cd802",
@@ -426,7 +307,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/4598fa98-7380-467c-b59f-6b308c4cd802",
       "source": "Active Calc 5.2.6",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a85868d5-2fab-45ab-a498-60f482c5a1c1",
@@ -443,7 +324,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/a85868d5-2fab-45ab-a498-60f482c5a1c1",
       "source": "Active Calc 1.4.57",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "4afc216d-b165-4c2e-a69a-b4ab2b826a81",
@@ -460,7 +341,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/4afc216d-b165-4c2e-a69a-b4ab2b826a81",
       "source": "Active Calc 5.2.7",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "47da5a52-45bc-448a-86d6-dff6a4a634b8",
@@ -477,7 +358,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/47da5a52-45bc-448a-86d6-dff6a4a634b8",
       "source": "Active Calc 5.2.8",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a73e79bb-cdc5-4a1b-ad25-1b78e55b5b3e",
@@ -494,7 +375,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/a73e79bb-cdc5-4a1b-ad25-1b78e55b5b3e",
       "source": "Active Calc 1.4.58",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "8f12f7d0-013f-416b-b6af-fab731cb72b9",
@@ -511,7 +392,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/8f12f7d0-013f-416b-b6af-fab731cb72b9",
       "source": "Active Calc 5.2.9",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "5fdfc29f-ecec-4a60-ba88-61371b51e7bf",
@@ -528,7 +409,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/5fdfc29f-ecec-4a60-ba88-61371b51e7bf",
       "source": "Active Calc 5.2.10",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "ac8e6083-addc-4b48-bc2b-10278faf0134",
@@ -545,7 +426,7 @@
       "tags": "domain, domain of function, function, function notation ",
       "url": "/question/ac8e6083-addc-4b48-bc2b-10278faf0134",
       "source": "Active Calc 1.4.59",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "bee2dcaf-0a74-4523-b585-3fa3ee70429a",
@@ -562,7 +443,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/bee2dcaf-0a74-4523-b585-3fa3ee70429a",
       "source": "Active Calc 5.2.11",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "675e9f14-cb3a-4309-9056-8762891bab8e",
@@ -579,7 +460,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/675e9f14-cb3a-4309-9056-8762891bab8e",
       "source": "Active Calc 5.2.12",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "2180a2ad-103f-4a75-9439-ac43eb90d50b",
@@ -596,7 +477,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/2180a2ad-103f-4a75-9439-ac43eb90d50b",
       "source": "Active Calc 1.4.60",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "77cac83d-e16b-448f-b25f-ffd808518d0d",
@@ -613,7 +494,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/77cac83d-e16b-448f-b25f-ffd808518d0d",
       "source": "Active Calc 5.2.13",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "635c2265-ad3c-4081-83a5-bd09bc50e347",
@@ -630,7 +511,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/635c2265-ad3c-4081-83a5-bd09bc50e347",
       "source": "Active Calc 5.2.14",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a14f3bc4-d5b2-47a7-b53a-18e38015220e",
@@ -647,7 +528,7 @@
       "tags": "domain, domain of function, function, function notation ",
       "url": "/question/a14f3bc4-d5b2-47a7-b53a-18e38015220e",
       "source": "Active Calc 1.4.61",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "c1c0e651-7614-47d0-9b55-b1f5049b40f0",
@@ -664,7 +545,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/c1c0e651-7614-47d0-9b55-b1f5049b40f0",
       "source": "Active Calc 5.2.15",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "4a7f8262-b812-4fcf-8a2f-f10794c21377",
@@ -681,7 +562,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/4a7f8262-b812-4fcf-8a2f-f10794c21377",
       "source": "Active Calc 5.2.16",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "84a9f9f7-fe84-415f-922c-41c874cdb7a4",
@@ -698,7 +579,7 @@
       "tags": "domain of function, function, domain, function notation",
       "url": "/question/84a9f9f7-fe84-415f-922c-41c874cdb7a4",
       "source": "Active Calc 1.4.62",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "67072e65-088a-4990-8e52-4e3d516b8a42",
@@ -715,7 +596,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/67072e65-088a-4990-8e52-4e3d516b8a42",
       "source": "Active Calc 5.2.17",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "8fea9163-e26e-4b4c-9c7e-8a52708bb90a",
@@ -732,7 +613,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/8fea9163-e26e-4b4c-9c7e-8a52708bb90a",
       "source": "Active Calc 5.2.18",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "7ef7663c-721b-495c-a51d-851b5c9e9ad4",
@@ -749,7 +630,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/7ef7663c-721b-495c-a51d-851b5c9e9ad4",
       "source": "Active Calc 5.2.19",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "3f095df2-403d-409a-8313-8967741e1a31",
@@ -766,7 +647,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/3f095df2-403d-409a-8313-8967741e1a31",
       "source": "Active Calc 5.2.20",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "79d7fd4e-b9a6-4a86-993e-370ef5761a06",
@@ -783,7 +664,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/79d7fd4e-b9a6-4a86-993e-370ef5761a06",
       "source": "Active Calc 5.2.21",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "06a01bda-877d-4c4f-b856-352600ae2294",
@@ -800,7 +681,7 @@
       "tags": "area, function notation, relation, function",
       "url": "/question/06a01bda-877d-4c4f-b856-352600ae2294",
       "source": "Active Calc 1.4.63",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "9c74503f-5076-4238-8856-f89455672a5f",
@@ -817,7 +698,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/9c74503f-5076-4238-8856-f89455672a5f",
       "source": "Active Calc 5.2.22",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "e69f32b8-85f8-44e9-b8c4-8e092fa8c527",
@@ -834,7 +715,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/e69f32b8-85f8-44e9-b8c4-8e092fa8c527",
       "source": "Active Calc 5.2.23",
-      "topic": "Algebra/Functions/Graphing Functions/Function Domain"
+      "topic": "275d4479-5c61-42a9-9027-5f4a46cd64ba"
     },
     {
       "uuid": "fbe4b36d-5b6b-4820-9c28-a4cdd84d2ae4",
@@ -851,7 +732,7 @@
       "tags": "area of a circle, circle, area, radius, relation, function notation, function",
       "url": "/question/fbe4b36d-5b6b-4820-9c28-a4cdd84d2ae4",
       "source": "Active Calc 1.4.64",
-      "topic": "Algebra/Functions/Graphing Functions/Function Domain"
+      "topic": "275d4479-5c61-42a9-9027-5f4a46cd64ba"
     },
     {
       "uuid": "f50165c5-24f8-438e-9571-056de1aef059",
@@ -868,7 +749,7 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/f50165c5-24f8-438e-9571-056de1aef059",
       "source": "Active Calc 5.2.24",
-      "topic": "Algebra/Functions/Graphing Functions/Function Domain"
+      "topic": "275d4479-5c61-42a9-9027-5f4a46cd64ba"
     },
     {
       "uuid": "f9116ec8-0cd1-4f22-ac6d-e18b8c6f12d0",
@@ -885,7 +766,7 @@
       "tags": "volume, cube, relation, function, function notation",
       "url": "/question/f9116ec8-0cd1-4f22-ac6d-e18b8c6f12d0",
       "source": "Active Calc 1.4.65",
-      "topic": "Algebra/Functions/Graphing Functions/Function Domain"
+      "topic": "275d4479-5c61-42a9-9027-5f4a46cd64ba"
     },
     {
       "uuid": "3aa121dc-371f-4760-9be2-8cc3f3c32b52",
@@ -902,7 +783,24 @@
       "tags": "function, algebra, function arithmetic, function composition, inverse, range, domain",
       "url": "/question/3aa121dc-371f-4760-9be2-8cc3f3c32b52",
       "source": "Active Calc 5.2.25",
-      "topic": "Algebra/Functions/Graphing Functions/Function Domain"
+      "topic": "275d4479-5c61-42a9-9027-5f4a46cd64ba"
+    },
+    {
+      "uuid": "498cc3cb-74e0-4fee-89d8-eb5624e96a72",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946154,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Function Notation",
+      "body": "The volume V enclosed by a sphere, in cubic feet, is a function of the radius of the sphere r, when measured in feet. This relation is expressed by the formula V(r) \u003d \\(\\frac{4\\pi}{3}\\)r\\(^{3}\\) for r \u003e 0. Find the V(3) and solve V(r) \u003d \\(\\frac{32\\pi}{3}\\). Interpret your answers to each. Why is r restricted to r \u003e 0?",
+      "allAnswers": [],
+      "tags": "volume, sphere, volume of a sphere, radius, relation, function notation ",
+      "url": "/question/498cc3cb-74e0-4fee-89d8-eb5624e96a72",
+      "source": "Active Calc 1.4.66",
+      "topic": "275d4479-5c61-42a9-9027-5f4a46cd64ba"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Vectors",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3081.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3084.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3085.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3086.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3102.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3081.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3082.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3083.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3084.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3085.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3086.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3087.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3088.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3091.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3092.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3093.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3100.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3101.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3102.png\"/\u003e",
       "allAnswers": [],
       "tags": "vectors, component form, vector addition, scalar multiplication ",
       "url": "/text-content/cae87993-de23-4830-9559-1f9852990735",
       "source": "Precalculus, 3rd Edition 11.8",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors"
+      "topic": "6846ecf2-fa29-41a0-8315-fd49f306572b"
     },
     {
       "uuid": "28e8a49f-1b33-4a18-ab59-78407d865d63",
@@ -933,14 +831,109 @@
       "viewable": true,
       "karma": 3,
       "title": "The Dot Product and Projection",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3107.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3109.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3113.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3114.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3118.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3119.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3120.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3106.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3107.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3108.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3109.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3113.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3114.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3118.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3119.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3120.png\"/\u003e\n\n\u003cimg src\u003d\"/_static/img/content/10/.png\"/\u003e",
       "allAnswers": [],
       "tags": "dot product, projection, vectors ",
       "url": "/text-content/28e8a49f-1b33-4a18-ab59-78407d865d63",
       "source": "Precalculus, 3rd Edition 11.9",
-      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
+      "topic": "e80fe800-5e12-45b3-8658-222fc6143441"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "817dbd92-2bf3-4756-80fe-a8854865e561",
+      "subTopics": [
+        "e8dd1df0-8214-44be-8055-ce9e43cea8db",
+        "3850daa2-ca35-4c75-8c68-f7ee3ad54b97",
+        "a4c74c8f-0251-4682-afa0-afa93703e306",
+        "7aaad84e-9d76-492c-9d62-a2272f77436c",
+        "15c11b1a-a64d-4734-bd99-3e1c290c28ce",
+        "acfdda22-3e09-4d78-a662-78cc9c93263b",
+        "450b120f-41ea-433d-a9c7-3b830444fb9f",
+        "385abd06-2bd4-4935-b837-d212caddbc26"
+      ],
+      "parentTopics": [
+        "37aa3772-6f0f-4f61-95a3-79bb7abf7da6"
+      ],
+      "title": "Real Numbers, Algebra, and Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 370000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "ce836446-80b8-45bd-92e3-1132ef107d04",
+      "subTopics": [],
+      "parentTopics": [
+        "22b1df01-adef-412c-99aa-d3c870c624db"
+      ],
+      "title": "Trigonometric functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " differentiating trig functions, derivatives ,trigonometric functions,",
+      "difficulty": 466000,
+      "contentUuids": [
+        "16b35eaf-0df4-4bfe-8abb-ad4a8e5eccb0"
+      ]
+    },
+    {
+      "uuid": "f2a7796a-72ee-42d2-9651-e771c88dbd54",
+      "subTopics": [],
+      "parentTopics": [
+        "007f07cf-7fe9-4ac2-9f9a-aff3cf9216d8"
+      ],
+      "title": "Convergent Series",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "convergence tests for series, convergence, divergence, radius of convergence,radius, sum, interval, multi-problem, interval of convergence, convergent, series, divergent,converge, rational functions, diverge, series , sequences , infinity,comparison tests,convergence,",
+      "difficulty": 679000,
+      "contentUuids": [
+        "85ca5bd5-2a39-4012-8d1f-e7ae19fe9ab3",
+        "a191d523-7cca-4872-9592-aaefc6d529a2",
+        "c2a60b2e-6d66-48b5-8f02-c5b2b5991756",
+        "86196d21-5592-44f4-8a15-bf1e4b0bffa1",
+        "a07f8211-492a-4bd6-8115-a88da997e286",
+        "2eed34da-6b46-471b-852f-700a8519cb4d",
+        "4eb3d946-0367-4d7e-887e-2bf7b5b231e2",
+        "b233e02d-f84e-4680-a7d7-ce2ac42d60b9",
+        "ca17527a-d49e-479d-a354-d0c8f7d0bc10",
+        "85fbb185-0b6f-44cd-8f04-d21061e16057",
+        "3d622b95-7492-459c-9fc2-eecf2791eb13",
+        "13da3814-38a0-4330-a2e6-983f4ac0ed5e",
+        "1289f7ff-3f8a-4a80-800c-70b82c69e247",
+        "dba8468e-c33c-4dc4-a3ed-b41f6b9cc08f",
+        "76ed1013-a61a-4193-8ea2-5ad952c3c489",
+        "ed03e82e-d3c9-4805-9363-e75c14cd5ec7",
+        "5175557b-3a92-4263-a8a5-36585e382062",
+        "91f15a56-3550-45e1-a42c-af63d22ad2f8",
+        "28ae4755-1343-4cf4-bb94-76e15c21c479",
+        "4d89e5d5-c19e-40b8-a1f7-347cfad9b822",
+        "89bd31b2-b198-4b9c-a4bb-bfd43f42aea7",
+        "52612dc1-d8c2-4269-814e-afb8276d1e55",
+        "c550f4fb-b1a8-4acc-b389-3805f00848c1",
+        "7bc4be41-06ac-4982-903d-42bbc7dee2da",
+        "9fb7f576-c9bb-4042-b32f-b62b168c30a2",
+        "a616514e-01c5-439d-ac48-bdfaa4782aed",
+        "ef88f965-c4c7-466f-b090-c49ff128d43c",
+        "13a50403-605c-4cc1-854e-547bc50eb74e",
+        "de4b0836-a183-4fca-ae5a-7ad60243e124",
+        "6dda06f1-a593-4097-98c5-1353558c3995",
+        "8f46dbb3-e244-42ab-b6eb-2afc4064e477",
+        "edc71175-605a-429a-a02a-7cf8e01138a7",
+        "ec640414-e101-48fa-9df2-6889f52e70aa",
+        "c5a41777-be0a-4b07-a9ae-82ab9bd9ad2f",
+        "2bc9c259-f4df-453a-b9fe-90e7971272f6",
+        "66a16310-fb64-4446-8dc2-43e98878e189",
+        "0cf792b2-9018-43a3-b8ad-27671d6f1a12",
+        "e5b11784-e027-44ef-a279-e1489d15fbb8",
+        "27356a93-3bf6-4904-97c4-931555e84ba6",
+        "443908fe-206b-4e2d-b099-07553ec7bc43",
+        "ea619900-224f-4b26-914c-2404eee0d740",
+        "4560a78b-dcc4-4b1d-8687-7b7546ad1b4d",
+        "e22fbb06-41c3-4a77-9b9e-f4bf6fec501a"
+      ]
+    }
+  ]
 }

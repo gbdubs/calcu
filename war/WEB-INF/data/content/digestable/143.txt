@@ -2,483 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d{\\frac {e^{z}}{z^{2}(z^{2}+9)}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis has poles at \\( z\u003d0\\, \\) of multiplicity \\( k\u003d2\\, \\) and at \\( z\u003d\\pm 3i\\, \\) of multiplicity \\( k\u003d1\\, \\) . \u003c/p\u003e\n\u003cp\u003eFor the simple roots, the residue is the numerator divided by the first derivative of the denominator when both are evaluated at the root. \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d-3i}}f(z)\u003d{\\frac {e^{z}}{4z^{3}+18z}}{\\Big |}_{{z\u003d-3i}}\u003d{\\frac {e^{{-3i}}}{4(27i)+18(-3i)}}\u003d{\\frac {e^{{-3i}}}{54i}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d3i}}f(z)\u003d{\\frac {e^{z}}{4z^{3}+18z}}{\\Big |}_{{z\u003d3i}}\u003d{\\frac {e^{{3i}}}{4(27(-i))+18(3i)}}\u003d{\\frac {-e^{{3i}}}{54i}}\\, \\) \u003c/p\u003e\n\u003cp\u003eFor 0, use the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d0}}\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}z^{2}f(z)\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}{\\frac {e^{z}}{z^{2}+9}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\lim _{{z\\to 0}}{\\frac {(z^{2}+9)e^{z}-e^{z}2z}{(z^{2}+9)^{2}}}\u003d{\\frac {9}{9^{2}}}\u003d{\\frac {1}{9}}\\, \\) \u003c/p\u003e\n\u003cp\u003eIf \\( f(z)\\, \\) is analytic except at isolated singular points, then the sum of all the residues of \\( f(z)\\, \\) equals 0. \u003c/p\u003e\n\u003cp\u003eSo \\( {\\mathrm {Res}}_{{z\u003d-3i}}+{\\mathrm {Res}}_{{z\u003d3i}}+{\\mathrm {Res}}_{{z\u003d0}}+{\\mathrm {Res}}_{{z\u003d\\infty }}\u003d{\\frac {e^{{-3i}}}{54i}}-{\\frac {e^{{3i}}}{54i}}+{\\frac {1}{9}}+{\\mathrm {Res}}_{{z\u003d\\infty }}\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "eaafbb27-dbff-4348-adda-b5cdeeb6b05e",
+      "authorSolution": "converges,  \\(0\\) ",
+      "uuid": "ca17527a-d49e-479d-a354-d0c8f7d0bc10",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166033,
+      "creatorUserId": "",
+      "createdAt": 1437419361951,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {e^{z}}{z^{2}(z^{2}+9)}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/eaafbb27-dbff-4348-adda-b5cdeeb6b05e",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR6",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Convergence Tests For Series",
+      "body": " Let  \\(a_n \u003d \\dfrac{3^{100n}}{3\\cdot6\\cdots(3n)}\\)  for  \\(n \\ge 1\\) .   Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  __________ (converges/diverges) because  \\(\\lim_{n \\sto \\infty}\\frac{a_{n+1}}{a_n}\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "convergence tests for series,",
+      "url": "/practice-problem/ca17527a-d49e-479d-a354-d0c8f7d0bc10",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "f2a7796a-72ee-42d2-9651-e771c88dbd54"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d\\cot ^{2}(z)\\, \\) \u003c/p\u003e\n\u003cp\u003eThis has poles at \\( z\u003dk\\pi ,k\\in {\\mathbb {Z}}\\, \\) of multiplicity \\( k\u003d2\\, \\) . \u003c/p\u003e\n\u003cp\u003eUse the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003dn\\pi }}\u003d\\lim _{{z\\to n\\pi }}{\\frac {d}{dz}}(z-n\\pi )^{2}f(z)\u003d\\lim _{{z\\to n\\pi }}{\\frac {d}{dz}}\\left[{\\frac {(z-n\\pi )\\cos z}{\\sin z}}\\right]^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\lim _{{z\\to n\\pi }}2\\left[{\\frac {(z-n\\pi )\\cos z}{\\sin z}}\\right]\\left[{\\frac {\\sin z\\left[(z-n\\pi )(-\\sin z)+\\cos z\\right]-(z-n\\pi )\\cos ^{2}z}{\\sin ^{2}(z)}}\\right]\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e In this case infinity is a limit point of singular points, so there is no residue at infinity. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "1fe44e79-989e-4f63-9d01-f4427a42368c",
+      "authorSolution": "diverges,  \\(\\infty\\) ",
+      "uuid": "85fbb185-0b6f-44cd-8f04-d21061e16057",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166042,
+      "creatorUserId": "",
+      "createdAt": 1437419361952,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\cot ^{2}z\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/1fe44e79-989e-4f63-9d01-f4427a42368c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR7",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Convergence Tests For Series",
+      "body": " Let  \\(a_n \u003d \\dfrac{(2n-1)!}{4^{2n-1}}\\)  for  \\(n \\ge 1\\) .    Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  __________ (converges/diverges) because  \\(\\lim_{n \\sto \\infty}\\dfrac{a_{n+1}}{a_n} \u003d\\) ____.",
+      "allAnswers": [],
+      "tags": "convergence tests for series,",
+      "url": "/practice-problem/85fbb185-0b6f-44cd-8f04-d21061e16057",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "f2a7796a-72ee-42d2-9651-e771c88dbd54"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d\\cot ^{3}(z)\\, \\) \u003c/p\u003e\n\u003cp\u003eThis has poles at \\( z\u003dn\\pi ,n\\in {\\mathbb {Z}}\\, \\) of multiplicity \\( k\u003d3\\, \\) . \u003c/p\u003e\n\u003cp\u003eUse the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003dn\\pi }}\u003d{\\frac {1}{2}}\\lim _{{z\\to n\\pi }}{\\frac {d^{2}}{{dz}^{2}}}(z-n\\pi )^{3}f(z)\u003d{\\frac {1}{2}}\\lim _{{z\\to n\\pi }}{\\frac {d^{2}}{{dz}^{2}}}\\left[{\\frac {(z-n\\pi )\\cos z}{\\sin z}}\\right]^{3}\u003d...\u003d-1\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e In this case infinity is a limit point of singular points, so there is no residue at infinity. \u003c/p\u003e",
-      "uuid": "7098d20f-467e-438a-90b3-cfa21049b9d4",
+      "authorSolution": "converges,  \\(e\\) ",
+      "uuid": "3d622b95-7492-459c-9fc2-eecf2791eb13",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166050,
+      "creatorUserId": "",
+      "createdAt": 1437419361952,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\cot ^{3}z\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/7098d20f-467e-438a-90b3-cfa21049b9d4",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR8",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Convergence Tests For Series Question",
+      "body": " Let  \\(a_n \u003d \\left(1+\\dfrac1n\\right)^{-n^2}\\)  for  \\(n \\ge 1\\) .    Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  __________ (converges/diverges) because  \\(\\lim_{n \\sto \\infty} (a_n)^{1/n} \u003d \\dfrac1a\\)  where  \\(a\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "convergence tests for series,",
+      "url": "/practice-problem/3d622b95-7492-459c-9fc2-eecf2791eb13",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "f2a7796a-72ee-42d2-9651-e771c88dbd54"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d\\cos({\\frac {1}{z-2}}), \\) \u003c/p\u003e\n\u003cp\u003eThis has poles at \\( z\u003d2, \\) . \u003c/p\u003e\n\u003cp\u003eUse the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d2}}\u003d\\lim _{{z\\to 2}}(z-2)f(z)\u003d\\lim _{{z\\to 2}}(z-2)\\cos({\\frac {1}{z-2}})\u003d0, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e In this case infinity is a limit point of singular points, so there is no residue at infinity. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "0861c906-dd44-41d1-90c5-b0d96665d1d5",
+      "authorSolution": "conditionally,  \\(9\\) ,  \\(3\\) ,  \\(6\\) ,  \\(7\\) ",
+      "uuid": "13da3814-38a0-4330-a2e6-983f4ac0ed5e",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166059,
+      "creatorUserId": "",
+      "createdAt": 1437419361952,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\cos {\\frac {1}{z-2}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/0861c906-dd44-41d1-90c5-b0d96665d1d5",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR9",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Convergence Tests For Series Practice",
+      "body": " The series  \\(\\sum_2^\\infty \\dfrac{(-1)^k}{k\\ln k}\\)  converges _____________.   By computing the partial sums  \\(S_6\\)  and  \\(S_7\\)  we know that the sum  \\(S\\)  of the series satisfies  \\[0.4  \\text{_  _}   60 \u003c S \u003c 0.5           \\text{_  _}   03.\\]",
+      "allAnswers": [],
+      "tags": "convergence tests for series,",
+      "url": "/practice-problem/13da3814-38a0-4330-a2e6-983f4ac0ed5e",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "f2a7796a-72ee-42d2-9651-e771c88dbd54"
     },
     {
-      "authorSolution": "\u003cp\u003eTake the variable z^3 into (z-2) terms. \u003c/p\u003e\n\u003cp\u003e(z^3)cos(1/(z-2)) \u003d [(z-2)^3 + 6(z-2)^2 + 12(z-2) + 8]cos(1/(z-2)) \u003c/p\u003e\n\u003cp\u003eLet u \u003d (z-2) \u003c/p\u003e\n\u003cp\u003eSo that the equation will be: \u003c/p\u003e\n\u003cp\u003e\u003d (u^3 + 6u^3 + 12u + 8)cos(1/u) \u003c/p\u003e\n\u003cp\u003eexpans cos(1/u) with the formula Sigma [(-1)^n (1/u)^2n /(2n)!] for n\u0026gt;\u003d0 \u003c/p\u003e\n\u003cp\u003ethe series will be \u003c/p\u003e\n\u003cp\u003e\u003d 1 - [(1/u)^2]/2! + [(1/u)^4]/4! - [(1/u)^6]/6! + .... \u003c/p\u003e\n\u003cp\u003eResidu is the coefficient of u^-1. Take a look that the multiplication of u^3 with [(1/u)^4]/4! and 12u with - [(1/u)^2]/2! will result the coeff of u^-1. \u003c/p\u003e\n\u003cp\u003eso that \u003c/p\u003e\n\u003cp\u003eResidu(f,2) \u003d 1/4! + 12*(-1/2!) \u003d 1/24 - 12(1/2) \u003d 1/24 - 6 \u003d -5 23/24 \u003c/p\u003e",
-      "uuid": "2bb9ded4-e657-4fe7-b3c4-1583a328601d",
+      "authorSolution": "absolutely,  \\(79\\) ,  \\(1741\\) ",
+      "uuid": "1289f7ff-3f8a-4a80-800c-70b82c69e247",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166068,
+      "creatorUserId": "",
+      "createdAt": 1437419361952,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( z^{3}\\cos {\\frac {1}{z-2}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/2bb9ded4-e657-4fe7-b3c4-1583a328601d",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR10",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Convergence Tests For Series",
+      "body": " The series  \\(\\sum_{k\u003d0}^\\infty \\frac{(-1)^k(k!)^2}{(2k)!}\\)  converges __________.   By computing the partial sums  \\(S_5\\)  and  \\(S_6\\)  we know that the sum  \\(S\\)  of the series satisfies  \\(\\dfrac a{126} \u003c S \u003c \\dfrac b{2772}\\)  where  \\(a\\) \u003d_____ and  \\(b\\) \u003d________.",
+      "allAnswers": [],
+      "tags": "convergence tests for series,",
+      "url": "/practice-problem/1289f7ff-3f8a-4a80-800c-70b82c69e247",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "f2a7796a-72ee-42d2-9651-e771c88dbd54"
     },
     {
-      "authorSolution": "\u003cp\u003eThe residue is zero. The expansion of sin(z) yields odd powers of z and sin(1/z) yields odd powers as well. As a consequence the product only has even powers. Since the residue is defined as the coefficient of 1/z it has to vanish. \u003c/p\u003e",
-      "uuid": "80a41aa6-6f7c-44e5-836f-0b861c44320c",
+      "authorSolution": " \\(e\\) ",
+      "uuid": "d654b3cf-c3cf-48d1-9690-fde31e6fe68c",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166082,
+      "creatorUserId": "",
+      "createdAt": 1437419361963,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\sin z\\sin {\\frac {1}{z}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/80a41aa6-6f7c-44e5-836f-0b861c44320c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR12",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Lagrange Form Of The Remainder",
+      "body": " The radius of convergence of the power series  \\(\\sum_1^\\infty\\frac{n^n}{n!} (x-1)^n\\)  is  \\(\\dfrac1a\\)  where  \\(a\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/d654b3cf-c3cf-48d1-9690-fde31e6fe68c",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d{\\frac {\\cos z}{z^{2}(z-\\pi )^{3}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis function has poles at \\( z\u003d0,\\pi \\, \\) with multiplicities \\( k\u003d2,3\\, \\) . \u003c/p\u003e\n\u003cp\u003eUse the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d0}}f(z)\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}\\left[z^{2}f(z)\\right]\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}{\\frac {\\cos z}{(z-\\pi )^{3}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\lim _{{z\\to 0}}\\left[{\\frac {(z-\\pi )^{3}(-\\sin z)-(\\cos z)3(z-\\pi )^{2}}{(z-\\pi )^{6}}}\\right]\u003d{\\frac {-3\\pi ^{2}}{\\pi ^{6}}}\u003d{\\frac {-3}{\\pi ^{4}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d\\pi }}f(z)\u003d{\\frac {1}{2}}\\lim _{{z\\to \\pi }}{\\frac {d^{2}}{{dz}^{2}}}\\left[(z-\\pi )^{3}f(z)\\right]\u003d{\\frac {1}{2}}\\lim _{{z\\to \\pi }}{\\frac {d^{2}}{{dz}^{2}}}{\\frac {\\cos z}{z^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{2}}\\lim _{{z\\to \\pi }}{\\frac {d}{dz}}{\\frac {z^{2}(-\\sin z)-2z\\cos z}{z^{4}}}\u003d...\u003d{\\frac {1}{2}}{\\frac {\\pi ^{2}-6}{\\pi ^{4}}}\\, \\) \u003c/p\u003e",
-      "uuid": "8cbfabbe-ebe6-4576-9bdb-fa22e16cd23c",
+      "authorSolution": " \\(3\\) ",
+      "uuid": "8844aee0-b00d-4fe2-b7e6-6cf3583e7d1a",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166091,
+      "creatorUserId": "",
+      "createdAt": 1437419361963,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {\\cos z}{z^{2}(z-\\pi )^{3}}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/8cbfabbe-ebe6-4576-9bdb-fa22e16cd23c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR13",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Maclaurin Series",
+      "body": " The radius of convergence of the power series  \\(\\sum\\left[\\frac{1\\cdot3\\cdot5\\cdots(2n-1)}            {2\\cdot4\\cdot6\\cdots(2n)} \\right]^4\\left(\\frac x3 \\right)^n\\)  is___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/8844aee0-b00d-4fe2-b7e6-6cf3583e7d1a",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d{\\frac {z^{2}+z-1}{z^{2}(z-1)}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis has poles at \\( z\u003d0, \\) of multiplicity \\( k\u003d2\\, \\) and at \\( z\u003d1, \\) of multiplicity \\( k\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e Use the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d1}}\u003d\\lim _{{z\\to 1}}(z-1)f(z)\u003d\\lim _{{z\\to 1}}{\\frac {z^{2}+z-1}{z^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d0}}\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}\\left[z^{2}f(z)\\right]\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}\\left[{\\frac {z^{2}+z-1}{(z-1)}}\\right]\u003d{\\frac {(2z+1)(z-1)-(z^{2}+z-1)}{(z-1)^{2}}}\u003d-1+1\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e If \\( f(z)\\, \\) is analytic except at isolated singular points, then the sum of all the residues of \\( f(z)\\, \\) equals 0. \u003c/p\u003e\n\u003cp\u003eSo \\( {\\mathrm {Res}}_{{z\u003d0}}+{\\mathrm {Res}}_{{z\u003d1}}+{\\mathrm {Res}}_{{z\u003d\\infty }}\u003d1+{\\mathrm {Res}}_{{z\u003d\\infty }}\\, \\) and \\( {\\mathrm {Res}}_{{z\u003d\\infty }}\u003d-1\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "b70e39a7-6ffc-481a-b8b9-43ab921dd07c",
+      "authorSolution": " \\(4\\) ,  \\(2\\) ",
+      "uuid": "4379f4a1-6757-470a-a3f8-f6e1acb6f092",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166100,
+      "creatorUserId": "",
+      "createdAt": 1437419361964,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {z^{2}+z-1}{z^{2}(z-1)}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/b70e39a7-6ffc-481a-b8b9-43ab921dd07c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR14",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Power Series",
+      "body": " The radius of convergence of the power series  \\(\\sum\\frac{n^{2n}}{(2n)!} (x-1)^n\\)  is  \\(\\dfrac{a}{e^p}\\)  where  \\(a\u003d\\) ___ and  \\(p\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/4379f4a1-6757-470a-a3f8-f6e1acb6f092",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \\( {\\frac {\\sin z}{z^{2}+4}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThe poles are at \\( z\u003d\\pm 2i\\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{z\\to 2i}}{\\frac {\\sin z}{z+2i}}\u003d{\\frac {\\sin 2i}{4i}}\u003d{\\frac {\\sinh 2}{4}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{z\\to -2i}}{\\frac {\\sin z}{z-2i}}\u003d{\\frac {\\sin -2i}{-4i}}\u003d{\\frac {\\sinh 2}{4}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "d158a4f0-cf59-4935-8d3b-0d6d8319edea",
+      "authorSolution": " \\(-\\infty\\) ,  \\(\\infty\\) ",
+      "uuid": "84b50498-9c3f-44e3-b797-19510726efab",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166108,
+      "creatorUserId": "",
+      "createdAt": 1437419361964,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {\\sin z}{z^{2}+4}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/d158a4f0-cf59-4935-8d3b-0d6d8319edea",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR15",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Power Series",
+      "body": " The interval of convergence of the power series  \\(\\sum_{n\u003d0}^\\infty \\frac{x^n}{n!}\\)  is ( ___  , ___ ).",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/84b50498-9c3f-44e3-b797-19510726efab",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \\( {\\frac {e^{{iz}}}{{\\sqrt {z}}}}\\, \\) \u003c/p\u003e This problem is currently in dispute. A reputable source thinks the given function is not representable by a Laurent series and so the residue is not defined. Investigation is proceeding. \n\u003cp\u003eNote that \u003c/p\u003e  \n\u003cp\u003e \\( {\\frac {e^{{iz}}}{{\\sqrt {z}}}}\u003d{\\frac {{\\sqrt {z}}e^{{iz}}}{z}}\\, \\) \u003c/p\u003e  \n\u003cp\u003eThus \u003c/p\u003e     Residue at \\( z\u003d0\\, \\)   \\( \u003d\\lim _{{z\\to 0}}(z-0)f(z)\\, \\)      \\( \u003d\\lim _{{z\\to 0}}{\\sqrt {z}}e^{{iz}} \\)      \\( \u003d{\\sqrt {0}}e^{{i0}} \\)      \\( \u003d0\\, \\)",
-      "uuid": "a2dbb0fa-671e-4478-a45c-a32b75039564",
+      "authorSolution": " \\(-1\\) ,  \\(5\\) ",
+      "uuid": "24dd14c5-e925-4f62-8147-a348af126a8d",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166119,
+      "creatorUserId": "",
+      "createdAt": 1437419361964,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {e^{{iz}}}{{\\sqrt {z}}}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/a2dbb0fa-671e-4478-a45c-a32b75039564",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR16",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \\( {\\frac {(Log(z))2}{z^{2}+1}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThe poles are at \\( z\u003d\\pm i\\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{z\\to i}}{\\frac {(Log(z))^{2}}{z+i}}\u003d{\\frac {(Log(i))^{2}}{2i}}\u003d{\\frac {(i\\pi /2)^{2}}{2i}}\u003d{\\frac {i\\pi ^{2}}{8}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{z\\to -i}}{\\frac {(Log(z))^{2}}{z-i}}\u003d{\\frac {(\\log -i)^{2}}{-2i}}\u003d{\\frac {(-i\\pi /2)^{2}}{-2i}}\u003d{\\frac {-i\\pi ^{2}}{8}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "a01f8a69-4212-4880-b4cd-4c7513acc160",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166138,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {({\\mathrm {Log}}(z))^{2}}{1+z^{2}}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/a01f8a69-4212-4880-b4cd-4c7513acc160",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR17",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the residues of \\( f(z)\\, \\) at all its isolated singular points and at infinity (if infinity is not a limit point of singular points), where \\( f(z)\\, \\) is given by \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d{\\frac {e^{{tz}}}{(z+2)^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis has a pole at \\( z\u003d-2\\, \\) of multiplicity \\( k\u003d2\\, \\) \u003c/p\u003e\n\u003cp\u003eUse the formula \\( {\\mathrm {Res}}_{{z\u003dz_{0}}}f(z)\u003d{\\frac {1}{(k-1)!}}\\lim _{{z\\to z_{0}}}{\\frac {d^{{k-1}}}{{dz}^{{k-1}}}}\\left[(z-z_{0})^{k}f(z)\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d-2}}\u003d\\lim _{{z\\to -2}}{\\frac {d}{dz}}\\left[(z+2)^{2}f(z)\\right]\u003d\\lim _{{z\\to -2}}{\\frac {d}{dz}}\\left[e^{{tz}}\\right]\u003d\\lim _{{z\\to -2}}te^{{tz}}\u003d-2e^{{-2t}}, \\) \u003c/p\u003e\n\u003cp\u003eIf \\( f(z)\\, \\) is analytic except at isolated singular points, then the sum of all the residues of \\( f(z)\\, \\) equals 0. \u003c/p\u003e\n\u003cp\u003eSo \\( {\\mathrm {Res}}_{{z\u003d-2}}+{\\mathrm {Res}}_{{z\u003d\\infty }}\u003d-2e^{{-2t}}+{\\mathrm {Res}}_{{z\u003d\\infty }}\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eso \\( {\\mathrm {Res}}_{{z\u003d\\infty }}\u003d2e^{{-2t}}\\, \\) \u003c/p\u003e",
-      "uuid": "e7ccf50f-43d4-4e52-a40b-071095eb7af3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166147,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( {\\frac {e^{{tz}}}{(z+2)^{2}}},t\\in {\\mathbb {R^{+}}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residues,auto-uploaded",
-      "url": "/practice-problem/e7ccf50f-43d4-4e52-a40b-071095eb7af3",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVR18",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eGive an upper bound for \\( {\\Bigg |}\\int _{{|z|\u003d3}}{\\frac {dz}{z^{2}-i}}{\\Bigg |}\\, \\) . \u003c/p\u003e\n\u003cp\u003eUsing the fact that \\( {\\Bigg |}\\int _{\\Gamma }f(z)dz{\\Bigg |}\\leq {\\mathrm {max}}_{{z\\,{\\mathrm {on}}\\,\\Gamma }}|f(z)|\\cdot {\\mathrm {length}}(\\Gamma )\\, \\) , in this case \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d{\\frac {1}{z^{2}-i}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\Big |}{\\frac {1}{z^{2}-i}}{\\Big |}\u003d{\\frac {1}{|z^{2}-i|}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {min}}_{{|z^{2}-i|}}\u003d|9i-i|\u003d|8i|\u003d8\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {max}}_{{z\\in C}}|f(z)|\u003d{\\frac {1}{8}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\Bigg |}\\int _{{|z|\u003d3}}{\\frac {dz}{z^{2}-i}}{\\Bigg |}\\leq {\\frac {1}{8}}\\int _{{|z|\u003d3}}|dz|\u003d{\\frac {1}{8}}2\\pi 3\u003d{\\frac {3\\pi }{4}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "fdb98fc6-3d18-40ec-9669-30acdb2d4504",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166169,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Give an upper bound for \\( {\\Bigg |}\\int _{{|z|\u003d3}}{\\frac {dz}{z^{2}-i}}{\\Bigg |}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/fdb98fc6-3d18-40ec-9669-30acdb2d4504",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI1",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eCompute \\( \\int _{\\Gamma }{\\mbox{Re}}\\ z\\ dz \\) along the directed line segment from \\( z\u003d0\\, \\) to \\( z\u003d1+2i\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eParametrize the directed line segment by \\( z(t)\u003dt(1+2i),0\\leq t\\leq 1 \\) . Then \u003c/p\u003e     \\( \\int _{\\gamma }f(z)\\ dz \\)   \\( \u003d\\int _{a}^{b}f(z(t))z^{\\prime }(t)\\ dt \\)    \\( \\int _{\\Gamma }{\\mbox{Re}}\\ z\\ dz \\)   \\( \u003d\\int _{0}^{1}{\\mbox{Re}}(t+2ti)\\cdot (1+2i)\\ dt \\)      \\( \u003d(1+2i)\\int _{0}^{1}t\\ dt \\)      \\( \u003d{\\frac {1+2i}{2}}t^{2}\\left.\\right|_{0}^{1} \\)      \\( \u003d{\\frac {1+2i}{2}} \\)      \\( \u003d{\\frac {1}{2}}+i \\)",
-      "uuid": "e889c827-f034-4c12-81f0-e370deddd12f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166182,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Compute \\( \\int _{\\Gamma }{\\mbox{Re}}\\ z\\ dz \\) along the directed line segment from \\( z\u003d0\\, \\) to \\( z\u003d1+2i\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/e889c827-f034-4c12-81f0-e370deddd12f",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI2",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003e\u003ca href\u003d\"http://saererg.0lx.net/20081119-nasty-home-movie.htm\" rel\u003d\"nofollow\"\u003enasty home movie\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/cnadarcna-26.html\" rel\u003d\"nofollow\"\u003eankeny iowa movie theater\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20090101-madagascar-production.html\" rel\u003d\"nofollow\"\u003emadagascar production design movie\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/ficach-444.html\" rel\u003d\"nofollow\"\u003emovie parent review\u003c/a\u003e \u003ca href\u003d\"http://licawol.strefa.pl/resource1051.htm\" rel\u003d\"nofollow\"\u003ealpha step show videos\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/lolifok.html\" rel\u003d\"nofollow\"\u003enero6606 serial no.\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20090103-entertainment-movie.html\" rel\u003d\"nofollow\"\u003eentertainment movie movie portal portalofun.com showtimes\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-1436.htm\" rel\u003d\"nofollow\"\u003eas funny hell movie\u003c/a\u003e \u003ca href\u003d\"http://hencnac4t.is-the-boss.com/news-eplan-560-crack-2008-12-24.html\" rel\u003d\"nofollow\"\u003eeplan 5.60 crack\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081111-singing-parrot.htm\" rel\u003d\"nofollow\"\u003esinging parrot video\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/news-395.html\" rel\u003d\"nofollow\"\u003emovies to watch on the computer\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081114-reo-speedwagon.htm\" rel\u003d\"nofollow\"\u003ereo speedwagon video\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/henclie-160.html\" rel\u003d\"nofollow\"\u003esunny leone free movies\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://sedplxca.is-the-boss.com/american-journal-2008-12-26.htm\" rel\u003d\"nofollow\"\u003eamerican journal of respiratory and critical medicine\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article912.html\" rel\u003d\"nofollow\"\u003eradeon x1600 pro video card agp\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-904.html\" rel\u003d\"nofollow\"\u003eromanian dance song video\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article1836.htm\" rel\u003d\"nofollow\"\u003eapollo video technology in car system\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article342.html\" rel\u003d\"nofollow\"\u003eagreement end license user\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/mentos-commercial.html\" rel\u003d\"nofollow\"\u003ementos commercial video\u003c/a\u003e \u003ca href\u003d\"http://sematild.qsh.eu/resource91.htm\" rel\u003d\"nofollow\"\u003elick pussy video free\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-163.htm\" rel\u003d\"nofollow\"\u003esex movie cinema\u003c/a\u003e \u003ca href\u003d\"http://indronrol.is-the-boss.com/zeletliv.html\" rel\u003d\"nofollow\"\u003epaint shop pro cracked\u003c/a\u003e \u003ca href\u003d\"http://brc4tdro.is-the-boss.com/page349.html\" rel\u003d\"nofollow\"\u003emake believe torrent\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003etop\u003c/a\u003e \u003ca href\u003d\"http://hencnac4t.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20081228-alabama-land-surveying.html\" rel\u003d\"nofollow\"\u003ealabama land surveying license\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20081228-movie-and-tv-sound.html\" rel\u003d\"nofollow\"\u003emovie and tv sound clip\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20081225-military-police.htm\" rel\u003d\"nofollow\"\u003emilitary police video\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article113.html\" rel\u003d\"nofollow\"\u003eskin to win video\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2008-12-29-movie-studio.html\" rel\u003d\"nofollow\"\u003emovie studio pro\u003c/a\u003e \u003ca href\u003d\"http://faquafav.is-the-boss.com/text-343.htm\" rel\u003d\"nofollow\"\u003emarriage license in orange county ca\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20081228-asylum-card-video.htm\" rel\u003d\"nofollow\"\u003easylum card video\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1470.htm\" rel\u003d\"nofollow\"\u003ekelly movie r\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/sitemap.htm\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://chifire.strefa.pl/news-696.html\" rel\u003d\"nofollow\"\u003eemporium joblo movie\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-755.htm\" rel\u003d\"nofollow\"\u003emap\u003c/a\u003e \u003ca href\u003d\"http://chifire.strefa.pl/news-448.html\" rel\u003d\"nofollow\"\u003emark wills videos\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page1872.html\" rel\u003d\"nofollow\"\u003equantum leap movie 2005\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/trbrloget.htm\" rel\u003d\"nofollow\"\u003emusic video code for turn it up\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-1430.html\" rel\u003d\"nofollow\"\u003ela tortura video\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081113-albuquerque-movie.html\" rel\u003d\"nofollow\"\u003ealbuquerque movie west\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/rasputin-movie.html\" rel\u003d\"nofollow\"\u003erasputin movie review\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/sarah-michelle.html\" rel\u003d\"nofollow\"\u003esarah michelle gellar nude movie\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20081230-exbyte-videos.html\" rel\u003d\"nofollow\"\u003eexbyte videos\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-1919.html\" rel\u003d\"nofollow\"\u003enew realises movies\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-860.htm\" rel\u003d\"nofollow\"\u003elennox movie theatre columbus oh\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article1450.htm\" rel\u003d\"nofollow\"\u003eindeo video codec free download\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-1090.htm\" rel\u003d\"nofollow\"\u003erally music videos\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1031876365.html\" rel\u003d\"nofollow\"\u003eroots the movie.com\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003ehttp\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20090102-ejb-videos.html\" rel\u003d\"nofollow\"\u003eejb funny video\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081113-slam-dunk-2005.htm\" rel\u003d\"nofollow\"\u003eslam dunk 2005 videos\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article676.html\" rel\u003d\"nofollow\"\u003ethree door down let me go\u003c/a\u003e \u003ca href\u003d\"http://licawol.strefa.pl/resource1323.htm\" rel\u003d\"nofollow\"\u003eshawshank redemption movie review\u003c/a\u003e \u003ca href\u003d\"http://licawol.strefa.pl/resource1517.htm\" rel\u003d\"nofollow\"\u003emike tyson videos\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003esitemap\u003c/a\u003e \u003ca href\u003d\"http://mahohmie.qsh.eu/resource1828.htm\" rel\u003d\"nofollow\"\u003esnoop dog doggy style movie\u003c/a\u003e \u003ca href\u003d\"http://brc4tdro.is-the-boss.com/page229.html\" rel\u003d\"nofollow\"\u003epirate pinup girl\u003c/a\u003e \u003ca href\u003d\"http://faquafav.is-the-boss.com/text-801.htm\" rel\u003d\"nofollow\"\u003eathenian democracy history\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-1496.htm\" rel\u003d\"nofollow\"\u003erm movies downloads\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-303.html\" rel\u003d\"nofollow\"\u003emovie porn sex toon\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article731.htm\" rel\u003d\"nofollow\"\u003ejill clayburg movies\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/movieland-yonkers.html\" rel\u003d\"nofollow\"\u003emovieland yonkers\u003c/a\u003e \u003ca href\u003d\"http://brc4tdro.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003eindex\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003esite\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-766.htm\" rel\u003d\"nofollow\"\u003eplay game video poker\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article64.html\" rel\u003d\"nofollow\"\u003epc mighty max license crack\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1000077818.html\" rel\u003d\"nofollow\"\u003ereagan assasination video\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-181.htm\" rel\u003d\"nofollow\"\u003esample movie female ejaculation\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1005638719.html\" rel\u003d\"nofollow\"\u003emedal of honor video games\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-98.htm\" rel\u003d\"nofollow\"\u003enbc sports video\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/miriam-gonzalez.html\" rel\u003d\"nofollow\"\u003emiriam gonzalez mardi gras video\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20081226-saturday-night.htm\" rel\u003d\"nofollow\"\u003esaturday night live celebrity jeopardy video\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/article856.htm\" rel\u003d\"nofollow\"\u003elicence plate wisconsin\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081113-no-leaf-clover.htm\" rel\u003d\"nofollow\"\u003eno leaf clover music video\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/article20.htm\" rel\u003d\"nofollow\"\u003emixmeister 6 serial\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-1819.htm\" rel\u003d\"nofollow\"\u003ekannada movie sex\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/long-movie-shot.html\" rel\u003d\"nofollow\"\u003elong movie shot\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-1472.htm\" rel\u003d\"nofollow\"\u003earaykoo free porn searchs video\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2008-12-31-imovie-3-manual.html\" rel\u003d\"nofollow\"\u003eimovie 3 manual\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/ricmon-936.html\" rel\u003d\"nofollow\"\u003esite\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20090103-rosebud-videos.htm\" rel\u003d\"nofollow\"\u003erosebud videos\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20090103-new-york-driver.html\" rel\u003d\"nofollow\"\u003enew york driver licences\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003esite\u003c/a\u003e \u003ca href\u003d\"http://sakonze.qsh.eu/wetdelwre-119.html\" rel\u003d\"nofollow\"\u003eredline movies\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page461.html\" rel\u003d\"nofollow\"\u003empeg video wizard psn\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/dronacfub-211.html\" rel\u003d\"nofollow\"\u003estars nude movie\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/comment-1794.htm\" rel\u003d\"nofollow\"\u003eeminem mosh music video\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/in-praise-of-older.html\" rel\u003d\"nofollow\"\u003ein praise of older women movie\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/noacella.htm\" rel\u003d\"nofollow\"\u003ekj52 music video\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page700.html\" rel\u003d\"nofollow\"\u003emortalkombat.com video\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-1094.htm\" rel\u003d\"nofollow\"\u003eoasis dont look back in anger video\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/1920.html\" rel\u003d\"nofollow\"\u003eadded comment embed site video\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081110-love-actually-movie.htm\" rel\u003d\"nofollow\"\u003elove actually movie\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081110-straight-monster.htm\" rel\u003d\"nofollow\"\u003estraight monster movie vod\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article912.htm\" rel\u003d\"nofollow\"\u003emuscle bicep video\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article1956.htm\" rel\u003d\"nofollow\"\u003emusic panic video\u003c/a\u003e \u003ca href\u003d\"http://hencnac4t.is-the-boss.com/news-licence-spysheriff-2008-12-30.html\" rel\u003d\"nofollow\"\u003elicence spysheriff\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new183.htm\" rel\u003d\"nofollow\"\u003ereal media video player\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/sitemap.htm\" rel\u003d\"nofollow\"\u003elink\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/news-1239.html\" rel\u003d\"nofollow\"\u003ememoirs of a geisha movie poster\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/ricqua.htm\" rel\u003d\"nofollow\"\u003emorning latte video\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081116-red-dwarf-movie.html\" rel\u003d\"nofollow\"\u003ered dwarf movie release\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/monetleto.htm\" rel\u003d\"nofollow\"\u003ejames bond movie trailers\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081120-a-common-thread.html\" rel\u003d\"nofollow\"\u003ea common thread music video\u003c/a\u003e \u003ca href\u003d\"http://indronrol.is-the-boss.com/bodarchi.html\" rel\u003d\"nofollow\"\u003eestate licensing real washington\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article1230.html\" rel\u003d\"nofollow\"\u003eangel rap video audition\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003etop\u003c/a\u003e \u003ca href\u003d\"http://sematild.qsh.eu/resource213.htm\" rel\u003d\"nofollow\"\u003epadmashree laloo prasad yadav movie\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003ewebmap\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/sitemap.htm\" rel\u003d\"nofollow\"\u003esitemap\u003c/a\u003e \u003ca href\u003d\"http://mahohmie.qsh.eu/resource398.htm\" rel\u003d\"nofollow\"\u003erudy movie posters\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article655.html\" rel\u003d\"nofollow\"\u003eplasmolysis video\u003c/a\u003e basdronda Evaluate \\( \\int _{\\Gamma }{\\frac {z}{(z+2)(z-1)}}dz\\, \\) where \\( \\Gamma \\, \\) is the circle \\( |z|\u003d3\\, \\) traversed twice in the clockwise direction. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis is an equivalent problem: \u003c/p\u003e\n\u003cp\u003eEvaluate \\( -2\\int _{\\Gamma }{\\frac {z}{(z+2)(z-1)}}dz\\, \\) where \\( \\Gamma \\, \\) is the circle \\( |z|\u003d3\\, \\) traversed once in the counter-clockwise direction. \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe solution is \\( 2\\pi i\\, \\) times the sum of the residues of the integrand. \u003c/p\u003e\n\u003cp\u003e \\( -2\\int _{\\Gamma }{\\frac {z}{(z+2)(z-1)}}dz\u003d-2\\cdot 2\\pi i\\left({\\frac {2}{3}}+{\\frac {1}{3}}\\right)\u003d-4\\pi i\\, \\) \u003c/p\u003e",
-      "uuid": "21432883-d19f-49c0-9e25-5add58a9ea23",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166228,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{\\Gamma }{\\frac {z}{(z+2)(z-1)}}dz\\, \\) where \\( \\Gamma \\, \\) is the circle \\( |z|\u003d3\\, \\) traversed twice in the clockwise direction.",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/21432883-d19f-49c0-9e25-5add58a9ea23",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI3",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{C}(xy+ix^{2})dz,C\u003dz(t)\u003dt+it,0\\leq t\\leq 1\\, \\) . \u003c/p\u003e\n\u003cp\u003eWe have \\( dz\u003d(1+i)dt\\, \\) and \\( x\u003dt,y\u003dt\\, \\) . \u003c/p\u003e\n\u003cp\u003eThe integral is \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{1}(t^{2}+it^{2})(1+i)dt\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\int _{0}^{1}t^{2}(1+i)^{2}\\,dt\u003d2i\\int _{0}^{1}t^{2}dt\u003d{\\frac {2i}{3}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "f1b6fc9d-7fe9-4db9-890d-e2015778f629",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166238,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{C}(xy+ix^{2})dz,C\u003dz(t)\u003dt+it,0\\leq t\\leq 1\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/f1b6fc9d-7fe9-4db9-890d-e2015778f629",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI4",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Power Series",
+      "body": " The interval of convergence of the power series  \\(\\sum\\frac{(-1)^{n+1}}{(n+1)^2} \\frac{(x+1)^{2n}}{5^n}\\)  is  \\([ a-\\sqrt b  ,  a + \\sqrt b  ]\\)  where  \\(a\u003d\\) ____ and  \\(b\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/24dd14c5-e925-4f62-8147-a348af126a8d",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     }
   ],
   "questions": [
-    {
-      "uuid": "b4774487-ebe3-485a-ada8-ff22fd5f5597",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Limit",
-      "body": "\\(\\lim_{x\\to2}{x^3-6x-2\\over x^3+4}\\)",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation",
-      "url": "/question/b4774487-ebe3-485a-ada8-ff22fd5f5597",
-      "source": "Mooculus 8.1.47",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "f6798992-ff9b-4f1d-a492-62b44590161f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Limit",
-      "body": "\\(\\lim_{x\\to2}{x^3-6x-2\\over x^3-4x}\\)",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation",
-      "url": "/question/f6798992-ff9b-4f1d-a492-62b44590161f",
-      "source": "Mooculus 8.1.48",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "411d4233-1e04-482a-b5e4-d1f8b8298783",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Limit",
-      "body": "\\(\\lim_{x\\to1+}{x^3+4x+8\\over 2x^3-2}\\)",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation",
-      "url": "/question/411d4233-1e04-482a-b5e4-d1f8b8298783",
-      "source": "Mooculus 8.1.49",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "624aa21b-4813-455e-8615-481ab6082517",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema ",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d x\\(^{2}\\)-x",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/624aa21b-4813-455e-8615-481ab6082517",
-      "source": "Mooculus 4.1.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "856a214b-1830-4291-b553-b7be328afed2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d 2+3x-x\\(^{3}\\)",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/856a214b-1830-4291-b553-b7be328afed2",
-      "source": "Mooculus 4.1.2",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "56a4556f-32c7-49c7-b41b-bfd603694f66",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d x\\(^{3}\\)-9x\\(^{2}\\)+24x",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema ",
-      "url": "/question/56a4556f-32c7-49c7-b41b-bfd603694f66",
-      "source": "Mooculus 4.1.3",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "3e2cfa1e-8300-4acf-b99f-940aadb4f4ae",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d x\\(^{4}\\)-2x\\(^{2}\\)+3",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/3e2cfa1e-8300-4acf-b99f-940aadb4f4ae",
-      "source": "Mooculus 4.1.4",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "eea69330-6aba-4972-91d0-eb43b7fb6799",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d 3x\\(^{4}\\)-4x\\(^{3}\\)",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/eea69330-6aba-4972-91d0-eb43b7fb6799",
-      "source": "Mooculus 4.1.5",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "9b939052-a816-44c6-96ad-f594af89e38a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d (x\\(^{2}\\)-1)/x",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/9b939052-a816-44c6-96ad-f594af89e38a",
-      "source": "Mooculus 4.1.6",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "f120b5ff-1e55-4806-a3ba-f35f9a2f86ec",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\ny \u003d \\(\\frac{x^{4}}{4}\\)+x\\(^{3}\\)+x\\(^{2}\\)",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/f120b5ff-1e55-4806-a3ba-f35f9a2f86ec",
-      "source": "Mooculus 4.1.7",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "46a6bda5-ed99-4a47-99c8-8c80c95c8bd0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20430.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, extrema",
-      "url": "/question/46a6bda5-ed99-4a47-99c8-8c80c95c8bd0",
-      "source": "Mooculus 4.1.8",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
-    },
-    {
-      "uuid": "8961e980-0cd6-4ef6-9e48-208920d0af27",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Acceleration",
-      "body": "The position of a particle in meters is given by \\(1/t^3\\) where is \\(t\\)\nis measured in seconds. What is the acceleration of the particle after\n\\(4\\) seconds?",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
-      "url": "/question/8961e980-0cd6-4ef6-9e48-208920d0af27",
-      "source": "Mooculus 8.2.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
     {
       "uuid": "88573022-3dd3-405a-8d4c-6e60d1872267",
       "contentType": "question",
@@ -489,12 +193,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20431.png\"/\u003e",
+      "body": "In the following problem find the x values for local maximum and minimum points.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20431.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "local maximum, local minimum, extrema",
       "url": "/question/88573022-3dd3-405a-8d4c-6e60d1872267",
       "source": "Mooculus 4.1.9",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "d65efdb1-3767-462c-b65f-36d075b6f3a9",
@@ -511,7 +215,7 @@
       "tags": "local maximum, local minimum, extrema",
       "url": "/question/d65efdb1-3767-462c-b65f-36d075b6f3a9",
       "source": "Mooculus 4.1.10",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "9349b0fc-b6c4-4c6e-869d-a47dd593fc64",
@@ -523,12 +227,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Extrema",
-      "body": "In the following problem find the x values for local maximum and minimum points.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20432.png\"/\u003e",
+      "body": "In the following problem find the x values for local maximum and minimum points.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20432.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "local maximum, local minimum, extrema",
       "url": "/question/9349b0fc-b6c4-4c6e-869d-a47dd593fc64",
       "source": "Mooculus 4.1.11",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "7628de16-e935-4ed0-85f2-9947772e444d",
@@ -545,7 +249,7 @@
       "tags": "critical points, extrema, quadratic polynomial function",
       "url": "/question/7628de16-e935-4ed0-85f2-9947772e444d",
       "source": "Mooculus 4.1.12",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Critical Points"
+      "topic": "2eb60311-78a5-4e2d-9d35-a1cbcb25e12b"
     },
     {
       "uuid": "7477f648-e868-40f6-8f7b-89645b106aa5",
@@ -562,7 +266,7 @@
       "tags": "functions, extrema, local extrema",
       "url": "/question/7477f648-e868-40f6-8f7b-89645b106aa5",
       "source": "Mooculus 4.1.13",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "8389e6cc-e05a-4a29-9872-3acf89b42661",
@@ -579,7 +283,7 @@
       "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
       "url": "/question/8389e6cc-e05a-4a29-9872-3acf89b42661",
       "source": "Mooculus 8.2.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9b84a257-ef68-46ce-b8a2-addfe5b69c3b",
@@ -596,7 +300,7 @@
       "tags": "extrema, critical points, local maximum, local minimum ",
       "url": "/question/9b84a257-ef68-46ce-b8a2-addfe5b69c3b",
       "source": "Mooculus 4.2.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "67a5c27e-097d-4b01-aa6c-e107e9adbdb4",
@@ -613,7 +317,7 @@
       "tags": "extrema, local maximum, local minimum, critical points",
       "url": "/question/67a5c27e-097d-4b01-aa6c-e107e9adbdb4",
       "source": "Mooculus 4.2.2",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "7c965781-6bd3-4b12-8b05-8b2b2554116f",
@@ -630,7 +334,7 @@
       "tags": "extrema, critical points, maximum, minimum ",
       "url": "/question/7c965781-6bd3-4b12-8b05-8b2b2554116f",
       "source": "Mooculus 4.2.3",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "74724340-cb6b-4189-9dc6-fe0e791ab023",
@@ -647,7 +351,7 @@
       "tags": "critical points, maximum, minimum, first derivative test",
       "url": "/question/74724340-cb6b-4189-9dc6-fe0e791ab023",
       "source": "Mooculus 4.2.4",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Critical Points"
+      "topic": "2eb60311-78a5-4e2d-9d35-a1cbcb25e12b"
     },
     {
       "uuid": "0847e54a-a6ac-4168-8cce-e7f7da2db468",
@@ -664,7 +368,7 @@
       "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
       "url": "/question/0847e54a-a6ac-4168-8cce-e7f7da2db468",
       "source": "Mooculus 8.2.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "2e01922b-4cf1-4ac8-862b-1abf3b93e7a0",
@@ -681,7 +385,7 @@
       "tags": "maximum, minimum, critical points, first derivative test",
       "url": "/question/2e01922b-4cf1-4ac8-862b-1abf3b93e7a0",
       "source": "Mooculus 4.2.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Function Behavior/Local Maximum"
+      "topic": "7a3aeb6c-fde3-4f61-a51a-63925bf62cdd"
     },
     {
       "uuid": "5c628467-6826-4332-b18b-fd6f7ed3dfc0",
@@ -698,7 +402,7 @@
       "tags": "critical points, maximum, minimum, first derivative test",
       "url": "/question/5c628467-6826-4332-b18b-fd6f7ed3dfc0",
       "source": "Mooculus 4.2.6",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Critical Points"
+      "topic": "2eb60311-78a5-4e2d-9d35-a1cbcb25e12b"
     },
     {
       "uuid": "719b8d0a-b273-4c3d-a8d7-646498319a09",
@@ -715,7 +419,7 @@
       "tags": "critical points, maximum, minimum, first derivative test",
       "url": "/question/719b8d0a-b273-4c3d-a8d7-646498319a09",
       "source": "Mooculus 4.2.7",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Critical Points"
+      "topic": "2eb60311-78a5-4e2d-9d35-a1cbcb25e12b"
     },
     {
       "uuid": "11dd0e59-7ff6-45d6-a8d2-5618ce4b41ed",
@@ -732,7 +436,7 @@
       "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
       "url": "/question/11dd0e59-7ff6-45d6-a8d2-5618ce4b41ed",
       "source": "Mooculus 8.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f21481c7-239e-4378-8e68-73fd5b059459",
@@ -749,7 +453,7 @@
       "tags": "critical point, first derivative test, maximum",
       "url": "/question/f21481c7-239e-4378-8e68-73fd5b059459",
       "source": "Mooculus 4.2.8",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Critical Points"
+      "topic": "2eb60311-78a5-4e2d-9d35-a1cbcb25e12b"
     },
     {
       "uuid": "03ed59c7-0c7c-4650-82cb-dc380491bd03",
@@ -766,7 +470,7 @@
       "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
       "url": "/question/03ed59c7-0c7c-4650-82cb-dc380491bd03",
       "source": "Mooculus 8.2.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "1e637c6e-5d46-48a6-8aaf-8c1efeed7dca",
@@ -783,7 +487,7 @@
       "tags": "concavity, inflection points, functions",
       "url": "/question/1e637c6e-5d46-48a6-8aaf-8c1efeed7dca",
       "source": "Mooculus 4.3.1",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
     },
     {
       "uuid": "368b7017-b3e0-4f9e-9ad7-f41d48ce9ae6",
@@ -800,7 +504,7 @@
       "tags": "concavity, inflection points, functions",
       "url": "/question/368b7017-b3e0-4f9e-9ad7-f41d48ce9ae6",
       "source": "Mooculus 4.3.2",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
     },
     {
       "uuid": "585107dd-0487-4afb-afb7-b8b14118af1f",
@@ -817,7 +521,7 @@
       "tags": "concavity, inflection points, functions",
       "url": "/question/585107dd-0487-4afb-afb7-b8b14118af1f",
       "source": "Mooculus 4.3.3",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
     },
     {
       "uuid": "7494044b-4d5c-4f88-8433-a194b2e814db",
@@ -834,7 +538,7 @@
       "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
       "url": "/question/7494044b-4d5c-4f88-8433-a194b2e814db",
       "source": "Mooculus 8.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "b5b42b10-f169-4233-96ee-671101e28659",
@@ -851,7 +555,7 @@
       "tags": "concavity, inflection points, functions",
       "url": "/question/b5b42b10-f169-4233-96ee-671101e28659",
       "source": "Mooculus 4.3.4",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
     },
     {
       "uuid": "c03d982a-7e11-44cf-9286-3d18346098f0",
@@ -868,7 +572,7 @@
       "tags": "concavity, inflection points, functions",
       "url": "/question/c03d982a-7e11-44cf-9286-3d18346098f0",
       "source": "Mooculus 4.3.5",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
     },
     {
       "uuid": "3d9441ad-3d21-4fbf-a79d-d46fca2920b8",
@@ -885,7 +589,7 @@
       "tags": "l\u0027hopital\u0027s rule, limits, indeterminate form, differentiation, instantaneous, rate of change",
       "url": "/question/3d9441ad-3d21-4fbf-a79d-d46fca2920b8",
       "source": "Mooculus 8.2.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "50b8862e-b705-4936-b004-469b32758a2c",
@@ -902,7 +606,211 @@
       "tags": "concavity, inflection points, functions",
       "url": "/question/50b8862e-b705-4936-b004-469b32758a2c",
       "source": "Mooculus 4.3.6",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
+    },
+    {
+      "uuid": "63282d5e-3974-4960-b2fd-af01dafb7665",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Concavity and Inflection Points",
+      "body": "In the following, describe the concavity of the functions.\ny \u003d 3x\\(^{2}\\)-\\(\\frac{1}{x^{2}}\\)",
+      "allAnswers": [],
+      "tags": "concavity, inflection points, functions",
+      "url": "/question/63282d5e-3974-4960-b2fd-af01dafb7665",
+      "source": "Mooculus 4.3.7",
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
+    },
+    {
+      "uuid": "263f8d86-aad3-4200-9bdc-1e7adc438d21",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Concavity and Inflection Points",
+      "body": "In the following, describe the concavity of the functions.\ny \u003d x\\(^{5}\\)-x",
+      "allAnswers": [],
+      "tags": "concavity, inflection points, functions",
+      "url": "/question/263f8d86-aad3-4200-9bdc-1e7adc438d21",
+      "source": "Mooculus 4.3.8",
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
+    },
+    {
+      "uuid": "82fc4fe5-27fb-43ea-ba13-d6c0b5d40f93",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Concavity and Inflection Points",
+      "body": "In the following, describe the concavity of the functions.\ny \u003d x + 1/x",
+      "allAnswers": [],
+      "tags": "concavity, inflection points, functions",
+      "url": "/question/82fc4fe5-27fb-43ea-ba13-d6c0b5d40f93",
+      "source": "Mooculus 4.3.9",
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
+    },
+    {
+      "uuid": "7a51e3b4-455c-4f45-8266-d0bb2cbaa323",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Concavity and Inflection Points",
+      "body": "In the following, describe the concavity of the functions.\ny \u003d x\\(^{2}\\)+1/x",
+      "allAnswers": [],
+      "tags": "concavity, inflection point, functions",
+      "url": "/question/7a51e3b4-455c-4f45-8266-d0bb2cbaa323",
+      "source": "Mooculus 4.3.10",
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
+    },
+    {
+      "uuid": "1278d785-77e4-4a52-920c-29d3d26dada1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Concavity and Inflection Points",
+      "body": "Identify the intervals on which the graph of the function f(x) \u003d x\\(^{4}\\)-4x\\(^{3}\\)+10 is of one of these four shapes: concave up and increasing: concave up and decreasing: concave down and increasing: concave down and deceasing. ",
+      "allAnswers": [],
+      "tags": "concavity, increasing, decreasing, intervals, functions, inflection point",
+      "url": "/question/1278d785-77e4-4a52-920c-29d3d26dada1",
+      "source": "Mooculus 4.3.11",
+      "topic": "3552e36b-867e-489a-83e9-c026b4470b95"
+    },
+    {
+      "uuid": "dff0d4cd-6a9b-47d3-86ff-3d96b74aa2b7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Second Derivative Test",
+      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d x\\(^{2}\\)-x",
+      "allAnswers": [],
+      "tags": "local maximum, local minimum, second derivative test ",
+      "url": "/question/dff0d4cd-6a9b-47d3-86ff-3d96b74aa2b7",
+      "source": "Mooculus 4.4.1",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "aa0dab2e-8ce9-4789-9419-dbc3f05f21a9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Second Derivative Test",
+      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d 2 + 3x - x\\(^{3}\\)",
+      "allAnswers": [],
+      "tags": "local maximum, local minimum, second derivative test",
+      "url": "/question/aa0dab2e-8ce9-4789-9419-dbc3f05f21a9",
+      "source": "Mooculus 4.4.2",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "cebb7f02-a72d-4703-bad2-15d75378c6b3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Second Derivative",
+      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d x\\(^{3}\\)-9x\\(^{2}\\)+24x",
+      "allAnswers": [],
+      "tags": "local maximum, local minimum, second derivative test",
+      "url": "/question/cebb7f02-a72d-4703-bad2-15d75378c6b3",
+      "source": "Mooculus 4.4.3",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "4207412d-4bb8-45a8-922c-052bc10f79c3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Second Derivative Test",
+      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d x\\(^{4}\\)-2x\\(^{2}\\)+3",
+      "allAnswers": [],
+      "tags": "local maximum, local minimum, second derivative test",
+      "url": "/question/4207412d-4bb8-45a8-922c-052bc10f79c3",
+      "source": "Mooculus 4.4.4",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "b228fd1f-bc07-4158-ad37-f367e66e7ac0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Second Derivative Test",
+      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d 3x\\(^{4}\\)-4x\\(^{3}\\)",
+      "allAnswers": [],
+      "tags": "local maximum, local minimum, second derivative test",
+      "url": "/question/b228fd1f-bc07-4158-ad37-f367e66e7ac0",
+      "source": "Mooculus 4.4.5",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "9aef1c2c-740b-4246-9b26-d53af82a1823",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Second Derivative Test",
+      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d (x\\(^{2}\\)-1)/x",
+      "allAnswers": [],
+      "tags": "local maximum, local minimum, second derivative test",
+      "url": "/question/9aef1c2c-740b-4246-9b26-d53af82a1823",
+      "source": "Mooculus 4.4.6",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "602d0a64-45be-48ae-8a99-9a222e42e741",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Related Rates Practice",
+      "body": "A cylindrical tank standing upright (with one circular base on the ground) has radius 20 cm.  How fast does the water level in the tank drop when the water is being drained at 25 cm\\({}^3\\)/sec?",
+      "allAnswers": [],
+      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
+      "url": "/question/602d0a64-45be-48ae-8a99-9a222e42e741",
+      "source": "Mooculus 8.3.1",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     }
   ],
   "textContent": [
@@ -921,7 +829,7 @@
       "tags": "summation notation, sigma notation, integral, integration ",
       "url": "/text-content/0b9f444d-1bed-4210-96ad-684987a993a3",
       "source": "Forgotten Text 4 6.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Summation Notation"
+      "topic": "dfcb8dee-eac1-41ba-9126-e44076cfadf6"
     },
     {
       "uuid": "2aa06c41-7dc9-497b-adc3-8df623ce35e3",
@@ -938,7 +846,7 @@
       "tags": "riemann sums, fundamental theorem of calculus, integral, integration ",
       "url": "/text-content/2aa06c41-7dc9-497b-adc3-8df623ce35e3",
       "source": "Forgotten Text 4 6.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums and Fundamental Theorem"
+      "topic": "3af6d87b-6574-400f-b333-1a680005168c"
     },
     {
       "uuid": "d6eb72be-4a3d-4377-b5d7-775410ff0502",
@@ -955,9 +863,56 @@
       "tags": "power rule, substitution with power rule, integral, integration ",
       "url": "/text-content/d6eb72be-4a3d-4377-b5d7-775410ff0502",
       "source": "Forgotten Text 4 6.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution with Power Rule"
+      "topic": "24528803-7b1b-4b63-a088-1e2d8a8bdbca"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "9f2cf68e-fbde-4bba-945b-ac761f733161",
+      "subTopics": [
+        "2232c5dc-06a6-4506-9eab-b067f9f7ac2c"
+      ],
+      "parentTopics": [
+        "b6b0cb4c-08b0-44d2-ab6f-8d95beec04d7"
+      ],
+      "title": "Mathematical Patterns",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 74000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "0774c552-9384-45b4-8b61-78c7c187016b",
+      "subTopics": [],
+      "parentTopics": [
+        "e69bffa4-0170-4d7b-b680-a0bfe491fdc0"
+      ],
+      "title": "Exponential Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " exponential, derivatives,exponents, derivatives of exponential functions,exponential functions, product rule , chain rule, derivatives of exponents ,",
+      "difficulty": 456000,
+      "contentUuids": [
+        "e9c41781-3bb3-4a0d-bb7e-030a2bd85960",
+        "e0e53a9c-34da-4667-9b1f-0424a94be623"
+      ]
+    },
+    {
+      "uuid": "fd471a39-ada6-4a6e-8434-09e800cb9c67",
+      "subTopics": [],
+      "parentTopics": [
+        "18e561fc-d3a0-42e7-8761-2df894c9b4a7"
+      ],
+      "title": "Accurate Graphs",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " antiderivatives,integrals, integration,",
+      "difficulty": 569000,
+      "contentUuids": [
+        "0f391051-0ef1-4f59-ae39-fb9347dc81e0"
+      ]
+    }
+  ]
 }

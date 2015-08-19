@@ -2,483 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eTangents to the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) make angles \\( \\alpha ,\\beta \\, \\) with the transverse axis. Find the locus of their point of intersection if \\( \\tan \\alpha +\\tan \\beta \u003dk\\, \\) \u003c/p\u003e\n\u003cp\u003eEquation of tangent to given hyperbola is \\( y\u003dmx\\pm {\\sqrt {a^{2}m^{2}-b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the tangents intersect at P. Now,P lies on the above equation \\( y_{1}\u003dmx_{1}\\pm {\\sqrt {a^{2}m^{2}-b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (y_{1}-mx_{1})^{2}\u003da^{2}m^{2}-b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( m^{2}(x_{1}^{{2}}-a^{2})-2mx_{1}y_{1}+y_{1}^{{2}}+b^{2}\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eLet m1,m2 are the two roots of the quadratic equation and \\( \\tan \\alpha \u003dm_{1},m_{2}\u003d\\tan \\beta \\, \\) \u003c/p\u003e\n\u003cp\u003eGiven \\( \\tan \\alpha +\\tan \\beta \u003dk,m_{1}+m_{2}\u003dk\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( k\u003d{\\frac {2x_{1}y_{1}}{x_{1}^{{2}}-a^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the locus of P is \\( 2xy\u003dk(x^{2}-a^{2})\\, \\) \u003c/p\u003e",
-      "uuid": "1354d800-7e3c-4c0f-bc66-51643f87d931",
+      "authorSolution": " \\(\\pi\\) ,  \\(2\\) ",
+      "uuid": "e739bddf-307a-47f3-b604-3d3954677ebd",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163977,
+      "creatorUserId": "",
+      "createdAt": 1437419361906,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Tangents to the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) make angles \\( \\alpha ,\\beta \\, \\) with the transverse axis. Find the locus of their point of intersection if \\( \\tan \\alpha +\\tan \\beta \u003dk\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/1354d800-7e3c-4c0f-bc66-51643f87d931",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.30",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Trigonometric Substitutions",
+      "body": "  \\(\\int_0^1 \\operatorname{arccot} x dx \u003d \\frac a4 + \\frac1b\\ln b\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/e739bddf-307a-47f3-b604-3d3954677ebd",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eTangents drawn from \\( (\\alpha ,\\beta )\\, \\) to the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) make an angle \\( \\theta _{1},\\theta _{2}\\, \\) with the x-axis.If \\( \\tan \\theta _{1}\\tan \\theta _{2}\u003d1\\, \\) prove that \\( \\alpha ^{2}-\\beta ^{2}\u003da^{2}+b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eAny equation of tangent to the given hyperbola is \\( y\u003dmx\\pm {\\sqrt {a^{2}m^{2}-b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the given hyperbola pass thro\u0027 \\( (\\alpha ,\\beta )\\, \\) \u003c/p\u003e\n\u003cp\u003eThen \u003c/p\u003e\n\u003cp\u003e \\( \\beta \u003dm\\alpha +{\\sqrt {a^{2}m^{2}-b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (\\beta -m\\alpha )^{2}\u003da^{2}m^{2}-b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (\\alpha ^{2}-a^{2})m^{2}-2\\alpha \\beta m+(\\beta ^{2}+b^{2})\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eIf m1,m2 are the roots of the above quadratic, \\( m_{1}m_{2}\u003d{\\frac {\\beta ^{2}+b^{2}}{\\alpha ^{2}-a^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven \\( m_{1}\u003d\\tan \\theta _{1},m_{2}\u003d\\tan \\theta _{2},m_{1}m_{2}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 1\u003d{\\frac {\\beta ^{2}+b^{2}}{\\alpha ^{2}-a^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\alpha ^{2}-\\beta ^{2}\u003da^{2}+b^{2}\\, \\) \u003c/p\u003e",
-      "uuid": "a1b73dab-81bf-41b0-8910-251dcc5e47e8",
+      "authorSolution": " \\(x^2 - 2\\) ,  \\(2x\\) ",
+      "uuid": "5837d26b-f976-4848-98d2-8123c1dd9475",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163988,
+      "creatorUserId": "",
+      "createdAt": 1437419361906,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Tangents drawn from \\( (\\alpha ,\\beta )\\, \\) to the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) make an angle \\( \\theta _{1},\\theta _{2}\\, \\) with the x-axis.If \\( \\tan \\theta _{1}\\tan \\theta _{2}\u003d1\\, \\) prove that \\( \\alpha ^{2}-\\beta ^{2}\u003da^{2}+b^{2}\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/a1b73dab-81bf-41b0-8910-251dcc5e47e8",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.31",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Trigonometric Integrals",
+      "body": "  \\(\\int x^2\\cos x dx \u003d f(x)\\sin x + g(x)\\cos x + c\\)  where  \\(f(x)\\) \u003d_______,  \\(g(x)\\) \u003d_____, and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/5837d26b-f976-4848-98d2-8123c1dd9475",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the equation of the chord of the hyperbola \\( 4x^{2}-y^{2}\u003d4\\, \\) which is bisected at the point \\( (2,-3)\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven hyperbola is \\( S\\equiv 4x^{2}-y^{2}-4\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore the equation to the chord of the above equation having \\( (2,-3)\\, \\) as its midpoint is \\( S_{1}\u003dS_{{11}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 4x(2)-y(-3)-4\u003d4(2)^{2}-(-3)^{2}-4\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 8x+3y-7\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "5bf9b803-c042-4c06-a1db-88cd26d21555",
+      "authorSolution": " \\(x\\) ,  \\(3\\) ,  \\(-1\\) ",
+      "uuid": "ca7892d2-8963-49e9-b994-3ab3b1643b81",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163997,
+      "creatorUserId": "",
+      "createdAt": 1437419361907,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation of the chord of the hyperbola \\( 4x^{2}-y^{2}\u003d4\\, \\) which is bisected at the point \\( (2,-3)\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/5bf9b803-c042-4c06-a1db-88cd26d21555",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.32",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Partial Fractions",
+      "body": " Expand  \\(\\dfrac{x^3+x^2+7}{x^2+x-2}\\)  by partial fractions.   \\noindent Answer:  \\(f(x) + \\dfrac a{x-1} + \\dfrac b{x+2}\\)  where  \\(f(x)\\)  \u003d ___,  \\(a\\) \u003d___ and  \\(b\\) \u003d____.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/ca7892d2-8963-49e9-b994-3ab3b1643b81",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the equation to the hyperbola whose asymptotes are \\( 3x\u003d\\pm 5y\\, \\) and vertices are \\( (\\pm 5,0)\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven asymptotes are \\( 3x-5y\u003d0,3x+5y\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eCombined equation of asymptotes is \\( (3x-5y)(3x+5y)\u003d0,9x^{2}-25y^{2}\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore equation of the hyperbola is \\( 9x^{2}-25y^{2}\u003dk\\, \\) \u003c/p\u003e\n\u003cp\u003eVertices \\( (\\pm 5,0)\\, \\) lie on the hyperbola, hence \\( 9(25)\u003dk,k\u003d225\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,equation of the hyperbola is \\( 9x^{2}-25y^{2}\u003d225,{\\frac {x^{2}}{25}}-{\\frac {y^{2}}{9}}\u003d1\\, \\) \u003c/p\u003e",
-      "uuid": "c5891550-0da1-4f35-9ecc-edd378bc862a",
+      "authorSolution": " \\(24\\) ,  \\(2\\) ",
+      "uuid": "3a723ab0-1707-418c-bf9b-e7085dd580b6",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164007,
+      "creatorUserId": "",
+      "createdAt": 1437419361907,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation to the hyperbola whose asymptotes are \\( 3x\u003d\\pm 5y\\, \\) and vertices are \\( (\\pm 5,0)\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/c5891550-0da1-4f35-9ecc-edd378bc862a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.33",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Trigonometric Substitutions",
+      "body": "  \\(\\int_{-3}^0\\frac{-2w^3+w^2+2w+13}{w^2+2w+3} dw \u003d a\\ +\\ln b\\)  where  \\(a\\) \u003d_____ and  \\(b\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/3a723ab0-1707-418c-bf9b-e7085dd580b6",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eThe asymptotes of the hyperbola are parallel to the lines \\( 2x+3y\u003d0,3x+2y\u003d0\\, \\) . Its centre is at \\( (1,2)\\, \\) and passes thro\u0027 the point \\( (5,3)\\, \\) .Find its equation. \u003c/p\u003e\n\u003cp\u003eThe equations of the asymptotes are \\( 2x+3y+k\u003d0,3x+2y+l\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe asymptotes pass through the centre \\( (1,2)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 2(1)+3(2)+k\u003d0,3(1)+2(2)+l\u003d0,k\u003d-8,l\u003d-7\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the asymptotes are \\( 2x+3y-8\u003d0,3x+2y-7\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe combined equation of the asymptotes is \\( (2x+3y-8)(3x+2y-7)\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the equation to the hyperbola is \\( (2x+3y-8)(3x+2y-7)+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eSince the hyperbola passes through \\( (5,3)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (10+9-8)(15+6-7)+\\lambda \u003d0,\\lambda \u003d-154\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the equation of hyperbola is \\( (2x+3y-8)(3x+2y-7)-154\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 6x^{2}+13xy+6y^{2}-38x-37y-98\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "026c8791-af61-48be-9e84-dcea3d5b7419",
+      "authorSolution": " \\(-1\\) ,  \\(x^2 + x + 1\\) ",
+      "uuid": "69ff8eb0-c8a1-440d-bb61-affb0d53b373",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164017,
+      "creatorUserId": "",
+      "createdAt": 1437419361907,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "The asymptotes of the hyperbola are parallel to the lines \\( 2x+3y\u003d0,3x+2y\u003d0\\, \\) . Its centre is at \\( (1,2)\\, \\) and passes thro\u0027 the point \\( (5,3)\\, \\) .Find its equation.",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/026c8791-af61-48be-9e84-dcea3d5b7419",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.34",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Trigonometric Integrals Question",
+      "body": "  \\(\\int\\frac{1-4x-3x^2-3x^3}{x^4+x^3+x^2} dx \u003d \\frac ax -5\\ln x + \\ln(g(x)) + c\\)  where  \\(a\\)  \u003d ____,  \\(g(x)\\)  \u003d ______, and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/69ff8eb0-c8a1-440d-bb61-affb0d53b373",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cpre\u003eFind the equation of the hyperbola whose asymptotes are  \\( 7x+5y-3\u003d0,2x+4y+1\u003d0\\, \\)  and passing thro\u0027  \\( (-2,1)\\, \\) \n\u003c/pre\u003e \n\u003cp\u003eGiven asymptotes are \\( 7x+5y-3\u003d0,2x+4y+1\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation of the parabola is \\( (7x+5y-3)(2x+4y+1)+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven that the hyperbola passes through \\( (-2,1)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (-14+5-3)(-4+4+1)+\\lambda \u003d0,\\lambda \u003d12\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore the equation of the hyperbola is \\( (7x+5y-3)(2x+4y+1)+12\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 14x^{2}+28xy+7x+10xy+20y^{2}+5y-6x-12y-3+12\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 14x^{2}+38xy+20y^{2}+x-7y+9\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "b06e8a81-04cc-4dee-946b-1a1901e3f1c2",
+      "authorSolution": " \\(3\\) ,  \\(x^2 + 1\\) ",
+      "uuid": "af583c98-a25f-419e-ae8f-d83ede6dd083",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164027,
+      "creatorUserId": "",
+      "createdAt": 1437419361907,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation of the hyperbola whose asymptotes are \\( 7x+5y-3\u003d0,2x+4y+1\u003d0\\, \\) and passing thro\u0027 \\( (-2,1)\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/b06e8a81-04cc-4dee-946b-1a1901e3f1c2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.35",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Improper Riemann Integrals Question",
+      "body": "  \\(\\int\\frac{x^2+3}{x^3+x} dx \u003d a\\ln x - \\ln(g(x)) + c\\)  where  \\(a\\)  \u003d ___,  \\(g(x)\\) \u003d______, and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/af583c98-a25f-419e-ae8f-d83ede6dd083",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cpre\u003eFind the equation of the hyperbola whose asymptotes are  \\( 2x+3y-5\u003d0,5x+3y-8\u003d0\\, \\)  and passing thro\u0027  \\( (1,-1)\\, \\) \n\u003c/pre\u003e \n\u003cp\u003eGiven asymptotes are \\( 2x+3y-5\u003d0,5x+3y-8\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation of the hyperbola is \\( (2x+3y-5)(5x+3y-8)+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe hyperbola passes through \\( (1,-1)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (2-3-5)(5-3-8)+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\lambda \u003d-36\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the equation of hyperbola is \\( (2x+3y-5)(5x+3y-8)-36\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 10x^{2}+6xy-16x+9y^{2}+15xy-24y-25x-15y+40-36\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 10x^{2}+21xy+9y^{2}-41x-39y+4\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "81fd5489-95d9-4584-ace4-fa0af6871b0c",
+      "authorSolution": " \\(\\arctan x\\) ",
+      "uuid": "b10fc3a8-4885-4e2e-a1a9-0b58c1e79589",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164041,
+      "creatorUserId": "",
+      "createdAt": 1437419361907,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation of the hyperbola whose asymptotes are \\( 2x+3y-5\u003d0,5x+3y-8\u003d0\\, \\) and passing thro\u0027 \\( (1,-1)\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/81fd5489-95d9-4584-ace4-fa0af6871b0c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.36",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Trigonometric Integrals",
+      "body": "  \\(\\int\\frac{2x^3+x^2+2x-1}{x^4-1} dx \u003d \\ln(x-1) + \\ln(x+1) + f(x) + c\\)  where  \\(f(x)\\)  \u003d ________ and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/b10fc3a8-4885-4e2e-a1a9-0b58c1e79589",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the locus of midpoints of the chords of the parabola \\( {\\frac {x^{2}}{9}}-{\\frac {y^{2}}{4}}\u003d1\\, \\) which are parallel to \\( 3x+8y-4\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( P(x_{1},y_{1})\\, \\) be the midpoint of a chord of \\( 4x^{2}-9y^{2}\u003d36\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,equation to the chord is \\( 4xx_{1}-9yy_{1}\u003d4x_{1}^{{2}}-9y_{1}^{{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis is parallel to the line \\( 3x+8y-4\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eEquating the slopes of the both \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {4x_{1}}{9y_{1}}}\u003d{\\frac {-3}{8}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore the locus of P is the line \\( 32x+27y\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "f721eba8-b50b-44f0-818c-ad172a261c75",
+      "authorSolution": " \\(\\frac14x^4\\) ,  \\(x^2 + 9\\) ,  \\(\\frac13x\\) ",
+      "uuid": "7c094a11-9a08-4126-a5c1-bb04724a7a78",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164050,
+      "creatorUserId": "",
+      "createdAt": 1437419361907,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the locus of midpoints of the chords of the parabola \\( {\\frac {x^{2}}{9}}-{\\frac {y^{2}}{4}}\u003d1\\, \\) which are parallel to \\( 3x+8y-4\u003d0\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/f721eba8-b50b-44f0-818c-ad172a261c75",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.37",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Change Of Variables",
+      "body": "  \\(\\int\\frac{x^7+9x^5+2x^3+4x^2+9}{x^4+9x^2} dx \u003d f(x) -\\dfrac1x + \\ln(g(x)) + \\arctan(h(x)) +c\\)  where \\noindent  \\(f(x)\\) \u003d______,  \\(g(x)\\) \u003d______,  \\(h(x)\\) \u003d_____, and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/7c094a11-9a08-4126-a5c1-bb04724a7a78",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that the locus of midpoints of the chord of the hyperbola \\( x^{2}-y^{2}\u003da^{2}\\, \\) ,which touch the parabola \\( y^{2}\u003d4ax\\, \\) is \\( y^{2}(x-a)\u003dx^{3}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( P(x_{1},y_{1})\\, \\) be the mid point of the chord \u003c/p\u003e\n\u003cp\u003eThe equation of the chord is \\( xx_{1}-yy_{1}\u003dx_{1}^{{2}}-y_{1}^{{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis line touches the parabola \\( y^{2}\u003d4ax\\, \\) \u003c/p\u003e\n\u003cp\u003eThe condition of tangency to the parabola is \u003c/p\u003e\n\u003cp\u003e \\( c\u003d{\\frac {a}{m}}\\, \\) \u003c/p\u003e\n\u003cp\u003eIn the above equations \\( m\u003d{\\frac {x_{1}}{y_{1}}},c\u003d{\\frac {y_{1}^{{2}}-x_{1}^{{2}}}{y_{1}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the condition is \\( {\\frac {y_{1}^{{2}}-x_{1}^{{2}}}{y_{1}}}\u003d{\\frac {ay_{1}}{x_{1}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eBy simplifying the equation above,we get \u003c/p\u003e\n\u003cp\u003e \\( y_{1}^{{2}}(x_{1}-a)\u003dx_{1}^{{3}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the locus is \\( y^{2}(x-a)\u003dx^{3}\\, \\) \u003c/p\u003e",
-      "uuid": "a2ea2adf-8124-488c-b442-99a14341a748",
+      "authorSolution": " \\(4\\) ",
+      "uuid": "8db4f420-52f7-4de4-aad4-ac06cea90a67",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164061,
+      "creatorUserId": "",
+      "createdAt": 1437419361908,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the locus of midpoints of the chord of the hyperbola \\( x^{2}-y^{2}\u003da^{2}\\, \\) ,which touch the parabola \\( y^{2}\u003d4ax\\, \\) is \\( y^{2}(x-a)\u003dx^{3}\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/a2ea2adf-8124-488c-b442-99a14341a748",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.38",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Improper Riemann Integrals Question",
+      "body": "  \\(\\int_0^{\\pi/2} \\dfrac{\\cos x}{\\cos x + \\sin x} dx \u003d \\frac\\pi{a}\\)  where  \\(a\\)  \u003d ___.   \u003ci\u003eHint.\u003c/i\u003e Try substituting  \\(u \u003d \\tan\\frac x2\\) .",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/8db4f420-52f7-4de4-aad4-ac06cea90a67",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that the locus of midpoints of the chord of the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) ,which pass through the focus \\( (ae,0)\\, \\) is \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d{\\frac {ex}{a}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the mid point be \\( P(x_{1},y_{1})\\, \\) of the chord \u003c/p\u003e\n\u003cp\u003eThe equation to the chord is \u003c/p\u003e\n\u003cp\u003e \\( b^{2}xx_{1}-a^{2}yy_{1}\u003db^{2}x_{1}^{{2}}-a^{2}y_{1}^{{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis equation pass through \\( (ae,0)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( b^{2}aex_{1}\u003db^{2}(ae)^{2}-a^{2}y_{1}^{{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e By simplifying the equation,we get \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {y_{1}^{{2}}}{b^{2}}}\u003d{\\frac {ex_{1}}{a}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the locus of P is \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d{\\frac {ex}{a}}\\, \\) \u003c/p\u003e",
-      "uuid": "24a13c68-745b-4800-ab0e-e42dfc5076ff",
+      "authorSolution": " \\(2\\) ,  \\(\\ln x\\) ,  \\(\\dfrac{x}{x^2+1}\\) ",
+      "uuid": "09662506-e5ea-44a4-9b9d-8b822d4773cc",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164072,
+      "creatorUserId": "",
+      "createdAt": 1437419361908,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the locus of midpoints of the chord of the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) ,which pass through the focus \\( (ae,0)\\, \\) is \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d{\\frac {ex}{a}}\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/24a13c68-745b-4800-ab0e-e42dfc5076ff",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.39",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eP is any point on the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) whose vertex is A(a,0).Show that the locus of the middle point of AP is \\( {\\frac {(2x-a)^{2}}{a^{2}}}-{\\frac {4y^{2}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( P(x_{1},y_{1})\\, \\) be the midpoint of AP of the given hyperbola \u003c/p\u003e\n\u003cp\u003eEquation of the chord AP is \\( {\\frac {xx_{1}}{a^{2}}}-{\\frac {yy_{1}}{b^{2}}}\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {y_{1}^{{2}}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( A(a,0)\\, \\) lies on the above equation,hence \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {ax_{1}}{a^{2}}}-0\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {y_{1}^{{2}}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {x_{1}}{a}}-{\\frac {y_{1}^{{2}}}{b^{2}}}\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {4x_{1}^{{2}}}{a^{2}}}-{\\frac {4x_{1}}{a}}-{\\frac {4y_{1}^{{2}}}{b^{2}}}+1\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {4x_{1}^{{2}}-4ax_{1}+a^{2}}{a^{2}}}-{\\frac {4y^{2}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {(2x_{1}-a)^{2}}{a^{2}}}-{\\frac {4y_{1}^{{2}}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,locus of P is \\( {\\frac {(2x-a)^{2}}{a^{2}}}-{\\frac {4y^{2}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e",
-      "uuid": "a5e983bb-bdec-4d99-81dd-c8d26c45d81d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164082,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "P is any point on the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) whose vertex is A(a,0).Show that the locus of the middle point of AP is \\( {\\frac {(2x-a)^{2}}{a^{2}}}-{\\frac {4y^{2}}{b^{2}}}\u003d1\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/a5e983bb-bdec-4d99-81dd-c8d26c45d81d",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.40",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cpre\u003eA tangent of the auxiliary circle of the hyperbola  \\( {\\frac  {x^{2}}{a^{2}}}-{\\frac  {y^{2}}{b^{2}}}\u003d1\\, \\)  intersects it in P and Q.Find the locus of midpoint of PQ.\n\u003c/pre\u003e \n\u003cp\u003eLet \\( R(x_{1},y_{1})\\, \\) be the midpoint of a chord PQ of the given hyperbola \u003c/p\u003e\n\u003cp\u003eEquation to chord of PQ is \\( {\\frac {xx_{1}}{a^{2}}}-{\\frac {yy_{1}}{b^{2}}}\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {y_{1}^{{2}}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eIt is a tangent to the auxiliary circle \\( x^{2}+y^{2}\u003da^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {|{\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {y^{{2}}}{b^{2}}}|}{{\\sqrt {{\\frac {x_{1}^{{2}}}{a^{4}}}+{\\frac {y_{1}^{{2}}}{b^{4}}}}}}}\u003da\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the locus of R is \\( [{\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}]^{2}\u003da^{2}[{\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}]\\, \\) \u003c/p\u003e",
-      "uuid": "e3dea5de-1f7f-4276-8a48-1597e6bd5d75",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164092,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "A tangent of the auxiliary circle of the hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) intersects it in P and Q.Find the locus of midpoint of PQ.",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/e3dea5de-1f7f-4276-8a48-1597e6bd5d75",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.41",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the locus of midpoints of the chords of hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) drawn parallel to the line \\( y\u003dmx\\, \\) \u003c/p\u003e\n\u003cp\u003eLet P be the midpoint of the chord \u003c/p\u003e\n\u003cp\u003eEquation of the chord is \\( {\\frac {xx_{1}}{a^{2}}}-{\\frac {yy_{1}}{b^{2}}}\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}-{\\frac {y_{1}^{{2}}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThis line is paralell to the line \\( y\u003dmx\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the slopes of the two equations are equal,therefore, \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {b^{2}x_{1}}{a^{2}y_{1}}}\u003dm\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( b^{2}x_{1}\u003dma^{2}y_{1}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the locus of P is \u003c/p\u003e\n\u003cp\u003e \\( ma^{2}y-b^{2}x\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "556ad18d-1200-493b-9e5a-809b89df2712",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164103,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the locus of midpoints of the chords of hyperbola \\( {\\frac {x^{2}}{a^{2}}}-{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) drawn parallel to the line \\( y\u003dmx\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/556ad18d-1200-493b-9e5a-809b89df2712",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.42",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the asymptotes of the hyperbola \\( 2x^{2}+5xy+2y^{2}-11x-7y-4\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation of the asymptotes is of the form \\( 2x^{2}+5xy+2y^{2}-11x-7y+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 2x^{2}+4xy+xy+2y^{2}-11x-7y+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (x+2y)(2x+y)+\\lambda -11x-7y\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the equation be \\( (x+2y+l)(2x+y+m)\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 2l+m\u003d-11,l+2m\u003d-7,lm\u003d\\lambda \\, \\) \u003c/p\u003e\n\u003cp\u003e \\( l\u003d-5,m\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the asymptotes are \\( x+2y-5\u003d0,2x+y+1\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "cc1c038f-2446-46bf-9875-4e66650a15f7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164112,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the asymptotes of the hyperbola \\( 2x^{2}+5xy+2y^{2}-11x-7y-4\u003d0\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/cc1c038f-2446-46bf-9875-4e66650a15f7",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.43",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cpre\u003eFind the asymptotes of the hyperbola  \\( 2x^{2}-xy-y^{2}+2x-2y+2\u003d0\\, \\) \n\u003c/pre\u003e \n\u003cp\u003eThe equation of the asymptotes of the given hyperbola is of the form \u003c/p\u003e\n\u003cp\u003e \\( ax^{2}-xy-y^{2}+2x-2y_{\\lambda }\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (2x+y)(x-y)+2x-2y+\\lambda \u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the equation be \\( (2x+y+l)(x-y+m)\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( l+2m\u003d2,-l+m\u003d-2\\, \\) \u003c/p\u003e\n\u003cp\u003eSolving,we get \u003c/p\u003e\n\u003cp\u003e \\( l\u003d2,m\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe asymptotes are \u003c/p\u003e\n\u003cp\u003e \\( 2x+y+2\u003d0,x-y\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "dabc57b7-bc4d-4f37-af7c-071a07864287",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556164122,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the asymptotes of the hyperbola \\( 2x^{2}-xy-y^{2}+2x-2y+2\u003d0\\, \\)",
-      "tags": "Geometry,Geometry,Hyperbola,Plane,auto-uploaded",
-      "url": "/practice-problem/dabc57b7-bc4d-4f37-af7c-071a07864287",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.3.44",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Antiderivatives",
+      "body": "  \\(\\int\\frac{2x^4+x^3+4x^2+2}{x^5+2x^3+x} dx \u003d a f(x) + \\frac1a\\arctan x - \\frac1a g(x) + c\\)  where  \\(a\\) \u003d____, \\noindent  \\(f(x)\\) \u003d______,  \\(g(x)\\) \u003d_________, and  \\(c\\)  is an arbitrary constant.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/09662506-e5ea-44a4-9b9d-8b822d4773cc",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     }
   ],
   "questions": [
-    {
-      "uuid": "88a20629-c152-479b-a593-4df87301615f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Factor Theorem and the Remainder Theorem",
-      "body": "Use polynomial long division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(4x\\(^{2}\\)+3x-1) \\(\\div\\) (x-3)\n(2x\\(^{3}\\)-x+1) \\(\\div\\) (x\\(^{2}\\)+x+1)",
-      "allAnswers": [],
-      "tags": "polynomial, long division, polynomial long division",
-      "url": "/question/88a20629-c152-479b-a593-4df87301615f",
-      "source": "Active Calc 3.2.1",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Long Division of Polynomials"
-    },
-    {
-      "uuid": "0c254249-7584-44a7-a3ec-4d51ec81cd76",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Factor Theorem and the Remainder Theorem",
-      "body": "Use polynomial long division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(5x\\(^{4}\\)-3x\\(^{3}\\)+2x\\(^{2}\\)-1) \\(\\div\\) (x\\(^{2}\\)+4)\n(-x\\(^{5}\\)+7x\\(^{3}\\)-x) \\(\\div\\) (x\\(^{3}\\)-x\\(^{2}\\)+1)",
-      "allAnswers": [],
-      "tags": "polynomial long division, long division, polynomial ",
-      "url": "/question/0c254249-7584-44a7-a3ec-4d51ec81cd76",
-      "source": "Active Calc 3.2.2",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Long Division of Polynomials"
-    },
-    {
-      "uuid": "635c752d-fcb5-4c17-b8b2-977be27fb536",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Factor Theorem and the Remainder Theorem",
-      "body": "Use polynomial long division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(9x\\(^{3}\\)+5) \\(\\div\\) (2x-3)\n(4x\\(^{2}\\)-x-23) \\(\\div\\) (x\\(^{2}\\)-1)",
-      "allAnswers": [],
-      "tags": "polynomial, polynomial long division, long division ",
-      "url": "/question/635c752d-fcb5-4c17-b8b2-977be27fb536",
-      "source": "Active Calc 3.2.3",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Long Division of Polynomials"
-    },
-    {
-      "uuid": "813c77a4-594b-4842-a6ab-b2922109223f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Augmented Matrix Practice",
-      "body": "State whether the given matrix is in reduced row echelon form, row echelon form only or in neither of those forms.\n\n\\(\\begin{bmatrix}\n1 \u0026 0 \u0026 0 \u0026 4 \u0026 \\left | 4 \\\\ \n0 \u0026 1 \u0026 0 \u0026 6 \u0026 \\left | -6 \\\\\n0 \u0026 0 \u0026 1 \u0026 0 \u0026 \\left | 2 \n\\end{bmatrix}\\)",
-      "allAnswers": [],
-      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
-      "url": "/question/813c77a4-594b-4842-a6ab-b2922109223f",
-      "source": "Active Calc 8.2.8",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
-    },
-    {
-      "uuid": "16f3ac70-83e8-45d7-8ba5-6165b0f32f49",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Augmented Matrix Practice",
-      "body": "The following matrices are in reduced row echelon form. Determine the solution of the corresponding system of linear equations or state that the system is inconsistent.\n\n\\( \\begin{bmatrix}\n1 \u0026 0 \u0026 0 \u0026 3 \u0026 \\left | 4 \\\\ \n0 \u0026 1 \u0026 0 \u0026 6 \u0026 \\left | -6 \\\\\n0 \u0026 0 \u0026 1 \u0026 0 \u0026 \\left | 2 \n\\end{bmatrix} \\)",
-      "allAnswers": [],
-      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
-      "url": "/question/16f3ac70-83e8-45d7-8ba5-6165b0f32f49",
-      "source": "Active Calc 8.2.9",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
-    },
-    {
-      "uuid": "cf6c6946-c2eb-40a6-9ab6-0c74f99a14b1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Factor Theorem and the Remainder Theorem",
-      "body": "Use synthetic division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(3x\\(^{2}\\)-2x+1) \\(\\div\\) (x-1)\n(x\\(^{2}\\)-5) \\(\\div\\) (x-5)",
-      "allAnswers": [],
-      "tags": "synthetic division, polynomial, dividing polynomials",
-      "url": "/question/cf6c6946-c2eb-40a6-9ab6-0c74f99a14b1",
-      "source": "Active Calc 3.2.4",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Synthetic Division"
-    },
-    {
-      "uuid": "6773f0c5-dd48-4ed6-9150-c6a8365f962f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Factor Theorem and the Remainder Theorem",
-      "body": "Use synthetic division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(3-4x-2x\\(^{2}\\)) \\(\\div\\) (x+1)\n(4x\\(^{2}\\)-5x+3) \\(\\div\\) (x+3)",
-      "allAnswers": [],
-      "tags": "polynomial, synthetic division, dividing polynomials",
-      "url": "/question/6773f0c5-dd48-4ed6-9150-c6a8365f962f",
-      "source": "Active Calc 3.2.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Long Division of Polynomials"
-    },
-    {
-      "uuid": "d68fce5c-a902-4142-aec0-60298f6217a1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Fundamental Theorem of Calculus",
-      "body": "Use synthetic division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(x\\(^{3}\\)+8) \\(\\div\\) (x+2)\n(4x\\(^{3}\\)+2x-3) \\(\\div\\) (x-3)",
-      "allAnswers": [],
-      "tags": "synthetic division, dividing polynomials, polynomial",
-      "url": "/question/d68fce5c-a902-4142-aec0-60298f6217a1",
-      "source": "Active Calc 3.2.6",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Synthetic Division"
-    },
-    {
-      "uuid": "5687eb48-29fd-47d0-8d3c-47cb416f1124",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Augmented Matrix Practice",
-      "body": "The following matrices are in reduced row echelon form. Determine the solution of the corresponding system of linear equations or state that the system is inconsistent.\n\n\\(\\begin{bmatrix}\n1 \u0026 0 \u0026 0 \u0026 3 \u0026 \\left | 0 \\\\ \n0 \u0026 1 \u0026 2 \u0026 6 \u0026 \\left | 0 \\\\\n0 \u0026 0 \u0026 0 \u0026 0 \u0026 \\left | 1 \n\\end{bmatrix}\\)",
-      "allAnswers": [],
-      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
-      "url": "/question/5687eb48-29fd-47d0-8d3c-47cb416f1124",
-      "source": "Active Calc 8.2.10",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
-    },
-    {
-      "uuid": "71cf4602-8713-4b69-a8fe-a40c232056eb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Fundamental Theorem of Calculus",
-      "body": "Use synthetic division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(18x\\(^{2}\\)-15x-25) \\(\\div\\) (x-\\(\\frac{5}{3}\\))\n(4x\\(^{2}\\)-1) \\(\\div\\) (x-\\(\\frac{1}{2}\\))",
-      "allAnswers": [],
-      "tags": "synthetic division, polynomial, dividing polynomial ",
-      "url": "/question/71cf4602-8713-4b69-a8fe-a40c232056eb",
-      "source": "Active Calc 3.2.7",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Synthetic Division"
-    },
-    {
-      "uuid": "b21ea12a-c532-4a06-a49b-c5923084ee32",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Fundamental Theorem of Calculus",
-      "body": "Use synthetic division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(2x\\(^{3}\\)+x\\(^{2}\\)+2x+1) \\(\\div\\) (x+\\(\\frac{1}{2}\\))\n(3x\\(^{3}\\)-x+4) \\(\\div\\) (x-\\(\\frac{2}{3}\\))",
-      "allAnswers": [],
-      "tags": "synthetic division, polynomial, dividing polynomial ",
-      "url": "/question/b21ea12a-c532-4a06-a49b-c5923084ee32",
-      "source": "Active Calc 3.2.8",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Synthetic Division"
-    },
-    {
-      "uuid": "fb127e97-3dda-4ef5-937e-7f14bfb7c24d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Augmented Matrix Practice",
-      "body": "The following matrices are in reduced row echelon form. Determine the solution of the corresponding system of linear equations or state that the system is inconsistent.\n\n\\(\\begin{bmatrix}\n1 \u0026 0 \u0026 -8 \u0026 1 \u0026 \\left | 7 \\\\ \n0 \u0026 1 \u0026 4 \u0026 -3 \u0026 \\left | 2 \\\\\n0 \u0026 0 \u0026 0 \u0026 0 \u0026 \\left | 0 \\\\\n 0 \u0026 0 \u0026 0 \u0026 0 \u0026 \\left | 0\n\\end{bmatrix}\\)",
-      "allAnswers": [],
-      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
-      "url": "/question/fb127e97-3dda-4ef5-937e-7f14bfb7c24d",
-      "source": "Active Calc 8.2.11",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
-    },
-    {
-      "uuid": "56a4c561-3fa6-436e-9cca-78b026bfdba0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787589,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Fundamental Theorem of Calculus",
-      "body": "Use synthetic division to perform the indicated division. Write the polynomial in the form p(x)\u003dd(x)q(x)+r(x).\n(2x\\(^{3}\\)-3x+1) \\(\\div\\) (x-\\(\\frac{1}{2}\\)) \n(4x\\(^{4}\\)-12x\\(^{3}\\)+13x\\(^{2}\\)-12x+9) \\(\\div\\) (x-\\(\\frac{2}{3}\\))",
-      "allAnswers": [],
-      "tags": "synthetic division, polynomial, dividing polynomials",
-      "url": "/question/56a4c561-3fa6-436e-9cca-78b026bfdba0",
-      "source": "Active Calc 3.2.9",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Synthetic Division"
-    },
     {
       "uuid": "aa326a2a-f74b-4a98-a23d-9d79c5382e64",
       "contentType": "question",
@@ -494,7 +198,7 @@
       "tags": "synthetic division, polynomial, dividing polynomial",
       "url": "/question/aa326a2a-f74b-4a98-a23d-9d79c5382e64",
       "source": "Active Calc 3.2.10",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Synthetic Division"
+      "topic": "bc3dfcab-62bb-4d5d-adf4-5f4aff18beaf"
     },
     {
       "uuid": "5381b741-e65e-4153-bcb1-b7088febb4e5",
@@ -511,7 +215,7 @@
       "tags": "remainder theorem, polynomial functions, function",
       "url": "/question/5381b741-e65e-4153-bcb1-b7088febb4e5",
       "source": "Active Calc 3.2.11",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Remainder Theorem"
+      "topic": "03b0e1a2-2605-4974-aded-1ecee3b7dbd3"
     },
     {
       "uuid": "a00400b9-c266-4788-a6b6-a6573918edff",
@@ -528,7 +232,7 @@
       "tags": "remainder theorem, polynomial functions, polynomial",
       "url": "/question/a00400b9-c266-4788-a6b6-a6573918edff",
       "source": "Active Calc 3.2.12",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Remainder Theorem"
+      "topic": "03b0e1a2-2605-4974-aded-1ecee3b7dbd3"
     },
     {
       "uuid": "c6914d92-3750-4143-8475-cd9d49f8c68a",
@@ -545,7 +249,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/c6914d92-3750-4143-8475-cd9d49f8c68a",
       "source": "Active Calc 8.2.12",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "27a10963-f10e-4d17-84c1-46a1593e0351",
@@ -562,7 +266,7 @@
       "tags": "remainder theorem, polynomial, polynomial function",
       "url": "/question/27a10963-f10e-4d17-84c1-46a1593e0351",
       "source": "Active Calc 3.2.13",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Remainder Theorem"
+      "topic": "03b0e1a2-2605-4974-aded-1ecee3b7dbd3"
     },
     {
       "uuid": "a40deef3-a80a-4439-93f9-f8069ade470b",
@@ -579,7 +283,7 @@
       "tags": "remainder theorem, polynomial function, polynomial",
       "url": "/question/a40deef3-a80a-4439-93f9-f8069ade470b",
       "source": "Active Calc 3.2.14",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Remainder Theorem"
+      "topic": "03b0e1a2-2605-4974-aded-1ecee3b7dbd3"
     },
     {
       "uuid": "cb92e24c-5b21-43e6-a30f-8814c2917e80",
@@ -596,7 +300,7 @@
       "tags": "remainder theorem, polynomial, polynomial function",
       "url": "/question/cb92e24c-5b21-43e6-a30f-8814c2917e80",
       "source": "Active Calc 3.2.15",
-      "topic": "Algebra/Functions/Polynomial Functions/Dividing Polynomials/Remainder Theorem"
+      "topic": "03b0e1a2-2605-4974-aded-1ecee3b7dbd3"
     },
     {
       "uuid": "6a69312a-69a5-4719-8315-5b4482771c8b",
@@ -613,7 +317,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/6a69312a-69a5-4719-8315-5b4482771c8b",
       "source": "Active Calc 8.2.13",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "96ba9033-8ea1-471c-ac51-d07530b06524",
@@ -630,7 +334,7 @@
       "tags": "polynomial, zeros, real zeros",
       "url": "/question/96ba9033-8ea1-471c-ac51-d07530b06524",
       "source": "Active Calc 3.2.16",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "2cffb51d-7cc0-44d0-bc3e-af1a6e05098f",
@@ -647,7 +351,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/2cffb51d-7cc0-44d0-bc3e-af1a6e05098f",
       "source": "Active Calc 8.2.14",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "f9fb4f66-3b46-4b6b-b96c-fac0a9028a3e",
@@ -664,7 +368,7 @@
       "tags": "polynomial, real zeros, zeros",
       "url": "/question/f9fb4f66-3b46-4b6b-b96c-fac0a9028a3e",
       "source": "Active Calc 3.2.17",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "7c3ac76b-b6ff-450e-b713-d4f2ef65024e",
@@ -681,7 +385,7 @@
       "tags": "polynomial, real zeros, zeros",
       "url": "/question/7c3ac76b-b6ff-450e-b713-d4f2ef65024e",
       "source": "Active Calc 3.2.18",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "4a4718d4-8e5a-4e2d-8aa6-b401fc8b5516",
@@ -698,7 +402,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/4a4718d4-8e5a-4e2d-8aa6-b401fc8b5516",
       "source": "Active Calc 8.2.15",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "b1a89322-5ff5-4ac1-b156-5d94fbdd51cc",
@@ -715,7 +419,7 @@
       "tags": "polynomial, zeros, real zeros",
       "url": "/question/b1a89322-5ff5-4ac1-b156-5d94fbdd51cc",
       "source": "Active Calc 3.2.19",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "52943e7f-9a7f-4eba-a48d-a9cbf8f04d38",
@@ -732,7 +436,7 @@
       "tags": "polynomial, real zeros, zeros",
       "url": "/question/52943e7f-9a7f-4eba-a48d-a9cbf8f04d38",
       "source": "Active Calc 3.2.20",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "10f9f1a5-1349-4c63-aed8-8a799a652026",
@@ -749,7 +453,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/10f9f1a5-1349-4c63-aed8-8a799a652026",
       "source": "Active Calc 8.2.16",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "ac351042-8887-4d08-a509-08c4768b45cd",
@@ -766,7 +470,7 @@
       "tags": "polynomial, factored form, zeros, leading term",
       "url": "/question/ac351042-8887-4d08-a509-08c4768b45cd",
       "source": "Active Calc 3.2.21",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "5cfab83e-904c-45f9-8477-976d28078efd",
@@ -783,7 +487,7 @@
       "tags": "polynomial, factored form, zeros, leading term",
       "url": "/question/5cfab83e-904c-45f9-8477-976d28078efd",
       "source": "Active Calc 3.2.22",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "7c1d9c49-3a17-44c8-8890-8af89a13ae6b",
@@ -800,7 +504,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/7c1d9c49-3a17-44c8-8890-8af89a13ae6b",
       "source": "Active Calc 8.2.17",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "bd8341c0-5624-41cc-a589-4547ac05db8d",
@@ -817,7 +521,7 @@
       "tags": "polynomial, factored form, leading term, local minimum",
       "url": "/question/bd8341c0-5624-41cc-a589-4547ac05db8d",
       "source": "Active Calc 3.2.23",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "3a31fdbb-b05f-4338-bdc1-ebe78baefac1",
@@ -834,7 +538,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/3a31fdbb-b05f-4338-bdc1-ebe78baefac1",
       "source": "Active Calc 8.2.18",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "0b557598-3fa6-4017-b9b6-90a3ee462c97",
@@ -851,7 +555,7 @@
       "tags": "polynomial, leading term, local maximum, factored form",
       "url": "/question/0b557598-3fa6-4017-b9b6-90a3ee462c97",
       "source": "Active Calc 3.2.24",
-      "topic": "Algebra/Functions/Polynomial Functions/Factors and Zeros"
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
     },
     {
       "uuid": "897d5a7e-3eae-428c-adfb-d5421c3045bc",
@@ -868,7 +572,7 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/897d5a7e-3eae-428c-adfb-d5421c3045bc",
       "source": "Active Calc 8.2.19",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     },
     {
       "uuid": "df09184a-761c-4171-8b04-84fd8ba818b8",
@@ -885,7 +589,228 @@
       "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
       "url": "/question/df09184a-761c-4171-8b04-84fd8ba818b8",
       "source": "Active Calc 8.2.20",
-      "topic": "Algebra/Linear Algebra/Matrices/Systems of Equations Using Matrix Inverses"
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "b00508bc-55c1-45ef-833a-99f7d84edf96",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Factor Theorem and the Remainder Theorem",
+      "body": "Create a polynomial p which has the desired characteristics. You may leave the polynomial in factored form.\n\\(\\bullet\\) p is degree 4.\n\\(\\bullet\\) as x \\(\\rightarrow \\infty\\), p(x) \\(\\rightarrow - \\infty\\)\n\\(\\bullet\\) p has exactly three x-intercepts: (-6,0), (1,0), and (117,0)\n\\(\\bullet\\) The graph of y \u003d p(x) crosses through the x-axis at (1,0).",
+      "allAnswers": [],
+      "tags": "polynomial, factored form, degree, approaches infinity, x-intercepts",
+      "url": "/question/b00508bc-55c1-45ef-833a-99f7d84edf96",
+      "source": "Active Calc 3.2.25",
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
+    },
+    {
+      "uuid": "47aba3fa-54a1-47e0-a7f1-c2dbe2ad3175",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "\\(\\left\\{\\begin{matrix} 2x _ y + z \u003d 1\n\\\\  2x + 2y _ z \u003d 1\n\\\\ 3x + 6y + 4z \u003d 9\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/47aba3fa-54a1-47e0-a7f1-c2dbe2ad3175",
+      "source": "Active Calc 8.2.21",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "50d594b3-0e5c-4148-bd24-ad71950020eb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Factor Theorem and the Remainder Theorem",
+      "body": "Find a quadratic polynomial with integer coefficients which has x \u003d \\(\\frac{3}{5} \\pm \\frac{\\sqrt{29}}{5}\\) as its real zeros.",
+      "allAnswers": [],
+      "tags": "polynomial, quadratic polynomial, real zeros, integer coefficient ",
+      "url": "/question/50d594b3-0e5c-4148-bd24-ad71950020eb",
+      "source": "Active Calc 3.2.26",
+      "topic": "cd36e16a-0702-4e1b-b6a3-50bdf8dd9174"
+    },
+    {
+      "uuid": "6693953f-3ada-49f5-8cac-299dcdd06d59",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "\\(\\left\\{\\begin{matrix} x _ 3y _ 4z \u003d 3\n\\\\ 3x + 4y _ z \u003d 13\n\\\\2x _ 19y _ 19z \u003d 2\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/6693953f-3ada-49f5-8cac-299dcdd06d59",
+      "source": "Active Calc 8.2.22",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "1bfc6fcd-7fd9-4234-ab37-66ad093bfeed",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "\\( \\left\\{\\begin{matrix} x + y + z \u003d 4\n\\\\ 2x _ 4y _ z \u003d _1\n\\\\ x _ y \u003d 2\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/1bfc6fcd-7fd9-4234-ab37-66ad093bfeed",
+      "source": "Active Calc 8.2.23",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "83cbc8ff-114a-4e0b-8d1a-fedf1a01497b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "\\(\\left\\{\\begin{matrix} x _ y + z \u003d 8\n\\\\ 3x + 3y _ 9z \u003d _6\n\\\\7x _ 2y + 5z \u003d 39\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/83cbc8ff-114a-4e0b-8d1a-fedf1a01497b",
+      "source": "Active Calc 8.2.24",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "1fb9e252-31be-479f-bdc1-6bf124270ed6",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "\\(\\left\\{\\begin{matrix} 2x _ 3y + z \u003d _1\n\\\\ 4x _ 4y + 4z \u003d _13\n\\\\ 6x _ 5y + 7z \u003d _25 \n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/1fb9e252-31be-479f-bdc1-6bf124270ed6",
+      "source": "Active Calc 8.2.25",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "3fe195ef-4ddb-4192-b778-07a3ebda1ac7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "\\(\\left\\{\\begin{matrix} x_1 _ x_3 \u003d -2\n\\\\ 2x_2 _ x_4 \u003d 0\n\\\\ x_1 _ 2x_2 + x_3 \u003d 0\n\\\\_x_3 + x_4 \u003d 1\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/3fe195ef-4ddb-4192-b778-07a3ebda1ac7",
+      "source": "Active Calc 8.2.26",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "2602e185-8517-4f4e-b6b1-50543c1c3670",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Real Zeros of Polynomials",
+      "body": "\\(\\bullet\\) Use Cauchy\u0027s Bound to find an interval containing all of the real zeros.\n\\(\\bullet\\) Use the Rational Zeros Theorem to make a list of possible rational zeros.\n\\(\\bullet\\) Use Descartes\u0027 Rule of Signs to list the possible number of positive and negative real zeros, counting multiplications.\nf(x) \u003d x\\(^{3}\\)+2x\\(^{2}\\)-5x+6\nf(x) \u003d x\\(^{4}\\)+2x\\(^{3}\\)-12x\\(^{2}\\)-40x-32",
+      "allAnswers": [],
+      "tags": "cauchy\u0027s bound, rational zeros theorem, descartes rule of signs, polynomials, functions",
+      "url": "/question/2602e185-8517-4f4e-b6b1-50543c1c3670",
+      "source": "Active Calc 3.3.1",
+      "topic": "298e32fa-dbed-4fe4-af57-159d93840041"
+    },
+    {
+      "uuid": "8f86faa3-2eb0-428f-a6a3-490e11c2af03",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "It�s time for another meal at our local buffet. This time, 22 diners (5 of whom were children) feasted for $162.25, before taxes. If the kids buffet is $4.50, the basic buffet is $7.50, and the deluxe buffet (with crab legs) is $9.25, find out how many diners chose the deluxe buffet.",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/8f86faa3-2eb0-428f-a6a3-490e11c2af03",
+      "source": "Active Calc 8.2.27",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "c806b698-c51c-4f3e-b0ce-d59f1b2198f8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Real Zeros of Polynomials",
+      "body": "\\(\\bullet\\) Use Cauchy\u0027s Bound to find an interval containing all of the real zeros.\n\\(\\bullet\\) Use the Rational Zeros Theorem to make a list of possible rational zeros.\n\\(\\bullet\\) Use Descartes\u0027 Rule of Signs to list the possible number of positive and negative real zeros, counting multiplications.\nf(x) \u003d x\\(^{4}\\)-9x\\(^{2}\\)-4x+12\nf(x) \u003d x\\(^{3}\\)+4x\\(^{2}\\)-11x+6",
+      "allAnswers": [],
+      "tags": "cauchy\u0027s bound, rational zeros theorem, descartes\u0027 rule of signs, polynomials, functions",
+      "url": "/question/c806b698-c51c-4f3e-b0ce-d59f1b2198f8",
+      "source": "Active Calc 3.3.2",
+      "topic": "298e32fa-dbed-4fe4-af57-159d93840041"
+    },
+    {
+      "uuid": "e1fad0d8-b0c7-4e6b-bbe8-1298c2419615",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solve the System of Linear Equations",
+      "body": "Carl wants to make a party mix consisting of almonds (which cost $7 per pound), cashews (which cost $5 per pound), and peanuts (which cost $2 per pound.) If he wants to make a 10 pound mix with a budget of $35, what are the possible combinations almonds, cashews, and peanuts?",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/e1fad0d8-b0c7-4e6b-bbe8-1298c2419615",
+      "source": "Active Calc 8.2.28",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "38c32834-b42f-4397-807c-f07a7ffd9da4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787589,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Quadratic Function",
+      "body": "Find the quadratic function passing through the points \\((_2, 1), (1, 4), (3, _2)\\).",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/38c32834-b42f-4397-807c-f07a7ffd9da4",
+      "source": "Active Calc 8.2.29",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     }
   ],
   "textContent": [
@@ -904,7 +829,7 @@
       "tags": "limits, sequences, limits of sequences, continuity, functions ",
       "url": "/text-content/e4503c19-f338-4652-b866-b9b0475ee888",
       "source": "Forgotten Text 4 3.1",
-      "topic": "Calculus/Continuity and Limits/Limits of Sequences"
+      "topic": "0568d3af-310e-44f1-a1ea-785d3218dad5"
     },
     {
       "uuid": "cf62a56d-f8a3-4f82-a5bd-0f8a9285b460",
@@ -921,9 +846,58 @@
       "tags": "sequences, limits of sequences, limits approaching infinity",
       "url": "/text-content/cf62a56d-f8a3-4f82-a5bd-0f8a9285b460",
       "source": "Forgotten Text 4 3.11",
-      "topic": "Calculus/Continuity and Limits/Limits of Sequences"
+      "topic": "0568d3af-310e-44f1-a1ea-785d3218dad5"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "49b11e34-3beb-4a95-b369-bdd0dd4b73f5",
+      "subTopics": [
+        "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+      ],
+      "parentTopics": [
+        "6ab9ae32-a846-4f08-a278-2e90e22f1103"
+      ],
+      "title": "Limits at Infinity",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    },
+    {
+      "uuid": "42dcbab9-fd9a-4290-b1e4-c6074d1f32ca",
+      "subTopics": [],
+      "parentTopics": [
+        "fe59b7d2-b5bc-4b08-b296-dd5671bfd2f6"
+      ],
+      "title": "Hypotenuse",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " diameter, intersection, radius, tangent line, circle,activity,",
+      "difficulty": 182000,
+      "contentUuids": [
+        "5898f465-0835-4726-9302-91d2525cc2ec"
+      ]
+    },
+    {
+      "uuid": "a99d6b08-8f76-4175-98b5-62602ac0ce5b",
+      "subTopics": [],
+      "parentTopics": [
+        "3a7e8a7c-233a-41df-905a-fa3719475bdf"
+      ],
+      "title": "Trigonometric Proofs",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " trig , inverse sin, line segments,median, squares, law of sines,triangle, sin, law of cosines,graphing trig equations, tangent expression, inverse tan, midpoints, triangles,tan,",
+      "difficulty": 229000,
+      "contentUuids": [
+        "de5f652c-3a00-4b08-b28a-1264ecf0364d",
+        "91d6a717-f9ee-4df1-81f2-ae8d65090fda",
+        "6db109a3-fc6f-49df-a8fd-e002dba0a5c6",
+        "e87dd425-063f-42ce-bf09-077a69c27279"
+      ]
+    }
+  ]
 }

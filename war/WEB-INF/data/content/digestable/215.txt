@@ -2,448 +2,205 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(37\\) ",
-      "uuid": "f2a91955-93cb-4118-8e2b-227aef838b12",
+      "authorSolution": " \\(xz\\) ,  \\(-yz\\) ,  \\(y\\) ",
+      "uuid": "7426e2ff-3f59-4e8c-ba78-9a0f6c971502",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361920,
+      "createdAt": 1437419362114,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Centroid Of A Plane Region",
-      "body": " The area of the (bounded) region between the curves  \\(y \u003d x^3 - x + 3\\)  and  \\(y \u003d x^2 + x + 3\\)  is  \\(\\dfrac a{12}\\)  where  \\(a\\) \u003d_____.",
+      "title": "The Exterior Differential Operator Practice",
+      "body": " Let  \\(\\omega \u003d x dx + xy dy + xyz dz\\) .    Then          \\[ d\\omega \u003d _______ dy \\land dz + _______ dz \\land dx +                                                                                _______ dx \\land dy.   \\]",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/f2a91955-93cb-4118-8e2b-227aef838b12",
+      "tags": "the exterior differential operator, exterior differential operator",
+      "url": "/practice-problem/7426e2ff-3f59-4e8c-ba78-9a0f6c971502",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "5b830df5-d4c2-4c3a-8506-35e1719354b0"
     },
     {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "84e91a42-1db0-421e-9740-f3f645884c53",
+      "authorSolution": " \\(x^2y + 3y^2z^5\\) ",
+      "uuid": "f65b9425-0d15-4b1e-85fe-8fdba16bd5ee",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361920,
+      "createdAt": 1437419362115,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Area Of A Region In The Plane",
-      "body": " The total area of the region between the curve  \\(y \u003d x^3 - x\\)  and the  \\(x\\) -axis for  \\(0 \\le x \\le 2\\)  is  \\(\\dfrac a2\\)  where  \\(a\\) \u003d___.",
+      "title": "Practice In Hodge Star Operator",
+      "body": " If  \\(\\omega\\)  is the  \\(3\\) -form  \\((x^2y + 3y^2z^5) dx \\land dy \\land dz\\)  then  \\(\\ast \\omega\\)  \u003d ___________.",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/84e91a42-1db0-421e-9740-f3f645884c53",
+      "tags": "the hodge star operator, Hodge star operator",
+      "url": "/practice-problem/f65b9425-0d15-4b1e-85fe-8fdba16bd5ee",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "fcf5bf2a-ea1d-4dac-8e5c-09083618083a"
     },
     {
-      "authorSolution": " \\(11\\) ",
-      "uuid": "a1bea15f-ab86-459c-9e06-d049afa8f602",
+      "authorSolution": " \\(3z + 2yz\\) ",
+      "uuid": "3772f1a6-39ee-41a7-8b36-fe1c133deef7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362116,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Applications Of The Integral",
-      "body": " The area between the curves  \\(y \u003d x^3 + x^2 - 3x + 4\\)  and  \\(y \u003d x^2 - 2x + 4\\)  from  \\(x \u003d -1\\)  to  \\(x \u003d 2\\)  is  \\(\\dfrac a4\\)  where  \\(a\\) \u003d____.",
+      "title": "A The Hodge Star Operator Question",
+      "body": " Let  \\(\\omega \u003d 3xz dx + y^2z dy + x^2y^3 dz\\) .   Then  \\(\\ast d\\ast \\omega\\)  \u003d ____________.",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/a1bea15f-ab86-459c-9e06-d049afa8f602",
+      "tags": "the hodge star operator, Hodge star operator",
+      "url": "/practice-problem/3772f1a6-39ee-41a7-8b36-fe1c133deef7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "fcf5bf2a-ea1d-4dac-8e5c-09083618083a"
     },
     {
-      "authorSolution": " \\(\\dfrac43\\) ",
-      "uuid": "2486d03e-0d68-4156-bd41-67a14431d17c",
+      "authorSolution": " \\(\\ast(\\omega \\land (\\ast\\mu) )\\)  \\quad (\\textbf{or}  \\(\\ast( (\\ast\\omega) \\land \\mu)\\) )",
+      "uuid": "55d7faaf-f748-465a-9465-38ddcd900e75",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362116,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Area Under A Curve Question",
-      "body": " The length of the curve  \\(\\D y \u003d \\frac12(e^x + e^{-x})\\)  from  \\(x \u003d 0\\)  to  \\(x \u003d \\ln 3\\)  is___.",
+      "title": "Hodge Star Operator Practice",
+      "body": " Suppose we wish to define the  \\index{inner product}%  \\index{dot product}%  \\index{product!inner}%  \\index{product!dot}% \\df{inner product} (or \\df{dot product}) of two  \\(1\\) -forms  \\(\\omega \u003d P dx + Q dy + R dz\\)  and  \\(\\mu \u003d S dx + T dy + U dz\\)  to be the  \\(0\\) -form  \\(PS + QT + RU\\) .    Rephrase this definition without mentioning the components of  \\(\\omega\\)  and \\(\\mu\\) .   Answer:  \\(\\langle \\omega, \\mu range ofgle \u003d \\omega \\cdot \\mu\\)  \u003d ____________.",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/2486d03e-0d68-4156-bd41-67a14431d17c",
+      "tags": "the hodge star operator, Hodge star operator",
+      "url": "/practice-problem/55d7faaf-f748-465a-9465-38ddcd900e75",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "fcf5bf2a-ea1d-4dac-8e5c-09083618083a"
     },
     {
-      "authorSolution": " \\(8\\) ,  \\(2\\) ",
-      "uuid": "604f3674-bb79-46f3-b878-23f536ee7ffe",
+      "authorSolution": " \\((xz + 1)e^{xz} + z\\) ,  \\(0\\) ,  \\(x(1 + xe^{xz})\\) ",
+      "uuid": "2f1be94e-5b8e-4a1e-869f-80b10e6125f9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362116,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Half-life Of A Radioactive Substance Problem",
-      "body": " The length of the curve  \\(y \u003d 8\\ln\\dfrac{2 + \\sqrt x}{2 - \\sqrt x} - 8\\sqrt x\\)  for  \\(0 \\le x \\le2\\)  is  \\(a\\ln b - b\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Question On Hodge Star Operator",
+      "body": " Let  \\(\\omega \u003d \\sin(yz) dy \\land dz + xyz dz \\land dx + e^{xz} dx \\land dy\\) .    Then  \\(d\\ast d\\omega \u003d P dx + Q dy + R dz\\)  where  \\(P\\) \u003d_____________,  \\(Q\\) \u003d____, and  \\(R\\) \u003d___________.",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/604f3674-bb79-46f3-b878-23f536ee7ffe",
+      "tags": "the hodge star operator, Hodge star operator",
+      "url": "/practice-problem/2f1be94e-5b8e-4a1e-869f-80b10e6125f9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "fcf5bf2a-ea1d-4dac-8e5c-09083618083a"
     },
     {
-      "authorSolution": " \\(12\\) ",
-      "uuid": "710b4df6-543f-4aea-b7b1-be39974a2f6d",
+      "authorSolution": " \\(\\ast(\\omega \\land \\mu \\land \\eta)\\) ",
+      "uuid": "51380522-00f4-48ba-a1b8-e03bce7cb635",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362116,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Half-life Of A Radioactive Substance Problem",
-      "body": " The length of the curve  \\(y \u003d \\frac13(x^2 + 2)^{3/2}\\)  from  \\(x \u003d 0\\)  to  \\(x \u003d 3\\)  is ______.",
+      "title": "Practice In The Hodge Star Operator",
+      "body": " Suppose we wish to define the  \\index{scalar!triple product}%  \\index{product!scalar triple}% \\df{scalar triple product}  \\([\\omega, \\mu, \\eta]\\)  of three  \\(1\\) -forms  \\(\\omega \u003d P dx + Q dy + R dz\\) ,  \\(\\mu \u003d S dx + T dy + U dz\\) , and  \\(\\eta \u003d V dx + W dy + X dz\\)  to be the  \\(0\\) -form  \\(\\det\\begin{bmatrix} P \u0026 Q \u0026 R  \\\\                                                                            S \u0026 T \u0026 U  \\\\                                                                            V \u0026 W \u0026 X                                                            \\end{bmatrix}\\) .    Rephrase this definition without mentioning the components of  \\(\\omega\\) ,  \\(\\mu\\) , and \\(\\eta\\) .   Answer:  \\([\\omega, \\mu, \\eta]\\)  \u003d ____________.",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/710b4df6-543f-4aea-b7b1-be39974a2f6d",
+      "tags": "the hodge star operator, Hodge star operator, word problem",
+      "url": "/practice-problem/51380522-00f4-48ba-a1b8-e03bce7cb635",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "fcf5bf2a-ea1d-4dac-8e5c-09083618083a"
     },
     {
-      "authorSolution": " \\(e\\) ",
-      "uuid": "cfa2f1d6-2126-4694-9e63-8d8cda6bf651",
+      "authorSolution": "is,  \\(\\exp(xy)\\) ",
+      "uuid": "3be57d42-3c2c-4cce-b868-78720bb81598",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362118,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Work",
-      "body": " The length of the curve  \\(y \u003d \\cosh x\\)  between  \\(x \u003d -1\\)  and  \\(x \u003d 1\\)  is  \\(a - \\dfrac1a\\)  where  \\(a\\) \u003d___.",
+      "title": "Closed And Exact Differential Forms Practice",
+      "body": " The  \\(1\\) -form  \\(\\omega \u003d ye^{xy} dx + xe^{xy} dy\\)  ________ (is/is not) exact.    If it is then  \\(\\omega \u003d df\\)  where  \\(f(x,y,z)\\)  \u003d ___________.",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/cfa2f1d6-2126-4694-9e63-8d8cda6bf651",
+      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
+      "url": "/practice-problem/3be57d42-3c2c-4cce-b868-78720bb81598",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "97370c95-606b-4615-a9ee-6d0413e2b5d7"
     },
     {
-      "authorSolution": " \\(19\\) ",
-      "uuid": "2834c6bc-91f7-4f46-9eb2-8f92ca8dae19",
+      "authorSolution": "is,  \\(\\arcsin x  \\arctan y + \\dfrac{x^2}{2y} + x^3 + e^y\\) ",
+      "uuid": "576265da-0a78-40bd-8c69-69b8e6f8aed6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362118,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Area Of A Region In The Plane",
-      "body": " The length of the curve  \\(y \u003d x^{3/2}\\)  from  \\(x \u003d 0\\)  to  \\(x \u003d \\frac59\\)  is  \\(\\dfrac a{27}\\)  where  \\(a\\) \u003d_____.",
+      "title": "Exact Differential Forms",
+      "body": " The  \\(1\\) -form  \\(\\omega \u003d \\left(\\dfrac{\\arctan y}{\\sqrt{1-x^2}} + \\dfrac xy + 3x^2\\right) dx + \\left(\\dfrac{\\arcsin x}{1+y^2} - \\dfrac{x^2}{2y^2} + e^y\\right) dy\\)  _____ (is/is not) exact.    If it is then  \\(\\omega \u003d df\\)  where     \\[ f(x,y,z) \u003d \\text{__________________________________}.   \\]",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/2834c6bc-91f7-4f46-9eb2-8f92ca8dae19",
+      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
+      "url": "/practice-problem/576265da-0a78-40bd-8c69-69b8e6f8aed6",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "97370c95-606b-4615-a9ee-6d0413e2b5d7"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(5\\) ",
-      "uuid": "deae0e87-b913-42dc-bbfb-c942a4d07868",
+      "authorSolution": "is,  \\(\\exp(xyz) + x^2y^3 + y\\sin z + z^4\\) ",
+      "uuid": "1cf1a072-71d4-4a4f-950c-4e0400c2b516",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361921,
+      "createdAt": 1437419362118,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Moment Of A Plane Region About A Line",
-      "body": " The length of the curve  \\(y \u003d x^2\\)  between the origin and the point  \\((1,1)\\)  is  \\(\\dfrac1a\\sqrt b + \\dfrac14\\ln(a + \\sqrt b)\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Exact Differential Forms Practice",
+      "body": " The  \\(1\\) -form  \\(\\omega \u003d (yze^{xyz} + 2xy^3) dx + (xze^{xyz} + 3x^2y^2 + \\sin z) dy + (xye^{xyz} + y\\cos z + 4z^3) dz\\)  ______ (is/is not) exact.    If it is, then  \\(\\omega \u003d df\\)  where     \\[ f(x,y,z) \u003d \\text{__________________________________}.   \\]",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/deae0e87-b913-42dc-bbfb-c942a4d07868",
+      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
+      "url": "/practice-problem/1cf1a072-71d4-4a4f-950c-4e0400c2b516",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "97370c95-606b-4615-a9ee-6d0413e2b5d7"
     },
     {
-      "authorSolution": " \\(\\dfrac52\\) ",
-      "uuid": "8b764a67-a644-433a-8e07-cb5156179f03",
+      "authorSolution": " \\(\\dfrac2{x^2}\\) ",
+      "uuid": "2eb7934f-936f-4c00-8fa7-a561eccd406d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361922,
+      "createdAt": 1437419362118,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Volume Of A Solid Using The Method Of Cross-sections",
-      "body": " If the work done in stretching a spring from a length of 3 ft to a length of 4 ft is one-half the work done in stretching it from 4 ft to 5 ft, then the natural length of the spring is ___ ft.",
+      "title": "Closed And Exact Differential Forms",
+      "body": " Solve the differential equation  \\(2x^3y^2 + x^4y y\u0027 \u003d 0\\)  on the interval  \\(1 \\le x \\le 10\\)  subject to the condition  \\(y(2) \u003d \\frac12\\) .    \u003ci\u003eHint.\u003c/i\u003e Is  \\(2x^3y^2 dx + x^4y dy\\)  exact?       \\[ \\text{Answer:  \\(y(x)\\)  \u003d ________.} \\]",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/8b764a67-a644-433a-8e07-cb5156179f03",
+      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
+      "url": "/practice-problem/2eb7934f-936f-4c00-8fa7-a561eccd406d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "97370c95-606b-4615-a9ee-6d0413e2b5d7"
     },
     {
-      "authorSolution": " \\(\\dfrac32\\) ",
-      "uuid": "f199c70f-7504-4542-8379-27aa9fb1f516",
+      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(1\\) ,  \\(2t\\) ,  \\(t\\) ,  \\(2 - 2t\\) ,  \\(1 - t\\) ",
+      "uuid": "522ed655-68cb-42cf-a1e8-fc98ff7f0a32",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361922,
+      "createdAt": 1437419362127,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Moment Of A Plane Region About A Line",
-      "body": " The left end of a spring is attached to the origin of the  \\(x\\) -axis.    Its natural length is \\(l\\) .   The work required to stretch the right end of the spring from  \\(x \u003d 6\\)  to  \\(x \u003d 8\\)  is 11/7 times the work required to stretch it from  \\(x \u003d 4\\)  to  \\(x \u003d 6\\) .   Then the spring\u0027s natural length  \\(l\\)  is ______.",
+      "title": "Unit Normal Vector Practice",
+      "body": " Let  \\(R\\)  be the surface parametrized by      \\[ \\vec{ }r\\colon [0,2] \\times [0,1] \\to \\R^3\\colon (u,v) \\mapsto (u,v,0) .   \\] Then the (positive) orientation induced by  \\(\\vec{ }r\\)  is determined by the unit normal vector, which is given by      \\[ \\vec{ }N(u,v) \u003d ( ___ , ___ , ___ ) .   \\] We can write the boundary of  \\(R\\)  as the sum of four simple smooth curves      \\[ \\partial R \u003d C_1 + C_2 + C_3 + C_4 \\] whose induced orientations are given by",
       "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/f199c70f-7504-4542-8379-27aa9fb1f516",
+      "tags": "manifolds and orientation, manifolds ,parametrization ,orientation ,unit normal vector",
+      "url": "/practice-problem/522ed655-68cb-42cf-a1e8-fc98ff7f0a32",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
-    },
-    {
-      "authorSolution": " \\(6480\\) ,  \\(8640\\) ",
-      "uuid": "fb774dcd-14a9-4b71-80ff-5acd2975af1b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361922,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Long-run Value Of A Physical Quantity",
-      "body": " A horizontal cylindrical tank of radius 3 ft and length 8 ft is half full of oil weighing 60 lb/ft \\(^3\\) .    The work done in pumping out the oil to the top of the tank is  \\(a\\pi + b\\)  where  \\(a\\) \u003d_________ and  \\(b\\) \u003d_________.",
-      "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/fb774dcd-14a9-4b71-80ff-5acd2975af1b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
-    },
-    {
-      "authorSolution": " \\(80,000\\) ",
-      "uuid": "ca24e37d-1741-410b-b84b-dd987c7bdd39",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361922,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Moment Of A Plane Region About A Line Question",
-      "body": " A conical tank is 20 ft.   tall and the diameter of the tank at the top is 20 ft.   It is filled with a liquid whose density is 12 lb./ft.   \\(^3\\) .    What is the work done in lifting the liquid to a trough 5 ft above the top of the tank? Answer:_______ \\(\\pi\\) ft-lbs.",
-      "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/ca24e37d-1741-410b-b84b-dd987c7bdd39",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
-    },
-    {
-      "authorSolution": " \\(5\\) ,  \\(4\\) ,  \\(4\\) ,  \\(5\\) ",
-      "uuid": "3d71ec2f-6f8f-48cb-a06d-3b1215ff45d5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361922,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Area Of A Region In The Plane Problem",
-      "body": " An oil tank in the shape of a horizontal elliptic cylinder is 25 feet long.    The major axis of the elliptical cross-section is horizontal and 12 feet long.    The (vertical) minor axis is 6 feet long.    The work done in emptying the contents of the tank through an outlet at the top of the tank when it is half full of oil weighing 60 pounds per cubic foot is  \\(\\text{____}000 + \\text{__}0\\text{__}00 \\pi\\)  foot-pounds.",
-      "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/3d71ec2f-6f8f-48cb-a06d-3b1215ff45d5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
-    },
-    {
-      "authorSolution": " \\(1750\\) ",
-      "uuid": "4a5a32d1-f097-4901-a5e4-aef2e1733c43",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361922,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Half-life Of A Radioactive Substance Question",
-      "body": " A bag of sand originally weighing 100 lb.   is lifted at a constant rate.   The sand leaks out uniformly at such a rate that the bag is just empty when it reaches a height of 35 ft.   How much work is done in lifting the bag of sand that distance? Answer:_______ft-lbs.",
-      "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/4a5a32d1-f097-4901-a5e4-aef2e1733c43",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
-    },
-    {
-      "authorSolution": " \\(1584\\) ",
-      "uuid": "26827993-c4f1-4279-96f7-b18ab2d07d12",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361923,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Area Under A Curve Question",
-      "body": " Assume that two particles repel each other with a force inversely proportional to the cube of the distance between them.   Suppose that one particle is fixed and you know that the work done in moving the second particle from a distance of 10 inches to a distance of 5 inches from the first is 48 inch-pounds.    Then the work done in moving the second particle from a distance of 10 inches to a distance of 1 inch from the first is _________inch-pounds.",
-      "allAnswers": [],
-      "tags": "applications of the integral, area under a curve ,long-run value of a physical quantity ,half-life of a radioactive substance ,area of a region in the plane ,arc length of a curve ,volume of a solid using the method of cross-sections ,volume of a solid using the shell method ,work ,centroid of a plane region ,moment of a plane region about a line",
-      "url": "/practice-problem/26827993-c4f1-4279-96f7-b18ab2d07d12",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Applications of Integration"
+      "topic": "71faf3ff-86ed-4046-80c7-c0dcf4440140"
     }
   ],
   "questions": [
-    {
-      "uuid": "ba549b38-0a8a-4744-b001-bc69476d33ce",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Compute the derivatives of the following functions\n\\(\\varphi\\)(t) \u003d \\(\\frac{t}{1+\\sqrt{t}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, functions",
-      "url": "/question/ba549b38-0a8a-4744-b001-bc69476d33ce",
-      "source": "Math 221 4.3.13",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
-    },
-    {
-      "uuid": "2df67791-2235-4597-b67f-da6974592486",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Compute the derivatives of the following functions\ng(s) \u003d \\(\\sqrt{\\frac{1-s}{1+s}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, functions",
-      "url": "/question/2df67791-2235-4597-b67f-da6974592486",
-      "source": "Math 221 4.3.14",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
-    },
-    {
-      "uuid": "a4f8bf06-5d6b-4b95-aad4-d655302b39ee",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Compute the derivative of the following functions\nh(p) \u003d \\(\\sqrt[3]{p+\\sqrt{p}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, functions",
-      "url": "/question/a4f8bf06-5d6b-4b95-aad4-d655302b39ee",
-      "source": "Math 221 4.3.15",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
-    },
-    {
-      "uuid": "aa30eb3d-a0d2-4c30-8fa7-837a20b64f95",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "(a) Find the derivative of f(x) \u003d x\\(^{4/3}\\)\n(b) Use (a) to estimate the number \\(\\frac{127^{4/3-125^{4/3}}{2}\\) approximately without a calculator. Your answer should have the form p/q where p and q are integers\n(c) Approximate in the same way the number \\(\\sqrt{143}\\) and \\(\\sqrt{145}|)",
-      "allAnswers": [],
-      "tags": "derivatives, functions, approximate",
-      "url": "/question/aa30eb3d-a0d2-4c30-8fa7-837a20b64f95",
-      "source": "Math 221 4.3.16",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
-    },
-    {
-      "uuid": "05ef02bc-bb29-44c4-9e1b-31e82b589038",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Antiderivative",
-      "body": "\\(f(x) \u003d 2x+1\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/05ef02bc-bb29-44c4-9e1b-31e82b589038",
-      "source": "Math 221 8.1.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "97e76160-c0c5-4fb4-98df-3c1f250d9efb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Antiderivative",
-      "body": "\\(f(x) \u003d 1-3x\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/97e76160-c0c5-4fb4-98df-3c1f250d9efb",
-      "source": "Math 221 8.1.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "2d3650b5-c507-4a14-9d8b-0ce8748b9d0e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Antiderivative",
-      "body": "\\(f(x) \u003d x^2-x+11\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/2d3650b5-c507-4a14-9d8b-0ce8748b9d0e",
-      "source": "Math 221 8.1.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "c3b7e453-3bb1-4e31-8600-568b3a5c912a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Instead of looking at the derivative of a function you can look at the ratio of its derivative to the function itself, i.e. you can compute f\u0027 / f. This quantity is called the logarithmic derivative of the function f.\n(a) Compute the logarithmic derivative of these functions (i.e. find f\u0027(x)/f(x))\nF(x) \u003d x, g(x) \u003d 3x, h(x) \u003d x\\(^{2}\\) k(x) \u003d -x\\(^{2}\\), l(x)\u003d2007x\\(^{2}\\), m(x)\u003dx\\(^{2007}\\)\n(b) Show that for any paid of functions u and v one has \n\\(\\frac{(uv)\u0027}{uv} \u003d \\frac{u\u0027}{u} + \\frac{v\u0027}{v}\\)\n\\(\\frac{(u/v)\u0027}{u/v} \u003d \\frac{u\u0027}{u}-\\frac{v\u0027}{v}\\)\n\\(\\frac{(u^{n})\u0027}{u^{n}}\u003dn\\frac{u\u0027}{u}\\)",
-      "allAnswers": [],
-      "tags": "derivative, functions, logarithmic functions",
-      "url": "/question/c3b7e453-3bb1-4e31-8600-568b3a5c912a",
-      "source": "Math 221 4.3.17",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential and Logarithmic Functions"
-    },
-    {
-      "uuid": "a2ed374c-2ea7-4e89-9fe7-5fa2fa949067",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787598,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Antiderivative",
-      "body": "\\(f(x) \u003d x^4-x^2\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/a2ed374c-2ea7-4e89-9fe7-5fa2fa949067",
-      "source": "Math 221 8.1.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
     {
       "uuid": "38002375-9b61-4026-a382-53d56a387498",
       "contentType": "question",
@@ -459,7 +216,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/38002375-9b61-4026-a382-53d56a387498",
       "source": "Math 221 8.1.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "f1ff8006-1c92-48fa-b8ae-674fa91e6d99",
@@ -476,7 +233,7 @@
       "tags": "functions, derivatives",
       "url": "/question/f1ff8006-1c92-48fa-b8ae-674fa91e6d99",
       "source": "Math 221 4.3.18",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "fc3b5bca-934f-47e5-bd87-2ac3674d9604",
@@ -493,7 +250,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/fc3b5bca-934f-47e5-bd87-2ac3674d9604",
       "source": "Math 221 8.1.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "cbd5b751-bdef-4d73-941a-1be39ecde78d",
@@ -510,7 +267,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/cbd5b751-bdef-4d73-941a-1be39ecde78d",
       "source": "Math 221 8.1.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "bbae6da2-a139-46af-bb93-41a2feac6675",
@@ -527,7 +284,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/bbae6da2-a139-46af-bb93-41a2feac6675",
       "source": "Math 221 8.1.8",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "7290230f-9db5-46cd-801f-d2f93894c7dd",
@@ -544,7 +301,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/7290230f-9db5-46cd-801f-d2f93894c7dd",
       "source": "Math 221 8.1.9",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "0906d644-f60d-4564-8066-5dca7b21cf4c",
@@ -561,7 +318,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/0906d644-f60d-4564-8066-5dca7b21cf4c",
       "source": "Math 221 8.1.10",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "98d596a9-91fe-4a87-bf74-5fee60f660cd",
@@ -578,7 +335,7 @@
       "tags": "derivatives, functions",
       "url": "/question/98d596a9-91fe-4a87-bf74-5fee60f660cd",
       "source": "Math 221 4.3.19",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "80a7d305-5dbe-45f5-b713-cbaf8fadd2b6",
@@ -595,7 +352,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/80a7d305-5dbe-45f5-b713-cbaf8fadd2b6",
       "source": "Math 221 8.1.11",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "aa751504-2a30-4dac-aa19-f8115854d343",
@@ -612,7 +369,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/aa751504-2a30-4dac-aa19-f8115854d343",
       "source": "Math 221 8.1.12",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "28983fa8-5d1d-4bb5-977c-2fbe80fb0754",
@@ -629,7 +386,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/28983fa8-5d1d-4bb5-977c-2fbe80fb0754",
       "source": "Math 221 8.1.13",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "146b757d-d6f9-42d8-803f-66234abeb871",
@@ -646,7 +403,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/146b757d-d6f9-42d8-803f-66234abeb871",
       "source": "Math 221 8.1.14",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "f258275e-9b23-45d1-85c2-3de9c0bcf7e9",
@@ -663,7 +420,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/f258275e-9b23-45d1-85c2-3de9c0bcf7e9",
       "source": "Math 221 8.1.15",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "20b7bf67-c172-4c9a-a0b3-1b15167d98d0",
@@ -680,7 +437,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/20b7bf67-c172-4c9a-a0b3-1b15167d98d0",
       "source": "Math 221 8.1.16",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "51198eef-57d9-46f7-8efd-4a38937a89aa",
@@ -697,7 +454,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/51198eef-57d9-46f7-8efd-4a38937a89aa",
       "source": "Math 221 8.1.17",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "e2419f46-9703-4616-b473-d98b07ee8a15",
@@ -714,7 +471,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/e2419f46-9703-4616-b473-d98b07ee8a15",
       "source": "Math 221 8.1.18",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "4fc99b65-3eab-4cec-9fc8-6d6197197c3d",
@@ -731,7 +488,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/4fc99b65-3eab-4cec-9fc8-6d6197197c3d",
       "source": "Math 221 8.1.19",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "54818cac-b015-47dd-a613-6f80855a8873",
@@ -748,7 +505,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/54818cac-b015-47dd-a613-6f80855a8873",
       "source": "Math 221 8.1.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "dd6dba02-033c-4c22-909a-329a2a2b87d3",
@@ -765,7 +522,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/dd6dba02-033c-4c22-909a-329a2a2b87d3",
       "source": "Math 221 8.1.21",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "1aef33cb-a314-4ef0-a264-6d741f1a1e48",
@@ -782,7 +539,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/1aef33cb-a314-4ef0-a264-6d741f1a1e48",
       "source": "Math 221 8.1.21",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "44fdd06c-2e7c-4fdd-b186-68037c9feb21",
@@ -799,7 +556,7 @@
       "tags": "derivatives, third derivative",
       "url": "/question/44fdd06c-2e7c-4fdd-b186-68037c9feb21",
       "source": "Math 221 4.4.1",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "b81842ff-856b-47a5-9478-ce64a6ad5cdb",
@@ -816,7 +573,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/b81842ff-856b-47a5-9478-ce64a6ad5cdb",
       "source": "Math 221 8.1.22",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "4d88a9fb-5ba4-4880-b472-aea078154f81",
@@ -833,7 +590,7 @@
       "tags": "functions, derivatives, third derivative",
       "url": "/question/4d88a9fb-5ba4-4880-b472-aea078154f81",
       "source": "Math 221 4.4.2",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "6b08686a-ab97-4228-842f-ae0be5758548",
@@ -850,7 +607,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/6b08686a-ab97-4228-842f-ae0be5758548",
       "source": "Math 221 8.1.23",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "ba0942c0-5387-4fa6-b06c-1975ce0f8b06",
@@ -867,7 +624,7 @@
       "tags": "derivatives, multiple derivative, functions, higher derivatives",
       "url": "/question/ba0942c0-5387-4fa6-b06c-1975ce0f8b06",
       "source": "Math 221 4.4.3",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
     },
     {
       "uuid": "13c3e219-94e0-4323-b78e-c58992a9de52",
@@ -884,7 +641,7 @@
       "tags": "derivatives, functions, third derivative",
       "url": "/question/13c3e219-94e0-4323-b78e-c58992a9de52",
       "source": "Math 221 4.4.4",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "1e424f63-ecae-4f0c-bd40-563f6d6bd393",
@@ -901,7 +658,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/1e424f63-ecae-4f0c-bd40-563f6d6bd393",
       "source": "Math 221 8.1.24",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "9bd5b5b6-ab2a-44d8-a442-d678e59543f3",
@@ -918,7 +675,160 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/9bd5b5b6-ab2a-44d8-a442-d678e59543f3",
       "source": "Math 221 8.1.25",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "9058ebc8-d1d5-44ff-ac0d-010f52bbeab4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Area",
+      "body": "The region above the \\(x\\)-axis and below the graph of \\(f(x) \u003d x^2-x^3\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
+      "url": "/question/9058ebc8-d1d5-44ff-ac0d-010f52bbeab4",
+      "source": "Math 221 8.1.26",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "7ffe5eee-0458-415e-8f90-9597fc59ffda",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Area",
+      "body": "The region above the \\(x\\)-axis and below the graph of \\(f(x) \u003d 4x^2-x^4\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
+      "url": "/question/7ffe5eee-0458-415e-8f90-9597fc59ffda",
+      "source": "Math 221 8.1.27",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "82cf9e18-51b4-4b75-b7f5-2898fa3ec04c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "(a) Find the 12\\(^{th}\\) derivative of the function f(x)\u003d\\(\\frac{1}{x+2}\\)\n(b) Find the n\\(^{th}\\) order derivative of f(x) \u003d \\(\\frac{1}{x+2}\\)\n(c) Find the n\\(^{th}\\) order derivative of g(x) \u003d \\(\\frac{x}{x+2}\\)",
+      "allAnswers": [],
+      "tags": "derivative, higher derivatives",
+      "url": "/question/82cf9e18-51b4-4b75-b7f5-2898fa3ec04c",
+      "source": "Math 221 4.4.5",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "3824651d-2501-4fdb-9df8-57a048b90cef",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Area",
+      "body": "The region above the \\(x\\)-axis and below the graph of \\(f(x) \u003d 1-x^4\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
+      "url": "/question/3824651d-2501-4fdb-9df8-57a048b90cef",
+      "source": "Math 221 8.1.28",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "f5f8d009-e4c5-483c-8497-06fa28c38349",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Area",
+      "body": "The region above the \\(x\\)-axis, below the graph of \\(f(x) \u003d \\sin x\\), and\n  between \\(x\u003d0\\) and \\(x\u003d\\pi\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
+      "url": "/question/f5f8d009-e4c5-483c-8497-06fa28c38349",
+      "source": "Math 221 8.1.29",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "1fdf9cf4-2ab2-4769-9f2e-e4e94e15e357",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "(a) Find dy/dx and d\\(^{2}\\)y/dx\\(^{2}\\) if y \u003d x/(x+2).\n(b) Find du/dt and d\\(^{2}\\)u/dt\\(^{2}\\) if u \u003d t/(t+2).\n(c) Find \\(\\frac{d}{dx}\\)(\\(\\frac{x}{x+2})\\) and \\(\\frac{d^{2}}{dx^{2}}(\\frac{x}{x+2})\\)\n(d) Find \\(\\frac{d}{dx} (\\frac{x}{x+2})|_{x\u003d1}\\) and \\(\\frac{d}{dx}(\\frac{1}{1+2})\\)",
+      "allAnswers": [],
+      "tags": "derivatives, higher derivatives",
+      "url": "/question/1fdf9cf4-2ab2-4769-9f2e-e4e94e15e357",
+      "source": "Math 221 4.4.6",
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
+    },
+    {
+      "uuid": "1df20b38-2c7b-4ba8-99c0-1633476e3a08",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Area",
+      "body": "The region above the \\(x\\)-axis, below the graph of \\(f(x) \u003d 1/(1+x^2)\\) (a\n  curve known as Maria Agnesi\u0027s witch, and between \\(x\u003d0\\) and\n  \\(x\u003d1\\).",
+      "allAnswers": [],
+      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
+      "url": "/question/1df20b38-2c7b-4ba8-99c0-1633476e3a08",
+      "source": "Math 221 8.1.30",
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
+    },
+    {
+      "uuid": "c139cf77-3758-4127-9b36-34dfcbbfcc47",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Find the derivatives of the following functions (try to simplify your answers)\nf(x) \u003d \\(\\sin(x)+\\cos(x)\\)",
+      "allAnswers": [],
+      "tags": "derivatives, functions, derivatives of trig",
+      "url": "/question/c139cf77-3758-4127-9b36-34dfcbbfcc47",
+      "source": "Math 221 4.4.7",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
+    },
+    {
+      "uuid": "89096dbf-b007-496c-92a8-1cfa00ad9a6c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787598,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "der",
+      "body": "Find the derivatives of the following functions (try to simplify your answers)\nf(x) \u003d 2\\(\\sin(x)-3\\cos(x)\\)",
+      "allAnswers": [],
+      "tags": "derivatives, functions, derivatives of trig",
+      "url": "/question/89096dbf-b007-496c-92a8-1cfa00ad9a6c",
+      "source": "Math 221 4.5.2",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     }
   ],
   "textContent": [
@@ -937,7 +847,7 @@
       "tags": "number, functions, intersection, union, real numbers, integers",
       "url": "/text-content/2c8e6949-7dbd-4580-89d4-5ba35f7c6ef0",
       "source": "Forgotten Text 6 1",
-      "topic": "Calculus/Pre-Calculus Review/Numbers and Functions/Numbers"
+      "topic": "35fe4382-2011-414d-b28a-0bae63d3c6aa"
     },
     {
       "uuid": "0117cd2f-1204-4993-9f70-1df102b737db",
@@ -954,7 +864,7 @@
       "tags": "tangent to curve, tangent line, derivatives",
       "url": "/text-content/0117cd2f-1204-4993-9f70-1df102b737db",
       "source": "Forgotten Text 6 2.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Tangent to curve"
+      "topic": "51e190ce-6bb5-4f25-b673-0ca517f7108d"
     },
     {
       "uuid": "75385364-5ba6-494a-b244-bbbddb66f449",
@@ -971,9 +881,126 @@
       "tags": "derivatives, instantaneous velocity, rate of change",
       "url": "/text-content/75385364-5ba6-494a-b244-bbbddb66f449",
       "source": "Forgotten Text 6 2.3",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Instantaneous velocity"
+      "topic": "79ce9447-5d1e-430e-8986-cb9b92a6ea46"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "3fe53b51-2944-40e7-a92e-bc51e7182d22",
+      "subTopics": [],
+      "parentTopics": [
+        "47f34d8b-fb7e-40bc-a7fd-78a5088ba916"
+      ],
+      "title": "Hooke\u0027s Law",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " hooke\\u0027s law, leibniz notation, chain rule,derivatives, product, rule, quotient, power, power rule, center of mass,centroid, region, finding the centroid, beam, finding the center of mass, density, height, axes, quadrant, lifting cable , bucket, distance,work, mass,center of mass, circle, x-axis,",
+      "difficulty": 645000,
+      "contentUuids": [
+        "30845f31-f9d8-4047-b4bf-df5fd4dd4045",
+        "d31ab0c1-164d-473b-a5e3-93f22a775ae7",
+        "d3283037-a41c-4430-8352-9abdcc38d5d6",
+        "ccecc26d-ceba-4aea-b282-692b613b3b7f",
+        "6dd3e5cf-7895-46ae-80f1-d32ffd92f54a",
+        "0e03d545-d961-4fc6-af9a-69bf2a3ac33d",
+        "3d9e4454-dbde-415f-9e12-6f86d676d648",
+        "6a5fe4f7-3d91-4e74-a0be-e4b2a3710395",
+        "6dfe30be-ea35-467f-b251-ce1476b53da9",
+        "7a18bc4d-823a-4dd2-900b-4d7961d48879",
+        "e2e33fce-e1d0-4fb4-b72b-574e450f230c",
+        "dcf82525-b52b-4b2a-b6db-5320b03fe6c5",
+        "31b20dda-bc73-4da4-a597-0f0a37cba1c8",
+        "d1f5aa6d-87cd-4024-bf3b-ddd415e9cd17",
+        "47829925-cd69-45ce-97e2-dd5b0ca60ccc",
+        "d57435d0-fcbd-48d3-8f52-79e859266c95",
+        "947e3994-7eb5-4563-b6bd-662b69fbe535",
+        "4d9ab7f4-e5d9-4a4e-afbf-687df7238422",
+        "5a5b8c08-f2ae-47e7-8781-e44a1f83a8ae",
+        "ad78ef07-6e9f-4ab0-87bb-0a1d0f95293e",
+        "b20c351d-51ca-494a-9b47-e1cfa5ad5c98",
+        "f85c24f9-8118-44f8-966f-a08c8a68d6a1",
+        "52830e64-c77b-4e08-a894-2cbb7d142bdc",
+        "d86e8e73-1b31-4124-8d24-a3ce4f33385e",
+        "7426ebd8-b2f2-402d-ab85-27c9b1ce8480",
+        "2d8cdeb6-47b2-44aa-8b9c-aa75178d8985",
+        "8b18a748-a593-4536-bf04-07afb1cd91c7",
+        "040ae168-7da8-4f9d-8dcb-e255c4845a37",
+        "026f02d6-fe68-445b-bec4-0e84bd61fce9",
+        "f60f20cf-2285-4f6b-9fea-c3757aed925c",
+        "cdc66605-ac61-43df-bc94-800b4b002b30",
+        "f5524db3-4891-47d3-9b77-d16e41ff785d",
+        "79486421-4e92-4e91-9c16-70e8db758118",
+        "e8fa5cea-3c35-4053-a7fa-59094dd5c7a0",
+        "a008910f-42a6-436c-a152-355b54577cff",
+        "2ba12d12-cf94-4820-9050-01bf470a5031",
+        "d9228f90-73a5-45e6-bc59-f48862d14d84",
+        "09663460-1001-42eb-a615-a1a1ceeeed87",
+        "2aba7e00-858d-466b-bf77-49febe7378d8",
+        "c149c615-66a4-4b79-b325-7a82d666451c",
+        "1f7b2a82-138a-4116-ab3d-110b03283d70",
+        "d044a5f5-16db-4aeb-912e-f52523341a40",
+        "a5913077-d762-4ca2-9d36-7fe66dc9f18d",
+        "8decf098-9b20-4fa9-bb57-ed3954cd0385",
+        "7a491049-3f3e-4df3-9d5a-5dd46e4982a2",
+        "e29bc891-0116-4370-bef7-9baab72ca617",
+        "8fe19006-2a20-40a8-b9f7-9c9ab30c70a9",
+        "bbe00f78-de94-4235-92d7-8e4a35c1f2f6",
+        "e167de91-ba50-4f31-989f-9763fe5b0dd5",
+        "b5e0148c-2560-4e52-88fd-9696df195682",
+        "c738aa42-9448-46c4-ac05-e281aaf7baa1",
+        "ec1b0c9a-825d-4918-822c-63e3e040fcfc",
+        "ac2c0795-a10a-4d79-9d45-a7b0c6f18897",
+        "bfd144dc-6690-42ef-abaa-6f1291ede346",
+        "048c38b2-0272-4f34-bc36-c2d461d15dcc",
+        "5673e2f8-3faf-40c0-8eb3-c95cce52fcc0",
+        "9e0059ac-c993-46d3-8423-902af71eb299",
+        "672b107e-324f-460c-9b4d-c3699c94fea1",
+        "ab7ddb30-3ab9-4785-9307-6514b89975a4",
+        "0eda41b6-15ba-4f4c-9d04-380b553de242",
+        "bc89f6ae-32fb-4a44-984f-8781d1536aa5",
+        "8030b171-e4d5-4ab1-8b24-5db152ade9a0",
+        "e65a0000-2e76-4683-bf98-9100293aff82",
+        "fe3d7bce-ea80-4cce-a61e-1399705ce340"
+      ]
+    },
+    {
+      "uuid": "6f578582-2311-43b2-87a4-048172a9f18b",
+      "subTopics": [],
+      "parentTopics": [
+        "d048488e-d45f-4311-a117-edefa591e0e1"
+      ],
+      "title": "Slant Height",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "surface area, x-axis, ellipsoid, rotated, ellipse, time, surface area, speed, y-axis, velocity, rotating graph, total distance,velocity,velocity function, function, torus, surface,area, area of a sphere, area,sphere, sketch, acceleration, Toricelli\\u0027s trumpet,acceleration, moves along straight line, net distance, infinite surface area, Gabriel\\u0027s horn, time interval, circle,",
+      "difficulty": 636000,
+      "contentUuids": [
+        "53cf4970-b264-43c4-8b81-b57bce9c08fe",
+        "4d6dc4f7-9611-4432-ab74-a3943bd77375",
+        "0acaa403-19d6-40b0-8fc3-65351dc5a3a5",
+        "18efdbbc-dfa0-4c9c-bbf5-2557c2363f95",
+        "852e90e0-710b-47a9-8547-d4bf44f07ef5",
+        "dc19422b-8a26-4b51-8ec9-09117677f97e",
+        "063a7138-50c9-4d98-89b1-ea8199b2eb0e",
+        "d0491ef7-8bb2-4bb4-bc78-a0211b5bcb78"
+      ]
+    },
+    {
+      "uuid": "4d3166cf-92b8-49cb-ad79-8c3198d64834",
+      "subTopics": [
+        "03b0e1a2-2605-4974-aded-1ecee3b7dbd3",
+        "bc3dfcab-62bb-4d5d-adf4-5f4aff18beaf"
+      ],
+      "parentTopics": [
+        "d9503ed8-98ca-4163-b483-9ac2c147ca67"
+      ],
+      "title": "Dividing Polynomials",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 21000,
+      "contentUuids": []
+    }
+  ]
 }

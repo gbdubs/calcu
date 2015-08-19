@@ -2,380 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(8\\pi\\) ,  \\(8\\pi\\) ",
-      "uuid": "9e41fcd2-1273-4ef8-9af4-4f1389a937cf",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/696.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/697.png\"/\u003e",
+      "uuid": "2e2982a6-7452-4971-b62f-f3d89ef8e265",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362137,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Surface Integrals",
-      "body": " Let  \\(\\omega \u003d xz dx + yz dy\\)  and  \\(H\\)  be the upper half of the (solid) ball of radius  \\(2\\)  centered at the origin.    Then  \\(\\int\\limits_H d\\ast \\omega\\)  \u003d _____ and  \\(\\int\\limits_{\\partial H} \\ast \\omega\\)  \u003d _____.",
+      "title": "Find the domain ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/695.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface integrals, surface integrals",
-      "url": "/practice-problem/9e41fcd2-1273-4ef8-9af4-4f1389a937cf",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Fundamental Theorem/Surface Integrals"
+      "tags": "domain, function domain, calc ",
+      "url": "/practice-problem/2e2982a6-7452-4971-b62f-f3d89ef8e265",
+      "source": "null 1.3.1 "
     },
     {
-      "authorSolution": " \\(\\pi\\) ",
-      "uuid": "380474e2-eb44-48b2-9b2f-c4f1dca9f8e6",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/714.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/715.png\"/\u003e",
+      "uuid": "b6e8cdbd-0ceb-4be0-b5d2-eb1500efccbf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362142,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Stokes\u0027 Theorem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d y^2z \\vec{ }i + xz \\vec{ }j + x^2y^2 \\vec{ }k\\)  and  \\(S\\)  be that portion of the paraboloid  \\(z \u003d x^2 + y^2\\)  which lies inside the cylinder  \\(x^2 + y^2 \u003d 1\\) .    Take  \\(S\\)  to be oriented inward.    Then the surface integral of (the normal component of) the vector field  \\(\\nabla \\times \\vec{ }F\\)  over the surface  \\(S\\)  is ___.",
+      "title": "show limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/713.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/380474e2-eb44-48b2-9b2f-c4f1dca9f8e6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "limits, calc ",
+      "url": "/practice-problem/b6e8cdbd-0ceb-4be0-b5d2-eb1500efccbf",
+      "source": "null 2.3.1"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "22eb472e-aeb4-4fcc-aa66-66ff52628e7c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/717.png\"/\u003e",
+      "uuid": "99c8b636-76d7-4a15-ae08-fd15dd1eb9f6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362142,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Stokes\u0027 Theorem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d z \\vec{ }i  +  x \\vec{ }j  +  y \\vec{ }k\\)  and  \\(H\\)  be the upper half of the unit sphere centered at the origin in \\(\\R^3\\) .",
+      "title": "prove limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/716.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/22eb472e-aeb4-4fcc-aa66-66ff52628e7c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "limit, proof, calc ",
+      "url": "/practice-problem/99c8b636-76d7-4a15-ae08-fd15dd1eb9f6",
+      "source": "null 2.3.2"
     },
     {
-      "authorSolution": " \\(\\pi\\) ",
-      "uuid": "b9f90da4-831d-4b69-9506-ad9c7aaa2972",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/721.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/722.png\"/\u003e",
+      "uuid": "c0c7ed4e-0a91-415e-abdd-d548827ed247",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362142,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Stokes\u0027 Theorem",
-      "body": " Repeat part (a), this time making use of \u003ci\u003eStokes\u0027 theorem\u003c/i\u003e.   Answer: ___.",
+      "title": "Compute limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/720.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/b9f90da4-831d-4b69-9506-ad9c7aaa2972",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "limits, computation, calc ",
+      "url": "/practice-problem/c0c7ed4e-0a91-415e-abdd-d548827ed247",
+      "source": "null 2.3.3"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "259c18a2-484e-44c1-8e65-c61588a0f82f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/724.png\"/\u003e",
+      "uuid": "c5315b4f-14b6-4d51-8c1f-42a5e7b7ba10",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362143,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Stokes\u0027 Theorem",
-      "body": " Let  \\(\\omega \u003d (x+y) dx + (y-x) dy + z^3 dz\\)  and  \\(S\\)  be the upper half of the unit sphere centered at the origin.    Then  \\(\\int\\limits_Sd\\omega\\)  \u003d ______.",
+      "title": "Limit computation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/723.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/259c18a2-484e-44c1-8e65-c61588a0f82f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "limit, computation, calc ",
+      "url": "/practice-problem/c5315b4f-14b6-4d51-8c1f-42a5e7b7ba10",
+      "source": "null 2.3.4"
     },
     {
-      "authorSolution": " \\(-288\\) ",
-      "uuid": "5c167d10-6f08-4e31-b5ae-a660245cff99",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/727.png\"/\u003e",
+      "uuid": "e17b7c9b-d63a-4b90-a876-604cde18227e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362143,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Stokes\u0027 Theorem Problem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d (e^x + \\arctan(y^2z^3)) \\vec{ }i + y^2z \\vec{ }j + z \\vec{ }k\\)  and  \\(S\\)  be that portion of the hemisphere  \\(x \u003d \\sqrt{9 - y^2 - z^2}\\)  which lies inside the cylinder  \\(y^2 + z^2 \u003d 4\\) .   Use \u003ci\u003eStokes\u0027 theorem\u003c/i\u003e to find the surface integral of (the normal component of) the curl of  \\(\\vec{ }F\\)  over the surface  \\(S\\) .   Answer:  \\(\\iint\\limits_S\\crl\\vec{ }F\\cdot d\\vec{ }S \u003d -a\\pi\\)  where  \\(a\\) \u003d___.",
+      "title": "Compute the limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/726.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/5c167d10-6f08-4e31-b5ae-a660245cff99",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "limit, computation, calc ",
+      "url": "/practice-problem/e17b7c9b-d63a-4b90-a876-604cde18227e",
+      "source": "null 2.3.5"
     },
     {
-      "authorSolution": " \\(-1\\) ,  \\(0\\) ,  \\(3\\) ",
-      "uuid": "153c8ffa-10c4-49dd-a652-3766058c9fab",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/730.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/731.png\"/\u003e",
+      "uuid": "b3d2da28-dc0a-4e3f-b4a2-79e743ae3fbb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362143,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Stokes\u0027 Theorem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d  z^2 \\vec{ }i + y^2 \\vec{ }j + xy \\vec{ }k\\)  and  \\(T\\)  be the triangular region whose vertices are  \\((1,0,0)\\) ,  \\((0,1,0)\\) , and  \\((0,0,2)\\) .   Then  \\(\\int\\limits_{\\partial T}\\vec{ }F \\cdot d\\vec{ }r \u003d \\frac a3\\)  where  \\(a\\) \u003d___.",
+      "title": "discuss limits",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/729.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/153c8ffa-10c4-49dd-a652-3766058c9fab",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "limits, calc ",
+      "url": "/practice-problem/b3d2da28-dc0a-4e3f-b4a2-79e743ae3fbb",
+      "source": "null 2.3.6"
     },
     {
-      "authorSolution": " \\(-\\pi\\) ",
-      "uuid": "ee549418-47cd-448d-bbe4-8e016a13d469",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/738.png\"/\u003e",
+      "uuid": "47fcf45e-68c0-4bf8-9aad-b8230f1a252c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362143,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Stokes\u0027 Theorem Problem",
-      "body": " Let  \\(\\omega \u003d (x^2 + y - 4) dx + 3xy dy + (2xz + z^2) dz\\)  and  \\(S\\)  be the surface  \\(x^2+y^2+z^2 \u003d 16\\) ,  \\(z \\ge 0\\) .    Then, using the \u003ci\u003egeneralized Stokes\u0027 theorem\u003c/i\u003e, we get  \\(\\int\\limits_Sd\\omega\\)  \u003d ________.",
+      "title": "Derivative of absolute value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/737.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/ee549418-47cd-448d-bbe4-8e016a13d469",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "derivative, absolute value, calc ",
+      "url": "/practice-problem/47fcf45e-68c0-4bf8-9aad-b8230f1a252c",
+      "source": "null 2.4.1"
     },
     {
-      "authorSolution": " \\(F^2_1\\) , normal component, curl, unit disk,  \\(xy\\) -plane, boundary, Stokes\u0027",
-      "uuid": "ff73a253-75e8-4cf9-b799-63298ed17c57",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/757.png\"/\u003e",
+      "uuid": "1fb62e1a-82b7-45ac-a155-aa0e5e3f575c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362143,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Stokes\u0027 Theorem",
-      "body": " Let  \\(\\omega \u003d 3y dx - xz dy + yz^2 dz\\)  and  \\(S\\)  be that portion of the surface  \\(2z \u003d x^2+y^2\\)  which lies below the plane  \\(z \u003d 2\\) .",
+      "title": "Compute derivative ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/756.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/ff73a253-75e8-4cf9-b799-63298ed17c57",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "quotient rule, derivative, calc ",
+      "url": "/practice-problem/1fb62e1a-82b7-45ac-a155-aa0e5e3f575c",
+      "source": "null 3.5.1"
     },
     {
-      "authorSolution": " \\(8\\) ",
-      "uuid": "80ec22d3-e97c-456a-97d8-127ae1f42f17",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/759.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/760.png\"/\u003e",
+      "uuid": "62c9380a-3e34-4046-89f0-9a03b791c0e1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362143,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Stokes\u0027 Theorem Practice",
-      "body": "  \u003ci\u003eWithout\u003c/i\u003e using any form of \u003ci\u003eStokes\u0027 theorem\u003c/i\u003e, we find that  \\(\\int\\limits_Sd\\omega\\)  \u003d ________.",
+      "title": "Computation of derivative ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/758.png\"/\u003e",
       "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/80ec22d3-e97c-456a-97d8-127ae1f42f17",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
-    },
-    {
-      "authorSolution": " \\(12\\) ",
-      "uuid": "8881cd2b-ea09-4329-b302-b63494220c33",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362143,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Stokes\u0027 Theorem Problem",
-      "body": " Let  \\(\\omega \u003d \\dfrac{x^2+y^2}y dx + \\dfrac y{x^2 + y^2} dy + xy^2 dz\\)  and  \\(S\\)  be the surface  \\(x^2+y^2+z^2 \u003d 1\\) ,  \\(z \\ge 0\\) .   Then  \\(\\int\\limits_Sd\\omega\\)  \u003d ______.",
-      "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/8881cd2b-ea09-4329-b302-b63494220c33",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "cc984228-309e-4799-a909-98a37b055dc2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362144,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Stokes\u0027 Theorem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x^3 \\vec{ }i + 2xz^2 \\vec{ }j + 3y^2z \\vec{ }k\\)  and  \\(V\\)  be the solid region bounded by the paraboloid  \\(z \u003d 4 - x^2 - y^2\\)  and the  \\(xy\\) -plane.   Use the \u003ci\u003edivergence theorem\u003c/i\u003e to find the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over  \\(\\partial V\\) .      Answer: \\smash[b]{ \\(\\D\\iint\\limits_{\\partial V} \\vec{ }F \\cdot d\\vec{ }S \u003d a\\pi\\) } where  \\(a\\) \u003d_____.",
-      "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/cc984228-309e-4799-a909-98a37b055dc2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
-    },
-    {
-      "authorSolution": " \\(3\\) ",
-      "uuid": "99947fe2-1f58-4441-85a0-2afcabe2ebdb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362144,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Stokes\u0027 Theorem Practice",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d  y \\vec{ }i + z \\vec{ }j + xz \\vec{ }k\\)  and  \\(V\\)  be the solid region consisting of the set of all points  \\((x,y,z)\\)  such that  \\(x^2 + y^2 \\le z \\le 1\\)  and  \\(x \\ge 0\\) .    Then  \\(\\D\\iint\\limits_{\\partial V}\\vec{ }F \\cdot d\\vec{ }S \u003d \\frac a{15}\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/99947fe2-1f58-4441-85a0-2afcabe2ebdb",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
-    },
-    {
-      "authorSolution": " \\(12\\) ",
-      "uuid": "3c611c4f-2820-455e-94ee-6f17c077b3b7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362144,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Stokes\u0027 Theorem",
-      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x^2y \\vec{ }i - x^2z \\vec{ }j + yz^2 \\vec{ }k\\)  and  \\(R\\)  be the rectangular box  \\([0,3] \\times [0,2] \\times [0,1]\\) .   Use the \u003ci\u003edivergence theorem\u003c/i\u003e to find the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the boundary of the box.    Answer:  \\(\\D\\iint\\limits_{\\partial R} \\vec{ }F \\cdot d\\vec{ }S\\) \u003d_____.",
-      "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/3c611c4f-2820-455e-94ee-6f17c077b3b7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
-    },
-    {
-      "authorSolution": " \\(\\pi\\) ",
-      "uuid": "32a8fe99-2973-4c3e-b826-1bd0413c4252",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362144,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Stokes\u0027 Theorem",
-      "body": "[]  \\(S_1\\)  be the face of the cube lying in the  \\(xy\\) -plane,",
-      "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/32a8fe99-2973-4c3e-b826-1bd0413c4252",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "022ddf7c-f251-43ea-995a-501f243952e5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362144,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Stokes\u0027 Theorem Practice",
-      "body": "[]  \\(S_3\\)  be the face of the cube lying in the plane  \\(x \u003d 1\\) ,",
-      "allAnswers": [],
-      "tags": "stokes\u0027 theorem,",
-      "url": "/practice-problem/022ddf7c-f251-43ea-995a-501f243952e5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Advanced Topics/Fundamental Theorem/Stokes\u0027 Theorem"
+      "tags": "quotient rule, derivative, calc ",
+      "url": "/practice-problem/62c9380a-3e34-4046-89f0-9a03b791c0e1",
+      "source": "null 3.5.2"
     }
   ],
   "questions": [
-    {
-      "uuid": "f1c0aa69-6cf9-48cd-b4a3-911daeb8551a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(b)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits",
-      "url": "/question/f1c0aa69-6cf9-48cd-b4a3-911daeb8551a",
-      "source": "AP Calculus Problems 1.10.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "c7252e42-5fe4-4e70-8a9b-da2aedb9dd56",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits",
-      "body": "Refer to the graph of \\(R(x)\\) to evaluate the following.\n\\(R(d)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20465.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits",
-      "url": "/question/c7252e42-5fe4-4e70-8a9b-da2aedb9dd56",
-      "source": "AP Calculus Problems 1.10.16",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "74a4577b-92e2-4e50-bb83-2dd78351c9d1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Under the Curve",
-      "body": "Find the area under the curve over the given interval. \n\n\\(y\u003d\\csc(2x)\\cot(2x)\\) \\([\\frac{\\pi}{12}, \\frac{\\pi}{4}]\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
-      "url": "/question/74a4577b-92e2-4e50-bb83-2dd78351c9d1",
-      "source": "AP Calculus Problems 6.1.140",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
-    },
-    {
-      "uuid": "590f0099-0203-4ab6-9ae5-0c1d99215055",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Average Rate of Change",
-      "body": "Find a formula for the average rate of change of the area of a circle as its radius \\(r\\) changes from \\(3\\) to some number \\(x\\).  Then determine the average rate of change of the area of a circle as the radius \\(r\\) changes from \n a) \\(3\\) to \\(3.5\\) \\hspace*{\\fill} b) \\(3\\) to \\(3.2\\) \\hspace*{\\fill} c) \\(3\\) to \\(3.1\\) \\hspace*{\\fill} d) \\(3\\) to \\(3.01\\)\n  ",
-      "allAnswers": [],
-      "tags": "average rate of change, area of circle, radius",
-      "url": "/question/590f0099-0203-4ab6-9ae5-0c1d99215055",
-      "source": "AP Calculus Problems 1.11.1",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
-    },
-    {
-      "uuid": "eab780ac-51e3-4742-b635-90bd5371a037",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\frac{1}{x+1}\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
-      "url": "/question/eab780ac-51e3-4742-b635-90bd5371a037",
-      "source": "AP Calculus Problems 6.1.141",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
-    },
     {
       "uuid": "f9b5dd23-4563-44c7-bccf-708e066b892a",
       "contentType": "question",
@@ -391,7 +188,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/f9b5dd23-4563-44c7-bccf-708e066b892a",
       "source": "AP Calculus Problems 6.1.142",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "490aa58f-6d9e-43c8-b39c-0b46f72ee202",
@@ -408,7 +205,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/490aa58f-6d9e-43c8-b39c-0b46f72ee202",
       "source": "AP Calculus Problems 6.1.143",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "53e32309-07c0-4005-ac2b-90af7803c096",
@@ -425,7 +222,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/53e32309-07c0-4005-ac2b-90af7803c096",
       "source": "AP Calculus Problems 6.1.144",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "d5915936-54dd-4f2f-b399-90376fd1c0b3",
@@ -442,7 +239,7 @@
       "tags": "average rate of change, volume, volume of cube",
       "url": "/question/d5915936-54dd-4f2f-b399-90376fd1c0b3",
       "source": "AP Calculus Problems 1.11.2",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "35ad4fae-dfe1-48b1-b5c9-982e2083cc49",
@@ -459,7 +256,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/35ad4fae-dfe1-48b1-b5c9-982e2083cc49",
       "source": "AP Calculus Problems 6.1.145",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "a8412eaf-c1cb-4b1c-9c37-f2bfeeaef32c",
@@ -476,7 +273,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/a8412eaf-c1cb-4b1c-9c37-f2bfeeaef32c",
       "source": "AP Calculus Problems 6.1.146",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "b7d28000-dceb-415c-8b42-2615779d6576",
@@ -493,7 +290,7 @@
       "tags": "average rate of change",
       "url": "/question/b7d28000-dceb-415c-8b42-2615779d6576",
       "source": "AP Calculus Problems 1.11.3",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "ff75568f-f3d3-4d70-968d-609b1c1c1ae1",
@@ -510,7 +307,7 @@
       "tags": "average rate of change, functions",
       "url": "/question/ff75568f-f3d3-4d70-968d-609b1c1c1ae1",
       "source": "AP Calculus Problems 1.11.4",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "6b6d5fc9-ae79-47b6-a6c8-dbaee1162ffd",
@@ -527,7 +324,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/6b6d5fc9-ae79-47b6-a6c8-dbaee1162ffd",
       "source": "AP Calculus Problems 6.1.147",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "9f78cfd6-8477-490d-996d-022627b40d7e",
@@ -544,7 +341,7 @@
       "tags": "average rate of change, functions",
       "url": "/question/9f78cfd6-8477-490d-996d-022627b40d7e",
       "source": "AP Calculus Problems 1.11.5",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "ab5b109f-c700-4a4e-a06e-51231fbac45b",
@@ -561,7 +358,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/ab5b109f-c700-4a4e-a06e-51231fbac45b",
       "source": "AP Calculus Problems 6.1.148",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "7afea201-7910-48ed-82e1-9494b082a1da",
@@ -578,7 +375,7 @@
       "tags": "average rate of change, functions",
       "url": "/question/7afea201-7910-48ed-82e1-9494b082a1da",
       "source": "AP Calculus Problems 1.11.6",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "4fec1ea3-2d77-448c-8e7c-bc76ae4b0a73",
@@ -595,7 +392,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/4fec1ea3-2d77-448c-8e7c-bc76ae4b0a73",
       "source": "AP Calculus Problems 6.1.149",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "5cfea273-fe2e-488e-af02-0e7d21b8a694",
@@ -612,7 +409,7 @@
       "tags": "average rate of change, functions",
       "url": "/question/5cfea273-fe2e-488e-af02-0e7d21b8a694",
       "source": "AP Calculus Problems 1.11.7",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "3b262a96-a8d8-45ff-b81d-de31fd2f80a5",
@@ -629,7 +426,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/3b262a96-a8d8-45ff-b81d-de31fd2f80a5",
       "source": "AP Calculus Problems 6.1.150",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "cc6d5c72-05b3-4a87-95e4-11cd09d2e259",
@@ -663,7 +460,7 @@
       "tags": "average rate of change, functions",
       "url": "/question/5207668c-4015-4a72-98a3-47b43c5897b3",
       "source": "AP Calculus Problems 1.11.8",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "00a8cc7c-5f66-4e2e-b614-6b79bb03f42c",
@@ -680,7 +477,7 @@
       "tags": "average rate of change, functions",
       "url": "/question/00a8cc7c-5f66-4e2e-b614-6b79bb03f42c",
       "source": "AP Calculus Problems 1.11.9",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "6a7ebac3-c441-45f0-a9be-127348e1dd09",
@@ -697,7 +494,7 @@
       "tags": "exponential functions, logarithmic functions, functions",
       "url": "/question/6a7ebac3-c441-45f0-a9be-127348e1dd09",
       "source": "AP Calculus Problems 1.12.1",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "2e1db223-454e-4956-b551-4fe66eea22af",
@@ -714,7 +511,7 @@
       "tags": "exponential functions, logarithmic functions, functions",
       "url": "/question/2e1db223-454e-4956-b551-4fe66eea22af",
       "source": "AP Calculus Problems 1.12.2",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "57fc9836-5e07-479c-908c-3d3dbdec9aac",
@@ -731,7 +528,7 @@
       "tags": "exponential functions, logarithmic functions, functions",
       "url": "/question/57fc9836-5e07-479c-908c-3d3dbdec9aac",
       "source": "AP Calculus Problems 1.12.3",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "750ffc95-f6e1-43f0-8ceb-1345d6f0daf7",
@@ -748,7 +545,7 @@
       "tags": "exponential functions, logarithmic functions, functions",
       "url": "/question/750ffc95-f6e1-43f0-8ceb-1345d6f0daf7",
       "source": "AP Calculus Problems 1.12.4",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "238946f9-cabf-456b-a6c7-adec103dc574",
@@ -765,7 +562,7 @@
       "tags": "exponential functions, logarithmic functions, functions",
       "url": "/question/238946f9-cabf-456b-a6c7-adec103dc574",
       "source": "AP Calculus Problems 1.12.5",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "00ddefa5-0011-4d3f-a65c-0512ec6835bf",
@@ -782,7 +579,7 @@
       "tags": "exponential functions, logarithmic functions, functions",
       "url": "/question/00ddefa5-0011-4d3f-a65c-0512ec6835bf",
       "source": "AP Calculus Problems 1.12.6",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "732479f8-21dc-44e1-a801-bcd3464e5a5b",
@@ -799,7 +596,7 @@
       "tags": "exponential functions, logarithmic functions, functions, domain, y-intercept",
       "url": "/question/732479f8-21dc-44e1-a801-bcd3464e5a5b",
       "source": "AP Calculus Problems 1.12.7",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "939873d8-7c52-4629-9c28-41fada0d3bdf",
@@ -816,7 +613,7 @@
       "tags": "exponential functions, logarithmic functions, functions, domain, y-intercepts",
       "url": "/question/939873d8-7c52-4629-9c28-41fada0d3bdf",
       "source": "AP Calculus Problems 1.12.8",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "1860ce2a-f4ab-43fc-a524-8cee59565823",
@@ -833,7 +630,7 @@
       "tags": "exponential functions, logarithmic functions, functions, domain,  y-intercept ",
       "url": "/question/1860ce2a-f4ab-43fc-a524-8cee59565823",
       "source": "AP Calculus Problems 1.12.9",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "77d993b5-ae0b-41cc-97a7-a989bfbd77f8",
@@ -850,7 +647,7 @@
       "tags": "exponential functions, logarithmic functions, functions, domain, y-intercepts",
       "url": "/question/77d993b5-ae0b-41cc-97a7-a989bfbd77f8",
       "source": "AP Calculus Problems 1.12.10",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "12193b23-a950-4718-8b05-c87c52ee68f1",
@@ -867,7 +664,7 @@
       "tags": "exponential functions, logarithmic functions, domain, y-intercepts, functions",
       "url": "/question/12193b23-a950-4718-8b05-c87c52ee68f1",
       "source": "AP Calculus Problems 1.12.11",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "07b0956a-a0a9-450f-b7b7-6248c90bd2c3",
@@ -884,7 +681,7 @@
       "tags": "exponential functions, logarithmic functions, domain, y-intercepts, functions",
       "url": "/question/07b0956a-a0a9-450f-b7b7-6248c90bd2c3",
       "source": "AP Calculus Problems 1.12.12",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Functions/Power Rule"
+      "topic": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286"
     },
     {
       "uuid": "8bad0c96-9bb9-4b72-b057-71d0d015f62e",
@@ -896,12 +693,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Average Rate of Change",
-      "body": "The position \\(p(t)\\) is given by the graph at the right.\n   a) Find the average velocity of the object between times \\(t\u003d1\\) and \\(t\u003d4\\).\n  b) Find the equation of the secant line of \\(p(t)\\) between times \\(t\u003d1\\) and \\(t\u003d4\\).\n   c) For what times \\(t\\) is the object\u0027s velocity positive?  For what times is it negative?\n \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20466.png\"/\u003e",
+      "body": "The position \\(p(t)\\) is given by the graph at the right.\n   a) Find the average velocity of the object between times \\(t\u003d1\\) and \\(t\u003d4\\).\n  b) Find the equation of the secant line of \\(p(t)\\) between times \\(t\u003d1\\) and \\(t\u003d4\\).\n   c) For what times \\(t\\) is the object\u0027s velocity positive?  For what times is it negative?\n \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20466.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "average rate of change, position, average velocity, velocity ",
       "url": "/question/8bad0c96-9bb9-4b72-b057-71d0d015f62e",
       "source": "AP Calculus Problems 1.13.1",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
     },
     {
       "uuid": "5788764e-bba6-4984-92d6-033de287d633",
@@ -918,7 +715,92 @@
       "tags": "average rate of change, functions",
       "url": "/question/5788764e-bba6-4984-92d6-033de287d633",
       "source": "AP Calculus Problems 1.13.2",
-      "topic": "Pre-Calculus/Algebra Review/Slope-Intercept Form"
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
+    },
+    {
+      "uuid": "84616cdc-2396-4f1c-9418-59817930139a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Average Rate of Change",
+      "body": "The position \\(p(t)\\), in meters, of an object at time \\(t\\), in seconds, along a line is given by \\(p(t)\u003d3t^2+1\\).\n   a) Find the change in position between times \\(t\u003d1\\) and \\(t\u003d3\\).\n   b) Find the average velocity of the object between times \\(t\u003d1\\) and \\(t\u003d4\\).\n   c) Find the average velocity of the object between any time \\(t\\) and another time \\(t+\\Delta t\\).\n ",
+      "allAnswers": [],
+      "tags": "average rate of change, average velocity, velocity",
+      "url": "/question/84616cdc-2396-4f1c-9418-59817930139a",
+      "source": "AP Calculus Problems 1.13.3",
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
+    },
+    {
+      "uuid": "02552771-6640-4b97-aee4-2a7c84767b35",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(F(x)\u003d\\dint_1^x \\frac{1}{t}\\ dt\\)",
+      "allAnswers": [],
+      "tags": "derivative, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/02552771-6640-4b97-aee4-2a7c84767b35",
+      "source": "AP Calculus Problems 4.2.1",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "568d738b-afa6-4be1-93fb-37834b6d6c86",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(F(x)\u003d\\dint_0^x \\tan t\\ dt\\)",
+      "allAnswers": [],
+      "tags": "derivative, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/568d738b-afa6-4be1-93fb-37834b6d6c86",
+      "source": "AP Calculus Problems 4.2.2",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "0a11f03f-0fe2-438c-a4e9-68fbcf05f17c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Average Rate of Change",
+      "body": " Let \\(f(x)\u003dx^2+x-2\\).\n   a) Find the average rate of change of \\(f(x)\\) between times \\(x\u003d-1\\) and \\(x\u003d2\\).\n   b) Draw the graph of \\(f\\) and the graph of the secant line through \\((-1, -2)\\) and \\((2, 4)\\).\n   c) Find the slope of the secant line graphed in part b) and then find an equation of this secant line.\n   d) Find the average rate of change of \\(f(x)\\) between any point \\(x\\) and another point \\(x+\\Delta x\\).",
+      "allAnswers": [],
+      "tags": "average rate of change, slope, secant line",
+      "url": "/question/0a11f03f-0fe2-438c-a4e9-68fbcf05f17c",
+      "source": "AP Calculus Problems 1.13.4",
+      "topic": "783b1c2a-5f94-4ca2-b690-e74419633196"
+    },
+    {
+      "uuid": "fdc66c55-ecf5-4187-89b8-94da45ccc9d4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(F(x)\u003d\\dint_x^{3x} \\frac{1}{t}\\ dt\\)",
+      "allAnswers": [],
+      "tags": "derivative, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/fdc66c55-ecf5-4187-89b8-94da45ccc9d4",
+      "source": "AP Calculus Problems 4.2.3",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     }
   ],
   "textContent": [
@@ -937,7 +819,7 @@
       "tags": "complex numbers, complex exponential functions, Euler\u0027s formula, taylor series, chain rule",
       "url": "/text-content/087cfc1e-6eea-402c-8ab9-28d29401ff0e",
       "source": "Forgotten Text 7 3.28",
-      "topic": "Calculus/Other Calculus Topics/Complex Numbers/Complex Exponential Function"
+      "topic": "52a2ec66-4b61-4a5a-ac81-c735e33c2229"
     },
     {
       "uuid": "58218c7c-074b-40e8-8b24-44f387007704",
@@ -954,7 +836,7 @@
       "tags": "complex roots, complex numbers, partial fractions, trigonometric integrals, exponential integrals, complex amplitudes",
       "url": "/text-content/58218c7c-074b-40e8-8b24-44f387007704",
       "source": "Forgotten Text 7 3.29",
-      "topic": "Calculus/Other Calculus Topics/Complex Numbers/Polynomial Equations"
+      "topic": "dbc8f260-018c-4295-bac8-4f1c0c0ab4a3"
     },
     {
       "uuid": "c3e43a38-7dc6-456e-82e9-bba478b1d2b7",
@@ -971,9 +853,83 @@
       "tags": "differential equations, linear differential equation, homogeneous linear, inhomogeneous linear, separable differential equation",
       "url": "/text-content/c3e43a38-7dc6-456e-82e9-bba478b1d2b7",
       "source": "Forgotten Text 7 4.32",
-      "topic": "Calculus/Other Calculus Topics/Differential Equations/Introduction"
+      "topic": "aa401f73-5eb0-40e7-9b4e-1b26f557bcd9"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "210ea35f-de5e-4610-bd8b-ee280a29f07f",
+      "subTopics": [],
+      "parentTopics": [
+        "f69bc978-bb85-4e98-bcd5-a4aff0e10442"
+      ],
+      "title": "Change of Variables",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "onto (\\u003d surjective) ,Jacobian,one-to-one (\\u003d injective) ,Jacobian matrix , change of coordinates ,change of variables in an integral, word problem,",
+      "difficulty": 600000,
+      "contentUuids": [
+        "b89d9fab-6ef7-4958-bc8f-2d194ff47dae",
+        "2bbe236c-ffa8-4eab-a02b-7765c739b1de",
+        "fe0e7e7a-5523-4e97-b033-21abf8864605",
+        "c8198381-e12b-4474-a47c-039baa917c4b",
+        "7ac01bb3-39c0-4824-b912-1e92633139a7",
+        "b01d031a-25ac-47a5-b508-3eecebc9ebb2",
+        "11ed76c0-54ba-44c7-bd52-975239477709",
+        "7bf3bbd5-9473-40f6-b27a-bc9b4c5ea3f6",
+        "3ba0d772-cb07-4261-8389-3ceac5a663f6",
+        "181439b5-b2aa-4b25-b8e9-26bcdb75183d",
+        "4d994d30-e202-4f62-8a71-ea42d4ea1e2a",
+        "471e75cc-6c71-4423-a9fd-100168e85604",
+        "90757bce-258a-42f1-86ee-8e5b13982c91",
+        "9dc334e9-79a5-492e-a32b-94840f57ab2c",
+        "62eed8b6-f493-47b3-b14c-4466e625d2af",
+        "4d74bd74-a56b-46a5-90c7-7778e72b5d83",
+        "473ca9cb-4aab-4449-a618-e9ed7cc108c7",
+        "e0271eb5-58f2-436c-b9b7-e4b6a0b3b89a",
+        "3d0a6b97-033e-4f7c-9799-d96c6e9ee64c",
+        "c174696a-0172-4c69-a265-45bc4340ae31"
+      ]
+    },
+    {
+      "uuid": "d048488e-d45f-4311-a117-edefa591e0e1",
+      "subTopics": [
+        "6f578582-2311-43b2-87a4-048172a9f18b",
+        "987f0858-44db-46cb-b87b-a5c431989e1f"
+      ],
+      "parentTopics": [
+        "a3cc54b5-6ba1-423f-8295-2288afbb3232"
+      ],
+      "title": "Frustum of a Cone",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    },
+    {
+      "uuid": "896fd914-ffe4-48e2-a3bb-2ed550a0387e",
+      "subTopics": [],
+      "parentTopics": [
+        "92f020e0-d5be-46bc-9509-ace146405f43"
+      ],
+      "title": "Volume",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "volume, surface area, radius, application of integrals, sphere, cube, area, sine curve, decreasing, related rates, cylinder, derivative , derivative, line,",
+      "difficulty": 292000,
+      "contentUuids": [
+        "40a22c80-9706-44d2-881a-80d9173e53da",
+        "708c4dc8-09af-4935-85af-11e8da40a98c",
+        "bb1af3bd-0e59-4cc3-95da-c760ba63b4bb",
+        "5459c73b-5f4f-435e-8fc9-c9e2074ae108",
+        "c163597f-3fca-41de-bb6f-d7277e90b7d8",
+        "ef539902-54a1-43a5-89be-7145a0c01e2a",
+        "29ccd13a-73ef-403a-a0a8-88543c9faaa6",
+        "f8a0ab32-96bd-4b9f-9819-d0cea75b7a94",
+        "2b435098-80ea-44bf-b995-abde030243a9"
+      ]
+    }
+  ]
 }

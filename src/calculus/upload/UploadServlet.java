@@ -21,7 +21,7 @@ public class UploadServlet extends HttpServlet{
 	
 	private static final boolean TEST_MODE = false;
 	private static final int TEST_UPLOADS = 1;
-	private static final int DIGESTABLE_UPLOADS = 151;
+	private static final int DIGESTABLE_UPLOADS = 256;
 	
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		

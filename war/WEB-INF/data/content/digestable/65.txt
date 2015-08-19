@@ -2,466 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{C}(xy+ix^{2})dz,C\u003dz(t)\u003dt+it^{2},0\\leq t\\leq 1\\, \\) . \u003c/p\u003e\n\u003cp\u003eWe have \\( dz\u003d(1+2ti)dt,x\u003dt,y\u003dt^{2}\\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\int _{0}^{1}(t^{3}+it^{2})(1+2ti)dt\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\int _{0}^{1}t^{3}+2it^{4}+it^{2}-2t^{3}\\,dt\u003d{\\frac {-1}{4}}+i{\\frac {11}{15}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "b7e79559-2a3f-46ed-95c7-ef824d2bbdd5",
+      "authorSolution": "[ , )",
+      "uuid": "d2f398ae-2f09-441a-91fe-74a5b973b7e0",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166247,
+      "creatorUserId": "",
+      "createdAt": 1437419361964,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{C}(xy+ix^{2})dz,C\u003dz(t)\u003dt+it^{2},0\\leq t\\leq 1\\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/b7e79559-2a3f-46ed-95c7-ef824d2bbdd5",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Power Series Question",
+      "body": " The interval of convergence of the power series  \\(\\sum_{n\u003d1}^\\infty \\frac{x^n}n\\)  is  \\(_ -1  ,  1 _\\) .",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/d2f398ae-2f09-441a-91fe-74a5b973b7e0",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e\u003ca href\u003d\"http://ettaelt.strefa.pl/news-543.html\" rel\u003d\"nofollow\"\u003eroger steffens movie\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20081224-spanish-fly-movie.htm\" rel\u003d\"nofollow\"\u003espanish fly movie\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1006126016.html\" rel\u003d\"nofollow\"\u003emovie cinemas in melbourne\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20081224-pert-serial-task.html\" rel\u003d\"nofollow\"\u003epert serial task\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/zarnor.html\" rel\u003d\"nofollow\"\u003eknox keene license\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-1988.html\" rel\u003d\"nofollow\"\u003elagoon movies minneapolis\u003c/a\u003e \u003ca href\u003d\"http://sematild.qsh.eu/resource1810.htm\" rel\u003d\"nofollow\"\u003emovie time travel\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-1848.htm\" rel\u003d\"nofollow\"\u003ejohn ford western movie\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/1427.html\" rel\u003d\"nofollow\"\u003eamerican chopper video game demo\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/getzelm.htm\" rel\u003d\"nofollow\"\u003esoftware digital video recorder\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/comment-1246.htm\" rel\u003d\"nofollow\"\u003eseminole towne center movies\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081109-logging-video.html\" rel\u003d\"nofollow\"\u003elogging video clips\u003c/a\u003e \u003ca href\u003d\"http://brc4tdro.is-the-boss.com/page406.html\" rel\u003d\"nofollow\"\u003eno disc crack\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/article927.htm\" rel\u003d\"nofollow\"\u003epa driver license picture\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/sitemap.html\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page937.html\" rel\u003d\"nofollow\"\u003eoompa loompa movie clips\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-667.htm\" rel\u003d\"nofollow\"\u003emgm midnight movie\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/pinnacle-studio.html\" rel\u003d\"nofollow\"\u003epinnacle studio moviebox deluxe version 9 review\u003c/a\u003e \u003ca href\u003d\"http://licawol.strefa.pl/resource966.htm\" rel\u003d\"nofollow\"\u003ekirsten dunce movies\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2008-12-30-rotten-movies.html\" rel\u003d\"nofollow\"\u003erotten movies\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/comment-1610.htm\" rel\u003d\"nofollow\"\u003emovie spawn action figure review\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article488.html\" rel\u003d\"nofollow\"\u003eadobe pagemaker 7 serial number\u003c/a\u003e \u003ca href\u003d\"http://indronrol.is-the-boss.com/zarboc.html\" rel\u003d\"nofollow\"\u003eathenian democracy\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new229.htm\" rel\u003d\"nofollow\"\u003easian free porn sample video\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page393.html\" rel\u003d\"nofollow\"\u003eclip dance free jazz video\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/zlirel.html\" rel\u003d\"nofollow\"\u003eremove terminal services licensing\u003c/a\u003e \u003ca href\u003d\"http://licawol.strefa.pl/resource87.htm\" rel\u003d\"nofollow\"\u003eass licking video clip\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-55.htm\" rel\u003d\"nofollow\"\u003espongebob squarepants the movie game for x box cheat\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/fevfevo-1065.html\" rel\u003d\"nofollow\"\u003epenny porsche movie\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081120-stupid-video-website.htm\" rel\u003d\"nofollow\"\u003estupid video website\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-247.html\" rel\u003d\"nofollow\"\u003elost in transition movie\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new328.htm\" rel\u003d\"nofollow\"\u003emeg ryan and nicolas cage movie\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/fiquas.html\" rel\u003d\"nofollow\"\u003eedward scissorhands soundtrack torrent\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article734.htm\" rel\u003d\"nofollow\"\u003epixy zap helicopter video\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/samurai-movie-reviews.html\" rel\u003d\"nofollow\"\u003esamurai movie reviews\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-1753.html\" rel\u003d\"nofollow\"\u003einside man movie screener\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/nigga-please-cereal.html\" rel\u003d\"nofollow\"\u003enigga please cereal video\u003c/a\u003e \u003ca href\u003d\"http://sakonze.qsh.eu/darmoncp-1531.html\" rel\u003d\"nofollow\"\u003ekaviar video\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/fuzfevchi-1924.html\" rel\u003d\"nofollow\"\u003esaddest song in the world movie\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003emap\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20081223-avi-to-dvd-serialz.html\" rel\u003d\"nofollow\"\u003eavi to dvd serialz\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20081226-end-game-the.htm\" rel\u003d\"nofollow\"\u003eend game the movie\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/oudarc.htm\" rel\u003d\"nofollow\"\u003eken park movie pictures\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/1231.html\" rel\u003d\"nofollow\"\u003eo by omarion music video\u003c/a\u003e \u003ca href\u003d\"http://chifire.strefa.pl/news-1570.html\" rel\u003d\"nofollow\"\u003emyspace music video\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-1868.htm\" rel\u003d\"nofollow\"\u003emovies.yahoo.com site\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/comextro.html\" rel\u003d\"nofollow\"\u003erespiratory system online\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1037293359.html\" rel\u003d\"nofollow\"\u003ele toya video\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article1705.html\" rel\u003d\"nofollow\"\u003epix and videos\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/sitemap.htm\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://faquafav.is-the-boss.com/text-19.htm\" rel\u003d\"nofollow\"\u003epc tools registry mechanic crack\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/426.html\" rel\u003d\"nofollow\"\u003enorthwoods movie theater san antonio texas\u003c/a\u003e \u003ca href\u003d\"http://sakonze.qsh.eu/oloetsae-21.html\" rel\u003d\"nofollow\"\u003elife movie waking\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/sitemap.htm\" rel\u003d\"nofollow\"\u003eindex\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/article682.htm\" rel\u003d\"nofollow\"\u003emp3 audio mixer serial number\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/seal-beach-movie.html\" rel\u003d\"nofollow\"\u003eseal beach movie theatre\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20081230-pa-department.html\" rel\u003d\"nofollow\"\u003epa department of licensing\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1804.htm\" rel\u003d\"nofollow\"\u003emake a movie for free\u003c/a\u003e \u003ca href\u003d\"http://hencnac4t.is-the-boss.com/news-east-carolina-2009-01-02.html\" rel\u003d\"nofollow\"\u003eeast carolina pirates football\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1558.htm\" rel\u003d\"nofollow\"\u003emembers.videosz.com passwords\u003c/a\u003e \u003ca href\u003d\"http://sakonze.qsh.eu/plcrol-641.html\" rel\u003d\"nofollow\"\u003epowervideo\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-754.htm\" rel\u003d\"nofollow\"\u003espandex fetish movie\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-1427.html\" rel\u003d\"nofollow\"\u003esaturn rocket launch video\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081117-adult-video.html\" rel\u003d\"nofollow\"\u003eadult video company\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/robovarm.html\" rel\u003d\"nofollow\"\u003einspirational poems.com\u003c/a\u003e \u003ca href\u003d\"http://chifire.strefa.pl/news-1664.html\" rel\u003d\"nofollow\"\u003erelief stress video\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page1622.html\" rel\u003d\"nofollow\"\u003earmadillo video\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003ehttp\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-363.htm\" rel\u003d\"nofollow\"\u003emary kate and ashley video clips\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article111.html\" rel\u003d\"nofollow\"\u003epicture of colorado drivers license\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-1486.htm\" rel\u003d\"nofollow\"\u003ejames gardner movies\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003epage\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20081225-stormy-friday-movies.htm\" rel\u003d\"nofollow\"\u003estormy friday movies\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-1723.htm\" rel\u003d\"nofollow\"\u003ekent station movie times\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20090101-movie-ratings-g.html\" rel\u003d\"nofollow\"\u003emovie ratings g\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-1530.htm\" rel\u003d\"nofollow\"\u003emovie porn zebra\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2009-01-01-ashly-judd-movies.html\" rel\u003d\"nofollow\"\u003eashly judd movies\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1625.htm\" rel\u003d\"nofollow\"\u003ejanet jackson thats the way love goes video\u003c/a\u003e \u003ca href\u003d\"http://indronrol.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003esitemap\u003c/a\u003e \u003ca href\u003d\"http://indronrol.is-the-boss.com/sedsit.html\" rel\u003d\"nofollow\"\u003estreet fighter alpha generation torrent\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/amateur-canadian.html\" rel\u003d\"nofollow\"\u003eamateur canadian home video\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20081223-remove-perspiration.html\" rel\u003d\"nofollow\"\u003eremove perspiration\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1002294495.html\" rel\u003d\"nofollow\"\u003eoriginal batman movies\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article701.html\" rel\u003d\"nofollow\"\u003emassage therapist licensing\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2009-01-06-street-fighter.html\" rel\u003d\"nofollow\"\u003estreet fighter the movie game\u003c/a\u003e \u003ca href\u003d\"http://mahohmie.qsh.eu/resource1506.htm\" rel\u003d\"nofollow\"\u003eadult dvd movie store`s\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/fevdroner-267.html\" rel\u003d\"nofollow\"\u003earabic free music turkish video\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/ninjai-movies.html\" rel\u003d\"nofollow\"\u003eninjai movies\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081113-movie-database.html\" rel\u003d\"nofollow\"\u003emovie database software free\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/sitemap.htm\" rel\u003d\"nofollow\"\u003epage\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/news-star-war-movie-2008-11-18.html\" rel\u003d\"nofollow\"\u003estar war movie cover\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-1951.htm\" rel\u003d\"nofollow\"\u003erock climbing accident video\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-953.htm\" rel\u003d\"nofollow\"\u003eav idol japan movie\u003c/a\u003e \u003ca href\u003d\"http://relquaca.is-the-boss.com/20081223-musicwrite-crack.html\" rel\u003d\"nofollow\"\u003emusicwrite crack\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-327.html\" rel\u003d\"nofollow\"\u003epirates of the caribbean movie pictures\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article688.html\" rel\u003d\"nofollow\"\u003eplay movies on palm\u003c/a\u003e \u003ca href\u003d\"http://sematild.qsh.eu/resource1937.htm\" rel\u003d\"nofollow\"\u003ekermit and big bird stoned video\u003c/a\u003e \u003ca href\u003d\"http://mahohmie.qsh.eu/sitemap.htm\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article16.htm\" rel\u003d\"nofollow\"\u003emobile streaming video\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/sitemap.htm\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/golbrenou-1297.html\" rel\u003d\"nofollow\"\u003emilitary funeral video\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-1771.htm\" rel\u003d\"nofollow\"\u003edownload free incubus video\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/famexou-1832.html\" rel\u003d\"nofollow\"\u003emutton bustin video\u003c/a\u003e \u003ca href\u003d\"http://lofaako.strefa.pl/article1460.html\" rel\u003d\"nofollow\"\u003ereggeaton latino video\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-455.htm\" rel\u003d\"nofollow\"\u003emovie maker 2\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/comment-838.htm\" rel\u003d\"nofollow\"\u003eit could happen to you movie\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/news-asx-play-video-2008-11-14.html\" rel\u003d\"nofollow\"\u003easx play video\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20081231-exploitedblackteens.html\" rel\u003d\"nofollow\"\u003eexploitedblackteens movie\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2009-01-05-marilyn-manson.html\" rel\u003d\"nofollow\"\u003emarilyn manson video clips\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/20090105-quad-video-splitter.html\" rel\u003d\"nofollow\"\u003equad video splitter\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-1199.htm\" rel\u003d\"nofollow\"\u003emission impossible movies\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-991.htm\" rel\u003d\"nofollow\"\u003ematch movie perfect\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-305.html\" rel\u003d\"nofollow\"\u003eshakeela movie clippings\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2009-01-04-ass-huge-movie.html\" rel\u003d\"nofollow\"\u003eass huge movie\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1695.htm\" rel\u003d\"nofollow\"\u003elindsey dawn mackenzie movies\u003c/a\u003e bolipas Give an upper bound for \\( \\int _{C}{\\frac {dz}{z^{4}}},C\\, \\) is the line segment from \\( i \\) to 1. \u003c/p\u003e\n\u003cp\u003eThe length of the curve \\( L\\, \\) is \\( {\\sqrt {2}} \\) . \u003c/p\u003e\n\u003cp\u003e \\( \\int _{C}{\\frac {dz}{z^{4}}}\\leq \\max _{{z\\in C}}\\left|{\\frac {1}{z^{4}}}\\right|\\cdot {\\mathrm {length}}(C)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{\\min _{{z\\in C}}\\left|z^{4}\\right|}}{\\sqrt {2}}\u003d{\\frac {{\\sqrt {2}}}{\\left|({\\frac {1}{2}}+i{\\frac {1}{2}})^{4}\\right|}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2^{{5/2}}\\left|\\left[e^{{i{\\frac {\\pi }{4}}}}\\right]^{{-4}}\\right|\u003d2^{{5/2}}\\left|e^{{-i\\pi }}\\right|\u003d2^{{5/2}}\\, \\) \u003c/p\u003e",
-      "uuid": "4e08a65f-97af-4ac1-8b32-b731a8c69d5b",
+      "authorSolution": "( , )",
+      "uuid": "a7ecddb0-6a4e-4be4-99af-f903de3636df",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166292,
+      "creatorUserId": "",
+      "createdAt": 1437419361965,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Give an upper bound for \\( \\int _{C}{\\frac {dz}{z^{4}}},C\\, \\) is the line segment from \\( i\\, \\) to 1.",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/4e08a65f-97af-4ac1-8b32-b731a8c69d5b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI6",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Radius Of Convergence Problem",
+      "body": " The interval of convergence of the power series  \\(1 + \\frac13x + x^2 + \\frac13x^3 + x^4 + \\frac13x^5 + x^6+\\cdots\\)  \\\\ is  \\(_ -1 , 1 _\\) .",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/a7ecddb0-6a4e-4be4-99af-f903de3636df",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{C}\\sin zdz,C\\, \\) starts at the origin, traverses the bottom half of a unit circle centered at \\( z_{0}\u003d1/2 \\) and then the line from \\( z\u003d1 \\) to \\( z\u003di\\pi \\) . \u003c/p\u003e\n\u003cp\u003eThe sine function is entire so the integral between two points is path independent, so the integral can be written more simply as \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{{i\\pi }}\\sin zdz\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d-\\cos z{\\Bigg |}_{0}^{{i\\pi }}\u003d-\\cos i\\pi +1\u003d1-\\cosh \\pi \\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "699de292-1eef-48e6-8109-70d988049517",
+      "authorSolution": "[ ,  \\(-2\\) ,  \\(2\\) , )",
+      "uuid": "0198bb0d-ab9a-4079-a397-645851301d08",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166302,
+      "creatorUserId": "",
+      "createdAt": 1437419361965,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{C}\\sin zdz,C\\, \\) starts at the origin, traverses the bottom half of a unit circle centered at \\( z_{0}\u003d1/2\\, \\) and then the line from \\( z\u003d1\\, \\) to \\( z\u003di\\pi \\, \\) .",
-      "tags": "Complex Variables,Complex,Variables,Complex Integrals,Complex,Integrals,auto-uploaded",
-      "url": "/practice-problem/699de292-1eef-48e6-8109-70d988049517",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVXI7",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Use Of Power Series To Solve Differential Equations Question",
+      "body": " The interval of convergence of the power series  \\(\\sum\\dfrac1{k2^k}x^k\\)  is _ ___ , ___ _.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/0198bb0d-ab9a-4079-a397-645851301d08",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d2}}{\\frac {1-2z}{z(z-1)(z-3)}}dz\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\oint _{{|z|\u003d2}}{\\frac {1-2z}{z^{3}-4z^{2}+3}}dz\u003d2\\pi i\\sum {\\mathrm {Res}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThe integrand has simple poles at \\( z\u003d0,1,3\\, \\) . Only 0 and 1 are within the contour, so \u003c/p\u003e\n\u003cp\u003e \\( \\oint _{{|z|\u003d2}}{\\frac {1-2z}{z(z-1)(z-3)}}dz\u003d2\\pi i({\\mathrm {Res}}_{{z\u003d0}}+{\\mathrm {Res}}_{{z\u003d1}})\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left({\\frac {1-2z}{3z^{2}-8z+3}}{\\Big |}_{{z\u003d0}}+{\\frac {1-2z}{3z^{2}-8z+3}}{\\Big |}_{{z\u003d1}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left({\\frac {1}{3}}+{\\frac {1}{2}}\\right)\u003d{\\frac {5}{3}}\\pi i\\, \\) \u003c/p\u003e",
-      "uuid": "30e30eb2-aa36-4880-a4ee-63137191ac7b",
+      "authorSolution": "[ ,  \\(2\\) ,  \\(8\\) , )",
+      "uuid": "f2f80d7c-9a4f-4bd9-b9b4-7f85760fe07e",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166312,
+      "creatorUserId": "",
+      "createdAt": 1437419361965,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d2}}{\\frac {1-2z}{z(z-1)(z-3)}}dz\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/30e30eb2-aa36-4880-a4ee-63137191ac7b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI1",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Maclaurin Series",
+      "body": " The interval of convergence of the power series  \\(\\sum_1^\\infty \\dfrac{(x-5)^n}{\\sqrt n 3^n}\\)  is _ ___ , ___ _.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/f2f80d7c-9a4f-4bd9-b9b4-7f85760fe07e",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d5}}ze^{{3/z}}dz\\, \\) \u003c/p\u003e\n\u003cp\u003eThere is a singularity at 0, so \\( \\oint _{{|z|\u003d5}}ze^{{3/z}}dz\u003d2\\pi i{\\mathrm {Res}}_{{z\u003d0}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eIn general, \\( {\\mathrm {Res}}_{{z\u003da}}\\, \\) is the coefficient in front of the \\( {\\frac {1}{z-a}}\\, \\) term in the Laurent expansion of the integrand. \u003c/p\u003e\n\u003cp\u003e \\( ze^{{3/z}}\u003dz\\sum _{{k\u003d0}}^{\\infty }{\\frac {(3/z)^{k}}{k!}}\\, \\) \u003c/p\u003e\n\u003cp\u003eWhen \\( k\u003d2\\, \\) the term from the sum is \\( {\\frac {9}{2}}z^{{-1}}\\, \\) so \\( {\\mathrm {Res}}_{{z\u003d0}}\u003d{\\frac {9}{2}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eFinally, \u003c/p\u003e\n\u003cp\u003e \\( \\oint _{{|z|\u003d5}}ze^{{3/z}}dz\u003d2\\pi i{\\frac {9}{2}}\u003d9\\pi i\\, \\) \u003c/p\u003e",
-      "uuid": "d8aa55e4-1a25-411b-9e6c-bdd3c9488c3b",
+      "authorSolution": " \\(2x - x^2\\) ",
+      "uuid": "a64dbba0-d995-4757-be72-e2253d01be27",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166332,
+      "creatorUserId": "",
+      "createdAt": 1437419361965,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d5}}ze^{{3/z}}dz\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/d8aa55e4-1a25-411b-9e6c-bdd3c9488c3b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI2",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Power Series",
+      "body": " Express  \\(\\sum_1^\\infty (n+1)x^n\\)  as the value at  \\(x\\)  of an elementary function \\(f\\) .   \\\\ Answer:  \\(f(x) \u003d \\dfrac{g(x)}{(1-x)^2}\\)  where  \\(g(x)\u003d\\) ___________.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/a64dbba0-d995-4757-be72-e2253d01be27",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d5}}{\\frac {\\cos z}{z^{2}(z-\\pi )^{3}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left({\\mathrm {Res}}_{{z\u003d0}}+{\\mathrm {Res}}_{{z\u003d\\pi }}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left(\\lim _{{z\\to 0}}{\\frac {d}{dz}}{\\frac {\\cos z}{(z-\\pi )^{3}}}+{\\frac {1}{2}}\\lim _{{z\\to \\pi }}{\\frac {d^{2}}{{dz}^{2}}}{\\frac {\\cos z}{z^{2}}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left({\\frac {-3}{\\pi ^{4}}}+{\\frac {\\pi ^{2}-6}{2\\pi ^{4}}}\\right)\u003d{\\frac {\\pi ^{2}-12}{\\pi ^{3}}}i\\, \\) \u003c/p\u003e",
-      "uuid": "1857b7cb-9c50-4e68-bf92-6cde1dbc7cae",
+      "authorSolution": " \\(x + x^2\\) ,  \\(3\\) ",
+      "uuid": "d6954043-7937-459b-bc24-fa562da0cdee",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166341,
+      "creatorUserId": "",
+      "createdAt": 1437419361965,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d5}}{\\frac {\\cos z}{z^{2}(z-\\pi )^{3}}}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/1857b7cb-9c50-4e68-bf92-6cde1dbc7cae",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI3",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Maclaurin Series Question",
+      "body": " Express  \\(\\sum_1^\\infty n^2x^n\\)  as the value at  \\(x\\)  of an elementary function \\(f\\) .   \\\\ Answer:  \\(f(x) \u003d \\dfrac{g(x)}{(1-x)^p}\\)  where  \\(g(x)\u003d\\) _________ and  \\(p\u003d\\) ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/d6954043-7937-459b-bc24-fa562da0cdee",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d2}}{\\frac {\\sin z}{z-0}}\\,dz\\, \\) \u003c/p\u003e\n\u003cp\u003eSince the pole is inside the contour, the answer is \\( 2\\pi i\\sin(0)\u003d0\\, \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "27f3a1b5-1d00-42d0-a2ee-c6dbbf37840c",
+      "authorSolution": " \\(5\\) ",
+      "uuid": "cb699e02-c234-422e-a03d-e23ba246f28b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166351,
+      "creatorUserId": "",
+      "createdAt": 1437419361966,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d2}}{\\frac {\\sin z}{z-0}}\\,dz\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/27f3a1b5-1d00-42d0-a2ee-c6dbbf37840c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI4",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Interval Of Convergence Problem",
+      "body": " The sum of the series  \\(\\sum_{k\u003d1}^\\infty\\frac {2k-1}{4^k}\\)  is  \\(\\dfrac a9\\)  where  \\(a\\)  \u003d ___.    \u003ci\u003eHint.\u003c/i\u003e  \\(4^k\u003d2^{2k}\\) .",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/cb699e02-c234-422e-a03d-e23ba246f28b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d2}}{\\frac {\\cos z}{z-0}}\\,dz\\, \\) \u003c/p\u003e\n\u003cp\u003eSince the pole is inside the contour, the answer is \\( 2\\pi i\\cos(0)\u003d2\\pi i\\, \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "d6fe473f-83cb-48bd-8f97-2f57b52b07b0",
+      "authorSolution": " \\(8\\) ",
+      "uuid": "d8e5854d-b39c-4fca-b0dd-e55f1bb711ce",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166359,
+      "creatorUserId": "",
+      "createdAt": 1437419361966,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d2}}{\\frac {\\cos z}{z-0}}\\,dz\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/d6fe473f-83cb-48bd-8f97-2f57b52b07b0",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Radius Of Convergence Question",
+      "body": " The sum of the series  \\(\\dfrac{1 \\cdot 2}{2} + \\dfrac{2 \\cdot 3}{4} + \\dfrac{3 \\cdot 4}{8} + \\dfrac{4 \\cdot 5}{16} + \\cdots\\)  is ___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/d8e5854d-b39c-4fca-b0dd-e55f1bb711ce",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d1}}e^{{1/z}}\\sin {\\frac {1}{z}}dz\\, \\) \u003c/p\u003e\n\u003cp\u003eIn taylor series, \u003c/p\u003e\n\u003cp\u003e \\( e^{{1/z}}\u003d1+{\\frac {1}{z}}+{\\frac {1}{2!z}}+...\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\sin {\\frac {1}{z}}\u003d{\\frac {1}{z}}-{\\frac {1}{3!z^{3}}}+...\\, \\) \u003c/p\u003e\n\u003cp\u003eThere is an essential singularity at \\( z\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe residue at \\( z\u003d0 \\) is the coefficient of \\( 1/z \\) in the Laurent series of the integrand, which is 1. \u003c/p\u003e\n\u003cp\u003eSo \\( \\oint \u003d2\\pi i \\) . \u003c/p\u003e",
-      "uuid": "449665ee-8554-4210-b945-da74d0ebd660",
+      "authorSolution": " \\(1\\) ,  \\(x + x^3\\) ",
+      "uuid": "2d98c686-8a25-4472-9eeb-2cf7c616fde9",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166369,
+      "creatorUserId": "",
+      "createdAt": 1437419361966,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d1}}e^{{1/z}}\\sin {\\frac {1}{z}}dz\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/449665ee-8554-4210-b945-da74d0ebd660",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI6",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Use Of Power Series To Solve Differential Equations Question",
+      "body": "  Express  \\(1 + x + x^2 + 3x^3 + x^4 + 5x^5 + x^6 + 7x^7 + x^8 + \\cdots\\)  as the value at  \\(x\\)  of an elementary function \\(f\\) .   \\\\ Answer:  \\(f(x) \u003d \\dfrac a{1-x^2} + \\dfrac{b(x)}{(1-x^2)^2}\\)  where  \\(a\\)  \u003d ___ and  \\(b(x)\\)  \u003d ________.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/2d98c686-8a25-4472-9eeb-2cf7c616fde9",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( \\oint _{{|z|\u003d2}}{\\frac {dz}{z(z+1)^{2}(z+3)}}dz\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left[{\\mathrm {Res}}_{{z\u003d0}}+{\\mathrm {Res}}_{{z\u003d-1}}\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left({\\frac {1}{3}}+{\\frac {d}{dz}}\\left[{\\frac {1}{z(z+3)}}\\right]{\\Bigg |}_{{z\u003d-1}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i\\left({\\frac {1}{3}}-{\\frac {1}{4}}\\right)\u003d{\\frac {\\pi i}{6}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "d289aea6-aae2-4407-80c3-8730233caeb9",
+      "authorSolution": " \\(k-1\\) ,  \\(1\\) ",
+      "uuid": "6c46b985-2906-4214-a85e-1df44d59ced9",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166378,
+      "creatorUserId": "",
+      "createdAt": 1437419361966,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "\\( \\oint _{{|z|\u003d2}}{\\frac {dz}{z(z+1)^{2}(z+3)}}dz\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Contour Integrals,Contour,Integrals,auto-uploaded",
-      "url": "/practice-problem/d289aea6-aae2-4407-80c3-8730233caeb9",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVCI7",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( I\u003d\\int _{0}^{{2\\pi }}{\\frac {\\sin ^{2}\\theta }{5+4\\cos \\theta }}\\,d\\theta \\, \\) \u003c/p\u003e\n\u003cp\u003eMake the change of variables so the integral will be around the unit circle. \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {1}{z}}\u003de^{{-i\\theta }},\\cos \\theta \u003d{\\frac {e^{{i\\theta }}+e^{{-i\\theta }}}{2}},\\sin \\theta \u003d{\\frac {e^{{i\\theta }}-e^{{-i\\theta }}}{2i}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( dz\u003die^{{i\\theta }},d\\theta \u003d{\\frac {dz}{iz}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\cos \\theta \u003d{\\frac {1}{2}}\\left(z+{\\frac {1}{z}}\\right),\\sin \\theta \u003d{\\frac {1}{2i}}\\left(z-{\\frac {1}{z}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( I\u003d\\int _{{|C|\u003d1}}{\\frac {\\left[{\\frac {1}{2i}}\\left(z-{\\frac {1}{z}}\\right)\\right]^{2}}{5+4\\left[{\\frac {1}{2}}\\left(z+{\\frac {1}{z}}\\right)\\right]}}{\\frac {dz}{iz}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {-1}{4i}}\\int _{C}{\\frac {z^{4}-2z^{2}+1}{z^{2}(2z^{2}+5z+2)}}dz\\, \\) \u003c/p\u003e\n\u003cp\u003eThis integrand has poles \\( z\u003d0^{2},-2,{\\frac {-1}{2}}\\, \\) , but only \\( 0\\, \\) and \\( {\\frac {-1}{2}}\\, \\) are inside the unit circle. \u003c/p\u003e\n\u003cp\u003eTherefore, \u003c/p\u003e\n\u003cp\u003e \\( I\u003d{\\frac {-1}{4i}}2\\pi i\\left({\\mathrm {Res}}_{{z\u003d0}}+{\\mathrm {Res}}_{{z\u003d{\\frac {-1}{2}}}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d0}}\u003d\\lim _{{z\\to 0}}{\\frac {d}{dz}}{\\frac {z^{4}-2z^{2}+1}{2z^{2}+5z+2}}\u003d...\u003d{\\frac {-5}{4}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d{\\frac {-1}{2}}}}\u003d{\\frac {z^{4}-2z^{2}+1}{8z^{3}+15z^{2}+4z}}{\\Big |}_{{z\u003d{\\frac {-1}{2}}}}\u003d{\\frac {3}{4}}\\, \\) \u003c/p\u003e\n\u003cp\u003eFinally, \u003c/p\u003e\n\u003cp\u003e \\( I\u003d{\\frac {-1}{4i}}2\\pi i\\left({\\frac {-5}{4}}+{\\frac {3}{4}}\\right)\u003d{\\frac {\\pi }{4}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "aa8962ba-69fe-440c-a69f-8fedc21dc54f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166390,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{0}^{{2\\pi }}{\\frac {\\sin ^{2}\\theta }{5+4\\cos \\theta }}\\,d\\theta \\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/aa8962ba-69fe-440c-a69f-8fedc21dc54f",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC1",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( I\u003d\\int _{0}^{{2\\pi }}{\\frac {d\\theta }{5+4\\sin \\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( z\u003de^{{i\\theta }},dz\u003die^{{i\\theta }}d\\theta ,d\\theta \u003d{\\frac {dz}{iz}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\sin \\theta \u003d{\\frac {e^{{i\\theta }}-e^{{-i\\theta }}}{2i}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( I\u003d\\oint _{{|z|\u003d1}}{\\frac {dz}{iz(5+4({\\frac {z-1/z}{2i}}))}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\oint _{{|z|\u003d1}}{\\frac {dz}{2z^{2}+5iz-2}}\u003d\\oint _{{|z|\u003d1}}{\\frac {dz}{2(z+2i)(z+i/2)}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\pi i{\\mathrm {Res}}_{{z\u003d-i/2}}\u003d2\\pi i{\\frac {1}{2(-i/2+2i)}}\u003d{\\frac {2\\pi }{3}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "c5ee2838-8f4a-48f1-90fb-abed3e6724bd",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166402,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{0}^{{2\\pi }}{\\frac {d\\theta }{5+4\\sin \\theta }}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/c5ee2838-8f4a-48f1-90fb-abed3e6724bd",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC2",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{0}^{{2\\pi }}{\\frac {d\\theta }{a^{2}\\sin ^{2}\\theta +b^{2}\\cos ^{2}\\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003eSince \\( [0,2\\pi ] \\) is a complete period of the integrand, we may take it as \\( [\\pi /2,5\\pi /2] \\) and then replace \\( \\theta \\) by \\( \\theta +2\\pi \\) . This shows that there is no loss of generality in assuming \\( b\u0026gt;a \\) . Use double angle formulas to see that \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {1}{a^{2}\\sin ^{2}\\theta +b^{2}\\cos ^{2}\\theta }}\u003d{\\frac {2}{a^{2}(1-\\cos 2\\theta )+b^{2}(1+\\cos 2\\theta )}}\u003d{\\frac {2}{a^{2}+b^{2}+(b^{2}-a^{2})\\cos 2\\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( 2\\theta \u003d\\phi \\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{{2\\pi }}{\\frac {d\\theta }{a^{2}\\sin ^{2}\\theta +b^{2}\\cos ^{2}\\theta }}\u003d\\int _{0}^{{4\\pi }}{\\frac {d\\phi }{a^{2}+b^{2}+(b^{2}-a^{2})\\cos \\phi }}\u003d2\\int _{0}^{{2\\pi }}{\\frac {d\\phi }{a^{2}+b^{2}+(b^{2}-a^{2})\\cos \\phi }}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {4}{i}}\\int _{{|z|\u003d1}}{\\frac {dz}{2(a^{2}+b^{2})z+(b^{2}-a^{2})(1+z^{2})}}\u003d{\\frac {4}{i}}\\int _{{|z|\u003d1}}{\\frac {dz}{(z-z_{1})(z-z_{2})(b^{2}-a^{2})}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( z_{1},z_{2}\u003d{\\frac {-(a^{2}+b^{2})\\pm {\\sqrt {(a^{2}+b^{2})^{2}-(b^{2}-a^{2})^{2}}}}{b^{2}-a^{2}}}\u003d{\\frac {(a\\mp b)^{2}}{a^{2}-b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {a-b}{a+b}},{\\frac {a+b}{a-b}}\\, \\) \u003c/p\u003e\n\u003cp\u003eIt is true that \\( |z_{1}|\u0026lt;1,|z_{2}|\u0026gt;1\\, \\) . \u003c/p\u003e\n\u003cp\u003eThe residue at \\( z_{1}\\, \\) is \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {4}{i(b^{2}-a^{2})(z_{1}-z_{2})}}\u003d{\\frac {4}{i(b^{2}-a^{2}){\\frac {-4ab}{a^{2}-b^{2}}}}}\u003d{\\frac {1}{abi}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThe solution is \\( 2\\pi i{\\frac {1}{abi}}\u003d{\\frac {2\\pi }{ab}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "d5c22ac8-68dc-4fce-9b17-f72e3ab3f3f0",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166414,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{0}^{{2\\pi }}{\\frac {d\\theta }{a^{2}\\sin ^{2}\\theta +b^{2}\\cos ^{2}\\theta }}\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/d5c22ac8-68dc-4fce-9b17-f72e3ab3f3f0",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC3",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{0}^{\\infty }{\\frac {\\sin x}{x}}dx\\, \\) \u003c/p\u003e\n\u003cp\u003eUse the function \\( {\\frac {e^{{ix}}}{x}}\\, \\) in the integrand and take the imaginary part later. \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{\\infty }{\\frac {e^{{ix}}}{x}}dx\u003d{\\frac {1}{2}}{\\mathrm {p.v.}}\\int _{{-\\infty }}^{\\infty }{\\frac {e^{{ix}}}{x}}dx\\, \\) \u003c/p\u003e\n\u003cp\u003eUse this formula: \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {p.v.}}\\int _{{-\\infty }}^{\\infty }f(x)dx\u003d\\pi i\\sum _{{k\u003d1}}^{m}{\\mathrm {Res}}\\{f(z);b_{k}\\}+2\\pi i\\sum _{{k\u003d1}}^{n}{\\mathrm {Res}}\\{f(z);a_{k}\\}\\, \\) where \\( a_{k}\\, \\) are not real and \\( b_{k}\\, \\) are. \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {1}{2}}{\\mathrm {p.v.}}\\int _{{-\\infty }}^{\\infty }{\\frac {e^{{ix}}}{x}}dx\u003d{\\frac {1}{2}}\\pi i\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{\\infty }{\\frac {\\sin x}{x}}dx\u003d{\\mathrm {Im}}{\\frac {1}{2}}{\\mathrm {p.v.}}\\int _{{-\\infty }}^{\\infty }{\\frac {e^{{ix}}}{x}}dx\u003d{\\mathrm {Im}}{\\frac {\\pi i}{2}}\u003d{\\frac {\\pi }{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "534b940d-336b-481a-8fc4-f537301a6aaf",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166424,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Evaluate \\( \\int _{0}^{\\infty }{\\frac {\\sin x}{x}}dx\\, \\)",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/534b940d-336b-481a-8fc4-f537301a6aaf",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC4",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eEvaluate \\( \\int _{0}^{\\infty }{\\frac {x^{\\alpha }}{1+2x\\cos \\phi +x^{2}}}dx,-1\u0026lt;\\alpha \u0026lt;1,\\alpha \\phi \\neq 0,-\\pi \u0026lt;\\phi \u0026lt;\\pi \\, \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFactor the bottom. \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{\\infty }{\\frac {x^{\\alpha }}{(x+e^{{i\\phi }})(x+e^{{-i\\phi }})}}dx\\, \\) \u003c/p\u003e\n\u003cp\u003eUse a keyhole shaped contour- two concentric circles with radii \\( \\epsilon \\) and \\( \\rho \\) . Eventually \\( \\epsilon \\to 0 \\) and \\( \\rho \\to \\infty \\) . The integral around the contour is \u003c/p\u003e\n\u003cp\u003e \\( \\int _{C}dz\u003d\\int _{\\epsilon }^{\\rho }dx+\\int _{{C_{\\rho }}}dz+\\int _{\\rho }^{\\epsilon }dx+\\int _{{C_{\\epsilon }}}dz\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\int _{{C_{\\rho }}}\\to 0\\, \\) by Jordan\u0027s Lemma. \u003c/p\u003e\n\u003cp\u003e \\( \\int _{{C_{\\epsilon }}}\u003d-2\\pi i(0)\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eOn \\( \\int _{\\rho }^{\\epsilon }\\, \\) , \\( x\\cong xe^{{i\\alpha 2\\pi }}\\, \\) . \u003c/p\u003e\n\u003cp\u003eSo now, \u003c/p\u003e\n\u003cp\u003e \\( \\int _{\\rho }^{\\epsilon }\u003d-e^{{i\\alpha 2\\pi }}\\int _{\\epsilon }^{\\rho }\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\int _{C}\u003d(1-e^{{i\\alpha 2\\pi }})\\int _{\\epsilon }^{\\rho }\\, \\) \u003c/p\u003e\n\u003cp\u003eAnd also from residue theory, \u003c/p\u003e\n\u003cp\u003e \\( \\int _{C}\u003d2\\pi i\\left[{\\mathrm {Res}}_{{z\u003d-e^{{i\\phi }}}}+{\\mathrm {Res}}_{{z\u003d-e^{{-i\\phi }}}}\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d-e^{{i\\phi }}}}\u003d{\\frac {e^{{i\\alpha (\\phi +\\pi )}}}{-2i\\sin \\phi }}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\mathrm {Res}}_{{z\u003d-e^{{-i\\phi }}}}\u003d{\\frac {e^{{-i\\alpha (\\phi +\\pi )}}}{2i\\sin \\phi }}\\, \\) \u003c/p\u003e\n\u003cp\u003eSo \u003c/p\u003e\n\u003cp\u003e \\( \\int _{C}\u003d2\\pi i\\left[{\\frac {-e^{{i\\alpha (\\phi +\\pi )}}+e^{{-i\\alpha (\\phi +\\pi )}}}{2i\\sin \\phi }}\\right]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\lim _{{\\epsilon \\to 0,\\rho \\to \\infty }}\u003d{\\frac {\\pi }{\\sin \\phi }}{\\frac {-e^{{i\\alpha (\\phi +\\pi )}}+e^{{-i\\alpha (\\phi +\\pi )}}}{1-e^{{i\\alpha 2\\pi }}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{\\infty }\u003d{\\frac {\\pi }{\\sin \\phi }}{\\frac {\\sin {\\alpha \\phi }}{\\sin \\alpha \\pi }} \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "5bb5cb1e-3360-4668-942b-2f013a21b53b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166438,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Complex Variables Practice",
-      "body": "Prove that \\( \\int _{0}^{\\infty }{\\frac {x^{\\alpha }}{1+2x\\cos \\phi +x^{2}}}\\ dx\u003d{\\frac {\\pi }{\\sin(\\pi \\alpha )}}{\\frac {\\sin(\\phi \\alpha )}{\\sin \\phi }},-1\u0026lt;\\alpha \u0026lt;1,\\alpha \\phi \\neq 0,-\\pi \u0026lt;\\phi \u0026lt;\\pi \\) .",
-      "tags": "Complex Variables,Complex,Variables,Residue Calculus,Residue,Calculus,auto-uploaded",
-      "url": "/practice-problem/5bb5cb1e-3360-4668-942b-2f013a21b53b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/CVRC5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Maclaurin Series",
+      "body": "  \\(x\\ln(1+x) \u003d \\sum_{k\u003d2}^\\infty \\frac{(-1)^k}{a_k} x^k\\)  where (for each  \\(k\\) )  \\(a_k\\) \u003d______.    The radius of convergence of the series is  \\(R\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/6c46b985-2906-4214-a85e-1df44d59ced9",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     }
   ],
   "questions": [
-    {
-      "uuid": "63282d5e-3974-4960-b2fd-af01dafb7665",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concavity and Inflection Points",
-      "body": "In the following, describe the concavity of the functions.\ny \u003d 3x\\(^{2}\\)-\\(\\frac{1}{x^{2}}\\)",
-      "allAnswers": [],
-      "tags": "concavity, inflection points, functions",
-      "url": "/question/63282d5e-3974-4960-b2fd-af01dafb7665",
-      "source": "Mooculus 4.3.7",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
-    },
-    {
-      "uuid": "263f8d86-aad3-4200-9bdc-1e7adc438d21",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concavity and Inflection Points",
-      "body": "In the following, describe the concavity of the functions.\ny \u003d x\\(^{5}\\)-x",
-      "allAnswers": [],
-      "tags": "concavity, inflection points, functions",
-      "url": "/question/263f8d86-aad3-4200-9bdc-1e7adc438d21",
-      "source": "Mooculus 4.3.8",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
-    },
-    {
-      "uuid": "82fc4fe5-27fb-43ea-ba13-d6c0b5d40f93",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concavity and Inflection Points",
-      "body": "In the following, describe the concavity of the functions.\ny \u003d x + 1/x",
-      "allAnswers": [],
-      "tags": "concavity, inflection points, functions",
-      "url": "/question/82fc4fe5-27fb-43ea-ba13-d6c0b5d40f93",
-      "source": "Mooculus 4.3.9",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
-    },
-    {
-      "uuid": "7a51e3b4-455c-4f45-8266-d0bb2cbaa323",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concavity and Inflection Points",
-      "body": "In the following, describe the concavity of the functions.\ny \u003d x\\(^{2}\\)+1/x",
-      "allAnswers": [],
-      "tags": "concavity, inflection point, functions",
-      "url": "/question/7a51e3b4-455c-4f45-8266-d0bb2cbaa323",
-      "source": "Mooculus 4.3.10",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
-    },
-    {
-      "uuid": "1278d785-77e4-4a52-920c-29d3d26dada1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concavity and Inflection Points",
-      "body": "Identify the intervals on which the graph of the function f(x) \u003d x\\(^{4}\\)-4x\\(^{3}\\)+10 is of one of these four shapes: concave up and increasing: concave up and decreasing: concave down and increasing: concave down and deceasing. ",
-      "allAnswers": [],
-      "tags": "concavity, increasing, decreasing, intervals, functions, inflection point",
-      "url": "/question/1278d785-77e4-4a52-920c-29d3d26dada1",
-      "source": "Mooculus 4.3.11",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points/Increasing"
-    },
-    {
-      "uuid": "dff0d4cd-6a9b-47d3-86ff-3d96b74aa2b7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Second Derivative Test",
-      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d x\\(^{2}\\)-x",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, second derivative test ",
-      "url": "/question/dff0d4cd-6a9b-47d3-86ff-3d96b74aa2b7",
-      "source": "Mooculus 4.4.1",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "aa0dab2e-8ce9-4789-9419-dbc3f05f21a9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Second Derivative Test",
-      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d 2 + 3x - x\\(^{3}\\)",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, second derivative test",
-      "url": "/question/aa0dab2e-8ce9-4789-9419-dbc3f05f21a9",
-      "source": "Mooculus 4.4.2",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "cebb7f02-a72d-4703-bad2-15d75378c6b3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Second Derivative",
-      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d x\\(^{3}\\)-9x\\(^{2}\\)+24x",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, second derivative test",
-      "url": "/question/cebb7f02-a72d-4703-bad2-15d75378c6b3",
-      "source": "Mooculus 4.4.3",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "4207412d-4bb8-45a8-922c-052bc10f79c3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Second Derivative Test",
-      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d x\\(^{4}\\)-2x\\(^{2}\\)+3",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, second derivative test",
-      "url": "/question/4207412d-4bb8-45a8-922c-052bc10f79c3",
-      "source": "Mooculus 4.4.4",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "b228fd1f-bc07-4158-ad37-f367e66e7ac0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Second Derivative Test",
-      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d 3x\\(^{4}\\)-4x\\(^{3}\\)",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, second derivative test",
-      "url": "/question/b228fd1f-bc07-4158-ad37-f367e66e7ac0",
-      "source": "Mooculus 4.4.5",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "9aef1c2c-740b-4246-9b26-d53af82a1823",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Second Derivative Test",
-      "body": "Find all local maximum and minimum points by the second derivative test.\ny \u003d (x\\(^{2}\\)-1)/x",
-      "allAnswers": [],
-      "tags": "local maximum, local minimum, second derivative test",
-      "url": "/question/9aef1c2c-740b-4246-9b26-d53af82a1823",
-      "source": "Mooculus 4.4.6",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
-    },
-    {
-      "uuid": "602d0a64-45be-48ae-8a99-9a222e42e741",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787593,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Related Rates Practice",
-      "body": "A cylindrical tank standing upright (with one circular base on the ground) has radius 20 cm.  How fast does the water level in the tank drop when the water is being drained at 25 cm\\({}^3\\)/sec?",
-      "allAnswers": [],
-      "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
-      "url": "/question/602d0a64-45be-48ae-8a99-9a222e42e741",
-      "source": "Mooculus 8.3.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
     {
       "uuid": "6e17f397-2aec-49be-998b-19968088564e",
       "contentType": "question",
@@ -477,7 +198,7 @@
       "tags": "local maximum, local minimum, second derivative test",
       "url": "/question/6e17f397-2aec-49be-998b-19968088564e",
       "source": "Mooculus 4.4.7",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
     },
     {
       "uuid": "11abf991-61c2-4651-a616-a886900a7f24",
@@ -494,7 +215,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/11abf991-61c2-4651-a616-a886900a7f24",
       "source": "Mooculus 8.3.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "18d26f08-9ac2-4889-ab49-282091cb0d2a",
@@ -511,7 +232,7 @@
       "tags": "local maximum, local minimum, second derivative test",
       "url": "/question/18d26f08-9ac2-4889-ab49-282091cb0d2a",
       "source": "Mooculus 4.4.8",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
     },
     {
       "uuid": "718af150-7d45-42ce-af8e-6aefb6c25231",
@@ -528,7 +249,7 @@
       "tags": "local maximum, local minimum, second derivative test",
       "url": "/question/718af150-7d45-42ce-af8e-6aefb6c25231",
       "source": "Mooculus 4.4.9",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
     },
     {
       "uuid": "112e12bc-69b3-49e2-9df6-6105e2e438c7",
@@ -545,7 +266,7 @@
       "tags": "local maximum, local minimum, second derivative test ",
       "url": "/question/112e12bc-69b3-49e2-9df6-6105e2e438c7",
       "source": "Mooculus 4.4.10",
-      "topic": "Calculus/Curve Sketching/Second Derivative Test"
+      "topic": "a913c509-8ab5-46e8-9069-b8486b405af2"
     },
     {
       "uuid": "3759c577-63e0-4a0f-9bf9-a2e9e1c51bb7",
@@ -562,7 +283,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/3759c577-63e0-4a0f-9bf9-a2e9e1c51bb7",
       "source": "Mooculus 8.3.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d2ac1579-2b3b-4aba-9bda-c81cdef0a66c",
@@ -579,7 +300,7 @@
       "tags": "sketching curves, extrema, inflection points, asymptotes",
       "url": "/question/d2ac1579-2b3b-4aba-9bda-c81cdef0a66c",
       "source": "Mooculus 4.5.1",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "4b84675c-64f5-476a-81f8-a3ea440a4e93",
@@ -596,7 +317,7 @@
       "tags": "sketching curves, extrema, inflection points, asymptotes, intercepts",
       "url": "/question/4b84675c-64f5-476a-81f8-a3ea440a4e93",
       "source": "Mooculus 4.5.2",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "271cd6bd-4d00-412f-aecf-2a21922c76d6",
@@ -613,7 +334,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/271cd6bd-4d00-412f-aecf-2a21922c76d6",
       "source": "Mooculus 8.3.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ee010a9b-d7a8-4962-bcf2-3f12d7101a85",
@@ -630,7 +351,7 @@
       "tags": "sketching curves, extrema, inflection points, asymptotes, intercepts ",
       "url": "/question/ee010a9b-d7a8-4962-bcf2-3f12d7101a85",
       "source": "Mooculus 4.5.3",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "890ef840-e94d-4faa-8215-d8f9a6b1a4ff",
@@ -647,7 +368,7 @@
       "tags": "sketching curves, extrema, inflection points, asymptotes, intercepts ",
       "url": "/question/890ef840-e94d-4faa-8215-d8f9a6b1a4ff",
       "source": "Mooculus 4.5.4",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "aa1da122-688a-455f-9f0a-d2ac4b69c5e7",
@@ -664,7 +385,7 @@
       "tags": "limits, indeterminate form, differentiation, instantaneous, rate of change, related rates",
       "url": "/question/aa1da122-688a-455f-9f0a-d2ac4b69c5e7",
       "source": "Mooculus 8.3.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d61c896a-95aa-4f93-99ed-b268804387d6",
@@ -681,7 +402,7 @@
       "tags": "sketching curves, extrema, inflection points, asymptotes, intercepts",
       "url": "/question/d61c896a-95aa-4f93-99ed-b268804387d6",
       "source": "Mooculus 4.5.5",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "1ee1d832-9174-4aee-b744-1ddfab66242c",
@@ -698,7 +419,7 @@
       "tags": "sketching curves, inflection points, extrema, asymptotes, intercepts ",
       "url": "/question/1ee1d832-9174-4aee-b744-1ddfab66242c",
       "source": "Mooculus 4.5.6",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "380e9c25-c2f3-4006-bae7-2bf96e0e1d1f",
@@ -715,7 +436,7 @@
       "tags": "sketching curves, inflection points, extrema, asymptotes, intercepts",
       "url": "/question/380e9c25-c2f3-4006-bae7-2bf96e0e1d1f",
       "source": "Mooculus 4.5.7",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "bd042b70-4662-4a92-91d5-06b3428db75c",
@@ -732,7 +453,7 @@
       "tags": "sketching curves, extrema, inflection points, asymptotes, intercepts",
       "url": "/question/bd042b70-4662-4a92-91d5-06b3428db75c",
       "source": "Mooculus 4.5.8",
-      "topic": "Calculus/Curve Sketching/Maxima and Minima/Local Extrema"
+      "topic": "816b72e9-cb4e-48cf-bc24-30626abcd5e5"
     },
     {
       "uuid": "e2e9f6aa-14c5-40fc-a690-48d312b411e9",
@@ -749,7 +470,7 @@
       "tags": "product rule, derivative ",
       "url": "/question/e2e9f6aa-14c5-40fc-a690-48d312b411e9",
       "source": "Mooculus 5.1.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "618dccd7-f111-4190-80df-9e440b5da8d3",
@@ -766,7 +487,7 @@
       "tags": "derivative, product rule",
       "url": "/question/618dccd7-f111-4190-80df-9e440b5da8d3",
       "source": "Mooculus 5.1.2",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "81945adc-1bae-4c46-a0f7-87b073600f3b",
@@ -783,7 +504,7 @@
       "tags": "product rule, derivative",
       "url": "/question/81945adc-1bae-4c46-a0f7-87b073600f3b",
       "source": "Mooculus 5.1.3",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "a18051ea-7d43-4aba-9c2b-1c6ecc203807",
@@ -800,7 +521,7 @@
       "tags": "derivative, product rule",
       "url": "/question/a18051ea-7d43-4aba-9c2b-1c6ecc203807",
       "source": "Mooculus 5.1.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "342cb950-6142-4bc4-ad3f-02d609a07f42",
@@ -817,7 +538,7 @@
       "tags": "derivative, product rule",
       "url": "/question/342cb950-6142-4bc4-ad3f-02d609a07f42",
       "source": "Mooculus 5.1.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "8569545d-97b8-4e7e-89a9-eac8a551b835",
@@ -834,7 +555,7 @@
       "tags": "derivative, product rule",
       "url": "/question/8569545d-97b8-4e7e-89a9-eac8a551b835",
       "source": "Mooculus 5.1.6",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "64024990-3929-43e2-aa28-26cdb4d7a9fc",
@@ -851,7 +572,7 @@
       "tags": "tangent line, product rule, derivative, function, sketching functions, curve",
       "url": "/question/64024990-3929-43e2-aa28-26cdb4d7a9fc",
       "source": "Mooculus 5.1.7",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "597da567-41a4-4b71-8275-f2eb854f8f1e",
@@ -863,12 +584,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Product Rule",
-      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)f(x)g(x)|\\(_{x\u003d2}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20433.png\"/\u003e",
+      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)f(x)g(x)|\\(_{x\u003d2}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20433.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "product rule, derivative ",
       "url": "/question/597da567-41a4-4b71-8275-f2eb854f8f1e",
       "source": "Mooculus 5.1.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "f0abeb03-dca5-4c14-832e-8696071849f3",
@@ -880,12 +601,216 @@
       "viewable": true,
       "karma": 3,
       "title": "The Product Rule",
-      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)xf(x)|\\(_{x\u003d3}\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20433.png\"/\u003e",
+      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)xf(x)|\\(_{x\u003d3}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20433.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "product rule, derivative ",
       "url": "/question/f0abeb03-dca5-4c14-832e-8696071849f3",
       "source": "Mooculus 5.1.9",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "18794b93-5e79-4eb3-a101-9081c0238efb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Product Rule",
+      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)xg(x)|\\(_{x\u003d4}\\)",
+      "allAnswers": [],
+      "tags": "derivative, product rule",
+      "url": "/question/18794b93-5e79-4eb3-a101-9081c0238efb",
+      "source": "Mooculus 5.1.10",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "f4e58aba-dde3-4e38-b994-7242c1136b2a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Product Rule",
+      "body": "Use the following table to solve the problem. Note \\(\\frac{d}{dx}|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx}\\)f(x)g(x)|\\(_{x\u003d1}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20433.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "derivative, product rule",
+      "url": "/question/f4e58aba-dde3-4e38-b994-7242c1136b2a",
+      "source": "Mooculus 5.1.11",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "c14762c7-18d8-424a-98f5-7eafc8667ccc",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Product Rule",
+      "body": "Suppose that f(x), g(x), and h(x) are differentiable functions. Show that \\(\\frac{d}{dx}\\)f(x)\\(\\cdot\\)g(x)\\(\\cdot\\)h(x) \u003d f(x)g(x)h\u0027(x)+f(x)g\u0027(x)h(x)+f\u0027(x)g(x)h(x).",
+      "allAnswers": [],
+      "tags": "product rule, differentiable functions, derivatives, functions",
+      "url": "/question/c14762c7-18d8-424a-98f5-7eafc8667ccc",
+      "source": "Mooculus 5.1.12",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "8476cb54-10d1-4d40-9efd-4e0b2261e658",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Quotient Rule",
+      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{x^{3}}{x^{3}-5x+10}\\)",
+      "allAnswers": [],
+      "tags": "quotient rule, derivative",
+      "url": "/question/8476cb54-10d1-4d40-9efd-4e0b2261e658",
+      "source": "Mooculus 5.2.1",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "63fc88d3-8e56-4a1b-9fb1-942b062030dc",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{x^{2}+5x-3}{x^{5}-6x^{3}+3x^{2}-7x+1}\\)",
+      "allAnswers": [],
+      "tags": "quotient rule, derivative",
+      "url": "/question/63fc88d3-8e56-4a1b-9fb1-942b062030dc",
+      "source": "Mooculus 5.2.2",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "15fd2bf4-0f6c-47ab-b268-e1d454624636",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{e^{x}-4}{2x}\\)",
+      "allAnswers": [],
+      "tags": "quotient rule, derivative",
+      "url": "/question/15fd2bf4-0f6c-47ab-b268-e1d454624636",
+      "source": "Mooculus 5.2.3",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "049f256c-788e-417d-aab0-fc532fc61496",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Find the derivatives of the following function using the quotient rule.\n\\(\\frac{2-x-\\sqrt{x}}{x+2}\\)",
+      "allAnswers": [],
+      "tags": "quotient rule, derivative",
+      "url": "/question/049f256c-788e-417d-aab0-fc532fc61496",
+      "source": "Mooculus 5.2.4",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "db04de30-f8e5-43af-b10d-3ff507e5544d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Find an equation for the tangent line to f(x)\u003d(x\\(^{2}\\)-4)/(5-x) at x \u003d 3.",
+      "allAnswers": [],
+      "tags": "tangent line, quotient rule",
+      "url": "/question/db04de30-f8e5-43af-b10d-3ff507e5544d",
+      "source": "Mooculus 5.2.5",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "db37e422-378c-4578-9be9-12ca8170214e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Find an equation for the tangent line to f(x)\u003d(x-2)/(x\\(^{3}\\)+4x-1) at x \u003d 1.",
+      "allAnswers": [],
+      "tags": "tangent line, quotient rule, equation of tangent line",
+      "url": "/question/db37e422-378c-4578-9be9-12ca8170214e",
+      "source": "Mooculus 5.2.6",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "855946fc-e79e-4269-8692-4864702d3f53",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "The curve y \u003d 1/(1+x\\(^{2}\\)) is an example of a class of curves each of which is called a witch of Agnesi. Find the tangent line to the curve at x \u003d 5. Note, the word witch here is due to a mistranslation. ",
+      "allAnswers": [],
+      "tags": "curves, tangent line, quotient rule",
+      "url": "/question/855946fc-e79e-4269-8692-4864702d3f53",
+      "source": "Mooculus 5.2.7",
+      "topic": "9248dd21-66c0-45f7-8182-3da33850e603"
+    },
+    {
+      "uuid": "0b08f9e2-8193-4393-94fb-74b6f22b55d8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{f(x)}{g(x)}|_{x\u003d2}\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20434.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "derivative, quotient rule",
+      "url": "/question/0b08f9e2-8193-4393-94fb-74b6f22b55d8",
+      "source": "Mooculus 5.2.8",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "79d9d456-f091-4420-adbe-c47aa28262be",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787593,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quotient Rule",
+      "body": "Use the following table to solve the next problem. Note \\(\\frac{d}{dx}f(x)|_{x\u003da}\\) is the derivative of f(x) evaluated at x \u003d a.\n\\(\\frac{d}{dx} \\frac{f(x)}{x}|_{x\u003d3}\\)",
+      "allAnswers": [],
+      "tags": "quotient rule, derivative",
+      "url": "/question/79d9d456-f091-4420-adbe-c47aa28262be",
+      "source": "Mooculus 5.2.9",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     }
   ],
   "textContent": [
@@ -904,7 +829,7 @@
       "tags": "second trigonometric rules, trigonometric functions, integral, integration",
       "url": "/text-content/f1b1160d-539b-44fc-a5b3-ab78d92eea99",
       "source": "Forgotten Text 4 6.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Second Trigonometric Rules"
+      "topic": "13531eff-c45d-41cd-8c02-cd7c1938fc1a"
     },
     {
       "uuid": "0e6ca9f6-26f2-462f-aa1e-920b7900d4e4",
@@ -921,9 +846,57 @@
       "tags": "substitution, integrals, integration, power rule ",
       "url": "/text-content/0e6ca9f6-26f2-462f-aa1e-920b7900d4e4",
       "source": "Forgotten Text 4 6.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Substitution with All Basic Forms"
+      "topic": "8eaa29b0-7c5c-444a-b3ad-3029b559e317"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "f75f1847-5374-4e93-85f4-6ee5d82edcf1",
+      "subTopics": [],
+      "parentTopics": [
+        "8be69d58-e125-4605-85ef-c6a0e05694cb"
+      ],
+      "title": "Separable Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " introduction to differential equations ,separable equations, differential equations,",
+      "difficulty": 721000,
+      "contentUuids": [
+        "a929d930-0365-40e9-98a6-ef3e6bf45967"
+      ]
+    },
+    {
+      "uuid": "81a0ea5c-0d55-4324-bebc-7fc7324375b0",
+      "subTopics": [],
+      "parentTopics": [
+        "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+      ],
+      "title": "General Power Series",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "power series, taylor series, maclaurin series, integral , taylor polynomials, taylor polynomial, derivative,",
+      "difficulty": 696000,
+      "contentUuids": [
+        "8dbd4e56-e280-4f6a-9a81-574eb0a0f4b6",
+        "af255535-af0d-40d2-9bca-eed468220287"
+      ]
+    },
+    {
+      "uuid": "7d507f2d-90e3-4dd0-87ed-dfc768b8d6c0",
+      "subTopics": [],
+      "parentTopics": [
+        "6ee14f55-97cc-4896-94bb-41ff071bd741"
+      ],
+      "title": "Quadratic Regression",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " parabola,regression, quadratic regression, data, models, model, function, goodness of fit,",
+      "difficulty": 257000,
+      "contentUuids": [
+        "9bacdc2d-d280-42d9-98a1-301d59626bef",
+        "f8005107-3c90-4e60-8bb8-56c19c501047"
+      ]
+    }
+  ]
 }

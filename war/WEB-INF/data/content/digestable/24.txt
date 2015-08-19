@@ -2,379 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\((x^2y + xyz) dx \\land dy \\land dz\\) ",
-      "uuid": "c813accc-9594-4ef8-b288-6502ec934927",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/583.png\"/\u003e",
+      "uuid": "81c5b731-da1d-4ccc-a49d-919f03f651ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362112,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Wedge Product Question",
-      "body": " Let  \\(\\omega \u003d x^2y dy \\land dz + xyz dz \\land dx\\)  and  \\(\\mu \u003d dx + dy\\) .    Then         \\[ \\omega \\land \\mu \u003d ______________________.   \\]",
+      "title": "central angle problem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/581.png\"/\u003e",
       "allAnswers": [],
-      "tags": "differential forms, differential forms ,wedge product",
-      "url": "/practice-problem/c813accc-9594-4ef8-b288-6502ec934927",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Differential Forms"
+      "tags": "central angle, linear speed, trig ",
+      "url": "/practice-problem/81c5b731-da1d-4ccc-a49d-919f03f651ec",
+      "source": "null 4.4.1"
     },
     {
-      "authorSolution": " \\(3x^2 + 2\\sin z\\) ,  \\(2y\\) ,  \\(2x\\cos z\\) ",
-      "uuid": "cffe2e11-3553-4404-bbd7-a236b76d33bf",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/585.png\"/\u003e",
+      "uuid": "baba3cb2-4996-4b58-b824-347756cdd8e3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362114,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Exterior Differential Operator",
-      "body": " Let  \\(f(x,y,z) \u003d x^3 + y^2 + 2x\\sin z\\) .    Then          \\[ df \u003d \\text{__________} dx + \\text{_____} dy + \\text{________} dz .   \\]",
+      "title": "Find angular speed",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/584.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the exterior differential operator, exterior differential operator",
-      "url": "/practice-problem/cffe2e11-3553-4404-bbd7-a236b76d33bf",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
+      "tags": "angular speed, gears, trig ",
+      "url": "/practice-problem/baba3cb2-4996-4b58-b824-347756cdd8e3",
+      "source": "null 4.4.2"
     },
     {
-      "authorSolution": " \\(2xy\\sin(xy^2) dx \\land dy \\land dz\\) ",
-      "uuid": "d0df497c-9e06-45eb-89ed-57393cfdb58c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/596.png\"/\u003e",
+      "uuid": "bbfa01d4-8e76-463e-bf91-c7abe3ebf575",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362114,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "The Exterior Differential Operator Problem",
-      "body": " Let  \\(\\omega \u003d \\cos(xy^2) dx \\land dz\\) .    Then (in simplified form)          \\[ d\\omega \u003d ____________________________.   \\]",
+      "title": "Find amplitude of period",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/595.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the exterior differential operator, exterior differential operator",
-      "url": "/practice-problem/d0df497c-9e06-45eb-89ed-57393cfdb58c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
+      "tags": "amplitude, period, cos, trig ",
+      "url": "/practice-problem/bbfa01d4-8e76-463e-bf91-c7abe3ebf575",
+      "source": "null 5.2.1"
     },
     {
-      "authorSolution": " \\(4xy dx \\land dy\\) ",
-      "uuid": "da02bfc7-2b98-4bd1-ba2a-ef8c032e271f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/598.png\"/\u003e",
+      "uuid": "2b7265e4-307b-4b43-91fd-199aa9d3ce5b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362114,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "The Exterior Differential Operator Question",
-      "body": " Let  \\(\\omega \u003d x^2y dy - xy^2 dx\\) .    Then (in simplified form)          \\[ d\\omega \u003d ____________________.   \\]",
+      "title": "Find amplitude of period, sin",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/597.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the exterior differential operator, exterior differential operator",
-      "url": "/practice-problem/da02bfc7-2b98-4bd1-ba2a-ef8c032e271f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
+      "tags": "amplitude, period, sin, trig ",
+      "url": "/practice-problem/2b7265e4-307b-4b43-91fd-199aa9d3ce5b",
+      "source": "null 5.2.2"
     },
     {
-      "authorSolution": " \\(0\\) ,  \\(f_3\\) ,  \\(-f_2\\) ",
-      "uuid": "4e398e82-2c58-467a-baac-977ff443a752",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/600.png\"/\u003e",
+      "uuid": "8627dc63-3800-41fe-a659-181353374aab",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362114,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Exterior Differential Operator",
-      "body": " Let  \\(f\\)  be a  \\(0\\) -form.    Then (in simplified form)          \\[ d(f dx) \u003d  \\text{___}  dy \\land dz                                       + \\text{____}  dz \\land dx                                                                          + \\text{____}  dx \\land dy.   \\]",
+      "title": "Amplitude of period",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/599.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the exterior differential operator, exterior differential operator",
-      "url": "/practice-problem/4e398e82-2c58-467a-baac-977ff443a752",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
+      "tags": "amplitude, period, sin, trig",
+      "url": "/practice-problem/8627dc63-3800-41fe-a659-181353374aab",
+      "source": "null 5.2.3"
     },
     {
-      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(0\\) ",
-      "uuid": "82cad671-f438-49ab-b417-561d80874fc3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/602.png\"/\u003e",
+      "uuid": "6b546799-ae71-4aa3-9696-694873ebb28f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362114,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On The Exterior Differential Operator",
-      "body": " Let  \\(\\omega \u003d yz dx + xz dy + xy dz\\) .    Then          \\[ d\\omega \u003d ____ dy \\land dz + ____ dz \\land dx +                                                                                ____ dx \\land dy.   \\]",
+      "title": "Amplitude and period of function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/601.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the exterior differential operator, exterior differential operator",
-      "url": "/practice-problem/82cad671-f438-49ab-b417-561d80874fc3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
+      "tags": "amplitude, period, sin, cos, trig",
+      "url": "/practice-problem/6b546799-ae71-4aa3-9696-694873ebb28f",
+      "source": "null 5.2.4"
     },
     {
-      "authorSolution": " \\(xz\\) ,  \\(-yz\\) ,  \\(y\\) ",
-      "uuid": "7426e2ff-3f59-4e8c-ba78-9a0f6c971502",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/605.png\"/\u003e",
+      "uuid": "ec9836da-f676-41b3-9789-bea73b2ebe54",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362114,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "The Exterior Differential Operator Practice",
-      "body": " Let  \\(\\omega \u003d x dx + xy dy + xyz dz\\) .    Then          \\[ d\\omega \u003d _______ dy \\land dz + _______ dz \\land dx +                                                                                _______ dx \\land dy.   \\]",
+      "title": "Find the period of function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/604.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the exterior differential operator, exterior differential operator",
-      "url": "/practice-problem/7426e2ff-3f59-4e8c-ba78-9a0f6c971502",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Exterior Differential Operator"
+      "tags": "period, cos, sin, trig ",
+      "url": "/practice-problem/ec9836da-f676-41b3-9789-bea73b2ebe54",
+      "source": "null 5.2.5"
     },
     {
-      "authorSolution": " \\(x^2y + 3y^2z^5\\) ",
-      "uuid": "f65b9425-0d15-4b1e-85fe-8fdba16bd5ee",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/608.png\"/\u003e",
+      "uuid": "78609123-94d4-47b3-880b-c2ab5e69d4a2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362115,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Hodge Star Operator",
-      "body": " If  \\(\\omega\\)  is the  \\(3\\) -form  \\((x^2y + 3y^2z^5) dx \\land dy \\land dz\\)  then  \\(\\ast \\omega\\)  \u003d ___________.",
+      "title": "Amp, period, phase shift of function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/607.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the hodge star operator, Hodge star operator",
-      "url": "/practice-problem/f65b9425-0d15-4b1e-85fe-8fdba16bd5ee",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
+      "tags": "amplitude, period, phase shift, trig ",
+      "url": "/practice-problem/78609123-94d4-47b3-880b-c2ab5e69d4a2",
+      "source": "null 5.2.6"
     },
     {
-      "authorSolution": " \\(3z + 2yz\\) ",
-      "uuid": "3772f1a6-39ee-41a7-8b36-fe1c133deef7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/610.png\"/\u003e",
+      "uuid": "3a1e9de8-85f1-4234-8d70-2c3e336e2abd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362116,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A The Hodge Star Operator Question",
-      "body": " Let  \\(\\omega \u003d 3xz dx + y^2z dy + x^2y^3 dz\\) .   Then  \\(\\ast d\\ast \\omega\\)  \u003d ____________.",
+      "title": "amp, period, phase shift of function, pt. 2",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/609.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the hodge star operator, Hodge star operator",
-      "url": "/practice-problem/3772f1a6-39ee-41a7-8b36-fe1c133deef7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
+      "tags": "amplitude, period, phase shift, trig ",
+      "url": "/practice-problem/3a1e9de8-85f1-4234-8d70-2c3e336e2abd",
+      "source": "null 5.2.7"
     },
     {
-      "authorSolution": " \\(\\ast(\\omega \\land (\\ast\\mu) )\\)  \\quad (\\textbf{or}  \\(\\ast( (\\ast\\omega) \\land \\mu)\\) )",
-      "uuid": "55d7faaf-f748-465a-9465-38ddcd900e75",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/617.png\"/\u003e",
+      "uuid": "4356aace-aed9-4ece-b27c-435812eae31b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362116,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Hodge Star Operator Practice",
-      "body": " Suppose we wish to define the  \\index{inner product}%  \\index{dot product}%  \\index{product!inner}%  \\index{product!dot}% \\df{inner product} (or \\df{dot product}) of two  \\(1\\) -forms  \\(\\omega \u003d P dx + Q dy + R dz\\)  and  \\(\\mu \u003d S dx + T dy + U dz\\)  to be the  \\(0\\) -form  \\(PS + QT + RU\\) .    Rephrase this definition without mentioning the components of  \\(\\omega\\)  and \\(\\mu\\) .   Answer:  \\(\\langle \\omega, \\mu range ofgle \u003d \\omega \\cdot \\mu\\)  \u003d ____________.",
+      "title": "Find inverse trig value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/616.png\"/\u003e",
       "allAnswers": [],
-      "tags": "the hodge star operator, Hodge star operator",
-      "url": "/practice-problem/55d7faaf-f748-465a-9465-38ddcd900e75",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
-    },
-    {
-      "authorSolution": " \\((xz + 1)e^{xz} + z\\) ,  \\(0\\) ,  \\(x(1 + xe^{xz})\\) ",
-      "uuid": "2f1be94e-5b8e-4a1e-869f-80b10e6125f9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362116,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Hodge Star Operator",
-      "body": " Let  \\(\\omega \u003d \\sin(yz) dy \\land dz + xyz dz \\land dx + e^{xz} dx \\land dy\\) .    Then  \\(d\\ast d\\omega \u003d P dx + Q dy + R dz\\)  where  \\(P\\) \u003d_____________,  \\(Q\\) \u003d____, and  \\(R\\) \u003d___________.",
-      "allAnswers": [],
-      "tags": "the hodge star operator, Hodge star operator",
-      "url": "/practice-problem/2f1be94e-5b8e-4a1e-869f-80b10e6125f9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
-    },
-    {
-      "authorSolution": " \\(\\ast(\\omega \\land \\mu \\land \\eta)\\) ",
-      "uuid": "51380522-00f4-48ba-a1b8-e03bce7cb635",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362116,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In The Hodge Star Operator",
-      "body": " Suppose we wish to define the  \\index{scalar!triple product}%  \\index{product!scalar triple}% \\df{scalar triple product}  \\([\\omega, \\mu, \\eta]\\)  of three  \\(1\\) -forms  \\(\\omega \u003d P dx + Q dy + R dz\\) ,  \\(\\mu \u003d S dx + T dy + U dz\\) , and  \\(\\eta \u003d V dx + W dy + X dz\\)  to be the  \\(0\\) -form  \\(\\det\\begin{bmatrix} P \u0026 Q \u0026 R  \\\\                                                                            S \u0026 T \u0026 U  \\\\                                                                            V \u0026 W \u0026 X                                                            \\end{bmatrix}\\) .    Rephrase this definition without mentioning the components of  \\(\\omega\\) ,  \\(\\mu\\) , and \\(\\eta\\) .   Answer:  \\([\\omega, \\mu, \\eta]\\)  \u003d ____________.",
-      "allAnswers": [],
-      "tags": "the hodge star operator, Hodge star operator, word problem",
-      "url": "/practice-problem/51380522-00f4-48ba-a1b8-e03bce7cb635",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Hodge Star Operator"
-    },
-    {
-      "authorSolution": "is,  \\(\\exp(xy)\\) ",
-      "uuid": "3be57d42-3c2c-4cce-b868-78720bb81598",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362118,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Closed And Exact Differential Forms Practice",
-      "body": " The  \\(1\\) -form  \\(\\omega \u003d ye^{xy} dx + xe^{xy} dy\\)  ________ (is/is not) exact.    If it is then  \\(\\omega \u003d df\\)  where  \\(f(x,y,z)\\)  \u003d ___________.",
-      "allAnswers": [],
-      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
-      "url": "/practice-problem/3be57d42-3c2c-4cce-b868-78720bb81598",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
-    },
-    {
-      "authorSolution": "is,  \\(\\arcsin x  \\arctan y + \\dfrac{x^2}{2y} + x^3 + e^y\\) ",
-      "uuid": "576265da-0a78-40bd-8c69-69b8e6f8aed6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362118,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Exact Differential Forms",
-      "body": " The  \\(1\\) -form  \\(\\omega \u003d \\left(\\dfrac{\\arctan y}{\\sqrt{1-x^2}} + \\dfrac xy + 3x^2\\right) dx + \\left(\\dfrac{\\arcsin x}{1+y^2} - \\dfrac{x^2}{2y^2} + e^y\\right) dy\\)  _____ (is/is not) exact.    If it is then  \\(\\omega \u003d df\\)  where     \\[ f(x,y,z) \u003d \\text{__________________________________}.   \\]",
-      "allAnswers": [],
-      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
-      "url": "/practice-problem/576265da-0a78-40bd-8c69-69b8e6f8aed6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
-    },
-    {
-      "authorSolution": "is,  \\(\\exp(xyz) + x^2y^3 + y\\sin z + z^4\\) ",
-      "uuid": "1cf1a072-71d4-4a4f-950c-4e0400c2b516",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362118,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Exact Differential Forms Practice",
-      "body": " The  \\(1\\) -form  \\(\\omega \u003d (yze^{xyz} + 2xy^3) dx + (xze^{xyz} + 3x^2y^2 + \\sin z) dy + (xye^{xyz} + y\\cos z + 4z^3) dz\\)  ______ (is/is not) exact.    If it is, then  \\(\\omega \u003d df\\)  where     \\[ f(x,y,z) \u003d \\text{__________________________________}.   \\]",
-      "allAnswers": [],
-      "tags": "closed and exact differential forms, closed differential forms ,exact differential forms",
-      "url": "/practice-problem/1cf1a072-71d4-4a4f-950c-4e0400c2b516",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Closed Differential Forms"
+      "tags": "inverse trig function, inverse trig ",
+      "url": "/practice-problem/4356aace-aed9-4ece-b27c-435812eae31b",
+      "source": "null 5.3.1"
     }
   ],
   "questions": [
-    {
-      "uuid": "e3a9567f-f689-4761-aae4-2ee2cac5442c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_{-2}^x (t^2-2t)\\ dt\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
-      "url": "/question/e3a9567f-f689-4761-aae4-2ee2cac5442c",
-      "source": "AP Calculus Problems 6.1.80",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "72474270-763a-42df-a14a-742436b4c730",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_{-1}^x \\sqrt{t^4+1}\\ dt\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
-      "url": "/question/72474270-763a-42df-a14a-742436b4c730",
-      "source": "AP Calculus Problems 6.1.81",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "a0e2f9b0-b76c-4f6d-a735-937fb8764b54",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Solve each system of equations.\n\\(\\begin{cases} x-y\u003d-7\\\\ \\frac{1}{2}x+3y\u003d14 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "system of equations, graphs of functions",
-      "url": "/question/a0e2f9b0-b76c-4f6d-a735-937fb8764b54",
-      "source": "AP Calculus Problems 1.7.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "43227eb3-834f-4568-bb35-4d7582ab74c4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_0^x \\tan^4 t\\ dt\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
-      "url": "/question/43227eb3-834f-4568-bb35-4d7582ab74c4",
-      "source": "AP Calculus Problems 6.1.82",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "6427e214-2b8f-4a8b-b581-5e39508dd39d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Solve each system of equations.\n\\(\\begin{cases} 8x-5y\u003d1\\\\ 5x-8y\u003d-1 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "system of equations, graphs of equations",
-      "url": "/question/6427e214-2b8f-4a8b-b581-5e39508dd39d",
-      "source": "AP Calculus Problems 1.7.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "2765563d-f6f5-406d-8c23-dbc2d0223d62",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_0^x t\\cos t\\ dt\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
-      "url": "/question/2765563d-f6f5-406d-8c23-dbc2d0223d62",
-      "source": "AP Calculus Problems 6.1.83",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
     {
       "uuid": "9a8679b0-f9c1-40a1-ab1e-133a9d0ee951",
       "contentType": "question",
@@ -390,7 +188,7 @@
       "tags": "graphs of functions, system of equations, limits",
       "url": "/question/9a8679b0-f9c1-40a1-ab1e-133a9d0ee951",
       "source": "AP Calculus Problems 1.7.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "c1794c38-6bca-4ee6-a488-5014eac0841d",
@@ -407,7 +205,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/c1794c38-6bca-4ee6-a488-5014eac0841d",
       "source": "AP Calculus Problems 6.1.84",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "10e45f72-242f-4a89-a62d-39eeb926f0a6",
@@ -424,7 +222,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/10e45f72-242f-4a89-a62d-39eeb926f0a6",
       "source": "AP Calculus Problems 6.1.85",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "0a06dfec-abc1-41c8-ae51-1479e3135f09",
@@ -441,7 +239,7 @@
       "tags": "graphs of functions, domain, y-intercept, asymptotes ",
       "url": "/question/0a06dfec-abc1-41c8-ae51-1479e3135f09",
       "source": "AP Calculus Problems 1.7.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "afa83720-74f1-4357-8ddc-27a825c83caa",
@@ -458,7 +256,7 @@
       "tags": "graphs of functions, domain, y-intercepts, asymptotes",
       "url": "/question/afa83720-74f1-4357-8ddc-27a825c83caa",
       "source": "AP Calculus Problems 1.7.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "7998cb50-fbe7-4f61-94b5-68d319212f83",
@@ -475,7 +273,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/7998cb50-fbe7-4f61-94b5-68d319212f83",
       "source": "AP Calculus Problems 6.1.86",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "b4aef14f-2012-42cb-8b5e-1bc8cb198d08",
@@ -492,7 +290,7 @@
       "tags": "graphs of functions, domain, y-intercepts, asymptotes ",
       "url": "/question/b4aef14f-2012-42cb-8b5e-1bc8cb198d08",
       "source": "AP Calculus Problems 1.7.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "beda9834-1a41-45c5-9fb6-85a756e40508",
@@ -509,7 +307,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/beda9834-1a41-45c5-9fb6-85a756e40508",
       "source": "AP Calculus Problems 6.1.87",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "0a51c4f5-c3b1-464e-8143-14f05946a4e5",
@@ -526,7 +324,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/0a51c4f5-c3b1-464e-8143-14f05946a4e5",
       "source": "AP Calculus Problems 6.1.88",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "7dd4dd5f-0b02-4359-9495-d95211b82ef4",
@@ -543,7 +341,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/7dd4dd5f-0b02-4359-9495-d95211b82ef4",
       "source": "AP Calculus Problems 6.1.89",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "7b11818f-608d-4777-acb7-b6cc9ba53087",
@@ -560,7 +358,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/7b11818f-608d-4777-acb7-b6cc9ba53087",
       "source": "AP Calculus Problems 1.7.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "3a3d3374-0a6a-488a-8bb4-a2f052a7164a",
@@ -577,7 +375,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/3a3d3374-0a6a-488a-8bb4-a2f052a7164a",
       "source": "AP Calculus Problems 6.1.90",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "4af3b7e1-b758-4435-a71f-0000469d67f0",
@@ -594,7 +392,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/4af3b7e1-b758-4435-a71f-0000469d67f0",
       "source": "AP Calculus Problems 1.7.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f7ec5724-4056-490b-8fbb-2e9ac598307c",
@@ -611,7 +409,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/f7ec5724-4056-490b-8fbb-2e9ac598307c",
       "source": "AP Calculus Problems 6.1.91",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "ab177ac6-3885-4728-95a9-0f271b29fad9",
@@ -628,7 +426,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/ab177ac6-3885-4728-95a9-0f271b29fad9",
       "source": "AP Calculus Problems 1.7.19",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "efa8c901-d679-4e0a-8a6e-ee5f72b02383",
@@ -645,7 +443,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/efa8c901-d679-4e0a-8a6e-ee5f72b02383",
       "source": "AP Calculus Problems 6.1.92",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "69fee62e-56cc-4267-965e-8364c37a3697",
@@ -662,7 +460,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/69fee62e-56cc-4267-965e-8364c37a3697",
       "source": "AP Calculus Problems 1.7.20",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d02789b9-2935-452e-90fc-2d4fca3d1535",
@@ -679,7 +477,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/d02789b9-2935-452e-90fc-2d4fca3d1535",
       "source": "AP Calculus Problems 6.1.93",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "962e4837-ed59-48f4-a737-a387f802956e",
@@ -696,7 +494,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/962e4837-ed59-48f4-a737-a387f802956e",
       "source": "AP Calculus Problems 1.7.21",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "4fff5170-1526-4a50-b95f-390327147fdc",
@@ -713,7 +511,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/4fff5170-1526-4a50-b95f-390327147fdc",
       "source": "AP Calculus Problems 6.1.94",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "a2da931a-4957-4e9e-ba64-665162e72dca",
@@ -730,7 +528,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/a2da931a-4957-4e9e-ba64-665162e72dca",
       "source": "AP Calculus Problems 1.7.23",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "7bf21f7d-15a2-43c7-83c5-c44a875f7da5",
@@ -747,7 +545,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/7bf21f7d-15a2-43c7-83c5-c44a875f7da5",
       "source": "AP Calculus Problems 6.1.95",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "9bcea53e-2ccc-4267-99a3-62940a03cb3b",
@@ -764,7 +562,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/9bcea53e-2ccc-4267-99a3-62940a03cb3b",
       "source": "AP Calculus Problems 6.1.96",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "2aaecebf-8009-4ad8-96dd-b420b01bf264",
@@ -781,7 +579,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/2aaecebf-8009-4ad8-96dd-b420b01bf264",
       "source": "AP Calculus Problems 6.1.97",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "306aae99-f8d4-40d8-bfae-17ddbd4dd0b1",
@@ -798,7 +596,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/306aae99-f8d4-40d8-bfae-17ddbd4dd0b1",
       "source": "AP Calculus Problems 6.1.98",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "a28f37bf-afb0-41cc-be50-6a01b37002a4",
@@ -815,7 +613,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/a28f37bf-afb0-41cc-be50-6a01b37002a4",
       "source": "AP Calculus Problems 6.1.99",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "c494f6f0-8a70-4703-8e7b-210d93f85059",
@@ -832,7 +630,7 @@
       "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
       "url": "/question/c494f6f0-8a70-4703-8e7b-210d93f85059",
       "source": "AP Calculus Problems 6.1.100",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Average Value of a Function/On an Interval"
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     },
     {
       "uuid": "a080a4ba-f228-49f8-a23e-ca889e18ba42",
@@ -844,12 +642,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Graphs",
-      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to -4^+} h(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20457.png\"/\u003e",
+      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to -4^+} h(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20457.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by graphs",
       "url": "/question/a080a4ba-f228-49f8-a23e-ca889e18ba42",
       "source": "AP Calculus Problems 1.8.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "119cb1e1-f9b2-4888-b4b9-09a95b144566",
@@ -861,12 +659,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Graphs",
-      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to -4^-} h(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20457.png\"/\u003e",
+      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to -4^-} h(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20457.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by graphs",
       "url": "/question/119cb1e1-f9b2-4888-b4b9-09a95b144566",
       "source": "AP Calculus Problems 1.8.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "c95360b5-858b-45dd-b851-43ada6f24772",
@@ -878,12 +676,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Graphs",
-      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to\\infty} h(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20457.png\"/\u003e",
+      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to\\infty} h(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20457.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by graphs",
       "url": "/question/c95360b5-858b-45dd-b851-43ada6f24772",
       "source": "AP Calculus Problems 1.8.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f50498b7-f8f8-428c-acc9-7252bc6738b0",
@@ -895,12 +693,114 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits by Graphs",
-      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to -\\infty} h(x)\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20457.png\"/\u003e",
+      "body": "Refer to the graph of \\(h(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to -\\infty} h(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20457.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, limits by graphs",
       "url": "/question/f50498b7-f8f8-428c-acc9-7252bc6738b0",
       "source": "AP Calculus Problems 1.8.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "e88b6051-3abb-4d73-819c-ce93249b62f3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits by Graphs",
+      "body": "Refer to the graph of \\(g(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to a^+} g(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20458.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits, limits by graphs",
+      "url": "/question/e88b6051-3abb-4d73-819c-ce93249b62f3",
+      "source": "AP Calculus Problems 1.8.5",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "94ce18e3-6a4e-4430-8bd9-3545b03ae9f1",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits by Graphs",
+      "body": "Refer to the graph of \\(g(x)\\) to evaluate the following limits.\n\\(\\lim\\limits_{x\\to a^-} g(x)\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20458.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits, limits by graphs",
+      "url": "/question/94ce18e3-6a4e-4430-8bd9-3545b03ae9f1",
+      "source": "AP Calculus Problems 1.8.6",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "3ed671e8-20ba-41a2-bd57-8fe2b08bf88a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Definite Integrals",
+      "body": "\\(y\u003d\\dint_0^{3x} \\sqrt{1+t^3}\\ dt\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
+      "url": "/question/3ed671e8-20ba-41a2-bd57-8fe2b08bf88a",
+      "source": "AP Calculus Problems 6.1.101",
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
+    },
+    {
+      "uuid": "79a91547-68d4-4242-afee-ec1f050df93c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Definite Integrals",
+      "body": "\\(\\dint_0^{\\pi/3} 2\\sec^2 x\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
+      "url": "/question/79a91547-68d4-4242-afee-ec1f050df93c",
+      "source": "AP Calculus Problems 6.1.102",
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
+    },
+    {
+      "uuid": "dc08e73e-084b-4af1-af3d-47ffd61c282d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Definite Integral",
+      "body": "\\(\\dint_{-\\pi/2}^{\\pi/2} (8y^2+\\sin y)\\ dy\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
+      "url": "/question/dc08e73e-084b-4af1-af3d-47ffd61c282d",
+      "source": "AP Calculus Problems 6.1.103",
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
+    },
+    {
+      "uuid": "ed93f425-fbc8-4a10-807d-ded55c829e25",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787603,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Definite Integral",
+      "body": "\\(\\dint_4^9 \\frac{1-\\sqrt{u}}{\\sqrt{u}}\\ du\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, rates, average value, interval",
+      "url": "/question/ed93f425-fbc8-4a10-807d-ded55c829e25",
+      "source": "AP Calculus Problems 6.1.104",
+      "topic": "f162cacb-808a-40c4-b43a-4f26158265a5"
     }
   ],
   "textContent": [
@@ -919,7 +819,7 @@
       "tags": "limit, lagrange theorem, taylor polynomials, taylor series, fibonacci numbers, recursion relation ",
       "url": "/text-content/50144902-92d3-4b4b-9802-20aa0f7c04c4",
       "source": "Forgotten Text 7 2.16",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Limit approaching 0"
+      "topic": "a6a81cf7-8b13-427a-a3a2-361367366954"
     },
     {
       "uuid": "fb189558-3d09-4368-9623-925ed505f7ba",
@@ -936,9 +836,66 @@
       "tags": "sandwich theorem, limit, infinity, taylor polynomials, sequences",
       "url": "/text-content/fb189558-3d09-4368-9623-925ed505f7ba",
       "source": "Forgotten Text 7 2.17",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Limit approaching infinity"
+      "topic": "44d9c05a-72ab-4a08-9e94-c25536e7bca2"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "7b191e73-6552-43d2-a3cf-be528d04af9b",
+      "subTopics": [
+        "67e949f7-77cd-4569-98b7-eeead8786fc9",
+        "eab44214-d4d4-4dd6-959f-d25967baf8af",
+        "35bcb0a4-3f9f-404e-920f-efcd33c70fbd",
+        "0533c89b-d45c-4f30-8ab0-16f7bb439fca"
+      ],
+      "parentTopics": [
+        "fb051bbf-fd62-437d-a29e-2e27d5591574"
+      ],
+      "title": "Radical Functions + Rational Exponents",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 24000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "b12d22de-1d17-4ff1-ad06-7fcba9b07b8e",
+      "subTopics": [],
+      "parentTopics": [
+        "fc94f2e9-9621-42b3-869b-74d8f3fd2cc9"
+      ],
+      "title": "Central Angles",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "acute angle, angle, acute, tan,",
+      "difficulty": 169000,
+      "contentUuids": [
+        "d74e4cc0-63f1-446d-b7c2-262d26b979c6"
+      ]
+    },
+    {
+      "uuid": "d058002d-1c97-4ce5-ba84-e8512a0cfb7a",
+      "subTopics": [],
+      "parentTopics": [
+        "6846ecf2-fa29-41a0-8315-fd49f306572b"
+      ],
+      "title": "Vector Addition",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " vector arithmetic, vector magnitude, dot product, vectors, word problem,vector addition, physics, tension, vector multiplication, magnitude,vector dot product, vector addition,dot product, lol, vectors ,",
+      "difficulty": 239000,
+      "contentUuids": [
+        "77edd807-d8b5-49ac-b63e-40cdcf748bc5",
+        "c10312b4-d978-4ee6-b75e-d2682aae36c7",
+        "c62c0fc7-800f-4aeb-a2c8-9acf59f1f4d6",
+        "044cfdbf-93d6-4baf-a08b-7cc74e137874",
+        "f3e3feb5-e521-4189-a70d-6410899a67fc",
+        "a2e93bc9-1906-469a-84d2-3ce646f95852",
+        "cd9e8a50-3c20-4716-bb5b-bbc62cefbbbc",
+        "5a8126f6-0d78-4b63-93d9-0fb62d0f30f7",
+        "b5ee258c-8585-47d2-98a4-1a6452a46b3f"
+      ]
+    }
+  ]
 }

@@ -2,465 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(-2\\) ,  \\(4\\) ",
-      "uuid": "ebe62545-6678-42ec-a4e2-ffbfd6e3ca81",
+      "authorSolution": " \\(\\dfrac\\pi3\\) ,  \\(\\dfrac\\pi3\\) , local maximum",
+      "uuid": "2ee9f5ff-633f-4e57-ac0c-f9b6c4269d19",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361803,
+      "createdAt": 1437419362052,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Techniques Of Differentiation Problem",
-      "body": " Find  when  \\(\\D y \u003d (\\sin x)^{\\tan x}\\)  for  \\(0 \u003c x \u003c \\pi/2\\) .   Then  \\(\\dfrac{dy}{dx} \u003d (\\sin x)^{\\tan x}(a + f(x)\\sec^2x)\\)  where  \\(a\u003d\\) ___ and  \\(f(x)\u003d\\) _________.",
+      "title": "More Applications Of The Derivative Problem",
+      "body": " Let  \\(f(x,y) \u003d -\\frac12xy + \\dfrac2x - \\dfrac1y\\) .    The only critical point of  \\(f\\)  is located at (__,___) and it is a ________________.",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/ebe62545-6678-42ec-a4e2-ffbfd6e3ca81",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/2ee9f5ff-633f-4e57-ac0c-f9b6c4269d19",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(-2\\) ,  \\(5\\) ,  \\(-25\\) ",
-      "uuid": "45f7c692-1f7b-41fe-8a2e-705f353842b9",
+      "authorSolution": " \\(1\\) ,  \\(2\\) ,  \\(\\dfrac\\pi2\\) , saddle points",
+      "uuid": "62bfd11a-d696-4803-9dbe-f70bdcb3e6e4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361803,
+      "createdAt": 1437419362052,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Techniques Of Differentiation",
-      "body": " If  \\(f(x) \u003d x^3e^x\\) , then  \\(f\u0027\u0027\u0027(x) \u003d (ax^3+bx^2+cx+d)e^x\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___,  \\(c\\) \u003d____, and  \\(d\\) \u003d___.",
+      "title": "Practice With Global Extrema",
+      "body": " Let  \\(f(x,y,z) \u003d x^3y + z^2 - 3x - y + 4z + 5\\) .   The only critical point of the function  \\(f\\)  is located at ( __ , __ , ___ ) and it is a _______________.",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/45f7c692-1f7b-41fe-8a2e-705f353842b9",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/62bfd11a-d696-4803-9dbe-f70bdcb3e6e4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(-4\\) ,  \\(4\\) ",
-      "uuid": "fcd4a506-2dcd-4b00-bb43-6b58d3090a89",
+      "authorSolution": " \\(-1\\) ,  \\(1\\) ,  \\(1\\) ,  \\(3\\) ,  \\(2\\) ,  \\(2\\) ,  \\(0\\) ",
+      "uuid": "83b26bd6-5cb4-4b9c-b69e-90eccc44d839",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361803,
+      "createdAt": 1437419362052,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Techniques Of Differentiation Question",
-      "body": " Let  \\(f(x)\u003d(x^4 - x^3 + x^2 - x + 1)(3x^3 - 2x^2 + x - 1)\\) .   Use the rule for differentiating products to find  \\(f\u0027(1)\\) .   Answer: ___.",
+      "title": "Practice In Optimization Of Functions Of Several Variables",
+      "body": " Suppose that  \\(f\\colon \\R^2 \\sto \\R\\) ,  \\(f(2,1) \u003d -3\\) ,  \\(\\nabla f(2,1) \u003d (2,0)\\)  and the Hessian matrix of  \\(f\\)  at  \\((a,b)\\)  is  \\(\\begin{bmatrix} 2 \u0026 -3 \\\\ -3 \u0026 4 \\end{bmatrix}\\)  for all  \\((a,b)\\) .   Then  \\(f(x,y,z) \u003d \\text{______________________.}\\) ",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/fcd4a506-2dcd-4b00-bb43-6b58d3090a89",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/83b26bd6-5cb4-4b9c-b69e-90eccc44d839",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(15\\) ,  \\(2\\) ",
-      "uuid": "4febf111-258f-41c1-bd0e-6b76b8e877a5",
+      "authorSolution": " \\(-3\\) ,  \\(1\\) ,  \\(1\\) ,  \\(25\\) ,  \\(3\\) ,  \\(0\\) ",
+      "uuid": "6ce712a7-8995-490f-88fa-63bb937fe658",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361804,
+      "createdAt": 1437419362052,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Techniques Of Differentiation",
-      "body": " Find a point on the curve  \\(y \u003d \\dfrac{x^2}{x^3 - 2}\\)  where the tangent line is parallel to the line  \\(4x + 6y - 5 \u003d 0\\) .    Answer: (___,____).",
+      "title": "Lagrange Multipliers Practice",
+      "body": " Let  \\(f(x,y) \u003d xy - x^2 + 10\\)  be defined over the rectangular region  \\([0,5] \\times [0,4]\\) .   The global minimum of  \\(f\\)  is _____ and occurs at the point (__,__).    The global maximum of  \\(f\\)  is ____ and occurs at the point (__,__).",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/4febf111-258f-41c1-bd0e-6b76b8e877a5",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/6ce712a7-8995-490f-88fa-63bb937fe658",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(-2\\) ,  \\(-\\dfrac43\\) ",
-      "uuid": "f9ffe98f-87b8-42e9-959a-92ec80f356b2",
+      "authorSolution": " \\(-5\\) ,  \\(1\\) ,  \\(2\\) ,  \\(68\\) ,  \\(3\\) ,  \\(5\\) ",
+      "uuid": "6e70b8f6-9064-47d3-ac88-89f09b0f1d60",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361804,
+      "createdAt": 1437419362052,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Techniques Of Differentiation",
-      "body": " Let  \\(f(x) \u003d (2x - 3)\\csc x + (2 + 3x - x^2)\\cot x \\csc x\\) .    Then  \\(\\dfrac{ax^2 + bx + c}{\\sin x}\\)  is an antiderivative of  \\(f(x)\\)  if  \\(a\\) \u003d___,  \\(b\\) \u003d____, and  \\(c\\) \u003d____.",
+      "title": "Lagrange Multipliers Question",
+      "body": " Let  \\(f(x,y) \u003d 3x^2 - 2xy + 3y^2 - 10x + 6y + 8\\)  be defined on the square region  \\([0,2] \\times [-1,1]\\) .    The global minimum of  \\(f\\)  is ____ and occurs at the point (_____,_____).   The global maximum of  \\(f\\)  is ____ and occurs at the point (__,__).",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/f9ffe98f-87b8-42e9-959a-92ec80f356b2",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/6e70b8f6-9064-47d3-ac88-89f09b0f1d60",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(-5\\) ",
-      "uuid": "4e349a16-6b2f-4d1f-a3b0-e08aba58178d",
+      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(6\\) ,  \\(2\\sqrt3\\) ,  \\(\\sqrt3\\) ,  \\(6\\) ",
+      "uuid": "8531f78e-cf22-40ba-ab2d-e842207327b3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361804,
+      "createdAt": 1437419362052,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Techniques Of Differentiation",
-      "body": " Let  \\(f(x) \u003d (x^4 + x^3 + x^2 + x + 1)(x^5 + x^3 + x + 2)\\) .   Find the equation of the tangent line to the curve  \\(y \u003d f(x)\\)  at the point on the curve whose  \\(x\\) -coordinate is \\(-1\\) .   Answer:  \\(y \u003d ax + b\\)  where  \\(a\u003d\\) ____ and \\(b\u003d\\) ____.",
+      "title": "Optimization Of Functions Of Several Variables",
+      "body": " Let  \\(f(x,y) \u003d x^2 + 2xy + 4x - y^2 - 8y - 6\\)  be defined on the triangular region whose vertices are  \\((0,0)\\) ,  \\((0,-8)\\) , and  \\((4,-4)\\) .    The global minimum of  \\(f\\)  is ____ and occurs at the point (___,___).    The global maximum of  \\(f\\)  is ____ and occurs at the point (___,___).",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/4e349a16-6b2f-4d1f-a3b0-e08aba58178d",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/8531f78e-cf22-40ba-ab2d-e842207327b3",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
-    },
-    {
-      "authorSolution": " \\(\\sqrt 3\\) ",
-      "uuid": "d35820c0-251b-4514-937e-adf8f3c38322",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361808,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Mean Value Theorem Practice",
-      "body": " Let  \\(M \u003e 0\\)  and  \\(f(x) \u003d x^3\\)  for  \\(0 \\le x \\le M\\) .    Find a value of  \\(c\\)  which satisfies the conclusion of the \u003ci\u003emean value theorem\u003c/i\u003e for the function  \\(f\\)  over the interval \\([0,M]\\) .   Answer: \\(c \u003d \\dfrac Ma\\)  where  \\(a\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "the mean value theorem,",
-      "url": "/practice-problem/d35820c0-251b-4514-937e-adf8f3c38322",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Mean Value Theorem"
-    },
-    {
-      "authorSolution": " \\(9\\) ",
-      "uuid": "90d0b206-1683-4be0-89c1-d86d82263ee5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361808,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Mean Value Theorem Problem",
-      "body": " Let  \\(f(x) \u003d \\sqrt x\\)  for  \\(4 \\le x \\le 16\\) .   Find a point  \\(c\\)  whose existence is guaranteed by the \u003ci\u003emean value theorem\u003c/i\u003e.   Answer: \\(c\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "the mean value theorem,",
-      "url": "/practice-problem/90d0b206-1683-4be0-89c1-d86d82263ee5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Mean Value Theorem"
-    },
-    {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "d96e9027-9b5e-4cd1-ad79-7b5103a23207",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361813,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In L\u0027h",
-      "body": "  \\(\\lim_{x \\sto 0}\\frac{\\frac13x^3+2x-2\\sin x}{4x^3} \u003d \\frac1a\\)  where  \\(a\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/d96e9027-9b5e-4cd1-ad79-7b5103a23207",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(\\dfrac12 n(n+1)\\) ",
-      "uuid": "b7c5aa01-88ce-4ead-8178-dbdbbd7f603d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361813,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "L\u0027h Practice",
-      "body": "  \\(\\lim_{t \\sto 1}\\frac{nt^{n+1}-(n+1)t^n+1}{(t-1)^2}\\)  \u003d ____________ when \\(n \\ge 2\\) .",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/b7c5aa01-88ce-4ead-8178-dbdbbd7f603d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "3a3b9b88-7e5a-4d9e-84dd-2eadd0105d71",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361813,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "L\u0027h Question",
-      "body": "  \\(\\lim_{x \\sto 2}\\frac{x^4 - 4x^3 + 5x^2 - 4x + 4}{x^4 - 4x^3 + 6x^2 - 8x + 8} \u003d \\frac a6\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/3a3b9b88-7e5a-4d9e-84dd-2eadd0105d71",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(19\\) ",
-      "uuid": "979a3789-8953-4b4f-be60-8884357a6579",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361813,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "L\u0027h",
-      "body": "  \\(\\lim_{x \\sto 1}\\frac{x^5 - 1}{6x^5 - 4x^3 + x - 3} \u003d \\frac5a\\)  where  \\(a\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/979a3789-8953-4b4f-be60-8884357a6579",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "601463dc-1323-4f6a-9c86-a0866d58a8d2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361813,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On L\u0027hopital\u0027s Rule",
-      "body": " Suppose that  \\(g\\)  has derivatives of all orders, that  \\(g(0) \u003d g\u0027(0) \u003d 0\\) , that  \\(g\u0027\u0027(0) \u003d 10\\) , that  \\(g\u0027\u0027\u0027(0) \u003d 12\\) , and that there is a deleted neighborhood of 0 in which  \\(g(x)\\) ,  \\(g\u0027(x)\\) ,  \\(xg\u0027(x)-g(x)-5x^2\\) , and  \\(g\u0027\u0027(x)-10\\)  are never zero.   Let  \\(f(x) \u003d \\dfrac{g(x)}x\\)  for  \\(x \\ne 0\\)  and  \\(f(0) \u003d 0\\) .   Then  \\(f\u0027\u0027(0)\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/601463dc-1323-4f6a-9c86-a0866d58a8d2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
       "authorSolution": " \\(12\\) ",
-      "uuid": "5bac9c3b-8e70-4b04-a95e-f73f42cc61bb",
+      "uuid": "e4fdf668-c15d-4ba8-bd1c-b1ef2fd3c16c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361814,
+      "createdAt": 1437419362053,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "L\u0027hopital\u0027s Rule Practice",
-      "body": "  \\(\\lim_{x \\sto 0}\\frac{x^2 + 2\\cos x - 2}{x^4} \u003d \\frac1a\\)  where  \\(a\u003d\\) ____.",
+      "title": "Local Extrema",
+      "body": " Let  \\(D \u003d \\left\\{(x,y): x^2 + y^2 \\le1 \\right\\}\\)  be the closed unit disk in \\(\\R^2\\) .   At each point  \\((x,y)\\)  in  \\(D\\)  the temperature  \\( T\\)  is given by  \\( T(x,y) \u003d x^2 + 2y^2 - y + 3\\) .    The coldest point on the disk is (___,____); at that point the temperature is  \\(\\dfrac a8\\)  where  \\(a\\) \u003d____.    The hottest point on the disk is (___,____); at that point the temperature is ___.",
       "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/5bac9c3b-8e70-4b04-a95e-f73f42cc61bb",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/e4fdf668-c15d-4ba8-bd1c-b1ef2fd3c16c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "14c67114-29d3-432f-b456-fe07fcf4bcf7",
+      "authorSolution": " \\(7\\) ",
+      "uuid": "39840912-ab64-4fd1-a160-816b02d4ebbb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361814,
+      "createdAt": 1437419362053,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "L\u0027hopital\u0027s Rule",
-      "body": "  \\(\\lim_{x \\sto 0}\\frac{x^2 + 2\\ln(\\cos x)}{x^4} \u003d -\\dfrac1a\\)  where  \\(a\\) \u003d___.",
+      "title": "Saddle Points Problem",
+      "body": " The maximum value achieved by   \\(x+3y+4z\\)  on the sphere  \\(x^2 + y^2 + z^2 \u003d 13\\)  is  \\(a\\sqrt 2\\)  where  \\(a\\) \u003d_____.",
       "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/14c67114-29d3-432f-b456-fe07fcf4bcf7",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/39840912-ab64-4fd1-a160-816b02d4ebbb",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     },
     {
-      "authorSolution": " \\(\\dfrac1e\\) ",
-      "uuid": "faa9b6ee-467d-4ef1-ad29-1d7e74223670",
+      "authorSolution": "no maximum exists",
+      "uuid": "8532445d-3f69-4a4c-945e-2aea223a9b94",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361814,
+      "createdAt": 1437419362053,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A L\u0027h Question",
-      "body": "  \\(\\lim_{x \\sto \\infty}\\left(\\frac{\\ln x}x\\right)^{1/\\ln x}\\)  \u003d _____.",
+      "title": "Lagrange Multipliers",
+      "body": " A rectangular box without a top is to be made from  \\(18 \\text{ ft}^2\\)  of a given material.   The largest possible volume of such a box is  \\(a\\sqrt{2a} \\text{ ft}^3\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/faa9b6ee-467d-4ef1-ad29-1d7e74223670",
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/8532445d-3f69-4a4c-945e-2aea223a9b94",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
+    },
+    {
+      "authorSolution": " \\(1\\) ,  \\(2\\) ,  \\(0\\) ",
+      "uuid": "0774f4c9-110d-4287-95a2-5af4ac9f179a",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362053,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "More Applications Of The Derivative Practice",
+      "body": " The largest value achieved by  \\(xyz\\)  on the curve of intersection of the circular cylinder  \\(x^2 + y^2 \u003d 3\\)  and the plane  \\(y \u003d 2z\\)  is ___.   One point where this maximum occurs is  \\(\\left(a,b,b^{-1}\\right)\\)  where  \\(a\u003d\\) ___ and  \\(b\u003d\\) ____.",
+      "allAnswers": [],
+      "tags": "more applications of the derivative, optimization of functions of several variables ,global extrema ,local extrema ,saddle points ,Lagrange multipliers",
+      "url": "/practice-problem/0774f4c9-110d-4287-95a2-5af4ac9f179a",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "3dc67de8-0212-4b03-84d7-70808a5564d3"
     }
   ],
   "questions": [
-    {
-      "uuid": "da286d7d-edee-4b7c-9e5b-27e2bc3167be",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Taylor\u0027s Theory",
-      "body": "Complete the square and use the binomial series to write\na series expansion for the following.  Also determine \nan interval \\(|x-a|\u003cR\\) where the series is guaranteed to be valid.\na. \\(\\ds{f(x)\u003d\\frac1{\\sqrt{x^2-6x+10}}}\\)\nb. \\(\\ds{f(x)\u003d\\sqrt{4x^2+12x+13}}\\)\nc. \\(\\ds{f(x)\u003d(-2x^2+3x+5)^{-2/3}}\\)",
-      "allAnswers": [],
-      "tags": "binomial series, series expansion, interval",
-      "url": "/question/da286d7d-edee-4b7c-9e5b-27e2bc3167be",
-      "source": "First Year Calculus 11.1.27",
-      "topic": "Calculus/Sequences and Series/Sequences/Evaluating Approaching Infinity"
-    },
-    {
-      "uuid": "32582398-09ae-44ec-8e7b-bf79988dcb60",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Taylor\u0027s Theory",
-      "body": "Find the interval of convergence for each of the \nfollowing.  Check the endpoints unless otherwise instructed.\na. \\(\\ds{f(x)\u003d\\sum_{n\u003d1}^\\infty\\frac{x^n}{2^n\\sqrt{n}}}\\).\nb. \\(\\ds{f(x)\u003dx-\\frac{x^3}3+\\frac{x^5}5-\\frac{x^7}7+\\cdots}\\).\nc. \\(\\ds{\\ln x\u003d\\sum_{n\u003d1}^\\infty\\frac{(-1)^{n+1}(x-1)^n}{n}}\\).\nd. \\(\\ds{f(x)\u003d\\sum_{n\u003d0}^\\infty nx^n}\\).\ne. \\(\\ds{f(x)\u003d\\sum_{n\u003d0}^\\infty n!\\,x^n}\\).\nf. \\(\\ds{e^{x^2}\u003d\\sum_{n\u003d0}^\\infty\\frac{x^{2n}}{n!}}\\).\ng. \\(\\ds{f(x)\u003d\\sum_{n\u003d2}^\\infty\\frac{(x+1)^n}{(\\ln n)^n}}\\).\nh. \\(\\ds{f(x)\u003d\\sum_{n\u003d0}^\\infty \\frac{x^n}{n^n}}\\).\ni. \\(\\ds{f(x)\u003d\\sum_{n\u003d0}^\\infty \\frac{(n!)^2(x-5)^n}{(2n)!}}\\).\nj. \\(\\ds{f(x)\u003d\\sum_{n\u003d0}^\\infty\\frac{x^{2n}}{n^2\\cdot10^n}}\\).\nk. \\(\\ds{\\sin x\u003d\\sum_{n\u003d0}^\\infty\\frac{(-1)^nx^{2n+1}}{(2n+1)!}}\\).\nl. \\(\\ds{f(x)\u003d\\sum_{n\u003d1}^\\infty\\frac{(-1)^nn!\\,(x-3)^n}{n^n}}\\).\nm. \\(\\ds{f(x)\u003d\\sum_{n\u003d2}^\\infty\\frac{3^n(x+2)^n}{\\ln n}}\\).",
-      "allAnswers": [],
-      "tags": "series",
-      "url": "/question/32582398-09ae-44ec-8e7b-bf79988dcb60",
-      "source": "First Year Calculus 11.1.28",
-      "topic": "Algebra/Sequences/Mathematical Patterns/Sequence/Term"
-    },
-    {
-      "uuid": "a390dec0-5448-4855-8cfe-66d41d8aa9d3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Taylor\u0027s Theory",
-      "body": "Assume for a moment that all our work with Taylor Series\ncan be generalized to the complex plane \\(\\mathbb{C}\\).\nNote that \\(i\u003di\\), \\(i^2\u003d-1\\), \\(i^3\u003d-i\\), \\(i^4\u003d1\\), \\(i^5\u003di\\), etc.\nUse all this and known MacLaurin Series to prove {\\it Euler\u0027s Identity:}\n\\(\\begin{equation}e^{i\\theta}\u003d\\cos\\theta+i\\sin\\theta.\\)\n\nNote that this implies that  \\(\\ds{e^{i\\pi}\u003d-1}\\), an often-cited,\nbeautifully compact equation relating four of the most important\nnumbers in mathematics.",
-      "allAnswers": [],
-      "tags": "series, maclaurin series, taylor series",
-      "url": "/question/a390dec0-5448-4855-8cfe-66d41d8aa9d3",
-      "source": "First Year Calculus 11.1.29",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
-    },
-    {
-      "uuid": "6b052998-dd76-415a-b1e1-4058e97cd59f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Taylor\u0027s Theory",
-      "body": "Assume for a moment that all our work with Taylor Series\ncan be generalized to the complex plane \\(\\mathbb{C}\\).\nNote that \\(i\u003di\\), \\(i^2\u003d-1\\), \\(i^3\u003d-i\\), \\(i^4\u003d1\\), \\(i^5\u003di\\), etc.\nUse all this and known MacLaurin Series to prove {\\it Euler\u0027s Identity:}\n\\(\\begin{equation}e^{i\\theta}\u003d\\cos\\theta+i\\sin\\theta.\\)\n\nNote that this implies that  \\(\\ds{e^{i\\pi}\u003d-1}\\), an often-cited,\nbeautifully compact equation relating four of the most important\nnumbers in mathematics.",
-      "allAnswers": [],
-      "tags": "series, maclaurin series, taylor series",
-      "url": "/question/6b052998-dd76-415a-b1e1-4058e97cd59f",
-      "source": "First Year Calculus 11.1.29",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Maclaurin Series"
-    },
-    {
-      "uuid": "6dd3e5cf-7895-46ae-80f1-d32ffd92f54a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d\\sin z}{dx}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
-      "url": "/question/6dd3e5cf-7895-46ae-80f1-d32ffd92f54a",
-      "source": "First Year Calculus 4.4.11",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "0e03d545-d961-4fc6-af9a-69bf2a3ac33d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d\\cos\\theta}{dt}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
-      "url": "/question/0e03d545-d961-4fc6-af9a-69bf2a3ac33d",
-      "source": "First Year Calculus 4.4.12",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "3d9e4454-dbde-415f-9e12-6f86d676d648",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d\\,x^7}{dt}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
-      "url": "/question/3d9e4454-dbde-415f-9e12-6f86d676d648",
-      "source": "First Year Calculus 4.4.13",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "6a5fe4f7-3d91-4e74-a0be-e4b2a3710395",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d\\sin(\\cos x)}{d\\cos x}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
-      "url": "/question/6a5fe4f7-3d91-4e74-a0be-e4b2a3710395",
-      "source": "First Year Calculus 4.4.14",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "6dfe30be-ea35-467f-b251-ce1476b53da9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d\\sin\\sqrt{x}}{dx}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
-      "url": "/question/6dfe30be-ea35-467f-b251-ce1476b53da9",
-      "source": "First Year Calculus 4.4.15",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "7a18bc4d-823a-4dd2-900b-4d7961d48879",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": " \\(\\ds{\\frac{d}{dx}\\sqrt{\\sin x}}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
-      "url": "/question/7a18bc4d-823a-4dd2-900b-4d7961d48879",
-      "source": "First Year Calculus 4.4.16",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
     {
       "uuid": "e2e33fce-e1d0-4fb4-b72b-574e450f230c",
       "contentType": "question",
@@ -476,7 +198,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/e2e33fce-e1d0-4fb4-b72b-574e450f230c",
       "source": "First Year Calculus 4.4.17",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "dcf82525-b52b-4b2a-b6db-5320b03fe6c5",
@@ -493,7 +215,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/dcf82525-b52b-4b2a-b6db-5320b03fe6c5",
       "source": "First Year Calculus 4.4.18",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "31b20dda-bc73-4da4-a597-0f0a37cba1c8",
@@ -510,7 +232,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/31b20dda-bc73-4da4-a597-0f0a37cba1c8",
       "source": "First Year Calculus 4.4.19",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "d1f5aa6d-87cd-4024-bf3b-ddd415e9cd17",
@@ -527,7 +249,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/d1f5aa6d-87cd-4024-bf3b-ddd415e9cd17",
       "source": "First Year Calculus 4.4.20",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "47829925-cd69-45ce-97e2-dd5b0ca60ccc",
@@ -544,7 +266,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power rule, leibniz notation",
       "url": "/question/47829925-cd69-45ce-97e2-dd5b0ca60ccc",
       "source": "First Year Calculus 4.4.21",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "d57435d0-fcbd-48d3-8f52-79e859266c95",
@@ -561,7 +283,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/d57435d0-fcbd-48d3-8f52-79e859266c95",
       "source": "First Year Calculus 4.5.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "947e3994-7eb5-4563-b6bd-662b69fbe535",
@@ -578,7 +300,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/947e3994-7eb5-4563-b6bd-662b69fbe535",
       "source": "First Year Calculus 4.5.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "4d9ab7f4-e5d9-4a4e-afbf-687df7238422",
@@ -595,7 +317,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/4d9ab7f4-e5d9-4a4e-afbf-687df7238422",
       "source": "First Year Calculus 4.5.3",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "5a5b8c08-f2ae-47e7-8781-e44a1f83a8ae",
@@ -612,7 +334,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/5a5b8c08-f2ae-47e7-8781-e44a1f83a8ae",
       "source": "First Year Calculus 4.5.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "ad78ef07-6e9f-4ab0-87bb-0a1d0f95293e",
@@ -629,7 +351,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/ad78ef07-6e9f-4ab0-87bb-0a1d0f95293e",
       "source": "First Year Calculus 4.5.5",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "b20c351d-51ca-494a-9b47-e1cfa5ad5c98",
@@ -646,7 +368,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/b20c351d-51ca-494a-9b47-e1cfa5ad5c98",
       "source": "First Year Calculus 4.5.6",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "f85c24f9-8118-44f8-966f-a08c8a68d6a1",
@@ -663,7 +385,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/f85c24f9-8118-44f8-966f-a08c8a68d6a1",
       "source": "First Year Calculus 4.5.7",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "52830e64-c77b-4e08-a894-2cbb7d142bdc",
@@ -680,7 +402,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/52830e64-c77b-4e08-a894-2cbb7d142bdc",
       "source": "First Year Calculus 4.5.8",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "d86e8e73-1b31-4124-8d24-a3ce4f33385e",
@@ -697,7 +419,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/d86e8e73-1b31-4124-8d24-a3ce4f33385e",
       "source": "First Year Calculus 4.5.9",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "7426ebd8-b2f2-402d-ab85-27c9b1ce8480",
@@ -714,7 +436,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/7426ebd8-b2f2-402d-ab85-27c9b1ce8480",
       "source": "First Year Calculus 4.5.9",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "2d8cdeb6-47b2-44aa-8b9c-aa75178d8985",
@@ -731,7 +453,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/2d8cdeb6-47b2-44aa-8b9c-aa75178d8985",
       "source": "First Year Calculus 4.5.10",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "8b18a748-a593-4536-bf04-07afb1cd91c7",
@@ -748,7 +470,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/8b18a748-a593-4536-bf04-07afb1cd91c7",
       "source": "First Year Calculus 4.5.11",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "040ae168-7da8-4f9d-8dcb-e255c4845a37",
@@ -765,7 +487,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/040ae168-7da8-4f9d-8dcb-e255c4845a37",
       "source": "First Year Calculus 4.5.12",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "5fd901ca-f54f-4706-b84c-6fd3dc0e35c1",
@@ -782,7 +504,7 @@
       "tags": "integration, integrals",
       "url": "/question/5fd901ca-f54f-4706-b84c-6fd3dc0e35c1",
       "source": "First Year Calculus 7.1.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "026f02d6-fe68-445b-bec4-0e84bd61fce9",
@@ -799,7 +521,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/026f02d6-fe68-445b-bec4-0e84bd61fce9",
       "source": "First Year Calculus 4.5.13",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "f60f20cf-2285-4f6b-9fea-c3757aed925c",
@@ -816,7 +538,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/f60f20cf-2285-4f6b-9fea-c3757aed925c",
       "source": "First Year Calculus 4.5.14",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "9da95e00-cb75-4bb4-a16e-810db12e2a7c",
@@ -833,7 +555,7 @@
       "tags": "integration, integrals",
       "url": "/question/9da95e00-cb75-4bb4-a16e-810db12e2a7c",
       "source": "First Year Calculus 7.1.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "1a1ddbba-317c-4169-a4b8-931b079affe0",
@@ -850,7 +572,7 @@
       "tags": "integration, integrals",
       "url": "/question/1a1ddbba-317c-4169-a4b8-931b079affe0",
       "source": "First Year Calculus 7.1.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "cdc66605-ac61-43df-bc94-800b4b002b30",
@@ -867,7 +589,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/cdc66605-ac61-43df-bc94-800b4b002b30",
       "source": "First Year Calculus 4.5.15",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "b5b15548-e0e0-4961-b081-b823a28a37aa",
@@ -884,7 +606,7 @@
       "tags": "integration, integrals",
       "url": "/question/b5b15548-e0e0-4961-b081-b823a28a37aa",
       "source": "First Year Calculus 7.1.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "adb08042-462e-441d-bef0-77e4889b10ce",
@@ -901,7 +623,7 @@
       "tags": "integration, integrals",
       "url": "/question/adb08042-462e-441d-bef0-77e4889b10ce",
       "source": "First Year Calculus 7.1.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "b2ca0f8b-e9a7-4e5f-8991-f9fe20ab30e0",
@@ -918,7 +640,177 @@
       "tags": "integration, integrals",
       "url": "/question/b2ca0f8b-e9a7-4e5f-8991-f9fe20ab30e0",
       "source": "First Year Calculus 7.1.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "c5930509-b573-46db-8ef0-4b864f227c00",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Advanced Integration Techniques",
+      "body": "Compute the following integrals.\n\\(\\ds{\\int x\\sec^{-1}x\\,dx}\\), \\(x\u003e1\\).",
+      "allAnswers": [],
+      "tags": "integration, integral",
+      "url": "/question/c5930509-b573-46db-8ef0-4b864f227c00",
+      "source": "First Year Calculus 7.1.7",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "ae40a97a-5e8f-41ff-a334-64762ed30904",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Advanced Integration Techniques",
+      "body": "Compute the following integrals.\n\\(\\ds{\\int x\\sqrt{1-x}\\,dx}\\).",
+      "allAnswers": [],
+      "tags": "integration, integrals",
+      "url": "/question/ae40a97a-5e8f-41ff-a334-64762ed30904",
+      "source": "First Year Calculus 7.1.8",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "f5524db3-4891-47d3-9b77-d16e41ff785d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\left[\\frac{x}{\\sqrt{x^2+1}}\\right]}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/f5524db3-4891-47d3-9b77-d16e41ff785d",
+      "source": "First Year Calculus 4.5.16",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "02e7d2a1-809b-48b7-9913-cdd248a9c1cb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Advanced Integration Techniques",
+      "body": "Compute the following integrals.\n\\(\\ds{\\int\\frac{x}{\\sqrt{1-x}}\\,dx}\\)",
+      "allAnswers": [],
+      "tags": "integration, integrals",
+      "url": "/question/02e7d2a1-809b-48b7-9913-cdd248a9c1cb",
+      "source": "First Year Calculus 7.1.9",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "79486421-4e92-4e91-9c16-70e8db758118",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\left[\\frac{(x+5)^3}{(x-4)^5}\\right]}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/79486421-4e92-4e91-9c16-70e8db758118",
+      "source": "First Year Calculus 4.5.17",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "e8fa5cea-3c35-4053-a7fa-59094dd5c7a0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\left[3\\cot^29x-\\sqrt{\\cos6x+1}\\right]}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/e8fa5cea-3c35-4053-a7fa-59094dd5c7a0",
+      "source": "First Year Calculus 4.5.18",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "a008910f-42a6-436c-a152-355b54577cff",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\left[\\tan(x+\\tan(x+\\tan x))\\right]}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/a008910f-42a6-436c-a152-355b54577cff",
+      "source": "First Year Calculus 4.5.19",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "2ba12d12-cf94-4820-9050-01bf470a5031",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Show that \\(\\frac{d}{dx}[f(x)g(x)h(x)] \u003d f(x)g(x)h\u0027(x)+f(x)g\u0027(x)h(x)+f\u0027(x)g(x)h(x)\\). What do you think will be the derivative of \\(f(x)g(x)h(x)i(x)\\)?",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/2ba12d12-cf94-4820-9050-01bf470a5031",
+      "source": "First Year Calculus 4.5.20",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "15ed7fa3-ce53-4b3c-9b30-2c3b99d4c5f5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Advanced Integration Techniques",
+      "body": "Compute the following integrals.\n\\(\\ds{\\int xe^x\\,dx}\\)",
+      "allAnswers": [],
+      "tags": "integration, integrals",
+      "url": "/question/15ed7fa3-ce53-4b3c-9b30-2c3b99d4c5f5",
+      "source": "First Year Calculus 7.1.10",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "05e7016a-51e7-4824-be18-f6bd952886e4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Advanced Integration Techniques",
+      "body": "Compute the following integrals.\n\\(\\ds{\\int x\\sin5x\\,dx}\\)",
+      "allAnswers": [],
+      "tags": "integration, integrals",
+      "url": "/question/05e7016a-51e7-4824-be18-f6bd952886e4",
+      "source": "First Year Calculus 7.1.11",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     }
   ],
   "textContent": [
@@ -937,7 +829,7 @@
       "tags": "applications of area, integral, integration, area ",
       "url": "/text-content/a6535f56-590c-45c8-9f6e-e0569b289723",
       "source": "Forgotten Text 5 1.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area"
+      "topic": "3165748f-ef7b-4e41-b7f1-0c6a1723c18d"
     },
     {
       "uuid": "a41068f5-6e7f-46e2-ad11-35cc15e50b04",
@@ -954,9 +846,55 @@
       "tags": "sigma notation, riemann sums, integral, integration, area, area under curve ",
       "url": "/text-content/a41068f5-6e7f-46e2-ad11-35cc15e50b04",
       "source": "Forgotten Text 5 1.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Riemann Sums"
+      "topic": "766c943f-bd43-440a-aa5f-ad8edaeccb03"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "22154e34-916a-4b69-be0d-05e298ecda56",
+      "subTopics": [],
+      "parentTopics": [
+        "5125ebbc-3098-4683-b2bf-37f4ab49e919"
+      ],
+      "title": "Global Optimization",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " continuity, extreme values , global optimization,optimization,",
+      "difficulty": 488000,
+      "contentUuids": [
+        "2fff4a2a-df73-43f0-80e3-39498983461f"
+      ]
+    },
+    {
+      "uuid": "3816bdca-819b-4feb-a89c-df843b70c9cd",
+      "subTopics": [],
+      "parentTopics": [
+        "412ce51e-93d1-437c-9dad-c9e840622cc8"
+      ],
+      "title": "Vector Derivatives",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " derivatives, parametric curves , rectilinear motion,vector functions,",
+      "difficulty": 739000,
+      "contentUuids": [
+        "0a2259c1-2572-4eab-b176-cb840f431614"
+      ]
+    },
+    {
+      "uuid": "1baad1da-fada-4f79-a18a-2c5687a52b72",
+      "subTopics": [],
+      "parentTopics": [
+        "22b1df01-adef-412c-99aa-d3c870c624db"
+      ],
+      "title": "Computation of Derivatives",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " Leibniz notation, derivative of function,derivatives,",
+      "difficulty": 464000,
+      "contentUuids": [
+        "62521c27-cb28-4693-ab57-7f84ab86871b"
+      ]
+    }
+  ]
 }

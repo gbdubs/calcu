@@ -2,431 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "decreasing, is",
-      "uuid": "802d1067-cd26-4d19-a345-67c5df166947",
+      "authorSolution": " \\(4\\) ",
+      "uuid": "2d743f21-a2d5-4912-a36b-18ddc493889d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361940,
+      "createdAt": 1437419362134,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Convergence Of Sequences",
-      "body": " Let  \\(a_n \u003d \\dfrac {n^2+2}{n^2+1}\\)  for every  \\(n \\in \\N\\) .    Then the sequence  \\((a_n)\\)  \\noindent is _______________ (increasing/decreasing/not monotone) \\noindent and ________ (is/is not) bounded.",
+      "title": "Question On Line Integrals",
+      "body": " Evaluate  \\(\\D\\oint_{\\partial S} x^2y dx + xy^5 dy\\)  where  \\(S\\)  is the square  \\(\\{(x,y)\\colon \\abs{x}\\le1 \\text{ and } \\abs y \\le 1\\}\\) .   \\\\ Answer:  \\(-\\dfrac a3\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/802d1067-cd26-4d19-a345-67c5df166947",
+      "tags": "line integrals, line integrals ,",
+      "url": "/practice-problem/2d743f21-a2d5-4912-a36b-18ddc493889d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "5b08707e-7b41-4e10-a666-445e7f14a177"
     },
     {
-      "authorSolution": "decreasing, is",
-      "uuid": "4eb26d0b-973c-4634-8a73-5d18dfcc17eb",
+      "authorSolution": " \\(120\\) ",
+      "uuid": "06940da8-681f-4862-8061-de154e26db57",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361940,
+      "createdAt": 1437419362134,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Sequences Question",
-      "body": " Let  \\(a_n \u003d \\dfrac{\\sqrt{n+1}}{5n+3}\\)  for every  \\(n \\in \\N\\) .   Then the sequence  \\((a_n)\\)  \\noindent is _______________ (increasing/decreasing/not monotone) \\noindent and ________ (is/is not) bounded.",
+      "title": "A Line Integrals Question",
+      "body": " Evaluate  \\(\\D\\oint_{\\partial R} (x^3 - y^3) dx + (x^3 + y^3) dy\\)  where  \\(R\\)  is the annular region  \\(\\{(x,y)\\colon 1\\lex^2+y^2\\le9\\}\\) .   Answer:  \\(a\\pi\\)  where  \\(a\\) \u003d_______.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/4eb26d0b-973c-4634-8a73-5d18dfcc17eb",
+      "tags": "line integrals, line integrals ,",
+      "url": "/practice-problem/06940da8-681f-4862-8061-de154e26db57",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "5b08707e-7b41-4e10-a666-445e7f14a177"
+    },
+    {
+      "authorSolution": " \\(24\\) ",
+      "uuid": "61d62a76-be94-49ca-8883-3814674e560c",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362136,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practice With Surface Integrals",
+      "body": " Let  \\(f\\colon \\R^3 \\to \\R\\colon (x,y,z) \\mapsto xz\\) .   Then the surface integral of the scalar field  \\(f\\)  over the triangle whose vertices are  \\(\\vec{ }i\\) ,  \\(\\vec{ }j\\) , and  \\(\\vec{ }k\\)  is  \\(\\dfrac{\\sqrt 3}a\\)  where  \\(a\\) \u003d______.",
+      "allAnswers": [],
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/61d62a76-be94-49ca-8883-3814674e560c",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
+    },
+    {
+      "authorSolution": " \\(73\\) ",
+      "uuid": "4dbf673f-2ebc-4de8-a0b4-eb42c589e78f",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362136,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Surface Integrals Problem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d -x \\vec{ }i - y \\vec{ }j + z^2 \\vec{ }k\\)  and  \\(S\\)  be that portion of the cone  \\(z \u003d \\sqrt{x^2 + y^2}\\)  which lies between the planes  \\(z \u003d 1\\)  and  \\(z \u003d 2\\) .    Then the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the surface  \\(S\\)  is  \\(\\dfrac a6\\pi\\)  where  \\(a\\) \u003d_____.",
+      "allAnswers": [],
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/4dbf673f-2ebc-4de8-a0b4-eb42c589e78f",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
+    },
+    {
+      "authorSolution": " \\(\\dfrac\\pi2\\) ",
+      "uuid": "6eb6b5b9-e03d-43d6-9158-20f16a1d53f6",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362136,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Question On Surface Integrals",
+      "body": " If  \\(S\\)  is that portion of the unit sphere which lies in the first octant (that is, where  \\(x\\) ,  \\(y\\) ,  \\(z \\ge 0\\) ), then  \\(\\D\\iint\\limits_S x dy dz + y dz dx + z dx dy\\)  \u003d ______.",
+      "allAnswers": [],
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/6eb6b5b9-e03d-43d6-9158-20f16a1d53f6",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
+    },
+    {
+      "authorSolution": " \\(0\\) ",
+      "uuid": "38f5cfd9-8a5b-4b30-8a9a-95fbfaf542cc",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362136,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "On Surface Integrals",
+      "body": " Find the surface integral of the scalar field  \\(f(x,y,z) \u003d xyz\\)  over that portion of the unit sphere centered at the origin which lies inside the cone  \\(z \u003d \\sqrt{x^2 + y^2}\\) .    Answer: ___.",
+      "allAnswers": [],
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/38f5cfd9-8a5b-4b30-8a9a-95fbfaf542cc",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
     },
     {
       "authorSolution": " \\(2\\) ",
-      "uuid": "8b3a7f1d-bec1-48ae-97f1-c57bfae02f58",
+      "uuid": "9eb15bc6-7333-420d-bdd6-184b13773e63",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361940,
+      "createdAt": 1437419362136,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sequences Question",
-      "body": "  \\(\\lim_{n \\sto \\infty} \\left(1 + \\frac 1{5n} \\right)^{10n} \u003d e^p\\)  where  \\(p\\)  \u003d ___ .",
+      "title": "On Surface Integrals",
+      "body": " Let  \\(V\\)  be the solid region bounded by the cylinder  \\(x^2 + z^2 \u003d 1\\)  and the planes  \\(y \u003d 0\\)  and  \\(x + y \u003d 2\\) , and let  \\(f\\colon \\R^3 \\to \\R\\colon (x,y,z) \\mapsto xy\\) .   Then the surface integral of the scalar field  \\(f\\)  over the boundary of  \\(V\\)  is  \\(-\\left(a + \\dfrac1{a\\sqrt a}\\right)\\pi\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/8b3a7f1d-bec1-48ae-97f1-c57bfae02f58",
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/9eb15bc6-7333-420d-bdd6-184b13773e63",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
     },
     {
-      "authorSolution": " \\(3\\) ",
-      "uuid": "703dc597-ee2e-4eab-ab3d-942953eed55b",
+      "authorSolution": " \\(-1\\) ",
+      "uuid": "df101b39-6a43-4699-ac9d-446b33b3d9a9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361941,
+      "createdAt": 1437419362137,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Sequences Of Real Numbers",
-      "body": "  \\(\\lim_{n \\sto \\infty}\\int_{2n}^{3n}\\frac {x+3}{x^2+1} dx \u003d \\ln \\frac a2\\)  where  \\(a\\)  \u003d ___.",
+      "title": "Surface Integrals Problem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x^2y \\vec{ }i - 3xy^2 \\vec{ }j + 4y^3 \\vec{ }k\\)  and  \\(S\\)  be that portion of the elliptic paraboloid  \\(z \u003d x^2 + y^2 - 9\\)  which lies below the rectangle  \\([0,2] \\times [0,1]\\)  in the  \\(xy\\) -plane.    Then the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the surface  \\(S\\)  is ____.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/703dc597-ee2e-4eab-ab3d-942953eed55b",
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/df101b39-6a43-4699-ac9d-446b33b3d9a9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
     },
     {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "d6aad375-c5c8-44c7-9106-79d3a3c02ea5",
+      "authorSolution": " \\(4\\) ",
+      "uuid": "a6631413-bdc0-4f27-9b6e-7c393268695c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361941,
+      "createdAt": 1437419362137,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Convergence Of Sequences",
-      "body": "  \\(\\lim_{n\\sto\\infty} n^{2/3}((n+2)^{1/3}-n^{1/3}) \u003d \\frac a3\\)  where  \\(a\\)  \u003d ___.",
+      "title": "Surface Integrals",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x \\vec{ }i + y \\vec{ }j + 5 \\vec{ }k\\)  and  \\(V\\)  be that portion of the solid cylinder  \\(x^2 + z^2 \u003d 1\\)  which lies between the  \\(xz\\) -plane and the plane  \\(x + y \u003d 2\\) .   Then the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the surface  \\(\\partial V\\)  is  \\(a\\pi\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/d6aad375-c5c8-44c7-9106-79d3a3c02ea5",
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/a6631413-bdc0-4f27-9b6e-7c393268695c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
     },
     {
-      "authorSolution": " \\(8\\) ",
-      "uuid": "60cde89a-99fc-4862-b1ae-9267db8e31e6",
+      "authorSolution": " \\(8\\pi\\) ,  \\(8\\pi\\) ",
+      "uuid": "9e41fcd2-1273-4ef8-9af4-4f1389a937cf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361941,
+      "createdAt": 1437419362137,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Bounded Sequences",
-      "body": "  \\(\\lim_{n \\sto \\infty}\\left(1 + \\dfrac2{3n}\\right)^{4n} \u003d e^{a/3}\\)  where  \\(a\\)  \u003d ___.",
+      "title": "Practice With Surface Integrals",
+      "body": " Let  \\(\\omega \u003d xz dx + yz dy\\)  and  \\(H\\)  be the upper half of the (solid) ball of radius  \\(2\\)  centered at the origin.    Then  \\(\\int\\limits_H d\\ast \\omega\\)  \u003d _____ and  \\(\\int\\limits_{\\partial H} \\ast \\omega\\)  \u003d _____.",
       "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/60cde89a-99fc-4862-b1ae-9267db8e31e6",
+      "tags": "surface integrals, surface integrals",
+      "url": "/practice-problem/9e41fcd2-1273-4ef8-9af4-4f1389a937cf",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(27\\) ",
-      "uuid": "d9196d97-036c-423f-bac5-1cf9efe1ad94",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361941,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Convergence Of Sequences Problem",
-      "body": "  \\(\\lim_{n\\sto\\infty} \\left(\\frac{(3n)!}{(n!)^3}\\right)^{1/n}\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/d9196d97-036c-423f-bac5-1cf9efe1ad94",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "1720a85b-8fc1-42b3-b28e-b25386280f34",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361941,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Bounded Sequences",
-      "body": " Find  \\(\\lim_{n \\sto \\infty}\\int_{n+3}^{n+5} \\frac {x^{5/2}-1}{x^3+4}   dx\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/1720a85b-8fc1-42b3-b28e-b25386280f34",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "ca54d59f-740f-4871-8e8f-8afde3a88aea",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361941,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Convergence Of Sequences",
-      "body": "  \\(\\lim_{n \\sto \\infty} \\left(\\frac{1+2+\\cdots+n}{n+2}-\\frac n2\\right) \u003d -\\dfrac1a\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/ca54d59f-740f-4871-8e8f-8afde3a88aea",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "1639cd57-cf98-45b2-9664-b1bb885b1a4b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361941,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Sequences",
-      "body": "  \\(\\lim_{n \\sto \\infty}\\int_{n}^{n+1}\\dfrac {x+1}{x^2+1} dx\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/1639cd57-cf98-45b2-9664-b1bb885b1a4b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(\\infty\\) ",
-      "uuid": "cad37e8c-1e90-451d-9321-e934e60f076b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361941,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Monotone (increasing And Decreasing) Sequences",
-      "body": "  \\(\\lim_{n \\sto \\infty}\\int_{n}^{n^2}\\dfrac {x+1}{x^2+1} dx\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/cad37e8c-1e90-451d-9321-e934e60f076b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(e\\) ",
-      "uuid": "a1dd60df-5e98-450c-8551-5a11abf25e2b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361941,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Monotone (increasing And Decreasing) Sequences",
-      "body": "  \\(\\lim_{n\\sto\\infty} \\dfrac n{(n!)^{1/n}}\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/a1dd60df-5e98-450c-8551-5a11abf25e2b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(e\\) ",
-      "uuid": "67cabfbe-5dd7-4772-8180-d417608b4f2a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361942,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Sequences",
-      "body": "  \\(\\lim_{n\\sto\\infty}  \\left[\\dfrac12\\left(\\dfrac23\\right)^2\\left(\\dfrac34\\right)^3    \\cdots\\left(\\dfrac n{n+1}\\right)^n\\right]^{1/n} \u003d \\dfrac 1a\\)  where  \\(a\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/67cabfbe-5dd7-4772-8180-d417608b4f2a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "1b0ec21c-0b8a-4304-9e08-6e579d23019b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361942,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Bounded Sequences Problem",
-      "body": " Let  \\(a_n \u003d \\dfrac{3n^2 - 4}{5 - 6n^3}\\)  for all  \\(n \\in \\N\\) .   Then the sequence  \\((a_n)\\)  converges to ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/1b0ec21c-0b8a-4304-9e08-6e579d23019b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(\\ln 2\\) ",
-      "uuid": "a5cd17db-78d7-46a2-b17e-62edb7b9647e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361942,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Monotone (increasing And Decreasing) Sequences",
-      "body": " Let  \\(a_n \u003d \\ln{(4n+5)} - \\ln 2n\\)  for all  \\(n \\in \\N\\) .    Then  \\(\\lim_{n\\sto\\infty}a_n \u003d\\)  ______.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/a5cd17db-78d7-46a2-b17e-62edb7b9647e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "4eb5e268-31f6-45cd-bc23-3cac4663d22b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361942,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sequences Of Real Numbers Question",
-      "body": " Let  \\(a_n \u003d \\dfrac{\\sin^3(3n^2 - 4)}{5n - 2}\\)  for all  \\(n \\in \\N\\) .   Then the sequence  \\((a_n)\\)  converges to ___.",
-      "allAnswers": [],
-      "tags": "sequences of real numbers, sequences ,monotone (increasing and decreasing) sequences ,bounded sequences ,convergence of sequences",
-      "url": "/practice-problem/4eb5e268-31f6-45cd-bc23-3cac4663d22b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Real Numbers"
+      "topic": "57ad6d85-5649-4208-8b19-c3c53f8a6a25"
     }
   ],
   "questions": [
-    {
-      "uuid": "c1fd98e9-f753-4e7d-9b8f-cccc57990da0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Indefinite Integral",
-      "body": "\\(\\ds \\int^{\\pi}_{2\\pi/3} \\frac{\\tan x}{\\cos x} \\,dx\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/c1fd98e9-f753-4e7d-9b8f-cccc57990da0",
-      "source": "Math 221 8.3.16",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "e6a6679c-0e1a-419c-9562-053a0201ea3e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Indefinite Integral",
-      "body": "\\(\\ds \\int^{\\pi/2}_{\\pi/3} \\frac{\\cot x}{\\sin x} \\,dx\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/e6a6679c-0e1a-419c-9562-053a0201ea3e",
-      "source": "Math 221 8.3.17",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "1c9c5ee8-22a1-479b-ad9c-c255f7d92a44",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Indefinite Integral",
-      "body": "\\(\\ds \\int^{\\sqrt{3}}_{1} \\frac{6}{ {1+x^2}} \\,dx\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/1c9c5ee8-22a1-479b-ad9c-c255f7d92a44",
-      "source": "Math 221 8.3.18",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "c78c8f13-154f-4cf5-ac2b-66dfeabccb01",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Chain Rule",
-      "body": "Compute the following derivatives\nf(x) \u003d \\(\\tan \\sqrt{1+x^{2}\\)",
-      "allAnswers": [],
-      "tags": "chain rule, derivative",
-      "url": "/question/c78c8f13-154f-4cf5-ac2b-66dfeabccb01",
-      "source": "Math 221 4.6.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
-    },
-    {
-      "uuid": "5c67efc4-7c6b-4a13-bb7c-7667c69c6478",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Indefinite Integral",
-      "body": "\\(\\ds \\int^{0.5}_{0} \\frac{dx}{ \\sqrt{1-x^2}}\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/5c67efc4-7c6b-4a13-bb7c-7667c69c6478",
-      "source": "Math 221 8.3.19",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "5a0c6896-4861-420d-a125-3ca79e9f9f1d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Indefinite Integral",
-      "body": "\\(\\ds \\int^{8}_{4} (1/x) \\,dx\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/5a0c6896-4861-420d-a125-3ca79e9f9f1d",
-      "source": "Math 221 8.3.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "14840414-541f-451d-a42d-c361cef837a2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Indefinite Integral",
-      "body": "\\(\\ds \\int^{\\ln 6}_{\\ln 3} 8e^x \\,dx\\)",
-      "allAnswers": [],
-      "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
-      "url": "/question/14840414-541f-451d-a42d-c361cef837a2",
-      "source": "Math 221 8.3.21",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "0e2dea92-469f-4357-8df4-9cae6ce034ed",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Chain Rule",
-      "body": "Compute the following derivatives\nf(x) \u003d \\(\\cos^{2}x - \\cos x^{2}\\)",
-      "allAnswers": [],
-      "tags": "chain rule, derivative",
-      "url": "/question/0e2dea92-469f-4357-8df4-9cae6ce034ed",
-      "source": "Math 221 4.6.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
-    },
     {
       "uuid": "500de6da-6a93-4e6c-8397-cb0aac7d2bb1",
       "contentType": "question",
@@ -442,7 +198,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/500de6da-6a93-4e6c-8397-cb0aac7d2bb1",
       "source": "Math 221 8.3.22",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "ecd273bb-6b30-426e-9377-666fb00cdced",
@@ -459,7 +215,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/ecd273bb-6b30-426e-9377-666fb00cdced",
       "source": "Math 221 8.3.23",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "8942021a-334a-4250-b43c-75b7c42a6336",
@@ -476,7 +232,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/8942021a-334a-4250-b43c-75b7c42a6336",
       "source": "Math 221 8.3.24",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "53fefb60-bfeb-432d-8c46-9e0ca0cca001",
@@ -493,7 +249,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/53fefb60-bfeb-432d-8c46-9e0ca0cca001",
       "source": "Math 221 8.3.25",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "3231e8e0-490d-4286-99c7-db87e53679cc",
@@ -510,7 +266,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/3231e8e0-490d-4286-99c7-db87e53679cc",
       "source": "Math 221 8.3.26",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "7ae54cf9-29c2-4b2e-bdfa-e3dd95859599",
@@ -527,7 +283,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/7ae54cf9-29c2-4b2e-bdfa-e3dd95859599",
       "source": "Math 221 8.3.27",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "8fab767f-fabd-432b-b19d-b98979a52028",
@@ -544,7 +300,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/8fab767f-fabd-432b-b19d-b98979a52028",
       "source": "Math 221 8.3.28",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "e4b3762a-3440-4852-8ca6-89b7c5177349",
@@ -561,7 +317,7 @@
       "tags": "word problem, derivative, chain rule",
       "url": "/question/e4b3762a-3440-4852-8ca6-89b7c5177349",
       "source": "Math 221 4.6.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "8ff9025f-09cd-4a3a-822e-7288227f6396",
@@ -578,7 +334,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/8ff9025f-09cd-4a3a-822e-7288227f6396",
       "source": "Math 221 8.3.29",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "7ac49acc-6d44-4339-813a-59a81796e96a",
@@ -595,7 +351,7 @@
       "tags": "derivative, chain rule",
       "url": "/question/7ac49acc-6d44-4339-813a-59a81796e96a",
       "source": "Math 221 4.6.13",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "807ce526-09f5-4ccd-93e3-1ba5ca0e479f",
@@ -612,7 +368,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/807ce526-09f5-4ccd-93e3-1ba5ca0e479f",
       "source": "Math 221 8.3.30",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "75bd2b35-4386-41b4-9ac4-07384403eef0",
@@ -629,7 +385,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/75bd2b35-4386-41b4-9ac4-07384403eef0",
       "source": "Math 221 8.3.31",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "88e49c49-605e-4926-b1dd-0cf8a1e3c3e0",
@@ -646,7 +402,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/88e49c49-605e-4926-b1dd-0cf8a1e3c3e0",
       "source": "Math 221 8.3.32",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "70775143-a733-4f96-a360-273441f51ef5",
@@ -663,7 +419,7 @@
       "tags": "chain rule, derivative, function ",
       "url": "/question/70775143-a733-4f96-a360-273441f51ef5",
       "source": "Math 221 4.6.14",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "b6f10511-e2a0-455b-9c33-a8bab0e08d2a",
@@ -680,7 +436,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/b6f10511-e2a0-455b-9c33-a8bab0e08d2a",
       "source": "Math 221 8.3.33",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "97cd9b21-920c-44d0-bc9b-23a8835dff07",
@@ -697,7 +453,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/97cd9b21-920c-44d0-bc9b-23a8835dff07",
       "source": "Math 221 8.3.34",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "3b8d3dfe-6b11-4e61-b73f-451465e83f2d",
@@ -714,7 +470,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/3b8d3dfe-6b11-4e61-b73f-451465e83f2d",
       "source": "Math 221 8.3.35",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "dd26a1eb-9372-466c-9607-2031e150a332",
@@ -731,7 +487,7 @@
       "tags": "riemann sum, definite, indefinite, integral, antiderivatives, intervals, fundamental value theorem",
       "url": "/question/dd26a1eb-9372-466c-9607-2031e150a332",
       "source": "Math 221 8.3.36",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "1e821f8e-7773-4e4d-ac50-c3f84d4f8d27",
@@ -760,12 +516,12 @@
       "viewable": true,
       "karma": 3,
       "title": "The Chain Rule",
-      "body": "Suppose that the function f and g and their derivatives with respect to x have the following values at x \u003d 0 and x \u003d 1.\nDefine v(x) \u003d f(g(x)), w(x) \u003d g(f(x)), p(x) \u003d f(x)g(x), q(x) \u003d g(x)f(x).\nEvaluate v(0), w(0), p(0), q(0), v\u0027(0) and w\u0027(0), p\u0027(0), q\u0027(0). If there is insufficient information to answer the question, so indicate.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20451.png\"/\u003e",
+      "body": "Suppose that the function f and g and their derivatives with respect to x have the following values at x \u003d 0 and x \u003d 1.\nDefine v(x) \u003d f(g(x)), w(x) \u003d g(f(x)), p(x) \u003d f(x)g(x), q(x) \u003d g(x)f(x).\nEvaluate v(0), w(0), p(0), q(0), v\u0027(0) and w\u0027(0), p\u0027(0), q\u0027(0). If there is insufficient information to answer the question, so indicate.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20451.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "chain rule, derivative, function ",
       "url": "/question/2934f1ed-b6a6-495e-8a5d-ee05f47edd28",
       "source": "Math 221 4.6.15",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "10f3f111-757c-4610-9c16-32f9f1aae797",
@@ -782,7 +538,7 @@
       "tags": "chain rule, differentiable function, derivative, tangent line, curve",
       "url": "/question/10f3f111-757c-4610-9c16-32f9f1aae797",
       "source": "Math 221 4.6.16",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "1bb9e40f-ff73-43c1-9cb6-c2cd377d5470",
@@ -799,7 +555,7 @@
       "tags": "chain rule, derivative, function",
       "url": "/question/1bb9e40f-ff73-43c1-9cb6-c2cd377d5470",
       "source": "Math 221 4.6.17",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "d903e13a-69e2-470c-b5e8-1336185238b5",
@@ -816,7 +572,7 @@
       "tags": "word problem, chain rule, derivative, function ",
       "url": "/question/d903e13a-69e2-470c-b5e8-1336185238b5",
       "source": "Math 221 4.6.18",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Chain Rule"
+      "topic": "2780e69c-accb-4815-bb29-8708902faedb"
     },
     {
       "uuid": "3fa79e18-56c5-4de2-aa98-c9affa741a58",
@@ -833,7 +589,7 @@
       "tags": "implicit differentiation, function, derivative",
       "url": "/question/3fa79e18-56c5-4de2-aa98-c9affa741a58",
       "source": "Math 221 4.7.1",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "f93ac449-6d62-476b-979a-f8b2905e0238",
@@ -850,7 +606,7 @@
       "tags": "implicit differentiation, function, derivative ",
       "url": "/question/f93ac449-6d62-476b-979a-f8b2905e0238",
       "source": "Math 221 4.7.2",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "1add80da-6461-4666-b646-c3c4db308c3d",
@@ -867,7 +623,7 @@
       "tags": "implicit differentiation, derivatives, functions",
       "url": "/question/1add80da-6461-4666-b646-c3c4db308c3d",
       "source": "Math 221 4.7.3",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "41fbc462-8998-4522-9be6-19c2b66f5859",
@@ -884,7 +640,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/41fbc462-8998-4522-9be6-19c2b66f5859",
       "source": "Math 221 4.7.4",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "d33102ef-d002-47b3-9093-033110b9984a",
@@ -901,7 +657,7 @@
       "tags": "implicit differentiation, derivative, function",
       "url": "/question/d33102ef-d002-47b3-9093-033110b9984a",
       "source": "Math 221 4.7.5",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "0a3f53ec-f88f-45d1-ba68-1f214cbc561e",
@@ -918,7 +674,143 @@
       "tags": "implicit differentiation, derivatives, functions",
       "url": "/question/0a3f53ec-f88f-45d1-ba68-1f214cbc561e",
       "source": "Math 221 4.7.6",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "fe2e1735-3b1b-4afb-a82c-33cd1fa35825",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y-x)\\(^{2}\\)+x\u003d0",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivative, function",
+      "url": "/question/fe2e1735-3b1b-4afb-a82c-33cd1fa35825",
+      "source": "Math 221 4.7.7",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "1fed19fc-0d1d-4e5e-ba1e-24ceb55b282f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y+x)\\(^{2}\\)+2y-x\u003d0",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivative, function",
+      "url": "/question/1fed19fc-0d1d-4e5e-ba1e-24ceb55b282f",
+      "source": "Math 221 4.7.8",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "f2e11603-627c-4158-b89c-57f3ed5d3d09",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y\\(^{2}\\)-1)\\(^{2}\\)+x\u003d0",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivatives, functions",
+      "url": "/question/f2e11603-627c-4158-b89c-57f3ed5d3d09",
+      "source": "Math 221 4.7.9",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "3f4acf24-a904-4fe6-895d-7018e70f9813",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n(y\\(^{2}\\)+)\\(^{2}\\)-x\u003d0",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivatives, function",
+      "url": "/question/3f4acf24-a904-4fe6-895d-7018e70f9813",
+      "source": "Math 221 4.7.10",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "8b94a2dd-d163-4298-b4c4-c89c4f0f4470",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\nx\\(^{3}\\)+xy+y\\^{3}\\)\u003d3",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivative, function",
+      "url": "/question/8b94a2dd-d163-4298-b4c4-c89c4f0f4470",
+      "source": "Math 221 4.7.11",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "08fb1e34-0ccb-4180-ad4d-9cd4c0b17d5d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n\\(\\sin x + \\sin y\\) \u003d 1",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivative, function",
+      "url": "/question/08fb1e34-0ccb-4180-ad4d-9cd4c0b17d5d",
+      "source": "Math 221 4.7.12",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "6ac376a7-88df-40ec-bb6e-df556beea379",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n\\(\\sin x + xy + y\\(^{5}\\) \u003d \\(\\pi\\)",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivative, function",
+      "url": "/question/6ac376a7-88df-40ec-bb6e-df556beea379",
+      "source": "Math 221 4.7.13",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
+    },
+    {
+      "uuid": "a306ae7f-9015-40e4-8d81-4797a066ac96",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Implicit Differentiation",
+      "body": "For each of the following problems find the derivative f \u0027(x) if y \u003d f(x) satisfies the given equation.\nIf you can find an explicit description of the function y \u003d f(x), say what it is.\n\\(\\tan x + \\tan y\\) \u003d 1",
+      "allAnswers": [],
+      "tags": "implicit differentiation, derivative, function",
+      "url": "/question/a306ae7f-9015-40e4-8d81-4797a066ac96",
+      "source": "Math 221 4.7.14",
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     }
   ],
   "textContent": [
@@ -937,7 +829,7 @@
       "tags": "limits, continuous functions, limits of constants, limits of sums, limits of products, limits of quotients",
       "url": "/text-content/cc30e92e-bd33-4d7b-a37c-b3bb6f8f7c0b",
       "source": "Forgotten Text 6 3.4",
-      "topic": "Calculus/Pre-Calculus Review/Limits and Continuous Functions/Limits"
+      "topic": "c7059538-f317-4f9a-8c40-4c71f183e716"
     },
     {
       "uuid": "451cf8a8-46fc-468d-874e-72b6d06c1b27",
@@ -954,9 +846,93 @@
       "tags": "limits, limit computations derivatives, rational functions ",
       "url": "/text-content/451cf8a8-46fc-468d-874e-72b6d06c1b27",
       "source": "Forgotten Text 6 3.6",
-      "topic": "Calculus/Pre-Calculus Review/Limits and Continuous Functions/Limit computations"
+      "topic": "6037c490-2e0b-4827-8025-aaa7cf95d1d2"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "dbed854d-114a-4a94-aa34-ac717b05a287",
+      "subTopics": [],
+      "parentTopics": [
+        "bd2dc33c-81c1-4bf9-9ad6-21229cfd211e"
+      ],
+      "title": "Functions and Intervals",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " approximations by differentials, linear approximations, approximations,differentials,",
+      "difficulty": 380000,
+      "contentUuids": [
+        "da27dd72-d50e-4cf7-9e79-f5528f6dce25",
+        "76ec0960-48c9-4398-bfd9-e5e4534d7ff8",
+        "6b8f6720-27d8-4741-b31c-f94ca766fb15"
+      ]
+    },
+    {
+      "uuid": "bc9b07a3-3534-448a-8974-5bc4ca11a29f",
+      "subTopics": [],
+      "parentTopics": [
+        "d1c35f7e-7fba-45c2-9126-27088e9e946c"
+      ],
+      "title": "Substitution",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " integrals, indefinite, substitution, definite, antiderivatives, concave down,concave up, intervals,antiderivative, by parts, graph,intervals,",
+      "difficulty": 660000,
+      "contentUuids": [
+        "d8d0de90-c8b3-409b-ad02-ba609f48c327",
+        "0cadcc07-ced0-4a21-be56-fddc830402b4",
+        "cfa16e6b-ff5c-4a79-8b0a-95d6fdeefbfd",
+        "3dd6ba69-4a8f-4abb-accb-952d485812fe",
+        "39ba705f-8c0a-41cb-83e6-7c2baef6c9d1",
+        "1a7719b4-9bec-4aaf-ad7e-02e657c7d3f5",
+        "fd626695-2b94-4181-9fe7-195391cb3466",
+        "bee70b18-3ea4-42c6-9a69-f12e6037ee95",
+        "4035f38c-6a01-4a42-b36f-1a4bc0fa4535",
+        "c61fa67d-a420-43ea-a31e-1e292eab531d",
+        "415ab23f-c550-45aa-9eb4-bf288be64ad5",
+        "417ef367-479a-43d8-898d-5cba3b4faebf",
+        "c463c14f-5b65-4276-8ef9-2d58536d112d",
+        "d527fb1b-473f-4c61-8eb4-07d7fd254db1",
+        "1385e651-4ba1-4dfd-b53c-859a6e197e5b",
+        "04be58df-8902-47cd-baa4-89b373c5acf4",
+        "a1a7eb14-4d9d-4264-ab63-6049ea9964dc",
+        "6d7284e9-2855-44af-becf-10716e1f9db4"
+      ]
+    },
+    {
+      "uuid": "f6d7aba7-bf12-42b9-8ad6-c7219c1fdd7e",
+      "subTopics": [],
+      "parentTopics": [
+        "6846ecf2-fa29-41a0-8315-fd49f306572b"
+      ],
+      "title": "Component Form",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " magnitude, component form, standard position,vector component form, quadrants, vector magnitude,vector to polar, sine, vector arithmetic, vector multiplication, cosine,vector dot product, polar, vector addition, dot product,",
+      "difficulty": 232000,
+      "contentUuids": [
+        "38d3143e-e4ba-45af-a590-873db2a9a8c8",
+        "eb1cac2a-275e-493f-9384-70774ccaf602",
+        "97f23a65-7954-4e11-95e8-0ac7e1131f80",
+        "12b05900-9b82-4f57-a48d-fd9e6aa8fed8",
+        "e5e2aabd-ec70-4ddf-8cdb-76eed16c94f5",
+        "c76d6c71-5135-4b08-8802-8bff9e033318",
+        "ba0fa350-62c7-47f4-a55c-ae9728bfa8be",
+        "a9b6c143-0fba-4d30-aaab-bcc97c3b713f",
+        "491357c5-8d1b-4e7f-ba3a-f97c0ace3c7d",
+        "4f772381-9576-4181-bb3e-d8d44aa83f57",
+        "2587cc89-85ff-4d8b-9618-96cec4eb8f81",
+        "43ee531c-1544-482d-b7ec-a4f66c16401b",
+        "ee5bb6bf-cfe3-4359-bddf-1785ddc97285",
+        "37002e46-c4ad-49c4-bb88-225c7d62851d",
+        "21a1ac88-58d9-45e2-9713-4070a09f9e5d",
+        "edd221a9-b0fd-4a83-aeb1-c1b86b0cb9d7",
+        "370b0369-e1b4-486d-9f63-f204b8e19495",
+        "f4a26ee5-91ed-4c14-a5bf-d8c5f0816b2e",
+        "1ad7588e-02d0-432e-a58c-818308ec3160",
+        "b6b7a79a-c38a-403b-a341-bde8e7a16107"
+      ]
+    }
+  ]
 }

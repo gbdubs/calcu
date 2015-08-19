@@ -2,431 +2,194 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "not defined",
-      "uuid": "40a5473a-2eb7-4492-82c8-14b38324eb74",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/52.png\"/\u003e",
+      "uuid": "37733439-6edb-4ff7-96d4-d3126a4fc751",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361997,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Limits Of Scalar Fields Problem",
-      "body": " Let  \\(f\\)  be the scalar field defined by  \\(f(x,y) \u003d x^3y^3(2x^{12}+3y^4)^{-1}\\)  for all  \\((x,y) \\ne (0,0)\\) .",
+      "title": "Midpoint of line",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/51.png\"/\u003e",
       "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/40a5473a-2eb7-4492-82c8-14b38324eb74",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "midpoint of line, line midpoint",
+      "url": "/practice-problem/37733439-6edb-4ff7-96d4-d3126a4fc751",
+      "source": "null 8.3.2"
     },
     {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "7680fc12-5608-4676-8cf6-da220c24256c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/54.png\"/\u003e",
+      "uuid": "5e06c9ba-762e-4ffe-bfc8-cfa349b76d02",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361998,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Limits Of Scalar Fields Question",
-      "body": "  \\(\\lim_{x \\to 0} f(x,x^3) \u003d \\)  ____.",
+      "title": "Equation of line",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/53.png\"/\u003e",
       "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/7680fc12-5608-4676-8cf6-da220c24256c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "equation of line, line equation, vertices",
+      "url": "/practice-problem/5e06c9ba-762e-4ffe-bfc8-cfa349b76d02",
+      "source": "null 8.3.3"
     },
     {
-      "authorSolution": "not defined",
-      "uuid": "687b8186-cc5f-4233-84f6-5c058e4fd7be",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/60.png\"/\u003e",
+      "uuid": "d8667ef9-55ed-4bef-b632-150d9531c4ee",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361998,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Limits Of Scalar Fields",
-      "body": "  Let  \\(f\\)  be the scalar field defined by  \\(f(x,y) \u003d \\dfrac{\\sin(x^2 + y^2)}{x^2 + y^2}\\) .    Then  \\(f\\)  is defined at every point of  \\(\\R^2\\)  except the origin.    If we further define  \\(f(0,0) \u003d\\)  ___, then  \\(f\\)  is continuous on all of \\(\\R^2\\) .",
+      "title": "Vertices of Triangle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/59.png\"/\u003e",
       "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/687b8186-cc5f-4233-84f6-5c058e4fd7be",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "vertices, triangle ",
+      "url": "/practice-problem/d8667ef9-55ed-4bef-b632-150d9531c4ee",
+      "source": "null 8.4.2"
     },
     {
-      "authorSolution": "not defined",
-      "uuid": "4497c6c5-db6d-4259-a87e-43cc21c860c1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/64.png\"/\u003e",
+      "uuid": "306193a1-d4c9-4c04-932f-f25f9d1cacb2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361998,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Limits Of Scalar Fields",
-      "body": " The limit of  \\(\\dfrac{2xy}{x^2 + y^2}\\)  as  \\((x,y)\\)  approaches  \\((0,0)\\)  is _________.",
+      "title": "Coordinate proof ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/63.png\"/\u003e",
       "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/4497c6c5-db6d-4259-a87e-43cc21c860c1",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "coordinate proof, vertices, triangle coordinate proof ",
+      "url": "/practice-problem/306193a1-d4c9-4c04-932f-f25f9d1cacb2",
+      "source": "null 8.5.2"
     },
     {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "e94d5218-e3a9-42db-9fbc-0a53204316db",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/70.png\"/\u003e",
+      "uuid": "3dd2100d-6fb4-4dc6-adc9-94f6212d6017",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361998,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Limits Of Scalar Fields Practice",
-      "body": " The limit of  \\(\\dfrac{x^3+xy^2}{x^2 + y^2}\\)  as  \\((x,y)\\)  approaches  \\((0,0)\\)  is _________.",
+      "title": "Orthocenter of Triangle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/69.png\"/\u003e",
       "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/e94d5218-e3a9-42db-9fbc-0a53204316db",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "orthocenter of triangle, coordinates of orthocenter ",
+      "url": "/practice-problem/3dd2100d-6fb4-4dc6-adc9-94f6212d6017",
+      "source": "null 8.6.2"
     },
     {
-      "authorSolution": "below,  \\(\\dfrac12\\) ,  \\(-4\\) ",
-      "uuid": "2ec8c72d-e0d3-481b-b6e0-1ad21245ac2d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10091.png\"/\u003e",
+      "uuid": "b08beed3-8444-4531-9e29-d8f2712a7781",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361999,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Limits Of Scalar Fields Practice",
-      "body": " The limit of  \\(\\dfrac{3xy + (\\cos y)z^2 + xy^2z^3}{\\sqrt{x^4 + 4y^4 + 7z^8}}\\)  as  \\((x,y,z)\\)  approaches  \\((0,0,0)\\)  is _________.",
+      "title": "Inequality Postulate Proof",
+      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10090.png\"/\u003e",
       "allAnswers": [],
-      "tags": "limits of scalar fields, scalar fields ,limits of scalar fields",
-      "url": "/practice-problem/2ec8c72d-e0d3-481b-b6e0-1ad21245ac2d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Pre-Calculus Review/Limits/Scalar Fields"
+      "tags": "geometric inequalities, inequality postulates, proof",
+      "url": "/practice-problem/b08beed3-8444-4531-9e29-d8f2712a7781",
+      "source": "null 7.3.1"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(\\dfrac1e\\) ",
-      "uuid": "f4dacd2b-fa3c-4c01-b080-85fbef3db1d4",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10098.png\"/\u003e",
+      "uuid": "5b37b48c-2411-4dff-a1e8-1ce8044ccf85",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362020,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Tangent Planes Question",
-      "body": " Let  \\(\\phi(x,y) \u003d e^x\\ln y\\) .    Then  \\(\\phi_x(0,e)\\)  \u003d ___ and  \\(\\phi_y(0,e)\\)  \u003d ______.",
+      "title": "Triangle Length Logic",
+      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10097.png\"/\u003e",
       "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/f4dacd2b-fa3c-4c01-b080-85fbef3db1d4",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
+      "tags": "triangle lengths, inequality postulate, geometric inequality",
+      "url": "/practice-problem/5b37b48c-2411-4dff-a1e8-1ce8044ccf85",
+      "source": "null 7.4.1"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "b128713c-d741-4329-8370-ff26200d0105",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10100.png\"/\u003e",
+      "uuid": "8eab30fa-7115-4698-af17-69a4e6663510",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362020,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Partial Derivatives",
-      "body": " Let  \\(f(x,y) \u003d \\int_{10}^{x^3\\sin y}\\dfrac{dt}{1 + \\cos^2(\\frac{\\pi}{16}t)}\\) .   Then  \\(\\frac{\\partial  }{\\partial f}x (2,\\frac{\\pi}6)\\)  \u003d ___.",
+      "title": "Isosceles Triangle Proof",
+      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10099.png\"/\u003e",
       "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/b128713c-d741-4329-8370-ff26200d0105",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
+      "tags": "geometric inequalities, inequality postulates, proofs, isosceles triangle",
+      "url": "/practice-problem/8eab30fa-7115-4698-af17-69a4e6663510",
+      "source": "null 7.4.2"
     },
     {
-      "authorSolution": " \\(\\dfrac29\\) ,  \\(-\\dfrac19\\) ",
-      "uuid": "de423f85-1cc5-4d98-8c84-a3ba4fefae3a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10109.png\"/\u003e",
+      "uuid": "d9e158c5-9abf-44f6-b951-4d01e16cacb2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362020,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Tangent Planes Question",
-      "body": " Let  \\(\\phi(u,v) \u003d \\dfrac u{u+v}\\) .    Then  \\(\\phi_u(1,2)\\)  \u003d _______ and  \\(\\phi_v(1,2)\\)  \u003d ______.",
+      "title": "Right Triangle Proof",
+      "body": "\n\n\u003cimg src\u003d\"/_static/img/content/10/10108.png\"/\u003e",
       "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/de423f85-1cc5-4d98-8c84-a3ba4fefae3a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
+      "tags": "right triangles, inequality postulates, geometric inequalities, triangles, line segments",
+      "url": "/practice-problem/d9e158c5-9abf-44f6-b951-4d01e16cacb2",
+      "source": "null 7.5.1"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(3\\) ",
-      "uuid": "d720a6e9-773e-4c01-8f9d-b477074df67f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/78.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/79.png\"/\u003e",
+      "uuid": "28d6152a-e135-4470-843f-0428383c9376",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362024,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Partial Derivatives Question",
-      "body": " Let  \\(g(x,y) \u003d e^{1-6x}\\sin(4x + 2y)\\) .    Then  \\(\\frac{\\partial  }{\\partial g}x(0,\\frac{\\pi}6) \u003d (a - b\\sqrt b)e\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Angles ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/76.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/77.png\"/\u003e",
       "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/d720a6e9-773e-4c01-8f9d-b477074df67f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
+      "tags": "angles ",
+      "url": "/practice-problem/28d6152a-e135-4470-843f-0428383c9376",
+      "source": "null 9.1.2"
     },
     {
-      "authorSolution": " \\(9\\) ",
-      "uuid": "34b51039-3a03-4a52-9653-72945200fc59",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/82.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/83.png\"/\u003e",
+      "uuid": "516f6a0f-89e1-4f78-8b30-0838afc95c14",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362024,
+      "createdAt": 1437611655779,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Partial Derivatives",
-      "body": " Let  \\(f(u,v,w) \u003d \\ln(u^2 + 2uv) + \\sin^3(u + w)\\) .   Then  \\(\\frac{\\partial  }{\\partial f}u (1,\\frac72,\\frac{\\pi}3-1) \u003d \\dfrac a4\\)  where  \\(a\\) \u003d___.",
+      "title": "Bisection ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/80.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/81.png\"/\u003e",
       "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/34b51039-3a03-4a52-9653-72945200fc59",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
-    },
-    {
-      "authorSolution": " \\(-6\\) ,  \\(-1\\) ,  \\(-2\\) ,  \\(8\\) ",
-      "uuid": "33964d93-136d-4a0d-89c5-cc0f6fc99f16",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362024,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Partial Derivatives",
-      "body": " Let  \\(\\phi(w,x,y,z) \u003d wxy + x^2\\tan z\\)  and  \\(\\vec{ }a \u003d (1,-2,3,\\frac{\\pi}{4})\\) .   Then  \\(\\phi_w(\\vec{ }a)\\)  \u003d ____, \\\\  \\(\\phi_x(\\vec{ }a)\\)  \u003d ____,  \\(\\phi_y(\\vec{ }a)\\)  \u003d ____, and  \\(\\phi_z(\\vec{ }a)\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/33964d93-136d-4a0d-89c5-cc0f6fc99f16",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
-    },
-    {
-      "authorSolution": " \\(70\\) ,  \\(4\\) ",
-      "uuid": "66fe8d77-4574-4f19-8a0a-64a301a384c6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362024,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Partial Derivatives Question",
-      "body": " Let  \\(f(x,y)\u003d \\int_3^{\\sqrt x y^2}\\dfrac{2t}{8 + t^2 + t^4} dt\\) .   Then  \\(\\frac{\\partial  }{\\partial f}x (4,\\sqrt2) \u003d \\dfrac 1a\\)  where  \\(a\\) \u003d_____ and  \\(\\frac{\\partial  }{\\partial f}y  (4,\\sqrt2) \u003d \\dfrac{b\\sqrt2}{35}\\)  where  \\(b\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/66fe8d77-4574-4f19-8a0a-64a301a384c6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
-    },
-    {
-      "authorSolution": " \\(2\\) ,  \\(3\\) ,  \\(7\\) ",
-      "uuid": "e8ea8632-eaaa-4d92-9d08-7c5ef2528efd",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362024,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Tangent Planes",
-      "body": " Let  \\(f(x,y,z)\u003d \\int_{x^2\\sin y}^{z^3\\tan y}\\dfrac{dt}{1 + t^2 + t^4}\\) .    Then  \\(\\frac{\\partial  }{\\partial f}y(-1,\\frac{\\pi}{4},1) \u003d \\dfrac ab - \\dfrac ac\\sqrt a\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/e8ea8632-eaaa-4d92-9d08-7c5ef2528efd",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
-    },
-    {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "1a4c0d6d-5651-4587-a283-ccea35929756",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362024,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Partial Derivatives",
-      "body": " Let  \\(f(x,y) \u003d 5xe^{2y} + 2x^2(y + 3)\\sin\\frac1x\\cos y\\)  for  \\(x \\ne 0\\)  and  \\(f(0,y) \u003d 0\\) .    Then \\\\  \\(\\frac{\\partial  }{\\partial f}x(0,0)\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "partial derivatives, partial derivatives ,tangent planes",
-      "url": "/practice-problem/1a4c0d6d-5651-4587-a283-ccea35929756",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Partial Derivatives"
-    },
-    {
-      "authorSolution": " \\(y^2\\ln x + x^2y^3 - \\arctan x + \\cos y\\) ",
-      "uuid": "bb7f3da5-1bc8-46bd-9279-f9b76934438c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362030,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Gradients Of Scalar Fields And Tangent Planes Practice",
-      "body": " Find a function (if one exists) whose gradient is       \\[ \\left(\\dfrac{y^2}x+2xy^3 - \\dfrac1{1+x^2}, 2y\\ln x+3x^2y^2-\\sin y\\right).   \\] Answer: _______________________.",
-      "allAnswers": [],
-      "tags": "gradients of scalar fields and tangent planes, gradient ,tangent plane ,directional derivative ,path of steepest descent",
-      "url": "/practice-problem/bb7f3da5-1bc8-46bd-9279-f9b76934438c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Gradients/Scalar Fields and Tangent Planes"
+      "tags": "angles ",
+      "url": "/practice-problem/516f6a0f-89e1-4f78-8b30-0838afc95c14",
+      "source": "null 9.1.3 "
     }
   ],
   "questions": [
-    {
-      "uuid": "09d8dd99-f1f1-4cd9-89c9-b75a393482d0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int \\sqrt{1+x^2}\\, \\dd x  \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/09d8dd99-f1f1-4cd9-89c9-b75a393482d0",
-      "source": "Math 222 1.4.3",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "4b76ae7d-215d-45a0-8215-fc7d2ce04e57",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/4b76ae7d-215d-45a0-8215-fc7d2ce04e57",
-      "source": "Math 222 ",
-      "topic": ""
-    },
-    {
-      "uuid": "49e8ed28-6bc5-4bbd-adc1-e3db0040e13f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "Find \\(y\\) if\n\n   \\(\\text{(a)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2}+2\\odiff{y}{x} + y \u003d 0 \u0026\u0026\n    y(0)\u003d2, \u0026\u0026 y\u0027(0)\u003d3\\)\n    \\(\\text{(b)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2}+2\\odiff{y}{x} + y \u003d e^{-x} \u0026\u0026\n    y(0)\u003d0, \u0026\u0026 y\u0027(0)\u003d0\\)\n    \\(\\text{(c)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2}+2\\odiff{y}{x} + y \u003d xe^{-x} \u0026\u0026\n    y(0)\u003d0, \u0026\u0026 y\u0027(0)\u003d0\\)\n    \\(\\text{(d)}\\quad \u0026\\frac{\\dd^2y}{\\dd x^2} + 2\\odiff{y}{x} +y \u003d\n    e^{-x}+xe^{-x} \u0026\u0026 y(0)\u003d2, \u0026\u0026 y\u0027(0)\u003d3.\\)",
-      "allAnswers": [],
-      "tags": "differential equation, linear inhomogeneous ",
-      "url": "/question/49e8ed28-6bc5-4bbd-adc1-e3db0040e13f",
-      "source": "Math 222 4.1.56",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "46f2e4fe-26cd-4bd0-99b6-316b5d6b6edb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "A population of bacteria grows at a rate proportional to its\nsize. Write and solve a differential equation which expresses this. If\nthere are 1000 bacteria after one hour and 2000 bacteria after two hours, how many bacteria are there after three hours?",
-      "allAnswers": [],
-      "tags": "word problem differential equation",
-      "url": "/question/46f2e4fe-26cd-4bd0-99b6-316b5d6b6edb",
-      "source": "Math 222 4.1.57",
-      "topic": "Calculus/Curve Sketching/First Derivative Test"
-    },
-    {
-      "uuid": "56033214-e86d-48bd-91d3-2fe06764ef02",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "Rabbits in Madison have a birth rate of 5\\% per year and a death\nrate (from old age) of 2\\% per year. Each year 1000 rabbits get run over and 700 rabbits move in from Sun Prairie.\n(i) Write a differential equation which describes Madison\u0027s rabbit population at time t.\n(ii) If there were 12,000 rabbits in Madison in 1991, how many are there in 1994?",
-      "allAnswers": [],
-      "tags": "differential equation, word problem",
-      "url": "/question/56033214-e86d-48bd-91d3-2fe06764ef02",
-      "source": "Math 222 4.1.58",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "da6f000e-6e7e-4067-9804-2dc1f1bc5329",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Express as Integrals of Rational Functions",
-      "body": "Express these integrals as integrals of rational functions of \\(t\\).\n\n\\(\\DS \\int \\sqrt{1-z^2}\\, \\dd z  \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/da6f000e-6e7e-4067-9804-2dc1f1bc5329",
-      "source": "Math 222 1.4.4",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "4e5054cb-5ec8-4f46-94b9-c1ee4443ce2c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Express as Integrals of Rational Functions",
-      "body": "Express these integrals as integrals of\nrational functions of \\(t\\).\n\n\\(\\DS \\int \\frac{ \\dd z }{\\sqrt{1-z^2}}\\, \\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/4e5054cb-5ec8-4f46-94b9-c1ee4443ce2c",
-      "source": "Math 222 1.4.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "195ce25c-3ed4-4578-941a-6c8a9bda013d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": " According to \\(\\emph{Newton\u0027s law of cooling}\\) the rate \\(\\dd T/\\dd t\\)\nat which an object cools is proportional to the difference \\(T-A\\) between its temperature \\(T\\) and the ambient temperature \\(A\\). The \nequation which expresses this is\n\\(\\frac{\\dd T}{\\dd t}\u003d k(T-A)\\)\nwhere \\(k\u003c0\\) and \\(A\\) are constants.\n(i) Solve this equation and show that every solution satisfies\n\\(\\lim_{t\\to\\infty} T \u003d A.\\)\n(ii) A cup of coffee at a temperature of \\(180^o\\)F sits in a room whose\ntemperature is \\(75^0\\)F. In five minutes its temperature has dropped to \\(150^\\circ\\)F. When will its temperature be \\(90^\\circ\\)F?  What is the limit of the temperature as \\(t\\to\\infty\\)?",
-      "allAnswers": [],
-      "tags": "differential equation, word problem",
-      "url": "/question/195ce25c-3ed4-4578-941a-6c8a9bda013d",
-      "source": "Math 222 4.1.59",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
     {
       "uuid": "e5240d21-c860-416c-b1bc-1a5820bd252f",
       "contentType": "question",
@@ -442,7 +205,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/e5240d21-c860-416c-b1bc-1a5820bd252f",
       "source": "Math 222 1.4.6",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "754e5237-6df2-4208-a153-bddeaee13b20",
@@ -459,7 +222,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/754e5237-6df2-4208-a153-bddeaee13b20",
       "source": "Math 222 1.4.7",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "612bcfef-1959-4f12-9536-a32fe1b06d61",
@@ -476,7 +239,7 @@
       "tags": "word problem, differential equations",
       "url": "/question/612bcfef-1959-4f12-9536-a32fe1b06d61",
       "source": "Math 222 4.1.60",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
+      "topic": "22165e24-fa71-4e83-ba18-e14279ca0ca8"
     },
     {
       "uuid": "d20ce5c4-241c-44c8-86a7-34b84a3b3ff9",
@@ -493,7 +256,7 @@
       "tags": "differential equation, word problem",
       "url": "/question/d20ce5c4-241c-44c8-86a7-34b84a3b3ff9",
       "source": "Math 222 4.1.61",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "8d8532f4-cc50-4627-9e45-b54e84c4f45d",
@@ -510,7 +273,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series",
       "url": "/question/8d8532f4-cc50-4627-9e45-b54e84c4f45d",
       "source": "Math 222 2.1.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9aab6c85-f549-4a5d-b028-32e405bad270",
@@ -527,7 +290,7 @@
       "tags": "differential equation, word problem",
       "url": "/question/9aab6c85-f549-4a5d-b028-32e405bad270",
       "source": "Math 222 4.1.62",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "4b045185-dc50-467c-9376-6203744e6b7a",
@@ -544,7 +307,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/4b045185-dc50-467c-9376-6203744e6b7a",
       "source": "Math 222 2.1.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d8228857-3c3d-43d8-9ed6-e462166d9c36",
@@ -561,7 +324,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/d8228857-3c3d-43d8-9ed6-e462166d9c36",
       "source": "Math 222 2.1.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "2a742e63-1b40-4582-b1b7-84d1f3ec9cd7",
@@ -578,7 +341,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/2a742e63-1b40-4582-b1b7-84d1f3ec9cd7",
       "source": "Math 222 2.1.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9d4cff1b-3422-476e-a91b-ae50399af2aa",
@@ -595,7 +358,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/9d4cff1b-3422-476e-a91b-ae50399af2aa",
       "source": "Math 222 2.1.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "5e8e5bf1-e52f-43c9-84e1-59e34ff68886",
@@ -612,7 +375,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/5e8e5bf1-e52f-43c9-84e1-59e34ff68886",
       "source": "Math 222 2.1.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "12b6b156-282f-4aa9-860d-e5ee9bc12d7a",
@@ -629,7 +392,7 @@
       "tags": "word problem, differential equation, limits, approaching infinity",
       "url": "/question/12b6b156-282f-4aa9-860d-e5ee9bc12d7a",
       "source": "Math 222 4.1.63",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
+      "topic": "22165e24-fa71-4e83-ba18-e14279ca0ca8"
     },
     {
       "uuid": "90987c61-28e2-48ee-aab9-1630d3f2a325",
@@ -646,7 +409,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/90987c61-28e2-48ee-aab9-1630d3f2a325",
       "source": "Math 222 2.1.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ac73250d-b99d-4b91-9aee-1bc80b086122",
@@ -663,7 +426,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/ac73250d-b99d-4b91-9aee-1bc80b086122",
       "source": "Math 222 2.1.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "57375a3e-7b7c-4671-86af-d2bd0fe4cd10",
@@ -680,7 +443,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/57375a3e-7b7c-4671-86af-d2bd0fe4cd10",
       "source": "Math 222 2.1.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "68908164-587f-496c-84f8-a8eac5d648b0",
@@ -697,7 +460,7 @@
       "tags": "differential equation, word problems",
       "url": "/question/68908164-587f-496c-84f8-a8eac5d648b0",
       "source": "Math 222 4.1.64",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "d655797f-a72b-4b39-8f3e-304fa9df6ed6",
@@ -714,7 +477,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/d655797f-a72b-4b39-8f3e-304fa9df6ed6",
       "source": "Math 222 2.1.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "51334d33-bde9-463a-a3d5-313a30325c2e",
@@ -731,7 +494,7 @@
       "tags": "word problem, differential equation",
       "url": "/question/51334d33-bde9-463a-a3d5-313a30325c2e",
       "source": "Math 222 4.1.65",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
+      "topic": "22165e24-fa71-4e83-ba18-e14279ca0ca8"
     },
     {
       "uuid": "ca9d514f-c67d-4581-acab-adb17a78657e",
@@ -748,7 +511,7 @@
       "tags": "word problem, differentiation equation, velocity",
       "url": "/question/ca9d514f-c67d-4581-acab-adb17a78657e",
       "source": "Math 222 4.1.66",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
+      "topic": "22165e24-fa71-4e83-ba18-e14279ca0ca8"
     },
     {
       "uuid": "f4a6945c-ee44-430a-a51b-49afce087803",
@@ -765,7 +528,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/f4a6945c-ee44-430a-a51b-49afce087803",
       "source": "Math 222 2.1.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "81503b4a-bd0a-4a88-bdb0-66ab3fd372b0",
@@ -782,7 +545,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/81503b4a-bd0a-4a88-bdb0-66ab3fd372b0",
       "source": "Math 222 2.1.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "11c56c9b-4b60-4564-b335-6bd6f075c150",
@@ -799,7 +562,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/11c56c9b-4b60-4564-b335-6bd6f075c150",
       "source": "Math 222 2.1.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "fdfd4aae-d7ce-4ea6-8d4f-9caf448c6d67",
@@ -816,7 +579,7 @@
       "tags": "differential equation, word problem, displacement",
       "url": "/question/fdfd4aae-d7ce-4ea6-8d4f-9caf448c6d67",
       "source": "Math 222 4.1.67",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "72f982db-cf32-4b81-b2aa-ce9e894ad632",
@@ -833,7 +596,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/72f982db-cf32-4b81-b2aa-ce9e894ad632",
       "source": "Math 222 2.1.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ec8e0d89-a004-4c86-b3fc-3d538e6467e7",
@@ -850,7 +613,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/ec8e0d89-a004-4c86-b3fc-3d538e6467e7",
       "source": "Math 222 2.1.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "67c93ef8-55c7-4763-a15f-2bdc1947bd0d",
@@ -867,7 +630,7 @@
       "tags": "differential equations, word problem",
       "url": "/question/67c93ef8-55c7-4763-a15f-2bdc1947bd0d",
       "source": "Math 222 4.1.68",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "cea9d22f-d384-476d-846f-769479226562",
@@ -884,7 +647,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/cea9d22f-d384-476d-846f-769479226562",
       "source": "Math 222 2.1.16",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "32bee27d-005d-4d60-b0fa-98e4db5e81fe",
@@ -901,7 +664,7 @@
       "tags": "word problem, differential equations",
       "url": "/question/32bee27d-005d-4d60-b0fa-98e4db5e81fe",
       "source": "Math 222 4.1.69",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Differentiability"
+      "topic": "22165e24-fa71-4e83-ba18-e14279ca0ca8"
     },
     {
       "uuid": "f2a530da-5e9d-4bcb-9db3-6204786172af",
@@ -918,7 +681,7 @@
       "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
       "url": "/question/f2a530da-5e9d-4bcb-9db3-6204786172af",
       "source": "Math 222 2.1.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ee7e5d9d-ba52-4732-b85f-c855468444fc",
@@ -935,7 +698,126 @@
       "tags": "differential equation, word problem, local maximum",
       "url": "/question/ee7e5d9d-ba52-4732-b85f-c855468444fc",
       "source": "Math 222 4.1.70",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "9f0eb679-dba7-414d-a2a2-db9c6a6dfb5b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Eighth Degree Taylor Polynomials",
+      "body": "Find the eighth degree Taylor polynomial \\(T_8f(x)\\) about the\npoint \\(0\\) for the function \\(f(x)\u003d\\cos x\\) and estimate the error \\(|\\cos\nx-T_8f(x)|\\) for \\(|x|\u003c1\\).",
+      "allAnswers": [],
+      "tags": "polynomial, order, l\u0027hopital, taylor, lagrange, formula, series, integral",
+      "url": "/question/9f0eb679-dba7-414d-a2a2-db9c6a6dfb5b",
+      "source": "Math 222 2.1.18",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "43a181c9-f17d-4b0e-8ec5-af406f08b1d2",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "",
+      "body": "",
+      "allAnswers": [],
+      "tags": "",
+      "url": "/question/43a181c9-f17d-4b0e-8ec5-af406f08b1d2",
+      "source": "Math 222 ",
+      "topic": ""
+    },
+    {
+      "uuid": "1aeea711-8702-4f25-8390-485fc230361a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "In the buoy problem  suppose\nyou make the following observations:\n\nIt rises up to its first peak\nat \\(t\u003d1\\) where \\(z(1)\u003d25\\) and then descends \ndownward to a local minimum at\nat \\(t\u003d3\\) where \\(z(3)\u003d-16\\).\n(a) When will the buoy reach its second peak and\nhow high will that be?\n(b) What are \\(b\\) and \\(k\\)?",
+      "allAnswers": [],
+      "tags": "differential equations, word problem",
+      "url": "/question/1aeea711-8702-4f25-8390-485fc230361a",
+      "source": "Math 222 4.1.71",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "fa1c2976-e18e-4312-8b25-20a3b33aa67f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Show for \\(\\ll\u003d\\ll_p\\) that \n(a) \\(\\ll(z_1+z_2)\u003d\\ll(z_1)+\\ll(z_2)\\)\n(b) \\(\\ll(Cz)\u003dC\\ll(z)\\) where \\(C\\) is any constant\nSuch an \\(\\ll\\) is called a linear operator.\nOperator because it takes as input a function and then\nouputs another function.  Linear refers to properties (a) and (b).",
+      "allAnswers": [],
+      "tags": "differential equation",
+      "url": "/question/fa1c2976-e18e-4312-8b25-20a3b33aa67f",
+      "source": "Math 222 4.1.72",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "20df6688-6929-49e2-8e41-14d625982917",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Let \\(r\\) be any constant and \\(p\\) any polynomial.\nShow that \\(\\ll_p(e^{rt})\u003dp(r)e^{rt}\\).",
+      "allAnswers": [],
+      "tags": "differential equation, polynomial",
+      "url": "/question/20df6688-6929-49e2-8e41-14d625982917",
+      "source": "Math 222 4.1.73",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "abe73407-b169-4103-96f3-be40f01ecd7b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "For \\(p\\) and \\(q\\) polynomials show that\n\\(\\ll_{p+q}(z)\u003d\\ll_p(z)+\\ll_q(z)\\)",
+      "allAnswers": [],
+      "tags": "differential equation, polynomial",
+      "url": "/question/abe73407-b169-4103-96f3-be40f01ecd7b",
+      "source": "Math 222 4.1.74",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "4d69dd71-3d1e-4659-8af3-53d3658d3072",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "For \\(p\\) and \\(q\\) polynomials show that\n\\(\\ll_{p\\cdot q}(z)\u003d\\ll_p(\\ll_q(z))\\)\nHere \\(p\\cdot q\\) refers to the ordinary product of the two polynomials.",
+      "allAnswers": [],
+      "tags": "differential equations, polynomials",
+      "url": "/question/4d69dd71-3d1e-4659-8af3-53d3658d3072",
+      "source": "Math 222 4.1.75",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     }
   ],
   "textContent": [
@@ -954,7 +836,7 @@
       "tags": "optimization, derivatives, maximum, minimum ",
       "url": "/text-content/ce659dcd-8700-49a0-8355-f7c9b4f8e143",
       "source": "Forgotten Text 6 5.14",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Extrema and Optimization"
+      "topic": "221b3f64-d3f1-4820-9c3f-99f064824172"
     },
     {
       "uuid": "47cf1c9e-055f-4562-82f7-97d5d4481ec5",
@@ -971,7 +853,7 @@
       "tags": "sign functions, mean value theorem, continuous function ",
       "url": "/text-content/47cf1c9e-055f-4562-82f7-97d5d4481ec5",
       "source": "Forgotten Text 6 5.4",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Sign Changes of a Function"
+      "topic": "4f18ed53-3d15-4599-bc7e-6b1afeb2100c"
     },
     {
       "uuid": "e9806674-c5ed-4ac6-b01d-5c53ba07c8a9",
@@ -988,9 +870,138 @@
       "tags": "functions, derivative, tangent, hyperbola, parabola",
       "url": "/text-content/e9806674-c5ed-4ac6-b01d-5c53ba07c8a9",
       "source": "Forgotten Text 6 5.6",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Extrema and Optimization"
+      "topic": "221b3f64-d3f1-4820-9c3f-99f064824172"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "a4c74c8f-0251-4682-afa0-afa93703e306",
+      "subTopics": [],
+      "parentTopics": [
+        "817dbd92-2bf3-4756-80fe-a8854865e561"
+      ],
+      "title": "Basic Functions of One Variable",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " logic , real numbers, functions,basic functions, functions of one variable, algebra,",
+      "difficulty": 374000,
+      "contentUuids": [
+        "f382b4c6-0a99-4701-9a54-fcb0ceabcc23"
+      ]
+    },
+    {
+      "uuid": "e8dd16bb-ae25-45b6-8726-61c94256dd8f",
+      "subTopics": [
+        "bd5b2048-34fc-40cb-946f-337afae0768e"
+      ],
+      "parentTopics": [
+        "8177d58d-e84b-4f1b-9995-0b93ae67ca98"
+      ],
+      "title": "Six Circular Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " fundamental identities, trigonometry, finding angles,angles, angles, angle equations,trig identities, multi-problem, trigonometry ,right triangle, hypotenuse, acute angle, adjacent sides, equations,solving equations,word problem, quadrants, circular function,exact values,circular functions, logarithms, exact values,absolute values, angle of elevation, angle of depression, height,trigonometric identities, sum and difference, fundamental identities ,fundamental identities",
+      "difficulty": 188000,
+      "contentUuids": [
+        "95e38029-8672-4e90-9444-19224cbbc550",
+        "d2be2ffa-b726-4879-a372-3bea594156de",
+        "c488e149-0313-4ce7-a5e8-a0981b2e9f53",
+        "be68cf0c-3144-4f30-a1bb-581fbce3e61f",
+        "14d17471-163e-4eee-9077-232d18e485db",
+        "1eed956a-c511-4785-b5d2-b008b2706efb",
+        "51740d29-f8ef-458d-a538-6059556e83b8",
+        "cdcd2c57-2780-4e8d-b750-3e482ef226fc",
+        "591f9f65-2ebc-43eb-8bc6-166333652c12",
+        "75b33f47-5d87-4941-a654-96a191314b26",
+        "4832f7d4-91a4-4fea-bbc1-2931a973f318",
+        "e85eb176-d01c-4f6d-aa38-a85bb8d79702",
+        "3ba86c94-1ca4-44d9-a715-1d3d2a365d16",
+        "6d1042f7-6e96-4da2-a6a9-6e84b532f2b8",
+        "94840c31-9dcd-41c9-9b97-80c00b1ba684",
+        "3bd8b80c-5f06-48df-920f-4cc8d82cf899",
+        "a5dea4e6-2274-4d0c-b9a1-db397cd79b7b",
+        "9fedf4cb-50b7-40a6-9092-957eb01b1572",
+        "03cb6710-af42-48b2-875a-404d2f4b289f",
+        "620aa349-e38b-4001-8218-331388224629",
+        "1f844b49-c7f7-4c79-8371-8ab04a137888",
+        "3f0fcd23-0dbd-4d54-8876-50cb5e176b33",
+        "4703e35d-33f8-414a-b56f-5c0f74c8267e",
+        "fa2fe791-05c6-4b71-bc38-629edf588380",
+        "55d8e5e0-fba2-4dcf-973a-db4bfd2bb6e0",
+        "cdf70191-907a-4d08-aee9-29f8a1b72f3c",
+        "a428f72c-7b01-4fe3-95f4-6d97163cea21",
+        "171307ec-0765-4004-951c-00002b3b445b",
+        "5135fbf3-8bfa-4a4b-9da8-bddc0ba6f096",
+        "70eb11b9-f077-4449-9d4b-6b1f07e6728d",
+        "70b4ba18-7ca9-46b4-ab72-6299d4780ca0",
+        "4b019cad-543c-4ad4-8385-eea2d10d3c2f",
+        "1edb897c-2977-4d8e-981b-1ceff738a638",
+        "c38a7301-90ac-4d67-9c74-7ba1f09862f2",
+        "2854dcb5-cca4-45dd-bc72-c68b6a4b2dcb",
+        "8487ef3a-765a-4302-b097-c6d54fca653b",
+        "4608117a-3328-4fdb-aa01-1f695c6e0fdc",
+        "331246f0-3e10-4fcd-acc9-33ed3ebfd54c",
+        "c4347c46-98dd-4ebd-aa07-b93ac3226e35",
+        "d0b948bc-6874-48cc-962a-eca6f892f308",
+        "619fc3ae-ebb5-4916-a83b-d8d926a493a3",
+        "c1d9bcee-c175-40fe-a71a-b5e176021ffd",
+        "6b745fa2-ad71-4162-8143-e665d9591408",
+        "c2fbb82e-14e4-4142-8992-0eff41fbe464",
+        "b723988e-0ef7-4988-a2e4-856242f7bd73",
+        "6c401201-4561-4660-847d-914caf0c8795",
+        "e58ad83a-486b-4e80-aaa2-a237d91ec67f",
+        "8c68914f-063b-47d0-8a83-ab7d8cb0558e",
+        "981a4b88-4d08-4dff-99d7-2ef85830d667",
+        "d628f4cf-f789-4f97-8367-e5fd00822ec8",
+        "c3eca09e-6581-46c7-b8d6-368d66bb18da",
+        "c6c79061-11d5-4a21-9d0e-f348a0f4d58e",
+        "08118f0f-8a75-4804-b0bb-bf824cb76e62",
+        "39796c50-f5b0-4591-bfbe-a28806c72343",
+        "a1cbec16-7ef5-4d77-bbd5-ebd6e860f21d",
+        "9b8196a8-79a5-4ce9-8081-d19706772de1",
+        "1f52d4ac-9169-48e8-9bae-5b2bd25e2f03",
+        "eeb971f5-8526-406d-b095-4d00b722b5b1",
+        "bd778cf1-6d27-467d-861b-3caa46f897b1",
+        "c6defd6f-f622-405e-9507-a96fe69ea830",
+        "0fc5e830-815e-4da0-bf73-9bba80f8c545",
+        "d53e360a-b571-40b4-a0ed-964dcf3585e2",
+        "4aa17f5c-0885-4427-975a-26a8606d0726",
+        "1ab9a07d-0751-49a4-9797-5882665d5885",
+        "ef1083c2-14bf-4dfc-b8df-c8a60995d919",
+        "b69490f8-d2fe-43ed-96dc-6d8ec19342b9",
+        "4f321b59-7bd4-45c3-8594-db95ebe886bd",
+        "deb783f5-92cc-4349-9a3f-23c698b781f7",
+        "8cb72a94-81b9-42d0-bd4c-e29b2d8a97ac",
+        "f4b94154-147d-4050-91e6-4ecae3756612",
+        "cf65e64b-39a7-4df5-9c64-ccf540cad190",
+        "022f5916-bc58-4132-9c23-e3a09fa40fe9",
+        "99cbc364-0094-4d4a-87a3-dfa1be97b33c",
+        "e1046859-65e8-470d-86b8-36a7f9def314",
+        "74bcd0dc-e9cc-4c10-98c0-a232950a411f",
+        "27838c71-d095-49e2-9041-0c1eb18dfda9",
+        "28e26d3d-b5be-42b4-874a-284cff1714bc"
+      ]
+    },
+    {
+      "uuid": "ff2743f6-fdec-4fdc-bce6-1407ca000597",
+      "subTopics": [],
+      "parentTopics": [
+        "d86a65f0-5d89-4527-b002-301cbd961e84"
+      ],
+      "title": "Inverses",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " logarithm, logarithmic functions,exponential functions, derivative of exponential, derivative of a logarithm, derivatives of complex functions,derivative of logarithmic functions,",
+      "difficulty": 409000,
+      "contentUuids": [
+        "5b28b95d-4ecc-4cbc-b173-86afc524e749",
+        "edb5ca3f-92d7-4ee2-9d8b-12c20aaa5a54",
+        "50358e9e-486f-431f-95c4-cfeeef8a55e6",
+        "4972f6c8-c735-4f01-8f36-847b7cb4a1b7",
+        "ac4705e2-f4fd-47a8-913e-2e99180d1b83",
+        "dd4215e9-b221-4f35-a678-a344fd5774a7"
+      ]
+    }
+  ]
 }

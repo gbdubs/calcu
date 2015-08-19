@@ -2,447 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
+      "authorSolution": " \\(10\\) ,  \\(-8\\) ,  \\(2\\) ,  \\(-4\\) ",
+      "uuid": "c72100ba-cc63-4b95-af4d-b65b52475517",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362065,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Arclength Of Parametrized Curves And Of Curves Specified In Polar Coordinates Question",
+      "body": " Let  \\(L\\)  be the line segment connecting the points  \\((2,-2)\\)  and  \\((10,2)\\) .   Find a parametrization of  \\(L\\)  starting at  \\((10,2)\\)  and ending at  \\((2,-2)\\)  with parameter interval  \\([0,1]\\) .   Answer:  \\(x \u003d a + bt\\)  and  \\(y \u003d c + dt\\)  where  \\(a\\)  \u003d ___,  \\(b\\)  \u003d ___,  \\(c\\)  \u003d ___, \\\\  \\(d\\)  \u003d ___, and  \\(t \\in [0,1]\\) .",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/c72100ba-cc63-4b95-af4d-b65b52475517",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(1\\) ,  \\(1\\) ,  \\(1\\) ,  \\(0\\) ",
+      "uuid": "5c0bf9c2-db2b-457b-a11d-8ae5b7ec2daa",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practice With Parametrized Curves",
+      "body": " Let  \\(C\\)  be the circle of radius  \\(1\\)  whose center is at  \\((0,1)\\) .    Find a parametrization of  \\(C\\)  with parameter interval \\([0,2\\pi]\\)  which traverses the curve once in a counterclockwise direction starting at  \\((1,1)\\) .   Answer: Let  \\(x(t) \u003d a + b\\sin t + c\\cos t\\)  and  \\(y(t) \u003d A + B\\sin t + C\\cos t\\)  where  \\(a\\)  \u003d ___,  \\(b\\)  \u003d ___,  \\(c\\)  \u003d ___,  \\(A\\)  \u003d ___,  \\(B\\)  \u003d ___, and  \\(C\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/5c0bf9c2-db2b-457b-a11d-8ae5b7ec2daa",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": " \\(4t\\) ,  \\(4t - 1\\) ,  \\(3 - 4t\\) ,  \\(4 - 4t\\) ",
+      "uuid": "58bddd15-93f9-44ec-9b46-e7fa6fd7e238",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Parametrized Curves Problem",
+      "body": " Let  \\(S\\)  be the square with vertices  \\((0,0)\\) ,  \\((1,0)\\) ,  \\((1,1)\\) , and  \\((0,1)\\) .   Find a counterclockwise parametrization of  \\(S\\)  with parameter interval \\([0,1]\\) .   Answer: Let  \\(f(t) \u003d\\)  ( ___ ,  \\(0\\) ) for  \\(0 \\le t \\le \\frac14\\) ,  \\(f(t) \u003d\\)  ( \\(1\\)  , _____ ) for  \\(\\frac14 \u003c t \\le \\frac12\\) ,  \\(f(t) \u003d\\)  (_____ ,  \\(1\\) ) for  \\(\\frac12 \u003c t \\le \\frac34\\) , and  \\(f(t) \u003d\\)  ( \\(0\\) , _____ ) for  \\(\\frac34 \u003c t \\le 1\\) .",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/58bddd15-93f9-44ec-9b46-e7fa6fd7e238",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": "\\begin{enumerate}",
+      "uuid": "8334efa4-d5b0-4c39-a642-21e19c9da6fe",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practice In Parametrized Curves",
+      "body": " Let  \\(L\\)  be the line segment connecting the points  \\((-2,4)\\)  and  \\((1,0)\\) .\n  (a) Find a parametrization of  \\(L\\)  starting at  \\((-2,4)\\)  and ending at  \\((1,0)\\)  with parameter interval  \\([-2,1]\\) .   Answer:  \\(x \u003d r\\)  and  \\(y \u003d c+dr\\)  where  \\(c\\) \u003d_____,  \\(d\\) \u003d_____, and  \\(r \\in [-2,1]\\) .\n  (b) Find a parametrization of  \\(L\\)  starting at  \\((1,0)\\)  and ending at  \\((-2,4)\\)  with parameter interval  \\([-1,2]\\) .   \u003ci\u003eHint.\u003c/i\u003e Let  \\(s \u003d -r\\)  in(a).   Answer:  \\(x \u003d -s\\)  and  \\(y \u003d c + ds\\)  where  \\(c\\) \u003d_____,  \\(d\\) \u003d_____, and  \\(s \\in [-1,2]\\) .\n  (c) Find a parametrization of  \\(L\\)  starting at  \\((1,0)\\)  and ending at  \\((-2,4)\\)  with parameter interval  \\([0,3]\\) .   \u003ci\u003eHint.\u003c/i\u003e  Let  \\(t \u003d s + 1\\)  in(b).   Answer:  \\(x \u003d a + bt\\)  and  \\(y \u003d c + dt\\)  where  \\(a\\) \u003d_____,  \\(b\\) \u003d_____,  \\(c\\) \u003d_____,  \\(d\\) \u003d_____, and  \\(t \\in [0,1]\\) .\n  (d) Find a parametrization of  \\(L\\)  starting at  \\((1,0)\\)  and ending at  \\((-2,4)\\)  with parameter interval  \\([0,1]\\) .   \u003ci\u003eHint.\u003c/i\u003e Let  \\(u \u003d \\frac13t\\)  in(c).   Answer:  \\(x \u003d a + bu\\)  and  \\(y \u003d c + du\\)  where  \\(a\\) \u003d_____,  \\(b\\) \u003d_____,  \\(c\\) \u003d_____,  \\(d\\) \u003d_____, and  \\(u \\in [0,1]\\) .",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves, word problem",
+      "url": "/practice-problem/8334efa4-d5b0-4c39-a642-21e19c9da6fe",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": " \\(1\\) ,  \\(2\\) ",
+      "uuid": "3662dbb7-bfc1-4cc2-a2ea-dc5cca0c9fef",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practice With Areas Of Regions Bounded By Closed Curves",
+      "body": " The slope of the tangent line to the cardioid  \\(r \u003d 2 - 2\\cos{\\theta}\\)  at the point on the curve where  \\(\\theta \u003d \\frac{\\pi}4\\)  is  \\(a+\\sqrt b\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/3662dbb7-bfc1-4cc2-a2ea-dc5cca0c9fef",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": " \\(9\\pi\\) ",
+      "uuid": "7666152c-82a9-40e0-b121-1407cf20e821",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Areas Of Regions Bounded By Closed Curves",
+      "body": " The area enclosed by the curve  \\(r \u003d 6\\sin{3\\theta}\\)  is _____.",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/7666152c-82a9-40e0-b121-1407cf20e821",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": " \\(\\dfrac{3\\pi}2\\) ",
+      "uuid": "711462eb-0650-488e-a59f-fb865e498e13",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Question On Tangent Lines To Curves",
+      "body": " The area enclosed by the curve  \\(r \u003d 1 + \\cos 2\\theta\\)  is _____.",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/711462eb-0650-488e-a59f-fb865e498e13",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
+      "authorSolution": " \\(3\\) ,  \\(1\\) ",
+      "uuid": "7ece9b32-7a67-415f-a785-18b080938c0a",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437419362066,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practice With Tangent Lines To Curves",
+      "body": " The area between the two loops of the lima\\c{c}on  \\(r \u003d1 + \\sqrt2 \\cos\\theta\\)  is  \\(a + b\\pi\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/7ece9b32-7a67-415f-a785-18b080938c0a",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
+    },
+    {
       "authorSolution": " \\(2\\) ",
-      "uuid": "9fe3f5c8-ee2d-49f3-82e8-fb9eb6a15bfe",
+      "uuid": "8e9b2819-3ba7-4b03-9bdf-7165c80269f8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361814,
+      "createdAt": 1437419362067,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With L\u0027h",
-      "body": "  \\(\\lim_{x \\sto 1} \\left[ \\dfrac1{x-1} - \\dfrac{\\ln x}{(x-1)^2}\\right] \u003d \\frac1a\\)  where  \\(a\u003d\\) ___.",
+      "title": "Parametrized Curves Question",
+      "body": " The length of the curve  \\(r \u003d 1 - \\cos\\theta\\)  for  \\(0 \\le \\theta \\le \\frac{2\\pi}3\\)  is ___.",
       "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/9fe3f5c8-ee2d-49f3-82e8-fb9eb6a15bfe",
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/8e9b2819-3ba7-4b03-9bdf-7165c80269f8",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
     },
     {
-      "authorSolution": " \\(1\\) ",
-      "uuid": "dbdf7bf4-3b6c-4fee-bc9d-d2ad5bfd2aa2",
+      "authorSolution": " \\(3\\) ,  \\(2\\) ",
+      "uuid": "5b556699-6c17-41b4-ba22-586c37ce2b21",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361815,
+      "createdAt": 1437419362067,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A L\u0027hopital\u0027s Rule Question",
-      "body": "  \\(\\lim_{x \\sto 0^+}\\left(\\sqrt{\\frac1{x^2}+\\frac1x} - \\sqrt{\\frac1{x^2} - \\frac1x}\\right)\\)  \u003d ___.",
+      "title": "Practice With Tangent Lines To Curves",
+      "body": " The arclength of the spiral of Archimedes,  \\(r \u003d 3\\theta\\) , where  \\(0 \\le \\theta \\le \\sqrt3\\)  is  \\(a\\sqrt a + \\dfrac ab \\ln(b + \\sqrt a)\\)  where  \\(a\\)  \u003d ___ and  \\(b\\)  \u003d ___.",
       "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/dbdf7bf4-3b6c-4fee-bc9d-d2ad5bfd2aa2",
+      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
+      "url": "/practice-problem/5b556699-6c17-41b4-ba22-586c37ce2b21",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(0\\) ,  \\(\\infty\\) ",
-      "uuid": "3b516b75-b56d-404f-ae43-f3bc65a2f1d0",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361815,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A L\u0027hopital\u0027s Rule Question",
-      "body": " Let  \\(f(x) \u003d x^2 e^{1/x}\\)  for all  \\(x \\ne 0\\) .    Then  \\(\\lim_{x \\sto 0^-}f(x)\\)  \u003d ___ and  \\(\\lim_{x \\sto 0^+}f(x)\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/3b516b75-b56d-404f-ae43-f3bc65a2f1d0",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(-\\dfrac16\\) ",
-      "uuid": "24116ffa-dbed-4d28-ab98-06b24b84dc2b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361815,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With L\u0027hopital\u0027s Rule",
-      "body": "  \\(\\lim_{x \\sto 0} \\left[ \\frac1{x^2} + \\frac2{x^4} \\ln\\cos x \\right]\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/24116ffa-dbed-4d28-ab98-06b24b84dc2b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(0\\) ",
-      "uuid": "5f02c75d-5a3d-40e8-b267-132407bc5214",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361815,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "L\u0027h Question",
-      "body": "  \\(\\lim_{x \\sto {\\frac{\\pi}{2}}^-}(\\sec x - \\tan x)\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/5f02c75d-5a3d-40e8-b267-132407bc5214",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(\\infty\\) ",
-      "uuid": "a12c1c1b-e625-48ab-b09d-ab2600e50655",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361815,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "L\u0027hopital\u0027s Rule Question",
-      "body": "  \\(\\lim_{x \\sto {\\frac{\\pi}{2}}^-}(\\sec^3x - \\tan^3x)\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/a12c1c1b-e625-48ab-b09d-ab2600e50655",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(10\\) ",
-      "uuid": "363f4b1f-5090-4799-b4c7-ef94fc27f8b6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361816,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With L\u0027h",
-      "body": "  \\(\\lim_{x \\sto \\infty}\\left(1 - \\frac5{7x}\\right)^{2x} \u003d e^{-a/7}\\)  where  \\(a\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/363f4b1f-5090-4799-b4c7-ef94fc27f8b6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(-1\\) ",
-      "uuid": "35ecb6a2-77ac-494c-b7c8-9515b0e90dd3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361816,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On L\u0027hopital\u0027s Rule",
-      "body": "  \\(\\lim_{x \\sto\\infty}\\left(\\frac{\\ln x}x\\right)^{1/\\ln x} \u003d e^a\\)  where  \\(a\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "l\u0027hopital\u0027s rule, l\u0027H",
-      "url": "/practice-problem/35ecb6a2-77ac-494c-b7c8-9515b0e90dd3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "authorSolution": " \\(-\\infty\\) ,  \\(-2\\) ,  \\(-\\dfrac23\\) ,  \\(4\\) ",
-      "uuid": "19a0d617-e77d-424a-a9ed-7c7e3afea7eb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361827,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Monotone Practice",
-      "body": " Suppose that the derivative of a function  \\(f\\)  is given by  \\(f\u0027(x) \u003d \\dfrac{x}{x+2}-\\dfrac{x+3}{x-4}\\) .    Then the intervals on which  \\(f\\)  is increasing are (____,____) and (_____,___).",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/19a0d617-e77d-424a-a9ed-7c7e3afea7eb",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "8733542f-c4ee-4098-948e-94d2d5946e3a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361827,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Monotone Problem",
-      "body": " A function  \\(f\\)  is defined on the interval  \\([0,\\pi]\\) .    Its derivative is given by  \\(f\u0027(x) \u003d \\cos x - \\sin 2x\\) .\n  (a) The intervals on which  \\(f\\)  is increasing are  \\(\\left(a ,\\dfrac\\pi{b}\\right)\\)  and  \\(\\left(\\dfrac\\pi{c}  ,\\dfrac{d\\pi}b\\right)\\)  where  \\(a\u003d\\) ___ ,  \\(b\u003d\\) ___ ,  \\(c\u003d\\) ___ , and  \\(d\u003d\\) ___ .\n  (b) Estimate to two decimal places the location of points of inflection.   \\\\ Answer:  \\(1.\\) ____ and  \\(2.\\) ____.",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/8733542f-c4ee-4098-948e-94d2d5946e3a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "a34dd4ab-ee0e-4759-94ce-da4f9e80c7ef",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361827,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concave Down Question",
-      "body": " Suppose that the derivative of a function  \\(f\\)  is given by  \\(f\u0027(x) \u003d \\dfrac{x+1}{\\sqrt{x^2+1}}\\) .\n  (a) The interval on which  \\(f\\)  is increasing is (____,___).\n  (b)  \\(f\\)  has no local __________.\n  (c)  \\(f\\)  has a local __________ at  \\(x\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/a34dd4ab-ee0e-4759-94ce-da4f9e80c7ef",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "c3c321fb-2773-4d54-a6b9-4aaab8e01dd9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361827,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Decreasing Question",
-      "body": " Suppose that the derivative of a function  \\(f\\)  is given by  \\(f\u0027(x) \u003d \\dfrac1{x^2 + 1}\\) .\n  (a) The interval on which  \\(f\\)  is increasing is (____,___).\n  (b) At how many points does  \\(f\\)  have a local maximum? Answer: ___ .\n  (c) At how many points does  \\(f\\)  have a local minimum? Answer: ___ .\n  (d) The interval on which  \\(f\\)  is concave up is (____,___).\n  (e)  \\(f\\)  has a point of inflection at  \\(x\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/c3c321fb-2773-4d54-a6b9-4aaab8e01dd9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "0f024877-f0ee-4d8a-8a8a-4f1b46088737",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361827,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Monotonicity And Concavity",
-      "body": "  \\(f\\)  has local minima at  \\(x\u003d\\) ___  and  \\(x\u003d\\) ___ .",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/0f024877-f0ee-4d8a-8a8a-4f1b46088737",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "d7150394-27cd-4a9c-8a57-b86d1b143994",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361828,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Decreasing",
-      "body": "  \\(f\\)  has points of inflection at:  \\(x\u003d\\) ___ and  \\(x\u003d\\) ___ .",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/d7150394-27cd-4a9c-8a57-b86d1b143994",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "157e2147-7dc0-4131-addd-3dfa8b44ebb5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361828,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Concave Down Question",
-      "body": " The largest interval on which  \\(f\\)  is increasing is  \\(( ___ , ___ )\\) .",
-      "allAnswers": [],
-      "tags": "monotonicity and concavity, increasing ,decreasing ,monotone ,concave up ,concave down",
-      "url": "/practice-problem/157e2147-7dc0-4131-addd-3dfa8b44ebb5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Curve Sketching/Concavity and Inflection Points"
+      "topic": "7622af5e-4428-4260-817f-fcdbcc7e2402"
     }
   ],
   "questions": [
-    {
-      "uuid": "c5930509-b573-46db-8ef0-4b864f227c00",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals.\n\\(\\ds{\\int x\\sec^{-1}x\\,dx}\\), \\(x\u003e1\\).",
-      "allAnswers": [],
-      "tags": "integration, integral",
-      "url": "/question/c5930509-b573-46db-8ef0-4b864f227c00",
-      "source": "First Year Calculus 7.1.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "ae40a97a-5e8f-41ff-a334-64762ed30904",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals.\n\\(\\ds{\\int x\\sqrt{1-x}\\,dx}\\).",
-      "allAnswers": [],
-      "tags": "integration, integrals",
-      "url": "/question/ae40a97a-5e8f-41ff-a334-64762ed30904",
-      "source": "First Year Calculus 7.1.8",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "f5524db3-4891-47d3-9b77-d16e41ff785d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d}{dx}\\left[\\frac{x}{\\sqrt{x^2+1}}\\right]}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
-      "url": "/question/f5524db3-4891-47d3-9b77-d16e41ff785d",
-      "source": "First Year Calculus 4.5.16",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "02e7d2a1-809b-48b7-9913-cdd248a9c1cb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals.\n\\(\\ds{\\int\\frac{x}{\\sqrt{1-x}}\\,dx}\\)",
-      "allAnswers": [],
-      "tags": "integration, integrals",
-      "url": "/question/02e7d2a1-809b-48b7-9913-cdd248a9c1cb",
-      "source": "First Year Calculus 7.1.9",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "79486421-4e92-4e91-9c16-70e8db758118",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d}{dx}\\left[\\frac{(x+5)^3}{(x-4)^5}\\right]}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
-      "url": "/question/79486421-4e92-4e91-9c16-70e8db758118",
-      "source": "First Year Calculus 4.5.17",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "e8fa5cea-3c35-4053-a7fa-59094dd5c7a0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d}{dx}\\left[3\\cot^29x-\\sqrt{\\cos6x+1}\\right]}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
-      "url": "/question/e8fa5cea-3c35-4053-a7fa-59094dd5c7a0",
-      "source": "First Year Calculus 4.5.18",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "a008910f-42a6-436c-a152-355b54577cff",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "\\(\\ds{\\frac{d}{dx}\\left[\\tan(x+\\tan(x+\\tan x))\\right]}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
-      "url": "/question/a008910f-42a6-436c-a152-355b54577cff",
-      "source": "First Year Calculus 4.5.19",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "2ba12d12-cf94-4820-9050-01bf470a5031",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Show that \\(\\frac{d}{dx}[f(x)g(x)h(x)] \u003d f(x)g(x)h\u0027(x)+f(x)g\u0027(x)h(x)+f\u0027(x)g(x)h(x)\\). What do you think will be the derivative of \\(f(x)g(x)h(x)i(x)\\)?",
-      "allAnswers": [],
-      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
-      "url": "/question/2ba12d12-cf94-4820-9050-01bf470a5031",
-      "source": "First Year Calculus 4.5.20",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
-    },
-    {
-      "uuid": "15ed7fa3-ce53-4b3c-9b30-2c3b99d4c5f5",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals.\n\\(\\ds{\\int xe^x\\,dx}\\)",
-      "allAnswers": [],
-      "tags": "integration, integrals",
-      "url": "/question/15ed7fa3-ce53-4b3c-9b30-2c3b99d4c5f5",
-      "source": "First Year Calculus 7.1.10",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "05e7016a-51e7-4824-be18-f6bd952886e4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787596,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals.\n\\(\\ds{\\int x\\sin5x\\,dx}\\)",
-      "allAnswers": [],
-      "tags": "integration, integrals",
-      "url": "/question/05e7016a-51e7-4824-be18-f6bd952886e4",
-      "source": "First Year Calculus 7.1.11",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
     {
       "uuid": "7ed0106a-09db-4320-9353-bedbea385135",
       "contentType": "question",
@@ -458,7 +198,7 @@
       "tags": "integration, integrals",
       "url": "/question/7ed0106a-09db-4320-9353-bedbea385135",
       "source": "First Year Calculus 7.1.12",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "2c820eae-e071-4a23-a5a5-276bf6c3b3c4",
@@ -475,7 +215,7 @@
       "tags": "integration, integrals",
       "url": "/question/2c820eae-e071-4a23-a5a5-276bf6c3b3c4",
       "source": "First Year Calculus 7.1.13",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "a033e2b3-00fe-47f3-b517-3cec6fa60046",
@@ -492,7 +232,7 @@
       "tags": "integration, integrals",
       "url": "/question/a033e2b3-00fe-47f3-b517-3cec6fa60046",
       "source": "First Year Calculus 7.1.14",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "73e31831-71d1-4acf-8336-963db98bf323",
@@ -509,7 +249,7 @@
       "tags": "integration, integrals",
       "url": "/question/73e31831-71d1-4acf-8336-963db98bf323",
       "source": "First Year Calculus 7.1.14",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "a57c73c1-221f-41c4-bff5-ff489ba8d7d2",
@@ -526,7 +266,7 @@
       "tags": "integration, integrals",
       "url": "/question/a57c73c1-221f-41c4-bff5-ff489ba8d7d2",
       "source": "First Year Calculus 7.1.15",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "6dac695f-543c-4d4c-b623-c870bbea4e1f",
@@ -543,7 +283,7 @@
       "tags": "integration, integrals",
       "url": "/question/6dac695f-543c-4d4c-b623-c870bbea4e1f",
       "source": "First Year Calculus 7.1.16",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "a8060878-1186-486e-8aa8-99bf8b896cb7",
@@ -560,7 +300,7 @@
       "tags": "integration, integrals",
       "url": "/question/a8060878-1186-486e-8aa8-99bf8b896cb7",
       "source": "First Year Calculus 7.1.17",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "66dae936-4af8-4347-982b-9269a8b438f1",
@@ -577,7 +317,7 @@
       "tags": "integration, integrals",
       "url": "/question/66dae936-4af8-4347-982b-9269a8b438f1",
       "source": "First Year Calculus 7.1.18",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "578874b7-a025-47c9-a7c8-9764a7b8b5e0",
@@ -594,7 +334,7 @@
       "tags": "integration, integrals",
       "url": "/question/578874b7-a025-47c9-a7c8-9764a7b8b5e0",
       "source": "First Year Calculus 7.1.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "979ee44f-3a3a-4f8d-bbba-eb0b99f09014",
@@ -611,7 +351,7 @@
       "tags": "integration, integrals",
       "url": "/question/979ee44f-3a3a-4f8d-bbba-eb0b99f09014",
       "source": "First Year Calculus 7.1.21",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "92178d1b-5aa7-401e-81da-3c3c4fe14f35",
@@ -628,7 +368,7 @@
       "tags": "integration, integrals",
       "url": "/question/92178d1b-5aa7-401e-81da-3c3c4fe14f35",
       "source": "First Year Calculus 7.1.22",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "0befb3e4-e754-4501-a4f7-2d7f05645c51",
@@ -645,7 +385,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/0befb3e4-e754-4501-a4f7-2d7f05645c51",
       "source": "First Year Calculus 7.1.23",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "c25b903f-3f85-46f9-8a6a-1d9b72920809",
@@ -662,7 +402,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/c25b903f-3f85-46f9-8a6a-1d9b72920809",
       "source": "First Year Calculus 7.1.24",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "d820bcdf-e587-4bb6-8ca1-6ac66b826195",
@@ -679,7 +419,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/d820bcdf-e587-4bb6-8ca1-6ac66b826195",
       "source": "First Year Calculus 7.1.25",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "a0a87bd2-86d8-4428-8a85-ad0f95b0b8df",
@@ -696,7 +436,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/a0a87bd2-86d8-4428-8a85-ad0f95b0b8df",
       "source": "First Year Calculus 7.1.26",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "b201a565-1a61-4d2c-88a3-672de986e841",
@@ -713,7 +453,7 @@
       "tags": "integrals, integration, integrating trig",
       "url": "/question/b201a565-1a61-4d2c-88a3-672de986e841",
       "source": "First Year Calculus 7.1.27",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Trigonometric Identities "
+      "topic": "2c567be4-0413-49a3-a75e-d26dcf0a4d05"
     },
     {
       "uuid": "7ccd646a-8a1d-4d26-be22-d1fc27b1c428",
@@ -730,7 +470,7 @@
       "tags": "integrals, integration, integrating trig",
       "url": "/question/7ccd646a-8a1d-4d26-be22-d1fc27b1c428",
       "source": "First Year Calculus 7.1.28",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Trigonometric Identities "
+      "topic": "2c567be4-0413-49a3-a75e-d26dcf0a4d05"
     },
     {
       "uuid": "a3d11a3b-61cd-46c8-a09e-19ee822fc47d",
@@ -747,7 +487,7 @@
       "tags": "integrals, integration, integrating trig",
       "url": "/question/a3d11a3b-61cd-46c8-a09e-19ee822fc47d",
       "source": "First Year Calculus 7.1.29",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Trigonometric Identities "
+      "topic": "2c567be4-0413-49a3-a75e-d26dcf0a4d05"
     },
     {
       "uuid": "011671ad-c8f3-49fd-91e9-cc8b711b401c",
@@ -764,7 +504,7 @@
       "tags": "integrals, integration, integrating trig",
       "url": "/question/011671ad-c8f3-49fd-91e9-cc8b711b401c",
       "source": "First Year Calculus 7.1.30",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Powers of Sine and Cosine/Trigonometric Identities "
+      "topic": "2c567be4-0413-49a3-a75e-d26dcf0a4d05"
     },
     {
       "uuid": "4452714b-7cda-44d1-820d-f78c9c7ea309",
@@ -781,7 +521,7 @@
       "tags": "integrating trig, integration, integrals",
       "url": "/question/4452714b-7cda-44d1-820d-f78c9c7ea309",
       "source": "First Year Calculus 7.1.31",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Indefinite Integral"
+      "topic": "62630514-0714-4b50-b3b6-2b72a87a512a"
     },
     {
       "uuid": "19126237-0423-422f-b7f1-1f88ec9b7816",
@@ -798,7 +538,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/19126237-0423-422f-b7f1-1f88ec9b7816",
       "source": "First Year Calculus 7.1.32",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "813931e9-4061-4012-8391-427999d45ce7",
@@ -815,7 +555,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/813931e9-4061-4012-8391-427999d45ce7",
       "source": "First Year Calculus 7.1.33",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "dd0ef43c-23b1-47d7-9ed8-f4c984f648df",
@@ -832,7 +572,7 @@
       "tags": "integration, integrals, integrating trig",
       "url": "/question/dd0ef43c-23b1-47d7-9ed8-f4c984f648df",
       "source": "First Year Calculus 7.1.34",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "d9228f90-73a5-45e6-bc59-f48862d14d84",
@@ -849,7 +589,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/d9228f90-73a5-45e6-bc59-f48862d14d84",
       "source": "First Year Calculus 4.6.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "09663460-1001-42eb-a615-a1a1ceeeed87",
@@ -866,7 +606,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/09663460-1001-42eb-a615-a1a1ceeeed87",
       "source": "First Year Calculus 4.6.2",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "2aba7e00-858d-466b-bf77-49febe7378d8",
@@ -883,7 +623,7 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/2aba7e00-858d-466b-bf77-49febe7378d8",
       "source": "First Year Calculus 4.6.3",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     },
     {
       "uuid": "c149c615-66a4-4b79-b325-7a82d666451c",
@@ -900,7 +640,177 @@
       "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
       "url": "/question/c149c615-66a4-4b79-b325-7a82d666451c",
       "source": "First Year Calculus 4.6.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Work/Force/Hooke\u0027s Law"
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "1f7b2a82-138a-4116-ab3d-110b03283d70",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Explain the Significance",
+      "body": "Explain the significance of the solution of \\(\\frac{d}{dx}f(x)\u003d\\frac{d}{dx}g(x)\\) for this particular example.",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/1f7b2a82-138a-4116-ab3d-110b03283d70",
+      "source": "First Year Calculus 4.6.5",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "d044a5f5-16db-4aeb-912e-f52523341a40",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Explain why, if a particular \\(x\\) satisfies \\(f(x)\u003dg(x)\\), we cannot expect that it also satisfies \\(f\u0027(x)\u003dg\u0027(x)\\).",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/d044a5f5-16db-4aeb-912e-f52523341a40",
+      "source": "First Year Calculus 4.6.6",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "a5913077-d762-4ca2-9d36-7fe66dc9f18d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\sin^{-1}x^2}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/a5913077-d762-4ca2-9d36-7fe66dc9f18d",
+      "source": "First Year Calculus 4.6.7",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "8decf098-9b20-4fa9-bb57-ed3954cd0385",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\cos^{-1}x^2}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/8decf098-9b20-4fa9-bb57-ed3954cd0385",
+      "source": "First Year Calculus 4.7.1",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "7a491049-3f3e-4df3-9d5a-5dd46e4982a2",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\tan^{-1}x^2}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/7a491049-3f3e-4df3-9d5a-5dd46e4982a2",
+      "source": "First Year Calculus 4.7.2",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "e29bc891-0116-4370-bef7-9baab72ca617",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\tan^{-1}x^2}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/e29bc891-0116-4370-bef7-9baab72ca617",
+      "source": "First Year Calculus 4.7.3",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "8fe19006-2a20-40a8-b9f7-9c9ab30c70a9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\sqrt{\\tan^{-1}x}}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/8fe19006-2a20-40a8-b9f7-9c9ab30c70a9",
+      "source": "First Year Calculus 4.7.4",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "bbe00f78-de94-4235-92d7-8e4a35c1f2f6",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\sqrt{\\cot^{-1}x}}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/bbe00f78-de94-4235-92d7-8e4a35c1f2f6",
+      "source": "First Year Calculus 4.7.5",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "e167de91-ba50-4f31-989f-9763fe5b0dd5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\sqrt{\\sec^{-1}x}}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/e167de91-ba50-4f31-989f-9763fe5b0dd5",
+      "source": "First Year Calculus 4.7.6",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
+    },
+    {
+      "uuid": "b5e0148c-2560-4e52-88fd-9696df195682",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787596,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "\\(\\ds{\\frac{d}{dx}\\sqrt{\\csc^{-1}x}}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, chain rule, hooke\u0027s law, power, product, quotient, rule, leibniz notation",
+      "url": "/question/b5e0148c-2560-4e52-88fd-9696df195682",
+      "source": "First Year Calculus 4.7.7",
+      "topic": "3fe53b51-2944-40e7-a92e-bc51e7182d22"
     }
   ],
   "textContent": [
@@ -919,7 +829,7 @@
       "tags": "definite integral, integral, integration, area under the curve ",
       "url": "/text-content/2190a2bd-3d22-414a-ac4d-7c4c8fdd4f00",
       "source": "Forgotten Text 5 1.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Definite Integral"
+      "topic": "29bc81c6-cc3b-47ce-bd59-238519f2957a"
     },
     {
       "uuid": "394811ec-22ac-427e-b7cd-fdb409d3fbea",
@@ -936,9 +846,103 @@
       "tags": "areas, integral, antiderivatives, integration, area under the curve ",
       "url": "/text-content/394811ec-22ac-427e-b7cd-fdb409d3fbea",
       "source": "Forgotten Text 5 1.5",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Areas integrals antiderivatives"
+      "topic": "8b582ea7-473b-4d88-94ee-88355c9ab9bd"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "e36354dd-5bf8-4829-8ef4-2bafbff0ecee",
+      "subTopics": [],
+      "parentTopics": [
+        "e6727abb-b1d7-4124-a771-87f1c4bef54d"
+      ],
+      "title": "Converges",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " divergence, series,integral test, sequences , convergence,",
+      "difficulty": 683000,
+      "contentUuids": [
+        "8621315a-9de3-494c-9790-afeff88cd796"
+      ]
+    },
+    {
+      "uuid": "4b1fdd1a-8199-4732-9c14-0800b5e029cb",
+      "subTopics": [],
+      "parentTopics": [
+        "ca4fefa3-5aca-4227-a4cf-71cee5fd4dfa"
+      ],
+      "title": "Period",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " period,basics numbers, digit,",
+      "difficulty": 175000,
+      "contentUuids": [
+        "b84e3be3-63ba-44cb-bafa-5932398da775"
+      ]
+    },
+    {
+      "uuid": "6ff4a01d-4641-4b4c-9659-fd44c821b2ce",
+      "subTopics": [],
+      "parentTopics": [
+        "f8022ea7-3ee6-4d1f-bbd6-9735c52033c7"
+      ],
+      "title": "Rigid Transformations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "function, transformation, function, transform function, transformed function,transformation, graph of function, shift, transformation , graph of function , graphing functions, transformed function , reflect, graphing function, intercepts, slope, graph, graphing derivatives, domain, shrink,graphing functions, range, stretch , even function, reflect , points,transform function,graph, interections, reflection, scaling, symmetry, tranformation, graphs , odd,graph of function, properties of Algebra",
+      "difficulty": 282000,
+      "contentUuids": [
+        "a682d58b-41fe-4993-80a1-5f2ab20ef1bd",
+        "f3d520b0-1134-4264-ad0d-fcc5117997cc",
+        "61916811-b729-45ae-9951-fb30dc68fcd2",
+        "64996072-6c93-4cb6-82fb-568dbfb5954f",
+        "1f15d19c-59b3-4507-b3a5-826ecd47ad76",
+        "c18a2966-347a-48dc-894f-10fa1db8b1d0",
+        "c630c017-f364-4c1e-bf59-b50c26d2ea18",
+        "bcf8c930-698c-4882-997b-d99efe00c32a",
+        "7b5bcac3-ed83-46d7-aaf1-46bac0d494a2",
+        "08b9de03-911d-4a22-8c0e-b9a18dd58c75",
+        "19d0e7a1-3924-4d43-b212-e95516a479dc",
+        "6827a648-8390-4150-9169-89872fe7aa8c",
+        "78b7a70d-9093-4989-8df5-8a5ff88d4cc9",
+        "25e5439f-de7b-4672-bedb-8a103c19ffb3",
+        "2f56a141-7e70-43ec-af6b-db065e9125a1",
+        "38cc1b7d-90e9-45e0-82b7-72736f7dd9a6",
+        "1c7a9b0b-50f0-49c3-ba30-d06310e87239",
+        "98bb74ef-9dd8-4c12-8e11-2d71199f37e1",
+        "e6510c26-f06d-42d2-87e7-a60c834c7cff",
+        "c5ca8c39-e3d4-45e4-9d61-9d3a5be8efbb",
+        "162bd7bb-8b0f-4e09-b015-d6f34fec0d5e",
+        "d6feeeaf-540c-41e6-9098-4d9fb14aca17",
+        "5af23c9c-f2c0-43ad-ab74-f1725b7aa219",
+        "ce4ae69c-a167-4cee-a959-e9317e1abcf7",
+        "aa498028-41be-45a5-9713-9c4cd357d13c",
+        "5f9e6aa0-9688-4ef6-882d-64db94a76150",
+        "d6141496-bd47-4ab1-aa37-07feeb01ace5",
+        "c8a37836-11d3-4bf5-b920-dc0adc08eef8",
+        "246df226-968f-425a-b24f-057ac9a1f238",
+        "ac1b98dc-b3f1-485c-a493-b2185df5dae5",
+        "9165bb7d-9659-41e8-a781-4cbb0df76f7b",
+        "8b5244d9-3cec-4f07-9b19-6d33479048f1",
+        "3f34cf99-0118-4da1-ad75-ac9639e37eef",
+        "dca5ae71-5604-4f03-b0d5-613240f5394d",
+        "e02efa9d-7cec-467e-b4f8-cc807077224e",
+        "77d80952-45bf-4057-a461-26e1d80e151d",
+        "892b07d9-c2ff-4f96-a763-4ed3769925d9",
+        "90684c14-a4e0-41ad-ae60-d566469f891b",
+        "5ce3a1f3-c72c-4a2e-a6b9-9fc65c72eb95",
+        "00e6ad11-f5e2-4312-80fd-0b37160c9eef",
+        "faa4f251-a121-42ce-ba4b-c607da59999f",
+        "12ec5694-acac-483d-b202-0d595a0cc455",
+        "8a5409c4-0dfb-4adf-80d7-c4aebc3c14ba",
+        "2cd51dbf-b203-4aa6-91e8-92551ab4a80a",
+        "eefb4e4a-9451-4ddc-be4b-85754c33d559",
+        "558ace78-df1d-4082-9979-89053c5faf80",
+        "4e11bcd9-8206-4aa8-adae-202ca85283a9",
+        "d7da2ec8-75ba-487e-81fb-12644edc06bb",
+        "be2ac9dc-7581-420c-8d42-a9fbd9044831"
+      ]
+    }
+  ]
 }

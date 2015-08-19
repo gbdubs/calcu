@@ -2,396 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(0\\) ,  \\(\\dfrac{\\pi}{4}\\) ,  \\(2\\sqrt2\\) ,  \\(2\\sec\\theta\\) ,  \\(3\\) ",
-      "uuid": "257f93f5-376a-4b0f-a7cc-e1b1c1f4debe",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/430.png\"/\u003e",
+      "uuid": "16735b47-806d-456a-a6c0-04cca2793cac",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362086,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Moment Of A Plane Region About A Line Question",
-      "body": " Express  \\(\\int_0^2\\int_2^{\\sqrt{8 - y^2}}xy dx dy\\)  as an integral in polar coordinates.   \\noindent Answer:  \\(\\int_a^b\\int_{f(\\theta)}^c r^p\\sin\\theta \\cos\\theta dr d\\theta\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d_____,  \\(c\\) \u003d___, \n  \\(f(\\theta)\\) \u003d________,  and  \\(p\\) \u003d___.",
+      "title": "sin, cos, tan of 75",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/429.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/257f93f5-376a-4b0f-a7cc-e1b1c1f4debe",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "sine, cosine, tangent, trig",
+      "url": "/practice-problem/16735b47-806d-456a-a6c0-04cca2793cac",
+      "source": "null 1.2.4"
     },
     {
-      "authorSolution": " \\(3\\) ",
-      "uuid": "d8d85c6d-58ee-4a29-a9dd-98549fa189c3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/433.png\"/\u003e",
+      "uuid": "4bb8e87b-b80e-491c-8ee9-09579254fb8a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362086,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Riemann Sums",
-      "body": " Let  \\(R\\)  be the region defined by   \\(1 \\le x^2 + y^2 \\le 2\\) , and   \\(x \\ge 0\\) .    The integral of  \\(f(x,y) \u003d x^2\\)  over this region is  \\(\\dfrac a8\\pi\\)  where  \\(a \u003d\\) ___.",
+      "title": "Blimp question",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/432.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/d8d85c6d-58ee-4a29-a9dd-98549fa189c3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "application of right triangle, right triangle ",
+      "url": "/practice-problem/4bb8e87b-b80e-491c-8ee9-09579254fb8a",
+      "source": "null 1.3.1"
     },
     {
-      "authorSolution": " \\(\\arctan\\frac12\\) ,  \\(3\\sqrt5\\) ,  \\(5\\) ,  \\(0\\) ,  \\(2\\) ",
-      "uuid": "e39451f9-34dc-47fd-b77b-eb62304f3a27",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/435.png\"/\u003e",
+      "uuid": "18961444-5dee-4fa7-9e7b-0ab5c379c318",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Center Of Gravity (or Mass)",
-      "body": " In polar coordinates  \\(\\int_0^3\\int_{2y}^{\\sqrt{45-y^2}}\\bigl(x^4 + x^2y^2\\bigr) dx dy\\)  can be writtenas \n  \\(\\int_0^a\\int_0^b r^m \\sin^n\\theta \\cos^p\\theta dr d\\theta\\)  where  \\(a\\) \u003d_________,  \\(b\\) \u003d______,  \\(m\\) \u003d___, \\noindent  \\(n\\) \u003d___, and  \\(p\\) \u003d___.",
+      "title": "Radius of earth",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/434.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/e39451f9-34dc-47fd-b77b-eb62304f3a27",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "applications of right triangles, trig, trig functions",
+      "url": "/practice-problem/18961444-5dee-4fa7-9e7b-0ab5c379c318",
+      "source": "null 1.3.2"
     },
     {
-      "authorSolution": " \\(2a^2\\) ",
-      "uuid": "a19b8b99-1b7f-46da-b586-7e69eec4ee63",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/439.png\"/\u003e",
+      "uuid": "2015306b-5451-446f-b9cc-479ba534ff2d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Moment Of A Plane Region About A Line",
-      "body": " The area of the region bounded by the lemniscate  \\(\\bigl(x^2 + y^2\\bigr)^2 \u003d 2a^2(x^2 - y^2)\\)  is ______.",
+      "title": "Trig in Astronomy",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/437.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/438.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/a19b8b99-1b7f-46da-b586-7e69eec4ee63",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "trig, trig functions, right triangles ",
+      "url": "/practice-problem/2015306b-5451-446f-b9cc-479ba534ff2d",
+      "source": "null 1.3.3"
     },
     {
-      "authorSolution": " \\(3\\) ,  \\(4\\) ",
-      "uuid": "5d00bfb3-2cea-4d46-8be9-ab9150503e66",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/443.png\"/\u003e",
+      "uuid": "cd1a5a55-5709-4543-9897-080725a4cb49",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Double Integrals",
-      "body": " The volume of the solid bounded below by the  \\(xy-\\) plane, above by the ellipsoid \\\\  \\(\\dfrac{x^2}{a^2} + \\dfrac{y^2}{a^2} + \\dfrac{z^2}{b^2} \u003d 1\\) , and on the sides by the cylinder  \\(x^2 + y^2 - ay \u003d 0\\)  is  \\(\\frac29a^2b(m\\pi - n)\\)  where  \\(m\\) \u003d___ and  \\(n\\) \u003d___.",
+      "title": "Radius of sun",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/441.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/442.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/5d00bfb3-2cea-4d46-8be9-ab9150503e66",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "trig, trig functions, right triangle ",
+      "url": "/practice-problem/cd1a5a55-5709-4543-9897-080725a4cb49",
+      "source": "null 1.3.4"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(1\\) ,  \\(\\alpha\\) ,  \\(\\dfrac12\\) ",
-      "uuid": "faae700e-84a3-4b2f-b2c4-eb067438a39e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/447.png\"/\u003e",
+      "uuid": "0bab7229-910c-4341-a783-395a037dbd69",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Moment Of A Plane Region About A Line",
-      "body": " Let  \\(\\alpha \u003e 0\\)  and  \\(0 \u003c \\beta \u003c \\frac\\pi2\\) .    Then  \\(\\int_0^{\\alpha\\sin\\beta}\\int_{y\\cot\\beta}^{\\sqrt{\\alpha^2-y^2}}\\ln(x^2+y^2) dxdy \u003d \\alpha^p \\beta^q(\\ln r - s)\\)  where  \\(p\\) \u003d___,  \\(q\\) \u003d___,  \\(r\\) \u003d___, and  \\(s\\) \u003d___.",
+      "title": "Diameter of large roller",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/445.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/446.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/faae700e-84a3-4b2f-b2c4-eb067438a39e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "trig, trig functions, right triangle, radius ",
+      "url": "/practice-problem/0bab7229-910c-4341-a783-395a037dbd69",
+      "source": "null 1.3.5"
     },
     {
-      "authorSolution": " \\(\\dfrac\\pi2\\) ",
-      "uuid": "9812770f-9a95-4a13-832b-25005e7dcafd",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/454.png\"/\u003e",
+      "uuid": "9a47eff8-c3eb-4498-a866-0556fd1e4550",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Center Of Gravity (or Mass) Question",
-      "body": "  \\(\\int_0^{\\infty}\\dfrac{\\sin t}t dt \u003d a\\)  where  \\(a\\) \u003d_____.    \\\\ \u003ci\u003eHint.\u003c/i\u003e Consider the iterated integral  \\(\\int_0^{\\infty}\\int_0^{\\infty}e^{-st}\\sin t ds dt\\) .   You may use the fact that in this problem the order of integration of the improper integrals may be reversed.",
+      "title": "",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/450.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/451.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/452.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/453.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/9812770f-9a95-4a13-832b-25005e7dcafd",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "trig, trig functions, right triangle ",
+      "url": "/practice-problem/9a47eff8-c3eb-4498-a866-0556fd1e4550",
+      "source": "null 1.3.6"
     },
     {
-      "authorSolution": " \\(9\\) ,  \\(-9\\) ,  \\(2\\) ,  \\(5\\) ",
-      "uuid": "f47f4f5f-c6d7-4497-a489-a611e2ccfa78",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/460.png\"/\u003e",
+      "uuid": "aebf7e51-3c42-479e-92ff-1db681da608b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Improper Double Integrals Question",
-      "body": " Let  \\(D\\)  be the region in the  \\(xy\\) -plane lying above the line  \\(y \u003d x\\)  and below the parabola  \\(y \u003d -x^2 + 2\\) .   Then the moments of  \\(D\\)  about the  \\(x\\) -axis and the  \\(y\\) -axis are given by  \\(M_x \u003d \\dfrac a5\\)  where  \\(a\u003d\\) ___ and  \\(M_y \u003d \\dfrac b4\\)  where  \\(b\u003d\\) ____.    The centroid is at  \\(\\bigl(-\\dfrac 1c, \\dfrac 2d\\bigr)\\)  where  \\(c\u003d\\) ___ and  \\(d\u003d\\) ___.",
+      "title": "Six trig function of 330",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/459.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/f47f4f5f-c6d7-4497-a489-a611e2ccfa78",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "trig, trig functions, circle, right triangle ",
+      "url": "/practice-problem/aebf7e51-3c42-479e-92ff-1db681da608b",
+      "source": "null 1.4.1"
     },
     {
-      "authorSolution": " \\(0\\) ,  \\(24\\) ",
-      "uuid": "95e3f87d-f1db-441f-9ac0-0aad37698cf3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/462.png\"/\u003e",
+      "uuid": "58828e91-2499-4656-a210-78260a915e75",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362087,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Double Integrals In Polar Coordinates Question",
-      "body": " Let  \\(L\\)  be a plane lamina in the shape of the upper half of a circular disk of radius  \\(3\\)  centered at the origin.   The density of the lamina at any point is proportional to the square of the distance of the point from the center of the circle.   Then the center of mass of  \\(L\\)  is located at the point  \\(\\left(a,\\dfrac b{5\\pi}\\right)\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d_____.",
+      "title": "Six trig function of various degree",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/461.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/95e3f87d-f1db-441f-9ac0-0aad37698cf3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
+      "tags": "trig, trig functions, degrees, unit circle ",
+      "url": "/practice-problem/58828e91-2499-4656-a210-78260a915e75",
+      "source": "null 1.4.2"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(0\\) ",
-      "uuid": "80d3454f-69d7-4692-ac54-5519e45563ec",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/466.png\"/\u003e",
+      "uuid": "a5ab0a81-6b02-4e50-ab61-54b49261acc1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362088,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Density And Mass Of A Plane Lamina Problem",
-      "body": " Let  \\(E\\)  be the solid region determined by the inequalities  \\(0 \\le x \\le 1\\) ,  \\(0 \\le y \\le 1\\) , and  \\(0 \\le z \\le 2 - x - y\\) .   The base of this region is the square  \\(S \u003d [0,1] \\times [0,1]\\)  in the  \\(xy\\) -plane.   Estimate the volume of  \\(E\\)  by using the \u003ci\u003emidpoint rule for double integrals\u003c/i\u003e to approximate the integral  \\(\\iint\\limits_S f(x,y) dxdy\\)  where  \\(f(x,y) \u003d 2 - x - y\\) .   For this approximation divide  \\(S\\)  into nine squares each having side \\(\\frac13\\) .    Calculate the corresponding Riemann sum evaluating  \\(f\\)  at the center of each square.According to this estimate the volume of  \\(E\\)  is approximately ____.   The error made in this approximation (that is, the absolute value of the difference between the approximate volume and the true volume) is ____.",
+      "title": "Terminal side and reference angle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/465.png\"/\u003e",
       "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass), word problem",
-      "url": "/practice-problem/80d3454f-69d7-4692-ac54-5519e45563ec",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
-    },
-    {
-      "authorSolution": " \\(9\\) ",
-      "uuid": "b7e263cb-94c1-43b7-8a8e-ee0e741cf665",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362088,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Riemann Sums",
-      "body": " If  \\(R \u003d [0,4] \\times [0,\\frac{\\pi}{6}]\\) , then  \\(\\D\\iint\\limits_R x\\cos(xy)  dx dy \u003d \\dfrac{a}{\\pi}\\)  where  \\(a\\)  \u003d ___.",
-      "allAnswers": [],
-      "tags": "double integrals, Riemann sums ,double integrals ,iterated integrals ,double integrals in polar coordinates ,improper double integrals ,moment of a plane region about a line ,density and mass of a plane lamina ,center of gravity (or mass)",
-      "url": "/practice-problem/b7e263cb-94c1-43b7-8a8e-ee0e741cf665",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Double Integrals"
-    },
-    {
-      "authorSolution": "hyperboloid of one sheet,  \\(12\\) ,  \\(4\\) ",
-      "uuid": "9f62e4af-50cf-4e7b-86d8-00dd724159a2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362089,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Spheres Question",
-      "body": " The surface  \\(z \u003d \\frac13\\sqrt{36(x^2 - 1) + 4y^2}\\)  is the upper half of which quadric surface?   \\[ \\text{Answer.   _______________________________} \\] The curve obtained when the surface is cut by the plane  \\(z \u003d 2\\sqrt{3}\\)  is an ellipse whose major axis is of length ____ and whose minor axis is of length___.",
-      "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/9f62e4af-50cf-4e7b-86d8-00dd724159a2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
-    },
-    {
-      "authorSolution": "elliptic paraboloid,  \\(x\\) ",
-      "uuid": "1e3d3c15-1379-4bb2-8db5-7f1dd5b9ff8a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362090,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Parametrized Surface Question",
-      "body": " Let  \\(w \u003d f(x,y,z) \u003d \\left[\\left(\\dfrac y{\\sqrt x}\\right)^2 + \\left(\\dfrac{2z}{\\sqrt x}\\right)^2\\right]^{1/2}\\) .   The level surface which results when the value of  \\(w\\)  is set to  \\(4\\)  is a(n)     \\[ \\text{_________________________________} \\]  which opens along the positive ___-axis.",
-      "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/1e3d3c15-1379-4bb2-8db5-7f1dd5b9ff8a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
-    },
-    {
-      "authorSolution": " \\(-1\\) ,  \\(1\\) ",
-      "uuid": "a254551b-be4a-448b-be59-27e11b46cb61",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362090,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Level Surface Question",
-      "body": " Consider the surface in  \\(\\R^3\\)  defined by  \\(f(x,y) \u003d \\dfrac{2xy}{x^2+y^2}\\)  if  \\((x,y) \\ne (0,0)\\)  and  \\(f(0,0) \u003d 0\\) .    Then the plane  \\(z \u003d c\\)  intersects the surface for all values of  \\(c\\)  in the interval  \\([a,b]\\)  where  \\(a \u003d\\) ____ and  \\(b \u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/a254551b-be4a-448b-be59-27e11b46cb61",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
-    },
-    {
-      "authorSolution": " \\(1\\) ,  \\(0\\) ,  \\(-3\\) ",
-      "uuid": "940c44d2-a7c6-47e2-958f-3db118c14aad",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362090,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Parametrized Surface",
-      "body": " The surface whose parametrization is given by  \\(\\vec{ }r(u,v) \u003d (u, v, u-3)\\)  with  \\(u\\) ,  \\(v \\in \\R\\)  is a plane whose equation is  \\(ax + by - z + c \u003d 0\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/940c44d2-a7c6-47e2-958f-3db118c14aad",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
+      "tags": "terminal side, reference angle, unit circle ",
+      "url": "/practice-problem/a5ab0a81-6b02-4e50-ab61-54b49261acc1",
+      "source": "null 1.4.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "69286848-03c5-428f-b7e2-6963a9c5cbb2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n \\(y^2-18y+56\\)",
-      "allAnswers": [],
-      "tags": "factor, graphing functions",
-      "url": "/question/69286848-03c5-428f-b7e2-6963a9c5cbb2",
-      "source": "AP Calculus Problems 1.3.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "a269042a-99f6-46e8-b49f-20403a328e77",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n\\(33u^2-37u+10\\)",
-      "allAnswers": [],
-      "tags": "factoring, graphing function",
-      "url": "/question/a269042a-99f6-46e8-b49f-20403a328e77",
-      "source": "AP Calculus Problems 1.3.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "f9e7d4d2-21c6-4d63-835c-8e41362544e0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n\\(c^2+9c-8\\)",
-      "allAnswers": [],
-      "tags": "factoring, graphing functions",
-      "url": "/question/f9e7d4d2-21c6-4d63-835c-8e41362544e0",
-      "source": "AP Calculus Problems 1.3.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "9d44b23b-c4d3-46ae-aaf8-d9691fedcc37",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n \\((x-6)^2-9\\)",
-      "allAnswers": [],
-      "tags": "factoring, graphing functions",
-      "url": "/question/9d44b23b-c4d3-46ae-aaf8-d9691fedcc37",
-      "source": "AP Calculus Problems 1.3.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "ccdef3b1-4e95-4fa3-a1ed-8f65704b5e79",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n\\(3(x+9)^2-36(x+9)+81\\)",
-      "allAnswers": [],
-      "tags": "graphing function, factoring",
-      "url": "/question/ccdef3b1-4e95-4fa3-a1ed-8f65704b5e79",
-      "source": "AP Calculus Problems 1.3.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "42723676-6103-448f-8bf5-e9dd5dec46c4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n\\(63q^3-28q\\)",
-      "allAnswers": [],
-      "tags": "graphing function, factoring",
-      "url": "/question/42723676-6103-448f-8bf5-e9dd5dec46c4",
-      "source": "AP Calculus Problems 1.3.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "0487afd9-a951-42d8-a1f9-3b40f22c1f37",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Factor each of the following completely.\n\\(2\\pi r^2+2\\pi r+hr+h\\)",
-      "allAnswers": [],
-      "tags": "factoring, graphing functions",
-      "url": "/question/0487afd9-a951-42d8-a1f9-3b40f22c1f37",
-      "source": "AP Calculus Problems 1.3.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
     {
       "uuid": "63613022-381a-4fc1-aca5-1868388bda5e",
       "contentType": "question",
@@ -407,7 +188,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/63613022-381a-4fc1-aca5-1868388bda5e",
       "source": "AP Calculus Problems 1.3.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "427415ca-3848-4c75-9508-a68c91dd802e",
@@ -424,7 +205,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/427415ca-3848-4c75-9508-a68c91dd802e",
       "source": "AP Calculus Problems 1.3.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "36e7a904-e5ec-43c1-87fc-135efc8949c3",
@@ -441,7 +222,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/36e7a904-e5ec-43c1-87fc-135efc8949c3",
       "source": "AP Calculus Problems 1.3.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "b8c8de4e-a554-412c-a5e0-68f254d62b5e",
@@ -458,7 +239,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/b8c8de4e-a554-412c-a5e0-68f254d62b5e",
       "source": "AP Calculus Problems 1.3.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "e01d4935-bc51-4e6c-9f2a-c681d8076f63",
@@ -475,7 +256,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/e01d4935-bc51-4e6c-9f2a-c681d8076f63",
       "source": "AP Calculus Problems 1.3.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "d181bf58-cc56-4de5-9891-f24fcb5b44d5",
@@ -492,7 +273,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/d181bf58-cc56-4de5-9891-f24fcb5b44d5",
       "source": "AP Calculus Problems 1.3.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "4a6fff74-6387-45de-9185-a224504e8227",
@@ -509,7 +290,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/4a6fff74-6387-45de-9185-a224504e8227",
       "source": "AP Calculus Problems 1.3.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "4ff1e3b8-a4de-4eb3-83ee-34f00ad18b34",
@@ -526,7 +307,7 @@
       "tags": "graphing functions, simplifying expressions",
       "url": "/question/4ff1e3b8-a4de-4eb3-83ee-34f00ad18b34",
       "source": "AP Calculus Problems 1.3.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "463819c4-3996-46a4-92ed-f2cacc1019a8",
@@ -543,7 +324,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/463819c4-3996-46a4-92ed-f2cacc1019a8",
       "source": "AP Calculus Problems 3.1.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "77bf2257-4458-487a-b333-9104ad2ba9ab",
@@ -560,7 +341,7 @@
       "tags": "graphing functions, simplifying expressions",
       "url": "/question/77bf2257-4458-487a-b333-9104ad2ba9ab",
       "source": "AP Calculus Problems 3.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "0d4cbe1c-168d-4d69-810d-40be837ea167",
@@ -577,7 +358,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/0d4cbe1c-168d-4d69-810d-40be837ea167",
       "source": "AP Calculus Problems 3.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "97652983-2cd0-4562-8d8f-dbff2f27f0f8",
@@ -594,7 +375,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/97652983-2cd0-4562-8d8f-dbff2f27f0f8",
       "source": "AP Calculus Problems 6.1.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "72b62eaa-3318-4b7a-8261-048fd324b21e",
@@ -611,7 +392,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/72b62eaa-3318-4b7a-8261-048fd324b21e",
       "source": "AP Calculus Problems 3.1.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "ac9a772d-07b5-45ab-816a-527ef72a65cf",
@@ -628,7 +409,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/ac9a772d-07b5-45ab-816a-527ef72a65cf",
       "source": "AP Calculus Problems 6.1.21",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "35dd9be4-0330-4d9a-a076-f9417fb13ab2",
@@ -645,7 +426,7 @@
       "tags": "simplifying expressions, graphing functions",
       "url": "/question/35dd9be4-0330-4d9a-a076-f9417fb13ab2",
       "source": "AP Calculus Problems 1.3.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "68fc27f1-18c1-4a38-bc41-d9c089cfe3d0",
@@ -662,7 +443,7 @@
       "tags": "graphing functions, rationalizing expressions",
       "url": "/question/68fc27f1-18c1-4a38-bc41-d9c089cfe3d0",
       "source": "AP Calculus Problems 1.3.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "0f76c37e-3ab6-4aae-bdc0-2c11af6c5e46",
@@ -679,7 +460,7 @@
       "tags": "graphing functions, rationalizing expressions",
       "url": "/question/0f76c37e-3ab6-4aae-bdc0-2c11af6c5e46",
       "source": "AP Calculus Problems 1.3.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "33ee7691-c54a-4d26-a7bb-96426ceca388",
@@ -696,7 +477,7 @@
       "tags": "graphing functions, rationalizing expressions",
       "url": "/question/33ee7691-c54a-4d26-a7bb-96426ceca388",
       "source": "AP Calculus Problems 1.3.20",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "487ccd86-caf1-48f7-89c6-5c712c2b31e9",
@@ -713,7 +494,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/487ccd86-caf1-48f7-89c6-5c712c2b31e9",
       "source": "AP Calculus Problems 1.3.21",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "6d082343-c51f-4516-8910-4bded65af4e8",
@@ -730,7 +511,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/6d082343-c51f-4516-8910-4bded65af4e8",
       "source": "AP Calculus Problems 6.1.22",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "5d75e6aa-6fd6-48df-8692-bd7721ad48a2",
@@ -747,7 +528,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/5d75e6aa-6fd6-48df-8692-bd7721ad48a2",
       "source": "AP Calculus Problems 1.3.22",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "b0f4df0c-eb99-408c-a391-7961a89a2922",
@@ -764,7 +545,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/b0f4df0c-eb99-408c-a391-7961a89a2922",
       "source": "AP Calculus Problems 1.3.23",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "d637e080-faa3-4760-ac87-f151fb2adb9a",
@@ -781,7 +562,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/d637e080-faa3-4760-ac87-f151fb2adb9a",
       "source": "AP Calculus Problems 1.3.24",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "1935868f-af63-4f47-9df7-540d39b030b4",
@@ -798,7 +579,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/1935868f-af63-4f47-9df7-540d39b030b4",
       "source": "AP Calculus Problems 1.3.25",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "598cb38d-1e76-4a56-9d42-e49faf4e4ab2",
@@ -815,7 +596,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/598cb38d-1e76-4a56-9d42-e49faf4e4ab2",
       "source": "AP Calculus Problems 1.3.26",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "add7ec51-2317-43d3-9a20-37b10ff98cf4",
@@ -832,7 +613,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/add7ec51-2317-43d3-9a20-37b10ff98cf4",
       "source": "AP Calculus Problems 1.3.27",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "e94ee8d0-9c6a-4cbc-a853-3f170e23cf6a",
@@ -849,7 +630,7 @@
       "tags": "rationalizing expressions, graphing functions",
       "url": "/question/e94ee8d0-9c6a-4cbc-a853-3f170e23cf6a",
       "source": "AP Calculus Problems 1.3.28",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "522c4a07-f80f-473d-beda-f7728f8282aa",
@@ -866,7 +647,7 @@
       "tags": "rationalizing expressions. graphing functions",
       "url": "/question/522c4a07-f80f-473d-beda-f7728f8282aa",
       "source": "AP Calculus Problems 1.3.29",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "21c57a64-1621-4351-a6f5-78eb61f05312",
@@ -883,7 +664,7 @@
       "tags": "graphing functions, domain, functions",
       "url": "/question/21c57a64-1621-4351-a6f5-78eb61f05312",
       "source": "AP Calculus Problems 1.4.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "a496af06-df96-4753-b93d-c3abb6d43c21",
@@ -900,7 +681,126 @@
       "tags": "graphing functions, domain, functions",
       "url": "/question/a496af06-df96-4753-b93d-c3abb6d43c21",
       "source": "AP Calculus Problems 1.4.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "e9e717be-ed30-401b-aa92-903e12af0a96",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Sketch a graph of each function, then find its domain.\n\\(h(x)\u003dx+|x|\\)",
+      "allAnswers": [],
+      "tags": "graphing functions, functions, domain",
+      "url": "/question/e9e717be-ed30-401b-aa92-903e12af0a96",
+      "source": "AP Calculus Problems 1.4.3",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "976c0ded-cd24-472e-8946-d48e647c0c17",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Sketch a graph of each function, then find its domain.\n\\(V(r)\u003d\\begin{cases} \\sqrt{1-r^2} \u0026 -1\\leq r\\leq 1\\\\ \\dfrac{1}{r} \u0026 r \u003e 1 \\end{cases}\\)",
+      "allAnswers": [],
+      "tags": "graphing functions, functions, domain",
+      "url": "/question/976c0ded-cd24-472e-8946-d48e647c0c17",
+      "source": "AP Calculus Problems 1.4.4",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "1fe19a6d-71c2-4059-9742-853623ecd5a3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint \\left(\\sqrt{x}+\\frac{1}{2\\sqrt{x}}\\right)\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
+      "url": "/question/1fe19a6d-71c2-4059-9742-853623ecd5a3",
+      "source": "AP Calculus Problems 6.1.23",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "fdccdf1f-09f4-464a-9d82-ad95d228a5bf",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Sketch a graph of each function, then find its domain.\n\\(U(x)\u003d\\begin{cases} 1/x \u0026 x\u003c-1\\\\ x \u0026 -1\\leq x\\leq 1\\\\ 1/x \u0026 x\u003e1 \\end{cases}\\)",
+      "allAnswers": [],
+      "tags": "graphing functions, functions, domain",
+      "url": "/question/fdccdf1f-09f4-464a-9d82-ad95d228a5bf",
+      "source": "AP Calculus Problems 1.4.5",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "e163c9e4-3f38-45db-8d9a-56b6243cb1c8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint \\sqrt[3]{x^2}\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
+      "url": "/question/e163c9e4-3f38-45db-8d9a-56b6243cb1c8",
+      "source": "AP Calculus Problems 6.1.24",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "89d438c0-857d-4227-b1f6-184621701298",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Sketch a graph of each function, then find its domain.\n\\(f(x)\u003d\\dfrac{x}{|x|}\\)",
+      "allAnswers": [],
+      "tags": "graphing functions, functions, domain",
+      "url": "/question/89d438c0-857d-4227-b1f6-184621701298",
+      "source": "AP Calculus Problems 1.4.6",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "db29fa10-74c4-4b7c-87a9-fda780b49b47",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint \\frac{1}{x^3}\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
+      "url": "/question/db29fa10-74c4-4b7c-87a9-fda780b49b47",
+      "source": "AP Calculus Problems 6.1.25",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     }
   ],
   "textContent": [
@@ -919,7 +819,7 @@
       "tags": "solids of revolution, volume, integral, integration ",
       "url": "/text-content/f0b15ddd-f506-40ec-bf67-ca472ef7e997",
       "source": "Forgotten Text 6 8.4",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Solids of Revolution"
+      "topic": "c871d8a6-8960-4bc0-a46b-60d577d4027c"
     },
     {
       "uuid": "f60cb88c-3afd-4949-bc0c-7afe6c8c948b",
@@ -936,9 +836,57 @@
       "tags": "indefinite integral, integral, integration, methods of integration ",
       "url": "/text-content/f60cb88c-3afd-4949-bc0c-7afe6c8c948b",
       "source": "Forgotten Text 7 1.1",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Indefinite Integral"
+      "topic": "d31f7824-4213-48f9-8e8b-759304d14110"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "643f2696-b35b-4941-95ac-a0b931b400a1",
+      "subTopics": [
+        "ad5a4bbc-8ad6-4955-a671-3811d768de8d"
+      ],
+      "parentTopics": [
+        "fdb0faa3-c452-45c0-8006-944598587048"
+      ],
+      "title": "Piecewise-Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 283000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "da37ee11-1499-4ffe-86ac-9f04bb22dc91",
+      "subTopics": [],
+      "parentTopics": [
+        "4cb634d5-ce78-4397-b8e7-83da114a0604"
+      ],
+      "title": "Trigonometric Integrals",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " integration ,trigonometric integrals, integrals, trig integral,",
+      "difficulty": 588000,
+      "contentUuids": [
+        "120a5508-2fb8-47c9-9aa9-80095454fb93"
+      ]
+    },
+    {
+      "uuid": "df17ef6d-95b5-435e-af77-5367b8a74511",
+      "subTopics": [],
+      "parentTopics": [
+        "c8bca3c2-7998-41db-9742-c1096e3915ff"
+      ],
+      "title": "Relation of Magnitude",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " vectors,cross product,",
+      "difficulty": 236000,
+      "contentUuids": [
+        "aaf79157-2d32-4cd2-9170-04fea6b70625",
+        "d614f463-d55f-4ddf-9a7c-109954c2b4de",
+        "b053522b-cfc1-40be-af0f-9cf7b2ce3df1"
+      ]
+    }
+  ]
 }

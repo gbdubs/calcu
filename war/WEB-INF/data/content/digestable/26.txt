@@ -2,364 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10048.png\"/\u003e",
-      "uuid": "6b046be6-0955-439a-813a-03b40da64358",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/900.png\"/\u003e",
+      "uuid": "56c22f5c-5f3e-43dd-b25f-4c5fa43467ba",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Truth Values and Logic",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10047.png\"/\u003e",
+      "title": "Evaluate integral",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/898.png\"/\u003e",
       "allAnswers": [],
-      "tags": "symbols, symbolic form, logic, conditionals",
-      "url": "/practice-problem/6b046be6-0955-439a-813a-03b40da64358",
-      "source": "null 2.5.3"
+      "tags": "integration by parts, integral, integration methods ",
+      "url": "/practice-problem/56c22f5c-5f3e-43dd-b25f-4c5fa43467ba",
+      "source": "null 8.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20036.png\"/\u003e",
-      "uuid": "cabe54fc-de70-43bc-90be-b4fb32abfde6",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/902.png\"/\u003e",
+      "uuid": "d82548e4-24e0-4348-9778-548292b23737",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Proving Theorems About Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20035.png\"/\u003e",
+      "title": "Evaluate the integral",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/901.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/cabe54fc-de70-43bc-90be-b4fb32abfde6",
-      "source": "null 4.3.2"
+      "tags": "integral, integration by parts, integration methods ",
+      "url": "/practice-problem/d82548e4-24e0-4348-9778-548292b23737",
+      "source": "null 8.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10053.png\"/\u003e",
-      "uuid": "18426cea-fde9-4403-9979-929d2d6d76e3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/909.png\"/\u003e",
+      "uuid": "1ca493e3-6478-487a-a0a1-08db7eb34d8e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Determine the Truth Value",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10052.png\"/\u003e",
+      "title": "Determine whether equation factors",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/908.png\"/\u003e",
       "allAnswers": [],
-      "tags": "truth value, biconditional, conditional, logic, symbols",
-      "url": "/practice-problem/18426cea-fde9-4403-9979-929d2d6d76e3",
-      "source": "null 2.6.1"
+      "tags": "rational functions, integration, integration methods",
+      "url": "/practice-problem/1ca493e3-6478-487a-a0a1-08db7eb34d8e",
+      "source": "null 8.5.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10055.png\"/\u003e",
-      "uuid": "0819d858-f243-48c6-8f67-5ff3dc9c6792",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/911.png\"/\u003e",
+      "uuid": "3dd0be8a-0b77-42bd-b052-7c053fe46caa",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Truth Value of Biconditionals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10054.png\"/\u003e",
+      "title": "Long division of polynomials",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/910.png\"/\u003e",
       "allAnswers": [],
-      "tags": "truth value, conditionals, biconditionals",
-      "url": "/practice-problem/0819d858-f243-48c6-8f67-5ff3dc9c6792",
-      "source": "null 2.6.2"
+      "tags": "rational functions, integration, integration methods ",
+      "url": "/practice-problem/3dd0be8a-0b77-42bd-b052-7c053fe46caa",
+      "source": "null 8.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10060.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10061.png\"/\u003e",
-      "uuid": "2d4a21ce-9cd9-4118-bad3-1f9650fb7e2f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/914.png\"/\u003e",
+      "uuid": "7b3e892c-7320-4b5f-a436-d7f933852ba7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Conditional Conclusions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10059.png\"/\u003e",
+      "title": "Evaluate the integral, pt.2",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/912.png\"/\u003e",
       "allAnswers": [],
-      "tags": "conditionals, logic, conjunctions",
-      "url": "/practice-problem/2d4a21ce-9cd9-4118-bad3-1f9650fb7e2f",
-      "source": "null 2.6.1"
+      "tags": "rational functions, integration, integration methods ",
+      "url": "/practice-problem/7b3e892c-7320-4b5f-a436-d7f933852ba7",
+      "source": "null 8.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10064.png\"/\u003e",
-      "uuid": "263302ec-0cae-4cf6-ad11-e0b167df405a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/916.png\"/\u003e",
+      "uuid": "883b310a-2c81-4172-8f2e-afaad8249937",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Conditionals and Truth Values",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10062.png\"/\u003e",
+      "title": "Evaluate the integral, polynomials",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/915.png\"/\u003e",
       "allAnswers": [],
-      "tags": "conditionals, logic, converses, inverses, truth value",
-      "url": "/practice-problem/263302ec-0cae-4cf6-ad11-e0b167df405a",
-      "source": "null 2.6.2"
+      "tags": "rational functions, polynomials, integration, integration methods ",
+      "url": "/practice-problem/883b310a-2c81-4172-8f2e-afaad8249937",
+      "source": "null 8.5.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10066.png\"/\u003e",
-      "uuid": "0c163f32-ef9a-45ad-8332-1a8c05ba1070",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/928.png\"/\u003e",
+      "uuid": "31f1ebca-fbab-4b13-b858-8233c182185c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Drawing Conclusions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10065.png\"/\u003e",
+      "title": "Find area between curves",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/926.png\"/\u003e",
       "allAnswers": [],
-      "tags": "conditionals, logic, conclusions, truth value",
-      "url": "/practice-problem/0c163f32-ef9a-45ad-8332-1a8c05ba1070",
-      "source": "null 2.6.3"
+      "tags": "integration, application of integration, area between curves ",
+      "url": "/practice-problem/31f1ebca-fbab-4b13-b858-8233c182185c",
+      "source": "null 9.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30093.png\"/\u003e",
-      "uuid": "72f00411-b9d7-466b-a672-5ad7dc2a57ea",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/938.png\"/\u003e",
+      "uuid": "81fd614f-851e-4827-a0c4-7c326136c082",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Angle Bisector of a Triangle Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30092.png\"/\u003e",
+      "title": "Find the volume of cone",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/936.png\"/\u003e",
       "allAnswers": [],
-      "tags": "angle bisector of a triangle, angle bisector, geometry proof",
-      "url": "/practice-problem/72f00411-b9d7-466b-a672-5ad7dc2a57ea",
-      "source": "null 5.1"
+      "tags": "volume of cone, integration, applications of integration ",
+      "url": "/practice-problem/81fd614f-851e-4827-a0c4-7c326136c082",
+      "source": "null 9.3.1 "
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10070.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10071.png\"/\u003e",
-      "uuid": "8ef4766c-66c1-474e-982c-6a0c479fb084",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/942.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/943.png\"/\u003e",
+      "uuid": "caf585c2-f5fa-4cd9-b92a-2ad1ebd71edb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practicing Logic",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10069.png\"/\u003e",
+      "title": "Volume of object between area",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/940.png\"/\u003e",
       "allAnswers": [],
-      "tags": "conditionals, logic, symbols, word problem",
-      "url": "/practice-problem/8ef4766c-66c1-474e-982c-6a0c479fb084",
-      "source": "null 2.8.1"
+      "tags": "applications of integration, volume between curves, volume ",
+      "url": "/practice-problem/caf585c2-f5fa-4cd9-b92a-2ad1ebd71edb",
+      "source": "null 9.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10073.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10074.png\"/\u003e",
-      "uuid": "df126874-a91c-4e5e-a8b0-3108903dcfb2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"/_static/img/content/10/.png\"/\u003e",
+      "uuid": "88488bdf-2002-499b-9028-a66e8394fb40",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655779,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practicing Logic",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10072.png\"/\u003e",
+      "title": "Disk and shell method ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/944.png\"/\u003e",
       "allAnswers": [],
-      "tags": "logic, conditionals, biconditionals, word problem",
-      "url": "/practice-problem/df126874-a91c-4e5e-a8b0-3108903dcfb2",
-      "source": "null 2.8.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30103.png\"/\u003e",
-      "uuid": "1ababb55-8c64-4e29-84be-36c261335a08",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655779,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Overlapping Angle Practice",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30102.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "overlapping triangles proof, shared angle proof",
-      "url": "/practice-problem/1ababb55-8c64-4e29-84be-36c261335a08",
-      "source": "null 5.5.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30111.png\"/\u003e",
-      "uuid": "4750b61f-f286-402f-b175-c0b8bc97478c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655779,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Perpendicular Bisectors and Isosceles Triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30110.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Perpendicular bisector, midpoint, right triangle congruence, isosceles triangle",
-      "url": "/practice-problem/4750b61f-f286-402f-b175-c0b8bc97478c",
-      "source": "null 5.6.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10079.png\"/\u003e",
-      "uuid": "e5efa2d8-5874-4155-81e8-984c10959908",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655779,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Midpoint Proof",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/10078.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "geometry proof, midpoint, line, line segment",
-      "url": "/practice-problem/e5efa2d8-5874-4155-81e8-984c10959908",
-      "source": "null 2.7.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/40.png\"/\u003e",
-      "uuid": "6c8b544e-a0b1-462b-bf7e-1ccab464177a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655779,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Slope of line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/39.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "slope of line, slope ",
-      "url": "/practice-problem/6c8b544e-a0b1-462b-bf7e-1ccab464177a",
-      "source": "null 8.1.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/44.png\"/\u003e",
-      "uuid": "410d0e4b-e0b3-43c8-883b-367860ef0dd7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655779,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Points on line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/43.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "points on line, equation of line",
-      "url": "/practice-problem/410d0e4b-e0b3-43c8-883b-367860ef0dd7",
-      "source": "null 8.2.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/52.png\"/\u003e",
-      "uuid": "37733439-6edb-4ff7-96d4-d3126a4fc751",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655779,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Midpoint of line",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/51.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "midpoint of line, line midpoint",
-      "url": "/practice-problem/37733439-6edb-4ff7-96d4-d3126a4fc751",
-      "source": "null 8.3.2"
+      "tags": "applications of integration, disk method, shell method ",
+      "url": "/practice-problem/88488bdf-2002-499b-9028-a66e8394fb40",
+      "source": "null 9.3.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "a21da1ba-51a0-4256-ae42-67f5d4405a3e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving Equations",
-      "body": "Solve each of the following equations.\n\\(e^{3x+7}\u003d12\\)",
-      "allAnswers": [],
-      "tags": "solving equations, equations",
-      "url": "/question/a21da1ba-51a0-4256-ae42-67f5d4405a3e",
-      "source": "AP Calculus Problems 1.15.12",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
-    },
-    {
-      "uuid": "4690742a-d86d-4ed9-b29b-ed3f812f92c0",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving Equations",
-      "body": "Solve each of the following equations.\n\\(\\ln\\sqrt[4]{x+1}\u003d\\frac{1}{2}\\)",
-      "allAnswers": [],
-      "tags": "solving equations, equations",
-      "url": "/question/4690742a-d86d-4ed9-b29b-ed3f812f92c0",
-      "source": "AP Calculus Problems 1.15.13",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
-    },
-    {
-      "uuid": "4509a45c-3874-40a8-81a9-d14fa677011f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving Equations",
-      "body": "Solve each of the following equations.\n\\(2^{3x-1}\u003d\\frac{1}{2}\\)",
-      "allAnswers": [],
-      "tags": "solving equations, equations",
-      "url": "/question/4509a45c-3874-40a8-81a9-d14fa677011f",
-      "source": "AP Calculus Problems 1.15.14",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
-    },
-    {
-      "uuid": "2eaa5422-38dc-43da-bf59-05a6d33339b8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving Equations",
-      "body": "Solve each of the following equations.\n\\(\\log_8(x-5)\u003d\\frac{2}{3}\\)",
-      "allAnswers": [],
-      "tags": "solving equations, equations",
-      "url": "/question/2eaa5422-38dc-43da-bf59-05a6d33339b8",
-      "source": "AP Calculus Problems 1.15.15",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
-    },
-    {
-      "uuid": "3dc04bb4-135d-45f5-b1ca-7f6505fdb203",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787604,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Definite Integral",
-      "body": "\\(\\dint_0^2 f(x)\\ dx\\) where \\(f(x)\u003d\\begin{cases} x^3 \u0026 0\\leq x\u003c1\\\\ 2-x \u0026 1\u003cx\\leq 2 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
-      "url": "/question/3dc04bb4-135d-45f5-b1ca-7f6505fdb203",
-      "source": "AP Calculus Problems 4.2.28",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
     {
       "uuid": "1e9df59b-fdc2-43ec-b449-9d4e69ea6e59",
       "contentType": "question",
@@ -375,7 +188,7 @@
       "tags": "solving equations, equations",
       "url": "/question/1e9df59b-fdc2-43ec-b449-9d4e69ea6e59",
       "source": "AP Calculus Problems 1.15.16",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "9776d25d-ccbe-4b8c-99f9-c8b6d0f251de",
@@ -392,7 +205,7 @@
       "tags": "solving equations, equations",
       "url": "/question/9776d25d-ccbe-4b8c-99f9-c8b6d0f251de",
       "source": "AP Calculus Problems 1.15.17",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "34ac8ca3-c31a-4ea4-8394-09c237212f02",
@@ -409,7 +222,7 @@
       "tags": "solving equations, equations",
       "url": "/question/34ac8ca3-c31a-4ea4-8394-09c237212f02",
       "source": "AP Calculus Problems 1.15.18",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "3ce24b36-ba92-45fc-9520-373d7ab83a19",
@@ -426,7 +239,7 @@
       "tags": "solving equations equations",
       "url": "/question/3ce24b36-ba92-45fc-9520-373d7ab83a19",
       "source": "AP Calculus Problems 1.15.19",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "59dbb5fb-9c2c-464a-bfa5-4713265bf59b",
@@ -443,7 +256,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/59dbb5fb-9c2c-464a-bfa5-4713265bf59b",
       "source": "AP Calculus Problems 1.15.20",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "342b4ef7-38ec-4009-aeb2-e88507705a0b",
@@ -460,7 +273,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/342b4ef7-38ec-4009-aeb2-e88507705a0b",
       "source": "AP Calculus Problems 4.2.29",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "5341998c-c8bc-4b04-9791-276ec6860285",
@@ -477,7 +290,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/5341998c-c8bc-4b04-9791-276ec6860285",
       "source": "AP Calculus Problems 1.15.21",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "2074679f-8469-4faa-a4a0-8c3fc26417e4",
@@ -494,7 +307,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/2074679f-8469-4faa-a4a0-8c3fc26417e4",
       "source": "AP Calculus Problems 4.2.30",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "02ae8c99-9543-462e-9e63-a687eca19493",
@@ -511,7 +324,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/02ae8c99-9543-462e-9e63-a687eca19493",
       "source": "AP Calculus Problems 4.2.31",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "c896fd25-6b77-46fe-8cce-42780dc71a9d",
@@ -528,7 +341,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/c896fd25-6b77-46fe-8cce-42780dc71a9d",
       "source": "AP Calculus Problems 1.15.22",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "ebf45d58-4b52-4017-a9e5-5faa9fed526f",
@@ -545,7 +358,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ebf45d58-4b52-4017-a9e5-5faa9fed526f",
       "source": "AP Calculus Problems 4.2.32",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "c8326b99-0c99-4e54-8c8b-16a28c9f5b77",
@@ -562,7 +375,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/c8326b99-0c99-4e54-8c8b-16a28c9f5b77",
       "source": "AP Calculus Problems 1.15.23",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "16d78734-298f-4eac-9946-9fe7d6207111",
@@ -579,7 +392,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/16d78734-298f-4eac-9946-9fe7d6207111",
       "source": "AP Calculus Problems 1.15.24",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "574b2024-329d-4600-9215-4577cbd9a3bf",
@@ -596,7 +409,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/574b2024-329d-4600-9215-4577cbd9a3bf",
       "source": "AP Calculus Problems 1.15.25",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "d1894c3e-43ff-4ba7-9fa3-b351fe87cc4d",
@@ -613,7 +426,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/d1894c3e-43ff-4ba7-9fa3-b351fe87cc4d",
       "source": "AP Calculus Problems 1.15.26",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "1f5d4570-c8f7-422a-9a53-67466616b976",
@@ -630,7 +443,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/1f5d4570-c8f7-422a-9a53-67466616b976",
       "source": "AP Calculus Problems 1.15.27",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "4181909e-75ac-4581-8cbf-310ece1ffd62",
@@ -647,7 +460,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/4181909e-75ac-4581-8cbf-310ece1ffd62",
       "source": "AP Calculus Problems 4.2.33",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "1c099033-c67a-4a85-82f5-f4e3897ce7fe",
@@ -664,7 +477,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/1c099033-c67a-4a85-82f5-f4e3897ce7fe",
       "source": "AP Calculus Problems 1.15.28",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "c16e0b00-395b-4f87-b84e-bda42fffcc86",
@@ -681,7 +494,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/c16e0b00-395b-4f87-b84e-bda42fffcc86",
       "source": "AP Calculus Problems 1.15.29",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "41f8ba0d-5f1a-4314-8f36-16b35dbc4b16",
@@ -698,7 +511,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/41f8ba0d-5f1a-4314-8f36-16b35dbc4b16",
       "source": "AP Calculus Problems 4.2.34",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "15b987f4-12e9-46cd-bd1c-74d86c9beba6",
@@ -715,7 +528,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/15b987f4-12e9-46cd-bd1c-74d86c9beba6",
       "source": "AP Calculus Problems 4.2.35",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "1a10b5f1-113e-4567-8fc0-e920e8fbe9e5",
@@ -732,7 +545,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/1a10b5f1-113e-4567-8fc0-e920e8fbe9e5",
       "source": "AP Calculus Problems 1.15.30",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "ed9f440f-23f8-4278-bb72-532d58dab9a6",
@@ -749,7 +562,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ed9f440f-23f8-4278-bb72-532d58dab9a6",
       "source": "AP Calculus Problems 4.2.36",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "f32e778f-e09c-497d-a9eb-dedfad681d41",
@@ -766,7 +579,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/f32e778f-e09c-497d-a9eb-dedfad681d41",
       "source": "AP Calculus Problems 1.15.31",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "c162dad5-d3a6-4d2d-8d6c-f6212f80e851",
@@ -783,7 +596,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/c162dad5-d3a6-4d2d-8d6c-f6212f80e851",
       "source": "AP Calculus Problems 4.2.37",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "482a3f25-c65b-49d0-b669-1c2538802ebf",
@@ -800,7 +613,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/482a3f25-c65b-49d0-b669-1c2538802ebf",
       "source": "AP Calculus Problems 4.2.38",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "ccf088b2-9906-4942-ae00-c1071bcd7233",
@@ -817,7 +630,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/ccf088b2-9906-4942-ae00-c1071bcd7233",
       "source": "AP Calculus Problems 1.15.32",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "41241d5d-3f64-4ef4-8fd3-d220340d47b2",
@@ -834,7 +647,7 @@
       "tags": "solving equations, real zeros, functions",
       "url": "/question/41241d5d-3f64-4ef4-8fd3-d220340d47b2",
       "source": "AP Calculus Problems 1.15.33",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "9f8f7e6e-8bf0-4c3f-8c15-e4a1660df168",
@@ -851,7 +664,7 @@
       "tags": "solving equations, functions, real zeros",
       "url": "/question/9f8f7e6e-8bf0-4c3f-8c15-e4a1660df168",
       "source": "AP Calculus Problems 1.15.34",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "4cfb0963-bad9-4dcc-a390-1343fb0b4399",
@@ -868,7 +681,7 @@
       "tags": "solving equations, real zeros, functions ",
       "url": "/question/4cfb0963-bad9-4dcc-a390-1343fb0b4399",
       "source": "AP Calculus Problems 1.15.35",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "5d4a1c39-f49b-41df-bded-40aeb5dd2f6e",
@@ -885,7 +698,7 @@
       "tags": "real zeros, solving equations, functions",
       "url": "/question/5d4a1c39-f49b-41df-bded-40aeb5dd2f6e",
       "source": "AP Calculus Problems 1.15.36",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "9910e5e7-51df-4fa6-98d1-13270c17f30d",
@@ -902,7 +715,92 @@
       "tags": "solving equations, functions, real zeros",
       "url": "/question/9910e5e7-51df-4fa6-98d1-13270c17f30d",
       "source": "AP Calculus Problems 1.15.37",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "01314679-6e54-4045-bf72-23f694c01f7c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Find all real zeros of the following functions. \n\\(y\u003dx\\log_3(5x-2)\\)",
+      "allAnswers": [],
+      "tags": "solving equations, real zeros, functions",
+      "url": "/question/01314679-6e54-4045-bf72-23f694c01f7c",
+      "source": "AP Calculus Problems 1.15.38",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "f2f9b15c-2f00-4484-b426-36a9ee946bb2",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Find all real zeros of the following functions. \n\\(y\u003de^{3x/(2x-1)}\\sqrt[3]{x-7}\\)",
+      "allAnswers": [],
+      "tags": "solving equations, real zeros, functions",
+      "url": "/question/f2f9b15c-2f00-4484-b426-36a9ee946bb2",
+      "source": "AP Calculus Problems 1.15.39",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "d23a946a-0e99-449e-b0fd-afa9a6a591db",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Find all real zeros of the following functions. \n\\(y\u003d\\ln(8x^2-4)\\)",
+      "allAnswers": [],
+      "tags": "solving equations, real zeros, functions",
+      "url": "/question/d23a946a-0e99-449e-b0fd-afa9a6a591db",
+      "source": "AP Calculus Problems 1.15.40",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "8e1fb1ef-0cd5-40a5-b5e0-d767470af35c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Find all real zeros of the following functions. \n\\(y\u003de^{5x/(3x-2)}\\ln e^x\\)",
+      "allAnswers": [],
+      "tags": "solving equations, real zeros, functions",
+      "url": "/question/8e1fb1ef-0cd5-40a5-b5e0-d767470af35c",
+      "source": "AP Calculus Problems 1.15.41",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "b2bbc747-45c1-4368-a2b5-d7b06094ca05",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity",
+      "body": "Determine whether the functions in the problems listed are even, odd, or neither. \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20467.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "functions, even, odd, continuity ",
+      "url": "/question/b2bbc747-45c1-4368-a2b5-d7b06094ca05",
+      "source": "AP Calculus Problems 1.16.1",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
     }
   ],
   "textContent": [
@@ -921,7 +819,7 @@
       "tags": "vectors, basis, parametric equations, standard basis vectors ",
       "url": "/text-content/c8f9917c-13db-40e4-aea1-b96c9f73320e",
       "source": "Forgotten Text 7 5.43",
-      "topic": "Calculus/Other Calculus Topics/Vectors/Parametric Equations"
+      "topic": "ea4e6a49-8bdf-43a5-9c01-700bec4162d8"
     },
     {
       "uuid": "4494495b-5eeb-49ba-8524-7fe2b9c27382",
@@ -938,9 +836,83 @@
       "tags": "dot product, line through points, intersection of plane, vectors, position vector ",
       "url": "/text-content/4494495b-5eeb-49ba-8524-7fe2b9c27382",
       "source": "Forgotten Text 7 5.45",
-      "topic": "Calculus/Other Calculus Topics/Vectors/Dot Product"
+      "topic": "62a47411-988a-49d9-bf8c-76db6cc91364"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "4cfad970-c598-4630-8a3a-eeb0c75f3527",
+      "subTopics": [
+        "f28988a1-cac8-4a67-9716-17b0a884f484",
+        "ac346339-83ef-46d5-8e65-30d3e2b7c855"
+      ],
+      "parentTopics": [
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
+      ],
+      "title": "Additional Topics",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 517000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "e19bbbcf-4c2b-44cb-afbc-59b4b08168c9",
+      "subTopics": [],
+      "parentTopics": [
+        "3b9d2882-08a2-4221-a2f8-b56459999efa"
+      ],
+      "title": "Arc and Chords",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " postulates, division postulates, root postulates,multiplication postulates,",
+      "difficulty": 92000,
+      "contentUuids": [
+        "342a3b38-23d7-4727-b2e4-f0be7c96a568"
+      ]
+    },
+    {
+      "uuid": "a913c509-8ab5-46e8-9069-b8486b405af2",
+      "subTopics": [],
+      "parentTopics": [
+        "895c9863-ced8-49f0-8d94-a41368971acf"
+      ],
+      "title": "Second Derivative Test",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " second derivative test, local minimum,local maximum, function,derivatives,second derivative, derivative, inflection points,concavity, local minimum points,local maximum points, factored form, multi-problem, second derivative test , high derivatives, higher derivatives, derivatives, decreasing, high derivative, functions, limits, piecewise formula, instantaneous rate of change, behavior, position function, limit, increasing rate, differentiable, velocity function, graph, acceleration ",
+      "difficulty": 527000,
+      "contentUuids": [
+        "9370bbf1-f1a1-4090-8a14-5b508a69ec9f",
+        "8e933438-3b41-4d0b-b386-214ef9f74b71",
+        "039a58a3-40d5-4060-9a4f-6d9141b6600b",
+        "da1af2ce-f9bb-4e99-a765-462692582c22",
+        "cd5aac02-9444-4719-ab6e-c2c4c7f8c0fb",
+        "8f02994e-6f3b-4c02-9f68-f98afc4b0cc7",
+        "00465f74-ce64-4955-8b22-8ad031b2c98d",
+        "1631174d-376e-4387-a67e-fb5fd2a120c2",
+        "9b6a53a8-b993-4e58-b8ab-18de08852567",
+        "44dd6c67-0bc5-4a13-8a40-f2b51be2113e",
+        "d3a2b970-b784-4ba0-a4a9-f1c9e11f5644",
+        "ed281248-393c-48aa-897e-fef20e8aafb8",
+        "dff0d4cd-6a9b-47d3-86ff-3d96b74aa2b7",
+        "aa0dab2e-8ce9-4789-9419-dbc3f05f21a9",
+        "cebb7f02-a72d-4703-bad2-15d75378c6b3",
+        "4207412d-4bb8-45a8-922c-052bc10f79c3",
+        "b228fd1f-bc07-4158-ad37-f367e66e7ac0",
+        "9aef1c2c-740b-4246-9b26-d53af82a1823",
+        "6e17f397-2aec-49be-998b-19968088564e",
+        "18d26f08-9ac2-4889-ab49-282091cb0d2a",
+        "718af150-7d45-42ce-af8e-6aefb6c25231",
+        "112e12bc-69b3-49e2-9df6-6105e2e438c7",
+        "ba0942c0-5387-4fa6-b06c-1975ce0f8b06",
+        "1fdf9cf4-2ab2-4769-9f2e-e4e94e15e357",
+        "0b5825fd-1380-448d-b879-b3161e99a546",
+        "b0469fbb-e745-4ec7-9d40-bbfca4ae85d1",
+        "29d269d2-ee60-4db4-ade0-10c2ce06d0f7",
+        "b8303cc3-7bba-4ea6-a19f-04316e158b25"
+      ]
+    }
+  ]
 }

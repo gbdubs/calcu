@@ -2,414 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(12\\) ",
-      "uuid": "9325ae92-13be-46ca-aa8c-b48264e755b0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/348.png\"/\u003e",
+      "uuid": "b0eac5fa-4abe-458d-9461-3bc348be4382",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362067,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Areas Of Regions Bounded By Closed Curves Question",
-      "body": " A particle follows the path  \\(\\vec{ }r(t) \u003d (t, \\frac23\\sqrt2 t^{\\frac32}, \\frac12t^2)\\) .    The distance the particle travels between  \\(t\u003d0\\)  and  \\(t\u003d4\\)  is _____.",
+      "title": "Chord intersection ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/347.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/9325ae92-13be-46ca-aa8c-b48264e755b0",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "chords, intersection of chords, circle ",
+      "url": "/practice-problem/b0eac5fa-4abe-458d-9461-3bc348be4382",
+      "source": "null 13.6.2"
     },
     {
-      "authorSolution": " \\(\\sqrt3\\) ",
-      "uuid": "dfdabd32-77ff-4de5-abcd-22be8bdfb9ab",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/350.png\"/\u003e",
+      "uuid": "4456e52c-569e-4083-8ae3-dc90b969acdc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362067,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Tangent Lines To Curves Question",
-      "body": " The length of the curve  \\(\\vec{ }r(t) \u003d \\frac 13(1 + t)^{\\frac 32} \\vec{ }i + \\frac 13 (1-t)^{\\frac 32} \\vec{ }j + \\frac 12 t \\vec{ }k\\)  between the points where  \\(t \u003d -1\\)  and  \\(t \u003d 1\\)  is ____.",
+      "title": "Length of chord",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/349.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/dfdabd32-77ff-4de5-abcd-22be8bdfb9ab",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "length of chord, circle ",
+      "url": "/practice-problem/4456e52c-569e-4083-8ae3-dc90b969acdc",
+      "source": "null 13.6.3"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(2\\) ",
-      "uuid": "3d1022cd-e39a-4674-b402-0c33ccc0d67e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/356.png\"/\u003e",
+      "uuid": "88266d5b-394a-4021-947e-30b6c4b7a5f0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362067,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Parametrized Curves Problem",
-      "body": " The length of the curve forming the intersection of the  surfaces  \\(y \u003d 2\\sqrt{2x}\\)  and  \\(z \u003d \\ln x\\)  between the points  \\((1,2\\sqrt 2,0)\\)  and  \\((2,4,\\ln 2)\\)  is  \\(a + \\ln b\\)  where  \\(a \u003d\\) ___ and  \\(b\u003d\\) ___.",
+      "title": "Equation of circle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/355.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/3d1022cd-e39a-4674-b402-0c33ccc0d67e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "equation of circle, circle, length of radius, coordinates of center",
+      "url": "/practice-problem/88266d5b-394a-4021-947e-30b6c4b7a5f0",
+      "source": "null 13.7.2"
     },
     {
-      "authorSolution": " \\(\\dfrac{\\pi}2\\) ",
-      "uuid": "beafcaad-8aa4-4651-b590-714c16370afc",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/358.png\"/\u003e",
+      "uuid": "b1065251-f895-4386-b85e-bcfb57c1ef7d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362067,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Tangent Lines To Curves",
-      "body": " The curves  \\(\\vec{ }r(t) \u003d (e^t - 1, 2\\sin t, \\ln(t + 1))\\)  and  \\(\\vec{ }R(u)\u003d (u + 1, u^2 - 1, u^3 + 1)\\)  intersect at the origin.   The angle (in radians) at which the curves intersect is ______.",
+      "title": "length of radius given equation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/357.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/beafcaad-8aa4-4651-b590-714c16370afc",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "radius, length, equation of circle, circle ",
+      "url": "/practice-problem/b1065251-f895-4386-b85e-bcfb57c1ef7d",
+      "source": "null 13.7.3"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(-1\\) ,  \\(0\\) ,  \\(3\\) ",
-      "uuid": "b35d74e1-0f13-488f-b1cb-e16b43d5b20f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/364.png\"/\u003e",
+      "uuid": "4884bd65-3b59-43cd-9a49-2a2f935242ef",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362068,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Arclength Of Parametrized Curves And Of Curves Specified In Polar Coordinates",
-      "body": " The curves  \\(\\vec{ }r(t) \u003d (t^2 - 2, t^2 - 2t - 1, 2\\ln (t - 1))\\)  and  \\(\\vec{ }R(u) \u003d (u^2 + 3u + 4, u^2 + 2u, e^{u + 1} - 2u - 3)\\)  intersect at the point (___,____,___).    The cosine of their angle of intersection is  \\(\\dfrac 1{2\\sqrt a}\\)  where  \\(a\\) \u003d___.",
+      "title": "Point of intersection of secant",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/362.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/363.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/b35d74e1-0f13-488f-b1cb-e16b43d5b20f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "point of intersection, secant, circle ",
+      "url": "/practice-problem/4884bd65-3b59-43cd-9a49-2a2f935242ef",
+      "source": "null 13.8.2"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(2\\) ,  \\(-2\\) ,  \\(5\\) ",
-      "uuid": "b2530748-7fa6-4dd7-a2ad-46df24c402b2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/371.png\"/\u003e",
+      "uuid": "b6a59321-d44f-4abd-a704-1579a4c6e5ec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362068,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Parametrized Curves Practice",
-      "body": " The curves  \\(\\vec{ }r(t) \u003d e^t \\vec{ }i + 2\\sin(t+\\frac\\pi 2) \\vec{ }j + (t^2 - 2) \\vec{ }k\\)  and  \\(\\vec{ }R(u) \u003d u \\vec{ }i + 2 \\vec{ }j + (u^2 - 3) \\vec{ }k\\)  intersect at the point (___,___,____).    The cosine of their angle of intersection is  \\(\\dfrac 1{\\sqrt a}\\)  where  \\(a\\) \u003d___.",
+      "title": "locus of points ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/370.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/b2530748-7fa6-4dd7-a2ad-46df24c402b2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "locus, interior angle ",
+      "url": "/practice-problem/b6a59321-d44f-4abd-a704-1579a4c6e5ec",
+      "source": "null 14.2.2"
     },
     {
-      "authorSolution": " \\(20\\) ",
-      "uuid": "c860e89c-abe1-464e-b52d-5fba63c2245d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/379.png\"/\u003e",
+      "uuid": "67b613be-1d36-466d-b3d8-8f45c9a0c262",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362068,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Parametrized Curves Question",
-      "body": " Let  \\(\\vec{ }f(t) \u003d (t^4 - 2t^3 + t^2 + t + 1, t^4 - t^3 + t^2 - t + 1, 2t^3 - t^2 - t + 2)\\)  and  \\(g(t) \u003d \\abs{\\vec{ }f(t)}^2\\) .   Then  \\(Dg(1)\\) \u003d_____.",
+      "title": "Coordinates of the points",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/378.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/c860e89c-abe1-464e-b52d-5fba63c2245d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "coordinates of points, line, coordinate geometry ",
+      "url": "/practice-problem/67b613be-1d36-466d-b3d8-8f45c9a0c262",
+      "source": "null 14.4.2"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "2fbe4b34-18d8-47c8-ad38-06cd63b7412e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/384.png\"/\u003e",
+      "uuid": "c8c893bc-62f3-405d-95d5-b6695d15eb99",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362068,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Tangent Lines To Curves",
-      "body": " Let  \\(\\vec{ }f(t) \u003d (f^1(t),f^2(t),f^3(t))\\) , where   \\(f^1(t) \u003d t^2 + t - 1 + t^{-1}\\) ,  \\(f^2(t) \u003d t^3 - t^2 + 3 - t^{-2}\\) , and  \\(f^3(t) \u003d t^4 - t^3 + t^2 - t + 3\\) .   Also let  \\(\\vec{ }g(t) \u003d (g^1(t),g^2(t),g^3(t))\\) , where  \\(g^1(t) \u003d 2t(1 + t)^{-1}\\) ,  \\(g^2(t) \u003d (1 - t)(1 + t^2)^{-1}\\) , and  \\(g^3(t)\u003dt^{-1} + t^{-2} + \\ln t\\) .\n  (a) If  \\(p \u003d \\langle \\vec{ }f,\\vec{ }g range ofgle\\) , then  \\(Dp(1)\\) \u003d___.\n  (b) If  \\(\\vec{ }u \u003d \\vec{ }f \\times \\vec{ }g\\) , then  \\(D\\vec{ }u(1)\\)  \u003d (_____,_____,____).\n  (c) If  \\(n \u003d \\abs{\\vec{ }f}^2\\) , then  \\(Dn(1)\\)  \u003d _____.",
+      "title": "Equation of the locus of points",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/383.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves, word problem",
-      "url": "/practice-problem/2fbe4b34-18d8-47c8-ad38-06cd63b7412e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "locus of points, equation of locus",
+      "url": "/practice-problem/c8c893bc-62f3-405d-95d5-b6695d15eb99",
+      "source": "null 14.5.2"
     },
     {
-      "authorSolution": " \\(-4\\) ,  \\(-6\\) ,  \\(3\\) ",
-      "uuid": "d272f64c-a7d7-45e0-8fc7-53221a1d536a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/392.png\"/\u003e",
+      "uuid": "77dbcd4c-63c7-496d-a334-f920f460bac8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362068,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Parametrized Curves",
-      "body": " Let  \\(\\vec{ }f(t) \u003d (t^2 + t + 1) \\vec{ }i + (t^3 - 4) \\vec{ }j + \\cos\\pi t  \\vec{ }k\\)  and  \\(\\vec{ }g(t) \u003d (e^{t^2} + 5) \\vec{ }i + 3 \\vec{ }j + (t^3 + t + 5) \\vec{ }k.\\)  Then  \\(D(\\vec{ }f\\times\\vec{ }g)(0)\\)  \u003d (____,____,____).",
+      "title": "Coordinate Geometry ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/391.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/d272f64c-a7d7-45e0-8fc7-53221a1d536a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
+      "tags": "coordinates, geometry, turning point, axis of symmetry",
+      "url": "/practice-problem/77dbcd4c-63c7-496d-a334-f920f460bac8",
+      "source": "null 14.6.2"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(-3\\) ,  \\(-3\\) ",
-      "uuid": "3439dc7c-9930-49c6-bc7c-f22761b050db",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/394.png\"/\u003e",
+      "uuid": "02c66d45-6abc-47c8-8b7f-120d684dc6f6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362068,
+      "createdAt": 1437611655783,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Parametrized Curves",
-      "body": " Let  \\(\\vec{ }f(t) \u003d (t^2\\sin t + \\cos t, e^{t^2} + e^t - 1, t^3 - t^2)\\)  and  \\(\\vec{ }g(t) \u003d (e^t\\sin t + e^t\\cos t, \\arctan t^2, \\\\ t^4 - t^2 + 3t - 2)\\) .   Then  \\(D(\\vec{ }f \\times \\vec{ }g)(0)\\)  \u003d (___,____,____).",
+      "title": "Turning point of the parabola",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/393.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/3439dc7c-9930-49c6-bc7c-f22761b050db",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "ef1ebf3c-6b5a-43a3-a141-ba067dbb50bf",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362069,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Arclength Of Parametrized Curves And Of Curves Specified In Polar Coordinates",
-      "body": " Let  \\(\\vec{ }f(t) \u003d f^1(t) \\vec{ }i + f^2(t) \\vec{ }j + f^3(t) \\vec{ }k\\)  where  \\(f^1(t) \u003d \\sin t + \\cos t + t^2 - 3t\\) ,  \\(f^2(t) \u003d t + 2 + \\tan t\\) , and  \\(f^3(t) \u003d t^3 - t^2 + \\arctan t\\) .    Also let  \\(\\vec{ }g(t) \u003d g^1(t) \\vec{ }i + g^2(t) \\vec{ }j + g^3(t) \\vec{ }k\\)  where \\\\  \\(g^1(t) \u003d t + e^t + e^{-t}\\) ,  \\(g^2(t) \u003d t^2 + e^t - e^{-t}\\) , and  \\(g^3(t) \u003d \\arctan t^2 + e^{t^2} - 3\\) .\n  (a) If  \\(\\vec{ }h \u003d \\vec{ }f + \\vec{ }g\\) , then  \\(D\\vec{ }h(0)\\)  \u003d (___,___,___).\n  (b) If  \\(p \u003d \\langle \\vec{ }f, \\vec{ }g range ofgle\\) , then  \\(Dp(0)\\)  \u003d ____.\n  (c) If  \\(\\vec{ }r \u003d \\vec{ }f \\times \\vec{ }g\\) , then  \\(D\\vec{ }r(0)\\)  \u003d (___,___,___).\n  (d) If  \\(\\vec{ }u \u003d \\vec{ }g \\times \\vec{ }f\\) , then  \\(D\\vec{ }u(0)\\)  \u003d (___,___,___).",
-      "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves, word problem",
-      "url": "/practice-problem/ef1ebf3c-6b5a-43a3-a141-ba067dbb50bf",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
-    },
-    {
-      "authorSolution": " \\(-1\\) ,  \\(\\dfrac1e\\) ",
-      "uuid": "a0348187-da9f-41d6-9a86-1a94738f34f2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362069,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Parametrized Curves Question",
-      "body": "  \\(\\lim_{t \\to 0}\\left(\\frac{te^t}{1-e^t} \\vec{ }i + \\frac{e^{t-1}}{\\cos t} \\vec{ }j\\right)\\)  \u003d (____,_____).",
-      "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/a0348187-da9f-41d6-9a86-1a94738f34f2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
-    },
-    {
-      "authorSolution": " \\(\\dfrac73\\) ,  \\(0\\) ,  \\(1\\) ",
-      "uuid": "13f3ee96-35d4-4944-aaaa-7b76e9206a71",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362069,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Tangent Lines To Curves",
-      "body": " Let  \\(\\vec{ }G(t) \u003d  \\dfrac{t^2 + 3t - 10}{t^2 - t - 2} \\vec{ }i + \\sin{\\dfrac{\\pi t}2} \\vec{ }j + \\dfrac{\\sin(t-2)}{t-2} \\vec{ }k\\) .   Then  \\(\\lim_{t \\to 2} \\vec{ }G(t)\\)  \u003d (_____,___,___).",
-      "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/13f3ee96-35d4-4944-aaaa-7b76e9206a71",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
-    },
-    {
-      "authorSolution": " \\(-\\infty\\) ,  \\(0\\) ,  \\(0\\) ,  \\(10\\) ",
-      "uuid": "844a441e-9737-4e69-a295-1def54123db3",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362069,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Arclength Of Parametrized Curves And Of Curves Specified In Polar Coordinates",
-      "body": " Let  \\(\\vec{ }F(t) \u003d 3t \\vec{ }j + t^{-1} \\vec{ }k\\)  and  \\(\\vec{ }G(t) \u003d 5t \\vec{ }i + \\sqrt{10-t} \\vec{ }j\\) .    Then the domain of  \\(\\vec{ }F + \\vec{ }G\\)  is (___,___ ) \\(\\cup\\) (___,___].",
-      "allAnswers": [],
-      "tags": "parametrized curves, parametrized curves ,arclength of parametrized curves and of curves specified in polar coordinates ,areas of regions bounded by closed curves ,tangent lines to curves",
-      "url": "/practice-problem/844a441e-9737-4e69-a295-1def54123db3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Curves"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "818ed32c-ab07-48fa-ae99-7845e6a289b1",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362074,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangential Component Of The Acceleration (denoted By Practice",
-      "body": " A particle  \\(P\\)  moves along a curve  \\(C\\) .    The position of  \\(P\\)  at time  \\(t\\)  is given by   \\(\\vec{ }r(t)\u003d6t \\vec{ }i + \\sqrt2 t^2 \\vec{ }j + 5 \\vec{ }k\\) .",
-      "allAnswers": [],
-      "tags": "acceleration and curvature, velocity ,speed ,acceleration ,tangential component of the acceleration (denoted by",
-      "url": "/practice-problem/818ed32c-ab07-48fa-ae99-7845e6a289b1",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Equations/Acceleration and Curvature"
-    },
-    {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "914e9d83-9519-43dd-be4c-fa94b8751cbc",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362075,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Acceleration And Curvature",
-      "body": " When  \\(t\u003d6\\)  the normal component of the acceleration of  \\(P\\)  is  \\(\\dfrac{a\\sqrt a}b\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "acceleration and curvature, velocity ,speed ,acceleration ,tangential component of the acceleration (denoted by",
-      "url": "/practice-problem/914e9d83-9519-43dd-be4c-fa94b8751cbc",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Polar Coordinates/Parametric Equations/Acceleration and Curvature"
+      "tags": "parabola, turning point, point and line",
+      "url": "/practice-problem/02c66d45-6abc-47c8-8b7f-120d684dc6f6",
+      "source": "null 14.6.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "af7c9d32-c7db-4fb0-93c5-fd2350804c8a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Constructing Truth Tables",
-      "body": "Construct the truth table for the statement \\(\\sim (P \\leftrightarrow Q)\\).",
-      "allAnswers": [],
-      "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
-      "url": "/question/af7c9d32-c7db-4fb0-93c5-fd2350804c8a",
-      "source": "First Year Calculus 1.1.8",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
-    },
-    {
-      "uuid": "d6e1e001-ca06-45e8-9ec0-5c5886955e8f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals, all of which can be computed \"by parts.\"\n\\(\\int x \\sin x dx\\)\n\\(\\int x^{2} \\sin x dx\\)",
-      "allAnswers": [],
-      "tags": "integrals, integrals by parts",
-      "url": "/question/d6e1e001-ca06-45e8-9ec0-5c5886955e8f",
-      "source": "First Year Calculus 7.1.15",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
-    },
-    {
-      "uuid": "795e42d0-2529-4b41-9ec1-df5921a49224",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Constructing Truth Tables",
-      "body": "Construct the truth table for the following statement.\n\n\\( (\\sim P) \\leftrightarrow (\\sim Q)\\)",
-      "allAnswers": [],
-      "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
-      "url": "/question/795e42d0-2529-4b41-9ec1-df5921a49224",
-      "source": "First Year Calculus 1.1.9",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
-    },
-    {
-      "uuid": "b27caa8b-84ec-4498-a890-b9c7bacffc8d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals, all of which can be computed \"by parts.\"\n\\(\\int x \\cos 3x dx\\)\n\\(\\int x \\sec x \\tan x dx\\)",
-      "allAnswers": [],
-      "tags": "integrals, integrals by parts",
-      "url": "/question/b27caa8b-84ec-4498-a890-b9c7bacffc8d",
-      "source": "First Year Calculus 7.1.16",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
-    },
-    {
-      "uuid": "35ad932f-ef9f-4434-b564-7765c7441e4f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals, all of which can be computed \"by parts.\"\n\\(\\int x \\sec^{2} x dx\\)\n\\(\\int x \\ln x dx\\)",
-      "allAnswers": [],
-      "tags": "integrals, integrals by parts",
-      "url": "/question/35ad932f-ef9f-4434-b564-7765c7441e4f",
-      "source": "First Year Calculus 7.1.17",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
-    },
-    {
-      "uuid": "2c7f96cf-e788-4c83-b670-45f81624da0e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Advanced Integration Techniques",
-      "body": "Compute the following integrals, all of which can be computed \"by parts.\"\n\\(\\int x \\tan^{-1} x dx\\)\n\\(\\int x \\sec^{-1} x dx, x\u003e1\\)",
-      "allAnswers": [],
-      "tags": "integrals, integrals by parts",
-      "url": "/question/2c7f96cf-e788-4c83-b670-45f81624da0e",
-      "source": "First Year Calculus 7.1.18",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
-    },
-    {
-      "uuid": "8920d4f3-9f01-4b1a-8f54-54efe7b8bda1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787601,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Constructing Truth Tables",
-      "body": "Construct the truth table for the given statement.\n\n\\([P \\vee (\\sim Q)] \\rightarrow P\\)",
-      "allAnswers": [],
-      "tags": "logic, compound, statements, symbols, truth values, mathematical sentences",
-      "url": "/question/8920d4f3-9f01-4b1a-8f54-54efe7b8bda1",
-      "source": "First Year Calculus 1.1.10",
-      "topic": "Pre-Calculus/Sequences and the Binomial Theorem/Mathematical Induction/Inductive Step"
-    },
     {
       "uuid": "52cc951c-55be-4dcc-a27c-170279fc69fe",
       "contentType": "question",
@@ -425,7 +188,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/52cc951c-55be-4dcc-a27c-170279fc69fe",
       "source": "First Year Calculus 7.1.19",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
+      "topic": "1c185413-98ee-41a5-a258-4dc229746797"
     },
     {
       "uuid": "3a810e49-2b25-435f-a642-529021844338",
@@ -442,7 +205,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/3a810e49-2b25-435f-a642-529021844338",
       "source": "First Year Calculus 7.1.20",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
+      "topic": "1c185413-98ee-41a5-a258-4dc229746797"
     },
     {
       "uuid": "9e1c9cbc-1b07-40c3-828b-8da9c3d63163",
@@ -459,7 +222,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/9e1c9cbc-1b07-40c3-828b-8da9c3d63163",
       "source": "First Year Calculus 7.1.21",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
+      "topic": "1c185413-98ee-41a5-a258-4dc229746797"
     },
     {
       "uuid": "c5537bb1-59da-4d86-9806-d7ae8b2058dc",
@@ -476,7 +239,7 @@
       "tags": "integrals, integrals by parts",
       "url": "/question/c5537bb1-59da-4d86-9806-d7ae8b2058dc",
       "source": "First Year Calculus 7.1.22",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration by Parts"
+      "topic": "1c185413-98ee-41a5-a258-4dc229746797"
     },
     {
       "uuid": "cc6d570e-ff1a-400e-ba47-faaa42e07d92",
@@ -493,7 +256,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/cc6d570e-ff1a-400e-ba47-faaa42e07d92",
       "source": "AP Calculus Problems 1.1.1",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "52e5627e-77c1-4b7b-bbb7-5980d6a7ac99",
@@ -510,7 +273,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/52e5627e-77c1-4b7b-bbb7-5980d6a7ac99",
       "source": "AP Calculus Problems 1.1.2",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "1a591e58-6425-4f82-9c77-decb0a6d25d5",
@@ -527,7 +290,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/1a591e58-6425-4f82-9c77-decb0a6d25d5",
       "source": "AP Calculus Problems 1.1.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "c5e14d81-3386-49bb-8a3e-7efc892c8aa7",
@@ -544,7 +307,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/c5e14d81-3386-49bb-8a3e-7efc892c8aa7",
       "source": "AP Calculus Problems 1.1.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "7a27d410-9a02-4954-9098-50b83d42318f",
@@ -561,7 +324,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/7a27d410-9a02-4954-9098-50b83d42318f",
       "source": "AP Calculus Problems 1.1.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "bdc947b3-999b-4cd8-ac6a-857eeb47c1d1",
@@ -578,7 +341,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/bdc947b3-999b-4cd8-ac6a-857eeb47c1d1",
       "source": "AP Calculus Problems 1.1.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "1569dbad-418e-4424-8505-5c614401e095",
@@ -595,7 +358,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/1569dbad-418e-4424-8505-5c614401e095",
       "source": "AP Calculus Problems 1.1.7",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "6bedb841-0578-464e-a268-f4ed9d17c292",
@@ -612,7 +375,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/6bedb841-0578-464e-a268-f4ed9d17c292",
       "source": "AP Calculus Problems 1.1.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "211d8bb1-0221-49b5-9697-4cd95730235f",
@@ -629,7 +392,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/211d8bb1-0221-49b5-9697-4cd95730235f",
       "source": "AP Calculus Problems 1.1.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "102692c5-90b9-46c7-9f4e-e5337e450789",
@@ -646,7 +409,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/102692c5-90b9-46c7-9f4e-e5337e450789",
       "source": "AP Calculus Problems 1.1.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "b45fd926-d898-4e57-8385-e4ec9c38e017",
@@ -663,7 +426,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/b45fd926-d898-4e57-8385-e4ec9c38e017",
       "source": "AP Calculus Problems 1.1.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "25c4383c-4aa0-452e-9a31-f55b241d08b0",
@@ -680,7 +443,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/25c4383c-4aa0-452e-9a31-f55b241d08b0",
       "source": "AP Calculus Problems 1.1.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "c6456786-8f9d-422e-8dab-c211dd6ad61e",
@@ -697,7 +460,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/c6456786-8f9d-422e-8dab-c211dd6ad61e",
       "source": "AP Calculus Problems 1.1.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "b8ff96f1-765c-4d0f-8640-8c048fe24c33",
@@ -714,7 +477,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/b8ff96f1-765c-4d0f-8640-8c048fe24c33",
       "source": "AP Calculus Problems 1.1.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "dea31411-37c1-4976-b368-7496fda9086b",
@@ -731,7 +494,7 @@
       "tags": "graphs of functions, functions",
       "url": "/question/dea31411-37c1-4976-b368-7496fda9086b",
       "source": "AP Calculus Problems 1.1.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "005f4045-9778-436f-8da9-d81e6ab0cb08",
@@ -748,7 +511,7 @@
       "tags": "graphs, graphs of functions",
       "url": "/question/005f4045-9778-436f-8da9-d81e6ab0cb08",
       "source": "AP Calculus Problems 1.1.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "6de3c4aa-13eb-4af3-a274-a88a9489caf6",
@@ -765,7 +528,7 @@
       "tags": "graphs of function, functions, behavior of functions",
       "url": "/question/6de3c4aa-13eb-4af3-a274-a88a9489caf6",
       "source": "AP Calculus Problems 1.1.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "ea46acc1-b9c3-4be5-9cbc-302f62e6089a",
@@ -782,7 +545,7 @@
       "tags": "graphing functions, functions, zeros",
       "url": "/question/ea46acc1-b9c3-4be5-9cbc-302f62e6089a",
       "source": "AP Calculus Problems 1.1.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "3442d55a-ccec-469a-ac85-0ac639b683a2",
@@ -799,7 +562,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/3442d55a-ccec-469a-ac85-0ac639b683a2",
       "source": "AP Calculus Problems 1.1.20",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "a24fc6ba-d7e8-4886-b79d-3d502a34a48e",
@@ -816,7 +579,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/a24fc6ba-d7e8-4886-b79d-3d502a34a48e",
       "source": "AP Calculus Problems 1.1.21",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "bdc605e5-71b4-459b-9ea1-e66c677a7b1d",
@@ -833,7 +596,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/bdc605e5-71b4-459b-9ea1-e66c677a7b1d",
       "source": "AP Calculus Problems 1.1.22",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "61d92ea3-4a34-4568-9057-2cfa5c5ee719",
@@ -850,7 +613,7 @@
       "tags": "graphing functions, functions, zeros",
       "url": "/question/61d92ea3-4a34-4568-9057-2cfa5c5ee719",
       "source": "AP Calculus Problems 1.1.23",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "79cac533-9141-40a2-a55b-ed6bd07dbe87",
@@ -867,7 +630,7 @@
       "tags": "graphing functions, functions, zeros",
       "url": "/question/79cac533-9141-40a2-a55b-ed6bd07dbe87",
       "source": "AP Calculus Problems 1.1.24",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "f14442b6-f30d-4793-9c3c-e9e8736e44a5",
@@ -884,7 +647,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/f14442b6-f30d-4793-9c3c-e9e8736e44a5",
       "source": "AP Calculus Problems 1.1.26",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "f6fedd16-e033-4f4b-8e05-27b74e94c43a",
@@ -901,7 +664,7 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/f6fedd16-e033-4f4b-8e05-27b74e94c43a",
       "source": "AP Calculus Problems 1.1.27",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "6fb241be-bbf0-476a-95e3-bdc9468624c2",
@@ -918,7 +681,126 @@
       "tags": "graphs of functions, functions, zeros",
       "url": "/question/6fb241be-bbf0-476a-95e3-bdc9468624c2",
       "source": "AP Calculus Problems 1.1.28",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "a56830d2-1af1-452d-9c95-fec2d13ddfe5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Graph the following functions on your calculator in the standard window and sketch what you see.  At what value(s) of \\(x\\) are the functions equal to zero? \n \\(y\u003d|x(x-3)(x+2)|\\)",
+      "allAnswers": [],
+      "tags": "graphs of functions, functions, zeros",
+      "url": "/question/a56830d2-1af1-452d-9c95-fec2d13ddfe5",
+      "source": "AP Calculus Problems 1.1.29",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "88aa9a30-d29e-4ac3-b151-b6d79cd5b2cb",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Find the equation of the line with the given properties.\n slope: \\(\\frac{2}{3}\\); passes through \\((2, 1)\\)",
+      "allAnswers": [],
+      "tags": "slope, equation of line, graphs of functions",
+      "url": "/question/88aa9a30-d29e-4ac3-b151-b6d79cd5b2cb",
+      "source": "AP Calculus Problems 1.2.1",
+      "topic": "d2f65cac-cada-49bb-9661-ed58bbd8ab7a"
+    },
+    {
+      "uuid": "30b94f77-2474-4ed2-a645-23b5d1405988",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Find the equation of the line with the given properties.\nslope: \\(-\\frac{1}{4}\\); passes through \\((0, 6)\\)",
+      "allAnswers": [],
+      "tags": "slope, equation of a line, graphs of functions",
+      "url": "/question/30b94f77-2474-4ed2-a645-23b5d1405988",
+      "source": "AP Calculus Problems 1.2.2",
+      "topic": "d2f65cac-cada-49bb-9661-ed58bbd8ab7a"
+    },
+    {
+      "uuid": "cd3b3c6d-628d-4a90-b6c6-3a6238dc5468",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Find the equation of the line with the given properties.\npasses through \\((3, 6)\\) and \\((2, 7)\\)",
+      "allAnswers": [],
+      "tags": "equation of a line, graphs of functions",
+      "url": "/question/cd3b3c6d-628d-4a90-b6c6-3a6238dc5468",
+      "source": "AP Calculus Problems 1.2.3",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "5cf2552a-bb4c-4d99-8a5e-93069ff69c7e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Find the equation of the line with the given properties.\npasses through \\((-6, 1)\\) and \\((1, 1)\\)",
+      "allAnswers": [],
+      "tags": "equation of a line, graphs of functions",
+      "url": "/question/5cf2552a-bb4c-4d99-8a5e-93069ff69c7e",
+      "source": "AP Calculus Problems 1.2.4",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "9836dcce-ce4b-4e4a-84ca-62d1c6f5a217",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Find the equation of the line with the given properties.\npasses through \\((5, -4)\\) and \\((5, 9)\\)",
+      "allAnswers": [],
+      "tags": "graphs of functions, equation of a line",
+      "url": "/question/9836dcce-ce4b-4e4a-84ca-62d1c6f5a217",
+      "source": "AP Calculus Problems 1.2.5",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "eb14da11-eddc-4c47-8c2a-35ee0c626acd",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Find the equation of the line with the given properties.\npasses through \\((10, 3)\\) and \\((-10, 3)\\)",
+      "allAnswers": [],
+      "tags": "graphs of functions, equation of a line",
+      "url": "/question/eb14da11-eddc-4c47-8c2a-35ee0c626acd",
+      "source": "AP Calculus Problems 1.2.6",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     }
   ],
   "textContent": [
@@ -937,7 +819,7 @@
       "tags": "integral, integration, definite integral, indefinite integral, substitution, Leibniz notation",
       "url": "/text-content/631d1039-b68c-479d-a1b2-ffde7c41b3f8",
       "source": "Forgotten Text 6 7.6",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Properties of Integrals"
+      "topic": "fac5b6dd-2acc-4778-9667-d1978606390d"
     },
     {
       "uuid": "336775c9-5a6d-42a0-a8c2-7ab4112b5f2e",
@@ -954,9 +836,55 @@
       "tags": "velocity, distance from velocity, applications of integrals ",
       "url": "/text-content/336775c9-5a6d-42a0-a8c2-7ab4112b5f2e",
       "source": "Forgotten Text 6 7.7",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Velocity and Physics"
+      "topic": "4f2b37df-eb7a-4087-b568-3d77482e3521"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "f5e5463c-0f7d-4ab1-b5be-5ffdc8122563",
+      "subTopics": [],
+      "parentTopics": [
+        "d7881072-7e4d-4352-9b31-a296358563d9"
+      ],
+      "title": "Complex Exponentials",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " trigonometric identities ,complex exponentials, trigonometry exponentials,",
+      "difficulty": 650000,
+      "contentUuids": [
+        "591fa709-5d76-490e-9d40-6ff9a26a8e2e"
+      ]
+    },
+    {
+      "uuid": "2a8cbc53-847d-4bb7-83a6-43c69b5d8636",
+      "subTopics": [],
+      "parentTopics": [
+        "ce32bbd0-fdb0-4047-84cc-4ffd11c6da67"
+      ],
+      "title": "Quadratic Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " vertex formulas, general form of quadratics , standard form of quadratics, quadratic formulas,quadratic functions,",
+      "difficulty": 264000,
+      "contentUuids": [
+        "13614efa-4e1e-4ddf-b0a6-f1e46dc9e9d8"
+      ]
+    },
+    {
+      "uuid": "fa94b81f-daf2-4bb3-b54c-0b53a061594c",
+      "subTopics": [],
+      "parentTopics": [
+        "bcb2083d-fc46-49b4-89f9-b0431dd803ba"
+      ],
+      "title": "Completing the Square",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " quadratic expression,completing the square,",
+      "difficulty": 59000,
+      "contentUuids": [
+        "ff14e22d-41e3-4c71-9bff-76c058067e99"
+      ]
+    }
+  ]
 }

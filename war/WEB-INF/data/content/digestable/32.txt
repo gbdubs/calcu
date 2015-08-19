@@ -2,296 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3111.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3112.png\"/\u003e",
-      "uuid": "edc0d36a-1027-49c8-b383-296257a57c56",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3585.png\"/\u003e",
+      "uuid": "626a67c4-08bf-490f-b87d-cd2832aa9e67",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Prove perpendicular ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3110.png\"/\u003e",
+      "title": "Find vertex, focus, directrix",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3584.png\"/\u003e",
       "allAnswers": [],
-      "tags": "dot product, perpendicularity, projection ",
-      "url": "/practice-problem/edc0d36a-1027-49c8-b383-296257a57c56",
-      "source": "null 11.9.1"
+      "tags": "conic, conic sections, parabola",
+      "url": "/practice-problem/626a67c4-08bf-490f-b87d-cd2832aa9e67",
+      "source": "null 7.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3116.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3117.png\"/\u003e",
-      "uuid": "25333c39-1afa-4d62-87e5-13a0516f7da2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3589.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3590.png\"/\u003e",
+      "uuid": "8e0b99c4-af49-4a5e-ae04-8cb5cb822ce0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Plot vectors in standard postion",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3115.png\"/\u003e",
+      "title": "Graph of parabola",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3588.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vectors, standard position, dot product, projection ",
-      "url": "/practice-problem/25333c39-1afa-4d62-87e5-13a0516f7da2",
-      "source": "null 11.9.2"
+      "tags": "conics, conics section, parabola",
+      "url": "/practice-problem/8e0b99c4-af49-4a5e-ae04-8cb5cb822ce0",
+      "source": "null 7.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3122.png\"/\u003e",
-      "uuid": "633b1a7d-5ed0-4af4-8a50-e90908fadd5b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3594.png\"/\u003e",
+      "uuid": "2bd4ca7f-9fcb-499d-b0a4-3e6d57ae62e0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Force on wagon",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3121.png\"/\u003e",
+      "title": "Satellite dish",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3593.png\"/\u003e",
       "allAnswers": [],
-      "tags": "dot product, projection, vectors, physics ",
-      "url": "/practice-problem/633b1a7d-5ed0-4af4-8a50-e90908fadd5b",
-      "source": "null 11.9.3"
+      "tags": "conic, conic sections, parabolas",
+      "url": "/practice-problem/2bd4ca7f-9fcb-499d-b0a4-3e6d57ae62e0",
+      "source": "null 7.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3130.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3131.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3132.png\"/\u003e",
-      "uuid": "af6605fa-9961-4ff1-8fb4-79a2400de336",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3603.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3604.png\"/\u003e",
+      "uuid": "7348ffc2-3b3f-4135-a24f-183dabe50feb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Parametrization for each curve",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3129.png\"/\u003e",
+      "title": "major and minor axes",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3602.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametric equations, parametrization of curves, applications of trigonometry",
-      "url": "/practice-problem/af6605fa-9961-4ff1-8fb4-79a2400de336",
-      "source": "null 11.10.1"
+      "tags": "conic, conic sections, ellipse",
+      "url": "/practice-problem/7348ffc2-3b3f-4135-a24f-183dabe50feb",
+      "source": "null 7.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3135.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3136.png\"/\u003e",
-      "uuid": "feb9e9f7-b116-48e9-bd84-d6f2a40b4b40",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3608.png\"/\u003e",
+      "uuid": "870b0dfd-50af-48b7-b69b-5a489b8170de",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find a parametrization of the curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3134.png\"/\u003e",
+      "title": "Ellipse vertices",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3606.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametric equations, parametrization, applications of trigonometry",
-      "url": "/practice-problem/feb9e9f7-b116-48e9-bd84-d6f2a40b4b40",
-      "source": "null 11.10.2"
+      "tags": "conic, conic sections, ellipses",
+      "url": "/practice-problem/870b0dfd-50af-48b7-b69b-5a489b8170de",
+      "source": "null 7.4.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3140.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3141.png\"/\u003e",
-      "uuid": "e081b35c-bc1e-471c-b7a1-a25c73284f45",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3613.png\"/\u003e",
+      "uuid": "7f7dc2e2-18a3-4f64-a079-25131c2d2435",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the parametric equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3139.png\"/\u003e",
+      "title": "Jamie and Jason",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3611.png\"/\u003e",
       "allAnswers": [],
-      "tags": "parametric equations, parametrization, applications of trigonometry ",
-      "url": "/practice-problem/e081b35c-bc1e-471c-b7a1-a25c73284f45",
-      "source": "null 11.10.3"
+      "tags": "cross section, conic sections, conics",
+      "url": "/practice-problem/7f7dc2e2-18a3-4f64-a079-25131c2d2435",
+      "source": "null 7.4.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3152.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3153.png\"/\u003e",
-      "uuid": "b10cca2d-61a0-44cb-9de4-c995bcca3961",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3623.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3624.png\"/\u003e",
+      "uuid": "d6d43a41-7f17-4893-865b-42d039291a8f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the points which are symmetric",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3151.png\"/\u003e",
+      "title": "Standard form and graph",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3622.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, relations, functions, symmetry ",
-      "url": "/practice-problem/b10cca2d-61a0-44cb-9de4-c995bcca3961",
-      "source": "null 1.1.3"
+      "tags": "conic, conic sections, hyperbolas",
+      "url": "/practice-problem/d6d43a41-7f17-4893-865b-42d039291a8f",
+      "source": "null 7.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3157.png\"/\u003e",
-      "uuid": "c3bddc25-82f4-4521-8c06-bc3466be2138",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3627.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3628.png\"/\u003e",
+      "uuid": "d441edc1-edad-4e38-915f-556264003e50",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the distance between points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3156.png\"/\u003e",
+      "title": "Jeff is stationed 10 miles ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3626.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, relations, functions, distance formula",
-      "url": "/practice-problem/c3bddc25-82f4-4521-8c06-bc3466be2138",
-      "source": "null 1.1.4"
+      "tags": "conic, conic sections, hyperbolas",
+      "url": "/practice-problem/d441edc1-edad-4e38-915f-556264003e50",
+      "source": "null 7.5.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3159.png\"/\u003e",
-      "uuid": "0631744e-f0c7-4c6c-8e62-1dc6520ead7b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3630.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3632.png\"/\u003e",
+      "uuid": "e25b4047-f267-4c0b-b9cc-80865e7a8465",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find all of the points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3158.png\"/\u003e",
+      "title": "Stroke of luck ;)",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3629.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, relations, functions, points",
-      "url": "/practice-problem/0631744e-f0c7-4c6c-8e62-1dc6520ead7b",
-      "source": "null 1.1.5"
+      "tags": "conic, conic sections, hyperbolas ",
+      "url": "/practice-problem/e25b4047-f267-4c0b-b9cc-80865e7a8465",
+      "source": "null 7.5.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3163.png\"/\u003e",
-      "uuid": "db251166-709d-4cf1-804a-42da19e13e51",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3642.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3643.png\"/\u003e",
+      "uuid": "83249bfc-ff06-42c1-82a9-e549da48d15e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655791,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the midpoint",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3162.png\"/\u003e",
+      "title": "Lucas needs to create a 500 milliliter",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3641.png\"/\u003e",
       "allAnswers": [],
-      "tags": "Relations and Functions, midpoint, line segment, functions",
-      "url": "/practice-problem/db251166-709d-4cf1-804a-42da19e13e51",
-      "source": "null 1.1.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3165.png\"/\u003e",
-      "uuid": "4b18addc-8d01-4ff3-b5a2-2851b6114600",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Line segment with endpoints",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3164.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Relations and Functions, functions, line segment, end points",
-      "url": "/practice-problem/4b18addc-8d01-4ff3-b5a2-2851b6114600",
-      "source": "null 1.1.7"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3177.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3178.png\"/\u003e",
-      "uuid": "60984008-ce95-4a0f-b35b-9957c1d7d1b5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "x and y intercepts",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3176.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Relations and Functions, x-intercepts, y-intercepts, symmetry",
-      "url": "/practice-problem/60984008-ce95-4a0f-b35b-9957c1d7d1b5",
-      "source": "null 1.2.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3185.png\"/\u003e",
-      "uuid": "add456c8-af30-4b0b-8ce8-add1e9188bfd",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the domain and range",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3183.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Relations and Functions, domain, range, functions",
-      "url": "/practice-problem/add456c8-af30-4b0b-8ce8-add1e9188bfd",
-      "source": "null 1.3.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3187.png\"/\u003e",
-      "uuid": "ff87631e-c887-4372-9c9a-87032862d69f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Determine which equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3186.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Relation and Functions, functions, equations",
-      "url": "/practice-problem/ff87631e-c887-4372-9c9a-87032862d69f",
-      "source": "null 1.3.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3196.png\"/\u003e",
-      "uuid": "7cf49c9e-b8c3-46fc-b434-8d584d859a6e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the domain of functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3194.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Relations and Functions, functions, domain",
-      "url": "/practice-problem/7cf49c9e-b8c3-46fc-b434-8d584d859a6e",
-      "source": "null 1.4.3"
+      "tags": "system of equations, matrices, matrix ",
+      "url": "/practice-problem/83249bfc-ff06-42c1-82a9-e549da48d15e",
+      "source": "null 8.1.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "03758a01-768a-4417-b8e3-5557b7ba1fa8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946151,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Function Notation",
-      "body": "Find an expression for f(x) and state its domain.\nf is a function that takes a real number x and performs the following three steps in the order given: (1) multiply by 2; (2) add 3; (3) divide by 4.",
-      "allAnswers": [],
-      "tags": "domain, real number, function, function notation, expression",
-      "url": "/question/03758a01-768a-4417-b8e3-5557b7ba1fa8",
-      "source": "Active Calc 1.4.1",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
-    },
-    {
-      "uuid": "a5aab1ca-aefa-420d-be28-0d82a891957b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946151,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Function Notation",
-      "body": "Find an expression for f(x) and state its domain.\nf is a function that takes a real number x and performs the following three steps in the order given: (1) add 3; (2) multiply by 2; (3) divide by 4.",
-      "allAnswers": [],
-      "tags": "domain, real number, function, function notation, expression",
-      "url": "/question/a5aab1ca-aefa-420d-be28-0d82a891957b",
-      "source": "Active Calc 1.4.2",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
-    },
     {
       "uuid": "1f98f47d-a3cc-4132-8d36-7b36cbfeb0ca",
       "contentType": "question",
@@ -307,7 +188,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/1f98f47d-a3cc-4132-8d36-7b36cbfeb0ca",
       "source": "Active Calc 1.4.3",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "8e6e7105-aa24-4e13-b367-6c54e0325dfc",
@@ -324,7 +205,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/8e6e7105-aa24-4e13-b367-6c54e0325dfc",
       "source": "Active Calc 1.4.4",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "ac9cd4e2-d701-4242-a038-e1baa9e6d64c",
@@ -341,7 +222,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/ac9cd4e2-d701-4242-a038-e1baa9e6d64c",
       "source": "Active Calc 1.4.5",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "281898df-7372-4481-b0b6-b3d7b85ed93b",
@@ -358,7 +239,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/281898df-7372-4481-b0b6-b3d7b85ed93b",
       "source": "Active Calc 1.4.6",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "c84c6198-a17d-49e5-8268-6daaadc8c1c6",
@@ -375,7 +256,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/c84c6198-a17d-49e5-8268-6daaadc8c1c6",
       "source": "Active Calc 1.4.7",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "7d47ac76-05ff-4418-b8e6-f2a1a68ea888",
@@ -392,7 +273,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/7d47ac76-05ff-4418-b8e6-f2a1a68ea888",
       "source": "Active Calc 1.4.8",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "8c0cb2c4-082d-4768-923d-4b4cecf4d2c7",
@@ -409,7 +290,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/8c0cb2c4-082d-4768-923d-4b4cecf4d2c7",
       "source": "Active Calc 1.4.9",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "9efd6440-a4fa-4387-aaf8-445d04201778",
@@ -426,7 +307,7 @@
       "tags": "domain, real number, function, function notation, expression",
       "url": "/question/9efd6440-a4fa-4387-aaf8-445d04201778",
       "source": "Active Calc 1.4.10",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "6c990297-3f6c-46f5-bac7-37bceac733ac",
@@ -443,7 +324,7 @@
       "tags": "function, simplify, simplifying functions",
       "url": "/question/6c990297-3f6c-46f5-bac7-37bceac733ac",
       "source": "Active Calc 1.4.11",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "6c035f56-7289-4025-8e50-f4e250c51a89",
@@ -460,7 +341,7 @@
       "tags": "function, simplify, simplifying function",
       "url": "/question/6c035f56-7289-4025-8e50-f4e250c51a89",
       "source": "Active Calc 1.4.12",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "6ec01c97-7877-4705-bdb7-7db24a9dd019",
@@ -477,7 +358,7 @@
       "tags": "function, simplify, simplifying function",
       "url": "/question/6ec01c97-7877-4705-bdb7-7db24a9dd019",
       "source": "Active Calc 1.4.13",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "08c7c764-9cb7-4438-9ec9-599ca13cb419",
@@ -494,7 +375,7 @@
       "tags": "function, simplify, simplifying function",
       "url": "/question/08c7c764-9cb7-4438-9ec9-599ca13cb419",
       "source": "Active Calc 1.4.14",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "cf2a45b6-dfe3-43f5-886d-93780cad4c47",
@@ -511,7 +392,7 @@
       "tags": "function, simplify, simplifying function",
       "url": "/question/cf2a45b6-dfe3-43f5-886d-93780cad4c47",
       "source": "Active Calc 1.4.15",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "85940012-3fcf-466c-8e44-511f1e3221fa",
@@ -528,7 +409,7 @@
       "tags": "simplify, function, simplifying functions",
       "url": "/question/85940012-3fcf-466c-8e44-511f1e3221fa",
       "source": "Active Calc 1.4.16",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "7a06f815-8013-4011-94d7-eff24e46c965",
@@ -545,7 +426,7 @@
       "tags": "function, simplify, simplifying function",
       "url": "/question/7a06f815-8013-4011-94d7-eff24e46c965",
       "source": "Active Calc 1.4.17",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "bf89c0bb-4f5d-4da6-88af-3c0b040cee98",
@@ -562,7 +443,7 @@
       "tags": "simplify, function, simplifying function",
       "url": "/question/bf89c0bb-4f5d-4da6-88af-3c0b040cee98",
       "source": "Active Calc 1.4.18",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "fa00dc2c-7e24-4868-a8ae-2df45027c67f",
@@ -579,7 +460,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/fa00dc2c-7e24-4868-a8ae-2df45027c67f",
       "source": "Active Calc 5.1.1",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "27be5ab2-b655-46b5-afc5-4602f7f27cdf",
@@ -596,7 +477,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/27be5ab2-b655-46b5-afc5-4602f7f27cdf",
       "source": "Active Calc 5.1.2",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "d548a7be-598e-4170-8dcc-f664e1dc19f9",
@@ -613,7 +494,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/d548a7be-598e-4170-8dcc-f664e1dc19f9",
       "source": "Active Calc 5.1.3",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "23351411-3ae9-4dd7-8b62-c8535a9fb31d",
@@ -630,7 +511,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/23351411-3ae9-4dd7-8b62-c8535a9fb31d",
       "source": "Active Calc 5.1.4",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "3673767b-d510-4120-95ff-2e1bf820a0c2",
@@ -647,7 +528,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/3673767b-d510-4120-95ff-2e1bf820a0c2",
       "source": "Active Calc 5.1.5",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "0582ad4c-8051-4e8a-9653-c32783f59c6d",
@@ -664,7 +545,7 @@
       "tags": "function, simplify, simplifying function, function notation",
       "url": "/question/0582ad4c-8051-4e8a-9653-c32783f59c6d",
       "source": "Active Calc 1.4.19",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "fe92ea29-c7b9-4dea-a801-89bd6ee37813",
@@ -681,7 +562,7 @@
       "tags": "function, simplify, simplifying function, function notation",
       "url": "/question/fe92ea29-c7b9-4dea-a801-89bd6ee37813",
       "source": "Active Calc 1.4.20",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "c03e7c92-c4bd-4fe2-919d-fc4c2f7c6aef",
@@ -698,7 +579,7 @@
       "tags": "function, simplify, simplifying function, function notation",
       "url": "/question/c03e7c92-c4bd-4fe2-919d-fc4c2f7c6aef",
       "source": "Active Calc 1.4.21",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "0e09070b-17e2-42f5-8a9d-e91fd80ef3c1",
@@ -715,7 +596,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/0e09070b-17e2-42f5-8a9d-e91fd80ef3c1",
       "source": "Active Calc 5.1.6",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "3e6ec5a8-61f4-4a0e-8cb4-c943125b58d1",
@@ -732,7 +613,7 @@
       "tags": "function, simplify, simplifying function, function notation ",
       "url": "/question/3e6ec5a8-61f4-4a0e-8cb4-c943125b58d1",
       "source": "Active Calc 1.4.22",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "f811a476-1003-45e1-b058-4e3c747de0fb",
@@ -749,7 +630,7 @@
       "tags": "simplify, function, simplifying function, function notation ",
       "url": "/question/f811a476-1003-45e1-b058-4e3c747de0fb",
       "source": "Active Calc 1.4.23",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "2f5ebff8-f40f-467b-b3d5-14adbb637882",
@@ -766,7 +647,7 @@
       "tags": "simplifying functions, functions, simplify, function notation",
       "url": "/question/2f5ebff8-f40f-467b-b3d5-14adbb637882",
       "source": "Active Calc 1.4.24",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a0ca2e86-ff64-4e42-8ae6-326a0950bc43",
@@ -783,7 +664,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/a0ca2e86-ff64-4e42-8ae6-326a0950bc43",
       "source": "Active Calc 5.1.7",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "e5842029-98dc-42ae-828e-a79c7765a175",
@@ -800,7 +681,7 @@
       "tags": "function, simplify, simplifying functions, function notation",
       "url": "/question/e5842029-98dc-42ae-828e-a79c7765a175",
       "source": "Active Calc 1.4.25",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "c783f9f0-8b11-4282-99b4-ec09b2bd7698",
@@ -817,7 +698,7 @@
       "tags": "function, simplify, simplifying function, function notation ",
       "url": "/question/c783f9f0-8b11-4282-99b4-ec09b2bd7698",
       "source": "Active Calc 1.4.26",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "5b2b1ea9-cb7c-4fd9-aee5-531872f7d0a0",
@@ -834,7 +715,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/5b2b1ea9-cb7c-4fd9-aee5-531872f7d0a0",
       "source": "Active Calc 5.1.8",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "28c1fab4-f985-4fd1-8d31-6c4a3c9a552f",
@@ -851,7 +732,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/28c1fab4-f985-4fd1-8d31-6c4a3c9a552f",
       "source": "Active Calc 1.4.27",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "7825f21a-64e4-4f9f-a1ad-c833c38f060f",
@@ -868,7 +749,7 @@
       "tags": "function, solving functions, function notation",
       "url": "/question/7825f21a-64e4-4f9f-a1ad-c833c38f060f",
       "source": "Active Calc 1.4.28",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b916ab19-97b1-466d-a400-99c220b3b43c",
@@ -885,7 +766,41 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b916ab19-97b1-466d-a400-99c220b3b43c",
       "source": "Active Calc 5.1.9",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
+    },
+    {
+      "uuid": "8dfc2eab-bb2b-4800-8dde-b531f99ee273",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946152,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Following Values",
+      "body": "Use the given pair of functions to find the following values if they exist.\n\n\\((g \\cdot f)(0)\\)\n\\((f \\cdot g)(_1)\\)\n\\((f \\cdot f)(2)\\)\n\\((g \\cdot f)(_3)\\)\n\\((f \\cdot g)\\)\n\\((f \\cdot f)(_2)\\)\n\n\\( f(x) \u003d x/(x+5) \\), \\( g(x) \u003d 2/(7-x^{2}) \\)",
+      "allAnswers": [],
+      "tags": "function, algebra, function arithmetic, function composition",
+      "url": "/question/8dfc2eab-bb2b-4800-8dde-b531f99ee273",
+      "source": "Active Calc 5.1.10",
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
+    },
+    {
+      "uuid": "55ee25ba-8c4a-4072-bb3a-517ee8c291e2",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946152,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Function Notation",
+      "body": "Use the given function f to find f(0) and solve f(x) \u003d 0\nf(x) \u003d 2x\\(^{2}\\) - 6",
+      "allAnswers": [],
+      "tags": "function, solving functions, function notation",
+      "url": "/question/55ee25ba-8c4a-4072-bb3a-517ee8c291e2",
+      "source": "Active Calc 1.4.29",
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     }
   ],
   "textContent": [
@@ -899,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Trigonometric Equations and Inequalities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2952.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2953.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2954.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2955.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2956.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2957.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2958.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2959.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2952.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2953.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2954.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2955.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2956.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2957.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2958.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2959.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometric equations, trig eqs, trig, sine, cosine, tangent ",
       "url": "/text-content/5eebcf7d-4648-4ddb-9454-9cee5a656d1c",
       "source": "Precalculus, 3rd Edition 10.7",
-      "topic": "Trigonometry/Trigonometric Equations/Inequalities"
+      "topic": "e6fd108f-c78c-439d-8e07-859023087220"
     },
     {
       "uuid": "0e0fc6d4-c39f-4e0b-8a14-7ec94cbcc40a",
@@ -916,14 +831,135 @@
       "viewable": true,
       "karma": 3,
       "title": "Applications of Sinusoids",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2973.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2975.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2976.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2977.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2978.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2979.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2980.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2973.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2975.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2976.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2977.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2978.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2979.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2980.png\"/\u003e",
       "allAnswers": [],
       "tags": "sinusoids, applications, Free undamped harmonic motion, harmonic motion, amplitude, angular frequency",
       "url": "/text-content/0e0fc6d4-c39f-4e0b-8a14-7ec94cbcc40a",
       "source": "Precalculus, 3rd Edition 11.1",
-      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
+      "topic": "e80fe800-5e12-45b3-8658-222fc6143441"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "f162cacb-808a-40c4-b43a-4f26158265a5",
+      "subTopics": [],
+      "parentTopics": [
+        "28183d3d-3b42-42cf-8193-0f9d403f3cb3"
+      ],
+      "title": "On an Interval",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " differentiation, average value, rates, integrals, interval, indefinite,definite, area, fundamental theorem of calculus,integrals,",
+      "difficulty": 621000,
+      "contentUuids": [
+        "3a3d3374-0a6a-488a-8bb4-a2f052a7164a",
+        "f7ec5724-4056-490b-8fbb-2e9ac598307c",
+        "efa8c901-d679-4e0a-8a6e-ee5f72b02383",
+        "d02789b9-2935-452e-90fc-2d4fca3d1535",
+        "4fff5170-1526-4a50-b95f-390327147fdc",
+        "7bf21f7d-15a2-43c7-83c5-c44a875f7da5",
+        "9bcea53e-2ccc-4267-99a3-62940a03cb3b",
+        "2aaecebf-8009-4ad8-96dd-b420b01bf264",
+        "306aae99-f8d4-40d8-bfae-17ddbd4dd0b1",
+        "a28f37bf-afb0-41cc-be50-6a01b37002a4",
+        "c494f6f0-8a70-4703-8e7b-210d93f85059",
+        "3ed671e8-20ba-41a2-bd57-8fe2b08bf88a",
+        "79a91547-68d4-4242-afee-ec1f050df93c",
+        "dc08e73e-084b-4af1-af3d-47ffd61c282d",
+        "ed93f425-fbc8-4a10-807d-ded55c829e25",
+        "af5a33ba-93c9-45d0-806b-f54c3a136191",
+        "124cd5d6-b6da-4d0f-b0e1-61a7631c8d1b",
+        "3d70325b-3bbb-4864-847a-7b6c885231ae",
+        "7132f782-3b61-4800-8e3d-20a5f8db4891",
+        "d7886ca0-6fdb-4e7a-95a8-643ae4916a6a",
+        "74e2809e-5591-4a84-910a-f17ec2d74493",
+        "be278511-6525-40f0-be78-edd5609eb281",
+        "cf82158a-7967-4f91-ab40-44dfc0fff581",
+        "fb795bc1-15ef-45f4-b9fa-0cab6e47c224",
+        "947e885b-db7d-4f29-bdb6-a3a81da82150",
+        "1e197af4-282f-4214-8133-457cab790c73",
+        "1bdf1f57-3ac7-4694-87bb-561ddb71731a",
+        "f347dba3-9a7b-4462-9126-bd5a8939fcb6",
+        "b9dafb08-20b9-4ed0-b381-e33817c0eb63",
+        "2208ed43-faca-4ed2-a718-dba99249c512",
+        "d5a98fa9-014c-4502-a6d4-f3a7b43e1c24",
+        "a6c39323-ebb4-4503-874f-bb0874d3170c",
+        "380636cb-fb72-4c17-905b-c8706f3c6199",
+        "78a83e14-0641-42bf-af71-26e133173110",
+        "210b8baf-df68-4015-b08f-6aa1fc7387de",
+        "d7fda75a-1ed4-493a-acca-89e8d0c1a9f1",
+        "d649b107-b27c-4958-852e-3c0f140c5942",
+        "5aafb03e-5ffe-49b0-a9fc-a7af9e7da88c",
+        "8025637c-4896-4c21-9773-56c3a4bb130a",
+        "a35f8835-beb4-463a-8cbb-e2b745906de0",
+        "1e7456e2-9bc0-4a7f-91b6-fdae8bd53d32",
+        "9d9e80f9-2c3b-4848-af11-8d177123df25",
+        "e1a7e33f-50e3-4b29-b38b-d82f17a691b9",
+        "1ed5a818-0a54-4a3d-a45f-d4c33cb63677",
+        "2eb51bcc-077b-44b2-9108-49c2d1ee2b04",
+        "b37f2c6c-f30e-478f-b619-3a852a0e7585",
+        "0af561a8-dca9-4884-911d-f8e5d23286f6",
+        "2ebfe3d8-0aad-408d-b96b-8ed09ae53893",
+        "6d2df9c7-29e7-4c73-8ed6-470f11af3d82",
+        "74a4577b-92e2-4e50-bb83-2dd78351c9d1",
+        "eab780ac-51e3-4742-b635-90bd5371a037",
+        "f9b5dd23-4563-44c7-bccf-708e066b892a",
+        "490aa58f-6d9e-43c8-b39c-0b46f72ee202",
+        "53e32309-07c0-4005-ac2b-90af7803c096",
+        "35ad4fae-dfe1-48b1-b5c9-982e2083cc49",
+        "a8412eaf-c1cb-4b1c-9c37-f2bfeeaef32c",
+        "6b6d5fc9-ae79-47b6-a6c8-dbaee1162ffd",
+        "ab5b109f-c700-4a4e-a06e-51231fbac45b",
+        "4fec1ea3-2d77-448c-8e7c-bc76ae4b0a73",
+        "3b262a96-a8d8-45ff-b81d-de31fd2f80a5",
+        "9f75e810-623e-4434-ad5b-6b61d56f6f4a",
+        "b4f7531a-29d6-4039-86f2-549950a5788a",
+        "11b8c872-2136-4cc7-a7f8-73ff1ccf244e",
+        "c0b18818-5e58-4669-81da-1a6f5dfdb8be",
+        "1e722b15-ac17-438f-a0b7-b206af21e5b1",
+        "9a88132e-b2b7-49f1-87fe-ccbdf444e193",
+        "44eb75d8-04d5-45f4-b1a0-607c3be49e82",
+        "88b6f83b-62db-4e28-93a3-ef90fa3dd3f0",
+        "ed13a0ce-4a8c-4442-a3c6-3e4b1e54ee39"
+      ]
+    },
+    {
+      "uuid": "abe5a8e8-a382-401d-97ca-1b1caf41b769",
+      "subTopics": [],
+      "parentTopics": [
+        "cf1d2674-7e55-416b-b317-d60438121087"
+      ],
+      "title": "Graphing Rational Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " asymptotes, graphing rational functions,rational functions, ,",
+      "difficulty": 52000,
+      "contentUuids": [
+        "82a51f9f-fb4c-45fc-aa54-a2dbfab5303b"
+      ]
+    },
+    {
+      "uuid": "95aedbcc-1cfd-41df-9372-9d3736038603",
+      "subTopics": [],
+      "parentTopics": [
+        "9efd6195-ea92-4caf-bae2-c44ed06b9daf"
+      ],
+      "title": "Substitution",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " u-substitution, change of variables, curves, chain rule,substitution,chain rule, definite, integrals, indefinite, substitution,area, area,integrals, definite integrals, differentiation, ,",
+      "difficulty": 592000,
+      "contentUuids": [
+        "79f72ed2-616f-49ce-86b0-04d2c623f020",
+        "5bfd09df-4ba0-46e4-80ff-96275ac7fd90",
+        "828ab47b-4511-4225-b7d9-785171459df8",
+        "d077c5b6-7b5f-4025-84e6-fdb62743fdf7",
+        "f78632ac-9b08-4de1-a4cd-a91eba6b0f4c",
+        "9928b597-3866-4f32-8ab5-88f34c698455",
+        "670d600b-6cb6-4098-afef-9868d023a589",
+        "d3d257a2-848a-4fb2-ab29-fbce21ee0431"
+      ]
+    }
+  ]
 }

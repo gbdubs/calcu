@@ -2,330 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/682.png\"/\u003e",
-      "uuid": "29edea52-fb74-4464-a07c-44f2373ac659",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2649.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2650.png\"/\u003e",
+      "uuid": "670f0413-5baa-475f-a9da-d09c39feab75",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655786,
+      "createdAt": 1437611655789,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Putting equation in polar cords",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/681.png\"/\u003e",
+      "title": "Find the center, the lines, etc.",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2648.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, equations in polar coordinates, polar cords",
-      "url": "/practice-problem/29edea52-fb74-4464-a07c-44f2373ac659",
-      "source": "null 6.4.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/684.png\"/\u003e",
-      "uuid": "4f7b9e14-8e1c-4d27-9e04-5bb19ec5730c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Distance in polar cord",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/683.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "distance in polar coordinates, polar coordinates, trig ",
-      "url": "/practice-problem/4f7b9e14-8e1c-4d27-9e04-5bb19ec5730c",
-      "source": "null 6.4.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/696.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/697.png\"/\u003e",
-      "uuid": "2e2982a6-7452-4971-b62f-f3d89ef8e265",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the domain ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/695.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "domain, function domain, calc ",
-      "url": "/practice-problem/2e2982a6-7452-4971-b62f-f3d89ef8e265",
-      "source": "null 1.3.1 "
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/714.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/715.png\"/\u003e",
-      "uuid": "b6e8cdbd-0ceb-4be0-b5d2-eb1500efccbf",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "show limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/713.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits, calc ",
-      "url": "/practice-problem/b6e8cdbd-0ceb-4be0-b5d2-eb1500efccbf",
-      "source": "null 2.3.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/717.png\"/\u003e",
-      "uuid": "99c8b636-76d7-4a15-ae08-fd15dd1eb9f6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "prove limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/716.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limit, proof, calc ",
-      "url": "/practice-problem/99c8b636-76d7-4a15-ae08-fd15dd1eb9f6",
-      "source": "null 2.3.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/721.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/722.png\"/\u003e",
-      "uuid": "c0c7ed4e-0a91-415e-abdd-d548827ed247",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/720.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits, computation, calc ",
-      "url": "/practice-problem/c0c7ed4e-0a91-415e-abdd-d548827ed247",
-      "source": "null 2.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/724.png\"/\u003e",
-      "uuid": "c5315b4f-14b6-4d51-8c1f-42a5e7b7ba10",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limit computation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/723.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limit, computation, calc ",
-      "url": "/practice-problem/c5315b4f-14b6-4d51-8c1f-42a5e7b7ba10",
-      "source": "null 2.3.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/727.png\"/\u003e",
-      "uuid": "e17b7c9b-d63a-4b90-a876-604cde18227e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the limit",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/726.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limit, computation, calc ",
-      "url": "/practice-problem/e17b7c9b-d63a-4b90-a876-604cde18227e",
-      "source": "null 2.3.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/730.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/731.png\"/\u003e",
-      "uuid": "b3d2da28-dc0a-4e3f-b4a2-79e743ae3fbb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "discuss limits",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/729.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "limits, calc ",
-      "url": "/practice-problem/b3d2da28-dc0a-4e3f-b4a2-79e743ae3fbb",
-      "source": "null 2.3.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/738.png\"/\u003e",
-      "uuid": "47fcf45e-68c0-4bf8-9aad-b8230f1a252c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivative of absolute value",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/737.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "derivative, absolute value, calc ",
-      "url": "/practice-problem/47fcf45e-68c0-4bf8-9aad-b8230f1a252c",
-      "source": "null 2.4.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/757.png\"/\u003e",
-      "uuid": "1fb62e1a-82b7-45ac-a155-aa0e5e3f575c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute derivative ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/756.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative, calc ",
-      "url": "/practice-problem/1fb62e1a-82b7-45ac-a155-aa0e5e3f575c",
-      "source": "null 3.5.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/759.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/760.png\"/\u003e",
-      "uuid": "62c9380a-3e34-4046-89f0-9a03b791c0e1",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Computation of derivative ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/758.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative, calc ",
-      "url": "/practice-problem/62c9380a-3e34-4046-89f0-9a03b791c0e1",
-      "source": "null 3.5.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/762.png\"/\u003e",
-      "uuid": "6462a998-9176-4009-8534-ff21a5860131",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the derive. ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/761.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "chain rule, derivative, calc ",
-      "url": "/practice-problem/6462a998-9176-4009-8534-ff21a5860131",
-      "source": "null 3.5.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/764.png\"/\u003e",
-      "uuid": "c4bc4f64-c800-4d4c-bdec-1e8c5030cb8e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the derivative",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/763.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quotient rule, derivative, calc ",
-      "url": "/practice-problem/c4bc4f64-c800-4d4c-bdec-1e8c5030cb8e",
-      "source": "null 3.5.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/786.png\"/\u003e",
-      "uuid": "d92b8403-3bc0-418f-accd-7f1a23f1f318",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute deriv. ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/785.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "exponential functions, derivative, calc ",
-      "url": "/practice-problem/d92b8403-3bc0-418f-accd-7f1a23f1f318",
+      "tags": "center, lines which contain major axes, vertices, endpoints of minor axis, foci ",
+      "url": "/practice-problem/670f0413-5baa-475f-a9da-d09c39feab75",
       "source": "null 7.4.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2653.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2654.png\"/\u003e",
+      "uuid": "e0fe97e2-5186-46ad-81fb-f9e52033787b",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Equation of ellipse",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2652.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "ellipse, vertices, eccentricity, equation of the ellipse ",
+      "url": "/practice-problem/e0fe97e2-5186-46ad-81fb-f9e52033787b",
+      "source": "null 7.4.2"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2657.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2658.png\"/\u003e",
+      "uuid": "db20b7a6-8feb-4d02-8932-22419e7e3356",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Whispering gallery",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2656.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "ellipse, foci, vertex, conics, conic sections ",
+      "url": "/practice-problem/db20b7a6-8feb-4d02-8932-22419e7e3356",
+      "source": "null 7.4.3"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2667.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2668.png\"/\u003e",
+      "uuid": "08ec95b8-7f05-4ffd-bfcf-f455c4e131bb",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Consider the hyperbola equation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2666.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "standard form of hyerbola, transverse and conjugate axes, vertices, foci, asymptotes ",
+      "url": "/practice-problem/08ec95b8-7f05-4ffd-bfcf-f455c4e131bb",
+      "source": "null 7.5.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2670.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2671.png\"/\u003e",
+      "uuid": "ac911792-fd3d-4ee9-8f14-1054982e341b",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Determine hyperbolic path",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2669.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "hyperbola, hyperbolic path, conic, conic sections ",
+      "url": "/practice-problem/ac911792-fd3d-4ee9-8f14-1054982e341b",
+      "source": "null 7.5.2"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2673.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2674.png\"/\u003e",
+      "uuid": "6512499b-3c93-4676-9d18-daa759a37e5a",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Locate the Sasquatch",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2672.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "hyperbola, hyperbolic functions, conic, conic sections ",
+      "url": "/practice-problem/6512499b-3c93-4676-9d18-daa759a37e5a",
+      "source": "null 7.5.3"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2689.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2690.png\"/\u003e",
+      "uuid": "df711906-5bf9-46c4-b5e3-835dca0276e0",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Possible combinations of stock solutions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2688.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "linear systems, matrix, matrices, gaussian reduction ",
+      "url": "/practice-problem/df711906-5bf9-46c4-b5e3-835dca0276e0",
+      "source": "null 8.1.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2698.png\"/\u003e",
+      "uuid": "026a553d-8b03-4c18-8b58-8b9d709936d9",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the quadratic function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2697.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "linear systems, quadratic functions, matrix, matrices, augmented matrices ",
+      "url": "/practice-problem/026a553d-8b03-4c18-8b58-8b9d709936d9",
+      "source": "null 8.2.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2710.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2711.png\"/\u003e",
+      "uuid": "11d4641d-2c98-4002-a462-1e7fb80e8624",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Plot points in a plane",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2709.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "matrix, matrices, linear systems, systems of equations ",
+      "url": "/practice-problem/11d4641d-2c98-4002-a462-1e7fb80e8624",
+      "source": "null 8.3.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2749.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2750.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2751.png\"/\u003e",
+      "uuid": "ad89fe7b-0c35-40ba-a242-9d0a97f617f3",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Nonlinear equalities ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2748.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "systems of nonlinear equations, inequalities, matrix, matrices ",
+      "url": "/practice-problem/ad89fe7b-0c35-40ba-a242-9d0a97f617f3",
+      "source": "null 8.7.1"
     }
   ],
   "questions": [
-    {
-      "uuid": "8a355437-2aed-4c54-bc06-e2b09176bf93",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Mean Value Theorem Practice",
-      "body": "Verify the two conditions required by the Mean Value Theorem and then find a suitable number \\(c\\) guaranteed to exist by the Mean Value Theorem.\n\n\\(F(x)\u003dx^3\\) on \\([1, 3]\\)",
-      "allAnswers": [],
-      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
-      "url": "/question/8a355437-2aed-4c54-bc06-e2b09176bf93",
-      "source": "AP Calculus Problems 3.1.9",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
-    },
-    {
-      "uuid": "4a707c77-63d6-4bec-b6a4-a1d8e8ba28c9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Geometry",
-      "body": " A cylinder is constructed so that its height is exactly 4 times its radius.  If the volume of the cylinder is \\(500\\pi\\), then what is its radius? ",
-      "allAnswers": [],
-      "tags": "cylinder, radius, volume",
-      "url": "/question/4a707c77-63d6-4bec-b6a4-a1d8e8ba28c9",
-      "source": "AP Calculus Problems 2.12.8",
-      "topic": "Geometry/Solids/Cylinders/Volume of a Cylinder "
-    },
-    {
-      "uuid": "11d04e67-47dd-40c6-81e3-d2ff27214961",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Mean Value Theorem Practice",
-      "body": "Verify the two conditions required by the Mean Value Theorem and then find a suitable number \\(c\\) guaranteed to exist by the Mean Value Theorem.\n\n\\(x\\)",
-      "allAnswers": [],
-      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
-      "url": "/question/11d04e67-47dd-40c6-81e3-d2ff27214961",
-      "source": "AP Calculus Problems 3.1.10",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
-    },
-    {
-      "uuid": "3e206ccb-f009-4376-b8c6-e946d034223a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Geometry",
-      "body": "In the figure to the right, \\(DE\u003d2\\), \\(EC\u003d5\\), and \\(AB\u003d5\\).  Find the lengths of \\(\\overline{AC}\\) and \\(\\overline{BC}\\). \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20472.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "right triangle",
-      "url": "/question/3e206ccb-f009-4376-b8c6-e946d034223a",
-      "source": "AP Calculus Problems 2.12.9",
-      "topic": "Geometry/Polygons/Triangles/Right Triangles/Pythagorean Theorem"
-    },
     {
       "uuid": "a44d1c38-28b3-4a38-b8db-7be9d2efd6d2",
       "contentType": "question",
@@ -341,7 +188,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/a44d1c38-28b3-4a38-b8db-7be9d2efd6d2",
       "source": "AP Calculus Problems 3.1.11",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "e5368356-7d56-49ea-ade6-57d1c8bf0c36",
@@ -358,7 +205,7 @@
       "tags": "area, equilateral triangle",
       "url": "/question/e5368356-7d56-49ea-ade6-57d1c8bf0c36",
       "source": "AP Calculus Problems 2.12.10",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under the Curve/Subintervals"
+      "topic": "1d7ec98c-10dc-4bff-b331-2b22d8ba0300"
     },
     {
       "uuid": "b787d853-d242-4349-9093-f6c1465a4120",
@@ -375,7 +222,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/b787d853-d242-4349-9093-f6c1465a4120",
       "source": "AP Calculus Problems 3.1.12",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "3cd523ee-2acd-4b55-b4d4-b50df75d2a1b",
@@ -392,7 +239,7 @@
       "tags": "area, semicircle, radius",
       "url": "/question/3cd523ee-2acd-4b55-b4d4-b50df75d2a1b",
       "source": "AP Calculus Problems 2.12.11",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under the Curve/Subintervals"
+      "topic": "1d7ec98c-10dc-4bff-b331-2b22d8ba0300"
     },
     {
       "uuid": "e0983b79-dc84-46ae-a78f-cab5ce0c4777",
@@ -409,7 +256,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/e0983b79-dc84-46ae-a78f-cab5ce0c4777",
       "source": "AP Calculus Problems 3.1.13",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "d986f451-f538-485e-a376-22f9f653cff5",
@@ -421,12 +268,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Geometry",
-      "body": "The trough shown in the figure is \\(5\\) feet long and its vertical cross sections are inverted isosceles triangles with base \\(2\\) feet and height \\(3\\) feet. Find the volume of water in the trough when the trough is full. \n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20473.png\"/\u003e",
+      "body": "The trough shown in the figure is \\(5\\) feet long and its vertical cross sections are inverted isosceles triangles with base \\(2\\) feet and height \\(3\\) feet. Find the volume of water in the trough when the trough is full. \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20473.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "inverted triangle, isosceles triangle, volume, trough",
       "url": "/question/d986f451-f538-485e-a376-22f9f653cff5",
       "source": "AP Calculus Problems 2.12.12",
-      "topic": "Algebra/Functions/Exponential Functions/Exponential Growth"
+      "topic": "78dbb565-accd-4cf1-8130-8223153bd23b"
     },
     {
       "uuid": "efa09f71-aab0-47b3-b717-9b3c9f9c8127",
@@ -443,7 +290,7 @@
       "tags": "cone, radius, volume",
       "url": "/question/efa09f71-aab0-47b3-b717-9b3c9f9c8127",
       "source": "AP Calculus Problems 2.12.13",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Surface Area/Frustum of a Cone/Radii"
+      "topic": "987f0858-44db-46cb-b87b-a5c431989e1f"
     },
     {
       "uuid": "495b52e8-d6f9-4231-82bf-cafb47a436f3",
@@ -460,7 +307,7 @@
       "tags": "word problem, right triangle",
       "url": "/question/495b52e8-d6f9-4231-82bf-cafb47a436f3",
       "source": "AP Calculus Problems 2.12.14",
-      "topic": "Geometry/Polygons/Triangles/Right Triangles/Pythagorean Theorem"
+      "topic": "ffd76e8f-098c-4969-bbb7-e0190f2096c3"
     },
     {
       "uuid": "48e64f9b-9fac-4d7f-92a0-4804c351e8a6",
@@ -477,7 +324,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/48e64f9b-9fac-4d7f-92a0-4804c351e8a6",
       "source": "AP Calculus Problems 3.1.14",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "4ca3a6fd-0c57-4a0d-b8c2-5adc4698c3e4",
@@ -494,7 +341,7 @@
       "tags": "area, equilateral triangle",
       "url": "/question/4ca3a6fd-0c57-4a0d-b8c2-5adc4698c3e4",
       "source": "AP Calculus Problems 2.12.15",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under the Curve/Subintervals"
+      "topic": "1d7ec98c-10dc-4bff-b331-2b22d8ba0300"
     },
     {
       "uuid": "77cc710e-c9fb-46f9-97d4-5916206ab3de",
@@ -511,7 +358,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/77cc710e-c9fb-46f9-97d4-5916206ab3de",
       "source": "AP Calculus Problems 3.1.15",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "aa73236d-2ccd-40d0-8316-0a0e25a05976",
@@ -528,7 +375,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/aa73236d-2ccd-40d0-8316-0a0e25a05976",
       "source": "AP Calculus Problems 3.1.16",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "82f46ebf-9312-480b-a8f8-679ac69fdf77",
@@ -545,7 +392,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/82f46ebf-9312-480b-a8f8-679ac69fdf77",
       "source": "AP Calculus Problems 3.1.17",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "2e496e03-4c93-4925-9809-a1af8ac52dbf",
@@ -562,7 +409,7 @@
       "tags": "derivatives, related rates, functions",
       "url": "/question/2e496e03-4c93-4925-9809-a1af8ac52dbf",
       "source": "AP Calculus Problems 2.13.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "04b06e3d-c483-41d7-8b8b-16fa6f59a47e",
@@ -579,7 +426,7 @@
       "tags": "related rates, functions, derivatives",
       "url": "/question/04b06e3d-c483-41d7-8b8b-16fa6f59a47e",
       "source": "AP Calculus Problems 2.13.2",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "e4cddf04-acdb-4807-9c5f-6cde0c2e046b",
@@ -596,7 +443,7 @@
       "tags": "related rates, functions, derivatives ",
       "url": "/question/e4cddf04-acdb-4807-9c5f-6cde0c2e046b",
       "source": "AP Calculus Problems 2.13.3",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "2b435098-80ea-44bf-b995-abde030243a9",
@@ -613,7 +460,7 @@
       "tags": "volume, decreasing, surface area, related rates",
       "url": "/question/2b435098-80ea-44bf-b995-abde030243a9",
       "source": "AP Calculus Problems 2.13.4",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
     },
     {
       "uuid": "78e4f810-3b53-41c1-954a-1a75fe7542c5",
@@ -630,7 +477,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/78e4f810-3b53-41c1-954a-1a75fe7542c5",
       "source": "AP Calculus Problems 3.1.18",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "9871ba27-df83-45dc-86e6-bd30350bd38a",
@@ -647,7 +494,7 @@
       "tags": "related rates, decreasing, increasing, rates of change, area, perimeter",
       "url": "/question/9871ba27-df83-45dc-86e6-bd30350bd38a",
       "source": "AP Calculus Problems 2.13.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "aa398e1c-5c72-4bf6-8827-c9d9c0bf1833",
@@ -664,7 +511,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/aa398e1c-5c72-4bf6-8827-c9d9c0bf1833",
       "source": "AP Calculus Problems 3.1.19",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "86260335-92a0-4a0c-a5f8-a14bc1d78e99",
@@ -681,7 +528,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, graph",
       "url": "/question/86260335-92a0-4a0c-a5f8-a14bc1d78e99",
       "source": "AP Calculus Problems 3.1.20",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "4b2160ff-294a-44c2-a9e5-25b63297178a",
@@ -698,7 +545,7 @@
       "tags": "related rates, diameter, increasing",
       "url": "/question/4b2160ff-294a-44c2-a9e5-25b63297178a",
       "source": "AP Calculus Problems 2.13.6",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "f32ca271-520e-41e8-8ddd-3e53f1e0dd2d",
@@ -715,7 +562,7 @@
       "tags": "related rates, word problem",
       "url": "/question/f32ca271-520e-41e8-8ddd-3e53f1e0dd2d",
       "source": "AP Calculus Problems 2.13.7",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "7abe92a3-0c2e-4653-a8ec-a4c9adc4b172",
@@ -732,7 +579,7 @@
       "tags": "related rates, word problem, altitude ",
       "url": "/question/7abe92a3-0c2e-4653-a8ec-a4c9adc4b172",
       "source": "AP Calculus Problems 2.13.8",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "3b08641e-bfdc-4e71-afa9-d37a3275fd75",
@@ -749,7 +596,7 @@
       "tags": "related rates, word problem",
       "url": "/question/3b08641e-bfdc-4e71-afa9-d37a3275fd75",
       "source": "AP Calculus Problems 2.13.9",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "e7f999b6-f908-4216-9ce1-6b15523a7e91",
@@ -766,7 +613,7 @@
       "tags": "related rates, area, equilateral triangle ",
       "url": "/question/e7f999b6-f908-4216-9ce1-6b15523a7e91",
       "source": "AP Calculus Problems 2.13.10",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "f538f7a7-8c14-4ff3-97d1-3fd6c191fd8d",
@@ -783,7 +630,7 @@
       "tags": "related rates, word problem",
       "url": "/question/f538f7a7-8c14-4ff3-97d1-3fd6c191fd8d",
       "source": "AP Calculus Problems 2.13.11",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "11c8a90d-8061-46fc-85b4-3313630f1b07",
@@ -800,7 +647,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
       "url": "/question/11c8a90d-8061-46fc-85b4-3313630f1b07",
       "source": "AP Calculus Problems 3.2.1",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "3409fc95-45d6-42c9-b17e-79344c71c708",
@@ -817,7 +664,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
       "url": "/question/3409fc95-45d6-42c9-b17e-79344c71c708",
       "source": "AP Calculus Problems 3.2.3",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "66f01400-862f-4f10-a42f-02a1fb84e0e7",
@@ -834,7 +681,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
       "url": "/question/66f01400-862f-4f10-a42f-02a1fb84e0e7",
       "source": "AP Calculus Problems 3.2.4",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "31049293-10d7-4189-942a-640cfc7f6126",
@@ -851,7 +698,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
       "url": "/question/31049293-10d7-4189-942a-640cfc7f6126",
       "source": "AP Calculus Problems 3.2.5",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "32b8b6ab-d990-4f2c-b67d-3f82f2910e4c",
@@ -868,7 +715,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
       "url": "/question/32b8b6ab-d990-4f2c-b67d-3f82f2910e4c",
       "source": "AP Calculus Problems 3.2.6",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "444505c4-796e-4ea1-b6ba-047fe3b702dc",
@@ -885,7 +732,75 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
       "url": "/question/444505c4-796e-4ea1-b6ba-047fe3b702dc",
       "source": "AP Calculus Problems 3.2.7",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
+    },
+    {
+      "uuid": "60f0aaeb-fa31-4c10-9a71-bfdef7914d33",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "First and Second Derivatives",
+      "body": "Find: a) the domain of the function, b) the \\(x\\)-coordinate of the local extrema, and c) the intervals where the function is increasing and/or decreasing.\n\n\\(f(x)\u003dx^{2/3}(x-5)^{-1/3}\\)",
+      "allAnswers": [],
+      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
+      "url": "/question/60f0aaeb-fa31-4c10-9a71-bfdef7914d33",
+      "source": "AP Calculus Problems 3.2.8",
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
+    },
+    {
+      "uuid": "29ee55fb-5477-4b6f-9b24-5cbaf5226126",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "First and Second Derivatives",
+      "body": "Find: a) the domain of the function, b) the \\(x\\)-coordinate of the local extrema, and c) the intervals where the function is increasing and/or decreasing.\n\n\\(h(x)\u003d\\frac{1}{7}x^{7/3}-x^{4/3}\\)",
+      "allAnswers": [],
+      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
+      "url": "/question/29ee55fb-5477-4b6f-9b24-5cbaf5226126",
+      "source": "AP Calculus Problems 3.2.9",
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
+    },
+    {
+      "uuid": "59ed75c5-12f8-4378-93b8-47e6dcbb0f51",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Finding Relative Extremes",
+      "body": "Find the values of \\(a\\) and \\(b\\) so that the function \\(f(x)\u003d\\frac{1}{3}x^3+ax^2+bx\\) will have a relative extreme at \\((3, 1)\\)",
+      "allAnswers": [],
+      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
+      "url": "/question/59ed75c5-12f8-4378-93b8-47e6dcbb0f51",
+      "source": "AP Calculus Problems 3.2.10",
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
+    },
+    {
+      "uuid": "73458085-2f9d-4b4b-83f9-5456a12c9c27",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Finding Relative Extremes",
+      "body": "Find the values of \\(a\\), \\(b\\), \\(c\\), and \\(d\\) so that the function \\(f(x)\u003dax^3+bx^2+cx+d\\) will have relative extrema at \\((-1, 1)\\) and \\((-2, 4)\\)",
+      "allAnswers": [],
+      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain",
+      "url": "/question/73458085-2f9d-4b4b-83f9-5456a12c9c27",
+      "source": "AP Calculus Problems 3.2.11",
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     }
   ],
   "textContent": [
@@ -899,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Further Topics in Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2496.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2497.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2498.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2499.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2500.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2501.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2502.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2503.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2504.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2505.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2496.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2497.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2498.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2499.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2500.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2501.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2502.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2503.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2504.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2505.png\"/\u003e\n\n\u003cimg src\u003d\"/_static/img/content/10/.png\"/\u003e",
       "allAnswers": [],
       "tags": "functions, function composition, associative property of functions ",
       "url": "/text-content/48417720-99eb-4b41-afe9-ff28ad4106d4",
       "source": "Precalculus, 3rd Edition 5.1",
-      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials"
+      "topic": "9ed749b9-c8dd-4afa-b19e-53ef8c7f85f6"
     },
     {
       "uuid": "f3860b96-a762-4a49-a929-c61792fef2a2",
@@ -916,14 +831,90 @@
       "viewable": true,
       "karma": 3,
       "title": "Inverse Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2511.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2512.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2513.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2514.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2515.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2516.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2517.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2518.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2519.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2520.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2511.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2512.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2513.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2514.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2515.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2516.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2517.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2518.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2519.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2520.png\"/\u003e",
       "allAnswers": [],
       "tags": "inverse functions, one-to-one function, equivalent conditions for Invertibility, horizontal line test ",
       "url": "/text-content/f3860b96-a762-4a49-a929-c61792fef2a2",
       "source": "Precalculus, 3rd Edition 5.2",
-      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials"
+      "topic": "9ed749b9-c8dd-4afa-b19e-53ef8c7f85f6"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "a0234bc6-c870-43de-b651-8920f2a1e76e",
+      "subTopics": [],
+      "parentTopics": [
+        "8177d58d-e84b-4f1b-9995-0b93ae67ca98"
+      ],
+      "title": "Even and Odd Identities",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "trigonometric identities, sum and difference formulas, sum and difference, sum and difference identities, double angle formulas, half angle identity, trig proof, odd identity, half angle formulas, even identity, double angle identity, half angle formula, trigonometric proof, trigonometric identity proof, reciprocal identity,",
+      "difficulty": 191000,
+      "contentUuids": [
+        "425a5059-a3f5-4b01-8f6c-7736162148b9",
+        "feb0647a-db5f-4a99-b3a7-c9389c20065a",
+        "564a19e8-d102-416e-bb74-97c41a900f11",
+        "2e17fc60-323c-41a6-9eeb-48f02c956d3b",
+        "5a4739a5-351f-4899-833a-faa50f328a92",
+        "6525461a-e23d-460e-9d55-ae38a29f9fe0"
+      ]
+    },
+    {
+      "uuid": "67a8b5e4-f808-43d9-9eda-f9e5a3e310a7",
+      "subTopics": [
+        "4e0cb2ac-015c-4a6a-b4c3-ff28e86e6b29",
+        "749b5f3b-60b8-4c53-ac41-8f87cbd26ad6",
+        "d2f65cac-cada-49bb-9661-ed58bbd8ab7a",
+        "354fc7de-ba0a-49a4-9937-90f12db2d047"
+      ],
+      "parentTopics": [
+        "9d062c5d-601f-4b68-bb77-78679602b445"
+      ],
+      "title": "Linear Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 117000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "be98959f-161a-4933-8aa2-94002b3bf319",
+      "subTopics": [],
+      "parentTopics": [
+        "c112a196-62a1-45a0-a373-f45f8aea6e2a"
+      ],
+      "title": "Inductive Step",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "logic, compound, mathematical sentences, truth values, symbols, statements, multiple choice,the binomial theorem,induction, base step, inductive step, proof, principle of mathematical induction, pascals triangle, expanding a binomial, factorial, binomial theorem, principle of mathematical induction proof,",
+      "difficulty": 338000,
+      "contentUuids": [
+        "1c02feef-943f-4764-b0dd-df216c7fdd0e",
+        "272dacbe-e7e0-40dc-948b-22979bbe6f2b",
+        "8e778a7d-712a-44d3-bb8a-46e89593c117",
+        "2535568f-2b32-46ee-940c-37d6dc583a0e",
+        "d08d9766-b5c3-4033-a33c-a10be904f1a2",
+        "6fd40768-dbb0-40d8-acf9-ccc523cb7f56",
+        "deb9b4a2-e93c-465c-a170-2ece0191b6aa",
+        "819c5a44-7981-4139-b08e-2bb38154571d",
+        "c5cff2a1-5364-4b6d-add9-6c524f400ae7",
+        "6049b8a5-2fb6-4e54-8e7a-60e32cd23803",
+        "dd8005f6-6946-4008-be9e-389f228ea50b",
+        "860a6972-df71-443c-bf9d-868e7537b931",
+        "dd9d5f59-d75c-4c5b-81de-a834ce67a5de",
+        "86dd81b1-fa3f-4cb9-9361-7c3114f08562",
+        "0eaebb4a-5638-4aa8-920e-e4abdfd8e877",
+        "af7c9d32-c7db-4fb0-93c5-fd2350804c8a",
+        "795e42d0-2529-4b41-9ec1-df5921a49224",
+        "8920d4f3-9f01-4b1a-8f54-54efe7b8bda1",
+        "8c80d612-439d-4bc2-af50-c4b0ed12318a",
+        "b8a8167d-17f9-4021-98dd-5803ccd854f7",
+        "a958be65-c224-4512-8e1d-e6ffcfa16194",
+        "da74361a-0c92-4379-b964-53fec4a36b64",
+        "fbb18651-aa8a-4274-85a3-32006493fc1c"
+      ]
+    }
+  ]
 }

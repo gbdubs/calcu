@@ -2,482 +2,205 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(e^2\\) ",
-      "uuid": "27394754-208b-48fa-ad0c-621249682dd5",
+      "authorSolution": " \\(18\\) ",
+      "uuid": "30879e74-5e6f-4da9-9e7f-0d3f2b73876d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361783,
+      "createdAt": 1437419362036,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Definition Of The Derivative Of A Real Valued Function Of A Real Variable At A Point Question",
-      "body": " Suppose you know that the derivative of  \\(e^x\\)  is  \\(e^x\\)  for every \\(x\\) .    Then    \\[ \\lim_{x \\sto 2} \\frac{e^x - e^2}{x - 2} \u003d \\text{ _____}.   \\]",
+      "title": "Question On Determinant",
+      "body": " Find the determinant of the following matrix.    \\[ \\begin{bmatrix}          3 \u0026   3  \u0026 3.95 \\times 10^{43^{119}} \u0026 P^{53} \\\\          3 \u0026   5  \u0026   5                 \u0026 4.73 \\times 273^{681} \\\\          3 \u0026   5  \u0026   6                 \u0026 6 \\\\          3 \u0026   5  \u0026   6                 \u0026 9 \\end{bmatrix} \\] where  \\(P\\)  is the smallest prime number greater than  \\(10^{10^{10}}\\) .   Answer:_____.",
       "allAnswers": [],
-      "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
-      "url": "/practice-problem/27394754-208b-48fa-ad0c-621249682dd5",
+      "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
+      "url": "/practice-problem/30879e74-5e6f-4da9-9e7f-0d3f2b73876d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "47974b5f-fedf-4ac4-adc7-5c6bc1e25a98"
     },
     {
-      "authorSolution": " \\(\\dfrac12\\) ",
-      "uuid": "7d4496fe-ab2d-4820-8cbe-f30ce768acf8",
+      "authorSolution": " \\(2\\) ,  \\(-15\\) ",
+      "uuid": "e75b684e-0c85-4a3d-bc5c-e383d34ccc91",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361784,
+      "createdAt": 1437419362039,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Definition Of The Derivative Of A Real Valued Function Of A Real Variable At A Point",
-      "body": " Suppose you know that the derivative of  \\(\\tan x\\)  is  \\(\\sec^2x\\)  for every \\(x\\) .   Then    \\[ \\lim_{x \\sto \\frac{\\pi}4} \\frac{\\tan x - 1}{4x - \\pi} \u003d                              \\text{ ____}.   \\]",
+      "title": "On Linear Maps (transformations)",
+      "body": " If  \\(T \\colon \\R^2 \\to \\R^2\\)  is a linear map satisfying   \\begin{align*}      T\\vec{ }i \u0026\u003d 3\\vec{ }i - 5\\vec{ }j            \\\\      T\\vec{ }j \u0026\u003d 2\\vec{ }i -  \\vec{ }j  \\end{align*} then,    \\[ T(4\\vec{ }i - 5\\vec{ }j) \u003d \\text{___}\\vec{ }i + \\text{___}\\vec{ }j.   \\]",
       "allAnswers": [],
-      "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
-      "url": "/practice-problem/7d4496fe-ab2d-4820-8cbe-f30ce768acf8",
+      "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
+      "url": "/practice-problem/e75b684e-0c85-4a3d-bc5c-e383d34ccc91",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "ea770225-5c09-41a0-933f-e2951c72db90"
     },
     {
-      "authorSolution": " \\(\\sqrt 3\\) ",
-      "uuid": "bf24d8c6-0a3e-4be9-b89f-f3e40981b293",
+      "authorSolution": " \\(0\\) ,  \\(8\\) ,  \\(1\\) ",
+      "uuid": "b6036119-2f77-4ab0-8ad8-1219c4011b53",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361784,
+      "createdAt": 1437419362039,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Definition Of The Derivative Of A Real Valued Function Of A Real Variable At A Point",
-      "body": " Suppose you know that the derivative of  \\(\\cos x\\)  is  \\(-\\sin x\\)  for every \\(x\\) .   Then  \\[ \\lim_{x \\sto \\frac{\\pi}3} \\frac{2\\cos x - 1}{3x - \\pi} \u003d -\\frac1a            \\text{ where  \\(a\u003d\\) ____}.   \\]",
+      "title": "A Linear Maps (transformations) Question",
+      "body": " If  \\(T \\colon \\R^3 \\to \\R^3\\)  is a linear map satisfying   \\begin{align*}      T\\vec{ }i \u0026\u003d 2\\vec{ }i + 4\\vec{ }j          \\\\      T\\vec{ }j \u0026\u003d  \\vec{ }i +  \\vec{ }j +  \\vec{ }k \\\\      T\\vec{ }k \u0026\u003d 3\\vec{ }i -  \\vec{ }j - 2\\vec{ }k  \\end{align*} then,   \\[T(2\\vec{ }i - \\vec{ }j - \\vec{ }k) \u003d \\text{___}\\vec{ }i + \\text{___}\\vec{ }j + \\text{___}\\vec{ }k.\\]",
       "allAnswers": [],
-      "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
-      "url": "/practice-problem/bf24d8c6-0a3e-4be9-b89f-f3e40981b293",
+      "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
+      "url": "/practice-problem/b6036119-2f77-4ab0-8ad8-1219c4011b53",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "ea770225-5c09-41a0-933f-e2951c72db90"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "41787cc4-a039-4fc8-9732-37a6483d080b",
+      "authorSolution": "\\begin{enumerate}",
+      "uuid": "6806f0a0-f02e-467f-a4c5-a35b624ccd25",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361784,
+      "createdAt": 1437419362039,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Definition Of The Derivative Of A Real Valued Function Of A Real Variable At A Point Practice",
-      "body": " Suppose you know that the derivative of  \\(\\sin x\\)  is  \\(\\cos x\\)  for every \\(x\\) .   Then  \\[ \\lim_{x \\sto -\\pi/4}\\frac{\\sqrt 2\\sin x + 1}{4x + \\pi} \u003d \\dfrac1a \\text{ where                \\(a\u003d\\) ___.} \\]",
+      "title": "Linear Maps (transformations) Problem",
+      "body": " Let  \\(T\\colon \\R^3 \\to \\R^4\\)  be defined by        \\[T \\vec{ }x \u003d (x_1-3x_3 ,  x_1+x_2-6x_3 ,  x_2-3x_3 ,  x_1-3x_3) \\] for every  \\(\\vec{ }x \u003d (x_1,x_2,x_3) \\in \\R^3\\) .    (The map  \\(T\\)  is linear, but you need not prove this.)  Then\n  (a)  \\([T] \u003d       \\begin{bmatrix}            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO}       \\end{bmatrix}\\) .\n  (b)  \\(T(3,-2,4)\\)  \u003d _______________.",
       "allAnswers": [],
-      "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
-      "url": "/practice-problem/41787cc4-a039-4fc8-9732-37a6483d080b",
+      "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
+      "url": "/practice-problem/6806f0a0-f02e-467f-a4c5-a35b624ccd25",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "ea770225-5c09-41a0-933f-e2951c72db90"
     },
     {
-      "authorSolution": " \\(3\\) ",
-      "uuid": "24cc35e7-5bab-4367-b98d-fe06d0704171",
+      "authorSolution": " \\(\\dfrac{\\sqrt3}2\\) ,  \\(\\sqrt3\\) ,  \\(1\\) ,  \\(\\dfrac{\\sqrt3}2\\) ",
+      "uuid": "1954a1cd-2a5f-4c5c-b9fa-18d17f1d657c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361784,
+      "createdAt": 1437419362042,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Definition Of The Derivative Of A Real Valued Function Of A Real Variable At A Point",
-      "body": " Suppose that  \\(g\\)  is a differentiable function and that  \\(f(x) \u003d g(x) + 5\\)  for all  \\(x\\) .    If  \\(g\u0027(1) \u003d 3\\) , then  \\(f\u0027(1) \u003d\\) ___.",
+      "title": "Practice In Tangent Plane To A Surface",
+      "body": " Let  \\(f(x) \u003d \\sin x\\)  and  \\(p \u003d \\pi/6\\) .    The slope of the tangent line to the curve  \\(y \u003d f(x)\\)  at  \\(x \u003d p\\)  is _____.    The value of  \\(\\Delta f_p\\)  at  \\(x\\)  is  \\(\\frac12(a\\sin x +b\\cos x - b)\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.    The slope of the tangent line to the curve  \\(y \u003d \\Delta f_p(x)\\)  at  \\(x \u003d 0\\)  is_____.",
       "allAnswers": [],
-      "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
-      "url": "/practice-problem/24cc35e7-5bab-4367-b98d-fe06d0704171",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
+      "url": "/practice-problem/1954a1cd-2a5f-4c5c-b9fa-18d17f1d657c",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     },
     {
-      "authorSolution": " \\(-2x + 5\\) ",
-      "uuid": "50db20dd-8ef8-4989-8696-a26cb55ba0dc",
+      "authorSolution": " \\(2\\) ,  \\(2\\tan x\\) ,  \\(2\\) ",
+      "uuid": "d030b24b-7705-497d-82a6-cd8dd6552cff",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361785,
+      "createdAt": 1437419362042,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Definition Of The Derivative Question",
-      "body": " Suppose that  \\(f\\)  is a differentiable function, that  \\(f\u0027(x) \u003d -2\\)  for all \\(x\\) , and that  \\(f(-3) \u003d 11\\) .   Find an algebraic expression for \\(f(x)\\) .    Answer:  \\(f(x)\u003d\\) _________.",
+      "title": "Practice In Differentiable At A Point",
+      "body": " Let  \\(f(x) \u003d \\tan x\\)  and  \\(p \u003d \\pi/4\\) .    The slope of the tangent line to the curve  \\(y \u003d f(x)\\)  at  \\(x \u003d p\\)  is ___.   The value of  \\(\\Delta f_p\\)  at  \\(x\\)  is  \\(\\dfrac{g(x)}{1 -  \\tan x}\\)  where  \\(g(x)\\) \u003d________.   The slope of the tangent line to the curve  \\(y \u003d \\Delta f_p(x)\\)  at  \\(x \u003d 0\\)  is_____.",
       "allAnswers": [],
-      "tags": "definition of the derivative, definition of the derivative of a real valued function of a real variable at a point",
-      "url": "/practice-problem/50db20dd-8ef8-4989-8696-a26cb55ba0dc",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
+      "url": "/practice-problem/d030b24b-7705-497d-82a6-cd8dd6552cff",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     },
     {
-      "authorSolution": " \\(-\\dfrac52\\) ,  \\(-\\dfrac32\\) ,  \\(9\\) ,  \\(\\dfrac12\\) ",
-      "uuid": "e5fb415d-97e2-4caa-b55c-c2a8df24b894",
+      "authorSolution": " \\(1\\) ,  \\(-2\\) ,  \\(x + 1\\) ,  \\((y - 1)^2\\) ,  \\(1\\) ,  \\(1\\) ,  \\(-2\\) ",
+      "uuid": "a04cbc85-6b6b-41b2-9cb7-ca14f56d3874",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361798,
+      "createdAt": 1437419362042,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Techniques Of Differentiation",
-      "body": " If  \\(f(x) \u003d 5x^{-1/2} + 6x^{3/2}\\) , then  \\(f\u0027(x) \u003d ax^p + bx^q\\)  where  \\(a\u003d\\) _____,  \\(p\u003d\\) _____,  \\(b\u003d\\) ____, and  \\(q\u003d\\) ____.",
+      "title": "A Differential \u003d Derivative \u003d Total Derivative Question",
+      "body": " Let  \\(f(x,y) \u003d xy^2\\)  and  \\(\\vec{ }p \u003d (1,-1)\\) .    Then  \\(\\frac{\\partial  }{\\partial f}x(\\vec{ }p) \u003d\\)  ___ and  \\(\\frac{\\partial  }{\\partial f}y(\\vec{ }p) \u003d\\)  ___.    The function  \\(\\Delta f_{\\vec{ }p}(x,y) \u003d a(x)b(y) - c\\)  where  \\(a(x) \u003d\\)  _____ ,  \\(b(y) \u003d\\)  _____ , and  \\(c \u003d\\)  __ .   The partial derivatives of this function at  \\(\\vec{ }0 \u003d (0,0)\\)  are given by  \\(\\frac{\\partial  }{\\partial {}(\\Delta f_{\\vec{ }p})}x(\\vec{ }0) \u003d\\)  ___ and  \\(\\frac{\\partial  }{\\partial {}(\\Delta f_{\\vec{ }p})}y(\\vec{ }0) \u003d\\)  ___.",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/e5fb415d-97e2-4caa-b55c-c2a8df24b894",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
+      "url": "/practice-problem/a04cbc85-6b6b-41b2-9cb7-ca14f56d3874",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     },
     {
-      "authorSolution": " \\(4\\) ,  \\(-\\dfrac23\\) ,  \\(-6\\) ,  \\(-\\dfrac85\\) ",
-      "uuid": "41f9af01-b7d0-4445-abc4-3d9872730e1a",
+      "authorSolution": " \\(2\\) ,  \\(2\\) ",
+      "uuid": "c7814529-af73-4596-b21c-8596ea9ea016",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361798,
+      "createdAt": 1437419362043,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Techniques Of Differentiation Practice",
-      "body": " If  \\(f(x) \u003d 9x^{4/3} + 25x^{2/5}\\) , then  \\(f\u0027\u0027(x) \u003d ax^p + bx^q\\)  where  \\(a\u003d\\) ___,  \\(p\u003d\\) ______,  \\(b\u003d\\) ____, and  \\(q\u003d\\) _______.",
+      "title": "Practice With Jacobian Matrix",
+      "body": " Let  \\(f(x,y) \u003d x^2 + y^2\\)  and  \\(\\vec{ }p \u003d (1,1)\\) .    If we choose  \\(df_{\\vec{ }p}\\)  to be the  \\(1 \\times 2\\) -matrix  \\([a \\hphantom{O} b]\\) , where  \\(a\\) \u003d___ and  \\(b\\) \u003d___,  then  \\(\\Delta f_{\\vec{ }p}\\)  is tangent to  \\(df_{\\vec{ }p}\\) .",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/41f9af01-b7d0-4445-abc4-3d9872730e1a",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
+      "url": "/practice-problem/c7814529-af73-4596-b21c-8596ea9ea016",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     },
     {
-      "authorSolution": " \\(36\\) ",
-      "uuid": "eb3537aa-4884-41c0-84ef-a9e1679bb85f",
+      "authorSolution": " \\(\\begin{bmatrix} 4  \u0026  1   \u0026  2 \\\\",
+      "uuid": "24b1a876-45c7-4e08-ba5a-71b0c1419f59",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361798,
+      "createdAt": 1437419362043,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Techniques Of Differentiation Question",
-      "body": " Find a point  \\(a\\)  such that the tangent line to the graph of the curve  \\(y \u003d \\sqrt x\\)  at  \\(x\u003da\\)  has  \\(y\\) -intercept3.    Answer:  \\(a\u003d\\) ____.",
+      "title": "On Smooth Function",
+      "body": " Let  \\(\\vec{ }F \\colon \\R^3 \\to \\R^2\\)  be defined by  \\(\\vec{ }F(x,y,z) \u003d x^2ye^z \\vec{ }i +(x^3 + y^3 + z^3) \\vec{ }j\\)  and  \\(\\vec{ }p \u003d (1,2,0)\\) .   Then the derivative of  \\(\\vec{ }F\\)  at  \\(\\vec{ }p\\)  is given by     \\[ d\\vec{ }F_{\\vec{ }p} \u003d \\begin{bmatrix} \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\\\                                         \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\\\                                         \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\\\                                         \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\end{bmatrix}.   \\]",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/eb3537aa-4884-41c0-84ef-a9e1679bb85f",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
+      "url": "/practice-problem/24b1a876-45c7-4e08-ba5a-71b0c1419f59",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     },
     {
-      "authorSolution": " \\(13\\) ",
-      "uuid": "2f591423-dafd-48b4-8de8-a7d5bf5c1d00",
+      "authorSolution": " \\(\\begin{bmatrix} 2  \u0026  0  \\\\",
+      "uuid": "2e2a71ec-1f95-4061-93ee-7fbd4b214f6f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361798,
+      "createdAt": 1437419362043,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Techniques Of Differentiation",
-      "body": " Find a number  \\(k\\)  such that the line  \\(y \u003d 6x + 4\\)  is tangent to the parabola  \\(y \u003d x^2 + k\\) .    Answer:  \\(k\u003d\\)  _____.",
+      "title": "Definition Of Derivative",
+      "body": " Let  \\(\\vec{ }F \\colon \\R^2 \\to \\R^3\\)  be defined by  \\(\\vec{ }F(x,y) \u003d (x^2, 2x - 3y, 5xy)\\)  and  \\(\\vec{ }p \u003d (1,-1)\\) .   Then the Jacobian matrix of  \\(\\vec{ }F\\)  at  \\(\\vec{ }p\\)  is given by      \\[ d\\vec{ }F_{\\vec{ }p} \u003d \\bmatrix \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\endbmatrix.   \\]",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/2f591423-dafd-48b4-8de8-a7d5bf5c1d00",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
+      "url": "/practice-problem/2e2a71ec-1f95-4061-93ee-7fbd4b214f6f",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     },
     {
-      "authorSolution": " \\(-3\\) ,  \\(0\\) ,  \\(2\\) ",
-      "uuid": "fadd7eda-3e5c-4738-ae4e-5fcdf1328346",
+      "authorSolution": " \\(T\\) ",
+      "uuid": "b19c10d1-f596-44b1-928c-91e15f6675c9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361799,
+      "createdAt": 1437419362043,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Techniques Of Differentiation",
-      "body": " Let  \\(f(x)\u003d \\frac 14x^4 + \\frac 13x^3 - 3x^2 + \\frac74\\) .   Find all points  \\(x_0\\)  such that the tangent line to the curve  \\(y \u003d f(x)\\)  at the  point  \\((x_0,f(x_0))\\)  is horizontal.   Answer:  \\(x_0\u003d\\) ____, ___, and ___.",
+      "title": "Differentiable Function",
+      "body": " Let  \\(\\vec{ }T\\)  be a linear map from  \\(\\R^n\\)  to  \\(\\R^m\\)  and  \\(\\vec{ }p \\in \\R^n\\) .   Then  \\(d\\vec{ }T_{\\vec{ }p}\\)  \u003d ___.   +",
       "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/fadd7eda-3e5c-4738-ae4e-5fcdf1328346",
+      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
+      "url": "/practice-problem/b19c10d1-f596-44b1-928c-91e15f6675c9",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
-    },
-    {
-      "authorSolution": " \\(-1\\) ,  \\(2\\) ",
-      "uuid": "ce171ecf-6643-4200-abd0-5318fe33e51c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361799,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Techniques Of Differentiation Practice",
-      "body": "  Let  \\(f(x)\u003d \\dfrac{x-\\frac32}{x^2+2}\\)  and  \\(g(x)\u003d \\dfrac{x^2+1}{x^2+2}\\) .   At what values of  \\(x\\)  do the curves  \\(y \u003d f(x)\\)  and  \\(y \u003d g(x)\\)  have parallel tangent lines? Answer: at  \\(x\u003d\\) ____ and  \\(x\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/ce171ecf-6643-4200-abd0-5318fe33e51c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
-    },
-    {
-      "authorSolution": " \\(4\\) ,  \\(12\\) ",
-      "uuid": "09601ee1-e2d5-4194-a883-42da36b1f504",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361799,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Techniques Of Differentiation Problem",
-      "body": " The tangent line to the graph of a function  \\(f\\)  at  \\(x \u003d 2\\)  passes through the points  \\((0,-20)\\)  and \\((5,40)\\) .    Then  \\(f(2)\u003d\\) ___ and  \\(f\u0027(2)\u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/09601ee1-e2d5-4194-a883-42da36b1f504",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
-    },
-    {
-      "authorSolution": " \\(-1\\) ,  \\(1\\) ,  \\(-1\\) ,  \\(1\\) ",
-      "uuid": "cdd9102c-a2fc-432e-bd0e-53762b9aef55",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361799,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Techniques Of Differentiation Question",
-      "body": "  Let  \\(f(x) \u003d \\bigabs{2 - \\abs{x - 1}} - 1\\)  for every real number \\(x\\) .   Then  \\(f\u0027(-2)\u003d\\) ____,  \\(f\u0027(0)\u003d\\) ___,  \\(f\u0027(2)\u003d\\) ____,  and  \\(f\u0027(4)\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/cdd9102c-a2fc-432e-bd0e-53762b9aef55",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
-    },
-    {
-      "authorSolution": " \\(9\\) ,  \\(3\\) ",
-      "uuid": "f9e7d9f0-5ad7-4960-8de3-a83075a02899",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361799,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Techniques Of Differentiation",
-      "body": " Let  \\(f(x)\u003d\\dfrac 1x \\csc^2 \\dfrac 1x\\) .   Then  \\(Df(6/\\pi) \u003d \\dfrac{\\pi^2}a \\biggl(\\dfrac{\\pi}{\\sqrt b} - 1\\biggr)\\)  where  \\(a\u003d\\) ___ and  \\(b\u003d\\) ___.",
-      "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/f9e7d9f0-5ad7-4960-8de3-a83075a02899",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
-    },
-    {
-      "authorSolution": " \\(2x^5 + 14x^3 - 10x\\) ,  \\(4x^3 + 14x\\) ",
-      "uuid": "3e1cf1e4-c411-4420-b9d0-7f266f8448a0",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361800,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Techniques Of Differentiation",
-      "body": " Let  \\(f(x)\u003d (x^4 + 7x^2 - 5) \\sin (x^2 + 3)\\) .   Then  \\(f\u0027(x) \u003d f(x)\\cos(x^2 + 3) + g(x)\\sin(x^2 + 3)\\)  where  \\(f(x)\u003d\\) ________________ and  \\(g(x)\u003d\\) __________.",
-      "allAnswers": [],
-      "tags": "techniques of differentiation,",
-      "url": "/practice-problem/3e1cf1e4-c411-4420-b9d0-7f266f8448a0",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives"
+      "topic": "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
     }
   ],
   "questions": [
-    {
-      "uuid": "a95b4f42-af16-470b-af85-521e5afe4372",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Find the derivative of \\(F(x)\u003d\\int_1^x \\tan(t^2)\\d t\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives",
-      "url": "/question/a95b4f42-af16-470b-af85-521e5afe4372",
-      "source": "Mooculus 13.1.19",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "a4376f9e-6833-49aa-97fa-6e1cf794f80e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Derivative",
-      "body": "Find the derivative of \\(F(x)\u003d\\int_1^{x^2} \\tan(t^2)\\d t\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives",
-      "url": "/question/a4376f9e-6833-49aa-97fa-6e1cf794f80e",
-      "source": "Mooculus 13.1.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "e0141c46-5070-4fe7-9bc3-107e9c522869",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(y\u003dx^4-x^2\\) and \\(y\u003dx^2\\) (the part to the right of the \\(y\\)-axis)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/e0141c46-5070-4fe7-9bc3-107e9c522869",
-      "source": "Mooculus 13.2.1",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "7c13a59c-6740-426b-bbfd-302527e1762f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(x\u003dy^3\\) and \\(x\u003dy^2\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/7c13a59c-6740-426b-bbfd-302527e1762f",
-      "source": "Mooculus 13.2.2",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "32869347-e241-4dd9-a27c-c8aea062fb0e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(x\u003d1-y^2\\) and \\(y\u003d-x-1\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/32869347-e241-4dd9-a27c-c8aea062fb0e",
-      "source": "Mooculus 13.2.3",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "74210b81-dc17-4977-ba93-593f315f8c70",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(x\u003d3y-y^2\\) and \\(x+y\u003d3\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/74210b81-dc17-4977-ba93-593f315f8c70",
-      "source": "Mooculus 13.2.4",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "45263b61-4c22-44f3-89fc-b9b342b6ad4f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(y\u003d\\cos(\\pi x/2)\\) and \\(y\u003d1- x^2\\) (in the first quadrant)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/45263b61-4c22-44f3-89fc-b9b342b6ad4f",
-      "source": "Mooculus 13.2.5",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "55092b25-ba99-4671-b032-61d23d90a698",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(y\u003d\\sin(\\pi x/3)\\) and \\(y\u003dx\\) (in the first quadrant)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/55092b25-ba99-4671-b032-61d23d90a698",
-      "source": "Mooculus 13.2.6",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "0490ac88-a43e-4f1b-81a5-161d5f346a59",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(y\u003d\\sqrt{x}\\) and \\(y\u003dx^2\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/0490ac88-a43e-4f1b-81a5-161d5f346a59",
-      "source": "Mooculus 13.2.7",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "5e4d8b27-0ffb-4509-8c31-e44f46b36570",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(y\u003d\\sqrt x\\) and \\(y\u003d\\sqrt{x+1}\\), \\(0\\le x\\le 4\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/5e4d8b27-0ffb-4509-8c31-e44f46b36570",
-      "source": "Mooculus 13.2.8",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
-    {
-      "uuid": "57fefd51-6f5f-4727-95b2-56ca1ebb38bf",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787595,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Area Enclosed by the Curve",
-      "body": "\\(x\u003d0\\) and \\(x\u003d25-y^2\\)",
-      "allAnswers": [],
-      "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
-      "url": "/question/57fefd51-6f5f-4727-95b2-56ca1ebb38bf",
-      "source": "Mooculus 13.2.9",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
-    },
     {
       "uuid": "a3b67044-5c7c-42d8-8b12-130a8adb2d43",
       "contentType": "question",
@@ -493,7 +216,7 @@
       "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
       "url": "/question/a3b67044-5c7c-42d8-8b12-130a8adb2d43",
       "source": "Mooculus 13.2.10",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "9f922bad-8a00-454c-bce7-904c202c6f93",
@@ -510,7 +233,7 @@
       "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
       "url": "/question/9f922bad-8a00-454c-bce7-904c202c6f93",
       "source": "Mooculus 13.2.11",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "6f1afd7a-3d2a-4086-ab5a-f550670b9455",
@@ -527,7 +250,7 @@
       "tags": "fundamental theorem of calculus, euler\u0027s method, definite, integrals, antiderivatives, area",
       "url": "/question/6f1afd7a-3d2a-4086-ab5a-f550670b9455",
       "source": "Mooculus 13.2.12",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Antiderivative "
+      "topic": "ab91e85d-2b5b-45b6-8047-5fceba652a98"
     },
     {
       "uuid": "bd78e471-7b7f-4d13-97fc-e3a0e6e90a06",
@@ -561,7 +284,7 @@
       "tags": "derivatives, calculus, rate of change, slope",
       "url": "/question/6e1b92ca-399d-4ce4-819c-40e95746998b",
       "source": "First Year Calculus 4.1.1",
-      "topic": "Calculus/Derivative Calculus/Graphical Interpretation/Tangent Lines"
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
     },
     {
       "uuid": "473cf320-4c22-41d1-b9af-aeb9c0b39e0e",
@@ -578,7 +301,7 @@
       "tags": "series, partial sums",
       "url": "/question/473cf320-4c22-41d1-b9af-aeb9c0b39e0e",
       "source": "First Year Calculus 10.1.1",
-      "topic": "Calculus/Sequences and Series/Series/Sequence of Partial Sums"
+      "topic": "d7d92369-f1d9-4632-8fb6-39aaafd6a3a3"
     },
     {
       "uuid": "1228e81d-4fda-477b-b166-c055b53206c7",
@@ -595,7 +318,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/1228e81d-4fda-477b-b166-c055b53206c7",
       "source": "First Year Calculus 4.1.2",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "4b85001e-4df9-457f-bad3-acd7beb42dff",
@@ -612,7 +335,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/4b85001e-4df9-457f-bad3-acd7beb42dff",
       "source": "First Year Calculus 4.1.3",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "05438979-7428-4483-8f09-cce3e0737cc1",
@@ -629,7 +352,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/05438979-7428-4483-8f09-cce3e0737cc1",
       "source": "First Year Calculus 4.1.4",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "ae014416-c58b-4aab-9a0c-1c724a9d8215",
@@ -646,7 +369,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/ae014416-c58b-4aab-9a0c-1c724a9d8215",
       "source": "First Year Calculus 4.1.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "322a13db-df18-4b9e-bb66-8dd96f87cb0a",
@@ -663,7 +386,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/322a13db-df18-4b9e-bb66-8dd96f87cb0a",
       "source": "First Year Calculus 4.1.6",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "9af90a96-8e32-4f22-b86d-9798ffcd4524",
@@ -680,7 +403,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/9af90a96-8e32-4f22-b86d-9798ffcd4524",
       "source": "First Year Calculus 4.1.7",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "bc986685-a4af-4233-8abd-9be9d075110a",
@@ -697,7 +420,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/bc986685-a4af-4233-8abd-9be9d075110a",
       "source": "First Year Calculus 4.1.8",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "498c2870-4f7c-4278-9c39-4667e7847881",
@@ -714,7 +437,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/498c2870-4f7c-4278-9c39-4667e7847881",
       "source": "First Year Calculus 4.1.9",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "765940d5-afb5-4da8-a105-1efb84a2ece1",
@@ -731,7 +454,7 @@
       "tags": "Taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/765940d5-afb5-4da8-a105-1efb84a2ece1",
       "source": "First Year Calculus 11.1.1",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
     },
     {
       "uuid": "bf3ce05e-bf28-42bd-8946-34ad736bbb66",
@@ -748,7 +471,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/bf3ce05e-bf28-42bd-8946-34ad736bbb66",
       "source": "First Year Calculus 11.1.2",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
     },
     {
       "uuid": "85fb1689-7e4c-494e-b838-498528b8233f",
@@ -765,7 +488,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/85fb1689-7e4c-494e-b838-498528b8233f",
       "source": "First Year Calculus 4.1.10",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "3ee97d17-1ed2-4d7a-9020-b37d5a29e1f5",
@@ -782,7 +505,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/3ee97d17-1ed2-4d7a-9020-b37d5a29e1f5",
       "source": "First Year Calculus 11.1.3",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
     },
     {
       "uuid": "163769f6-79f3-4ebc-924f-f7bdc9e3bea6",
@@ -799,7 +522,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/163769f6-79f3-4ebc-924f-f7bdc9e3bea6",
       "source": "First Year Calculus 4.1.11",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "c94631f7-c674-4cd3-b386-372299bac5dc",
@@ -816,7 +539,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem ",
       "url": "/question/c94631f7-c674-4cd3-b386-372299bac5dc",
       "source": "First Year Calculus 11.1.4",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
     },
     {
       "uuid": "a2ed3f51-1ae0-46d9-b561-9e3dd70cab3c",
@@ -833,7 +556,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/a2ed3f51-1ae0-46d9-b561-9e3dd70cab3c",
       "source": "First Year Calculus 4.1.12",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "55494829-4d7d-40eb-9d4f-0f96f28231ae",
@@ -850,7 +573,7 @@
       "tags": "taylor\u0027s series, taylor\u0027s theorem",
       "url": "/question/55494829-4d7d-40eb-9d4f-0f96f28231ae",
       "source": "First Year Calculus 11.1.4",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
     },
     {
       "uuid": "b6b48001-324d-4017-bfb2-ef32afe82337",
@@ -867,7 +590,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b6b48001-324d-4017-bfb2-ef32afe82337",
       "source": "First Year Calculus 4.1.13",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "b3419623-fd49-4fcb-b728-a2a09ac27bcb",
@@ -884,7 +607,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b3419623-fd49-4fcb-b728-a2a09ac27bcb",
       "source": "First Year Calculus 4.1.14",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "2e5b2b2c-d7de-4207-8ea5-614eaed4c47b",
@@ -901,7 +624,7 @@
       "tags": "taylor\u0027s theorem, taylor\u0027s series",
       "url": "/question/2e5b2b2c-d7de-4207-8ea5-614eaed4c47b",
       "source": "First Year Calculus 11.1.5",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series"
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
     },
     {
       "uuid": "b8e2803e-7149-4aef-947a-40b901c335c6",
@@ -918,7 +641,7 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/b8e2803e-7149-4aef-947a-40b901c335c6",
       "source": "First Year Calculus 4.1.15",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     },
     {
       "uuid": "13aa87d4-f12b-4484-86b0-7c9a2a1031c1",
@@ -935,7 +658,177 @@
       "tags": "derivative, rate of change, slope, functions",
       "url": "/question/13aa87d4-f12b-4484-86b0-7c9a2a1031c1",
       "source": "First Year Calculus 4.1.16",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Related Rates"
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
+    },
+    {
+      "uuid": "7c818de4-b9ef-41ea-b8fe-485f8a560323",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Find \\(P_N(x)\\) and \\(R_N(x)\\) for the following:\n\\(f(x)\u003d\\frac1x\\), \\(a\u003d10\\), \\(N\u003d4\\)",
+      "allAnswers": [],
+      "tags": "taylor\u0027s series, taylor\u0027s theorem",
+      "url": "/question/7c818de4-b9ef-41ea-b8fe-485f8a560323",
+      "source": "First Year Calculus 11.1.6",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "543fe86c-6775-4384-a8ef-a79b957082d6",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Find \\(P_N(x)\\) and \\(R_N(x)\\) for the following:\n\\(f(x)\u003de^x\\), \\(a\u003d0\\), \\(N\u003d9\\).",
+      "allAnswers": [],
+      "tags": "taylor\u0027s series, taylor\u0027s theorem",
+      "url": "/question/543fe86c-6775-4384-a8ef-a79b957082d6",
+      "source": "First Year Calculus 11.1.7",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "01fcd03f-cb1e-453a-b33e-3f8519dcd73c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Find \\(P_N(x)\\) and \\(R_N(x)\\) for the following:\n\\(f(x)\u003d\\sec x\\), \\(a\u003d\\pi\\), \\(N\u003d2\\).",
+      "allAnswers": [],
+      "tags": "taylor\u0027s theorem, taylor\u0027s series",
+      "url": "/question/01fcd03f-cb1e-453a-b33e-3f8519dcd73c",
+      "source": "First Year Calculus 11.1.8",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "3d395022-f1b0-41eb-8c62-168825abe982",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Find \\(P_N(x)\\) and \\(R_N(x)\\) for the following:\n\\(f(x)\u003d\\ln x\\), \\(a\u003de\\), \\(N\u003d3\\).",
+      "allAnswers": [],
+      "tags": "taylor\u0027s theorem, taylor\u0027s series",
+      "url": "/question/3d395022-f1b0-41eb-8c62-168825abe982",
+      "source": "First Year Calculus 11.1.9",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "cc241c73-9c94-46a9-aef3-989a7462dc50",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Suppose \\(s(t)\u003d-16t^2+15t+20\\) describes the height of a projectile in free fall.\n\na. Find the velocity function \\(v(t)\\).\nb. What is the projectile\u0027s velocity when \\(t\u003d0\\)? \\(t\u003d10\\)?\nc. Find \\(t\\)  so that the projectile is stationary (i.e., \\(v\u003d0\\)).\nd. How high is the projectile when it is stationary?",
+      "allAnswers": [],
+      "tags": "derivative, rate of change, slope, functions, velocity",
+      "url": "/question/cc241c73-9c94-46a9-aef3-989a7462dc50",
+      "source": "First Year Calculus 4.1.17",
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
+    },
+    {
+      "uuid": "8a33948b-af31-4bf7-b81d-67909d6586a7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Explain why the series below converges, and to\nthe limit claimed below:\n\\(e\u003d1+x+\\frac{x^2}{2!}+\\frac{x^3}{3!}+\\frac{x^4}{4!}+\\cdots.\\)",
+      "allAnswers": [],
+      "tags": "taylor\u0027s series, taylor\u0027s theorem, converges",
+      "url": "/question/8a33948b-af31-4bf7-b81d-67909d6586a7",
+      "source": "First Year Calculus 11.1.10",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "bb7d107e-7b11-463a-b5bb-a820aa492c91",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Many physics problems take advantage of \nthe approximation \\(\\tan x\\approx x\\) for \\(|x|\\) small.\n(a)Conjecture on where this approximation comes from.\n(b)Estimate the error when \\(|x|\u003c1,.1,.01\\).",
+      "allAnswers": [],
+      "tags": "taylor\u0027s theorem, taylor\u0027s series",
+      "url": "/question/bb7d107e-7b11-463a-b5bb-a820aa492c91",
+      "source": "First Year Calculus 11.1.11",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "8b68e06d-c4b8-47aa-a957-3287b1d68b45",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Quadratic Function Practice",
+      "body": "Consider the general quadratic function \\(f(x)\u003dax^2+bx+c\\).\n\na. Find a formula for the derivative of a quadratic function \\(f(x)\u003dax^2+bx+c\\). \nb. Assuming \\(a\\ne0\\), this represents a parabola. Assuming also that the slope is zero at the vertex, find a general formula for the \\(x\\)-coordinate of the vertex.",
+      "allAnswers": [],
+      "tags": "derivative, rate of change, slope, functions",
+      "url": "/question/8b68e06d-c4b8-47aa-a957-3287b1d68b45",
+      "source": "First Year Calculus 4.1.18",
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
+    },
+    {
+      "uuid": "8ed98b9b-0db2-4330-9381-f3ac28e6d201",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor\u0027s Theory",
+      "body": "Suppose we wanted to find a Taylor Polynomial for \\(f(x)\u003d\\sin x\\),\ncentered at \\(a\u003d0\\), with accuracy \n\\(\\left|R_N(x)\\right|\\le10^{-10}\\)\nvalid for \\(-2\\pi\\le x\\le2\\pi\\). Find the lowest-order \nTaylor Polynomial which guarantees that accuracy\nfor that interval.  (This may require some numerical experimentation\nwith the extimates.)",
+      "allAnswers": [],
+      "tags": "taylor\u0027s series, taylor\u0027s theorem",
+      "url": "/question/8ed98b9b-0db2-4330-9381-f3ac28e6d201",
+      "source": "First Year Calculus 11.1.12",
+      "topic": "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+    },
+    {
+      "uuid": "c66f73e5-b32d-4ba6-94f6-ae6892009f78",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787595,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Tangent Line to the Graph",
+      "body": "Find the tangent line to the graph at the given point \\(x\u003da\\) for the given function.\n\na. \\(f(x)\u003dx^2-9\\), \\ \\(a\u003d4\\).",
+      "allAnswers": [],
+      "tags": "derivative, rate of change, slope, functions",
+      "url": "/question/c66f73e5-b32d-4ba6-94f6-ae6892009f78",
+      "source": "First Year Calculus 4.1.19",
+      "topic": "5449390e-1780-4b91-8fbb-5d4ca41cfe70"
     }
   ],
   "textContent": [
@@ -954,7 +847,7 @@
       "tags": "power series, taylor series, taylor polynomials, maclaurin series",
       "url": "/text-content/af255535-af0d-40d2-9bca-eed468220287",
       "source": "Forgotten Text 4 11.5",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/General Power Series"
+      "topic": "81a0ea5c-0d55-4324-bebc-7fc7324375b0"
     },
     {
       "uuid": "ff65f807-cfc3-41c6-97bb-9b837aa48a0e",
@@ -971,7 +864,7 @@
       "tags": "complex numbers, power series, taylor series, discontinuity, polynomials, Abel\u0027s Theorem",
       "url": "/text-content/ff65f807-cfc3-41c6-97bb-9b837aa48a0e",
       "source": "Forgotten Text 4 11.6",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Complex Numbers"
+      "topic": "dbc3cbb8-036b-4cbb-a7e4-42deeea16d45"
     },
     {
       "uuid": "9dfd62e3-296e-4fd7-ab77-3a7076bf2587",
@@ -988,9 +881,61 @@
       "tags": "conic sections, analytic geometry, three dimensional shapes",
       "url": "/text-content/9dfd62e3-296e-4fd7-ab77-3a7076bf2587",
       "source": "Forgotten Text 4 12.1",
-      "topic": "Calculus/Other Calculus Topics/Analytic Geometry/Conic Sections"
+      "topic": "434624a2-7229-42f5-aede-c0ffd6cedcce"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "a8e25fb0-3be6-4ce8-a458-ef5b5deae285",
+      "subTopics": [
+        "1c42f68a-563d-4ab1-97dc-5b593b28f4ad"
+      ],
+      "parentTopics": [
+        "a75aa4dc-8cff-4aba-a682-01dd2706f4ed"
+      ],
+      "title": "Properties of Rational Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    },
+    {
+      "uuid": "45b967c9-b9b2-4203-9e2c-b2f19488ca49",
+      "subTopics": [
+        "b62261d9-fa99-4b1d-b157-efc3493c66c5",
+        "6f7ecc4e-495a-4f7b-96a7-91d9e5983e80",
+        "a80b1824-6c01-45c1-a48f-4e35295bf509",
+        "68d5643f-95a4-4f39-a111-395dbc4d940b",
+        "4e0de009-4e55-4fd8-8865-c9cbbfacbf2d",
+        "cf5a5349-5039-43d5-82d6-99eb44b56f45",
+        "9943595e-66cf-4129-bd0f-bb7708dafde2"
+      ],
+      "parentTopics": [
+        "bcb4f0e4-542a-4fc3-aa96-39a5e2c9eff1"
+      ],
+      "title": "Systems of Equations and Matrices",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 340000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "5ecb200f-788a-4c3c-a309-adaf2265987f",
+      "subTopics": [],
+      "parentTopics": [
+        "3dc67de8-0212-4b03-84d7-70808a5564d3"
+      ],
+      "title": "Extrema",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " maximum, derivatives,extrema, minimum, applications of derivatives ,",
+      "difficulty": 472000,
+      "contentUuids": [
+        "1c1e9628-df7e-4290-84bc-49f2fdcd1384"
+      ]
+    }
+  ]
 }

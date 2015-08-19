@@ -2,347 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/627.png\"/\u003e",
-      "uuid": "408adb68-fc85-4d12-9de8-388efc9520cd",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2590.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2591.png\"/\u003e",
+      "uuid": "84ef462a-1ce5-439c-8917-49d90cc7e21c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655785,
+      "createdAt": 1437611655789,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "inverse sin problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/626.png\"/\u003e",
+      "title": "Find a formula for the inverse of the function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2589.png\"/\u003e",
       "allAnswers": [],
-      "tags": "inverse trig functions, trig, inverse sin",
-      "url": "/practice-problem/408adb68-fc85-4d12-9de8-388efc9520cd",
-      "source": "null 5.3.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/629.png\"/\u003e",
-      "uuid": "a5c0b11d-8287-4df7-a89b-bdb4f62f0109",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655785,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "find inverse sin problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/628.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "inverse trig functions, inverse sin, trig ",
-      "url": "/practice-problem/a5c0b11d-8287-4df7-a89b-bdb4f62f0109",
-      "source": "null 5.3.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/633.png\"/\u003e",
-      "uuid": "d421fbf6-4d7c-4230-9aac-f325d039d7fd",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655785,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inverse identity ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/632.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "inverse trig functions, inverse identity, inverse tan",
-      "url": "/practice-problem/d421fbf6-4d7c-4230-9aac-f325d039d7fd",
-      "source": "null 5.3.7"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/635.png\"/\u003e",
-      "uuid": "825e2cea-1411-4b39-9626-905303f75d3a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655785,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve if an identity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/634.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "inverse trig functions, trig identities, trig ",
-      "url": "/practice-problem/825e2cea-1411-4b39-9626-905303f75d3a",
-      "source": "null 5.3.8"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/640.png\"/\u003e",
-      "uuid": "d7be47df-6faf-48eb-9121-1f98a1bd961a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655785,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve trig equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/639.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig equation, solve trig, trig ",
-      "url": "/practice-problem/d7be47df-6faf-48eb-9121-1f98a1bd961a",
-      "source": "null 6.1.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/642.png\"/\u003e",
-      "uuid": "8ac6ce84-f51b-450a-b0c4-8e34f5786aa0",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655785,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve trig equation, pt.2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/641.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig equations, solving trig equations, trig ",
-      "url": "/practice-problem/8ac6ce84-f51b-450a-b0c4-8e34f5786aa0",
-      "source": "null 6.1.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/644.png\"/\u003e",
-      "uuid": "fc0660b1-acb1-425f-84c8-987437a30009",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve trig equation, pt.3",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/643.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig equations, solving trig equations, trig ",
-      "url": "/practice-problem/fc0660b1-acb1-425f-84c8-987437a30009",
-      "source": "null 6.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/646.png\"/\u003e",
-      "uuid": "056d5f27-5d63-4fc9-92a7-2a9b3d45818e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving trig equations, pt.4",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/645.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig equations, solving trig equations, trig ",
-      "url": "/practice-problem/056d5f27-5d63-4fc9-92a7-2a9b3d45818e",
-      "source": "null 6.1.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/648.png\"/\u003e",
-      "uuid": "fedd5994-4281-4c5b-99a9-7e68839a3f32",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving trig equations, pt.5",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/647.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig equations, solving trig equations, trig ",
-      "url": "/practice-problem/fedd5994-4281-4c5b-99a9-7e68839a3f32",
-      "source": "null 6.1.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/650.png\"/\u003e",
-      "uuid": "ce43cd7b-182e-4dd7-9f58-3a139635ad7f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solving trig equations, pt.6",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/649.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig equations, solving trig equations, trig ",
-      "url": "/practice-problem/ce43cd7b-182e-4dd7-9f58-3a139635ad7f",
-      "source": "null 6.1.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/662.png\"/\u003e",
-      "uuid": "f32e86ec-91dc-43fa-9e7f-8e40e5943905",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "complex numbers trig ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/661.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "complex numbers, trig, trig equations ",
-      "url": "/practice-problem/f32e86ec-91dc-43fa-9e7f-8e40e5943905",
-      "source": "null 6.3.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/665.png\"/\u003e",
-      "uuid": "66a61f22-6657-4bbc-8a44-5e53440aca2f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find complex number value",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/664.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "complex numbers, trig ",
-      "url": "/practice-problem/66a61f22-6657-4bbc-8a44-5e53440aca2f",
-      "source": "null 6.3.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/668.png\"/\u003e",
-      "uuid": "fc361ab6-cea8-48bf-95e5-516494d12a22",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Three cube roots",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/667.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "cube roots, complex numbers, trig ",
-      "url": "/practice-problem/fc361ab6-cea8-48bf-95e5-516494d12a22",
-      "source": "null 6.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/675.png\"/\u003e",
-      "uuid": "f1f351da-db64-49c7-ad02-041da8dd144d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Convert to polar",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/674.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polar coordinates, cartesian coordinates, trig ",
-      "url": "/practice-problem/f1f351da-db64-49c7-ad02-041da8dd144d",
-      "source": "null 6.4.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/678.png\"/\u003e",
-      "uuid": "6caf3f1f-c531-4a84-80d5-fac3b85b99e4",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655786,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Equations in polar ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/677.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polar coordinates, cartesian coordinates, polar cord, trig",
-      "url": "/practice-problem/6caf3f1f-c531-4a84-80d5-fac3b85b99e4",
+      "tags": "one-to-one, rational functions, logarithmic functions ",
+      "url": "/practice-problem/84ef462a-1ce5-439c-8917-49d90cc7e21c",
       "source": "null 6.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/680.png\"/\u003e",
-      "uuid": "8c8ed941-660b-4e16-90f5-a2d8069e75fa",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2602.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2603.png\"/\u003e",
+      "uuid": "6544c709-502d-4ddc-b5b6-0abb20e26c1e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655786,
+      "createdAt": 1437611655789,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Equation in polar cords.",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/679.png\"/\u003e",
+      "title": "Temperature of the roast",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2601.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, equations, trig ",
-      "url": "/practice-problem/8c8ed941-660b-4e16-90f5-a2d8069e75fa",
-      "source": "null 6.4.3"
+      "tags": "logarithmic functions, exponential functions, applications of log functions, applications of exponential functions ",
+      "url": "/practice-problem/6544c709-502d-4ddc-b5b6-0abb20e26c1e",
+      "source": "null 6.5.2"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2598.png\"/\u003e",
+      "uuid": "945b9e70-17ee-4e20-a22e-ed920d24c137",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Iodine-131",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2597.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "logarithmic functions, exponential functions, applications of logarithmic functions, radioactive decay ",
+      "url": "/practice-problem/945b9e70-17ee-4e20-a22e-ed920d24c137",
+      "source": "null 6.5.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2606.png\"/\u003e",
+      "uuid": "b465b5ef-4d4b-418b-97e7-9fe76abda260",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Number of people at a local community college ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2605.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2605.1.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "logarithmic functions, applications of logarithmic functions, log, exponential functions, applications of exponential functions ",
+      "url": "/practice-problem/b465b5ef-4d4b-418b-97e7-9fe76abda260",
+      "source": "null 6.5.3"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2620.png\"/\u003e",
+      "uuid": "cb3a882e-e494-4157-9a35-b541cc200de7",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Complete the square",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2619.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "complete the square, circles, find the center, find the radius ",
+      "url": "/practice-problem/cb3a882e-e494-4157-9a35-b541cc200de7",
+      "source": "null 7.2.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2622.png\"/\u003e",
+      "uuid": "ab237e5a-0699-463f-85ea-0fb807f00461",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Standard equation of the circle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2621.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "standard equation of circle, circles, diameter, center, radius ",
+      "url": "/practice-problem/ab237e5a-0699-463f-85ea-0fb807f00461",
+      "source": "null 7.2.2"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2625.png\"/\u003e",
+      "uuid": "a887f4f2-4370-4754-a8e4-79671fa16224",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the points on the unit circle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2624.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "unit circle, circles, y-coordinate point ",
+      "url": "/practice-problem/a887f4f2-4370-4754-a8e4-79671fa16224",
+      "source": "null 7.2.3"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2633.png\"/\u003e",
+      "uuid": "7fc88ab9-03c2-4259-bc2e-66d91a5e5116",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the vertex, focus, and directrix",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2632.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "vertex, focus, directrix, parabolas",
+      "url": "/practice-problem/7fc88ab9-03c2-4259-bc2e-66d91a5e5116",
+      "source": "null 7.3.1"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2636.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2637.png\"/\u003e",
+      "uuid": "d6ea2a6e-c68b-4dac-a0d1-0c6f4194b306",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Put equations into standard form of parabola",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2635.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "standard form of parabola, parabola, vertex, focus, directrix ",
+      "url": "/practice-problem/d6ea2a6e-c68b-4dac-a0d1-0c6f4194b306",
+      "source": "null 7.3.2"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2641.png\"/\u003e",
+      "uuid": "f591b994-85ad-4bd0-b9f0-24d87ce0c3a9",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655789,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vertex of the dish",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2640.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "vertex, parabola, focus, paraboloid of revolution ",
+      "url": "/practice-problem/f591b994-85ad-4bd0-b9f0-24d87ce0c3a9",
+      "source": "null 7.3.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "8eb132d8-7589-46a3-b5be-e47a49183ac3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangents, Normals, and Continuity",
-      "body": "For the following six problems, determine if \\(f\\) is differentiable at \\(x\u003da\\). \n\\(f(x)\u003d\\begin{cases} x+3 \u0026 x\\leq -2\\\\ -x-1 \u0026 x\u003e-2 \\end{cases} \\ \\ a\u003d-2\\)",
-      "allAnswers": [],
-      "tags": "functions, derivatives",
-      "url": "/question/8eb132d8-7589-46a3-b5be-e47a49183ac3",
-      "source": "AP Calculus Problems 2.10.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "272182a4-1ef0-415d-b318-89d092d39f67",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangents, Normals, and Continuity",
-      "body": "For the following six problems, determine if \\(f\\) is differentiable at \\(x\u003da\\). \n\\(f(x)\u003d\\begin{cases} 2 \u0026 x\u003c0\\\\ x-4 \u0026 x\\geq 0 \\end{cases} \\ \\ a\u003d0\\)",
-      "allAnswers": [],
-      "tags": "functions, derivatives ",
-      "url": "/question/272182a4-1ef0-415d-b318-89d092d39f67",
-      "source": "AP Calculus Problems 2.10.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "fb91e968-dbfa-4372-b295-fd718a019804",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangents, Normals, and Continuity",
-      "body": "For the following six problems, determine if \\(f\\) is differentiable at \\(x\u003da\\). \n\\(f(x)\u003d\\begin{cases} -2x^2 \u0026 x\u003c0\\\\ 2x^2 \u0026 x\\geq 0 \\end{cases} \\ \\ a\u003d0\\)",
-      "allAnswers": [],
-      "tags": "functions, derivatives",
-      "url": "/question/fb91e968-dbfa-4372-b295-fd718a019804",
-      "source": "AP Calculus Problems 2.10.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "65ecf11e-3255-4bcb-9d96-9991e90afb14",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Tangents, Normals, and Continuity",
-      "body": "For the following six problems, determine if \\(f\\) is differentiable at \\(x\u003da\\). \n\\(f(x)\u003d\\begin{cases} x^2-5 \u0026 x\u003c3\\\\ 3x-5 \u0026 x\\geq\t3 \\end{cases} \\ \\ a\u003d3\\)",
-      "allAnswers": [],
-      "tags": "functions, derivatives",
-      "url": "/question/65ecf11e-3255-4bcb-9d96-9991e90afb14",
-      "source": "AP Calculus Problems 2.10.13",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
     {
       "uuid": "4c114da9-6d4f-4aee-be44-19079a96b209",
       "contentType": "question",
@@ -358,7 +188,7 @@
       "tags": "functions, derivatives ",
       "url": "/question/4c114da9-6d4f-4aee-be44-19079a96b209",
       "source": "AP Calculus Problems 2.10.14",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "95142c1f-bb20-4d08-900a-c09af7b7a3d0",
@@ -370,12 +200,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Tangents, Normals, and Continuity",
-      "body": "Suppose that functions \\(f\\) and \\(g\\) and their first derivatives have the following values at \\(x\u003d-1\\) and at \\(x\u003d0\\). \n Evaluate the first derivatives of the following combinations of \\(f\\) and \\(g\\) at the given value of \\(x\\)\n   a) \\(3f(x)-g(x)\\), \\quad \\(x\u003d-1\\)\n   b) \\([f(x)]^3[g(x)]^3\\), \\quad \\(x\u003d0\\)\n   c) \\(g(f(x))\\), \\quad \\(x\u003d-1\\)\n   d) \\(f(g(x))\\), \\quad \\(x\u003d-1\\)\n   e) \\(\\dfrac{f(x)}{g(x)+2}\\), \\quad \\(x\u003d0\\)\n   f) \\(g(x+f(x))\\), \\quad \\(x\u003d0\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20471.png\"/\u003e",
+      "body": "Suppose that functions \\(f\\) and \\(g\\) and their first derivatives have the following values at \\(x\u003d-1\\) and at \\(x\u003d0\\). \n Evaluate the first derivatives of the following combinations of \\(f\\) and \\(g\\) at the given value of \\(x\\)\n   a) \\(3f(x)-g(x)\\), \\quad \\(x\u003d-1\\)\n   b) \\([f(x)]^3[g(x)]^3\\), \\quad \\(x\u003d0\\)\n   c) \\(g(f(x))\\), \\quad \\(x\u003d-1\\)\n   d) \\(f(g(x))\\), \\quad \\(x\u003d-1\\)\n   e) \\(\\dfrac{f(x)}{g(x)+2}\\), \\quad \\(x\u003d0\\)\n   f) \\(g(x+f(x))\\), \\quad \\(x\u003d0\\).\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20471.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "functions, derivatives",
       "url": "/question/95142c1f-bb20-4d08-900a-c09af7b7a3d0",
       "source": "AP Calculus Problems 2.10.15",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "c2fe4648-c233-41ea-ba93-9858d72940cb",
@@ -392,7 +222,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/c2fe4648-c233-41ea-ba93-9858d72940cb",
       "source": "AP Calculus Problems 2.11.1",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "307c9f04-8b51-4646-956d-723a9b51fb6a",
@@ -409,7 +239,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/307c9f04-8b51-4646-956d-723a9b51fb6a",
       "source": "AP Calculus Problems 2.11.2",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "4ae723f5-b045-4cf2-905a-286bd2d75a94",
@@ -426,7 +256,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/4ae723f5-b045-4cf2-905a-286bd2d75a94",
       "source": "AP Calculus Problems 2.11.3",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "69d58eba-461f-48a8-9280-9de336036316",
@@ -443,7 +273,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/69d58eba-461f-48a8-9280-9de336036316",
       "source": "AP Calculus Problems 2.11.4",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "ca6b694b-57c2-4660-8077-c72d78e5ffb1",
@@ -460,7 +290,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/ca6b694b-57c2-4660-8077-c72d78e5ffb1",
       "source": "AP Calculus Problems 2.11.5",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "7f14c51e-6307-47b9-b5fc-4e8ca04af80e",
@@ -477,7 +307,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/7f14c51e-6307-47b9-b5fc-4e8ca04af80e",
       "source": "AP Calculus Problems 2.11.6",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "b8e0f04e-05cd-44f7-814b-98cd117ee01d",
@@ -494,7 +324,7 @@
       "tags": "implicit differentiation, tangent line, normal line, curves",
       "url": "/question/b8e0f04e-05cd-44f7-814b-98cd117ee01d",
       "source": "AP Calculus Problems 2.11.7",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "53a5bac2-91cf-40d5-9922-a15401f3d3a7",
@@ -511,7 +341,7 @@
       "tags": "implicit differentiation, tangent line, normal line, curve",
       "url": "/question/53a5bac2-91cf-40d5-9922-a15401f3d3a7",
       "source": "AP Calculus Problems 2.11.8",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "76f068be-24ec-492d-8593-05adab8fef5c",
@@ -528,7 +358,7 @@
       "tags": "implicit differentiation, derivatives ",
       "url": "/question/76f068be-24ec-492d-8593-05adab8fef5c",
       "source": "AP Calculus Problems 2.11.9",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "d265cd68-4f1c-4473-9bd0-c4d0343cd56d",
@@ -545,7 +375,7 @@
       "tags": "implicit differentiation, derivatives",
       "url": "/question/d265cd68-4f1c-4473-9bd0-c4d0343cd56d",
       "source": "AP Calculus Problems 2.11.10",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "1ed0dca6-bbeb-4136-b728-053232f8cc27",
@@ -562,7 +392,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/1ed0dca6-bbeb-4136-b728-053232f8cc27",
       "source": "AP Calculus Problems 2.11.11",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "0572377a-ccaa-40b2-8f19-957fbea91955",
@@ -579,7 +409,7 @@
       "tags": "implicit differentiation, tangent line, curves ",
       "url": "/question/0572377a-ccaa-40b2-8f19-957fbea91955",
       "source": "AP Calculus Problems 2.11.12",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "d8636030-22e2-4f6d-88bf-fc8c9d821964",
@@ -596,7 +426,7 @@
       "tags": "implicit differentiation, derivative, tangent line, curve",
       "url": "/question/d8636030-22e2-4f6d-88bf-fc8c9d821964",
       "source": "AP Calculus Problems 2.11.13",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "0b90dab5-34b5-4c23-87cd-b45356214c06",
@@ -613,7 +443,7 @@
       "tags": "implicit differentiation, derivatives ",
       "url": "/question/0b90dab5-34b5-4c23-87cd-b45356214c06",
       "source": "AP Calculus Problems 2.11.14",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "8cc67104-8256-4796-903d-fd76d346c35a",
@@ -630,7 +460,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/8cc67104-8256-4796-903d-fd76d346c35a",
       "source": "AP Calculus Problems 3.1.1",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "fe408474-8680-4311-887d-84f1962109b6",
@@ -647,7 +477,7 @@
       "tags": "implicit differentiation, derivatives, curve",
       "url": "/question/fe408474-8680-4311-887d-84f1962109b6",
       "source": "AP Calculus Problems 2.11.15",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "d42ae391-b3ea-4c2a-a775-afa7409f27b3",
@@ -664,7 +494,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/d42ae391-b3ea-4c2a-a775-afa7409f27b3",
       "source": "AP Calculus Problems 3.1.2",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "c0b5172c-9d1f-45bb-b9c8-572f162109d7",
@@ -681,7 +511,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/c0b5172c-9d1f-45bb-b9c8-572f162109d7",
       "source": "AP Calculus Problems 3.1.3",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "c7afe678-bd26-4ee9-9872-1fb0d07d8b37",
@@ -698,7 +528,7 @@
       "tags": "implicit differentiation, derivative, tangent line, curves",
       "url": "/question/c7afe678-bd26-4ee9-9872-1fb0d07d8b37",
       "source": "AP Calculus Problems 2.11.16",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "36831aea-8ef0-4f19-832d-579f827fcb1a",
@@ -715,7 +545,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/36831aea-8ef0-4f19-832d-579f827fcb1a",
       "source": "AP Calculus Problems 3.1.4",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "7979a7d6-dfc9-4f1a-9e6d-99b44aa3353e",
@@ -732,7 +562,7 @@
       "tags": "area, circumference, circle, radius",
       "url": "/question/7979a7d6-dfc9-4f1a-9e6d-99b44aa3353e",
       "source": "AP Calculus Problems 2.12.1",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under the Curve/Subintervals"
+      "topic": "1d7ec98c-10dc-4bff-b331-2b22d8ba0300"
     },
     {
       "uuid": "b6bc0089-2b38-446c-b5c7-d1e864870bc4",
@@ -749,7 +579,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/b6bc0089-2b38-446c-b5c7-d1e864870bc4",
       "source": "AP Calculus Problems 3.1.5",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "c163597f-3fca-41de-bb6f-d7277e90b7d8",
@@ -766,7 +596,7 @@
       "tags": "volume, cylinder, radius",
       "url": "/question/c163597f-3fca-41de-bb6f-d7277e90b7d8",
       "source": "AP Calculus Problems 2.12.2",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
     },
     {
       "uuid": "ef539902-54a1-43a5-89be-7145a0c01e2a",
@@ -783,7 +613,7 @@
       "tags": "volume, surface area, sphere, radius",
       "url": "/question/ef539902-54a1-43a5-89be-7145a0c01e2a",
       "source": "AP Calculus Problems 2.12.3",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
     },
     {
       "uuid": "29ccd13a-73ef-403a-a0a8-88543c9faaa6",
@@ -800,7 +630,7 @@
       "tags": "volume, surface area, cube",
       "url": "/question/29ccd13a-73ef-403a-a0a8-88543c9faaa6",
       "source": "AP Calculus Problems 2.12.4",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
     },
     {
       "uuid": "a62442a1-f306-4de6-8d0c-f176d133104f",
@@ -817,7 +647,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/a62442a1-f306-4de6-8d0c-f176d133104f",
       "source": "AP Calculus Problems 3.1.6",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "f8a0ab32-96bd-4b9f-9819-d0cea75b7a94",
@@ -834,7 +664,7 @@
       "tags": "volume, surface area",
       "url": "/question/f8a0ab32-96bd-4b9f-9819-d0cea75b7a94",
       "source": "AP Calculus Problems 2.12.5",
-      "topic": "Pre-Calculus/Topics in Functions/Function Composition/Volume"
+      "topic": "896fd914-ffe4-48e2-a3bb-2ed550a0387e"
     },
     {
       "uuid": "874ad532-9c1e-4fdb-b8e4-bc44083bc88f",
@@ -851,7 +681,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/874ad532-9c1e-4fdb-b8e4-bc44083bc88f",
       "source": "AP Calculus Problems 3.1.7",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "299d9807-45c4-403d-8c84-cdefc1330692",
@@ -868,7 +698,7 @@
       "tags": "hypotenuse, right triangle",
       "url": "/question/299d9807-45c4-403d-8c84-cdefc1330692",
       "source": "AP Calculus Problems 2.12.6",
-      "topic": "Geometry/Polygons/Triangles/Right Triangles/Hypotenuse"
+      "topic": "0eaf255c-a497-47f6-be03-81405c0ccd8e"
     },
     {
       "uuid": "c54e4fd5-4273-4bed-9324-768b08c79705",
@@ -885,7 +715,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
       "url": "/question/c54e4fd5-4273-4bed-9324-768b08c79705",
       "source": "AP Calculus Problems 3.1.8",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "b7151d40-5569-4784-b809-f08b773502d1",
@@ -902,7 +732,75 @@
       "tags": "area, isosceles right triangle, hypotenuse",
       "url": "/question/b7151d40-5569-4784-b809-f08b773502d1",
       "source": "AP Calculus Problems 2.12.7",
-      "topic": "Calculus/Integral Calculus/Applications of Integration/Area Under the Curve/Subintervals"
+      "topic": "1d7ec98c-10dc-4bff-b331-2b22d8ba0300"
+    },
+    {
+      "uuid": "8a355437-2aed-4c54-bc06-e2b09176bf93",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Mean Value Theorem Practice",
+      "body": "Verify the two conditions required by the Mean Value Theorem and then find a suitable number \\(c\\) guaranteed to exist by the Mean Value Theorem.\n\n\\(F(x)\u003dx^3\\) on \\([1, 3]\\)",
+      "allAnswers": [],
+      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
+      "url": "/question/8a355437-2aed-4c54-bc06-e2b09176bf93",
+      "source": "AP Calculus Problems 3.1.9",
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
+    },
+    {
+      "uuid": "4a707c77-63d6-4bec-b6a4-a1d8e8ba28c9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Geometry",
+      "body": " A cylinder is constructed so that its height is exactly 4 times its radius.  If the volume of the cylinder is \\(500\\pi\\), then what is its radius? ",
+      "allAnswers": [],
+      "tags": "cylinder, radius, volume",
+      "url": "/question/4a707c77-63d6-4bec-b6a4-a1d8e8ba28c9",
+      "source": "AP Calculus Problems 2.12.8",
+      "topic": "b0f83bf2-18a9-41e8-ba47-e914b0fb4d96"
+    },
+    {
+      "uuid": "11d04e67-47dd-40c6-81e3-d2ff27214961",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Mean Value Theorem Practice",
+      "body": "Verify the two conditions required by the Mean Value Theorem and then find a suitable number \\(c\\) guaranteed to exist by the Mean Value Theorem.\n\n\\(x\\)",
+      "allAnswers": [],
+      "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point",
+      "url": "/question/11d04e67-47dd-40c6-81e3-d2ff27214961",
+      "source": "AP Calculus Problems 3.1.10",
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
+    },
+    {
+      "uuid": "3e206ccb-f009-4376-b8c6-e946d034223a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Geometry",
+      "body": "In the figure to the right, \\(DE\u003d2\\), \\(EC\u003d5\\), and \\(AB\u003d5\\).  Find the lengths of \\(\\overline{AC}\\) and \\(\\overline{BC}\\). \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20472.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "right triangle",
+      "url": "/question/3e206ccb-f009-4376-b8c6-e946d034223a",
+      "source": "AP Calculus Problems 2.12.9",
+      "topic": "ffd76e8f-098c-4969-bbb7-e0190f2096c3"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Complex Zeros and the Fundamental Theorem of Algebra",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2429.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2430.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2431.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2432.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2433.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2434.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2440.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2429.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2430.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2431.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2432.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2433.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2434.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2440.png\"/\u003e",
       "allAnswers": [],
       "tags": "real factorization theorem, conjugate pairs theorem, irreducible quadratic, real numbers, factored completely over the complex numbers, complex zeros ",
       "url": "/text-content/4cabf0b7-7c51-4869-94ad-9521006b3735",
       "source": "Precalculus, 3rd Edition 3.4",
-      "topic": "Pre-Calculus/Relations and Functions/Polynomial Functions/Real Zeros of Polynomials"
+      "topic": "9ed749b9-c8dd-4afa-b19e-53ef8c7f85f6"
     },
     {
       "uuid": "60a10d6d-8956-441e-bedb-0ae4d0ad7170",
@@ -933,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Rational Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2541.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2441.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2442.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2443.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2444.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2445.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2446.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2449.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2450.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2456.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2457.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2541.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2441.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2442.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2443.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2444.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2445.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2446.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2449.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2450.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2456.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2457.png\"/\u003e\n\n\u003cimg src\u003d\"/_static/img/content/10/.png\"/\u003e",
       "allAnswers": [],
       "tags": "rational functions, determination of slant asymptotes, slant asymptote, horizontal asymptotes ",
       "url": "/text-content/60a10d6d-8956-441e-bedb-0ae4d0ad7170",
       "source": "Precalculus, 3rd Edition 4.1",
-      "topic": "Pre-Calculus/Topics in Functions"
+      "topic": "56b222b3-44e9-4b0e-9455-62ce2eb21659"
     },
     {
       "uuid": "65f48a79-45b0-4e2a-a0fc-6c2c8abb5fd4",
@@ -950,14 +848,85 @@
       "viewable": true,
       "karma": 3,
       "title": "Rational Inequalities and Applications",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2477.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2478.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2479.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2480.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2492.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2493.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2494.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2477.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2478.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2479.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2480.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2492.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2493.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2494.png\"/\u003e",
       "allAnswers": [],
       "tags": "Rational functions, rational inequalities, applications of rational functions, applications of rational inequalities, Hooke\u0027s Law",
       "url": "/text-content/65f48a79-45b0-4e2a-a0fc-6c2c8abb5fd4",
       "source": "Precalculus, 3rd Edition 4.3",
-      "topic": "Pre-Calculus/Other Topics/Rational Functions/Rational Inequalities"
+      "topic": "777da13d-6e3c-41ab-952e-77eb9e3529f9"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "323a7a8a-0a20-4218-babb-2e4e79f427ef",
+      "subTopics": [
+        "3042a4ac-2237-43fb-a6f0-0a9b8d277e55",
+        "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae",
+        "22165e24-fa71-4e83-ba18-e14279ca0ca8",
+        "0ec64a18-80c4-42a5-a873-7dbf147f640d"
+      ],
+      "parentTopics": [
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
+      ],
+      "title": "Continuity and Differentiability",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 427000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "5378cd07-670c-4c19-80a3-7844b429a90a",
+      "subTopics": [],
+      "parentTopics": [
+        "a990cef8-77c6-47eb-9d6b-612b7f252c20"
+      ],
+      "title": "Solving Systems with Absolute Values",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "inequalities and absolute values, inequalities ,absolute values,",
+      "difficulty": 69000,
+      "contentUuids": [
+        "26105de3-ff67-4939-927f-19a03367983c",
+        "9556fe24-6d8d-4b01-88ea-aef08aff6847",
+        "0e977599-982c-4ec9-91a5-2b331f989854",
+        "0b10823d-1318-4da3-bfb4-dbed71e34e9f",
+        "94abdaa8-7b7e-409e-a61c-da67aa3178d0",
+        "7bbf7e03-cb0f-41ea-b05c-e1404c7cb5d7",
+        "81ff8b63-da21-4bec-8ca3-77e2716df159",
+        "f15f57a2-b53b-4f03-9450-0bb40fba01e8",
+        "14a1eacc-5a43-4144-9fc8-1f2df78d33b6",
+        "85efb965-b900-456a-8556-02a0a388dd6f",
+        "3a96f7dc-38c2-44d6-81c2-f16bf1d00f91",
+        "257d5b17-95ba-4dbf-af51-bc9a6e8da672",
+        "1cbbfbfd-8243-4bd2-b591-2c6a4e10da30",
+        "f96a8461-5589-4483-8785-4d4ccbb5f93c",
+        "778222f6-f7b6-47bb-b8af-6a91abf12c5f",
+        "f03b5a43-0566-4b6f-9d05-0b3c5bb76138",
+        "d3201494-d1df-4561-a2d2-f0a719328565",
+        "bfed24ea-65ac-4f84-ab0f-7697d52b9467",
+        "6b2cf2c8-5eef-46c8-8f35-1706e5d21824",
+        "479b58be-fc3f-4ea9-a132-9179ebb261be"
+      ]
+    },
+    {
+      "uuid": "09a4c566-5c0f-48b5-9d37-5b1649d5f4e5",
+      "subTopics": [],
+      "parentTopics": [
+        "b6b0cb4c-08b0-44d2-ab6f-8d95beec04d7"
+      ],
+      "title": "The Binomial Theorem",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " Fibonacci Sequence, sequences,mathematical induction,Summation, Pascal\\u0027s Triangle ,sequences, sequences , summation, Summation Notation ,binomial theorem, summation notation,",
+      "difficulty": 77000,
+      "contentUuids": [
+        "c6caf4f0-9441-4d9f-b7e6-5237b1afdd7a",
+        "e27b80f7-72d1-4425-b205-e5db0e6dc8e5",
+        "2cc4a04b-59c0-4b91-9a03-6ce3940fc582",
+        "5f93e81a-58ba-46ac-875d-11a0a56076cc"
+      ]
+    }
+  ]
 }

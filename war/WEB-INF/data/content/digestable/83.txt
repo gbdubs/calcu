@@ -2,364 +2,194 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10017.png\"/\u003e",
-      "uuid": "fbce3981-ffa7-4a2e-86ab-6bdefe7039bc",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/831.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/832.png\"/\u003e",
+      "uuid": "f5b7e4e2-bfbe-4a50-9051-d52f4c411acd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655777,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "True, False, or Uncertain Truth Value",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10016.png\"/\u003e",
+      "title": "Smallest Perimeter",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/830.png\"/\u003e",
       "allAnswers": [],
-      "tags": "truth value, uncertain truth value, conjunctions",
-      "url": "/practice-problem/fbce3981-ffa7-4a2e-86ab-6bdefe7039bc",
-      "source": "null 2.2.2"
+      "tags": "optimization, calc ",
+      "url": "/practice-problem/f5b7e4e2-bfbe-4a50-9051-d52f4c411acd",
+      "source": "null 6.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30038.png\"/\u003e",
-      "uuid": "6d1b99dd-854c-4f25-847d-f40fd836c011",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/834.png\"/\u003e",
+      "uuid": "755d220b-01bb-400a-a797-2499fee5f9a4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655777,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Triangle Classification",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30037.png\"/\u003e",
+      "title": "Maximize profit ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/833.png\"/\u003e",
       "allAnswers": [],
-      "tags": "triangle classification, isoceles triangles, right triangles, acute, obtuse, included angle, included side, opposite angle, opposite side",
-      "url": "/practice-problem/6d1b99dd-854c-4f25-847d-f40fd836c011",
-      "source": "null 1.7.1"
+      "tags": "optimization, calc ",
+      "url": "/practice-problem/755d220b-01bb-400a-a797-2499fee5f9a4",
+      "source": "null 6.1.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10019.png\"/\u003e",
-      "uuid": "e680cb15-8b8e-4e96-a059-64fa18cbefdf",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/836.png\"/\u003e",
+      "uuid": "b69386ac-621a-4df3-bd99-713dec4f3b88",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "True, False, or Uncertain Truth Values",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10018.png\"/\u003e",
+      "title": "Largest rectangle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/835.png\"/\u003e",
       "allAnswers": [],
-      "tags": "truth value, conditionals, uncertain truth value, symbols, logic",
-      "url": "/practice-problem/e680cb15-8b8e-4e96-a059-64fa18cbefdf",
-      "source": "null 2.2.3"
+      "tags": "optimization, calc ",
+      "url": "/practice-problem/b69386ac-621a-4df3-bd99-713dec4f3b88",
+      "source": "null 6.1.7"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30042.png\"/\u003e",
-      "uuid": "6e3c5240-5a3d-4559-9e26-4c64fa20b006",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/838.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/839.png\"/\u003e",
+      "uuid": "b5bb6695-b22e-46fd-945e-04feb7a0de64",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Geometry Diagram Assumptions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/30041.png\"/\u003e",
+      "title": "Largest Cone",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/837.png\"/\u003e",
       "allAnswers": [],
-      "tags": "geometry diagrams, diagram inference, diagram assumptions",
-      "url": "/practice-problem/6e3c5240-5a3d-4559-9e26-4c64fa20b006",
-      "source": "null 1.7.2"
+      "tags": "optimization, calc ",
+      "url": "/practice-problem/b5bb6695-b22e-46fd-945e-04feb7a0de64",
+      "source": "null 6.1.8"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20004.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20006.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20010.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20012.png\"/\u003e",
-      "uuid": "43a5a351-ce4a-4a39-bf61-60fef0204e48",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/841.png\"/\u003e",
+      "uuid": "f225edb7-e46c-4f0d-94aa-85683cb9a430",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Postulates of Lines, Line Segments, and Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20003.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20005.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20008.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20011.png\"/\u003e",
+      "title": "Minimize cost",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/840.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/43a5a351-ce4a-4a39-bf61-60fef0204e48",
-      "source": "null 4.1"
+      "tags": "optimization, minimization, calc ",
+      "url": "/practice-problem/f225edb7-e46c-4f0d-94aa-85683cb9a430",
+      "source": "null 6.1.9"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10023.png\"/\u003e",
-      "uuid": "c818cf6a-4dd6-424a-bfe8-68a304049bf0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/843.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/844.png\"/\u003e",
+      "uuid": "ad05598b-1d36-4f45-9958-5bc6e75e846d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655786,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sentences in Symbolic Form",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10022.png\"/\u003e",
+      "title": "Minimize travel",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/842.png\"/\u003e",
       "allAnswers": [],
-      "tags": "symbolic form, mathematical sentences, open sentences, symbols, logic",
-      "url": "/practice-problem/c818cf6a-4dd6-424a-bfe8-68a304049bf0",
-      "source": "null 2.3.1"
+      "tags": "optimization, minimize, calc ",
+      "url": "/practice-problem/ad05598b-1d36-4f45-9958-5bc6e75e846d",
+      "source": "null 6.1.10"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10025.png\"/\u003e",
-      "uuid": "a2c61609-3ed8-4453-9279-5cdce751d85c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/849.png\"/\u003e",
+      "uuid": "6e4b0599-d584-4701-80ce-3856b259e2f5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the Solution Set",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10024.png\"/\u003e",
+      "title": "Related rates, balloon",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/848.png\"/\u003e",
       "allAnswers": [],
-      "tags": "solution set, domain, logic, truth set",
-      "url": "/practice-problem/a2c61609-3ed8-4453-9279-5cdce751d85c",
-      "source": "null 2.3.2"
+      "tags": "related rates, calc ",
+      "url": "/practice-problem/6e4b0599-d584-4701-80ce-3856b259e2f5",
+      "source": "null 6.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20004.png\"/\u003e",
-      "uuid": "748b56c2-ebdd-4f5e-ada0-f85a3ea3d7d1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/852.png\"/\u003e",
+      "uuid": "6805c49a-ca4d-4da1-9546-a7e7bd26bc6a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Postulates of Lines, Line Segments, and Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20003.png\"/\u003e",
+      "title": "Related rates, water poured",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/850.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/851.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/748b56c2-ebdd-4f5e-ada0-f85a3ea3d7d1",
-      "source": "null 4.1"
+      "tags": "related rates, calc ",
+      "url": "/practice-problem/6805c49a-ca4d-4da1-9546-a7e7bd26bc6a",
+      "source": "null 6.2.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20006.png\"/\u003e",
-      "uuid": "7b746330-497c-48b7-9f46-5d3dfbf3329e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/854.png\"/\u003e",
+      "uuid": "63e0cb3c-f742-47b8-9597-02bfa2e32471",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Postulates of Lines, Line Segments, and Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20005.png\"/\u003e",
+      "title": "Angular speed of rope",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/853.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/7b746330-497c-48b7-9f46-5d3dfbf3329e",
-      "source": "null 4.1"
+      "tags": "related rates, angular speed, calc ",
+      "url": "/practice-problem/63e0cb3c-f742-47b8-9597-02bfa2e32471",
+      "source": "null 6.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20009.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20010.png\"/\u003e",
-      "uuid": "09124545-a74f-4801-8b90-cb4589b40779",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/857.png\"/\u003e",
+      "uuid": "123b91ad-f794-4415-a546-49b519daa063",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Postulates of Lines, Line Segments, and Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20008.png\"/\u003e",
+      "title": "Distance between two cars",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/856.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/09124545-a74f-4801-8b90-cb4589b40779",
-      "source": "null 4.1"
+      "tags": "related rates, calc ",
+      "url": "/practice-problem/123b91ad-f794-4415-a546-49b519daa063",
+      "source": "null 6.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20012.png\"/\u003e",
-      "uuid": "74e21306-a3d4-4892-8dcc-fa580d7356c9",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/862.png\"/\u003e",
+      "uuid": "2b10d19f-f9f2-436f-a7c0-8b4c2109d11a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655778,
+      "createdAt": 1437611655787,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Postulates of Lines, Line Segments, and Angles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20011.png\"/\u003e",
+      "title": "Newtons method",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/861.png\"/\u003e",
       "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/74e21306-a3d4-4892-8dcc-fa580d7356c9",
-      "source": "null 4.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20016.png\"/\u003e",
-      "uuid": "8239edc2-71a6-46f0-8360-2bb40b525c9b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655778,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Using Postulates and Definitions in Proofs",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/20015.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/practice-problem/8239edc2-71a6-46f0-8360-2bb40b525c9b",
-      "source": "null 4.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10033.png\"/\u003e",
-      "uuid": "a8ea2441-b2c8-4b3c-a513-40cfaba12658",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655778,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Identify the Truth Value",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10031.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10032.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "truth value, logic, symbolic form, symbols, conditional statements",
-      "url": "/practice-problem/a8ea2441-b2c8-4b3c-a513-40cfaba12658",
-      "source": "null 2.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10035.png\"/\u003e",
-      "uuid": "4edc5593-709d-4009-9895-d13182f9b53b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655778,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Statements in Symbolic Form",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10034.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "symbolic form, truth value, logic, symbols, conditionals",
-      "url": "/practice-problem/4edc5593-709d-4009-9895-d13182f9b53b",
-      "source": "null 2.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10044.png\"/\u003e",
-      "uuid": "4f69fb2f-a574-4afa-983f-8f64dfc5de0e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655778,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Writing the Inverse, Converse, and Contrapositive of Conditionals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10043.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "conditionals, inverses, contrapositives, converses, logic",
-      "url": "/practice-problem/4f69fb2f-a574-4afa-983f-8f64dfc5de0e",
-      "source": "null 2.5.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10046.png\"/\u003e",
-      "uuid": "c05d9f47-f3e8-411d-8731-327ffe1a496f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655778,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Writing the Inverse, Converse, and Contrapositive of Conditionals",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10045.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "inverses, converses, contrapositives, symbols, logic ",
-      "url": "/practice-problem/c05d9f47-f3e8-411d-8731-327ffe1a496f",
-      "source": "null 2.5.2"
+      "tags": "newtons method, calc ",
+      "url": "/practice-problem/2b10d19f-f9f2-436f-a7c0-8b4c2109d11a",
+      "source": "null 6.3.1"
     }
   ],
   "questions": [
-    {
-      "uuid": "70d35e22-3692-4146-99b1-34a9adb456e8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits",
-      "body": "Evaluate each limits.\n\\(\\lim\\limits_{x\\to 1} \\dfrac{x^2+x-2}{x^2-1}\\)",
-      "allAnswers": [],
-      "tags": "limits",
-      "url": "/question/70d35e22-3692-4146-99b1-34a9adb456e8",
-      "source": "AP Calculus Problems 1.14.22",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "e47f72ff-e4ff-4990-8c26-3763b6157de9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "Evaluate \\(\\dfrac{d}{dx}\\dint_a^b x^3\\ dx\\) where \\(a\\) and \\(b\\) are real numbers.",
-      "allAnswers": [],
-      "tags": "derivative, integrals, differentiation, fundamental theorem of calculus, average value",
-      "url": "/question/e47f72ff-e4ff-4990-8c26-3763b6157de9",
-      "source": "AP Calculus Problems 4.2.11",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "12ceb814-1547-4ccf-83cc-18fdd4eb3167",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "If \\(g(x)\u003d\\dint_0^x \\sqrt{u^2+2}\\ du\\), what is \\(\\dfrac{d^2g}{dx^2}\\)?",
-      "allAnswers": [],
-      "tags": "derivative, integrals, differentiation, fundamental theorem of calculus, average value",
-      "url": "/question/12ceb814-1547-4ccf-83cc-18fdd4eb3167",
-      "source": "AP Calculus Problems 4.2.12",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "4e4cd102-b299-41dd-a5e0-386406083667",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "If \\(g(x)\u003d\\dint_0^{x^2} f(u)\\ du\\), what is \\(\\dfrac{dg}{dx}\\)?",
-      "allAnswers": [],
-      "tags": "derivative, integrals, differentiation, fundamental theorem of calculus, average value",
-      "url": "/question/4e4cd102-b299-41dd-a5e0-386406083667",
-      "source": "AP Calculus Problems 4.2.13",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
-    {
-      "uuid": "1f8bd225-219b-41f9-9f3e-62a4d328c124",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787603,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Definite Integral",
-      "body": "\\(\\dint_{-2}^4 10\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
-      "url": "/question/1f8bd225-219b-41f9-9f3e-62a4d328c124",
-      "source": "AP Calculus Problems 4.2.14",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
-    },
     {
       "uuid": "c4d6fe20-a7e2-4f7a-9dd5-18675d92a64b",
       "contentType": "question",
@@ -375,7 +205,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/c4d6fe20-a7e2-4f7a-9dd5-18675d92a64b",
       "source": "AP Calculus Problems 4.2.15",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "8d0e0f13-2392-45b6-a5cb-c812ae0a28f7",
@@ -392,7 +222,7 @@
       "tags": "limits",
       "url": "/question/8d0e0f13-2392-45b6-a5cb-c812ae0a28f7",
       "source": "AP Calculus Problems 1.14.23",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "1afeca6c-e1c5-42a5-bec4-b3c9d1246c9e",
@@ -409,7 +239,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/1afeca6c-e1c5-42a5-bec4-b3c9d1246c9e",
       "source": "AP Calculus Problems 4.2.16",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "38697aab-557f-4e8a-b7a0-9a777153fc84",
@@ -426,7 +256,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/38697aab-557f-4e8a-b7a0-9a777153fc84",
       "source": "AP Calculus Problems 4.2.17",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "73be26c6-20af-491f-94ee-5f57a4c3f712",
@@ -443,7 +273,7 @@
       "tags": "limits, infinity",
       "url": "/question/73be26c6-20af-491f-94ee-5f57a4c3f712",
       "source": "AP Calculus Problems 1.14.24",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ed87556c-8f03-4441-8dfe-ea4cabe3730f",
@@ -460,7 +290,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ed87556c-8f03-4441-8dfe-ea4cabe3730f",
       "source": "AP Calculus Problems 4.2.18",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "8ac2bd89-2fe2-4fcd-9d7b-b9d9ea34dd99",
@@ -477,7 +307,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/8ac2bd89-2fe2-4fcd-9d7b-b9d9ea34dd99",
       "source": "AP Calculus Problems 4.2.19",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "c9b19cc0-7879-4cde-a16d-041e1fddbbf2",
@@ -494,7 +324,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/c9b19cc0-7879-4cde-a16d-041e1fddbbf2",
       "source": "AP Calculus Problems 4.2.20",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "6a946834-8f4e-4463-bafd-f95302acc765",
@@ -511,7 +341,7 @@
       "tags": "limits, domain, graph, functions",
       "url": "/question/6a946834-8f4e-4463-bafd-f95302acc765",
       "source": "AP Calculus Problems 1.14.25",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "52eea90a-5fcd-43c7-9b61-3d6db164ce68",
@@ -528,7 +358,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/52eea90a-5fcd-43c7-9b61-3d6db164ce68",
       "source": "AP Calculus Problems 4.2.21",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "07410732-7ad7-4e9e-ad33-0690b06b8d18",
@@ -545,7 +375,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/07410732-7ad7-4e9e-ad33-0690b06b8d18",
       "source": "AP Calculus Problems 4.2.22",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "7167c5e3-3c11-4176-9471-af9ee938439d",
@@ -562,7 +392,7 @@
       "tags": "limits, domain, graph, functions",
       "url": "/question/7167c5e3-3c11-4176-9471-af9ee938439d",
       "source": "AP Calculus Problems 1.14.26",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d383c5f6-019e-49ad-b098-b3e764f2b35d",
@@ -579,7 +409,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/d383c5f6-019e-49ad-b098-b3e764f2b35d",
       "source": "AP Calculus Problems 1.14.27",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "7c3f12ce-9f28-4a59-8c90-baeb0841211e",
@@ -596,7 +426,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/7c3f12ce-9f28-4a59-8c90-baeb0841211e",
       "source": "AP Calculus Problems 1.14.28",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "74813d5f-31cb-4eee-b2f9-d0c637a0afbc",
@@ -613,7 +443,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/74813d5f-31cb-4eee-b2f9-d0c637a0afbc",
       "source": "AP Calculus Problems 4.2.23",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "9537ee28-23aa-4b3c-b709-6e18ee6add92",
@@ -630,7 +460,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/9537ee28-23aa-4b3c-b709-6e18ee6add92",
       "source": "AP Calculus Problems 1.14.29",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "8f80978e-4f82-4b80-a844-99d6bddbad1a",
@@ -647,7 +477,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/8f80978e-4f82-4b80-a844-99d6bddbad1a",
       "source": "AP Calculus Problems 4.2.24",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "071e1897-75ae-4ba8-bcd4-7d73097acb0c",
@@ -664,7 +494,7 @@
       "tags": "limits, domain, graph, function",
       "url": "/question/071e1897-75ae-4ba8-bcd4-7d73097acb0c",
       "source": "AP Calculus Problems 1.14.30",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a2f1c8c7-86f1-4033-b389-3052f00a2ff5",
@@ -681,7 +511,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/a2f1c8c7-86f1-4033-b389-3052f00a2ff5",
       "source": "AP Calculus Problems 4.2.25",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "a8f62428-b811-4204-a27f-56183a7cebe0",
@@ -698,7 +528,7 @@
       "tags": "solving equations",
       "url": "/question/a8f62428-b811-4204-a27f-56183a7cebe0",
       "source": "AP Calculus Problems 1.15.1",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "a6ec6225-3325-4055-a94c-1f3ca6f4fefd",
@@ -715,7 +545,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/a6ec6225-3325-4055-a94c-1f3ca6f4fefd",
       "source": "AP Calculus Problems 4.2.26",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "d8396bc8-bb7b-4255-9fd8-712521e70265",
@@ -732,7 +562,7 @@
       "tags": "solving equations, equations",
       "url": "/question/d8396bc8-bb7b-4255-9fd8-712521e70265",
       "source": "AP Calculus Problems 1.15.2",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "63a30c1c-29a8-4557-9412-69fe222f303c",
@@ -749,7 +579,7 @@
       "tags": "solving equations, equations",
       "url": "/question/63a30c1c-29a8-4557-9412-69fe222f303c",
       "source": "AP Calculus Problems 1.15.3",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "ad163141-4440-4b1a-9662-233f9559a1d7",
@@ -766,7 +596,7 @@
       "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
       "url": "/question/ad163141-4440-4b1a-9662-233f9559a1d7",
       "source": "AP Calculus Problems 4.2.27",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "2abac068-9955-4149-86d6-799f2ba1701a",
@@ -783,7 +613,7 @@
       "tags": "solving equations, equations",
       "url": "/question/2abac068-9955-4149-86d6-799f2ba1701a",
       "source": "AP Calculus Problems 1.15.4",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "ade7a86a-a427-4e17-908c-c9b5ffc0a230",
@@ -800,7 +630,7 @@
       "tags": "solving equations, equations",
       "url": "/question/ade7a86a-a427-4e17-908c-c9b5ffc0a230",
       "source": "AP Calculus Problems 1.15.5",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "e2a48805-e5ec-456a-a30f-56383d8aaac1",
@@ -817,7 +647,7 @@
       "tags": "solving equations, equations",
       "url": "/question/e2a48805-e5ec-456a-a30f-56383d8aaac1",
       "source": "AP Calculus Problems 1.15.6",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "b80f0ed7-3e77-4527-83f7-1e7e44bbbb5d",
@@ -834,7 +664,7 @@
       "tags": "solving equations, equations",
       "url": "/question/b80f0ed7-3e77-4527-83f7-1e7e44bbbb5d",
       "source": "AP Calculus Problems 1.15.7",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "4e9863f3-d87a-4f8d-96a9-483e93f1c680",
@@ -851,7 +681,7 @@
       "tags": "solving equations, equations",
       "url": "/question/4e9863f3-d87a-4f8d-96a9-483e93f1c680",
       "source": "AP Calculus Problems 1.15.8",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "97012333-7c41-4c31-b8dd-a1ef70484303",
@@ -868,7 +698,7 @@
       "tags": "solving equations, equations",
       "url": "/question/97012333-7c41-4c31-b8dd-a1ef70484303",
       "source": "AP Calculus Problems 1.15.9",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "5dfe3939-1fc5-4a61-917f-14b36725a51b",
@@ -885,7 +715,7 @@
       "tags": "solving equations, equations",
       "url": "/question/5dfe3939-1fc5-4a61-917f-14b36725a51b",
       "source": "AP Calculus Problems 1.15.10",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
     },
     {
       "uuid": "49cf0db9-2007-4086-a3ab-120c87b465c0",
@@ -902,7 +732,92 @@
       "tags": "solving equations, equations",
       "url": "/question/49cf0db9-2007-4086-a3ab-120c87b465c0",
       "source": "AP Calculus Problems 1.15.11",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Solving by Graphing"
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "a21da1ba-51a0-4256-ae42-67f5d4405a3e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Solve each of the following equations.\n\\(e^{3x+7}\u003d12\\)",
+      "allAnswers": [],
+      "tags": "solving equations, equations",
+      "url": "/question/a21da1ba-51a0-4256-ae42-67f5d4405a3e",
+      "source": "AP Calculus Problems 1.15.12",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "4690742a-d86d-4ed9-b29b-ed3f812f92c0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Solve each of the following equations.\n\\(\\ln\\sqrt[4]{x+1}\u003d\\frac{1}{2}\\)",
+      "allAnswers": [],
+      "tags": "solving equations, equations",
+      "url": "/question/4690742a-d86d-4ed9-b29b-ed3f812f92c0",
+      "source": "AP Calculus Problems 1.15.13",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "4509a45c-3874-40a8-81a9-d14fa677011f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Solve each of the following equations.\n\\(2^{3x-1}\u003d\\frac{1}{2}\\)",
+      "allAnswers": [],
+      "tags": "solving equations, equations",
+      "url": "/question/4509a45c-3874-40a8-81a9-d14fa677011f",
+      "source": "AP Calculus Problems 1.15.14",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "2eaa5422-38dc-43da-bf59-05a6d33339b8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Solving Equations",
+      "body": "Solve each of the following equations.\n\\(\\log_8(x-5)\u003d\\frac{2}{3}\\)",
+      "allAnswers": [],
+      "tags": "solving equations, equations",
+      "url": "/question/2eaa5422-38dc-43da-bf59-05a6d33339b8",
+      "source": "AP Calculus Problems 1.15.15",
+      "topic": "2bfd1d8e-4d4f-4196-9729-8e455cbf19f4"
+    },
+    {
+      "uuid": "3dc04bb4-135d-45f5-b1ca-7f6505fdb203",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787604,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Definite Integral",
+      "body": "\\(\\dint_0^2 f(x)\\ dx\\) where \\(f(x)\u003d\\begin{cases} x^3 \u0026 0\\leq x\u003c1\\\\ 2-x \u0026 1\u003cx\\leq 2 \\end{cases}\\)",
+      "allAnswers": [],
+      "tags": "definite, integrals, differentiation, fundamental theorem of calculus, average value",
+      "url": "/question/3dc04bb4-135d-45f5-b1ca-7f6505fdb203",
+      "source": "AP Calculus Problems 4.2.28",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     }
   ],
   "textContent": [
@@ -921,7 +836,7 @@
       "tags": "inhomogeneous linear equations, variation of constants, superposition principle ",
       "url": "/text-content/a3f7a874-6de3-45bd-a460-dbbfa718b8ba",
       "source": "Forgotten Text 7 4.38",
-      "topic": "Calculus/Other Calculus Topics/Differential Equations/Inhomogeneous Linear Equations"
+      "topic": "3d982c73-bd0a-4f00-9800-ea14e86056f1"
     },
     {
       "uuid": "81b47a10-f95e-4542-8537-2c762d90db1c",
@@ -938,7 +853,7 @@
       "tags": "linearization, differential equations, pendulum equation, simple harmonic oscillation, harmonic oscillator",
       "url": "/text-content/81b47a10-f95e-4542-8537-2c762d90db1c",
       "source": "Forgotten Text 7 4.4",
-      "topic": "Calculus/Other Calculus Topics/Differential Equations/Second Order Linear Equations"
+      "topic": "83a99741-3268-443c-8c9c-9f048775d928"
     },
     {
       "uuid": "34cfc5c5-9ca8-4d6a-9b0c-fae7cb8e8b91",
@@ -955,9 +870,62 @@
       "tags": "vectors, sum of two vectors, zero vector, length of vector, position vector, parallelogram ",
       "url": "/text-content/34cfc5c5-9ca8-4d6a-9b0c-fae7cb8e8b91",
       "source": "Forgotten Text 7 5.42",
-      "topic": "Calculus/Other Calculus Topics/Vectors/Introduction to Vectors"
+      "topic": "009ec824-ae28-4c30-9f45-79a89e4fb090"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "0888f3d1-930a-464c-802d-3fa1fe672cc8",
+      "subTopics": [
+        "9e84628b-5bdd-4486-b0ce-c4b8c6d922a4",
+        "344c2274-e149-48dc-8d45-4746d77c718b",
+        "924b789a-3d2e-4c18-b133-de7e34b7a6db",
+        "ae3facfb-cc16-424b-ba2c-2039f97b8cb9",
+        "b91ed74f-ad04-43bf-ad4b-7a20fc2273b7"
+      ],
+      "parentTopics": [
+        "bcb4f0e4-542a-4fc3-aa96-39a5e2c9eff1"
+      ],
+      "title": "Conics",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "conics, hyperbola, conic sections, conic sections , parabola ,",
+      "difficulty": 316000,
+      "contentUuids": [
+        "f6692c0d-116c-4b5d-9b33-cf243ed5eea3",
+        "337afaaa-3ead-42dc-9969-3e622458d9a0"
+      ]
+    },
+    {
+      "uuid": "ae2d8907-7628-4ce4-bb93-19bf0b78b843",
+      "subTopics": [],
+      "parentTopics": [
+        "ea389f48-2433-4dd7-8912-abcf27405d89"
+      ],
+      "title": "Indeterminate Forms",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " improper integral, limits ,indeterminate form,",
+      "difficulty": 750000,
+      "contentUuids": [
+        "8eebfc7a-6260-40b5-ae9d-a4e5c0ab28e9"
+      ]
+    },
+    {
+      "uuid": "62c1329b-c088-40b4-9f09-995d80439ae6",
+      "subTopics": [],
+      "parentTopics": [
+        "733a0b45-f577-4d75-9998-0e7c2e0a654e"
+      ],
+      "title": "Infinity and Continuity",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " approaches infinity , asymptotes,infinity, limits,",
+      "difficulty": 424000,
+      "contentUuids": [
+        "ff5cd1c7-5bf4-40cc-a9c3-7fe15134cfe2"
+      ]
+    }
+  ]
 }

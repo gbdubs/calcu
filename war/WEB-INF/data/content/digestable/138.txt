@@ -2,517 +2,205 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eShow that the poles of the tangents of \\( y^{2}\u003d4kx(k\u0026gt;0)\\, \\) w.r.t the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) lie on a parabola. \u003c/p\u003e\n\u003cp\u003eLet \\( P(x_{1},y_{1})\\, \\) be the pole of a tangent \\( l\u003d0\\, \\) of \\( y^{2}\u003d4kx\\, \\) w.r.t the ellipse \\( S\u003d0\\, \\) where \\( l\u003dy-(mx+{\\frac {k}{m}})\\, \\) \u003c/p\u003e\n\u003cp\u003eThen the polar of P w.r.t S\u003d0 is \\( {\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}-1\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eSince \\( S_{1}\u003d0,l\u003d0\\, \\) represents the same line,comparing coefficients we get \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}}{a^{2}m}}\u003d{\\frac {y_{1}}{-b^{2}}}\u003d{\\frac {-m}{k}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}}{a^{2}m}}\u003d{\\frac {y_{1}}{-b^{2}}},m\u003d{\\frac {-b^{2}x_{1}}{a^{2}y_{1}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {y_{1}}{-b^{2}}}\u003d{\\frac {-m}{k}},m\u003d{\\frac {ky_{1}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {-b^{2}x_{1}}{a^{2}y_{1}}}\u003d{\\frac {ky_{1}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( y_{1}^{{2}}\u003d{\\frac {-b^{4}x_{1}}{ka^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the pole \\( P(x_{1},y_{1})\\, \\) lies on the parabola \\( y^{2}\u003d{\\frac {-b^{4}}{ka^{2}}}(x_{1})\\, \\) \u003c/p\u003e",
-      "uuid": "38561769-e7a0-4579-8b79-e9aba88f0e1c",
+      "authorSolution": " \\(\\dfrac\\pi2\\) ",
+      "uuid": "1b660ada-0755-4994-a9a5-4d0f49e7efac",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163444,
+      "creatorUserId": "",
+      "createdAt": 1437419361902,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the poles of the tangents of \\( y^{2}\u003d4kx(k\u0026gt;0)\\, \\) w.r.t the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) lie on a parabola.",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/38561769-e7a0-4579-8b79-e9aba88f0e1c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.32",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Change Of Variables Question",
+      "body": "  \\(\\int_{\\frac1{3\\sqrt3}}^{3\\sqrt3}\\frac1{x^{\\frac43} + x^{\\frac23}} dx \u003d\\) _____.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/1b660ada-0755-4994-a9a5-4d0f49e7efac",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that the poles of normal chords of the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) lie on the curve \\( {\\frac {a^{6}}{x^{2}}}+{\\frac {b^{6}}{y^{2}}}\u003d(a^{2}-b^{2})^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation of normal to the ellipse S\u003d0 at any point theta is \u003c/p\u003e\n\u003cp\u003e \\( l\u003d{\\frac {ax}{\\cos \\theta }}-{\\frac {by}{\\sin \\theta }}\u003da^{2}-b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the pole of l\u003d0 w.r.t S\u003d0 be \\( P(x_{1},y_{1})\\, \\) \u003c/p\u003e\n\u003cp\u003eThe polar of P w.r.t S\u003d0 is \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}-1\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eAs these two equations represent the same line i.e polar of P, \u003c/p\u003e\n\u003cp\u003eComparing the coefficients, we have \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{\\cos }\\theta }{a^{3}}}\u003d{\\frac {-y_{1}\\sin \\theta }{b^{3}}}\u003d{\\frac {1}{a^{2}-b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\sin \\theta \u003d{\\frac {-b^{3}}{y_{1}(a^{2}-b^{2})}},\\cos \\theta \u003d{\\frac {a^{3}}{x_{1}(a^{2}-b^{2})}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSquaring and adding \u003c/p\u003e\n\u003cp\u003e \\( 1\u003d\\sin ^{2}\\theta +\\cos ^{2}\\theta \u003d{\\frac {a^{6}}{x_{1}^{{2}}(a^{2}-b^{2})^{2}}}+{\\frac {b^{6}}{y_{1}^{{2}}(a^{2}-b^{2})^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {a^{6}}{x_{1}^{{2}}}}+{\\frac {b^{6}}{y_{1}^{{2}}}}\u003d(a^{2}-b^{2})^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore the pole lies on the curve \\( {\\frac {a^{6}}{x^{2}}}+{\\frac {b^{6}}{y^{2}}}\u003d(a^{2}-b^{2})^{2}\\, \\) \u003c/p\u003e",
-      "uuid": "92e5889f-3b6c-40ae-ad2d-1f96bfe200b3",
+      "authorSolution": " \\(495\\) ",
+      "uuid": "dabe1fbe-76c9-44cb-9049-6392e435217b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163455,
+      "creatorUserId": "",
+      "createdAt": 1437419361902,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the poles of normal chords of the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) lie on the curve \\( {\\frac {a^{6}}{x^{2}}}+{\\frac {b^{6}}{y^{2}}}\u003d(a^{2}-b^{2})^{2}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/92e5889f-3b6c-40ae-ad2d-1f96bfe200b3",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.33",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Partial Fractions",
+      "body": "  \\(\\int_0^{\\sqrt 2}x 10^{1+x^2} dx \u003d \\frac a{\\ln 10}\\)  where  \\(a\u003d\\) ______.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/dabe1fbe-76c9-44cb-9049-6392e435217b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cpre\u003eShow that the poles of the tangents to the circle  \\( x^{2}+y^{2}\u003da^{2}+b^{2}\\, \\)  w.r.t the ellipse  \\( {\\frac  {x^{2}}{a^{2}}}+{\\frac  {y^{2}}{b^{2}}}\u003d1\\, \\)  lies on  \\( {\\frac  {x^{2}}{a^{4}}}+{\\frac  {y^{2}}{b^{4}}}\u003d{\\frac  {1}{a^{2}+b^{2}}}\\, \\) \n\u003c/pre\u003e \n\u003cp\u003eAny point on the given circle is of the form \\( P((a^{2}+b^{2})\\cos \\alpha ,(a^{2}+b^{2})\\sin \\alpha )\\, \\) \u003c/p\u003e\n\u003cp\u003eThe tangent to the given circle at \\( P(\\alpha )\\, \\) is \u003c/p\u003e\n\u003cp\u003e \\( x\\cos \\alpha +y\\sin \\alpha \u003d{\\sqrt {a^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( Q(x_{1},y_{1})\\, \\) be the pole of this tangent w.r.t teh given ellipse is \\( {\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eThese two equations represent the same line,hence comparing the coefficients, \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {(a^{2})\\cos \\alpha }{x_{1}}}\u003d{\\frac {(b^{2})\\sin \\alpha }{y_{1}}}\u003d{\\frac {{\\sqrt {a^{2}+b^{2}}}}{1}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\cos \\alpha \u003d{\\frac {x_{1}({\\sqrt {a^{2}+b^{2}}})}{a^{2}}},\\sin \\alpha \u003d{\\frac {y_{1}({\\sqrt {a^{2}+b^{2}}})}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSquaring and adding,we get \u003c/p\u003e\n\u003cp\u003e \\( 1\u003d\\sin ^{2}\\alpha +\\cos ^{2}\\alpha \u003d{\\frac {x_{1}^{{2}}(a^{2}+b^{2})}{a^{4}}}+{\\frac {y_{1}^{{2}}(a^{2}+b^{2})}{b^{4}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}^{{2}}}{a^{4}}}+{\\frac {y_{1}^{{2}}}{b^{4}}}\u003d{\\frac {1}{a^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the locus of the poles of the tangetns of the circle w.r.t the ellipse is \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}+b^{2}}}\\, \\) \u003c/p\u003e",
-      "uuid": "02133d59-de7d-4c9b-87bd-bb509ee7c4b6",
+      "authorSolution": " \\(2\\) ",
+      "uuid": "7a1dd2cf-9501-4bfd-9a43-ccf73bd66c93",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163468,
+      "creatorUserId": "",
+      "createdAt": 1437419361902,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the poles of the tangents to the circle \\( x^{2}+y^{2}\u003da^{2}+b^{2}\\, \\) w.r.t the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) lies on \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}+b^{2}}}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/02133d59-de7d-4c9b-87bd-bb509ee7c4b6",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.34",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Partial Fractions",
+      "body": "  \\(\\int_1^9\\frac{dx}{(x+1)\\sqrt x+2x} \u003d \\frac1a\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/7a1dd2cf-9501-4bfd-9a43-ccf73bd66c93",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that the poles of the tangents to the auxiliary circle w.r.t the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) is the curve \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eAny point on the ausiliary circle is of the form \\( P(a\\cos \\alpha ,a\\sin \\alpha )\\, \\) \u003c/p\u003e\n\u003cp\u003eThe tangent to the circle at the point \\( P(\\alpha )\\, \\) is \\( x\\cos \\alpha +y\\sin \\alpha \u003da\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( Q(x_{1},y_{1})\\, \\) be the pole of this tangent w.r.t the ellipse given is \\( {\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eAs these two equations represent the same line,comparing the coefficients,we have \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {a^{2}\\cos \\alpha }{x_{1}}}\u003d{\\frac {b^{2}\\sin \\alpha }{y_{1}}}\u003d{\\frac {a}{1}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\cos \\alpha \u003d{\\frac {x_{1}}{a}},\\sin \\alpha \u003d{\\frac {ay_{1}}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSquaring and adding these two \u003c/p\u003e\n\u003cp\u003e \\( 1\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}+{\\frac {a^{2}y_{1}^{{2}}}{b^{4}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore, \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}^{{2}}}{a^{4}}}+{\\frac {y_{1}^{{2}}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the point Q lies on the curve \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}\\, \\) \u003c/p\u003e",
-      "uuid": "eba17134-db62-4184-8735-86e8dabbbc57",
+      "authorSolution": " \\(8\\) ,  \\(19\\) ",
+      "uuid": "ee6619f8-a288-427a-8d10-be6452d64025",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163481,
+      "creatorUserId": "",
+      "createdAt": 1437419361902,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the poles of the tangents to the auxiliary circle w.r.t the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) is the curve \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/eba17134-db62-4184-8735-86e8dabbbc57",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.35",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Trigonometric Integrals Problem",
+      "body": "  \\(\\int_{\\pi/6}^{\\pi/2} \\frac{\\cos^3x}{\\sqrt{\\sin x}} dx \u003d \\frac a5 - \\frac b{10\\sqrt2}\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d____.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/ee6619f8-a288-427a-8d10-be6452d64025",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eProve that the product of the perpendicular from the foci on any tangent to the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) is equal to \\( b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven ellipse is \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the equation of any tangent to the ellipse be \\( y\u003dmx+{\\sqrt {a^{2}m^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSL\u003dLength of the perpendicular from S(ae,0) on the tangent line above \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {|m(ae)+{\\sqrt {a^{2}m^{2}+b^{2}}}|}{{\\sqrt {m^{2}+1}}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLength of the perpendicular from S(-ae,0) to the tangent is \\( {\\frac {|m(-ae)+{\\sqrt {a^{2}m^{2}+b^{2}}}|}{{\\sqrt {m^{2}+1}}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eProduct of these two perpendiculars is \\( {\\frac {a^{2}m^{2}+b^{2}-a^{2}e^{2}m^{2}}{m^{2}+1}}\u003d{\\frac {m^{2}a^{2}(1-e^{2})+b^{2}}{m^{2}+1}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {m^{2}b^{2}+b^{2}}{m^{2}+1}}\u003d{\\frac {b^{2}(m^{2}+1)}{m^{2}+1}}\u003db^{2}\\, \\) \u003c/p\u003e",
-      "uuid": "6e47e520-8f31-4846-8663-93a927310d2b",
+      "authorSolution": " \\(12\\) ",
+      "uuid": "43110326-e81b-4078-895d-263fde70e244",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163493,
+      "creatorUserId": "",
+      "createdAt": 1437419361902,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Prove that the product of the perpendicular from the foci on any tangent to the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) is equal to \\( b^{2}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/6e47e520-8f31-4846-8663-93a927310d2b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.36",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Improper Riemann Integrals Question",
+      "body": "  \\(\\int_1^{4/3}\\dfrac1{x^2}\\sqrt{1-\\dfrac1x} dx \u003d \\dfrac1a\\)  where  \\(a\\) \u003d_____.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/43110326-e81b-4078-895d-263fde70e244",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the equation of the pair of tangents to the ellipse \\( x^{2}+3y^{2}\u003d3\\, \\) from the point \\( (2,-1)\\, \\) . \u003c/p\u003e\n\u003cp\u003eGiven ellipse is \\( S\\equiv x^{2}+3y^{2}-3\u003d0,(x_{1},y_{1})\u003d(2,-1)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( S_{1}\\equiv x(2)+3y(-1)-3\u003d2x-3y-3\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( S_{{11}}\\equiv (2)^{2}+3(-1)^{2}-3\u003d4\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore equation to the pair of tangents is \\( S_{1}^{{2}}\u003dSS_{{11}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (2x-3y-3)^{2}\u003d(x^{2}+3y^{2}-3)4\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 4x^{2}+9y^{2}-12xy+18y-12x\u003d4x^{2}+12y^{2}-12\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( y^{2}+4xy+4x-6y-7\u003d0\\, \\) \u003c/p\u003e",
-      "uuid": "a7e3a2eb-7da2-4cc3-b9e2-c4e60473dcf8",
+      "authorSolution": " \\(8\\pi\\) ",
+      "uuid": "2ac99334-acd8-49ab-9a77-d363c6345442",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163504,
+      "creatorUserId": "",
+      "createdAt": 1437419361903,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation of the pair of tangents to the ellipse \\( x^{2}+3y^{2}\u003d3\\, \\) from the point \\( (2,-1)\\, \\) .",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/a7e3a2eb-7da2-4cc3-b9e2-c4e60473dcf8",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.37",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Change Of Variables Problem",
+      "body": "  \\(\\int_0^{1/\\sqrt2}x\\sin^3(\\pi x^2)\\cos(\\pi x^2) dx \u003d \\frac1a\\)  where  \\(a\\) \u003d______.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/2ac99334-acd8-49ab-9a77-d363c6345442",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eA chord PQ of an ellipse subtends a right angle at the centre of the ellipse \\( S\u003d0\\, \\) .Show that the point of intersection of tangents at P and Q lies on the ellipse \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}+{\\frac {1}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet the tangents at P and Q intersects at \\( R(x_{1},y_{1})\\, \\) ,then PQ is the chord of tangents drawn from \\( (x_{1},y_{1})\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore \\( PQ\u003d{\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation of the pair of lines CP and CQ is obtained by homogenising the equation of S\u003d0 with PQ. \u003c/p\u003e\n\u003cp\u003eThe combined equation is \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d[{\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}]^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( x^{2}[{\\frac {1}{a^{2}}}-{\\frac {x_{1}^{{2}}}{a^{4}}}]-{\\frac {2x_{1}y_{1}xy}{a^{2}b^{2}}}+y^{2}[{\\frac {1}{b^{2}}}-{\\frac {y_{1}^{{2}}}{b^{4}}}]\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eBut angle PCQ is 90. \u003c/p\u003e\n\u003cp\u003eTherefore,the coefficients of square of x and square of y is equal to zero. \u003c/p\u003e\n\u003cp\u003e \\( [{\\frac {1}{a^{2}}}-{\\frac {x_{1}^{{2}}}{a^{4}}}]+[{\\frac {1}{b^{2}}}-{\\frac {y_{1}^{{2}}}{b^{4}}}]\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}^{{2}}}{a^{4}}}+{\\frac {y_{1}^{{2}}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}+{\\frac {1}{b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the point of intersection of tangents at P and Q lies on the ellipse \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}+{\\frac {1}{b^{2}}}\\, \\) \u003c/p\u003e",
-      "uuid": "997f6994-7ab8-41e9-b8a2-e7d1913c6adf",
+      "authorSolution": " \\(4\\) ",
+      "uuid": "c52822dd-8f41-45cf-9177-efbcf60fad76",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163516,
+      "creatorUserId": "",
+      "createdAt": 1437419361903,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "A chord PQ of an ellipse subtends a right angle at the centre of the ellipse \\( S\u003d0\\, \\) .Show that the point of intersection of tangents at P and Q lies on the ellipse \\( {\\frac {x^{2}}{a^{4}}}+{\\frac {y^{2}}{b^{4}}}\u003d{\\frac {1}{a^{2}}}+{\\frac {1}{b^{2}}}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/997f6994-7ab8-41e9-b8a2-e7d1913c6adf",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.38",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Trigonometric Integrals",
+      "body": "  \\(\\int_0^2\\frac{x^2}{\\sqrt{x^3+1}} dx \u003d \\frac a3\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/c52822dd-8f41-45cf-9177-efbcf60fad76",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eProve that the pair of tangents drawn to \\( 9x^{2}+16y^{2}\u003d144\\, \\) are perpendicular to eachother. \u003c/p\u003e\n\u003cp\u003eGiven \\( S\\equiv 9x^{2}+16y^{2}\u003d144\\, \\) and Let the point be \\( (x_{1},y_{1})\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( S_{1}\\equiv 9xx_{1}+16yy_{1}-144\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( S_{{11}}\\equiv 9x_{1}^{{2}}+16y_{1}^{{2}}-144\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,equation to the pair of tangents is \\( S_{1}^{{2}}\u003dSS_{{11}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (9xx_{1}+16yy_{1}-144)^{2}\u003d(9x^{2}+16y^{2}-144)(9x_{1}^{{2}}+16y_{1}^{{2}}-144)\\, \\) \u003c/p\u003e\n\u003cp\u003eSeparating the coefficients of \\( x^{2}\\, \\) and \\( y^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 81x_{1}^{{2}}+256y_{1}^{{2}}-81x_{1}^{{2}}-256y_{1}^{{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003eFrom the above,the sum of the coefficients of squares of x and y is zero,which is the condition for the two lines to be perpendicular. \u003c/p\u003e\n\u003cp\u003eHence the two tangents drawn on the given ellipse are perpendicular to each other. \u003c/p\u003e",
-      "uuid": "629baa6a-c86c-4137-b734-ffebb69aee28",
+      "authorSolution": " \\(7\\) ",
+      "uuid": "c81a0ff9-7c73-482a-b351-05bd43ca22ae",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163528,
+      "creatorUserId": "",
+      "createdAt": 1437419361903,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Prove that the pair of tangents drawn to \\( 9x^{2}+16y^{2}\u003d144\\, \\) are perpendicular to eachother.",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/629baa6a-c86c-4137-b734-ffebb69aee28",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.39",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Techniques Of Integration",
+      "body": "  \\(\\int_1^2 \\dfrac{2x^2 dx}{(x^3+1)^2} \u003d \\dfrac a{27}\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/c81a0ff9-7c73-482a-b351-05bd43ca22ae",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eShow that the equation of the auxiliary circle of the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) is \\( x^{2}+y^{2}\u003da^{2}\\, \\) . \u003c/p\u003e\n\u003cp\u003eThe equation to the ellipse is \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation to the tangent of the ellipse is \\( y\u003dmx\\pm {\\sqrt {a^{2}m^{2}+b^{2}}},y-mx\u003d\\pm {\\sqrt {a^{2}m^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThe equation to the perpendicular from either focus \\( (\\pm ae,0)\\, \\) on this tangent is given by \\( y\u003d{\\frac {-1}{m}}(x\\pm ae),my+x\u003d\\pm ae\\, \\) \u003c/p\u003e\n\u003cp\u003eTo find the locus of point of intersection of the above two equations,eliminate m from them. \u003c/p\u003e\n\u003cp\u003eSquaring and adding the two equations,we get \u003c/p\u003e\n\u003cp\u003e \\( (y-mx)^{2}+(my+x)^{2}\u003da^{2}m^{2}+b^{2}+a^{2}e^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( x^{2}(1+m^{2})+y^{2}(1+m^{2})\u003da^{2}m^{2}+a^{2}(1-e^{2})+a^{2}e^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (x^{2}+y^{2})(1+m^{2})\u003da^{2}(m^{2}+1)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( x^{2}+y^{2}\u003da^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore the locus is the auxiliary circle concentric with the ellipse. \u003c/p\u003e",
-      "uuid": "ec602174-ee4c-4bbf-8f16-fdffb9294cda",
+      "authorSolution": " \\(-1\\) ",
+      "uuid": "fe029fa7-8703-4063-8adb-2de43bdbc01c",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163540,
+      "creatorUserId": "",
+      "createdAt": 1437419361903,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Show that the equation of the auxiliary circle of the ellipse \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) is \\( x^{2}+y^{2}\u003da^{2}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/ec602174-ee4c-4bbf-8f16-fdffb9294cda",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.40",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Integration By Parts Problem",
+      "body": "  \\(\\int_4^9 \\frac{x-9}{3\\sqrt x + x} dx\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/fe029fa7-8703-4063-8adb-2de43bdbc01c",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eTangents at right angles are drawn to the ellipse \\( S\u003d0\\, \\) .Show that the locus of the midpoints of chords of contact is the curve \\( [{\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}]^{2}\u003d{\\frac {x^{2}+y^{2}}{a^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( P(x_{1},y_{1})\\, \\) be the mid point of a chord QR of the given ellipse. \u003c/p\u003e\n\u003cp\u003eEquation to chord QR is \\( S_{1}\u003dS_{{11}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}+{\\frac {y_{1}^{{2}}}{b^{2}}}\u003dk\\, \\) (say) \u003c/p\u003e\n\u003cp\u003eLet the tangents at Q and R to the ellipse meet at M. \u003c/p\u003e\n\u003cp\u003eTherefore coordinates of M are \\( \\left({\\frac {-a^{2}x_{1}}{a^{2}k}},{\\frac {-b^{2}y_{1}}{b^{2}k}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\left({\\frac {-x_{1}}{k}},{\\frac {-y_{1}}{k}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven that the tangents MQ and MR are perpendiculars. \u003c/p\u003e\n\u003cp\u003eMlies on director circle \\( x^{2}+y^{2}\u003da^{2}+b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {x_{1}^{{2}}}{k^{2}}}+{\\frac {y_{1}^{{2}}}{k^{2}}}\u003da^{2}+b^{2},k^{2}\u003d{\\frac {x_{1}^{{2}}+y_{1}^{{2}}}{a^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( [{\\frac {x_{1}^{{2}}}{a^{2}}}+{\\frac {y_{1}^{{2}}}{b^{2}}}]^{2}\u003d{\\frac {x_{1}^{{2}}+y_{1}^{{2}}}{a^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore the locus of P is \u003c/p\u003e\n\u003cp\u003e \\( [{\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}]^{2}\u003d{\\frac {x^{2}+y^{2}}{a^{2}+b^{2}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "9e48e04f-281d-4289-a99a-342e702ad4cf",
+      "authorSolution": " \\(32\\) ",
+      "uuid": "c507e306-6dde-418e-8563-8e828d6026ff",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163553,
+      "creatorUserId": "",
+      "createdAt": 1437419361903,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Tangents at right angles are drawn to the ellipse \\( S\u003d0\\, \\) .Show that the locus of the midpoints of chords of contact is the curve \\( [{\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}]^{2}\u003d{\\frac {x^{2}+y^{2}}{a^{2}+b^{2}}}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/9e48e04f-281d-4289-a99a-342e702ad4cf",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.41",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Trigonometric Integrals",
+      "body": "  \\(\\int_0^{\\pi/4}\\frac{\\tan^3x \\sec^2x}{\\bigl(1 + \\tan^4x\\bigr)^3} dx \u003d \\frac3a\\)  where  \\(a\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/c507e306-6dde-418e-8563-8e828d6026ff",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the locus of the midpoints of chords of an ellipse,whose poles lie on the auxiliary circle. \u003c/p\u003e\n\u003cp\u003eLet the ellipse be \\( {\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eLet \\( P(x_{1},y_{1})\\, \\) be the midpoint of a chord AB of the ellipse. \u003c/p\u003e\n\u003cp\u003eTherefore,the equation to AB is \\( {\\frac {xx_{1}}{a^{2}}}+{\\frac {yy_{1}}{b^{2}}}\u003d{\\frac {x_{1}^{{2}}}{a^{2}}}+{\\frac {y_{1}^{{2}}}{b^{2}}}\u003dk\\, \\) (say) \u003c/p\u003e\n\u003cp\u003eThe pole of the above line w.r.t the ellipse is \u003c/p\u003e\n\u003cp\u003e \\( Q\\left({\\frac {-x_{1}}{k}},{\\frac {-y_{1}}{k}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003eBut Q lies on auxiliary circle \\( x^{2}+y^{2}\u003da^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eHence, \\( x_{1}^{{2}}+y_{1}^{{2}}\u003dk^{2}a^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( x_{1}^{{2}}+y_{1}^{{2}}\u003da^{2}[{\\frac {x_{1}^{{2}}}{a^{2}}}+{\\frac {y_{1}^{{2}}}{b^{2}}}]^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the locus of P is \u003c/p\u003e\n\u003cp\u003e \\( x^{2}+y^{2}\u003da^{2}[{\\frac {x^{2}}{a^{2}}}+{\\frac {y^{2}}{b^{2}}}]^{2}\\, \\) \u003c/p\u003e",
-      "uuid": "d1627cf7-56c9-4717-b26f-1a48411f20a1",
+      "authorSolution": " \\(6\\) ",
+      "uuid": "71e09d71-c630-41c6-ae5c-076f8836cd4c",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163565,
+      "creatorUserId": "",
+      "createdAt": 1437419361903,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the locus of the midpoints of chords of an ellipse,whose poles lie on the auxiliary circle.",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/d1627cf7-56c9-4717-b26f-1a48411f20a1",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.42",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eP is a point on the ellipse \\( S\u003d0\\, \\) and Q is its corresponding point on the auxiliary circle. Prove that the locus of the point of intersection of the normals at P and Q is the circle given by \\( x^{2}+y^{2}\u003d(a+b)^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eEquation to the normal at \\( P(\\theta )\\, \\) on the ellipse is \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {ax}{\\cos \\theta }}-{\\frac {by}{\\sin \\theta }}\u003da^{2}-b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eP1 is the corresponding point on \\( x^{2}+y^{2}\u003da^{2},P_{1}\u003d1(a\\cos \\theta ,a\\sin \\theta )\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,equation to the normal to auxiliary circle is \\( y\u003da\\tan \\theta \\, \\) \u003c/p\u003e\n\u003cp\u003eFrom the above, \\( \\tan \\theta \u003d{\\frac {y}{x}},\\sin \\theta \u003d{\\frac {x}{{\\sqrt {x^{2}+y^{2}}}}},\\cos \\theta \u003d{\\frac {y}{{\\sqrt {x^{2}+y^{2}}}}}\\, \\) \u003c/p\u003e\n\u003cp\u003eEliminating theta from the equation of normal,we get \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {ax{\\sqrt {x^{2}+y^{2}}}}{x}}-{\\frac {by{\\sqrt {x^{2}+y^{2}}}}{y}}\u003da^{2}-b^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (a-b){\\sqrt {x^{2}+y^{2}}}\u003da^{2}-b^{2},{\\sqrt {x^{2}+y^{2}}}\u003da+b\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore,the locus of the first two equations is \\( x^{2}+y^{2}\u003d(a+b)^{2}\\, \\) \u003c/p\u003e",
-      "uuid": "3284abd7-0211-41ec-9000-f63d36e22719",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163577,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "P is a point on the ellipse \\( S\u003d0\\, \\) and Q is its corresponding point on the auxiliary circle. Prove that the locus of the point of intersection of the normals at P and Q is the circle given by \\( x^{2}+y^{2}\u003d(a+b)^{2}\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/3284abd7-0211-41ec-9000-f63d36e22719",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.43",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the equation of the ellipse whose vertices are \\( (-4,1),(6,1)\\, \\) and whose focus lies on the line \\( x-2y\u003d2\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven vertices \\( (-4,1),(6,1)\\, \\) \u003c/p\u003e\n\u003cp\u003eThe distance between the vertices is \\( 10\u003d2a,a\u003d5\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore centre\u003d \\( \\left({\\frac {-4+6}{2}},{\\frac {1+1}{2}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003eEquation to the major axis is \\( y-1\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eFocus lies on the line \\( x-2y\u003d2\\, \\) \u003c/p\u003e\n\u003cp\u003eSolving these two equations, we get the point as (4,1). \u003c/p\u003e\n\u003cp\u003eThe distance from the centre to the focus is ae\u003d3 \u003c/p\u003e\n\u003cp\u003eHence \\( a^{2}e^{2}\u003da^{2}-b^{2},b^{2}\u003d16\\, \\) \u003c/p\u003e\n\u003cp\u003eHence the equation of ellipse is \\( {\\frac {(x-1)^{2}}{25}}+{\\frac {(y-1)^{2}}{16}}\u003d1\\, \\) \u003c/p\u003e",
-      "uuid": "2fc524d9-862e-4ac2-992d-c7eeab32e8d2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation of the ellipse whose vertices are \\( (-4,1),(6,1)\\, \\) and whose focus lies on the line \\( x-2y\u003d2\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/2fc524d9-862e-4ac2-992d-c7eeab32e8d2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.44",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the equation of the ellipse whose vertices are \\( (-4,3),(8,3)\\, \\) and whose eccentricity is 5/6. \u003c/p\u003e\n\u003cp\u003eGiven vertices \\( (-4,3),(8,3),e\u003d{\\frac {5}{6}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSince the ordinates of the two vertices are equal,the major axis is parallel to x-axis. \u003c/p\u003e\n\u003cp\u003eTherefore,major axis is \\( 2a\u003d8-(-4)\u003d12,a\u003d6\\, \\) \u003c/p\u003e\n\u003cp\u003eNow \\( b^{2}\u003da^{2}(1-e^{2}),b^{2}\u003d36(1-{\\frac {25}{36}})\u003d11\\, \\) \u003c/p\u003e\n\u003cp\u003eCentre\u003dmid point of the two vertices\u003d \\( \\left({\\frac {8-4}{2}},{\\frac {3+3}{2}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003eCentre of the ellipse is (2,3). \u003c/p\u003e\n\u003cp\u003eThe equation of the ellipse is \\( {\\frac {(x-2)^{2}}{36}}+{\\frac {(y-3)^{2}}{11}}\u003d1\\, \\) \u003c/p\u003e",
-      "uuid": "0c482a0c-bd0c-445b-9f1c-4963c8658dc7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163608,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the equation of the ellipse whose vertices are \\( (-4,3),(8,3)\\, \\) and whose eccentricity is 5/6.",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/0c482a0c-bd0c-445b-9f1c-4963c8658dc7",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.45",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the point of contact of the tangent line \\( 4x+y-7\u003d0\\, \\) to the ellipse \\( x^{2}+3y^{2}\u003d3\\, \\) \u003c/p\u003e\n\u003cp\u003eThe given tangent is \\( 4x+y-7\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThe elipse is \\( x^{2}+3y^{2}\u003d3\\, \\) \u003c/p\u003e\n\u003cp\u003eFrom the two equations \u003c/p\u003e\n\u003cp\u003e \\( l\u003d4,m\u003d1,n\u003d-7,a^{2}\u003d3,b^{2}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eThe point of contact is \\( \\left({\\frac {-a^{2}l}{n}},{\\frac {-b^{2}m}{n}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\left({\\frac {(-3)(4)}{-7}},{\\frac {(-1)(1)}{-7}}\\right)\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\left({\\frac {12}{7}},{\\frac {1}{7}}\\right)\\, \\) \u003c/p\u003e",
-      "uuid": "bf4f2341-efc3-4b76-9a1c-ca92d8bf1e8f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163620,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the point of contact of the tangent line \\( 4x+y-7\u003d0\\, \\) to the ellipse \\( x^{2}+3y^{2}\u003d3\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/bf4f2341-efc3-4b76-9a1c-ca92d8bf1e8f",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.46",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eFind the value of k if the line \\( x+ky-5\u003d0\\, \\) is a tangent to the ellipse \\( 4x^{2}+9y^{2}\u003d20\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven tangent is \\( x+ky-5\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven ellipse is \\( 4x^{2}+9y^{2}\u003d20\\, \\) \u003c/p\u003e\n\u003cp\u003eThe condition for a line to be tangent to an ellipse is \\( a^{2}l^{2}+b^{2}m^{2}\u003dn^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eFrom the given equations \\( l\u003d1,m\u003dk,n\u003d-5,a^{2}\u003d5,b^{2}\u003d{\\frac {20}{9}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSubstituting these values in the condition of tangency,we get \u003c/p\u003e\n\u003cp\u003e \\( 5(1)^{2}+{\\frac {20}{9}}(k^{2})\u003d(-5)^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 45+20k^{2}\u003d225,20k^{2}\u003d180,k^{2}\u003d9,k\u003d\\pm 3\\, \\) \u003c/p\u003e",
-      "uuid": "a0ca27bc-166e-4f87-af61-02fffb487419",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556163631,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Geometry Practice",
-      "body": "Find the value of k if the line \\( x+ky-5\u003d0\\, \\) is a tangent to the ellipse \\( 4x^{2}+9y^{2}\u003d20\\, \\)",
-      "tags": "Geometry,Geometry,The Ellipse,Ellipse,Plane,auto-uploaded",
-      "url": "/practice-problem/a0ca27bc-166e-4f87-af61-02fffb487419",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Geo5.2.47",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Antiderivatives",
+      "body": "  \\(\\int_1^3\\frac{dx}{x^{1/2} + x^{3/2}} \u003d \\frac\\pi a\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
+      "url": "/practice-problem/71e09d71-c630-41c6-ae5c-076f8836cd4c",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "4cb634d5-ce78-4397-b8e7-83da114a0604"
     }
   ],
   "questions": [
-    {
-      "uuid": "f9570b85-ac92-482d-a502-5bffa17473e3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\(x^{2} + y^{2} - 8x + 4y + 11 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/f9570b85-ac92-482d-a502-5bffa17473e3",
-      "source": "Active Calc 7.5.20",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "91f9ab40-d546-424d-9df2-1bbd1461dac4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( 9x^{2} + 4y^{2} - 36x + 24y + 36 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/91f9ab40-d546-424d-9df2-1bbd1461dac4",
-      "source": "Active Calc 7.5.21",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "e2e87908-c56b-4796-aa02-0da5f576428c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( 9x^{2} - 4y^{2} - 36x - 24y - 36 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/e2e87908-c56b-4796-aa02-0da5f576428c",
-      "source": "Active Calc 7.5.22",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "a24ecc98-fb88-4ada-a93f-5beab71ad77b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( y^{2} + 8y - 4x + 16 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/a24ecc98-fb88-4ada-a93f-5beab71ad77b",
-      "source": "Active Calc 7.5.23",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "041ddc79-e4e8-457f-8878-043aea61d939",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quadratic Functions",
-      "body": "Assuming no air resistance or forces other than the Earth\u0027s gravity, the height above the ground at time t of a falling object is given by s(t) \u003d -4.9t\\(^{2}\\)+v\\(_{0}\\)t+s\\(_{0}\\) where s is in meters, t is in seconds, v\\(_{0}\\) is the object\u0027s initial velocity in meters per second and s\\(_{0}\\) is its initial position in meters.\n(a) What is the applied domain of this function?\n(b) Discuss with your classmates what each of v\\(_{0}\\) \u003e 0, v\\(_{0}\\)\u003d0 and v\\(_{0}\\) \u003c 0 would mean.\n(c) Come up with a scenario in which s\\(_{0}\\)\u003c0\n(d) Let\u0027s say a slingshot is used to shoot a marble straight up from the ground (s\\(_{0}\\)\u003d0) with an initial velocity of 15 meters per second. What is the marble\u0027s maximum height above the ground? At what time will it hit the ground?\n(e) Now shoot the marble from the top of a tower which is 25 meters tall. When does it hit the ground?\n(f) What would the height function be if instead of shooting the marble up off of the tower, you were to shoot it straight DOWN from the top of the tower?",
-      "allAnswers": [],
-      "tags": "quadratic function, function, domain, initial velocity",
-      "url": "/question/041ddc79-e4e8-457f-8878-043aea61d939",
-      "source": "Active Calc 2.3.25",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
-    },
-    {
-      "uuid": "5fd0e7b2-815d-4a38-8b87-2f93f27143fd",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( 4x^{2} + y^{2} - 8x + 4 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/5fd0e7b2-815d-4a38-8b87-2f93f27143fd",
-      "source": "Active Calc 7.5.24",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "a981d019-2dfd-4e10-9d54-1bd4811bb6b4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( 4x^{2} + 9y^{2} - 8x + 54y + 49 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/a981d019-2dfd-4e10-9d54-1bd4811bb6b4",
-      "source": "Active Calc 7.5.25",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "dcfef8ad-f774-48e4-8a0b-bc2ecd5a5634",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quadratic Functions",
-      "body": "The two towers of a suspension bridge are 400 feet apart. The parabolic cable attached to the tops of the towers is 10 feet above the point on the bridge deck that is midway between the towers. If the towers are 100 feet tall, find the height of the cable directly above a point of the bridge deck that is 50 feet to the right of the left-hand tower. ",
-      "allAnswers": [],
-      "tags": "word problem, quadratic function, function, parabola",
-      "url": "/question/dcfef8ad-f774-48e4-8a0b-bc2ecd5a5634",
-      "source": "Active Calc 2.3.26",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Parabola"
-    },
-    {
-      "uuid": "2b9c406a-2ad8-4ebb-9ee1-283c1662fb52",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quadratic Functions",
-      "body": "Graph f(x)\u003d|1-x\\(^{2}\\)|",
-      "allAnswers": [],
-      "tags": "quadratic function, function, absolute value function, graphing functions",
-      "url": "/question/2b9c406a-2ad8-4ebb-9ee1-283c1662fb52",
-      "source": "Active Calc 2.3.27",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "660dad47-f788-42c1-bf72-811f154a7cb6",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quadratic Functions",
-      "body": "Find all of the points on the line y \u003d 1 - x which are 2 units from (1,-1).",
-      "allAnswers": [],
-      "tags": "functions, quadratic functions",
-      "url": "/question/660dad47-f788-42c1-bf72-811f154a7cb6",
-      "source": "Active Calc 2.3.28",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "b85e90ff-f274-4028-b72a-7a0b1b8fe8c9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( x^{2} + y^{2} - 6x + 4y + 14 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/b85e90ff-f274-4028-b72a-7a0b1b8fe8c9",
-      "source": "Active Calc 7.5.26",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "3456c097-5005-42f9-93cf-525eff097329",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quadratic Functions",
-      "body": "Let L be the line y \u003d 2x +1. Find a function D(x) which measures the distance squared from a point on L to (0,0). Use this to find the point on L closest to (0,0).",
-      "allAnswers": [],
-      "tags": "quadratic function, function, distance, line ",
-      "url": "/question/3456c097-5005-42f9-93cf-525eff097329",
-      "source": "Active Calc 2.3.29",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "a4094b0c-69e2-483e-bb96-2ff5c013d0fb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Standard Form",
-      "body": "Find the standard form of the equation and then graph the conic section.\n\n\\( 2x^{2} + 4y^{2} + 12x - 8y + 25 \u003d 0 \\)",
-      "allAnswers": [],
-      "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
-      "url": "/question/a4094b0c-69e2-483e-bb96-2ff5c013d0fb",
-      "source": "Active Calc 7.5.27",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
-    {
-      "uuid": "616f77ec-99e2-408d-b938-46202609873b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787587,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Quadratic Functions",
-      "body": "Show that if a quadratic function f(x) \u003d ax\\(^{2}\\)+bx+c has two real zeros then the x-coordinate of the vertex is the midpoint of the zeros.",
-      "allAnswers": [],
-      "tags": "quadratic function, function, real zeros, x-coordinate, midpoint, zeros",
-      "url": "/question/616f77ec-99e2-408d-b938-46202609873b",
-      "source": "Active Calc 2.3.30",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
-    },
     {
       "uuid": "dce245ff-56df-4714-8cc0-343d325cea03",
       "contentType": "question",
@@ -528,7 +216,7 @@
       "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
       "url": "/question/dce245ff-56df-4714-8cc0-343d325cea03",
       "source": "Active Calc 7.5.28",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
+      "topic": "c645f979-23cc-4076-95c6-1de5d94cfd00"
     },
     {
       "uuid": "e9e275a6-fb17-406f-a43b-a4a4e5d1f1f8",
@@ -545,7 +233,7 @@
       "tags": "quadratic equation, equation, solving equations",
       "url": "/question/e9e275a6-fb17-406f-a43b-a4a4e5d1f1f8",
       "source": "Active Calc 2.3.31",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "5947e6f8-d8a2-43da-a18f-d3e79bbe73f2",
@@ -562,7 +250,7 @@
       "tags": "quadratic equation, equation, solving equation",
       "url": "/question/5947e6f8-d8a2-43da-a18f-d3e79bbe73f2",
       "source": "Active Calc 2.3.32",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "80898119-8264-477f-8909-5eb55b814ed3",
@@ -579,7 +267,7 @@
       "tags": "quadratic equation, equation, solving equations",
       "url": "/question/80898119-8264-477f-8909-5eb55b814ed3",
       "source": "Active Calc 2.3.33",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "2cb19e0d-c3a5-423c-a38c-db0fc67719f4",
@@ -596,7 +284,7 @@
       "tags": "hyperbolas, foci, branches, standard equation, asymptotes",
       "url": "/question/2cb19e0d-c3a5-423c-a38c-db0fc67719f4",
       "source": "Active Calc 7.5.29",
-      "topic": "Algebra/Functions/Conic Sections/Graphing Hyperbolas"
+      "topic": "c645f979-23cc-4076-95c6-1de5d94cfd00"
     },
     {
       "uuid": "86e2aee6-7ca9-4911-89ef-dbbdb334d5d1",
@@ -613,7 +301,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/86e2aee6-7ca9-4911-89ef-dbbdb334d5d1",
       "source": "Active Calc 2.4.1",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "df789e73-2f51-4acb-9eac-0cfcc91d5d88",
@@ -630,7 +318,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/df789e73-2f51-4acb-9eac-0cfcc91d5d88",
       "source": "Active Calc 2.4.2",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "7e41811b-4b5f-438a-a8bf-4fe5052f1c52",
@@ -647,7 +335,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/7e41811b-4b5f-438a-a8bf-4fe5052f1c52",
       "source": "Active Calc 2.4.3",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "8b83a66e-0566-4433-8540-95d706791542",
@@ -664,7 +352,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/8b83a66e-0566-4433-8540-95d706791542",
       "source": "Active Calc 2.4.4",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "940b0ed9-a5d2-454b-b4f6-0b0d1f10c2ec",
@@ -681,7 +369,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/940b0ed9-a5d2-454b-b4f6-0b0d1f10c2ec",
       "source": "Active Calc 2.4.5",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "1086ae10-77f9-4a50-99f4-2afdf327d47a",
@@ -698,7 +386,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/1086ae10-77f9-4a50-99f4-2afdf327d47a",
       "source": "Active Calc 2.4.6",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "928aca1e-703c-4ea8-b6f0-35a01fe3cf13",
@@ -715,7 +403,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/928aca1e-703c-4ea8-b6f0-35a01fe3cf13",
       "source": "Active Calc 2.4.7",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "cf423555-d4ac-4c48-b84b-d45b25ac9991",
@@ -732,7 +420,7 @@
       "tags": "inequality, interval notation, absolute value, quadratic function",
       "url": "/question/cf423555-d4ac-4c48-b84b-d45b25ac9991",
       "source": "Active Calc 2.4.8",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "29cecece-fbf4-4725-8622-93d99181a323",
@@ -749,7 +437,7 @@
       "tags": "word problem, interval, quadratic function, function",
       "url": "/question/29cecece-fbf4-4725-8622-93d99181a323",
       "source": "Active Calc 2.4.9",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "0b2da609-09ad-4997-b3e4-f582d6e08f43",
@@ -766,7 +454,7 @@
       "tags": "word problem, quadratic function, function",
       "url": "/question/0b2da609-09ad-4997-b3e4-f582d6e08f43",
       "source": "Active Calc 2.4.10",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "d304160d-5eff-4f15-aa5d-5e80b37017ef",
@@ -783,7 +471,7 @@
       "tags": "interval, quadratic function, function",
       "url": "/question/d304160d-5eff-4f15-aa5d-5e80b37017ef",
       "source": "Active Calc 2.4.11",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "458168be-ce04-49fb-a912-872a37bbdb19",
@@ -800,7 +488,7 @@
       "tags": "quadratic function, function, interval",
       "url": "/question/458168be-ce04-49fb-a912-872a37bbdb19",
       "source": "Active Calc 2.4.12",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "64c6e152-e64c-4704-9f4b-5676fb584a6f",
@@ -817,7 +505,7 @@
       "tags": "word problem, quadratic function, function",
       "url": "/question/64c6e152-e64c-4704-9f4b-5676fb584a6f",
       "source": "Active Calc 2.4.13",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "c52de044-a989-404b-95f6-72897a6729e7",
@@ -834,7 +522,7 @@
       "tags": "functions, range",
       "url": "/question/c52de044-a989-404b-95f6-72897a6729e7",
       "source": "Active Calc 2.4.14",
-      "topic": "Algebra/Functions/Quadratic Functions/Graphing Quadratic Functions/Axis of Symmetry"
+      "topic": "666fa2f2-c0e9-4c4c-b8a5-629d24f0b36f"
     },
     {
       "uuid": "d3017ab5-579d-4bf5-9cb0-aa3f3a8bf729",
@@ -851,7 +539,7 @@
       "tags": "inequality, absolute values, real numbers",
       "url": "/question/d3017ab5-579d-4bf5-9cb0-aa3f3a8bf729",
       "source": "Active Calc 2.4.15",
-      "topic": "Algebra/Functions/Graphing Functions/Graphing Linear Functions/Inequalities + Abs Values"
+      "topic": "6403024f-acf3-4127-b68c-e8fa703713ad"
     },
     {
       "uuid": "1078a0e5-f784-48e3-ba5b-54ad5f3fd2c8",
@@ -868,7 +556,7 @@
       "tags": "inequality, absolute values, real numbers",
       "url": "/question/1078a0e5-f784-48e3-ba5b-54ad5f3fd2c8",
       "source": "Active Calc 2.4.16",
-      "topic": "Algebra/Functions/Graphing Functions/Graphing Linear Functions/Inequalities + Abs Values"
+      "topic": "6403024f-acf3-4127-b68c-e8fa703713ad"
     },
     {
       "uuid": "5f76585d-3021-4f16-88a8-e7416b652adc",
@@ -885,7 +573,7 @@
       "tags": "inequality, absolute values, real number",
       "url": "/question/5f76585d-3021-4f16-88a8-e7416b652adc",
       "source": "Active Calc 2.4.17",
-      "topic": "Algebra/Functions/Graphing Functions/Graphing Linear Functions/Inequalities + Abs Values"
+      "topic": "6403024f-acf3-4127-b68c-e8fa703713ad"
     },
     {
       "uuid": "61982bc2-9148-4784-9015-970d303e1876",
@@ -902,7 +590,7 @@
       "tags": "inequality, absolute values, real numbers",
       "url": "/question/61982bc2-9148-4784-9015-970d303e1876",
       "source": "Active Calc 2.4.18",
-      "topic": "Algebra/Functions/Graphing Functions/Graphing Linear Functions/Inequalities + Abs Values"
+      "topic": "6403024f-acf3-4127-b68c-e8fa703713ad"
     },
     {
       "uuid": "a375fc76-35cd-4e44-991d-4756448c3305",
@@ -919,7 +607,228 @@
       "tags": "word problem, interval notation, inequality, absolute value, surface area",
       "url": "/question/a375fc76-35cd-4e44-991d-4756448c3305",
       "source": "Active Calc 2.4.19",
-      "topic": "Algebra/Functions/Graphing Functions/Graphing Linear Functions/Inequalities + Abs Values"
+      "topic": "6403024f-acf3-4127-b68c-e8fa703713ad"
+    },
+    {
+      "uuid": "c2b6fb52-734d-40b2-87ab-5c9404853990",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787587,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Inequalities with Absolute Value and Quadratic Functions",
+      "body": "Suppose f is a function, L is a real number and \\(\\varepsilon\\) is a positive number. What does the inequality |f(x) - L| \u003c \\(\\varepsilon\\) mean algebraically and graphically?",
+      "allAnswers": [],
+      "tags": "function, real number, inequality ",
+      "url": "/question/c2b6fb52-734d-40b2-87ab-5c9404853990",
+      "source": "Active Calc 2.4.20",
+      "topic": "6403024f-acf3-4127-b68c-e8fa703713ad"
+    },
+    {
+      "uuid": "086161dd-b078-438d-8893-051a7419d450",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Inequalities with Absolute Value and Quadratic Functions",
+      "body": "Sketch the graph of the relation\nR \u003d \\(\\left \\{ (x,y): y \\leq x-1 \\right \\}\\)\nR \u003d \\(\\left \\{ (x,y): y \u003e x^{2}+1 \\right \\}\\)",
+      "allAnswers": [],
+      "tags": "graph, relation",
+      "url": "/question/086161dd-b078-438d-8893-051a7419d450",
+      "source": "Active Calc 2.4.21",
+      "topic": "1ff86a88-d596-4432-a7b4-c77742f8799a"
+    },
+    {
+      "uuid": "810c2a30-a3cc-47bd-86a2-7525bcc37707",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Inequalities with Absolute Value and Quadratic Functions",
+      "body": "Sketch the graph of the relation.\nR \u003d \\(\\left \\{ (x,y): -1\u003cy\\leq2x+1 \\right \\}\\)\nR \u003d \\(\\left \\{ (x,y): x^{2} \\leq y \u003c x+2 \\right \\}\\)",
+      "allAnswers": [],
+      "tags": "graph, relation",
+      "url": "/question/810c2a30-a3cc-47bd-86a2-7525bcc37707",
+      "source": "Active Calc 2.4.22",
+      "topic": "1ff86a88-d596-4432-a7b4-c77742f8799a"
+    },
+    {
+      "uuid": "aba0f814-4f97-4c4d-a830-6b59871f4f20",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Inequalities with Absolute Value and Quadratic Functions",
+      "body": "Sketch the graph of the relation.\nR \u003d \\(\\left \\{ (x,y): |x|-4\u003cy\u003c2-x \\right \\}\\)\nR \u003d \\(\\left \\{ (x,y):x^{2} \u003c y \\leq |4x-3| \\right \\}\\)",
+      "allAnswers": [],
+      "tags": "graph, relation",
+      "url": "/question/aba0f814-4f97-4c4d-a830-6b59871f4f20",
+      "source": "Active Calc 2.4.23",
+      "topic": "1ff86a88-d596-4432-a7b4-c77742f8799a"
+    },
+    {
+      "uuid": "12ff079f-ce59-46ec-94d9-a90250a7fd85",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "Take a trip down memory lane and solve the given system using substitution and/or elimination. Classify each system as consistent independent, consistent dependent, or inconsistent. Check your answers both algebraically and graphically.\n\n\\(\\left\\{\\begin{matrix} x + 2y \u003d 5\n\\\\ x \u003d 6\n\n\\end{matrix}\\right. \\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/12ff079f-ce59-46ec-94d9-a90250a7fd85",
+      "source": "Active Calc 8.1.1",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "f61f9e1a-8b75-4bcf-9ffc-b55e8d9ad0c3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "\\(\\left\\{\\begin{matrix} 2y - 3x \u003d 1\n\\\\ y \u003d -3\n\n\\end{matrix}\\right. \\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/f61f9e1a-8b75-4bcf-9ffc-b55e8d9ad0c3",
+      "source": "Active Calc 8.1.2",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "6a316946-82c4-42fa-ac8d-c58a747206ad",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "\\(\\left\\{\\begin{matrix} \\frac{x+2y}{4} \u003d -5\n\\\\ \\frac{3x-y}{2} \u003d -1\n\n\\end{matrix}\\right. \\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/6a316946-82c4-42fa-ac8d-c58a747206ad",
+      "source": "Active Calc 8.1.3",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "77b3390c-6b04-44c3-87c3-6af17c0d30d8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "Take a trip down memory lane and solve the given system using substitution and/or elimination. Classify each system as consistent independent, consistent dependent, or inconsistent. Check your answers both algebraically and graphically.\n\n\\( \\left\\{\\begin{matrix} (2/3)x - (1/5)y \u003d 3\n\\\\ (1/2)x + (3/4)y \u003d 1\n\n\\end{matrix}\\right. \\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/77b3390c-6b04-44c3-87c3-6af17c0d30d8",
+      "source": "Active Calc 8.1.4",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "b743b9db-33a2-4e40-ab72-6ea26cdcdd58",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "Take a trip down memory lane and solve the given system using substitution and/or elimination. Classify each system as consistent independent, consistent dependent, or inconsistent. Check your answers both algebraically and graphically.\n\n\\(\\left\\{\\begin{matrix} (1/2)x - (1/3)y \u003d -1\n\\\\ 2y - 3x \u003d 6\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/b743b9db-33a2-4e40-ab72-6ea26cdcdd58",
+      "source": "Active Calc 8.4.5",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "893304ce-cd6c-4124-b6e5-5f4e388042f7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "Take a trip down memory lane and solve the given system using substitution and/or elimination. Classify each system as consistent independent, consistent dependent, or inconsistent. Check your answers both algebraically and graphically.\n\n\\(\\left\\{\\begin{matrix} x + 4y \u003d 6\n\\\\ (1/12)x + (1/3)y \u003d (1/2)\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/893304ce-cd6c-4124-b6e5-5f4e388042f7",
+      "source": "Active Calc 8.4.6",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "36eb8519-8e86-49ad-94d5-cc7d19fe7131",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "Take a trip down memory lane and solve the given system using substitution and/or elimination. Classify each system as consistent independent, consistent dependent, or inconsistent. Check your answers both algebraically and graphically.\n\n\\(\\left\\{\\begin{matrix} 3y - (3/2)x \u003d -(15/2)\n\\\\ (1/2)x - y \u003d (3/2)x\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/36eb8519-8e86-49ad-94d5-cc7d19fe7131",
+      "source": "Active Calc 8.4.7",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "b67a69ff-aff2-4826-9c94-e5700d9dff40",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Systems of Equations Practice",
+      "body": "Take a trip down memory lane and solve the given system using substitution and/or elimination. Classify each system as consistent independent, consistent dependent, or inconsistent. Check your answers both algebraically and graphically.\n\n\\(\\left\\{\\begin{matrix} (5/6)x + (5/3)y \u003d -(7/3)\n\\\\ -(10/3)x - (20/3)y \u003d 10\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems",
+      "url": "/question/b67a69ff-aff2-4826-9c94-e5700d9dff40",
+      "source": "Active Calc 8.1.8",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
+    },
+    {
+      "uuid": "b690c79b-0f4e-4298-8aca-a9305312002e",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787588,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Put into Triangular Form",
+      "body": "Put each system of linear equations into triangular form and solve the system if possible. Classify each system as consistent independent, consistent dependent, or inconsistent.\n\n\\(\\left\\{\\begin{matrix} -5x + y \u003d 17\n\\\\ x + y \u003d 5\n\n\\end{matrix}\\right.\\)",
+      "allAnswers": [],
+      "tags": "algebra, linear, matrices, systems of equations, systems, triangular form",
+      "url": "/question/b690c79b-0f4e-4298-8aca-a9305312002e",
+      "source": "Active Calc 8.1.9",
+      "topic": "451350d3-ca60-4c06-a8a8-881a704e7f4c"
     }
   ],
   "textContent": [
@@ -938,7 +847,7 @@
       "tags": "arithmetic, significant digits, real numbers, functions, algebra, logic, mathematical logic, proof ",
       "url": "/text-content/a2ce18db-58fc-4a76-a924-cba157ed6464",
       "source": "Forgotten Text 4 2.3",
-      "topic": "Calculus/Pre-Calculus Review/Real Numbers, Algebra, and Functions/Arithmetic of Units; Significant Digits"
+      "topic": "385abd06-2bd4-4935-b837-d212caddbc26"
     },
     {
       "uuid": "9973f704-f320-4ae7-9358-7a3e72071816",
@@ -955,7 +864,7 @@
       "tags": "algebra, discriminant, functions, real numbers, proof, mathematical logic, logic ",
       "url": "/text-content/9973f704-f320-4ae7-9358-7a3e72071816",
       "source": "Forgotten Text 4 2.4",
-      "topic": "Calculus/Pre-Calculus Review/Real Numbers, Algebra, and Functions/Algebra"
+      "topic": "acfdda22-3e09-4d78-a662-78cc9c93263b"
     },
     {
       "uuid": "146a3008-2263-4154-b6be-d886da2f9fa7",
@@ -972,9 +881,55 @@
       "tags": "functions, algebra, real numbers, logic, mathematical logic, valid arguments, proof",
       "url": "/text-content/146a3008-2263-4154-b6be-d886da2f9fa7",
       "source": "Forgotten Text 4 2.5",
-      "topic": "Calculus/Pre-Calculus Review/Real Numbers, Algebra, and Functions/Functions-I"
+      "topic": "e8dd1df0-8214-44be-8055-ce9e43cea8db"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "788f81dc-d67f-4830-9931-0408f01a2315",
+      "subTopics": [],
+      "parentTopics": [
+        "d7881072-7e4d-4352-9b31-a296358563d9"
+      ],
+      "title": "Integrals of Trigonometric Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " integration , integral of trig functions,trigonometric functions, integral,",
+      "difficulty": 662000,
+      "contentUuids": [
+        "421f6cc4-ba9b-48a9-831d-cd7519cc08e5"
+      ]
+    },
+    {
+      "uuid": "9d405043-49ea-41f6-a67a-e5502c6f94d0",
+      "subTopics": [],
+      "parentTopics": [
+        "44db27b7-1406-4ca1-9816-ec374b7d19bf"
+      ],
+      "title": "Interchange",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " inverse function,derivative, function,",
+      "difficulty": 298000,
+      "contentUuids": [
+        "4ad3af8d-debc-4c5e-acd1-957ac234730e"
+      ]
+    },
+    {
+      "uuid": "f2f45658-e55b-4e5d-a762-05ea2385ff13",
+      "subTopics": [],
+      "parentTopics": [
+        "22b1df01-adef-412c-99aa-d3c870c624db"
+      ],
+      "title": "Families of Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " critical values, functions, continuity ,derivatives, families of functions,",
+      "difficulty": 460000,
+      "contentUuids": [
+        "548bd999-cba8-41c8-a29a-db1f49b851a5"
+      ]
+    }
+  ]
 }

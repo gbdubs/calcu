@@ -187,91 +187,6 @@
       "url": "/practice-problem/41966d23-990e-4eff-b1d6-e06d38531b9c",
       "source": "http://www.exampleproblems.com/wiki/index.php/Trig1.6",
       "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eProve that \\( {\\frac {\\csc A}{\\csc A-1}}+{\\frac {\\csc A}{\\csc A+1}}\u003d2\\sec ^{2}A\\, \\) \u003c/p\u003e\n\u003cp\u003eLHS\u003d \\( {\\frac {\\csc A}{\\csc A-1}}+{\\frac {\\csc A}{\\csc A+1}}\u003d{\\frac {\\csc A(\\csc A+1)+\\csc A(\\csc A-1)}{(\\csc A+1)(\\csc A-1)}}\u003d{\\frac {\\csc ^{2}A+\\csc ^{2}A+\\csc A-\\csc A}{\\csc ^{2}A-1}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {2\\csc ^{2}A}{\\cot ^{2}A}}\u003d{\\frac {2\\csc ^{2}A}{{\\frac {\\cos ^{2}A}{\\sin ^{2}A}}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 2{\\frac {\\sin ^{2}A}{(\\cos ^{2}A)(\\sin ^{2}A)}}\u003d2{\\frac {1}{\\cos ^{2}A}}\u003d2\\sec ^{2}A\\, \\) \u003dRHS \u003c/p\u003e",
-      "uuid": "11bb4561-6def-4167-8760-66b1f2dc6ed1",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556150697,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Trigonometry Practice",
-      "body": "Prove that \\( {\\frac {\\csc A}{\\csc A-1}}+{\\frac {\\csc A}{\\csc A+1}}\u003d2\\sec ^{2}A\\, \\)",
-      "tags": "Trigonometry,Trigonometry,Basics,Trigonometry,auto-uploaded",
-      "url": "/practice-problem/11bb4561-6def-4167-8760-66b1f2dc6ed1",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Trig1.7",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eSimplify \\( {\\sqrt {{\\frac {1+\\sin A}{1-\\sin A}}}}\u003d\\sec A+\\tan A\\, \\) \u003c/p\u003e\n\u003cp\u003eRationalizing the denominator in LHS,we get \u003c/p\u003e\n\u003cp\u003eLHS\u003d \\( {\\sqrt {{\\frac {(1+\\sin A)^{2}}{(1+\\sin A)(1-\\sin A)}}}}\u003d{\\sqrt {{\\frac {(1+\\sin A)^{2}}{1-\\sin ^{2}A}}}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {1+\\sin A}{{\\sqrt {\\cos ^{2}A}}}}\u003d{\\frac {1+\\sin A}{\\cos A}}\u003d{\\frac {1}{\\cos A}}+{\\frac {\\sin A}{\\cos A}}\u003d\\sec A+\\tan A\\, \\) \u003dRHS \u003c/p\u003e",
-      "uuid": "61f9acdf-8792-428d-b8b9-44d0756b4457",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556150712,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Trigonometry Practice",
-      "body": "Simplify \\( {\\sqrt {{\\frac {1+\\sin A}{1-\\sin A}}}}\u003d\\sec A+\\tan A\\, \\)",
-      "tags": "Trigonometry,Trigonometry,Basics,Trigonometry,auto-uploaded",
-      "url": "/practice-problem/61f9acdf-8792-428d-b8b9-44d0756b4457",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Trig1.8",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eProve that \\( \\sin ^{6}\\theta +\\cos ^{6}\\theta \u003d1-3\\sin ^{2}\\theta \\cdot \\cos ^{2}\\theta \\, \\) \u003c/p\u003e\n\u003cp\u003eLHS\u003d \\( \\sin ^{6}\\theta +\\cos ^{6}\\theta \u003d(\\sin ^{2}\\theta )^{3}+(\\cos ^{2}\\theta )^{3}\u003d(\\sin ^{4}\\theta +\\cos ^{2}\\theta )(\\sin ^{2}\\theta -\\sin ^{2}\\theta \\cdot \\cos ^{2}\\theta +\\cos ^{4}\\theta )\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( (1)(\\sin ^{4}\\theta +\\cos ^{4}\\theta -\\sin \\theta \\cos \\theta )\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( [(\\sin ^{2}\\theta +\\cos ^{2}\\theta )^{2}-2\\sin ^{2}\\theta \\cos ^{2}\\theta -\\sin ^{2}\\theta \\cos ^{2}\\theta ]\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 1-3\\sin ^{2}\\theta \\cos ^{2}\\theta \\, \\) \u003dRHS \u003c/p\u003e",
-      "uuid": "fcfe8528-b57c-414d-9d9d-c4cec87d8dfa",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556150728,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Trigonometry Practice",
-      "body": "Prove that \\( \\sin ^{6}\\theta +\\cos ^{6}\\theta \u003d1-3\\sin ^{2}\\theta \\cdot \\cos ^{2}\\theta \\, \\)",
-      "tags": "Trigonometry,Trigonometry,Basics,Trigonometry,auto-uploaded",
-      "url": "/practice-problem/fcfe8528-b57c-414d-9d9d-c4cec87d8dfa",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Trig1.9",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eSimplify \\( {\\frac {\\sin ^{3}\\theta +\\cos ^{3}\\theta }{\\sin \\theta +\\cos \\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003eGiven that \\( {\\frac {\\sin ^{3}\\theta +\\cos ^{3}\\theta }{\\sin \\theta +\\cos \\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003eSimplifying we get \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {(\\sin \\theta +\\cos \\theta )(\\sin ^{2}\\theta -\\sin \\theta \\cos \\theta +\\cos ^{2}\\theta )}{\\sin \\theta +\\cos \\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\sin ^{2}\\theta +\\cos ^{2}\\theta -\\sin \\theta \\cos \\theta \\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 1-\\sin \\theta \\cos \\theta \\, \\) \u003c/p\u003e \n\u003cpre\u003ewhich is the simplest form.\n\u003c/pre\u003e",
-      "uuid": "06396066-4ba3-426c-bfa8-46b41334d4b2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556150744,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Trigonometry Practice",
-      "body": "Simplify \\( {\\frac {\\sin ^{3}\\theta +\\cos ^{3}\\theta }{\\sin \\theta +\\cos \\theta }}\\, \\)",
-      "tags": "Trigonometry,Trigonometry,Basics,Trigonometry,auto-uploaded",
-      "url": "/practice-problem/06396066-4ba3-426c-bfa8-46b41334d4b2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Trig1.10",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eProve that \\( {\\frac {\\sin ^{4}\\theta -\\cos ^{4}\\theta }{\\sin ^{2}\\theta -\\cos ^{2}\\theta }}\u003d1\\, \\) \u003c/p\u003e\n\u003cp\u003eLHS is \\( {\\frac {\\sin ^{4}\\theta -\\cos ^{4}\\theta }{\\sin ^{2}\\theta -\\cos ^{2}\\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {(\\sin ^{2}\\theta -\\cos ^{2}\\theta )(\\sin ^{2}\\theta +\\cos ^{2}\\theta )}{\\sin ^{2}\\theta -\\cos ^{2}\\theta }}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\sin ^{2}\\theta +\\cos ^{2}\\theta \\, \\) \u003c/p\u003e\n\u003cp\u003e \\( 1\\, \\) \u003dRHS \u003c/p\u003e",
-      "uuid": "3b3e142b-4570-4ea6-9c71-e64a789c6910",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556150761,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Trigonometry Practice",
-      "body": "Prove that \\( {\\frac {\\sin ^{4}\\theta -\\cos ^{4}\\theta }{\\sin ^{2}\\theta -\\cos ^{2}\\theta }}\u003d1\\, \\)",
-      "tags": "Trigonometry,Trigonometry,Basics,Trigonometry,auto-uploaded",
-      "url": "/practice-problem/3b3e142b-4570-4ea6-9c71-e64a789c6910",
-      "source": "http://www.exampleproblems.com/wiki/index.php/Trig1.11",
-      "topic": "NONE"
     }
   ],
   "questions": [
@@ -851,36 +766,38 @@
       "source": "www.exampleproblems.com"
     },
     {
-      "uuid": "c2660dea-bbba-4754-8c3b-a51ee35cec55",
+      "uuid": "85efb965-b900-456a-8556-02a0a388dd6f",
       "contentType": "question",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556150573,
+      "creatorUserId": "",
+      "createdAt": 1437419361641,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Trigonometry Practice",
-      "body": "If a 30 foot tall ladder leans against a wall, and the base of the ladder makes a 65 degree angle with the ground, then how far up the wall does the ladder go?",
-      "tags": "Trigonometry,Trigonometry,Trigonometry,auto-uploaded",
-      "url": "/question/c2660dea-bbba-4754-8c3b-a51ee35cec55",
-      "source": "www.exampleproblems.com",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Inequalities And Absolute Values",
+      "body": " The inequality  \\(-15 \\le x \\le 7\\)  can be expressed in the form  \\(\\abs{x-a} \\le b\\)  where \n   \\(a\u003d\\)  ___ and  \\(b\u003d\\)  ___ .",
+      "allAnswers": [],
+      "tags": "inequalities and absolute values, inequalities ,absolute values",
+      "url": "/question/85efb965-b900-456a-8556-02a0a388dd6f",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "5378cd07-670c-4c19-80a3-7844b429a90a"
     },
     {
-      "uuid": "c9b6c96d-537d-4bd4-a979-8a3c85c6cea6",
+      "uuid": "3a96f7dc-38c2-44d6-81c2-f16bf1d00f91",
       "contentType": "question",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556154395,
+      "creatorUserId": "",
+      "createdAt": 1437419361646,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Integral Equations Practice",
-      "body": "Find lambda: \\( y(x)\u003d\\lambda \\int _{0}^{1}(x^{2}-z^{2})y(z)dz\\, \\)",
-      "tags": "Integral Equations,Integral,Equations,auto-uploaded",
-      "url": "/question/c9b6c96d-537d-4bd4-a979-8a3c85c6cea6",
-      "source": "www.exampleproblems.com",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Inequalities And Absolute Values",
+      "body": " Find all numbers  \\(x\\)  which satisfy  \\(\\abs{x^2+2}\u003d\\abs{x^2-11}\\) .   Answer:  \\(x\u003d\\)  _____ and  \\(x\u003d\\)  _____ .",
+      "allAnswers": [],
+      "tags": "inequalities and absolute values, inequalities ,absolute values",
+      "url": "/question/3a96f7dc-38c2-44d6-81c2-f16bf1d00f91",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "5378cd07-670c-4c19-80a3-7844b429a90a"
     }
   ],
   "textContent": [
@@ -899,7 +816,7 @@
       "tags": "undefined terms, set, point, line, straight line, plane, geometry, undefined",
       "url": "/text-content/b144a71a-5484-419f-81c8-b731e236b11f",
       "source": "Amsco Geometry Textbook 1.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "4a30ae4e-131a-4fde-813f-0fa559eafd09",
@@ -916,7 +833,7 @@
       "tags": "real number, closure, properties of real numbers, real identities",
       "url": "/text-content/4a30ae4e-131a-4fde-813f-0fa559eafd09",
       "source": "Amsco Geometry Textbook 1.2",
-      "topic": "Trigonometry/Triangle Formulas/Law of Cosines"
+      "topic": "6450955b-442d-4d0d-8ab5-11c7fee38648"
     },
     {
       "uuid": "e77cc3a3-29b5-43dd-9e12-98f230b5e7db",
@@ -933,9 +850,95 @@
       "tags": "midpoint, bisector, line segment, geometry",
       "url": "/text-content/e77cc3a3-29b5-43dd-9e12-98f230b5e7db",
       "source": "Amsco Geometry Textbook 1.4",
-      "topic": "Trigonometry/Graphing Trigonometric Functions/Sinusoids"
+      "topic": "e80fe800-5e12-45b3-8658-222fc6143441"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "a910b974-9578-426a-8311-7fdd4fd01416",
+      "subTopics": [],
+      "parentTopics": [
+        "55f21531-13c8-4f94-9708-fbc2d08a8946"
+      ],
+      "title": "Graphs of Polynomials",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " graphing polynomials, polynomial functions,polynomials, end behavior ,",
+      "difficulty": 303000,
+      "contentUuids": [
+        "5408f437-9924-4789-b6bd-fa6617a91bb5"
+      ]
+    },
+    {
+      "uuid": "661247b2-e3c9-4bab-8c1d-c327b5324a73",
+      "subTopics": [],
+      "parentTopics": [
+        "3b9d2882-08a2-4221-a2f8-b56459999efa"
+      ],
+      "title": "Perpendicular Lines",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " perpendicular planes ,perpendicular lines,",
+      "difficulty": 91000,
+      "contentUuids": [
+        "bf9d4002-f156-492c-96fb-98221d050dff"
+      ]
+    },
+    {
+      "uuid": "3af6d87b-6574-400f-b333-1a680005168c",
+      "subTopics": [],
+      "parentTopics": [
+        "1f258abc-43c4-4941-b3f6-b71b0c747117"
+      ],
+      "title": "Riemann Sums and Fundamental Theorem",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " integration , fundamental theorem of calculus,riemann sums, integral,",
+      "difficulty": 541000,
+      "contentUuids": [
+        "2aa06c41-7dc9-497b-adc3-8df623ce35e3"
+      ]
+    },
+    {
+      "uuid": "98184890-c629-46bf-992f-44faeb82d632",
+      "subTopics": [],
+      "parentTopics": [
+        "e69bffa4-0170-4d7b-b680-a0bfe491fdc0"
+      ],
+      "title": "Exponential and Logarithmic Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " derivative of a logarithm, derivative of exponential, derivatives of complex functions,derivative of logarithmic functions, power rule,derivative, chain rule, complex derivatives,implicit differentiation, constant rule, second derivative, higher derivative, logarithmic functions, high derivative, functions, exponential growth,word problem, exponential growth word problem, calculus word problem, differential equations,",
+      "difficulty": 457000,
+      "contentUuids": [
+        "6f7deffd-01be-47fb-b030-689431b6c821",
+        "fa3caae0-3b42-4f66-80e9-10f826c3a329",
+        "b9a2224f-271e-4743-9ac2-d52097089765",
+        "d3a26a42-9229-47d8-a2cd-994bc38d8d30",
+        "dff4b591-7e1f-46ad-b5a1-59c4df77feb9",
+        "b971bf31-9895-4bfa-8771-1ae9bc5d6ddb",
+        "28ffd8c9-d52c-4aaf-b0b4-1caca229a77d",
+        "d6a478c0-6770-49f5-8e12-a58c1a5c8957",
+        "68adb94e-573f-42b9-8468-715974637c3f",
+        "3d78a022-1760-4907-bc5a-152043b3ddca",
+        "9afe5ea0-b731-4145-8790-5ccf64f02c86",
+        "0a6edbdc-765d-46e3-8f4d-deecf419d80d",
+        "ee21b777-434e-480b-aa85-8895f414c22f",
+        "c924c2c3-c756-44e7-a7ec-bb6be5664e71",
+        "57554e33-0bdf-4419-b95e-caf883fb38f0",
+        "673da934-d529-4705-b757-9ccabf20cc22",
+        "20e01758-5a5b-4d71-b560-84f1714d2abd",
+        "b1ddef30-b907-4e5b-bdf3-c56aa68442ef",
+        "34ba9b08-d060-492d-8348-9ee6dea976e9",
+        "24c0a3c0-3f9b-4bc1-940f-448d54d66e80",
+        "f02889b5-a0c7-483d-a94b-82416b0ef0d7",
+        "456d886e-dbb2-49c9-b5d9-db4141c80afa",
+        "462cc0c5-e138-417c-afef-0908c3177204",
+        "5403d4ad-9613-48cf-8a63-cbe412d1d89c",
+        "e70170e0-42f7-4f87-88f7-3efc82080681",
+        "c3b7e453-3bb1-4e31-8600-568b3a5c912a"
+      ]
+    }
+  ]
 }

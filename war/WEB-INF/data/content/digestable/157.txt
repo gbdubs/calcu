@@ -2,414 +2,194 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "circular,  \\(x\\) ",
-      "uuid": "b1153b07-040e-45df-bb3d-512de05973db",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/468.png\"/\u003e",
+      "uuid": "a2a0e502-b006-429b-bca7-84bbda622410",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362090,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Quadric Surfaces",
-      "body": " The surface whose parametrization is given by    \\[ \\vec{ }r(u,v) \u003d (u,u\\cos v, u\\sin v) \\] with  \\(u \\ge 0\\)  and  \\(0 \\le v \\le 2\\pi\\)  is the upper half of a(n) _________ cone opening along the __-axis.",
+      "title": "Exact sin and cos theta",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/467.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/b1153b07-040e-45df-bb3d-512de05973db",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
+      "tags": "sin, tan, cos, trig, trig functions ",
+      "url": "/practice-problem/a2a0e502-b006-429b-bca7-84bbda622410",
+      "source": "null 1.4.4"
     },
     {
-      "authorSolution": "circular,  \\(z\\) ",
-      "uuid": "3d7c354b-3c0b-4209-9902-6632b615390f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/480.png\"/\u003e",
+      "uuid": "146b291d-adca-4308-b2dc-d1046958c6cc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362090,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Elliptic Paraboloids",
-      "body": " The surface whose parametrization is given by    \\[ \\vec{ }r(u,v) \u003d (\\cos u, \\sin u, v) \\] with  \\(0 \\le u \\le 2\\pi\\)  and  \\(v \\in \\R\\)  is a _______ cylinder whose axis lies along the __-axis.",
+      "title": "Solving triangles",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/479.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/3d7c354b-3c0b-4209-9902-6632b615390f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
+      "tags": "triangles, sines, trig ",
+      "url": "/practice-problem/146b291d-adca-4308-b2dc-d1046958c6cc",
+      "source": "null 2.1.1"
     },
     {
-      "authorSolution": " \\(\\sqrt{1 + u^2 + v^2}\\) ",
-      "uuid": "f2d083a3-16bc-451d-9c29-f750e79dd94d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/488.png\"/\u003e",
+      "uuid": "1ed0fcec-5acd-4c65-9232-2273414001ee",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362090,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Hyperboloids Of 1 And 2 Sheets Practice",
-      "body": " Let  \\(S\\)  be that portion of the hyperboloid  \\(x^2 + y^2 - z^2 \u003d -1\\)  that lies above the rectangle  \\([-1,1] \\times [-2,2]\\)  in the  \\(xy\\) -plane.   A parametric representation of  \\(S\\)  is   \\[\\vec{ }r(u,v) \u003d ( u , v , \\underline{\\hphantom{OOOOOOOOOO}} )\\] where  \\(-1 \\le u \\le 1\\)  and  \\(-2 \\le v \\le 2\\) .",
+      "title": "Solving triangles, pt. 2",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/487.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surfaces, quadric surfaces ,spheres ,ellipsoids ,elliptic paraboloids ,hyperboloids of 1 and 2 sheets ,parametrized surface ,level surface",
-      "url": "/practice-problem/f2d083a3-16bc-451d-9c29-f750e79dd94d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surfaces"
+      "tags": "sine, cos, trig identities ",
+      "url": "/practice-problem/1ed0fcec-5acd-4c65-9232-2273414001ee",
+      "source": "null 2.2.1"
     },
     {
-      "authorSolution": " \\(78\\pi\\) ",
-      "uuid": "54a79670-3a75-4d92-98d4-49f8addb0d55",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/490.png\"/\u003e",
+      "uuid": "756833a4-5a78-49a0-a476-86e19e17d654",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Surface Area",
-      "body": " The area of the surface which is formed when the curve       \\[ 2x \u003d y\\sqrt{y^2 - 1} + \\ln\\bigl(y - \\sqrt{y^2 - 1}\\bigr) \\] for  \\(2 \\le y \\le 5\\)  is revolved about the  \\(x\\) -axis is ______.",
+      "title": "Solving triangles, pt.3",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/489.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/54a79670-3a75-4d92-98d4-49f8addb0d55",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "triangles, trig, trig identities, cos ",
+      "url": "/practice-problem/756833a4-5a78-49a0-a476-86e19e17d654",
+      "source": "null 2.2.2"
     },
     {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "dc7eefde-bf5b-49dd-8d5e-d2701485e1ae",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/492.png\"/\u003e",
+      "uuid": "03c99abd-7286-44fb-aa84-caf5f0808528",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Surfaces Of Revolution",
-      "body": " The area of the surface obtained by revolving that portion of the astroid         \\[ \\left\\{\\begin{aligned} x \u0026\u003d \\sin^3 t  \\\\                                 y \u0026\u003d \\cos^3 t                   \\end{aligned}            \\right.   \\] for which  \\(0 \\le t \\le \\dfrac\\pi2\\)  about the  \\(x\\) -axis is  \\(\\dfrac{a\\pi}5\\)  where  \\(a \u003d\\) ___.",
+      "title": "solving triangles, pt. 4",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/491.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/dc7eefde-bf5b-49dd-8d5e-d2701485e1ae",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "law of cosines, cos, law of sines, trig ",
+      "url": "/practice-problem/03c99abd-7286-44fb-aa84-caf5f0808528",
+      "source": "null 2.2.3"
     },
     {
-      "authorSolution": " \\(4\\) ,  \\(2\\) ,  \\(6\\) ",
-      "uuid": "be45ce9d-d77c-428d-a2df-aad85967ec69",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/494.png\"/\u003e",
+      "uuid": "000f2d88-5190-4fd3-95ef-a397cdfd06a4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Surfaces Of Revolution Practice",
-      "body": " The surface area of the solid which results from revolving the curve  \\(3x^2 + 4y^2 \u003d 12\\)  about the  \\(x\\) -axis is  \\(\\dfrac a{\\sqrt3}\\pi^p + b\\pi\\)  where  \\(a\\) \u003d___,   \\(p\\) \u003d___, and  \\(b\\) \u003d___.",
+      "title": "parallelogram, law of cosines",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/493.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/be45ce9d-d77c-428d-a2df-aad85967ec69",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "law of cosines, cosines, parallelogram ",
+      "url": "/practice-problem/000f2d88-5190-4fd3-95ef-a397cdfd06a4",
+      "source": "null 2.2.4"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "9b9f9b57-2d7e-4022-b62c-d345806c6e6a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/498.png\"/\u003e",
+      "uuid": "abbc6097-95d7-48b2-b740-f1989fead39e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Surface Area",
-      "body": " A surface is defined parametrically by      \\[ \\vec{ }R(u,v) \u003d u\\cos v \\vec{ }i + u\\sin v \\vec{ }j + v \\vec{ } k \\] where  \\(0 \\le u \\le 1\\)  and  \\(0 \\le v \\le 2\\pi\\) .\n  (a) The equation of the tangent plane to the surface at the point  \\((-\\frac12,0,\\pi)\\)  is  \\(ax + by + z \u003d c\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.\n  (b) The area of the surface is  \\(a(b + \\ln(1 + b))\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d____.",
+      "title": "Hypothetical triangle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/497.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/9b9f9b57-2d7e-4022-b62c-d345806c6e6a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "triangle, law of tangents, tangents, proof ",
+      "url": "/practice-problem/abbc6097-95d7-48b2-b740-f1989fead39e",
+      "source": "null 2.3.1"
     },
     {
-      "authorSolution": " \\(6\\) ,  \\(5\\) ",
-      "uuid": "6ae063fb-e675-4217-986f-5a38e5e0e989",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/503.png\"/\u003e",
+      "uuid": "d201db2f-13ec-470a-876b-bdf55ee5bf1e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Surface Area",
-      "body": " Rotate the portion of the parabola  \\(y \u003d x^2\\)  where  \\(0 \\le x \\le 1\\)  about the  \\(y\\) -axis.    The area of the surface thus obtained is  \\(\\dfrac\\pi a(b\\sqrt b - 1)\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Find area of triangle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/502.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/6ae063fb-e675-4217-986f-5a38e5e0e989",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "triangle, area of triangle, triangle area formula ",
+      "url": "/practice-problem/d201db2f-13ec-470a-876b-bdf55ee5bf1e",
+      "source": "null 2.4.1"
     },
     {
-      "authorSolution": " \\(70\\) ",
-      "uuid": "0daee357-36e5-4100-a120-2c460549755e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/505.png\"/\u003e",
+      "uuid": "e657ad9e-f4dd-4c67-9e70-5c85c441bfaf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Surface Area Question",
-      "body": " The surface area of that portion of the sphere  \\(x^2 + y^2 + z^2 \u003d 14z\\)  that is inside the paraboloid  \\(x^2 + y^2 \u003d 5z\\)  is  \\(a\\pi\\)  where  \\(a\\) \u003d_____.",
+      "title": "Floating point triangle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/504.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/0daee357-36e5-4100-a120-2c460549755e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "floating point, Herons formula, area of triangle, triangle ",
+      "url": "/practice-problem/e657ad9e-f4dd-4c67-9e70-5c85c441bfaf",
+      "source": "null 2.4.2"
     },
     {
-      "authorSolution": " \\(\\pi\\) ,  \\(2\\) ",
-      "uuid": "3b188dd3-9653-43a9-a4a8-4fa2ad27ae63",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/514.png\"/\u003e",
+      "uuid": "9f04cf1f-8e31-4699-a5ab-7adcbc7d8151",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Surfaces Of Revolution Question",
-      "body": " The circular cylinder  \\(x^2 +y^2 \u003d x\\)  divides the unit sphere into 2 pieces.    Let  \\(U\\)  be the piece inside the cylinder and  \\(V\\)  be the one outside.    Then the ratio of the surface area of  \\(V\\)  to the surface area of  \\(U\\)  is  \\(\\dfrac{a + b}{a - b}\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Radius of inscribed circle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/513.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/3b188dd3-9653-43a9-a4a8-4fa2ad27ae63",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
+      "tags": "radius of circle, inscribed circle, triangle ",
+      "url": "/practice-problem/9f04cf1f-8e31-4699-a5ab-7adcbc7d8151",
+      "source": "null 2.5.1"
     },
     {
-      "authorSolution": " \\(\\sqrt2 \\pi\\) ",
-      "uuid": "64e77271-a060-422e-b9ab-94f602f3930e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/519.png\"/\u003e",
+      "uuid": "9b51efa7-130b-44e9-866c-5cfd604a54ac",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362093,
+      "createdAt": 1437611655784,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Surfaces Of Revolution Problem",
-      "body": " The surface area of that portion of the cone  \\(z^2 \u003d x^2 + y^2\\)  lying between the planes  \\(z \u003d 0\\)  and  \\(z \u003d 1\\)  is ________.",
+      "title": "Prove trig identity",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/518.png\"/\u003e",
       "allAnswers": [],
-      "tags": "surface area, surfaces of revolution ,surface area",
-      "url": "/practice-problem/64e77271-a060-422e-b9ab-94f602f3930e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Surface Area"
-    },
-    {
-      "authorSolution": " \\(81\\) ",
-      "uuid": "5ea18124-7361-495a-9530-2f0c514326c6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362096,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Spherical Coordinates Question",
-      "body": "  \\(\\int_0^3\\int_0^y\\int_0^y z dx dz dy \u003d \\dfrac a8\\)  where  \\(a\\) \u003d____.",
-      "allAnswers": [],
-      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
-      "url": "/practice-problem/5ea18124-7361-495a-9530-2f0c514326c6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
-    },
-    {
-      "authorSolution": " \\(\\frac13(1 - 2x - y)\\) ,  \\(\\frac12(1 - y)\\) ",
-      "uuid": "40034c97-7b78-4a90-8150-b508995bb999",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362096,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Triple Integrals",
-      "body": " Choose functions  \\(g\\)  and  \\(h\\)  so that the expression         \\[ \\int_0^1\\int_0^{h(y)}\\int_0^{g(x,y)}  dz dx dy \\] gives the volume of the solid bounded by the planes  \\(x \u003d 0\\) ,  \\(y \u003d 0\\) ,  \\(z \u003d 0\\) , and  \\(2x + y + 3z \u003d 1.\\)   (Do not integrate.) Answer:  \\(g(x,y)\\)  \u003d ____________ and  \\(h(y)\\)  \u003d _______.",
-      "allAnswers": [],
-      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
-      "url": "/practice-problem/40034c97-7b78-4a90-8150-b508995bb999",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
-    },
-    {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "98e6702d-f3c6-4c08-a848-7b1ea618a63a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362097,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Center Of Gravity",
-      "body": " Use a triple integral to find the volume of the tetrahedron whose vertices are the points  \\((0,0,0)\\) ,  \\((1,0,0)\\) ,  \\((0,1,0)\\) , and  \\((0,0,1)\\) .   Answer: the volume is  \\(\\dfrac1a\\)  where  \\(a\\) \u003d______.",
-      "allAnswers": [],
-      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
-      "url": "/practice-problem/98e6702d-f3c6-4c08-a848-7b1ea618a63a",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
-    },
-    {
-      "authorSolution": " \\(6\\) ",
-      "uuid": "ed91cea6-db36-46c1-a1b0-7800705e7ab4",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362097,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Cylindrical Coordinates Question",
-      "body": " The volume of the solid in the first octant bounded by the planes  \\(x \u003d y\\) ,  \\(x \u003d 1\\) ,  \\(z \u003d 0\\) , and  \\(z \u003d y\\)  is  \\(\\dfrac1a\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
-      "url": "/practice-problem/ed91cea6-db36-46c1-a1b0-7800705e7ab4",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
-    },
-    {
-      "authorSolution": " \\(1\\) ",
-      "uuid": "0449c8bd-931c-4c23-bf50-41d35ff2cf4d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362097,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Mass",
-      "body": " The integral of the function  \\(f(x,y,z) \u003d x^3\\cos{xz}\\)  over the solid bounded by the planes  \\(x \u003d y\\) ,  \\(z \u003d y\\) ,  \\(x \u003d 1\\) , and  \\(z \u003d 0\\)  is  \\(\\frac12(a - \\sin a)\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
-      "url": "/practice-problem/0449c8bd-931c-4c23-bf50-41d35ff2cf4d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Triple Integrals"
+      "tags": "trig identity, trig, tan, cot, sec, csc",
+      "url": "/practice-problem/9b51efa7-130b-44e9-866c-5cfd604a54ac",
+      "source": "null 3.1.1"
     }
   ],
   "questions": [
-    {
-      "uuid": "e9e717be-ed30-401b-aa92-903e12af0a96",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Sketch a graph of each function, then find its domain.\n\\(h(x)\u003dx+|x|\\)",
-      "allAnswers": [],
-      "tags": "graphing functions, functions, domain",
-      "url": "/question/e9e717be-ed30-401b-aa92-903e12af0a96",
-      "source": "AP Calculus Problems 1.4.3",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "976c0ded-cd24-472e-8946-d48e647c0c17",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Sketch a graph of each function, then find its domain.\n\\(V(r)\u003d\\begin{cases} \\sqrt{1-r^2} \u0026 -1\\leq r\\leq 1\\\\ \\dfrac{1}{r} \u0026 r \u003e 1 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "graphing functions, functions, domain",
-      "url": "/question/976c0ded-cd24-472e-8946-d48e647c0c17",
-      "source": "AP Calculus Problems 1.4.4",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "1fe19a6d-71c2-4059-9742-853623ecd5a3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\left(\\sqrt{x}+\\frac{1}{2\\sqrt{x}}\\right)\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/1fe19a6d-71c2-4059-9742-853623ecd5a3",
-      "source": "AP Calculus Problems 6.1.23",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "fdccdf1f-09f4-464a-9d82-ad95d228a5bf",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Sketch a graph of each function, then find its domain.\n\\(U(x)\u003d\\begin{cases} 1/x \u0026 x\u003c-1\\\\ x \u0026 -1\\leq x\\leq 1\\\\ 1/x \u0026 x\u003e1 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "graphing functions, functions, domain",
-      "url": "/question/fdccdf1f-09f4-464a-9d82-ad95d228a5bf",
-      "source": "AP Calculus Problems 1.4.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "e163c9e4-3f38-45db-8d9a-56b6243cb1c8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\sqrt[3]{x^2}\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/e163c9e4-3f38-45db-8d9a-56b6243cb1c8",
-      "source": "AP Calculus Problems 6.1.24",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "89d438c0-857d-4227-b1f6-184621701298",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Sketch a graph of each function, then find its domain.\n\\(f(x)\u003d\\dfrac{x}{|x|}\\)",
-      "allAnswers": [],
-      "tags": "graphing functions, functions, domain",
-      "url": "/question/89d438c0-857d-4227-b1f6-184621701298",
-      "source": "AP Calculus Problems 1.4.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "db29fa10-74c4-4b7c-87a9-fda780b49b47",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\frac{1}{x^3}\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/db29fa10-74c4-4b7c-87a9-fda780b49b47",
-      "source": "AP Calculus Problems 6.1.25",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
     {
       "uuid": "050ef104-9d31-4b7a-a66f-49b6b55e3266",
       "contentType": "question",
@@ -425,7 +205,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/050ef104-9d31-4b7a-a66f-49b6b55e3266",
       "source": "AP Calculus Problems 6.1.26",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "8270758c-2e19-4d79-9801-50c7a2ca8446",
@@ -442,7 +222,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/8270758c-2e19-4d79-9801-50c7a2ca8446",
       "source": "AP Calculus Problems 6.1.27",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "6869b579-9d7c-40fa-a156-d88b8c76fd3c",
@@ -459,7 +239,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/6869b579-9d7c-40fa-a156-d88b8c76fd3c",
       "source": "AP Calculus Problems 6.1.28",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "7428f1d7-a405-4e17-9005-53924aa5963a",
@@ -476,7 +256,7 @@
       "tags": "graphing functions, domain, y-intercept, asymptotes ",
       "url": "/question/7428f1d7-a405-4e17-9005-53924aa5963a",
       "source": "AP Calculus Problems 1.4.8",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "59df0f83-1243-45b1-83f8-9f5768925d60",
@@ -493,7 +273,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/59df0f83-1243-45b1-83f8-9f5768925d60",
       "source": "AP Calculus Problems 6.1.29",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "b06c866d-41f6-4096-ac25-da8af70d44ea",
@@ -510,7 +290,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/b06c866d-41f6-4096-ac25-da8af70d44ea",
       "source": "AP Calculus Problems 1.4.9",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "84ec7b07-67ca-43bd-a7c1-3a7bbc9e15d0",
@@ -527,7 +307,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/84ec7b07-67ca-43bd-a7c1-3a7bbc9e15d0",
       "source": "AP Calculus Problems 6.1.30",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "17d3b122-3cf7-45b9-8989-98beb474fe0e",
@@ -544,7 +324,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/17d3b122-3cf7-45b9-8989-98beb474fe0e",
       "source": "AP Calculus Problems 6.1.31",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "d92dbaf7-024b-4c24-b118-e65058c7a57d",
@@ -561,7 +341,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d92dbaf7-024b-4c24-b118-e65058c7a57d",
       "source": "AP Calculus Problems 6.1.32",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "ae99fb9f-0990-4cd9-be69-d0dd61e3110b",
@@ -578,7 +358,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/ae99fb9f-0990-4cd9-be69-d0dd61e3110b",
       "source": "AP Calculus Problems 1.4.10",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "538ffbae-b535-4838-a04c-71c1a57a4662",
@@ -595,7 +375,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/538ffbae-b535-4838-a04c-71c1a57a4662",
       "source": "AP Calculus Problems 6.1.33",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "b3b2aebd-c3f5-4a93-b41c-d8df368e55d3",
@@ -612,7 +392,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/b3b2aebd-c3f5-4a93-b41c-d8df368e55d3",
       "source": "AP Calculus Problems 6.1.34",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "7a5dcdd2-ca4f-481c-8709-6da27a3ce4b7",
@@ -629,7 +409,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/7a5dcdd2-ca4f-481c-8709-6da27a3ce4b7",
       "source": "AP Calculus Problems 1.4.11",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "ba776769-18cd-4721-b823-94d925adadfb",
@@ -646,7 +426,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/ba776769-18cd-4721-b823-94d925adadfb",
       "source": "AP Calculus Problems 6.1.35",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "5a9ea938-a73d-462f-a457-f53bfbed924e",
@@ -663,7 +443,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/5a9ea938-a73d-462f-a457-f53bfbed924e",
       "source": "AP Calculus Problems 1.4.12",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "732b9626-c461-4757-a54c-d3b6ca6c831c",
@@ -680,7 +460,7 @@
       "tags": "graphing functions, domain, y-intercepts, asymptotes ",
       "url": "/question/732b9626-c461-4757-a54c-d3b6ca6c831c",
       "source": "AP Calculus Problems 1.4.13",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "22d64039-263d-4a4d-9d0c-b013da71d418",
@@ -697,7 +477,7 @@
       "tags": "graphing functions, translations, multiple choice",
       "url": "/question/22d64039-263d-4a4d-9d0c-b013da71d418",
       "source": "AP Calculus Problems 1.4.14",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "622e159b-6f93-4a18-b062-0951704f4e13",
@@ -714,7 +494,7 @@
       "tags": "graphing functions, translations, multiple choice",
       "url": "/question/622e159b-6f93-4a18-b062-0951704f4e13",
       "source": "AP Calculus Problems 1.4.15",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "8056800b-3811-466d-979e-4cb90bb1ea72",
@@ -731,7 +511,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/8056800b-3811-466d-979e-4cb90bb1ea72",
       "source": "AP Calculus Problems 1.4.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "d4f15e8e-57f9-499a-900b-fd574aca0817",
@@ -748,7 +528,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d4f15e8e-57f9-499a-900b-fd574aca0817",
       "source": "AP Calculus Problems 6.1.36",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "954f61b1-2996-4147-9959-2cc625c1e77b",
@@ -765,7 +545,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/954f61b1-2996-4147-9959-2cc625c1e77b",
       "source": "AP Calculus Problems 6.1.37",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "8115ab38-f8fa-41b1-829c-9c5138b0ae50",
@@ -782,7 +562,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/8115ab38-f8fa-41b1-829c-9c5138b0ae50",
       "source": "AP Calculus Problems 1.4.16",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "67d8a846-816c-4e34-b358-acaa69cd9de3",
@@ -799,7 +579,7 @@
       "tags": "graphing functions, factoring",
       "url": "/question/67d8a846-816c-4e34-b358-acaa69cd9de3",
       "source": "AP Calculus Problems 1.4.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "425e7c6f-baa3-442a-90b5-25fc8ee339b9",
@@ -816,7 +596,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/425e7c6f-baa3-442a-90b5-25fc8ee339b9",
       "source": "AP Calculus Problems 6.1.38",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "38c21797-81b3-49eb-9a8c-3b85ea230e4c",
@@ -833,7 +613,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/38c21797-81b3-49eb-9a8c-3b85ea230e4c",
       "source": "AP Calculus Problems 6.1.39",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "396d47f1-a448-458a-8adb-6778ff83dd65",
@@ -850,7 +630,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/396d47f1-a448-458a-8adb-6778ff83dd65",
       "source": "AP Calculus Problems 1.4.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "d7582cf3-aeef-420c-9c40-86e841fc971e",
@@ -867,7 +647,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/d7582cf3-aeef-420c-9c40-86e841fc971e",
       "source": "AP Calculus Problems 6.1.40",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "ae784414-ea9c-437a-ac05-c2f8fd37115b",
@@ -884,7 +664,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/ae784414-ea9c-437a-ac05-c2f8fd37115b",
       "source": "AP Calculus Problems 1.4.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "bec81476-c3b8-4e99-b117-a9cc84df474a",
@@ -901,7 +681,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/bec81476-c3b8-4e99-b117-a9cc84df474a",
       "source": "AP Calculus Problems 6.1.41",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "dbf23350-3311-40c0-aa9f-a9060a7a9edb",
@@ -918,7 +698,7 @@
       "tags": "factoring, graphing functions",
       "url": "/question/dbf23350-3311-40c0-aa9f-a9060a7a9edb",
       "source": "AP Calculus Problems 1.4.20",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "5268ceaf-7028-45a5-b23c-6ca6e23251b2",
@@ -935,7 +715,109 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/5268ceaf-7028-45a5-b23c-6ca6e23251b2",
       "source": "AP Calculus Problems 6.1.42",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "b2a0b8b9-dc5b-4ebb-be17-0850f1c7d5ae",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits",
+      "body": "Evaluate each limit.\n\\(\\lim\\limits_{x\\to -2} (3x^2-2x+1)\\)",
+      "allAnswers": [],
+      "tags": "limits, graphing functions",
+      "url": "/question/b2a0b8b9-dc5b-4ebb-be17-0850f1c7d5ae",
+      "source": "AP Calculus Problems 1.5.1",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "56ffd8ef-6f40-424c-81c1-41ff65788aed",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint x(4x^2+3)^3\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
+      "url": "/question/56ffd8ef-6f40-424c-81c1-41ff65788aed",
+      "source": "AP Calculus Problems 6.1.43",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "280185af-d700-4540-bf05-229693abc7ce",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits",
+      "body": "Evaluate each limit.\n\\(\\lim\\limits_{x\\to 5} 4\\)",
+      "allAnswers": [],
+      "tags": "limits, graphing functions",
+      "url": "/question/280185af-d700-4540-bf05-229693abc7ce",
+      "source": "AP Calculus Problems 1.5.2",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "29086797-4a36-4125-bdea-0ea004006cd3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint x(4x^2+3)^3\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
+      "url": "/question/29086797-4a36-4125-bdea-0ea004006cd3",
+      "source": "AP Calculus Problems 6.1.44",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
+    },
+    {
+      "uuid": "b7ee8129-73d9-4c66-8e3c-1c528be2dae3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits",
+      "body": "Evaluate each limit.\n\\(\\lim\\limits_{x\\to -3} (x^3-2)\\)",
+      "allAnswers": [],
+      "tags": "graphing functions, limits",
+      "url": "/question/b7ee8129-73d9-4c66-8e3c-1c528be2dae3",
+      "source": "AP Calculus Problems 1.5.3",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "4d590a4c-9b55-4f83-bd6d-3fb2bc857f7c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Indefinite Integral",
+      "body": "\\(\\dint \\sin 2x\\ dx\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
+      "url": "/question/4d590a4c-9b55-4f83-bd6d-3fb2bc857f7c",
+      "source": "AP Calculus Problems 6.1.45",
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     }
   ],
   "textContent": [
@@ -954,7 +836,7 @@
       "tags": "Lagrange\u0027s formula, remainder theorem, taylor polynomials ",
       "url": "/text-content/7ef533c4-bcf3-4794-abfe-ab0176d484d8",
       "source": "Forgotten Text 7 1.1",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Lagranges Formula"
+      "topic": "a809b55e-751c-47e1-afb0-c81deb3e890c"
     },
     {
       "uuid": "585d2a52-cc64-4330-931e-cff1ba632890",
@@ -971,7 +853,7 @@
       "tags": "standard integrals, integrals, indefinite integral ",
       "url": "/text-content/585d2a52-cc64-4330-931e-cff1ba632890",
       "source": "Forgotten Text 7 1.4",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Standard Integrals"
+      "topic": "e3a1af4b-5cab-4c30-8ae2-23518ed45a1c"
     },
     {
       "uuid": "526c3fd4-3c56-442e-865d-d112e8840426",
@@ -988,9 +870,62 @@
       "tags": "substitution, integral, integration, methods of integration ",
       "url": "/text-content/526c3fd4-3c56-442e-865d-d112e8840426",
       "source": "Forgotten Text 7 1.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Substitution"
+      "topic": "5928e5ef-9840-43c0-96f2-29f95e12d0a6"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "a6f992e6-c885-4049-a5ae-00fe52817c9f",
+      "subTopics": [
+        "a9f09565-7ee3-45f0-9e28-5dad8274a610",
+        "0683156f-149f-40b1-b54e-ffdadb6fa256"
+      ],
+      "parentTopics": [
+        "37aa3772-6f0f-4f61-95a3-79bb7abf7da6"
+      ],
+      "title": "Points Lines Planes and Angles",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 383000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "298e32fa-dbed-4fe4-af57-159d93840041",
+      "subTopics": [],
+      "parentTopics": [
+        "9ed749b9-c8dd-4afa-b19e-53ef8c7f85f6"
+      ],
+      "title": "Cauchys Bound + Real Zeros",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " polynomials,cauchy\\u0027s bound, rational zeros theorem, functions, descarte\\u0027s rule of signs, descartes\\u0027 rule of signs, descartes rule of signs, descate\\u0027s rule of signs,",
+      "difficulty": 272000,
+      "contentUuids": [
+        "2602e185-8517-4f4e-b6b1-50543c1c3670",
+        "c806b698-c51c-4f3e-b0ce-d59f1b2198f8",
+        "2fdb279b-5af7-4651-9999-ffbde53fc2d9",
+        "a12d9941-0f3f-4fb2-a96d-9d59bf8bf412",
+        "240e4c2a-e5e9-4f42-ad74-c268f143a755"
+      ]
+    },
+    {
+      "uuid": "36f27382-4244-4e73-89c5-88d89a9816e5",
+      "subTopics": [
+        "bcea3c73-e10f-4d46-aa81-54cde3d82b94",
+        "9ddfb3ec-0d6f-4c36-8779-006fd804ad71",
+        "1ee62032-6554-4ca2-b333-54940d8a7f7c"
+      ],
+      "parentTopics": [
+        "bcb4f0e4-542a-4fc3-aa96-39a5e2c9eff1"
+      ],
+      "title": "Other Topics",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 353000,
+      "contentUuids": []
+    }
+  ]
 }

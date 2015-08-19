@@ -2,330 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/964.png\"/\u003e",
-      "uuid": "86d3f733-624b-45a9-82a0-af1c15158df6",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2938.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2940.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2942.png\"/\u003e",
+      "uuid": "4f30667f-ef32-4e52-a032-5a9c4e7ee094",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Center of mass of uniform plate",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/963.png\"/\u003e",
+      "title": "Approximate the inverse functions ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2937.png\"/\u003e",
       "allAnswers": [],
-      "tags": "applications of integration, center of mass, uniform density ",
-      "url": "/practice-problem/86d3f733-624b-45a9-82a0-af1c15158df6",
-      "source": "null 9.6.2"
+      "tags": "inverse trig functions, inverse sin, inverse cos, inverse tan ",
+      "url": "/practice-problem/4f30667f-ef32-4e52-a032-5a9c4e7ee094",
+      "source": "null 10.6.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/974.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/975.png\"/\u003e",
-      "uuid": "8a190a2c-4a17-4e65-b0c7-d10468c2c9e2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2944.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2945.png\"/\u003e",
+      "uuid": "82035af3-1bbc-44a1-81e9-97a729b682a0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Describe function and integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/973.png\"/\u003e",
+      "title": "Find angle of inclination",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2943.png\"/\u003e",
       "allAnswers": [],
-      "tags": "applications of integration, integral ",
-      "url": "/practice-problem/8a190a2c-4a17-4e65-b0c7-d10468c2c9e2",
-      "source": "null 9.8.1"
+      "tags": "trigonometric functions, inverse trig functions, inverse sin, inverse cos",
+      "url": "/practice-problem/82035af3-1bbc-44a1-81e9-97a729b682a0",
+      "source": "null 10.6.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/996.png\"/\u003e",
-      "uuid": "231b0a1f-984a-45b9-9130-246a70288a00",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2948.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2949.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2950.png\"/\u003e",
+      "uuid": "ef460f35-75d3-4938-bcc9-248cfec62814",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Equation of line in polar corrdinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/995.png\"/\u003e",
+      "title": "Solve the following trig equations",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2947.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, calculus ",
-      "url": "/practice-problem/231b0a1f-984a-45b9-9130-246a70288a00",
-      "source": "null 10.1.1"
+      "tags": "angles, angle measure, real numbers, solve trig functions ",
+      "url": "/practice-problem/ef460f35-75d3-4938-bcc9-248cfec62814",
+      "source": "null 10.6.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
-      "uuid": "06b1de2b-9eb1-4082-96ac-91c362300187",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2961.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2962.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2963.png\"/\u003e",
+      "uuid": "69ca6203-9302-46c2-9605-b7b0d126b5f2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find equation for circle in polar coordinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/997.png\"/\u003e",
+      "title": "Interval notation ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2960.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, calculus ",
-      "url": "/practice-problem/06b1de2b-9eb1-4082-96ac-91c362300187",
-      "source": "null 10.1.2"
+      "tags": "trigonometric, sign diagram, inequalities, trig functions, cosine, sine ",
+      "url": "/practice-problem/69ca6203-9302-46c2-9605-b7b0d126b5f2",
+      "source": "null 10.7.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/999.png\"/\u003e",
-      "uuid": "272dad2d-f435-42de-9cda-f448f51ff352",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2965.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2966.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2967.png\"/\u003e",
+      "uuid": "8207b221-89ce-4439-978c-7fd8057de97d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Graph polar equation ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/998.png\"/\u003e",
+      "title": "Domain of functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2964.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, graph polar equations ",
-      "url": "/practice-problem/272dad2d-f435-42de-9cda-f448f51ff352",
-      "source": "null 10.1.3"
+      "tags": "domain, interval notation, trigonometric functions ",
+      "url": "/practice-problem/8207b221-89ce-4439-978c-7fd8057de97d",
+      "source": "null 10.7.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2001.png\"/\u003e",
-      "uuid": "708edf22-24f2-4e9a-9ceb-d7b78b2c3eb3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2969.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2970.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2971.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2972.png\"/\u003e",
+      "uuid": "df951061-de4a-4ec7-8956-ecbfd107943d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Graph polar function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2000.png\"/\u003e",
+      "title": "Solve the following trig equations",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2968.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, graphing polar equations ",
-      "url": "/practice-problem/708edf22-24f2-4e9a-9ceb-d7b78b2c3eb3",
-      "source": "null 10.1.4"
+      "tags": "inverse trigonometric functions, trig functions, inverse cos, inverse sin ",
+      "url": "/practice-problem/df951061-de4a-4ec7-8956-ecbfd107943d",
+      "source": "null 10.7.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2019.png\"/\u003e",
-      "uuid": "78c988d2-e984-40e1-9a58-51b8342725c1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2982.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2983.png\"/\u003e",
+      "uuid": "35a609c2-990c-468f-849d-a5465ce969be",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Show convergence ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2018.png\"/\u003e",
+      "title": "Object weighing 64 pounds",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2981.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence, sequences ",
-      "url": "/practice-problem/78c988d2-e984-40e1-9a58-51b8342725c1",
+      "tags": "sinusoids, graphing sinusoids ",
+      "url": "/practice-problem/35a609c2-990c-468f-849d-a5465ce969be",
       "source": "null 11.1.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2021.png\"/\u003e",
-      "uuid": "bb1cf90e-4cab-47a0-984a-7b14174eb41b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2985.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2986.png\"/\u003e",
+      "uuid": "10488bc6-18a9-46e4-96ec-3455277f18f1",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Show if function converges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2020.png\"/\u003e",
+      "title": "Change form of sinusoids",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2984.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence, sequences, divergence ",
-      "url": "/practice-problem/bb1cf90e-4cab-47a0-984a-7b14174eb41b",
+      "tags": "graph sinusoids, write sinusoid in difference forms ",
+      "url": "/practice-problem/10488bc6-18a9-46e4-96ec-3455277f18f1",
       "source": "null 11.12"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2027.png\"/\u003e",
-      "uuid": "d494071f-b4a0-426c-be41-3614f6d341a4",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2995.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2996.png\"/\u003e",
+      "uuid": "159e2dad-eee8-4fef-9fd2-18ceaa02c029",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Show if series diverges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2026.png\"/\u003e",
+      "title": "Sasquatch Island",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2994.png\"/\u003e",
       "allAnswers": [],
-      "tags": "series, sequences, convergence, divergence ",
-      "url": "/practice-problem/d494071f-b4a0-426c-be41-3614f6d341a4",
+      "tags": "angles, angle measurements ",
+      "url": "/practice-problem/159e2dad-eee8-4fef-9fd2-18ceaa02c029",
       "source": "null 11.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2032.png\"/\u003e",
-      "uuid": "34ff8866-01e1-4491-b4e5-f6088f00aa68",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2999.png\"/\u003e",
+      "uuid": "96adcd34-fb9e-459e-8f6c-91f06422d58c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Show convergence of series",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2031.png\"/\u003e",
+      "title": "Find area of triangle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/2998.png\"/\u003e",
       "allAnswers": [],
-      "tags": "series, convergence, divergence, sequences ",
-      "url": "/practice-problem/34ff8866-01e1-4491-b4e5-f6088f00aa68",
-      "source": "null 11.3.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2034.png\"/\u003e",
-      "uuid": "d6447dc0-d8b1-4201-9239-dcbf7763bf44",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Show if the series converges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2033.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "series, sequences, convergence, divergence ",
-      "url": "/practice-problem/d6447dc0-d8b1-4201-9239-dcbf7763bf44",
-      "source": "null 11.3.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2036.png\"/\u003e",
-      "uuid": "9a04cd68-373e-4859-8593-c026c9d36c6e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Show that series diverges",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2035.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "series, sequences, convergence, divergence ",
-      "url": "/practice-problem/9a04cd68-373e-4859-8593-c026c9d36c6e",
-      "source": "null 11.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2039.png\"/\u003e",
-      "uuid": "a0313412-995d-413b-bddb-e8cbbaff3b4b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Approximate series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2037.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "series, sequences, convergence, divergence ",
-      "url": "/practice-problem/a0313412-995d-413b-bddb-e8cbbaff3b4b",
-      "source": "null 11.3.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2061.png\"/\u003e",
-      "uuid": "afb3a425-be77-477f-859e-b775cd5e50da",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Maclaurin series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2060.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "maclaurin series, taylor series, series, sequences ",
-      "url": "/practice-problem/afb3a425-be77-477f-859e-b775cd5e50da",
-      "source": "null 11.10.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2063.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2064.png\"/\u003e",
-      "uuid": "4e962c56-a292-4717-86bc-f8ec19ae5036",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find a series ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/2062.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "taylor series, series, sequences, derivative ",
-      "url": "/practice-problem/4e962c56-a292-4717-86bc-f8ec19ae5036",
-      "source": "null 11.10.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2195.png\"/\u003e",
-      "uuid": "fce652b5-70ab-4d84-9dfd-71bcdea4d558",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Distance between points",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2194.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "distance formula, distance between points ",
-      "url": "/practice-problem/fce652b5-70ab-4d84-9dfd-71bcdea4d558",
-      "source": "null 1.1.1"
+      "tags": "triangle, angles, measurements, cos, sin, tan ",
+      "url": "/practice-problem/96adcd34-fb9e-459e-8f6c-91f06422d58c",
+      "source": "null 11.2.2"
     }
   ],
   "questions": [
-    {
-      "uuid": "7d70375f-b919-4526-a4fb-f2fe7a758c1b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find \\(\\dfrac{dy}{dx}\\) in simplest factored form.\n\\(y\u003dxe^{\\ln 3x}\\)",
-      "allAnswers": [],
-      "tags": "derivatives",
-      "url": "/question/7d70375f-b919-4526-a4fb-f2fe7a758c1b",
-      "source": "AP Calculus Problems 2.15.49",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "11541dc2-fa63-47ea-90bd-5aa342ee88af",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find \\(\\dfrac{dy}{dx}\\) in simplest factored form.\n\\(y\u003de^{3x}\\tan x\\)",
-      "allAnswers": [],
-      "tags": "derivatives",
-      "url": "/question/11541dc2-fa63-47ea-90bd-5aa342ee88af",
-      "source": "AP Calculus Problems 2.15.50",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "e5cca93e-fa03-4d84-8baa-de8528633b45",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find \\(\\dfrac{dy}{dx}\\) in simplest factored form.\n\\(y\u003de^{1/x^2}\\)",
-      "allAnswers": [],
-      "tags": "derivatives",
-      "url": "/question/e5cca93e-fa03-4d84-8baa-de8528633b45",
-      "source": "AP Calculus Problems 2.15.51",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
     {
       "uuid": "79320b9b-7cf0-4786-8d0b-29add5671889",
       "contentType": "question",
@@ -341,7 +188,7 @@
       "tags": "derivatives",
       "url": "/question/79320b9b-7cf0-4786-8d0b-29add5671889",
       "source": "AP Calculus Problems 2.15.52",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "5edd138f-5daf-49c1-bba7-c19f17335e5e",
@@ -358,7 +205,7 @@
       "tags": "derivatives",
       "url": "/question/5edd138f-5daf-49c1-bba7-c19f17335e5e",
       "source": "AP Calculus Problems 2.15.53",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "19e13e0c-1255-4d5d-afe7-4c81b31ef3a1",
@@ -375,7 +222,7 @@
       "tags": "derivatives",
       "url": "/question/19e13e0c-1255-4d5d-afe7-4c81b31ef3a1",
       "source": "AP Calculus Problems 2.15.54",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "537b9e6e-2bcc-4119-804c-448f7bf25781",
@@ -392,7 +239,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/537b9e6e-2bcc-4119-804c-448f7bf25781",
       "source": "AP Calculus Problems 2.16.1",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "4ec9a38f-d6f0-423e-99f0-904b4a2baac4",
@@ -409,7 +256,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4ec9a38f-d6f0-423e-99f0-904b4a2baac4",
       "source": "AP Calculus Problems 2.16.2",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "1c915c9b-4855-42f1-8420-40a7618a3fff",
@@ -426,7 +273,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/1c915c9b-4855-42f1-8420-40a7618a3fff",
       "source": "AP Calculus Problems 2.16.3",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "05d110f8-64f1-4e84-8f76-a978e9949ada",
@@ -443,7 +290,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/05d110f8-64f1-4e84-8f76-a978e9949ada",
       "source": "AP Calculus Problems 2.16.4",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "4aea488a-567b-410f-858b-70300fa6d80b",
@@ -460,7 +307,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4aea488a-567b-410f-858b-70300fa6d80b",
       "source": "AP Calculus Problems 2.16.5",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "5b7038b5-10c3-4a5f-a504-1e7ba9bb1420",
@@ -477,7 +324,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/5b7038b5-10c3-4a5f-a504-1e7ba9bb1420",
       "source": "AP Calculus Problems 2.16.6",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "1f0aa416-1643-49ff-a1b2-7188986fca86",
@@ -494,7 +341,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/1f0aa416-1643-49ff-a1b2-7188986fca86",
       "source": "AP Calculus Problems 2.16.7",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "d20329fc-6a01-49c9-adb5-eda492541584",
@@ -511,7 +358,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/d20329fc-6a01-49c9-adb5-eda492541584",
       "source": "AP Calculus Problems 2.16.8",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "78983640-2bed-4156-ab7b-e713a1b51d6a",
@@ -528,7 +375,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/78983640-2bed-4156-ab7b-e713a1b51d6a",
       "source": "AP Calculus Problems 2.16.9",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "5455f028-9715-4aab-bd5b-13fe9a05c2d7",
@@ -545,7 +392,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/5455f028-9715-4aab-bd5b-13fe9a05c2d7",
       "source": "AP Calculus Problems 2.16.10",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "84030fb6-3806-4865-a568-bbabd9ddd25f",
@@ -562,7 +409,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/84030fb6-3806-4865-a568-bbabd9ddd25f",
       "source": "AP Calculus Problems 2.16.11",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "017f8587-d672-4a1c-b539-88d51af3b35c",
@@ -579,7 +426,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/017f8587-d672-4a1c-b539-88d51af3b35c",
       "source": "AP Calculus Problems 2.16.12",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "b00cdb1f-507c-4a9e-a424-c56f0812e1e5",
@@ -596,7 +443,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/b00cdb1f-507c-4a9e-a424-c56f0812e1e5",
       "source": "AP Calculus Problems 2.16.13",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "a981e8c8-72ae-4663-9309-2c97163f4561",
@@ -613,7 +460,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/a981e8c8-72ae-4663-9309-2c97163f4561",
       "source": "AP Calculus Problems 2.16.14",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "66a36d39-53f2-41ca-8c2d-cb7370e04f53",
@@ -630,7 +477,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/66a36d39-53f2-41ca-8c2d-cb7370e04f53",
       "source": "AP Calculus Problems 2.16.15",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "04689a7a-2414-490e-b4f8-f5975e5aed98",
@@ -647,7 +494,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/04689a7a-2414-490e-b4f8-f5975e5aed98",
       "source": "AP Calculus Problems 2.16.16",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "4fb8ff73-b493-45c6-8397-e7cf0bdd70b8",
@@ -664,7 +511,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4fb8ff73-b493-45c6-8397-e7cf0bdd70b8",
       "source": "AP Calculus Problems 2.16.17",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "0ced5ae8-2841-4248-906b-bdcb39e980ae",
@@ -681,7 +528,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/0ced5ae8-2841-4248-906b-bdcb39e980ae",
       "source": "AP Calculus Problems 2.16.18",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "0bec6ac7-8d56-41aa-844f-e354c37b72ec",
@@ -698,7 +545,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/0bec6ac7-8d56-41aa-844f-e354c37b72ec",
       "source": "AP Calculus Problems 2.16.19",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "b4e33596-a0a7-4d6d-9d13-e6a0ad8a97f5",
@@ -715,7 +562,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/b4e33596-a0a7-4d6d-9d13-e6a0ad8a97f5",
       "source": "AP Calculus Problems 2.16.20",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "4b33048c-49dd-49dc-829f-18be556891e5",
@@ -732,7 +579,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4b33048c-49dd-49dc-829f-18be556891e5",
       "source": "AP Calculus Problems 2.16.21",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "62c4d932-1138-4b97-aaf7-a5e60474eedc",
@@ -749,7 +596,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/62c4d932-1138-4b97-aaf7-a5e60474eedc",
       "source": "AP Calculus Problems 2.16.22",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "dfcdae32-2f76-4cdb-b4fd-7712cbbcfc7c",
@@ -766,7 +613,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/dfcdae32-2f76-4cdb-b4fd-7712cbbcfc7c",
       "source": "AP Calculus Problems 2.16.23",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "e0531978-d7f9-4e90-bc14-a4127a3e8337",
@@ -783,7 +630,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/e0531978-d7f9-4e90-bc14-a4127a3e8337",
       "source": "AP Calculus Problems 2.16.24",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "1a065f1c-72e1-4719-881c-0ea46ab0f00c",
@@ -800,7 +647,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/1a065f1c-72e1-4719-881c-0ea46ab0f00c",
       "source": "AP Calculus Problems 2.16.25",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "4a250e92-6dcf-4410-bad8-31bdb1964b02",
@@ -817,7 +664,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/4a250e92-6dcf-4410-bad8-31bdb1964b02",
       "source": "AP Calculus Problems 2.16.26",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "63a095d5-1168-4b5f-a2f8-aeb7d132e987",
@@ -834,7 +681,7 @@
       "tags": "derivatives of inverses",
       "url": "/question/63a095d5-1168-4b5f-a2f8-aeb7d132e987",
       "source": "AP Calculus Problems 2.16.27",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "743b26c4-69b5-466e-9b21-2935578715d6",
@@ -851,7 +698,7 @@
       "tags": "derivatives of inverses, tangent lines",
       "url": "/question/743b26c4-69b5-466e-9b21-2935578715d6",
       "source": "AP Calculus Problems 2.16.28",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "27910d83-565e-41a2-bbab-7c22b5a4ed61",
@@ -863,12 +710,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "Suppose that functions \\(f(x)\\) and \\(g(x)\\) and their first derivatives have the following values at \\(x\u003d0\\) and \\(x\u003d1\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20474.png\"/\u003e",
+      "body": "Suppose that functions \\(f(x)\\) and \\(g(x)\\) and their first derivatives have the following values at \\(x\u003d0\\) and \\(x\u003d1\\).\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20474.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, functions",
       "url": "/question/27910d83-565e-41a2-bbab-7c22b5a4ed61",
       "source": "AP Calculus Problems 2.17.1",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "00488e5b-1ffa-4140-9474-35087c6a05c3",
@@ -880,12 +727,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Derivatives",
-      "body": "Suppose that functions \\(f(x)\\) and \\(g(x)\\) and their first derivatives have the following values at \\(x\u003d0\\) and \\(x\u003d1\\).\nFind the first derivatives of the following combinations at the given value of \\(x\\).\n   a) \\(6f(x)-g(x)\\) at \\(x\u003d1\\)\n   b) \\(f(x)g^2(x)\\) at \\(x\u003d0\\)\n   c) \\(\\dfrac{f(x)}{g(x)+1}\\) at \\(x\u003d1\\)\n   d) \\((g(x))\\) at \\(x\u003d0\\)\n   e) \\(g(f(x))\\) at \\(x\u003d0\\)\n   f) \\((x+f(x))^{3/2}\\) at \\(x\u003d1\\)\n   g) \\(f(x+g(x))\\) at \\(x\u003d0\\)\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20474.png\"/\u003e",
+      "body": "Suppose that functions \\(f(x)\\) and \\(g(x)\\) and their first derivatives have the following values at \\(x\u003d0\\) and \\(x\u003d1\\).\nFind the first derivatives of the following combinations at the given value of \\(x\\).\n   a) \\(6f(x)-g(x)\\) at \\(x\u003d1\\)\n   b) \\(f(x)g^2(x)\\) at \\(x\u003d0\\)\n   c) \\(\\dfrac{f(x)}{g(x)+1}\\) at \\(x\u003d1\\)\n   d) \\((g(x))\\) at \\(x\u003d0\\)\n   e) \\(g(f(x))\\) at \\(x\u003d0\\)\n   f) \\((x+f(x))^{3/2}\\) at \\(x\u003d1\\)\n   g) \\(f(x+g(x))\\) at \\(x\u003d0\\)\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20474.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "derivatives, functions",
       "url": "/question/00488e5b-1ffa-4140-9474-35087c6a05c3",
       "source": "AP Calculus Problems 2.17.1",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
     },
     {
       "uuid": "74a4efa9-ba17-4862-9b50-c4c6d99515a5",
@@ -902,7 +749,58 @@
       "tags": "derivatives, functions",
       "url": "/question/74a4efa9-ba17-4862-9b50-c4c6d99515a5",
       "source": "AP Calculus Problems 2.17.2",
-      "topic": "Calculus/Derivative Calculus/Advanced Topics/Leibniz Notation"
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
+    },
+    {
+      "uuid": "073f1f0f-d83c-42cc-aaf1-2dce0a65c5a3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "For what values of \\(a\\) and \\(b\\) will \\(f(x)\u003d\\begin{cases} ax \u0026 x\u003c2 \\\\ ax^2-bx+3 \u0026 x\\geq 2 \\end{cases}\\) be differentiable for all values of \\(x\\)? \n ",
+      "allAnswers": [],
+      "tags": "derivatives, functions",
+      "url": "/question/073f1f0f-d83c-42cc-aaf1-2dce0a65c5a3",
+      "source": "AP Calculus Problems 2.17.3",
+      "topic": "55644ce4-5bc2-4227-971e-a4d61a6e63b5"
+    },
+    {
+      "uuid": "3052b7bc-868c-49b1-ac76-27ec2ba7ee2f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Use the graph of \\(f\\) to answer the following.\n   a) Between which two consecutive points is the average rate of change of the function greatest? Least?\n   b) Is the average rate of change of the function between \\(A\\) and \\(B\\) greater than or less than the instantaneous rate of change at \\(B\\)?\n   c) Sketch a tangent line to the graph between the points \\(D\\) and \\(E\\) such that the slope of the tangent is the same as the average rate of the change of the function between \\(D\\) and \\(E\\).\n   d) Give a set of two points for which the average rate of change of the function is approximately equal to another set of two points.\n  \n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/20475.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "derivatives, average rate of change, tangent line, function",
+      "url": "/question/3052b7bc-868c-49b1-ac76-27ec2ba7ee2f",
+      "source": "AP Calculus Problems 2.17.4",
+      "topic": "8c1b24ff-a3bd-4a2f-ba5d-69e6c46c7fec"
+    },
+    {
+      "uuid": "42c2ad9f-5a9b-4430-8ace-c93920afbdd5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "The displacement from equilibrium of an object in harmonic motion on the end of a spring is \\(y\u003d\\frac{1}{3}\\cos(12t)-\\frac{1}{4}\\sin(12t)\\) where \\(y\\) is measured in feet and \\(t\\) is the time in seconds.  Determine the position and velocity of the object when \\(t\u003d\\frac{\\pi}{8}\\). \n ",
+      "allAnswers": [],
+      "tags": "derivatives, displacement, velocity ",
+      "url": "/question/42c2ad9f-5a9b-4430-8ace-c93920afbdd5",
+      "source": "AP Calculus Problems 2.17.5",
+      "topic": "877de0a0-eabc-4b3a-8e74-cd0b4ecf2e33"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Applications of Exponential and Logarithmic Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2599.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2600.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2604.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2608.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2609.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2610.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2613.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2592.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2593.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2594.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2595.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2596.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2599.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2600.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2604.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2607.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2608.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2609.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2610.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2611.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2612.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2613.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential functions, logarithmic functions, applications of exponential function, applications of log functions ",
       "url": "/text-content/d044c0cb-73cc-437e-ada3-9bc6f313bc33",
       "source": "Precalculus, 3rd Edition 6.5",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions"
+      "topic": "17ea17ba-d870-4433-9762-321924eae964"
     },
     {
       "uuid": "f6692c0d-116c-4b5d-9b33-cf243ed5eea3",
@@ -933,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Conics ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2616.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2614.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2615.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2616.png\"/\u003e",
       "allAnswers": [],
       "tags": "conics, conic sections ",
       "url": "/text-content/f6692c0d-116c-4b5d-9b33-cf243ed5eea3",
       "source": "Precalculus, 3rd Edition 7.1",
-      "topic": "Pre-Calculus/Conics"
+      "topic": "0888f3d1-930a-464c-802d-3fa1fe672cc8"
     },
     {
       "uuid": "410506c3-41e1-4ff4-82e8-2a8885930927",
@@ -950,14 +848,75 @@
       "viewable": true,
       "karma": 3,
       "title": "Circles ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2617.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2618.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2623.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2617.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2618.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2623.png\"/\u003e",
       "allAnswers": [],
       "tags": "circles, unit circle ",
       "url": "/text-content/410506c3-41e1-4ff4-82e8-2a8885930927",
       "source": "Precalculus, 3rd Edition 7.2",
-      "topic": "Pre-Calculus/Conics/Circles"
+      "topic": "344c2274-e149-48dc-8d45-4746d77c718b"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "895c9863-ced8-49f0-8d94-a41368971acf",
+      "subTopics": [
+        "28311ab5-5054-4b3b-8428-9ff968d55c7e",
+        "1441ba09-76ce-498e-862a-b5638a6a1798",
+        "05273aba-df0a-4de5-820b-034b4291f211",
+        "a913c509-8ab5-46e8-9069-b8486b405af2",
+        "ec922915-3b80-4476-be6b-6125a913671f"
+      ],
+      "parentTopics": [
+        "568e9d65-ff3b-4598-b370-646c1951a7ae"
+      ],
+      "title": "Curve Sketching",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "derivatives, first derivative tests, sketching plot of function, first derivative, concavity,extrema, curve sketching,curve sketching, functions, fermat\\u0027s theorem, inflection points ,",
+      "difficulty": 522000,
+      "contentUuids": [
+        "06bfd9e9-2aa7-4222-8e34-c7c61e2089c3",
+        "4d604b77-033f-4ce5-b5f5-9bd4bf8464c5",
+        "2344b926-d23f-4f1b-a71d-2c0cde235966",
+        "07dab5c1-e00f-4417-a554-31d33c0c4d7e"
+      ]
+    },
+    {
+      "uuid": "1aacc878-6196-47ca-90f0-32865d1c4046",
+      "subTopics": [
+        "74437847-9b50-42b0-a2e1-b3f6fc959f28",
+        "80728686-f365-4f5e-a8fa-bbb5cf8dd306",
+        "4ac79d53-9d3d-4f75-bd2c-3fbb3ef8e2e7",
+        "209d713a-9f17-4eea-89ec-4790ac8ae61f",
+        "14ff8d6f-5404-4bfc-93fa-efd429ef01c5"
+      ],
+      "parentTopics": [
+        "1f258abc-43c4-4941-b3f6-b71b0c747117"
+      ],
+      "title": "Definite Integrals",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " definite integral,integral, computing integrals,",
+      "difficulty": 556000,
+      "contentUuids": [
+        "0863a808-47b0-4bef-915c-ec8bd75fcb20"
+      ]
+    },
+    {
+      "uuid": "c4d50a4d-13c5-4e38-bfa9-ebb473094653",
+      "subTopics": [],
+      "parentTopics": [
+        "01223b5e-0a0e-4d15-a377-a4496066ec20"
+      ],
+      "title": "Area between graphs",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "area between graphs, integral, applications of integral , riemann-sum,",
+      "difficulty": 617000,
+      "contentUuids": [
+        "f123b966-7905-4026-bdc2-1b3d6922a4d4"
+      ]
+    }
+  ]
 }

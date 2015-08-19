@@ -2,347 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/460.png\"/\u003e",
-      "uuid": "aebf7e51-3c42-479e-92ff-1db681da608b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2387.png\"/\u003e",
+      "uuid": "4aa85bed-3622-4cd0-a896-3d0397ba7e60",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Six trig function of 330",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/459.png\"/\u003e",
+      "title": "Construct a sign diagram",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2386.png\"/\u003e",
       "allAnswers": [],
-      "tags": "trig, trig functions, circle, right triangle ",
-      "url": "/practice-problem/aebf7e51-3c42-479e-92ff-1db681da608b",
-      "source": "null 1.4.1"
+      "tags": "sign diagram, polynomial function, sketching polynomials, polynomial function sign diagram ",
+      "url": "/practice-problem/4aa85bed-3622-4cd0-a896-3d0397ba7e60",
+      "source": "null 3.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/462.png\"/\u003e",
-      "uuid": "58828e91-2499-4656-a210-78260a915e75",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2393.png\"/\u003e",
+      "uuid": "86c182fe-8a33-4f47-95b8-87b6ed1da6df",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Six trig function of various degree",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/461.png\"/\u003e",
+      "title": "End behavior of polynomials",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2392.png\"/\u003e",
       "allAnswers": [],
-      "tags": "trig, trig functions, degrees, unit circle ",
-      "url": "/practice-problem/58828e91-2499-4656-a210-78260a915e75",
-      "source": "null 1.4.2"
+      "tags": "end behavior, polynomial function, multiplicity, sketching polynomials ",
+      "url": "/practice-problem/86c182fe-8a33-4f47-95b8-87b6ed1da6df",
+      "source": "null 3.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/466.png\"/\u003e",
-      "uuid": "a5ab0a81-6b02-4e50-ab61-54b49261acc1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2401.png\"/\u003e",
+      "uuid": "8f1767be-3b5a-4b92-842a-27d76de165a2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Terminal side and reference angle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/465.png\"/\u003e",
+      "title": "Find all real zeros of p",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2400.png\"/\u003e",
       "allAnswers": [],
-      "tags": "terminal side, reference angle, unit circle ",
-      "url": "/practice-problem/a5ab0a81-6b02-4e50-ab61-54b49261acc1",
-      "source": "null 1.4.3"
+      "tags": "multiplicity, real zeros, polynomial functions, polynomials, quadratic formula ",
+      "url": "/practice-problem/8f1767be-3b5a-4b92-842a-27d76de165a2",
+      "source": "null 3.2.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/468.png\"/\u003e",
-      "uuid": "a2a0e502-b006-429b-bca7-84bbda622410",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2406.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2407.png\"/\u003e",
+      "uuid": "4b74cde0-9b44-483a-a855-c0c826073fd8",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Exact sin and cos theta",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/467.png\"/\u003e",
+      "title": "Rational zeros, real zeros of polynomial",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2405.png\"/\u003e",
       "allAnswers": [],
-      "tags": "sin, tan, cos, trig, trig functions ",
-      "url": "/practice-problem/a2a0e502-b006-429b-bca7-84bbda622410",
-      "source": "null 1.4.4"
+      "tags": "polynomial function, rational zeros, real zeros, multiplicities ",
+      "url": "/practice-problem/4b74cde0-9b44-483a-a855-c0c826073fd8",
+      "source": "null 3.3.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/480.png\"/\u003e",
-      "uuid": "146b291d-adca-4308-b2dc-d1046958c6cc",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2411.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2412.png\"/\u003e",
+      "uuid": "b63255b9-3d21-4d59-a83b-f64fa363b173",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Solving triangles",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/479.png\"/\u003e",
+      "title": "Rational zeros theorem, polynomials",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2410.png\"/\u003e",
       "allAnswers": [],
-      "tags": "triangles, sines, trig ",
-      "url": "/practice-problem/146b291d-adca-4308-b2dc-d1046958c6cc",
-      "source": "null 2.1.1"
+      "tags": "rational zeros theorem, multiplicities, rational zeros, real zeros, Cauchy\u0027s bound",
+      "url": "/practice-problem/b63255b9-3d21-4d59-a83b-f64fa363b173",
+      "source": "null 3.3.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/488.png\"/\u003e",
-      "uuid": "1ed0fcec-5acd-4c65-9232-2273414001ee",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2416.png\"/\u003e",
+      "uuid": "64d15b29-0cb7-4ea1-957c-1030a4a34341",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Solving triangles, pt. 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/487.png\"/\u003e",
+      "title": "Descartes\u0027 Rule of Signs",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2415.png\"/\u003e",
       "allAnswers": [],
-      "tags": "sine, cos, trig identities ",
-      "url": "/practice-problem/1ed0fcec-5acd-4c65-9232-2273414001ee",
-      "source": "null 2.2.1"
+      "tags": "descartes\u0027 rule of signs, real zeros, number of real zeros, location of real zeros ",
+      "url": "/practice-problem/64d15b29-0cb7-4ea1-957c-1030a4a34341",
+      "source": "null 3.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/490.png\"/\u003e",
-      "uuid": "756833a4-5a78-49a0-a476-86e19e17d654",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2419.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2420.png\"/\u003e",
+      "uuid": "a7a1f656-3ece-49f4-b188-1b6a184c531f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Solving triangles, pt.3",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/489.png\"/\u003e",
+      "title": "Real zeros and their multiplicities",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2418.png\"/\u003e",
       "allAnswers": [],
-      "tags": "triangles, trig, trig identities, cos ",
-      "url": "/practice-problem/756833a4-5a78-49a0-a476-86e19e17d654",
-      "source": "null 2.2.2"
+      "tags": "real zeros of f, multiplicities of real zeros, sketch the polynomial, polynomial functions ",
+      "url": "/practice-problem/a7a1f656-3ece-49f4-b188-1b6a184c531f",
+      "source": "null 3.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/492.png\"/\u003e",
-      "uuid": "03c99abd-7286-44fb-aa84-caf5f0808528",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2424.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2425.png\"/\u003e",
+      "uuid": "ce97bc96-bec0-4937-9f5d-5285134461d6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "solving triangles, pt. 4",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/491.png\"/\u003e",
+      "title": "Real solutions to equation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2423.png\"/\u003e",
       "allAnswers": [],
-      "tags": "law of cosines, cos, law of sines, trig ",
-      "url": "/practice-problem/03c99abd-7286-44fb-aa84-caf5f0808528",
-      "source": "null 2.2.3"
+      "tags": "polynomial equations, real solutions to polynomials, solve polynomial inequality, graph polynomials ",
+      "url": "/practice-problem/ce97bc96-bec0-4937-9f5d-5285134461d6",
+      "source": "null 3.3.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/494.png\"/\u003e",
-      "uuid": "000f2d88-5190-4fd3-95ef-a397cdfd06a4",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2427.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2428.png\"/\u003e",
+      "uuid": "c4022ceb-3c9c-4206-a5d9-75e2dbee05d4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "parallelogram, law of cosines",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/493.png\"/\u003e",
+      "title": "How many TVs produced to make a profit?",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2426.png\"/\u003e",
       "allAnswers": [],
-      "tags": "law of cosines, cosines, parallelogram ",
-      "url": "/practice-problem/000f2d88-5190-4fd3-95ef-a397cdfd06a4",
-      "source": "null 2.2.4"
+      "tags": "inequalities, polynomial inequalities, graphing polynomials ",
+      "url": "/practice-problem/c4022ceb-3c9c-4206-a5d9-75e2dbee05d4",
+      "source": "null 3.3.6"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/498.png\"/\u003e",
-      "uuid": "abbc6097-95d7-48b2-b740-f1989fead39e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2436.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2437.png\"/\u003e",
+      "uuid": "b8ce22b2-7ceb-44cf-a95b-e609db6abc16",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655784,
+      "createdAt": 1437611655788,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Hypothetical triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/497.png\"/\u003e",
+      "title": "remaining complex zeros of f",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2345.png\"/\u003e",
       "allAnswers": [],
-      "tags": "triangle, law of tangents, tangents, proof ",
-      "url": "/practice-problem/abbc6097-95d7-48b2-b740-f1989fead39e",
-      "source": "null 2.3.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/503.png\"/\u003e",
-      "uuid": "d201db2f-13ec-470a-876b-bdf55ee5bf1e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655784,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find area of triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/502.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "triangle, area of triangle, triangle area formula ",
-      "url": "/practice-problem/d201db2f-13ec-470a-876b-bdf55ee5bf1e",
-      "source": "null 2.4.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/505.png\"/\u003e",
-      "uuid": "e657ad9e-f4dd-4c67-9e70-5c85c441bfaf",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655784,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Floating point triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/504.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "floating point, Herons formula, area of triangle, triangle ",
-      "url": "/practice-problem/e657ad9e-f4dd-4c67-9e70-5c85c441bfaf",
-      "source": "null 2.4.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/514.png\"/\u003e",
-      "uuid": "9f04cf1f-8e31-4699-a5ab-7adcbc7d8151",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655784,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Radius of inscribed circle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/513.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "radius of circle, inscribed circle, triangle ",
-      "url": "/practice-problem/9f04cf1f-8e31-4699-a5ab-7adcbc7d8151",
-      "source": "null 2.5.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/519.png\"/\u003e",
-      "uuid": "9b51efa7-130b-44e9-866c-5cfd604a54ac",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655784,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Prove trig identity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/518.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig identity, trig, tan, cot, sec, csc",
-      "url": "/practice-problem/9b51efa7-130b-44e9-866c-5cfd604a54ac",
-      "source": "null 3.1.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/521.png\"/\u003e",
-      "uuid": "0765e65f-0a21-432a-a0ca-dc0ff1ce6405",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655784,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Prove trig identity, pt. 2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/520.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig identity, trig, cot, sec, csc, cot",
-      "url": "/practice-problem/0765e65f-0a21-432a-a0ca-dc0ff1ce6405",
-      "source": "null 3.1.2"
+      "tags": "complex zeros, real numbers, synthetic division ",
+      "url": "/practice-problem/b8ce22b2-7ceb-44cf-a95b-e609db6abc16",
+      "source": "null 3.4.1 "
     }
   ],
   "questions": [
-    {
-      "uuid": "3a461620-967d-403f-9b8c-5a1c349a1473",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Trigonometry",
-      "body": "Evaluate each of the following expressions.  Do not use a calculator.\n\\(cos(-\\frac{\\pi}{4})\\)",
-      "allAnswers": [],
-      "tags": "trigonometry, fundamental identities ",
-      "url": "/question/3a461620-967d-403f-9b8c-5a1c349a1473",
-      "source": "AP Calculus Problems 2.6.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
-    {
-      "uuid": "c8e3b9f2-0f1c-43d5-be72-919434206e63",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Trigonometry",
-      "body": "Evaluate each of the following expressions.  Do not use a calculator.\n\\(\\sin(\\frac{\\pi}{2}-\\frac{\\pi}{6})\\)",
-      "allAnswers": [],
-      "tags": "trigonometry, fundamental identities",
-      "url": "/question/c8e3b9f2-0f1c-43d5-be72-919434206e63",
-      "source": "AP Calculus Problems 2.6.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
-    {
-      "uuid": "0cc99065-d764-4f10-ab45-305a0cd1840c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Trigonometry",
-      "body": "Evaluate each of the following expressions.  Do not use a calculator.\n\\(\\sin^2\\frac{5\\pi}{6}+\\tan^2\\frac{\\pi}{6}\\)",
-      "allAnswers": [],
-      "tags": "trigonometry, fundamental identities",
-      "url": "/question/0cc99065-d764-4f10-ab45-305a0cd1840c",
-      "source": "AP Calculus Problems 2.6.6",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
-    {
-      "uuid": "5856b60a-c73e-42f7-b314-a8fc5e17f45d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Trigonometry",
-      "body": "Evaluate each of the following expressions.  Do not use a calculator.\n\\(\\arcsin\\frac{1}{2}\\)",
-      "allAnswers": [],
-      "tags": "trigonometry, fundamental identities ",
-      "url": "/question/5856b60a-c73e-42f7-b314-a8fc5e17f45d",
-      "source": "AP Calculus Problems 2.6.7",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
-    {
-      "uuid": "cfc5ca49-46de-4fdb-963f-7e4052a75382",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787605,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Trigonometry",
-      "body": "Evaluate each of the following expressions.  Do not use a calculator.\n\\(\\arctan\\frac{1}{\\sqrt{3}}\\)",
-      "allAnswers": [],
-      "tags": "trigonometry, fundamental identities ",
-      "url": "/question/cfc5ca49-46de-4fdb-963f-7e4052a75382",
-      "source": "AP Calculus Problems 2.6.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
     {
       "uuid": "031cef88-6f28-4bbb-9938-090d2d034f0a",
       "contentType": "question",
@@ -358,7 +188,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/031cef88-6f28-4bbb-9938-090d2d034f0a",
       "source": "AP Calculus Problems 2.6.9",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "630bea1b-446b-48ad-a17c-7e13a7f9973d",
@@ -375,7 +205,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/630bea1b-446b-48ad-a17c-7e13a7f9973d",
       "source": "AP Calculus Problems 2.6.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "e28e272f-c0ab-457a-bdfe-573ef8c45574",
@@ -392,7 +222,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/e28e272f-c0ab-457a-bdfe-573ef8c45574",
       "source": "AP Calculus Problems 2.6.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "f13b9c7f-9eb1-489a-bff9-53cdaef4eec8",
@@ -409,7 +239,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/f13b9c7f-9eb1-489a-bff9-53cdaef4eec8",
       "source": "AP Calculus Problems 2.6.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "f1110d49-d58d-4c21-a447-e03fb5dd1244",
@@ -426,7 +256,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/f1110d49-d58d-4c21-a447-e03fb5dd1244",
       "source": "AP Calculus Problems 4.2.93",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "8483ee90-caa2-48a8-986f-123c7dd32f31",
@@ -443,7 +273,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/8483ee90-caa2-48a8-986f-123c7dd32f31",
       "source": "AP Calculus Problems 2.6.13",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "ef9dd642-8078-4c00-9bf1-4b4f72e5a4a7",
@@ -460,7 +290,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/ef9dd642-8078-4c00-9bf1-4b4f72e5a4a7",
       "source": "AP Calculus Problems 2.6.14",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "21d622cc-5471-4e80-abf3-a33fb74573f9",
@@ -477,7 +307,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/21d622cc-5471-4e80-abf3-a33fb74573f9",
       "source": "AP Calculus Problems 2.6.15",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "ee97bdfb-7c88-429e-926b-3517795ac32a",
@@ -494,7 +324,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/ee97bdfb-7c88-429e-926b-3517795ac32a",
       "source": "AP Calculus Problems 4.2.94",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "4f691305-090d-459b-aafa-bc1544377ac7",
@@ -511,7 +341,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/4f691305-090d-459b-aafa-bc1544377ac7",
       "source": "AP Calculus Problems 4.2.95",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "3e95a298-01a2-4045-9e1f-4acf319fc797",
@@ -528,7 +358,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/3e95a298-01a2-4045-9e1f-4acf319fc797",
       "source": "AP Calculus Problems 4.2.96",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "1197a4dc-1263-4689-b319-dad48a76101a",
@@ -545,7 +375,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/1197a4dc-1263-4689-b319-dad48a76101a",
       "source": "AP Calculus Problems 4.2.97",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "d184d084-f9d8-41e3-9b92-c6a765fbc787",
@@ -562,7 +392,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/d184d084-f9d8-41e3-9b92-c6a765fbc787",
       "source": "AP Calculus Problems 4.2.98",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "b72bfca2-7db9-488c-aa08-becd048f28af",
@@ -579,7 +409,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/b72bfca2-7db9-488c-aa08-becd048f28af",
       "source": "AP Calculus Problems 4.2.99",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "0e33294e-6580-4ba5-94cb-4acbe331eca1",
@@ -596,7 +426,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/0e33294e-6580-4ba5-94cb-4acbe331eca1",
       "source": "AP Calculus Problems 4.2.100",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "83a99994-a658-4944-83f7-0e55177c85c7",
@@ -613,7 +443,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/83a99994-a658-4944-83f7-0e55177c85c7",
       "source": "AP Calculus Problems 4.2.101",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "442ccf5a-3f84-4424-83ae-d8ca17f71085",
@@ -630,7 +460,7 @@
       "tags": "integrals, differentiation, derivatives, antiderivatives, partial fractions",
       "url": "/question/442ccf5a-3f84-4424-83ae-d8ca17f71085",
       "source": "AP Calculus Problems 4.2.102",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "e955cf6a-eae3-47ab-9fa7-3f4a2c47aece",
@@ -647,7 +477,7 @@
       "tags": "trigonometry, fundamental identities ",
       "url": "/question/e955cf6a-eae3-47ab-9fa7-3f4a2c47aece",
       "source": "AP Calculus Problems 2.6.16",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "85262191-b6f1-4eb7-94fb-6c29a8d8efdb",
@@ -664,7 +494,7 @@
       "tags": "limits, functions, fundamental identities ",
       "url": "/question/85262191-b6f1-4eb7-94fb-6c29a8d8efdb",
       "source": "AP Calculus Problems 2.6.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "dfd382ac-1cb1-49b9-8d30-c4997fd04006",
@@ -681,7 +511,7 @@
       "tags": "limits, functions, fundamental identities ",
       "url": "/question/dfd382ac-1cb1-49b9-8d30-c4997fd04006",
       "source": "AP Calculus Problems 2.6.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a723bc26-a3c9-4672-bb99-92b0f78ae911",
@@ -698,7 +528,7 @@
       "tags": "limits, functions, fundamental identities ",
       "url": "/question/a723bc26-a3c9-4672-bb99-92b0f78ae911",
       "source": "AP Calculus Problems 2.6.19",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d076607c-921d-44cd-ab4e-e1009077fb96",
@@ -715,7 +545,7 @@
       "tags": "limits, functions, fundamental identities ",
       "url": "/question/d076607c-921d-44cd-ab4e-e1009077fb96",
       "source": "AP Calculus Problems 2.6.20",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "527be511-bd75-4467-9897-1a35c0cf7a31",
@@ -732,7 +562,7 @@
       "tags": "limits, functions, fundamental identities ",
       "url": "/question/527be511-bd75-4467-9897-1a35c0cf7a31",
       "source": "AP Calculus Problems 2.6.21",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "6f25a3f0-dccb-4769-8c5a-0c7837f03c31",
@@ -749,7 +579,7 @@
       "tags": "limits, functions, fundamental identities ",
       "url": "/question/6f25a3f0-dccb-4769-8c5a-0c7837f03c31",
       "source": "AP Calculus Problems 2.6.22",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ba029ec0-ff6f-495e-a971-88d926bfdada",
@@ -766,7 +596,7 @@
       "tags": "odd function, even function, function, fundamental identities",
       "url": "/question/ba029ec0-ff6f-495e-a971-88d926bfdada",
       "source": "AP Calculus Problems 2.6.23",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "03ba60a4-2d68-4321-9647-6b23e6935e08",
@@ -783,7 +613,7 @@
       "tags": "fundamental identities, intervals",
       "url": "/question/03ba60a4-2d68-4321-9647-6b23e6935e08",
       "source": "AP Calculus Problems 2.6.24",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "f11e4cb8-15fc-42f9-8be4-27dcf4bf93a5",
@@ -800,7 +630,7 @@
       "tags": "fundamental identities, intervals",
       "url": "/question/f11e4cb8-15fc-42f9-8be4-27dcf4bf93a5",
       "source": "AP Calculus Problems 2.6.25",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "7b6bba3b-dd04-4904-b102-5612b138aefa",
@@ -817,7 +647,7 @@
       "tags": "fundamental identities, intervals",
       "url": "/question/7b6bba3b-dd04-4904-b102-5612b138aefa",
       "source": "AP Calculus Problems 2.6.26",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "a6d20954-c20c-4c6e-8868-c35e9122f376",
@@ -834,7 +664,7 @@
       "tags": "fundamental identities, intervals",
       "url": "/question/a6d20954-c20c-4c6e-8868-c35e9122f376",
       "source": "AP Calculus Problems 2.6.27",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "56644ca8-2261-4108-81a4-dc6b84eb2228",
@@ -851,7 +681,7 @@
       "tags": "fundamental identities, intervals",
       "url": "/question/56644ca8-2261-4108-81a4-dc6b84eb2228",
       "source": "AP Calculus Problems 2.6.28",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "1e0f50f0-dde6-46f4-a826-2f9a293a2824",
@@ -868,7 +698,7 @@
       "tags": "fundamental identities, intervals",
       "url": "/question/1e0f50f0-dde6-46f4-a826-2f9a293a2824",
       "source": "AP Calculus Problems 2.6.29",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
     },
     {
       "uuid": "0ca50680-5882-4cf5-9a37-1ee441c4da91",
@@ -885,7 +715,92 @@
       "tags": "fundamental identities, word problem, volume, rate of change",
       "url": "/question/0ca50680-5882-4cf5-9a37-1ee441c4da91",
       "source": "AP Calculus Problems 2.6.30",
-      "topic": "Trigonometry/Fundamental Identities/Sine/Law of Sine"
+      "topic": "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
+    },
+    {
+      "uuid": "91c0daea-fc55-4423-9358-ac1325fd8fcc",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity and Differentiability",
+      "body": "Suppose \\(f\\) is a function for which \\(\\lim\\limits_{x\\to 2} \\dfrac{f(x)-f(2)}{x-2}\u003d0\\).  Which of the following must be true, might be true, or can never be true? \n  a) \\(f\u0027(2)\u003d2\\)\n  b) \\(f(2)\u003d0\\)\n  c) \\(\\lim\\limits_{x\\to 2} f(x)\u003df(2)\\)\n  d) \\(f(x)\\) is continuous at \\(x\u003d0\\).\n  e) \\(f(x)\\) is continuous at \\(x\u003d2\\).",
+      "allAnswers": [],
+      "tags": "function, continuity, limits",
+      "url": "/question/91c0daea-fc55-4423-9358-ac1325fd8fcc",
+      "source": "AP Calculus Problems 2.7.1",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
+    },
+    {
+      "uuid": "1c434f8d-a465-4b72-928c-f0ce716741f7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity and Differentiability",
+      "body": "For some nonzero real number \\(a\\), define the function \\(f\\) as \\(f(x)\u003d\\begin{cases} \\dfrac{x^2-a^2}{x-a} \u0026 x\\neq a\\\\ 0 \u0026 x\u003da. \\end{cases}\\) \n  a) Is \\(f\\) defined at \\(a\\)?\n  b) Does \\(\\lim\\limits_{x\\to a} f(x)\\) exist? Justify your answer.\n  c) Is \\(f\\) continuous at \\(a\\)? Justify your answer.\n  d) Is \\(f\\) differentiable at \\(a\\)? Justify your answer.",
+      "allAnswers": [],
+      "tags": "derivative, limits, continuity, differentiability  ",
+      "url": "/question/1c434f8d-a465-4b72-928c-f0ce716741f7",
+      "source": "AP Calculus Problems 2.7.2",
+      "topic": "14400885-9fb4-475c-bb71-681ee37bcd1e"
+    },
+    {
+      "uuid": "5836c240-754d-47fe-8d2e-e17e23ca8f74",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity and Differentiability",
+      "body": "If \\(\\lim\\limits_{x\\to a} f(x)\u003dL\\), which of the following statements, if any, \\emph{must} be true? Justify your answers. \n  a) \\(f\\) is defined at \\(a\\).\n  b) \\(f(a)\u003dL\\).\n  c) \\(f\\) is continuous at \\(a\\).\n  d) \\(f\\) is differentiable at \\(a\\).",
+      "allAnswers": [],
+      "tags": "continuity, differentiability, limits ",
+      "url": "/question/5836c240-754d-47fe-8d2e-e17e23ca8f74",
+      "source": "AP Calculus Problems 2.7.3",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
+    },
+    {
+      "uuid": "fa59deff-fd8d-45f4-b283-bad6bba3b059",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Evaluate Using Trig Substitution",
+      "body": "Evaluate using trig substitution\n\n\\(\\dint\\frac{3}{\\sqrt{1+9x^2}} \\ dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, differentiation, derivatives, antiderivatives, substitution, trigonometry",
+      "url": "/question/fa59deff-fd8d-45f4-b283-bad6bba3b059",
+      "source": "AP Calculus Problems 4.3.1",
+      "topic": "c90ddb61-edfd-41be-90bc-b067c88e7dd5"
+    },
+    {
+      "uuid": "059f6c52-0959-4498-8cf7-d47ae8f2b72d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787605,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Continuity and Differentiability",
+      "body": "Let \\(f(x)\u003d\\begin{cases} ax \u0026 x\\leq 1\\\\ bx^2+x+1 \u0026 x\u003e1. \\end{cases}\\) \n  a) Find all choices of \\(a\\) and \\(b\\) such that \\(f\\) is continuous at \\(x\u003d1\\).\n  b) Draw the graph of \\(f\\) when \\(a\u003d1\\) and \\(b\u003d-1\\).\n  c) Find the values of \\(a\\) and \\(b\\) such that \\(f\\) is differentiable at \\(x\u003d1\\).\n  d) Draw the graph of \\(f\\) for the values of \\(a\\) and \\(b\\) found in part (c).",
+      "allAnswers": [],
+      "tags": "continuity, differentiability ",
+      "url": "/question/059f6c52-0959-4498-8cf7-d47ae8f2b72d",
+      "source": "AP Calculus Problems 2.7.4",
+      "topic": "0ec64a18-80c4-42a5-a873-7dbf147f640d"
     }
   ],
   "textContent": [
@@ -899,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Absolute Value Function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2320.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2321.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2322.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2323.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2324.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2325.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2320.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2321.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2322.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2323.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2324.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2325.png\"/\u003e",
       "allAnswers": [],
       "tags": "absolute value, function, graph of absolute value function, linear and quadratic functions ",
       "url": "/text-content/8ba7ebd0-fb84-4fd2-bc26-0808d3557559",
       "source": "Precalculus, 3rd Edition 2.2",
-      "topic": "Pre-Calculus/Relations and Functions/Absolute Value Functions"
+      "topic": "9108e844-2e5c-42a2-ae83-ba9dc7471dd0"
     },
     {
       "uuid": "13614efa-4e1e-4ddf-b0a6-f1e46dc9e9d8",
@@ -916,14 +831,79 @@
       "viewable": true,
       "karma": 3,
       "title": "Quadratic functions ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2333.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2334.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2335.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2336.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2337.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2338.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2339.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2340.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2333.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2334.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2335.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2336.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2337.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2338.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2339.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2340.png\"/\u003e",
       "allAnswers": [],
       "tags": "quadratic functions, quadratic formulas, vertex formulas, standard form of quadratics, general form of quadratics ",
       "url": "/text-content/13614efa-4e1e-4ddf-b0a6-f1e46dc9e9d8",
       "source": "Precalculus, 3rd Edition 2.3",
-      "topic": "Pre-Calculus/Relations and Functions/Quadratic Functions"
+      "topic": "2a8cbc53-847d-4bb7-83a6-43c69b5d8636"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "4113a9c3-c7f4-423f-bb8b-48e6bc87ab57",
+      "subTopics": [],
+      "parentTopics": [
+        "9925b9c0-6088-4f4c-9ed3-79e46baaf83b"
+      ],
+      "title": "Fundamental Theorem of Algebra",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " complex zeros,polynomial functions, fundamental theorem of algebra,",
+      "difficulty": 72000,
+      "contentUuids": [
+        "d8002285-561c-40b2-a882-721d40c6f83a"
+      ]
+    },
+    {
+      "uuid": "eba6b2f7-54b8-4688-b579-6675e752e189",
+      "subTopics": [],
+      "parentTopics": [
+        "7584945b-f665-4d32-a2a7-6684b58a016a"
+      ],
+      "title": "One-Sided Finite Limits",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " rational functions,one-sided limits, approaching one-sided limits, functions, limits,",
+      "difficulty": 415000,
+      "contentUuids": [
+        "2ba401cf-5ae0-49b2-b1ad-fb42bf9966ff"
+      ]
+    },
+    {
+      "uuid": "06df13b1-14e1-45fe-b002-a3a5a10e0991",
+      "subTopics": [],
+      "parentTopics": [
+        "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+      ],
+      "title": "Maclaurin Series",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " taylor\\u0027s theorem,series, maclaurin series, taylor\\u0027s series, series, taylor series,maclaurin series, Taylor\\u0027s theorem, multi-problem,taylor\\u0027s series, algebraic manipulation, limit, converge, Taylor series,MacLaurini series,infinity,interval, summation, convergence,converges, guaranteed error, infinity , Taylor theorem, sum , approximation ,taylor series,Taylor series, converges,polynomial approximation,diverges, cosine, taylor polynomials , divergence, polynomial",
+      "difficulty": 701000,
+      "contentUuids": [
+        "7cfda882-0ed2-4d91-92a7-5f8b51ac11d1",
+        "e81f157c-a767-4f0a-9307-101999852fae",
+        "eb502b41-622c-4d29-a276-e9aac25fa512",
+        "21200817-c0a8-413c-9323-7b20bf59b484",
+        "85adc7ea-f5ba-4d29-b93d-9acde7512533",
+        "60835e53-060b-4706-ab74-9717b3ee1b73",
+        "694077e3-6887-4af5-8de7-1073868107a9",
+        "d18c56a0-1691-41b8-9bec-bcdf45662941",
+        "d837c731-d26b-4b3d-9d01-de62f130e7e3",
+        "78faf9f4-98d6-43dd-8ce6-53f7ab29b960",
+        "9bcb117e-bb89-4791-84d3-b7def56dbf58",
+        "b66eab4b-a460-4fa0-8af6-dc65148b7d17",
+        "43f39eab-1cad-4aa5-92b6-88149e26d342",
+        "83181d7f-83e0-487a-a156-b5e422be7745",
+        "bcec6764-d474-4655-b320-3421402a703e",
+        "515f8a0b-1f19-4950-945a-2e7c47e852b9",
+        "144f76e9-76f5-4b55-ae7d-abed1b9c27d6",
+        "a390dec0-5448-4855-8cfe-66d41d8aa9d3",
+        "6b052998-dd76-415a-b1e1-4058e97cd59f",
+        "dee30468-d3e1-4d49-b6e5-9a6cafde65c9"
+      ]
+    }
+  ]
 }

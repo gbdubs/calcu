@@ -2,193 +2,6 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5195.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5196.png\"/\u003e",
-      "uuid": "4d3be9b2-b40c-4c57-81cd-ccfb86ebf58e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graph the function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5194.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "graphing function, higher-order functions, derivatives",
-      "url": "/practice-problem/4d3be9b2-b40c-4c57-81cd-ccfb86ebf58e",
-      "source": "null 5.1.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5213.png\"/\u003e",
-      "uuid": "2f344922-82a2-4773-9d9b-952d49d0e13c",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find max and min",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5212.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "maximum value, minimum value, extrema, continuity, derivatives ",
-      "url": "/practice-problem/2f344922-82a2-4773-9d9b-952d49d0e13c",
-      "source": "null 5.2.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5215.png\"/\u003e",
-      "uuid": "b5547e5a-0127-4b5c-84b6-6c3294bb2d4f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Maximum value question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5214.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "maximum value, extrema, derivatives, applications of derivatives",
-      "url": "/practice-problem/b5547e5a-0127-4b5c-84b6-6c3294bb2d4f",
-      "source": "null 5.2.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5254.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5255.png\"/\u003e",
-      "uuid": "41faa30e-f9c5-4340-90f3-d76e3f2dc245",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Coil of sheet metal",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5253.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "related rates, derivatives, applications of derivatives ",
-      "url": "/practice-problem/41faa30e-f9c5-4340-90f3-d76e3f2dc245",
-      "source": "null 5.6.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5264.png\"/\u003e",
-      "uuid": "741ad3c9-a4df-4a04-a388-04d7a89aa131",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Antiderivative question",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5263.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "antiderivative, integral, integration ",
-      "url": "/practice-problem/741ad3c9-a4df-4a04-a388-04d7a89aa131",
-      "source": "null 6.1.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5267.png\"/\u003e",
-      "uuid": "763b3b4b-03d2-4ffa-8dc1-7a66a50baca2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Integral problem ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5266.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "antiderivative, integral, integration ",
-      "url": "/practice-problem/763b3b4b-03d2-4ffa-8dc1-7a66a50baca2",
-      "source": "null 6.1.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5274.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5275.png\"/\u003e",
-      "uuid": "cd6b2844-cae2-40b0-b017-4f0ca293b08b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the indefinite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5273.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration, antiderivative ",
-      "url": "/practice-problem/cd6b2844-cae2-40b0-b017-4f0ca293b08b",
-      "source": "null 6.1.9"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5292.png\"/\u003e",
-      "uuid": "4be4cd37-1a7d-406e-b307-6c63d73ad222",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute area under the curve",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5291.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, area under curve, integration ",
-      "url": "/practice-problem/4be4cd37-1a7d-406e-b307-6c63d73ad222",
-      "source": "null 6.3.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5295.png\"/\u003e",
-      "uuid": "ad821618-9af2-46ac-b664-737ee8a1fd10",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the integral problem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5294.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration, area under curve ",
-      "url": "/practice-problem/ad821618-9af2-46ac-b664-737ee8a1fd10",
-      "source": "null 6.3.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5331.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5332.png\"/\u003e",
-      "uuid": "3a7dc542-7dee-4b97-9e53-e2721ee8dec1",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the indefinite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5330.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "indefinite integral, integral, integration ",
-      "url": "/practice-problem/3a7dc542-7dee-4b97-9e53-e2721ee8dec1",
-      "source": "null 6.5.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5365.png\"/\u003e",
-      "uuid": "327d7c25-8aac-42b1-b44d-5a52710897ec",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the indefinite integral by parts",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5364.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integration by parts, integration, integration by substitution, integral ",
-      "url": "/practice-problem/327d7c25-8aac-42b1-b44d-5a52710897ec",
-      "source": "null 7.2.5"
-    },
-    {
       "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5370.png\"/\u003e",
       "uuid": "a72bf9ee-041d-4c01-9647-5a88c4ccdf96",
       "contentType": "practiceProblem",
@@ -272,6 +85,91 @@
       "tags": "trigonometric integral, trig integral, integration, integral ",
       "url": "/practice-problem/ee957a9e-fdbf-469e-bbb2-702479480eff",
       "source": "null 7.3.21"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5513.png\"/\u003e",
+      "uuid": "295681da-2a1e-4db6-a921-49661fe7d5d2",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655794,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Converge or Diverge summation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5512.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "divergent, convergent, convergence, divergence, summation, series of constant",
+      "url": "/practice-problem/295681da-2a1e-4db6-a921-49661fe7d5d2",
+      "source": "null 10.3.12"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5543.png\"/\u003e",
+      "uuid": "4e6442f7-a29e-4676-b03a-14370e333ca7",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655795,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Do the following to this equation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5542.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "taylor series, taylor polynomials, derivatives, integration ",
+      "url": "/practice-problem/4e6442f7-a29e-4676-b03a-14370e333ca7",
+      "source": "null 11.1.6"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5549.png\"/\u003e",
+      "uuid": "befaefea-1cd2-4456-9a74-35fdf740dc46",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655795,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Construct the table to solve dis one",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5548.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "taylor series, taylor polynomials, derivatives, integrals ",
+      "url": "/practice-problem/befaefea-1cd2-4456-9a74-35fdf740dc46",
+      "source": "null 11.1.9"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5645.png\"/\u003e",
+      "uuid": "cc95e45e-ec09-4fb3-8e33-31f15d8eae02",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655795,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Approximate the area",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5644.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "approximate area, area, area under the curve, riemann sums, integral, integration",
+      "url": "/practice-problem/cc95e45e-ec09-4fb3-8e33-31f15d8eae02",
+      "source": "null 1.3.4"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5649.png\"/\u003e",
+      "uuid": "90d27597-c83f-4d5c-87ed-7a35e03a8e88",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655795,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Riemann sum",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/5648.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "riemann sum, integral, integration, area, area under curve",
+      "url": "/practice-problem/90d27597-c83f-4d5c-87ed-7a35e03a8e88",
+      "source": "null 1.3.5"
     }
   ],
   "questions": [
@@ -290,7 +188,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/90ff5ced-be1f-4e38-b093-553f38545ad9",
       "source": "Active Calc 6.3.36",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "f7d692b5-1d86-41b5-ac3a-a4accdc61bd7",
@@ -307,7 +205,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/f7d692b5-1d86-41b5-ac3a-a4accdc61bd7",
       "source": "Active Calc 6.3.37",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "038c28bb-30f6-4825-8513-247520c5ad44",
@@ -324,7 +222,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/038c28bb-30f6-4825-8513-247520c5ad44",
       "source": "Active Calc 6.3.38",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "19eb3d80-80ff-40cf-9c60-873c0bfb0c7b",
@@ -341,7 +239,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/19eb3d80-80ff-40cf-9c60-873c0bfb0c7b",
       "source": "Active Calc 6.3.39",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "53d53e89-c7fc-47ad-8e3a-efbf80752186",
@@ -358,7 +256,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/53d53e89-c7fc-47ad-8e3a-efbf80752186",
       "source": "Active Calc 6.3.40",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "dc3d40f7-2298-4ead-8631-4184235fc717",
@@ -375,7 +273,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/dc3d40f7-2298-4ead-8631-4184235fc717",
       "source": "Active Calc 6.3.41",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "6974fde0-01a0-41d1-87e0-337e3b55e6dc",
@@ -392,7 +290,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/6974fde0-01a0-41d1-87e0-337e3b55e6dc",
       "source": "Active Calc 6.3.42",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "67755f79-f5a8-44a1-9ff9-c4723feda6e4",
@@ -409,7 +307,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/67755f79-f5a8-44a1-9ff9-c4723feda6e4",
       "source": "Active Calc 6.3.43",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "a553286f-b0ef-4b06-bdfb-a59e38541162",
@@ -426,7 +324,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/a553286f-b0ef-4b06-bdfb-a59e38541162",
       "source": "Active Calc 6.3.44",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "28988725-c47d-48d0-a229-10837ce966c1",
@@ -443,7 +341,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/28988725-c47d-48d0-a229-10837ce966c1",
       "source": "Active Calc 6.3.45",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "62b18abc-1edc-409f-a7fd-852b150042bb",
@@ -460,7 +358,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/62b18abc-1edc-409f-a7fd-852b150042bb",
       "source": "Active Calc 6.3.46",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "fefd6572-7922-4c61-9868-09bba0e394ff",
@@ -477,7 +375,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inequalities",
       "url": "/question/fefd6572-7922-4c61-9868-09bba0e394ff",
       "source": "Active Calc 6.3.47",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "742dbf32-aacc-47a9-9503-8c86d9dcfeeb",
@@ -494,7 +392,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry ",
       "url": "/question/742dbf32-aacc-47a9-9503-8c86d9dcfeeb",
       "source": "Active Calc 1.6.1",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "b50d37ba-4b21-4307-91e9-3982e7f201f9",
@@ -511,7 +409,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/b50d37ba-4b21-4307-91e9-3982e7f201f9",
       "source": "Active Calc 1.6.2",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "b3c920a9-c176-40e1-a1d1-a9e41f5eaffb",
@@ -528,7 +426,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/b3c920a9-c176-40e1-a1d1-a9e41f5eaffb",
       "source": "Active Calc 1.6.3",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "415c866b-7e7c-4be5-b784-0e0efe600888",
@@ -545,7 +443,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/415c866b-7e7c-4be5-b784-0e0efe600888",
       "source": "Active Calc 1.6.4",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "bc71b0e6-2522-4a6b-a024-d923bb1b284c",
@@ -562,7 +460,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/bc71b0e6-2522-4a6b-a024-d923bb1b284c",
       "source": "Active Calc 1.6.5",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "8a0afb78-bffc-483d-8643-fbf5223276f0",
@@ -579,7 +477,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/8a0afb78-bffc-483d-8643-fbf5223276f0",
       "source": "Active Calc 1.6.6",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "edfa3b06-9dc9-4410-a301-34ec74e25759",
@@ -596,7 +494,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/edfa3b06-9dc9-4410-a301-34ec74e25759",
       "source": "Active Calc 1.6.7",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "96d82adc-fd50-4701-8cff-b365d18b7b90",
@@ -613,7 +511,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/96d82adc-fd50-4701-8cff-b365d18b7b90",
       "source": "Active Calc 1.6.8",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "32678c51-1fe3-4ef9-92f0-e1daef3493dc",
@@ -630,7 +528,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/32678c51-1fe3-4ef9-92f0-e1daef3493dc",
       "source": "Active Calc 1.6.9",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "5eadd64f-bdd0-4443-911d-2ebe9c1f833d",
@@ -647,7 +545,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/5eadd64f-bdd0-4443-911d-2ebe9c1f833d",
       "source": "Active Calc 1.6.10",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "e2642802-f260-44ca-90eb-173781fed3b2",
@@ -664,7 +562,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/e2642802-f260-44ca-90eb-173781fed3b2",
       "source": "Active Calc 1.6.11",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "559cc39a-08c6-4c25-86b9-f6b2e7ea6492",
@@ -681,7 +579,7 @@
       "tags": "graph of functions, function, domain, domain of function, intercepts, symmetry",
       "url": "/question/559cc39a-08c6-4c25-86b9-f6b2e7ea6492",
       "source": "Active Calc 1.6.12",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "18b49115-0d8f-492f-b38d-55015b28defd",
@@ -693,12 +591,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20352.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20352.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/18b49115-0d8f-492f-b38d-55015b28defd",
       "source": "Active Calc 1.6.13",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "e24d2194-181f-474a-8d6f-cd8a76bd1c84",
@@ -710,12 +608,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20353.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20353.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/e24d2194-181f-474a-8d6f-cd8a76bd1c84",
       "source": "Active Calc 1.6.14",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "83c4f597-eb75-402b-bfc2-90b31906eeee",
@@ -727,12 +625,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20354.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20354.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/83c4f597-eb75-402b-bfc2-90b31906eeee",
       "source": "Active Calc 1.6.15",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "1fdec41d-cf82-45f0-96fb-00c9096e2972",
@@ -744,12 +642,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20355.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20355.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/1fdec41d-cf82-45f0-96fb-00c9096e2972",
       "source": "Active Calc 1.6.16",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "a17eb52a-fa4c-481f-8255-d27d976db446",
@@ -761,12 +659,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20356.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20356.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/a17eb52a-fa4c-481f-8255-d27d976db446",
       "source": "Active Calc 1.6.17",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "fbe9f804-a839-4b9d-9c75-dadaf755bbe9",
@@ -778,12 +676,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20357.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20357.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/fbe9f804-a839-4b9d-9c75-dadaf755bbe9",
       "source": "Active Calc 1.6.18",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "bc652d9b-d64a-48ce-a67a-b0264cdde44a",
@@ -795,12 +693,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20358.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20358.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/bc652d9b-d64a-48ce-a67a-b0264cdde44a",
       "source": "Active Calc 1.6.19",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "d1e170bb-d035-42b8-baa6-d3198ed98724",
@@ -812,12 +710,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Functions",
-      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20359.png\"/\u003e",
+      "body": "Sketch the graph of the given piecewise-defined function.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20359.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, graph of function, piecewise-defined, piecewise-defined function",
       "url": "/question/d1e170bb-d035-42b8-baa6-d3198ed98724",
       "source": "Active Calc 1.6.20",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "645336af-af51-402d-a7e2-81a970a6ff07",
@@ -834,7 +732,7 @@
       "tags": "function, even, odd, multi-problem",
       "url": "/question/645336af-af51-402d-a7e2-81a970a6ff07",
       "source": "Active Calc 1.6.21",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "c8a83c66-3981-4054-8d80-b57eba88ce52",
@@ -851,7 +749,7 @@
       "tags": "functions, odd, even, multi-problem",
       "url": "/question/c8a83c66-3981-4054-8d80-b57eba88ce52",
       "source": "Active Calc 1.6.22",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "2672d97b-99d2-4d6e-addd-6241b2944594",
@@ -868,7 +766,7 @@
       "tags": "function, odd, even, multi-problem",
       "url": "/question/2672d97b-99d2-4d6e-addd-6241b2944594",
       "source": "Active Calc 1.6.23",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "fb78a375-8983-44b5-a699-34014853e78d",
@@ -885,7 +783,7 @@
       "tags": "function, odd, even, multi-problem",
       "url": "/question/fb78a375-8983-44b5-a699-34014853e78d",
       "source": "Active Calc 1.6.24",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "3667721a-5e04-47a5-8253-3877b9e1c146",
@@ -902,7 +800,7 @@
       "tags": "exponential, logarithmic, functions, equations, inequalities",
       "url": "/question/3667721a-5e04-47a5-8253-3877b9e1c146",
       "source": "Active Calc 6.4.1",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     }
   ],
   "textContent": [
@@ -921,7 +819,7 @@
       "tags": "trig equations, trig ",
       "url": "/text-content/ea437b67-1f2e-45e1-baef-aabf028c4f19",
       "source": "Trigonometry by Michael Corral 6.1",
-      "topic": "Trigonometry/Trigonometric Equations/Equations"
+      "topic": "0456a86f-2880-4085-ae79-d310e9fc0844"
     },
     {
       "uuid": "5db51121-633b-4a28-8868-a679a93ebc1d",
@@ -938,9 +836,81 @@
       "tags": "programming trig, trig, numerical methods ",
       "url": "/text-content/5db51121-633b-4a28-8868-a679a93ebc1d",
       "source": "Trigonometry by Michael Corral 6.2",
-      "topic": "Trigonometry/Trigonometric Equations/Equations"
+      "topic": "0456a86f-2880-4085-ae79-d310e9fc0844"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "55f21531-13c8-4f94-9708-fbc2d08a8946",
+      "subTopics": [
+        "a910b974-9578-426a-8311-7fdd4fd01416",
+        "2a113b1f-6090-40b6-b265-baafb101e43d"
+      ],
+      "parentTopics": [
+        "bcb4f0e4-542a-4fc3-aa96-39a5e2c9eff1"
+      ],
+      "title": "Graphing Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 302000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "5c2b7b4f-a961-4704-8e63-8b8812986b39",
+      "subTopics": [],
+      "parentTopics": [
+        "9e84628b-5bdd-4486-b0ce-c4b8c6d922a4"
+      ],
+      "title": "Vertex",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "unit circle, parabolas, standard form, conics,",
+      "difficulty": 319000,
+      "contentUuids": [
+        "6c5934ed-61e6-4864-a650-1f00ef6287c8",
+        "45fcedac-295c-4a63-ba76-ae3b625ac588",
+        "3967f2de-b704-4bd5-873c-b933f92dc8c7",
+        "a1fc9b1e-ea83-48aa-beb2-15c576034223",
+        "b08111e6-0abf-4113-9129-fd01c4246dfe",
+        "e775e958-3f54-4dc1-a517-39dcb92598da",
+        "2c634a0c-2fdb-419b-bede-6fcda4eb3afa",
+        "4da5d0a9-9a78-4ed4-91ce-e7f78091dccd",
+        "9d4e37b0-39d3-4ce8-9716-2d5e3d05c664",
+        "effe0e9e-0289-4f66-9119-d847ce74ef4a",
+        "4ce71a2a-532b-4293-9629-a5e51a40fe48",
+        "2d2afb70-6ac2-4a2c-981c-9a9ec7c8932f",
+        "74e13330-a12d-4b2d-8584-0e839fade840",
+        "c4f1014b-0592-48e7-866b-60303006a699",
+        "dcdcd0cb-c291-4f18-9f7b-453f49cc55e5",
+        "a95d178d-a050-4491-bdf2-5de87f9a3ff1",
+        "fd90424d-1555-4225-8f4f-288417730dc9",
+        "08afc0a3-753c-4bce-a7ce-c229205f7673",
+        "45db2c6b-e3b3-4618-8fb7-98ba6f3bf283",
+        "4df143b7-114e-4054-8861-9474cdd4d16c",
+        "68e8d3c6-cf7c-4810-899e-f929845d2bff"
+      ]
+    },
+    {
+      "uuid": "4efb65d6-584e-4e64-8681-46c4356cc8d2",
+      "subTopics": [],
+      "parentTopics": [
+        "4f2b37df-eb7a-4087-b568-3d77482e3521"
+      ],
+      "title": "Gravity",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " work, calculus word problem, work word problem,word problem, water tank,spring, radius, natural length,work, density, depth of water, height, spring constant , compressing spring, lifting bucket, sphere, cylinder, bucket, word problem, stretch spring, Newtons, force, height ,",
+      "difficulty": 640000,
+      "contentUuids": [
+        "633aa989-1be7-4647-9076-05e2c20dafd0",
+        "16118cac-a8cc-4cec-9c7a-fbd66017ca9d",
+        "526c2c46-a7ae-469c-a478-f10b2bb52dea",
+        "3de8d2bf-fa29-4a50-b25b-8b39f044988c",
+        "08066b70-5f26-4e4e-9221-5f3a5d49c85d",
+        "e4205dad-3584-4cd1-9501-039d453694f9"
+      ]
+    }
+  ]
 }

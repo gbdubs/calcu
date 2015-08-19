@@ -2,263 +2,8 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3320.png\"/\u003e",
-      "uuid": "f2f9eba7-6630-426b-8a5c-b799a5433079",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Area A of a square piece",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3318.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quadratic functions, area, inequalities ",
-      "url": "/practice-problem/f2f9eba7-6630-426b-8a5c-b799a5433079",
-      "source": "null 2.4.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3322.png\"/\u003e",
-      "uuid": "3c8fa2ba-f385-4cbd-a3a9-1d58e8fe13b1",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Relations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3321.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "quadratic functions, inequalities ",
-      "url": "/practice-problem/3c8fa2ba-f385-4cbd-a3a9-1d58e8fe13b1",
-      "source": "null 2.4.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3373.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3384.png\"/\u003e",
-      "uuid": "6d114b27-6138-4c9a-8f41-8ebc780581af",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the volume of the box",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3362.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, volume of box, applied domain, maximum volume ",
-      "url": "/practice-problem/6d114b27-6138-4c9a-8f41-8ebc780581af",
-      "source": "null 3.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3331.png\"/\u003e",
-      "uuid": "c27f871d-bab7-447e-b0fa-f8c3b4ede9ab",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Intermediate Value Theorem",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3330.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, intermediate Value Theorem, imaginary numbers, complex numbers ",
-      "url": "/practice-problem/c27f871d-bab7-447e-b0fa-f8c3b4ede9ab",
-      "source": "null 3.1.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3334.png\"/\u003e",
-      "uuid": "69e02ec5-30c7-443c-b28c-11de881d79c8",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sign Diagram",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3333.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, sign diagram ",
-      "url": "/practice-problem/69e02ec5-30c7-443c-b28c-11de881d79c8",
-      "source": "null 3.1.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3341.png\"/\u003e",
-      "uuid": "f089fb63-aa95-4fb6-832f-cd9bc4509403",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch the graph end behavior",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3339.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, end behavior, multiplicity of its zeros",
-      "url": "/practice-problem/f089fb63-aa95-4fb6-832f-cd9bc4509403",
-      "source": "null 3.1.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3350.png\"/\u003e",
-      "uuid": "850d98c9-c874-4021-86b6-c7ff23227782",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find all the real zeros",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3349.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "real zeros, polynomial functions, factor theorem, remainder theorem",
-      "url": "/practice-problem/850d98c9-c874-4021-86b6-c7ff23227782",
-      "source": "null 3.2.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3357.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3358.png\"/\u003e",
-      "uuid": "4bdd8211-883b-4806-b311-255f98c31173",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Various questions about a polynomial ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3356.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, real zeros, rational zeros ",
-      "url": "/practice-problem/4bdd8211-883b-4806-b311-255f98c31173",
-      "source": "null 3.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3363.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3364.png\"/\u003e",
-      "uuid": "f9d0f684-e788-4b75-8b6c-e3631316fa69",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Cauchy\u0027s Bound ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3361.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "Cauchy\u0027s Bound, real zeros, rational zeros theorem ",
-      "url": "/practice-problem/f9d0f684-e788-4b75-8b6c-e3631316fa69",
-      "source": "null 3.3.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3368.png\"/\u003e",
-      "uuid": "88d81eba-5cdc-4186-a0ac-3eaac04dc28d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Descartes\u0027 Rule of Signs",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3367.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, real zeros, descartes\u0027 rule of signs ",
-      "url": "/practice-problem/88d81eba-5cdc-4186-a0ac-3eaac04dc28d",
-      "source": "null 3.3.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3372.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3374.png\"/\u003e",
-      "uuid": "4f1df32a-d465-4152-8c25-881003c28851",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Real zeros and their multiplicities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3371.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, real zeros, multiplicities ",
-      "url": "/practice-problem/4f1df32a-d465-4152-8c25-881003c28851",
-      "source": "null 3.3.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3378.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3379.png\"/\u003e",
-      "uuid": "0234a148-41cf-427d-9eb0-8136709fbdc0",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Real solutons, inequalities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3377.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, inequalities, real solutions ",
-      "url": "/practice-problem/0234a148-41cf-427d-9eb0-8136709fbdc0",
-      "source": "null 3.3.7"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3381.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3382.png\"/\u003e",
-      "uuid": "9696fec8-0916-4152-95ea-1cdbc7bb7ccd",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "LCD TVs ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3380.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, inequalities, intervals, ",
-      "url": "/practice-problem/9696fec8-0916-4152-95ea-1cdbc7bb7ccd",
-      "source": "null 3.3.8"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3391.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3392.png\"/\u003e",
-      "uuid": "86b846ab-d8fb-40b2-b38e-8d978a5d52d9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Synthetic division",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3390.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, complex zeros, real numbers, synthetic division ",
-      "url": "/practice-problem/86b846ab-d8fb-40b2-b38e-8d978a5d52d9",
-      "source": "null 3.4.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3394.png\"/\u003e",
-      "uuid": "127f8ee5-b01a-4302-bf55-569f8e6a398d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655791,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the polynomial p",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3393.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "polynomial functions, complex zeros, fundamental theorem of algebra ",
-      "url": "/practice-problem/127f8ee5-b01a-4302-bf55-569f8e6a398d",
-      "source": "null 3.4.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3458.png\"/\u003e",
-      "uuid": "21d8f1ec-c617-41d5-bc90-f207dfbc187b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3884.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3885.png\"/\u003e",
+      "uuid": "eb4bbd4c-9f44-4d3b-a743-5b3a61b18700",
       "contentType": "practiceProblem",
       "creatorUserId": "",
       "createdAt": 1437611655792,
@@ -266,32 +11,168 @@
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Mathematical model of Population",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3457.png\"/\u003e",
+      "title": "Find the measure of angle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3883.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, zeros, graph functions ",
-      "url": "/practice-problem/21d8f1ec-c617-41d5-bc90-f207dfbc187b",
-      "source": "null 4.1.3"
-    }
-  ],
-  "questions": [
+      "tags": "measure, angle, angle of measure, unit circle ",
+      "url": "/practice-problem/eb4bbd4c-9f44-4d3b-a743-5b3a61b18700",
+      "source": "null 10.2.8"
+    },
     {
-      "uuid": "d96c9325-8cb9-4fdc-a4bf-a577fcaf4201",
-      "contentType": "question",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3972.png\"/\u003e",
+      "uuid": "fc2402a4-b4ae-46ad-a08d-0778dc657778",
+      "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437575946153,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Write the Composition",
-      "body": "Write the function \\( F(x) \u003d \\sqrt{\\frac{x^{3}+6}{x^{3}-9}} \\) as a composition of three or more non-identity functions.",
+      "title": "Find a formula for the derivative",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3971.png\"/\u003e",
       "allAnswers": [],
-      "tags": "function, algebra, function arithmetic, function composition",
-      "url": "/question/d96c9325-8cb9-4fdc-a4bf-a577fcaf4201",
-      "source": "Active Calc 5.1.39",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "tags": "chain rule, derivatives ",
+      "url": "/practice-problem/fc2402a4-b4ae-46ad-a08d-0778dc657778",
+      "source": "null 2.3"
     },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4217.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4218.png\"/\u003e",
+      "uuid": "8309011b-45a3-4ddd-91ea-b40f891bd933",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the volume of revolution",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4216.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "definite integral, integration, volume, solid of revolution ",
+      "url": "/practice-problem/8309011b-45a3-4ddd-91ea-b40f891bd933",
+      "source": "null 6.2.4"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4376.png\"/\u003e",
+      "uuid": "49a519ea-1bbd-4bc4-aa3b-59e4a357b4fa",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor Polynomial",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4375.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "taylor polynomials, taylor series, series, summation, approximation ",
+      "url": "/practice-problem/49a519ea-1bbd-4bc4-aa3b-59e4a357b4fa",
+      "source": "null 8.5.4"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4378.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4379.png\"/\u003e",
+      "uuid": "d416387a-cf47-4288-8d5b-b0def46c5768",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Taylor series converge",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4377.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "taylor polynomials, taylor series, convergence, divergence ",
+      "url": "/practice-problem/d416387a-cf47-4288-8d5b-b0def46c5768",
+      "source": "null 8.5.5"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4412.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4413.png\"/\u003e",
+      "uuid": "5c50f06d-2ceb-44e8-a801-100457cdf2a8",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Restrict Domain",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4411.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "functions, domain, graphing functions, inverse functions ",
+      "url": "/practice-problem/5c50f06d-2ceb-44e8-a801-100457cdf2a8",
+      "source": "null 0.2.3"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4415.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4416.png\"/\u003e",
+      "uuid": "84402567-9704-400f-9e57-153ca17d5975",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Does function have inverse",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4414.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "functions, inverse functions, domain, input, output ",
+      "url": "/practice-problem/84402567-9704-400f-9e57-153ca17d5975",
+      "source": "null 0.2.4"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4424.png\"/\u003e",
+      "uuid": "cb80bece-0179-4af4-86ea-a23ba988bde7",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Discuss these limits",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4423.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits, right-side limit, left-side limit ",
+      "url": "/practice-problem/cb80bece-0179-4af4-86ea-a23ba988bde7",
+      "source": "null 1.1.3"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4433.png\"/\u003e",
+      "uuid": "ddcd26d3-2a26-4946-b1ec-817d159a042f",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4432.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits, compute limits, squeeze theorem",
+      "url": "/practice-problem/ddcd26d3-2a26-4946-b1ec-817d159a042f",
+      "source": "null 1.3.4"
+    },
+    {
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4436.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4437.png\"/\u003e",
+      "uuid": "2d5ae1a0-0792-41cb-b1a7-38ff2ba8f010",
+      "contentType": "practiceProblem",
+      "creatorUserId": "",
+      "createdAt": 1437611655793,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the limit",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4435.png\"/\u003e",
+      "allAnswers": [],
+      "tags": "limit, squeeze theorem, limit laws ",
+      "url": "/practice-problem/2d5ae1a0-0792-41cb-b1a7-38ff2ba8f010",
+      "source": "null 1.3.6"
+    }
+  ],
+  "questions": [
     {
       "uuid": "2da49af4-3b6d-4913-8e58-e568ed7bd06c",
       "contentType": "question",
@@ -307,7 +188,7 @@
       "tags": "function, function, notation, domain, domain of functions",
       "url": "/question/2da49af4-3b6d-4913-8e58-e568ed7bd06c",
       "source": "Active Calc 1.4.38",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "e25658de-77ee-49d4-bcf6-0cfa3f05f8b2",
@@ -324,7 +205,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/e25658de-77ee-49d4-bcf6-0cfa3f05f8b2",
       "source": "Active Calc 5.1.40",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "30ae4ef6-4c35-409a-93c8-594064fc1e0c",
@@ -341,7 +222,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/30ae4ef6-4c35-409a-93c8-594064fc1e0c",
       "source": "Active Calc 1.4.39",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "8a0cec51-c3fe-47cc-aeea-fd1807c36e04",
@@ -358,7 +239,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/8a0cec51-c3fe-47cc-aeea-fd1807c36e04",
       "source": "Active Calc 5.1.41",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "efa8ee0d-ec40-457a-830d-bd7de4fb9e75",
@@ -375,7 +256,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/efa8ee0d-ec40-457a-830d-bd7de4fb9e75",
       "source": "Active Calc 5.1.42",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "3107b97d-56bd-46f1-9b67-88bd9edc0217",
@@ -392,7 +273,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/3107b97d-56bd-46f1-9b67-88bd9edc0217",
       "source": "Active Calc 5.1.43",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "0c985d78-e218-4ce4-b95a-ec403d1e8313",
@@ -409,7 +290,7 @@
       "tags": "function, domain, domain of function, function notation",
       "url": "/question/0c985d78-e218-4ce4-b95a-ec403d1e8313",
       "source": "Active Calc 1.4.40",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "d06a6154-1c9c-4d58-92c3-df9b235a184a",
@@ -426,7 +307,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/d06a6154-1c9c-4d58-92c3-df9b235a184a",
       "source": "Active Calc 5.1.44",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "85895f21-725d-439d-8fc9-3fa6fecfabc5",
@@ -443,7 +324,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/85895f21-725d-439d-8fc9-3fa6fecfabc5",
       "source": "Active Calc 5.1.45",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "8980f06d-2214-41b3-b09d-cba91134e76d",
@@ -460,7 +341,7 @@
       "tags": "domain, domain of function, function, function notation",
       "url": "/question/8980f06d-2214-41b3-b09d-cba91134e76d",
       "source": "Active Calc 1.4.41",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "b5d850de-a76b-4dec-8007-a47cb3007303",
@@ -477,7 +358,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/b5d850de-a76b-4dec-8007-a47cb3007303",
       "source": "Active Calc 5.1.46",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "aa4d2eb1-04a8-44a5-bb1f-7399f07e2d87",
@@ -494,7 +375,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/aa4d2eb1-04a8-44a5-bb1f-7399f07e2d87",
       "source": "Active Calc 5.1.47",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "9220bd5c-5d7a-424b-ad24-937039bda939",
@@ -511,7 +392,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/9220bd5c-5d7a-424b-ad24-937039bda939",
       "source": "Active Calc 1.4.42",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "cc60d943-2af3-446f-bad2-c8c6c0450a49",
@@ -528,7 +409,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/cc60d943-2af3-446f-bad2-c8c6c0450a49",
       "source": "Active Calc 5.1.48",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "9ee1bcb6-b8c9-47bf-945c-5e2541d7733b",
@@ -545,7 +426,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/9ee1bcb6-b8c9-47bf-945c-5e2541d7733b",
       "source": "Active Calc 5.1.49",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "85d02921-a11d-44b3-9b0d-326c835fe742",
@@ -562,7 +443,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/85d02921-a11d-44b3-9b0d-326c835fe742",
       "source": "Active Calc 5.1.50",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "a23872a3-4391-4a96-8c4d-3e360baa2d44",
@@ -579,7 +460,7 @@
       "tags": "domain, domain of function, function, function of notation",
       "url": "/question/a23872a3-4391-4a96-8c4d-3e360baa2d44",
       "source": "Active Calc 1.4.43",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "40fc7ae1-517e-4235-8d4f-b23b255c4e1e",
@@ -596,7 +477,7 @@
       "tags": "function, domain, domain of function, function notation",
       "url": "/question/40fc7ae1-517e-4235-8d4f-b23b255c4e1e",
       "source": "Active Calc 1.4.44",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "f162b467-619b-4098-881e-2d39e898beed",
@@ -613,7 +494,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/f162b467-619b-4098-881e-2d39e898beed",
       "source": "Active Calc 1.4.45",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "1e283181-be6e-44c3-b54a-8679526b8ea8",
@@ -630,7 +511,7 @@
       "tags": "function, domain of function, domain, function notation",
       "url": "/question/1e283181-be6e-44c3-b54a-8679526b8ea8",
       "source": "Active Calc 1.4.46",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "24eb2370-e8e2-45fd-9a51-e28d3916dd21",
@@ -647,7 +528,7 @@
       "tags": "function, domain, domain of function, function of notation",
       "url": "/question/24eb2370-e8e2-45fd-9a51-e28d3916dd21",
       "source": "Active Calc 1.4.47",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "eaf37dfc-9f7c-4fb1-ab56-38af6d8f0a97",
@@ -664,7 +545,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/eaf37dfc-9f7c-4fb1-ab56-38af6d8f0a97",
       "source": "Active Calc 5.1.51",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "39409cb7-f343-4eba-a3d9-2b68f186b985",
@@ -681,7 +562,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/39409cb7-f343-4eba-a3d9-2b68f186b985",
       "source": "Active Calc 5.1.52",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "32b6c25b-19ab-4a16-b2ca-2e8fdbcdfd5c",
@@ -698,7 +579,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/32b6c25b-19ab-4a16-b2ca-2e8fdbcdfd5c",
       "source": "Active Calc 1.4.48",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "8ee2a517-8450-4ece-bee5-4a38f79b0fe1",
@@ -715,7 +596,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/8ee2a517-8450-4ece-bee5-4a38f79b0fe1",
       "source": "Active Calc 5.1.53",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "180520c0-f20b-4bbd-926f-3cff222062f5",
@@ -732,7 +613,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/180520c0-f20b-4bbd-926f-3cff222062f5",
       "source": "Active Calc 5.1.54",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "25deb5e2-e8c6-4905-ab5d-a1407ff68d4e",
@@ -749,7 +630,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/25deb5e2-e8c6-4905-ab5d-a1407ff68d4e",
       "source": "Active Calc 1.4.49",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "d041d7aa-776d-4343-add9-a152efb3582e",
@@ -766,7 +647,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/d041d7aa-776d-4343-add9-a152efb3582e",
       "source": "Active Calc 5.1.55",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "cd68b404-db34-4eff-ad17-5002bd5fe3e6",
@@ -783,7 +664,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/cd68b404-db34-4eff-ad17-5002bd5fe3e6",
       "source": "Active Calc 5.1.56",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "48ce8964-6ddd-4d33-8560-29b29e73d384",
@@ -800,7 +681,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/48ce8964-6ddd-4d33-8560-29b29e73d384",
       "source": "Active Calc 1.4.50",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "7f5aebd1-9c01-40bd-b14b-2f47d88458c8",
@@ -817,7 +698,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/7f5aebd1-9c01-40bd-b14b-2f47d88458c8",
       "source": "Active Calc 5.1.57",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "138d1959-7cef-4440-8880-3b617bdf646d",
@@ -834,7 +715,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/138d1959-7cef-4440-8880-3b617bdf646d",
       "source": "Active Calc 5.1.58",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "4b07dd84-7c3b-48fe-873c-70d61ec0c8c3",
@@ -851,7 +732,7 @@
       "tags": "domain, function, domain of function, function notation ",
       "url": "/question/4b07dd84-7c3b-48fe-873c-70d61ec0c8c3",
       "source": "Active Calc 1.4.51",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "cb398486-972e-47a7-9039-0ff01e64804a",
@@ -868,7 +749,7 @@
       "tags": "domain, function, domain of function, function notation",
       "url": "/question/cb398486-972e-47a7-9039-0ff01e64804a",
       "source": "Active Calc 1.4.52",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "630e81e7-6b17-41e3-a28e-d5b4884abc91",
@@ -885,7 +766,7 @@
       "tags": "function, algebra, function arithmetic, function composition",
       "url": "/question/630e81e7-6b17-41e3-a28e-d5b4884abc91",
       "source": "Active Calc 5.1.59",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     },
     {
       "uuid": "8ccb062a-b6d6-4fb2-8336-85fe77e5ec6f",
@@ -902,7 +783,24 @@
       "tags": "function notation, function, domain, domain of function",
       "url": "/question/8ccb062a-b6d6-4fb2-8336-85fe77e5ec6f",
       "source": "Active Calc 1.4.53",
-      "topic": "Algebra/Functions/Graphing Functions"
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
+    },
+    {
+      "uuid": "2fdcce43-32a8-4c6f-b023-8d9b194f8d95",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946153,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Inverse",
+      "body": "Show that the given function is one-to-one and find its inverse. Check your answers algebraically and graphically. Verify that the range of f is the domain of f _1 and vice-versa.\n\n\\( f(x) \u003d 6x - 2 \\)",
+      "allAnswers": [],
+      "tags": "function, algebra, function arithmetic, function composition",
+      "url": "/question/2fdcce43-32a8-4c6f-b023-8d9b194f8d95",
+      "source": "Active Calc 5.2.1",
+      "topic": "3e8315ad-5b91-4051-9fec-18ea3bfa89c6"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of Polar Equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3020.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3021.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3022.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3023.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3024.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3025.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3026.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3027.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3029.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3030.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3031.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3032.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3033.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3040.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3020.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3021.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3022.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3023.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3024.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3025.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3026.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3027.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3028.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3029.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3030.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3031.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3032.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3033.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3040.png\"/\u003e\n\n\u003cimg src\u003d\"/_static/img/content/10/.png\"/\u003e",
       "allAnswers": [],
       "tags": "graphing polar functions, polar coordinates, graphs of polar equations ",
       "url": "/text-content/021b17ab-8cbc-41b3-a796-0af2872db77e",
       "source": "Precalculus, 3rd Edition 11.5",
-      "topic": "Trigonometry/Polar Coordinates/Graphing Principle for Polar"
+      "topic": "0fabe101-845c-4804-be93-cc73e806d072"
     },
     {
       "uuid": "337afaaa-3ead-42dc-9969-3e622458d9a0",
@@ -933,14 +831,64 @@
       "viewable": true,
       "karma": 3,
       "title": "Hooked on conics again",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3044.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3046.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3047.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3048.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3049.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3050.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3051.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3052.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3053.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3054.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3059.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3063.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3044.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3045.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3046.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3047.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3048.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3049.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3050.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3051.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3052.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3053.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3054.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3057.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3058.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3059.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3063.png\"/\u003e",
       "allAnswers": [],
       "tags": "conics, conic sections, hyperbola, parabola ",
       "url": "/text-content/337afaaa-3ead-42dc-9969-3e622458d9a0",
       "source": "Precalculus, 3rd Edition 11.6",
-      "topic": "Pre-Calculus/Conics"
+      "topic": "0888f3d1-930a-464c-802d-3fa1fe672cc8"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "ff5381ec-564c-47b6-9958-9a1078ff922d",
+      "subTopics": [],
+      "parentTopics": [
+        "cf1d2674-7e55-416b-b317-d60438121087"
+      ],
+      "title": "Introduction to Rational Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " horizontal asymptotes, vertical asymptotes and holes,rational functions, ,",
+      "difficulty": 51000,
+      "contentUuids": [
+        "9517eb8a-fb89-4bb0-9882-d4d5181779cd"
+      ]
+    },
+    {
+      "uuid": "dabf77f8-210c-428b-9136-7db78fd8278f",
+      "subTopics": [],
+      "parentTopics": [
+        "8be69d58-e125-4605-85ef-c6a0e05694cb"
+      ],
+      "title": "Modeling",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "differential equations, derivatives, differentiability , modeling,",
+      "difficulty": 717000,
+      "contentUuids": [
+        "03bc262d-9c76-4553-9bf8-7936d6b77e51"
+      ]
+    },
+    {
+      "uuid": "f2fcffac-de28-4e51-a73d-1b701b4ba449",
+      "subTopics": [
+        "2b9bf77f-454e-4b7a-83c0-901fd5e7a0e2",
+        "fead2937-77c7-4514-903b-7718c939c4bd",
+        "6985b4ef-f0e2-4bc9-8871-63b0f2b20f58",
+        "9248dd21-66c0-45f7-8182-3da33850e603",
+        "f456125c-5d90-4652-8088-20d44960fe18"
+      ],
+      "parentTopics": [
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
+      ],
+      "title": "Applications of the Derivative",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 501000,
+      "contentUuids": []
+    }
+  ]
 }

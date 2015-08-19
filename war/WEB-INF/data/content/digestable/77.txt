@@ -2,414 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(-3\\) ,  \\(-1\\) ",
-      "uuid": "d11e4c10-a338-4fe8-8849-77447a9d232c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/152.png\"/\u003e",
+      "uuid": "11d72f03-cacb-47ba-ad0f-40cebb8eb8bc",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362035,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Determinant Question",
-      "body": " Let  \\(A \u003d \\begin{bmatrix}  1  \u0026  1/3 \\\\                                     c  \u0026  d   \\end{bmatrix}\\) .    Find numbers  \\(c\\)  and  \\(d\\)  such that  \\(A^2 \u003d 0\\) .   Answer:   \\(c\\)  \u003d ____ and  \\(d\\)  \u003d ____ .",
+      "title": "Prove rhombus ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/151.png\"/\u003e",
       "allAnswers": [],
-      "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
-      "url": "/practice-problem/d11e4c10-a338-4fe8-8849-77447a9d232c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
+      "tags": "proving a rhombus ",
+      "url": "/practice-problem/11d72f03-cacb-47ba-ad0f-40cebb8eb8bc",
+      "source": "null 10.5.2 "
     },
     {
-      "authorSolution": " \\(-2060\\) ,  \\(-1562\\) ",
-      "uuid": "60d28086-750b-43bc-889e-980940a730b7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/157.png\"/\u003e",
+      "uuid": "5001dbb7-ba75-4200-b5ee-005ba0a0caf4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362035,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Cofactor Question",
-      "body": " Let  \\(A \u003d \\begin{bmatrix}  1 \u0026  0 \u0026 -1 \u0026  2 \\\\                    0 \u0026  3 \u0026  1 \u0026 -1 \\\\                    2 \u0026  4 \u0026  0 \u0026  3 \\\\                   -3 \u0026  1 \u0026 -1 \u0026  2 \\end{bmatrix}\\) ,  \\(B \u003d \\begin{bmatrix} 1 \u0026  2 \\\\                                                                 3 \u0026 -1 \\\\                                                                 0 \u0026 -2 \\\\                                                                 4 \u0026  1 \\end{bmatrix}\\) ,  \\(C \u003d \\begin{bmatrix}  3 \u0026 -2 \u0026  0 \u0026  5 \\\\                              1 \u0026  0 \u0026 -3 \u0026  4 \\end{bmatrix}\\) , and \\\\  \\(M \u003d 3A^3-5(BC)^2\\) .    Then  \\(M_{14}\u003d\\) ________ and  \\(M_{41}\u003d\\) ________.",
+      "title": "Find square angle ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/155.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/156.png\"/\u003e",
       "allAnswers": [],
-      "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor, word problem",
-      "url": "/practice-problem/60d28086-750b-43bc-889e-980940a730b7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
+      "tags": "square angle, angle ",
+      "url": "/practice-problem/5001dbb7-ba75-4200-b5ee-005ba0a0caf4",
+      "source": "null 10.6.2"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(-118.94\\) ",
-      "uuid": "58d074a0-c4fd-46b9-afe9-5aaa98df3dc0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/166.png\"/\u003e",
+      "uuid": "e5b4a8ac-79f0-4bec-9b1d-457be3c2b786",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362036,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Matrices And Determinants Practice",
-      "body": " Find the determinants of the following matrices.    \\[A\u003d\\begin{bmatrix}     -73 \u0026 78 \u0026 24 \\\\      92 \u0026 66 \u0026 25 \\\\     -80 \u0026 37 \u0026 10  \\end{bmatrix} \\qquad \\text{ and } \\qquad B\u003d\\begin{bmatrix}     -73 \u0026 78 \u0026 24 \\\\      92 \u0026 66 \u0026 25 \\\\     -80 \u0026 37 \u0026 10.01  \\end{bmatrix}.\\] \u003ci\u003eHint.\u003c/i\u003e Use a calculator.   Answer:  \\(\\det A\\)  \u003d ____ and  \\(\\det B\\)  \u003d ________ .",
+      "title": "Describe shapes ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/164.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/165.png\"/\u003e",
       "allAnswers": [],
-      "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
-      "url": "/practice-problem/58d074a0-c4fd-46b9-afe9-5aaa98df3dc0",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
+      "tags": "parallelogram, trapezoid ",
+      "url": "/practice-problem/e5b4a8ac-79f0-4bec-9b1d-457be3c2b786",
+      "source": "null 10.7.2"
     },
     {
-      "authorSolution": " \\(144\\) ",
-      "uuid": "8fc021ae-ab49-4f57-9d0f-17d2870e11c0",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/183.png\"/\u003e",
+      "uuid": "4bff8ac6-d1a1-42a7-875b-0490d109b48d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362036,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Cofactor",
-      "body": " Find the determinant of the matrix                     \\( \\begin{bmatrix} 4  \u0026  5  \u0026 16  \u0026 30 \\\\                               4  \u0026  8  \u0026 29  \u0026 55 \\\\                               4  \u0026  5  \u0026 18  \u0026 48 \\\\                               4  \u0026  5  \u0026 16  \u0026 36 \\end{bmatrix}\\) .   Answer: _______.",
+      "title": "Plane perpendicularity ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/181.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/182.png\"/\u003e",
       "allAnswers": [],
-      "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
-      "url": "/practice-problem/8fc021ae-ab49-4f57-9d0f-17d2870e11c0",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
+      "tags": "planes, perpendicular ",
+      "url": "/practice-problem/4bff8ac6-d1a1-42a7-875b-0490d109b48d",
+      "source": "null 11.2.2"
     },
     {
-      "authorSolution": " \\(18\\) ",
-      "uuid": "30879e74-5e6f-4da9-9e7f-0d3f2b73876d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/186.png\"/\u003e",
+      "uuid": "64a213f3-7d7c-48f9-aedd-c1efbb72fb23",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362036,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Determinant",
-      "body": " Find the determinant of the following matrix.    \\[ \\begin{bmatrix}          3 \u0026   3  \u0026 3.95 \\times 10^{43^{119}} \u0026 P^{53} \\\\          3 \u0026   5  \u0026   5                 \u0026 4.73 \\times 273^{681} \\\\          3 \u0026   5  \u0026   6                 \u0026 6 \\\\          3 \u0026   5  \u0026   6                 \u0026 9 \\end{bmatrix} \\] where  \\(P\\)  is the smallest prime number greater than  \\(10^{10^{10}}\\) .   Answer:_____.",
+      "title": "Prove not perpendicular",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/184.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/185.png\"/\u003e",
       "allAnswers": [],
-      "tags": "matrices and determinants, matrix ,transpose ,symmetric ,determinant ,minor ,cofactor",
-      "url": "/practice-problem/30879e74-5e6f-4da9-9e7f-0d3f2b73876d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Determinants"
+      "tags": "proof, perpendicular ",
+      "url": "/practice-problem/64a213f3-7d7c-48f9-aedd-c1efbb72fb23",
+      "source": "null 11.2.3"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(-15\\) ",
-      "uuid": "e75b684e-0c85-4a3d-bc5c-e383d34ccc91",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/195.png\"/\u003e",
+      "uuid": "71afe201-0135-4194-91f1-f9110caf6034",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362039,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Linear Maps (transformations)",
-      "body": " If  \\(T \\colon \\R^2 \\to \\R^2\\)  is a linear map satisfying   \\begin{align*}      T\\vec{ }i \u0026\u003d 3\\vec{ }i - 5\\vec{ }j            \\\\      T\\vec{ }j \u0026\u003d 2\\vec{ }i -  \\vec{ }j  \\end{align*} then,    \\[ T(4\\vec{ }i - 5\\vec{ }j) \u003d \\text{___}\\vec{ }i + \\text{___}\\vec{ }j.   \\]",
+      "title": "Parallel planes ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/193.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/194.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
-      "url": "/practice-problem/e75b684e-0c85-4a3d-bc5c-e383d34ccc91",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
+      "tags": "parallel, planes ",
+      "url": "/practice-problem/71afe201-0135-4194-91f1-f9110caf6034",
+      "source": "null 11.3.2"
     },
     {
-      "authorSolution": " \\(0\\) ,  \\(8\\) ,  \\(1\\) ",
-      "uuid": "b6036119-2f77-4ab0-8ad8-1219c4011b53",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/197.png\"/\u003e",
+      "uuid": "4d650014-080a-4c28-82e0-be2f43a60909",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362039,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Linear Maps (transformations) Question",
-      "body": " If  \\(T \\colon \\R^3 \\to \\R^3\\)  is a linear map satisfying   \\begin{align*}      T\\vec{ }i \u0026\u003d 2\\vec{ }i + 4\\vec{ }j          \\\\      T\\vec{ }j \u0026\u003d  \\vec{ }i +  \\vec{ }j +  \\vec{ }k \\\\      T\\vec{ }k \u0026\u003d 3\\vec{ }i -  \\vec{ }j - 2\\vec{ }k  \\end{align*} then,   \\[T(2\\vec{ }i - \\vec{ }j - \\vec{ }k) \u003d \\text{___}\\vec{ }i + \\text{___}\\vec{ }j + \\text{___}\\vec{ }k.\\]",
+      "title": "Vertices of a parallelogram",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/196.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear maps, vector spaces ,linear maps (transformations) ,",
-      "url": "/practice-problem/b6036119-2f77-4ab0-8ad8-1219c4011b53",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
+      "tags": "vertices, parallelogram ",
+      "url": "/practice-problem/4d650014-080a-4c28-82e0-be2f43a60909",
+      "source": "null 11.3.3"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "6806f0a0-f02e-467f-a4c5-a35b624ccd25",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/203.png\"/\u003e",
+      "uuid": "2647b10e-596b-4e41-8112-ce64294fcf1f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362039,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Linear Maps (transformations) Problem",
-      "body": " Let  \\(T\\colon \\R^3 \\to \\R^4\\)  be defined by        \\[T \\vec{ }x \u003d (x_1-3x_3 ,  x_1+x_2-6x_3 ,  x_2-3x_3 ,  x_1-3x_3) \\] for every  \\(\\vec{ }x \u003d (x_1,x_2,x_3) \\in \\R^3\\) .    (The map  \\(T\\)  is linear, but you need not prove this.)  Then\n  (a)  \\([T] \u003d       \\begin{bmatrix}            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO} \\\\            \\hphantom{jOO}  \\hphantom{jOOOOO}       \\end{bmatrix}\\) .\n  (b)  \\(T(3,-2,4)\\)  \u003d _______________.",
+      "title": "Lateral sides and area",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/202.png\"/\u003e",
       "allAnswers": [],
-      "tags": "linear maps, vector spaces ,linear maps (transformations) ,, word problem",
-      "url": "/practice-problem/6806f0a0-f02e-467f-a4c5-a35b624ccd25",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Algebra/Linear Algebra/Matrices/Linear Maps"
+      "tags": "lateral sides, lateral areas ",
+      "url": "/practice-problem/2647b10e-596b-4e41-8112-ce64294fcf1f",
+      "source": "null 11.4.2"
     },
     {
-      "authorSolution": " \\(\\dfrac{\\sqrt3}2\\) ,  \\(\\sqrt3\\) ,  \\(1\\) ,  \\(\\dfrac{\\sqrt3}2\\) ",
-      "uuid": "1954a1cd-2a5f-4c5c-b9fa-18d17f1d657c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/206.png\"/\u003e",
+      "uuid": "936030e2-a590-43d8-8459-e6780359d96d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362042,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Tangent Plane To A Surface",
-      "body": " Let  \\(f(x) \u003d \\sin x\\)  and  \\(p \u003d \\pi/6\\) .    The slope of the tangent line to the curve  \\(y \u003d f(x)\\)  at  \\(x \u003d p\\)  is _____.    The value of  \\(\\Delta f_p\\)  at  \\(x\\)  is  \\(\\frac12(a\\sin x +b\\cos x - b)\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.    The slope of the tangent line to the curve  \\(y \u003d \\Delta f_p(x)\\)  at  \\(x \u003d 0\\)  is_____.",
+      "title": "Equilateral pentagons",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/204.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/205.png\"/\u003e",
       "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
-      "url": "/practice-problem/1954a1cd-2a5f-4c5c-b9fa-18d17f1d657c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
+      "tags": "equilateral pentagons ",
+      "url": "/practice-problem/936030e2-a590-43d8-8459-e6780359d96d",
+      "source": "null 11.4.3"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(2\\tan x\\) ,  \\(2\\) ",
-      "uuid": "d030b24b-7705-497d-82a6-cd8dd6552cff",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/214.png\"/\u003e",
+      "uuid": "32deb9af-561e-4303-8cc9-938de13f04e9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362042,
+      "createdAt": 1437611655780,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Differentiable At A Point",
-      "body": " Let  \\(f(x) \u003d \\tan x\\)  and  \\(p \u003d \\pi/4\\) .    The slope of the tangent line to the curve  \\(y \u003d f(x)\\)  at  \\(x \u003d p\\)  is ___.   The value of  \\(\\Delta f_p\\)  at  \\(x\\)  is  \\(\\dfrac{g(x)}{1 -  \\tan x}\\)  where  \\(g(x)\\) \u003d________.   The slope of the tangent line to the curve  \\(y \u003d \\Delta f_p(x)\\)  at  \\(x \u003d 0\\)  is_____.",
+      "title": "Lateral area of pyramid",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/212.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/213.png\"/\u003e",
       "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
-      "url": "/practice-problem/d030b24b-7705-497d-82a6-cd8dd6552cff",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
-    },
-    {
-      "authorSolution": " \\(1\\) ,  \\(-2\\) ,  \\(x + 1\\) ,  \\((y - 1)^2\\) ,  \\(1\\) ,  \\(1\\) ,  \\(-2\\) ",
-      "uuid": "a04cbc85-6b6b-41b2-9cb7-ca14f56d3874",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362042,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Differential \u003d Derivative \u003d Total Derivative Question",
-      "body": " Let  \\(f(x,y) \u003d xy^2\\)  and  \\(\\vec{ }p \u003d (1,-1)\\) .    Then  \\(\\frac{\\partial  }{\\partial f}x(\\vec{ }p) \u003d\\)  ___ and  \\(\\frac{\\partial  }{\\partial f}y(\\vec{ }p) \u003d\\)  ___.    The function  \\(\\Delta f_{\\vec{ }p}(x,y) \u003d a(x)b(y) - c\\)  where  \\(a(x) \u003d\\)  _____ ,  \\(b(y) \u003d\\)  _____ , and  \\(c \u003d\\)  __ .   The partial derivatives of this function at  \\(\\vec{ }0 \u003d (0,0)\\)  are given by  \\(\\frac{\\partial  }{\\partial {}(\\Delta f_{\\vec{ }p})}x(\\vec{ }0) \u003d\\)  ___ and  \\(\\frac{\\partial  }{\\partial {}(\\Delta f_{\\vec{ }p})}y(\\vec{ }0) \u003d\\)  ___.",
-      "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
-      "url": "/practice-problem/a04cbc85-6b6b-41b2-9cb7-ca14f56d3874",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
-    },
-    {
-      "authorSolution": " \\(2\\) ,  \\(2\\) ",
-      "uuid": "c7814529-af73-4596-b21c-8596ea9ea016",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362043,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Jacobian Matrix",
-      "body": " Let  \\(f(x,y) \u003d x^2 + y^2\\)  and  \\(\\vec{ }p \u003d (1,1)\\) .    If we choose  \\(df_{\\vec{ }p}\\)  to be the  \\(1 \\times 2\\) -matrix  \\([a \\hphantom{O} b]\\) , where  \\(a\\) \u003d___ and  \\(b\\) \u003d___,  then  \\(\\Delta f_{\\vec{ }p}\\)  is tangent to  \\(df_{\\vec{ }p}\\) .",
-      "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
-      "url": "/practice-problem/c7814529-af73-4596-b21c-8596ea9ea016",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
-    },
-    {
-      "authorSolution": " \\(\\begin{bmatrix} 4  \u0026  1   \u0026  2 \\\\",
-      "uuid": "24b1a876-45c7-4e08-ba5a-71b0c1419f59",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362043,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Smooth Function",
-      "body": " Let  \\(\\vec{ }F \\colon \\R^3 \\to \\R^2\\)  be defined by  \\(\\vec{ }F(x,y,z) \u003d x^2ye^z \\vec{ }i +(x^3 + y^3 + z^3) \\vec{ }j\\)  and  \\(\\vec{ }p \u003d (1,2,0)\\) .   Then the derivative of  \\(\\vec{ }F\\)  at  \\(\\vec{ }p\\)  is given by     \\[ d\\vec{ }F_{\\vec{ }p} \u003d \\begin{bmatrix} \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\\\                                         \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\\\                                         \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\\\                                         \\hphantom{jOOOOO}  \\hphantom{jOOOOO} \\end{bmatrix}.   \\]",
-      "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
-      "url": "/practice-problem/24b1a876-45c7-4e08-ba5a-71b0c1419f59",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
-    },
-    {
-      "authorSolution": " \\(\\begin{bmatrix} 2  \u0026  0  \\\\",
-      "uuid": "2e2a71ec-1f95-4061-93ee-7fbd4b214f6f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362043,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Definition Of Derivative",
-      "body": " Let  \\(\\vec{ }F \\colon \\R^2 \\to \\R^3\\)  be defined by  \\(\\vec{ }F(x,y) \u003d (x^2, 2x - 3y, 5xy)\\)  and  \\(\\vec{ }p \u003d (1,-1)\\) .   Then the Jacobian matrix of  \\(\\vec{ }F\\)  at  \\(\\vec{ }p\\)  is given by      \\[ d\\vec{ }F_{\\vec{ }p} \u003d \\bmatrix \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\\\                                   \\hphantom{jOO}  \\hphantom{jOO} \\endbmatrix.   \\]",
-      "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function, word problem",
-      "url": "/practice-problem/2e2a71ec-1f95-4061-93ee-7fbd4b214f6f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
-    },
-    {
-      "authorSolution": " \\(T\\) ",
-      "uuid": "b19c10d1-f596-44b1-928c-91e15f6675c9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362043,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differentiable Function",
-      "body": " Let  \\(\\vec{ }T\\)  be a linear map from  \\(\\R^n\\)  to  \\(\\R^m\\)  and  \\(\\vec{ }p \\in \\R^n\\) .   Then  \\(d\\vec{ }T_{\\vec{ }p}\\)  \u003d ___.   +",
-      "allAnswers": [],
-      "tags": "definition of derivative, differential \u003d derivative \u003d total derivative ,differentiable at a point ,differentiable function ,tangent plane to a surface ,Jacobian matrix ,smooth function",
-      "url": "/practice-problem/b19c10d1-f596-44b1-928c-91e15f6675c9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus"
-    },
-    {
-      "authorSolution": " \\(2v\\) ,  \\(2u\\) ",
-      "uuid": "0603e1b0-5c1d-4df2-9000-475528367adf",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362047,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Chain Rule",
-      "body": " Suppose that  \\(f(u,v) \u003d g(x,y)\\)  where  \\(u \u003d x^2 - y^2\\)  and  \\(v \u003d 2xy\\) .    Then         \\[ y\\frac{\\partial  }{\\partial g}x - x\\frac{\\partial  }{\\partial g}y \u003d \\text{_____}\\frac{\\partial  }{\\partial f}u - \\text{_____}\\frac{\\partial  }{\\partial f}v.   \\]",
-      "allAnswers": [],
-      "tags": "differentiation of functions of several variables, chain rule",
-      "url": "/practice-problem/0603e1b0-5c1d-4df2-9000-475528367adf",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Derivative Calculus/Multiple Variables/Differentiation"
+      "tags": "lateral area, pyramid",
+      "url": "/practice-problem/32deb9af-561e-4303-8cc9-938de13f04e9",
+      "source": "null 11.6"
     }
   ],
   "questions": [
-    {
-      "uuid": "a508c948-af7c-481e-a68b-103a6543c026",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Vectors",
-      "body": "Given: points \\(A (0,2,1)\\), \\(B (0,3,2)\\), \\(C (4,1,4)\\) and\n\\(D\\).\n\n(a) If \\(ABCD\\) is a parallelogram, then what are the coordinates of\nthe point \\(D\\)?\n\n(b) If \\(ABDC\\) is a parallelogram, then what are the coordinates of\nthe point \\(D\\)?",
-      "allAnswers": [],
-      "tags": "vectors, parallelogram, coordinates ",
-      "url": "/question/a508c948-af7c-481e-a68b-103a6543c026",
-      "source": "Math 222 5.1.9",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
-    },
-    {
-      "uuid": "6ed5fc3f-f9b9-4143-b476-5bf186e67ee7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute and Draw the Number",
-      "body": "Compute and draw the number in the complex plane. \n\n\\(e^{\\pi i/3}\\); \\(e^{\\pi i/2}\\); \\(\\sqrt2 e^{3\\pi i /4} \\); \\(e^{17\\pi i/4}\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/6ed5fc3f-f9b9-4143-b476-5bf186e67ee7",
-      "source": "Math 222 3.1.21",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "c5d95c13-35db-416d-8e03-d39a2cc8d0b7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Vectors",
-      "body": "You are given three points in the\nplane: \\(A\\) has coordinates \\((2,3)\\), \\(B\\) has coordinates \\((-1,2)\\) and \\(C\\) has coordinates \\((4,-1)\\).\n\n(a) Compute the vectors \\(\\tpv AB\\), \\(\\tpv BA\\), \\(\\tpv AC\\), \\(\\tpv CA\\),\n\\(\\tpv BC\\) and \\(\\tpv CB\\).\n(b) Find the points \\(P, Q, R\\) and \\(S\\) whose position vectors are\n\\(\\tpv AB\\), \\(\\tpv BA\\), \\(\\tpv AC\\), and \\(\\tpv BC\\), respectively.\nMake a precise drawing.",
-      "allAnswers": [],
-      "tags": "vectors, computing vectors, drawing vectors",
-      "url": "/question/c5d95c13-35db-416d-8e03-d39a2cc8d0b7",
-      "source": "Math 222 5.1.10",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
-    },
-    {
-      "uuid": "b19b740a-bd15-4d28-9ca0-81a832df2d57",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute and Draw the Number",
-      "body": "Compute and draw the number in the complex plane.\n\n\\(e^{\\pi i}+1\\); \\(e^{i\\ln 2}\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/b19b740a-bd15-4d28-9ca0-81a832df2d57",
-      "source": "Math 222 3.1.22",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "a994e084-0fbb-4bc3-ba35-aad3390766de",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Vectors",
-      "body": "Have a look at the figure\n(a) Draw the vectors \\(2\\vv+\\tfrac12\\vw\\), \\(-\\tfrac12\\vv+\\vw\\),\nand \\(\\tfrac32\\vv-\\tfrac12\\vw\\)\n(b) Find real numbers \\(s,t\\) such that \\(s\\vv+t\\vw\u003d\\va\\).\n(c) Find real numbers \\(p,q\\) such that \\(p\\vv+q\\vw\u003d\\vb\\).\n(d) Find real numbers \\(k,l,m,n\\) such that \\(\\vv \u003d k\\va+l\\vb\\), and\n\\(\\vw \u003d m\\va+n\\vw\\).\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20454.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "vectors, real numbers, drawing vectors",
-      "url": "/question/a994e084-0fbb-4bc3-ba35-aad3390766de",
-      "source": "Math 222 5.1.13",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
-    },
-    {
-      "uuid": "f942e780-872b-426f-85d9-9dc82c0dc531",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute and Draw the Number",
-      "body": "Compute and draw the number in the complex plane.\n\n\\(\\dfrac1{e^{\\pi i/4}}\\); \\(\\dfrac{e^{-\\pi i}}{e^{\\pi i/4}}\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/f942e780-872b-426f-85d9-9dc82c0dc531",
-      "source": "Math 222 3.1.23",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
-    {
-      "uuid": "bc22bb2f-a929-4514-9ed5-9ddb680c4f47",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Complex Number True False",
-      "body": "Compute and draw the following numbers in the complex plane.\n\n\\(e^{2009\\pi i}\\); \\(e^{2009\\pi i/2}\\)",
-      "allAnswers": [],
-      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
-      "url": "/question/bc22bb2f-a929-4514-9ed5-9ddb680c4f47",
-      "source": "Math 222 3.1.24",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
-    },
     {
       "uuid": "e0cb238a-80aa-4a4c-8139-55df5f6e06d7",
       "contentType": "question",
@@ -425,7 +188,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/e0cb238a-80aa-4a4c-8139-55df5f6e06d7",
       "source": "Math 222 3.1.25",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "2fae6c9f-98aa-4f3d-b33a-669f1c61d924",
@@ -442,7 +205,7 @@
       "tags": "vector, drawing vector",
       "url": "/question/2fae6c9f-98aa-4f3d-b33a-669f1c61d924",
       "source": "Math 222 5.1.14",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "e6851ccb-4219-4fb0-9b67-3606498e9e98",
@@ -459,7 +222,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/e6851ccb-4219-4fb0-9b67-3606498e9e98",
       "source": "Math 222 3.1.26",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "d5cca6c9-b991-4436-b3e9-f9ce245bf09e",
@@ -476,7 +239,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/d5cca6c9-b991-4436-b3e9-f9ce245bf09e",
       "source": "Math 222 3.1.27",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "1bbd546f-7bbb-46e5-9f34-074d0007c767",
@@ -493,7 +256,7 @@
       "tags": "vector, drawing vectors, position vectors",
       "url": "/question/1bbd546f-7bbb-46e5-9f34-074d0007c767",
       "source": "Math 222 5.1.14",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "e179dba7-f019-4b1a-b11d-d53cbd47e36f",
@@ -510,7 +273,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/e179dba7-f019-4b1a-b11d-d53cbd47e36f",
       "source": "Math 222 3.1.28",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "d5704ed5-b78f-4f2d-846a-b04d55425b33",
@@ -527,7 +290,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/d5704ed5-b78f-4f2d-846a-b04d55425b33",
       "source": "Math 222 3.1.29",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "84280221-425e-4bc3-a4c6-4ba7e143ac26",
@@ -544,7 +307,7 @@
       "tags": "parametric equation, coordinate planes, line, vectors",
       "url": "/question/84280221-425e-4bc3-a4c6-4ba7e143ac26",
       "source": "Math 222 5.1.16",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Parametric Equations"
+      "topic": "c4a9f612-75a1-4b51-a21d-ed7fbcd0c101"
     },
     {
       "uuid": "9f07029b-3f60-422d-9d46-25b88772f2c8",
@@ -561,7 +324,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/9f07029b-3f60-422d-9d46-25b88772f2c8",
       "source": "Math 222 3.1.30",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "14e028e6-e878-4e30-a52b-3cdc4c64fe6b",
@@ -578,7 +341,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/14e028e6-e878-4e30-a52b-3cdc4c64fe6b",
       "source": "Math 222 3.1.31",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "3a5e00cf-14da-457f-8d0f-50e0a26cfadd",
@@ -595,7 +358,7 @@
       "tags": "vectors",
       "url": "/question/3a5e00cf-14da-457f-8d0f-50e0a26cfadd",
       "source": "Math 222 5.1.17",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "abf1de55-3c43-4408-96c2-5f9cd42494dc",
@@ -612,7 +375,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/abf1de55-3c43-4408-96c2-5f9cd42494dc",
       "source": "Math 222 3.1.32",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "6d8ef5c9-f01f-46af-964e-dac536c153b8",
@@ -629,7 +392,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/6d8ef5c9-f01f-46af-964e-dac536c153b8",
       "source": "Math 222 3.1.33",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "91fc95b7-9343-40c1-b535-a24dfe8952a5",
@@ -646,7 +409,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/91fc95b7-9343-40c1-b535-a24dfe8952a5",
       "source": "Math 222 3.1.34",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "98943374-dda4-423e-a1bb-39d185f652b1",
@@ -663,7 +426,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/98943374-dda4-423e-a1bb-39d185f652b1",
       "source": "Math 222 3.1.35",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "3e943d28-fd16-490c-b440-3dbc19725a8b",
@@ -680,7 +443,7 @@
       "tags": "vectors, triangle, position vector, midpoint",
       "url": "/question/3e943d28-fd16-490c-b440-3dbc19725a8b",
       "source": "Math 222 5.1.18",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "42ea0eca-1350-4d93-bbce-a3a9c6653684",
@@ -697,7 +460,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/42ea0eca-1350-4d93-bbce-a3a9c6653684",
       "source": "Math 222 3.1.36",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "65fd9870-b6da-46e2-918b-18ed2fede11b",
@@ -714,7 +477,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/65fd9870-b6da-46e2-918b-18ed2fede11b",
       "source": "Math 222 3.1.37",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "68bc9375-037f-44e2-89fe-961f45e2735c",
@@ -731,7 +494,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/68bc9375-037f-44e2-89fe-961f45e2735c",
       "source": "Math 222 3.1.38",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "f7cdd5b3-22d5-42e8-90e2-c726bb76a53d",
@@ -748,7 +511,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/f7cdd5b3-22d5-42e8-90e2-c726bb76a53d",
       "source": "Math 222 3.1.39",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "04248b0f-abbf-452d-8a5b-315cef7a2b55",
@@ -765,7 +528,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/04248b0f-abbf-452d-8a5b-315cef7a2b55",
       "source": "Math 222 3.1.40",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "f4056c6f-0490-4f6e-ae9f-845c71e1e136",
@@ -782,7 +545,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/f4056c6f-0490-4f6e-ae9f-845c71e1e136",
       "source": "Math 222 3.1.41",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "0145f4c7-cdbd-4cda-b962-e3785d3ee90e",
@@ -799,7 +562,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/0145f4c7-cdbd-4cda-b962-e3785d3ee90e",
       "source": "Math 222 3.1.42",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "d5600dd5-a6e8-49a7-a321-4dd17cda54af",
@@ -816,7 +579,7 @@
       "tags": "vector, tetrahedrom, midpoint, position vector",
       "url": "/question/d5600dd5-a6e8-49a7-a321-4dd17cda54af",
       "source": "Math 222 5.1.19",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Unit Vectors"
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
     },
     {
       "uuid": "c49cb6e6-1914-4c2e-ad5c-7580a904d87b",
@@ -833,7 +596,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/c49cb6e6-1914-4c2e-ad5c-7580a904d87b",
       "source": "Math 222 3.1.43",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "29114cb4-7ee4-4b6b-b66d-0f36363d6364",
@@ -850,7 +613,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/29114cb4-7ee4-4b6b-b66d-0f36363d6364",
       "source": "Math 222 3.1.44",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "12d03fcb-144f-47a0-b292-22ec18b413e7",
@@ -867,7 +630,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/12d03fcb-144f-47a0-b292-22ec18b413e7",
       "source": "Math 222 3.1.45",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "a68e25f8-7216-4c21-bafb-52c021b98cfb",
@@ -884,7 +647,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/a68e25f8-7216-4c21-bafb-52c021b98cfb",
       "source": "Math 222 3.1.46",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "83018cfd-d493-476a-add9-81e4d5c8b493",
@@ -901,7 +664,7 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/83018cfd-d493-476a-add9-81e4d5c8b493",
       "source": "Math 222 3.1.47",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     },
     {
       "uuid": "5fffaab2-6c64-4cf3-abb4-1384b6c448ee",
@@ -918,7 +681,126 @@
       "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
       "url": "/question/5fffaab2-6c64-4cf3-abb4-1384b6c448ee",
       "source": "Math 222 3.1.48",
-      "topic": "Algebra/Complex Numbers/Imaginary Numbers"
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
+    },
+    {
+      "uuid": "28d68f7e-8a58-4daa-9c2f-d920c09d7287",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vectors",
+      "body": "Given the vectors \\(\\va\u003d\\tvek 2\\\\1\\\\3\\ttor\\) and \\(\\vb\u003d\\tvek 1\n\\\\ 1 \\\\ 0\\ttor\\) find \\(\\va^\\pll\\), \\(\\va^\\perp\\), \\(\\vb^\\pll\\), \\(\\vb^\\perp\\)\nfor which\n\\[\n\\va\u003d\\va^\\pll+\\va^\\perp, \\text{ with }a^\\pll\\pll\\vb, a^\\perp\\perp\\vb, \n\\]\nand\n\\[\n\\vb\u003d\\vb^\\pll+\\vb^\\perp, \\text{ with }b^\\pll\\pll\\va, b^\\perp\\perp\\va. \n\\]",
+      "allAnswers": [],
+      "tags": "vectors",
+      "url": "/question/28d68f7e-8a58-4daa-9c2f-d920c09d7287",
+      "source": "Math 222 5.1.20",
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
+    },
+    {
+      "uuid": "b62c88de-0da4-4990-a6b9-e6a5bffab410",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Evaluate the Indefinite Integral",
+      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int\\sin(3x)\\cos(5x)\\,\\dd x\\)",
+      "allAnswers": [],
+      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
+      "url": "/question/b62c88de-0da4-4990-a6b9-e6a5bffab410",
+      "source": "Math 222 3.1.49",
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
+    },
+    {
+      "uuid": "86a73f6a-381e-45d0-a29a-a5802c43e606",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Evaluate the Indefinite Integral",
+      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int\\sin^2(2x)\\cos(3x)\\,\\dd x\\)",
+      "allAnswers": [],
+      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
+      "url": "/question/86a73f6a-381e-45d0-a29a-a5802c43e606",
+      "source": "Math 222 3.1.50",
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
+    },
+    {
+      "uuid": "a066d038-8724-408b-a3f6-fbb82ec341dd",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Evaluate the Indefinite Integral",
+      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int_{0}^{\\pi/4} \\sin(3x)\\cos(x)\\, \\dd x\\)",
+      "allAnswers": [],
+      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
+      "url": "/question/a066d038-8724-408b-a3f6-fbb82ec341dd",
+      "source": "Math 222 3.1.51",
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
+    },
+    {
+      "uuid": "d8d2dc49-79a5-4460-aaa8-c07215363247",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Vectors",
+      "body": "Russ left his backpack on a hill, which in some coordinate system\nhappens to be the line with equation \\(12x_1 + 5x_2 \u003d 130\\).\nThe force exerted by gravity on the backpack is \\(\\vf_{\\rm grav}\u003d\\tvek 0 \\\\\n-mg\\ttor\\). Decompose this force into a part perpendicular to the hill, and a part parallel to the hill.",
+      "allAnswers": [],
+      "tags": "vector, word problem",
+      "url": "/question/d8d2dc49-79a5-4460-aaa8-c07215363247",
+      "source": "Math 222 5.1.21",
+      "topic": "925fb8e2-fff4-4578-970f-a07b3ad5a8af"
+    },
+    {
+      "uuid": "4821d693-bc7f-462d-b6e6-e9dd1b3d1e0d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Evaluate the Indefinite Integral",
+      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int_{0}^{\\pi/3} \\sin^3(x)\\cos^2(x)\\, \\dd x\\)",
+      "allAnswers": [],
+      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
+      "url": "/question/4821d693-bc7f-462d-b6e6-e9dd1b3d1e0d",
+      "source": "Math 222 3.1.52",
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
+    },
+    {
+      "uuid": "c08ca6dc-a2ea-4451-b9ff-cb4dc0b516d9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787601,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Evaluate the Indefinite Integral",
+      "body": "Find and draw all real and complex solutions of\n\n\\(\\DS \\int_{0}^{\\pi/2} \\sin^2(x)\\cos^2(x)\\, \\dd x\\)",
+      "allAnswers": [],
+      "tags": "real, imaginary, complex, numbers, polynomials, quadratic, equations, euler\u0027s formula",
+      "url": "/question/c08ca6dc-a2ea-4451-b9ff-cb4dc0b516d9",
+      "source": "Math 222 3.1.53",
+      "topic": "dc11ec12-619e-4878-990a-6c4be25939ca"
     }
   ],
   "textContent": [
@@ -937,7 +819,7 @@
       "tags": "exponential, logarithmic, exponents, logarithms, derivatives ",
       "url": "/text-content/45def5e3-eee9-44fb-b92e-db05b5a57959",
       "source": "Forgotten Text 6 6.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Logarithmic Functions"
+      "topic": "14a91466-9951-4936-9ffe-d2eb51a85b0d"
     },
     {
       "uuid": "e0e53a9c-34da-4667-9b1f-0424a94be623",
@@ -954,9 +836,62 @@
       "tags": "exponents, exponential, derivatives of exponents ",
       "url": "/text-content/e0e53a9c-34da-4667-9b1f-0424a94be623",
       "source": "Forgotten Text 6 6.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Derivatives of Special Functions/Exponential Functions"
+      "topic": "0774c552-9384-45b4-8b61-78c7c187016b"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "568e9d65-ff3b-4598-b370-646c1951a7ae",
+      "subTopics": [
+        "37aa3772-6f0f-4f61-95a3-79bb7abf7da6",
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464",
+        "7584945b-f665-4d32-a2a7-6684b58a016a",
+        "187ffb50-85c0-442b-a51f-6c111bf7a50e",
+        "4e5dea51-17c2-4ce0-8a91-30a523e2842c",
+        "895419fb-f40d-4b54-9527-30de9f7fadb3",
+        "e46a1877-9906-4928-b0bd-cbf666e01606",
+        "d7881072-7e4d-4352-9b31-a296358563d9",
+        "29f4db72-a2c1-4165-8293-0a566eeab72f",
+        "f7755541-518d-4cbc-90e4-797c3683bec5",
+        "895c9863-ced8-49f0-8d94-a41368971acf"
+      ],
+      "title": "Calculus",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 359000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "0fca3cca-66b5-477f-ad89-bb560b3d0889",
+      "subTopics": [],
+      "parentTopics": [
+        "3a7e8a7c-233a-41df-905a-fa3719475bdf"
+      ],
+      "title": "Trigonometry and Algebra",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " amplitude,sinusoids, trigonometry, fundamental cycle, functions, periodic,",
+      "difficulty": 230000,
+      "contentUuids": [
+        "91847fbb-e879-4b19-b33e-0a8a13225e4a"
+      ]
+    },
+    {
+      "uuid": "8fa7b1ca-540d-4b79-971a-a56628a25adc",
+      "subTopics": [],
+      "parentTopics": [
+        "91597a29-8015-44cc-81e4-cba1f95d6a48"
+      ],
+      "title": "Solving Decimal Equations",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "decimals, integer,",
+      "difficulty": 65000,
+      "contentUuids": [
+        "7b5667f5-3d61-4537-98c4-6a2ce3b3607b"
+      ]
+    }
+  ]
 }

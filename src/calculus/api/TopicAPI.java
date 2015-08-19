@@ -1,6 +1,8 @@
 package calculus.api;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -178,7 +180,7 @@ public class TopicAPI {
 				return e;
 			}
 		} catch (EntityNotFoundException enfe) {
-			
+			orderAllSubTopics();
 		}
 		Entity e = new Entity(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
 		e.setUnindexedProperty("updatedAt", System.currentTimeMillis());
@@ -202,6 +204,49 @@ public class TopicAPI {
 		e.setUnindexedProperty("rootTopicUuids", rootTopicUuids);
 		datastore.put(e);
 		return e;
+	}
+	
+	private static void orderAllSubTopics(){
+		List<Topic> allTopics = bruteForceGetTopics();
+		Map<String, Topic> lookup = new HashMap<String, Topic>();
+		for (Topic t : allTopics){
+			lookup.put(t.getUuid(), t);
+		}
+		for (Topic t : allTopics){
+			List<String> subTopics = t.getSubTopics();
+			if (!subTopics.isEmpty()){
+				List<Topic> subs = new ArrayList<Topic>();
+				for (String s : subTopics){
+					subs.add(lookup.get(s));
+				}
+				subTopics.clear();
+				Collections.sort(subs, new StrangeComparator());
+				for (Topic sub : subs){
+					subTopics.add(sub.getUuid());
+				}
+				t.setSubTopics(subTopics);
+				t.save();
+			}
+		}
+	}
+	
+	private static class StrangeComparator implements Comparator<Topic>{
+
+		@Override
+		public int compare(Topic t1, Topic t2) {
+			int d1 = t1.getDifficulty();
+			int d2 = t2.getDifficulty();
+			if (d1 < 0 && d2 < 0){
+				return 0;
+			} else if (d1 < 0){
+				return 1;
+			} else if (d2 < 0){
+				return -1;
+			} else {
+				return Integer.compare(d1, d2);
+			}
+		}
+		
 	}
 	
 	private static void setTopicTrackerToUpdateNextTime(){
@@ -233,7 +278,7 @@ public class TopicAPI {
 	private static List<Topic> bruteForceGetRootTopics(){
 		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
 		List<Topic> topics = new ArrayList<Topic>();
-		Query q = new Query("Topic");
+		Query q = new Query("Topic").addSort("difficulty");
 		PreparedQuery pq = ds.prepare(q);
 		for (Entity e : pq.asIterable()){
 			Topic t = new Topic(e);

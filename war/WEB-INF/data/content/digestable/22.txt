@@ -2,448 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(3\\) ,  \\(5\\) ,  \\(2\\) ",
-      "uuid": "353484c0-d079-42f2-9329-0bdb801a34bf",
+      "authorSolution": " \\(6\\) ",
+      "uuid": "98e6702d-f3c6-4c08-a848-7b1ea618a63a",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361889,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On The Fundamental Theorem Of Calculus",
-      "body": "  \\(\\int_0^{\\pi/2} \\cos x e^{\\sin x} dx \u003d  a - b\\)  where  \\(a\\) \u003d____ and  \\(b\\) \u003d___.",
+      "title": "Practice With Center Of Gravity",
+      "body": " Use a triple integral to find the volume of the tetrahedron whose vertices are the points  \\((0,0,0)\\) ,  \\((1,0,0)\\) ,  \\((0,1,0)\\) , and  \\((0,0,1)\\) .   Answer: the volume is  \\(\\dfrac1a\\)  where  \\(a\\) \u003d______.",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/353484c0-d079-42f2-9329-0bdb801a34bf",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/98e6702d-f3c6-4c08-a848-7b1ea618a63a",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "01898457-bcbf-4d6a-85d1-3cbc8e3cdfeb",
+      "authorSolution": " \\(6\\) ",
+      "uuid": "ed91cea6-db36-46c1-a1b0-7800705e7ab4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361889,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "The Fundamental Theorem Of Calculus Problem",
-      "body": " If  \\(a \u003d 0\\)  and  \\(b \u003d \\frac15(e - 1)\\) , then  \\(\\int_a^b \\frac{15}{5x+1} dx\\)  \u003d ___.",
+      "title": "Cylindrical Coordinates Question",
+      "body": " The volume of the solid in the first octant bounded by the planes  \\(x \u003d y\\) ,  \\(x \u003d 1\\) ,  \\(z \u003d 0\\) , and  \\(z \u003d y\\)  is  \\(\\dfrac1a\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/01898457-bcbf-4d6a-85d1-3cbc8e3cdfeb",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/ed91cea6-db36-46c1-a1b0-7800705e7ab4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(-38\\) ",
-      "uuid": "5ec26794-d5a7-401a-8ac9-0b34617de975",
+      "authorSolution": " \\(1\\) ",
+      "uuid": "0449c8bd-931c-4c23-bf50-41d35ff2cf4d",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361889,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "The Fundamental Theorem Of Calculus Problem",
-      "body": "  \\(\\int_{-1}^2\\left|x^3-x\\right| dx \u003d \\dfrac a4\\)  where  \\(a\\) \u003d_____.",
+      "title": "Mass",
+      "body": " The integral of the function  \\(f(x,y,z) \u003d x^3\\cos{xz}\\)  over the solid bounded by the planes  \\(x \u003d y\\) ,  \\(z \u003d y\\) ,  \\(x \u003d 1\\) , and  \\(z \u003d 0\\)  is  \\(\\frac12(a - \\sin a)\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/5ec26794-d5a7-401a-8ac9-0b34617de975",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/0449c8bd-931c-4c23-bf50-41d35ff2cf4d",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(-3\\) ",
-      "uuid": "79f88bbc-5b2c-41ad-9e2b-70b040edb720",
+      "authorSolution": " \\(\\frac12ka^4\\) ",
+      "uuid": "e8d8bc4d-bac2-41da-96e3-000cbcdf99df",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361890,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In The Fundamental Theorem Of Calculus",
-      "body": "  \\(\\int_0^{\\pi/4} \\sin^5x \\cos x  dx \u003d \\frac1a\\)  where  \\(a\\) \u003d_____.",
+      "title": "Practice With Triple Integrals",
+      "body": " Consider a block in the shape of a cube with edges of length  \\(a\\) .    Its density at each point  \\(P\\)  is proportional to the distance between  \\(P\\)  and one fixed face of the cube.    (Let  \\(k\\)  be the constant of proportionality.)  Then its mass is ________.",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/79f88bbc-5b2c-41ad-9e2b-70b040edb720",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/e8d8bc4d-bac2-41da-96e3-000cbcdf99df",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(\\sqrt3\\) ",
-      "uuid": "406ed617-c0ee-46e0-9413-d1c49b39efeb",
+      "authorSolution": " \\(1\\) ",
+      "uuid": "e6162028-b021-401c-8514-f03dca4bc135",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361890,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A The Fundamental Theorem Of Calculus Question",
-      "body": "  \\(\\int_0^4(x^3 + 3\\sqrt x) dx\\)  \u003d ______.",
+      "title": "Practice With Triple Integrals",
+      "body": " The volume of the region in the first octant lying under the plane  \\(3x + 2y + 6z \u003d 6\\)  is___.",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/406ed617-c0ee-46e0-9413-d1c49b39efeb",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/e6162028-b021-401c-8514-f03dca4bc135",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(4\\) ,  \\(3\\) ",
-      "uuid": "90d13782-0bc2-4edc-9f5f-985d3a6c56d8",
+      "authorSolution": " \\(4\\) ,  \\(-2\\) ",
+      "uuid": "ed4be564-bf4a-4ec1-8390-aac5e7e3eaa7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361890,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On The Fundamental Theorem Of Calculus",
-      "body": "  \\(\\int_1^5 \\left(\\sqrt x + \\frac1{\\sqrt x}\\right)^2 dx \u003d a + \\ln b\\)  where  \\(a\\) \u003d_____ and  \\(b\\) \u003d___.",
+      "title": "On Center Of Gravity",
+      "body": " The volume of the region you sketched in the preceding exercise is  \\(a \\pi^p\\)   where  \\(a\\) \u003d___ and  \\(p\\) \u003d___.",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/90d13782-0bc2-4edc-9f5f-985d3a6c56d8",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/ed4be564-bf4a-4ec1-8390-aac5e7e3eaa7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(5\\) ",
-      "uuid": "d9a68494-fa48-42c0-9ecc-8abcfdcf824f",
+      "authorSolution": " \\(\\dfrac{3a}8\\) ",
+      "uuid": "2d1c1d18-4fda-4507-a7f3-6141b43168c0",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361890,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In The Fundamental Theorem Of Calculus",
-      "body": "  \\(\\int_0^5 \\frac{dx}{25 + x^2} \u003d \\dfrac\\pi a\\)  where  \\(a\\) \u003d_____.",
+      "title": "On Moment Of Inertia Of A Solid About A Line",
+      "body": " A homogeneous solid sphere of radius  \\(a\\)  is centered at the origin.   The center of gravity of the hemisphere lying above the  \\(xy\\) -plane is at the point (0 , 0 , ______).",
       "allAnswers": [],
-      "tags": "the fundamental theorem of calculus,",
-      "url": "/practice-problem/d9a68494-fa48-42c0-9ecc-8abcfdcf824f",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/2d1c1d18-4fda-4507-a7f3-6141b43168c0",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus"
-    },
-    {
-      "authorSolution": " \\(4\\) ,  \\(2\\) ",
-      "uuid": "a8f60ee4-d05d-4cba-809b-c21964755b70",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361902,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Integration By Parts",
-      "body": "  \\(\\int_0^1 \\frac{x^{\\frac12}}{1 + x^{\\frac34}} dx \u003d \\frac a3(1 - \\ln b)\\)  where  \\(a\\) \u003d___and  \\(b\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/a8f60ee4-d05d-4cba-809b-c21964755b70",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
-    },
-    {
-      "authorSolution": " \\(\\dfrac\\pi2\\) ",
-      "uuid": "1b660ada-0755-4994-a9a5-4d0f49e7efac",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361902,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Change Of Variables Question",
-      "body": "  \\(\\int_{\\frac1{3\\sqrt3}}^{3\\sqrt3}\\frac1{x^{\\frac43} + x^{\\frac23}} dx \u003d\\) _____.",
-      "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/1b660ada-0755-4994-a9a5-4d0f49e7efac",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
-    },
-    {
-      "authorSolution": " \\(495\\) ",
-      "uuid": "dabe1fbe-76c9-44cb-9049-6392e435217b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361902,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Partial Fractions",
-      "body": "  \\(\\int_0^{\\sqrt 2}x 10^{1+x^2} dx \u003d \\frac a{\\ln 10}\\)  where  \\(a\u003d\\) ______.",
-      "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/dabe1fbe-76c9-44cb-9049-6392e435217b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
-    },
-    {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "7a1dd2cf-9501-4bfd-9a43-ccf73bd66c93",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361902,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Partial Fractions",
-      "body": "  \\(\\int_1^9\\frac{dx}{(x+1)\\sqrt x+2x} \u003d \\frac1a\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/7a1dd2cf-9501-4bfd-9a43-ccf73bd66c93",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
-    },
-    {
-      "authorSolution": " \\(8\\) ,  \\(19\\) ",
-      "uuid": "ee6619f8-a288-427a-8d10-be6452d64025",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361902,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Trigonometric Integrals Problem",
-      "body": "  \\(\\int_{\\pi/6}^{\\pi/2} \\frac{\\cos^3x}{\\sqrt{\\sin x}} dx \u003d \\frac a5 - \\frac b{10\\sqrt2}\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d____.",
-      "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/ee6619f8-a288-427a-8d10-be6452d64025",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
       "authorSolution": " \\(12\\) ",
-      "uuid": "43110326-e81b-4078-895d-263fde70e244",
+      "uuid": "24257d5e-df9b-4ebe-9f2a-f63f9477f5b4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361902,
+      "createdAt": 1437419362097,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Improper Riemann Integrals Question",
-      "body": "  \\(\\int_1^{4/3}\\dfrac1{x^2}\\sqrt{1-\\dfrac1x} dx \u003d \\dfrac1a\\)  where  \\(a\\) \u003d_____.",
+      "title": "Triple Integrals",
+      "body": " Let  \\(R\\)  be the solid region which lies above the cone  \\(x^2 + y^2 \u003d 3z^2\\)  and inside the sphere  \\(x^2 + y^2 + z^2 \u003d 1\\) .   The moment of inertia of  \\(R\\)  about the  \\(z\\) -axis is  \\(\\dfrac\\pi a\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/43110326-e81b-4078-895d-263fde70e244",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/24257d5e-df9b-4ebe-9f2a-f63f9477f5b4",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(8\\pi\\) ",
-      "uuid": "2ac99334-acd8-49ab-9a77-d363c6345442",
+      "authorSolution": " \\(128\\) ",
+      "uuid": "9e255d96-bd1a-4253-ac6e-27fd22defd3b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361903,
+      "createdAt": 1437419362098,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Change Of Variables Problem",
-      "body": "  \\(\\int_0^{1/\\sqrt2}x\\sin^3(\\pi x^2)\\cos(\\pi x^2) dx \u003d \\frac1a\\)  where  \\(a\\) \u003d______.",
+      "title": "On Moment Of Inertia Of A Solid About A Line",
+      "body": " The solid  \\(R\\)  is bounded below by the paraboloid  \\(z \u003d x^2 + y^2\\)  and above by the plane  \\(z \u003d 4\\) .    The density at each point of  \\(R\\)  is the distance from the point to the  \\(z\\) -axis (in kilograms per cubic meter).    Then the mass of  \\(R\\)  is  \\(\\dfrac a{15}\\pi\\)  kilograms where  \\(a\\) \u003d_______.",
       "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/2ac99334-acd8-49ab-9a77-d363c6345442",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/9e255d96-bd1a-4253-ac6e-27fd22defd3b",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "c52822dd-8f41-45cf-9177-efbcf60fad76",
+      "authorSolution": " \\(10\\) ",
+      "uuid": "9c5bbed1-f5d7-47dc-82c8-5ce0b64cad3e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361903,
+      "createdAt": 1437419362098,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Trigonometric Integrals",
-      "body": "  \\(\\int_0^2\\frac{x^2}{\\sqrt{x^3+1}} dx \u003d \\frac a3\\)  where  \\(a\\) \u003d___.",
+      "title": "Question On Center Of Gravity",
+      "body": " The volume of the solid bounded by  \\(z \u003d 2r\\)  ( \\(r \\ge 0\\) ),   \\(r \u003d 1 - \\cos\\theta\\) , and  \\(z \u003d 0\\)  is  \\(\\dfrac{a\\pi}3\\)  where  \\(a\\) \u003d_____.",
       "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/c52822dd-8f41-45cf-9177-efbcf60fad76",
+      "tags": "triple integrals, triple integrals ,iterated integrals ,cylindrical coordinates ,spherical coordinates ,density ,mass ,center of gravity ,moment of inertia of a solid about a line",
+      "url": "/practice-problem/9c5bbed1-f5d7-47dc-82c8-5ce0b64cad3e",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
-    },
-    {
-      "authorSolution": " \\(7\\) ",
-      "uuid": "c81a0ff9-7c73-482a-b351-05bd43ca22ae",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361903,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Techniques Of Integration",
-      "body": "  \\(\\int_1^2 \\dfrac{2x^2 dx}{(x^3+1)^2} \u003d \\dfrac a{27}\\)  where  \\(a\\) \u003d___.",
-      "allAnswers": [],
-      "tags": "techniques of integration, antiderivatives ,change of variables ,trigonometric integrals ,trigonometric substitutions ,integration by parts ,partial fractions ,improper Riemann integrals",
-      "url": "/practice-problem/c81a0ff9-7c73-482a-b351-05bd43ca22ae",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration"
+      "topic": "ef33f215-e9d5-4b6f-a557-54e4b84b736e"
     }
   ],
   "questions": [
-    {
-      "uuid": "ee379198-3108-4f9a-89f4-ffd54917bbb3",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Inflection Points",
-      "body": "What is an inflection point?",
-      "allAnswers": [],
-      "tags": "intermediate value theorem, absolute, max, min, inflection points",
-      "url": "/question/ee379198-3108-4f9a-89f4-ffd54917bbb3",
-      "source": "Math 221 5.2.5",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
-    },
-    {
-      "uuid": "a9a4ffd3-1e1e-4ddd-a00c-1409077aa50b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits and Continous Functions",
-      "body": "Find the following limits. \n\\(\\lim_{\\rightarrow -4}\\)(x+3)\\(^{2006}\\)",
-      "allAnswers": [],
-      "tags": "limits",
-      "url": "/question/a9a4ffd3-1e1e-4ddd-a00c-1409077aa50b",
-      "source": "Math 221 3.2.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "9e09b947-4d70-45a9-bb38-a881a4977c2e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Function with no Local Maximum or Minimum",
-      "body": "Give an example of a function for which \\(f\u0027(0)\u003d0\\) even though the function \\(f\\) has neither a local maximum or a local minimum at \\(x\u003d0\\)",
-      "allAnswers": [],
-      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
-      "url": "/question/9e09b947-4d70-45a9-bb38-a881a4977c2e",
-      "source": "Math 221 5.2.6",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
-    },
-    {
-      "uuid": "98a00240-c306-4308-a23e-04a88287e370",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits and Continous Functions",
-      "body": "Find the following limits. \n\\(\\lim_{\\rightarrow -4}\\)(x+3)\\(^{2007}\\)",
-      "allAnswers": [],
-      "tags": "limits, functions",
-      "url": "/question/98a00240-c306-4308-a23e-04a88287e370",
-      "source": "Math 221 3.2.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "a1b47c9b-6d71-4ddf-824a-07af484ecaa2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch the Graph",
-      "body": "Zero at \\(x\u003d0, 4\\); sign change at \\(x\u003d4\\); loc min at \\(x\u003d\\frac83\\); loc max at \\(x\u003d0\\); inflection point at \\(x\u003d4/3\\).  No global max or min.",
-      "allAnswers": [],
-      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
-      "url": "/question/a1b47c9b-6d71-4ddf-824a-07af484ecaa2",
-      "source": "Math 221 5.2.7",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
-    },
-    {
-      "uuid": "e970d2ec-f867-4bbe-8ae2-c23adf82687f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits and Continous Functions",
-      "body": "Find the following limits. \n\\(\\lim_{\\rightarrow -\\infty}\\)(x+3)\\(^{2007\\)",
-      "allAnswers": [],
-      "tags": "limits, functions",
-      "url": "/question/e970d2ec-f867-4bbe-8ae2-c23adf82687f",
-      "source": "Math 221 3.2.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "f09614d1-3695-4d53-9349-402d0ee15a6c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Limits and Continous Functions",
-      "body": "Find the following limits. \n\\(\\lim_{\\rightarrow 1}\\)\\(\\frac{t^{2}+t-2}{t^{2}-1}\\)",
-      "allAnswers": [],
-      "tags": "limits, functions",
-      "url": "/question/f09614d1-3695-4d53-9349-402d0ee15a6c",
-      "source": "Math 221 3.2.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
-    },
-    {
-      "uuid": "af90735b-925e-4e4a-83da-ddfe772ba690",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch the Graph",
-      "body": "Sign changes at \\(x\u003d0, -3\\);  global min at \\(x\u003d-3/4^{1/3}\\); no inflection points, the graph is convex.",
-      "allAnswers": [],
-      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
-      "url": "/question/af90735b-925e-4e4a-83da-ddfe772ba690",
-      "source": "Math 221 5.2.8",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
-    },
-    {
-      "uuid": "7b07fae4-e234-4e52-9828-1cb10136bedc",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787597,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sketch the Graph",
-      "body": "\\(x^4+2x^2-3 \u003d \\bigl(x^2-1\\bigr)\\bigl(x^2+3\\bigr)\\) so sign changes at \\(x\u003d\\pm1\\).  Global min at \\(x\u003d0\\);  graph is convex, no inflection points.",
-      "allAnswers": [],
-      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
-      "url": "/question/7b07fae4-e234-4e52-9828-1cb10136bedc",
-      "source": "Math 221 5.2.9",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
-    },
     {
       "uuid": "fdcdb8a1-d2ad-4eee-814f-f5b3b3a3c018",
       "contentType": "question",
@@ -459,7 +198,7 @@
       "tags": "limits, functions",
       "url": "/question/fdcdb8a1-d2ad-4eee-814f-f5b3b3a3c018",
       "source": "Math 221 3.2.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9f923e42-fd01-4dae-b407-ec80e16b5285",
@@ -476,7 +215,7 @@
       "tags": "limits, functions",
       "url": "/question/9f923e42-fd01-4dae-b407-ec80e16b5285",
       "source": "Math 221 3.2.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "61e3406b-98d5-483e-91a8-7f6c4a370db2",
@@ -493,7 +232,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/61e3406b-98d5-483e-91a8-7f6c4a370db2",
       "source": "Math 221 5.2.10",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "1dc5937c-7e24-468c-b3c5-fb7592bac474",
@@ -510,7 +249,7 @@
       "tags": "limits, functions, approaching infinity ",
       "url": "/question/1dc5937c-7e24-468c-b3c5-fb7592bac474",
       "source": "Math 221 3.2.10",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d52211a4-b0ce-4818-828c-6ab764d33333",
@@ -527,7 +266,7 @@
       "tags": "limits, functions, approaching infinity ",
       "url": "/question/d52211a4-b0ce-4818-828c-6ab764d33333",
       "source": "Math 221 3.2.11",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "3d4649a0-001e-43a9-b8a4-98decb5572e5",
@@ -544,7 +283,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/3d4649a0-001e-43a9-b8a4-98decb5572e5",
       "source": "Math 221 5.2.11",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "5b2b3fea-df63-413c-955e-ca7881233d73",
@@ -561,7 +300,7 @@
       "tags": "limits, functions, approaching infinity",
       "url": "/question/5b2b3fea-df63-413c-955e-ca7881233d73",
       "source": "Math 221 3.2.12",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ad64a1f6-5b01-4a7f-8741-0a930c563677",
@@ -578,7 +317,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/ad64a1f6-5b01-4a7f-8741-0a930c563677",
       "source": "Math 221 5.2.12",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "08387604-2362-4588-8d80-eaeb96e26f6a",
@@ -595,7 +334,7 @@
       "tags": "limits, functions, approaching infinity",
       "url": "/question/08387604-2362-4588-8d80-eaeb96e26f6a",
       "source": "Math 221 3.2.13",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ab65ff25-79d7-4360-84d5-d6e431afae19",
@@ -612,7 +351,7 @@
       "tags": "limits, functions, approaching infinity",
       "url": "/question/ab65ff25-79d7-4360-84d5-d6e431afae19",
       "source": "Math 221 3.2.14",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "929f3396-dc5b-4c89-bf49-b5b90c9e367e",
@@ -629,7 +368,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/929f3396-dc5b-4c89-bf49-b5b90c9e367e",
       "source": "Math 221 5.2.13",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "dbbf7b46-53b4-4d45-bcd8-da6cb7a8591d",
@@ -646,7 +385,7 @@
       "tags": "limits, functions",
       "url": "/question/dbbf7b46-53b4-4d45-bcd8-da6cb7a8591d",
       "source": "Math 221 3.2.15",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "883363da-6f94-49a6-be0a-387b6398329a",
@@ -663,7 +402,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/883363da-6f94-49a6-be0a-387b6398329a",
       "source": "Math 221 5.2.14",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "115bc339-925c-4e15-af88-3b5e513c5da8",
@@ -680,7 +419,7 @@
       "tags": "limits, functions, continuous",
       "url": "/question/115bc339-925c-4e15-af88-3b5e513c5da8",
       "source": "Math 221 3.2.17",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "3398b1a4-6280-41ce-95db-e48cb11ca94b",
@@ -697,7 +436,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/3398b1a4-6280-41ce-95db-e48cb11ca94b",
       "source": "Math 221 5.2.15",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "b0d5e43f-8041-4268-9051-6202c971b58c",
@@ -714,7 +453,7 @@
       "tags": "limits, functions",
       "url": "/question/b0d5e43f-8041-4268-9051-6202c971b58c",
       "source": "Math 221 3.2.18",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "92bdca72-5f04-4477-85ff-6c441e6e32a0",
@@ -731,7 +470,7 @@
       "tags": "limits, functions",
       "url": "/question/92bdca72-5f04-4477-85ff-6c441e6e32a0",
       "source": "Math 221 3.2.19",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "a580a820-c584-4fba-a95d-fea731cc1384",
@@ -748,7 +487,7 @@
       "tags": "limits, functions",
       "url": "/question/a580a820-c584-4fba-a95d-fea731cc1384",
       "source": "Math 221 3.2.20",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "b28c789e-2b8f-4ba9-9225-fd043bb04b56",
@@ -765,7 +504,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/b28c789e-2b8f-4ba9-9225-fd043bb04b56",
       "source": "Math 221 5.2.16",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "534ace51-a592-4b84-8437-4f6737f20b39",
@@ -782,7 +521,7 @@
       "tags": "limit, functions",
       "url": "/question/534ace51-a592-4b84-8437-4f6737f20b39",
       "source": "Math 221 3.2.21",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9c4c6120-7579-4980-b632-38d04faff54c",
@@ -799,7 +538,7 @@
       "tags": "limits, functions",
       "url": "/question/9c4c6120-7579-4980-b632-38d04faff54c",
       "source": "Math 221 3.2.22",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "43522d33-e21e-4ea5-a7ee-1788b98fa295",
@@ -816,7 +555,7 @@
       "tags": "limits, function",
       "url": "/question/43522d33-e21e-4ea5-a7ee-1788b98fa295",
       "source": "Math 221 3.2.23",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "40eb3717-393a-403e-a0e6-568416e2015e",
@@ -833,7 +572,7 @@
       "tags": "limits, functions",
       "url": "/question/40eb3717-393a-403e-a0e6-568416e2015e",
       "source": "Math 221 3.2.24",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "5b36a313-9d52-466e-a8f3-8213cec2e530",
@@ -850,7 +589,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/5b36a313-9d52-466e-a8f3-8213cec2e530",
       "source": "Math 221 5.2.17",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "cb6c8526-9fe2-45dd-af43-5b3ca9db23c9",
@@ -862,12 +601,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits and Continous Functions",
-      "body": "A function f is defined by \n\nwhere a and b are constants. The function f is continuous. What are a and b?\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20441.png\"/\u003e",
+      "body": "A function f is defined by \n\nwhere a and b are constants. The function f is continuous. What are a and b?\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20441.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "function, limits, continuous functions",
       "url": "/question/cb6c8526-9fe2-45dd-af43-5b3ca9db23c9",
       "source": "Math 221 3.2.25",
-      "topic": "Pre-Calculus/Topics in Functions/Other Algebraic Functions/Properties of Radicals/Limits/Approaching Infinity "
+      "topic": "c5d02cd3-0a4a-4e79-b5b3-20fe525d41b0"
     },
     {
       "uuid": "91fee37a-e065-429c-9fdb-08b5b324cf83",
@@ -884,7 +623,7 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, asymptotes",
       "url": "/question/91fee37a-e065-429c-9fdb-08b5b324cf83",
       "source": "Math 221 5.2.18",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     },
     {
       "uuid": "58a65354-66cf-42d9-b22f-8c6449f12643",
@@ -896,12 +635,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Limits and Continous Functions",
-      "body": "Find a constant k such that the function\n\nis continuous\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20442.png\"/\u003e",
+      "body": "Find a constant k such that the function\n\nis continuous\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20442.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "limits, continuous functions, functions",
       "url": "/question/58a65354-66cf-42d9-b22f-8c6449f12643",
       "source": "Math 221 3.2.26",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "715db00b-c25b-4390-b2af-1bfccea6c03b",
@@ -918,7 +657,160 @@
       "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
       "url": "/question/715db00b-c25b-4390-b2af-1bfccea6c03b",
       "source": "Math 221 5.2.19",
-      "topic": "Calculus/Derivative Calculus/Intermediate Value Theorem"
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "b3aae412-2cec-4480-af49-1e185f8a17a9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Limits and Continous Functions",
+      "body": "Find constants a and c such that the function \n\nis continuous for all x.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20443.PNG\"/\u003e",
+      "allAnswers": [],
+      "tags": "limits, functions, continuous functions",
+      "url": "/question/b3aae412-2cec-4480-af49-1e185f8a17a9",
+      "source": "Math 221 3.2.27",
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
+    },
+    {
+      "uuid": "75628257-35f2-45fc-bd1e-10a0d67d76b5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": "Changes sign at \\(x\u003d-1\\pm\\surd2\\) and \\(x\u003d0\\); loc min at \\((-2+\\surd7)/3\\), loc max at \\((-2-\\surd7)/3\\); inflection point at \\(x\u003d-\\frac23\\).",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph",
+      "url": "/question/75628257-35f2-45fc-bd1e-10a0d67d76b5",
+      "source": "Math 221 5.2.20",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "6072986d-200b-437e-993f-58586b38d0d4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Optimization Practice",
+      "body": "By definition, the perimeter of a rectangle is the sum of the lengths\n  of its four sides.  Which rectangle, of all those whose perimeter is\n  1, has the smallest area?  Which one has the largest area?",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, optimization",
+      "url": "/question/6072986d-200b-437e-993f-58586b38d0d4",
+      "source": "Math 221 5.3.1",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "5cb9f10a-7872-49b2-946e-ea97141f4103",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Optimization Practice",
+      "body": "Which rectangle of area 100in\\(^2\\) minimizes its height plus two times\n  its length?",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization",
+      "url": "/question/5cb9f10a-7872-49b2-946e-ea97141f4103",
+      "source": "Math 221 5.3.2",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "e0f889fb-c1dd-4325-841d-f2c7b438ae02",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Optimization Practice",
+      "body": "You have 1 yard of string from which you make a circular wedge with\n  radius \\(R\\) and opening angle \\( \\theta\\).  Which choice of \\( \\theta\\) and\n  \\(R\\) will give you the wedge with the largest area?  Which choice leads\n  to the smallest area?",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization",
+      "url": "/question/e0f889fb-c1dd-4325-841d-f2c7b438ae02",
+      "source": "Math 221 5.3.3",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "c957bc47-4021-4327-9e6f-b24042caeba3",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Optimization Practice",
+      "body": " In a street two lamp posts are 300 feet apart.  The light intensity at\n  a distance \\(d\\) from the first lamp post is \\(1000/d^2\\), the light\n  intensity at distance \\(d\\) from the second (weaker) lamp post is\n  \\(125/d^2\\) (in both cases the light intensity is inversely proportional\n  to the square of the distance to the light source).",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization",
+      "url": "/question/c957bc47-4021-4327-9e6f-b24042caeba3",
+      "source": "Math 221 5.3.4",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "67c7f03b-c152-4272-a632-33d9ec960cd0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Sketch the Graph",
+      "body": "You have a sheet of metal with area \\(100\\text{ in}^2\\) from which you are to make a cylindrical soup can. If \\(r\\) is the radius of the can and \\(h\\) its height, then which \\(h\\) and \\(r\\) will give you the can with the largest volume?",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization",
+      "url": "/question/67c7f03b-c152-4272-a632-33d9ec960cd0",
+      "source": "Math 221 5.3.5",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "16f01481-90fa-43a5-a3e8-c29daf0a0185",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Optimization Practice",
+      "body": "A triangle has one vertex at the origin \\(O(0,0)\\), another at the point \\(A(2a,0)\\) and the third at \\((a, a/(1+a^3))\\).  What are the largest and smallest areas this triangle can have if \\(0\\leq a\u003c\\infty\\)?",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization",
+      "url": "/question/16f01481-90fa-43a5-a3e8-c29daf0a0185",
+      "source": "Math 221 5.3.6",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
+    },
+    {
+      "uuid": "64ef73e9-76e4-40b8-9664-9a04beb50e98",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787597,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Optimization Practice",
+      "body": "The product of two numbers \\(x, y\\) is 16. We know \\(x\\geq 1\\) and \\(y\n  \\geq1\\). What is the greatest possible sum of the two numbers? ",
+      "allAnswers": [],
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization",
+      "url": "/question/64ef73e9-76e4-40b8-9664-9a04beb50e98",
+      "source": "Math 221 5.3.7",
+      "topic": "692da1d3-1321-4bfc-b156-9fa2326ab5fe"
     }
   ],
   "textContent": [
@@ -937,7 +829,7 @@
       "tags": "integration, integral, integration using partial fractions, partial fractions ",
       "url": "/text-content/3d4a7d2a-47a1-4f77-8feb-01c0c9f06440",
       "source": "Forgotten Text 5 4.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Integration using Partial Fractions "
+      "topic": "18bbbf6a-46c7-4097-ae82-4525bcbd3709"
     },
     {
       "uuid": "2ef1047d-a094-4e2a-9f00-3c59633caa79",
@@ -954,9 +846,63 @@
       "tags": "improper integrals, integrals, integration, techniques of integrals ",
       "url": "/text-content/2ef1047d-a094-4e2a-9f00-3c59633caa79",
       "source": "Forgotten Text 5 4.6",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Improper Integrals"
+      "topic": "a264a45b-a3a2-401c-a24f-52bdfe0e4aeb"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "0fb3d7cc-05e8-4938-90be-35fd1ec5cd25",
+      "subTopics": [
+        "8f5b3158-443e-449f-a476-0659587f895f",
+        "3b1783f9-347f-4a33-b4d6-239bde9daf3d",
+        "d7d92369-f1d9-4632-8fb6-39aaafd6a3a3",
+        "1d714527-6ff6-47fa-bc04-f1975ad6df74"
+      ],
+      "parentTopics": [
+        "29f4db72-a2c1-4165-8293-0a566eeab72f"
+      ],
+      "title": "Series",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 664000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "a19d6461-eef5-4ec9-aaca-ea0d3ae4229c",
+      "subTopics": [],
+      "parentTopics": [
+        "9a9565de-ac7f-4bc2-b21a-b0778396fbf7"
+      ],
+      "title": "Squares",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " squares,parallelepiped,square ,lines, geometry word problem, angle, rectangular parallelepiped, polygons, planes,square, bases, word problem,squares, intersecting lines, parallel lines, perpendicular bisector , shape of bases, skew lines,",
+      "difficulty": 105000,
+      "contentUuids": [
+        "7a193308-4cd3-48c2-b08b-2a99452eaa3f",
+        "cb4ebe17-b11d-4c5e-9731-e1cfc1257e82",
+        "e0734b20-a20b-4c2d-aee4-def6fc87bda2",
+        "1af1b125-abe5-441e-94ba-766a2129a5dc",
+        "9d87ae08-055f-44f5-b207-27b525d9d3ac",
+        "662e830b-0a0b-4636-8eb1-3cb5996845e1"
+      ]
+    },
+    {
+      "uuid": "c7a19ef2-57db-4569-8580-2c11cc3b85de",
+      "subTopics": [],
+      "parentTopics": [
+        "1441ba09-76ce-498e-862a-b5638a6a1798"
+      ],
+      "title": "Odd Function",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " odd, even function , even,function, odd function,",
+      "difficulty": 535000,
+      "contentUuids": [
+        "cc048404-33d5-49fc-84eb-e073c5e67527"
+      ]
+    }
+  ]
 }

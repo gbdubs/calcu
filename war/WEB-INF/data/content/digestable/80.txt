@@ -2,397 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(3\\) ,  \\(e\\) ",
-      "uuid": "b01d031a-25ac-47a5-b508-3eecebc9ebb2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/551.png\"/\u003e",
+      "uuid": "9eccb102-eba4-42e7-af8e-dd38f5ef9f49",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362101,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "One-to-one (\u003d Injective) Question",
-      "body": " Let  \\(D\\)  be the square with vertices  \\((\\pm1,0)\\)  and  \\((0,\\pm1)\\) .   Then          \\[ \\iint\\limits\\sb D e^{-(x+y)}(x-y)^2 dx dy \u003d \\frac1a \\left(b-\\frac1b\\right) \\] where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Prove other trig identities, pt.3",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/550.png\"/\u003e",
       "allAnswers": [],
-      "tags": "change of variables in an integral, change of coordinates ,one-to-one (\u003d injective) ,onto (\u003d surjective) ,Jacobian matrix ,Jacobian",
-      "url": "/practice-problem/b01d031a-25ac-47a5-b508-3eecebc9ebb2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Change of Variables"
+      "tags": "trig identities, trig ",
+      "url": "/practice-problem/9eccb102-eba4-42e7-af8e-dd38f5ef9f49",
+      "source": "null 3.4.3"
     },
     {
-      "authorSolution": " \\(40\\) ",
-      "uuid": "11ed76c0-54ba-44c7-bd52-975239477709",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/553.png\"/\u003e",
+      "uuid": "be72ff24-e10f-4984-a5b9-a5b1cff17bfd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362101,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Change Of Variables In An Integral Question",
-      "body": " The integral of  \\(f(x,y) \u003d \\cos\\left(\\dfrac{\\pi(2x-y)}{3x+y}\\right)\\)  over the region bounded by the lines  \\(y \u003d 2x\\) ,  \\(y \u003d -3x + 20\\) , and  \\(y \u003d \\frac13x\\)  is  \\(\\dfrac{a}{\\pi}\\)  where  \\(a\u003d\\) ____.",
+      "title": "p-polarization transmission problem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/552.png\"/\u003e",
       "allAnswers": [],
-      "tags": "change of variables in an integral, change of coordinates ,one-to-one (\u003d injective) ,onto (\u003d surjective) ,Jacobian matrix ,Jacobian",
-      "url": "/practice-problem/11ed76c0-54ba-44c7-bd52-975239477709",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Change of Variables"
+      "tags": "Snells law, fresnel coefficient, trig identities, trig ",
+      "url": "/practice-problem/be72ff24-e10f-4984-a5b9-a5b1cff17bfd",
+      "source": "null 3.4.4"
     },
     {
-      "authorSolution": " \\(xy \u003d 12\\) ",
-      "uuid": "5523be1a-555f-48ce-b1d5-0b916301a94c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/555.png\"/\u003e",
+      "uuid": "482cb26c-b462-451a-862b-fafefc72ff70",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362106,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Connected Sets Question",
-      "body": " The (nonparametric) equation of the flow line of the vector field  \\(\\vec{ }F(x,y) \u003d x \\vec{ }i - y \\vec{ }j\\)  which passes through the point  \\((4,3)\\)  is ____________.",
+      "title": "electrical circuit problem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/554.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/5523be1a-555f-48ce-b1d5-0b916301a94c",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "trig identities, trig, instantaneous power, soil steady state ",
+      "url": "/practice-problem/482cb26c-b462-451a-862b-fafefc72ff70",
+      "source": "null 3.4.5"
     },
     {
-      "authorSolution": " \\(x^3 + 2\\) ",
-      "uuid": "dfa87a3d-3189-469a-ab1f-d225224b10f5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/562.png\"/\u003e",
+      "uuid": "be7320c7-40ff-4d86-a976-128f1667aaec",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362106,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Open Sets Practice",
-      "body": " The (nonparametric) equation of the flow line of the vector field  \\(\\vec{ }F(x,y) \u003d x \\vec{ }i + x^3 \\vec{ }j\\)  which passes through the point  \\((1,1)\\)  is  \\(3y \u003d f(x)\\)  where  \\(f(x)\\)  \u003d ____________.",
+      "title": "Measure of angle in radians",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/561.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/dfa87a3d-3189-469a-ab1f-d225224b10f5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "radians, angle, trig, degrees",
+      "url": "/practice-problem/be7320c7-40ff-4d86-a976-128f1667aaec",
+      "source": "null 4.2.1"
     },
     {
-      "authorSolution": " \\(e^{2t}\\) ,  \\(\\ln t\\) ,  \\(\\dfrac1t\\) ",
-      "uuid": "0843cd2d-bcd4-4a05-84ea-83dec505e268",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/565.png\"/\u003e",
+      "uuid": "a334664c-eb5c-4230-a0ba-05c7fd14b373",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362107,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Flow Lines",
-      "body": " The (parametric) equation of the flow line of the vector field  \\(\\vec{ }F(x,y,z) \u003d 2x \\vec{ }i + z \\vec{ }j - z^2 \\vec{ }k\\)  which passes through the point  \\((e^2,0,1)\\)  at time  \\(t \u003d 1\\)  is  \\(\\vec{ }r(t) \u003d a(t) \\vec{ }i + b(t) \\vec{ }j + c(t) \\vec{ }k\\)  where  \\(a(t)\\) \u003d_____,  \\(b(t)\\) \u003d______, and  \\(c(t)\\) \u003d____.",
+      "title": "Cylindrical radius, length problem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/564.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/0843cd2d-bcd4-4a05-84ea-83dec505e268",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "length, trig, ",
+      "url": "/practice-problem/a334664c-eb5c-4230-a0ba-05c7fd14b373",
+      "source": "null 4.2.2"
     },
     {
-      "authorSolution": " \\(2e^{t^3}\\) ,  \\(e^t\\) ",
-      "uuid": "f7b13356-208e-4b67-ae0c-4308e4c0491e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/567.png\"/\u003e",
+      "uuid": "4e24349b-464b-469a-be6c-42dfe841b2eb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362107,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Flow Lines Practice",
-      "body": " A (parametric) equation of the flow line of the vector field  \\(\\vec{ }F(x,y) \u003d 3t^2x \\vec{ }i + y \\vec{ }j\\)  which passes through the point  \\((2,1)\\)  is  \\(\\vec{ }r(t) \u003d a(t) \\vec{ }i + b(t) \\vec{ }j\\)   where  \\(a(t)\\) \u003d________ and  \\(b(t)\\) \u003d_________.",
+      "title": "Two belt pulleys problem",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/566.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/f7b13356-208e-4b67-ae0c-4308e4c0491e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "length around pulleys, length, trig ",
+      "url": "/practice-problem/4e24349b-464b-469a-be6c-42dfe841b2eb",
+      "source": "null 4.2.3"
     },
     {
-      "authorSolution": "is, is not, is not",
-      "uuid": "2210979d-9a3b-4736-a24b-a642a037c3d7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/570.png\"/\u003e",
+      "uuid": "e10b799d-2def-404a-82f3-aa23fbcb6454",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362107,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Vector Fields Practice",
-      "body": " Consider the set  \\(S \u003d \\{(x,y)\\colon x \\ne 0\\}\\) .   The set  \\(S\\)  ______ (is/is not) open; it ______ (is/is not) connected; it ______ (is/is not) simply connected.",
+      "title": "Find area of sector",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/569.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/2210979d-9a3b-4736-a24b-a642a037c3d7",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "area of sector, circle, radius",
+      "url": "/practice-problem/e10b799d-2def-404a-82f3-aa23fbcb6454",
+      "source": "null 4.3.1"
     },
     {
-      "authorSolution": "is, is, is not",
-      "uuid": "a2acdf47-c3f7-4c7b-b219-c55fc7b2ba96",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/572.png\"/\u003e",
+      "uuid": "34947363-bb1a-4cc6-912e-3bc1e3899ba9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362107,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Flow Lines",
-      "body": " Consider the set  \\(S \u003d \\{(x,y)\\colon 1 \u003c x^2 + y^2 \u003c 25\\}\\) .   The set  \\(S\\)  ______ (is/is not) open; it ______ (is/is not) connected; it ______ (is/is not) simply connected.",
+      "title": "Find area in belt pulley",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/571.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/a2acdf47-c3f7-4c7b-b219-c55fc7b2ba96",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "area of sector, area, trig, radians",
+      "url": "/practice-problem/34947363-bb1a-4cc6-912e-3bc1e3899ba9",
+      "source": "null 4.3.2"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "a1714ce5-69cf-4228-9084-c4372e038828",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/576.png\"/\u003e",
+      "uuid": "d599dc68-40e9-47bb-94e0-f2ced65f0e26",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362107,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Flow Lines Question",
-      "body": " Let  \\(f(x,y,z) \u003d x^2y^3e^z\\) .    Find each of the following (if they make sense):\n  (a)  \\(\\grd f\\)  \u003d __________________;\n  (b)  \\(\\dv f\\)  \u003d __________________;\n  (c)  \\(\\crl f\\)  \u003d __________________.",
+      "title": "Find area of segment ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/575.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/a1714ce5-69cf-4228-9084-c4372e038828",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
+      "tags": "area of sector, chord, trig ",
+      "url": "/practice-problem/d599dc68-40e9-47bb-94e0-f2ced65f0e26",
+      "source": "null 4.3.3"
     },
     {
-      "authorSolution": "\\begin{enumerate}",
-      "uuid": "a51af7ae-6909-442d-8f11-c93f5c31cb02",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/578.png\"/\u003e",
+      "uuid": "23cdad30-0a68-4f0d-80dc-6c3bf638dc21",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419362107,
+      "createdAt": 1437611655785,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Divergence Question",
-      "body": "  \\(\\grd\\vec{ }F\\)  \u003d __________________;",
+      "title": "Find area of intersection",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/577.png\"/\u003e",
       "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/a51af7ae-6909-442d-8f11-c93f5c31cb02",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
-    },
-    {
-      "authorSolution": " \\(0\\) ,  \\(0\\) ,  \\(0\\) ,  \\(0\\) ",
-      "uuid": "26f72690-28f5-41ff-8ee0-b16e8a55d56f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362107,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Vector Fields",
-      "body": "  \\(\\crl\\vec{ }F\\)  \u003d __________________.",
-      "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/26f72690-28f5-41ff-8ee0-b16e8a55d56f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
-    },
-    {
-      "authorSolution": " \\(c\\) ,  \\(a\\)  and  \\(c\\) ",
-      "uuid": "0e5b0b2d-2abf-46ab-969b-0de880488e5f",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362107,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Divergence Question",
-      "body": "   \\(\\nabla \\cdot \\vec{ }F\\)  \u003d __________________;",
-      "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/0e5b0b2d-2abf-46ab-969b-0de880488e5f",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
-    },
-    {
-      "authorSolution": " \\(\\dfrac1{12}\\) ",
-      "uuid": "46447174-a523-4902-a12d-45f2cc512931",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362108,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Potential Functions",
-      "body": " a function  \\(f\\)  such that  \\(\\vec{ }F \u003d \\nabla f\\)  is given by  \\(f(x,y,z) \u003d \\text{__________________.}\\) ",
-      "allAnswers": [],
-      "tags": "vector fields, vector fields ,flow lines ,divergence ,curl ,conservative fields ,potential functions ,open sets ,connected sets ,simply connected sets",
-      "url": "/practice-problem/46447174-a523-4902-a12d-45f2cc512931",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Multiple Integrals/Vector Fields"
-    },
-    {
-      "authorSolution": " \\(4x + yz + x^2\\) ,  \\(\\cos(xz) + e^y\\) ,  \\(x^2 + 2y + z\\) ",
-      "uuid": "943eb1d2-8ced-43e7-861d-f8ee5e9a03e9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362112,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Wedge Product Practice",
-      "body": " Let  \\(\\omega \u003d (3x + yz) dx + \\cos(xz) dy + (x^2 + y) dz\\)  and  \\(\\mu \u003d (x + x^2) dx + e^y dy + (y + z) dz\\) .   \\noindent Then  \\(\\omega + \\mu \u003d __________ dx + __________ dy + __________ dz.\\) ",
-      "allAnswers": [],
-      "tags": "differential forms, differential forms ,wedge product",
-      "url": "/practice-problem/943eb1d2-8ced-43e7-861d-f8ee5e9a03e9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Differential Forms"
-    },
-    {
-      "authorSolution": " \\(yz^5\\) ,  \\(-3xz^5\\) ,  \\(-x^3y\\) ",
-      "uuid": "821faa5b-9217-489a-baa5-c1a3095c55c8",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362112,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "On Differential Forms",
-      "body": " Let  \\(\\omega \u003d 3x dx + y dy\\)  and  \\(\\mu \u003d x^3 dx + z^5 dz\\) .   \\noindent Then  \\(\\omega \\land \\mu \u003d _______ dy \\land dz + _______ dz \\land dx                                                                                  + _______ dx \\land dy.\\) ",
-      "allAnswers": [],
-      "tags": "differential forms, differential forms ,wedge product",
-      "url": "/practice-problem/821faa5b-9217-489a-baa5-c1a3095c55c8",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Differential Forms"
-    },
-    {
-      "authorSolution": " \\(QU - RT\\) ,  \\(RS - PU\\) ,  \\(PT - QS\\) ",
-      "uuid": "c5039823-d567-4fc5-bd40-0e79b1c13b47",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419362112,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Forms",
-      "body": " Let  \\(\\omega \u003d P dx + Q dy + R dz\\)  and  \\(\\mu \u003d S dx + T dy + U dz\\)  be  \\(1\\) -forms.   \\noindent Then  \\(\\omega \\land \\mu \u003d ________ dy \\land dz + ________ dz \\land dx + ________ dx \\land dy.\\) ",
-      "allAnswers": [],
-      "tags": "differential forms, differential forms ,wedge product",
-      "url": "/practice-problem/c5039823-d567-4fc5-bd40-0e79b1c13b47",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Other Calculus Topics/Differential Forms/Differential Forms"
+      "tags": "trig, area of sector, area of intersection ",
+      "url": "/practice-problem/23cdad30-0a68-4f0d-80dc-6c3bf638dc21",
+      "source": "null 4.3.4"
     }
   ],
   "questions": [
-    {
-      "uuid": "4a315b25-5c75-412b-9001-c89191bcc8e8",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\frac{1}{t^2}e^{1/t}\\ dt\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/4a315b25-5c75-412b-9001-c89191bcc8e8",
-      "source": "AP Calculus Problems 6.1.64",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "a9d1b8ad-08a5-48bf-8aa1-9d8fc8c6fe79",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Solve each system of equations.\n\\(\\begin{cases} 2x-3y\u003d-4\\\\ 5x+y\u003d7 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "system of equations, graphing functions",
-      "url": "/question/a9d1b8ad-08a5-48bf-8aa1-9d8fc8c6fe79",
-      "source": "AP Calculus Problems 1.5.17",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "d10b90dd-0a6c-4d6f-bb4d-44a8def5cc23",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\sec(x+\\tfrac{\\pi}{2})\\tan(x+\\tfrac{\\pi}{2})\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/d10b90dd-0a6c-4d6f-bb4d-44a8def5cc23",
-      "source": "AP Calculus Problems 6.1.65",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "bde707df-d13e-40e5-8967-2068a3be0922",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint -\\csc^2\\theta\\sqrt{\\cot\\theta}\\ d\\theta\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/bde707df-d13e-40e5-8967-2068a3be0922",
-      "source": "AP Calculus Problems 6.1.66",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
-    {
-      "uuid": "b156db52-d763-43b8-bcb1-23f9f832e50a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graphs of Functions",
-      "body": "Solve each system of equations.\n\\(\\begin{cases} 6x+15y\u003d8\\\\ 3x-20y\u003d-7 \\end{cases}\\)",
-      "allAnswers": [],
-      "tags": "system of equations, graphing functions",
-      "url": "/question/b156db52-d763-43b8-bcb1-23f9f832e50a",
-      "source": "AP Calculus Problems 1.5.18",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
-    },
-    {
-      "uuid": "6af08ba7-1ce7-481a-8b50-8c641cab3a76",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787602,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the Indefinite Integral",
-      "body": "\\(\\dint \\frac{x}{x^2+4}\\ dx\\)",
-      "allAnswers": [],
-      "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
-      "url": "/question/6af08ba7-1ce7-481a-8b50-8c641cab3a76",
-      "source": "AP Calculus Problems 6.1.67",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
-    },
     {
       "uuid": "703d4a04-a1ce-4fcc-8330-2449b188c82c",
       "contentType": "question",
@@ -408,7 +188,7 @@
       "tags": "system of equations, graphing functions, limits ",
       "url": "/question/703d4a04-a1ce-4fcc-8330-2449b188c82c",
       "source": "AP Calculus Problems 1.5.19",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "cc7bda66-1c38-404b-a694-e63e46a5f71a",
@@ -425,7 +205,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/cc7bda66-1c38-404b-a694-e63e46a5f71a",
       "source": "AP Calculus Problems 1.6.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "c603f8f0-7bf9-4b14-a65a-2b6e6822d5cc",
@@ -442,7 +222,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/c603f8f0-7bf9-4b14-a65a-2b6e6822d5cc",
       "source": "AP Calculus Problems 1.6.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "7387079f-f8be-4f56-81f2-c52e13109e8a",
@@ -459,7 +239,7 @@
       "tags": "limits, graphs of functions",
       "url": "/question/7387079f-f8be-4f56-81f2-c52e13109e8a",
       "source": "AP Calculus Problems 1.6.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "39676d16-86cf-4db4-be07-6ebfdfa5dc07",
@@ -476,7 +256,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/39676d16-86cf-4db4-be07-6ebfdfa5dc07",
       "source": "AP Calculus Problems 6.1.68",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "3d2f0a4e-b837-449a-807b-a35c3cb19f19",
@@ -493,7 +273,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/3d2f0a4e-b837-449a-807b-a35c3cb19f19",
       "source": "AP Calculus Problems 6.1.69",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "e1a0a360-0097-4ebc-b941-31d0c5c4c01e",
@@ -510,7 +290,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/e1a0a360-0097-4ebc-b941-31d0c5c4c01e",
       "source": "AP Calculus Problems 6.1.70",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "66fb9f90-c89b-46ee-af59-0b3627ca563c",
@@ -527,7 +307,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/66fb9f90-c89b-46ee-af59-0b3627ca563c",
       "source": "AP Calculus Problems 1.6.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "9f51a2db-3958-474c-95bd-8118b804673c",
@@ -544,7 +324,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/9f51a2db-3958-474c-95bd-8118b804673c",
       "source": "AP Calculus Problems 1.6.5",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "bb5c8308-33ad-4d07-88c1-69494260675a",
@@ -561,7 +341,7 @@
       "tags": "graphing functions, limits",
       "url": "/question/bb5c8308-33ad-4d07-88c1-69494260675a",
       "source": "AP Calculus Problems 1.6.6",
-      "topic": "Pre-Calculus/Relations and Functions/Graphs of Functions/Fundamental Graphing Principle"
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
     },
     {
       "uuid": "2c7488e3-ba0d-4bf6-8896-46ad6dcc89e5",
@@ -578,7 +358,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/2c7488e3-ba0d-4bf6-8896-46ad6dcc89e5",
       "source": "AP Calculus Problems 6.1.71",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "161e10b5-9503-480b-af1e-090f57ca54b2",
@@ -595,7 +375,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/161e10b5-9503-480b-af1e-090f57ca54b2",
       "source": "AP Calculus Problems 6.1.72",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "1acf7380-78e3-46b5-a8a7-fb127c5c8d24",
@@ -612,7 +392,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/1acf7380-78e3-46b5-a8a7-fb127c5c8d24",
       "source": "AP Calculus Problems 1.6.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "763f2d9d-412f-4977-97ee-e577171a4350",
@@ -629,7 +409,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/763f2d9d-412f-4977-97ee-e577171a4350",
       "source": "AP Calculus Problems 6.1.73",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "8e40e355-3120-4b8c-8959-272976619993",
@@ -646,7 +426,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/8e40e355-3120-4b8c-8959-272976619993",
       "source": "AP Calculus Problems 6.1.74",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "e1f25973-65a0-436b-9339-1d28a9ed4c91",
@@ -663,7 +443,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/e1f25973-65a0-436b-9339-1d28a9ed4c91",
       "source": "AP Calculus Problems 1.6.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "55667673-8264-4ffb-9d50-294fecca0988",
@@ -680,7 +460,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/55667673-8264-4ffb-9d50-294fecca0988",
       "source": "AP Calculus Problems 1.6.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f51b699a-4b72-4662-bf8c-2b44ae5e2456",
@@ -697,7 +477,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/f51b699a-4b72-4662-bf8c-2b44ae5e2456",
       "source": "AP Calculus Problems 6.1.75",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "843b0791-3d28-4dc8-b58b-de1ad3d93bac",
@@ -714,7 +494,7 @@
       "tags": "definite, indefinite, integrals, antiderivatives, integration, differentiation",
       "url": "/question/843b0791-3d28-4dc8-b58b-de1ad3d93bac",
       "source": "AP Calculus Problems 6.1.76",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/Properties of Integral"
+      "topic": "37f68416-87a9-4f88-843b-8e1b636ba221"
     },
     {
       "uuid": "70d20ba4-82ec-4d4e-9b12-ddbbbed5bb52",
@@ -731,7 +511,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/70d20ba4-82ec-4d4e-9b12-ddbbbed5bb52",
       "source": "AP Calculus Problems 1.7.1",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "5ffe6256-2792-4b70-8513-eb3fb4a16007",
@@ -748,7 +528,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/5ffe6256-2792-4b70-8513-eb3fb4a16007",
       "source": "AP Calculus Problems 1.7.2",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "2767dce4-608f-4064-a24b-3434b897b29d",
@@ -765,7 +545,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/2767dce4-608f-4064-a24b-3434b897b29d",
       "source": "AP Calculus Problems 1.7.3",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "956bdf66-d4ae-430b-ae45-8a052f1478f8",
@@ -782,7 +562,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/956bdf66-d4ae-430b-ae45-8a052f1478f8",
       "source": "AP Calculus Problems 1.7.4",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "106da65f-1a0d-4e3d-8731-c567e158a05d",
@@ -799,7 +579,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/106da65f-1a0d-4e3d-8731-c567e158a05d",
       "source": "AP Calculus Problems 1.7.5",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "f86c5825-e514-419e-b564-99996190c5c9",
@@ -816,7 +596,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/f86c5825-e514-419e-b564-99996190c5c9",
       "source": "AP Calculus Problems 1.7.6",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "d8638273-085c-4257-9472-8f4b42de03c4",
@@ -833,7 +613,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/d8638273-085c-4257-9472-8f4b42de03c4",
       "source": "AP Calculus Problems 1.7.7",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "de30fe4e-5452-463a-ad02-51169833e142",
@@ -850,7 +630,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/de30fe4e-5452-463a-ad02-51169833e142",
       "source": "AP Calculus Problems 6.1.77",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "8c6fc6cc-07aa-4155-8bc5-e9b2b15040bf",
@@ -867,7 +647,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/8c6fc6cc-07aa-4155-8bc5-e9b2b15040bf",
       "source": "AP Calculus Problems 1.7.8",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "ceb14923-99ef-468b-81b5-406bca73473b",
@@ -884,7 +664,7 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/ceb14923-99ef-468b-81b5-406bca73473b",
       "source": "AP Calculus Problems 6.1.78",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     },
     {
       "uuid": "f9934848-2f41-43d6-a5c6-ea026eb84e78",
@@ -901,7 +681,7 @@
       "tags": "limits, graphing functions",
       "url": "/question/f9934848-2f41-43d6-a5c6-ea026eb84e78",
       "source": "AP Calculus Problems 1.7.9",
-      "topic": "Calculus/Transcendental Functions/Limits/Limits at Infinity/L\u0027Hopital\u0027s Rule"
+      "topic": "be8f2ab5-ad6d-4642-93ad-a374cd7eee66"
     },
     {
       "uuid": "09602084-9d71-4bc5-a585-c4c4dddf43ca",
@@ -918,7 +698,109 @@
       "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
       "url": "/question/09602084-9d71-4bc5-a585-c4c4dddf43ca",
       "source": "AP Calculus Problems 6.1.79",
-      "topic": "Calculus/Integral Calculus/Basics of Integration/The Fundamental Theorem of Calculus/Definite Integral"
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "e3a9567f-f689-4761-aae4-2ee2cac5442c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_{-2}^x (t^2-2t)\\ dt\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/e3a9567f-f689-4761-aae4-2ee2cac5442c",
+      "source": "AP Calculus Problems 6.1.80",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "72474270-763a-42df-a14a-742436b4c730",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_{-1}^x \\sqrt{t^4+1}\\ dt\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/72474270-763a-42df-a14a-742436b4c730",
+      "source": "AP Calculus Problems 6.1.81",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "a0e2f9b0-b76c-4f6d-a735-937fb8764b54",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Solve each system of equations.\n\\(\\begin{cases} x-y\u003d-7\\\\ \\frac{1}{2}x+3y\u003d14 \\end{cases}\\)",
+      "allAnswers": [],
+      "tags": "system of equations, graphs of functions",
+      "url": "/question/a0e2f9b0-b76c-4f6d-a735-937fb8764b54",
+      "source": "AP Calculus Problems 1.7.10",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "43227eb3-834f-4568-bb35-4d7582ab74c4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_0^x \\tan^4 t\\ dt\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/43227eb3-834f-4568-bb35-4d7582ab74c4",
+      "source": "AP Calculus Problems 6.1.82",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
+    },
+    {
+      "uuid": "6427e214-2b8f-4a8b-b581-5e39508dd39d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Graphs of Functions",
+      "body": "Solve each system of equations.\n\\(\\begin{cases} 8x-5y\u003d1\\\\ 5x-8y\u003d-1 \\end{cases}\\)",
+      "allAnswers": [],
+      "tags": "system of equations, graphs of equations",
+      "url": "/question/6427e214-2b8f-4a8b-b581-5e39508dd39d",
+      "source": "AP Calculus Problems 1.7.11",
+      "topic": "c3201961-62cc-4271-a33a-4881f639811b"
+    },
+    {
+      "uuid": "2765563d-f6f5-406d-8c23-dbc2d0223d62",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787602,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Find the Derivative",
+      "body": "Find \\(y\u0027\\), the derivative of the function \\(y\\), for each of the following using the Fundamental Theorem of Calculus.\n\n\\(y\u003d\\dint_0^x t\\cos t\\ dt\\)",
+      "allAnswers": [],
+      "tags": "definite, indefinite, integrals, differentiation, fundamental theorem of calculus",
+      "url": "/question/2765563d-f6f5-406d-8c23-dbc2d0223d62",
+      "source": "AP Calculus Problems 6.1.83",
+      "topic": "eecd4e89-6578-4f2f-b852-0236ab94dc7b"
     }
   ],
   "textContent": [
@@ -937,7 +819,7 @@
       "tags": "partial fraction, integral, methods of integration ",
       "url": "/text-content/8a37a5a7-7287-4471-a841-145994fb931e",
       "source": "Forgotten Text 7 1.9",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fraction Expansion"
+      "topic": "ce48e8e4-b1f3-4308-8f23-4264931b6d99"
     },
     {
       "uuid": "95a0ff96-c699-4439-8b5f-cc1d1461c52c",
@@ -954,9 +836,115 @@
       "tags": "taylor polynomials, taylor\u0027s formula, infinite series, remainder term, Newtons binomial formula ",
       "url": "/text-content/95a0ff96-c699-4439-8b5f-cc1d1461c52c",
       "source": "Forgotten Text 7 2.11",
-      "topic": "Calculus/Sequences and Series/Taylor Polynomial Series/Taylor Polynomials"
+      "topic": "ab61550e-d531-4d67-874a-ed44f5ed553e"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "e583a88c-2765-426d-89c5-e06a0e0b3d92",
+      "subTopics": [
+        "339fbaa8-fdf1-424f-8607-2e76488ecf7c"
+      ],
+      "parentTopics": [
+        "8177d58d-e84b-4f1b-9995-0b93ae67ca98"
+      ],
+      "title": "Sine",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 199000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "09c987e4-c708-462c-9c0d-5b9bd124e2ba",
+      "subTopics": [],
+      "parentTopics": [
+        "9d062c5d-601f-4b68-bb77-78679602b445"
+      ],
+      "title": "Lines",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " coordinate geometry, equation of a line,equation of a line, perpendicular lines, slope, inverse reciprocal, intercept, midpoint of a line segment, coordinates of a midpoint, word problem, line slope, image, parallel lines, perpendicular bisector, reflection, points, coordinates, collinear points, line, midpoint formula, symmetry,linear equation,perpendicular lines, vertices, rectangle,slope, line reflection,midpoint of a line segment, relative lines, real number, translation,equation",
+      "difficulty": 116000,
+      "contentUuids": [
+        "6c0267b4-65b3-4a40-a268-d5babd2c0e10",
+        "36417a08-b8a2-4f15-a3a2-fae5dd920b8d",
+        "08d778d1-5e9b-453a-8569-06ad83bbb827",
+        "a4dca6b6-0195-442f-925e-f642ae82a121",
+        "bcd5e3f1-8d87-45d0-90d5-2951c65a6931",
+        "b4a5e2a9-2382-405c-95ed-829d8e73747e",
+        "ede1f7a3-db30-40c2-9822-d7631ca624b8",
+        "79e3bec1-18c0-4e46-bb38-c4f981504cc9",
+        "3a8a5a9b-ecf0-4042-89cb-34923d90f242",
+        "69996ee5-db7d-4543-a522-25b92cdce9de",
+        "baf1cc8a-a85e-41c7-94a4-e399c66796ee",
+        "d8cdf32c-fd17-4c51-b569-c88f9e96a7cc",
+        "ca727c7c-b834-42a7-a193-2b4479a54273",
+        "8364418e-0a77-4c26-ba01-88a7711affaa",
+        "6ff0af53-6c67-43c8-b09c-26a8af4eec3a",
+        "38f12862-a169-4a5f-a9dc-0618d57eea03",
+        "f2533ab8-b624-4c83-9d97-ef1faadbd0f6",
+        "9ecef257-f638-465f-962d-a189261f12c7",
+        "0a650777-4083-402a-8b07-a63c9e43ad3e",
+        "389e70ea-5c82-43ce-bdfb-59f8f7896a28",
+        "aa278816-29f3-4987-848f-df4bc8aa95ed",
+        "9951a263-df48-4f1b-b04c-07aa27f16dce",
+        "f557e3ea-04ae-4244-a886-eae377ab02e6",
+        "52fcf0da-a32a-4135-bb3a-df4813988ec1",
+        "c4a8cdb6-0c5f-433b-9c74-5b8773e13905",
+        "bb8e1b28-4e99-44f9-b03c-a4cede1ff220",
+        "0745d239-db6f-4731-8143-a87a9970dfc9",
+        "d5121d68-106c-4b63-9ba2-0eab3b08ee35",
+        "916c4040-7d17-456e-9a4c-85a84a74bb2c",
+        "700b7969-ea92-4cb5-8baf-43f4dba31242",
+        "12fceb06-76f0-499e-8689-a65a3195c9f3",
+        "6b1043cc-9b47-4328-aa72-2009f9184738",
+        "6aa439c6-a369-4f40-9c71-f744c9cc7cf9",
+        "b280f473-75ea-43bb-8f5a-8ac4f4904ecb",
+        "36f6746c-ba4a-4212-bc1e-2cd065035015",
+        "535fb17d-0cb6-4349-9a3f-2ab5bf5fcdf2",
+        "80cf1387-cedf-4734-a138-a50e45b6a9a6",
+        "40ebba0d-4ffc-4a26-9cb0-b123fd93ac68",
+        "46a7c7b0-e141-41cb-bbda-a8ae772e29f4",
+        "7ce310fd-fb06-4c9b-9d49-25987d7a178b",
+        "2d7657c7-e617-4ae4-b1cf-49de5e285a7f",
+        "1645aa0c-9ee9-4080-a822-366054b5baa4",
+        "1b376932-70be-464e-9f46-110ed3036db7",
+        "5600be1c-3a1e-4c0c-a82d-7a1efab78e0b",
+        "68a65e26-3ca5-4ea3-ae22-02d67d57935f",
+        "014795ae-0747-4b6f-9c37-139ce26f54f6",
+        "73662c04-bdfa-4631-9b56-9e9b549d4da3",
+        "da97a975-9ee6-4d55-9410-93c16441efb1",
+        "de5eac0d-c556-4d21-9f3c-dc3fa6f3ea46",
+        "4ad81579-f48d-4930-9b46-44558d0884b1",
+        "0e70c5dd-406e-4428-b239-338ed6fa211c",
+        "33d3bdc5-be99-4f27-b642-ea0a657a9f4e",
+        "8edff123-5518-459c-89a9-0eb02b4a08fd"
+      ]
+    },
+    {
+      "uuid": "7fb3da98-08a8-464c-a20d-91d0aa31ec14",
+      "subTopics": [
+        "a021e1c2-8329-45d6-a2a3-3d9471017a59"
+      ],
+      "parentTopics": [
+        "6dd1206c-e632-445f-b9c3-47849138e8cb"
+      ],
+      "title": "Spheres",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " planes, lines, sphere, volume, surface area,radius,surface area, diameter, spheres,word problem, congruent,sphere,volume, radius,",
+      "difficulty": 148000,
+      "contentUuids": [
+        "cadad2a3-698c-4706-b508-964ff92f13cd",
+        "7c89a3c5-70ef-4b69-8181-62e36d694633",
+        "2b50cac3-63b1-45ad-a28e-754b3530e537",
+        "cab3ea81-de1c-4770-946c-8a9f044d0eb4",
+        "0ffe9136-8169-4429-8645-e301501d8f33",
+        "a210a555-7201-40f4-b5ab-d2b6124de9aa",
+        "ac002995-ad80-4e9f-8481-5ee538d8a1c4"
+      ]
+    }
+  ]
 }

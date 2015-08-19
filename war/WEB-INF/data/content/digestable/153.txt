@@ -2,431 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(xe^x - e^x +1\\) ",
-      "uuid": "d76c3aeb-dfdd-4a06-a7ab-97a6b7f4c2d3",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5/20016.png\"/\u003e",
+      "uuid": "8239edc2-71a6-46f0-8360-2bb40b525c9b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361970,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Binomial Series Problem",
-      "body": " Express  \\(\\sum_1^\\infty\\frac n{(n+1)!}x^{n+1}\\)  as the value at  \\(x\\)  of an elementary function \\(f\\) .\\\\ Answer:  \\(f(x)\\)  \u003d ______________.",
+      "title": "Using Postulates and Definitions in Proofs",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5/20015.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/d76c3aeb-dfdd-4a06-a7ab-97a6b7f4c2d3",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "",
+      "url": "/practice-problem/8239edc2-71a6-46f0-8360-2bb40b525c9b",
+      "source": "null 4.2"
     },
     {
-      "authorSolution": " \\(-x^2\\) ,  \\(2x\\) ",
-      "uuid": "270cfad2-2756-44d8-8193-e6070517fcb9",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10033.png\"/\u003e",
+      "uuid": "a8ea2441-b2c8-4b3c-a513-40cfaba12658",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361971,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Use Of Power Series To Solve Differential Equations",
-      "body": " Express  \\(\\sum_0^\\infty (- 1)^n \\frac{(2n+2)x^{2n+1}}{(2n)!}\\)  as the value at  \\(x\\)  of an elementary function \\(f\\) .\\\\ Answer:  \\(f(x) \u003d a(x)\\sin x + b(x) \\cos x\\)  where  \\(a(x)\\)  \u003d _____ and  \\(b(x)\\)  \u003d _____.",
+      "title": "Identify the Truth Value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10031.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10032.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/270cfad2-2756-44d8-8193-e6070517fcb9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "truth value, logic, symbolic form, symbols, conditional statements",
+      "url": "/practice-problem/a8ea2441-b2c8-4b3c-a513-40cfaba12658",
+      "source": "null 2.4"
     },
     {
-      "authorSolution": " \\(x\\cos x - \\sin x\\) ",
-      "uuid": "25e265f6-6100-4f2d-87ea-e9cf62e0609d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10035.png\"/\u003e",
+      "uuid": "4edc5593-709d-4009-9895-d13182f9b53b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361971,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Use Of Power Series To Solve Differential Equations",
-      "body": " Express  \\(\\sum_0^\\infty\\frac{(-1)^{n+1}(2n+2)x^{2n+1}}{(2n+3)!}\\)  as the value at  \\(x\\)  of an elementary function \\(f\\) .   \\\\Answer:  \\(f(x) \u003d \\dfrac{g(x)}{x^2}\\)  where  \\(g(x)\\)  \u003d ________________.",
+      "title": "Statements in Symbolic Form",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10034.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/25e265f6-6100-4f2d-87ea-e9cf62e0609d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "symbolic form, truth value, logic, symbols, conditionals",
+      "url": "/practice-problem/4edc5593-709d-4009-9895-d13182f9b53b",
+      "source": "null 2.4"
     },
     {
-      "authorSolution": " \\(-\\infty\\) ,  \\(\\infty\\) ,  \\(3\\) ,  \\(3\\) ",
-      "uuid": "b477ab20-c97e-4168-9171-54afc4f54e43",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10044.png\"/\u003e",
+      "uuid": "4f69fb2f-a574-4afa-983f-8f64dfc5de0e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361971,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Lagrange Form Of The Remainder",
-      "body": " Let  \\(f(x)\u003d \\sum_0^\\infty\\frac {k+1}{k!} x^k\\) .   Then the domain of  \\(f\\)  is the interval ( ___ , ___ ) and  \\(f(\\ln3) \u003d a\\ln 3 + b\\)  where  \\(a\\)  \u003d ___ and  \\(b\\) \u003d___.",
+      "title": "Writing the Inverse, Converse, and Contrapositive of Conditionals",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10043.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/b477ab20-c97e-4168-9171-54afc4f54e43",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "conditionals, inverses, contrapositives, converses, logic",
+      "url": "/practice-problem/4f69fb2f-a574-4afa-983f-8f64dfc5de0e",
+      "source": "null 2.5.1"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(2\\) ",
-      "uuid": "3afd4fa9-8212-45f5-a87f-8ac952b9cbc8",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10046.png\"/\u003e",
+      "uuid": "c05d9f47-f3e8-411d-8731-327ffe1a496f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361971,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Binomial Series",
-      "body": " The sum of the series  \\(\\D\\frac1{3!} + \\frac2{5!} + \\frac3{7!} + \\frac4{9!} + \\dots\\)  is  \\(\\dfrac a{be}\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___.",
+      "title": "Writing the Inverse, Converse, and Contrapositive of Conditionals",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10045.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/3afd4fa9-8212-45f5-a87f-8ac952b9cbc8",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "inverses, converses, contrapositives, symbols, logic ",
+      "url": "/practice-problem/c05d9f47-f3e8-411d-8731-327ffe1a496f",
+      "source": "null 2.5.2"
     },
     {
-      "authorSolution": " \\(15\\) ,  \\(3\\) ",
-      "uuid": "29c2c17a-af3f-4245-9996-54e16c9700bf",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10048.png\"/\u003e",
+      "uuid": "6b046be6-0955-439a-813a-03b40da64358",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361972,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Interval Of Convergence",
-      "body": " The sum of the series  \\(\\sum_1^\\infty\\frac{k(k+1)}{k!} 3^k\\)  is  \\(ae^p\\)  where  \\(a\\) \u003d_____ and  \\(p\\) \u003d___.",
+      "title": "Truth Values and Logic",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10047.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/29c2c17a-af3f-4245-9996-54e16c9700bf",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "symbols, symbolic form, logic, conditionals",
+      "url": "/practice-problem/6b046be6-0955-439a-813a-03b40da64358",
+      "source": "null 2.5.3"
     },
     {
-      "authorSolution": " \\(\\sqrt 2\\) ",
-      "uuid": "86192fe5-5e10-48fa-aaaf-a8021c78034b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5/20036.png\"/\u003e",
+      "uuid": "cabe54fc-de70-43bc-90be-b4fb32abfde6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361972,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Taylor Series",
-      "body": " The sum of the series  \\(\\dfrac{\\pi^2}{4^22!} - \\dfrac{\\pi^4}{4^44!} + \\dfrac{\\pi^6}{4^66!} - \\dfrac{\\pi^8}{4^88!} + \\cdots\\)  is  \\(1 - \\dfrac1a\\)  where  \\(a\u003d\\) ____.",
+      "title": "Proving Theorems About Angles",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5/20035.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/86192fe5-5e10-48fa-aaaf-a8021c78034b",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "",
+      "url": "/practice-problem/cabe54fc-de70-43bc-90be-b4fb32abfde6",
+      "source": "null 4.3.2"
     },
     {
-      "authorSolution": " \\(4\\) ",
-      "uuid": "d8d44745-564c-4653-ab57-09a899427003",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10053.png\"/\u003e",
+      "uuid": "18426cea-fde9-4403-9979-929d2d6d76e3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361972,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Interval Of Convergence Question",
-      "body": " The coefficient of the term containing  \\(x^9\\)  in the power series expansion of  \\((1-x^3)^{2/3}\\)  is  \\(-\\dfrac a{81}\\)  where  \\(a\\) \u003d___.",
+      "title": "Determine the Truth Value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10052.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/d8d44745-564c-4653-ab57-09a899427003",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "truth value, biconditional, conditional, logic, symbols",
+      "url": "/practice-problem/18426cea-fde9-4403-9979-929d2d6d76e3",
+      "source": "null 2.6.1"
     },
     {
-      "authorSolution": " \\(2\\) ",
-      "uuid": "62405475-cc16-4004-968a-f9100b1467a9",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10055.png\"/\u003e",
+      "uuid": "0819d858-f243-48c6-8f67-5ff3dc9c6792",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361972,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Interval Of Convergence",
-      "body": " The sum of the series     \\[ 1 - \\frac1{2^2} - \\frac1{2! 2^4} - \\frac{1\\cdot3}{3! 2^6}                - \\frac{1\\cdot3\\cdot5}{4! 2^8}                - \\frac{1\\cdot3\\cdot5\\cdot7}{5! 2^{10}} - \\dots \\] is  \\(\\dfrac 1{\\sqrt a}\\)  where  \\(a\\) \u003d___.",
+      "title": "Truth Value of Biconditionals",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10054.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/62405475-cc16-4004-968a-f9100b1467a9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
+      "tags": "truth value, conditionals, biconditionals",
+      "url": "/practice-problem/0819d858-f243-48c6-8f67-5ff3dc9c6792",
+      "source": "null 2.6.2"
     },
     {
-      "authorSolution": " \\(5\\exp\\bigl(\\frac13x^3\\bigr)\\) ",
-      "uuid": "2f40a80e-f452-4b70-89b1-ed0f10e5ae2e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10060.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10061.png\"/\u003e",
+      "uuid": "2d4a21ce-9cd9-4118-bad3-1f9650fb7e2f",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361973,
+      "createdAt": 1437611655778,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Radius Of Convergence Question",
-      "body": " Use power series to solve the differential equation  \\(f\u0027(x) \u003d x^2f(x)\\)  subject to the initial condition  \\(f(0) \u003d 5\\) .\\\\ Answer:  \\(f(x)\u003d\\) ______________.",
+      "title": "Conditional Conclusions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/10059.png\"/\u003e",
       "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/2f40a80e-f452-4b70-89b1-ed0f10e5ae2e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
-    },
-    {
-      "authorSolution": " \\(\\frac12x^2\\) ",
-      "uuid": "85b9fe58-0f1a-4ac4-a977-d79d89d1f6b6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361973,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Power Series Question",
-      "body": " Use power series to solve the differential equation  \\(y\u0027\u0027 - xy\u0027 \u003d y\\)  subject to the initial conditions  \\(y(0) \u003d 1\\)  and  \\(y\u0027(0) \u003d 0\\) .   \\\\ Answer:  \\(y(x) \u003d \\exp(f(x))\\)  where  \\(f(x)\u003d\\) _______.",
-      "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/85b9fe58-0f1a-4ac4-a977-d79d89d1f6b6",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
-    },
-    {
-      "authorSolution": " \\(x \\arctan x\\) ",
-      "uuid": "c22f2e8a-8289-4531-a2ae-125383b976aa",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361973,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Power Series Practice",
-      "body": " Use series to solve the differential equation  \\((1+x^2)y\u0027\u0027 + 2xy\u0027 - 2y \u003d 0\\)  subject to the initial conditions  \\(y(0) \u003d 1\\)  and  \\(y\u0027(0) \u003d 3\\) .   \\\\ Answer:  \\(y(x) \u003d 1 + 3x + f(x)\\)  where  \\(f(x)\u003d\\) _______________.",
-      "allAnswers": [],
-      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
-      "url": "/practice-problem/c22f2e8a-8289-4531-a2ae-125383b976aa",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Power Series"
-    },
-    {
-      "authorSolution": " \\(-3\\) ,  \\(-1\\) ,  \\(9\\) ,  \\(5\\) ,  \\(1\\) ,  \\(1\\) ",
-      "uuid": "65ed8903-91e7-4c36-b931-eb0296c9ab16",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361988,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "A Vector And Metric Properties Of $\\r^n$ Question",
-      "body": " Three vertices of a parallelogram are  \\(P \u003d (1,3,2)\\) ,  \\(Q \u003d (4,5,3)\\) , and  \\(R \u003d (2,-1,0)\\) .   What are the possible locations of the fourth vertex? \\noindent Answer: ( -1 , ___ , ___ ), or ( 3 , ___ , ___ ), or ( 5 , ___ , ___ ).",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/65ed8903-91e7-4c36-b931-eb0296c9ab16",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": " \\(-12\\) ",
-      "uuid": "232d45ec-edff-4895-8fb6-702d967e38b5",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361988,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Vector And Metric Properties Of $\\r^n$",
-      "body": " Find a vector parallel to the line  \\(8x + 6y \u003d 7\\) .    Answer:  \\(9\\vec{ }i + b \\vec{ }j\\)  where  \\(b\\) \u003d____.",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/232d45ec-edff-4895-8fb6-702d967e38b5",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": "line, plane",
-      "uuid": "8ff4bf51-bc55-4436-85b1-a1addda24547",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361988,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
-      "body": " In  \\(\\R^2\\) ,  \\(x + y \u003d 4\\)  is the equation of a ________.    In  \\(\\R^3\\) ,  \\(x + y \u003d 4\\)  is the equation of a ________.",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/8ff4bf51-bc55-4436-85b1-a1addda24547",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
-    },
-    {
-      "authorSolution": "circle, right circular cylinder",
-      "uuid": "4d2bba78-a5df-45d2-97d8-2edb4dd5a203",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361988,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
-      "body": " In  \\(\\R^2\\) ,  \\(x^2 + y^2 \u003d 25\\)  is the equation of a _________________.    In  \\(\\R^3\\) ,  \\(x^2 + y^2 \u003d 25\\)  is the equation of a _________________.",
-      "allAnswers": [],
-      "tags": "vector and metric properties of $\\r^n$,",
-      "url": "/practice-problem/4d2bba78-a5df-45d2-97d8-2edb4dd5a203",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Trigonometry/Other Topics in Trigonometry/Vectors/Properties of Vectors"
+      "tags": "conditionals, logic, conjunctions",
+      "url": "/practice-problem/2d4a21ce-9cd9-4118-bad3-1f9650fb7e2f",
+      "source": "null 2.6.1"
     }
   ],
   "questions": [
-    {
-      "uuid": "8f8d42e4-ec3d-49f9-8c00-9813d784494c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Express as a Polynomial",
-      "body": "Express each of the following rational functions as a polynomial plus a proper rational function.\n\n\\(\\DS \\frac{x^3}{x^3 -4}\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/8f8d42e4-ec3d-49f9-8c00-9813d784494c",
-      "source": "Math 222 1.2.25",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "47216a63-3f78-427a-8b21-7cf8937774cc",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Express as a Polynomial",
-      "body": "Express each of the following rational functions as a polynomial plus a proper rational function.\n\n\\(\\DS \\frac{x^3+2x}{x^3-4}\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/47216a63-3f78-427a-8b21-7cf8937774cc",
-      "source": "Math 222 1.2.26",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "e2af6e0a-5478-4b5d-8527-b81c7be4bc80",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Express as a Polynomial",
-      "body": "Express each of the following rational functions as a polynomial plus a proper rational function.\n\n\\(\\DS \\frac{x^3 -x^2 -x -5}{x^3-4}\\).",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/e2af6e0a-5478-4b5d-8527-b81c7be4bc80",
-      "source": "Math 222 1.2.27",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "c19ab2c3-902e-4684-aeaa-0d1467a2893c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "Find the general solution \\(y\u003dy(x)\\) of the following differential\nequations:\n\\(f\u0027\u0027\u0027(x) - 125f(x) \u003d0\\)",
-      "allAnswers": [],
-      "tags": "differential equation, linear homogeneous ",
-      "url": "/question/c19ab2c3-902e-4684-aeaa-0d1467a2893c",
-      "source": "Math 222 4.1.28",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "49ca2c65-ac35-49bc-a8ef-6d146cfbec03",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Express as a Polynomial",
-      "body": "Express each of the following rational functions as a polynomial plus a proper rational function.\n\n\\(\\DS \\frac{x^3-1}{x^2-1}\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/49ca2c65-ac35-49bc-a8ef-6d146cfbec03",
-      "source": "Math 222 1.2.28",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "ade28728-0ec0-4c86-b79a-05f0d8c4e5ae",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int^{-2}_{-5} \\frac{x^4-1}{ x^2+1} \\,dx\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/ade28728-0ec0-4c86-b79a-05f0d8c4e5ae",
-      "source": "Math 222 1.2.29",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "4b0aedd1-d661-4484-a5fd-f946fc9d68a7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Differential Equations",
-      "body": "Find the general solution \\(y\u003dy(x)\\) of the following differential\nequations:\n \\(u^{(5)}(x) - 32 u(x) \u003d 0\\)",
-      "allAnswers": [],
-      "tags": "differential equation, linear homogeneous ",
-      "url": "/question/4b0aedd1-d661-4484-a5fd-f946fc9d68a7",
-      "source": "Math 222 4.1.29",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
-    },
-    {
-      "uuid": "45a2d345-d35b-4f0a-b0cd-736f862d35e2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787600,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\DS \\int \\frac{x^3\\,\\dd x}{x^4+1}\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/45a2d345-d35b-4f0a-b0cd-736f862d35e2",
-      "source": "Math 222 1.2.30",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
     {
       "uuid": "b7d87d9c-56f3-4948-98ed-d20ba004bbe3",
       "contentType": "question",
@@ -442,7 +188,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/b7d87d9c-56f3-4948-98ed-d20ba004bbe3",
       "source": "Math 222 1.2.31",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "d3c4a927-d23d-42de-9c3d-096c0a62beda",
@@ -459,7 +205,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/d3c4a927-d23d-42de-9c3d-096c0a62beda",
       "source": "Math 222 4.1.30",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "13cb0fdb-b767-457b-85e2-add16a75a43b",
@@ -476,7 +222,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/13cb0fdb-b767-457b-85e2-add16a75a43b",
       "source": "Math 222 1.2.32",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "c66a4c05-ba40-4002-bbf8-cd551a2ae07a",
@@ -493,7 +239,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/c66a4c05-ba40-4002-bbf8-cd551a2ae07a",
       "source": "Math 222 1.2.33",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "69a97696-8d43-4db9-b1c1-6d0ee6f0b035",
@@ -510,7 +256,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/69a97696-8d43-4db9-b1c1-6d0ee6f0b035",
       "source": "Math 222 1.2.34",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "6a516dc1-7ccd-490b-85b1-fcbde4b47e08",
@@ -527,7 +273,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/6a516dc1-7ccd-490b-85b1-fcbde4b47e08",
       "source": "Math 222 4.1.31",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "fc827784-1e4c-46ad-837f-86465d1a64a0",
@@ -544,7 +290,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/fc827784-1e4c-46ad-837f-86465d1a64a0",
       "source": "Math 222 1.2.35",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "9d07f4be-e399-45d5-8654-9d4c2b88b405",
@@ -561,7 +307,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/9d07f4be-e399-45d5-8654-9d4c2b88b405",
       "source": "Math 222 4.1.32",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "512601ef-b608-4b03-b081-225647dc4f5c",
@@ -578,7 +324,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/512601ef-b608-4b03-b081-225647dc4f5c",
       "source": "Math 222 1.2.36",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "947f5093-724c-4a83-9255-ce18f949e187",
@@ -595,7 +341,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/947f5093-724c-4a83-9255-ce18f949e187",
       "source": "Math 222 4.1.33",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "5db1fe62-9a27-4ccb-8e97-2a53d85c2764",
@@ -612,7 +358,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/5db1fe62-9a27-4ccb-8e97-2a53d85c2764",
       "source": "Math 222 1.2.37",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "85ea7ca6-0a78-4f01-99ac-b6e553962615",
@@ -629,7 +375,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/85ea7ca6-0a78-4f01-99ac-b6e553962615",
       "source": "Math 222 1.2.38",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "93996ebf-c67b-47e3-a65a-45dd67197afb",
@@ -646,7 +392,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/93996ebf-c67b-47e3-a65a-45dd67197afb",
       "source": "Math 222 1.2.39",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "618f8739-386f-463d-88f3-af74d3336768",
@@ -663,7 +409,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/618f8739-386f-463d-88f3-af74d3336768",
       "source": "Math 222 1.2.40",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "8646d417-d994-4e0b-9469-c2c4547c1106",
@@ -680,7 +426,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/8646d417-d994-4e0b-9469-c2c4547c1106",
       "source": "Math 222 1.2.41",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "7d2f23d0-5030-469a-8ca9-9a4edf4460b0",
@@ -697,7 +443,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/7d2f23d0-5030-469a-8ca9-9a4edf4460b0",
       "source": "Math 222 1.2.42",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "d92038e8-09f6-45ea-8043-805f43b91fe7",
@@ -714,7 +460,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d92038e8-09f6-45ea-8043-805f43b91fe7",
       "source": "Math 222 1.2.43",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "5c818a05-fafe-4835-8bac-ffa714bfc634",
@@ -731,7 +477,7 @@
       "tags": "differential equations, linear homogeneous",
       "url": "/question/5c818a05-fafe-4835-8bac-ffa714bfc634",
       "source": "Math 222 4.1.34",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "132f19ee-0366-4b88-933e-90fd55c4741b",
@@ -748,7 +494,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/132f19ee-0366-4b88-933e-90fd55c4741b",
       "source": "Math 222 4.1.35",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "cdba3ce7-6e54-4ae0-98f4-fbad92835885",
@@ -765,7 +511,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/cdba3ce7-6e54-4ae0-98f4-fbad92835885",
       "source": "Math 222 4.1.36",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "fa28ea0d-773b-423c-8698-8aa51ae22a52",
@@ -782,7 +528,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/fa28ea0d-773b-423c-8698-8aa51ae22a52",
       "source": "Math 222 4.1.37",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "c18fad2b-928e-48dc-9193-c561e1b2bfc1",
@@ -799,7 +545,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/c18fad2b-928e-48dc-9193-c561e1b2bfc1",
       "source": "Math 222 4.1.38",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "99e368bc-b3f0-4251-9f3d-1213f242eac6",
@@ -816,7 +562,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/99e368bc-b3f0-4251-9f3d-1213f242eac6",
       "source": "Math 222 4.1.39",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "7d7c770e-204d-4c48-9b0f-0f4a842bcd38",
@@ -833,7 +579,7 @@
       "tags": "differential equations, linear homogeneous",
       "url": "/question/7d7c770e-204d-4c48-9b0f-0f4a842bcd38",
       "source": "Math 222 4.1.40",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "d5ba7930-5955-40fe-abde-c4ef2c474575",
@@ -850,7 +596,7 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/d5ba7930-5955-40fe-abde-c4ef2c474575",
       "source": "Math 222 4.1.41",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "d9670069-3bbf-4653-a560-c38311417393",
@@ -867,7 +613,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/d9670069-3bbf-4653-a560-c38311417393",
       "source": "Math 222 4.1.42",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "c3ef57d2-8205-46b1-aff5-00ad7b509f34",
@@ -884,7 +630,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/c3ef57d2-8205-46b1-aff5-00ad7b509f34",
       "source": "Math 222 4.1.43",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "24b35998-b43a-4131-a9ff-93e76fa7a574",
@@ -901,7 +647,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/24b35998-b43a-4131-a9ff-93e76fa7a574",
       "source": "Math 222 4.1.44",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "051d8b78-3ec6-493a-8b2c-64a7a9c2f1f6",
@@ -918,7 +664,143 @@
       "tags": "differential equations, linear homogeneous ",
       "url": "/question/051d8b78-3ec6-493a-8b2c-64a7a9c2f1f6",
       "source": "Math 222 4.1.45",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "555dabe6-49cb-40cc-b64e-3c7eca913b33",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Solve each of the following initial value problems. Your final answer should not use complex numbers, but you may use complex numbers to find it.\n\\( y\u0027\u0027+4y\u0027+5y\u003d0\\), \\( y(0)\u003d0, y\u0027(0)\u003d1.\\)",
+      "allAnswers": [],
+      "tags": "differential equations, linear homogeneous ",
+      "url": "/question/555dabe6-49cb-40cc-b64e-3c7eca913b33",
+      "source": "Math 222 4.1.46",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "1dda94ae-3f4d-4ae6-8915-8f11cd8552de",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Solve each of the following initial value problems. Your final answer should not use complex numbers, but you may use complex numbers to find it.\n\\( y\u0027\u0027-5y\u0027+6y\u003d0\\), \\( y(0)\u003d1, y\u0027(0)\u003d0.\\)",
+      "allAnswers": [],
+      "tags": "differential equation, linear homogeneous ",
+      "url": "/question/1dda94ae-3f4d-4ae6-8915-8f11cd8552de",
+      "source": "Math 222 4.1.47",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "a2d08464-3e17-4d41-ac77-cca009efe7b5",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int_0^a x\\sin x\\,\\dd x  \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/a2d08464-3e17-4d41-ac77-cca009efe7b5",
+      "source": "Math 222 1.3.1",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "ca2bf149-1c7f-4b04-ba89-a5c383550b37",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int_0^a x^2\\cos x\\,\\dd x \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/ca2bf149-1c7f-4b04-ba89-a5c383550b37",
+      "source": "Math 222 1.3.2",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "4d58fc53-33c2-435b-bf66-206156322b3a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int_3^4 \\frac {x\\,\\dd x}{\\sqrt{x^2-1}} \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/4d58fc53-33c2-435b-bf66-206156322b3a",
+      "source": "Math 222 1.3.3",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "9840487e-021c-461b-a73d-f0ad54d19d89",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int_{1/4}^{1/3} \\frac {x\\,\\dd x}{\\sqrt{1-x^2}}\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/9840487e-021c-461b-a73d-f0ad54d19d89",
+      "source": "Math 222 1.3.4",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "5683e1f3-9ebd-4905-9fad-dd727a5980f9",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int_3^4 \\frac {\\dd x}{x\\sqrt{x^2-1}} \\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/5683e1f3-9ebd-4905-9fad-dd727a5980f9",
+      "source": "Math 222 1.3.5",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "6520574a-d9de-4084-a94d-574b068a9c0b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787600,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int\\frac{x\\,\\dd x}{x^2+2x+17}\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/6520574a-d9de-4084-a94d-574b068a9c0b",
+      "source": "Math 222 1.3.6",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     }
   ],
   "textContent": [
@@ -937,7 +819,7 @@
       "tags": "product rule, derivative, power rule, rational exponents",
       "url": "/text-content/b65379d8-b049-44a1-a56a-59ffb0e6a048",
       "source": "Forgotten Text 6 4.7",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Powers of functions"
+      "topic": "2db2725e-ca21-4fe2-a771-3a852e026698"
     },
     {
       "uuid": "a5e72190-2e63-430b-8af7-006610436529",
@@ -954,7 +836,7 @@
       "tags": "higher derivatives, derivatives, derivative functions, second derivative ",
       "url": "/text-content/a5e72190-2e63-430b-8af7-006610436529",
       "source": "Forgotten Text 6 4.9",
-      "topic": "Calculus/Derivative Calculus/Definition of Derivative"
+      "topic": "2c56c9d0-ae69-45e8-8a4e-bae01af13a8b"
     },
     {
       "uuid": "45b5b8b4-f24c-4857-8b85-9c6364f12511",
@@ -971,9 +853,151 @@
       "tags": "tangent lines, normal lines, graph sketching, intermediate value theorem ",
       "url": "/text-content/45b5b8b4-f24c-4857-8b85-9c6364f12511",
       "source": "Forgotten Text 6 5.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Tangent and Normal Lines"
+      "topic": "a8c8cd93-74e3-432d-a0a6-0121d6c2514d"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "692da1d3-1321-4bfc-b156-9fa2326ab5fe",
+      "subTopics": [],
+      "parentTopics": [
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
+      ],
+      "title": "Intermediate Value Theorem",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "intermediate value theorem, absolute, max, min, tangent, normal, line, graph, optimization, inflection points, global, stationary points, asymptotes, location of roots, local, inflection point, interval bisection ,",
+      "difficulty": 512000,
+      "contentUuids": [
+        "ae4abf88-7406-4ea2-9907-168caa7f251a",
+        "8fad54d8-423c-40fe-80ea-c50f5bcfd600",
+        "5d6f61c4-f9d1-4d07-8802-7ca83e073a79",
+        "3a70f14a-2e63-48d2-a9b7-52a2dc21b209",
+        "d42af9e7-46d3-4112-868d-8414d34a4062",
+        "dd1ac260-74d7-4490-9b23-0073d3147ef6",
+        "50845c58-d230-464b-b26f-1d8fcd11561f",
+        "ada7535b-e3a7-4f35-afb5-da760e30bb3a",
+        "1f3cdfba-6f9f-4fe7-aeb7-ea33c75cb72a",
+        "0e40f62b-6bc3-4762-b8f7-c81c631b6054",
+        "55ef7909-20cc-42a3-9001-3abd41733ed4",
+        "7f498c02-ce6f-499d-9364-6c05533e4683",
+        "94795729-a46a-430a-8abe-90a04411a16c",
+        "ee379198-3108-4f9a-89f4-ffd54917bbb3",
+        "9e09b947-4d70-45a9-bb38-a881a4977c2e",
+        "a1b47c9b-6d71-4ddf-824a-07af484ecaa2",
+        "af90735b-925e-4e4a-83da-ddfe772ba690",
+        "7b07fae4-e234-4e52-9828-1cb10136bedc",
+        "61e3406b-98d5-483e-91a8-7f6c4a370db2",
+        "3d4649a0-001e-43a9-b8a4-98decb5572e5",
+        "ad64a1f6-5b01-4a7f-8741-0a930c563677",
+        "929f3396-dc5b-4c89-bf49-b5b90c9e367e",
+        "883363da-6f94-49a6-be0a-387b6398329a",
+        "3398b1a4-6280-41ce-95db-e48cb11ca94b",
+        "b28c789e-2b8f-4ba9-9225-fd043bb04b56",
+        "5b36a313-9d52-466e-a8f3-8213cec2e530",
+        "91fee37a-e065-429c-9fdb-08b5b324cf83",
+        "715db00b-c25b-4390-b2af-1bfccea6c03b",
+        "75628257-35f2-45fc-bd1e-10a0d67d76b5",
+        "6072986d-200b-437e-993f-58586b38d0d4",
+        "5cb9f10a-7872-49b2-946e-ea97141f4103",
+        "e0f889fb-c1dd-4325-841d-f2c7b438ae02",
+        "c957bc47-4021-4327-9e6f-b24042caeba3",
+        "67c7f03b-c152-4272-a632-33d9ec960cd0",
+        "16f01481-90fa-43a5-a3e8-c29daf0a0185",
+        "64ef73e9-76e4-40b8-9664-9a04beb50e98",
+        "3fcc83b2-83e0-43e7-beb2-b126d6d5f2c2",
+        "60ac3c0a-cd50-4494-af75-8206498770c2",
+        "6222a33b-3b1c-4753-acef-d97a1301091d",
+        "9fd96af2-2e2b-457d-807a-b57e90c374f9",
+        "032557df-adbb-4ec1-a9e2-85f099774fb5",
+        "176843cf-8ff2-4462-937d-2214d33e93e7",
+        "015010b7-4aea-4fb5-9844-0428b65e6cca"
+      ]
+    },
+    {
+      "uuid": "a6a6a34b-a705-456d-9916-80ec82f99a97",
+      "subTopics": [],
+      "parentTopics": [
+        "7f4ea974-03d4-41ff-a33e-fc56c04c5e13"
+      ],
+      "title": "Properties of Inverse Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " inverse functions and their derivatives ,implicit differentiation,logarithmic functions ,trigonometric and inverse trigonometric functions ,exponential functions ,the natural logarithm ,inverse functions, word problem,",
+      "difficulty": 297000,
+      "contentUuids": [
+        "507c487c-58ec-411e-89db-5f5b3963e9db",
+        "66a9e4a3-010c-4406-b146-28788136fd97",
+        "168af720-d1f6-43bc-92b7-af18f3a6b37c",
+        "d8a6f684-2109-4501-9f2c-0bdc9c2fdd10",
+        "46153fd4-d0cc-44a2-b54d-ed203def70a9",
+        "f0fc044a-b196-4591-906f-c62c078408a0",
+        "9d170246-bea4-459e-9356-c15817c6d783",
+        "e26cb627-3be1-473b-8c10-ababb2357e8d",
+        "95debe98-82da-44bf-8be6-d5ad83ad5453",
+        "68f2179c-f60a-4481-8a19-cbd60768b5c6",
+        "9ee8135c-8ee2-48bf-834e-eddc8a5b1f6b",
+        "cfb19728-1ee5-423d-b801-af464df3ecfe",
+        "d12c6e21-5de7-4d28-990b-dcaabcb45853",
+        "118e57d7-487d-4411-9a07-b4997b477d9a",
+        "16f6d6cb-4c34-4305-9f59-91d147493294",
+        "97176540-bbfc-4f5a-afbb-c18da5f8eeb7",
+        "dd5f0eb2-cc02-4f85-9719-efa11b498f92",
+        "242c1dc7-9cf1-4de3-9198-ba0d2264ff34",
+        "b735cedf-b82c-4320-8579-cda1b42b3428",
+        "1b74376e-88d3-40d2-8bac-503fa422027a",
+        "dab66e80-207b-4b7f-be31-a51490530ba3",
+        "af7b724f-8a7d-4e5f-a88a-5bbfd078e837",
+        "a8cebbb9-eb92-4982-92e3-126dbe3546df",
+        "38dc4e33-7a7b-490f-abba-06a32abc963a",
+        "e9c40b99-9ea3-4790-adc5-7d0e1e70d765",
+        "971b3c5e-c000-49f8-9187-8a26740d75c3",
+        "9dd5e802-08e5-4740-8cb8-9852cf2d6501",
+        "7817e6ff-9886-4660-826d-0d56c56717c7",
+        "bcb769f2-13e7-418f-873a-5ed511f2e17a",
+        "46965563-f4a6-4fd6-ae2c-846614118c6c",
+        "632c9f15-7177-4cc4-b4a5-90d52210e2bd",
+        "dc0d7be2-a484-475f-b07b-190433ea82f4",
+        "ac8491cb-48e2-4768-a7fb-7ad7f0212ea6",
+        "768d5571-7e79-4887-8caf-9ec030b3bbff",
+        "6b54892f-8035-4686-a29b-4655c7c69ab1",
+        "a1662f34-91dc-4c4d-b581-48444589a7a3",
+        "fb3ebeb3-5ff2-4e2a-849e-275d6a652856",
+        "b242a7a9-7bb4-40ba-b971-bd423e2f605d",
+        "abb91038-37e5-45ac-ba36-a8164fbdef4c",
+        "7246473b-6fd4-4db3-8926-5d7cac0acb3d",
+        "ddcc7778-d2ba-45b6-9f28-a6384cb633d1",
+        "f8ccf38d-13c2-4a8c-ac51-923752e22b3f",
+        "57e9cefc-5dfa-40d9-8bc7-204c75bc0865",
+        "61d2388d-1d7b-46e1-a280-9499811a3077",
+        "df198226-8631-4f62-9828-2216f757277c",
+        "1fe140bd-c137-4ca5-ac75-792e30710cb5",
+        "232f0ad5-e914-41b0-8520-7868a7c3c0a1",
+        "df8dd66c-68ba-4249-89c2-fa688128f65e",
+        "62e51ce7-d3ba-4029-879d-793531d6b9f8",
+        "88b8651e-a334-4b19-bbb4-53097b68a031",
+        "8826d6a0-7362-4976-9ec5-b0bcba28de3d",
+        "90898fd1-cf32-4de2-b26f-28ddf9a1db32",
+        "19814966-b446-4ea1-b3d4-4a2d6eb05382",
+        "d3d347f2-bd75-40ee-8e96-270df5b88597",
+        "ce1bc2f8-32d3-4347-b937-764738fc4287"
+      ]
+    },
+    {
+      "uuid": "b2df7269-65e0-484b-941d-b10a9fe3f7c0",
+      "subTopics": [
+        "a2f2db9c-f0b6-411c-944e-3c3383159b72"
+      ],
+      "parentTopics": [
+        "99f417fa-37d7-4f3a-a092-c09033aef90f"
+      ],
+      "title": "Properties of Radicals",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    }
+  ]
 }

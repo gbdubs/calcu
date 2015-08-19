@@ -2,449 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "Solve Dirichlet\u0027s problem for a circular annulus. The domain \\( D\\, \\) is the space between two concentric circles, \\( C_{1} \\) being the innermost circle with radius \\( a \\) , and \\( C_{2} \\) being the outermost circle with radius \\( b \\) .\u0026nbsp; \\( \\Delta u\u003d\\nabla ^{2}u\u003d0\\, \\) in \\( D\\, \\) \n\u003cbr\u003e\n\u003cbr\u003e \\( u\u003dg\\, \\) on \\( C_{1}\\, \\) \n\u003cbr\u003e \\( u\u003df\\, \\) on \\( C_{2}\\, \\) \n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eFirst transform the Laplacian operator to polar coordinates, as explained in \u003ca rel\u003d\"nofollow\"\u003ethis problem\u003c/a\u003e.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow the DE is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {1}{r}}(ru_{r})_{r}+{\\frac {1}{r^{2}}}u_{{\\theta \\theta }}\u003d0,\\,\\,\\,a\u0026lt;r\u0026lt;b\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe BC\u0027s are\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(a,\\theta )\u003dg(\\theta ),\\,\\,\\,\\theta \\in \\Re \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(b,\\theta )\u003df(\\theta ),\\,\\,\\,\\theta \\in \\Re \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eAn auxiliary condition required from the nature of the problem and coordinate system is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(r,\\theta +2\\pi )\u003du(r,\\theta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSeparate variables and plug back into the original equation, separate variables and set each side equal to a negative (for convenience) constant lambda.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(r,\\theta )\u003dR(r)H(\\theta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {1}{r}}(rR\u0027(r))_{r}\\,H(\\theta )+{\\frac {R(r)}{r^{2}}}H\u0027\u0027(\\theta )\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {r}{R(r)}}(rR\u0027(r))_{r}+{\\frac {H\u0027\u0027(\\theta )}{H(\\theta )}}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {H\u0027\u0027(\\theta )}{H(\\theta )}}\u003d{\\frac {-r}{R(r)}}(rR\u0027(r))_{r}\u003d-\\lambda \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe first ODE is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( H\u0027\u0027+\\lambda H\u003d0\\, \\) with the auxiliary condition \\( H(\\theta +2\\pi )\u003dH(\\theta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( H(\\theta )\u003dA\\cos({\\sqrt {\\lambda }}\\theta )+B\\sin({\\sqrt {\\lambda }}\\theta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eIn order for \\( H(\\theta )\u003dH(\\theta +2\\pi )\\, \\) , the square root of lambda must be an integer value.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\sqrt {\\lambda _{n}}}\u003dn,\\,\\,\\,n\u003d0,1,2,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe second ODE is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {-r}{R(r)}}(rR\u0027(r))_{r}\u003d-\\lambda _{n}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIf \\( n\u003d0\\, \\) so that \\( \\lambda _{n}\u003d0\\, \\) , the solution is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( r(rR\u0027(r))\u0027\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( rR\u0027(r)\u003dc_{1}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( R\u0027(r)\u003d{\\frac {c_{1}}{r}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( R(r)-R(0)\u003dc_{1}\\log r+c_{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( R(r)\u003dc_{1}\\log r+c_{3},\\,\\,\\,c_{3}\u003dc_{2}+R(0)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIf \\( \\lambda \u0026gt;0\\, \\) , the solution is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {r}{R(r)}}(R\u0027(r)+rR\u0027\u0027(r))\u003d\\lambda _{n}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( rR\u0027(r)+r^{2}R\u0027\u0027(r)-\\lambda _{n}R(r)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis ODE is in Cauchy-Euler form, so guess the solution \\( R(r)\u003dr^{a}\\, \\) and plug it back in.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( rar^{{a-1}}+r^{2}a(a-1)r^{{a-2}}-\\lambda _{n}r^{a}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a+a^{2}-a\u003d\\lambda _{n}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a\u003d\\pm {\\sqrt {\\lambda _{n}}},\\,\\,\\,n\u003d1,2,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( R(r)\u003d{\\begin{cases}c_{1}\\log r+c_{3}\u0026amp;n\u003d0\\\\c_{{4,n}}r^{n}+c_{{5,n}}r^{{-n}}\u0026amp;n\u003d1,2,...\\,\\end{cases}} \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eThe solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(r,\\theta )\u003d{\\frac {1}{2}}(A_{0}+B_{0}\\log r)+\\sum _{{n\u003d1}}^{\\infty }\\left[(A_{n}r^{n}+B_{n}r^{{-n}})\\cos n\\theta +(C_{n}r^{n}+D_{n}r^{{-n}})\\sin n\\theta \\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe Fourier coefficients are given with the help of the boundary conditions.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(a,\\theta )\u003d{\\frac {1}{2}}(A_{0}+B_{0}\\log a)+\\sum _{{n\u003d1}}^{\\infty }\\left[(A_{n}a^{n}+B_{n}a^{{-n}})\\cos n\\theta +(C_{n}a^{n}+D_{n}a^{{-n}})\\sin n\\theta \\right]\u003dg(\\theta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(b,\\theta )\u003d{\\frac {1}{2}}(A_{0}+B_{0}\\log b)+\\sum _{{n\u003d1}}^{\\infty }\\left[(A_{n}b^{n}+B_{n}b^{{-n}})\\cos n\\theta +(C_{n}b^{n}+D_{n}b^{{-n}})\\sin n\\theta \\right]\u003df(\\theta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow you have this system of equations to solve to determine the coefficients:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{0}+B_{0}\\log a\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }g(\\theta )\\,d\\theta \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{0}+B_{0}\\log b\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }f(\\theta )\\,d\\theta \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{n}a^{n}+B_{n}a^{{-n}}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }g(\\theta )\\cos n\\theta \\,d\\theta \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{n}b^{n}+B_{n}b^{{-n}}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }f(\\theta )\\cos n\\theta \\,d\\theta \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( C_{n}a^{n}+D_{n}a^{{-n}}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }g(\\theta )\\sin n\\theta \\,d\\theta \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( C_{n}b^{n}+D_{n}b^{{-n}}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }f(\\theta )\\sin n\\theta \\,d\\theta \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "443fff5f-288e-48d2-88d1-30f15406811a",
+      "authorSolution": "circle, right circular cylinder",
+      "uuid": "4d2bba78-a5df-45d2-97d8-2edb4dd5a203",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167178,
+      "creatorUserId": "",
+      "createdAt": 1437419361988,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "br /\u0026gt;",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/443fff5f-288e-48d2-88d1-30f15406811a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE12",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
+      "body": " In  \\(\\R^2\\) ,  \\(x^2 + y^2 \u003d 25\\)  is the equation of a _________________.    In  \\(\\R^3\\) ,  \\(x^2 + y^2 \u003d 25\\)  is the equation of a _________________.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/4d2bba78-a5df-45d2-97d8-2edb4dd5a203",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the \u003ca rel\u003d\"nofollow\"\u003eFourier series\u003c/a\u003e for \\( |x|\\, \\) , \\( -\\pi \u0026lt;x\u0026lt;\\pi \\, \\) . \u003c/p\u003e\n\u003cp\u003eFollowing the rules from the link above, \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{n\u003d1}}^{\\infty }(a_{n}\\cos(nx)+b_{n}\\sin(nx))\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }|x|\\,dx\u003d{\\frac {2}{\\pi }}\\int _{0}^{\\pi }x\\,dx\u003d\\pi \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }|x|\\cos(nx)\\,dx\u003d{\\frac {2}{\\pi }}\\int _{0}^{\\pi }x\\cos(nx)\\,dx\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {2}{\\pi }}\\left(\\left[{\\frac {x\\sin(nx)}{n}}\\right]_{0}^{\\pi }-\\int _{0}^{\\pi }{\\frac {\\sin(nx)}{n}}\\,dx\\right)\u003d{\\frac {2}{\\pi }}\\left[{\\frac {\\cos(nx)}{n^{2}}}\\right]_{0}^{\\pi }\\, \\) \u003cbr\u003e\u003cbr\u003e \u003cbr\u003e \\( \u003d{\\frac {2(-1)^{n}}{\\pi n^{2}}}-{\\frac {2}{\\pi n^{2}}}\u003d{\\frac {2((-1)^{n}-1)}{\\pi n^{2}}}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }|x|\\sin(nx)\\,dx\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{{0}}-x\\sin(nx)\\,dx+{\\frac {1}{\\pi }}\\int _{{0}}^{{\\pi }}x\\sin(nx)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{\\pi }}\\left[\\left[{\\frac {x\\cos(nx)}{n}}\\right]_{{-\\pi }}^{0}-\\int _{{-\\pi }}^{0}{\\frac {\\cos(nx)}{n}}\\,dx\\right]+{\\frac {1}{n}}\\left[\\left[{\\frac {-x\\cos(nx)}{n}}\\right]_{0}^{\\pi }+\\int _{0}^{\\pi }{\\frac {\\cos(nx)}{n}}\\,dx\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{\\pi }}\\left[{\\frac {\\pi (-1)^{n}}{n}}-\\left[{\\frac {\\sin(nx)}{n^{2}}}\\right]_{{-\\pi }}^{0}\\right]+{\\frac {1}{\\pi }}\\left[{\\frac {-\\pi (-1)^{n}}{n}}+\\left[{\\frac {\\sin(nx)}{n^{2}}}\\right]_{0}^{\\pi }\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{\\pi }}{\\frac {\\pi (-1)^{n}}{n}}+{\\frac {1}{\\pi }}{\\frac {-\\pi (-1)^{n}}{n}}\u003d0\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( |x|\u003d{\\frac {\\pi }{2}}+{\\frac {2}{\\pi }}\\sum _{{n\u003d1}}^{\\infty }{\\frac {(-1)^{n}-1}{n^{2}}}\\cos(nx)\u003d{\\frac {\\pi }{2}}+{\\frac {2}{\\pi }}\\sum _{{n\u003d0}}^{\\infty }{\\frac {-2}{(2n+1)^{2}}}\\cos \\left((2n+1)x\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {\\pi }{2}}-{\\frac {4}{\\pi }}\\left(\\cos x+{\\frac {1}{9}}\\cos(3x)+{\\frac {1}{25}}\\cos(5x)+...\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "2c904343-d009-4e0d-b900-b8f28e495bee",
+      "authorSolution": " \\(\\dfrac97\\) ,  \\(\\dfrac{11}7\\) ",
+      "uuid": "408ed841-494f-467f-8842-d1b84ed52dac",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167193,
+      "creatorUserId": "",
+      "createdAt": 1437419361989,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/2c904343-d009-4e0d-b900-b8f28e495bee",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS1",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Vector And Metric Properties Of $\\r^n$ Practice",
+      "body": " Let  \\(\\vec{ }x \u003d (3,2)\\) ,  \\(\\vec{ }y \u003d (2,-1)\\)  and  \\(\\vec{ }z \u003d (7,1)\\)  be vectors in the plane.    We know that  \\(\\vec{ }z\\)  is a linear combination of  \\(\\vec{ }x\\)  and  \\(\\vec{ }y\\)  because  \\(\\vec{ }z \u003d \\alpha\\vec{ }x + \\beta\\vec{ }y\\)  where  \\(\\alpha\\) \u003d___ and  \\(\\beta\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/408ed841-494f-467f-8842-d1b84ed52dac",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the \u003ca href\u003d\"http://en.wikipedia.org/wiki/Fourier_series\" rel\u003d\"nofollow\"\u003eFourier series\u003c/a\u003e for \\( f(x)\u003d{\\begin{cases}0\u0026amp;-\\pi \u0026lt;x\u0026lt;0,\\\\1\u0026amp;0\u0026lt;x\u0026lt;\\pi \\end{cases}} \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{n\u003d1}}^{\\infty }(a_{n}\\cos(nx)+b_{n}\\sin(nx))\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{0}0dx+{\\frac {1}{\\pi }}\\int _{0}^{\\pi }1dx\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{0}0dx+{\\frac {1}{\\pi }}\\int _{0}^{\\pi }\\cos(nx)dx\u003d{\\frac {1}{\\pi }}\\left[{\\frac {\\sin(nx)}{n}}\\right]_{0}^{\\pi }\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003ca href\u003d\"http://www.amazon.com/gp/search?ie\u003dUTF8\u0026amp;keywords\u003dFourier%20Series\u0026amp;tag\u003dwwwtoddbsmitc-20\u0026amp;index\u003dbooks\u0026amp;linkCode\u003dur2\u0026amp;camp\u003d1789\u0026amp;creative\u003d9325\" rel\u003d\"nofollow\"\u003eFOURIER SERIES BOOKS\u003c/a\u003e \n\u003cp\u003e\u003cbr\u003e \\( b_{n}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{0}0dx+{\\frac {1}{\\pi }}\\int _{0}^{\\pi }\\sin(nx)dx\u003d\\left[{\\frac {-\\cos(nx)}{\\pi n}}\\right]_{0}^{\\pi }\u003d{\\frac {-(-1)^{n}}{\\pi n}}+{\\frac {1}{\\pi n}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {1}{2}}+\\sum _{{n\u003d0}}^{\\infty }{\\frac {2}{\\pi (2n+1)}}\\sin((2n+1)x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{2}}+{\\frac {2}{\\pi }}\\left(\\sin(x)+{\\frac {1}{3}}\\sin(3x)+{\\frac {1}{5}}\\sin(5x)+...\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "e75b15df-0203-4153-a48e-33ab5624f693",
+      "authorSolution": " \\(-\\dfrac52\\) ",
+      "uuid": "ec332f35-5824-4c87-bc66-9b221f4842e8",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167205,
+      "creatorUserId": "",
+      "createdAt": 1437419361989,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( f(x)\u003d{\\begin{cases}0\u0026amp;-\\pi \u0026lt;x\u0026lt;0,\\\\1\u0026amp;0\u0026lt;x\u0026lt;\\pi \\end{cases}} \\)",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/e75b15df-0203-4153-a48e-33ab5624f693",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS2",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Vector And Metric Properties Of $\\r^n$",
+      "body": " Let  \\(\\vec{ }x \u003d (1,0,1)\\) ,  \\(\\vec{ }y \u003d (0,1,1)\\) , and  \\(\\vec{ }z \u003d (1,2,3)\\) .   The only number  \\(\\alpha\\)  such that  \\(\\alpha\\vec{ }x + 2\\vec{ }y\\)  is perpendicular to  \\(\\vec{ }z\\)  is  \\(\\alpha\\)  \u003d _____.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/ec332f35-5824-4c87-bc66-9b221f4842e8",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for \\( f(x)\u003d1+x\\, \\) on \\( [-\\pi ,\\pi ]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe general Fourier series on \\( [-L,L]\\, \\) is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{k\u003d1}}^{\\infty }a_{k}\\,\\cos({\\frac {k\\pi x}{L}})+b_{k}\\,\\sin({\\frac {k\\pi x}{L}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {1}{L}}\\int _{{-L}}^{L}f(x)\\cos({\\frac {n\\pi x}{L}})\\,dx,\\,\\,\\,n\u003d0,1,2,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {1}{L}}\\int _{{-L}}^{L}f(x)\\sin({\\frac {n\\pi x}{L}})\\,dx,\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe \\( n\u003d0 \\) case is not needed since the integrand in the formula for \\( b_{0}\\, \\) is \\( \\sin(0)\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIn the present problem, \\( a_{n}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }(1+x)\\cos({\\frac {n\\pi x}{\\pi }})\\,dx\u003d{\\frac {1}{\\pi }}\\left(\\left[{\\frac {(1+x)\\sin(nx)}{n}}\\right]_{{-\\pi }}^{\\pi }-\\int _{{-\\pi }}^{\\pi }{\\frac {(1+x)\\cos(nx)}{n^{2}}}\\,dx\\right)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eBut since the right hand side is not defined if \\( n\u003d0 \\) , the \\( 0 \\) index for \\( a \\) will have to be calculated seperately.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }(1+x)\\,dx\u003d{\\frac {1}{\\pi }}\\left[x+{\\frac {1}{2}}x^{2}\\right]_{{-\\pi }}^{\\pi }\u003d2,\\,\\,\\,\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }(1+x)\\sin(nx)\\,dx\u003d{\\frac {1}{\\pi }}\\left(-\\,{\\frac {1}{n}}\\left[(1+x)\\cos(nx)\\right]_{{-\\pi }}^{\\pi }+\\int _{{-\\pi }}^{\\pi }{\\frac {\\cos(nx)}{n}}\\,dx\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{\\pi }}\\left(-\\,{\\frac {1}{n}}(1+\\pi -1+\\pi )\\cos(nx)+\\left[{\\frac {\\sin(nx)}{n^{2}}}\\right]_{{-\\pi }}^{\\pi }\\right)\u003d{\\frac {2(-1)^{{n+1}}}{n}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the Fourier series is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d1+x\\sim 1+\\sum _{{n\u003d1}}^{\\infty }{\\frac {2(-1)^{{n+1}}}{n}}\\sin(nx)\\, \\) for \\( [-\\pi ,\\pi ]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "e8613842-be91-4d02-ba9e-908608885cc6",
+      "authorSolution": " \\(\\dfrac12\\) ,  \\(1\\) ",
+      "uuid": "b1337add-3a4e-478b-9f52-9ee3ea775ce4",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167218,
+      "creatorUserId": "",
+      "createdAt": 1437419361989,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( 1+x\\, \\) on \\( [-\\pi ,\\pi ]\\, \\)",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/e8613842-be91-4d02-ba9e-908608885cc6",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS3",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Vector And Metric Properties Of $\\r^n$",
+      "body": " Find all numbers  \\(\\alpha\\)  such that the vectors  \\(2\\alpha \\vec{ }i - 2 \\vec{ }j - \\vec{ }k\\)  and  \\(2\\alpha\\vec{ }i + 3\\alpha\\vec{ }j - 2\\vec{ }k\\)  are perpendicular.   Answer:  \\(\\alpha\\)  \u003d ____ and ___.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/b1337add-3a4e-478b-9f52-9ee3ea775ce4",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for \\( f(x)\u003d{\\begin{cases}1\u0026amp;-1\\leq x\u0026lt;0\\\\{\\frac {1}{2}}\u0026amp;x\u003d0\\\\x\u0026amp;0\u0026lt;x\\leq 1\\end{cases}} \\) on \\( [-1,1]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe general Fourier series on \\( [-L,L]\\, \\) is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{k\u003d1}}^{\\infty }a_{k}\\,\\cos({\\frac {k\\pi x}{L}})+b_{k}\\,\\sin({\\frac {k\\pi x}{L}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {1}{L}}\\int _{{-L}}^{L}f(x)\\cos({\\frac {n\\pi x}{L}})\\,dx,\\,\\,\\,n\u003d0,1,2,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {1}{L}}\\int _{{-L}}^{L}f(x)\\sin({\\frac {n\\pi x}{L}})\\,dx,\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIn the present problem,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( a_{n}\u003d\\int _{{-1}}^{1}f(x)\\cos(n\\pi x)\\,dx\u003d\\int _{{-1}}^{0}f(x)\\cos(n\\pi x)\\,dx+\\int _{0}^{1}f(x)\\cos(n\\pi x)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e \\( \u003d\\int _{{-1}}^{0}\\cos(n\\pi x)\\,dx+\\int _{0}^{1}x\\cos(n\\pi x)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\left[{\\frac {\\sin(n\\pi x)}{n\\pi }}\\right]_{{-1}}^{0}+\\left[{\\frac {x\\sin(n\\pi x)}{n\\pi }}+{\\frac {\\cos(n\\pi x)}{n^{2}\\pi ^{2}}}\\right]_{0}^{1}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {\\cos(n\\pi )-1}{n^{2}\\pi ^{2}}}\u003d{\\frac {(-1)^{n}-1}{n^{2}\\pi ^{2}}}\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( a_{0}\u003d\\int _{{-1}}^{1}f(x)\\,dx\u003d\\int _{{-1}}^{0}f(x)\\,dx+\\int _{0}^{1}f(x)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e \\( \u003d\\int _{{-1}}^{0}\\,dx+\\int _{0}^{1}x\\,dx\u003d{\\frac {3}{2}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( b_{n}\u003d\\int _{{-1}}^{1}f(x)\\sin(n\\pi x)\\,dx\u003d\\int _{{-1}}^{0}f(x)\\sin(n\\pi x)\\,dx+\\int _{0}^{1}f(x)\\sin(n\\pi x)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e \\( \u003d\\int _{{-1}}^{0}\\sin(n\\pi x)\\,dx+\\int _{0}^{1}x\\,\\sin(n\\pi x)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\left[-\\,{\\frac {\\cos(n\\pi x)}{n\\pi }}\\right]_{{-1}}^{0}+\\left[-\\,{\\frac {x\\,\\cos(n\\pi x)}{n\\pi }}+{\\frac {\\sin(n\\pi x)}{n^{2}\\pi ^{2}}}\\right]_{0}^{1}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d-\\,{\\frac {1}{n\\pi }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the Fourier series is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {3}{4}}+\\sum _{{n\u003d1}}^{\\infty }{\\frac {(-1)^{n}-1}{n^{2}\\pi ^{2}}}\\cos(n\\pi x)-{\\frac {1}{n\\pi }}\\sin(n\\pi x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSetting \\( x\u003d0 \\) gives \\( {\\frac {\\pi ^{2}}{8}}\u003d1+{\\frac {1}{3^{2}}}+{\\frac {1}{5^{2}}}+{\\frac {1}{7^{2}}}+...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "d551d646-9dd7-4e7f-93f7-a0ee95e65987",
+      "authorSolution": " \\(\\dfrac34\\) ",
+      "uuid": "6cc09b3d-bb46-44c5-8777-0072de8a4f64",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167233,
+      "creatorUserId": "",
+      "createdAt": 1437419361989,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( f(x)\u003d{\\begin{cases}1\u0026amp;-1\\leq x\u0026lt;0\\\\{\\frac {1}{2}}\u0026amp;x\u003d0\\\\x\u0026amp;0\u0026lt;x\\leq 1\\end{cases}} \\) on \\( [-1,1]\\, \\)",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/d551d646-9dd7-4e7f-93f7-a0ee95e65987",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS4",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Vector And Metric Properties Of $\\r^n$",
+      "body": " The angle in  \\(\\R^3\\)  between the vectors  \\((-3,1,2)\\)  and  \\((1,2,-3)\\)  is  \\(a\\pi\\)  where  \\(a\\) \u003d_____.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/6cc09b3d-bb46-44c5-8777-0072de8a4f64",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for \\( f(x)\u003d{\\begin{cases}-1\u0026amp;-3\\leq x\u0026lt;0\\\\1\u0026amp;0\u0026lt;x\\leq 3\\end{cases}} \\) on \\( [-3,3]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{k}\u003d{\\frac {1}{3}}\\int _{{-3}}^{3}f(x)\\cos({\\frac {k\\pi x}{3}})\\,dx\u003d{\\frac {1}{3}}\\int _{{-3}}^{0}-\\cos({\\frac {k\\pi x}{3}})\\,dx+{\\frac {1}{3}}\\int _{0}^{3}\\cos({\\frac {k\\pi x}{3}})\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{k\\pi }}\\left[\\sin({\\frac {k\\pi x}{3}})\\right]_{{-3}}^{0}-{\\frac {1}{k\\pi }}\\left[\\sin({\\frac {k\\pi x}{3}})\\right]_{0}^{3}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d{\\frac {1}{3}}\\int _{{-3}}^{0}-\\,dx+{\\frac {1}{3}}\\int _{0}^{3}\\,dx\u003d-1+1\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{k}\u003d{\\frac {1}{3}}\\int _{{-3}}^{3}f(x)\\sin({\\frac {k\\pi x}{3}})\\,dx\u003d{\\frac {1}{3}}\\int _{{-3}}^{0}-\\sin({\\frac {k\\pi x}{3}})\\,dx+{\\frac {1}{3}}\\int _{0}^{3}\\sin({\\frac {k\\pi x}{3}})\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{k\\pi }}\\left[\\cos({\\frac {k\\pi x}{3}})\\right]_{{-3}}^{0}-{\\frac {1}{k\\pi }}\\left[\\cos({\\frac {k\\pi x}{3}})\\right]_{0}^{3}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{k\\pi }}-{\\frac {(-1)^{k}}{k\\pi }}-{\\frac {(-1)^{k}}{k\\pi }}+{\\frac {1}{k\\pi }}\u003d{\\frac {2-2(-1)^{k}}{k\\pi }}\\,\\,\\,k\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {4}{(2k+1)\\pi }},\\,\\,\\,k\u003d0,1,2,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the Fourier series is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d\\sum _{{k\u003d0}}^{\\infty }{\\frac {4}{(2k+1)\\pi }}\\sin \\left({\\frac {(2k+1)\\pi x}{3}}\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "fde674fd-1f51-4240-8ad1-037906c293c7",
+      "authorSolution": " \\(-2\\) ,  \\(3\\) ",
+      "uuid": "e7f70d43-ffe7-4abb-9a17-264a471d18e3",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167244,
+      "creatorUserId": "",
+      "createdAt": 1437419361990,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( f(x)\u003d{\\begin{cases}-1\u0026amp;-3\\leq x\u0026lt;0\\\\1\u0026amp;0\u0026lt;x\\leq 3\\end{cases}} \\) on \\( [-3,3]\\, \\)",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/fde674fd-1f51-4240-8ad1-037906c293c7",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
+      "body": " Let  \\(\\vec{ }x \u003d (1,1,-1)\\)  and  \\(\\vec{ }y \u003d (2,0,3)\\)  .   Find a scalar  \\(\\alpha\\)  such that  \\(\\vec{ }x + \\alpha \\vec{ }y \\perp \\vec{ }x\\)  .   \\\\ Answer:  \\(\\alpha\\)  \u003d ___.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/e7f70d43-ffe7-4abb-9a17-264a471d18e3",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for \\( f(x)\u003dx^{2}\\, \\) on \\( [-\\pi ,\\pi ]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe general Fourier series on \\( [-L,L]\\, \\) is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{k\u003d1}}^{\\infty }a_{k}\\,\\cos({\\frac {k\\pi x}{L}})+b_{k}\\,\\sin({\\frac {k\\pi x}{L}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {1}{L}}\\int _{{-L}}^{L}f(x)\\cos({\\frac {n\\pi x}{L}})\\,dx,\\,\\,\\,n\u003d0,1,2,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {1}{L}}\\int _{{-L}}^{L}f(x)\\sin({\\frac {n\\pi x}{L}})\\,dx,\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIn the present problem, \\( L\u003d\\pi \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{k}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }x^{2}\\cos(kx)\\,dx\u003d{\\frac {4(-1)^{k}}{k^{2}}}\\,\\,\\,k\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }x^{2}\\,dx\u003d{\\frac {1}{3\\pi }}[x^{3}]_{{-\\pi }}^{\\pi }\u003d{\\frac {2\\pi ^{2}}{3}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{k}\u003d{\\frac {1}{\\pi }}\\int _{{-\\pi }}^{\\pi }x^{2}\\sin(kx)\\,dx\u003d0\\,\\,\\,k\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the Fourier series is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( x^{2}\u003d{\\frac {\\pi ^{2}}{3}}+\\sum _{{k\u003d1}}^{\\infty }{\\frac {4(-1)^{k}}{k^{2}}}\\cos(kx)\\, \\) on \\( [-\\pi ,\\pi ]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "1cd6e412-1af1-401f-88e7-ddbf9299d44a",
+      "authorSolution": " \\(-\\dfrac13\\) ",
+      "uuid": "f76744d1-a99b-4a73-9ad4-ee556ace5746",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167256,
+      "creatorUserId": "",
+      "createdAt": 1437419361990,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( x^{2}\\, \\) on \\( [-\\pi ,\\pi ]\\, \\)",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/1cd6e412-1af1-401f-88e7-ddbf9299d44a",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS6",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
+      "body": " Suppose that the hydrogen atoms of a methane molecule  \\(\\mathrm{CH}_4\\)  are located at  \\((0,0,0)\\) ,  \\((1,1,0)\\) ,  \\((0,1,1)\\) , and  \\((1,0,1)\\)  while the carbon atom is at  \\((\\frac12,\\frac12,\\frac12)\\) .    Find the cosine of the angle  \\(\\theta\\)  between two rays starting at the carbon atom and going to different hydrogen atoms.    Answer:  \\(\\cos \\theta\\)  \u003d ___ .",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/f76744d1-a99b-4a73-9ad4-ee556ace5746",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for a function \\( f(x)\u003df(x+2),f(x)\u003d(x-1)(x-3)\\, \\) on \\( [1,3]\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eMake the change of variables \\( z\u003dx-2\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow, look for the Fourier series of the function \\( f(z+2)\u003df(z+4),f(z+2)\u003d(z+1)(z-1)\\, \\) on \\( -1\\leq z\\leq 1\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(z)\u003d{\\frac {a_{0}}{2}}+\\sum _{{k\u003d1}}^{\\infty }a_{k}\\cos(k\\pi x)+b_{k}\\sin(k\\pi x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{k}\u003d\\int _{{-1}}^{1}(z+1)(z-1)\\cos(k\\pi (z+2))\\,dz\u003d{\\frac {4(-1)^{k}}{k^{2}\\pi ^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d\\int _{{-1}}^{1}(z+1)(z-1)dz\u003d{\\frac {-4}{3}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{k}\u003d\\int _{{-1}}^{1}(z+1)(z-1)\\sin(k\\pi (z+2))\\,dz\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSince \\( f(z)\u003df(x-2)\u003df(x)\\, \\) ,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {-2}{3}}+\\sum _{{k\u003d1}}^{\\infty }{\\frac {4(-1)^{k}}{k^{2}\\pi ^{2}}}\\cos(k\\pi x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "8ebcbd35-bec1-40b0-9505-921ffae961f5",
+      "authorSolution": " \\(5\\) ",
+      "uuid": "a441fe8d-6b01-4077-8e38-5b6e98fcd80c",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167266,
+      "creatorUserId": "",
+      "createdAt": 1437419361990,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for a function \\( f(x)\u003df(x+2),f(x)\u003d(x-1)(x-3)\\, \\) on \\( [1,3]\\, \\) .",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/8ebcbd35-bec1-40b0-9505-921ffae961f5",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS7",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Vector And Metric Properties Of $\\r^n$ Practice",
+      "body": " The length of the vector  \\((2,-2,0,3,-2,2)\\)  in  \\(\\R^6\\)  is _____.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/a441fe8d-6b01-4077-8e38-5b6e98fcd80c",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for \\( f(x)\u003dx\\, \\) on \\( [0,1]\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eA general formula for the Fourier series of a function on an interval \\( [c,c+T]\\, \\) is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{n\u003d1}}^{\\infty }a_{n}\\cos \\left({\\frac {2n\\pi x}{T}}\\right)+b_{n}\\sin \\left({\\frac {2n\\pi x}{T}}\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {2}{T}}\\int _{c}^{{c+T}}f(x)\\cos \\left({\\frac {2n\\pi x}{T}}\\right)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {2}{T}}\\int _{c}^{{c+T}}f(x)\\sin \\left({\\frac {2n\\pi x}{T}}\\right)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIn the current problem, \\( c\u003d0\\, \\) and \\( T\u003d1\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {a_{0}}{2}}+\\sum _{{n\u003d1}}^{\\infty }a_{n}\\cos 2n\\pi x+b_{n}\\sin 2n\\pi x\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe function \\( f(x)\u003dx\\, \\) is odd, so the cosine coefficients will all equal zero. Nevertheless, \\( a_{0}\\, \\) should still be calculated separately.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d2\\int _{0}^{1}x\\,dx\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d2\\int _{0}^{1}x\\sin(2n\\pi x)\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d2\\left(\\left[{\\frac {-x\\cos 2n\\pi x}{2n\\pi }}\\right]_{0}^{1}+\\int _{0}^{1}{\\frac {\\cos 2n\\pi x}{2n\\pi }}\\,dx\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {-1}{n\\pi }}+\\left[{\\frac {\\sin 2n\\pi x}{(2n\\pi )^{2}}}\\right]_{0}^{1}\u003d{\\frac {-1}{n\\pi }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the Fourier series for \\( f(x)\\, \\) is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {1}{2}}-\\sum _{{n\u003d1}}^{\\infty }{\\frac {\\sin 2n\\pi x}{n\\pi }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "f7b77b83-f8c7-4570-82a1-cc034dc4052b",
+      "authorSolution": " \\(a\\) ,  \\(b\\) ,  \\(c\\) ,  \\(d\\) ,  \\(e\\) ,  \\(f\\) ",
+      "uuid": "e9c5d9d8-8a11-4caf-b8c6-74fd3e3e0ece",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167278,
+      "creatorUserId": "",
+      "createdAt": 1437419361991,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( f(x)\u003dx\\, \\) on \\( [0,1]\\, \\) .",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/f7b77b83-f8c7-4570-82a1-cc034dc4052b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS8",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
+      "body": " If  \\(a\\) ,  \\(b\\) ,  \\(c\\) ,  \\(d\\) ,  \\(e\\) ,  \\(f \\in \\R\\) , then          \\[ \\abs{ad + be + cf} \\le \\sqrt{a^2 + b^2 + c^2}\\sqrt{d^2 + e^2 + f^2}.   \\] The proof of this inequality is obvious since this is just the \u003ci\u003eSchwarz inequality\u003c/i\u003e where \\\\  \\(\\vec{ }x\\)  \u003d ( __ , __ , __ ) and  \\(\\vec{ }y\\)  \u003d ( __ , __ , __).",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/e9c5d9d8-8a11-4caf-b8c6-74fd3e3e0ece",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003eFind the Fourier series for \\( f(t)\u003d{\\begin{cases}{\\frac {4}{\\pi }}t\u0026amp;0\\leq t\u0026lt;{\\frac {\\pi }{2}},\\\\{\\frac {-4}{\\pi }}t\u0026amp;{\\frac {-\\pi }{2}}\\leq t\\leq 0\\end{cases}} \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis is the general Fourier Series:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{a_{0} \\over 2}+\\sum _{{n\u003d1}}^{\\infty }\\left[a_{n}\\cos({2n\\pi x \\over T})+b_{n}\\sin({2n\\pi x \\over T})\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \\( a_{n}\u003d{2 \\over T}\\int _{c}^{{c+T}}f(x)\\cos({2n\\pi x \\over T})\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \\( b_{n}\u003d{2 \\over T}\\int _{c}^{{c+T}}f(x)\\sin({2n\\pi x \\over T})\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the given function can be replaced by its Fourier expansion: \u003c/p\u003e\n\u003cp\u003e \\( f(t)\u003d{a_{0} \\over 2}+\\sum _{{n\u003d1}}^{\\infty }\\left[a_{n}\\cos \\left({\\frac {2n\\pi x}{\\pi }}\\right)+b_{n}\\sin \\left({\\frac {2n\\pi x}{\\pi }}\\right)\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{0}\u003d{2 \\over \\pi }\\int _{{{\\frac {-\\pi }{2}}}}^{0}{\\frac {-4}{\\pi }}t\\,dt+{2 \\over \\pi }\\int _{0}^{{\\frac {\\pi }{2}}}{\\frac {4}{\\pi }}t\\,dt\u003d2\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a_{n}\u003d{\\frac {2}{\\pi }}\\int _{{-\\pi \\over 2}}^{0}{\\frac {-4}{\\pi }}t\\cos(2nt)\\,dt+{\\frac {2}{\\pi }}\\int _{0}^{{\\frac {\\pi }{2}}}{\\frac {4}{\\pi }}t\\cos(2nt)\\,dt\u003d{\\frac {4((-1)^{n}-1)}{\\pi ^{2}n^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( b_{n}\u003d{\\frac {2}{\\pi }}\\int _{{{\\frac {-\\pi }{2}}}}^{0}{\\frac {-4}{\\pi }}t\\sin(2nt)\\,dt+{\\frac {2}{\\pi }}\\int _{0}^{{{\\frac {\\pi }{2}}}}{\\frac {4}{\\pi }}t\\sin(2nt)\\,dt\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the solution is \u003c/p\u003e\n\u003cp\u003e \\( f(t)\u003d1+\\sum _{{n\u003d1}}^{\\infty }\\left[{\\frac {4}{n^{2}\\pi ^{2}}}((-1)^{n}-1)\\cos(2nt)\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d1+\\sum _{{n\u003d1}}^{\\infty }\\left[{\\frac {-4\\cdot 2}{(2n-1)^{2}\\pi ^{2}}}\\cos(2(2n-1)t)\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d1-{\\frac {8}{\\pi ^{2}}}\\sum _{{n\u003d1}}^{\\infty }{\\frac {\\cos \\left[2(2n-1)t\\right]}{(2n-1)^{2}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eFourier Series\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "7250d7f5-e7ca-4d9b-99b6-57156ae337dd",
+      "authorSolution": " \\(12\\) ",
+      "uuid": "8b85fd89-ac0d-450a-b735-13bfe059921d",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167290,
+      "creatorUserId": "",
+      "createdAt": 1437419361991,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "Fourier Series Practice",
-      "body": "Find the Fourier series for \\( f(t)\u003d{\\begin{cases}{\\frac {4}{\\pi }}t\u0026amp;0\\leq t\u0026lt;{\\frac {\\pi }{2}},\\\\{\\frac {-4}{\\pi }}t\u0026amp;{\\frac {-\\pi }{2}}\\leq t\\leq 0\\end{cases}} \\)",
-      "tags": "Fourier Series,Fourier,Series,auto-uploaded",
-      "url": "/practice-problem/7250d7f5-e7ca-4d9b-99b6-57156ae337dd",
-      "source": "http://www.exampleproblems.com/wiki/index.php/FS9",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eLet the temperature \\( u\\, \\) inside a solid sphere be a function only of radial distance \\( r\\, \\) from the center and time \\( t\\, \\) . Show that the equation for heat diffusion is now \\( u_{t}\u003d\\nu (u_{{rr}}+{\\frac {2}{r}}u_{r})\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003esolution:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSince the heat phenomenon is isotropic with respect to the center of the sphere, we can measure the temperature and examine the flux in a certain region from \\( r\u003da\\, \\) to \\( r\u003db\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe surface area of a sphere is \\( 4\\pi r^{2}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int _{a}^{b}u(r,t)4\\pi r^{2}\\,dr\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe temperature flux in this region is the derivative with respect to time of the last integral and is also given by this right hand side for some function describing flux \\( \\phi \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {d}{dt}}\\int _{a}^{b}u(r,t)4\\pi r^{2}\\,dr\u003d4\\pi a^{2}\\phi (a,t)-4\\pi b^{2}\\phi (b,t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe time derivative can come into the integral since it is independent of the integration variable and the limits of the integral.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {d}{dt}}\\int _{a}^{b}u(r,t)4\\pi r^{2}\\,dr\u003d\\int _{a}^{b}{\\frac {\\partial u}{\\partial t}}4\\pi r^{2}\\,dr\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThese equations should be rewritten:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int _{a}^{b}{\\frac {\\partial u}{\\partial t}}4\\pi r^{2}\\,dr\u003d4\\pi (a^{2}\\phi (a,t)-b^{2}\\phi (b,t))\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eWorking backwords towards an integral, the right hand side of the last equation is equivalent to this new right hand side.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int _{a}^{b}u_{t}4\\pi r^{2}\\,dr\u003d-4\\pi r^{2}\\phi (r,t){\\bigg |}_{a}^{b}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis is the value of a particular integral and so this equation is valid:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int _{a}^{b}u_{t}4\\pi r^{2}\\,dr+4\\pi \\int _{a}^{b}(r^{2}\\phi _{r}+2\\phi r)\\,dr\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( 4\\pi \\int _{a}^{b}u_{t}r^{2}+r^{2}\\phi _{r}+2\\phi r\\,dr\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eChange of variables: \\( \\phi \u003d-\\nu u_{r}\\implies \\phi _{r}\u003d-\\nu u_{{rr}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( 4\\pi \\int _{a}^{b}u_{t}r^{2}-r^{2}\\nu u_{{rr}}-2\\nu ru_{{r}}\\,dr\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis implies\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{t}r^{2}-r^{2}\\nu u_{{rr}}-2\\nu ru_{r}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{t}-\\nu u_{{rr}}-{\\frac {2\\nu }{r}}u_{r}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{t}\u003d\\nu \\left(u_{{rr}}+{\\frac {2}{r}}u_{r}\\right)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "72c88104-a3d4-4729-ac88-1c3b79000dbb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167306,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Mathematical Modeling Practice",
-      "body": "Let the temperature \\( u\\, \\) inside a solid",
-      "tags": "PDE Mathematical Modeling,PDE,Mathematical,Modeling,Mathematical Modeling,Mathematical,Modeling,auto-uploaded",
-      "url": "/practice-problem/72c88104-a3d4-4729-ac88-1c3b79000dbb",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDEMM1",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eA ball is thrown straight up from the ground. How high will it go?\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe height of the ball at time \\( t\\, \\) is \\( x(t)\\, \\) , and the force acting on the ball is \\( -mg\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNewton\u0027s second law gives the relation\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( m{\\frac {d^{2}x}{dt^{2}}}+mg\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( m\u003d1\\, \\) for convenience.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {d^{2}x}{dt^{2}}}+g\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntegrate the last equation.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {dx(t)}{dt}}+gt+C\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eTo get \\( C\\, \\) , start with an initial velocity \\( v_{0}\\, \\) and set \\( t\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{0}+C\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo now,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {dx}{dt}}+gt-v_{0}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntegrate again.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( x(t)+{\\frac {1}{2}}gt^{2}-v_{0}t+D\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSince we have set \\( x(0)\u003d0\\, \\) , \\( D\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe equation of position is \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( x(t)\u003d-{\\frac {1}{2}}gt^{2}+v_{0}t\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eTo find the maximum, set the first derivative equal to 0.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( -gt+v_{0}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( t_{{max}}\u003d{\\frac {v_{0}}{g}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eCheck that the second derivative at this point is negative.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( x\u0027\u0027\\left({\\frac {v_{0}}{g}}\\right)\u003d-g\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the answer is this point \\( t_{{max}}\\, \\) evaluated in the position function.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( x_{{max}}\u003dx\\left({\\frac {v_{0}}{g}}\\right)\u003d{\\frac {v_{0}^{2}}{2g}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003ca rel\u003d\"nofollow\"\u003eOrdinary Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003ca rel\u003d\"nofollow\"\u003eCalculus\u003c/a\u003e \u003c/p\u003e",
-      "uuid": "b3be1d0b-ae02-46f2-8662-edb084ad732b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167331,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Mathematical Modeling Practice",
-      "body": "A ball is thrown straight up from the ground. How high will it go?",
-      "tags": "PDE Mathematical Modeling,PDE,Mathematical,Modeling,Mathematical Modeling,Mathematical,Modeling,auto-uploaded",
-      "url": "/practice-problem/b3be1d0b-ae02-46f2-8662-edb084ad732b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/ODE4.4",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003e \\( \\int _{0}^{\\infty }x^{3}e^{{-x}}\\,dx\u003d\\Gamma (4)\u003d3!\u003d6\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eSpecial Functions\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "6e0f14a6-e4c6-4b0e-9c86-b58ce5c29888",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167341,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Special Functions Practice",
-      "body": "Evaluate \\( \\int _{0}^{\\infty }x^{3}e^{{-x}}dx\\, \\)",
-      "tags": "Special Functions,Special,Functions,auto-uploaded",
-      "url": "/practice-problem/6e0f14a6-e4c6-4b0e-9c86-b58ce5c29888",
-      "source": "http://www.exampleproblems.com/wiki/index.php/SF1",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003e \\( \\int _{0}^{\\infty }x^{6}e^{{-2x}}dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( y\u003d2x,dx\u003ddy/2\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int _{0}^{\\infty }\\left({\\frac {y}{2}}\\right)^{6}e^{{-y}}{\\frac {dy}{2}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {1}{2^{7}}}\\int _{0}^{\\infty }y^{6}e^{{-y}}dy\u003d{\\frac {\\Gamma (7)}{2^{7}}}\u003d{\\frac {6!}{2^{7}}}\u003d{\\frac {720}{128}}\u003d{\\frac {45}{8}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eSpecial Functions\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "3b5de2a2-68ea-4918-99aa-926a9c8443b2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167350,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Special Functions Practice",
-      "body": "Evaluate \\( \\int _{0}^{\\infty }x^{6}e^{{-2x}}dx\\, \\)",
-      "tags": "Special Functions,Special,Functions,auto-uploaded",
-      "url": "/practice-problem/3b5de2a2-68ea-4918-99aa-926a9c8443b2",
-      "source": "http://www.exampleproblems.com/wiki/index.php/SF2",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eShow that \\( \\Gamma (n+1)\u003dn\\Gamma (n),n\u0026gt;0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\Gamma (n+1)\u003d\\int _{0}^{\\infty }x^{n}e^{{-x}}dx\u003d\\lim _{{M\\to \\infty }}\\int _{0}^{M}x^{n}e^{{-x}}dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\lim _{{M\\to \\infty }}\\left[\\left[x^{n}(-e^{{-x}})\\right]_{{x\u003d0}}^{M}-\\int _{0}^{M}(-e^{{-x}}(nx^{{n-1}})dx\\right] \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d\\lim _{{M\\to \\infty }}\\left[-M^{n}e^{{-M}}+n\\int _{0}^{M}x^{{n-1}}e^{{-x}}dx\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003dn\\int _{0}^{\\infty }x^{{n-1}}e^{{-x}}dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003dn\\Gamma (n)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003eSpecial Functions\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "e53feabc-cf08-46fa-b201-c1ab9efbbc77",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167359,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "Special Functions Practice",
-      "body": "Show that \\( \\Gamma (n+1)\u003dn\\Gamma (n),n\u0026gt;0\\, \\)",
-      "tags": "Special Functions,Special,Functions,auto-uploaded",
-      "url": "/practice-problem/e53feabc-cf08-46fa-b201-c1ab9efbbc77",
-      "source": "http://www.exampleproblems.com/wiki/index.php/SF3",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "On Vector And Metric Properties Of $\\r^n$",
+      "body": " The volume of the parallelepiped generated by the three vectors  \\(\\vec{ }i  +  2\\vec{ }j  -  \\vec{ }k\\) ,   \\(\\vec{ }j  +  \\vec{ }k\\) , and  \\(3\\vec{ }i - \\vec{ }j + 2\\vec{ }k\\)  is\\underbar{\\hphantom{0000}}.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/8b85fd89-ac0d-450a-b735-13bfe059921d",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     }
   ],
   "questions": [
-    {
-      "uuid": "da13b1b9-bf18-456a-bdb3-c5fb840196ee",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logarithmic Differentiation",
-      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)x\\(^{(e^{x})}\\)",
-      "allAnswers": [],
-      "tags": "logarithmic differentiation",
-      "url": "/question/da13b1b9-bf18-456a-bdb3-c5fb840196ee",
-      "source": "Mooculus 6.3.6",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
-    },
-    {
-      "uuid": "1b6c7348-a2a6-4a4d-b7f3-3e7d838cdfba",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logarithmic Differentiation",
-      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)x\\(^{\\pi}\\)+\\(\\pi^{x}\\)",
-      "allAnswers": [],
-      "tags": "logarithmic differentiation",
-      "url": "/question/1b6c7348-a2a6-4a4d-b7f3-3e7d838cdfba",
-      "source": "Mooculus 6.3.7",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
-    },
-    {
-      "uuid": "a8a0090c-d11d-491d-8525-2964bd426c19",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Linear Approximation Practice",
-      "body": "Use a linear approximation of \\(f(x) \u003d\\sin(x/2)\\) at \\(x\u003d0\\) to approximate\n\\(f(0.1)\\).",
-      "allAnswers": [],
-      "tags": "linear, approximation, differentials, differentiation, functions",
-      "url": "/question/a8a0090c-d11d-491d-8525-2964bd426c19",
-      "source": "Mooculus 10.1.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
-    },
-    {
-      "uuid": "ef904ea6-2e74-4283-bf51-d959f6a1f828",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logarithmic Differentiation",
-      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)(1+\\(\\frac{1}{x}\\))\\(^{x}\\)",
-      "allAnswers": [],
-      "tags": "logarithmic differentiation ",
-      "url": "/question/ef904ea6-2e74-4283-bf51-d959f6a1f828",
-      "source": "Mooculus 6.3.8",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
-    },
-    {
-      "uuid": "da9f6969-db64-4826-b7d0-ce0f3da6a5f4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Linear Approximation Practice",
-      "body": "Use a linear approximation of \\(f(x) \u003d\\sqrt[3]{x}\\) at \\(x\u003d8\\) to approximate\n\\(f(10)\\).",
-      "allAnswers": [],
-      "tags": "linear, approximation, differentials, differentiation, functions",
-      "url": "/question/da9f6969-db64-4826-b7d0-ce0f3da6a5f4",
-      "source": "Mooculus 10.1.2",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
-    },
-    {
-      "uuid": "f7ffb0d2-a503-4fd3-9df2-b00b18d7e631",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logarithmic Differentiation",
-      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)\\((\\ln(x))^{x}\\)",
-      "allAnswers": [],
-      "tags": "logarithmic differentiation",
-      "url": "/question/f7ffb0d2-a503-4fd3-9df2-b00b18d7e631",
-      "source": "Mooculus 6.3.9",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
-    },
-    {
-      "uuid": "f91ca133-3904-41d8-938d-d0289374a5c2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Logarithmic Differentiation",
-      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)(f(x)g(x)h(x))",
-      "allAnswers": [],
-      "tags": "logarithmic differentiation ",
-      "url": "/question/f91ca133-3904-41d8-938d-d0289374a5c2",
-      "source": "Mooculus 6.3.10",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
-    },
-    {
-      "uuid": "b0a2b67d-0d69-4001-b19d-f67b7f89fa4f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Linear Approximation Practice",
-      "body": "Use a linear approximation of \\(f(x) \u003d\\sqrt[5]{x}\\) at \\(x\u003d243\\) to approximate \\(f(250)\\).",
-      "allAnswers": [],
-      "tags": "linear, approximation, differentials, differentiation, functions",
-      "url": "/question/b0a2b67d-0d69-4001-b19d-f67b7f89fa4f",
-      "source": "Mooculus 10.1.3",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
-    },
-    {
-      "uuid": "0a6f71b2-4b08-44aa-b4c9-5da46d57fb77",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Derivative of Trigonometric Functions",
-      "body": "Find the derivatives of the following functions.\n\\(\\sin^{2}(\\sqrt{x})\\)",
-      "allAnswers": [],
-      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
-      "url": "/question/0a6f71b2-4b08-44aa-b4c9-5da46d57fb77",
-      "source": "Mooculus 7.1.1",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
-    {
-      "uuid": "d4d71a69-fe13-4143-8b36-aac0d6d76bfa",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Derivative of Trigonometric Functions",
-      "body": "Find the derivatives of the following functions.\n\\(\\sqrt{x}\\sin(x)\\)",
-      "allAnswers": [],
-      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
-      "url": "/question/d4d71a69-fe13-4143-8b36-aac0d6d76bfa",
-      "source": "Mooculus 7.1.2",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
-    {
-      "uuid": "0064d81e-00c4-47b3-b0a3-681410d7659f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The Derivative of Trigonometric Functions",
-      "body": "Find the derivatives of the following functions.\n\\(\\frac{1}{\\sin(x)}\\)",
-      "allAnswers": [],
-      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
-      "url": "/question/0064d81e-00c4-47b3-b0a3-681410d7659f",
-      "source": "Mooculus 7.1.3",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
-    },
     {
       "uuid": "7ef0aa4a-4c0b-42d6-b179-16f090e52f0d",
       "contentType": "question",
@@ -460,7 +198,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/7ef0aa4a-4c0b-42d6-b179-16f090e52f0d",
       "source": "Mooculus 10.1.4",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "2f405222-af5c-438d-919a-591356945e7c",
@@ -477,7 +215,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/2f405222-af5c-438d-919a-591356945e7c",
       "source": "Mooculus 7.1.4",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "e75379ee-7aa7-4e50-982e-829aa165a4a1",
@@ -494,7 +232,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/e75379ee-7aa7-4e50-982e-829aa165a4a1",
       "source": "Mooculus 10.1.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "84442ac9-a3ee-43bd-9095-97554d5b86ae",
@@ -511,7 +249,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/84442ac9-a3ee-43bd-9095-97554d5b86ae",
       "source": "Mooculus 7.1.5",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "c8705240-e4fc-4131-98a4-a5dc922ba812",
@@ -528,7 +266,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/c8705240-e4fc-4131-98a4-a5dc922ba812",
       "source": "Mooculus 10.1.6",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "259d2499-3903-4da6-b4eb-8d259208e9a8",
@@ -545,7 +283,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/259d2499-3903-4da6-b4eb-8d259208e9a8",
       "source": "Mooculus 7.1.6",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "6abae9e8-e4e4-402b-aa47-e1cacdd8f000",
@@ -562,7 +300,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/6abae9e8-e4e4-402b-aa47-e1cacdd8f000",
       "source": "Mooculus 10.1.7",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "7f597f70-196d-4d41-80e2-7c75711f420e",
@@ -579,7 +317,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/7f597f70-196d-4d41-80e2-7c75711f420e",
       "source": "Mooculus 7.1.7",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "9836410a-e565-4157-8aa9-4be0c65c994f",
@@ -596,7 +334,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/9836410a-e565-4157-8aa9-4be0c65c994f",
       "source": "Mooculus 10.1.8",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "5b230077-bf2e-421b-a415-50c0ff36332e",
@@ -613,7 +351,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/5b230077-bf2e-421b-a415-50c0ff36332e",
       "source": "Mooculus 7.1.8",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "6591be6f-e9db-451e-92a1-90597760b623",
@@ -630,7 +368,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/6591be6f-e9db-451e-92a1-90597760b623",
       "source": "Mooculus 10.1.9",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "4d32baaa-8de0-47b2-bfb7-d3955a16727f",
@@ -647,7 +385,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/4d32baaa-8de0-47b2-bfb7-d3955a16727f",
       "source": "Mooculus 7.1.9",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "59fe6cd5-6ca7-48b8-b790-d8d0130d9355",
@@ -664,7 +402,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/59fe6cd5-6ca7-48b8-b790-d8d0130d9355",
       "source": "Mooculus 7.1.10",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "2cb5bc5a-6c1d-4c3a-bbe4-887c291ad3e6",
@@ -681,7 +419,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions",
       "url": "/question/2cb5bc5a-6c1d-4c3a-bbe4-887c291ad3e6",
       "source": "Mooculus 10.1.10",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "55735e81-71ee-4783-9dfa-9065130412e5",
@@ -698,7 +436,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/55735e81-71ee-4783-9dfa-9065130412e5",
       "source": "Mooculus 7.1.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "36a92822-12cb-4988-ae0e-67af37ff656d",
@@ -715,7 +453,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/36a92822-12cb-4988-ae0e-67af37ff656d",
       "source": "Mooculus 7.1.12",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "689113ae-5370-488e-a04b-5fc398b39548",
@@ -732,7 +470,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/689113ae-5370-488e-a04b-5fc398b39548",
       "source": "Mooculus 7.1.13",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "ad272242-5988-4f10-80a3-d51471dde075",
@@ -749,7 +487,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
       "url": "/question/ad272242-5988-4f10-80a3-d51471dde075",
       "source": "Mooculus 10.2.1",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "76844b85-8292-4229-96d9-eb86e54cfdd8",
@@ -766,7 +504,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/76844b85-8292-4229-96d9-eb86e54cfdd8",
       "source": "Mooculus 7.1.15",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "be811044-6612-4dee-81ea-10a03a585ce6",
@@ -783,7 +521,7 @@
       "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
       "url": "/question/be811044-6612-4dee-81ea-10a03a585ce6",
       "source": "Mooculus 10.2.2",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     },
     {
       "uuid": "d01c8d12-cc57-4e38-b1d4-ff09f963aa68",
@@ -800,7 +538,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/d01c8d12-cc57-4e38-b1d4-ff09f963aa68",
       "source": "Mooculus 7.1.16",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "45bcbeea-a4a0-4d89-8b2f-192f8b6c92b8",
@@ -817,7 +555,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/45bcbeea-a4a0-4d89-8b2f-192f8b6c92b8",
       "source": "Mooculus 7.1.17",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "b97aff21-9dc4-495a-abe9-535430be3646",
@@ -834,7 +572,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/b97aff21-9dc4-495a-abe9-535430be3646",
       "source": "Mooculus 7.1.18",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "be626245-bfa2-4bda-af82-df97e5bd2ebf",
@@ -851,7 +589,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/be626245-bfa2-4bda-af82-df97e5bd2ebf",
       "source": "Mooculus 7.1.19",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "750c6ff5-91c8-4065-9c9a-15045a09d789",
@@ -868,7 +606,7 @@
       "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
       "url": "/question/750c6ff5-91c8-4065-9c9a-15045a09d789",
       "source": "Mooculus 7.1.20",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric Functions"
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     },
     {
       "uuid": "fcb87e06-db71-461c-bb49-c0ed24153627",
@@ -885,7 +623,194 @@
       "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
       "url": "/question/fcb87e06-db71-461c-bb49-c0ed24153627",
       "source": "Mooculus 10.2.5",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Linear Approximations/Tangent Line"
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "bde7e99c-8264-4005-b0cc-8db5f155cca0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Derivative of Trigonometric Functions",
+      "body": "Find an equation for the tangent line to \\(\\sec^{2}\\)(x) at x \u003d \\(\\pi\\)/3.",
+      "allAnswers": [],
+      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
+      "url": "/question/bde7e99c-8264-4005-b0cc-8db5f155cca0",
+      "source": "Mooculus 7.1.21",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
+    },
+    {
+      "uuid": "cbf3c4ca-0b12-4176-be3c-a9660dbd5053",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practicing Newton\u0027s Method",
+      "body": "The function \\(f(x)\u003dx^5-5x^4+5x^2-6\\) has a root between \\(4\\) and \\(5\\), because \\(f(4)\u003d-182\\) and \\(f(5)\u003d119\\). Use Newton\u0027s Method to approximate the root to two decimal places.",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
+      "url": "/question/cbf3c4ca-0b12-4176-be3c-a9660dbd5053",
+      "source": "Mooculus 10.2.6",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "19b0aad6-557b-4d0f-94dd-38a4a81dfbb0",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Derivative of Trigonometric Functions",
+      "body": "Find an equation for the tangent line to \\(\\cos^{2}\\)(x)-\\(\\sin^{2}\\)(4x) at x \u003d \\(\\pi\\)/6.",
+      "allAnswers": [],
+      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
+      "url": "/question/19b0aad6-557b-4d0f-94dd-38a4a81dfbb0",
+      "source": "Mooculus 7.1.22",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
+    },
+    {
+      "uuid": "5304d086-2611-48fe-afff-733141246389",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Derivative of Trigonometric Functions",
+      "body": "Find the points on the curve y \u003d x+2\\(\\cos\\)(x) that have a horizontal tangent line.",
+      "allAnswers": [],
+      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
+      "url": "/question/5304d086-2611-48fe-afff-733141246389",
+      "source": "Mooculus 7.1.23",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
+    },
+    {
+      "uuid": "8da5334d-98c0-433d-a0d4-f24357047ae7",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practicing Newton\u0027s Method",
+      "body": "Approximate the fifth root of 7, using \\(x_0\u003d1.5\\) as a first guess. Use Newton\u0027s method to find \\(x_3\\) as your approximation.  ",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
+      "url": "/question/8da5334d-98c0-433d-a0d4-f24357047ae7",
+      "source": "Mooculus 10.2.7",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "bd7d85a6-9d34-41f0-935c-e6002fafa264",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practicing Newton\u0027s Method",
+      "body": "Use Newton\u0027s Method to approximate the cube root of 10 to two decimal places.",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
+      "url": "/question/bd7d85a6-9d34-41f0-935c-e6002fafa264",
+      "source": "Mooculus 10.2.8",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "b5517834-04af-4106-81d7-a78ab3341e4f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practicing Newton\u0027s Method",
+      "body": "A rectangular piece of cardboard of dimensions \\(8\\times 17\\)\nis used to make an open-top box by cutting out a small square of side\n\\(x\\) from each corner and bending up the sides.  If \\(x\u003d2\\), then the\nvolume of the box is \\(2\\cdot 4\\cdot 13\u003d104\\). Use Newton\u0027s method to\nfind a value of \\(x\\) for which the box has volume 100, accurate to two\ndecimal places.",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
+      "url": "/question/b5517834-04af-4106-81d7-a78ab3341e4f",
+      "source": "Mooculus 10.2.9",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "4251e6fb-8c55-4472-bc0d-dac509469442",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practicing Newton\u0027s Method",
+      "body": "Given \\(f(x) \u003d 3x-4\\), use Euler\u0027s Method with a step size \\(0.2\\) to estimate \\(F(2)\\) where \\(F\u0027(x) \u003d f(x)\\) and \\(F(1)\u003d5\\), to two decimal places.",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
+      "url": "/question/4251e6fb-8c55-4472-bc0d-dac509469442",
+      "source": "Mooculus 10.2.10",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "341c934a-f354-4da1-96a3-ffe60365243c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Inverse Trigonometric Functions",
+      "body": "The inverse of \\(\\cot\\) is usually defined so that the range of arccotangent is (0,\\(\\pi\\)). Sketch the graph y \u003d \\(\\arccot\\)(x). In the process you will make it clear what the domain of arccotangent is. Find the derivative of the arccotangent. ",
+      "allAnswers": [],
+      "tags": "inverse trigonometric function, function, trigonometric function, inverse functions",
+      "url": "/question/341c934a-f354-4da1-96a3-ffe60365243c",
+      "source": "Mooculus 7.2.1",
+      "topic": "9ab950bc-9fab-40b4-bf0f-7ec59c4cbb2b"
+    },
+    {
+      "uuid": "029cb47b-fe45-4218-933a-3063c89d6d1c",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Inverse Trigonometric Functions",
+      "body": "Find the derivative of \\(\\arcsin(x^{2}\\)).",
+      "allAnswers": [],
+      "tags": "inverse trigonometric function, function, trigonometric function, inverse functions",
+      "url": "/question/029cb47b-fe45-4218-933a-3063c89d6d1c",
+      "source": "Mooculus 7.2.2",
+      "topic": "9ab950bc-9fab-40b4-bf0f-7ec59c4cbb2b"
+    },
+    {
+      "uuid": "e8f1390e-1e1e-486b-a4a2-640399d75fdc",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Practicing Newton\u0027s Method",
+      "body": "Given \\(f(x) \u003d x^2+2x+1\\), use Euler\u0027s Method with a step size \\(0.2\\) to\nestimate \\(F(3)\\) where \\(F\u0027(x) \u003d f(x)\\) and \\(F(2)\u003d3\\), to two decimal places.",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions, newton\u0027s method, euler\u0027s method",
+      "url": "/question/e8f1390e-1e1e-486b-a4a2-640399d75fdc",
+      "source": "Mooculus 10.2.11",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
     }
   ],
   "textContent": [
@@ -904,7 +829,7 @@
       "tags": "L\u0027Hopital\u0027s Rule, limits, derivatives ",
       "url": "/text-content/93078fbb-468e-48d8-9c83-dfd04e880ef2",
       "source": "Forgotten Text 4 9.2",
-      "topic": "Calculus/Improper Integrals Advanced Limit Techniques/L\u0027Hopital\u0027s Rule"
+      "topic": "671d29a1-3003-4bd1-862f-cd06af405c62"
     },
     {
       "uuid": "8eebfc7a-6260-40b5-ae9d-a4e5c0ab28e9",
@@ -921,9 +846,70 @@
       "tags": "indeterminate form, improper integral, limits ",
       "url": "/text-content/8eebfc7a-6260-40b5-ae9d-a4e5c0ab28e9",
       "source": "Forgotten Text 4 9.3",
-      "topic": "Calculus/Pre-Calculus Review/Improper Integrals/Indeterminate Forms"
+      "topic": "ae2d8907-7628-4ce4-bb93-19bf0b78b843"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "1294f81a-49db-4899-95d5-7c77bfadf389",
+      "subTopics": [
+        "6dd1206c-e632-445f-b9c3-47849138e8cb",
+        "9d062c5d-601f-4b68-bb77-78679602b445",
+        "f78348b6-0a3c-4111-be6d-17785da29310",
+        "3997db6d-c378-4007-badc-00373e17cdb1",
+        "3b9d2882-08a2-4221-a2f8-b56459999efa",
+        "d91b9014-181a-4e25-ae6e-d93afc415c1b",
+        "1de2144d-aa4d-4d71-8c77-8a0d389e76af",
+        "01a4eb8e-408f-4ac3-a0dd-9592db6dee74"
+      ],
+      "title": "Geometry",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": 85000,
+      "contentUuids": []
+    },
+    {
+      "uuid": "9efd6195-ea92-4caf-bae2-c44ed06b9daf",
+      "subTopics": [
+        "2c567be4-0413-49a3-a75e-d26dcf0a4d05",
+        "95aedbcc-1cfd-41df-9372-9d3736038603"
+      ],
+      "parentTopics": [
+        "4cb634d5-ce78-4397-b8e7-83da114a0604"
+      ],
+      "title": "Powers of Sine and Cosine",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " antiderivatives,sine, integration, cosine,",
+      "difficulty": 591000,
+      "contentUuids": [
+        "4c38d6c6-c20d-4108-9790-d857385a66be"
+      ]
+    },
+    {
+      "uuid": "6846ecf2-fa29-41a0-8315-fd49f306572b",
+      "subTopics": [
+        "c0e3f893-4008-4156-9e1e-1d9a6c62c312",
+        "925fb8e2-fff4-4578-970f-a07b3ad5a8af",
+        "c8bca3c2-7998-41db-9742-c1096e3915ff",
+        "f6d7aba7-bf12-42b9-8ad6-c7219c1fdd7e",
+        "4660f5de-168b-47f9-909f-eff07e16b531",
+        "d058002d-1c97-4ce5-ba84-e8512a0cfb7a",
+        "b53acade-ad77-49cd-aac4-76fd79b4f986"
+      ],
+      "parentTopics": [
+        "3a7e8a7c-233a-41df-905a-fa3719475bdf"
+      ],
+      "title": "Vectors",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " component form, scalar multiplication ,vectors, vector addition,",
+      "difficulty": 231000,
+      "contentUuids": [
+        "cae87993-de23-4830-9559-1f9852990735"
+      ]
+    }
+  ]
 }

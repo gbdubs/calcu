@@ -2,313 +2,194 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2982.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2983.png\"/\u003e",
-      "uuid": "35a609c2-990c-468f-849d-a5465ce969be",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3496.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3497.png\"/\u003e",
+      "uuid": "d829e724-a612-4016-bc61-9f5a24948dae",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Object weighing 64 pounds",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2981.png\"/\u003e",
+      "title": "Carl wishes to get high speed internet",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3495.png\"/\u003e",
       "allAnswers": [],
-      "tags": "sinusoids, graphing sinusoids ",
-      "url": "/practice-problem/35a609c2-990c-468f-849d-a5465ce969be",
-      "source": "null 11.1.1"
+      "tags": "functions, algebraic functions, graphing functions ",
+      "url": "/practice-problem/d829e724-a612-4016-bc61-9f5a24948dae",
+      "source": "null 5.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2985.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2986.png\"/\u003e",
-      "uuid": "10488bc6-18a9-46e4-96ec-3455277f18f1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3503.png\"/\u003e",
+      "uuid": "da0d0b98-5be4-4bc6-a677-d8a1d93cae99",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Change form of sinusoids",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2984.png\"/\u003e",
+      "title": "Simplify the follow log funcitons",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3576.png\"/\u003e",
       "allAnswers": [],
-      "tags": "graph sinusoids, write sinusoid in difference forms ",
-      "url": "/practice-problem/10488bc6-18a9-46e4-96ec-3455277f18f1",
-      "source": "null 11.12"
+      "tags": "functions, exponential functions, logarithmic functions",
+      "url": "/practice-problem/da0d0b98-5be4-4bc6-a677-d8a1d93cae99",
+      "source": "null 6.1.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2995.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2996.png\"/\u003e",
-      "uuid": "159e2dad-eee8-4fef-9fd2-18ceaa02c029",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3506.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3507.png\"/\u003e",
+      "uuid": "71f9479b-fbfb-42a5-81d7-24bc676975d4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sasquatch Island",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2994.png\"/\u003e",
+      "title": "Find the domain of the following functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3505.png\"/\u003e",
       "allAnswers": [],
-      "tags": "angles, angle measurements ",
-      "url": "/practice-problem/159e2dad-eee8-4fef-9fd2-18ceaa02c029",
-      "source": "null 11.2.1"
+      "tags": "functions, exponential functions, logarithmic functions ",
+      "url": "/practice-problem/71f9479b-fbfb-42a5-81d7-24bc676975d4",
+      "source": "null 6.1.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2999.png\"/\u003e",
-      "uuid": "96adcd34-fb9e-459e-8f6c-91f06422d58c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3509.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3510.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3511.png\"/\u003e",
+      "uuid": "0bb73458-6f13-4b83-bed9-274dadc0842b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find area of triangle ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2998.png\"/\u003e",
+      "title": "Do the following to the exponential function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3508.png\"/\u003e",
       "allAnswers": [],
-      "tags": "triangle, angles, measurements, cos, sin, tan ",
-      "url": "/practice-problem/96adcd34-fb9e-459e-8f6c-91f06422d58c",
-      "source": "null 11.2.2"
+      "tags": "functions, exponential functions, logarithmic functions ",
+      "url": "/practice-problem/0bb73458-6f13-4b83-bed9-274dadc0842b",
+      "source": "null 6.1.5"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3007.png\"/\u003e",
-      "uuid": "96501c64-1b88-4a6a-9024-aab71a99380a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3521.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3522.png\"/\u003e",
+      "uuid": "166eeba6-cd12-4a3e-a359-707f9b7dcfc9",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the area enclosed of the triangle",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3006.png\"/\u003e",
+      "title": "Appropriate change of base formula",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3520.png\"/\u003e",
       "allAnswers": [],
-      "tags": "area, triangle, trigonometry, cos, sine, angles, angle measurement ",
-      "url": "/practice-problem/96501c64-1b88-4a6a-9024-aab71a99380a",
-      "source": "null 11.3.1"
+      "tags": "functions, logarithmic functions, change of base formula",
+      "url": "/practice-problem/166eeba6-cd12-4a3e-a359-707f9b7dcfc9",
+      "source": "null 6.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3017.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3018.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3019.png\"/\u003e",
-      "uuid": "1a42e9a9-8567-4618-b613-54e407998632",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3531.png\"/\u003e",
+      "uuid": "47fe5dd6-b7ee-489d-a26b-50484ea3eccb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Polar coordinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3016.png\"/\u003e",
+      "title": "Temperature of coffee",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3530.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar coordinates, rectangular coordinates, conversion to polar ",
-      "url": "/practice-problem/1a42e9a9-8567-4618-b613-54e407998632",
-      "source": "null 11.4.1"
+      "tags": "exponential functions, inverse functions, graphing functions ",
+      "url": "/practice-problem/47fe5dd6-b7ee-489d-a26b-50484ea3eccb",
+      "source": "null 6.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3035.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3036.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3037.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3038.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3039.png\"/\u003e",
-      "uuid": "fc3eb1dd-6f54-44c9-8f8c-63d1aedfce3b",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3533.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3534.png\"/\u003e",
+      "uuid": "c2d663bd-8a78-4bf1-8d51-093fcb4db971",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Points of intersection polar equations",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3034.png\"/\u003e",
+      "title": "Find a formula for inverse function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3532.png\"/\u003e",
       "allAnswers": [],
-      "tags": "points of intersection, polar equations, graphs of polar functions, polar coordinates ",
-      "url": "/practice-problem/fc3eb1dd-6f54-44c9-8f8c-63d1aedfce3b",
-      "source": "null 11.5.1"
+      "tags": "functions, exponential functions, inverse functions ",
+      "url": "/practice-problem/c2d663bd-8a78-4bf1-8d51-093fcb4db971",
+      "source": "null 6.3.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3042.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3043.png\"/\u003e",
-      "uuid": "060d6047-e410-4343-afac-ac0a112d34a5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3542.png\"/\u003e",
+      "uuid": "136b46b0-ed44-48e5-947c-6013d57ea0e3",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Sketch the region, polar coordinates",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3041.png\"/\u003e",
+      "title": "pH freshwater",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3541.png\"/\u003e",
       "allAnswers": [],
-      "tags": "sketch polar functions, polar equations, graphs of polar functions, polar coordinates ",
-      "url": "/practice-problem/060d6047-e410-4343-afac-ac0a112d34a5",
-      "source": "null 10.5.2"
+      "tags": "functions, logarithmic functions, logarithmic inequalities ",
+      "url": "/practice-problem/136b46b0-ed44-48e5-947c-6013d57ea0e3",
+      "source": "null 6.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3056.png\"/\u003e",
-      "uuid": "3cd5e51e-7efb-4be6-b74c-b303fafde01f",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3634.png\"/\u003e",
+      "uuid": "72f76b3e-3c73-4967-aa3e-e189d4fdc0e5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Non-degenerate conics",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3055.png\"/\u003e",
+      "title": "Complete the square",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3631.png\"/\u003e",
       "allAnswers": [],
-      "tags": "conics, conic sections, non-degenerate conics ",
-      "url": "/practice-problem/3cd5e51e-7efb-4be6-b74c-b303fafde01f",
-      "source": "null 11.6.1"
+      "tags": "conics, conic sections ",
+      "url": "/practice-problem/72f76b3e-3c73-4967-aa3e-e189d4fdc0e5",
+      "source": "null 7.2.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3061.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3062.png\"/\u003e",
-      "uuid": "5ebbcb59-5465-4e2f-b209-b0f4fa156714",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3636.png\"/\u003e",
+      "uuid": "f5e79d88-36a4-43f2-a502-1ba0339a19a6",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "sketch the graphs of rational functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3060.png\"/\u003e",
+      "title": "Write the standard equation",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3635.png\"/\u003e",
       "allAnswers": [],
-      "tags": "trigonometric functions, sin, cos, conic, conic sections ",
-      "url": "/practice-problem/5ebbcb59-5465-4e2f-b209-b0f4fa156714",
-      "source": "null 11.6.2"
+      "tags": "conic, conic sections ",
+      "url": "/practice-problem/f5e79d88-36a4-43f2-a502-1ba0339a19a6",
+      "source": "null 7.2.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3073.png\"/\u003e",
-      "uuid": "b8444e80-63a7-4479-9e86-1bc8ed68d2c5",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3579.png\"/\u003e",
+      "uuid": "a51f487d-93ba-493c-a1b0-da8cadba7458",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655790,
+      "createdAt": 1437611655792,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Write final answers in rectangular form",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3072.png\"/\u003e",
+      "title": "Find the points on the unit circle",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/8/3578.png\"/\u003e",
       "allAnswers": [],
-      "tags": "polar form, complex numbers, rectangular coordinates ",
-      "url": "/practice-problem/b8444e80-63a7-4479-9e86-1bc8ed68d2c5",
-      "source": "null 11.7.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3078.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3079.png\"/\u003e",
-      "uuid": "7d24f6fd-b61a-4237-92a8-6027070f56d0",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655790,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "The nth roots of a complex number ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3077.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "the nth roots of a complex number, complex numbers, polar form ",
-      "url": "/practice-problem/7d24f6fd-b61a-4237-92a8-6027070f56d0",
-      "source": "null 11.7.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3090.png\"/\u003e",
-      "uuid": "c02d7a2c-cd53-4e9c-b4b6-d4d3e4cf270a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655790,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Solve vector equation",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3089.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "vectors, vector equation, scalar multiplication, vector addition ",
-      "url": "/practice-problem/c02d7a2c-cd53-4e9c-b4b6-d4d3e4cf270a",
-      "source": "null 11.8.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3095.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3096.png\"/\u003e",
-      "uuid": "90e200b5-02c3-4645-9c31-e34428a9e30a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655790,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find the component form",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3094.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "vectors, component form, vector addition, scalar multiplication ",
-      "url": "/practice-problem/90e200b5-02c3-4645-9c31-e34428a9e30a",
-      "source": "null 11.8.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3098.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3099.png\"/\u003e",
-      "uuid": "6b3dc476-8cef-4a46-b6e5-20d3502cca31",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655790,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Plane leaves the airport",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3097.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "vectors, vector addition, scalar multiplication, vector equations",
-      "url": "/practice-problem/6b3dc476-8cef-4a46-b6e5-20d3502cca31",
-      "source": "null 11.8.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3104.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3105.png\"/\u003e",
-      "uuid": "9a8dd2d1-5cad-4bf1-b2a2-013c721d3579",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655790,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "50 pound speaker",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3103.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "vectors, angles, vector addition, vector multiplication ",
-      "url": "/practice-problem/9a8dd2d1-5cad-4bf1-b2a2-013c721d3579",
-      "source": "null 11.8.4"
+      "tags": "unit circle, conic sections, conics",
+      "url": "/practice-problem/a51f487d-93ba-493c-a1b0-da8cadba7458",
+      "source": "null 7.2.5"
     }
   ],
   "questions": [
-    {
-      "uuid": "3ecb3bd7-9de6-4241-898f-14cff9f5a321",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946150,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20328.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "relations, functions, domain, range",
-      "url": "/question/3ecb3bd7-9de6-4241-898f-14cff9f5a321",
-      "source": "Active Calc 1.3.15",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
-    },
-    {
-      "uuid": "c1fb3b05-0cdc-46d8-8e06-c04432aa4fe1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946150,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20329.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "relations, functions, domain, range",
-      "url": "/question/c1fb3b05-0cdc-46d8-8e06-c04432aa4fe1",
-      "source": "Active Calc 1.3.16",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
-    },
     {
       "uuid": "afbc90ba-3c62-4126-a04f-9c55fcd22bea",
       "contentType": "question",
@@ -319,12 +200,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20330.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20330.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/afbc90ba-3c62-4126-a04f-9c55fcd22bea",
       "source": "Active Calc 1.3.17",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "e777a3a6-7643-404d-8d11-0cb604c85f6e",
@@ -336,12 +217,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20331.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20331.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/e777a3a6-7643-404d-8d11-0cb604c85f6e",
       "source": "Active Calc 1.3.20",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "2bc6351c-74ec-4cd7-a397-7a1422b7ce96",
@@ -353,12 +234,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20332.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20332.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/2bc6351c-74ec-4cd7-a397-7a1422b7ce96",
       "source": "Active Calc 1.3.21",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "059cb94d-b76d-44b7-923b-53e3a6c31260",
@@ -370,12 +251,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20333.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20333.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/059cb94d-b76d-44b7-923b-53e3a6c31260",
       "source": "Active Calc 1.3.22",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "8085a2b7-2752-44bf-9cd9-e6e4e34043b0",
@@ -387,12 +268,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20334.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20334.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/8085a2b7-2752-44bf-9cd9-e6e4e34043b0",
       "source": "Active Calc 1.3.23",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "3de2549e-d3ee-41cf-acd5-9bb559810cc9",
@@ -404,12 +285,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20335.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20335.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/3de2549e-d3ee-41cf-acd5-9bb559810cc9",
       "source": "Active Calc 1.3.24",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "8eb28d08-2918-40c9-a8fc-164cc2850f77",
@@ -421,12 +302,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20336.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20336.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/8eb28d08-2918-40c9-a8fc-164cc2850f77",
       "source": "Active Calc 1.3.25",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "7dba6700-cb3d-4339-af57-f70cda06b512",
@@ -438,12 +319,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20337.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20337.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/7dba6700-cb3d-4339-af57-f70cda06b512",
       "source": "Active Calc 1.3.26",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "22ab058b-1f38-4ae5-8c7b-672695cd4f2d",
@@ -455,12 +336,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20338.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20338.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/22ab058b-1f38-4ae5-8c7b-672695cd4f2d",
       "source": "Active Calc 1.3.27",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "fcb59868-9b3f-48e4-8cad-a77567b1e603",
@@ -472,12 +353,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20339.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20339.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/fcb59868-9b3f-48e4-8cad-a77567b1e603",
       "source": "Active Calc 1.3.28",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "4a9b6cfb-671b-4e73-a102-0be679d0e1e4",
@@ -489,12 +370,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20340.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20340.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/4a9b6cfb-671b-4e73-a102-0be679d0e1e4",
       "source": "Active Calc 1.3.29",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "d9425800-0047-4f35-b6a2-3e2512fda378",
@@ -506,12 +387,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20341.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20341.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/d9425800-0047-4f35-b6a2-3e2512fda378",
       "source": "Active Calc 1.3.30",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "b8e4462a-bcc5-4115-8f7e-98a43e2bd87d",
@@ -523,12 +404,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20342.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20342.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/b8e4462a-bcc5-4115-8f7e-98a43e2bd87d",
       "source": "Active Calc 1.3.31",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "4654289a-ce15-4238-b9f0-dc14c0707d80",
@@ -540,12 +421,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Introduction to Functions",
-      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://calcu.education/_static/img/content/20343.png\"/\u003e",
+      "body": "Determine whether or not the relation represents y as a function of x. Find the domain and range of those relations which are functions.\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/20343.PNG\"/\u003e",
       "allAnswers": [],
       "tags": "relations, functions, domain, range",
       "url": "/question/4654289a-ce15-4238-b9f0-dc14c0707d80",
       "source": "Active Calc 1.3.32",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing/Domain and Range"
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     },
     {
       "uuid": "8a8e9942-1a23-4f7a-a66b-273255550ee1",
@@ -562,7 +443,7 @@
       "tags": "equation, function",
       "url": "/question/8a8e9942-1a23-4f7a-a66b-273255550ee1",
       "source": "Active Calc 1.3.33",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "368a8206-8119-4d94-bfd9-a1f2c3fb3f58",
@@ -579,7 +460,7 @@
       "tags": "equation, function",
       "url": "/question/368a8206-8119-4d94-bfd9-a1f2c3fb3f58",
       "source": "Active Calc 1.3.34",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "9516694b-0088-4d71-ac66-e0c7f5993dc1",
@@ -596,7 +477,7 @@
       "tags": "equation, function",
       "url": "/question/9516694b-0088-4d71-ac66-e0c7f5993dc1",
       "source": "Active Calc 1.3.35",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "a15f1992-3e8e-4847-ab40-cdf1ff615b4c",
@@ -613,7 +494,7 @@
       "tags": "equation, function",
       "url": "/question/a15f1992-3e8e-4847-ab40-cdf1ff615b4c",
       "source": "Active Calc 1.3.36",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "3c45b88b-7377-4cf2-81fd-06458d4e4d8e",
@@ -630,7 +511,7 @@
       "tags": "equation, function",
       "url": "/question/3c45b88b-7377-4cf2-81fd-06458d4e4d8e",
       "source": "Active Calc 1.3.37",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "4a71eb54-ef0f-476a-b028-2d47eb2283e0",
@@ -647,7 +528,7 @@
       "tags": "equation, function",
       "url": "/question/4a71eb54-ef0f-476a-b028-2d47eb2283e0",
       "source": "Active Calc 1.3.38",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "b533d19e-04c3-4b33-9313-0660fc34a8b9",
@@ -664,7 +545,7 @@
       "tags": "equation, function",
       "url": "/question/b533d19e-04c3-4b33-9313-0660fc34a8b9",
       "source": "Active Calc 1.3.39",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "7d521116-1667-4158-a7aa-500ce7f87474",
@@ -681,7 +562,7 @@
       "tags": "equation, function",
       "url": "/question/7d521116-1667-4158-a7aa-500ce7f87474",
       "source": "Active Calc 1.3.40",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "50253cfb-a80e-49cf-bccc-fe0130a2b104",
@@ -698,7 +579,7 @@
       "tags": "equation, function",
       "url": "/question/50253cfb-a80e-49cf-bccc-fe0130a2b104",
       "source": "Active Calc 1.3.41",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "570eb282-52e6-43b1-ac43-82517af4431f",
@@ -715,7 +596,7 @@
       "tags": "equation, function",
       "url": "/question/570eb282-52e6-43b1-ac43-82517af4431f",
       "source": "Active Calc 1.3.42",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "124f7c90-f1a0-4686-bba8-3b862954a792",
@@ -732,7 +613,7 @@
       "tags": "equation, function",
       "url": "/question/124f7c90-f1a0-4686-bba8-3b862954a792",
       "source": "Active Calc 1.3.43",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "abe4d13d-9e0a-4382-9259-00ec42abd555",
@@ -749,7 +630,7 @@
       "tags": "equation, function",
       "url": "/question/abe4d13d-9e0a-4382-9259-00ec42abd555",
       "source": "Active Calc 1.3.44",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "19d09c0f-b039-4546-913d-77798be80887",
@@ -766,7 +647,7 @@
       "tags": "equation, function",
       "url": "/question/19d09c0f-b039-4546-913d-77798be80887",
       "source": "Active Calc 1.3.45",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "4732be0a-611c-43ab-8ada-694b7b99ecf0",
@@ -783,7 +664,7 @@
       "tags": "equation, function",
       "url": "/question/4732be0a-611c-43ab-8ada-694b7b99ecf0",
       "source": "Active Calc 1.3.46",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "1e374833-ef8f-4625-9e0b-f77c2fde47e9",
@@ -800,7 +681,7 @@
       "tags": "equation, function",
       "url": "/question/1e374833-ef8f-4625-9e0b-f77c2fde47e9",
       "source": "Active Calc 1.3.47",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "48e6288d-8a28-464e-958b-54e83f20b499",
@@ -817,7 +698,7 @@
       "tags": "area, function, time, range, range of function",
       "url": "/question/48e6288d-8a28-464e-958b-54e83f20b499",
       "source": "Active Calc 1.3.48",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "f7bdac7d-2998-471f-8ade-828b0cfb2164",
@@ -834,7 +715,7 @@
       "tags": "relation, function, open-ended",
       "url": "/question/f7bdac7d-2998-471f-8ade-828b0cfb2164",
       "source": "Active Calc 1.3.49",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "ea95d79c-ce5b-4096-93b4-db2f24be1ba7",
@@ -851,7 +732,7 @@
       "tags": "equation, function, points, coordinates, Vertical Line Test, relations",
       "url": "/question/ea95d79c-ce5b-4096-93b4-db2f24be1ba7",
       "source": "Active Calc 1.3.50",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "8641cae4-b7cd-4b9a-bba4-8d57677db642",
@@ -868,7 +749,7 @@
       "tags": "equation, function, points, coordinates, Vertical Line Test, relations",
       "url": "/question/8641cae4-b7cd-4b9a-bba4-8d57677db642",
       "source": "Active Calc 1.3.51",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "f9134f75-196e-4dc0-9692-c4372cc9dece",
@@ -885,7 +766,7 @@
       "tags": "equation, function, points, coordinates, Vertical Line Test, relations",
       "url": "/question/f9134f75-196e-4dc0-9692-c4372cc9dece",
       "source": "Active Calc 1.3.52",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
     },
     {
       "uuid": "7697c26d-1264-4711-982b-c2f7acf0b0a1",
@@ -902,7 +783,41 @@
       "tags": "equation, function, points, coordinates, Vertical Line Test, relations",
       "url": "/question/7697c26d-1264-4711-982b-c2f7acf0b0a1",
       "source": "Active Calc 1.3.53",
-      "topic": "Algebra/Functions/Graphing Functions/General Graphing"
+      "topic": "71d48859-b1b1-4432-878a-d09d81fec2b6"
+    },
+    {
+      "uuid": "03758a01-768a-4417-b8e3-5557b7ba1fa8",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946151,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Function Notation",
+      "body": "Find an expression for f(x) and state its domain.\nf is a function that takes a real number x and performs the following three steps in the order given: (1) multiply by 2; (2) add 3; (3) divide by 4.",
+      "allAnswers": [],
+      "tags": "domain, real number, function, function notation, expression",
+      "url": "/question/03758a01-768a-4417-b8e3-5557b7ba1fa8",
+      "source": "Active Calc 1.4.1",
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
+    },
+    {
+      "uuid": "a5aab1ca-aefa-420d-be28-0d82a891957b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437575946151,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Function Notation",
+      "body": "Find an expression for f(x) and state its domain.\nf is a function that takes a real number x and performs the following three steps in the order given: (1) add 3; (2) multiply by 2; (3) divide by 4.",
+      "allAnswers": [],
+      "tags": "domain, real number, function, function notation, expression",
+      "url": "/question/a5aab1ca-aefa-420d-be28-0d82a891957b",
+      "source": "Active Calc 1.4.2",
+      "topic": "a2c6d520-6aef-45fa-ae61-031cef3fcb3b"
     }
   ],
   "textContent": [
@@ -916,12 +831,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Trigonometric Identities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2862.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2864.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2867.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2868.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2875.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2876.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2881.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2884.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2862.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2863.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2864.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2865.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2866.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2867.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2868.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2872.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2875.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2876.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2880.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2881.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2884.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometric identities, trig, even identities, odd identities, sum identities, difference identities",
       "url": "/text-content/8a50a13f-5c75-432c-bd2b-9b1fb5dc8f20",
       "source": "Precalculus, 3rd Edition 10.4",
-      "topic": "Trigonometry/Fundamental Identities"
+      "topic": "8177d58d-e84b-4f1b-9995-0b93ae67ca98"
     },
     {
       "uuid": "1d1459ba-307e-44d7-bd17-c92dbdf21dc1",
@@ -933,12 +848,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Graphs of the Trigonometric Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2885.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2886.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2887.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2888.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2889.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2890.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2891.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2892.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2893.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2894.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2895.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2896.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2897.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2898.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2902.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2904.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2905.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2909.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2910.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2911.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2915.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2885.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2886.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2887.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2888.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2889.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2890.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2891.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2892.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2893.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2894.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2895.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2896.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2897.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2898.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2902.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2903.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2904.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2905.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2909.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2910.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2911.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2915.png\"/\u003e",
       "allAnswers": [],
       "tags": "trigonometric functions, graphs of trig functions, sine graph, cosine graph, tan graph ",
       "url": "/text-content/1d1459ba-307e-44d7-bd17-c92dbdf21dc1",
       "source": "Precalculus, 3rd Edition 10.5",
-      "topic": "Trigonometry/Graphing Trigonometric Functions"
+      "topic": "dacb5196-1daf-46c9-a05e-c7a1b9910e1c"
     },
     {
       "uuid": "5fc4c48b-fcb7-4e39-86e5-2fd281252b02",
@@ -950,14 +865,60 @@
       "viewable": true,
       "karma": 3,
       "title": "The Inverse Trigonometric Functions",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2916.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2917.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2918.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2919.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2920.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2921.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2922.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2923.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2924.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2926.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2931.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2932.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2936.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2946.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2916.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2917.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2918.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2919.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2920.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2921.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2922.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2923.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2924.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2925.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2926.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2931.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2932.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2936.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2946.png\"/\u003e\n\n\u003cimg src\u003d\"/_static/img/content/10/.png\"/\u003e",
       "allAnswers": [],
       "tags": "inverse trig functions, inverse sin, inverse cosine, inverse tan ",
       "url": "/text-content/5fc4c48b-fcb7-4e39-86e5-2fd281252b02",
       "source": "Precalculus, 3rd Edition 10.6",
-      "topic": "Trigonometry/Fundamental Identities/Inverse Trigonometric Functions/Definitions"
+      "topic": "51225aca-bfac-4c2f-941b-327d7dbcd21c"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "f456125c-5d90-4652-8088-20d44960fe18",
+      "subTopics": [],
+      "parentTopics": [
+        "f2fcffac-de28-4e51-a73d-1b701b4ba449"
+      ],
+      "title": "Critical Points",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " monotone increase,critical points, monotone decrease, decreasing , increasing,",
+      "difficulty": 502000,
+      "contentUuids": [
+        "2dbcfe72-dd14-4bc4-8cab-eeef99a2a45f"
+      ]
+    },
+    {
+      "uuid": "a6a81cf7-8b13-427a-a3a2-361367366954",
+      "subTopics": [],
+      "parentTopics": [
+        "c494d7d2-e50b-43d6-9ecb-f3c45f8a0442"
+      ],
+      "title": "Limit approaching 0",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " recursion relation , taylor polynomials,limit, fibonacci numbers, lagrange theorem, taylor series,",
+      "difficulty": 699000,
+      "contentUuids": [
+        "50144902-92d3-4b4b-9802-20aa0f7c04c4"
+      ]
+    },
+    {
+      "uuid": "51e190ce-6bb5-4f25-b673-0ca517f7108d",
+      "subTopics": [],
+      "parentTopics": [
+        "3dc67de8-0212-4b03-84d7-70808a5564d3"
+      ],
+      "title": "Tangent to curve",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " derivatives, tangent line,tangent to curve,",
+      "difficulty": 497000,
+      "contentUuids": [
+        "0117cd2f-1204-4993-9f70-1df102b737db"
+      ]
+    }
+  ]
 }

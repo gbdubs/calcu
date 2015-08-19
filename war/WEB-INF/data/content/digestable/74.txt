@@ -2,413 +2,182 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": " \\(48\\) ",
-      "uuid": "04660c0e-01bb-451b-87ba-164eb8510483",
+      "authorSolution": "\\begin{enumerate}",
+      "uuid": "cc984228-309e-4799-a909-98a37b055dc2",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361947,
+      "createdAt": 1437419362144,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Geometric Series",
-      "body": " Let  \\(S_n \u003d \\sum_{k\u003d5}^n \\left(-\\frac12\\right)^k\\)  for each natural number \\(n\\) .   Then  \\(\\lim_{n \\sto \\infty} S_n \u003d -\\frac 1a\\)  where  \\(a\\)  \u003d _____.",
+      "title": "Stokes\u0027 Theorem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x^3 \\vec{ }i + 2xz^2 \\vec{ }j + 3y^2z \\vec{ }k\\)  and  \\(V\\)  be the solid region bounded by the paraboloid  \\(z \u003d 4 - x^2 - y^2\\)  and the  \\(xy\\) -plane.   Use the \u003ci\u003edivergence theorem\u003c/i\u003e to find the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over  \\(\\partial V\\) .      Answer: \\smash[b]{ \\(\\D\\iint\\limits_{\\partial V} \\vec{ }F \\cdot d\\vec{ }S \u003d a\\pi\\) } where  \\(a\\) \u003d_____.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/04660c0e-01bb-451b-87ba-164eb8510483",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/cc984228-309e-4799-a909-98a37b055dc2",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(2\\) ",
-      "uuid": "6be64ce7-5a29-426a-9703-54af3ce55640",
+      "authorSolution": " \\(3\\) ",
+      "uuid": "99947fe2-1f58-4441-85a0-2afcabe2ebdb",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361947,
+      "createdAt": 1437419362144,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Infinite Series",
-      "body": " The series  \\(\\sum_{k\u003d5}^\\infty (2x-3)^k\\)  converges for those  \\(x\\)  which satisfy ___  \\(\u003c x \u003c\\)  ___ and for no others.",
+      "title": "Stokes\u0027 Theorem Practice",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d  y \\vec{ }i + z \\vec{ }j + xz \\vec{ }k\\)  and  \\(V\\)  be the solid region consisting of the set of all points  \\((x,y,z)\\)  such that  \\(x^2 + y^2 \\le z \\le 1\\)  and  \\(x \\ge 0\\) .    Then  \\(\\D\\iint\\limits_{\\partial V}\\vec{ }F \\cdot d\\vec{ }S \u003d \\frac a{15}\\)  where  \\(a\\) \u003d___.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/6be64ce7-5a29-426a-9703-54af3ce55640",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/99947fe2-1f58-4441-85a0-2afcabe2ebdb",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(135\\) ",
-      "uuid": "dadc20c1-01bd-412c-bad9-207807f8b09d",
+      "authorSolution": " \\(12\\) ",
+      "uuid": "3c611c4f-2820-455e-94ee-6f17c077b3b7",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361947,
+      "createdAt": 1437419362144,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Infinite Series",
-      "body": " A ball is dropped from a height of 15 feet.    Each time it bounces it rises four-fifths the distance it previously fell.    The total distance traveled by the ball is ______feet.",
+      "title": "Practice In Stokes\u0027 Theorem",
+      "body": " Let  \\(\\vec{ }F(x,y,z) \u003d x^2y \\vec{ }i - x^2z \\vec{ }j + yz^2 \\vec{ }k\\)  and  \\(R\\)  be the rectangular box  \\([0,3] \\times [0,2] \\times [0,1]\\) .   Use the \u003ci\u003edivergence theorem\u003c/i\u003e to find the surface integral of (the normal component of) the vector field  \\(\\vec{ }F\\)  over the boundary of the box.    Answer:  \\(\\D\\iint\\limits_{\\partial R} \\vec{ }F \\cdot d\\vec{ }S\\) \u003d_____.",
       "allAnswers": [],
-      "tags": "infinite series, infinite series ,sum of an infinite series ,geometric series ,Taylor series",
-      "url": "/practice-problem/dadc20c1-01bd-412c-bad9-207807f8b09d",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/3c611c4f-2820-455e-94ee-6f17c077b3b7",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Series/Infinite Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": "converges,  \\(\\dfrac1{2e}\\) ",
-      "uuid": "85ca5bd5-2a39-4012-8d1f-e7ae19fe9ab3",
+      "authorSolution": " \\(\\pi\\) ",
+      "uuid": "32a8fe99-2973-4c3e-b826-1bd0413c4252",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361950,
+      "createdAt": 1437419362144,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Convergence Tests For Series Problem",
-      "body": " The infinite series  \\(\\sum_{k\u003d1}^\\infty ke^{-k^2}\\)  __________ (converges/diverges) because the integral  \\(\\int_1^\\infty xe^{-x^2} dx\\) \u003d______ .",
+      "title": "Practice In Stokes\u0027 Theorem",
+      "body": "[]  \\(S_1\\)  be the face of the cube lying in the  \\(xy\\) -plane,",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/85ca5bd5-2a39-4012-8d1f-e7ae19fe9ab3",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/32a8fe99-2973-4c3e-b826-1bd0413c4252",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": "diverges,  \\(\\infty\\) ",
-      "uuid": "a191d523-7cca-4872-9592-aaefc6d529a2",
+      "authorSolution": " \\(0\\) ",
+      "uuid": "022ddf7c-f251-43ea-995a-501f243952e5",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361950,
+      "createdAt": 1437419362144,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Question On Convergence Tests For Series",
-      "body": " The infinite series  \\(\\sum_2^\\infty \\frac1{n \\sqrt{\\ln n}}\\)  __________ (converges/diverges) because the integral  \\(\\int_2^\\infty \\frac1{x \\sqrt{\\ln x}} dx\\)  \u003d ______.",
+      "title": "Stokes\u0027 Theorem Practice",
+      "body": "[]  \\(S_3\\)  be the face of the cube lying in the plane  \\(x \u003d 1\\) ,",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/a191d523-7cca-4872-9592-aaefc6d529a2",
+      "tags": "stokes\u0027 theorem,",
+      "url": "/practice-problem/022ddf7c-f251-43ea-995a-501f243952e5",
       "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "topic": "bfae2315-538d-4b7f-8d6c-96bac1173812"
     },
     {
-      "authorSolution": " \\(\\pi\\) ,  \\(\\pi + 2\\) ",
-      "uuid": "c2a60b2e-6d66-48b5-8f02-c5b2b5991756",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/1004.png\"/\u003e",
+      "uuid": "70333c74-b081-4752-9bc5-57c9c4713054",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361951,
+      "createdAt": 1437611655776,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Convergence Tests For Series",
-      "body": " By the \u003ci\u003eintegral test\u003c/i\u003e the sum  \\(S\\)  of the series  \\(\\sum_{n\u003d0}^\\infty \\frac1{n^2+1}\\)  satisfies  \\(\\dfrac a2 \u003c S \u003c \\dfrac b2\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d______.",
+      "title": "Find the Truth Set",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/1003.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/c2a60b2e-6d66-48b5-8f02-c5b2b5991756",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "tags": "sets, open sets, truth set, open sentence",
+      "url": "/practice-problem/70333c74-b081-4752-9bc5-57c9c4713054",
+      "source": "null 2.1.1"
     },
     {
-      "authorSolution": " \\(1\\) ,  \\(\\infty\\) ",
-      "uuid": "86196d21-5592-44f4-8a15-bf1e4b0bffa1",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/1009.png\"/\u003e",
+      "uuid": "b5be521b-cbeb-4eb8-95f5-13456f2ce5df",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361951,
+      "createdAt": 1437611655776,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice With Convergence Tests For Series",
-      "body": " The series  \\(\\sum_{n\u003d2}^\\infty \\frac1{n(\\ln n)^p}\\)  converges for  \\(a \u003c p \u003c b\\)  where  \\(a\\) \u003d___ and  \\(b\\) \u003d___, and nowhere else.",
+      "title": "Deciphering the Truth Value",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/1008.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/86196d21-5592-44f4-8a15-bf1e4b0bffa1",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "tags": "truth value, symbolic form, logic",
+      "url": "/practice-problem/b5be521b-cbeb-4eb8-95f5-13456f2ce5df",
+      "source": "null 2.1.2"
     },
     {
-      "authorSolution": " \\(2\\) ,  \\(3\\) ,  \\(4\\) ",
-      "uuid": "a07f8211-492a-4bd6-8115-a88da997e286",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/9.png\"/\u003e",
+      "uuid": "e0a52588-b9a2-469e-ab2b-fa3e11bb4901",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361951,
+      "createdAt": 1437611655777,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Practice In Convergence Tests For Series",
-      "body": " By the integral test the sum  \\(S\\)  of the series  \\(\\sum_{n\u003d2}^\\infty \\frac{\\ln n}{n^2}\\)  satisfies  \\(S \\le \\dfrac{a+b\\ln2}{c}\\)  where  \\(a\\) \u003d___,  \\(b\\) \u003d___, and  \\(c\\) \u003d___.",
+      "title": "Angle Proof",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/8.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/a07f8211-492a-4bd6-8115-a88da997e286",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "tags": "geometry proofs, angle proof, deductive reasoning ",
+      "url": "/practice-problem/e0a52588-b9a2-469e-ab2b-fa3e11bb4901",
+      "source": "null 3.3.2"
     },
     {
-      "authorSolution": " \\(\\dfrac3{k^2}\\) ",
-      "uuid": "2eed34da-6b46-471b-852f-700a8519cb4d",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/13.png\"/\u003e",
+      "uuid": "babbd896-0da8-45c5-8f81-e1a74589447e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361951,
+      "createdAt": 1437611655777,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "A Convergence Tests For Series Question",
-      "body": " Let  \\(a_k \u003d \\dfrac{3k^2-2k-1}{k^4+3k^2+5}\\)  for  \\(k \\ge 2\\) .    To show that the series  \\(\\sum_{k\u003d2}^\\infty a_k\\)  converges we choose  \\(b_k\\) \u003d______ for each  \\(k \\ge 2\\)  and notice that  \\(a_k \\le b_k\\)  for each  \\(k \\ge 2\\)  and that  \\(\\sum_{k\u003d2}^\\infty b_k\\)  converges.",
+      "title": "Congruent segments proof",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/12.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/2eed34da-6b46-471b-852f-700a8519cb4d",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "tags": "indirect proof, congruent line segment proof, line segment proof ",
+      "url": "/practice-problem/babbd896-0da8-45c5-8f81-e1a74589447e",
+      "source": "null 3.4.2"
     },
     {
-      "authorSolution": "limit comparison,  \\(\\sqrt 5\\) ",
-      "uuid": "4eb3d946-0367-4d7e-887e-2bf7b5b231e2",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/15.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/16.png\"/\u003e",
+      "uuid": "6cd86be3-4ed6-4309-8bdd-0b4e9ab8e28c",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437419361951,
+      "createdAt": 1437611655777,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "On Convergence Tests For Series",
-      "body": " Let  \\(a_k \u003d \\dfrac1{\\sqrt{5k^3-20k^2+7k-3}}\\)  for  \\(k \\ge 4\\) .    To show that the series  \\(\\sum_{k\u003d4}^\\infty a_k\\)  converges we choose  \\(b_k\u003dk^{-3/2}\\)  for  \\(k \\ge 4\\)  and use the _________________ test.    The series  \\(\\sum_{k\u003d4}^\\infty b_k\\)  converges and  \\(\\lim_{k \\sto \\infty} \\frac{a_k}{b_k} \u003d \\frac1a\\)  where  \\(a\\) \u003d____.",
+      "title": "Perpendicular proof",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/1/14.png\"/\u003e",
       "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/4eb3d946-0367-4d7e-887e-2bf7b5b231e2",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
-    },
-    {
-      "authorSolution": "limit comparison,  \\(5\\) ",
-      "uuid": "b233e02d-f84e-4680-a7d7-ce2ac42d60b9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361951,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Question On Convergence Tests For Series",
-      "body": " Let  \\(a_k \u003d \\dfrac1{5k^2-3k+5}\\)  for  \\(k \\ge 1\\) .    To show that the series  \\(\\sum_{k\u003d1}^\\infty a_k\\)  converges we choose  \\(b_k \u003d k^{-2}\\)  for  \\(k \\ge 1\\)  and use the ______________ test.    The series  \\(\\sum_{k\u003d1}^\\infty b_k\\)  converges and  \\(\\lim_{k \\sto \\infty} \\frac{a_k}{b_k} \u003d \\frac1a\\)  where  \\(a\\) \u003d____.",
-      "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/b233e02d-f84e-4680-a7d7-ce2ac42d60b9",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
-    },
-    {
-      "authorSolution": "converges,  \\(0\\) ",
-      "uuid": "ca17527a-d49e-479d-a354-d0c8f7d0bc10",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361951,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Convergence Tests For Series",
-      "body": " Let  \\(a_n \u003d \\dfrac{3^{100n}}{3\\cdot6\\cdots(3n)}\\)  for  \\(n \\ge 1\\) .   Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  __________ (converges/diverges) because  \\(\\lim_{n \\sto \\infty}\\frac{a_{n+1}}{a_n}\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/ca17527a-d49e-479d-a354-d0c8f7d0bc10",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
-    },
-    {
-      "authorSolution": "diverges,  \\(\\infty\\) ",
-      "uuid": "85fbb185-0b6f-44cd-8f04-d21061e16057",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361952,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Practice In Convergence Tests For Series",
-      "body": " Let  \\(a_n \u003d \\dfrac{(2n-1)!}{4^{2n-1}}\\)  for  \\(n \\ge 1\\) .    Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  __________ (converges/diverges) because  \\(\\lim_{n \\sto \\infty}\\dfrac{a_{n+1}}{a_n} \u003d\\) ____.",
-      "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/85fbb185-0b6f-44cd-8f04-d21061e16057",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
-    },
-    {
-      "authorSolution": "converges,  \\(e\\) ",
-      "uuid": "3d622b95-7492-459c-9fc2-eecf2791eb13",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361952,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Convergence Tests For Series Question",
-      "body": " Let  \\(a_n \u003d \\left(1+\\dfrac1n\\right)^{-n^2}\\)  for  \\(n \\ge 1\\) .    Then the series  \\(\\sum_{n\u003d1}^\\infty a_n\\)  __________ (converges/diverges) because  \\(\\lim_{n \\sto \\infty} (a_n)^{1/n} \u003d \\dfrac1a\\)  where  \\(a\\)  \u003d _____.",
-      "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/3d622b95-7492-459c-9fc2-eecf2791eb13",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
-    },
-    {
-      "authorSolution": "conditionally,  \\(9\\) ,  \\(3\\) ,  \\(6\\) ,  \\(7\\) ",
-      "uuid": "13da3814-38a0-4330-a2e6-983f4ac0ed5e",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437419361952,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Convergence Tests For Series Practice",
-      "body": " The series  \\(\\sum_2^\\infty \\dfrac{(-1)^k}{k\\ln k}\\)  converges _____________.   By computing the partial sums  \\(S_6\\)  and  \\(S_7\\)  we know that the sum  \\(S\\)  of the series satisfies  \\[0.4  \\text{_  _}   60 \u003c S \u003c 0.5           \\text{_  _}   03.\\]",
-      "allAnswers": [],
-      "tags": "convergence tests for series,",
-      "url": "/practice-problem/13da3814-38a0-4330-a2e6-983f4ac0ed5e",
-      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
-      "topic": "Calculus/Sequences and Series/Comparison Tests/Convergent Series"
+      "tags": "perpendicular proof, indirect proof, direct proof, ",
+      "url": "/practice-problem/6cd86be3-4ed6-4309-8bdd-0b4e9ab8e28c",
+      "source": "null 3.4.3"
     }
   ],
   "questions": [
-    {
-      "uuid": "9f46bace-c583-42df-8181-07d95af738f1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/9f46bace-c583-42df-8181-07d95af738f1",
-      "source": " ",
-      "topic": ""
-    },
-    {
-      "uuid": "4c0f21cb-c9f1-403a-bd47-8cdab37b8bbc",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/4c0f21cb-c9f1-403a-bd47-8cdab37b8bbc",
-      "source": " ",
-      "topic": ""
-    },
-    {
-      "uuid": "88fd91a1-f158-40f4-b74d-c97feebd5409",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/88fd91a1-f158-40f4-b74d-c97feebd5409",
-      "source": " ",
-      "topic": ""
-    },
-    {
-      "uuid": "15fff79e-c1f2-4c26-ac2d-237d000d11d7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/15fff79e-c1f2-4c26-ac2d-237d000d11d7",
-      "source": " ",
-      "topic": ""
-    },
-    {
-      "uuid": "12f16c43-0e5f-4e66-9895-952a06b47726",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/12f16c43-0e5f-4e66-9895-952a06b47726",
-      "source": " ",
-      "topic": ""
-    },
-    {
-      "uuid": "500a695f-4a49-4099-82af-66311b05056b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "",
-      "body": "",
-      "allAnswers": [],
-      "tags": "",
-      "url": "/question/500a695f-4a49-4099-82af-66311b05056b",
-      "source": " ",
-      "topic": ""
-    },
-    {
-      "uuid": "b65b5473-c8c2-4f93-8105-f3375d200c22",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(A\u003d\\int x^{-2} \\,dx\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/b65b5473-c8c2-4f93-8105-f3375d200c22",
-      "source": "Math 222 1.1.1",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
-    {
-      "uuid": "eba034c4-a5a0-472c-aa78-b22da383f5d1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787599,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the Integral",
-      "body": "\\(\\int t^{-2} \\,dt\\)",
-      "allAnswers": [],
-      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
-      "url": "/question/eba034c4-a5a0-472c-aa78-b22da383f5d1",
-      "source": "Math 222 1.1.2",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
-    },
     {
       "uuid": "d7e73e10-58ea-40e1-9856-65bb44dc597d",
       "contentType": "question",
@@ -424,7 +193,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d7e73e10-58ea-40e1-9856-65bb44dc597d",
       "source": "Math 222 1.1.3",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "d6703886-65cc-42ef-a5bd-c4e6d644966b",
@@ -441,7 +210,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/d6703886-65cc-42ef-a5bd-c4e6d644966b",
       "source": "Math 222 1.1.4",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "3a3974d4-539f-4808-9752-b6a48aca1e26",
@@ -458,7 +227,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/3a3974d4-539f-4808-9752-b6a48aca1e26",
       "source": "Math 222 1.1.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "0c47a62c-c398-4eed-9320-62441e60cd90",
@@ -475,7 +244,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/0c47a62c-c398-4eed-9320-62441e60cd90",
       "source": "Math 222 1.1.6",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "c5c04f5f-9784-42b3-8b84-8b155c46e13c",
@@ -492,7 +261,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/c5c04f5f-9784-42b3-8b84-8b155c46e13c",
       "source": "Math 222 1.1.7",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "76012c4e-de98-4e05-b1ac-614c86203eed",
@@ -509,7 +278,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/76012c4e-de98-4e05-b1ac-614c86203eed",
       "source": "Math 222 1.1.8",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "9aded71c-2806-4d69-9996-48755f408c03",
@@ -526,7 +295,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/9aded71c-2806-4d69-9996-48755f408c03",
       "source": "Math 222 1.1.9",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "035f4d08-7f79-4ef5-977e-33a5990e5215",
@@ -543,7 +312,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/035f4d08-7f79-4ef5-977e-33a5990e5215",
       "source": "Math 222 1.1.10",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "95f481a2-fbfe-43b3-ad4b-b90519d819f5",
@@ -560,7 +329,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/95f481a2-fbfe-43b3-ad4b-b90519d819f5",
       "source": "Math 222 1.1.6",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "3a9307d4-d27f-46b4-b8fb-de970e363c40",
@@ -577,7 +346,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/3a9307d4-d27f-46b4-b8fb-de970e363c40",
       "source": "Math 222 1.1.7",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "a1258956-4723-423d-85b5-4b3d161048cb",
@@ -594,7 +363,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/a1258956-4723-423d-85b5-4b3d161048cb",
       "source": "Math 222 1.1.8",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "7ae1452c-f02b-49a2-a714-d703ebb61817",
@@ -611,7 +380,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/7ae1452c-f02b-49a2-a714-d703ebb61817",
       "source": "Math 222 1.1.11",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "27835fb2-93bf-4ebe-9eee-daf7eff03183",
@@ -628,7 +397,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/27835fb2-93bf-4ebe-9eee-daf7eff03183",
       "source": "Math 222 1.1.12",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "0b496a67-75c2-4946-a867-6c7f4beb28f9",
@@ -645,7 +414,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/0b496a67-75c2-4946-a867-6c7f4beb28f9",
       "source": "Math 222 1.1.13",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "01107b5d-2c9e-4213-9a99-5297e877a203",
@@ -662,7 +431,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/01107b5d-2c9e-4213-9a99-5297e877a203",
       "source": "Math 222 1.1.14",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "ebbc11d8-da4e-404f-a97e-12527a12bbc8",
@@ -679,7 +448,7 @@
       "tags": "differential equations, linear equations, homogeneous linear",
       "url": "/question/ebbc11d8-da4e-404f-a97e-12527a12bbc8",
       "source": "Math 222 4.1.1",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "f181aeb8-82cb-41bd-9244-75d6075428fa",
@@ -696,7 +465,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/f181aeb8-82cb-41bd-9244-75d6075428fa",
       "source": "Math 222 1.1.15",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "db7395e4-3a20-4e3c-96cc-d267ce831cb6",
@@ -713,7 +482,7 @@
       "tags": "differential equation",
       "url": "/question/db7395e4-3a20-4e3c-96cc-d267ce831cb6",
       "source": "Math 222 4.1.2",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "465376da-4408-46c3-af48-eb38fba21db5",
@@ -730,7 +499,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/465376da-4408-46c3-af48-eb38fba21db5",
       "source": "Math 222 1.1.16",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "4b915546-9480-4ea5-b262-b62bb9fd4297",
@@ -747,7 +516,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/4b915546-9480-4ea5-b262-b62bb9fd4297",
       "source": "Math 222 1.1.17",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "37472bc9-9250-472e-b505-3706d2e2f0d8",
@@ -764,7 +533,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/37472bc9-9250-472e-b505-3706d2e2f0d8",
       "source": "Math 222 1.1.18",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "b5ae5ea3-3f8e-4542-a374-615ddf44c3c1",
@@ -781,7 +550,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/b5ae5ea3-3f8e-4542-a374-615ddf44c3c1",
       "source": "Math 222 1.1.19",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "558b5285-d491-4d4d-b49a-15d58ec7494f",
@@ -798,7 +567,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/558b5285-d491-4d4d-b49a-15d58ec7494f",
       "source": "Math 222 1.1.20",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "6bd537e3-fec5-4c87-b935-b5d272147671",
@@ -815,7 +584,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/6bd537e3-fec5-4c87-b935-b5d272147671",
       "source": "Math 222 1.1.21",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "9a4080ae-f6b3-4c33-882a-692a8b2ae411",
@@ -832,7 +601,7 @@
       "tags": "differential equation, linear homogeneous ",
       "url": "/question/9a4080ae-f6b3-4c33-882a-692a8b2ae411",
       "source": "Math 222 4.1.3",
-      "topic": "Calculus/Derivative Calculus/Continuity and Differentiability/Bounded Differentiable Function"
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
     },
     {
       "uuid": "b8d9353c-730e-4360-8617-bce13a4130c3",
@@ -849,7 +618,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/b8d9353c-730e-4360-8617-bce13a4130c3",
       "source": "Math 222 1.1.22",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "e8d6422e-d563-4106-98b6-e604600b1926",
@@ -866,7 +635,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/e8d6422e-d563-4106-98b6-e604600b1926",
       "source": "Math 222 1.1.23",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "017cd425-c78e-434f-a5b2-dff0d7c6e555",
@@ -883,7 +652,7 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/017cd425-c78e-434f-a5b2-dff0d7c6e555",
       "source": "Math 222 1.1.24",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     },
     {
       "uuid": "dff1c823-c4e7-4e90-980d-74b75a11544e",
@@ -900,7 +669,143 @@
       "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
       "url": "/question/dff1c823-c4e7-4e90-980d-74b75a11544e",
       "source": "Math 222 1.1.25",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions"
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "0f7c39e3-302a-4b98-af08-a6d703ab1b80",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^{\\sqrt{3}}_{1} \\frac{6}{ {1+x^2}} \\,dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/0f7c39e3-302a-4b98-af08-a6d703ab1b80",
+      "source": "Math 222 1.1.26",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "f8179641-fa2c-4426-88b1-7df937a78d1b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^{0.5}_{0} \\frac{dx}{ \\sqrt{1-x^2}}\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/f8179641-fa2c-4426-88b1-7df937a78d1b",
+      "source": "Math 222 1.1.27",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "bf834695-86c7-4b77-8a8f-f367e145b247",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^{8}_{4} (1/x) \\,dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/bf834695-86c7-4b77-8a8f-f367e145b247",
+      "source": "Math 222 1.1.28",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "c2740681-ce50-4e65-ad5f-7b0b167f189a",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^{\\ln 6}_{\\ln 3} 8e^x \\,dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/c2740681-ce50-4e65-ad5f-7b0b167f189a",
+      "source": "Math 222 1.1.29",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "af79ffc4-d7f5-40ee-94d2-81bfc05e8458",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^{9}_{8} 2^t \\,dt\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/af79ffc4-d7f5-40ee-94d2-81bfc05e8458",
+      "source": "Math 222 1.1.30",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "511276b7-9dbc-42d9-84bc-75c5d80a1b85",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Differential Equations",
+      "body": "Consider the differential equation \\(\\frac{dy}{dt} \u003d \\frac{4-y^{2}}{4}\\).\n(a) Find the solutions y\\(_{0}\\), y\\(_{1}\\), y\\(_{2}\\) and y\\(_{3}\\) which satisfy y\\(_{0}\\)(0) \u003d 0, y\\(_{1}\\)(0)\u003d1, y\\(_{2}\\)(0) \u003d 2 and y\\(_{3}\\)(0)\u003d3.\n(b) Find \\(\\lim_{t \\rightarrow \\infty} y\\(_{k}\\)(t) for k \u003d 1,2,3.\n(c) Find \\(\\lim_{t \\rightarrow - \\infty} y\\(_{k}\\)(t) for k \u003d 1,2,3.\n(d) Graph the four solutions y\\(_{0}\\), ...., y\\(_{3}\\)\n(e) Show that the quantity x \u003d (y+2)/4 satisfies the so-called Logistic Equation \\(\\frac{dx}{dt}\\) \u003d x(1-x).",
+      "allAnswers": [],
+      "tags": "differential equation, logistic equation, limits",
+      "url": "/question/511276b7-9dbc-42d9-84bc-75c5d80a1b85",
+      "source": "Math 222 4.1.4",
+      "topic": "0d2226c6-dc64-4f4f-99e8-7a4007e5fbae"
+    },
+    {
+      "uuid": "fea929ca-e890-4ac8-9b79-09c8f963e60d",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^{-e}_{-e^2} \\frac{3}{ x} \\,dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/fea929ca-e890-4ac8-9b79-09c8f963e60d",
+      "source": "Math 222 1.1.31",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
+    },
+    {
+      "uuid": "a362484c-9388-4c23-be98-83410be4d152",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787599,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Compute the Integral",
+      "body": "\\(\\DS \\int^3_{-2} |x^2-1| \\,dx\\)",
+      "allAnswers": [],
+      "tags": "integrals, partial fraction decomposition, quadratic factors, rational functions",
+      "url": "/question/a362484c-9388-4c23-be98-83410be4d152",
+      "source": "Math 222 1.1.32",
+      "topic": "5004c14b-9980-4929-9945-3d3258051f75"
     }
   ],
   "textContent": [
@@ -919,7 +824,7 @@
       "tags": "trigonometric functions, differentiating trig functions, derivatives ",
       "url": "/text-content/16b35eaf-0df4-4bfe-8abb-ad4a8e5eccb0",
       "source": "Forgotten Text 6 4.11",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Trigonometric functions"
+      "topic": "ce836446-80b8-45bd-92e3-1132ef107d04"
     },
     {
       "uuid": "1637b260-85ea-4ac6-bd49-939b4d765976",
@@ -936,9 +841,63 @@
       "tags": "chain rule, derivatives, power rule",
       "url": "/text-content/1637b260-85ea-4ac6-bd49-939b4d765976",
       "source": "Forgotten Text 6 4.13",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/Chain Rule"
+      "topic": "88bd01b1-8c5e-40e7-90e6-d1c467c8eefe"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "0be15a5e-36b9-4c79-ab4f-8afdb3eda3a2",
+      "subTopics": [],
+      "parentTopics": [
+        "67314d5c-ec3f-448a-8312-99aa4c26deba"
+      ],
+      "title": "Limits at Infinity",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " rational functions ,infinity, limits,",
+      "difficulty": 391000,
+      "contentUuids": [
+        "1e1739e4-4154-40a3-a3bc-f2d90895519c"
+      ]
+    },
+    {
+      "uuid": "b4cdeb43-dab7-4467-814a-bf54c204d81c",
+      "subTopics": [],
+      "parentTopics": [
+        "37f68416-87a9-4f88-843b-8e1b636ba221"
+      ],
+      "title": "Area Under the Curve",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "antiderivative, function,",
+      "difficulty": 539000,
+      "contentUuids": [
+        "a5ca11e5-c102-49f3-a43d-9d9e7c6d91cc",
+        "9f55fe45-588a-4545-8f27-6d121a8c92d7"
+      ]
+    },
+    {
+      "uuid": "42883932-71ed-413d-b22f-8e453b613e77",
+      "subTopics": [],
+      "parentTopics": [
+        "11537e88-3ae4-452c-bae6-24c80642b10a"
+      ],
+      "title": "Centroid",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " beam, finding the center of mass, density, center of mass,centroid, distance, infinity, limit, mass, region, value,center of mass, diverge, converge,Cauchy Principal Value, integral, area under curve, axes, quadrant, verify ,verifying equation,area, finite, find the centroid, arccos, integration, sine, infinite, circle, finding the centroid,",
+      "difficulty": 625000,
+      "contentUuids": [
+        "87b60505-d6e8-4695-b5e0-d717f84fe3d1",
+        "365a93ca-1a56-4c4d-94a4-034b7b0187e7",
+        "3e6cf38d-e85b-44b6-8c4c-a2ef47047d8a",
+        "5f0ad4cc-0d9f-4175-adbf-d104cd5ae3eb",
+        "a58c77ba-bada-4dc8-8bb5-a97f9450a196",
+        "14c6c78a-cf20-4ffd-a4cc-af0c3ef98ce5",
+        "7cb0d8e9-42bb-4325-b241-d480bb5501eb",
+        "af728f4a-45be-4fc3-b839-84e4dd7c2403"
+      ]
+    }
+  ]
 }

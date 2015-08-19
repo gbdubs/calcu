@@ -2,330 +2,177 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/857.png\"/\u003e",
-      "uuid": "123b91ad-f794-4415-a546-49b519daa063",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2856.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2857.png\"/\u003e",
+      "uuid": "41a2198f-53bc-45f9-aefd-97e8d4d40897",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Distance between two cars",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/856.png\"/\u003e",
+      "title": "Angle of inclination",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2855.png\"/\u003e",
       "allAnswers": [],
-      "tags": "related rates, calc ",
-      "url": "/practice-problem/123b91ad-f794-4415-a546-49b519daa063",
-      "source": "null 6.2.4"
+      "tags": "angle of inclination, height using angle ",
+      "url": "/practice-problem/41a2198f-53bc-45f9-aefd-97e8d4d40897",
+      "source": "null 10.3.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/862.png\"/\u003e",
-      "uuid": "2b10d19f-f9f2-436f-a7c0-8b4c2109d11a",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2870.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2871.png\"/\u003e",
+      "uuid": "6152e429-0f87-43dc-ae8d-2fe016cb48fd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Newtons method",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/861.png\"/\u003e",
+      "title": "angle 2theta ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2869.png\"/\u003e",
       "allAnswers": [],
-      "tags": "newtons method, calc ",
-      "url": "/practice-problem/2b10d19f-f9f2-436f-a7c0-8b4c2109d11a",
-      "source": "null 6.3.1"
+      "tags": "terminal side of angle, theta, trigonometric identities, sine, cosine ",
+      "url": "/practice-problem/6152e429-0f87-43dc-ae8d-2fe016cb48fd",
+      "source": "null 10.4.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/899.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/900.png\"/\u003e",
-      "uuid": "56c22f5c-5f3e-43dd-b25f-4c5fa43467ba",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2874.png\"/\u003e",
+      "uuid": "bd59b1bf-e1eb-4b11-b8a9-e0c950e30727",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Evaluate integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/898.png\"/\u003e",
+      "title": "sum and difference of cosines",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2873.png\"/\u003e",
       "allAnswers": [],
-      "tags": "integration by parts, integral, integration methods ",
-      "url": "/practice-problem/56c22f5c-5f3e-43dd-b25f-4c5fa43467ba",
-      "source": "null 8.4.1"
+      "tags": "sum and difference identities, sum identity, difference identity, trigonometric identities ",
+      "url": "/practice-problem/bd59b1bf-e1eb-4b11-b8a9-e0c950e30727",
+      "source": "null 10.4.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/902.png\"/\u003e",
-      "uuid": "d82548e4-24e0-4348-9778-548292b23737",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2878.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2879.png\"/\u003e",
+      "uuid": "e20c986d-577b-41f7-bc8a-331a4b1d234e",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Evaluate the integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/901.png\"/\u003e",
+      "title": "Half angle formula",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2877.png\"/\u003e",
       "allAnswers": [],
-      "tags": "integral, integration by parts, integration methods ",
-      "url": "/practice-problem/d82548e4-24e0-4348-9778-548292b23737",
-      "source": "null 8.4.2"
+      "tags": "half angle formula, sine, cosine, trigonometric identities ",
+      "url": "/practice-problem/e20c986d-577b-41f7-bc8a-331a4b1d234e",
+      "source": "null 10.4.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/909.png\"/\u003e",
-      "uuid": "1ca493e3-6478-487a-a0a1-08db7eb34d8e",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2883.png\"/\u003e",
+      "uuid": "cf357c57-d17d-4bf8-bcc8-827cba52515b",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Determine whether equation factors",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/908.png\"/\u003e",
+      "title": "Write sum and product",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2882.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, integration, integration methods",
-      "url": "/practice-problem/1ca493e3-6478-487a-a0a1-08db7eb34d8e",
-      "source": "null 8.5.1"
+      "tags": "sum identity, difference identity, trigonometric identities ",
+      "url": "/practice-problem/cf357c57-d17d-4bf8-bcc8-827cba52515b",
+      "source": "null 10.4.4"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/911.png\"/\u003e",
-      "uuid": "3dd0be8a-0b77-42bd-b052-7c053fe46caa",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2900.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2901.png\"/\u003e",
+      "uuid": "1aa01947-c00f-4c30-93bd-50e52ac17f98",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Long division of polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/910.png\"/\u003e",
+      "title": "Find a formula for f(x)",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2899.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, integration, integration methods ",
-      "url": "/practice-problem/3dd0be8a-0b77-42bd-b052-7c053fe46caa",
-      "source": "null 8.5.2"
+      "tags": "trig formula, trigonometric graphs, sin graph, cos graph, tan graph ",
+      "url": "/practice-problem/1aa01947-c00f-4c30-93bd-50e52ac17f98",
+      "source": "null 10.5.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/914.png\"/\u003e",
-      "uuid": "7b3e892c-7320-4b5f-a436-d7f933852ba7",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2907.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2908.png\"/\u003e",
+      "uuid": "11e7aae2-7139-427a-bc3a-ba1cf3377bdf",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Evaluate the integral, pt.2",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/912.png\"/\u003e",
+      "title": "Graph one of the cycles ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2906.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, integration, integration methods ",
-      "url": "/practice-problem/7b3e892c-7320-4b5f-a436-d7f933852ba7",
-      "source": "null 8.5.3"
+      "tags": "period, cycle, sine, cosine, graph of trigonometric functions ",
+      "url": "/practice-problem/11e7aae2-7139-427a-bc3a-ba1cf3377bdf",
+      "source": "null 10.5.2"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/916.png\"/\u003e",
-      "uuid": "883b310a-2c81-4172-8f2e-afaad8249937",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2913.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2914.png\"/\u003e",
+      "uuid": "78bdd259-a505-4940-af04-aa47868b96d4",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Evaluate the integral, polynomials",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/915.png\"/\u003e",
+      "title": "Graph a cycle of the function",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2912.png\"/\u003e",
       "allAnswers": [],
-      "tags": "rational functions, polynomials, integration, integration methods ",
-      "url": "/practice-problem/883b310a-2c81-4172-8f2e-afaad8249937",
-      "source": "null 8.5.4"
+      "tags": "cycle, period, graph trigonometric functions, tan graph, cot graph",
+      "url": "/practice-problem/78bdd259-a505-4940-af04-aa47868b96d4",
+      "source": "null 10.5.3"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/927.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/928.png\"/\u003e",
-      "uuid": "31f1ebca-fbab-4b13-b858-8233c182185c",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2929.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2930.png\"/\u003e",
+      "uuid": "5d873402-fad2-4f30-9405-883178b888dd",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find area between curves",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/926.png\"/\u003e",
+      "title": "inverse trig functions",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2928.png\"/\u003e",
       "allAnswers": [],
-      "tags": "integration, application of integration, area between curves ",
-      "url": "/practice-problem/31f1ebca-fbab-4b13-b858-8233c182185c",
-      "source": "null 9.1.1"
+      "tags": "inverse trig functions, inverse sin, inverse cos, inverse tan",
+      "url": "/practice-problem/5d873402-fad2-4f30-9405-883178b888dd",
+      "source": "null 10.6.1"
     },
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/937.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/938.png\"/\u003e",
-      "uuid": "81fd614f-851e-4827-a0c4-7c326136c082",
+      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2934.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2935.png\"/\u003e",
+      "uuid": "370fd08a-f5f0-469b-af97-01a8ebeeb820",
       "contentType": "practiceProblem",
       "creatorUserId": "",
-      "createdAt": 1437611655787,
+      "createdAt": 1437611655790,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
       "karma": 3,
-      "title": "Find the volume of cone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/935.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/936.png\"/\u003e",
+      "title": "Exercise with inverse trig functions ",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2933.png\"/\u003e",
       "allAnswers": [],
-      "tags": "volume of cone, integration, applications of integration ",
-      "url": "/practice-problem/81fd614f-851e-4827-a0c4-7c326136c082",
-      "source": "null 9.3.1 "
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/941.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/942.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/943.png\"/\u003e",
-      "uuid": "caf585c2-f5fa-4cd9-b92a-2ad1ebd71edb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Volume of object between area",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/939.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/940.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "applications of integration, volume between curves, volume ",
-      "url": "/practice-problem/caf585c2-f5fa-4cd9-b92a-2ad1ebd71edb",
-      "source": "null 9.3.2"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
-      "uuid": "88488bdf-2002-499b-9028-a66e8394fb40",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Disk and shell method ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/944.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "applications of integration, disk method, shell method ",
-      "url": "/practice-problem/88488bdf-2002-499b-9028-a66e8394fb40",
-      "source": "null 9.3.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/951.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/952.png\"/\u003e",
-      "uuid": "16af438b-6c35-43b4-8a6d-92c29567e1b8",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Work to pump out water ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/950.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "applications of integration, hooke\u0027s law, integral ",
-      "url": "/practice-problem/16af438b-6c35-43b4-8a6d-92c29567e1b8",
-      "source": "null 9.5.1"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/.png\"/\u003e",
-      "uuid": "a68cb6fc-c860-405a-9739-0aa7baab12d6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Magnitude of the force ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/953.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "applications of integration, magnitude of force ",
-      "url": "/practice-problem/a68cb6fc-c860-405a-9739-0aa7baab12d6",
-      "source": "null 9.5.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/955.png\"/\u003e",
-      "uuid": "2cf1de01-31de-42ce-87dd-ff9552bf006d",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Work on spring ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/954.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "applications of integration, integral, work ",
-      "url": "/practice-problem/2cf1de01-31de-42ce-87dd-ff9552bf006d",
-      "source": "null 9.5.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/961.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/962.png\"/\u003e",
-      "uuid": "e2ed79f5-fd5d-4779-ae5e-40cac937a9d2",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655787,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Plate of uniform density ",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/960.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "applications of integration, integral, uniform density ",
-      "url": "/practice-problem/e2ed79f5-fd5d-4779-ae5e-40cac937a9d2",
-      "source": "null 9.6.1"
+      "tags": "inverse trig funcitons, inverse sin, inverse cos, inverse tan ",
+      "url": "/practice-problem/370fd08a-f5f0-469b-af97-01a8ebeeb820",
+      "source": "null 10.6.2"
     }
   ],
   "questions": [
-    {
-      "uuid": "277e9c54-9aa1-4008-a6cc-fc352fec3b0a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find the derivative of each function in simplest factored form.\n \\(g(x)\u003dx^3e^{2x}\\)",
-      "allAnswers": [],
-      "tags": "derivatives",
-      "url": "/question/277e9c54-9aa1-4008-a6cc-fc352fec3b0a",
-      "source": "AP Calculus Problems 2.15.18",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "5c4c08d3-5203-4c33-b0eb-cea4c23d570e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find the derivative of each function in simplest factored form.\n\\(Z(x)\u003d4e^{4x^2+5}\\)",
-      "allAnswers": [],
-      "tags": "derivatives",
-      "url": "/question/5c4c08d3-5203-4c33-b0eb-cea4c23d570e",
-      "source": "AP Calculus Problems 2.15.19",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
-    {
-      "uuid": "5d6fc3a6-6e76-43b5-a151-bb6a24f2e2a2",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787606,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Derivatives",
-      "body": "Find the derivative of each function in simplest factored form.\n\\(q(x)\u003d\\ln(e^x+1)\\)",
-      "allAnswers": [],
-      "tags": "derivatives ",
-      "url": "/question/5d6fc3a6-6e76-43b5-a151-bb6a24f2e2a2",
-      "source": "AP Calculus Problems 2.15.20",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
-    },
     {
       "uuid": "a6a62ea1-397b-495c-9b71-fdcc28409e01",
       "contentType": "question",
@@ -341,7 +188,7 @@
       "tags": "derivatives",
       "url": "/question/a6a62ea1-397b-495c-9b71-fdcc28409e01",
       "source": "AP Calculus Problems 2.15.21",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "72214cd0-80b8-428c-b43a-bd20c98e6022",
@@ -358,7 +205,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain, inflection point, concave, up, down",
       "url": "/question/72214cd0-80b8-428c-b43a-bd20c98e6022",
       "source": "AP Calculus Problems 3.2.20",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "5984807d-b62e-4579-bb1b-8995cf000284",
@@ -375,7 +222,7 @@
       "tags": "derivatives",
       "url": "/question/5984807d-b62e-4579-bb1b-8995cf000284",
       "source": "AP Calculus Problems 2.15.22",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "091310a9-8d5c-4d41-817c-5c1515850c52",
@@ -392,7 +239,7 @@
       "tags": "derivatives",
       "url": "/question/091310a9-8d5c-4d41-817c-5c1515850c52",
       "source": "AP Calculus Problems 2.15.23",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "8320c1ea-838b-4aa0-9777-06d4af1f043b",
@@ -409,7 +256,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain, inflection point, concave, up, down",
       "url": "/question/8320c1ea-838b-4aa0-9777-06d4af1f043b",
       "source": "AP Calculus Problems 3.2.21",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "d5afdc22-e9fd-49c7-8bb9-5be4d4ad7950",
@@ -426,7 +273,7 @@
       "tags": "derivatives",
       "url": "/question/d5afdc22-e9fd-49c7-8bb9-5be4d4ad7950",
       "source": "AP Calculus Problems 2.15.24",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "4272fa8a-679f-4aef-a595-6858bf69f6df",
@@ -443,7 +290,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain, inflection point, concave, up, down",
       "url": "/question/4272fa8a-679f-4aef-a595-6858bf69f6df",
       "source": "AP Calculus Problems 3.2.22",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "b76df05f-93bc-4359-b633-73de40a31618",
@@ -460,7 +307,7 @@
       "tags": "derivatives",
       "url": "/question/b76df05f-93bc-4359-b633-73de40a31618",
       "source": "AP Calculus Problems 2.15.25",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "c552f25b-a268-424d-93d9-2aff5bd5de6e",
@@ -477,7 +324,7 @@
       "tags": "derivatives",
       "url": "/question/c552f25b-a268-424d-93d9-2aff5bd5de6e",
       "source": "AP Calculus Problems 2.15.26",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "a8e94ded-331c-4797-a398-99a1307a97c1",
@@ -494,7 +341,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain, inflection point, concave, up, down",
       "url": "/question/a8e94ded-331c-4797-a398-99a1307a97c1",
       "source": "AP Calculus Problems 3.2.23",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "0ec594cf-6749-485b-a2ff-f69155a4886e",
@@ -511,7 +358,7 @@
       "tags": "derivatives",
       "url": "/question/0ec594cf-6749-485b-a2ff-f69155a4886e",
       "source": "AP Calculus Problems 2.15.27",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "016f8699-04be-4fc4-b9de-19c2b2a1a65c",
@@ -528,7 +375,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain, inflection point, concave, up, down",
       "url": "/question/016f8699-04be-4fc4-b9de-19c2b2a1a65c",
       "source": "AP Calculus Problems 3.2.24",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "1b04725e-179a-4aaf-a256-49cb428501f6",
@@ -545,7 +392,7 @@
       "tags": "derivatives",
       "url": "/question/1b04725e-179a-4aaf-a256-49cb428501f6",
       "source": "AP Calculus Problems 2.15.28",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "7e767eb9-384f-4c5a-8b8d-36c11e177641",
@@ -562,7 +409,7 @@
       "tags": "rolle\u0027s theorem, mean value theorem, derivative, critical point, domain, inflection point, concave, up, down",
       "url": "/question/7e767eb9-384f-4c5a-8b8d-36c11e177641",
       "source": "AP Calculus Problems 3.2.25",
-      "topic": "Calculus/Derivative Calculus/Applications of the Derivative/Mean Value Theorem/Rolle\u0027s Theorem"
+      "topic": "0e8042d3-215b-4029-9478-38e2f9dd496f"
     },
     {
       "uuid": "91bd2ae7-f2c4-4f33-a33a-0391d97a7748",
@@ -579,7 +426,7 @@
       "tags": "derivatives",
       "url": "/question/91bd2ae7-f2c4-4f33-a33a-0391d97a7748",
       "source": "AP Calculus Problems 2.15.29",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "770b0eab-6144-4e71-bba4-163909ed0980",
@@ -596,7 +443,7 @@
       "tags": "derivatives",
       "url": "/question/770b0eab-6144-4e71-bba4-163909ed0980",
       "source": "AP Calculus Problems 2.15.30",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "1a7ae02e-1103-4f4c-9744-f3095d602cab",
@@ -613,7 +460,7 @@
       "tags": "derivatives",
       "url": "/question/1a7ae02e-1103-4f4c-9744-f3095d602cab",
       "source": "AP Calculus Problems 2.15.31",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "ff1fefc6-0494-45ba-85f0-b29dcdba4e87",
@@ -630,7 +477,7 @@
       "tags": "derivatives",
       "url": "/question/ff1fefc6-0494-45ba-85f0-b29dcdba4e87",
       "source": "AP Calculus Problems 2.15.32",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "1c548081-19d1-4d5d-8abc-9d32c7fe7119",
@@ -647,7 +494,7 @@
       "tags": "derivatives",
       "url": "/question/1c548081-19d1-4d5d-8abc-9d32c7fe7119",
       "source": "AP Calculus Problems 2.15.33",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "47224afd-c620-49e3-b358-7d48e84c7429",
@@ -664,7 +511,7 @@
       "tags": "derivatives, implicit differentiation",
       "url": "/question/47224afd-c620-49e3-b358-7d48e84c7429",
       "source": "AP Calculus Problems 2.15.34",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "9f02cd46-82c1-4286-b12e-8cb29151013b",
@@ -681,7 +528,7 @@
       "tags": "derivatives, implicit differentiation",
       "url": "/question/9f02cd46-82c1-4286-b12e-8cb29151013b",
       "source": "AP Calculus Problems 2.15.35",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "0d2bdd53-74bb-491d-8491-2bcaf824f5e6",
@@ -698,7 +545,7 @@
       "tags": "derivatives, implicit differentiation",
       "url": "/question/0d2bdd53-74bb-491d-8491-2bcaf824f5e6",
       "source": "AP Calculus Problems 2.15.36",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "6ec3c96c-9709-4b76-af29-9aa7347bfde9",
@@ -715,7 +562,7 @@
       "tags": "derivatives, implicit differentiation",
       "url": "/question/6ec3c96c-9709-4b76-af29-9aa7347bfde9",
       "source": "AP Calculus Problems 2.15.37",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "5b1cdb52-3aec-40f6-948f-ac6e5deb6ca3",
@@ -732,7 +579,7 @@
       "tags": "derivatives, implicit differentiation ",
       "url": "/question/5b1cdb52-3aec-40f6-948f-ac6e5deb6ca3",
       "source": "AP Calculus Problems 2.15.38",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "deb2b269-6b02-443b-a2d3-1df60785a317",
@@ -749,7 +596,7 @@
       "tags": "derivatives, implicit differentiation",
       "url": "/question/deb2b269-6b02-443b-a2d3-1df60785a317",
       "source": "AP Calculus Problems 2.15.39",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "369bfd27-824b-4379-8adc-6ec3627d79b3",
@@ -766,7 +613,7 @@
       "tags": "derivatives",
       "url": "/question/369bfd27-824b-4379-8adc-6ec3627d79b3",
       "source": "AP Calculus Problems 2.15.40",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "0678d5d7-57b9-41f1-a2de-54841f6aa1e4",
@@ -783,7 +630,7 @@
       "tags": "derivatives",
       "url": "/question/0678d5d7-57b9-41f1-a2de-54841f6aa1e4",
       "source": "AP Calculus Problems 2.15.41",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "96ac88ee-29aa-4a3e-9526-df44e299149e",
@@ -800,7 +647,7 @@
       "tags": "derivatives",
       "url": "/question/96ac88ee-29aa-4a3e-9526-df44e299149e",
       "source": "AP Calculus Problems 2.15.42",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "1c22e769-6fbd-4f99-a0ff-fd3cc02cb6ee",
@@ -817,7 +664,7 @@
       "tags": "derivatives",
       "url": "/question/1c22e769-6fbd-4f99-a0ff-fd3cc02cb6ee",
       "source": "AP Calculus Problems 2.15.43",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "e35d206a-8a15-40d6-8a17-157c0890678c",
@@ -834,7 +681,7 @@
       "tags": "derivatives",
       "url": "/question/e35d206a-8a15-40d6-8a17-157c0890678c",
       "source": "AP Calculus Problems 2.15.44",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "abde2c06-b253-46b3-b268-2541417a2105",
@@ -851,7 +698,7 @@
       "tags": "derivatives",
       "url": "/question/abde2c06-b253-46b3-b268-2541417a2105",
       "source": "AP Calculus Problems 2.15.45",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "cb793ad7-dcef-45ff-9eac-40c75f559b19",
@@ -868,7 +715,7 @@
       "tags": "derivatives",
       "url": "/question/cb793ad7-dcef-45ff-9eac-40c75f559b19",
       "source": "AP Calculus Problems 2.15.46",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "57861c5e-8b61-4006-ab85-3819471c0b62",
@@ -885,7 +732,7 @@
       "tags": "derivatives",
       "url": "/question/57861c5e-8b61-4006-ab85-3819471c0b62",
       "source": "AP Calculus Problems 2.15.47",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     },
     {
       "uuid": "c4eade0e-8f42-493a-a30e-ebcebdd1682d",
@@ -902,7 +749,58 @@
       "tags": "derivatives",
       "url": "/question/c4eade0e-8f42-493a-a30e-ebcebdd1682d",
       "source": "AP Calculus Problems 2.15.48",
-      "topic": "Calculus/Derivative Calculus/Evaluating Derivatives/The Power Rule"
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "7d70375f-b919-4526-a4fb-f2fe7a758c1b",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Find \\(\\dfrac{dy}{dx}\\) in simplest factored form.\n\\(y\u003dxe^{\\ln 3x}\\)",
+      "allAnswers": [],
+      "tags": "derivatives",
+      "url": "/question/7d70375f-b919-4526-a4fb-f2fe7a758c1b",
+      "source": "AP Calculus Problems 2.15.49",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "11541dc2-fa63-47ea-90bd-5aa342ee88af",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Find \\(\\dfrac{dy}{dx}\\) in simplest factored form.\n\\(y\u003de^{3x}\\tan x\\)",
+      "allAnswers": [],
+      "tags": "derivatives",
+      "url": "/question/11541dc2-fa63-47ea-90bd-5aa342ee88af",
+      "source": "AP Calculus Problems 2.15.50",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
+    },
+    {
+      "uuid": "e5cca93e-fa03-4d84-8baa-de8528633b45",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787606,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Derivatives",
+      "body": "Find \\(\\dfrac{dy}{dx}\\) in simplest factored form.\n\\(y\u003de^{1/x^2}\\)",
+      "allAnswers": [],
+      "tags": "derivatives",
+      "url": "/question/e5cca93e-fa03-4d84-8baa-de8528633b45",
+      "source": "AP Calculus Problems 2.15.51",
+      "topic": "41c715c0-638e-43e1-ba57-2c5397dbbe1c"
     }
   ],
   "textContent": [
@@ -916,12 +814,12 @@
       "viewable": true,
       "karma": 3,
       "title": "Exponential Equations and Inequalities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2570.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2571.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2572.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2573.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2575.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2570.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2571.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2572.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2573.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2574.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2575.png\"/\u003e",
       "allAnswers": [],
       "tags": "exponential functions, exponential inequalities, power rule",
       "url": "/text-content/865c6760-e792-4931-a7db-23617dfdd822",
       "source": "Precalculus, 3rd Edition 6.3",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Exponential Equations"
+      "topic": "42a7baac-d038-4a1c-9508-0293249ffd24"
     },
     {
       "uuid": "fbf3fb90-8885-4296-87a1-f299e3d8b691",
@@ -933,14 +831,63 @@
       "viewable": true,
       "karma": 3,
       "title": "Logarithmic Equations and Inequalities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2581.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2583.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2584.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2585.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/3/2586.png\"/\u003e",
+      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2581.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2582.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2583.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2584.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2585.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/7/2586.png\"/\u003e",
       "allAnswers": [],
       "tags": "logarithmic equations, log equations, logarithmic inequalities, log inequalities, inequalities ",
       "url": "/text-content/fbf3fb90-8885-4296-87a1-f299e3d8b691",
       "source": "Precalculus, 3rd Edition 6.4",
-      "topic": "Pre-Calculus/Exponential and Logarithmic Functions/Logarithmic Equations"
+      "topic": "bd5ab6ad-355d-4105-bbbc-fbc1813fb962"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "eae339ca-1719-41aa-b6e5-3bc9fc3db9e0",
+      "subTopics": [],
+      "parentTopics": [
+        "e69bffa4-0170-4d7b-b680-a0bfe491fdc0"
+      ],
+      "title": "Derivatives of Inverse Trigonometric Functions",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " inverse trigonometric functions, product rule, chain rule, quotient rule, power rule,derivatives,",
+      "difficulty": 454000,
+      "contentUuids": [
+        "eb53dcae-c19f-4ff8-9243-a00ea8c73823"
+      ]
+    },
+    {
+      "uuid": "7c48bcba-877c-4c2c-ae0c-883ad392364a",
+      "subTopics": [],
+      "parentTopics": [
+        "8d8b229e-ecbc-40e3-a3f2-61a8cba6b4aa"
+      ],
+      "title": "Inscribed in Circle",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " basic trig identities, trigonometric identity proof, trig identities,fundamental trig identities, angle, circumscribed circle,right triangle, inscribed circle,triangle, measure of angle, radius, equilateral triangle, right triangle,",
+      "difficulty": 245000,
+      "contentUuids": [
+        "4e2cce32-0470-44e2-9b00-65e4778baf42",
+        "480da88c-0041-4e32-b3d2-1451bcc6dd24",
+        "835d7b9b-96e1-4e03-bae3-1bdb5b66eb53",
+        "12d758f9-caa9-42a1-a5fc-812ff6e0d979"
+      ]
+    },
+    {
+      "uuid": "b12c09fd-09e7-42f3-a55b-045f08068cfe",
+      "subTopics": [],
+      "parentTopics": [
+        "1463f2cf-08ba-493d-8709-f3bbd64506a4"
+      ],
+      "title": "Proofs Without Truth Tables",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " valid arguments, sets,proofs, truth tables , mathematical logic,",
+      "difficulty": 362000,
+      "contentUuids": [
+        "b01f0e78-f4d2-43d9-8745-f06474d10a61"
+      ]
+    }
+  ]
 }

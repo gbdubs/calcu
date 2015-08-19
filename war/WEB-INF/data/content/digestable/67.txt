@@ -2,466 +2,187 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\u003cp\u003eSolve the \u003ca rel\u003d\"nofollow\"\u003einitial value problem\u003c/a\u003e \\( a(u)u_{x}+u_{y}\u003d0\\, \\) with \\( u(x,0)\u003dh(x)\\, \\) and show the solution becomes singular for some \\( y\u0026gt;0\\, \\) unless \\( a(h(s))\\, \\) is a \u003ca rel\u003d\"nofollow\"\u003enondecreasing function\u003c/a\u003e of \\( s\\, \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e The solution is \\( u(x,y)\u003dh(x-a(u)y)\\, \\) . \u003c/p\u003e\n\u003cp\u003eSuppose \\( x\u003ds\\, \\) at \\( y\u003d0\\, \\) so that \\( u(s,0)\u003dh(s)\\, \\) . \u003c/p\u003e\n\u003cp\u003eLet \\( u\u003du_{x}\\, \\) along a \u003ca rel\u003d\"nofollow\"\u003echaracteristic\u003c/a\u003e line \\( \\Gamma _{\\xi }\\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {du}{dy}}\u003d{\\frac {\\partial u_{x}}{\\partial x}}x\u0027(y)+{\\frac {\\partial u_{x}}{\\partial y}}\u003du_{{xx}}a(u)+u_{{xy}}\\, \\) \u003c/p\u003e\n\u003cp\u003eFrom the equation \\( u_{y}+a(u)u_{x}\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003ewe get \\( u_{{xy}}+a(u)u_{{xx}}+a\u0027(u)u_{x}u_{x}\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\implies {\\frac {dw}{dt}}\u003d-a\u0027(u)u_{x}^{2}\u003d-a\u0027(h(s))w^{2}\\, \\) \u003c/p\u003e\n\u003cp\u003eTherefore, \u003c/p\u003e\n\u003cp\u003e \\( w(y)\u003d{\\frac {h\u0027(s)}{1+a\u0027(h(s))h\u0027(s)y}}\\, \\) \u003c/p\u003e\n\u003cp\u003eThus, \\( u_{x}\\, \\) becomes \\( \\infty \\, \\) on the characteristic line for some \\( y\u0026gt;0\\, \\) unless \\( a\u0027(h(s))h\u0027(s)y\\geq 0\\, \\) which is equivalent to saying that \\( a(h(s))\\, \\) is a non-decreasing function of \\( s\\, \\) . \u003c/p\u003e",
-      "uuid": "4fc0df48-9b22-4559-a748-ac58234d0f98",
+      "authorSolution": " \\(15\\) ,  \\(3\\) ",
+      "uuid": "29c2c17a-af3f-4245-9996-54e16c9700bf",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166851,
+      "creatorUserId": "",
+      "createdAt": 1437419361972,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Method of characteristics Practice",
-      "body": "Solve the initial value problem \\( a(u)u_{x}+u_{y}\u003d0\\, \\) with \\( u(x,0)\u003dh(x)\\, \\) and show the solution becomes singular for some \\( y\u0026gt;0\\, \\) unless \\( a(h(s))\\, \\) is a nondecreasing function of \\( s\\, \\) .",
-      "tags": "PDE Method of characteristics,PDE,Method,of,characteristics,auto-uploaded",
-      "url": "/practice-problem/4fc0df48-9b22-4559-a748-ac58234d0f98",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDEMOC13",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Interval Of Convergence",
+      "body": " The sum of the series  \\(\\sum_1^\\infty\\frac{k(k+1)}{k!} 3^k\\)  is  \\(ae^p\\)  where  \\(a\\) \u003d_____ and  \\(p\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/29c2c17a-af3f-4245-9996-54e16c9700bf",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eConsider \\( uu_{x}+u_{y}\u003d0\\, \\) with the IC \\( u(x,0)\u003dh(x)\u003d{\\begin{cases}u_{0}\u0026gt;0,\u0026amp;x\\leq 0\\\\u_{0}(1-x),\u0026amp;0\u0026lt;x\u0026lt;1\\\\0,\u0026amp;x\\geq 1\\end{cases}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eShow that a shock develops at a finite time and describe the weak solution. \u003c/p\u003e\n\u003cp\u003eThe chracteristic line is \\( x\u003duy+x_{0}\\, \\) . \u003c/p\u003e\n\u003cp\u003eTo see this, note that the characteristics are \\( {\\frac {dx}{dy}}\u003du\\, \\) so \\( x(y)\u003duy+c_{1},x(0)\u003dc_{1}\u003dx_{0}\\, \\) and \\( x\u003duy+x_{0}\\, \\) . \u003c/p\u003e\n\u003cp\u003eExamine the middle of the region. \u003c/p\u003e\n\u003cp\u003eFor \\( 0\u0026lt;x_{0}\u0026lt;1\\, \\) , \u003c/p\u003e\n\u003cp\u003e \\( u\u003du_{0}(1-x_{0})\u003du_{0}(1-x+uy)\\implies u\u003d{\\frac {u_{0}(1-x)}{1-u_{0}y}}\\, \\) \u003c/p\u003e\n\u003cp\u003eNow we know \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d{\\begin{cases}u_{0}\u0026gt;0,\u0026amp;x\\leq 0\\\\{\\frac {u_{0}(1-x)}{1-u_{0}y}},\u0026amp;0\u0026lt;x\u0026lt;1\\\\0,\u0026amp;x\\geq 1\\end{cases}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eSo \\( y\u003d{\\frac {1}{u_{0}}}\\, \\) is the shock and the characteristics intersect at \\( (1,{\\frac {1}{u_{0}}})\\, \\) . Next we\u0027d like to define \\( G(u)\u003d{\\frac {1}{2}}u^{2}\\, \\) (in this case) so that the pde is in the form \\( [G(u)]_{x}+u_{y}\u003d0\\, \\) . \u003c/p\u003e\n\u003cp\u003eThe jump condition taken from the far left side to the far right side is: \u003c/p\u003e\n\u003cp\u003e \\( \\xi \u0027(y)\u003d{\\frac {G(u_{r})-G(u_{l})}{u_{r}-u_{l}}}\u003d{\\frac {u_{0}}{2}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( \\xi (y)\u003d{\\frac {u_{0}}{2}}y+c_{2}\\, \\) \u003c/p\u003e\n\u003cp\u003ePlug in the shock \\( (1,{\\frac {1}{u_{0}}})\\, \\) to get \\( 1\u003d\\xi (y)\u003d{\\frac {1}{2}}+c_{2}\\implies c_{2}\u003d{\\frac {1}{2}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eFinally, \\( \\xi (y)\u003d{\\frac {u_{0}}{2}}y+{\\frac {1}{2}}\\, \\) . \u003c/p\u003e\n\u003cp\u003eThe weak solution is \\( u(x,y)\u003d{\\begin{cases}u_{0},\u0026amp;x\u0026lt;{\\frac {u_{0}}{2}}y+{\\frac {1}{2}}\\\\0,\u0026amp;x\u0026gt;{\\frac {u_{0}}{2}}y+{\\frac {1}{2}}\\end{cases}}\\, \\) . \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "f0a3072f-239b-4399-957c-6b09fe3bdd82",
+      "authorSolution": " \\(\\sqrt 2\\) ",
+      "uuid": "86192fe5-5e10-48fa-aaaf-a8021c78034b",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166863,
+      "creatorUserId": "",
+      "createdAt": 1437419361972,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Method of characteristics Practice",
-      "body": "Consider \\( uu_{x}+u_{y}\u003d0\\, \\) with the IC \\( u(x,0)\u003dh(x)\u003d{\\begin{cases}u_{0}\u0026gt;0,\u0026amp;x\\leq 0\\\\u_{0}(1-x),\u0026amp;0\u0026lt;x\u0026lt;1\\\\0,\u0026amp;x\\geq 1\\end{cases}}\\, \\)",
-      "tags": "PDE Method of characteristics,PDE,Method,of,characteristics,auto-uploaded",
-      "url": "/practice-problem/f0a3072f-239b-4399-957c-6b09fe3bdd82",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDEMOC14",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Taylor Series",
+      "body": " The sum of the series  \\(\\dfrac{\\pi^2}{4^22!} - \\dfrac{\\pi^4}{4^44!} + \\dfrac{\\pi^6}{4^66!} - \\dfrac{\\pi^8}{4^88!} + \\cdots\\)  is  \\(1 - \\dfrac1a\\)  where  \\(a\u003d\\) ____.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/86192fe5-5e10-48fa-aaaf-a8021c78034b",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eConsider \\( uu_{x}+u_{t}\u003d0\\, \\) with the IC \\( u(x,0)\u003dh(x)\u003d{\\begin{cases}0,\u0026amp;x\u0026lt;0\\\\u_{0}(x-1),\u0026amp;x\u0026gt;0\\end{cases}}\\, \\) \u003c/p\u003e\n\u003cp\u003eFind the weak solution. \u003c/p\u003e\n\u003cp\u003eWhen \\( y\u003d0\\, \\) , if \\( x\u0026gt;0\\, \\) then \\( u\u003du_{0}(x-1)\\, \\) but the characteristic line (see \u003ca rel\u003d\"nofollow\"\u003ePDEMOC14\u003c/a\u003e) is \\( x\u003dut+x_{0}\\, \\) . Therefore \\( u\u003d{\\frac {u_{0}(x-1)}{u_{0}t+1}}\\, \\) . Now find the line where the shock occurs. \u003c/p\u003e\n\u003cp\u003eThe jump condition is defined as in \u003ca rel\u003d\"nofollow\"\u003ePDEMOC14\u003c/a\u003e. \u003c/p\u003e\n\u003cp\u003e \\( \\xi \u0027(t)\u003d{\\frac {1}{2}}{\\frac {u_{0}(x-1)}{u_{0}t+1}}\\, \\) \u003c/p\u003e\n\u003cp\u003eTo integrate with respect to \\( t\\, \\) , treat everything but \\( u_{0}\\, \\) as a constant and you\u0027ll see that it\u0027s a log: \u003c/p\u003e\n\u003cp\u003e \\( \\xi (t)\u003d{\\frac {1}{2}}(x-1)\\ln(u_{0}t+1)\\, \\) \u003c/p\u003e\n\u003cp\u003eThe weak solution is \\( u\u003d{\\begin{cases}0,\u0026amp;x\u0026lt;\\xi (t)\\\\{\\frac {u_{0}(x_{0}-1)}{u_{0}t+1}},\u0026amp;x\u0026gt;\\xi (t)\\end{cases}}\\, \\) \u003c/p\u003e",
-      "uuid": "58430604-e9fb-41f0-a399-e23318c4f167",
+      "authorSolution": " \\(4\\) ",
+      "uuid": "d8d44745-564c-4653-ab57-09a899427003",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166873,
+      "creatorUserId": "",
+      "createdAt": 1437419361972,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Method of characteristics Practice",
-      "body": "Consider \\( uu_{x}+u_{t}\u003d0\\, \\) with the IC \\( u(x,0)\u003dh(x)\u003d{\\begin{cases}0,\u0026amp;x\u0026lt;0\\\\u_{0}(x-1),\u0026amp;x\u0026gt;0\\end{cases}}\\, \\)",
-      "tags": "PDE Method of characteristics,PDE,Method,of,characteristics,auto-uploaded",
-      "url": "/practice-problem/58430604-e9fb-41f0-a399-e23318c4f167",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDEMOC15",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Interval Of Convergence Question",
+      "body": " The coefficient of the term containing  \\(x^9\\)  in the power series expansion of  \\((1-x^3)^{2/3}\\)  is  \\(-\\dfrac a{81}\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/d8d44745-564c-4653-ab57-09a899427003",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003eSolve \\( u_{x}+u_{y}+u\u003d1\\, \\) with condition: \\( u\u003d\\sin(x)\\, \\) on \\( y\u003dx^{2}+x\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e The characteristic equations are \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {dx}{1}}\u003d{\\frac {dy}{1}}\u003d{\\frac {du}{1-u}}\\, \\) \u003c/p\u003e\n\u003cp\u003eUsing the first two equations, \u003c/p\u003e\n\u003cp\u003e \\( x\u003dy+c_{1}\\implies c_{1}\u003dx-y\\, \\) \u003c/p\u003e\n\u003cp\u003eUsing the second two equations, \u003c/p\u003e\n\u003cp\u003e \\( y\u003d-\\ln(1-u)+c_{2}\\implies c_{2}\u003dy+\\ln(1-u)\\, \\) \u003c/p\u003e\n\u003cp\u003eSo the general solution is an arbitrary function of these two constants. \u003c/p\u003e\n\u003cp\u003e \\( f(x-y,y+\\ln(1-u))\u003d0\\, \\) \u003c/p\u003e\n\u003cp\u003eThis can be equivalently written using another arbitrary function \\( g\\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( y+\\ln(1-u)\u003dg(x-y)\\, \\) \u003c/p\u003e\n\u003cp\u003eThe general solution is \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d1-e^{{g(x-y)-y}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e Now using the condition that \\( u\u003d\\sin(x)\\, \\) on \\( y\u003dx^{2}+x\\, \\) , \u003c/p\u003e\n\u003cp\u003e \\( \\sin(x)\u003d1-e^{{g(-x^{2})-x^{2}-x}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( g(-x^{2})\u003d\\ln(1-\\sin(x))+x^{2}+x\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e But we have an arbitrary function of \\( x-y\\, \\) in our solution, so set \\( -x^{2}\u003dx-y\\, \\) . \u003c/p\u003e\n\u003cp\u003e \\( x\u003d{\\sqrt {y-x}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( g(-x^{2})\u003dg(x-y)\u003d\\ln(1-\\sin {\\sqrt {y-x}})+y-x+{\\sqrt {y-x}}\\, \\) \u003c/p\u003e\n\u003cp\u003eSo now \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d1-e^{{\\ln(1-\\sin {\\sqrt {y-x}})+y-x+{\\sqrt {y-x}}-y}}\\, \\) \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e The final solution is \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d1-(1-\\sin {\\sqrt {y-x}})e^{{-x+{\\sqrt {y-x}}}}\\, \\) \u003c/p\u003e",
-      "uuid": "ea572d26-d759-42f5-be74-e78095a8f36d",
+      "authorSolution": " \\(2\\) ",
+      "uuid": "62405475-cc16-4004-968a-f9100b1467a9",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166886,
+      "creatorUserId": "",
+      "createdAt": 1437419361972,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Method of characteristics Practice",
-      "body": "Consider the problem \\( u_{x}+u_{y}+u\u003d1\\, \\) with condition: \\( u\u003d\\sin(x)\\, \\) on \\( y\u003dx^{2}+x\\, \\)",
-      "tags": "PDE Method of characteristics,PDE,Method,of,characteristics,auto-uploaded",
-      "url": "/practice-problem/ea572d26-d759-42f5-be74-e78095a8f36d",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDEMOC17",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice In Interval Of Convergence",
+      "body": " The sum of the series     \\[ 1 - \\frac1{2^2} - \\frac1{2! 2^4} - \\frac{1\\cdot3}{3! 2^6}                - \\frac{1\\cdot3\\cdot5}{4! 2^8}                - \\frac{1\\cdot3\\cdot5\\cdot7}{5! 2^{10}} - \\dots \\] is  \\(\\dfrac 1{\\sqrt a}\\)  where  \\(a\\) \u003d___.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/62405475-cc16-4004-968a-f9100b1467a9",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( 3u_{x}+4u_{y}-2u\u003d1,u(x,0)\u003de^{x}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntroduce the change of coordinates\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\xi \u003dAx+By\\, \\) \u003cbr\u003e \\( \\eta \u003dCx+Dy\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo \\( u\\, \\) is now a function of \\( (\\xi ,\\eta )\\, \\) . Recompute the derivatives with respect to these new coordinates.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\partial u}{\\partial x}}\u003d{\\frac {\\partial u}{\\partial \\xi }}{\\frac {\\partial \\xi }{\\partial x}}+{\\frac {\\partial u}{\\partial \\eta }}{\\frac {\\partial \\eta }{\\partial x}}\u003dAu_{\\xi }\\ +Cu_{\\eta }\\, \\) ,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\partial u}{\\partial y}}\u003d{\\frac {\\partial u}{\\partial \\xi }}{\\frac {\\partial \\xi }{\\partial y}}+{\\frac {\\partial u}{\\partial \\eta }}{\\frac {\\partial \\eta }{\\partial y}}\u003dBu_{\\xi }+Du_{\\eta }\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003ePlug these derivatives into the original equation.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( 3(Au_{\\xi }+Cu_{\\eta })+4(Bu_{\\xi }+Du_{\\eta })-2u\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{\\xi }(3A+4B)+u_{\\eta }(3C+4D)-2u\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eChoose any values of \\( A,B,C,D \\) to make the problem easy to solve, with the caveat that \\( AD-BC\\neq 0 \\) . For example, let \\( C\u003d1,D\u003d-3/4 \\) so that the \\( u_{\\eta } \\) term goes away. Then let \\( A\u003d1/3,B\u003d0 \\) so that the \\( u_{\\xi } \\) coefficient equals unity. Then,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{\\xi }-2u\u003d1\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eUse the \u003ca rel\u003d\"nofollow\"\u003eintegrating factor\u003c/a\u003e \\( e^{{\\int -2d\\xi }}\u003de^{{-2\\xi }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( e^{{-2\\xi }}u_{\\xi }-e^{{-2\\xi }}2u\u003de^{{-2\\xi }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\partial }{\\partial \\xi }}\\left[e^{{-2\\xi }}u\\right]\u003de^{{-2\\xi }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( e^{{-2\\xi }}u\u003d{\\frac {-1}{2}}e^{{-2\\xi }}+f(\\eta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eHere \\( f(\\eta )\\, \\) is an undetermined function of \\( \\eta \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(\\xi ,\\eta )\u003d{\\frac {-1}{2}}+e^{{2\\xi }}f(\\eta )\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d{\\frac {-1}{2}}+e^{{{\\frac {2}{3}}x}}f(x-{\\frac {3}{4}}y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow we determine the unique solution that corresponds to the \u003ca rel\u003d\"nofollow\"\u003einital condition\u003c/a\u003e \\( u(x,0)\u003de^{x}\\, \\) . Using the general solution above, set \\( y\u003d0 \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,0)\u003d{\\frac {-1}{2}}+e^{{{\\frac {2}{3}}x}}f(x)\u003de^{x}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x)\u003d{\\frac {e^{x}+{\\frac {1}{2}}}{e^{{{\\frac {2}{3}}x}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eBut in the general solution, we have \\( f(x-{\\frac {3}{4}}y) \\) instead of \\( f(x)\\, \\) . So making the appropriate substitutions, \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x-{\\frac {3}{4}}y)\u003d{\\frac {e^{{x-{\\frac {3}{4}}y}}+{\\frac {1}{2}}}{e^{{{\\frac {2}{3}}(x-{\\frac {3}{4}}y)}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003ePlug this function into the general solution.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d{\\frac {-1}{2}}+e^{{x-{\\frac {1}{4}}y}}+{\\frac {1}{2}}e^{{{\\frac {1}{2}}y}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "ec98f043-8978-461d-ade2-cb8d239c68fc",
+      "authorSolution": " \\(5\\exp\\bigl(\\frac13x^3\\bigr)\\) ",
+      "uuid": "2f40a80e-f452-4b70-89b1-ed0f10e5ae2e",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166905,
+      "creatorUserId": "",
+      "createdAt": 1437419361973,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( 3u_{x}+4u_{y}-2u\u003d1,u(x,0)\u003de^{x}\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/ec98f043-8978-461d-ade2-cb8d239c68fc",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE1",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Radius Of Convergence Question",
+      "body": " Use power series to solve the differential equation  \\(f\u0027(x) \u003d x^2f(x)\\)  subject to the initial condition  \\(f(0) \u003d 5\\) .\\\\ Answer:  \\(f(x)\u003d\\) ______________.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/2f40a80e-f452-4b70-89b1-ed0f10e5ae2e",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( z_{{xy}}\u003dx^{2}y,\\,\\,z(x,0)\u003dx^{2},\\,z(1,y)\u003d\\cos(y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eWrite \\( {\\frac {\\partial ^{2}z}{\\partial x\\partial y}}\u003dx^{2}y\\, \\) as\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\partial }{\\partial x}}\\left({\\frac {\\partial z}{\\partial y}}\\right)\u003dx^{2}y\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntegrate wrt the partial \\( x \\) to get:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\partial z}{\\partial y}}\u003d{\\frac {1}{3}}x^{3}y+f(y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntegrate wrt the partial \\( y \\) to get:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(x,y)\u003d{\\frac {1}{6}}x^{3}y^{2}+F(y)+g(x)\\, \\) where \\( {\\frac {\\partial F}{\\partial y}}\u003df(y)\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSince the above formula for \\( z(x,y) \\) has two arbitrary and independent functions, it is the general solution to the PDE. Now match this to each IC, and solve for the most helpful term:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(x,0)\u003dF(0)+g(x)\u003dx^{2},\\,\\,g(x)\u003dx^{2}-F(0)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(1,y)\u003d{\\frac {1}{6}}y^{2}+F(y)+g(1)\u003d\\cos(y),\\,\\,F(y)\u003d\\cos(y)-{\\frac {1}{6}}y^{2}-1+F(0)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow plug these function values into the general solution to find the unique solution for this set of IC\u0027s.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(x,y)\u003d{\\frac {1}{6}}x^{3}y^{2}+\\cos(y)-{\\frac {1}{6}}y^{2}-1+x^{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "4526bbec-9ef6-4d72-a2c3-a25c771c8a6c",
+      "authorSolution": " \\(\\frac12x^2\\) ",
+      "uuid": "85b9fe58-0f1a-4ac4-a977-d79d89d1f6b6",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166921,
+      "creatorUserId": "",
+      "createdAt": 1437419361973,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( z_{{xy}}\u003dx^{2}y,z(x,0)\u003dx^{2},z(1,y)\u003d\\cos(y)\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/4526bbec-9ef6-4d72-a2c3-a25c771c8a6c",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE2",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Power Series Question",
+      "body": " Use power series to solve the differential equation  \\(y\u0027\u0027 - xy\u0027 \u003d y\\)  subject to the initial conditions  \\(y(0) \u003d 1\\)  and  \\(y\u0027(0) \u003d 0\\) .   \\\\ Answer:  \\(y(x) \u003d \\exp(f(x))\\)  where  \\(f(x)\u003d\\) _______.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/85b9fe58-0f1a-4ac4-a977-d79d89d1f6b6",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( z_{{xy}}\u003d{\\frac {1}{2}}xy^{2},\\,\\,z(x,0)\u003de^{x},\\,z(0,y)\u003d\\sin(y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSince \\( z_{{xy}}\u003d{\\frac {\\partial ^{2}z}{\\partial x\\partial y}}\u003d{\\frac {\\partial }{\\partial x}}\\left({\\frac {\\partial z}{\\partial y}}\\right)\u003d{\\frac {1}{2}}xy^{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntegrate wrt the partial \\( x \\) :\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\partial z}{\\partial y}}\u003d{\\frac {1}{4}}x^{2}y^{2}+f(y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIntegrate wrt the partial \\( y \\) :\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(x,y)\u003d{\\frac {1}{12}}x^{2}y^{3}+F(y)+g(x)\\, \\) where \\( {\\frac {\\partial F}{\\partial y}}\u003df(y)\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis is the general solution because it has two arbitrary and independent functions. Now take into account the IC\u0027s and solve for the most useful term:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(x,0)\u003dF(0)+g(x)\u003de^{x},\\,\\,g(x)\u003de^{x}-F(0)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( z(0,y)\u003dF(y)+g(0)\u003d\\sin(y),\\,\\,F(y)\u003d\\sin(y)-g(0)\u003d\\sin(y)-1+F(0)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003ePlug the function values back into the original PDE to get the unique solution for this set of IC\u0027s.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( z(x,y)\u003d{\\frac {1}{12}}x^{2}y^{3}+\\sin(y)-1+e^{x}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "76e249d7-d026-4329-aadc-2ef2384a6e49",
+      "authorSolution": " \\(x \\arctan x\\) ",
+      "uuid": "c22f2e8a-8289-4531-a2ae-125383b976aa",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166934,
+      "creatorUserId": "",
+      "createdAt": 1437419361973,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( z_{{xy}}\u003d{\\frac {1}{2}}xy^{2},z(x,0)\u003de^{x},z(0,y)\u003d\\sin(y)\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/76e249d7-d026-4329-aadc-2ef2384a6e49",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE3",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Power Series Practice",
+      "body": " Use series to solve the differential equation  \\((1+x^2)y\u0027\u0027 + 2xy\u0027 - 2y \u003d 0\\)  subject to the initial conditions  \\(y(0) \u003d 1\\)  and  \\(y\u0027(0) \u003d 3\\) .   \\\\ Answer:  \\(y(x) \u003d 1 + 3x + f(x)\\)  where  \\(f(x)\u003d\\) _______________.",
+      "allAnswers": [],
+      "tags": "power series, power series ,Maclaurin series ,Taylor series ,Lagrange form of the remainder ,binomial series ,radius of convergence ,interval of convergence ,use of power series to solve differential equations",
+      "url": "/practice-problem/c22f2e8a-8289-4531-a2ae-125383b976aa",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "b1395057-4106-421e-acb8-e5eb187a2493"
     },
     {
-      "authorSolution": "\u003cp\u003e \\( u_{{xx}}-u_{t}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFor this problem, guess that the solution is in the form \\( e^{{ax+bt}}\\, \\) . Plug the guess into the original PDE to find that:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( a^{2}-b\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( a\u003d\\pm {\\sqrt {b}}\\, \\) \u003cbr\u003e\u003cbr\u003e Let \\( b\u003dc_{1} \\) , a constant. Adding together the two cases for \\( a \\) , the homogeneous solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003de^{{{\\sqrt {c_{1}}}x+c_{1}t}}+e^{{-{\\sqrt {c_{1}}}x+c_{1}t}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "5ca5d026-402d-41bf-b22b-4d3007d86d02",
+      "authorSolution": " \\(-3\\) ,  \\(-1\\) ,  \\(9\\) ,  \\(5\\) ,  \\(1\\) ,  \\(1\\) ",
+      "uuid": "65ed8903-91e7-4c36-b931-eb0296c9ab16",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166946,
+      "creatorUserId": "",
+      "createdAt": 1437419361988,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{{xx}}-u_{t}\u003d0\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/5ca5d026-402d-41bf-b22b-4d3007d86d02",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE4",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "A Vector And Metric Properties Of $\\r^n$ Question",
+      "body": " Three vertices of a parallelogram are  \\(P \u003d (1,3,2)\\) ,  \\(Q \u003d (4,5,3)\\) , and  \\(R \u003d (2,-1,0)\\) .   What are the possible locations of the fourth vertex? \\noindent Answer: ( -1 , ___ , ___ ), or ( 3 , ___ , ___ ), or ( 5 , ___ , ___ ).",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/65ed8903-91e7-4c36-b931-eb0296c9ab16",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\\( u_{t}\u003dku_{{xx}}\\, \\)  \\( u(0,t)\u003d0\\, \\) \n\u003cbr\u003e \\( u(l,t)\u003d0\\, \\) \n\u003cbr\u003e\n\u003cbr\u003e \\( u(x,0)\u003df(x)\\, \\) \n\u003cbr\u003e\n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eFirst separate variables and plug back into the original equation.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003dX(x)T(t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( XT\u0027\u003dkX\u0027\u0027T\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFind the separated boundary conditions (worry about the initial condition later).\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(0)\u003dX(l)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow seperate the two functions on either side of the equation. The reasoning is that if the left side is a function of \\( t \\) and it is equal to the right side, which is a function of \\( x \\) , then both sides of the equation must be equal to a constant. It\u0027s good to keep higher derivatives on top of lower ones, and keep the \\( k \\) with \\( T(t) \\) . When setting the next part equal to a constant, \\( -\\lambda \\) works best.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {T\u0027}{kT}}\u003d{\\frac {X\u0027\u0027}{X}}\u003d-\\lambda \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis gives the two solutions to the ODEs:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( T(t)\u003dc_{1}e^{{-\\lambda kt}}\\, \\) \u003c/p\u003e\n\u003cp\u003e \\( X(x)\u003dc_{2}\\cos({\\sqrt {\\lambda }}x)+c_{3}{\\frac {\\sin({\\sqrt {\\lambda }}x)}{{\\sqrt {\\lambda }}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIn the solution of \\( X(x) \\) the extra square root of \\( \\lambda \\) was added in the denominator so that we won\u0027t have to make a special case for \\( \\lambda \u003d0\\, \\) , which does not give interesting solutions anyway.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eUse the separated boundary conditions on the function \\( X(x) \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(0)\u003dc_{2}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(l)\u003dc_{3}{\\frac {\\sin({\\sqrt {\\lambda }}l)}{{\\sqrt {\\lambda }}}}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNothing interesting would come from letting \\( c_{3}\u003d0\\, \\) , so \\( \\lambda _{n}\u003d{\\frac {n^{2}\\pi ^{2}}{l^{2}}},\\,\\,\\,n\u003d1,2,3,...\\, \\) . \\( n\\neq 0\\, \\) because \\( \\lambda \\neq 0\\, \\) . These values of lambda are the eigenvalues. The eigenfunctions are \\( \\sin({\\frac {n\\pi x}{l}}),\\,\\,\\,n\u003d1,2,3,...\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFor each value of n, a solution is then\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{n}(x,t)\u003dc_{1}e^{{-\\lambda _{n}kt}}c_{3}{\\frac {\\sin({\\sqrt {\\lambda _{n}}}x)}{{\\sqrt {\\lambda _{n}}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eUsing the principle of superposition, the formal solution is the sum of all possible solutions:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003d\\sum _{{n\u003d1}}^{\\infty }u_{n}(x,t)\u003d\\sum _{{n\u003d1}}^{\\infty }A_{n}e^{{-\\lambda _{n}kt}}\\sin({\\frac {n\\pi x}{l}}),A_{n}\u003d{\\frac {c_{1}c_{3}}{{\\frac {n\\pi }{l}}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe initial condition gives\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,0)\u003df(x)\u003d\\sum _{{n\u003d1}}^{\\infty }A_{n}\\sin({\\frac {n\\pi x}{l}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis series is the Fourier sine series of \\( f(x) \\) , so the coefficient is given by\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{n}\u003d{\\frac {2}{l}}\\int _{0}^{l}f(x)\\sin({\\frac {n\\pi x}{l}})\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the final answer is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003d\\sum _{{n\u003d1}}^{\\infty }A_{n}e^{{-\\left({\\frac {n\\pi }{l}}\\right)^{2}kt}}\\sin({\\frac {n\\pi x}{l}}),\\,\\,\\,A_{n}\u003d{\\frac {2}{l}}\\int _{0}^{l}f(x)\\sin({\\frac {n\\pi x}{l}})\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eOr just for fun: \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003d{\\frac {2}{l}}\\sum _{{n\u003d1}}^{\\infty }\\left[\\int _{0}^{l}f(\\xi )\\sin({\\frac {n\\pi \\xi }{l}})\\,d\\xi \\right]e^{{-\\left({\\frac {n\\pi }{l}}\\right)^{2}kt}}\\sin({\\frac {n\\pi x}{l}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "c501fff4-0eb3-41fc-8ca3-e7f695ea1350",
+      "authorSolution": " \\(-12\\) ",
+      "uuid": "232d45ec-edff-4895-8fb6-702d967e38b5",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556166968,
+      "creatorUserId": "",
+      "createdAt": 1437419361988,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{t}\u003dku_{{xx}}\\, \\)  \\( u(x,0)\u003df(x)\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/c501fff4-0eb3-41fc-8ca3-e7f695ea1350",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE5",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Question On Vector And Metric Properties Of $\\r^n$",
+      "body": " Find a vector parallel to the line  \\(8x + 6y \u003d 7\\) .    Answer:  \\(9\\vec{ }i + b \\vec{ }j\\)  where  \\(b\\) \u003d____.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/232d45ec-edff-4895-8fb6-702d967e38b5",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     },
     {
-      "authorSolution": "\u003cp\u003e\u003ca href\u003d\"http://flheddin.qsh.eu/dometrac-1439.html\" rel\u003d\"nofollow\"\u003enude lapdance video\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003etop\u003c/a\u003e \u003ca href\u003d\"http://fispruil.qsh.eu/news1032.html\" rel\u003d\"nofollow\"\u003eamazon movie soundtracks\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/page718.html\" rel\u003d\"nofollow\"\u003emovie downloading programs\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article900.html\" rel\u003d\"nofollow\"\u003ems project serial\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081116-pilot-video.html\" rel\u003d\"nofollow\"\u003epilot video\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/chienme.htm\" rel\u003d\"nofollow\"\u003eo pioneers movie\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article193.htm\" rel\u003d\"nofollow\"\u003elatina video gallery\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-337.htm\" rel\u003d\"nofollow\"\u003eactor movie directory\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003elink\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2008-12-28-morrissey-music.html\" rel\u003d\"nofollow\"\u003emorrissey music video codes\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/326.html\" rel\u003d\"nofollow\"\u003esomething in red video\u003c/a\u003e \u003ca href\u003d\"http://brc4tdro.is-the-boss.com/page258.html\" rel\u003d\"nofollow\"\u003emixvibes 5 crack\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/trocra-13.html\" rel\u003d\"nofollow\"\u003emovies released on dvd this week\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-497.htm\" rel\u003d\"nofollow\"\u003emovie surfers online\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/sitemap.html\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/comment-881.htm\" rel\u003d\"nofollow\"\u003eelvis presley movie list\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/sitemap.htm\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/cnamonin.html\" rel\u003d\"nofollow\"\u003ealbum grey torrent\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-1916.htm\" rel\u003d\"nofollow\"\u003enew anime movie releases\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-28.htm\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-64.htm\" rel\u003d\"nofollow\"\u003ejonny dept movies\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article273.html\" rel\u003d\"nofollow\"\u003eadobe illustrator 9.0 serial numbers\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1075809655.html\" rel\u003d\"nofollow\"\u003emafia trucchi videogioco\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003ehttp\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/comment-329.htm\" rel\u003d\"nofollow\"\u003epentagon lies video\u003c/a\u003e \u003ca href\u003d\"http://caraines.qsh.eu/sitemap.htm\" rel\u003d\"nofollow\"\u003emap\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article1412.htm\" rel\u003d\"nofollow\"\u003eon line movie\u003c/a\u003e \u003ca href\u003d\"http://sematild.qsh.eu/resource1392.htm\" rel\u003d\"nofollow\"\u003emovieland yonkers 6\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-605.html\" rel\u003d\"nofollow\"\u003eal movie pacino swear words\u003c/a\u003e \u003ca href\u003d\"http://tacataca.strefa.pl/comment-283.htm\" rel\u003d\"nofollow\"\u003eamateur free post sex video\u003c/a\u003e \u003ca href\u003d\"http://varpasz.is-the-boss.com/article118.htm\" rel\u003d\"nofollow\"\u003enik efex crack\u003c/a\u003e \u003ca href\u003d\"http://indronrol.is-the-boss.com/zarbasm.html\" rel\u003d\"nofollow\"\u003eeventstudio 2.5 crack\u003c/a\u003e \u003ca href\u003d\"http://hencnac4t.is-the-boss.com/news-apollo-versatile-2008-12-27.html\" rel\u003d\"nofollow\"\u003eapollo versatile burner 3.1.0 crack\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-314.htm\" rel\u003d\"nofollow\"\u003epersonal digital video recorders\u003c/a\u003e \u003ca href\u003d\"http://sakonze.qsh.eu/sitemap.html\" rel\u003d\"nofollow\"\u003elinks\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081108-emmanuelle-movie.html\" rel\u003d\"nofollow\"\u003eemmanuelle movie collection\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article965.html\" rel\u003d\"nofollow\"\u003einfant respiratory problem\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/news-mp3-funny-video-2008-11-19.html\" rel\u003d\"nofollow\"\u003emp3 funny video clip\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1023477349.html\" rel\u003d\"nofollow\"\u003eserendipidy movie\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/news-eddie-murphy-party-2008-11-15.html\" rel\u003d\"nofollow\"\u003eeddie murphy party all the time music video\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/885.html\" rel\u003d\"nofollow\"\u003enaughty by nature music videos\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081110-ashlee-simpson.htm\" rel\u003d\"nofollow\"\u003eashlee simpson gets booed video\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2009-01-03-search-crazy.html\" rel\u003d\"nofollow\"\u003esearch crazy video\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-1624.htm\" rel\u003d\"nofollow\"\u003eincredibles movie pictures\u003c/a\u003e \u003ca href\u003d\"http://fispruil.qsh.eu/news207.html\" rel\u003d\"nofollow\"\u003emovies recently released on video\u003c/a\u003e \u003ca href\u003d\"http://chifire.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003elinks\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-674.htm\" rel\u003d\"nofollow\"\u003eadult indian video\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/news-910.html\" rel\u003d\"nofollow\"\u003esalsa dancing video online\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/vietzard-941.html\" rel\u003d\"nofollow\"\u003eamerican idol season 4 audition video clips\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1095.htm\" rel\u003d\"nofollow\"\u003esouth indian actress trisha bathing video\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20090104-jurassic-park.htm\" rel\u003d\"nofollow\"\u003ejurassic park movie script\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081112-rigid-east-video.html\" rel\u003d\"nofollow\"\u003erigid east video clips\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081108-movie-coach-carter.html\" rel\u003d\"nofollow\"\u003emovie coach carter review\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1633.htm\" rel\u003d\"nofollow\"\u003emy fellow americans movie quotes\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-1472.htm\" rel\u003d\"nofollow\"\u003erockers movie soundtrack\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/perfect-day.html\" rel\u003d\"nofollow\"\u003eperfect day video bbc\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/fokacele-1496.html\" rel\u003d\"nofollow\"\u003eneil diamond movies\u003c/a\u003e \u003ca href\u003d\"http://dronoubr.0lx.net/sahara-the-movie.html\" rel\u003d\"nofollow\"\u003esahara the movie trailer\u003c/a\u003e \u003ca href\u003d\"http://fispruil.qsh.eu/news898.html\" rel\u003d\"nofollow\"\u003eswingers movie clips\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article439.html\" rel\u003d\"nofollow\"\u003epocket pc torrent client\u003c/a\u003e \u003ca href\u003d\"http://chifire.strefa.pl/news-1847.html\" rel\u003d\"nofollow\"\u003eimmature lie music never video\u003c/a\u003e \u003ca href\u003d\"http://hencnac4t.is-the-boss.com/news-arizona-driver-license-2009-01-04.html\" rel\u003d\"nofollow\"\u003earizona driver license penalties\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/elwquaric-921.html\" rel\u003d\"nofollow\"\u003ekorean adult movies galleries\u003c/a\u003e \u003ca href\u003d\"http://cnavieltz.strefa.pl/sitemap.htm\" rel\u003d\"nofollow\"\u003ewebmap\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003esitemap\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/sitemap.html\" rel\u003d\"nofollow\"\u003ewebmap\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/fokaclizt.html\" rel\u003d\"nofollow\"\u003ekali serial\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003ehttp\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-137.htm\" rel\u003d\"nofollow\"\u003egay asian video\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/trzarrol-1181.html\" rel\u003d\"nofollow\"\u003emature blonde free video\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1058029643.html\" rel\u003d\"nofollow\"\u003epanasonic video cassette recorders\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-583.html\" rel\u003d\"nofollow\"\u003ejames brown i feel good music video\u003c/a\u003e \u003ca href\u003d\"http://releltl.0lx.net/20081113-moviegoer-percy.html\" rel\u003d\"nofollow\"\u003emoviegoer percy\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/radvideoexe.html\" rel\u003d\"nofollow\"\u003eradvideo.exe\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/news-1891.html\" rel\u003d\"nofollow\"\u003emake psp video\u003c/a\u003e \u003ca href\u003d\"http://sematild.qsh.eu/resource691.htm\" rel\u003d\"nofollow\"\u003emusic video auditions 2005\u003c/a\u003e \u003ca href\u003d\"http://bukgetert.0lx.net/article-28.htm\" rel\u003d\"nofollow\"\u003ehttp\u003c/a\u003e \u003ca href\u003d\"http://baslozaro.is-the-boss.com/article476.html\" rel\u003d\"nofollow\"\u003enorth carolina physical therapy license\u003c/a\u003e \u003ca href\u003d\"http://tarobasal.strefa.pl/article1434.htm\" rel\u003d\"nofollow\"\u003es2000 videos\u003c/a\u003e \u003ca href\u003d\"http://zelfibu.strefa.pl/satrmo-214.html\" rel\u003d\"nofollow\"\u003eliseli aylin video download\u003c/a\u003e \u003ca href\u003d\"http://sedplxca.is-the-boss.com/inspirational-religious-2008-12-31.htm\" rel\u003d\"nofollow\"\u003einspirational religious stories\u003c/a\u003e \u003ca href\u003d\"http://faquafav.is-the-boss.com/sitemap.htm\" rel\u003d\"nofollow\"\u003elinks\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-300.htm\" rel\u003d\"nofollow\"\u003espy video cameras\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/nofuchiko-143.html\" rel\u003d\"nofollow\"\u003eroyalty free video backgrounds\u003c/a\u003e \u003ca href\u003d\"http://tulilre.strefa.pl/2008-12-25-lowes-waterfront.html\" rel\u003d\"nofollow\"\u003elowes waterfront movie theater\u003c/a\u003e \u003ca href\u003d\"http://acsitzar.0lx.net/news-music-seth-summer-2008-11-20.html\" rel\u003d\"nofollow\"\u003emusic seth summer video\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/sitemap.html\" rel\u003d\"nofollow\"\u003edomain\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new1611.htm\" rel\u003d\"nofollow\"\u003emovie reviews for basic instinct\u003c/a\u003e \u003ca href\u003d\"http://fispruil.qsh.eu/news572.html\" rel\u003d\"nofollow\"\u003eillicit affairs movie\u003c/a\u003e \u003ca href\u003d\"http://roladarh.strefa.pl/news-26.html\" rel\u003d\"nofollow\"\u003emanitoba manitoba movie winnipeg winnipeg wpg\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/actress-masala.html\" rel\u003d\"nofollow\"\u003eactress masala movie picture\u003c/a\u003e \u003ca href\u003d\"http://naceceli.qsh.eu/sitemap.html\" rel\u003d\"nofollow\"\u003esite\u003c/a\u003e \u003ca href\u003d\"http://huruple.qsh.eu/20090104-movies-to-download.htm\" rel\u003d\"nofollow\"\u003emovies to download online\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1039244401.html\" rel\u003d\"nofollow\"\u003ekeven costner movies\u003c/a\u003e \u003ca href\u003d\"http://spfortne.qsh.eu/sitemap.html\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1025349216.html\" rel\u003d\"nofollow\"\u003elindsey lohan video downloads\u003c/a\u003e \u003ca href\u003d\"http://zelgetgo.0lx.net/new227.htm\" rel\u003d\"nofollow\"\u003eeasy to learn magic trick videos\u003c/a\u003e \u003ca href\u003d\"http://qasletop.is-the-boss.com/nrzele.html\" rel\u003d\"nofollow\"\u003eserious sam the first encounter no cd crack\u003c/a\u003e \u003ca href\u003d\"http://sedplxca.is-the-boss.com/provsional-driving-2008-12-31.htm\" rel\u003d\"nofollow\"\u003eprovsional driving license\u003c/a\u003e \u003ca href\u003d\"http://flheddin.qsh.eu/catrocbr-1804.html\" rel\u003d\"nofollow\"\u003esydney movie tickets online\u003c/a\u003e \u003ca href\u003d\"http://betheres.qsh.eu/comment-1553.htm\" rel\u003d\"nofollow\"\u003elocked up music video by akon\u003c/a\u003e \u003ca href\u003d\"http://ettaelt.strefa.pl/sitemap.html\" rel\u003d\"nofollow\"\u003eurl\u003c/a\u003e \u003ca href\u003d\"http://saererg.0lx.net/20081120-salsa-video-online.htm\" rel\u003d\"nofollow\"\u003esalsa video online\u003c/a\u003e \u003ca href\u003d\"http://sedplxca.is-the-boss.com/sitemap.htm\" rel\u003d\"nofollow\"\u003elinks\u003c/a\u003e \u003ca href\u003d\"http://golxando.0lx.net/1019098339.html\" rel\u003d\"nofollow\"\u003ealyssa milano nude video clip\u003c/a\u003e \u003ca href\u003d\"http://fademon.0lx.net/article-1072.htm\" rel\u003d\"nofollow\"\u003esweatermeat movies\u003c/a\u003e \u003ca href\u003d\"http://fispruil.qsh.eu/news1896.html\" rel\u003d\"nofollow\"\u003espunkmouth video\u003c/a\u003e \u003ca href\u003d\"http://vihencbr.0lx.net/still-tipin-music.html\" rel\u003d\"nofollow\"\u003estill tipin music video\u003c/a\u003e \u003ca href\u003d\"http://lifokdron.0lx.net/1105.html\" rel\u003d\"nofollow\"\u003emovie marketing plan\u003c/a\u003e relouac \u003c/p\u003e  \\( u_{t}\u003dku_{{xx}}\\, \\)  \\( u_{x}(0,t)\u003d0\\, \\) \n\u003cbr\u003e \\( u_{x}(1,t)\u003d0\\, \\) \n\u003cbr\u003e\n\u003cbr\u003e \\( u(x,0)\u003d\\phi (x)\\, \\) \n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eFirst separate variables and plug back into the original equation.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003dX(x)T(t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( XT\u0027\u003dX\u0027\u0027T\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFind the separated boundary conditions (worry about the initial condition later).\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027(0)\u003dX\u0027(1)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eWhen seperating variables, it\u0027s good to keep higher derivatives on top of lower ones. When setting the next part equal to a constant, \\( -\\lambda \\) works best.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {T\u0027}{T}}\u003d{\\frac {X\u0027\u0027}{X}}\u003d-\\lambda \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis gives the two solutions to the ODEs:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( T(t)\u003dc_{1}e^{{-\\lambda t}}\\, \\) and \\( X(x)\u003dc_{2}\\cos({\\sqrt {\\lambda }}x)+c_{3}{\\frac {\\sin({\\sqrt {\\lambda }}x)}{{\\sqrt {\\lambda }}}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eIn the solution of \\( X(x)\\, \\) the extra square root of \\( \\lambda \\, \\) was added in the denominator so that we won\u0027t have to make a special case for \\( \\lambda \u003d0\\, \\) , which does not give interesting solutions anyway. In this problem the sine term will disappear, but in general the extra part in the denominator is a good idea.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eUse the separated boundary conditions on the function \\( X(x)\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027(0)\u003dc_{3}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027(1)\u003d-c_{2}{\\sqrt {\\lambda }}\\sin({\\sqrt {\\lambda }})\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNothing interesting would come from setting \\( c_{2}\u003d0\\, \\) . So,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\sqrt {\\lambda _{n}}}\u003dn\\pi ,\\,\\,\\,n\u003d0,1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThen for each \\( n \\) , a solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{n}(x,t)\u003dA_{n}e^{{-\\lambda _{n}t}}\\cos({\\sqrt {\\lambda _{n}}}x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the formal solution is the sum of all of these:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( u(x,t)\u003d\\sum _{{n\u003d0}}^{\\infty }A_{n}e^{{n\\pi t}}\\cos(n\\pi x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eNow deal with the initial condition. \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,0)\u003d\\phi (x)\u003d\\sum _{{n\u003d0}}^{\\infty }A_{n}\\cos(n\\pi x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe series on the RHS is the Fourier cosine series for \\( \\phi (x) \\) . Therefore, the coefficients are:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{n}\u003d2\\int _{0}^{1}\\phi (x)\\cos(n\\pi x)\\,dx,\\,\\,\\,n\u003d0,1,2...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "371c8dba-cea0-4a1f-85d7-dd521a2778ba",
+      "authorSolution": "line, plane",
+      "uuid": "8ff4bf51-bc55-4436-85b1-a1addda24547",
       "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167023,
+      "creatorUserId": "",
+      "createdAt": 1437419361988,
       "anonymous": true,
       "submitted": true,
       "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{t}\u003dku_{{xx}}\\, \\)  \\( u_{x}(0,t)\u003d0\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/371c8dba-cea0-4a1f-85d7-dd521a2778ba",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE6",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eTransform the BVP into one with homogeneous boundary conditions.\u003cbr\u003e \u003c/p\u003e  \\( u_{t}\u003du_{{xx}}+w(x,t)\\, \\)  \\( u_{x}(0,t)\u003d\\alpha (t)\\, \\) \n\u003cbr\u003e \\( u_{x}(1,t)\u003d\\beta (t)\\, \\) \n\u003cbr\u003e \\( u(x,0)\u003d\\phi (x)\\, \\) \n\u003cbr\u003e \n\u003cp\u003e \\( 0\u0026lt;x\u0026lt;1\\, \\) \u003cbr\u003e \\( t\u0026gt;0\\, \\) \u003cbr\u003e \u003c/p\u003e \n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eLet \\( v(x,t)\u003du(x,t)-{\\frac {\\beta (t)}{2}}x^{2}-(x-{\\frac {x^{2}}{2}})\\alpha (t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{x}\u003du_{x}-\\beta (t)x-\\alpha (t)+\\alpha (t)x\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{{xx}}\u003du_{{xx}}-\\beta (t)+\\alpha (t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{t}\u003du_{t}-{\\frac {\\beta \u0027(t)}{2}}x^{2}-(x-{\\frac {x^{2}}{2}})\\alpha \u0027(t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eNow the new initial boundary value problem can be stated.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe new DE is \\( v_{t}\u003dv_{{xx}}+\\beta (t)-\\alpha (t)-{\\frac {\\beta \u0027(t)}{2}}x^{2}-(x-{\\frac {x^{2}}{2}})\\alpha \u0027(t)+w(x,t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe new IC is \\( v(x,0)\u003du(x,0)-{\\frac {\\beta (0)}{2}}x^{2}-(x-{\\frac {x^{2}}{2}})\\alpha (0)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe new BCs are \u003cbr\u003e\u003cbr\u003e \\( v_{x}(0,t)\u003du_{x}(0,t)-\\alpha (t)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{x}(1,t)\u003du_{x}(1,t)-\\beta (t)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "bf712a07-ef0f-4d33-b559-99997e584bbc",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167037,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Transform this initial boundary value problem into one with homogeneous boundary conditions.",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/bf712a07-ef0f-4d33-b559-99997e584bbc",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE6.5",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\\( u_{{tt}}\u003dc^{2}(u_{{xx}}+u_{{yy}})\\, \\)  \n\u003cp\u003e \\( u(x,0,t)\u003d0\\, \\) \u003cbr\u003e \\( u(x,b,t)\u003d0\\, \\) \u003cbr\u003e \\( u(0,y,t)\u003d0\\, \\) \u003cbr\u003e \\( u(a,y,t)\u003d0\\, \\) \u003cbr\u003e \u003cbr\u003e \\( u(x,y,0)\u003df(x,y)\\, \\) \u003cbr\u003e \\( u_{t}(x,y,0)\u003dg(x,y)\\, \\) \u003cbr\u003e \u003cbr\u003e \\( 0\u0026lt;x\u0026lt;a,\\,\\,\\,\\,\\,0\u0026lt;y\u0026lt;b,\\,\\,\\,\\,\\,t\u0026gt;0\\, \\) \u003cbr\u003e \u003c/p\u003e \n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eFirst, notice that there are two derivates of \\( u \\) w.r.t \\( t \\) in the differential equation and two inital conditions. There are also two derivatives on \\( x \\) and \\( y \\) and two boundary conditions on each. Now, separate variables.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,y,t)\u003d\\psi (t)\\phi (x,y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe new boundary conditions are:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\phi (0,y)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\phi (a,y)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\phi (x,0)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\phi (x,b)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003ePlug back into the original DE.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\psi \u0027\u0027\\phi \u003dc^{2}\\psi (\\phi _{{xx}}+\\phi _{{yy}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSeparate variables. For simplicity, keep higher derivatives on top, keep the \\( c^{2}\\, \\) term with the psi function, and let the constant be \\( -\\lambda \\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {\\psi \u0027\u0027}{c^{2}\\psi }}\u003d{\\frac {\\phi _{{xx}}+\\phi _{{yy}}}{\\phi }}\u003d-\\lambda \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe solution for the DE involving \\( \\psi \\) is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\psi \u0027\u0027+\\lambda c^{2}\\psi \u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( \\psi (t)\u003dc_{1}\\cos({\\sqrt {\\lambda }}\\,ct)+c_{2}\\sin({\\sqrt {\\lambda }}\\,ct)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eDon\u0027t worry about the inital conditions until later. Work is done on this function for now.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\phi _{{xx}}+\\phi _{{yy}}+\\lambda \\phi \u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSeparate variables. Keep higher derivatives on top.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\phi (x,y)\u003dX(x)Y(y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027\u0027(x)Y(y)+X(x)Y\u0027\u0027(y)+\\lambda X(x)Y(y)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y(y)(X\u0027\u0027(x)+\\lambda X(x))\u003d-X(x)Y\u0027\u0027(y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe choice of \\( -\\mu \\, \\) is for convenience. \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {X\u0027\u0027(x)+\\lambda X(x)}{-X(x)}}\u003d{\\frac {Y\u0027\u0027(y)}{Y(y)}}\u003d-\\mu \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eWrite the new ODEs and BCs.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y\u0027\u0027(y)+\\mu Y(y)\u003d0,\\,\\,\\,Y(0)\u003d0,\\,\\,\\,Y(b)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027\u0027(x)+(\\lambda -\\mu )X(x)\u003d0,\\,\\,\\,X(0)\u003d0,\\,\\,\\,X(a)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe solution of \\( X \\) is:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(x)\u003dc_{3}\\cos({\\sqrt {\\lambda -\\mu }}\\,x)+c_{4}\\sin({\\sqrt {\\lambda -\\mu }}\\,x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(0)\u003dc_{3}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(a)\u003dc_{4}\\sin({\\sqrt {\\lambda -\\mu }}\\,a)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLetting \\( c_{4}\u003d0\\, \\) would give no interesting solutions.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\sqrt {\\lambda _{m}-\\mu _{m}}}\u003d{\\frac {m\\pi }{a}},\\,\\,\\,m\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe \\( m\u003d0 \\) case would not add any information to the sum in the final answer.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(x)\u003dc_{4}\\sin({\\frac {m\\pi x}{a}}),\\,\\,\\,m\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y(y)\u003dc_{5}\\cos({\\sqrt {\\mu }}\\,y)+c_{6}\\sin({\\sqrt {\\mu }}\\,y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y(0)\u003dc_{5}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y(b)\u003dc_{6}\\sin({\\sqrt {\\mu }}\\,b)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLetting \\( c_{6}\u003d0\\, \\) would give no interesting solutions.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\sqrt {\\mu _{n}}}\u003d{\\frac {n\\pi }{b}},\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y(y)\u003dc_{6}\\sin({\\frac {n\\pi y}{b}}),\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003eThe eigenvalues are \\( \\lambda _{{m,n}}\u003d{\\frac {m^{2}\\pi ^{2}}{a^{2}}}+{\\frac {n^{2}\\pi ^{2}}{b^{2}}},\\,\\,\\,m,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eThe eigenfunctions \\( \\phi (x,y)\u003dX(x)Y(y)\\, \\) are\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( \\phi (x,y)\u003d\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eNo coefficients are needed in the formula for the eigenfunctions. They are absorbed by the other constants \\( A \\) and \\( B \\) . The solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( u(x,y,t)\u003d\\psi (t)\\phi (x,y)\u003d\\sum _{{m,n\u003d1}}^{\\infty }\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\left[A_{{m,n}}\\cos({\\sqrt {\\lambda _{{m,n}}}}\\,ct)+B_{{m,n}}\\sin({\\sqrt {\\lambda _{{m,n}}}}\\,ct)\\right]\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eThe first initial condition gives\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( f(x,y)\u003du(x,y,0)\u003d\\sum _{{m,n\u003d1}}^{\\infty }A_{{m,n}}\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis is the sine-sine double Fourier series for f(x,y), so the coefficients are given by\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( A_{{m,n}}\u003d{\\frac {4}{ab}}\\int _{0}^{a}\\!\\!\\int _{0}^{b}f(x,y)\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\,dy\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e \\( g(x,y)\u003du_{t}(x,y,0)\u003d\\sum _{{m,n\u003d1}}^{\\infty }B_{{m,n}}{\\sqrt {\\lambda _{{m,n}}}}\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( B_{{m,n}}\u003d{\\frac {4}{ab{\\sqrt {\\lambda _{{m,n}}}}}}\\int _{0}^{a}\\!\\!\\int _{0}^{b}g(x,y)\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\,dy\\,dx\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "6962a303-9806-4630-8732-3e3de3e2cbb9",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167074,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{{tt}}\u003dc^{2}(u_{{xx}}+u_{{yy}})\\, \\)  \n\u003cp\u003e \\( u(x,0,t)\u003d0\\, \\) \u003c/p\u003e",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/6962a303-9806-4630-8732-3e3de3e2cbb9",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE7",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\\( u_{{t}}\u003dk(\\Delta u)+q(x,y,t)\\, \\)  \n\u003cp\u003e \\( u(x,0,t)\u003d0\\, \\) \u003cbr\u003e \\( u(x,b,t)\u003d0\\, \\) \u003cbr\u003e \\( u(0,y,t)\u003d0\\, \\) \u003cbr\u003e \\( u(a,y,t)\u003d0\\, \\) \u003cbr\u003e \u003cbr\u003e \\( u(x,y,0)\u003df(x,y)\\, \\) \u003cbr\u003e \u003cbr\u003e \\( 0\u0026lt;x\u0026lt;a,\\,\\,\\,\\,\\,0\u0026lt;y\u0026lt;b,\\,\\,\\,\\,\\,t\u0026gt;0\\, \\) \u003cbr\u003e \u003c/p\u003e \n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eSeperating variables for the homogeneous version of this equation leads to the same eigenvalue problem as in \u003ca rel\u003d\"nofollow\"\u003ePDE7\u003c/a\u003e. Those eigenvalues and eigenfunctions are:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( \\lambda _{{m,n}}\u003d{\\frac {m^{2}\\pi ^{2}}{a^{2}}}+{\\frac {n^{2}\\pi ^{2}}{b^{2}}},\\,\\,\\,m,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cul\u003e \n \u003cli\u003e \\( \\phi (x,y)\u003d\\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eNow, represent the function \\( u(x,y,t)\\, \\) in its eigenfunction expansion.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,y,t)\u003d\\sum _{{m,n\u003d1}}^{\\infty }B_{{m,n}}(t)\\phi _{{m,n}}(x,y)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( B_{{m,n}}(t)\u003d{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}u(x,y,t)\\phi _{{m,n}}(x,y)\\,dx\\,dy\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( t\\rightarrow 0^{+}\\, \\) in the formula for \\( B_{{m,n}}(t)\\, \\) above and use the inital condition to get\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{{m,n}}\u003d{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}f(x,y)\\phi _{{m,n}}(x,y)\\,dx\\,dy\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( D \\) is the rectangular domain \\( 0\u0026lt;x\u0026lt;a,\\,\\,\\,0\u0026lt;y\u0026lt;b\\, \\) , and \\( C \\) is its boundary.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eTo evaluate the coefficients, take the derivative of the last equation with respect to \\( t\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {dB_{{m,n}}}{dt}}\u003d{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}u_{t}\\phi _{{m,n}}\\,dx\\,dy\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSubstitute the DE for \\( u \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}k(\\Delta u)\\phi _{{m,n}}\\,dx\\,dy+{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}q\\phi _{{m,n}}\\,dx\\,dy\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLabel the second integral \\( Q\\, \\) and save it for later. This is a known function of \\( t \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Q_{{m,n}}(t)\u003d{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}q(x,y,t)\\phi _{{m,n}}(x,y)\\,dx\\,dy\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eUsing Green\u0027s identities, \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int \\!\\!\\!\\int _{D}\\phi \\Delta u\\,dx\\,dy\u003d-\\int \\!\\!\\!\\int _{D}\\nabla \\phi \\nabla u\\,dx\\,dy+\\int _{C}\\phi \\nabla u\\,ds\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \u003d-\\int \\!\\!\\!\\int _{D}\\nabla \\phi \\nabla u\\,dx\\,dy+\\int _{C}\\phi {\\frac {\\partial u}{\\partial \\nu }}\\,ds\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\int \\!\\!\\!\\int _{D}\\phi \\Delta u\\ -u\\Delta \\phi \\,dx\\,dy\u003d\\int _{C}\\phi {\\frac {\\partial u}{\\partial \\nu }}-u{\\frac {\\partial \\phi }{\\partial \\nu }}\\,ds\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eand the fact that \\( \\Delta \\phi _{{m,n}}\u003d-\\lambda _{{m,n}}\\phi _{{m,n}}\\, \\) , the first integral can be transformed:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}k(\\Delta u)\\phi _{{m,n}}\\,dx\\,dy\\,\u003d\\,-\\lambda _{{m,n}}k{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}u\\phi _{{m,n}}\\,dx\\,dy\\,\\,+\\,\\,{\\frac {4k}{ab}}\\int _{C}\\left({\\frac {\\partial u}{\\partial \\nu }}\\phi _{{m,n}}-u{\\frac {\\partial \\phi _{{m,n}}}{\\partial \\nu }}\\right)\\,ds\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe first integral on the right is equal to \\( -\\lambda _{{m,n}}kB_{{m,n}}(t)\\, \\) . The last integral around the curve is zero because the outward normal vector of \\( u \\) and \\( \\phi \\) are zero because both functions are zero there by the boundary conditions. And so\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {dB_{{m,n}}}{dt}}\u003d-\\lambda _{{m,n}}kB_{{m,n}}+Q_{{m,n}}(t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo \\( B_{{m,n}}\\, \\) is determined and gives the coefficient in the Fourier expansion of \\( u(x,y,t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( B_{{m,n}}(t)\u003dA_{{m,n}}e^{{-\\lambda _{{m,n}}kt}}+\\int _{0}^{t}e^{{-\\lambda _{{m,n}}k(t-\\tau )}}Q_{{m,n}}(\\tau )\\,d\\tau \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eThe problem is formally solved. But just for fun, the explicit solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( u(x,y,t)\u003d\\sum _{{m,n\u003d1}}^{\\infty }{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}f(\\xi ,\\zeta )\\sin({\\frac {m\\pi \\xi }{a}})\\sin({\\frac {n\\pi \\zeta }{b}})\\,d\\xi \\,d\\zeta e^{{-\\left[{\\frac {m^{2}\\pi ^{2}}{a^{2}}}+{\\frac {n^{2}\\pi ^{2}}{b^{2}}}\\right]kt}}+\\int _{0}^{t}\\left(e^{{-\\left[{\\frac {m^{2}\\pi ^{2}}{a^{2}}}+{\\frac {n^{2}\\pi ^{2}}{b^{2}}}\\right]k(t-\\tau )}}\\left[{\\frac {4}{ab}}\\int \\!\\!\\!\\int _{D}q(\\xi ,\\zeta ,t)\\sin({\\frac {m\\pi \\xi }{a}})\\sin({\\frac {n\\pi \\zeta }{b}})\\,d\\xi \\,d\\zeta \\right]\\right)\\,d\\tau \\sin({\\frac {m\\pi x}{a}})\\sin({\\frac {n\\pi y}{b}})\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eWhich can probably be simplified.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "62c312d6-ec1f-4eeb-b014-e92f1fba958b",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167098,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{{t}}\u003dk(\\Delta u)+q(x,y,t)\\, \\)  \n\u003cp\u003e \\( u(x,0,t)\u003d0\\, \\) \u003c/p\u003e",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/62c312d6-ec1f-4eeb-b014-e92f1fba958b",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE8",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003eTransform this equation: \\( u_{{t}}\u003d\\nu u_{{xx}}+\\lambda u_{x}+\\mu u\\, \\) into the standard heat equation: \\( v_{t}\u003dv_{{xx}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eAssume a solution in the form \\( u(x,t)\u003de^{{\\alpha x+\\beta t}}v(x,t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eFind its derivatives and plug it into the orginal DE:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{t}\u003d\\beta e^{{\\alpha x+\\beta t}}v+e^{{\\alpha x+\\beta t}}v_{t}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{x}\u003d\\alpha e^{{\\alpha x+\\beta t}}v+e^{{\\alpha x+\\beta t}}v_{x}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u_{{xx}}\u003d\\alpha ^{2}e^{{\\alpha x+\\beta t}}v+\\alpha e^{{\\alpha x+\\beta t}}v_{x}+\\alpha e^{{\\alpha x+\\beta t}}v_{x}+e^{{\\alpha x+\\beta t}}v_{{xx}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\beta v+v_{t}\u003d\\nu (\\alpha ^{2}v+2\\alpha v_{x}+v_{{xx}})+\\lambda (\\alpha v+v_{x})+\\mu v\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eCollect derivatives of \\( v\\, \\) and find the appropriate values of \\( \\alpha \\, \\) and \\( \\beta \\, \\) to make the equation look like the heat equation.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v(\\beta -\\nu \\alpha ^{2}-\\lambda \\alpha -\\mu )+v_{t}-v_{x}(2\\alpha \\nu +\\lambda )-v_{{xx}}(\\nu )\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\beta -\\nu \\alpha ^{2}-\\lambda \\alpha -\\mu \u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( 2\\alpha \\nu +\\lambda \u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\lambda \u003d-2\\alpha \\nu \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\alpha \u003d{\\frac {-\\lambda }{2\\nu }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\beta -\\nu \\left({\\frac {-\\lambda }{2\\nu }}\\right)^{2}-\\lambda \\left({\\frac {-\\lambda }{2\\nu }}\\right)-\\mu \u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\beta -{\\frac {-\\lambda ^{2}}{4\\nu }}+{\\frac {2\\lambda ^{2}}{4\\nu }}-\\mu \u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( \\beta \u003d\\mu -{\\frac {\\lambda ^{2}}{4\\nu }}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo the solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003de^{{{\\frac {-\\lambda }{2\\nu }}x+\\left(\\mu -{\\frac {\\lambda ^{2}}{4\\nu }}\\right)t}}v(x,t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eTaking derivatives and plugging back in gives this equation:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{t}\u003d\\nu v_{{xx}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "2bebc59e-2cb5-4567-adf1-956f66f05838",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167114,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Transform this equation: \\( u_{{t}}\u003d\\nu u_{{xx}}+\\lambda u_{x}+\\mu u\\, \\) into the standard heat equation: \\( v_{t}\u003dv_{{xx}}\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/2bebc59e-2cb5-4567-adf1-956f66f05838",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE9",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\u003cp\u003e \\( u_{x}+2u_{y}\u003d0,\\,\\,\\,u(0,y)\u003d3\\,e^{{-2y}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eMake the seperation of variables \\( u(x,y)\u003dX(x)Y(y)\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003ePlug back into the DE.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027Y+2XY\u0027\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {\\frac {X\u0027}{X}}\u003d{\\frac {-2Y\u0027}{Y}}\u003d\\lambda \\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis gives two ODES:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027+\\lambda X\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X(x)\u003dc_{1}\\,e^{{\\lambda x}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( -2Y\u0027+\\lambda Y\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( Y(y)\u003dc_{2}\\,e^{{{\\frac {\\lambda }{2}}y}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eLet \\( A\u003dc_{1}c_{2}\\, \\) .\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003dA\\,e^{{\\lambda ({\\frac {y}{2}}-x)}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eApplying the boundary condition,\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(0,y)\u003dA\\,e^{{\\lambda {\\frac {y}{2}}}}\u003d3\\,e^{{-2y}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSo \\( A\u003d3,\\,\\,\\,\\lambda \u003d-4\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,y)\u003d3\\,e^{{4(x-{\\frac {y}{2}})}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "e54c9917-3a93-4062-892d-a497cfb36f43",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167129,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{x}+2u_{y}\u003d0,\\,\\,\\,u(0,y)\u003d3e^{{-2y}}\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/e54c9917-3a93-4062-892d-a497cfb36f43",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE10",
-      "topic": "NONE"
-    },
-    {
-      "authorSolution": "\\( u_{{xx}}\u003da^{{-2}}u_{t}\\, \\)  \n\u003cp\u003e \\( u(0,t)\u003d10\\, \\) \u003cbr\u003e \\( u(10,t)\u003d30\\, \\) \u003cbr\u003e \u003cbr\u003e \\( u(x,0)\u003d0\\, \\) \u003cbr\u003e \u003cbr\u003e \\( 0\u0026lt;x\u0026lt;10,\\,\\,\\,\\,\\,t\u0026gt;0\\, \\) \u003cbr\u003e \u003c/p\u003e \n\u003cbr\u003e\n\u003cbr\u003e \n\u003cp\u003eWrite the solution as a sum of two functions, one independent of time.\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( u(x,t)\u003ds(x)+v(x,t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe new boundary conditions are:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( s(0)\u003d10,\\,\\,\\,s(10)\u003d30\\, \\) \u003cbr\u003e\u003cbr\u003e \\( v(0,t)\u003d0,\\,\\,\\,v(10,t)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( u(x,0)\u003ds(x)+v(x,0)\u003d0,\\,\\,\\,v(x,0)\u003d-s(x)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSubstituting the sum of functions into the DE gives a simple ODE and a PDE:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( s\u0027\u0027\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( s(x)\u003dAx+B\\, \\) \u003cbr\u003e\u003cbr\u003e \\( s(0)\u003dB\u003d10\\, \\) \u003cbr\u003e\u003cbr\u003e \\( s(10)\u003d10A+10\u003d30,\\,\\,\\,A\u003d2\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( s(x)\u003d2x+10\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003eAnd the PDE\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v_{{xx}}\u003da^{{-2}}v_{t}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eSeperate variables to get two ODEs. Set them equal to a constant that will simplify calculations later:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( v(x,t)\u003dX(x)T(t)\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027\u0027T\u003da^{{-2}}XT\u0027\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( {X\u0027\u0027 \\over X}\u003da^{{-2}}{T\u0027 \\over T}\u003d-\\lambda ^{2}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( X\u0027\u0027+\\lambda ^{2}X\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( X(x)\u003dc_{1}\\cos(\\lambda x)+c_{2}\\sin(\\lambda x)\\, \\) \u003cbr\u003e\u003cbr\u003e \\( X(0)\u003dc_{1}\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( X(10)\u003dc_{2}\\sin(\\lambda 10)\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \\lambda _{n}\u003d{n\\pi \\over 10},\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eAnd\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( T\u0027+a^{2}\\lambda ^{2}T\u003d0\\, \\) \u003cbr\u003e\u003cbr\u003e \\( T(t)\u003dc_{3}e^{{-a^{2}\\lambda ^{2}t}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( v(x,t)\u003d\\sum _{{n\u003d1}}^{\\infty }A_{n}\\sin(\\lambda _{n}x)e^{{-a^{2}\\lambda ^{2}t}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e \\( v(x,0)\u003d\\sum _{{n\u003d1}}^{\\infty }A_{n}\\sin({n\\pi x \\over 10})\u003d-2x-10\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThis is a Fourier sine series for the function on the right. The coefficients are then given by:\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003e \\( A_{n}\u003d{-1 \\over 5}\\int _{0}^{{10}}(2x+10)\\sin({n\\pi x \\over 10})\\,dx,\\,\\,\\,n\u003d1,2,3,...\\, \\) \u003cbr\u003e\u003cbr\u003e \\( \u003d{20(3(-1)^{n}-1) \\over n\\pi }\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/p\u003e\n\u003cp\u003eThe solution is\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \\( u(x,t)\u003d2x+10+{20 \\over \\pi }\\sum _{{n\u003d1}}^{\\infty }{3(-1)^{n}-1 \\over n}\\sin({n\\pi x \\over 10})e^{{-a^{2}{n^{2}\\pi ^{2} \\over 10^{2}}t}}\\, \\) \u003cbr\u003e\u003cbr\u003e \u003c/li\u003e \n\u003c/ul\u003e \n\u003cp\u003e\u003ca rel\u003d\"nofollow\"\u003ePartial Differential Equations\u003c/a\u003e\u003cbr\u003e\u003cbr\u003e \u003c/p\u003e",
-      "uuid": "46409d30-416b-4b9a-8011-0b306ac3e1de",
-      "contentType": "practiceProblem",
-      "creatorUserId": "11481431651082296168",
-      "createdAt": 1434556167150,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 1,
-      "title": "PDE Integration and Separation of Variables Practice",
-      "body": "Evaluate \\( u_{{xx}}\u003da^{{-2}}u_{t}\\, \\)",
-      "tags": "PDE Integration and Separation of Variables,PDE,Integration,and,Separation,of,Variables,auto-uploaded",
-      "url": "/practice-problem/46409d30-416b-4b9a-8011-0b306ac3e1de",
-      "source": "http://www.exampleproblems.com/wiki/index.php/PDE11",
-      "topic": "NONE"
+      "karma": 3,
+      "title": "Practice With Vector And Metric Properties Of $\\r^n$",
+      "body": " In  \\(\\R^2\\) ,  \\(x + y \u003d 4\\)  is the equation of a ________.    In  \\(\\R^3\\) ,  \\(x + y \u003d 4\\)  is the equation of a ________.",
+      "allAnswers": [],
+      "tags": "vector and metric properties of $\\r^n$,",
+      "url": "/practice-problem/8ff4bf51-bc55-4436-85b1-a1addda24547",
+      "source": "Exercises and Problems In Calculus (J. M. Erdman)",
+      "topic": "c0e3f893-4008-4156-9e1e-1d9a6c62c312"
     }
   ],
   "questions": [
-    {
-      "uuid": "e3a024f2-ddbf-4b09-a85c-8a54651e28ef",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "You want to make cylindrical containers of a given volume \\(V\\) using the\nleast amount of construction material.  The side is made from a\nrectangular piece of material, and this can be done with no material\nwasted.  However, the top and bottom are cut from squares of side \\(2r\\), so that \\(2(2r)^2\u003d8r^2\\) of material is needed (rather than \\(2\\pi r^2\\), which is the total area of the top and bottom).  Find the optimal ratio of height to\nradius.",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/e3a024f2-ddbf-4b09-a85c-8a54651e28ef",
-      "source": "Mooculus 9.2.14",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "35bc997a-7716-4caa-9110-421c941fdaaf",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "Given a right circular cone, you put an upside-down cone inside it so that\nits vertex is at the center of the base of the larger cone and its base is\nparallel to the base of the larger cone.  If you choose the upside-down\ncone to have the largest possible volume, what fraction of the volume of\nthe larger cone does it occupy?  (Let \\(H\\) and \\(R\\) be the height and base\nradius of the larger cone, and let \\(h\\) and \\(r\\) be the height and base\nradius of the smaller cone.  Hint: Use similar triangles to get an equation\nrelating \\(h\\) and \\(r\\).)",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/35bc997a-7716-4caa-9110-421c941fdaaf",
-      "source": "Mooculus 9.2.15",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "24f8c5d3-756f-48f7-997a-8ba47a23eac9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "A container holding a fixed volume is being made in the shape of a cylinder with a hemispherical top.  (The hemispherical top has the same radius as the cylinder.)  Find the ratio of height to radius of the cylinder which minimizes the cost of the container if (a) the cost per unit area of the top is twice as great as the cost per unit area of the side, and the\ncontainer is made with no bottom; (b) the same as in (a), except that the container is made with a circular bottom, for which the cost per unit area is 1.5 times the cost per unit area of the side.",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/24f8c5d3-756f-48f7-997a-8ba47a23eac9",
-      "source": "Mooculus 9.2.16",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "1783587f-e466-4470-b334-12814b1c891d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "A piece of cardboard is 1 meter by \\(1/2\\) meter. A square is to be cut from each corner and the sides folded up to make an open-top box. What are the dimensions of the box with maximum possible volume?",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/1783587f-e466-4470-b334-12814b1c891d",
-      "source": "Mooculus 9.2.17",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "14f18a24-dfa3-43a3-8fa0-6038aee81956",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "(a) A square piece of cardboard of side \\(a\\) is used to make\nan open-top box by cutting out a small square from each corner and\nbending up the sides.  How large a square should be cut from each\ncorner in order that the box have maximum volume? (b) What if the\npiece of cardboard used to make the box is a rectangle of sides \\(a\\)\nand \\(b\\)?  ",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/14f18a24-dfa3-43a3-8fa0-6038aee81956",
-      "source": "Mooculus 9.2.18",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "59413968-7e0a-491b-9c9c-0d019f6b67a6",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "A window consists of a rectangular piece of clear glass with\na semicircular piece of colored glass on top; the colored glass transmits only \\(1/2\\) as much light per unit area as the the clear glass.  If the distance from top to bottom (across both the rectangle and the semicircle) is 2 meters and the window may be no more than 1.5 meters wide, find the\ndimensions of the rectangular portion of the window that lets through\nthe most light.",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/59413968-7e0a-491b-9c9c-0d019f6b67a6",
-      "source": "Mooculus 9.2.19",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "e9fde923-53f6-457a-9dd3-984a8db071cb",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "A window consists of a rectangular piece of clear glass with\na semicircular piece of colored glass on top.  Suppose that the\ncolored glass transmits only \\(k\\) times as much light per unit area as\nthe clear glass (\\(k\\) is between \\(0\\) and \\(1\\)).  If the distance from\ntop to bottom (across both the rectangle and the semicircle) is a\nfixed distance \\(H\\), find (in terms of \\(k\\)) the ratio of vertical side to horizontal side of the rectangle for which the window lets through the most light.",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/e9fde923-53f6-457a-9dd3-984a8db071cb",
-      "source": "Mooculus 9.2.20",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "3020f169-1f97-4848-bcd8-110cc8cf462d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "You are designing a poster to contain a fixed amount \\(A\\) of\nprinting (measured in square centimeters) and have margins of \\(a\\)\ncentimeters at the top and bottom and \\(b\\) centimeters at the sides.\nFind the ratio of vertical dimension to horizontal dimension of the\nprinted area on the poster if you want to minimize the amount of\nposterboard needed.",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/3020f169-1f97-4848-bcd8-110cc8cf462d",
-      "source": "Mooculus 9.2.21",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "1fd8ebe7-44b5-4070-8aaa-5f8c0dced40a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "The strength of a rectangular beam is proportional to the product of its\nwidth \\(w\\) times the square of its depth \\(d\\). Find the dimensions of the strongest beam that can be cut from a cylindrical log of radius \\(r\\).",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/1fd8ebe7-44b5-4070-8aaa-5f8c0dced40a",
-      "source": "Mooculus 9.2.22",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "bfcc7d9d-6677-45a3-bab4-b1e8c6520476",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "What fraction of the volume of a sphere is taken up by the largest cylinder\nthat can be fit inside the sphere?",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/bfcc7d9d-6677-45a3-bab4-b1e8c6520476",
-      "source": "Mooculus 9.2.23",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
-    {
-      "uuid": "2dbf02de-06c7-4c51-8ad0-aae1dcd8071b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437522787594,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Optimization Practice",
-      "body": "The U.S.~post office will accept a box for shipment only if the sum of the\nlength and girth (distance around) is at most 108 in.  Find the dimensions\nof the largest acceptable box with square front and back.",
-      "allAnswers": [],
-      "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
-      "url": "/question/2dbf02de-06c7-4c51-8ad0-aae1dcd8071b",
-      "source": "Mooculus 9.2.24",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
-    },
     {
       "uuid": "4df5d8e2-72c0-4e51-a95f-70b8cea00878",
       "contentType": "question",
@@ -477,7 +198,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/4df5d8e2-72c0-4e51-a95f-70b8cea00878",
       "source": "Mooculus 9.2.25",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "676e5dfa-f644-4c1b-9915-18b0795a585b"
     },
     {
       "uuid": "90073852-bc4d-4a25-81d2-613e33fcd00f",
@@ -494,7 +215,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/90073852-bc4d-4a25-81d2-613e33fcd00f",
       "source": "Mooculus 9.2.26",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "676e5dfa-f644-4c1b-9915-18b0795a585b"
     },
     {
       "uuid": "382e73df-b606-4e27-9449-94e5f94f4573",
@@ -511,7 +232,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/382e73df-b606-4e27-9449-94e5f94f4573",
       "source": "Mooculus 9.2.27",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "676e5dfa-f644-4c1b-9915-18b0795a585b"
     },
     {
       "uuid": "80a8b953-bc6c-4f57-a115-006cfc88d8d8",
@@ -528,7 +249,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/80a8b953-bc6c-4f57-a115-006cfc88d8d8",
       "source": "Mooculus 9.2.28",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "676e5dfa-f644-4c1b-9915-18b0795a585b"
     },
     {
       "uuid": "0b2dd546-7f4e-4661-bbf8-b28e91eca72d",
@@ -545,7 +266,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/0b2dd546-7f4e-4661-bbf8-b28e91eca72d",
       "source": "Mooculus 6.2.1",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "61b1341a-0b54-4532-9e6b-8a673e022c9d",
@@ -562,7 +283,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/61b1341a-0b54-4532-9e6b-8a673e022c9d",
       "source": "Mooculus 6.2.2",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "57489885-aaea-405d-97d8-eb031f6fd13d",
@@ -579,7 +300,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/57489885-aaea-405d-97d8-eb031f6fd13d",
       "source": "Mooculus 9.2.29",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "676e5dfa-f644-4c1b-9915-18b0795a585b"
     },
     {
       "uuid": "b5c59351-bf03-427c-865f-c5332cd14d07",
@@ -596,7 +317,7 @@
       "tags": "implicit differentiation, derivative ",
       "url": "/question/b5c59351-bf03-427c-865f-c5332cd14d07",
       "source": "Mooculus 6.2.3",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "ec5da4c4-43ef-470c-af66-142c2df96ab2",
@@ -613,7 +334,7 @@
       "tags": "absolute, minimum, maximum, values, extreme value theorem, continuous, intervals, optimization",
       "url": "/question/ec5da4c4-43ef-470c-af66-142c2df96ab2",
       "source": "Mooculus 9.2.30",
-      "topic": "Calculus/Derivative Calculus/Applications of Derivatives/Optimization/Extreme Value Theorem/Continuous Function"
+      "topic": "676e5dfa-f644-4c1b-9915-18b0795a585b"
     },
     {
       "uuid": "2472ae57-c03a-4cca-a35b-a0d4a06575c8",
@@ -630,7 +351,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/2472ae57-c03a-4cca-a35b-a0d4a06575c8",
       "source": "Mooculus 6.2.4",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "4647f454-1338-4308-8619-d1baeed97176",
@@ -647,7 +368,7 @@
       "tags": "implicit differentiation, derivative ",
       "url": "/question/4647f454-1338-4308-8619-d1baeed97176",
       "source": "Mooculus 6.2.5",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "25547d21-898d-4f72-b5eb-bf9e7a7222bc",
@@ -664,7 +385,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/25547d21-898d-4f72-b5eb-bf9e7a7222bc",
       "source": "Mooculus 6.2.6",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "0cdab761-92d9-4de8-89cd-fe33e16e0aef",
@@ -681,7 +402,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/0cdab761-92d9-4de8-89cd-fe33e16e0aef",
       "source": "Mooculus 6.2.7",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "d6718dfa-baa9-4b7a-9f0d-65b5b887c2ed",
@@ -698,7 +419,7 @@
       "tags": "implicit differentiation, derivative",
       "url": "/question/d6718dfa-baa9-4b7a-9f0d-65b5b887c2ed",
       "source": "Mooculus 6.2.8",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "5fbfd046-e0c2-4c12-9426-f9dcb3f03bca",
@@ -715,7 +436,7 @@
       "tags": "implicit differentiation, hyperbola, slope, tangent line",
       "url": "/question/5fbfd046-e0c2-4c12-9426-f9dcb3f03bca",
       "source": "Mooculus 6.2.9",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "97e78a56-85f3-4abe-afb6-486fbfb0f5aa",
@@ -732,7 +453,7 @@
       "tags": "implicit differentiation, ellipse, tangent lines, parallel",
       "url": "/question/97e78a56-85f3-4abe-afb6-486fbfb0f5aa",
       "source": "Mooculus 6.2.10",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "1fd338b8-ff1d-48ec-a17c-7bd537838cc1",
@@ -749,7 +470,7 @@
       "tags": "implicit differentiation, ellipse",
       "url": "/question/1fd338b8-ff1d-48ec-a17c-7bd537838cc1",
       "source": "Mooculus 6.2.11",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "6967633f-3a9d-43cc-b9b2-9db5c5902362",
@@ -766,7 +487,7 @@
       "tags": "implicit differentiation, ellipse, slope",
       "url": "/question/6967633f-3a9d-43cc-b9b2-9db5c5902362",
       "source": "Mooculus 6.2.12",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "6a248eb9-9d56-47d2-9694-7f783f4bce5e",
@@ -783,7 +504,7 @@
       "tags": "implicit differentiation, tangent line, curve",
       "url": "/question/6a248eb9-9d56-47d2-9694-7f783f4bce5e",
       "source": "Mooculus 6.2.13",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "4feadcc3-a6bb-4397-8fc7-a64a1e8cd4a3",
@@ -800,7 +521,7 @@
       "tags": "implicit differentiation, tangent line, curve ",
       "url": "/question/4feadcc3-a6bb-4397-8fc7-a64a1e8cd4a3",
       "source": "Mooculus 6.2.14",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "be82604a-78c6-4320-96bd-286aaa4a7592",
@@ -817,7 +538,7 @@
       "tags": "implicit differentiation, tangent line, curve",
       "url": "/question/be82604a-78c6-4320-96bd-286aaa4a7592",
       "source": "Mooculus 6.2.15",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Implicit Equation"
+      "topic": "cdbd9b56-94eb-49e2-a159-4f6ffd8ee5d0"
     },
     {
       "uuid": "bcfd4455-1302-4ff5-b2aa-e2f1a3ced555",
@@ -834,7 +555,7 @@
       "tags": "logarithmic differentiation",
       "url": "/question/bcfd4455-1302-4ff5-b2aa-e2f1a3ced555",
       "source": "Mooculus 6.3.1",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "9307c154-5290-45b7-a2f6-5ff351eb2092",
@@ -851,7 +572,7 @@
       "tags": "logarithmic differentiation ",
       "url": "/question/9307c154-5290-45b7-a2f6-5ff351eb2092",
       "source": "Mooculus 6.3.2",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "2bded100-0e09-4134-b277-5b42763686f0",
@@ -868,7 +589,7 @@
       "tags": "logarithmic differentiation ",
       "url": "/question/2bded100-0e09-4134-b277-5b42763686f0",
       "source": "Mooculus 6.3.3",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "8a405365-1809-4e70-a669-02e2a3f5a3ed",
@@ -885,7 +606,7 @@
       "tags": "logarithmic differentiation ",
       "url": "/question/8a405365-1809-4e70-a669-02e2a3f5a3ed",
       "source": "Mooculus 6.3.4",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
     },
     {
       "uuid": "5ac1b45a-fd05-440c-9af2-b924d29acee0",
@@ -902,7 +623,194 @@
       "tags": "logarithmic differentiation ",
       "url": "/question/5ac1b45a-fd05-440c-9af2-b924d29acee0",
       "source": "Mooculus 6.3.5",
-      "topic": "Calculus/Derivative Calculus/Implicit Differentiation/Inverses "
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
+    },
+    {
+      "uuid": "da13b1b9-bf18-456a-bdb3-c5fb840196ee",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logarithmic Differentiation",
+      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)x\\(^{(e^{x})}\\)",
+      "allAnswers": [],
+      "tags": "logarithmic differentiation",
+      "url": "/question/da13b1b9-bf18-456a-bdb3-c5fb840196ee",
+      "source": "Mooculus 6.3.6",
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
+    },
+    {
+      "uuid": "1b6c7348-a2a6-4a4d-b7f3-3e7d838cdfba",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logarithmic Differentiation",
+      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)x\\(^{\\pi}\\)+\\(\\pi^{x}\\)",
+      "allAnswers": [],
+      "tags": "logarithmic differentiation",
+      "url": "/question/1b6c7348-a2a6-4a4d-b7f3-3e7d838cdfba",
+      "source": "Mooculus 6.3.7",
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
+    },
+    {
+      "uuid": "a8a0090c-d11d-491d-8525-2964bd426c19",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Linear Approximation Practice",
+      "body": "Use a linear approximation of \\(f(x) \u003d\\sin(x/2)\\) at \\(x\u003d0\\) to approximate\n\\(f(0.1)\\).",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions",
+      "url": "/question/a8a0090c-d11d-491d-8525-2964bd426c19",
+      "source": "Mooculus 10.1.1",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "ef904ea6-2e74-4283-bf51-d959f6a1f828",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logarithmic Differentiation",
+      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)(1+\\(\\frac{1}{x}\\))\\(^{x}\\)",
+      "allAnswers": [],
+      "tags": "logarithmic differentiation ",
+      "url": "/question/ef904ea6-2e74-4283-bf51-d959f6a1f828",
+      "source": "Mooculus 6.3.8",
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
+    },
+    {
+      "uuid": "da9f6969-db64-4826-b7d0-ce0f3da6a5f4",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Linear Approximation Practice",
+      "body": "Use a linear approximation of \\(f(x) \u003d\\sqrt[3]{x}\\) at \\(x\u003d8\\) to approximate\n\\(f(10)\\).",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions",
+      "url": "/question/da9f6969-db64-4826-b7d0-ce0f3da6a5f4",
+      "source": "Mooculus 10.1.2",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "f7ffb0d2-a503-4fd3-9df2-b00b18d7e631",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logarithmic Differentiation",
+      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)\\((\\ln(x))^{x}\\)",
+      "allAnswers": [],
+      "tags": "logarithmic differentiation",
+      "url": "/question/f7ffb0d2-a503-4fd3-9df2-b00b18d7e631",
+      "source": "Mooculus 6.3.9",
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
+    },
+    {
+      "uuid": "f91ca133-3904-41d8-938d-d0289374a5c2",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Logarithmic Differentiation",
+      "body": "Use logarithmic differentiation to compute the following:\n\\(\\frac{d}{dx}\\)(f(x)g(x)h(x))",
+      "allAnswers": [],
+      "tags": "logarithmic differentiation ",
+      "url": "/question/f91ca133-3904-41d8-938d-d0289374a5c2",
+      "source": "Mooculus 6.3.10",
+      "topic": "fc918260-0d8b-4b9c-b75d-dc0d4be7e1bd"
+    },
+    {
+      "uuid": "b0a2b67d-0d69-4001-b19d-f67b7f89fa4f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "Linear Approximation Practice",
+      "body": "Use a linear approximation of \\(f(x) \u003d\\sqrt[5]{x}\\) at \\(x\u003d243\\) to approximate \\(f(250)\\).",
+      "allAnswers": [],
+      "tags": "linear, approximation, differentials, differentiation, functions",
+      "url": "/question/b0a2b67d-0d69-4001-b19d-f67b7f89fa4f",
+      "source": "Mooculus 10.1.3",
+      "topic": "06fc599e-a74d-40b6-abd5-c208531b1e54"
+    },
+    {
+      "uuid": "0a6f71b2-4b08-44aa-b4c9-5da46d57fb77",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Derivative of Trigonometric Functions",
+      "body": "Find the derivatives of the following functions.\n\\(\\sin^{2}(\\sqrt{x})\\)",
+      "allAnswers": [],
+      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
+      "url": "/question/0a6f71b2-4b08-44aa-b4c9-5da46d57fb77",
+      "source": "Mooculus 7.1.1",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
+    },
+    {
+      "uuid": "d4d71a69-fe13-4143-8b36-aac0d6d76bfa",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Derivative of Trigonometric Functions",
+      "body": "Find the derivatives of the following functions.\n\\(\\sqrt{x}\\sin(x)\\)",
+      "allAnswers": [],
+      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
+      "url": "/question/d4d71a69-fe13-4143-8b36-aac0d6d76bfa",
+      "source": "Mooculus 7.1.2",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
+    },
+    {
+      "uuid": "0064d81e-00c4-47b3-b0a3-681410d7659f",
+      "contentType": "question",
+      "creatorUserId": "",
+      "createdAt": 1437522787594,
+      "anonymous": true,
+      "submitted": true,
+      "viewable": true,
+      "karma": 3,
+      "title": "The Derivative of Trigonometric Functions",
+      "body": "Find the derivatives of the following functions.\n\\(\\frac{1}{\\sin(x)}\\)",
+      "allAnswers": [],
+      "tags": "derivatives, functions, trigonometric functions, derivatives of trigonometric functions",
+      "url": "/question/0064d81e-00c4-47b3-b0a3-681410d7659f",
+      "source": "Mooculus 7.1.3",
+      "topic": "8dedd310-d1eb-418b-a7c5-628ccddf5fd8"
     }
   ],
   "textContent": [
@@ -921,7 +829,7 @@
       "tags": "partial fractions, integration, integral ",
       "url": "/text-content/b62a8cce-569b-42ed-9b35-dd4a0c8fcda5",
       "source": "Forgotten Text 4 7.5",
-      "topic": "Calculus/Integral Calculus/Methods of Integration/Partial Fractions and Integration"
+      "topic": "49d7c9df-fbee-4070-b3c6-ad2b3aab5217"
     },
     {
       "uuid": "62e1d25d-00c0-4ea4-ab5f-4d6d4f12c315",
@@ -938,9 +846,66 @@
       "tags": "Asymptotics of functions, asymptotic, asymptotes, trigonometric functions, integral, improper integral ",
       "url": "/text-content/62e1d25d-00c0-4ea4-ab5f-4d6d4f12c315",
       "source": "Forgotten Text 4 9.1",
-      "topic": "Calculus/Pre-Calculus Review/Improper Integrals/Asymptotics of Functions"
+      "topic": "1596eee3-b977-42ef-9995-1028d7be184e"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "6b7c4609-f3ef-4ba6-a69c-40695bcdd286",
+      "subTopics": [],
+      "parentTopics": [
+        "d4afb9ca-bf34-453d-bb1f-fd3c2ee579c2"
+      ],
+      "title": "Power Rule",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " logarithmic functions,exponential functions, functions, domain, y-intercepts,  y-intercept , y-intercept,",
+      "difficulty": 308000,
+      "contentUuids": [
+        "6a7ebac3-c441-45f0-a9be-127348e1dd09",
+        "2e1db223-454e-4956-b551-4fe66eea22af",
+        "57fc9836-5e07-479c-908c-3d3dbdec9aac",
+        "750ffc95-f6e1-43f0-8ceb-1345d6f0daf7",
+        "238946f9-cabf-456b-a6c7-adec103dc574",
+        "00ddefa5-0011-4d3f-a65c-0512ec6835bf",
+        "732479f8-21dc-44e1-a801-bcd3464e5a5b",
+        "939873d8-7c52-4629-9c28-41fada0d3bdf",
+        "1860ce2a-f4ab-43fc-a524-8cee59565823",
+        "77d993b5-ae0b-41cc-97a7-a989bfbd77f8",
+        "12193b23-a950-4718-8b05-c87c52ee68f1",
+        "07b0956a-a0a9-450f-b7b7-6248c90bd2c3"
+      ]
+    },
+    {
+      "uuid": "22e04a6d-2872-405c-bd44-a7c99abba413",
+      "subTopics": [],
+      "parentTopics": [
+        "29f4db72-a2c1-4165-8293-0a566eeab72f"
+      ],
+      "title": "Integral and Comparison Tests",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " sequences, series,integral test, sum of a series , comparison tests,",
+      "difficulty": 687000,
+      "contentUuids": [
+        "a9a4c3d8-64da-47cb-984f-0f509b175ff2"
+      ]
+    },
+    {
+      "uuid": "54ac8a86-5c3b-4715-a401-c52dbdc6c058",
+      "subTopics": [],
+      "parentTopics": [
+        "18e561fc-d3a0-42e7-8761-2df894c9b4a7"
+      ],
+      "title": "Integration by parts",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " integration by parts ,integral, integration,",
+      "difficulty": 568000,
+      "contentUuids": [
+        "aca6e656-9427-452a-9ae0-81962a54bc3f"
+      ]
+    }
+  ]
 }
