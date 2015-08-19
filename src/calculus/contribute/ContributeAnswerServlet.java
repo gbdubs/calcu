@@ -14,7 +14,6 @@ import calculus.api.KarmaAPI;
 import calculus.api.NotificationsAPI;
 import calculus.api.UserContextAPI;
 import calculus.api.UserPublicInfoAPI;
-import calculus.models.Answer;
 import calculus.models.Notification;
 import calculus.recommendation.InterestsAPI;
 import calculus.recommendation.SkillsAPI;
@@ -36,23 +35,15 @@ public class ContributeAnswerServlet extends HttpServlet {
 		
 		// Creates and stores a new answer from the request
 		String uuid = ContentAPI.createOrUpdateContentFromRequest(req, "answer");
-		Answer answer;
-		try {
-			answer = new Answer(uuid);
-		} catch (EntityNotFoundException e) {
-			// Return, there was error in the code that saves a piece of content.
-			resp.getWriter().println("THERE WAS AN ERROR IN THE INSTANTIATION OF THE ANSWER: IT WAS NOT FOUND.");
-			return;
-		}
+		String parentUuid = req.getParameter("parentUuid");
 		
 		// Save that the user is interested in this kind of content
 		String userId = user.getUserId();
-		String answerParentUuid = answer.getParentUuid();
-		InterestsAPI.userAnsweredContent(userId, answerParentUuid);
-		SkillsAPI.userAnsweredContent(userId, answerParentUuid);
+		InterestsAPI.userAnsweredContent(userId, parentUuid);
+		SkillsAPI.userAnsweredContent(userId, parentUuid);
 		
 		// Alert the parent that it has a new child!
-		ContentAPI.addAnswerToContent(answerParentUuid, uuid);
+		ContentAPI.addAnswerToContent(parentUuid, uuid);
 		
 		// Give the user their instant burst of Karma for answering the question
 		KarmaAPI.incrementContentKarma(uuid, 3);
@@ -62,9 +53,9 @@ public class ContributeAnswerServlet extends HttpServlet {
 		AchievementsAPI.incrementUserAchievementStatsFromContentSubmission(userId, req.getParameter("body"), "Answers");
 		
 		// Sends the author a notification if the author is not null.
-		String authorUserId = ContentAPI.getContentAuthorId(answerParentUuid);
+		String authorUserId = ContentAPI.getContentAuthorId(parentUuid);
 		if (authorUserId != null && authorUserId.length() > 5){
-			Notification n = ContributeAnswerServlet.answerNotification(answerParentUuid, userId);
+			Notification n = ContributeAnswerServlet.answerNotification(parentUuid, userId);
 			NotificationsAPI.sendNotification(n);
 		}
 		
