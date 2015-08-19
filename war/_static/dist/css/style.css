@@ -5216,6 +5216,7 @@ h2.mini-font {
 		height: 48px;
 		left: auto;
 	}
+	
 }
 
 .margin-right-5 {
@@ -5400,6 +5401,15 @@ h1.welcome-banner{
 @media only screen and (max-width: 1199px) {
 	.explore-column-hidden{
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	h2.welcome-banner{
+	    margin-top: 0;
+	}
+	h1.welcome-banner{
+		margin-top: 0;
 	}
 }
 

@@ -127,13 +127,13 @@
 					</div>
 					
 					<div class="max-width-at-700">
-						<a href="/explore" class="hexagon-button float-left">
+						<a href="/topic-selector" class="hexagon-button float-left">
 							<div class="text-green">
 								<div class="hexagon outer-hexagon"></div>
 								<div class="hexagon-button-insides bg-white text-white">
 									<div class="hexagon inner-hexagon"></div>
 								</div>
-								<i class="fa fa-fw fa-binoculars fa-5x badge-icon"></i>
+								<i class="fa fa-fw fa-sitemap fa-5x badge-icon"></i>
 								<h4 class="hexagon-title">Explore the Site</h4>
 							</div>
 						</a>
