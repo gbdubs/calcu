@@ -25,7 +25,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class DataUploadPackage {
-
+	
 	private List<Achievement> achievements;
 	private List<PracticeProblem> practiceProblems;
 	private List<Question> questions;
@@ -71,7 +71,7 @@ public class DataUploadPackage {
 		for (Topic t : topics){
 			if (t != null){
 				t.saveAsync();
-			}
+			} 
 		}
 		
 		for (Achievement a : achievements){
@@ -172,6 +172,7 @@ public class DataUploadPackage {
 	}
 
 	public static void mergeAllMainFiles(){
+		DataUploadPackage stateFileZero = getFileContents("war/WEB-INF/data/content/state-file-0.txt");
 		DataUploadPackage stateFileOne = getFileContents("war/WEB-INF/data/content/state-file-1.txt");
 		DataUploadPackage stateFileTwo = getFileContents("war/WEB-INF/data/content/state-file-2.txt");
 		DataUploadPackage stateFileThree = getFileContents("war/WEB-INF/data/content/state-file-3.txt");
@@ -180,6 +181,7 @@ public class DataUploadPackage {
 		DataUploadPackage stateFileSix = getFileContents("war/WEB-INF/data/content/state-file-6.txt");
 		DataUploadPackage stateFileSeven = getFileContents("war/WEB-INF/data/content/state-file-7.txt");
 		
+		stateFileOne.addAll(stateFileZero);
 		stateFileOne.addAll(stateFileTwo);
 		stateFileOne.addAll(stateFileThree);
 		stateFileOne.addAll(stateFileFour);
