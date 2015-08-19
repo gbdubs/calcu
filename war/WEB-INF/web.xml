@@ -510,6 +510,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>TopicServlet</servlet-name>
 		<url-pattern>/topic/*</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>TopicEditorServlet</servlet-name>
+		<servlet-class>calculus.general.TopicEditorServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TopicEditorServlet</servlet-name>
+		<url-pattern>/topic-editor/*</url-pattern>
+	</servlet-mapping>
 
 	<servlet>
 	    <servlet-name>ContentApprovalServlet</servlet-name>

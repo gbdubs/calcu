@@ -19,10 +19,13 @@ import calculus.utilities.UuidTools;
 
 import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
 
 @SuppressWarnings("serial")
 public class ViewContentServlet extends HttpServlet {
+	
+	private static UserService userService = UserServiceFactory.getUserService();
 
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		
@@ -40,7 +43,7 @@ public class ViewContentServlet extends HttpServlet {
 		String contentType;
 		try {
 			contentType = ContentAPI.getContentType(uuid);
-			User user = UserServiceFactory.getUserService().getCurrentUser();
+			User user = userService.getCurrentUser();
 			if (user != null){
 				InterestsAPI.userViewedContent(user.getUserId(), uuid);
 			}
@@ -52,8 +55,8 @@ public class ViewContentServlet extends HttpServlet {
 			return;
 		}
 		
-		if (UserServiceFactory.getUserService().isUserLoggedIn()){
-			if (UserServiceFactory.getUserService().isUserAdmin()){
+		if (userService.isUserLoggedIn()){
+			if (userService.isUserAdmin()){
 				req.setAttribute("isUserAdmin", true);
 			}
 		}
@@ -76,9 +79,9 @@ public class ViewContentServlet extends HttpServlet {
 			if (pp.getSubmitted() && pp.getViewable()){
 				req.setAttribute("practiceProblem", pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
-			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+			} else if (!userService.isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
+			} else if (userService.isUserAdmin()) {
 				req.setAttribute("practiceProblem", pp);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/practice-problem.jsp");
 			} else {	
@@ -103,9 +106,9 @@ public class ViewContentServlet extends HttpServlet {
 			if (q.getSubmitted() && q.getViewable()){
 				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
-			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+			} else if (!userService.isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
+			} else if (userService.isUserAdmin()) {
 				req.setAttribute("question", q);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/question.jsp");
 			} else {
@@ -130,9 +133,9 @@ public class ViewContentServlet extends HttpServlet {
 			if (tc.getSubmitted() && tc.getViewable()){
 				req.setAttribute("textContent", tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
-			} else if (!UserServiceFactory.getUserService().isUserLoggedIn()){
+			} else if (!userService.isUserLoggedIn()){
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/page-not-found.jsp");
-			} else if (UserServiceFactory.getUserService().isUserAdmin()) {
+			} else if (userService.isUserAdmin()) {
 				req.setAttribute("textContent", tc);
 				jsp = req.getRequestDispatcher("/WEB-INF/pages/content/text-content.jsp");
 			} else {

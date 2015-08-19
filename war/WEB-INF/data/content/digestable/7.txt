@@ -2,176 +2,6 @@
   "achievements": [],
   "practiceProblems": [
     {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4682.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4683.png\"/\u003e",
-      "uuid": "213c4a11-0abc-4c97-bce7-c0331caf9172",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute this definite integral",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4681.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, fundamental theorem, integration",
-      "url": "/practice-problem/213c4a11-0abc-4c97-bce7-c0331caf9172",
-      "source": "null 13.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4686.png\"/\u003e",
-      "uuid": "d8613819-54d7-432d-87b6-51ca268714ac",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Velocity of the ball tossed up",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4685.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, fundamental theorem, integration, definite integral",
-      "url": "/practice-problem/d8613819-54d7-432d-87b6-51ca268714ac",
-      "source": "null 13.1.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4695.png\"/\u003e",
-      "uuid": "bf6971ce-8b54-49b1-8a8e-3c1ba627a8ba",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the integral by substitution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4694.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration by substitution, integration ",
-      "url": "/practice-problem/bf6971ce-8b54-49b1-8a8e-3c1ba627a8ba",
-      "source": "null 14.1.4"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4697.png\"/\u003e",
-      "uuid": "e4116b32-6c98-4fa3-967d-8264d5150b97",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the integral with substitution",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4696.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration by substitution, integration ",
-      "url": "/practice-problem/e4116b32-6c98-4fa3-967d-8264d5150b97",
-      "source": "null 14.1.5"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4699.png\"/\u003e",
-      "uuid": "dd33d521-9d02-4519-9d50-5fd3d1a6f7cb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute the integral quotient rule",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4698.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration by substitution, integration",
-      "url": "/practice-problem/dd33d521-9d02-4519-9d50-5fd3d1a6f7cb",
-      "source": "null 14.1.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4701.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4702.png\"/\u003e",
-      "uuid": "13c14789-90dc-4f12-a77a-a605633053bb",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Compute integral by substitution, man",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4700.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration by substitution, integration ",
-      "url": "/practice-problem/13c14789-90dc-4f12-a77a-a605633053bb",
-      "source": "null 14.1.7"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4715.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4716.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4717.png\"/\u003e",
-      "uuid": "b7b0c865-ffba-41c0-9125-a6599feff55a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Volume of a right circular cone",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/4/4714.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "integral, integration, integration by parts ",
-      "url": "/practice-problem/b7b0c865-ffba-41c0-9125-a6599feff55a",
-      "source": "null 15.1.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5/4810.png\"/\u003e",
-      "uuid": "5633e3c7-8848-4418-8283-c7a69affabb6",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Distance Argument",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/5/4809.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "arithmetic, real numbers, number line, proof, logic, mathematical logic ",
-      "url": "/practice-problem/5633e3c7-8848-4418-8283-c7a69affabb6",
-      "source": "null 2.2.3"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4869.png\"/\u003e",
-      "uuid": "98bd347a-5b6b-465a-8218-992521e2540a",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Graph this dope function",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4868.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "functions, real numbers, algebra, logic, mathematical logic ",
-      "url": "/practice-problem/98bd347a-5b6b-465a-8218-992521e2540a",
-      "source": "null 2.7.6"
-    },
-    {
-      "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4904.png\"/\u003e",
-      "uuid": "ae2f66e1-103c-4c1b-985b-f18afa67efc7",
-      "contentType": "practiceProblem",
-      "creatorUserId": "",
-      "createdAt": 1437611655794,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Find continuity",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4903.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "continuity, continuous functions, limits ",
-      "url": "/practice-problem/ae2f66e1-103c-4c1b-985b-f18afa67efc7",
-      "source": "null 3.2.5"
-    },
-    {
       "authorSolution": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/0/4906.png\"/\u003e",
       "uuid": "54f94605-d0fd-484e-8815-3501f186a373",
       "contentType": "practiceProblem",
@@ -344,635 +174,6 @@
   ],
   "questions": [
     {
-      "uuid": "be99f88d-00f2-4ba1-83e2-a68173ccec24",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as a Logarithmic Equation",
-      "body": "\\( 10^{-3} \u003d .001 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/be99f88d-00f2-4ba1-83e2-a68173ccec24",
-      "source": "Active Calc 4.1.6",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "6de8b290-3470-4be2-b81e-156a64bb3ec9",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as a Logarithmic Equation",
-      "body": "\\( e^{0} \u003d 1 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/6de8b290-3470-4be2-b81e-156a64bb3ec9",
-      "source": "Active Calc 4.1.7",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "c4f9e35d-ea16-4f15-9ce6-7010d585a7ba",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\log_5 25 \u003d 2 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/c4f9e35d-ea16-4f15-9ce6-7010d585a7ba",
-      "source": "Active Calc 4.1.8",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "5179e614-ce48-4b5d-84a1-aeada90b38d6",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\log_25 5 \u003d 1/2 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/5179e614-ce48-4b5d-84a1-aeada90b38d6",
-      "source": "Active Calc 4.1.9",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "d2650b2d-8d6b-4ebc-ae56-183519211d39",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\log_3 181 \u003d 3 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/d2650b2d-8d6b-4ebc-ae56-183519211d39",
-      "source": "Active Calc 4.1.10",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "baee61f9-b45c-49c0-8a6e-001e1d75f575",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\log_(4/3) (3/4) \u003d -1 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/baee61f9-b45c-49c0-8a6e-001e1d75f575",
-      "source": "Active Calc 4.1.11",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "b21412ce-8197-4a7c-95cd-610d8a380fe1",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\log 100 \u003d 2 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/b21412ce-8197-4a7c-95cd-610d8a380fe1",
-      "source": "Active Calc 4.1.12",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "d4f8bfa9-9b0a-4c7a-ab19-1a2481c7380f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\log .1 \u003d -1 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/d4f8bfa9-9b0a-4c7a-ab19-1a2481c7380f",
-      "source": "Active Calc 4.1.13",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "c454aa5f-d127-4be2-b23f-ed39761b402a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\ln e \u003d 1 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/c454aa5f-d127-4be2-b23f-ed39761b402a",
-      "source": "Active Calc 4.1.14",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "bb6ba1a3-27cb-47c6-b082-633cc4510c0b",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Write as an Exponential Function",
-      "body": "\\( \\ln (\\frac{1}{\\sqrt{e}) \u003d -1/2 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/bb6ba1a3-27cb-47c6-b082-633cc4510c0b",
-      "source": "Active Calc 4.1.15",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "5e4df719-49ac-4290-b60d-93f315e8d08c",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_3 27 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/5e4df719-49ac-4290-b60d-93f315e8d08c",
-      "source": "Active Calc 4.1.16",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "7228fe59-98a8-419b-bc3b-9a01087458f7",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_6 216 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/7228fe59-98a8-419b-bc3b-9a01087458f7",
-      "source": "Active Calc 4.1.17",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "9d7e4023-fa87-4454-bc6a-d4be0d2652aa",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_2 32 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/9d7e4023-fa87-4454-bc6a-d4be0d2652aa",
-      "source": "Active Calc 4.1.18",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "ddec387d-56d8-4ee3-ac87-138f5c3a5328",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_6 (1/36) \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/ddec387d-56d8-4ee3-ac87-138f5c3a5328",
-      "source": "Active Calc 4.1.19",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "ec0644b6-e406-4c24-ae4e-b5e9c6ed4514",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_8 4 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/ec0644b6-e406-4c24-ae4e-b5e9c6ed4514",
-      "source": "Active Calc 4.1.20",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "deea4374-0ea2-4d78-94f9-57c5e07d3540",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_36 216 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/deea4374-0ea2-4d78-94f9-57c5e07d3540",
-      "source": "Active Calc 4.1.21",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "e9eaa073-a77a-4540-a322-8c98993b18e5",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_(1/5) 625 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/e9eaa073-a77a-4540-a322-8c98993b18e5",
-      "source": "Active Calc 4.1.22",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "736320da-d527-4c48-a9fd-45d9947234df",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946156,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_36 36 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/736320da-d527-4c48-a9fd-45d9947234df",
-      "source": "Active Calc 4.1.23",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "a530d4ac-ce76-4376-9daa-af0d14c29d3e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_36 36 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/a530d4ac-ce76-4376-9daa-af0d14c29d3e",
-      "source": "Active Calc 4.1.24",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "c08be46d-3c34-43e8-b502-a35cfe309e20",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log \\frac{1}{1000000} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/c08be46d-3c34-43e8-b502-a35cfe309e20",
-      "source": "Active Calc 4.1.25",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "4b00dcce-d354-4575-8ca6-f1c85a40a3ec",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log .01 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/4b00dcce-d354-4575-8ca6-f1c85a40a3ec",
-      "source": "Active Calc 4.1.26",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "c0dee3f3-ef31-46fd-8324-fb94489b77f4",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\ln e^{3} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/c0dee3f3-ef31-46fd-8324-fb94489b77f4",
-      "source": "Active Calc 4.1.27",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "7f753405-c68a-4c1c-b310-2d89f75d6572",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_4 8 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/7f753405-c68a-4c1c-b310-2d89f75d6572",
-      "source": "Active Calc 4.1.28",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "23c502f0-c290-4741-8a8f-ac18c044604a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_6 1 \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/23c502f0-c290-4741-8a8f-ac18c044604a",
-      "source": "Active Calc 4.1.29",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "97e90123-5aff-4327-b6c8-4ed02f4ca5f6",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_13 \\sqrt{13} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/97e90123-5aff-4327-b6c8-4ed02f4ca5f6",
-      "source": "Active Calc 4.1.30",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "e745de6f-5e77-4bc5-8acc-235386780eab",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_36 \\sqrt[4]{36} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/e745de6f-5e77-4bc5-8acc-235386780eab",
-      "source": "Active Calc 4.1.31",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "2f1a0e07-07b8-4e2e-b4ff-f58e73ee33c5",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( 7^{\\log_7 3 } \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/2f1a0e07-07b8-4e2e-b4ff-f58e73ee33c5",
-      "source": "Active Calc 4.1.32",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "6eb97ce7-adaa-4e27-82a3-8a5d5cfe0c99",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( 36^{log_36 216} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/6eb97ce7-adaa-4e27-82a3-8a5d5cfe0c99",
-      "source": "Active Calc 4.1.33",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "418051a4-3748-4f41-a0da-a98abaf1637f",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_36 36^{216} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/418051a4-3748-4f41-a0da-a98abaf1637f",
-      "source": "Active Calc 4.1.34",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "246bce05-ec25-4003-b5d3-b9a7afed796e",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\ln e^{5} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/246bce05-ec25-4003-b5d3-b9a7afed796e",
-      "source": "Active Calc 4.1.35",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "d7e7d39d-cc01-4eb6-ac9f-6dc1213ababa",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log \\sqrt[9]{10^{11} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/d7e7d39d-cc01-4eb6-ac9f-6dc1213ababa",
-      "source": "Active Calc 4.1.36",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "7ab49d22-3e9a-4124-8b74-a2c4a2e7422d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log \\sqrt[3]{10^{5}} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/7ab49d22-3e9a-4124-8b74-a2c4a2e7422d",
-      "source": "Active Calc 4.1.37",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "aa9a269b-0462-4768-8617-a28b0ca78c54",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\ln 1/\\sqrt{e} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/aa9a269b-0462-4768-8617-a28b0ca78c54",
-      "source": "Active Calc 4.1.38",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "439332ea-32c3-4033-8909-671dd69adb1d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_5 3^{log_3 5} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/439332ea-32c3-4033-8909-671dd69adb1d",
-      "source": "Active Calc 4.1.39",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "3e9bcc3e-3a63-4fe5-9cab-38e5973e8c2d",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log \\e ^{\\ln 100} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/3e9bcc3e-3a63-4fe5-9cab-38e5973e8c2d",
-      "source": "Active Calc 4.1.40",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "a98c592d-a55a-4fc6-a951-dc34d6631f29",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\log_2 (3 ^{-\\log_3 2}) \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/a98c592d-a55a-4fc6-a951-dc34d6631f29",
-      "source": "Active Calc 4.1.41",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
-      "uuid": "3323a7a3-7f00-4ffe-87cc-11dff4efb72a",
-      "contentType": "question",
-      "creatorUserId": "",
-      "createdAt": 1437575946157,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Evaluate the Expression",
-      "body": "\\( \\ln 42^{6\\log 1} \\)",
-      "allAnswers": [],
-      "tags": "natural, logarithms, exponential, equations, functions",
-      "url": "/question/3323a7a3-7f00-4ffe-87cc-11dff4efb72a",
-      "source": "Active Calc 4.1.42",
-      "topic": "Algebra/Functions/Logarithmic Functions"
-    },
-    {
       "uuid": "98c03b75-bc86-42ea-be10-a3d66f74051d",
       "contentType": "question",
       "creatorUserId": "",
@@ -987,7 +188,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/98c03b75-bc86-42ea-be10-a3d66f74051d",
       "source": "Active Calc 4.1.43",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "90120631-b5cf-412d-a9a9-70dc5d9f01dd",
@@ -1004,7 +205,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/90120631-b5cf-412d-a9a9-70dc5d9f01dd",
       "source": "Active Calc 4.1.44",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "3a7311c3-f5d7-4252-9a5b-f5e43515fe88",
@@ -1021,7 +222,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/3a7311c3-f5d7-4252-9a5b-f5e43515fe88",
       "source": "Active Calc 4.1.45",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "ad0c6a52-4171-4cee-91fd-947480940f7b",
@@ -1038,7 +239,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/ad0c6a52-4171-4cee-91fd-947480940f7b",
       "source": "Active Calc 4.1.46",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "b7c57c00-c53c-4962-9cef-1bd8d89f18a7",
@@ -1055,7 +256,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/b7c57c00-c53c-4962-9cef-1bd8d89f18a7",
       "source": "Active Calc 4.1.47",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "f1fe96e9-ba42-425b-a5cd-6310cec72cd9",
@@ -1072,7 +273,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/f1fe96e9-ba42-425b-a5cd-6310cec72cd9",
       "source": "Active Calc 4.1.48",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "b7017074-9e8c-4a8b-b7e1-639d0cd4cfbb",
@@ -1089,7 +290,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/b7017074-9e8c-4a8b-b7e1-639d0cd4cfbb",
       "source": "Active Calc 4.1.49",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "a85d46c0-58e7-44d1-bbd7-7e1efd37250a",
@@ -1106,7 +307,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/a85d46c0-58e7-44d1-bbd7-7e1efd37250a",
       "source": "Active Calc 4.1.50",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "3685870f-8985-40d5-a00a-9a4e21608176",
@@ -1123,7 +324,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/3685870f-8985-40d5-a00a-9a4e21608176",
       "source": "Active Calc 4.1.51",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "665760cf-7499-473a-9103-3aaf95781d1c",
@@ -1140,7 +341,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/665760cf-7499-473a-9103-3aaf95781d1c",
       "source": "Active Calc 4.1.52",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "5129b3d6-a2fc-42ce-b4a6-b14272d5686b",
@@ -1157,7 +358,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/5129b3d6-a2fc-42ce-b4a6-b14272d5686b",
       "source": "Active Calc 4.1.53",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "7ea0fd06-91ae-4186-a33c-382e7bbccbc2",
@@ -1174,7 +375,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/7ea0fd06-91ae-4186-a33c-382e7bbccbc2",
       "source": "Active Calc 4.1.54",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "1744729a-3719-4545-acec-fb0799e4f39d",
@@ -1191,7 +392,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/1744729a-3719-4545-acec-fb0799e4f39d",
       "source": "Active Calc 4.1.55",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "f4358477-fa85-410e-b89c-a0e408c80b64",
@@ -1208,7 +409,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/f4358477-fa85-410e-b89c-a0e408c80b64",
       "source": "Active Calc 4.1.56",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "5edd3061-835c-4150-8476-03f63d6ac921",
@@ -1225,7 +426,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/5edd3061-835c-4150-8476-03f63d6ac921",
       "source": "Active Calc 4.1.57",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "dcbb5121-3181-46b8-90aa-f1017d0e2d7e",
@@ -1242,7 +443,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain",
       "url": "/question/dcbb5121-3181-46b8-90aa-f1017d0e2d7e",
       "source": "Active Calc 4.1.58",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "94d41b25-f96c-4384-a477-256367c03217",
@@ -1259,7 +460,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/94d41b25-f96c-4384-a477-256367c03217",
       "source": "Active Calc 4.1.59",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "ad63c9ca-f4ae-4679-8127-0a3122b50708",
@@ -1276,7 +477,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/ad63c9ca-f4ae-4679-8127-0a3122b50708",
       "source": "Active Calc 4.1.60",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "6a4c88b3-a2c8-4ad3-a4a4-b1c3e2b1b8b2",
@@ -1293,7 +494,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/6a4c88b3-a2c8-4ad3-a4a4-b1c3e2b1b8b2",
       "source": "Active Calc 4.1.61",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "08c2f9e8-c835-47b1-9b93-3a53b024130d",
@@ -1310,7 +511,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/08c2f9e8-c835-47b1-9b93-3a53b024130d",
       "source": "Active Calc 4.1.62",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "2d75ce6e-4ff4-4a73-93d1-c9d101a55b0c",
@@ -1327,7 +528,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/2d75ce6e-4ff4-4a73-93d1-c9d101a55b0c",
       "source": "Active Calc 4.1.63",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "94a10ad4-6ed1-45cb-a8df-167cd30e5c1f",
@@ -1344,7 +545,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/94a10ad4-6ed1-45cb-a8df-167cd30e5c1f",
       "source": "Active Calc 4.1.64",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "c3b703d0-d347-4f56-8592-d79bb52dcc29",
@@ -1361,7 +562,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/c3b703d0-d347-4f56-8592-d79bb52dcc29",
       "source": "Active Calc 4.1.65",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "1a486668-3969-4e92-8816-61aaba9637f7",
@@ -1378,7 +579,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/1a486668-3969-4e92-8816-61aaba9637f7",
       "source": "Active Calc 4.1.66",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "d7445965-fc74-4f7b-baee-0c1f2262b0ca",
@@ -1395,7 +596,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/d7445965-fc74-4f7b-baee-0c1f2262b0ca",
       "source": "Active Calc 4.1.67",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "caac9145-d0b7-4241-a9c9-9ddef1de5027",
@@ -1412,7 +613,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/caac9145-d0b7-4241-a9c9-9ddef1de5027",
       "source": "Active Calc 4.1.68",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "1f40cc92-d6a9-4ecc-ad55-ba3f816712de",
@@ -1429,7 +630,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, domain, graph, transformations, asymptotes, range",
       "url": "/question/1f40cc92-d6a9-4ecc-ad55-ba3f816712de",
       "source": "Active Calc 4.1.69",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "5ff50372-da71-4f32-bfa1-3944d42272ca",
@@ -1446,7 +647,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, graph, inverse, procedural perspective",
       "url": "/question/5ff50372-da71-4f32-bfa1-3944d42272ca",
       "source": "Active Calc 4.1.70",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "777ecd46-8b9b-4636-a624-94ddc2865dac",
@@ -1463,7 +664,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, graph, inverse, procedural perspective",
       "url": "/question/777ecd46-8b9b-4636-a624-94ddc2865dac",
       "source": "Active Calc 4.1.71",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "3cfefa57-5e7f-4c73-af7f-f97ab62334ba",
@@ -1480,7 +681,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, graph, inverse, procedural perspective",
       "url": "/question/3cfefa57-5e7f-4c73-af7f-f97ab62334ba",
       "source": "Active Calc 4.1.72",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "2f1aea31-d7f6-412b-a1ab-fce11b0b25b2",
@@ -1497,7 +698,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, graph, inverse, procedural perspective",
       "url": "/question/2f1aea31-d7f6-412b-a1ab-fce11b0b25b2",
       "source": "Active Calc 4.1.73",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "254d7387-9f77-4919-9b8b-db4c03b2fc66",
@@ -1514,7 +715,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, inverse, word problem",
       "url": "/question/254d7387-9f77-4919-9b8b-db4c03b2fc66",
       "source": "Active Calc 4.1.74",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "12b0143a-8ee6-48b5-8174-079a78bbdaa1",
@@ -1531,7 +732,7 @@
       "tags": "natural, logarithms, exponential, equations, functions",
       "url": "/question/12b0143a-8ee6-48b5-8174-079a78bbdaa1",
       "source": "Active Calc 4.1.75",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "d12339d1-78a7-4865-801e-948fb8bff1d5",
@@ -1548,7 +749,7 @@
       "tags": "natural, logarithms, exponential, equations, functions",
       "url": "/question/d12339d1-78a7-4865-801e-948fb8bff1d5",
       "source": "Active Calc 4.1.76",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "15976c8b-41d7-47d8-8650-07341705c3f5",
@@ -1565,7 +766,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expansion",
       "url": "/question/15976c8b-41d7-47d8-8650-07341705c3f5",
       "source": "Active Calc 6.2.1",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "5d93728d-9117-49b7-bee5-b385379f0a0f",
@@ -1582,7 +783,7 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/5d93728d-9117-49b7-bee5-b385379f0a0f",
       "source": "Active Calc 6.2.2",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     },
     {
       "uuid": "9bb58529-6f08-478d-8565-2dbcc00de624",
@@ -1599,61 +800,10 @@
       "tags": "natural, logarithms, exponential, equations, functions, expand",
       "url": "/question/9bb58529-6f08-478d-8565-2dbcc00de624",
       "source": "Active Calc 6.2.3",
-      "topic": "Algebra/Functions/Logarithmic Functions"
+      "topic": "a20b8fbd-a3e4-4d8a-bc65-13e91bddc593"
     }
   ],
   "textContent": [
-    {
-      "uuid": "1f4af50f-8114-41a8-be35-47fb154b06dc",
-      "contentType": "textContent",
-      "creatorUserId": "",
-      "createdAt": 1437611523225,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Basic Trigonometric Identities",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/515.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/516.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/517.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "trig identities, trig, cos, tan, sin, cot, sec, csc",
-      "url": "/text-content/1f4af50f-8114-41a8-be35-47fb154b06dc",
-      "source": "Trigonometry by Michael Corral 3.1",
-      "topic": "Trigonometry/Fundamental Identities"
-    },
-    {
-      "uuid": "b9a05398-26c9-4bff-873b-0ee70ab1b8ba",
-      "contentType": "textContent",
-      "creatorUserId": "",
-      "createdAt": 1437611523225,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Sum and Difference Formulas",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/528.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/529.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/530.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/531.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "sum formula, difference formula, sum and difference trig formula, trig ",
-      "url": "/text-content/b9a05398-26c9-4bff-873b-0ee70ab1b8ba",
-      "source": "Trigonometry by Michael Corral 3.2",
-      "topic": "Trigonometry/Fundamental Identities/Sum and Difference Formulas"
-    },
-    {
-      "uuid": "529aeb66-66b7-4c22-87ae-0d31db3d0755",
-      "contentType": "textContent",
-      "creatorUserId": "",
-      "createdAt": 1437611523225,
-      "anonymous": true,
-      "submitted": true,
-      "viewable": true,
-      "karma": 3,
-      "title": "Double-Angle and Half-Angle Formulas",
-      "body": "\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/539.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/540.png\"/\u003e\n\n\u003cimg src\u003d\"http://www.calcu.education/_static/img/content/2/541.png\"/\u003e",
-      "allAnswers": [],
-      "tags": "double-angle formula, half-angle formula, angle formula, trig ",
-      "url": "/text-content/529aeb66-66b7-4c22-87ae-0d31db3d0755",
-      "source": "Trigonometry by Michael Corral 3.3",
-      "topic": "Trigonometry/Fundamental Identities/Double and Half Angle Formulas"
-    },
     {
       "uuid": "d691beba-69f2-4a7f-ae21-a73d25c51896",
       "contentType": "textContent",
@@ -1669,7 +819,7 @@
       "tags": "trig identities, identities ",
       "url": "/text-content/d691beba-69f2-4a7f-ae21-a73d25c51896",
       "source": "Trigonometry by Michael Corral 3.4",
-      "topic": "Trigonometry/Fundamental Identities"
+      "topic": "8177d58d-e84b-4f1b-9995-0b93ae67ca98"
     },
     {
       "uuid": "b8037841-26b0-43f4-9aa5-6ccfd4654698",
@@ -1686,9 +836,55 @@
       "tags": "radians, degrees, trig ",
       "url": "/text-content/b8037841-26b0-43f4-9aa5-6ccfd4654698",
       "source": "Trigonometry by Michael Corral 4.1",
-      "topic": "Trigonometry/Measure of an Angle/Radians and Degrees"
+      "topic": "d10df6b6-fa9d-40ac-ab67-143b265f2d93"
     }
   ],
   "answers": [],
-  "topics": []
+  "topics": [
+    {
+      "uuid": "d1c35f7e-7fba-45c2-9126-27088e9e946c",
+      "subTopics": [
+        "bc9b07a3-3534-448a-8974-5bc4ca11a29f"
+      ],
+      "parentTopics": [
+        "ceb24ccc-cb8b-448e-b91d-e22b8c04eaa9"
+      ],
+      "title": "Integrals",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": "",
+      "difficulty": -1,
+      "contentUuids": []
+    },
+    {
+      "uuid": "4761e489-aa1b-432a-b2e6-b683af734d39",
+      "subTopics": [],
+      "parentTopics": [
+        "bfde22ee-58f8-48f7-89ef-8e7a0c15d464"
+      ],
+      "title": "Interpreting Derivatives",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " derivatives, limits , product rule, power,velocity, acceleration, quotient rule,",
+      "difficulty": 434000,
+      "contentUuids": [
+        "8ec592d1-d036-4839-b374-93d6d4643f72"
+      ]
+    },
+    {
+      "uuid": "1176a467-9bc5-42f0-b7fe-ee52e05125f9",
+      "subTopics": [],
+      "parentTopics": [
+        "d7881072-7e4d-4352-9b31-a296358563d9"
+      ],
+      "title": "Polar Coordinates",
+      "shortDescription": "",
+      "longDescription": "",
+      "tags": " unit circle ,polar coordinates, cartesian coordinates,",
+      "difficulty": 647000,
+      "contentUuids": [
+        "8a4f3b5f-ee5f-4f25-8e6c-a2609cd8c4c2"
+      ]
+    }
+  ]
 }

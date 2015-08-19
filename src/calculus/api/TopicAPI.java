@@ -1,6 +1,8 @@
 package calculus.api;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -21,19 +23,34 @@ import com.google.appengine.api.datastore.EntityNotFoundException;
 import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.datastore.PreparedQuery;
 import com.google.appengine.api.datastore.Query;
+import com.google.appengine.api.datastore.Query.CompositeFilterOperator;
+import com.google.appengine.api.datastore.Query.Filter;
+import com.google.appengine.api.datastore.Query.FilterOperator;
+import com.google.appengine.api.datastore.Query.FilterPredicate;
 import com.google.appengine.api.datastore.Text;
+
 
 public class TopicAPI {
 
+	private static final int topicSelectorUpdateInterval = 24 * 60 * 60 * 1000;
+	public static final int MAX_TOPIC_DIFFICULTY = 750000;
+	
 	private static AsyncDatastoreService asyncDatastore = DatastoreServiceFactory.getAsyncDatastoreService();
 	private static DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
 	private static Map<String, String> topicMapping = new HashMap<String, String>();
 	
 	public static Topic getTopicWithAproximateDifficulty(int difficulty){
+		difficulty = Math.max(difficulty, 500);
+		difficulty = Math.min(difficulty, MAX_TOPIC_DIFFICULTY - 500);
 		
-		// TODO
-		
-		
+		Filter lowerBound = new FilterPredicate("difficulty", FilterOperator.GREATER_THAN, difficulty - 501);
+		Filter upperBound = new FilterPredicate("difficulty", FilterOperator.GREATER_THAN, difficulty + 501);
+		Filter compositeFilter = CompositeFilterOperator.and(lowerBound, upperBound);
+		Query q = new Query("Topic").setFilter(compositeFilter);
+		PreparedQuery pq = datastore.prepare(q);
+		for (Entity e : pq.asIterable()){
+			return new Topic(e);
+		}
 		return null;
 	}
 	
@@ -172,11 +189,11 @@ public class TopicAPI {
 	private static Entity getAllTopicsEntity(){
 		try {
 			Entity e = datastore.get(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
-			if (System.currentTimeMillis() - (Long) e.getProperty("updatedAt") < 24 * 60 * 60 * 1000){
+			if (System.currentTimeMillis() - (Long) e.getProperty("updatedAt") < topicSelectorUpdateInterval){
 				return e;
 			}
 		} catch (EntityNotFoundException enfe) {
-			
+			orderAllSubTopics();
 		}
 		Entity e = new Entity(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
 		e.setUnindexedProperty("updatedAt", System.currentTimeMillis());
@@ -202,6 +219,58 @@ public class TopicAPI {
 		return e;
 	}
 	
+	private static void orderAllSubTopics(){
+		List<Topic> allTopics = bruteForceGetTopics();
+		Map<String, Topic> lookup = new HashMap<String, Topic>();
+		for (Topic t : allTopics){
+			lookup.put(t.getUuid(), t);
+		}
+		for (Topic t : allTopics){
+			List<String> subTopics = t.getSubTopics();
+			if (!subTopics.isEmpty()){
+				List<Topic> subs = new ArrayList<Topic>();
+				for (String s : subTopics){
+					subs.add(lookup.get(s));
+				}
+				subTopics.clear();
+				Collections.sort(subs, new StrangeComparator());
+				for (Topic sub : subs){
+					subTopics.add(sub.getUuid());
+				}
+				t.setSubTopics(subTopics);
+				t.save();
+			}
+		}
+	}
+	
+	private static class StrangeComparator implements Comparator<Topic>{
+
+		@Override
+		public int compare(Topic t1, Topic t2) {
+			int d1 = t1.getDifficulty();
+			int d2 = t2.getDifficulty();
+			if (d1 < 0 && d2 < 0){
+				return 0;
+			} else if (d1 < 0){
+				return 1;
+			} else if (d2 < 0){
+				return -1;
+			} else {
+				return Integer.compare(d1, d2);
+			}
+		}
+		
+	}
+	
+	private static void setTopicTrackerToUpdateNextTime(){
+		try {
+			Entity e = datastore.get(KeyFactory.createKey("TopicTracker", "OneAndOnly"));
+			e.setUnindexedProperty("updatedAt", System.currentTimeMillis() - topicSelectorUpdateInterval);
+		} catch (EntityNotFoundException e) {
+			return;
+		}
+	}
+	
 	private static List<Topic> bruteForceGetTopics(){
 		List<Topic> topics = new ArrayList<Topic>();
 		Query q = new Query("Topic");
@@ -222,7 +291,7 @@ public class TopicAPI {
 	private static List<Topic> bruteForceGetRootTopics(){
 		DatastoreService ds = DatastoreServiceFactory.getDatastoreService();
 		List<Topic> topics = new ArrayList<Topic>();
-		Query q = new Query("Topic");
+		Query q = new Query("Topic").addSort("difficulty");
 		PreparedQuery pq = ds.prepare(q);
 		for (Entity e : pq.asIterable()){
 			Topic t = new Topic(e);
@@ -290,5 +359,47 @@ public class TopicAPI {
 		}
 		return topics;
 	}
+	
+	
+	public static boolean mergeTopicIntoTopic(String tUuid1, String tUuid2){
+		Topic t1;
+		try {
+			t1 = new Topic(tUuid1);
+			Topic t2 = new Topic(tUuid2);
+			return mergeTopicIntoTopic(t1, t2);	
+		} catch (EntityNotFoundException e) {
+			return false;
+		}
+	}
+
+	
+	public static boolean mergeTopicIntoTopic(Topic t1, Topic t2){
+		for (String contentUuid : t1.getContentUuids()){
+			t2.addContentUuid(contentUuid);
+			try {
+				Content c = ContentAPI.instantiateContent(contentUuid);
+				c.setTopicUuid(t2.getUuid());
+				c.saveAsync();
+			} catch (EntityNotFoundException e) {
+				return false;
+			}
+		}
+		for (String subTopicUuid : t1.getSubTopics()){
+			t2.addSubTopic(subTopicUuid);
+			try {
+				Topic transferredChild = new Topic(subTopicUuid);
+				transferredChild.removeParentTopic(t1.getUuid());
+				transferredChild.addParentTopic(t2.getUuid());
+				transferredChild.saveAsync();
+			} catch (EntityNotFoundException e) {
+				return false;
+			}
+		}
+		t2.save();
+		datastore.delete(KeyFactory.createKey("Topic", t1.getUuid()));
+		setTopicTrackerToUpdateNextTime();
+		return true;
+	}
+
 }
 

@@ -76,9 +76,9 @@ public class Topic {
 		e.setUnindexedProperty("parentTopics", parentTopics);
 		e.setUnindexedProperty("title", title);
 		e.setUnindexedProperty("shortDescription", shortDescription);
-		e.setUnindexedProperty("longDescription", new Text(this.longDescription));
+		e.setUnindexedProperty("longDescription", new Text(this.longDescription));		
 		e.setUnindexedProperty("tags", tags);
-		e.setUnindexedProperty("difficulty", new Long(difficulty));
+		e.setProperty("difficulty", new Long(difficulty));
 		e.setUnindexedProperty("contentUuids", contentUuids);
 		return e;
 	}
@@ -146,8 +146,8 @@ public class Topic {
 	
 	public String getUpperCaseTitle(){
 		String s = "";
-		if (title.length() == 0){
-			return s;
+		if (title == null || title.length() == 0){
+			return "";
 		}
 		for (String word : title.toLowerCase().split(" ")){
 			s += (" " + word.charAt(0)).toUpperCase() + word.substring(1);
@@ -245,6 +245,11 @@ public class Topic {
 			this.parentTopics.add(parentTopic);
 		}
 	}
+	public void removeParentTopic(String parentTopic) {
+		if (this.parentTopics.contains(parentTopic)){
+			this.parentTopics.remove(parentTopic);
+		}
+	}
 	
 	public void setShortDescription(String s){
 		this.shortDescription = s;
@@ -288,6 +293,10 @@ public class Topic {
 		EmbeddedEntity ee = new EmbeddedEntity();
 		ee.setPropertiesFrom(preSave());
 		return ee;
+	}
+
+	public void setSubTopics(List<String> subTopics) {
+		this.subTopics = subTopics;
 	}
 }
 	
