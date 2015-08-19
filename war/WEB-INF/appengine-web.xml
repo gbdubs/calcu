@@ -15,6 +15,7 @@
 
   <static-files>
   	<include path="/**.png"/>
+  	<include path="/_static/**"/>
   </static-files>
   <resource-files>
   	<exclude path="/**.png"/>

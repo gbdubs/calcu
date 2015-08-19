@@ -9,7 +9,7 @@
 	</queue>
 	<queue>
 		<name>uploadQueue</name>
-		<rate>10/m</rate>
+		<rate>10/s</rate>
 		<max-concurrent-requests>1</max-concurrent-requests> 
 	</queue>
 </queue-entries>
