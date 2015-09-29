@@ -24,7 +24,7 @@
 				</div>
 				<div class="centered margin-top-25">
 					<p>
-						You can donate by going to our <a href="">Kickstarter</a> or by <a href="http:/contact">contacting us</a>.
+						You can donate by going to our <a href="https://www.kickstarter.com/projects/674262863/calcu">Kickstarter</a> or by <a href="http:/contact">contacting us</a>.
 					</p>
 				</div>
 				<img style="width:200px;" src="_static/img/money-dog.jpg">
